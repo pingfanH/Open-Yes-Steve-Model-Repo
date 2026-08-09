@@ -1,0 +1,382 @@
+{
+  "id": "AL_Yamashiro_2.3.2.1",
+  "path": "parsed/AL_Yamashiro_2.3.2.1",
+  "source": {
+    "path": "_AzurLane/AL_Yamashiro_2.3.2.1.ysm",
+    "type": "ysm",
+    "stem": "AL_Yamashiro_2.3.2.1"
+  },
+  "ysm": "parsed/AL_Yamashiro_2.3.2.1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/星语.png",
+        "comment": "星空的言语",
+        "contact": {
+          "bilibili": "316739550"
+        },
+        "name": "星语",
+        "role": "动作"
+      },
+      {
+        "avatar": "avatar/雾雨波波沙.png",
+        "comment": "2021.10.20/十天十夜想不明白",
+        "contact": {
+          "bilibili": "36761228"
+        },
+        "name": "雾雨波波沙",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/秋枫落叶.png",
+        "comment": "ruaruarua算了",
+        "contact": {
+          "qq": "176023847"
+        },
+        "name": "秋枫落叶",
+        "role": "技术支持"
+      },
+      {
+        "avatar": "avatar/Cosine_line.png",
+        "comment": "Nanoda~",
+        "contact": {
+          "qq": "3454346519"
+        },
+        "name": "Cosine_line",
+        "role": "测试"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "主页": "https://b23.tv/wK8yfQh?",
+      "更新": "https://pan.baidu.com/s/1IXsjbjPplvwE_KXS7Eti-w?pwd=2133"
+    },
+    "name": "山城",
+    "tips": "殿下殿下，今天要做什么呀！"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "立绘pose",
+      "extra1": "坐在楼梯或床上",
+      "extra2": "坐在方块边",
+      "extra3": "正坐",
+      "extra4": "躺平",
+      "extra5": "#extra_config1",
+      "extra6": "#extra_config2",
+      "extra7": "#extra_config3"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config1",
+        "name": "着装",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "显示尾巴",
+            "description": "显示/隐藏 尾巴",
+            "value": "v.roaming.weiba1"
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏头饰",
+            "description": "显示/隐藏 头饰",
+            "value": "v.roaming.toushi1"
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏左丝袜",
+            "description": "显示/隐藏 左丝袜",
+            "value": "v.roaming.siwa1"
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏右丝袜",
+            "description": "显示/隐藏 右丝袜",
+            "value": "v.roaming.siwa3"
+          },
+          {
+            "type": "radio",
+            "title": "鞋子切换",
+            "description": "更改鞋子",
+            "value": "v.xiezi",
+            "labels": {
+              "绑腿靴": "v.xiezi = 0;",
+              "人字拖": "v.xiezi = 1;",
+              "光脚脚": "v.xiezi = 2;"
+            }
+          }
+        ]
+      },
+      {
+        "id": "extra_config2",
+        "name": "表情",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "表情切换",
+            "description": "更改表情",
+            "value": "v.biaoqing",
+            "labels": {
+              "^‿^": "v.biaoqing = 0;",
+              "=﹏=": "v.biaoqing = 1;",
+              "￣皿￣": "v.biaoqing = 2;",
+              "≧ ▽ ≦": "v.biaoqing = 3;",
+              "OωO": "v.biaoqing = 4;",
+              "ˇ ∀ ˇ": "v.biaoqing = 5;",
+              "︶へ︶": "v.biaoqing = 6;",
+              "0.0": "v.biaoqing = 7;"
+            }
+          }
+        ]
+      },
+      {
+        "id": "extra_config3",
+        "name": "配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "身高: ",
+            "description": "改变身高（碰撞箱不变）",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.5,
+            "max": 2.0
+          },
+          {
+            "type": "range",
+            "title": "舰船大小: ",
+            "description": "改变舰船大小（坐船时）",
+            "value": "v.zhanjian",
+            "step": 1.0,
+            "min": 3.0,
+            "max": 60.0
+          },
+          {
+            "type": "checkbox",
+            "title": "显示舰装",
+            "description": "显示/隐藏 舰装",
+            "value": "v.roaming.jianzhuang1"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "山城",
+    "preview_animation": "appear",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/山城.png"
+        },
+        {
+          "uv": "textures/山城·改.png"
+        },
+        {
+          "uv": "textures/泳装.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/AL_Yamashiro_2.3.2.1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 41984,
+      "sha256": "372596e50b7b83532bdced145ef13768a43a719e6e32dfa7db2c1edaf437c6f8"
+    }
+  },
+  "stats": {
+    "file_count": 28,
+    "total_bytes": 10374507,
+    "sha256": "ad5da8e39236d7482d1ed68a43bf8a5d4956fddfc16a0a3956ac1910cd1efe18",
+    "bones": 522,
+    "cubes": 5577,
+    "faces": 33462,
+    "textures": 3,
+    "materials": 3,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 108957,
+      "sha256": "53af0aff691d1b453624c9934fe3021eee81eec6490d74a711a08901acf53dec"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 3171,
+      "sha256": "eb16c18ec590a084edace1602ef07ed0336ca55dd705d5d83732f4f1c397e8a9"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3333,
+      "sha256": "0893ae5f726c2a30c250cfa88d066f05191057e69280d7ea053c389dc1dbacde"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 809627,
+      "sha256": "a10e735e0198d5bfa06c516ba11c585170595fb3fbac20f239f3d01705959cbf"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 258673,
+      "sha256": "ff54c323cce24db60f11a7981d227dbcb98d7107896cd3f0be6309c01a3e9279"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 147213,
+      "sha256": "a61cb4fcfb889243d880325b018019b8ed26da9458428ee739dfd952743524ab"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 42632,
+      "sha256": "73ebdb6bb9fb99357e324228acd460709b5c2c3f9aae9d1123e3cfef51e52013"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "6badb727a9b0a8819c2a258a68e353d37f5b127195a0cac321565237e4d24fd7"
+    },
+    {
+      "path": "avatar/Cosine_line.png",
+      "size": 872964,
+      "sha256": "481ce747b0d03f410402c753e01512f356db532f9c66ff3f48342a0dd4140b3f"
+    },
+    {
+      "path": "avatar/星语.png",
+      "size": 722683,
+      "sha256": "ee996074f348380c4cc985fd4829297db150f69738405aab358325edefed37e7"
+    },
+    {
+      "path": "avatar/秋枫落叶.png",
+      "size": 521190,
+      "sha256": "9f1e8f7524f547aa5bffa0d1e71fce3d7061e19005bfd94ca009a44c832ad9f4"
+    },
+    {
+      "path": "avatar/雾雨波波沙.png",
+      "size": 15424,
+      "sha256": "8cef33f6652f3492108b149edee061f7cc8cdcc531f8849539dd8664e02741cf"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 111916,
+      "sha256": "1a8c2b290ea39ec1501167ef6831b352472799c5cb047f74eec760db1dace718"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 95782,
+      "sha256": "1c46a190424c13770370ea5cd86ba74e51a97f4da216a7b9ca720267fe2d4344"
+    },
+    {
+      "path": "models/main.json",
+      "size": 2968626,
+      "sha256": "097013fc9a984559b8e8b2c22097e134a35e454a4bdb2324843f35d13f08043e"
+    },
+    {
+      "path": "sounds/中速0.5.ogg",
+      "size": 56182,
+      "sha256": "fe5f47dfa9c9ad5290a67f4b5064f9b8a3ae8a25a8591a04e594792663cd1ee6"
+    },
+    {
+      "path": "sounds/中速0.75.ogg",
+      "size": 77278,
+      "sha256": "6b1f3bcc42c15acdecfcc0751f70efce4a4c11d769d2a6bcadb5ef505b5aaf18"
+    },
+    {
+      "path": "sounds/快速0.5.ogg",
+      "size": 77121,
+      "sha256": "e05ab98ae1e733066533166eb0c890830831bf593d6e179201ec60fa37b81640"
+    },
+    {
+      "path": "sounds/快速0.75.ogg",
+      "size": 105064,
+      "sha256": "4ed23e6c7eebab6da2775a203a47c5de0e767dfbd03881e2d77c833200e2ef7d"
+    },
+    {
+      "path": "sounds/慢速0.75.ogg",
+      "size": 63341,
+      "sha256": "0db081328266adcfa8cf29b4321d6ce5438e059b42f1d11c14cf45caf0da8867"
+    },
+    {
+      "path": "sounds/慢速1.ogg",
+      "size": 83362,
+      "sha256": "64932f55c6fcd33b62e00b78798f81342aa605adf96b64ca086a49401ddcc675"
+    },
+    {
+      "path": "sounds/检视.ogg",
+      "size": 63571,
+      "sha256": "4d5ddd05a350671c7495655811110c5225c7bc9ccbb697a220aaee93e18d0493"
+    },
+    {
+      "path": "sounds/选中.ogg",
+      "size": 40249,
+      "sha256": "05f0878e771dc6218d13ec33dc8040f183316617b4fc0eed77147a6e7cd4bd65"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 801,
+      "sha256": "db2f69ca5a624ec0fcefa8fe821de1cc03eaa0ba982dd13dc1fed6056dba5aa5"
+    },
+    {
+      "path": "textures/山城.png",
+      "size": 1003259,
+      "sha256": "a94feb364bf7db31f6e79f1ee3dfb2f32e5850231b5d726afd1e2b52098c0e4f"
+    },
+    {
+      "path": "textures/山城·改.png",
+      "size": 986937,
+      "sha256": "dca7d7e0ce2d9f162f2465ef86381b22b5a86c44e44055a54efb6971dc951950"
+    },
+    {
+      "path": "textures/泳装.png",
+      "size": 947929,
+      "sha256": "0a47731956af38ea31b7a7764b92ea2c75583f4305e76163855c0ba370fc3f87"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3428,
+      "sha256": "fec4bc5e25d4fff07ff5d409569b0ffb79a9785a6ff06096e1fc9114e8fb47f6"
+    }
+  ]
+}

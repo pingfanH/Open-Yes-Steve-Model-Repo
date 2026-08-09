@@ -1,0 +1,275 @@
+{
+  "id": "Chinese-math-textbook_RuiRui",
+  "path": "parsed/Chinese-math-textbook_RuiRui",
+  "source": {
+    "path": "Uncategorized/Chinese-math-textbook_RuiRui.ysm",
+    "type": "ysm",
+    "stem": "Chinese-math-textbook_RuiRui"
+  },
+  "ysm": "parsed/Chinese-math-textbook_RuiRui/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/完全冻结.png",
+        "comment": "",
+        "contact": {
+          "Afdian": "https://afdian.com/a/AllFreeze",
+          "Bilibili": "https://space.bilibili.com/393110"
+        },
+        "name": "完全冻结",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "name": "锐锐",
+    "tips": "【云南美术出版社出版的《爱数学》丛书中的角色】\n适配YSM1.18.2-2.3.2"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "#舞蹈": "舞蹈",
+      "#动作": "动作",
+      "extra1": "#变更表情",
+      "extra2": "#变更服装",
+      "#Pose": "Pose"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "变更服装",
+        "name": "变更服装",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 5.0
+          },
+          {
+            "type": "checkbox",
+            "title": "穿戴袖子",
+            "description": " (用来显示穿戴袖子)",
+            "value": "v.shirt"
+          },
+          {
+            "type": "checkbox",
+            "title": "穿戴鞋子",
+            "description": " (用来显示穿戴鞋子)",
+            "value": "v.shoes"
+          },
+          {
+            "type": "radio",
+            "title": "选择下装",
+            "description": "选择裙子和裙子哦",
+            "value": "v.roaming.pants",
+            "labels": {
+              "正常": "v.roaming.pants=0;",
+              "裙子": "v.roaming.pants=1;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "选择袜子",
+            "description": "选择堆堆袜还是白丝",
+            "value": "v.roaming.socks",
+            "labels": {
+              "堆堆袜": "v.roaming.socks=0;",
+              "白丝": "v.roaming.socks=1;"
+            }
+          }
+        ]
+      },
+      {
+        "id": "变更表情",
+        "name": "变更表情",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "选择表情",
+            "description": "可选择表情哦",
+            "value": "v.roaming.exp",
+            "labels": {
+              "正常": "v.roaming.exp=0;",
+              "笑容": "v.roaming.exp=1;",
+              "笑容2": "v.roaming.exp=2;",
+              "哭哭": "v.roaming.exp=3;",
+              "惊讶": "v.roaming.exp=4;",
+              "黑脸": "v.roaming.exp=5;"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "舞蹈",
+        "extra_animation": {
+          "#return": "返回按钮",
+          "dance_s1": "pockdance",
+          "dance_s2": "鹿乃子虎视眈眈",
+          "dance_s3": "dance",
+          "dance_s4": "alice didida",
+          "dance_s5": "摇啊摇",
+          "dance_s6": "开车车",
+          "dance_s7": "致命公司摇",
+          "dance_l1": "萝莉摇",
+          "dance_l2": "星辉闪耀",
+          "dance_l3": "橙色正义",
+          "dance_l4": "跺脚曳步",
+          "dance_l5": "催眠术",
+          "dance_l6": "互联网过度依存",
+          "dance_l7": "快远离互联网",
+          "dance_l8": "谎言舞者",
+          "dance_e1": "速通",
+          "dance_e2": "摇汽水"
+        }
+      },
+      {
+        "id": "动作",
+        "extra_animation": {
+          "#return": "返回按钮",
+          "action1": "坐下",
+          "action2": "打招呼",
+          "action3": "鼓掌",
+          "action4": "点头",
+          "action5": "摇头",
+          "action6": "胜利",
+          "action7": "鬼脸",
+          "action8": "似了",
+          "action_helldiver1": "§6敬礼",
+          "action_helldiver2": "§6稍息",
+          "action_helldiver3": "§6恭迎民主"
+        }
+      },
+      {
+        "id": "Pose",
+        "extra_animation": {
+          "#return": "返回按钮",
+          "Pose_Yeah": "耶",
+          "Pose_Laugh": "嘲笑",
+          "Pose_Foot": "踩踩",
+          "Pose_Set": "鸭子坐"
+        }
+      }
+    ],
+    "default_texture": "texture",
+    "preview_animation": "gui",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Chinese-math-textbook_RuiRui_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7784,
+      "sha256": "3d1066511e4e648025771d77644e8029eba9b82ba825220d7d6b19276cc9d274"
+    }
+  },
+  "stats": {
+    "file_count": 11,
+    "total_bytes": 2943736,
+    "sha256": "b3a29ed7c5a214fa6f1f88d2591f691d0bce97a33fd58627bc7e623a9b5d345e",
+    "bones": 167,
+    "cubes": 588,
+    "faces": 3528,
+    "textures": 1,
+    "materials": 1,
+    "animations": 6,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 1772863,
+      "sha256": "f1ad23bc62f76997c3e058ab235c8c1e00e901ac0f7e6a5a00261072018faf2e"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 243807,
+      "sha256": "ab4db64cf57d14aefd7ef0a4baf0f63fe879aedaa6c879b83a90f26f3ddcd909"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 140855,
+      "sha256": "90c67c352b62ba1dd1dc9559d8ce9090230db143da4798cb39166a5d4d1a91d3"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "avatar/完全冻结.png",
+      "size": 32893,
+      "sha256": "3c42b579aa883533c7cdf7aba02e64c2e90fac88342b4b87c93f9de25d964eee"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 17735,
+      "sha256": "cc112332fed46b160b46dc480f952595e3a0f0b5b835fed939b0227d15502c12"
+    },
+    {
+      "path": "models/main.json",
+      "size": 313335,
+      "sha256": "2b1e21f31f38598f895020401ef852115a60971dcde339f35916f401e808870b"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 18518,
+      "sha256": "5f0e8b531e3fdffa7086258ae279cf9e734e3399bd8a65cdcce27599b02e9c4b"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3270,
+      "sha256": "3e38decd5facb59948f0c23b57dcfea62fb8df4610bc408d64c02f13ead4018c"
+    }
+  ]
+}

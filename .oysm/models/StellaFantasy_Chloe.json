@@ -1,0 +1,183 @@
+{
+  "id": "StellaFantasy_Chloe",
+  "path": "parsed/StellaFantasy_Chloe",
+  "source": {
+    "path": "_StellaFantasy/StellaFantasy_Chloe.ysm",
+    "type": "ysm",
+    "stem": "StellaFantasy_Chloe"
+  },
+  "ysm": "parsed/StellaFantasy_Chloe/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/星见时璃_Tokiri.png",
+        "comment": "新人YSM作者，请大家多多支持",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/3494363390806334"
+        },
+        "name": "星见时璃_Tokiri",
+        "role": "模型/动画"
+      },
+      {
+        "avatar": "avatar/MicroCraft.png",
+        "comment": "只是个准程序猿",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/701974112"
+        },
+        "name": "MicroCraft",
+        "role": "molang/动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC4.0 BY-NC-SA"
+    },
+    "name": "克洛伊",
+    "tips": "——出自游戏《StellaFantacy》"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "0",
+      "extra1": "1",
+      "extra2": "2",
+      "extra3": "3",
+      "extra4": "4",
+      "extra5": "5",
+      "extra6": "6",
+      "extra7": "7"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/StellaFantasy_Chloe_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10495,
+      "sha256": "a5c35ed0814a1eaa686ca7f5bd57c8c30d959b7baa9968ec703c542752301ce1"
+    }
+  },
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 3203512,
+    "sha256": "e4434429503cc20ea48077302d2d56a49b94bf3a0fc56b1ff5c43f101477f4bf",
+    "bones": 112,
+    "cubes": 729,
+    "faces": 4374,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 109004,
+      "sha256": "ba1e5d1d0e30fc7cec4337358c630cf4f7c89f986f3a98b261c424bd3aecd477"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 199070,
+      "sha256": "c1b4723812d49c2735d8554cd57625109dd12ec76a0ea8cfc3dd73094759f411"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1505299,
+      "sha256": "2cfe596c36beecaa1688b55951b4272e660c066078bb5d95b20240a32a3a20da"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "avatar/MicroCraft.png",
+      "size": 127200,
+      "sha256": "04a08ffc0dc1e03a032dde40b836801f2fb682f3a6c9daa996ffaed58ca227ff"
+    },
+    {
+      "path": "avatar/星见时璃_Tokiri.png",
+      "size": 265272,
+      "sha256": "5560eb0e24a1c4634149d25a19b622ad2fae1d4b9f35f30b327df2ea51910f76"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 11712,
+      "sha256": "d8eae651e565e670dd4bc3c8407d94d16b3d6ca134545bb3e23bc49c965a42f2"
+    },
+    {
+      "path": "models/main.json",
+      "size": 393154,
+      "sha256": "97ad34daea2179446b4f814ee281e24502aa743c4e0009a750ce5460801a3edf"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 48830,
+      "sha256": "9630f5faf7747a5608e4d5552815e719cafc90618a61fac8882ced93a1cb3122"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1397,
+      "sha256": "9b517628aaa167e7a4d4ac8db631acd8ca232f263675a106cde30f485a668bd9"
+    }
+  ]
+}

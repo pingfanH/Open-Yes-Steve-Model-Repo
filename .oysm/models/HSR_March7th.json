@@ -1,0 +1,279 @@
+{
+  "id": "HSR_March7th",
+  "path": "parsed/HSR_March7th",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_March7th.ysm",
+    "type": "ysm",
+    "stem": "HSR_March7th"
+  },
+  "ysm": "parsed/HSR_March7th/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/韦懦夫斯菲尔.png",
+        "comment": "",
+        "contact": {
+          "Afdian": "不用钱",
+          "Bilibili": "https://space.bilibili.com/3546753760496536?spm_id_from=333.1387.fans.user_card.click"
+        },
+        "name": "韦懦夫斯菲尔",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "",
+      "home": "https://space.bilibili.com/3546753760496536?spm_id_from=333.1387.fans.user_card.click"
+    },
+    "name": "小不点三月",
+    "tips": ""
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra40": "#表情管理",
+      "#舞蹈": "§l舞蹈",
+      "#基础动作": "§n基础动作",
+      "extra0": "§l你好",
+      "extra2": "§b§n开车车",
+      "extra4": "§l可爱",
+      "extra8": "#猫耳",
+      "#立绘": "§l基础动作2"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "表情管理",
+        "name": "表情管理",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "§l表情",
+            "description": "~",
+            "value": "v.pants_change7",
+            "labels": {
+              "§n无": "v.pants_change7=0;v.t7=0",
+              "§l§4桃哭": "v.pants_change7=1;v.t7=1",
+              "害羞": "v.pants_change7=2;v.t7=2"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "§l嘴巴",
+            "description": "~",
+            "value": "v.pants_change8",
+            "labels": {
+              "§n无": "v.pants_change8=0;v.t8=10",
+              "吐舌头": "v.pants_change8=1;v.t8=1",
+              "撇嘴": "v.pants_change8=2;v.t8=2",
+              "§l§a尖叫": "v.pants_change8=3;v.t8=3",
+              "§l§b难过": "v.pants_change8=4;v.t8=4",
+              "微笑": "v.pants_change8=5;v.t8=6"
+            }
+          },
+          {
+            "type": "range",
+            "title": "体型: ",
+            "description": "大小",
+            "value": "v.player_size",
+            "step": 0.1,
+            "min": 0.6,
+            "max": 2.0
+          }
+        ]
+      },
+      {
+        "id": "猫耳",
+        "name": "猫耳and服装",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "§衣服",
+            "description": "~",
+            "value": "v.pants_change1",
+            "labels": {
+              "§n无": "v.pants_change1=0;v.t1=0",
+              "§n外套": "v.pants_change1=1;v.t1=1"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "舞蹈",
+        "extra_animation": {
+          "extra7": "§n§a萝莉摇",
+          "extra11": "§l二段",
+          "extra18": "§n§b鹿乃子虎视眈眈",
+          "extra16": "§ldoodle摇",
+          "extra22": "§l左右摇",
+          "extra20": "§l可爱摇",
+          "extra6": "§l摆手",
+          "#return": "返回按钮"
+        }
+      },
+      {
+        "id": "基础动作",
+        "extra_animation": {
+          "extra1": "§l鼓掌",
+          "extra35": "§l坐下",
+          "extra3": "§l好耶",
+          "extra29": "§l点头",
+          "extra33": "§l抱手",
+          "extra34": "§l躺下2",
+          "extra71": "§l坐下2",
+          "extra72": "§l坐下3",
+          "#return": "返回按钮"
+        }
+      },
+      {
+        "id": "立绘",
+        "extra_animation": {
+          "extra66": "§5§l来照相",
+          "extra67": "§5§l打call",
+          "extra68": "§5§l喝奶茶",
+          "extra69": "§5§l好耶",
+          "#return": "返回按钮"
+        }
+      }
+    ],
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "tlm": "animations/tlm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/skin.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_March7th_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 17761,
+      "sha256": "9984fc18b0dab7d45f46b4464cff14bd9f1d62ed00b3cfbdcd1777a1b80b0586"
+    }
+  },
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 3532878,
+    "sha256": "26f6aa364bf362e9f9bd7b01bd10c8e53ac49f65e0ab5329f9b0d7e4b7e322bc",
+    "bones": 425,
+    "cubes": 2114,
+    "faces": 12684,
+    "textures": 1,
+    "materials": 1,
+    "animations": 6,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 155151,
+      "sha256": "faf60a20f73eb00a619b3a6ed6b53084c3c7bad3797df62d3ee2847d60a5065a"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 1270812,
+      "sha256": "3f32081fa02e932a754387e66ff9edba9b05c17be25dc8323d51eb8441e96362"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 365323,
+      "sha256": "ae0bb5426cd13df7ec44733da6790b5228ba5c8afad3375a84102e8e7660cace"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 136389,
+      "sha256": "bfc6d2c13768a7ccfaadd55d59482f2e06f2e3a35fbe93a963f652bead302d85"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/韦懦夫斯菲尔.png",
+      "size": 332679,
+      "sha256": "362412fbb24122a3bf7f574616934e2c4af47d6a6398511dfe6942ff2ad5f21e"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 3814,
+      "sha256": "cdba0d7154d71d0f30d52e3048caec3ab98a318f6c2ca55bb76e70d246eb50aa"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "47f65eaadb587e2ab363a081158edb8cbcfc0f1c288ab80ae54777d4bfc38276"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1150301,
+      "sha256": "8eb26e10ef345ddf87e6d33abe506dbd7db5fd63fac1270f23a329b1a5f11f90"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1089,
+      "sha256": "f06a83e5bbf92c817429ee96066106c8566e76a3062ac65b095a1fa493b779f8"
+    },
+    {
+      "path": "textures/skin.png",
+      "size": 54892,
+      "sha256": "12e8ce2e3e718c1199067847a8cab89a9253cf773bc3784aed1d2bd8ea4a8084"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3031,
+      "sha256": "1681fc4d9e038441711496e4987407f29f539cd2736719631ba6e7f8846e2ebd"
+    }
+  ]
+}

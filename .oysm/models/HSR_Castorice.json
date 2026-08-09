@@ -1,0 +1,503 @@
+{
+  "id": "HSR_Castorice",
+  "path": "parsed/HSR_Castorice",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Castorice.ysm",
+    "type": "ysm",
+    "stem": "HSR_Castorice"
+  },
+  "ysm": "parsed/HSR_Castorice/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/yc27.png",
+        "comment": "bb模型萌新",
+        "contact": {
+          "bill bill": "https://space.bilibili.com/192438862?spm_id_from=333.1007.0.0"
+        },
+        "name": "yc27",
+        "role": "是作者呦"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "name": "ysm_遐蝶",
+    "tips": "是崩坏星穹铁道的角色暇蝶！\n萌新制作，真是辛苦我了.jpg"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "摆摆手",
+      "extra1": "不可以！",
+      "extra2": "可以的！",
+      "extra3": "pose_1",
+      "extra4": "pose_2",
+      "extra5": "待机动画",
+      "extra6": "坐着！",
+      "extra7": "#调整",
+      "extra8": "躺下喽！"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "摆摆手",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "体型: ",
+            "description": "大小",
+            "value": "v.player_size",
+            "step": 0.2,
+            "min": 0.2,
+            "max": 2.0
+          },
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          },
+          {
+            "type": "radio",
+            "title": "单选框",
+            "description": "鼠标指上显示单选框名",
+            "value": "v.value_radio",
+            "labels": {
+              "§0set 0": "v.value_radio = 0; v.real_radio = 1",
+              "§1set 1": "v.value_radio = 1; v.real_radio = 2",
+              "§3set 2": "v.value_radio = 2; v.real_radio = 3",
+              "§4set 3": "v.value_radio = 3; v.real_radio = 4.1",
+              "§5set 4": "v.value_radio = 4; v.real_radio = 5.2",
+              "§6set 5": "v.value_radio = 5; v.real_radio = 6.3",
+              "§7set 6": "v.value_radio = 6; v.real_radio = 7.4"
+            }
+          }
+        ]
+      },
+      {
+        "id": "不可以！",
+        "name": "新",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "体型: ",
+            "description": "大小",
+            "value": "v.player_size",
+            "step": 0.2,
+            "min": 0.2,
+            "max": 2.0
+          },
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          },
+          {
+            "type": "radio",
+            "title": "单选框",
+            "description": "鼠标指上显示单选框名",
+            "value": "v.value_radio",
+            "labels": {
+              "§0set 0": "v.value_radio = 0; v.real_radio = 1",
+              "§1set 1": "v.value_radio = 1; v.real_radio = 2",
+              "§3set 2": "v.value_radio = 2; v.real_radio = 3",
+              "§4set 3": "v.value_radio = 3; v.real_radio = 4.1",
+              "§5set 4": "v.value_radio = 4; v.real_radio = 5.2",
+              "§6set 5": "v.value_radio = 5; v.real_radio = 6.3",
+              "§7set 6": "v.value_radio = 6; v.real_radio = 7.4"
+            }
+          }
+        ]
+      },
+      {
+        "id": "可以的！",
+        "name": "新",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "体型: ",
+            "description": "大小",
+            "value": "v.player_size",
+            "step": 0.2,
+            "min": 0.2,
+            "max": 2.0
+          },
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          },
+          {
+            "type": "radio",
+            "title": "单选框",
+            "description": "鼠标指上显示单选框名",
+            "value": "v.value_radio",
+            "labels": {
+              "§0set 0": "v.value_radio = 0; v.real_radio = 1",
+              "§1set 1": "v.value_radio = 1; v.real_radio = 2",
+              "§3set 2": "v.value_radio = 2; v.real_radio = 3",
+              "§4set 3": "v.value_radio = 3; v.real_radio = 4.1",
+              "§5set 4": "v.value_radio = 4; v.real_radio = 5.2",
+              "§6set 5": "v.value_radio = 5; v.real_radio = 6.3",
+              "§7set 6": "v.value_radio = 6; v.real_radio = 7.4"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pose_1",
+        "name": "新",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "体型: ",
+            "description": "大小",
+            "value": "v.player_size",
+            "step": 0.2,
+            "min": 0.2,
+            "max": 2.0
+          },
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          },
+          {
+            "type": "radio",
+            "title": "单选框",
+            "description": "鼠标指上显示单选框名",
+            "value": "v.value_radio",
+            "labels": {
+              "§0set 0": "v.value_radio = 0; v.real_radio = 1",
+              "§1set 1": "v.value_radio = 1; v.real_radio = 2",
+              "§3set 2": "v.value_radio = 2; v.real_radio = 3",
+              "§4set 3": "v.value_radio = 3; v.real_radio = 4.1",
+              "§5set 4": "v.value_radio = 4; v.real_radio = 5.2",
+              "§6set 5": "v.value_radio = 5; v.real_radio = 6.3",
+              "§7set 6": "v.value_radio = 6; v.real_radio = 7.4"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pose_2",
+        "name": "新",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "体型: ",
+            "description": "大小",
+            "value": "v.player_size",
+            "step": 0.2,
+            "min": 0.2,
+            "max": 2.0
+          },
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          },
+          {
+            "type": "radio",
+            "title": "单选框",
+            "description": "鼠标指上显示单选框名",
+            "value": "v.value_radio",
+            "labels": {
+              "§0set 0": "v.value_radio = 0; v.real_radio = 1",
+              "§1set 1": "v.value_radio = 1; v.real_radio = 2",
+              "§3set 2": "v.value_radio = 2; v.real_radio = 3",
+              "§4set 3": "v.value_radio = 3; v.real_radio = 4.1",
+              "§5set 4": "v.value_radio = 4; v.real_radio = 5.2",
+              "§6set 5": "v.value_radio = 5; v.real_radio = 6.3",
+              "§7set 6": "v.value_radio = 6; v.real_radio = 7.4"
+            }
+          }
+        ]
+      },
+      {
+        "id": "待机动画",
+        "name": "新",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "体型: ",
+            "description": "大小",
+            "value": "v.player_size",
+            "step": 0.2,
+            "min": 0.2,
+            "max": 2.0
+          },
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          },
+          {
+            "type": "radio",
+            "title": "单选框",
+            "description": "鼠标指上显示单选框名",
+            "value": "v.value_radio",
+            "labels": {
+              "§0set 0": "v.value_radio = 0; v.real_radio = 1",
+              "§1set 1": "v.value_radio = 1; v.real_radio = 2",
+              "§3set 2": "v.value_radio = 2; v.real_radio = 3",
+              "§4set 3": "v.value_radio = 3; v.real_radio = 4.1",
+              "§5set 4": "v.value_radio = 4; v.real_radio = 5.2",
+              "§6set 5": "v.value_radio = 5; v.real_radio = 6.3",
+              "§7set 6": "v.value_radio = 6; v.real_radio = 7.4"
+            }
+          }
+        ]
+      },
+      {
+        "id": "空",
+        "name": "新",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "体型: ",
+            "description": "大小",
+            "value": "v.player_size",
+            "step": 0.2,
+            "min": 0.2,
+            "max": 2.0
+          },
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          },
+          {
+            "type": "radio",
+            "title": "单选框",
+            "description": "鼠标指上显示单选框名",
+            "value": "v.value_radio",
+            "labels": {
+              "§0set 0": "v.value_radio = 0; v.real_radio = 1",
+              "§1set 1": "v.value_radio = 1; v.real_radio = 2",
+              "§3set 2": "v.value_radio = 2; v.real_radio = 3",
+              "§4set 3": "v.value_radio = 3; v.real_radio = 4.1",
+              "§5set 4": "v.value_radio = 4; v.real_radio = 5.2",
+              "§6set 5": "v.value_radio = 5; v.real_radio = 6.3",
+              "§7set 6": "v.value_radio = 6; v.real_radio = 7.4"
+            }
+          }
+        ]
+      },
+      {
+        "id": "调整",
+        "name": "调整",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "头环: ",
+            "description": "大小",
+            "value": "v.td",
+            "step": 0.2,
+            "min": 0.0,
+            "max": 2.0
+          },
+          {
+            "type": "range",
+            "title": "头发上的蝴蝶饰品: ",
+            "description": "大小",
+            "value": "v.ta",
+            "step": 0.2,
+            "min": 0.0,
+            "max": 5.0
+          },
+          {
+            "type": "range",
+            "title": "胸部衣饰: ",
+            "description": "大小",
+            "value": "v.tb",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "type": "range",
+            "title": "裙与裙摆 ",
+            "description": "大小",
+            "value": "v.te",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "type": "range",
+            "title": "袜 ",
+            "description": "大小",
+            "value": "v.tf",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "type": "range",
+            "title": "上衣 ",
+            "description": "大小",
+            "value": "v.tg",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "type": "checkbox",
+            "title": "一只蝴蝶",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.tc"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "封面动画",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Castorice_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9334,
+      "sha256": "dd3412c5ee9b65b9ff5bab8f867e6934ad3ab45157fe31d56c8c366011971fd8"
+    }
+  },
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 3167504,
+    "sha256": "8b38d804450365794abcb7807607c0446c3a77fb5c16c5174ee05af031bded48",
+    "bones": 139,
+    "cubes": 472,
+    "faces": 2832,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 94401,
+      "sha256": "6bbef77f087189534c0e33908a0c62bb14e71e5eee789441ff7024c7d7bb5554"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 182619,
+      "sha256": "488de65da27bdaf924ae74186c950147a6f99e673410789d2dd288f1995c2a89"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 158800,
+      "sha256": "8da3a8446d93f3ae4d1b52e56c382139efe34848a86c31cc9138cf9abda507cc"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/yc27.png",
+      "size": 9675,
+      "sha256": "b2e82b03aeb7a30912318392446ab03e8b5f6f3b1d57c92e06d3a340259f0a18"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 617,
+      "sha256": "58a5a4f99a17e863505e5d985c5342fafccf53eeb5799a572dff4156086be4ad"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 18227,
+      "sha256": "fd539cb31f97b7901928d455afba9bdcb22afca1b0f6632ccda17bac93d59e9f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 229489,
+      "sha256": "46afd182bca3616664ad25f7c37716a64d4a0902a9c239a4a42812386253ffd3"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 31670,
+      "sha256": "941bc2b31daa8a1476b53d42dee4fe4918b1a54a42d65177c42bf5a6ffb611ff"
+    },
+    {
+      "path": "ysm.json",
+      "size": 7882,
+      "sha256": "fceb689dc40b8604ff83f222a10e99d1784cb51a3099f4e7d8b894213a81c06f"
+    }
+  ]
+}

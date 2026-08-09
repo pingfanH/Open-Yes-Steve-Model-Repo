@@ -1,0 +1,174 @@
+{
+  "id": "Pwned_Valeri_v0.3",
+  "path": "parsed/Pwned_Valeri_v0.3",
+  "source": {
+    "path": "_PwnedSeries/Pwned_Valeri_v0.3.ysm",
+    "type": "ysm",
+    "stem": "Pwned_Valeri_v0.3"
+  },
+  "ysm": "parsed/Pwned_Valeri_v0.3/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/Omegaff0048.png",
+        "comment": "Please subscribe",
+        "contact": {
+          "Youtube": "https://www.youtube.com/@omegaff0048"
+        },
+        "name": "Omegaff0048",
+        "role": "Creator"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.net/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Character name",
+    "tips": "Description"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Pwned_Valeri_v0.3_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7575,
+      "sha256": "fa36397c94b9ef3ea3475f5802efc8fc9a6b63486c85c39c0397a65a3b3c7471"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 1308337,
+    "sha256": "dd276c8ad8116cd34afecc6cf2f36be99ff8669e106b5efe154c9c8051895ff0",
+    "bones": 83,
+    "cubes": 994,
+    "faces": 5964,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 182225,
+      "sha256": "21172a66457cb35ff85e1649a19610c55546ec12756e4bd850afc88f56506274"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 123165,
+      "sha256": "0a5d3f9c0562cc4d4032464fa5a4f9c4d80d0d7a218e780240d04c0b276f8c9a"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 186959,
+      "sha256": "740c40730afc9a62227c596a2d439b5009c61649bbe4128ed4b2c8b9c7395fcb"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "c922ec47d76fb34087ff07fba7a3fc65db3a38f05cb5311946ca7b0b960458f5"
+    },
+    {
+      "path": "avatar/Omegaff0048.png",
+      "size": 62978,
+      "sha256": "e21a49f4a4240b0834b56581e0dc22f13efa851f0bff0bb1eb6d14fe30b65572"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 18196,
+      "sha256": "9858688c2be4da963ec192eec74210df20a529ffc8a6d14bae8a48680592e2db"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 2699,
+      "sha256": "9b5e0980aabaf47f67ac4e1ca0d18204a2a88233b8ca1978b3023498e3e8baab"
+    },
+    {
+      "path": "models/main.json",
+      "size": 517016,
+      "sha256": "c6509b312acdf9abbdb61bff4f62f7a588b9c296f40a411711f20bd692df5351"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 384,
+      "sha256": "989400e5db3713add72b8ed2682392663437f5fa416d256c799ca37aff60e596"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 26772,
+      "sha256": "e3f302195ea50745c08ae0feb8dc359d37ff98ce772ff53187c9326944837e07"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1140,
+      "sha256": "91e515e1617bb220f4a8f9a95c306e0beb438fc0b66f8d45786762e66e4fd2c6"
+    }
+  ]
+}

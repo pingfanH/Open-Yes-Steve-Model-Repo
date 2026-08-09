@@ -1,0 +1,84 @@
+{
+  "id": "_Nvgunit",
+  "path": "parsed/_Nvgunit",
+  "source": {
+    "path": "Uncategorized/_Nvgunit.zip",
+    "type": "zip",
+    "stem": "_Nvgunit"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_Nvgunit"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "unot.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Nvgunit_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10126,
+      "sha256": "3a67171e944e8bcccd3e846fcbe91e88cf88a233e532d8e425cb0e305617c6fa"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 748194,
+    "sha256": "c824e7e4f72d9a1d73f4ae61c6fb6125447438de5eb850d8d8f5c78487d5aebb",
+    "bones": 91,
+    "cubes": 663,
+    "faces": 3978,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 41455,
+      "sha256": "d0884612147ab8cc35559dcd62bef3e774da6dd36e72047787af93bb45d599d8"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 143873,
+      "sha256": "4f6dfb40fb12dc2531b64b221097ea2b601a6b1dc23288a0d1a0d17a86d5823d"
+    },
+    {
+      "path": "main.json",
+      "size": 330466,
+      "sha256": "1a0c41eb9d6d0c813cd73010bc2a17b708adc4e1989ced257cb858276b97d511"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 158017,
+      "sha256": "87f89948b53f2d189599109525654e4191755196624df21444ad6824d70af625"
+    },
+    {
+      "path": "unot.png",
+      "size": 74383,
+      "sha256": "bc58bcfc533d74c24353422cb3f1b5343a70cd274ab0fbe07e7f09d148b02529"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "Ak_Lappland",
+  "path": "parsed/Ak_Lappland",
+  "source": {
+    "path": "_Arknights/Ak_Lappland.zip",
+    "type": "zip",
+    "stem": "Ak_Lappland"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Ak_Lappland"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Lappland_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6188,
+      "sha256": "5919e09c445de54224da74a4dddc0f865b6bb2f257a96f5f635fffc36e562cbf"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 418610,
+    "sha256": "9052b1e1a3ba3105ed46a6bd373e64e0cd54d2b55af9ef8c4fc66af47529d8a4",
+    "bones": 66,
+    "cubes": 943,
+    "faces": 5658,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 1989,
+      "sha256": "852b36cfc4d8c88d0fbe4ccdcbdcd0bae79591472843ddc0e893af5de7cbb31f"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 110961,
+      "sha256": "e21a8d9271c66f4e627342fac3ffca24cde02bfdd17d84d8b3b155d5c0dc5b97"
+    },
+    {
+      "path": "main.json",
+      "size": 299977,
+      "sha256": "f0cb7fb9ea0318121be23ec7ed2730f4cb1f0a96607c9a6824e9213897ba56d9"
+    },
+    {
+      "path": "texture.png",
+      "size": 5683,
+      "sha256": "b8692f98804fc0d7f6aed216ba1c5fdedf7e0a983ee75d31529bca808de8d643"
+    }
+  ]
+}

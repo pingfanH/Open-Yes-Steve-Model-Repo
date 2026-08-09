@@ -1,0 +1,78 @@
+{
+  "id": "BA_Shiroko(Terror)_v1.0",
+  "path": "parsed/BA_Shiroko(Terror)_v1.0",
+  "source": {
+    "path": "_BlueArchive/BA_Shiroko(Terror)_v1.0.zip",
+    "type": "zip",
+    "stem": "BA_Shiroko(Terror)_v1.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "BA_Shiroko(Terror)_v1.0"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Shiroko_Terror__v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10344,
+      "sha256": "bdcca2f8fbeef95121ae7ea357e266d2be0ac3835b3bd9a6f9ccd2a47f49c44e"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 378706,
+    "sha256": "d318a3aac374d1e414942d4fe8c28c15f887438b3c2bd765a98d48d5c1ee2670",
+    "bones": 71,
+    "cubes": 356,
+    "faces": 2136,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 11131,
+      "sha256": "2bb8999b3bb9ab8fd87ec2693bd16922a1aefafb01f3344ae0fdf6dfe7282817"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 159984,
+      "sha256": "9119afc3e02c8bc710a6cfbb1a0782939b3cd6ffc38f4d749d5e045d21b34768"
+    },
+    {
+      "path": "main.json",
+      "size": 185636,
+      "sha256": "d4352e6d2791dcc2585ac2c6ce2ecbc0d5e977d70cd5e7ae7efe2e3e6f2851b5"
+    },
+    {
+      "path": "texture.png",
+      "size": 21955,
+      "sha256": "7af2b2e987776f110cbf973971b89af2eec14750866e67a453174dd0b20db943"
+    }
+  ]
+}

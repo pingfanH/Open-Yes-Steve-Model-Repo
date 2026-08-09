@@ -1,0 +1,94 @@
+{
+  "id": "_Swx",
+  "path": "parsed/_Swx",
+  "source": {
+    "path": "Uncategorized/_Swx.ysm",
+    "type": "ysm",
+    "stem": "_Swx"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "时无暇-常服",
+    "tips": "双生世界\n免费模型~\n禁止倒卖",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "晓苯升易"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Swx_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7585,
+      "sha256": "454227488d07b1fcce3882c7ba53af47af52d572a892e306ddb62c50aa4e29a2"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 551627,
+    "sha256": "fbccbe997505f803156f2fbdb61520aebb172b192f0a1f7dec39b213bdb7cd78",
+    "bones": 96,
+    "cubes": 490,
+    "faces": 2940,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 25091,
+      "sha256": "2fc40f1ae9cada9c53f0b12ca0452cbbeba39e8c7389559c59a98287c3f56587"
+    },
+    {
+      "path": "info.json",
+      "size": 243,
+      "sha256": "7114797868c32a0df919dfaef6d0ce8f8da49459b895127a31530b36646f5592"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 204783,
+      "sha256": "6e0d9e69c836d252fc7f12d8f33e02c5edb4edfaa1d270925230c6ed66c44d4d"
+    },
+    {
+      "path": "main.json",
+      "size": 250575,
+      "sha256": "dd3f587d6cf38bcf059cc8d0243bbdabc009169469e5ce8c622cdbae00578923"
+    },
+    {
+      "path": "texture.png",
+      "size": 70935,
+      "sha256": "44a92bddf77965709a9eb878ec4cafe52f71f545b62422cf4309c695753b0ca0"
+    }
+  ]
+}

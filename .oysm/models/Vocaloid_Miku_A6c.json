@@ -1,0 +1,207 @@
+{
+  "id": "Vocaloid_Miku(A6c)",
+  "path": "parsed/Vocaloid_Miku(A6c)",
+  "source": {
+    "path": "_Vocaloid-UTAU/Vocaloid_Miku(A6c).ysm",
+    "type": "ysm",
+    "stem": "Vocaloid_Miku(A6c)"
+  },
+  "ysm": "parsed/Vocaloid_Miku(A6c)/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/小萌新idjdkd.png",
+        "comment": "none",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/1573788561"
+        },
+        "name": "小萌新idjdkd",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 4.0 By-NC-SA"
+    },
+    "link": {
+      "donate": "none",
+      "home": "none"
+    },
+    "name": "Mkiu",
+    "tips": "设定是机娘，所以有一堆机械结构，且低血量爆衣也是很露骨地(太空排骨的骨doge)推荐搭配SimplyWakl模组使用，胸甲裤子做了可脱，钻石甲对应防弹衣，持枪跑步概率顺拐，https://space.bilibili.com/1573788561我的b站号关注球球惹qwq"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "分类1",
+        "name": "7"
+      },
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          },
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/uv.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Vocaloid_Miku_A6c_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10346,
+      "sha256": "3b8e4e05f0453e1ac3533af5f84d4dcc6118d148583e0dbba7d56471515ef0be"
+    }
+  },
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 4125934,
+    "sha256": "ef3a11ceff6acd9ceb7c7366007bbca3653c2928f0fb3a404134be0c9f7086c4",
+    "bones": 160,
+    "cubes": 2047,
+    "faces": 12282,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 92826,
+      "sha256": "c40deb45dcbc62555b76f56f1037ae0945128ce598d73763d341b728139bdb8f"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 283357,
+      "sha256": "20cce7a218de4165e56fc3dd36e33d06674e114b1a3babf0bc8c4f0e6dfd3f23"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 130638,
+      "sha256": "170dcd9532f9880c365aafce3d52792de6848afce347e35006eb771d3a9975ee"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1505299,
+      "sha256": "2cfe596c36beecaa1688b55951b4272e660c066078bb5d95b20240a32a3a20da"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 147826,
+      "sha256": "b35978d9a53cd3d3252ab174c3be9bebd3604dd1250fded1c131cc341374674d"
+    },
+    {
+      "path": "avatar/小萌新idjdkd.png",
+      "size": 21456,
+      "sha256": "8b39a7c8d6035bb4fac416fede75fd1f87358240f680a7f213636333d801828f"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 1840,
+      "sha256": "76465f71db1ac897a149346e013cfdd82aaef3a74ed44843d7a20d13dc5c70db"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 35407,
+      "sha256": "03053180713b95b03917bbc5aabc489378cbb3ffe46e044491a4d339b9c01c69"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1609835,
+      "sha256": "69dae473fdccb5e7673db78a7f69abd2225b141b83d0229fa4425426a6450762"
+    },
+    {
+      "path": "textures/uv.png",
+      "size": 75035,
+      "sha256": "b84e200130d9900505c3d686cba020fbda99dde05d009795f0d1345bc9e5ded8"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1919,
+      "sha256": "1eca0a1f8a715de267aade8c894cd92b09cb5a73fd426a62e3dd3d158a44333e"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "Agflshvore_Tester_v1.1",
+  "path": "parsed/Agflshvore_Tester_v1.1",
+  "source": {
+    "path": "_Agflshvore/Agflshvore_Tester_v1.1.ysm",
+    "type": "ysm",
+    "stem": "Agflshvore_Tester_v1.1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Tester 1.1",
+    "tips": "By BlockBench From EnderghostScale",
+    "authors": [
+      {
+        "name": "EnderghostScale"
+      }
+    ],
+    "license": {
+      "type": "FSB"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "normal.png",
+        "normal0.png",
+        "normal1.png",
+        "normal2.png",
+        "normal3.png",
+        "normal4.png",
+        "normal5.png",
+        "normal6.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Agflshvore_Tester_v1.1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3064,
+      "sha256": "ad6089972c60f7f5247e72f5576e3e66751bb5acff0210725eebd1b9a58eea7a"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 380805,
+    "sha256": "6901d52904369a7822e5fe901652bd0895967bf57d1c3cce4d02f68ad117ff77",
+    "bones": 63,
+    "cubes": 53,
+    "faces": 318,
+    "textures": 8,
+    "materials": 8,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 7904,
+      "sha256": "fadf6e019dabd194242e4e2145130e13c1f82d3807ead3e647fa7c19c2163e3b"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 143873,
+      "sha256": "4f6dfb40fb12dc2531b64b221097ea2b601a6b1dc23288a0d1a0d17a86d5823d"
+    },
+    {
+      "path": "main.json",
+      "size": 23180,
+      "sha256": "f7dacdda2f40cd03831a6d5ec2e6ca94b267adf2aa99dc685129a02cb6c328b2"
+    },
+    {
+      "path": "normal.png",
+      "size": 3983,
+      "sha256": "25b12796973cc756606813fd1ab164d0d17460bd7f62eb7dfb6c3ee0eb7c48d1"
+    },
+    {
+      "path": "normal0.png",
+      "size": 6022,
+      "sha256": "3936ea45200b1c265f2f220b32a21f0b566b7bec0fe4cd9c24d680b44838ae43"
+    },
+    {
+      "path": "normal1.png",
+      "size": 6115,
+      "sha256": "361eb95520998f36bf17a68e6992f61694b9209ddaf4c66eaa6dc57026da4fcf"
+    },
+    {
+      "path": "normal2.png",
+      "size": 4880,
+      "sha256": "eadbb13470888167a6cada967f79ce009c64ea3e21cc220641b6772649ed2e5f"
+    },
+    {
+      "path": "normal3.png",
+      "size": 4966,
+      "sha256": "86ebc4c48e5c3d13f163412dfb0d7b82f72b15fe3efda6363946be602aae2b4d"
+    },
+    {
+      "path": "normal4.png",
+      "size": 7227,
+      "sha256": "cbfc2b0b8611bea22815b8e75299772716bc5ae1fcbd43843ca65d4ec803a215"
+    },
+    {
+      "path": "normal5.png",
+      "size": 3689,
+      "sha256": "cec9b28be87db19cb2dfdac1f3443efedae153a1860f99c3a0f8500523960aaa"
+    },
+    {
+      "path": "normal6.png",
+      "size": 4301,
+      "sha256": "c0b5d9c11b792a439a780ae4767681362ee4bd28eeea03220597f5d42dc83add"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 164665,
+      "sha256": "e778ad97fe95a69c672c9f2a01c354737ad1f0d3a97279a2689a3d4d262301f3"
+    }
+  ]
+}

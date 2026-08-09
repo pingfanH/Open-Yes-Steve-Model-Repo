@@ -1,0 +1,135 @@
+{
+  "id": "Ak_Suzuran",
+  "path": "parsed/Ak_Suzuran",
+  "source": {
+    "path": "_Arknights/Ak_Suzuran.ysm",
+    "type": "ysm",
+    "stem": "Ak_Suzuran"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "铃兰 - 免费版",
+    "tips": "罗德岛干员铃兰，九倍的温柔与坚强。\n--支持作者请在爱发电搜索 映白 噢~",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "映白L"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "arrow.png",
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "arrow": "arrow.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Suzuran_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5434,
+      "sha256": "2ba489a49e9f82c80fa8bb86e9263361d1110883f1be76e6e75578587b2c0eab"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 1014738,
+    "sha256": "e53140eedd23cfe579e8cf669a56a0579ad96512e0438a4a53197ce1d4f8bb8e",
+    "bones": 243,
+    "cubes": 579,
+    "faces": 3474,
+    "textures": 2,
+    "materials": 2,
+    "animations": 6,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 132796,
+      "sha256": "31bcf9cef2c02fe472d1e4d95a10d32f375bfa10a8248e86ec291d6e47e5e9ff"
+    },
+    {
+      "path": "arm.json",
+      "size": 18108,
+      "sha256": "a55908f1e1dcc49f3ae7edffdb802bb94c0df84536fe05787d3ef37f3530d182"
+    },
+    {
+      "path": "arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 2989,
+      "sha256": "d0f4771b40604d1b54a70606b945fe0ee9436b60098185f43d5653107c72c2e2"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 133085,
+      "sha256": "2b5e0037b372c6ed37775337c63b78460430a7a9c12fb7301253ab90adafe052"
+    },
+    {
+      "path": "info.json",
+      "size": 305,
+      "sha256": "5775b7fbbe933d5f4f9f5615006c9e40960c2a6a189e5782503c1173ea00a112"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 205706,
+      "sha256": "2caf0953a2d39865b1e899ed23891edc4ff6109bffb591b4b463730bd7d3a3e6"
+    },
+    {
+      "path": "main.json",
+      "size": 317183,
+      "sha256": "adb620b23dd8eaa753c57aef2ad3ad40aa7c6b852603fa298966ec4a84f0f8c9"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 171364,
+      "sha256": "5a0893c3c24a149abce49324574b5eafacdcf3559125f84d768c7ef73be13aa2"
+    },
+    {
+      "path": "texture.png",
+      "size": 25053,
+      "sha256": "b403ba104bd9ae1dbd29ae7c8ecebd9cb53fe8566c0258f1aac4b14f83d953fa"
+    }
+  ]
+}

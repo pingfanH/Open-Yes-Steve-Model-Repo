@@ -1,0 +1,331 @@
+{
+  "id": "FGO_Morgan",
+  "path": "parsed/FGO_Morgan",
+  "source": {
+    "path": "_FateGrandOrder/FGO_Morgan.ysm",
+    "type": "ysm",
+    "stem": "FGO_Morgan"
+  },
+  "ysm": "parsed/FGO_Morgan/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/法老号船长-爱德蒙莉莉.png",
+        "comment": "岩窟王池子里全是卡里奥斯特罗，我上辈子是当了萝伦茨亚吗？（恼）",
+        "contact": {
+          "Bilibili": " https://b23.tv/391wLUC"
+        },
+        "name": "法老号船长-爱德蒙莉莉",
+        "role": "模型、动画作者"
+      },
+      {
+        "avatar": "avatar/哥斯拉.png",
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "name": "哥斯拉",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/端木一动不动.png",
+        "comment": "永远都在ing",
+        "name": "端木一动不动",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/甜粽子.png",
+        "comment": "(ᗜˬᗜ)",
+        "name": "甜粽子",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/星屑海螺.png",
+        "comment": "漂泊于群星之中",
+        "contact": {
+          "Afdian": "https://afdian.com/a/lucia2048",
+          "Bilibili": "https://space.bilibili.com/14975572"
+        },
+        "name": "星屑海螺",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "梣",
+    "tips": "“——本模型角色原型是手机游戏‘Fate/Grand Order‘（中文名《命运/冠位指定》）中的梣，以及同出处的哈贝特洛特。本模型完全免费，请勿用于商业用途……如果你违反了协议，就把你和斯普里根关在金库城里让你们白头偕老哦。”“可土之氏族的族长磕了药之后应该是不会老死的吧？可以换成欧若拉吗？”"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#配置",
+      "extra1": "#新配置1",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "战技": "使用战技",
+      "解除战技": "解除战技",
+      "worm": "害怕的东西",
+      "救世主的pose": "救世主的pose",
+      "XHS": "偷看（自己的）书",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "配置",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "隐藏帽子",
+            "description": "摘帽子？戴帽子？",
+            "value": "v.hat"
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏眼镜",
+            "description": "就算戴上眼镜，野猪还是野猪~（被揍）",
+            "value": "v.glasses"
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏披风",
+            "description": "Hex_d托我过来问一嘴——就没有披风里面的开关吗！？（再次被揍）",
+            "value": "v.cope"
+          },
+          {
+            "type": "checkbox",
+            "title": "眼镜反光开关",
+            "description": "适合夜晚使用",
+            "value": "v.smart"
+          },
+          {
+            "type": "checkbox",
+            "title": "剑气开关",
+            "description": "开着也打不出远程月光波的",
+            "value": "v.swordlight"
+          },
+          {
+            "type": "checkbox",
+            "title": "眼睛发光（左）",
+            "description": "想放宝具了？",
+            "value": "v.leye"
+          },
+          {
+            "type": "checkbox",
+            "title": "眼睛发光（右）",
+            "description": "np满了吗？",
+            "value": "v.reye"
+          },
+          {
+            "type": "radio",
+            "title": "单选框",
+            "description": "鼠标指上显示单选框名",
+            "value": "v.value_radio",
+            "labels": {
+              "§0set 0": "v.value_radio = 0; v.real_radio = 1",
+              "§1set 1": "v.value_radio = 1; v.real_radio = 2",
+              "§3set 2": "v.value_radio = 2; v.real_radio = 3",
+              "§4set 3": "v.value_radio = 3; v.real_radio = 4.1",
+              "§5set 4": "v.value_radio = 4; v.real_radio = 5.2",
+              "§6set 5": "v.value_radio = 5; v.real_radio = 6.3",
+              "§7set 6": "v.value_radio = 6; v.real_radio = 7.4"
+            }
+          }
+        ]
+      },
+      {
+        "id": "新配置1",
+        "name": "打招呼",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "体型: ",
+            "description": "大小",
+            "value": "v.player_size",
+            "step": 0.2,
+            "min": 0.2,
+            "max": 2.0
+          },
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          },
+          {
+            "type": "radio",
+            "title": "单选框",
+            "description": "鼠标指上显示单选框名",
+            "value": "v.value_radio",
+            "labels": {
+              "§0set 0": "v.value_radio = 0; v.real_radio = 1",
+              "§1set 1": "v.value_radio = 1; v.real_radio = 2",
+              "§3set 2": "v.value_radio = 2; v.real_radio = 3",
+              "§4set 3": "v.value_radio = 3; v.real_radio = 4.1",
+              "§5set 4": "v.value_radio = 4; v.real_radio = 5.2",
+              "§6set 5": "v.value_radio = 5; v.real_radio = 6.3",
+              "§7set 6": "v.value_radio = 6; v.real_radio = 7.4"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "texture",
+    "preview_animation": "showtime",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "tlm": "animations/tlm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/FGO_Morgan_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 22592,
+      "sha256": "87a519480a4183e72e85040fdb6e06664146771cce52d386f394a9288fdb0109"
+    }
+  },
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 3233061,
+    "sha256": "605eddd81d4dd753258659e5e3ae2cbca7d4de9132a639ecb920bd6974a60a5d",
+    "bones": 831,
+    "cubes": 1917,
+    "faces": 11502,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 142036,
+      "sha256": "a35550327dc26e544ac1776731ef014d07f167b37de59739252cc278c6ed6833"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2977,
+      "sha256": "7c54c7d13874cf179ac4a50872b554ed383c07a6a38db8296655d778684173eb"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 148294,
+      "sha256": "62717bec7dbe70a2799715f08ea1bfbb06a5986fbf3c1130e8c11c0e60aa4d1c"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 290191,
+      "sha256": "154baad07a85572dfd8aea30e3a26a3694ea47eb4ac73f9549d14d689bfb9d2f"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 136593,
+      "sha256": "1ce8e84f138af81491c756e953ab2e8f420abfcb10eb1aece02d1966221e2688"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 42679,
+      "sha256": "7886e7f2b43c62dea022eb250d2773cec16a2f6d99e1ddd938f27dab28aa1622"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 185810,
+      "sha256": "defc42d33ecd15a2e293f1670defeca099d4ef40a2cbb678e1ab790796cdefa7"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 56524,
+      "sha256": "74848330c0d81aa1a102b7f69f0e97374bc506d3be96202ea2de14db5e01aa45"
+    },
+    {
+      "path": "avatar/哥斯拉.png",
+      "size": 19374,
+      "sha256": "6cd420a5238d37083afb1a43736ae8f862dfb9d9065c1ae1895c2ee20071333c"
+    },
+    {
+      "path": "avatar/星屑海螺.png",
+      "size": 22406,
+      "sha256": "2c03d4213bddb87b0bc8d40b1cc32c059b0fe72a0bd6cc09613505a82e922f65"
+    },
+    {
+      "path": "avatar/法老号船长-爱德蒙莉莉.png",
+      "size": 177658,
+      "sha256": "27b605be1f6b8df59cc01bca7c430457f6901188595389d05f4e58abbc6a1825"
+    },
+    {
+      "path": "avatar/甜粽子.png",
+      "size": 13575,
+      "sha256": "afbc4a0ad6483a06d38085e6ec7f55db706ce25cb1de636a1698faf2fc53d4a1"
+    },
+    {
+      "path": "avatar/端木一动不动.png",
+      "size": 22379,
+      "sha256": "3c431bb54f22ffb6bb153d5de92dee6831881419ed4135b517cc9abd32e44095"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 116242,
+      "sha256": "4ec149a3c591995ca110c0da7252112acaa9b400fc859b776f16846cdc672ae8"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1034583,
+      "sha256": "c01de0267da8f447d6d61d30dbd5f34e3111f2a089a12800c23ccc96337025aa"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 817015,
+      "sha256": "a4b2d6a117ca17a4d8284d8947ee66580bf4850ac4c3e9355e46f10320e5063c"
+    },
+    {
+      "path": "ysm.json",
+      "size": 4725,
+      "sha256": "bc7f7f91e1f8bd74a1ef5c64c86d91eb1916b741b67fa9a95e1eddda0369aedf"
+    }
+  ]
+}

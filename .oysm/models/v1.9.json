@@ -1,0 +1,196 @@
+{
+  "id": "_苏溟v1.9",
+  "path": "parsed/_苏溟v1.9",
+  "source": {
+    "path": "Uncategorized/_苏溟v1.9.ysm",
+    "type": "ysm",
+    "stem": "_苏溟v1.9"
+  },
+  "ysm": "parsed/_苏溟v1.9/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/苏溟.png",
+        "comment": "新人YSM作者，请大家多多支持",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/3494363390806334?spm_id_from=333.1007.0.0"
+        },
+        "name": "苏溟",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/MicroCraft.png",
+        "comment": "只是个准程序猿",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/701974112?spm_id_from=333.337.0.0"
+        },
+        "name": "MicroCraft",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC4.0 BY-NC-SA"
+    },
+    "name": "苏溟",
+    "tips": "苏溟，但是MC，感谢大家支持。（我玩我自己.jpg）"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "伸懒腰",
+      "extra1": "你好呦！",
+      "extra2": "好棒！",
+      "extra3": "好哒！",
+      "extra4": "不要不要！",
+      "extra5": "doodle",
+      "extra6": "快乐摇",
+      "extra7": "要抱抱！"
+    },
+    "default_texture": "default",
+    "preview_animation": "choose",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/main.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/v1.9_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10520,
+      "sha256": "73d5253b65ef539b8ebdbf4e817fd9763849a4be31459fb0c30d5f9d8ed79e49"
+    }
+  },
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 1880280,
+    "sha256": "72c2652fb77c37cfc4bb6f99c9c448f28606fbdaf53bddc5e2b76de4b8132336",
+    "bones": 181,
+    "cubes": 865,
+    "faces": 5190,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 116479,
+      "sha256": "62bdaee4598274d3517647b534808058da53aee07c7161822d9fa71a0d580d56"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 895,
+      "sha256": "d4fd26b1525503424108bcf60163da6636ffa689772b00a91d8d679fb0880b78"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 43122,
+      "sha256": "4ff633bbee715bfec732473efcdb279f9c9b75f62420956a2f6c9dc6f2c0b93d"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 141875,
+      "sha256": "6b2896c2207dbb09ceb96a0311f33786e0d461102ee7df945b6013bbaa8f546a"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 157234,
+      "sha256": "5faa404965b49b289195e2ba2ea6d56bdd7a7e8b5669f150bf5adda7a236a266"
+    },
+    {
+      "path": "avatar/MicroCraft.png",
+      "size": 127200,
+      "sha256": "04a08ffc0dc1e03a032dde40b836801f2fb682f3a6c9daa996ffaed58ca227ff"
+    },
+    {
+      "path": "avatar/苏溟.png",
+      "size": 399295,
+      "sha256": "e464978b1185cc1871859b359ff0c883206be01a2e3d89ddc2897ffe47c0542e"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 19692,
+      "sha256": "995faa19fc899f5e9fe71fe0662738fb5468deb3309699f3bc3a73d809d6baa1"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 125583,
+      "sha256": "dc7e8b1d5861924d6e45c6dbab8742ad8ed79aa818b449cac2769197121b4b28"
+    },
+    {
+      "path": "models/main.json",
+      "size": 470850,
+      "sha256": "4d6481ba909b8aebeb383687dc75979b9b254fa942ffa4afe827ff1dba5468e7"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 7442,
+      "sha256": "9c38c5c7f6446296fbcf5b8db7bc367086a8cab5d6710cd72bfb61e6c054ebd6"
+    },
+    {
+      "path": "textures/main.png",
+      "size": 93845,
+      "sha256": "0eada9d426d65a4e1ccad204607bcb4196e9a4179f07ef5308b5df67de63552e"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1501,
+      "sha256": "555da17ecd0a65c465a80a3ee1aca6880e53a470fe5050a2a528f316114a0403"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "Mob_Creeper-girl(Moefied)(Charged)_v2.0",
+  "path": "parsed/Mob_Creeper-girl(Moefied)(Charged)_v2.0",
+  "source": {
+    "path": "_MinecraftMob/Mob_Creeper-girl(Moefied)(Charged)_v2.0.ysm",
+    "type": "ysm",
+    "stem": "Mob_Creeper-girl(Moefied)(Charged)_v2.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "小怕（闪电苦力怕娘）2.0",
+    "tips": "来自怪物娘化世界的苦力怕娘！不小心被闪电击中后，变成了现在这样，又酷又帅的【闪电】苦力怕娘。千万不要惹怒她哦，否则炸毁的就不只是你的房子啦~",
+    "authors": [
+      {
+        "name": "大绿葱"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "close_zipper_with_hat.png",
+        "close_zipper_without_hat.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Mob_Creeper-girl_Moefied_Charged__v2.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6780,
+      "sha256": "0d2c8d8563581909da17b5631c981649d743d93735fca8732be04484892d0593"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 755307,
+    "sha256": "9129e6917243ab792f617e12e9b550ac7a93b38b3e37465132c9502df93a8c52",
+    "bones": 242,
+    "cubes": 1043,
+    "faces": 6258,
+    "textures": 2,
+    "materials": 2,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 52559,
+      "sha256": "7a3fcdde7806b17a81ca6ea44fb33c549e7b839e5e0438dec77b096244fb5697"
+    },
+    {
+      "path": "arm.json",
+      "size": 56803,
+      "sha256": "3ea6551a1efe33b92aac76a64ac843b6453e06478aaf1f3bb777ddeef0978dd8"
+    },
+    {
+      "path": "close_zipper_with_hat.png",
+      "size": 15059,
+      "sha256": "81d34618f4d3c6ab65f8671f8bf18e4ce6825d442a9c37c64e3a4ecadee86fb8"
+    },
+    {
+      "path": "close_zipper_without_hat.png",
+      "size": 15627,
+      "sha256": "1b71113502a83c36d737e96c684412a5f447990e54679eb027fb0a362b7d205c"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 130542,
+      "sha256": "70874aaa25581615f0a02672b1c5ca8fb20c7b31fdf1cbbc15d89f0eb7537f43"
+    },
+    {
+      "path": "main.json",
+      "size": 484717,
+      "sha256": "1820c823b5805e78882d5af12a5397ea9ba3af7c5432bcd5072dffcd5aeb69a0"
+    }
+  ]
+}

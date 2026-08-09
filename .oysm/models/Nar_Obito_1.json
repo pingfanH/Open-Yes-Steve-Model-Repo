@@ -1,0 +1,90 @@
+{
+  "id": "Nar_Obito_1",
+  "path": "parsed/Nar_Obito_1",
+  "source": {
+    "path": "_Naruto/Nar_Obito_1.ysm",
+    "type": "ysm",
+    "stem": "Nar_Obito_1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Nar_Obito_1"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "baimianjv.png",
+        "daitu.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Nar_Obito_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10685,
+      "sha256": "d6dd7e3783c7f59c18e50445d3cca8ff1b74e8a705bdc5a7b2af492e0c6cab08"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 501203,
+    "sha256": "e3c6de9f37ea816aa32260810854d377447b2b44ca01370a69edb819fa3125a9",
+    "bones": 88,
+    "cubes": 467,
+    "faces": 2802,
+    "textures": 2,
+    "materials": 2,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 44816,
+      "sha256": "5682cdcb1a1bafdd2bfa879d030f8d924494df9e9179c73f25b75b623be7e88f"
+    },
+    {
+      "path": "arm.json",
+      "size": 2887,
+      "sha256": "780e15e8177d847a06c91bda4242b0c82f04183caf543a91ac33c6af25a1f60d"
+    },
+    {
+      "path": "baimianjv.png",
+      "size": 22406,
+      "sha256": "9f16f70bd030837794048bb8cdcc9b5eed44dca0b8098663a64aa040d022a351"
+    },
+    {
+      "path": "daitu.png",
+      "size": 22089,
+      "sha256": "4a5a9fa25b20f1f0e437372eb442c0da706e476d8de6d26eb01bd63f0f77bd54"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 266782,
+      "sha256": "c1043b6b9a3b0e9a6bfd911fc527ec3e2bc8fb0a68d8066beace88ae9a99a0f1"
+    },
+    {
+      "path": "main.json",
+      "size": 142223,
+      "sha256": "d4aaeec7d264a8b45f3043cb44e9d44c515252636d5c3e91cf8c6c71e244189e"
+    }
+  ]
+}

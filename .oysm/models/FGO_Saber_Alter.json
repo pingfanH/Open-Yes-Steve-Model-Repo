@@ -1,0 +1,210 @@
+{
+  "id": "FGO_Saber(Alter)",
+  "path": "parsed/FGO_Saber(Alter)",
+  "source": {
+    "path": "_FateGrandOrder/FGO_Saber(Alter).ysm",
+    "type": "ysm",
+    "stem": "FGO_Saber(Alter)"
+  },
+  "ysm": "parsed/FGO_Saber(Alter)/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/墓野奈奈.png",
+        "comment": "",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/269519870"
+        },
+        "name": "墓野奈奈",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/zoe.png",
+        "comment": "",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/6298170"
+        },
+        "name": "zoe",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/随便取名字的萌新.png",
+        "comment": " 「我不会动画」 ",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/1909440963"
+        },
+        "name": "随便取名字的萌新",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "署名-相同方式共享-不允许商用 (CC BY-NC-SA)"
+    },
+    "name": "saber alter",
+    "tips": "此模型为初代版本，后续会持续更新，并且是福利模型，不会收取高于一块钱的费用"
+  },
+  "properties": {
+    "width_scale": 0.85,
+    "height_scale": 0.85,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "一个很帅气的动作",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/FGO_Saber_Alter_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10565,
+      "sha256": "6b2620c0c8b20216a52070ff6ab5fbf867a8b009f6c63f9d62433837df5a11f9"
+    }
+  },
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 2700399,
+    "sha256": "b0005ceea58bcd2ac3d474c7765bef366a507f014323ab19dd985f4b53fb1689",
+    "bones": 197,
+    "cubes": 2601,
+    "faces": 15606,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 145298,
+      "sha256": "7e264d14aa5ea7897516cda86cd60cb90814addee3d9b6e3d36a4053ecc2d281"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "36ef22e03f26ddd2cbae2434cef38c8959c9b2b4f6ab9102cdec65d95cfa1308"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 124561,
+      "sha256": "384349305f22342e91fd024db8f065c9faf902ebadb5b064115fd40c56b6fb33"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 249252,
+      "sha256": "9aa805d9b0b52b4bc6f3d8347a96164f75eb98eab121d0ba2d43521d74f621a7"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "6325a4c6e770961a99017627b4254c398614d604cc4130377b99650159681cb5"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "b37c859af8433841c9f5a091162d806a2db10e543167a0812f63ed794b3350ed"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "b0500f44d664248f3b24f1445d1f8735d55472ce61206ce6fb98f508ee9bfb9f"
+    },
+    {
+      "path": "avatar/zoe.png",
+      "size": 53467,
+      "sha256": "8d41f64b72fa7378ac37b1872eef1906685b02156cea8e9dda1a012f1870e6fd"
+    },
+    {
+      "path": "avatar/墓野奈奈.png",
+      "size": 156449,
+      "sha256": "082ffc6df2c31117508fa1e63f3fcbe4931888eb1a918bb0734b7d59e1c46248"
+    },
+    {
+      "path": "avatar/随便取名字的萌新.png",
+      "size": 154024,
+      "sha256": "2292b83b71c1ea065fa58283bda785dc829c3fdd7be461477a743dcfe7e44270"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 189143,
+      "sha256": "13107f09ed7be7636918b3d622ac7831f32219e0f8a9f631e3d476f07f2e0c8a"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1193616,
+      "sha256": "63c4b5b4e0441a06b3eafcd676613eee469e279af4c752fa70adeae98e8820a0"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 65764,
+      "sha256": "bfc2af464c6ed8993acbccb475e80f56a43b5a85b53506e2fae19a79b80ef7ed"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1615,
+      "sha256": "f678d06db9e562ecce95a879a8e46af47b1ad138a42ecce2a3ed990072d5df60"
+    }
+  ]
+}

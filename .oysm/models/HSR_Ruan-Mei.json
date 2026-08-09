@@ -1,0 +1,96 @@
+{
+  "id": "HSR_Ruan-Mei",
+  "path": "parsed/HSR_Ruan-Mei",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Ruan-Mei.ysm",
+    "type": "ysm",
+    "stem": "HSR_Ruan-Mei"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "HSR_Ruan-Mei"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "main.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Ruan-Mei_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 24827,
+      "sha256": "4b8094aa5d92575ce48f39a2d8b693a9201362f8b49b58032015f363c8d51e82"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 1989119,
+    "sha256": "0bf4f73641460028cb7832b539240a62f4095fb18572a0ac207f42b0b7b1d4b9",
+    "bones": 91,
+    "cubes": 2557,
+    "faces": 15342,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 39629,
+      "sha256": "d7d8cc5aebd96d36ee76e9e4619513300bb7dbbc5d45b351a131e1145447085a"
+    },
+    {
+      "path": "arm.json",
+      "size": 1849,
+      "sha256": "c1a5686fd033bf67360f02ffe632214519927c496787d5ec4f0ee5a9bb14643e"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 61672,
+      "sha256": "89d1e39656957adbda7e0d6c89b3140ff8a7d198b5473a46aaa2ebf5f1bedde7"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 153204,
+      "sha256": "59b6992da62ab8ae522435b11631db1985e6290cd62a829dfa64afad0b4d7b0f"
+    },
+    {
+      "path": "main.json",
+      "size": 1415960,
+      "sha256": "f519aaace8cfd098ace948411a88e439491ed505bc74415cfd8853663bde47b4"
+    },
+    {
+      "path": "main.png",
+      "size": 155269,
+      "sha256": "b3db02d626aed65cb74ed1796a8cd444d69b963a49bfbcd8d59f0e6c7b54930d"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 161536,
+      "sha256": "2b39ac5d931e483c5558769b4e315f32eb4224e916e4a3d460d671eadc201cec"
+    }
+  ]
+}

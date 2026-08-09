@@ -1,0 +1,79 @@
+{
+  "id": "JennyMod_Bia",
+  "path": "parsed/JennyMod_Bia",
+  "source": {
+    "path": "_JennyMod/JennyMod_Bia.zip",
+    "type": "zip",
+    "stem": "JennyMod_Bia"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Bia",
+    "tips": "Sentient teddy bear"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "bia.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/JennyMod_Bia_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 2497,
+      "sha256": "faa9541a913c179f8dd11576a7d425970304bba1c5658cd80eb00259987878de"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 40867,
+    "sha256": "30ca164dc2fc654548320ce5f2d7a0893be1b336e58efff2db9fb7c1339436ce",
+    "bones": 57,
+    "cubes": 58,
+    "faces": 348,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 1229,
+      "sha256": "b8987e8bd817c4bcb230d90744529dafd881ef1dcf1e03d90e50e886b1d6a76c"
+    },
+    {
+      "path": "bia.png",
+      "size": 1988,
+      "sha256": "60b4c9ee8e776b863c7e03b9bd65cf0fb98e9d45b3401727f5be2193bb6b156a"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 18577,
+      "sha256": "da6f8680b238ac5b81a8258e303ef47dc36af3409e2e9124e0b7287a7c3985f3"
+    },
+    {
+      "path": "main.json",
+      "size": 19073,
+      "sha256": "0b2266ef400c4ceb0dd52bb1621dbce28a85d644c5ad6401e9e5e78983d7945e"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "_Warmy-free",
+  "path": "parsed/_Warmy-free",
+  "source": {
+    "path": "Uncategorized/_Warmy-free.ysm",
+    "type": "ysm",
+    "stem": "_Warmy-free"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§6小锅盖",
+    "tips": "博士，又见面啦，想念雷姆必拓风味的炖菜吗？\n我正要和兰娜姐去后厨看......\n我不是小锅盖，请不要再叫我小锅盖啦——\n别看我个子小，我还挺厉害的哦。\n——————————————\n§a该模型为可分享免费模型！\n仅在云曦的爱发电出售，§c§l如需商用请联系！\n§5云曦QQ 1922137073  -  催更小窝：924884449",
+    "authors": [
+      {
+        "name": "§b云曦-Yunxxi_ugo"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Warmy-free_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 16895,
+      "sha256": "73b53e19a9c15e4c837a53d9616ef2c5f9f587161534652b0fba61fb1ea06f90"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 1249136,
+    "sha256": "67463fc9d94b75700899c12146b458479c7813d4d5889b6f80be7ad8aa3b2353",
+    "bones": 451,
+    "cubes": 1546,
+    "faces": 9024,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 61727,
+      "sha256": "c9d006af3290193cfd25cf8bd5e744f4e1b0e6b95774df510b6a7f7d6938b92b"
+    },
+    {
+      "path": "arm.json",
+      "size": 47018,
+      "sha256": "81b29721415ff6c42ad881b6530cbeaaff8699a2859078b4a667dcbfa91737f0"
+    },
+    {
+      "path": "arm_havehand.json",
+      "size": 45094,
+      "sha256": "6a8f4949b0f70e70aa96c572247d5c21f1546550e215f0481178ca5c173c918b"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 264507,
+      "sha256": "a1891f7fb39f473cd96a47e78ce46428bbe317aa8cc4461faf071d9497dd8978"
+    },
+    {
+      "path": "main.json",
+      "size": 779837,
+      "sha256": "2197913f5b13a8dc2bed1c1310fa249897229210b89d160a27817d45a2e75f6f"
+    },
+    {
+      "path": "texture.png",
+      "size": 50953,
+      "sha256": "69ee2821cff856e9bc1498f9341c2ca25fcb552b2881fb63b130f327ec0c0903"
+    }
+  ]
+}

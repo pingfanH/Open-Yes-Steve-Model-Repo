@@ -1,0 +1,78 @@
+{
+  "id": "BA_Miyako",
+  "path": "parsed/BA_Miyako",
+  "source": {
+    "path": "_BlueArchive/BA_Miyako.ysm",
+    "type": "ysm",
+    "stem": "BA_Miyako"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "BA_Miyako"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Miyako_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5492,
+      "sha256": "eb9448f7d3ebc86505145613be882bbe92266c2e01a4515d11b6865798d5dd88"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 333314,
+    "sha256": "e18219881680eda8338e4a76af6e374e3347209c5222988c127e513ac81a6fcd",
+    "bones": 63,
+    "cubes": 318,
+    "faces": 1908,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 14754,
+      "sha256": "109db9c37dc8738a9137a5133d09072c6c1f3b992420f8e37d0d8a1da3f9aae2"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 154894,
+      "sha256": "f55de526251b660efe8c1daef6fea14657d4e1394fd309db3b4152b7c876cce3"
+    },
+    {
+      "path": "main.json",
+      "size": 156249,
+      "sha256": "8bc3d1d6a76fe30a6e5d984d4d048a80c08d5bc660d84a619298dc401a2ca2c7"
+    },
+    {
+      "path": "texture.png",
+      "size": 7417,
+      "sha256": "a8e2f109b3c19ab6182778a0ff192888c23d33c70fa69c98bf6df9f5fb0032c8"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "MT_Hiro",
+  "path": "parsed/MT_Hiro",
+  "source": {
+    "path": "Uncategorized/MT_Hiro.ysm",
+    "type": "ysm",
+    "stem": "MT_Hiro"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "MT_Hiro"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/MT_Hiro_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7072,
+      "sha256": "931aaf4e7016d6c7ec0ab82b2bd949b73e4bc74264c53783f69c4118909db2ec"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 840422,
+    "sha256": "0044fb6a8299384d9c0e3cd8be66aaf11eca918b0993a17a1c5a3a3f4568294b",
+    "bones": 134,
+    "cubes": 1044,
+    "faces": 6264,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 27169,
+      "sha256": "ee371e977622b173014239ca8ae8e678387ccb7f7fa069ba792e542cccc43a96"
+    },
+    {
+      "path": "arm.json",
+      "size": 314255,
+      "sha256": "0a25b89154cc4c7100906fe80aa7e76557900a8c3341a5143066d6e70f8be4f7"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 6216,
+      "sha256": "38f34135301bb37828caa1bd99e954f617491856a8f012dc29d91339d8c1abd5"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 48710,
+      "sha256": "9fa5da532b9feb4193217f1f7e8eb2894c716b943646cead9a58e85bd1915b8c"
+    },
+    {
+      "path": "main.json",
+      "size": 314255,
+      "sha256": "09081f2086bd49bb1f815639538fe8f5ef59e11b37a6b7fd596c9192126bca04"
+    },
+    {
+      "path": "texture.png",
+      "size": 129817,
+      "sha256": "2a32265ba551493a2ca0f653feda3fa4a567034ef2c7f8f048eb7714aeb39707"
+    }
+  ]
+}

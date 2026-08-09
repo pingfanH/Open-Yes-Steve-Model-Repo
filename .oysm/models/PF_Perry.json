@@ -1,0 +1,89 @@
+{
+  "id": "PF_Perry",
+  "path": "parsed/PF_Perry",
+  "source": {
+    "path": "_Phineas&Ferb/PF_Perry.zip",
+    "type": "zip",
+    "stem": "PF_Perry"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "PF_Perry"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "preey_text.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/PF_Perry_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3863,
+      "sha256": "b058dcc740604a6299000075c03b71de1120ce8bb89eb826781c07df55b47a7a"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 440885,
+    "sha256": "877bf9a95736b35d88a9913c336cd5c36e91823d874f02c07be609d2f924add5",
+    "bones": 60,
+    "cubes": 112,
+    "faces": 672,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "Perry.bbmodel",
+      "size": 326570,
+      "sha256": "41b7b177d57fdb17e14a51813d55305b0f445d757b8c5d993926f8e0cf42bd81"
+    },
+    {
+      "path": "arm.animation.json",
+      "size": 91,
+      "sha256": "a7c246495beaffe9733d903936d163adcb1e5ba1bcfcfaa6c9efbd051bd32222"
+    },
+    {
+      "path": "arm.json",
+      "size": 30802,
+      "sha256": "f860cb42f01ca863cfe0c582b3d7ce659ee36ff41d6b2dee37fba4065f55aba8"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 44512,
+      "sha256": "2fd311170d4c6514ae61d4425d2caf905686beddc9890d3b4ef075ad6c1028c8"
+    },
+    {
+      "path": "main.json",
+      "size": 31252,
+      "sha256": "654045e5f3fb5fe77ce2c4838e0ab59f20b8dcd22804265332460a7b08e91a9e"
+    },
+    {
+      "path": "preey_text.png",
+      "size": 7658,
+      "sha256": "feca9ee069bd4dd3c18b2e390316ea6d1cede40b79c651ec146ac975193a88df"
+    }
+  ]
+}

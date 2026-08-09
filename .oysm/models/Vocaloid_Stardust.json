@@ -1,0 +1,89 @@
+{
+  "id": "Vocaloid_Stardust",
+  "path": "parsed/Vocaloid_Stardust",
+  "source": {
+    "path": "_Vocaloid-UTAU/Vocaloid_Stardust.zip",
+    "type": "zip",
+    "stem": "Vocaloid_Stardust"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Vocaloid_Stardust"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "xingcheng.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Vocaloid_Stardust_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10021,
+      "sha256": "b154d076f1fdd9080f2616a45159fc11ee7fec6df7851722b969ddd4f0ae7ed0"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 1921517,
+    "sha256": "b64f9c75fd2fccc6b2fb969138e1cf934877f58509fd883b8238c6c54fd3bd05",
+    "bones": 126,
+    "cubes": 297,
+    "faces": 1782,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 2254,
+      "sha256": "3e74e2d70df8f2f7703273d6800f04c0c9d147e2e49a51ca248c624fe9c506c2"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 29673,
+      "sha256": "7b5cc0cd87386d3f34ac051bfef4f3449272d66c5f737c2a03f24d4eef3ddf3c"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 175837,
+      "sha256": "25da267e5a7fa7c10b089c863a3996688e05834ec7a6dd339c2fab560c751d74"
+    },
+    {
+      "path": "main.bbmodel",
+      "size": 1639125,
+      "sha256": "ce0ea6de66f913867e2a3caac49f398ad2d9e8f91d0d693670cab19b91d2c8c0"
+    },
+    {
+      "path": "main.json",
+      "size": 54711,
+      "sha256": "e1ecb35ac736b2b2d9d03a2d1fc95331ddb9dcd1bef8eac9bc9f6e7663c26220"
+    },
+    {
+      "path": "xingcheng.png",
+      "size": 19917,
+      "sha256": "5327ef09408e8aa6314517c6f355f135747a609e267f1a5bedba852ca8c3c466"
+    }
+  ]
+}

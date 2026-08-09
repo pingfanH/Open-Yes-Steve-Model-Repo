@@ -1,0 +1,100 @@
+{
+  "id": "CnCMO_Yunru",
+  "path": "parsed/CnCMO_Yunru",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCMO_Yunru.ysm",
+    "type": "ysm",
+    "stem": "CnCMO_Yunru"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "云茹",
+    "tips": "出自《红警2》mod《心灵终结》\n钻石套可显示外骨骼",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCMO_Yunru_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 17598,
+      "sha256": "f080f68c0a1d9c1514f92c622805b02ed929789a001d55382d978ffb516aa056"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 525632,
+    "sha256": "df78d237ce8bcdf3e2e807a387e2dab0af7fd46bfee11c68a588c81373b98a21",
+    "bones": 105,
+    "cubes": 437,
+    "faces": 2622,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 13206,
+      "sha256": "688e28a360e1c3dccc060784b3f6289153aeb699c6ab008ffd120c70f255e110"
+    },
+    {
+      "path": "info.json",
+      "size": 224,
+      "sha256": "f6490031ab040ef13bc830361bdde0e4390e7e3434d1221cf9183032dc349af1"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 120004,
+      "sha256": "bacfb049bcaf5e9b2ca1eb7bcae8b4c9e8e802d564672bf0278c1d840cfaaf39"
+    },
+    {
+      "path": "main.json",
+      "size": 218337,
+      "sha256": "b5bc8ab0e3890560d74a7dcb2ceee02e05cac0c3070aeca9d94a6aa51f1c6ef9"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 136221,
+      "sha256": "e58ddb9514daae6fe26ce8ef7476b5d675d19c087e33ec36fec73c25858ce097"
+    },
+    {
+      "path": "texture.png",
+      "size": 37640,
+      "sha256": "9abf1ce2f64cb961252c533a92678c840dbda067a2027c40cd39305b5cf40e35"
+    }
+  ]
+}

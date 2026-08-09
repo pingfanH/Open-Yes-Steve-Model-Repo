@@ -1,0 +1,145 @@
+{
+  "id": "PussInBoots_Death",
+  "path": "parsed/PussInBoots_Death",
+  "source": {
+    "path": "_PussInBoots/PussInBoots_Death.zip",
+    "type": "zip",
+    "stem": "PussInBoots_Death"
+  },
+  "ysm": "parsed/PussInBoots_Death/ysm.json",
+  "metadata": {
+    "name": "死神狼",
+    "tips": "制作了死神狼，这个角色我一直很喜欢，作品灵感源自于穿靴子的猫",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "岚",
+        "role": "模型",
+        "avatar": "avatar/LAN.png",
+        "comment": ""
+      },
+      {
+        "name": "WenX",
+        "role": "models/textures",
+        "avatar": "avatar/WenX.png",
+        "comment": "谢谢支持！"
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "extra_animation": {
+      "extra0": "指",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "凝视",
+      "extra4": "拒绝",
+      "extra5": "卖萌",
+      "extra6": "御笔摇",
+      "extra7": "挑衅"
+    },
+    "preview_animation": "gui",
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json"
+      },
+      "texture": [
+        "textures/textures.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/PussInBoots_Death_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9637,
+      "sha256": "00a5312fec6cb128440dd6ac30ad5d578f2c303bc6166b82f22e0385bcfcdc6b"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 3979662,
+    "sha256": "6993a36903fa20c9c130eb7b4572c1cd1a60eade4fb1d90a814af8ec964e9470",
+    "bones": 83,
+    "cubes": 204,
+    "faces": 1224,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 173114,
+      "sha256": "2328c313ab9c85df63372b9cf4a2c86b2c945c2285067d976acff357250f304d"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 33646,
+      "sha256": "2f6d9540f58f5a6312970d1912d235f10d0aff63eea763bf90d7abfaeb9e2d1e"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 136999,
+      "sha256": "6c829645dc545ef6148f556c67240e20c63aed4d78a8a41090fff7f59db276ba"
+    },
+    {
+      "path": "avatar/LAN.png",
+      "size": 200153,
+      "sha256": "335a44f7074d224c9ae05a8db1ee9c91582d77219a01cef20ae157fad54ef159"
+    },
+    {
+      "path": "avatar/WenX.png",
+      "size": 340533,
+      "sha256": "ba6112bd24c4ba5c4740742974689d8f22ec8ca3c0af83cf5535cd521f2cd599"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 7239,
+      "sha256": "3b037feaa8d2f7a51059f7e0c24ca6ce0da39c45825bd7cc6917d19b482a0c36"
+    },
+    {
+      "path": "models/main.json",
+      "size": 111926,
+      "sha256": "dd69488b5af50c5c81360f74e59f1bd266045ddc9473012e4cf1998501c9e4be"
+    },
+    {
+      "path": "textures/textures.png",
+      "size": 28683,
+      "sha256": "ae35e635f9cfd7d6d6e615df21a1abd70fcd7cafe4f389b030d6a9b7978f090d"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1379,
+      "sha256": "2c72d4c32369dfdb58d80e0d885e150d1404fc082c2b756b750062d6864aedb9"
+    },
+    {
+      "path": "死神参考图.pur",
+      "size": 2945990,
+      "sha256": "02eeb38c0f57a8a8a060b4a952226314fe10a34001bd66cc184ef7d56d696e2f"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "id": "GF_M4SOPMODII",
+  "path": "parsed/GF_M4SOPMODII",
+  "source": {
+    "path": "_GirlsFrontline/GF_M4SOPMODII.ysm",
+    "type": "ysm",
+    "stem": "GF_M4SOPMODII"
+  },
+  "ysm": "parsed/GF_M4SOPMODII/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/动员鼬.png",
+        "comment": "脖子右拧！！",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/348421936?spm_id_from=333.1007.0.0"
+        },
+        "name": "动员鼬",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/ .png",
+        "comment": " ",
+        "name": " ",
+        "role": " "
+      },
+      {
+        "avatar": "avatar/ .png",
+        "comment": " ",
+        "name": " ",
+        "role": " "
+      },
+      {
+        "avatar": "avatar/ .png",
+        "comment": " ",
+        "name": " ",
+        "role": " "
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "name": "M4 SOPMOD2",
+    "tips": "mod2?mod3!"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "初始立绘",
+      "extra1": "OWO",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "显示兵蚁",
+      "extra6": "大破立绘 ",
+      "extra7": "立绘pose "
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "123",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GF_M4SOPMODII_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10629,
+      "sha256": "0e07128c7096270aedb2309105e41f918d947b18a6ed312a6844ae6ce27b3dca"
+    }
+  },
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 1197779,
+    "sha256": "d1c5bd8952253d6e616caa58d7a15792a3420de538a159fe978f67ab6b790947",
+    "bones": 107,
+    "cubes": 516,
+    "faces": 3096,
+    "textures": 2,
+    "materials": 2,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 14551,
+      "sha256": "f5576fb271d2087bb39d5995cc65750052ab969c63aeb366853704ec9ea83233"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 211324,
+      "sha256": "09cfd9214aba8a66a04fd259b55cd14206b761c40e32a0a836a648487933d808"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 192293,
+      "sha256": "cd0e9970a87b6833a85728c1b91b6cd2035cc1f7eebe1c9eefbe895ee7f2f172"
+    },
+    {
+      "path": "avatar/ .png",
+      "size": 31972,
+      "sha256": "c6f737e8b0cc939c8f04932eaf822dee8b9b3225d3664658077263269a112ba7"
+    },
+    {
+      "path": "avatar/动员鼬.png",
+      "size": 34808,
+      "sha256": "ebc88c7060782df12663444ce7d3aee14e935320fea7d9298a2ed1d9706080ac"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 26743,
+      "sha256": "cee6416638c02fc26bbd58f53b4810afef5840fa957e67268d584662abb41275"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13725,
+      "sha256": "605fc04a716cfd12d30b5d6fb5d6db461504bd2f8da602fe078a4f57b4d71c71"
+    },
+    {
+      "path": "models/main.json",
+      "size": 250610,
+      "sha256": "24619678cc5426f022f8e26fd85e84305da74bc749185dd7bda5169d22f6faf8"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2686,
+      "sha256": "197669635bbf7b8cf8892b6912e428c92c66aac37ea2d3f1a174c9a04b2b64f6"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 11115,
+      "sha256": "3d6ee25dd9507b59b1f9c436d3dcb9203c7b871121b7bd7907109916d38ecafc"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 45617,
+      "sha256": "3c551bff445d9a4c725db5febac1e954e79402bb77e233a3a1d71096b1da0470"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1502,
+      "sha256": "02fee43b8fd01b201525047fc9913fd04ad30bcf9c7848dd3e3bdce376f21d82"
+    }
+  ]
+}

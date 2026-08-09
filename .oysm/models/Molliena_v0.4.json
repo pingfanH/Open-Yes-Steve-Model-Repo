@@ -1,0 +1,296 @@
+{
+  "id": "Molliena v0.4",
+  "path": "parsed/Molliena v0.4",
+  "source": {
+    "path": "Unknown/Molliena v0.4.ysm",
+    "type": "ysm",
+    "stem": "Molliena v0.4"
+  },
+  "ysm": "parsed/Molliena v0.4/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§9赤恒Red_Constant.png",
+        "comment": "闲着喜欢捣鼓一些东西说是",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/235888316"
+        },
+        "name": "§9赤恒Red_Constant",
+        "role": "§4ALL!!!"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://space.bilibili.com/235888316",
+      "home": "https://space.bilibili.com/235888316"
+    },
+    "name": "§b莫尔里奈",
+    "tips": "未知都市的神秘少女\n会使用魔法与一些科技产物"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "无动作",
+      "extra2": "鼓掌",
+      "extra3": "同意",
+      "extra4": "否定",
+      "#看板": "§b看板动作",
+      "extra6": "§4拔刀吧！-Old",
+      "#extra_classify": "子轮盘"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "角色配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "体型: ",
+            "description": "大小",
+            "value": "v.player_size",
+            "step": 0.2,
+            "min": 0.2,
+            "max": 2.0
+          },
+          {
+            "type": "checkbox",
+            "title": "装饰开关",
+            "description": "玩家装饰",
+            "value": "v.zz"
+          },
+          {
+            "type": "checkbox",
+            "title": "外套",
+            "description": "玩家外套",
+            "value": "v.wt"
+          },
+          {
+            "type": "checkbox",
+            "title": "腿环！",
+            "description": "玩家腿环",
+            "value": "v.th"
+          },
+          {
+            "type": "checkbox",
+            "title": "玉足模式（",
+            "description": "玩家鞋子",
+            "value": "v.xz"
+          },
+          {
+            "type": "checkbox",
+            "title": "挑染？",
+            "description": "孩子们,bro的头发会发光",
+            "value": "v.tr"
+          },
+          {
+            "type": "checkbox",
+            "title": "光环！",
+            "description": "转生鸡窝托斯（雾",
+            "value": "v.gh"
+          },
+          {
+            "type": "checkbox",
+            "title": "无人机",
+            "description": "孩子们，从心夏那边偷过来的",
+            "value": "v.wrj"
+          },
+          {
+            "type": "radio",
+            "title": "嘴部表情",
+            "description": "修改嘴巴样式！",
+            "value": "v.mouth_change",
+            "labels": {
+              "正常": "v.mouth_change=0; v.zc=1; v.xx=0; v.bxx=0; v.wl=0; v.eh=0; v.xiao=0",
+              "嘻嘻": "v.mouth_change=0; v.zc=0; v.xx=1; v.bxx=0; v.wl=0; v.eh=0; v.xiao=0",
+              "不嘻嘻": "v.mouth_change=0; v.zc=0; v.xx=0; v.bxx=1; v.wl=0; v.eh=0; v.xiao=0",
+              "乐": "v.mouth_change=0; v.zc=0; v.xx=0; v.bxx=0; v.wl=0; v.eh=0; v.xiao=1",
+              "丸辣！": "v.mouth_change=0; v.zc=0; v.xx=0; v.bxx=0; v.wl=1; v.eh=0; v.xiao=0",
+              "欸嘿(吐舌)": "v.mouth_change=0; v.zc=0; v.xx=0; v.bxx=0; v.wl=0; v.eh=1; v.xiao=0"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "还未制作",
+          "extra1": "敬请期待("
+        }
+      },
+      {
+        "id": "看板",
+        "extra_animation": {
+          "kanban-new": "新版",
+          "extra5": "旧版"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": true,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Molliena_v0.4_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 17307,
+      "sha256": "4c805c541b76a04e979469946ad2bf58dffd7264bc7328f02cb5cf07fc95afe9"
+    }
+  },
+  "stats": {
+    "file_count": 18,
+    "total_bytes": 3910525,
+    "sha256": "18e47d9a47cb5eb0f9e15a39c2127461e26d0e7f636072e3a2996585218875b9",
+    "bones": 311,
+    "cubes": 1593,
+    "faces": 9558,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 189997,
+      "sha256": "b14085fbd77f3ecc89f301a0543cae5ca7de8f7f0e5f8884293a7a773d920a6f"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1695,
+      "sha256": "7baa2da09a1239d9d9f0728e3cdce6315520ea625c8e38b890e399f8acb68757"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 30595,
+      "sha256": "d787533e5730b216a4c566ab64fdf28d92be8b2d97e28f3b750cefde18dc3cb9"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 210575,
+      "sha256": "fbc87ad35520863f074b763ed7cd411f134c3340f7c693e951de57f6e7c42fb6"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/§9赤恒Red_Constant.png",
+      "size": 32766,
+      "sha256": "405a791239eaa4309bbf0930a4a1afc58190ea895400df7c7dd8067784b635f8"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 617,
+      "sha256": "58a5a4f99a17e863505e5d985c5342fafccf53eeb5799a572dff4156086be4ad"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 23921,
+      "sha256": "1174e5468c72060735428416671ea18c0295f46b3b4b912acf4cf90d09127332"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 43247,
+      "sha256": "42d5391f7da8cae1daf570c46bcbe923291269247c376daba033d36f8d91db63"
+    },
+    {
+      "path": "models/main.json",
+      "size": 853101,
+      "sha256": "48b30e22ae2daf5f3a9d67663d51c5b43f125c7acdfe0539da395104c3fcba9f"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2450,
+      "sha256": "4d71821aa2dc8f25c2b23477d55088e8827a8f20df9be19e094cd5ef9733f696"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 80375,
+      "sha256": "0c8ee6eb00629d9ad3f00f05ca6dcd94f46214a738317f5ba0255051a05ece98"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3257,
+      "sha256": "58bb79a8357868125b3162c90de4526b64e263b443a64d8095146d0a36cc7db1"
+    }
+  ]
+}

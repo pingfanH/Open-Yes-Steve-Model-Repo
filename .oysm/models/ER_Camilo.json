@@ -1,0 +1,155 @@
+{
+  "id": "ER_Camilo",
+  "path": "parsed/ER_Camilo",
+  "source": {
+    "path": "_EternalReturn/ER_Camilo.zip",
+    "type": "zip",
+    "stem": "ER_Camilo"
+  },
+  "ysm": "parsed/ER_Camilo/ysm.json",
+  "metadata": {
+    "name": "Default Boy",
+    "tips": "Camilo (Eternal Return)",
+    "license": {
+      "type": "All Rights Reserved"
+    },
+    "authors": [
+      {
+        "name": "Prtih",
+        "avatar": "avatar/Prtih.png"
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "default_texture": "blue",
+    "free": true,
+    "height_scale": 0.45,
+    "width_scale": 0.4,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "preview_animation": "gui",
+    "render_layers_first": false,
+    "disable_preview_rotation": true,
+    "all_cutout": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "tac": "animations/tac.animation.json",
+        "arm": "animations/arm.animation.json"
+      },
+      "texture": [
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/ER_Camilo_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13182,
+      "sha256": "4b08fe9ab00271d073b5cdcec8ecc27c555e8b556652865a33f6d63cae9ce04a"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 1195860,
+    "sha256": "d835c8f2d9fa8a81551a3e16cf75847d445cec9b0b23c5f2a6c403c14430a02c",
+    "bones": 88,
+    "cubes": 880,
+    "faces": 5280,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 190685,
+      "sha256": "34af85a1bb5ef5d8cb53d1976e748ee8148cdb29ed3a99a0485623ba420f55d5"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 112658,
+      "sha256": "2049fbf703a5345271817696c503050bebd705c3c024f3c14256e82a3f89d2bd"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 161750,
+      "sha256": "cd9eab2dac8e0071268a1eb078a25f5d542f025c3ac7a150f66ec29eb66210a6"
+    },
+    {
+      "path": "avatar/Prtih.png",
+      "size": 10507,
+      "sha256": "b61c326b405e2b631fec45c3086931f56b52f5e3885aecaf28dd1178d6c8ea55"
+    },
+    {
+      "path": "avatar/Untitled768_20241026051552.png.url",
+      "size": 227,
+      "sha256": "f7ae3f0e8a76fe94a9e1fa404676049b6c3804d8f24508548988e84e6b2c190f"
+    },
+    {
+      "path": "avatar/dm.png",
+      "size": 5471,
+      "sha256": "5d28f00fd947e31f361da9cab6c16693d80f25988515822e078cea1f5ef08a60"
+    },
+    {
+      "path": "avatar/gsl.png",
+      "size": 4738,
+      "sha256": "0bf76a1ba896f709839f9c35bb62852350b4b0f110bc9a1c4c4c5acc99f25188"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 64845,
+      "sha256": "4cd7235343bf8d13aa018f7f504e26c5882c9c25661135582b41c9622227aee3"
+    },
+    {
+      "path": "models/main.json",
+      "size": 451864,
+      "sha256": "25797753ffa75fef4f38d34ca3ea9e86b70d09d8dec600a29da30a3877d71de7"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 127757,
+      "sha256": "e25b6bca4ac76d3c66bf87dad7634276eef0cf33314e87f842c19939bb2373f0"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 64281,
+      "sha256": "a321c5830f432028ac26202d7bf43e82aeed8d0031b3afc2aa273bda49ab2479"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1077,
+      "sha256": "501022c504dae52bf16c5e8611479fcb7a737bd4ca99c219d8fd2781280045b6"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "id": "Touhou_Hatate_1.0",
+  "path": "parsed/Touhou_Hatate_1.0",
+  "source": {
+    "path": "_TouhouProject/Touhou_Hatate_1.0.zip",
+    "type": "zip",
+    "stem": "Touhou_Hatate_1.0"
+  },
+  "ysm": "parsed/Touhou_Hatate_1.0/ysm.json",
+  "metadata": {
+    "name": "Hatate",
+    "tips": "足不出户的念写记者",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "绝山南犬",
+        "role": "模型与美术",
+        "avatar": "avatar/1.png",
+        "comment": "呃呃啊啊啊好想吃肠粉..."
+      }
+    ]
+  },
+  "properties": {
+    "extra_animation": {
+      "extra0": "舞蹈1",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "是的",
+      "extra4": "不行",
+      "extra5": "鼓舞",
+      "extra6": "舞蹈3",
+      "extra7": "舞蹈2",
+      "extra8": "自拍",
+      "extra9": "拍照"
+    },
+    "preview_animation": "gui",
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "texture": [
+        "textures/default.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Touhou_Hatate_1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6982,
+      "sha256": "3d81987166ddcd9c91831b2988c44a491390437a3f74dd476ef68ed7a03a79dc"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 1954221,
+    "sha256": "ca73809c76ba8d7f51f330d6ed32f1bb49ff99d2ca154bc015f801d22d1748a5",
+    "bones": 118,
+    "cubes": 266,
+    "faces": 1596,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 152474,
+      "sha256": "173ffd65b4b5592277efa4e1f1e6abe32aca169d478374b41659b3055a66e88a"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 648,
+      "sha256": "a1742d97b6f3a435a92ed37c1f971b9367d8198a3c12116be4a9f433586b8e12"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3854,
+      "sha256": "3dd8df6b37448d02eeaee10e07b048fd0de0665ac74159146fedc47f144f5646"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 158322,
+      "sha256": "d5b013ba48a0adbefab1ef182668e5210aed407c3a0b81e20be4c2ef7511d86b"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 239101,
+      "sha256": "19a6329209deb00211af491382233c3175861b32367af3695d3b642d75e65d48"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 164868,
+      "sha256": "56dd502b46212c4dd21dfa67a6b10c05df0dab25053b855217be7b72114b4868"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 196194,
+      "sha256": "b8851433a4ccec4160790fa60f9f5269c3dd5b9bcd21a38c187866343ab23703"
+    },
+    {
+      "path": "avatar/1.png",
+      "size": 844821,
+      "sha256": "152c69eb3177396b72d7f3ba2a003e15a7fb744bd5a77d47054299ba9bfbdc91"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 8372,
+      "sha256": "dfb0545abb90e918267e69277767b26e228e643d21409af59370b73446229acd"
+    },
+    {
+      "path": "models/main.json",
+      "size": 132595,
+      "sha256": "2a7dd18e7dda50c6570a606bb5f6824a7ca54e374a76f439a97db22cf6bf354f"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 10568,
+      "sha256": "2f1de1a72791a2fd8c8612f129d6fdaf825d6f7093c77aa09b77c5f65af9a652"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1374,
+      "sha256": "555c7e056b99a53857b73207fdcb2c623bff0fa7821172467a063731c17ff713"
+    }
+  ]
+}

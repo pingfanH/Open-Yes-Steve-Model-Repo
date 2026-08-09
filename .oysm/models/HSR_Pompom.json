@@ -1,0 +1,78 @@
+{
+  "id": "HSR_Pompom",
+  "path": "parsed/HSR_Pompom",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Pompom.zip",
+    "type": "zip",
+    "stem": "HSR_Pompom"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "HSR_Pompom"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Pompom_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10307,
+      "sha256": "7d6fb9fb306773d060866dc8dd7cc617903d7b77fee5cd86c1173a472b805993"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 275041,
+    "sha256": "9a6c94f218c0f812cecf6c645366b485003f738bf918688de5e22d2851db1607",
+    "bones": 64,
+    "cubes": 271,
+    "faces": 1626,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 12917,
+      "sha256": "a9abc12ae295c41b8dba9126ff5c4a0b80a49ea2942772d8ccf2e2648bc5a1c0"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 104151,
+      "sha256": "b438fbd143574e81a5bbe8929af88f82a65e522c3a6ad072d8afa0c0a96d17a2"
+    },
+    {
+      "path": "main.json",
+      "size": 139706,
+      "sha256": "5664ebbd535a5037a4c98815ff24e4957d4033695bce2e39b42fbcbdbf04bdbc"
+    },
+    {
+      "path": "texture.png",
+      "size": 18267,
+      "sha256": "9be121c45dde568cd9d7ce74d684bffe3012ed73ac2f700db50bf897a893e94b"
+    }
+  ]
+}

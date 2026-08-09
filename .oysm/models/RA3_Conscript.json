@@ -1,0 +1,99 @@
+{
+  "id": "RA3_Conscript",
+  "path": "parsed/RA3_Conscript",
+  "source": {
+    "path": "_RedAlert/RA3_Conscript.ysm",
+    "type": "ysm",
+    "stem": "RA3_Conscript"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "征召兵",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/RA3_Conscript_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6730,
+      "sha256": "4a022316d0859dc6a1194b77cd40ecae56c8b9b97e2e635de62e4dfa4e7b108e"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 357580,
+    "sha256": "1c6360db7e97f453f31ef4a25b34af6e5381172de09af74fcafd53a9b043916b",
+    "bones": 41,
+    "cubes": 163,
+    "faces": 978,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 9235,
+      "sha256": "d023f4ec3f9c0b101fa00d4e26204f32cb5cfff18bb8ec20a12e18ab1ea03f01"
+    },
+    {
+      "path": "info.json",
+      "size": 127,
+      "sha256": "855e41e3363010633ab7002cbf1c634386b3189102d38b63563c7e2b72309ce0"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122470,
+      "sha256": "d93402d24863ccd84622801424bb845d8ff78161fae9d48b7bbf0c3d213720c1"
+    },
+    {
+      "path": "main.json",
+      "size": 75667,
+      "sha256": "43f2fd413a65e6bfdf99096503d436f8a53668ffcb873d6ad98cb84002c59da8"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131639,
+      "sha256": "a73cf95259743cc506fa6931e6bed68e0e41c5edca8f4651f26f1a42c1e26994"
+    },
+    {
+      "path": "texture.png",
+      "size": 18442,
+      "sha256": "e549c50d3f1eb29101590c632b9068d7c1f0598f494dc3d3d6d9051ce3f1f623"
+    }
+  ]
+}

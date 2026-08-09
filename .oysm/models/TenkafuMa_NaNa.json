@@ -1,0 +1,353 @@
+{
+  "id": "TenkafuMa_NaNa",
+  "path": "parsed/TenkafuMa_NaNa",
+  "source": {
+    "path": "_TenkafuMa/TenkafuMa_NaNa.ysm",
+    "type": "ysm",
+    "stem": "TenkafuMa_NaNa"
+  },
+  "ysm": "parsed/TenkafuMa_NaNa/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/过劳的娜娜喵.png",
+        "comment": "魔王城的苦命加班猫",
+        "contact": {
+          "QQ": "2038937688"
+        },
+        "name": "过劳的娜娜喵",
+        "role": "娜娜"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://ifdian.net/a/Phoenix123",
+      "home": "https://space.bilibili.com/1492446334?spm_id_from=333.1007.0.0"
+    },
+    "name": "娜娜",
+    "tips": "在凯萨还不是魔王之前，娜娜就是凯萨认识多年的好友。尽管外表可爱，但我行我素的性格\n让娜娜面对成为魔王的凯萨也毫无尊敬之情，总是用辛辣的毒舌与他说话。作为一名常识人兼魔王下属，娜娜经常因为凯萨毫无常识且破天荒的命令而疲于奔命，并且担任着“吐槽”的重责大任。即使是娜娜本人也无法分辨自己对凯萨本人的感情究竟是友情还是爱情，不过娜娜无庸置疑是凯萨最为倚赖的左右手。\n‘笨蛋凯萨，快点工作喵!’\n注：本模型免费使用，如果你是付费得到，那么请立刻和作者联系"
+  },
+  "properties": {
+    "width_scale": 0.77,
+    "height_scale": 0.77,
+    "extra_animation": {
+      "配置1": "#extra_config",
+      "配置2": "#新配置1",
+      "extra0": "鸭子坐",
+      "extra1": "挥手",
+      "extra2": "拍手",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "extra5": "吃惊",
+      "extra6": "看招！",
+      "extra7": "等等！",
+      "extra8": "异议！",
+      "extra9": "doodle摇",
+      "extra10": "不要！",
+      "extra11": "鸭子坐2",
+      "extra12": "鄙视",
+      "extra13": "青海摇",
+      "extra14": "躺尸",
+      "extra15": "坐下",
+      "sit16": "坐下2",
+      "extra17": "坐下3",
+      "extra18": "恼怒"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "配置1",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "改变玩家大小",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          },
+          {
+            "type": "checkbox",
+            "title": "猫头头饰",
+            "description": "用来显示或开启猫头头饰",
+            "value": "v.catheaddress"
+          },
+          {
+            "type": "checkbox",
+            "title": "鱼形头饰",
+            "description": "用来显示或开启鱼型头饰",
+            "value": "v.fishheaddress"
+          },
+          {
+            "type": "checkbox",
+            "title": "手臂饰品",
+            "description": "用来显示或开启手臂饰品",
+            "value": "v.catarmdress"
+          },
+          {
+            "type": "checkbox",
+            "title": "手臂黑丝",
+            "description": "用来显示或开启手臂黑丝",
+            "value": "v.blacksilk2"
+          },
+          {
+            "type": "checkbox",
+            "title": "黑丝",
+            "description": "用来显示或开启黑丝",
+            "value": "v.blacksilk"
+          },
+          {
+            "type": "checkbox",
+            "title": "腰部猫爪饰品",
+            "description": "用来显示或开启腰部猫爪饰品",
+            "value": "v.paw"
+          },
+          {
+            "type": "checkbox",
+            "title": "逆转气泡文字",
+            "description": "用来显示或开启逆转气泡文字",
+            "value": "v.object"
+          }
+        ]
+      },
+      {
+        "id": "新配置1",
+        "name": "配置2",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "上衣",
+            "description": "用来显示或开启上衣",
+            "value": "v.upcloth"
+          },
+          {
+            "type": "checkbox",
+            "title": "裙子",
+            "description": "用来显示或开启裙子",
+            "value": "v.skirt"
+          },
+          {
+            "type": "checkbox",
+            "title": "靴子",
+            "description": "用来显示或开启靴子",
+            "value": "v.boot"
+          },
+          {
+            "type": "checkbox",
+            "title": "手套",
+            "description": "用来显示或开启手套",
+            "value": "v.gloves"
+          },
+          {
+            "type": "checkbox",
+            "title": "手部模型",
+            "description": "用来更换手部模型",
+            "value": "v.hands"
+          },
+          {
+            "type": "checkbox",
+            "title": "尾巴模型",
+            "description": "用来更换尾巴模型",
+            "value": "v.tail"
+          },
+          {
+            "type": "checkbox",
+            "title": "头发模型",
+            "description": "用来更换头发模型",
+            "value": "v.hear"
+          },
+          {
+            "type": "radio",
+            "title": "单选框",
+            "description": "鼠标指上显示单选框名",
+            "value": "v.value_radio",
+            "labels": {
+              "§0set 0": "v.value_radio = 0; v.real_radio = 1",
+              "§1set 1": "v.value_radio = 1; v.real_radio = 2",
+              "§3set 2": "v.value_radio = 2; v.real_radio = 3",
+              "§4set 3": "v.value_radio = 3; v.real_radio = 4.1",
+              "§5set 4": "v.value_radio = 4; v.real_radio = 5.2",
+              "§6set 5": "v.value_radio = 5; v.real_radio = 6.3",
+              "§7set 6": "v.value_radio = 6; v.real_radio = 7.4"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "preview_animation": "gui",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture2.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/TenkafuMa_NaNa_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 23981,
+      "sha256": "79e3caae2baadc747295d989d1908b1266039044aea443fbe7ddb0096adee2bb"
+    }
+  },
+  "stats": {
+    "file_count": 21,
+    "total_bytes": 4772137,
+    "sha256": "afc01ddcd8a37d7e66738fe250b9498da741054cf6f73dd9df5adfc7871e79a1",
+    "bones": 560,
+    "cubes": 1460,
+    "faces": 8760,
+    "textures": 1,
+    "materials": 1,
+    "animations": 6,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 183659,
+      "sha256": "327c1febd3f0378b9ab05016c9ee44ea6e58648349f7e8e7eee34177c335c0d1"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3315,
+      "sha256": "d9b5c09c214f91083d5b31384095b8c91fdd69d6697eea821ef65d6de714e011"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 470004,
+      "sha256": "fed4f603b7c7de2601a3ac88fab0d0e8f553eaa80d6b662552d0ea1eed0d453f"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 370933,
+      "sha256": "c61d90bc0e30d8fbffcba64a348d253a1e30ab1c88230fab690222ee0c3707ca"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1511655,
+      "sha256": "43831b1bc3f47b18bb8644baa75d0c001a3be39ea78f044428db741f2c52f6a9"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 134025,
+      "sha256": "b87846ce385cee27389b96090e1b7eafa42cbefe862a8f462c825aa3f4109907"
+    },
+    {
+      "path": "avatar/过劳的娜娜喵.png",
+      "size": 23740,
+      "sha256": "7ffb0998cfd90e7a18ac7a5360e4bb396b40966993d21e58cb8db0ce410d5b34"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 3963,
+      "sha256": "0f9c5538297c58434a1147512d636766644561b97e85727f0767631f2a86c8d6"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 50452,
+      "sha256": "5c45717db6e793ae8b93c55d0bc7a5d1126e811e02a5976f5e8c1db9118bf776"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13725,
+      "sha256": "605fc04a716cfd12d30b5d6fb5d6db461504bd2f8da602fe078a4f57b4d71c71"
+    },
+    {
+      "path": "models/main.json",
+      "size": 791230,
+      "sha256": "67b91fa3b9b942166370596279a864f940c65367dd82fea4774f8d66a0873e9c"
+    },
+    {
+      "path": "sounds/angry.ogg",
+      "size": 418357,
+      "sha256": "7f85d86efa26d4b11cafc5fee6b46249dce8d13d1a75fa6b21a646fa7fb3c158"
+    },
+    {
+      "path": "sounds/doodle.ogg",
+      "size": 392624,
+      "sha256": "868c7abc9ab9891f411feb451def025386abc1379655869e591e933779b34fd0"
+    },
+    {
+      "path": "sounds/gui.ogg",
+      "size": 90728,
+      "sha256": "084db79579ecde51019b7d77035c917ed007c88307525a46dda9bd010808f33b"
+    },
+    {
+      "path": "sounds/holdit.ogg",
+      "size": 32991,
+      "sha256": "91ee921c759a9bd582a2ad83caf2396ee1a64842d6cd9072ac8c265a05be4efc"
+    },
+    {
+      "path": "sounds/hover_fadeout.ogg",
+      "size": 44238,
+      "sha256": "34da29639ccc4d4bab54357ab551d56ede166c20918674def2f36dc16e26d083"
+    },
+    {
+      "path": "sounds/object.ogg",
+      "size": 35852,
+      "sha256": "d62ff181fe577d774b524c1240dd257b9ae83420bba80a3a861047818b954737"
+    },
+    {
+      "path": "sounds/takethat.ogg",
+      "size": 36880,
+      "sha256": "2c0c39a9c71f795a5238f0e90550aab977412a28851db5db71c08d54f235f698"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2686,
+      "sha256": "197669635bbf7b8cf8892b6912e428c92c66aac37ea2d3f1a174c9a04b2b64f6"
+    },
+    {
+      "path": "textures/texture2.png",
+      "size": 156581,
+      "sha256": "8a89ca1c3bdd73b2c76887213b782cc17617c770666f3b4339e82e958855e151"
+    },
+    {
+      "path": "ysm.json",
+      "size": 4499,
+      "sha256": "844b298da25c98b4c16a1e895445910fc0277d9255f19f0a55dfe70c293ae48f"
+    }
+  ]
+}

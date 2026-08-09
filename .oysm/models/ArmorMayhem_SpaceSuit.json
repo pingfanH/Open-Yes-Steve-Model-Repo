@@ -1,0 +1,146 @@
+{
+  "id": "ArmorMayhem_SpaceSuit",
+  "path": "parsed/ArmorMayhem_SpaceSuit",
+  "source": {
+    "path": "_ArmorMayhem/ArmorMayhem_SpaceSuit.ysm",
+    "type": "ysm",
+    "stem": "ArmorMayhem_SpaceSuit"
+  },
+  "ysm": "parsed/ArmorMayhem_SpaceSuit/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/RevolverToshin.png",
+        "comment": "chair",
+        "name": "RevolverToshin",
+        "role": "Creator"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Space Suit",
+    "tips": "From Armor Mayhem"
+  },
+  "properties": {
+    "width_scale": 1.0,
+    "height_scale": 1.0,
+    "extra_animation_classify": [],
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/Red.png"
+        },
+        {
+          "uv": "textures/Blue.png"
+        },
+        {
+          "uv": "textures/Yellow.png"
+        },
+        {
+          "uv": "textures/Green.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/ArmorMayhem_SpaceSuit_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 1538,
+      "sha256": "7248958e434424a9fcbee036333ee3e68a68a667a3db10cda53d80330ba96270"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 341760,
+    "sha256": "e4d04c90775c3b3a878ac6e9126ee7fb87f26d4ecd4d7347aff6dc8e59fc4657",
+    "bones": 60,
+    "cubes": 75,
+    "faces": 450,
+    "textures": 4,
+    "materials": 4,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/main.animation.json",
+      "size": 128611,
+      "sha256": "daed380f7e7f66c1366c1ece818248dd367d51a219a3993a5cbabef4a70385e5"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 133335,
+      "sha256": "b318da666055faa5af34d21b6391609957c4503904cbf93913d97a73c233bee7"
+    },
+    {
+      "path": "avatar/RevolverToshin.png",
+      "size": 21611,
+      "sha256": "0d1d3f70f4320195eb86fa2a82d60a4d4851db748e927270239eb0747cb3ed86"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 8955,
+      "sha256": "089159f15c18341cc108b58b6a3a886148961816ea4371eef2f41d4df263a0f2"
+    },
+    {
+      "path": "models/main.json",
+      "size": 29074,
+      "sha256": "e98219b212403b13b846fe4696e6aa6bb0ee59fc1b94ff3658fdf231e4529b1f"
+    },
+    {
+      "path": "textures/Blue.png",
+      "size": 4850,
+      "sha256": "f191c02d6ba0cdc32589a326b8841a918b5f95fcbeb3cb19567adfc89afaf847"
+    },
+    {
+      "path": "textures/Green.png",
+      "size": 4849,
+      "sha256": "69468dee8459e0573230b74498cb46a72b5f81c97d19847d79dc6b7bc7f5b98f"
+    },
+    {
+      "path": "textures/Red.png",
+      "size": 4816,
+      "sha256": "b87e1da87b8aec3075096dda22b4d9e2b1b4e11d1a6de6f8d9039df8dff923af"
+    },
+    {
+      "path": "textures/Yellow.png",
+      "size": 4838,
+      "sha256": "cf6cbc3f408bab2f69a8ed6c5f0233fb69ed8ee9c4451d35fae9a1d050e6717f"
+    },
+    {
+      "path": "ysm.json",
+      "size": 821,
+      "sha256": "38fd7c997fcec8a72e53dde7784ad4a9b3564b64df6a7ad165755d7b35261997"
+    }
+  ]
+}

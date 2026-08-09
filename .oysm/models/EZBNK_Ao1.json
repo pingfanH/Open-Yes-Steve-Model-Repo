@@ -1,0 +1,200 @@
+{
+  "id": "_EZBNK_Ao1",
+  "path": "parsed/_EZBNK_Ao1",
+  "source": {
+    "path": "Uncategorized/_EZBNK_Ao1.ysm",
+    "type": "ysm",
+    "stem": "_EZBNK_Ao1"
+  },
+  "ysm": "parsed/_EZBNK_Ao1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/OBJ.png",
+        "comment": "Hehe",
+        "contact": {
+          "IG": "@Warbuja_"
+        },
+        "name": "OBJ",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "name": "Ezbinka R",
+    "tips": "Ezbinka, cutie elf."
+  },
+  "properties": {
+    "width_scale": 0.6,
+    "height_scale": 0.6,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "Sit",
+      "extra7": "",
+      "Extra 8": "MIirror",
+      "extra9": "Sit/wBlanket",
+      "VERGIL": "Chaired",
+      "extra10": "Pointing",
+      "Tpose Your Opponen": "Tpose Your Opponen",
+      "extra11": "Squating",
+      "extra12": "shyly",
+      "Chaired": "Chairlenger",
+      "extra13": "Rotary"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "GUI",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png",
+          "specular": "textures/default_specular.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/EZBNK_Ao1_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5513,
+      "sha256": "f3d650e2634bd836b08b94e41e4a8a97d00c268573ef7259dee98a4d3f4721ce"
+    }
+  },
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 1841038,
+    "sha256": "c6ce494df1804a4acbe8a8f0f69be1ae3e70169ae093b4478dbeb1a15a5f7297",
+    "bones": 264,
+    "cubes": 1633,
+    "faces": 9798,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 139177,
+      "sha256": "280f33eb6a92205a9220065a6dd89841d79c26af870f76ff3c409394701e99cc"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3534,
+      "sha256": "e70945eea3f1f37870a4ad503755f7d569440d4bee3be01bcc99fca42b7f9c1f"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 116297,
+      "sha256": "31ca8245e851587439259c253a2a11a3f4e6e86e60f1f4a73b1c199fbb6e8010"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 218831,
+      "sha256": "1a0de1ca250aef2bb8466495d3f02b4b297cc90f52328251369216c199222b6c"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 186562,
+      "sha256": "c8ea10a5d0cc46fab8dd6ed434306e4c8995088ee8ba0b0ff801d8b74eea6b0b"
+    },
+    {
+      "path": "avatar/OBJ.png",
+      "size": 34240,
+      "sha256": "cdc8f247f1ff7ba00dddaa370f15b42e5c58d54b81cf8bf6b9503729db58d332"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 5629,
+      "sha256": "a4a3852232d6c37a49147f52fdb87315b803920311a8f012953977d4e06fd162"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 917019,
+      "sha256": "0a81f1fa525779e67a9ce032db1e54791492b9ca6b0be9185743c211312ce630"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 34059,
+      "sha256": "cac87e4b0712d4ea9f76ad6f667e63e5c106cc95f2d5c738a3b40761e4155392"
+    },
+    {
+      "path": "textures/default_specular.png",
+      "size": 3548,
+      "sha256": "d4a57548f83dc9f25cfd292135ac6dc28cbe4eb6610b572a4537c276f67a6f54"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1400,
+      "sha256": "5e001b63dc49319d512b7cf8790d0db266fb739aab5bc1a532c8979be445289b"
+    }
+  ]
+}

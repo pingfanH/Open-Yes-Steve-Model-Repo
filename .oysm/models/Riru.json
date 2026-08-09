@@ -1,0 +1,155 @@
+{
+  "id": "_Riru",
+  "path": "parsed/_Riru",
+  "source": {
+    "path": "Uncategorized/_Riru.ysm",
+    "type": "ysm",
+    "stem": "_Riru"
+  },
+  "ysm": "parsed/_Riru/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/A_su.png",
+        "comment": "一个刚开始学习ysm创作的小白-w-",
+        "contact": {
+          "Afdian": "https://afdian.com/a/A_suuuuuuuuu",
+          "bilibili": "https://space.bilibili.com/524666730/dynamic"
+        },
+        "name": "A_su",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/A_su.png",
+        "comment": "没错还是我",
+        "contact": {
+          "Afdian": "https://afdian.com/a/A_suuuuuuuuu",
+          "bilibili": "https://space.bilibili.com/524666730/dynamic"
+        },
+        "name": "A_su",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.net/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Riru",
+    "tips": "谁会拒绝一只可爱的小狼呢（？"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "没做（",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "彳亍",
+      "extra4": "不彳亍",
+      "extra5": "好耶",
+      "extra6": "poss",
+      "extra7": "没做（"
+    },
+    "preview_animation": "xuanzedonghua",
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/Riru.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Riru_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3502,
+      "sha256": "1cae002260c3b5e65ce695974bf0e11c67561e18ba3889e85f4cc60c72be5242"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 1402635,
+    "sha256": "e2ec6221bfe7293eb843a9fbec64d8b93c7664916f3f7f5c8f192541d4bba3eb",
+    "bones": 126,
+    "cubes": 426,
+    "faces": 2556,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3758,
+      "sha256": "b92db7403f5799a2edb1fdab07cc8a4a60b55a3c2831b03c5777e17d146bb738"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 34269,
+      "sha256": "5b2392a4b92f3f8ffd44325ae531b2d4f0d4ecad673ff8f21775513be796c79d"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 367356,
+      "sha256": "b41b98fee3520335d867d3d79b4d410989213251093ed4780cbf429d45cb5e5c"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 132915,
+      "sha256": "c2d1274e2c1368df6e192ca84979c249fbe60d885adc048d4f51748445f79c49"
+    },
+    {
+      "path": "avatar/A_su.png",
+      "size": 556101,
+      "sha256": "1120ea3c52f1f2ae5dd6d1a58e99db2172b15e9c864b4578c89d1b500c07a615"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 14698,
+      "sha256": "ea51d7cd4fe040a1edd113df4bd457220714a3a65adfe739179d92d495769c14"
+    },
+    {
+      "path": "models/main.json",
+      "size": 221364,
+      "sha256": "b00a15124b5019a2276f9aa2ecad4fc3463a45e69ab81b585888824831c0f5d9"
+    },
+    {
+      "path": "textures/Riru.png",
+      "size": 70895,
+      "sha256": "f66f3b6eb01dad52aabf79f0dbbfcbaaa592ab6195640f89a14f95f373ebece5"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1279,
+      "sha256": "1dd42738a16ed65d80cc8bdd77caddca481125de27eae143fd2eb2e4527fcdc7"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "id": "_bamamei_xuejie_v123.1",
+  "path": "parsed/_bamamei_xuejie_v123.1",
+  "source": {
+    "path": "Uncategorized/_bamamei_xuejie_v123.1.ysm",
+    "type": "ysm",
+    "stem": "_bamamei_xuejie_v123.1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "巴麻美学姐",
+    "tips": "这里是麻美学姐~学生制服装",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "@B站 平衡芝光"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "arrow.png",
+        "brown1white.png",
+        "brown2white.png",
+        "white1black.png",
+        "white1red.png",
+        "white2black.png",
+        "white2red.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "arrow": "arrow.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/bamamei_xuejie_v123.1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6416,
+      "sha256": "e3064b8019e746b02ccee861f16279691258fc5d488f2d850841b0be822c58b1"
+    }
+  },
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 1041345,
+    "sha256": "39b120273b67a9770ad2dda5431c8a221dea9fe15a8b4b446239f580322c59cc",
+    "bones": 121,
+    "cubes": 821,
+    "faces": 4926,
+    "textures": 7,
+    "materials": 7,
+    "animations": 6,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 121522,
+      "sha256": "d226fbab9b0997cfc408a854e66905b4d333cf1649ec584e418d541dc03b83fd"
+    },
+    {
+      "path": "arm.json",
+      "size": 19040,
+      "sha256": "602cfb294245baac5497e211658a6248bd3d2cf6da1b281a76ad73de76fcd977"
+    },
+    {
+      "path": "arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "brown1white.png",
+      "size": 16585,
+      "sha256": "43c9702c56e14dac2d6b97cee1ce73e993dc1b06620d0e05398598801084cb7f"
+    },
+    {
+      "path": "brown2white.png",
+      "size": 16787,
+      "sha256": "845118e2d24fed0b4c6b788d41cd789436017f1b277d44d255f20a12ca5363b5"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 3187,
+      "sha256": "6e8c1d5e45c625036ec3473d5e90d90fc216240df425ba02fa871546f70d6759"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 93551,
+      "sha256": "1de26e5809e2a99bef1cc880770c94eb1c4b5aba5e549f2065d39f4facadccc1"
+    },
+    {
+      "path": "info.json",
+      "size": 257,
+      "sha256": "3b2b67740150ade4f40c3aedd89c61e1d9425d3ae48071881f8fed1e245ffe73"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 126021,
+      "sha256": "53446c79ceb1040f8a715badf0e09d07b171c4bfcf3896e4b95db4d40eac92e7"
+    },
+    {
+      "path": "main.json",
+      "size": 435460,
+      "sha256": "83aae2e61843dca6f9cdc62aa10ef732182585fbf3c528b9164a090c5c51ae10"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "white1black.png",
+      "size": 16659,
+      "sha256": "e0e4a9a1b288c2001c55f2eed86b6867e51ff74d1bc6075b8b00c1bc03526058"
+    },
+    {
+      "path": "white1red.png",
+      "size": 16663,
+      "sha256": "4d171a8ba7f9bd2150dc51fba4264f97d9f36cedce2448ce7755a7c7f065eea3"
+    },
+    {
+      "path": "white2black.png",
+      "size": 16898,
+      "sha256": "697bec8a88dd184a1beaaaab45404f04d1f4dca74328c699d2f7ce2d5929a622"
+    },
+    {
+      "path": "white2red.png",
+      "size": 16960,
+      "sha256": "ac098937f258c237c8cb645baa8ea24f6a9e401ffd0115ff8c671b606cbb3527"
+    }
+  ]
+}

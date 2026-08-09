@@ -1,0 +1,90 @@
+{
+  "id": "SenrenBanka_Murasame",
+  "path": "parsed/SenrenBanka_Murasame",
+  "source": {
+    "path": "_SenrenBanka/SenrenBanka_Murasame.ysm",
+    "type": "ysm",
+    "stem": "SenrenBanka_Murasame"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "SenrenBanka_Murasame"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "murasame.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/SenrenBanka_Murasame_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7863,
+      "sha256": "eb9238e9a418ad41189aeff31d918b751ef2705be8f9009d05cc9b9b6dd15ac8"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 427008,
+    "sha256": "441845337eab4d80823a8d52c4c9c148916fba30dda1af4a121fde2e4d08fc0f",
+    "bones": 121,
+    "cubes": 409,
+    "faces": 2454,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 26,
+      "sha256": "216c8a918d39cac2fe7e1082d76c54d78af3867eac4b1e22193fcd12431e138b"
+    },
+    {
+      "path": "arm.json",
+      "size": 12553,
+      "sha256": "bdf77ec9edf2731cc882fb43ed2eecadcedca951144e3f9f7928c7d5ce522032"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 32462,
+      "sha256": "a05047ff2911d18a6cfcd6e7de448cbd6284df00c2ac7907a43e4302ff8003aa"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 162272,
+      "sha256": "6ab6ff862b9657776d4ab8b6080219d8acd0ae6df23f896efa53c56d6fcb3e09"
+    },
+    {
+      "path": "main.json",
+      "size": 205810,
+      "sha256": "90aff2513ade3f8653f6420702c432ff3589964afef6e177c4227faf26bd14fd"
+    },
+    {
+      "path": "murasame.png",
+      "size": 13885,
+      "sha256": "4d00b443fd14740d88af2067cefadbbb003a69d66819094bc62b407c09a624ad"
+    }
+  ]
+}

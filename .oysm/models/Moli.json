@@ -1,0 +1,84 @@
+{
+  "id": "_Moli",
+  "path": "parsed/_Moli",
+  "source": {
+    "path": "Uncategorized/_Moli.zip",
+    "type": "zip",
+    "stem": "_Moli"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_Moli"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "mari.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Moli_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 19456,
+      "sha256": "cc9fb2ce9ff429f00de5bf9b1fa4c61409181f6105c53eb5567e1976abef3d67"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 1316529,
+    "sha256": "0ceb2c5cb8438d450c8b11068d479bc7ee80dc289ea887bc6d253d0f93beba23",
+    "bones": 243,
+    "cubes": 2035,
+    "faces": 12210,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 58336,
+      "sha256": "2f56501759f51527ef5c9c408400bb9439b00188515387bc131513add5564535"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 25847,
+      "sha256": "bee6623ff003203ccd027e3c7dd0b1694024bf2b1635726ac8cae279d4735840"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 146465,
+      "sha256": "f5b59dc249a2c44ce6fbec4b977d832b3f10d394ab17bc702f33d7d33f5009ed"
+    },
+    {
+      "path": "main.json",
+      "size": 1050264,
+      "sha256": "8922e18a0e5497844c5ec166cb3f5cc70b0f41a1df23902f439719b6ff652ab1"
+    },
+    {
+      "path": "mari.png",
+      "size": 35617,
+      "sha256": "6f7bf2920ee396051f201bb5602f29f793a4a031e6c757f1b5ae4ceac40a586b"
+    }
+  ]
+}

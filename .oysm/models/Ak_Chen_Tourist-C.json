@@ -1,0 +1,161 @@
+{
+  "id": "Ak_Chen(Tourist-C)",
+  "path": "parsed/Ak_Chen(Tourist-C)",
+  "source": {
+    "path": "_Arknights/Ak_Chen(Tourist-C).zip",
+    "type": "zip",
+    "stem": "Ak_Chen(Tourist-C)"
+  },
+  "ysm": "parsed/Ak_Chen(Tourist-C)/ysm.json",
+  "metadata": {
+    "name": "陈",
+    "tips": "普通人的普通作品",
+    "license": {
+      "type": "CC BY-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "一个普通的创作者"
+      }
+    ]
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "变",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "preview_animation": "gui",
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [
+        "controller/main.animation_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Chen_Tourist-C_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 21727,
+      "sha256": "bc8074d4748836c8418aa51a0cc586785490d308cd0e425e6dee8b02015ff29f"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 3494972,
+    "sha256": "4afb611b31c463c7b4f789e4d5fa891e1f71609a29bdc31c7e63fbc614fbbd94",
+    "bones": 230,
+    "cubes": 2239,
+    "faces": 12444,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 245297,
+      "sha256": "832b6d790db49c1807705e62a906bb550b2c6533746dcbe9f3e683a7f83331cb"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3923,
+      "sha256": "2e3bd3801fdd7721041f22a5a016414deeac2b35793b2c2a0596a1630cfa0889"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 120287,
+      "sha256": "7ee51e9b9fc8d4b4b690c263d80668772d37f4adf048cc8d62cd8afef1892c27"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 256008,
+      "sha256": "7042a9ad82e84e1a41a8e3ca62922f60ef4cf437ca8ac7ce270ff407f13ecf6f"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 164868,
+      "sha256": "85f8114dce69f142d5516cd237ca63ef02dc7e655a82076387a66d05e7610700"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1155215,
+      "sha256": "96c08d728ab6894ffaea43cef861e6452bf2f4b56012b400bf0c2ff4c6f1160e"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 319650,
+      "sha256": "735719628b7452bdd43500b9da01f33210e1ade38ed8b8627e2bf13c9ca5de0c"
+    },
+    {
+      "path": "controller/main.animation_controllers.json",
+      "size": 1970,
+      "sha256": "21018d04c86b796396e8fed83739124cc62f15feac08085ee2a4931cc6bfe239"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 48957,
+      "sha256": "27847912775215c00477c234cc9bc4767e456c79077ee2a2a3b357a0bd85a9a6"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1069077,
+      "sha256": "731f6a475685d8852dd663738ec8d6adbc63ac123984330ea05cc925600cccb2"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 67498,
+      "sha256": "6eb38c2eccbbce863695312d7f6c55a2625c8c2d9ffba4ca5b21538c2ab93e71"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1192,
+      "sha256": "5a88c3f871171e99a2b312345ac353e5927ac13838ab831014a7a851ac339989"
+    }
+  ]
+}

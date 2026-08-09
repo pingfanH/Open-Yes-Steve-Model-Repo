@@ -1,0 +1,248 @@
+{
+  "id": "_CatDad",
+  "path": "parsed/_CatDad",
+  "source": {
+    "path": "Uncategorized/_CatDad.ysm",
+    "type": "ysm",
+    "stem": "_CatDad"
+  },
+  "ysm": "parsed/_CatDad/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/地球翼_CRW.png",
+        "comment": "耄耋耄耋我们喜欢你",
+        "contact": {
+          "bilibili": "https://space.bilibili.com/407471519"
+        },
+        "name": "地球翼_CRW",
+        "role": "模型及动画"
+      }
+    ],
+    "license": {
+      "desc": "开源开源，欢迎大家拿去玩",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "CatDad",
+    "tips": "CatDad（耄耋）"
+  },
+  "properties": {
+    "width_scale": 0.75,
+    "height_scale": 0.75,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "#extra_classify": "耄耋出击"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "Simple Config",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra11": "哈气警告",
+          "extra12": "帝王引擎"
+        }
+      }
+    ],
+    "default_texture": "CatDad",
+    "preview_animation": "idle",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/CatDad.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CatDad_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 28520,
+      "sha256": "6c00434c109153cb3aef84a1fe356ddf073686ccd1c57c1f5839aa1b172faff0"
+    }
+  },
+  "stats": {
+    "file_count": 21,
+    "total_bytes": 3194419,
+    "sha256": "807c19d74bf2e8c44e7e3277c19d87797d79b34c134c7c0cd840805e1a23ed59",
+    "bones": 75,
+    "cubes": 65,
+    "faces": 390,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178851,
+      "sha256": "80a3d006e4497b2c9d33a57f2d8b05246b67f8f9990028730f15fe612bd38a83"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 108229,
+      "sha256": "dd74f2b21bc047569d70d4f6698a294ec00277ca39c3f2cddeb68870ac28146b"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 184746,
+      "sha256": "66ba97d810ecef66027a6483495e507575ee1b51e38d9b2c7715fb2380ee2fa4"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 617,
+      "sha256": "58a5a4f99a17e863505e5d985c5342fafccf53eeb5799a572dff4156086be4ad"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 5489,
+      "sha256": "7830245db677dbc26752f3c3bb72d47e61886056750ea03e1397be469bdf27a1"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 1200,
+      "sha256": "4e48597b6e54597c26fe96fbdc7516d00bc2c2f612aff8fdb6bef0aedf3ad356"
+    },
+    {
+      "path": "models/main.json",
+      "size": 35143,
+      "sha256": "181afb6b4d1bc5d6ba6d54ed91b5f6686615a51a62776a11579233d3f8e2a24f"
+    },
+    {
+      "path": "sounds/HQ01.ogg",
+      "size": 93221,
+      "sha256": "1a0270e5cc150964caa2ab28e57fc0ff6bcf989d79451c6edb0ffbb20893eed9"
+    },
+    {
+      "path": "sounds/HQ02.ogg",
+      "size": 28888,
+      "sha256": "2f3c25c1966a46e3778074e40881ea4e571a49d80164283f2aac9b1cb288f3cc"
+    },
+    {
+      "path": "sounds/HQ03.ogg",
+      "size": 8051,
+      "sha256": "68e7814046fa34839a565646737ddde323fabeef77a1432091355bd1e2775399"
+    },
+    {
+      "path": "sounds/yq01.ogg",
+      "size": 71403,
+      "sha256": "2a5b25dc9dfd84078a1e7a22b805111d6c35dfa2832eebdc795317e57d460384"
+    },
+    {
+      "path": "textures/CatDad.png",
+      "size": 33166,
+      "sha256": "0b156f80b150c93b34a0f3ee498cb6de0318455e39991bac61a4754d3d337803"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 5160,
+      "sha256": "ee894d99c22c3e1bcb9e94c7814370ca79fd4884fbcee808fc615a67f371237c"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1860,
+      "sha256": "8eb171ed79f273050fcc4b92c6e91d70a6e12182d65653ab0ab9e1656537fbbf"
+    }
+  ]
+}

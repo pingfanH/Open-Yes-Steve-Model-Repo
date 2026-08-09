@@ -1,0 +1,379 @@
+{
+  "id": "AK_Chen",
+  "path": "parsed/AK_Chen",
+  "source": {
+    "path": "_Arknights/AK_Chen.ysm",
+    "type": "ysm",
+    "stem": "AK_Chen"
+  },
+  "ysm": "parsed/AK_Chen/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/日月明567.png",
+        "comment": "我要玩终末地",
+        "contact": {
+          "爱发电": "https://afdian.com/a/rym567?tab=home"
+        },
+        "name": "日月明567",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "陈",
+    "tips": "不玩明日方舟，陈sir会抓走妈妈的"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#服装配置",
+      "extra1": "#坐标调整【我要玩终末地】",
+      "#立绘 基建": "立绘和基建动作",
+      "#一些动作": "一些动作",
+      "#嘿嘿嘿": "嘿嘿嘿",
+      "#原版的东西": "原版的东西",
+      "": "#表情o-O"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "表情o-O",
+        "name": "表情o-O",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "眼睛",
+            "description": "(⊙o⊙)？",
+            "value": "v.e",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 6.0
+          },
+          {
+            "type": "range",
+            "title": "小嘴巴",
+            "description": "喵喵喵",
+            "value": "v.m",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 8.0
+          },
+          {
+            "type": "checkbox",
+            "title": "惊讶",
+            "description": "惊讶",
+            "value": "v.jy"
+          },
+          {
+            "type": "checkbox",
+            "title": "生气",
+            "description": "生气",
+            "value": "v.sq"
+          },
+          {
+            "type": "checkbox",
+            "title": "害羞",
+            "description": "害羞",
+            "value": "v.hy"
+          },
+          {
+            "type": "range",
+            "title": "眼睛高光",
+            "description": "眼睛高光",
+            "value": "v.gg",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "type": "checkbox",
+            "title": "带走你的妈妈",
+            "description": "表情包",
+            "value": "v.sc"
+          }
+        ]
+      },
+      {
+        "id": "服装配置",
+        "name": "服装配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "外套",
+            "description": "开/关",
+            "value": "v.wt",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "type": "range",
+            "title": "靴子/足",
+            "description": "合乎粥礼（开/关）",
+            "value": "v.xz",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 1.0
+          }
+        ]
+      },
+      {
+        "id": "坐标调整【我要玩终末地】",
+        "name": "坐标调整【我要玩终末地】",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "左右",
+            "description": "左右",
+            "value": "v.zy",
+            "step": 1.0,
+            "min": -10.0,
+            "max": 10.0
+          },
+          {
+            "type": "range",
+            "title": "高低",
+            "description": "高低",
+            "value": "v.gd",
+            "step": 1.0,
+            "min": -10.0,
+            "max": 10.0
+          },
+          {
+            "type": "range",
+            "title": "前后",
+            "description": "前后",
+            "value": "v.qh",
+            "step": 1.0,
+            "min": -10.0,
+            "max": 10.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "嘿嘿嘿",
+        "extra_animation": {
+          "doodle": "doodle",
+          "摇摇摇": "摇摇摇",
+          "倒地": "倒地",
+          "原版2": "原版"
+        }
+      },
+      {
+        "id": "一些动作",
+        "extra_animation": {
+          "鸭子坐": "鸭子坐",
+          "侧坐": "侧坐",
+          "抬腿": "抬腿",
+          "趴": "趴下",
+          "跪着看后": "跪",
+          "撒娇": "撒娇"
+        }
+      },
+      {
+        "id": "原版的东西",
+        "extra_animation": {
+          "extra0": "",
+          "extra1": "",
+          "extra2": "",
+          "extra3": "",
+          "extra4": "",
+          "extra5": "",
+          "extra6": "",
+          "extra7": ""
+        }
+      },
+      {
+        "id": "立绘 基建",
+        "extra_animation": {
+          "精一立绘": "精一立绘",
+          "精二立绘": "精二立绘"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/AK_Chen_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 23830,
+      "sha256": "dfd180d2697ee587a61697456bd730afcbfac2b925788150815e7067a37fc7f5"
+    }
+  },
+  "stats": {
+    "file_count": 21,
+    "total_bytes": 6026719,
+    "sha256": "33294aa6fb9de3e05cdaf1d0f1c9d74a70c2411929fefab6af1c13ceb2861778",
+    "bones": 455,
+    "cubes": 1791,
+    "faces": 10746,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 200107,
+      "sha256": "601b7b39bf71e8155d0b577ec38fbcf7009b7d5596e6b72611e2f4781fb33359"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1929,
+      "sha256": "9be5deac1fbfdc16f4c5f683cb5d1ec68ee3b168f5f4341ff14c82153fa6344b"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 706749,
+      "sha256": "18c0765e8607c18555e439bac4da4e74646481d7a40a71c93383b815adfd7d13"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 237838,
+      "sha256": "682a444117c55302c9ea4f82d2cb8acdfccb36fd19130040c86c38f33bf8a9f9"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139663,
+      "sha256": "483a9d90fb46443553f2d0f592f5d36c2d2e03c62e913ed828d152d2c0a4f803"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2022851,
+      "sha256": "b8f64de893ea9014b1d06b04e8058973ca47203e4404abe0a2e5dc2a53fe5b6e"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/日月明567.png",
+      "size": 25000,
+      "sha256": "8052fa10eb25c079f26657a8531018aa0070e204f7d11a5aa351be50c5bc90bd"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 2621,
+      "sha256": "e923879a0e4f2173c14dd1a0ee62d5b7b97028d372817760e7aa710ff7ae5022"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 30095,
+      "sha256": "d79edd11299459f24534a50ca7f18098ed3ee9622e2642a23aadd63a6b37b43b"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 180873,
+      "sha256": "9d6282b20be1a4c924a308285cd4ff9f49dadf31eb1462de8d9466c71523d1bc"
+    },
+    {
+      "path": "models/main.json",
+      "size": 995740,
+      "sha256": "ddd7d3a9c8191b6cf069ebbb3bc9847409220acba7db1ad5b075010e0fa410ec"
+    },
+    {
+      "path": "sounds/doodle.ogg",
+      "size": 423037,
+      "sha256": "19aa465d51b2138802e29b1f8503913159e1d64758fcf848eed06112c2c2846a"
+    },
+    {
+      "path": "sounds/get_down.ogg",
+      "size": 289223,
+      "sha256": "63dbf11be085953b3232710552f049df9465c1a15327cd083ecaa0f726cba86c"
+    },
+    {
+      "path": "sounds/zufolo_impazzito.ogg",
+      "size": 172286,
+      "sha256": "ee80cfe3f9ad70f2bd6b3b735d65c5c356c1119c67c8da4d812c838058ca6990"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 42342,
+      "sha256": "e6872d76a927e5959cd28aae2458fd632292dd0e6e0db6eeea944952bedbe925"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 278339,
+      "sha256": "dccc750224d0d9fde9cae23e98c70eafdd79998e0e37800a3188cb2387795dfa"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3560,
+      "sha256": "f09594ee93d85cd48d8db6d5a52b6ee68e2e15bc8267b06ad4e85eb2762326e6"
+    }
+  ]
+}

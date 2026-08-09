@@ -1,0 +1,187 @@
+{
+  "id": "Ruby_Rose",
+  "path": "parsed/Ruby_Rose",
+  "source": {
+    "path": "Unknown/Ruby_Rose.ysm",
+    "type": "ysm",
+    "stem": "Ruby_Rose"
+  },
+  "ysm": "parsed/Ruby_Rose/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/狂暴粉毛组长.png",
+        "comment": "神游触魔之地中",
+        "contact": {
+          "Afdian": "https://ifdian.net/a/vursglurk",
+          "Bilibili": "https://space.bilibili.com/310205311"
+        },
+        "name": "狂暴粉毛组长",
+        "role": "模型与动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Ruby Rose",
+    "tips": "Ruby（动漫《RWBY》主角，RWBY小队队长）"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ruby_Rose_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11103,
+      "sha256": "005be37631c172223afc45bdaab0f59033cd6f249c4c02aec311972dd2ffbe54"
+    }
+  },
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 2509810,
+    "sha256": "0b7a7169f5773cd31a9a1dc9bfb8ba000a11d0715cbced53112d47a1b26d2008",
+    "bones": 245,
+    "cubes": 2640,
+    "faces": 15840,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 155885,
+      "sha256": "f108c4d46dca12f7dec00c814b362a41601d9be2935ac58333e4cc802b6caeda"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 84527,
+      "sha256": "0719efd3fd27c0a94ab5262be081df98c6bf59f1f176227007330194600bb8bf"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 266988,
+      "sha256": "db807691e1b0d474a30cf25756a16cd305086ac1c2a3836527ebb645e7e0d635"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/狂暴粉毛组长.png",
+      "size": 171976,
+      "sha256": "bab0f5bf139ab1560c5746dc55b49af1b06b36370be0128a9820558f9ce8d69f"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 25597,
+      "sha256": "a34584cc3f9629cf890a33f044d573a465f051cd38ed46e9e374553c136ac121"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 3587,
+      "sha256": "366f917e4f3e6db525ee90eea1b0995036d001edc229ba195332e8c340dff519"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1397865,
+      "sha256": "a095301c5fe8d2308c44e0c93675472d0e547f1332af084f728524815b68de00"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 250,
+      "sha256": "2b7980202e213976846d4eedc34fa9ff0d8c65efd8eafad7287dafa4fae29327"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 42397,
+      "sha256": "ad72594e907ed5d84ce6462357b47ce87c33667b3cc02fc1858a9a77448696dd"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1342,
+      "sha256": "49626f6a2e6aa90f5f1bf06e88b430aae564a7f3aa40b0aadcfacdd82f3853d4"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "GI_Ganyu_1",
+  "path": "parsed/GI_Ganyu_1",
+  "source": {
+    "path": "_GenshinImpact/GI_Ganyu_1.ysm",
+    "type": "ysm",
+    "stem": "GI_Ganyu_1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§b甘雨",
+    "tips": "我的工作，就是遵循与帝君的「契约」，为璃月的多数生命，谋求最大的福祉。\n适配YSM1.18.2-1.1.5 （免费共享版）\n模型版本1.2.0",
+    "authors": [
+      {
+        "name": "§b完全冻结 §8(模型)"
+      },
+      {
+        "name": "§c烈鸟比百§8(魔改)"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "tex.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Ganyu_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11197,
+      "sha256": "5d98bd08a144eacc3bcc9f0327a368a90fa8526d1483d063ee024bf022b47991"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 986691,
+    "sha256": "5863bc81c357d48978e0b1741587204b6677ccb5136e90b90e8db715532ac2b8",
+    "bones": 128,
+    "cubes": 820,
+    "faces": 4920,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 47744,
+      "sha256": "6fce0024fd698def77b11fee90c7a3300a7ed92d128138de2125aa255967f7b6"
+    },
+    {
+      "path": "arm.json",
+      "size": 43815,
+      "sha256": "15139db6b60ccab7eb3c1e8f379b567f69af0847b30f8ad2e2f36f35efae6202"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 134061,
+      "sha256": "b4fdf8fade13727d96b1abbccc371474966a649efe406bec1809083b4b6be86b"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 153910,
+      "sha256": "bdbcebe8eb4f9bd80779af88afe354dec82745d5245c555974af0c4231016498"
+    },
+    {
+      "path": "main.json",
+      "size": 415354,
+      "sha256": "4f50ef8df9d22677f23bb08cded53788fc68d09fa6a0f7cf3e6bc0ecbbf82c63"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 160069,
+      "sha256": "a226fc28e8e973095c726f259cbfc3b10606ab882a93d16095486cc1d864745b"
+    },
+    {
+      "path": "tex.png",
+      "size": 31738,
+      "sha256": "c558e32c979d5a887c881f91a1e6e7041034672cb453e8ba8578cc4fcf1f83b8"
+    }
+  ]
+}

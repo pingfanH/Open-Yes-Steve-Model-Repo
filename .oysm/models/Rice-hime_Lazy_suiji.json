@@ -1,0 +1,111 @@
+{
+  "id": "Rice-hime_Lazy_suiji",
+  "path": "parsed/Rice-hime_Lazy_suiji",
+  "source": {
+    "path": "_Dong-JinRice-hime/Rice-hime_Lazy_suiji.ysm",
+    "type": "ysm",
+    "stem": "Rice-hime_Lazy_suiji"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "慵懒穗姬",
+    "tips": "最喜欢的一只",
+    "authors": [
+      {
+        "name": "b站：嗯嗯owo"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture1.png",
+        "texture2.png",
+        "texture3.png",
+        "texture4.png",
+        "texture5.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Rice-hime_Lazy_suiji_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7177,
+      "sha256": "77de4a538d4dc8d5ed3860aea5080ebc49cfd94e1bc599b4377dcaee4bd64307"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 775503,
+    "sha256": "78b494dcc915aa029a4a274e6231f8710182b5a874c755725b16640d811b3f6d",
+    "bones": 87,
+    "cubes": 405,
+    "faces": 2430,
+    "textures": 5,
+    "materials": 5,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 15074,
+      "sha256": "d2dad838d9d8bdc4f722faf0a647ca310c138cf11f03a470f1031a627b685305"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 472585,
+      "sha256": "633d0af9fc14a257ac70d28ff2587106bcd3ef15df946197ccf1eb4993247819"
+    },
+    {
+      "path": "main.json",
+      "size": 201118,
+      "sha256": "e94b82751215df0042ac8cca510197247b73c58dd80177ccad1f8b6201dd0e44"
+    },
+    {
+      "path": "texture1.png",
+      "size": 18312,
+      "sha256": "250aff070db31e8bba32fb4096521a938c7f88ac990e585656afc970986dd5ed"
+    },
+    {
+      "path": "texture2.png",
+      "size": 18050,
+      "sha256": "9ccc46bc605ef13de74c39e8d2a3b41c2c6456ed1c1803456fbaf32971da7ee7"
+    },
+    {
+      "path": "texture3.png",
+      "size": 17666,
+      "sha256": "e0dd2ab6283f59ad233ac3a30d7fe1941b1bcc9d37fa99f8095224017970b00f"
+    },
+    {
+      "path": "texture4.png",
+      "size": 16051,
+      "sha256": "90fe972c864f59e9a0329a26b1eadca1c43c688f1052d306fbc535c153478930"
+    },
+    {
+      "path": "texture5.png",
+      "size": 16647,
+      "sha256": "f80336d7d6a2a72020831e07e3cc8ee2a89247e3e1a24c36e01c3d30866bb33e"
+    }
+  ]
+}

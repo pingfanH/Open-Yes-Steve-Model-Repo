@@ -1,0 +1,84 @@
+{
+  "id": "BA_Koharu",
+  "path": "parsed/BA_Koharu",
+  "source": {
+    "path": "_BlueArchive/BA_Koharu.ysm",
+    "type": "ysm",
+    "stem": "BA_Koharu"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "BA_Koharu"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Koharu_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9084,
+      "sha256": "4b797cedfe2800ea88cae84e2c5bd1bfba9ee655022a2c4bf16db5fc813cf251"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 297848,
+    "sha256": "c50e341242dce9c9eb7bc62f16c2f7eb5b6a4bdf3388468a12d3b544aab348aa",
+    "bones": 122,
+    "cubes": 548,
+    "faces": 3288,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 11116,
+      "sha256": "ad5c16c8b42acf53c22216580de1556a9b1906e84281f7ee3526dcc0256e2ce6"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 27205,
+      "sha256": "a28482a75b50eab53b200b1ac43fe2d837f8ef1d43bbf03957095e3ad371b9e8"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 128429,
+      "sha256": "12ca9f5b8485fedbd688db534407697e6ac027103f8cfaa81a912a2a2a3787fd"
+    },
+    {
+      "path": "main.json",
+      "size": 106444,
+      "sha256": "51ddbd6646fb543ff1ec66e5ea7ed77d000701d0f69a2aebfb29563978c258ae"
+    },
+    {
+      "path": "texture.png",
+      "size": 24654,
+      "sha256": "8fef407c681a0cd3dc7c3507804238bdfc787a5f7c684ef95c424e0c8e14cea0"
+    }
+  ]
+}

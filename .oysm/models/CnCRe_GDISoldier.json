@@ -1,0 +1,100 @@
+{
+  "id": "CnCRe_GDISoldier",
+  "path": "parsed/CnCRe_GDISoldier",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCRe_GDISoldier.ysm",
+    "type": "ysm",
+    "stem": "CnCRe_GDISoldier"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "GDI步枪兵（变节者）",
+    "tips": "第一次泰战后期的GDI士兵，装备明显比开战时差了不少",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCRe_GDISoldier_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6192,
+      "sha256": "c5ec36cedc4d6b06753b98d433e13d32a8d34fabfe5967dc12e5ebcaad21a53e"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 337188,
+    "sha256": "217700f2fe93f0327e671c24826e93c27d574f0e6517f4b81c5468aa6ace7e09",
+    "bones": 38,
+    "cubes": 122,
+    "faces": 732,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 7876,
+      "sha256": "ef813ddcf240a680bb761a3970fdc7bdd58e35e9ae71fcfd869f85b8b6580056"
+    },
+    {
+      "path": "info.json",
+      "size": 217,
+      "sha256": "f2a6f7a1603e17bf62abb1dd60c70c7acd3571e094a0bc75318aea6daca8cad1"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122470,
+      "sha256": "d93402d24863ccd84622801424bb845d8ff78161fae9d48b7bbf0c3d213720c1"
+    },
+    {
+      "path": "main.json",
+      "size": 55990,
+      "sha256": "b6d3648117d9537f2ea3e2a49e670952094249c8a24f5716be10ccc4411e9482"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131639,
+      "sha256": "a73cf95259743cc506fa6931e6bed68e0e41c5edca8f4651f26f1a42c1e26994"
+    },
+    {
+      "path": "texture.png",
+      "size": 18996,
+      "sha256": "7086b3ec4c245927b5d0cedfcf1612ec04f650bbb1519e83a4a2f9a37b346e6c"
+    }
+  ]
+}

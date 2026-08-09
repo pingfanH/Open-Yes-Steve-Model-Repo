@@ -1,0 +1,203 @@
+{
+  "id": "高奈利亚-常服0.8(原版，女仆动画适配完成) 采用协议CC BY-NC-SA 4.0",
+  "path": "parsed/高奈利亚-常服0.8(原版，女仆动画适配完成) 采用协议CC BY-NC-SA 4.0",
+  "source": {
+    "path": "Unknown/高奈利亚-常服0.8(原版，女仆动画适配完成) 采用协议CC BY-NC-SA 4.0.zip",
+    "type": "zip",
+    "stem": "高奈利亚-常服0.8(原版，女仆动画适配完成) 采用协议CC BY-NC-SA 4.0"
+  },
+  "ysm": "parsed/高奈利亚-常服0.8(原版，女仆动画适配完成) 采用协议CC BY-NC-SA 4.0/ysm.json",
+  "metadata": {
+    "name": "Cornelia",
+    "tips": "默认模型（Default Model）",
+    "license": {
+      "type": "All Rights Reserved"
+    },
+    "authors": [
+      {
+        "name": "一般通过神必人",
+        "role": "模型",
+        "avatar": "avatar/德哈卡 拷贝.png",
+        "contact": {
+          "QQ": "2516919271",
+          "Bilibili": "https://space.bilibili.com/277486957"
+        },
+        "comment": "我们是潮汐，敌人只是浮萍！"
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "height_scale": 0.75,
+    "width_scale": 0.75,
+    "extra_animation": {},
+    "preview_animation": "idle",
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true,
+    "disable_preview_rotation": false,
+    "all_cutout": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/main.animation_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": {
+        "uv": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/0.8_CC_BY-NC-SA_4.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7827,
+      "sha256": "616b5b8a1cd61d839595a6da1c978ef99aa058042dd2cdc982ba6365ff509a34"
+    }
+  },
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 3479757,
+    "sha256": "ed4ca41da77b674a134f810e7010c945e5e964c584ed25a5278c9cbcf626c9a3",
+    "bones": 271,
+    "cubes": 1007,
+    "faces": 6042,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 168900,
+      "sha256": "ab9b48992ae6d47206176f212461cd3aa1ad4a9255ee5c4517af4d65d5d66ae9"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 695,
+      "sha256": "cd2be5d42efea2613f8fbe541e3c8600c0d1edb11051924675bdc2f7955d24d5"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2917,
+      "sha256": "f1b559bb714f40be566b02e1b8dd44c2cc380783e0e8a480c89a8378caa05b96"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 120272,
+      "sha256": "136c8590b1588b094cd2b82cffa659ded38bf93ad54e84fdc20b544f4e7c3d42"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 450662,
+      "sha256": "97e1d0c87c60daf605880401d2ee1296d25583e552d5b763b4b7d2062fae1a04"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 176050,
+      "sha256": "9ecf075152538c1a7ac0bcd61f40bbd607a523c184a009c37cd37e23611b2913"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1598799,
+      "sha256": "d50e8b37390c62f09b1a9af1ef4c4d95fcf0063050f7b1fd5cacc3ff682b5604"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 212304,
+      "sha256": "002ae25fb2d72e0ed6a0749e0c0a58776fe3e403c7f2b00ea0e6c64c4187184c"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 89773,
+      "sha256": "a7288f89b733a072646bf82b95457065c78ca202fb269ff5b7cf8f657aa4dced"
+    },
+    {
+      "path": "avatar/德哈卡 拷贝.png",
+      "size": 19006,
+      "sha256": "ad40c4b6e1abd505cb5b7fc84ede2bf0cb77755b86ed00ae6a05fcb1e1568445"
+    },
+    {
+      "path": "controller/main.animation_controllers.json",
+      "size": 810,
+      "sha256": "ff546eb7847ecbb59ce3f43189c005e61db5ccf749dfc4f11b5d978f82b4d106"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 81878,
+      "sha256": "7b73bb4b2d9124e7b1aeb404bf2407a83bd27c997f2c950e585d5032957b1af9"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 18733,
+      "sha256": "1070aa5589ae3df1c5abf95a40f9de47ce2ca1df6b234ddbea96f568d1829c7a"
+    },
+    {
+      "path": "models/main.json",
+      "size": 465692,
+      "sha256": "aec0c8707163694b8a39ca2b1476764ebd3a31b24fa15e1f31fabd82c2a0db74"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1213,
+      "sha256": "0ecda6c1557cf3571289a3212c93e125d8b075cc37ac62f14dad852d83a576ec"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 15583,
+      "sha256": "56b8b994e1c3bbf947c1d03340f6c123fd3a7e641269ad668170a0f778756f90"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 13745,
+      "sha256": "281377d6056833ab610fd9768d3b57a597b06901ad5c0598cba48142e357f7d0"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1695,
+      "sha256": "48484d1ad0ba673caca8f172d223e9362a52ee983fe586f7b1c7b43c68c77746"
+    }
+  ]
+}

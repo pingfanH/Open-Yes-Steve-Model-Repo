@@ -1,0 +1,106 @@
+{
+  "id": "GF_AK-74M",
+  "path": "parsed/GF_AK-74M",
+  "source": {
+    "path": "_GirlsFrontline/GF_AK-74M.ysm",
+    "type": "ysm",
+    "stem": "GF_AK-74M"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "AK-74M",
+    "tips": "同人转正的成功案例",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GF_AK-74M_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8483,
+      "sha256": "08975be37fa7b39d6489e9f55249d73edd2d0b4af0b2bfe6c101abba95f3a9e1"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 549318,
+    "sha256": "1e5c84b0076736b48e8f6b89f28fb2c95d26e0f1de0ab59a1de6c06aab8b703f",
+    "bones": 82,
+    "cubes": 399,
+    "faces": 2394,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 27270,
+      "sha256": "65e1ebd7c426050d821c5df52f6ced2348fde63581f5ec3124f5e4c3ff7579cf"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 44526,
+      "sha256": "8fcbef4b6942afb368390b7c43a27f9dc121768ab15d8079f669903a511249f9"
+    },
+    {
+      "path": "info.json",
+      "size": 195,
+      "sha256": "07e4a79327c1cca87227a410690987bd565277bc9f022d2c5c7296e5b8c80b11"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 124970,
+      "sha256": "1ba2f5c1b9623146126c4ec4f59f835e59b8c1c9df988a866d5e789c56d00d95"
+    },
+    {
+      "path": "main.json",
+      "size": 182802,
+      "sha256": "af4a290cdf977a0751dbddb67f9eb233cfe904e54d1dbc7b5c698e39c869251e"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 136221,
+      "sha256": "e58ddb9514daae6fe26ce8ef7476b5d675d19c087e33ec36fec73c25858ce097"
+    },
+    {
+      "path": "texture.png",
+      "size": 33334,
+      "sha256": "30c41cba9e753ef1256a7ca5a4ee15c97975cd3082c29720d3740a47d7aa5231"
+    }
+  ]
+}

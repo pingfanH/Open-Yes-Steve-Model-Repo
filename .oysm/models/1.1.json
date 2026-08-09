@@ -1,0 +1,235 @@
+{
+  "id": "阿消1.1",
+  "path": "parsed/阿消1.1",
+  "source": {
+    "path": "Unknown/阿消1.1.ysm",
+    "type": "ysm",
+    "stem": "阿消1.1"
+  },
+  "ysm": "parsed/阿消1.1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/modn君.png",
+        "comment": "",
+        "name": "modn君",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "阿消只是想独占长官",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "home": "https://space.bilibili.com/695001141"
+    },
+    "name": "阿消",
+    "tips": "明日方舟——阿消"
+  },
+  "properties": {
+    "width_scale": 0.69971,
+    "height_scale": 0.69971,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "#配置",
+      "dance6": "踩踩",
+      "dance7": "憋不住了",
+      "water": "灭火咯",
+      "dance5": "摇摇",
+      "pose1": "pose1",
+      "pose2": "pose2",
+      "pose3": "pose3"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "配置",
+        "name": "穿戴调整",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "外套",
+            "description": "穿脱外套",
+            "value": "v.cc"
+          },
+          {
+            "type": "checkbox",
+            "title": "帽子",
+            "description": "穿脱帽子",
+            "value": "v.hh"
+          },
+          {
+            "type": "checkbox",
+            "title": "裤子",
+            "description": "穿脱裤子",
+            "value": "v.kk"
+          },
+          {
+            "type": "checkbox",
+            "title": "内衣",
+            "description": "运动内衣",
+            "value": "v.ny"
+          },
+          {
+            "type": "checkbox",
+            "title": "消防器",
+            "description": "消防器",
+            "value": "v.xfq"
+          },
+          {
+            "type": "checkbox",
+            "title": "泳衣上",
+            "description": "泳衣上",
+            "value": "v.bc"
+          },
+          {
+            "type": "checkbox",
+            "title": "泳衣下",
+            "description": "泳衣下",
+            "value": "v.pc"
+          },
+          {
+            "type": "checkbox",
+            "title": "松鼠",
+            "description": "挂件",
+            "value": "v.guajian"
+          },
+          {
+            "type": "checkbox",
+            "title": "脸红",
+            "description": "脸红",
+            "value": "v.redface"
+          },
+          {
+            "type": "range",
+            "title": "表情嘴巴",
+            "description": "嘴巴",
+            "value": "v.roaming.mouth",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 10.0
+          },
+          {
+            "type": "range",
+            "title": "表情眼睛",
+            "description": "眼睛",
+            "value": "v.roaming.eye",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 4.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "preview_animation": "idle",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "extra": "animations/extra.animation.json"
+      },
+      "animation_controllers": [
+        "controller/main.animation_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        },
+        {
+          "uv": "textures/textureson.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/1.1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9631,
+      "sha256": "024bfbe8fbcaf36d948344040dc4297c422a30b78127a8ac58ddcb8596e5ab62"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 654023,
+    "sha256": "f8ebac24394b836e2a8b25202359c2719bacf2da465fb20afa527148a4922c78",
+    "bones": 180,
+    "cubes": 584,
+    "faces": 3069,
+    "textures": 2,
+    "materials": 2,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/extra.animation.json",
+      "size": 43072,
+      "sha256": "79cfa6805c3a2ef93961c63997592a4b0807a8b83022d3887daf1f5c85cbfba5"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 163593,
+      "sha256": "9ef16e19139160dcab7ea2c8d80000fef5e0e3334067f2e0e7f72c954c433270"
+    },
+    {
+      "path": "avatar/modn君.png",
+      "size": 20708,
+      "sha256": "99921807816b3a7230f83e824f2a38cee42b750c3fc5696c3b53a036258cfc40"
+    },
+    {
+      "path": "controller/main.animation_controllers.json",
+      "size": 717,
+      "sha256": "63b36919e9dcb234e3bda90d16be2695176c3b4b4d6b2108bca96a865535a705"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 3399,
+      "sha256": "700e4576f2fa948f2c6cbd36008c1095f902d38a5b8b1957be69f1018ca5304b"
+    },
+    {
+      "path": "models/main.json",
+      "size": 315682,
+      "sha256": "71b3210960b52bb92682b6334d3d9f99008333cedcd119caa022b48083751727"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 52144,
+      "sha256": "d5e269c72a3de52a21316edecf2b816e06b97c0b3cceb90c087190b7f0f3c7b4"
+    },
+    {
+      "path": "textures/textureson.png",
+      "size": 52560,
+      "sha256": "c8ac4b50284101460f8263a8c66ddafd034051c9e40844b69bd90bdd90813ec1"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2148,
+      "sha256": "a68e489e9c40d2a72ddfc28df78ebb4c0554032015a1a47b9479ea929a8f9b44"
+    }
+  ]
+}

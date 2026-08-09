@@ -1,0 +1,381 @@
+{
+  "id": "Strinova_Fuchsia_v1.1",
+  "path": "parsed/Strinova_Fuchsia_v1.1",
+  "source": {
+    "path": "_Strinova/Strinova_Fuchsia_v1.1.ysm",
+    "type": "ysm",
+    "stem": "Strinova_Fuchsia_v1.1"
+  },
+  "ysm": "parsed/Strinova_Fuchsia_v1.1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§9赤恒RedConstant.png",
+        "comment": "神人这一块",
+        "contact": {
+          "哔哩哔哩": "https://space.bilibili.com/235888316"
+        },
+        "name": "§9赤恒RedConstant",
+        "role": "§4依旧ALL IN"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/RedConstant?tab=home",
+      "home": "https://space.bilibili.com/235888316"
+    },
+    "name": "Fuchisia-§d绯莎",
+    "tips": "致敬传奇雇佣兵-鲨鱼"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#控制板",
+      "控制器": "#面部控制器",
+      "extra2": "§a弦化！",
+      "extra6": "立绘姿势",
+      "extra7": "§4浴血狂戮",
+      "extra5": "§6MVP!",
+      "#沟通": "沟通"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "控制板",
+        "name": "控制器",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "模型高度",
+            "description": "高度修改",
+            "value": "v.yzhou",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 3.0
+          },
+          {
+            "type": "range",
+            "title": "模型宽度",
+            "description": "宽度修改",
+            "value": "v.xzhou",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 3.0
+          },
+          {
+            "type": "range",
+            "title": "模型厚度",
+            "description": "厚度修改",
+            "value": "v.zzhou",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 3.0
+          },
+          {
+            "type": "range",
+            "title": "头部大小",
+            "description": "修改头部大小",
+            "value": "v.headsize",
+            "step": 0.1,
+            "min": 0.5,
+            "max": 2.5
+          }
+        ]
+      },
+      {
+        "id": "面部控制器",
+        "name": "面部控制器",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "神态",
+            "description": "修改神态",
+            "value": "v.shentai",
+            "labels": {
+              "无": "v.shentai=0;v.heiyan=0;v.xiuse=0;v.saihong=0",
+              "黑颜": "v.shentai=1;v.heiyan=1;v.xiuse=0;v.saihong=0",
+              "羞涩": "v.shentai=2;v.heiyan=0;v.xiuse=1;v.saihong=0",
+              "腮红": "v.shentai=3;v.heiyan=0;v.xiuse=0;v.saihong=1"
+            }
+          },
+          {
+            "type": "checkbox",
+            "title": "面罩",
+            "description": "面罩开关",
+            "value": "v.mianju"
+          },
+          {
+            "type": "checkbox",
+            "title": "创口贴",
+            "description": "创口贴开关",
+            "value": "v.chuangkoutie"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "沟通",
+        "extra_animation": {
+          "是": "是",
+          "否": "否",
+          "你好": "你好",
+          "进攻": "进攻",
+          "等等": "等等",
+          "撤退": "撤退",
+          "谢谢": "谢谢",
+          "很好": "很好",
+          "抱歉": "抱歉"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": true,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Strinova_Fuchsia_v1.1_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7454,
+      "sha256": "2f02f82ee773314a29739fd9c3dc4525dc53bb1a42a34a2a68cd95c59dfcc24d"
+    }
+  },
+  "stats": {
+    "file_count": 35,
+    "total_bytes": 4909489,
+    "sha256": "937b9c605615e72476f1ffc3fba5ecc8bf3921d7bcd6e99e7cbc2adf691f3e76",
+    "bones": 407,
+    "cubes": 2908,
+    "faces": 17412,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 186041,
+      "sha256": "c7cd3bcc7c5e0089141f67070e48bef5bb6328703d9d931d8182f201330ac4cb"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 29821,
+      "sha256": "d855d10b9d464976a40832a010a3e2e59afe4d7600ce0d7a50c32d00ff98eab8"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 262340,
+      "sha256": "41c6e34f9df11591ae03d75902e3a24a592092464fbaa92bb1aff048f62602f3"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 181465,
+      "sha256": "28d98ea2d2348daaafbbb477e272dc30820f22fe533ae9200b36eba8b861a641"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/§9赤恒RedConstant.png",
+      "size": 32766,
+      "sha256": "405a791239eaa4309bbf0930a4a1afc58190ea895400df7c7dd8067784b635f8"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 1318,
+      "sha256": "88e2f5f7acfc23d815b11e5e92fd4c25ec7d03c29c307ade3c6ec4d09d0b3ab1"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 127057,
+      "sha256": "fcab65bcf44aac59205caed365555fa72e55ea1728ff8d9f7a9661f7f4b95381"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13725,
+      "sha256": "605fc04a716cfd12d30b5d6fb5d6db461504bd2f8da602fe078a4f57b4d71c71"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1460704,
+      "sha256": "ba784f7bda272cf4b005667024f8ba129b95c8f734996ae9ed9fd7a9f384f559"
+    },
+    {
+      "path": "sounds/deathbox.ogg",
+      "size": 21482,
+      "sha256": "9497d2530792f509c55fe0b74628a03cd135c9759b0b14f71abd3d4ba209e0f0"
+    },
+    {
+      "path": "sounds/fight.ogg",
+      "size": 11840,
+      "sha256": "c44fc92cee5c2bcc8e060e42e12be141185221df9d323daa9c7e8929db5eaa38"
+    },
+    {
+      "path": "sounds/fly.ogg",
+      "size": 12025,
+      "sha256": "b4ab5a2b57148d5c8a7b9b859c276c31312df45732c2d5bc759ce1d25cd264fa"
+    },
+    {
+      "path": "sounds/goback.ogg",
+      "size": 13887,
+      "sha256": "b246e89b0cfbec19985c90215c601a82e7e6f4f828313a806be0e98035f95f12"
+    },
+    {
+      "path": "sounds/good.ogg",
+      "size": 11567,
+      "sha256": "bd7cbea9cb04dec8f25f6952aa5f1d86d0820bdde581147b98ec9da2cb83859f"
+    },
+    {
+      "path": "sounds/holdsword.ogg",
+      "size": 31879,
+      "sha256": "4e45bec770d6ec5572fea54d0a84501ca86c356202d8fd6cad19ff403102aaf8"
+    },
+    {
+      "path": "sounds/mvp.ogg",
+      "size": 38961,
+      "sha256": "d0c3350ee835cd8e551dcd169c4918c74426a9bc7bb00c4a2cdf0b645daf4b5c"
+    },
+    {
+      "path": "sounds/nihao.ogg",
+      "size": 10590,
+      "sha256": "3feacd11a817904d8517eb09336a5d22d1411cf11d5d6bed6f811a839d8f3ceb"
+    },
+    {
+      "path": "sounds/no.ogg",
+      "size": 8501,
+      "sha256": "b472bc7367e604496a6009ce36c8b387cb309147ebb4e1fb6ee784e22a9533bb"
+    },
+    {
+      "path": "sounds/shalu.ogg",
+      "size": 23631,
+      "sha256": "e26d9128a8b2e98a24b086f04d810f809268dc7802c3f524f3e9a49615b07187"
+    },
+    {
+      "path": "sounds/sorry.ogg",
+      "size": 11349,
+      "sha256": "48e7cdc0c3fa94adb1a55f81e43bffa74cb18e2f295f92112c727636e10e8ec8"
+    },
+    {
+      "path": "sounds/swingsword1.ogg",
+      "size": 20826,
+      "sha256": "dca06aaf107fa7ff699aff4e2267d4d10128e6e5534f9318db1a23c40b0e603d"
+    },
+    {
+      "path": "sounds/swingsword2.ogg",
+      "size": 19031,
+      "sha256": "80a0187f4f0c77cd3cd1843d05c6d1d426e462350aad1594f822558507fece70"
+    },
+    {
+      "path": "sounds/thanks.ogg",
+      "size": 11029,
+      "sha256": "120c5c40f6381a7d7f48b884e1f4559197391eba91a5f7c37b8a83f47bdbe7b7"
+    },
+    {
+      "path": "sounds/wait.ogg",
+      "size": 13192,
+      "sha256": "8d178542e43120260a54badf92ff49e6ce936e2e6663c4ae2aca8f55fd0a8665"
+    },
+    {
+      "path": "sounds/xianhua.ogg",
+      "size": 9927,
+      "sha256": "9389ec01dd4c90c829248fc0b58e48096031a50131dbb9829a283f186d8a8335"
+    },
+    {
+      "path": "sounds/yes.ogg",
+      "size": 11097,
+      "sha256": "375c4a1c6dfa2b3dbd750b96e78e57009dda66c8118a771a933706c91c68f945"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2686,
+      "sha256": "197669635bbf7b8cf8892b6912e428c92c66aac37ea2d3f1a174c9a04b2b64f6"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 71686,
+      "sha256": "3b340a4d3c4fba2b3820a9a058b5c0360991656c80eeb4581afb410ab51880fd"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2878,
+      "sha256": "ab4c458275e298e4232478164873401fa831106e78b1827e80fad691cdceeebc"
+    }
+  ]
+}

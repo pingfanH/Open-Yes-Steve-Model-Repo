@@ -1,0 +1,308 @@
+{
+  "id": "HM_Mare-S.-Ephemeral_v2.2",
+  "path": "parsed/HM_Mare-S.-Ephemeral_v2.2",
+  "source": {
+    "path": "_HoshizoranoMemoria/HM_Mare-S.-Ephemeral_v2.2.ysm",
+    "type": "ysm",
+    "stem": "HM_Mare-S.-Ephemeral_v2.2"
+  },
+  "ysm": "parsed/HM_Mare-S.-Ephemeral_v2.2/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/伍炎.png",
+        "comment": "",
+        "contact": {
+          "B站": "https://space.bilibili.com/347376421"
+        },
+        "name": "伍炎",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "name": "Mare（梅娅）",
+    "tips": "来自Favorite的《星空的记忆》的梅娅"
+  },
+  "properties": {
+    "width_scale": 0.6,
+    "height_scale": 0.6,
+    "extra_animation": {
+      "extra8": "#可选配置",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "extra5": "耶！"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "可选配置",
+        "name": "今天的你也是笨笨的呢",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "x轴位置调整",
+            "description": "微调动作的x轴位置",
+            "value": "v.x",
+            "step": 0.5,
+            "min": -10.0,
+            "max": 10.0
+          },
+          {
+            "type": "range",
+            "title": "y轴位置调整",
+            "description": "微调动作的y轴位置",
+            "value": "v.y",
+            "step": 0.5,
+            "min": -10.0,
+            "max": 10.0
+          },
+          {
+            "type": "range",
+            "title": "z轴位置调整",
+            "description": "微调动作的z轴位置",
+            "value": "v.z",
+            "step": 0.5,
+            "min": -10.0,
+            "max": 10.0
+          },
+          {
+            "type": "checkbox",
+            "title": "镰刀常驻显示",
+            "description": "打开或关闭镰刀常驻显示",
+            "value": "v.wq"
+          },
+          {
+            "type": "radio",
+            "title": "表情切换",
+            "description": "切换表情",
+            "value": "v.bq",
+            "labels": {
+              "默认": "v.bq=0;v.default=1;v.smile=0;v.anger=0;v.excited=0;v.surprise=0",
+              "笑": "v.bq=1;v.smile=1;v.default=0;v.anger=0;v.excited=0;v.surprise=0",
+              "生气": "v.bq=2;v.anger=1;v.default=0;v.smile=0;v.excited=0;v.surprise=0",
+              "兴奋": "v.bq=3;v.excited=1;v.default=0;v.smile=0;v.anger=0;v.surprise=0",
+              "惊吓": "v.bq=4;v.surprise=1;v.default=0;v.smile=0;v.anger=0;v.excited=0"
+            }
+          },
+          {
+            "type": "checkbox",
+            "title": "脸红",
+            "description": "打开或关闭脸红",
+            "value": "v.lh"
+          },
+          {
+            "type": "checkbox",
+            "title": "呲牙",
+            "description": "呲牙.jpg",
+            "value": "v.cy"
+          },
+          {
+            "type": "checkbox",
+            "title": "镰刀旋转(test)",
+            "description": "镰刀转起来！",
+            "value": "v.ctrl_wqxz"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/main.animation_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "vehicles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/vehicle/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      },
+      "trident": {
+        "model": "models/trident.json",
+        "animation": "animations/vehicle/trident.animation.json",
+        "texture": "textures/trident.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HM_Mare-S.-Ephemeral_v2.2_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8224,
+      "sha256": "efefaed118952aaf5f9599b46436f4e13dc8b7e1ab1bcb866a72ff125deeeb03"
+    }
+  },
+  "stats": {
+    "file_count": 22,
+    "total_bytes": 4213015,
+    "sha256": "ff7e4e0c1e35dae61eb87c47d703033b2bedb32b9037e71960e401e216323328",
+    "bones": 309,
+    "cubes": 1735,
+    "faces": 10410,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 180699,
+      "sha256": "6adbcd77dde8902dc1ee53f3a5b8931ff18ba7f3e9aff6cd881b92e010f07d9f"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2658,
+      "sha256": "46f0ca4ec3ed838ca28c36abf53f9f48f1aa350faf21a0dd2f6f2355b283641c"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 110717,
+      "sha256": "c1212d814250daa53b68f68c1a5b834f3612174ce48077fef8418a5b3a577cc2"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 225769,
+      "sha256": "427287380709f45fb5b8e41f7df96e76d457e68a347d99bfc6caaec0277dc898"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 138194,
+      "sha256": "15e5c6a0f46655c93bfc77aa967c3aee5ac4b3ecd5311ef6be6af6ef3ab552ef"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2017137,
+      "sha256": "8a6c6c72534b41f730c5b3190362cd9d212287c3aa1a5fba741486d8674fa4cf"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 203240,
+      "sha256": "82df9f984b7a7a4bbcbe6dc55bfbfad2fad5a5553dfbb765d5743c46bf3ad098"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 49375,
+      "sha256": "5e4e659be7b8caa04582161d3407cb2a173a34fba2dfd9ea817bf63244c301ed"
+    },
+    {
+      "path": "animations/vehicle/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/vehicle/trident.animation.json",
+      "size": 817,
+      "sha256": "92e5b6420c035a359969325c7b6580fdccc38ca8c92d9ba121b45258bcb0adc4"
+    },
+    {
+      "path": "avatar/伍炎.png",
+      "size": 6832,
+      "sha256": "25e675c741f48564fc0ea6620637b5cd0d7daf7648ea8cb662f7922d91fdfcbf"
+    },
+    {
+      "path": "controller/main.animation_controllers.json",
+      "size": 3873,
+      "sha256": "342b3265fc0c0da9d35a0b35cd69c74441cd423c9999c5e82f63e16301fbf2a5"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 41682,
+      "sha256": "05e375d397426cc8db1ca2836d3ae787f6f73ff919b2577c1a2e0da77ee6ce9b"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13752,
+      "sha256": "3afa51fa99152b689875ef25ca5853f92d4ccd0e44caf11d5ef58aa5413ccfbe"
+    },
+    {
+      "path": "models/main.json",
+      "size": 909910,
+      "sha256": "d0cefd65f4f50c828b077aaf096bd5db38483ffa1ca067ac449e65cdc2ad8fde"
+    },
+    {
+      "path": "models/trident.json",
+      "size": 226444,
+      "sha256": "fe92d94e2350ec05283a0316a821d0a8a934736159d31e91ed82025999c40ea3"
+    },
+    {
+      "path": "sounds/bkbk.ogg",
+      "size": 30010,
+      "sha256": "746ebac991d962be34dc107eb2d9be318d10b0dd8258e3fa95b45644fa7254f0"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 854,
+      "sha256": "205e4da892496567b38d2d5fa9efa703c22e1c8e9ef2b0d7ecd32c5b0682fa3a"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 6864,
+      "sha256": "f8f5f5c449921fdc0cec341be8da9517c8ccd183c550e085f4f2292c2bec6b57"
+    },
+    {
+      "path": "textures/trident.png",
+      "size": 860,
+      "sha256": "6e685ea06c39f25c3e29f9fb3f4fe0ebae9ef0ef6f7d1af252228f160309b174"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3011,
+      "sha256": "0ce71467c592062035ab3784e6bbc8f08a6b925948a3196268f42a9e3831a4ea"
+    }
+  ]
+}

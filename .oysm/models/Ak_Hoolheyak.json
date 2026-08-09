@@ -1,0 +1,93 @@
+{
+  "id": "Ak_Hoolheyak",
+  "path": "parsed/Ak_Hoolheyak",
+  "source": {
+    "path": "_Arknights/Ak_Hoolheyak.ysm",
+    "type": "ysm",
+    "stem": "Ak_Hoolheyak"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "霍尔海雅",
+    "tips": "你这肥蛇（）",
+    "authors": [
+      {
+        "name": "b站:嗯嗯owo"
+      }
+    ],
+    "license": {
+      "type": "All Rights Reserved"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "167202500.png",
+        "mfhy7.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Hoolheyak_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 1881,
+      "sha256": "354ed2e1132ef327f39770f4a68526f82888f58c5f140870c69ca41a0590826d"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 1253046,
+    "sha256": "bbfd5de79d6b042dfe0b63e5b90d60f8d20145e586f3bf6612633384c1c96ef6",
+    "bones": 344,
+    "cubes": 1286,
+    "faces": 7716,
+    "textures": 2,
+    "materials": 2,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "167202500.png",
+      "size": 32185,
+      "sha256": "35de0d5debe12c5e339e94088899b97bc9ab514d179993d0aea7737d21525bfc"
+    },
+    {
+      "path": "arm.json",
+      "size": 103002,
+      "sha256": "cc48eecd59872d06c9e0eb14b544c4ba893063a45318726114edcef7d420a1de"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 475884,
+      "sha256": "73ad72f3ee22e52a4801d4cd1b41395f4cf00c085f55420b036b2a2bd2b93a9b"
+    },
+    {
+      "path": "main.json",
+      "size": 610122,
+      "sha256": "498472e9e54bbe58ee785908b05f9d35912399b4ace7bb9e94745cd77e827aa3"
+    },
+    {
+      "path": "mfhy7.png",
+      "size": 31853,
+      "sha256": "e8f61f9551bd1efeca321829558e346cfba4a52e6afae26b7e2f328a4de7a6cf"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "_Rongrong",
+  "path": "parsed/_Rongrong",
+  "source": {
+    "path": "Uncategorized/_Rongrong.ysm",
+    "type": "ysm",
+    "stem": "_Rongrong"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_Rongrong"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "main.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Rongrong_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 15103,
+      "sha256": "6047808d820ff7e44be02c3ce4fd29d729749068d227334ec99413d7eee80f38"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 1224205,
+    "sha256": "9b210d7f9a84f752eb82e2325714292ed3e59e73b6ac4e3c423a7ca6af074735",
+    "bones": 99,
+    "cubes": 1084,
+    "faces": 6504,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 1848,
+      "sha256": "754ef1b4783be9b95ee72dbbbc3511812b75834167eef905109012d4c151a056"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 118241,
+      "sha256": "e3720a54719d0cb62565b2db5e169300dd5d9b26afc356fbc3b194b6c0576666"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 181905,
+      "sha256": "ab88b0878eba56ac8779ce349f4472057d4684018421a226034807d41bb1ba77"
+    },
+    {
+      "path": "main.json",
+      "size": 593831,
+      "sha256": "6c5db3a4ac0a165647643e9cab16f680ad0bd111187b5d1ea29aaf652d4a7be7"
+    },
+    {
+      "path": "main.png",
+      "size": 171114,
+      "sha256": "75fb2b6c861fcfe66d4ba68d275b7fabb1fe207ee299c4b356d244ef1d76fbf3"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 157266,
+      "sha256": "c03cb9613aa5a9f19a9416760c372309e79f3d12cf1f23cfea0726dc5e825aa2"
+    }
+  ]
+}

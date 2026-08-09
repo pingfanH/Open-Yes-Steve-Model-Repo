@@ -1,0 +1,225 @@
+{
+  "id": "UM_Vivlos",
+  "path": "parsed/UM_Vivlos",
+  "source": {
+    "path": "_UmaMusume/UM_Vivlos.ysm",
+    "type": "ysm",
+    "stem": "UM_Vivlos"
+  },
+  "ysm": "parsed/UM_Vivlos/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/Zeonjin-旭门只玩驹.png",
+        "comment": "",
+        "contact": {
+          "B站": "Zoenjin-旭门只玩驹：uid183381720",
+          "QQ": "2479819954"
+        },
+        "name": "Zeonjin-旭门只玩驹",
+        "role": "模型；动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "name": "强击",
+    "tips": "关注作者b站 uid183381720 了解更多信息~"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "欧内该~",
+      "extra2": "少爷，该启动赛马娘了"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": " ",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "体型",
+            "description": "滑动此处修改体型大小",
+            "value": "v.body_size",
+            "step": 0.1,
+            "min": 0.2,
+            "max": 2.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/UM_Vivlos_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 18496,
+      "sha256": "2055d154f6d684844e033448fbbeb442cd15ac7e5130abe845bb963fdfb6dc34"
+    }
+  },
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 3996290,
+    "sha256": "4c4ef1f6100ca3d3208aad4ffafc47fdc8fd4e76ed2af163afa065af0318865c",
+    "bones": 307,
+    "cubes": 773,
+    "faces": 4638,
+    "textures": 2,
+    "materials": 2,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 179119,
+      "sha256": "97560b51f263597c332507d0dcc9f1b3b12ce4940f69d6f7486b02e104bbbcd5"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 120672,
+      "sha256": "5a4ff964da6d0886cbb584d83be4e4e078783ca46903511a7483045e32cd0870"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 441710,
+      "sha256": "fa227d5911b0d9a829069fb8c4f6835d20c5b77ce8faa03af0bb6645310d52f7"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "e8300c75461d9157d4d47730c08af8ae2da250cf7d66f2dd18093af2dd22f32e"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 187662,
+      "sha256": "5dddf558e78ddb8d1b629a156730f2656620a2f148dd4f048399ef357ed7d3ff"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/Zeonjin-旭门只玩驹.png",
+      "size": 29341,
+      "sha256": "9e25b07c2d2cdd326e898efc3fb65bbf6ed7ff5e80c0499c2874f1b8bc604352"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 9701,
+      "sha256": "b729cc7ecca15651ae1c5a7fe9657c7c3fee98d37adf3085332e1a620b66d64d"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 43566,
+      "sha256": "7463508100acf522486b268d0886bcf2634c710db026abcea73890be5391371d"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13725,
+      "sha256": "605fc04a716cfd12d30b5d6fb5d6db461504bd2f8da602fe078a4f57b4d71c71"
+    },
+    {
+      "path": "models/main.json",
+      "size": 624267,
+      "sha256": "b2eef32ad931bfe493f6b976e896764e71a73cfc44e50bd71f67cc036d0a315c"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2686,
+      "sha256": "197669635bbf7b8cf8892b6912e428c92c66aac37ea2d3f1a174c9a04b2b64f6"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 42898,
+      "sha256": "db34435955b82eb3a6353524d7bba8f5554afc13a426947983984e5ac235f166"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 43121,
+      "sha256": "5145470c7b8bc2dcd083efdcbcc3a5d424324a8a8f06c999d49a1cc1045b82ae"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1634,
+      "sha256": "a09cb347d6991d1feb22ef94ef8b6a671a21fb76260bdd0336af12190ba002d4"
+    }
+  ]
+}

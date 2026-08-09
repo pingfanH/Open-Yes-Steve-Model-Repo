@@ -1,0 +1,151 @@
+{
+  "id": "PvZ_Peashooter_canon",
+  "path": "parsed/PvZ_Peashooter_canon",
+  "source": {
+    "path": "_PvZ/PvZ_Peashooter_canon.ysm",
+    "type": "ysm",
+    "stem": "PvZ_Peashooter_canon"
+  },
+  "ysm": "parsed/PvZ_Peashooter_canon/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/窝就素伽拉的苟.png",
+        "comment": "qq号要定制模型的再加",
+        "contact": {
+          "email": "3080700736@qq.com",
+          "qq": "3080700736"
+        },
+        "name": "窝就素伽拉的苟",
+        "role": "模型/贴图/动画"
+      },
+      {
+        "avatar": "avatar/作者2.png",
+        "comment": "",
+        "name": "作者2",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.net/a/wojiusujailadegou",
+      "home": "https://space.bilibili.com/1402337274?spm_id_from=333.1007.0.0"
+    },
+    "name": "豆哥",
+    "tips": "给豆哥点烟，不然头给你打歪"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "run": "",
+      "walk": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/textures.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/PvZ_Peashooter_canon_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5055,
+      "sha256": "620b543674a9ef0d5ef984ef5f24ce21449f8000e68d924cde82908f144d410d"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 89601,
+    "sha256": "1af5249573d0cc7698b45240114ccc30702da1cea3e8163cfb83be21d28c96d1",
+    "bones": 20,
+    "cubes": 115,
+    "faces": 690,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 2090,
+      "sha256": "f3d020f01ef143111f31512794f7d6c88c1b0446ae69d5e55261690a9ba87b6b"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 3756,
+      "sha256": "4df7ceef2411bce19d646c481a33e1dbbb37aa8f4f9a533a44de12e9872bef12"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 1338,
+      "sha256": "0c390b84634abc212dd21501b822468b25d762d8b97ab4f742fec2f4fe727b3e"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 5778,
+      "sha256": "0ff6f502477b40d687a2afb1efb1e50870b9fd4e566b7c07977c5dd072a2ff9e"
+    },
+    {
+      "path": "models/main.json",
+      "size": 58656,
+      "sha256": "96742f2376dda22791ea0113d031a176cd51301b1b12744ef97ebfc3cc1ad3b0"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 336,
+      "sha256": "08836947de8a549305dd6686da9169ba1a44fdb66b3c960e6eac30ab547c98b3"
+    },
+    {
+      "path": "textures/textures.png",
+      "size": 16542,
+      "sha256": "fbef9a81f6babc1f7638570f48bc751b0cb8bfe2beb438aa1192897c3b2b6a18"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1105,
+      "sha256": "22c4d7978698fea8e7a2bb470eb040b35446cf6202ce9bd485b547c275883f39"
+    }
+  ]
+}

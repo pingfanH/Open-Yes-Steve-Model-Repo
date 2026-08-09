@@ -1,0 +1,106 @@
+{
+  "id": "CnCGZH_Red-Guard(General-1)",
+  "path": "parsed/CnCGZH_Red-Guard(General-1)",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCGZH_Red-Guard(General-1).ysm",
+    "type": "ysm",
+    "stem": "CnCGZH_Red-Guard(General-1)"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "赤卫队（将军1）",
+    "tips": "预览界面可更换帽子/头盔",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture1.png",
+        "texture2.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCGZH_Red-Guard_General-1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6268,
+      "sha256": "ab5fff7c4ca0e2f34fe84598f98bedf5b31704b20666b5adfe5fb7f44ada362d"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 371490,
+    "sha256": "0ec8268101541594df6251dd62cd9d76932b6ed59dff32ca05b84e440fa97df6",
+    "bones": 47,
+    "cubes": 156,
+    "faces": 936,
+    "textures": 2,
+    "materials": 2,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 6763,
+      "sha256": "08267549d4fb392e194ef0aa572130ce0a6770744dc079d3541f1724effaaa9d"
+    },
+    {
+      "path": "info.json",
+      "size": 174,
+      "sha256": "20ac81536155c631b00e92d6c1a451ca4327eed676042dfaf0b8a63ab32290c1"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122470,
+      "sha256": "d93402d24863ccd84622801424bb845d8ff78161fae9d48b7bbf0c3d213720c1"
+    },
+    {
+      "path": "main.json",
+      "size": 75195,
+      "sha256": "663bdb11421e8f56e9c13efe250631532f51fee91e07dc827f4b18be4477b944"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131639,
+      "sha256": "a73cf95259743cc506fa6931e6bed68e0e41c5edca8f4651f26f1a42c1e26994"
+    },
+    {
+      "path": "texture1.png",
+      "size": 17279,
+      "sha256": "5843433f14376fde07fb7fb7ab6ce5ac7415c8b49068df64f693b62a9a9b63f1"
+    },
+    {
+      "path": "texture2.png",
+      "size": 17970,
+      "sha256": "2c85963928e5d4c6734b5e844466ba84e9a6a53bc0a4431c9997e5d9a372cd38"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "_Minuo",
+  "path": "parsed/_Minuo",
+  "source": {
+    "path": "Uncategorized/_Minuo.zip",
+    "type": "zip",
+    "stem": "_Minuo"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_Minuo"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json",
+        "unknown": "unknown.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Minuo_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9986,
+      "sha256": "c49787c8644f7c2c0867535917c44f7c3d9028ab1addb78680a561ef6a550447"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 1110677,
+    "sha256": "d286f97138027924451b52f53dd8b8ea3365223a48ab5ccd74122880a381e8d6",
+    "bones": 72,
+    "cubes": 652,
+    "faces": 3912,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 39629,
+      "sha256": "d7d8cc5aebd96d36ee76e9e4619513300bb7dbbc5d45b351a131e1145447085a"
+    },
+    {
+      "path": "arm.json",
+      "size": 16671,
+      "sha256": "5340b74942d7f50ade6df3ff0776ebb2b4834e7d631ad0d664ade22110396b4d"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 144073,
+      "sha256": "1cc30c5474076f2027d3b365b9525491a76007ff6451803a06df6814302761d7"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 131125,
+      "sha256": "e898f27bfeec9afa63bc7f33c203c3be644f8354de092301d5b70fb8662f6fa6"
+    },
+    {
+      "path": "main.json",
+      "size": 246865,
+      "sha256": "2cde955c81181d77b64a9b0db9a122bde049bc06b69f82479e10022dad13bc05"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 157266,
+      "sha256": "c03cb9613aa5a9f19a9416760c372309e79f3d12cf1f23cfea0726dc5e825aa2"
+    },
+    {
+      "path": "texture.png",
+      "size": 64446,
+      "sha256": "cbe14cfa03632df8c29985349a1d9e21d81a38007aed32837ee39515b3131baf"
+    },
+    {
+      "path": "unknown.animation.json",
+      "size": 310602,
+      "sha256": "843c71109beda111674cb32996cf2170ee8b87eab5a92ffeee8eaa4097afa4b8"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "AL_Akashi(Lightweight)",
+  "path": "parsed/AL_Akashi(Lightweight)",
+  "source": {
+    "path": "_AzurLane/AL_Akashi(Lightweight).ysm",
+    "type": "ysm",
+    "stem": "AL_Akashi(Lightweight)"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "AL_Akashi(Lightweight)"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "skin-default.png",
+        "skin-glow_eyes1.png",
+        "skin-glow_eyes2.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/AL_Akashi_Lightweight_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10529,
+      "sha256": "69254a816bb1044539ae18602313f0ab0439c5c12201440e245eba598f225394"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 865716,
+    "sha256": "ff626d59908bb7160a85c838b287230edd2b1cc1c6bdad14db16a84e95d39113",
+    "bones": 116,
+    "cubes": 593,
+    "faces": 3558,
+    "textures": 3,
+    "materials": 3,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 49542,
+      "sha256": "7a70a1a509a98010c2586646caab0cb7ac7ea69cf9b938f92085b2afbe25d910"
+    },
+    {
+      "path": "arm.json",
+      "size": 39325,
+      "sha256": "6136ed3168513e763d66a45e9f98f16a03009288226dabe69fb08a952b1a5cf7"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 134927,
+      "sha256": "7ef398846121ae56ea461467973b9bbc510f66db996908c83dc2e116d94bf137"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 146634,
+      "sha256": "5ff8b7e938b0c5441e87205f2df518cc28ade00f78c64e07d3f27fad04e720e9"
+    },
+    {
+      "path": "main.json",
+      "size": 275311,
+      "sha256": "d2f99a429e29a9650f4c1e64757e04c3699223ca68b563c3b393dfc45ea90825"
+    },
+    {
+      "path": "skin-default.png",
+      "size": 20871,
+      "sha256": "1c572a83d8ebd061448feec5fa7f0166a4b45154a281f64b3cb611f0db03af85"
+    },
+    {
+      "path": "skin-glow_eyes1.png",
+      "size": 20886,
+      "sha256": "64cfa690d6e0f5f0235c45d64cde0a541f62cbbbb1155130acb59fc1418087e9"
+    },
+    {
+      "path": "skin-glow_eyes2.png",
+      "size": 20954,
+      "sha256": "0df22c51974c00f7161ae336b6bc5025da42181211d0545cb8a1848b5bde8d3a"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 157266,
+      "sha256": "c03cb9613aa5a9f19a9416760c372309e79f3d12cf1f23cfea0726dc5e825aa2"
+    }
+  ]
+}

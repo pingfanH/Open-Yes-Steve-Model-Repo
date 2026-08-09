@@ -1,0 +1,222 @@
+{
+  "id": "Vtuber_Fallen-Shadow_v2",
+  "path": "parsed/Vtuber_Fallen-Shadow_v2",
+  "source": {
+    "path": "_Vtuber/Vtuber_Fallen-Shadow_v2.ysm",
+    "type": "ysm",
+    "stem": "Vtuber_Fallen-Shadow_v2"
+  },
+  "ysm": "parsed/Vtuber_Fallen-Shadow_v2/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/NekuroMC.png",
+        "comment": "NekuroMC#0661",
+        "name": "NekuroMC",
+        "role": "Author"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://ko-fi.com/nekuromc",
+      "home": "https://www.planetminecraft.com/member/nekuromc/"
+    },
+    "name": "Fallen shadow (Vtuber) v2",
+    "tips": "fallen shadow military outfit V2 - (THIS MODEL IS FREE)"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#pose_config",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "pose_config",
+        "name": "Accessory",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "Bandage",
+            "description": "toggle bandage",
+            "value": "v.bandage"
+          },
+          {
+            "type": "checkbox",
+            "title": "Bag",
+            "description": "toggle bag",
+            "value": "v.bag"
+          },
+          {
+            "type": "checkbox",
+            "title": "Cat ears",
+            "description": "toggle cat ears",
+            "value": "v.cat"
+          },
+          {
+            "type": "checkbox",
+            "title": "Extra hair",
+            "description": "toggle right hair",
+            "value": "v.extrahair"
+          },
+          {
+            "type": "checkbox",
+            "title": "tired",
+            "description": "enable the dark thing under the eyes lol",
+            "value": "v.tired"
+          },
+          {
+            "type": "radio",
+            "title": "Hat",
+            "description": "toggle hat",
+            "value": "v.hat",
+            "labels": {
+              "Off": "v.hat=0",
+              "On": "v.hat=1"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "vehicles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/vehicle/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Vtuber_Fallen-Shadow_v2_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13427,
+      "sha256": "1cef03097d2547d8395bc8ef23f7a332f7e45806ec56a57133d95565a27c4cd8"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 961628,
+    "sha256": "a80be269120c306e9bf3e09c107186b6515956d656f4f6262bd3f08dede329e8",
+    "bones": 134,
+    "cubes": 721,
+    "faces": 4326,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 121795,
+      "sha256": "fe509bd4aa81a2f23b3f8999f27e8ee34cc6ca83e462fb0558c12b3b285877b2"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 123165,
+      "sha256": "0a5d3f9c0562cc4d4032464fa5a4f9c4d80d0d7a218e780240d04c0b276f8c9a"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 172272,
+      "sha256": "0cbee69b1c469e03af69fad0e85b68494497ae05b215ab384e7c1c105145544a"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "animations/vehicle/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "avatar/NekuroMC.png",
+      "size": 3542,
+      "sha256": "ff3d219a731649e11533c2f52e522c3accf6430a2a933d2ca42359c0d051697d"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 47361,
+      "sha256": "c1039ac731737791c21bb0f31d202f6bbc48ef131ac250bb96a93893dc17e650"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "7141bc407c4a46aec2e142c1d05a93827f9132e8cf272667651805b85932dd2d"
+    },
+    {
+      "path": "models/main.json",
+      "size": 340595,
+      "sha256": "bc2d960a466c8d9190f023c52819ab31d2a1a79ffaacafa722e54abba41c2d92"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 514,
+      "sha256": "6900479dc5bca334db96c0243619e7e1f5f9c0c55119ed98ce6adc133c0ccd52"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 7200,
+      "sha256": "0d2898487f1f725d5fc0781d52c2899f0c55c3b37a6d6c241a29c5e6cb79afed"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1915,
+      "sha256": "06fba75c6579160b936fafc55931bb1302a1d0dbb7224e1c0103d660f64b0b40"
+    }
+  ]
+}

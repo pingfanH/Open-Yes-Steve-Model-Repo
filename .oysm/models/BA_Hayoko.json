@@ -1,0 +1,152 @@
+{
+  "id": "BA_Hayoko",
+  "path": "parsed/BA_Hayoko",
+  "source": {
+    "path": "_BlueArchive/BA_Hayoko.ysm",
+    "type": "ysm",
+    "stem": "BA_Hayoko"
+  },
+  "ysm": "parsed/BA_Hayoko/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/哥斯拉.png",
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少",
+        "contact": {
+          "Afdian": "https://afdian.net/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "name": "哥斯拉",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/YoosPerson.png",
+        "comment": "U want a piece of me, boy?",
+        "name": "YoosPerson",
+        "role": "舞蹈动画支持"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.net/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "鬼方 佳代子",
+    "tips": "格赫娜学园所属，便利屋68的课长。\n和其他便利屋68的成员不同，尽管她没有恶意，只因为天生拥有着一张吓人的脸蛋，经常被误认为是不良少女。\n面对那种误会，佳代子本人一律沉默以对。\n但反而因此陷入了加深自己可怕形象的恶性循环。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "",
+      "extra8": "加州女孩"
+    },
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/kayoko.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Hayoko_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7354,
+      "sha256": "60763268e06127ceca41a911bc6702fd94dc62aef9973d66527f300039ce982e"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 840599,
+    "sha256": "1a3040255f9f47d16ede12926927ea374267b7cd4c01f38bc697371b3d68f501",
+    "bones": 95,
+    "cubes": 291,
+    "faces": 1746,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/extra.animation.json",
+      "size": 297021,
+      "sha256": "f02103567506272dbdde9ca9407ae8f943459a43a6bc01699880f3d26da19e36"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 104,
+      "sha256": "23c54570766d8fc3b020371f74f53be705045a9237e8b47c4c440773feca99d0"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 41667,
+      "sha256": "8b9fb29d759b00d4ec3c86a2646713a39d59e40dfb9a5cf80c1a82a81ef3db5f"
+    },
+    {
+      "path": "avatar/YoosPerson.png",
+      "size": 311188,
+      "sha256": "252381f7fa8b4a82de973d1532d8740da4535dfb0623b83f862e903d2fbcd87b"
+    },
+    {
+      "path": "avatar/哥斯拉.png",
+      "size": 19374,
+      "sha256": "6cd420a5238d37083afb1a43736ae8f862dfb9d9065c1ae1895c2ee20071333c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 6761,
+      "sha256": "4dd9c041b45c6b54fef8def0f7d6598de6be1f61021c11d59695599ef1aec292"
+    },
+    {
+      "path": "models/main.json",
+      "size": 148498,
+      "sha256": "088526b3f462202ec0053888b84f7bd793f66cdc8add6bb409a8485e7379afdc"
+    },
+    {
+      "path": "textures/kayoko.png",
+      "size": 14546,
+      "sha256": "986a2b3c0c98bc46ef35f2faf4735c6f2a1ab3faf8ac1551e67db3e6673a40bc"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1440,
+      "sha256": "3796f54d0e293d61a1bbba44055310750e36dbf1da70f50eafdd51b0ed7fc021"
+    }
+  ]
+}

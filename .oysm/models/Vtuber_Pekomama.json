@@ -1,0 +1,129 @@
+{
+  "id": "Vtuber_Pekomama",
+  "path": "parsed/Vtuber_Pekomama",
+  "source": {
+    "path": "_Vtuber/Vtuber_Pekomama.ysm",
+    "type": "ysm",
+    "stem": "Vtuber_Pekomama"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "peko mama",
+    "tips": "Check out my other models at my Planetminecraft account",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "NekuroMC"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "arrow.png",
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Vtuber_Pekomama_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7223,
+      "sha256": "6752c47f50289e4bdb1a93c21ddd7b9cc4d593f95500cdf011c95c4c7fec5a13"
+    }
+  },
+  "stats": {
+    "file_count": 11,
+    "total_bytes": 796573,
+    "sha256": "5b8ed356398f3e56cfa895a89b383cfc367f955f53952da93f42bc617c2b93ad",
+    "bones": 127,
+    "cubes": 311,
+    "faces": 1866,
+    "textures": 2,
+    "materials": 2,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 121795,
+      "sha256": "fe509bd4aa81a2f23b3f8999f27e8ee34cc6ca83e462fb0558c12b3b285877b2"
+    },
+    {
+      "path": "arm.json",
+      "size": 16944,
+      "sha256": "e29d43fde5716fb07932acef3d2e1f351e53a70c3311b271a8170f4c2fff56f5"
+    },
+    {
+      "path": "arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 2710,
+      "sha256": "7c55b68a1ce4d504a51d23c6ed5dd755a79324914ecbb2bdd28e4e28f7e5858f"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 123165,
+      "sha256": "0a5d3f9c0562cc4d4032464fa5a4f9c4d80d0d7a218e780240d04c0b276f8c9a"
+    },
+    {
+      "path": "info.json",
+      "size": 176,
+      "sha256": "aa2bf7de22e8cd8236507c8e9f411d4602f30dab381e2fe3a21a37ef842cc234"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 211621,
+      "sha256": "b64cf1af1852884bf4a2fd393c7b80f97f5e74e74725d60bd1ac2a27a79294c1"
+    },
+    {
+      "path": "main.json",
+      "size": 157369,
+      "sha256": "a1e138e503ab9158bb29fc2a75977b4768b77b9b42dd1ac07c3f510a86c7c687"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "texture.png",
+      "size": 21373,
+      "sha256": "902650e5ef24077c75d92b9af6c9787cccd8d57793be4601914fbe54aaf082a6"
+    }
+  ]
+}

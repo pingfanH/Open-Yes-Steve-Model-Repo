@@ -1,0 +1,164 @@
+{
+  "id": "Vtuber_Pekomama(Bunnygirl)",
+  "path": "parsed/Vtuber_Pekomama(Bunnygirl)",
+  "source": {
+    "path": "_Vtuber/Vtuber_Pekomama(Bunnygirl).ysm",
+    "type": "ysm",
+    "stem": "Vtuber_Pekomama(Bunnygirl)"
+  },
+  "ysm": "parsed/Vtuber_Pekomama(Bunnygirl)/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/NekuroMC.png",
+        "comment": "Nekuro#0661",
+        "name": "NekuroMC",
+        "role": "Author"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://ko-fi.com/nekuromc",
+      "home": "https://www.planetminecraft.com/member/nekuromc/"
+    },
+    "name": "pekomama_bunnygirl",
+    "tips": "FREE Kofi exclusive avatar (Check out my PMC account)"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "preview_animation": "idle",
+    "free": false,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Vtuber_Pekomama_Bunnygirl_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7204,
+      "sha256": "a55ac1171b66b76361188457d75105b881c8cad1c8b5473ab04378db8b46d570"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 974558,
+    "sha256": "d3c42ee3b82638341c5e84413ac73a7e74ca56af020638824f767a8819bd5f29",
+    "bones": 108,
+    "cubes": 299,
+    "faces": 1794,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136637,
+      "sha256": "f795d670b8e2553548348161425e21c7a8f4c2b78d4602d33c8ccc1f03f537b3"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2649,
+      "sha256": "66c3eece0c4450d7d36fdc782cc58e83e15b04d1be0a850ab60eb66f603a416c"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 123164,
+      "sha256": "8ce542ec76c6e6450e93de8a3592491acec1c0edff75d46c7181b173c2878ad7"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 360173,
+      "sha256": "a0358bbb88ee418dfebbe47b057f569dfd3c9f2230f94739ca68641919f1bc42"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 133606,
+      "sha256": "022b91cfcbc5ff01705da1c4dc780862e3fa7ebed457bde8b1f9631b976e0b23"
+    },
+    {
+      "path": "avatar/NekuroMC.png",
+      "size": 21919,
+      "sha256": "53d3b501385c0bf5ac48b6348d2e3762b1dc8b9229d82eb33446d8dc72df515c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 16944,
+      "sha256": "e29d43fde5716fb07932acef3d2e1f351e53a70c3311b271a8170f4c2fff56f5"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 148437,
+      "sha256": "3ce04dd833a443fae78e2ee476a7d023196b94e70a9a02bf568469b4d0394b8e"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 22157,
+      "sha256": "0900704dd28bbd0ac9a420d795c564302b90b73fcd023410e16a203b83faaa91"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1058,
+      "sha256": "a4f8d5257fca6270173de7c057dcbdd6752bedf1b85993d2d772007c4d1f7a14"
+    }
+  ]
+}

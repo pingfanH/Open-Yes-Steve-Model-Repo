@@ -1,0 +1,151 @@
+{
+  "id": "ZZZ_Jane-Doe",
+  "path": "parsed/ZZZ_Jane-Doe",
+  "source": {
+    "path": "_ZenlessZoneZero/ZZZ_Jane-Doe.ysm",
+    "type": "ysm",
+    "stem": "ZZZ_Jane-Doe"
+  },
+  "ysm": "parsed/ZZZ_Jane-Doe/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/groube.png",
+        "comment": "thanks for checking out this model :)",
+        "name": "groube",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Jane Doe",
+    "tips": ""
+  },
+  "properties": {
+    "width_scale": 0.75,
+    "height_scale": 0.75,
+    "extra_animation": {
+      "jacket": "toggle jacket",
+      "twitch ears": "ears ↑↓",
+      "extra idle": "extra idle",
+      "hi": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "是的",
+      "extra4": "不行",
+      "extra5": "卖萌",
+      "extra6": "御笔摇",
+      "extra0": "换头饰",
+      "extra1": "打招呼",
+      "extra7": "舞蹈"
+    },
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "extra": "animations/extra.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/jane.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/ZZZ_Jane-Doe_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3865,
+      "sha256": "815e7c13daf9a9e69c7de2026901968c8e1bc15e5bfed6dfc60773b86eb64bd8"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 1393365,
+    "sha256": "4e234c115bd64c731737b661395ecee52e9d98108798fcd47f9ed97b25160046",
+    "bones": 234,
+    "cubes": 750,
+    "faces": 4500,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/extra.animation.json",
+      "size": 136447,
+      "sha256": "e4422107dc5144b38e5fb6cf13e6cac034087a63a0af029cf093b7071648a686"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 636333,
+      "sha256": "99f5d31ab550e2af27ff310af63bc65c73e63493ec4e8674e0b4a459e2d0be88"
+    },
+    {
+      "path": "avatar/groube.png",
+      "size": 23884,
+      "sha256": "0a0cbcd7523608a3032f463d3120aaa5a22dd5c5b4de07abe2391729065081f3"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 32230,
+      "sha256": "a4246340fb06a6cf25aa9a642fe63599fc7d69aed0a5d945d7c9686a829743da"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 11864,
+      "sha256": "0efdf42753dc6ba8d9afd8823db22d622d6c6f8c26d282f08b487581cb9292b0"
+    },
+    {
+      "path": "models/main.json",
+      "size": 387951,
+      "sha256": "003dc9e8514c2f1de7e638340e6fdac24302d88986e8da1fe572c89205124210"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 81798,
+      "sha256": "65305a86dbe05abddd6ff1133a8f490124e5d000ee3b5935c711ca814d05db5c"
+    },
+    {
+      "path": "textures/jane.png",
+      "size": 81798,
+      "sha256": "65305a86dbe05abddd6ff1133a8f490124e5d000ee3b5935c711ca814d05db5c"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1060,
+      "sha256": "19c67ef2bfac403b6bdee507a068c9eadb866fc32380ee0ff5b1470afd63bac9"
+    }
+  ]
+}

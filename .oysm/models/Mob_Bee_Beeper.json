@@ -1,0 +1,90 @@
+{
+  "id": "Mob_Bee(Beeper)",
+  "path": "parsed/Mob_Bee(Beeper)",
+  "source": {
+    "path": "_MinecraftMob/Mob_Bee(Beeper).zip",
+    "type": "zip",
+    "stem": "Mob_Bee(Beeper)"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Mob_Bee(Beeper)"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "bee.png",
+        "beeper.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Mob_Bee_Beeper_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 934,
+      "sha256": "e4ef1f27284582a2bb33442ec70d355107f4b30e92ada6ccac143aa675ca3189"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 129323,
+    "sha256": "2dcfc0bdd03f0c434a02654b033e313ded52a93f52b612c03d55b3c5d804f900",
+    "bones": 26,
+    "cubes": 26,
+    "faces": 156,
+    "textures": 2,
+    "materials": 2,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 1417,
+      "sha256": "6754b24b9020f9492994cca78d17e62c2708db8f7af1d9aa20b18f8c7134043d"
+    },
+    {
+      "path": "bee.png",
+      "size": 957,
+      "sha256": "fa8cdf41362c425a234160acb8debde0334ff96aacfc115e1a13e6ef1207989e"
+    },
+    {
+      "path": "beeper.png",
+      "size": 1313,
+      "sha256": "a3796fa3ff5b2ea6e6950121b5bacfefba27c4712cb3d6a4274787149c2b9cd5"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 2783,
+      "sha256": "ba05405b03ca5f14fc9cd3045bf647321a6884606c415cd0d6902377c9551125"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 107448,
+      "sha256": "f3634f55880cf6b932aad6345e9c451721432024a0ea7c70712b214d1a00f29f"
+    },
+    {
+      "path": "main.json",
+      "size": 15405,
+      "sha256": "472adeb0c503e40e18185a3ffa295c6ff5950df15b77261dc435f11c7796e566"
+    }
+  ]
+}

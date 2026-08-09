@@ -1,0 +1,105 @@
+{
+  "id": "CnCMO_AlliedGuardianGI",
+  "path": "parsed/CnCMO_AlliedGuardianGI",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCMO_AlliedGuardianGI.ysm",
+    "type": "ysm",
+    "stem": "CnCMO_AlliedGuardianGI"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "盟军大兵",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCMO_AlliedGuardianGI_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7306,
+      "sha256": "6530903853c239a0903a1f91970a446fb96753612ec482670ca3d2a86d5934e6"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 450831,
+    "sha256": "c0e55b3afdf2f42b40ee4640bbaad2c1770dd5ed99f9f4c9d69cd5b01707edf0",
+    "bones": 70,
+    "cubes": 278,
+    "faces": 1668,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 32454,
+      "sha256": "7a3edfe9e598fae10683e717f31bfb951eee17c0f6649236e6543a888081b0f7"
+    },
+    {
+      "path": "arm.json",
+      "size": 10892,
+      "sha256": "b2d21f2b7141755aabf4e76d5339ee0da1e13ef5a2636054ad2da27c6620880d"
+    },
+    {
+      "path": "info.json",
+      "size": 130,
+      "sha256": "32f023f8b8f3d3cf51b7d726b1216931fcf55847e3ffedf27df6ebb5642c9506"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122470,
+      "sha256": "d93402d24863ccd84622801424bb845d8ff78161fae9d48b7bbf0c3d213720c1"
+    },
+    {
+      "path": "main.json",
+      "size": 134627,
+      "sha256": "6bd884b21684e7d81e04e263c3d414b1dfdb75cd1b2aea5aeff53c44288a490a"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131639,
+      "sha256": "a73cf95259743cc506fa6931e6bed68e0e41c5edca8f4651f26f1a42c1e26994"
+    },
+    {
+      "path": "texture.png",
+      "size": 18619,
+      "sha256": "160719879f24778f6613f18bc06119497f8b1ebc395690036f4e3ca029fa7367"
+    }
+  ]
+}

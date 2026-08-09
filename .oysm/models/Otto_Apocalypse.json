@@ -1,0 +1,102 @@
+{
+  "id": "_Otto_Apocalypse",
+  "path": "parsed/_Otto_Apocalypse",
+  "source": {
+    "path": "Uncategorized/_Otto_Apocalypse.ysm",
+    "type": "ysm",
+    "stem": "_Otto_Apocalypse"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_Otto_Apocalypse"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "main.png",
+        "main1.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Otto_Apocalypse_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11795,
+      "sha256": "52d18cf0ea9931da202d8c1d280e8458520b91dda3ff8cf87031c4b1ac089857"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 1070861,
+    "sha256": "0acfe5d4473b01d83cadbc20c5e76135d19e69f4282f0153303988f80bba9448",
+    "bones": 57,
+    "cubes": 1141,
+    "faces": 6846,
+    "textures": 2,
+    "materials": 2,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 39629,
+      "sha256": "d7d8cc5aebd96d36ee76e9e4619513300bb7dbbc5d45b351a131e1145447085a"
+    },
+    {
+      "path": "arm.json",
+      "size": 57277,
+      "sha256": "28bc26d2f4be46dc45715ca7e394fdd5c1dcd5b7b1804af9649619a0bf8a33f3"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 123220,
+      "sha256": "e276b3c58ea377501876606433a5ed91b68f44b92501bcc8f569f9253c863e4e"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 119822,
+      "sha256": "02d59479c2f68e7b4c3ade615b5f0066dcdaac5171c3f4954344beeadba671fc"
+    },
+    {
+      "path": "main.json",
+      "size": 538800,
+      "sha256": "5f685e088b0ea96431e31a9bec99aaf6c20d4ca89df3740ae01b3979b4605749"
+    },
+    {
+      "path": "main.png",
+      "size": 16348,
+      "sha256": "abe3b031d3c082b26cd51b4ee204a468859081acfb3462f7d76992ab5f387a1e"
+    },
+    {
+      "path": "main1.png",
+      "size": 16326,
+      "sha256": "805c00976ad98db3159c216abceef862080605af02936d0c71ad7678f483ca9a"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 159439,
+      "sha256": "cbceff5900150c40127fd93b3108e58837dd57da722747cdd8c5ef405f28637b"
+    }
+  ]
+}

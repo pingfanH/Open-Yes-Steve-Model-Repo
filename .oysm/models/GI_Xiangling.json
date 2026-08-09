@@ -1,0 +1,105 @@
+{
+  "id": "GI_Xiangling",
+  "path": "parsed/GI_Xiangling",
+  "source": {
+    "path": "_GenshinImpact/GI_Xiangling.ysm",
+    "type": "ysm",
+    "stem": "GI_Xiangling"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§6香菱",
+    "tips": "§8普通版\n§8穿皮革套隐藏对应衣物§8持剑类手上显示专武",
+    "authors": [
+      {
+        "name": "§d奶油桃§8（模型）"
+      },
+      {
+        "name": "§bWone_J§8（动作）"
+      }
+    ]
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "block.png",
+        "quan.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Xiangling_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13636,
+      "sha256": "1154afa4a0d5f8ac1638fecc1812c367b218cbd29ff098141ae6fa657fb37cac"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 948061,
+    "sha256": "cd5f16bb62f67820a3d4293e27524cb90c25d4f314b593664ce66ca3141f1f91",
+    "bones": 119,
+    "cubes": 973,
+    "faces": 5838,
+    "textures": 2,
+    "materials": 2,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 38902,
+      "sha256": "216dd215ca7d3f2b30897dcde05ca70de3235f9e5bd691481e9e32e427425a58"
+    },
+    {
+      "path": "arm.json",
+      "size": 53567,
+      "sha256": "9ac47c13ca19d8ad7601c4d6b3e27a7229f54d025fbf1547a47a8fd9bbdf2a82"
+    },
+    {
+      "path": "block.png",
+      "size": 30004,
+      "sha256": "94b4ead9e7d1c60a4aa8076823d087de20783fd20b99a8f9361c2821257f731b"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 159864,
+      "sha256": "f5747b14668028bd00dfdcf9fa868e16c240bf2848851004b04f841f5202240c"
+    },
+    {
+      "path": "main.json",
+      "size": 480971,
+      "sha256": "a7ec3c66a388c9bc2e422b2f995cd1fe8f43963843b674eb347f7ffdf1685f77"
+    },
+    {
+      "path": "quan.png",
+      "size": 29900,
+      "sha256": "58600178ce4ffcbda416083c5e8f3cb67ff0e58fdd06d2452caa99d7a841ba91"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 154853,
+      "sha256": "901d56a6391aee0ca066594d3a5119eb18afcfed2faa5f8002d10e7a0084e1bf"
+    }
+  ]
+}

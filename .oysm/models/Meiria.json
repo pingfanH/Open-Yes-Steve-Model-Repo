@@ -1,0 +1,93 @@
+{
+  "id": "_Meiria",
+  "path": "parsed/_Meiria",
+  "source": {
+    "path": "Uncategorized/_Meiria.ysm",
+    "type": "ysm",
+    "stem": "_Meiria"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_Meiria"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "normal.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Meiria_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13424,
+      "sha256": "06060558993c97ca377ecba38ff3ebbebffc03ea58b81a63ee052451d7acd7ea"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 7610886,
+    "sha256": "2844f505f30f77d6eef57c4917eb20bfe406ba808e26fec4453216b8f8a220a8",
+    "bones": 82,
+    "cubes": 472,
+    "faces": 2832,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 28859,
+      "sha256": "be358117a0fdb012b26e8d73e4cae8c26ffc9026faab0fc43655aeee1acebcb3"
+    },
+    {
+      "path": "main.animation - 副本.json",
+      "size": 1496920,
+      "sha256": "acdf5ca6f00207dc0f6ec719fbf38a352c07bdf12600baf0fc2892049a69cf97"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 1796032,
+      "sha256": "1e6dd42db5d47b8f94c0778b7ebd443f9fa784dd09e9876400907a68bbed1bfd"
+    },
+    {
+      "path": "main.json",
+      "size": 232816,
+      "sha256": "4465f2a31ff11432ff4dd05308b189e9a1b57420fc54a3b7685075b8e583a8f1"
+    },
+    {
+      "path": "normal.png",
+      "size": 19424,
+      "sha256": "78533ea8a3c96199bc9b575be918230d18b9dff121b32730352d0f607e3e1ef6"
+    },
+    {
+      "path": "极乐净土.bbmodel",
+      "size": 2650118,
+      "sha256": "cc3dafc2c4258ea63fc64f7bc24475eeb75f39026d9e9edea6b834367f8bd6f7"
+    },
+    {
+      "path": "极乐净土.json",
+      "size": 1386717,
+      "sha256": "9d3c3ce0ceb97811acfb00f518ed3cb2a3085dbdb5dbfe2efbd963b5987b115e"
+    }
+  ]
+}

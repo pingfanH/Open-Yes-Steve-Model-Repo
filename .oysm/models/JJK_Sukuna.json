@@ -1,0 +1,179 @@
+{
+  "id": "JJK_Sukuna",
+  "path": "parsed/JJK_Sukuna",
+  "source": {
+    "path": "_JujutsuKaisen/JJK_Sukuna.ysm",
+    "type": "ysm",
+    "stem": "JJK_Sukuna"
+  },
+  "ysm": "parsed/JJK_Sukuna/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/艺方像素§r.png",
+        "comment": "方块搭建成的幻想，是我们落脚的彼方",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/107318873",
+          "艺方直联QQ（投诉建议咨询）": "1320812591"
+        },
+        "name": "艺方像素§r",
+        "role": "§b模型"
+      },
+      {
+        "avatar": "avatar/艺方堂·公益④群.png",
+        "comment": "(公益)艺方堂：833187861 ·供服主，粉丝交流以及获取免费资源的群聊",
+        "name": "艺方堂·公益④群",
+        "role": "公益群"
+      },
+      {
+        "avatar": "avatar/艺方像素·售后群.png",
+        "comment": "购买模型后请查看附带文件",
+        "name": "艺方像素·售后群",
+        "role": "售后服务"
+      },
+      {
+        "avatar": "avatar/浅宣.png",
+        "comment": "有其他定制需求请+Q： 1320812591",
+        "name": "浅宣",
+        "role": "定制服务"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://space.bilibili.com/107318873",
+      "home": "https://space.bilibili.com/107318873"
+    },
+    "name": "§c§l两面宿傩",
+    "tips": "\n千年前是诅咒之王的存在\n拥有四条手臂和四只眼睛，身上带着奇特的刺青纹路"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "§b§l大爷跳舞",
+      "extra1": "§6   伸展运动",
+      "extra2": "§6伸展领域",
+      "extra3": "§a你被大爷盯上了",
+      "extra4": "§c§l单手领域展开",
+      "extra5": "§c§l伏魔御厨子   ",
+      "extra6": "§a     大爷乖巧坐",
+      "extra7": "§b§l  大爷跳舞2"
+    },
+    "default_texture": "texture",
+    "preview_animation": "idle",
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/JJK_Sukuna_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 16663,
+      "sha256": "b2064daa17ce4f169136be044eaa96d7a3bca21e8332d661dfef564bb5ec8928"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 3212281,
+    "sha256": "33e3fb0afc9046006bd45da8fbc07cb477bedae2ec9ba0df4b9ffc5fa42cb8c8",
+    "bones": 137,
+    "cubes": 1187,
+    "faces": 7023,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 135010,
+      "sha256": "7c179cc03ed5ea7e99a4166af87d3cd5d832e4c601a11d09a98c7665053efb9d"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 30017,
+      "sha256": "222596d805bdf2e3ce1871d4a8224e64516d76b438e438039470dd241b41d85b"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 118452,
+      "sha256": "427fc974050d9ef644ba70a3a0120daeb985fec0ee8461351c41dbd9103ad434"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 166491,
+      "sha256": "bf4bf83e551931e5c96680adb07a540f182b4ecec6cb2792cba8d0cf9e890365"
+    },
+    {
+      "path": "avatar/浅宣.png",
+      "size": 368124,
+      "sha256": "90b24a4bf3eb45662c9a9177192ed12bcbbe3aa4868deef1a0e5c5454f1ce609"
+    },
+    {
+      "path": "avatar/艺方像素§r.png",
+      "size": 566297,
+      "sha256": "433b99ebf52a95310dcfda8e649ba3c13dc36a99e0a8126b04a7da5a65685cb0"
+    },
+    {
+      "path": "avatar/艺方像素·售后群.png",
+      "size": 460154,
+      "sha256": "2be62c8f738500373171a66ac931fd8931c9e6bd53aaf1c19bd468a37bbfaada"
+    },
+    {
+      "path": "avatar/艺方堂·公益④群.png",
+      "size": 567835,
+      "sha256": "bf4a04d1222878f5f80718bb544b4c0d7f2a60779b6ea8dcb8edc906aa527ba7"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 29486,
+      "sha256": "36dd27e66188ccd861b29d778815b9ed2757dad2c48c20070cfb7334254e991e"
+    },
+    {
+      "path": "models/main.json",
+      "size": 615860,
+      "sha256": "f260ac172dab084e224dd2dbfc82ac71cb17c393f82998a12a6d34656fef3149"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 152758,
+      "sha256": "795f283f110ff81b74431dd3cd1b52bb20383feb52fb5df9ae933a617366cef8"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1797,
+      "sha256": "7c6d53a40fb49114d89cf8461c7c6f04ef8c65ab1d52402dd5161bfc0df416b4"
+    }
+  ]
+}

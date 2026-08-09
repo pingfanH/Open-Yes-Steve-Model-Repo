@@ -1,0 +1,255 @@
+{
+  "id": "yuki v2.4",
+  "path": "parsed/yuki v2.4",
+  "source": {
+    "path": "Unknown/yuki v2.4.ysm",
+    "type": "ysm",
+    "stem": "yuki v2.4"
+  },
+  "ysm": "parsed/yuki v2.4/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/伍炎.png",
+        "comment": "",
+        "contact": {
+          "B站": "https://space.bilibili.com/347376421"
+        },
+        "name": "伍炎",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "name": "Yuki（雪雪）",
+    "tips": "来自F社的《星辰恋曲的白色永恒》中的角色雪雪"
+  },
+  "properties": {
+    "width_scale": 0.6,
+    "height_scale": 0.6,
+    "extra_animation": {
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "extra5": "耶！",
+      "extra9": "#表情组件",
+      "#这一定就是芬布尔之冬": "这一定就是芬布尔之冬",
+      "extra10": "打伞"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "表情组件",
+        "name": "表情切换",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "表情",
+            "description": "表情切换",
+            "value": "v.bq",
+            "labels": {
+              "默认": "v.bq=0;v.mr=1;v.mz=0;v.bs=0;v.mrz=0;v.hl=0;v.je=0",
+              "满足": "v.bq=1;v.mz=1;v.mr=0;v.bs=0;v.mrz=1;v.hl=0;v.je=0",
+              "鄙视": "v.bq=2;v.bs=1;v.mr=0;v.mz=0;v.mrz=1;v.hl=0;v.je=0",
+              "混乱": "v.bq=3;v.mr=0;v.mz=0;v.bs=0;v.hl=1;v.mrz=1;v.je=0",
+              "惊愕": "v.bq=4;v.je=1;v.mr=0;v.mz=0;v.mrz=1;v.hl=0;v.bs=0"
+            }
+          },
+          {
+            "type": "checkbox",
+            "title": "脸红",
+            "description": "脸红",
+            "value": "v.lh"
+          },
+          {
+            "type": "checkbox",
+            "title": "呲牙",
+            "description": "呲牙.jpg",
+            "value": "v.cy"
+          }
+        ]
+      },
+      {
+        "id": "动画组件",
+        "name": "动画"
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "这一定就是芬布尔之冬",
+        "extra_animation": {
+          "extra8": "短，无bgm",
+          "extra11": "6分钟超长版，有完整bgm"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/main.animation_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/yuki.png"
+        }
+      ]
+    },
+    "vehicles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/vehicle/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/yuki_v2.4_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 2885,
+      "sha256": "691463f09cae8c07d6daf726129522a5d57bee58ae1b5ca268bd11a4c6d1ba29"
+    }
+  },
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 7320186,
+    "sha256": "7533fd2c4f2025af220f9330cf0482c6ff872d8bfd17c45d94c22f583888ac46",
+    "bones": 206,
+    "cubes": 860,
+    "faces": 5160,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 176134,
+      "sha256": "08c1563d032a01d7672c7b264f89677b3a6b94bf2137f0d9ec3902ebe9d83e9b"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2792,
+      "sha256": "2afeefd5e17300bdd7ef6c7b044b58bd3cb5062da101d78cb8ffcb9c531771d0"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 134310,
+      "sha256": "0506cfe2c547b07f62ef397cd848f0ae9f8606a03e468ce00c1bac72fd064bf9"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 198783,
+      "sha256": "421aa0c760418c2df567a347b004cd5cc3e51b1e8de6c94e6fd71d3898549b54"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50564,
+      "sha256": "33a9db4f22ae7c6569a9b408be7d2a0416e6f5a7591dd53bafdf456f01753444"
+    },
+    {
+      "path": "animations/vehicle/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "avatar/伍炎.png",
+      "size": 5871,
+      "sha256": "b5dbb3df573daa626a42cd539a42f367248d88ed1bb48dffdb55b7bd526d6b41"
+    },
+    {
+      "path": "controller/main.animation_controllers.json",
+      "size": 739,
+      "sha256": "f28344442be0be1091ecf7f3fa751a2ea6c1d7e1b7d52d95d0210a909e52ad35"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 23924,
+      "sha256": "e97fb29f7d187a6fe4e60bf05160f453df422c51a22a3d06653270e039468d70"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13752,
+      "sha256": "3afa51fa99152b689875ef25ca5853f92d4ccd0e44caf11d5ef58aa5413ccfbe"
+    },
+    {
+      "path": "models/main.json",
+      "size": 432322,
+      "sha256": "b7c923ef022ea64b7305e45e89c188aad962c1fa29a3a9584819613ed00b1a02"
+    },
+    {
+      "path": "sounds/桃園にな - 雪のエルフィンリート.ogg",
+      "size": 3886892,
+      "sha256": "725f46bf2770bcfface8bd0b53a4868eb58a8d8eddf8a82ebf7c1547fabe3b12"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 854,
+      "sha256": "205e4da892496567b38d2d5fa9efa703c22e1c8e9ef2b0d7ecd32c5b0682fa3a"
+    },
+    {
+      "path": "textures/yuki.png",
+      "size": 4950,
+      "sha256": "6e72f81a59dbbfd85f46b3d0ceec1ebe8a290ff6d192a60b786251fc97466eec"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2312,
+      "sha256": "3dbd4a58bb4038ec17c761efb68100ed918b60155c5e6a7d39cf715652bc231f"
+    }
+  ]
+}

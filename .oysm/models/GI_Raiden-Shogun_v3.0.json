@@ -1,0 +1,84 @@
+{
+  "id": "GI_Raiden-Shogun_v3.0",
+  "path": "parsed/GI_Raiden-Shogun_v3.0",
+  "source": {
+    "path": "_GenshinImpact/GI_Raiden-Shogun_v3.0.ysm",
+    "type": "ysm",
+    "stem": "GI_Raiden-Shogun_v3.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "GI_Raiden-Shogun_v3.0"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Raiden-Shogun_v3.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7929,
+      "sha256": "619bb893caa0cc0311a08c26d5fdd272381561ada0ca0fd0a2c4956e44aad51e"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 316816,
+    "sha256": "7e3cc4a6c84335fd1d2bc636272c8be0d1aa0c99dd196f298456843c034aaeac",
+    "bones": 119,
+    "cubes": 443,
+    "faces": 2658,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 91,
+      "sha256": "a7c246495beaffe9733d903936d163adcb1e5ba1bcfcfaa6c9efbd051bd32222"
+    },
+    {
+      "path": "arm.json",
+      "size": 2874,
+      "sha256": "e1973a73cda8df15196913faab506b7e182981931d1c6ca1a6b4d320ced4e0e0"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 181363,
+      "sha256": "2376a127723ef1b47dd5124c171862812565633fee8b0ba3837ca6012be44c2e"
+    },
+    {
+      "path": "main.json",
+      "size": 118020,
+      "sha256": "e7c3304eb3c093f62013dc3cc0e231a7e26e2575729d5741d123b56dfa791b5f"
+    },
+    {
+      "path": "texture.png",
+      "size": 14468,
+      "sha256": "a4d1b482e7905c474814d22c947be7b2ea15c8b9c384dba16b15031241aeeb02"
+    }
+  ]
+}

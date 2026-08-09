@@ -1,0 +1,271 @@
+{
+  "id": "Ak_Shamare(WitchFeast)_v1.0_Fllz",
+  "path": "parsed/Ak_Shamare(WitchFeast)_v1.0_Fllz",
+  "source": {
+    "path": "_Arknights/Ak_Shamare(WitchFeast)_v1.0_Fllz.ysm",
+    "type": "ysm",
+    "stem": "Ak_Shamare(WitchFeast)_v1.0_Fllz"
+  },
+  "ysm": "parsed/Ak_Shamare(WitchFeast)_v1.0_Fllz/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/哥斯拉.png",
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "name": "哥斯拉",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/端木一动不动.png",
+        "comment": "永远都在ing",
+        "name": "端木一动不动",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/甜粽子.png",
+        "comment": "(ᗜˬᗜ)",
+        "name": "甜粽子",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/星屑海螺.png",
+        "comment": "漂泊于群星之中",
+        "contact": {
+          "Afdian": "https://afdian.com/a/lucia2048",
+          "Bilibili": "https://space.bilibili.com/14975572"
+        },
+        "name": "星屑海螺",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/Fllz.png",
+        "comment": "gweh",
+        "contact": {
+          "Discord": "fllz",
+          "Linktree": "https://linktr.ee/fllz",
+          "Vgen": "https://vgen.co/fllz"
+        },
+        "name": "Fllz",
+        "role": "Model author"
+      }
+    ],
+    "license": {
+      "desc": "Please credit me",
+      "type": "CC BY"
+    },
+    "link": {
+      "donate": "vgen.co/fllz",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Shamare",
+    "tips": "[Witch Feast ] Echo of the Horrorlair\nWant a custom model? Visit my Vgen: vgen.co/fllz"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "Cursed Doll",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "（＞д＜）",
+      "extra8": "old Extra7",
+      "extra9": "old Extra0"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Shamare_WitchFeast__v1.0_Fllz_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6729,
+      "sha256": "1856ad0fea90fbc143dcf7d37ab86f436dc2db93bb157ee803187efd0ae8008a"
+    }
+  },
+  "stats": {
+    "file_count": 21,
+    "total_bytes": 3577002,
+    "sha256": "ab0259d876877a87145f41141309688a18e0ffccc836e669247d80598ef63d0d",
+    "bones": 449,
+    "cubes": 1693,
+    "faces": 10158,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 183300,
+      "sha256": "ddb19b83f5fc64f321a990f757ce2dc09833bef4b4584c7ec04e6b549b1a9323"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1627,
+      "sha256": "c3343b863d883a557db9294e4ef4969b3ca052eadeb33ce5f8de371f1daae9ed"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2431,
+      "sha256": "c5593e55d7a6751d619f0dfcf2834260edd3a4daa0fe66304b679e1848abbfa9"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 114540,
+      "sha256": "d97b670d4b9b4504ceb66672d8ecc2d9fa059ca2381ed9af1b117884dcc25137"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 257815,
+      "sha256": "4f1099bba8ff0f057f93501804db12331700136be71f7cc350c0b82baab1f2b4"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 142415,
+      "sha256": "c8145e744a18254e0a3b99912894c3bda014923f17e823571542038505ffca3c"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1523480,
+      "sha256": "5691beec0fdf69205a5837bf526bf8dfa6ee12cb0fe20897b46245a3e60f070f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 32518,
+      "sha256": "0c7d036e62ddf9b98db0efa55c5f1ea129218d7d71430a5e4b84cb1c23735319"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 184475,
+      "sha256": "c32299db1c7096ee1e51ab28e6157b21755623f9113d8f54bfe7416005ca2580"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 53274,
+      "sha256": "651efecd03f609bd800a3778c6825f9479bd31fd24a29017aa0dd9364093ccc4"
+    },
+    {
+      "path": "avatar/Fllz.png",
+      "size": 25099,
+      "sha256": "43b1954f1db86357e084df36a4c15052dfb2d973a0377e84a2690a4e9a5fd02c"
+    },
+    {
+      "path": "avatar/哥斯拉.png",
+      "size": 19374,
+      "sha256": "6cd420a5238d37083afb1a43736ae8f862dfb9d9065c1ae1895c2ee20071333c"
+    },
+    {
+      "path": "avatar/星屑海螺.png",
+      "size": 22406,
+      "sha256": "2c03d4213bddb87b0bc8d40b1cc32c059b0fe72a0bd6cc09613505a82e922f65"
+    },
+    {
+      "path": "avatar/甜粽子.png",
+      "size": 13575,
+      "sha256": "afbc4a0ad6483a06d38085e6ec7f55db706ce25cb1de636a1698faf2fc53d4a1"
+    },
+    {
+      "path": "avatar/端木一动不动.png",
+      "size": 22379,
+      "sha256": "3c431bb54f22ffb6bb153d5de92dee6831881419ed4135b517cc9abd32e44095"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 58906,
+      "sha256": "2198cf183aefab0153729057c9896163238645e7bad4107d7814761abc444f45"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 10208,
+      "sha256": "122c983a1c2a630c95f8384c66f65a238a44205aaec8bab103f3fe0a894e50fc"
+    },
+    {
+      "path": "models/main.json",
+      "size": 874175,
+      "sha256": "453fa52b0c4a39bd04834524ff5e9b6fd1dcb7a0756e2851451fa8baed201305"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2735,
+      "sha256": "0cdd1ad8e7942462dec475097c9bf58da34c2727edd812fef6626d962054a9c0"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 29815,
+      "sha256": "397568130c321d62c7611cadaa62f2f7c88a2c739adac61dfc245d2fc2519ddb"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2455,
+      "sha256": "79cab9be3c83bc423a7fef830aa7f54bd363b40f4c94be407bdef5a0e88ff628"
+    }
+  ]
+}

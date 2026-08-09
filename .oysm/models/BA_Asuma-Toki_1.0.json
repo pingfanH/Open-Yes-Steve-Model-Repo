@@ -1,0 +1,96 @@
+{
+  "id": "BA_Asuma-Toki_1.0",
+  "path": "parsed/BA_Asuma-Toki_1.0",
+  "source": {
+    "path": "_BlueArchive/BA_Asuma-Toki_1.0.zip",
+    "type": "zip",
+    "stem": "BA_Asuma-Toki_1.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "BA_Asuma-Toki_1.0"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "1..png",
+        "2.png",
+        "3.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Asuma-Toki_1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6755,
+      "sha256": "51ab843cf9967def3c1041f7d516121df7a188bc22c4aee137878d9b31c7a4d7"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 379948,
+    "sha256": "04dfad851625758bf036190077c6a5b03548f46b3da04758ec4a8ac3aff27b75",
+    "bones": 157,
+    "cubes": 864,
+    "faces": 5184,
+    "textures": 3,
+    "materials": 3,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "1..png",
+      "size": 9382,
+      "sha256": "b224c6f7d91110ce993264a2c92aa031be9a8dd7c26d50626ec07c0ddcf5f635"
+    },
+    {
+      "path": "2.png",
+      "size": 13909,
+      "sha256": "23bf030f232090a90cb5e364b0de2f6ec1f02c50c01c22f6bd8d351b8543440f"
+    },
+    {
+      "path": "3.png",
+      "size": 14980,
+      "sha256": "f737085b54a79edb04ae3cc40c2a6c028816385963e68e6d99eb441f67204df5"
+    },
+    {
+      "path": "arm.json",
+      "size": 12498,
+      "sha256": "712b4048d4b0896e6dc130dbaade4e99ac621e61514a6a4563bc9519817c99ae"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 23065,
+      "sha256": "f2cca2176970a091f054be31059b70616944b5a32832dcb7e9c495be1e81d8ea"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 134225,
+      "sha256": "f8287cc47a37bcef4387155464a07ee6e95d9b9a0e888f8418a7255c0e5fe31f"
+    },
+    {
+      "path": "main.json",
+      "size": 171889,
+      "sha256": "e2bf0edb95ef7b117e2e63d7dc97ce0d816d4e870ddeb080ba8d2719ef128f5e"
+    }
+  ]
+}

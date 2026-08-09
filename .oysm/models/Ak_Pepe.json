@@ -1,0 +1,159 @@
+{
+  "id": "Ak_Pepe",
+  "path": "parsed/Ak_Pepe",
+  "source": {
+    "path": "_Arknights/Ak_Pepe.ysm",
+    "type": "ysm",
+    "stem": "Ak_Pepe"
+  },
+  "ysm": "parsed/Ak_Pepe/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§c寒叔.png",
+        "comment": "§7嘿嘿嘿~",
+        "contact": {
+          "Afdian": "https://afdian.com/a/Aigoblin?tab=shop",
+          "Bilibili": "https://space.bilibili.com/20510758?spm_id_from=333.1007.0.0"
+        },
+        "name": "§c寒叔",
+        "role": "§7模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/Aigoblin?tab=shop",
+      "home": "https://space.bilibili.com/20510758?spm_id_from=333.1007.0.0"
+    },
+    "name": "§6佩佩",
+    "tips": "如果喜欢，欢迎前往爱发电支持，解锁可脱功能及更多轮盘动画！"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "切换脸型": "切换脸型"
+    },
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Pepe_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 21033,
+      "sha256": "0d5943c23d03cd4a8a0d4777e78214deaac09f30d94cbea145ef12712e0be866"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 1888464,
+    "sha256": "c91523d99a31ef3a681cc667947dbb025af0fd6cab776dcdb5ad2cc48248c913",
+    "bones": 164,
+    "cubes": 1792,
+    "faces": 10752,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 31053,
+      "sha256": "3e8f5064226932a1ba5d96e868f767611bc1e2d95ae25fbd7b82f4ab97783e04"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "6e8d3afe0c3baafff8f7f3e0e30ef3c621c667be5c346af73398f5fd3cb89ca5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 693,
+      "sha256": "2798ff73a01e1dbb33c3fc209d8fd6bd30d1f0b728ec7cbf585351f756d03613"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 494194,
+      "sha256": "b2dd2164f737ccfc7e33b79873291ffbb16119fce197bcfa0f6b1e52d73c6eea"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 119419,
+      "sha256": "dd3d8b2b30abe8c8b28dd176fd4c69b9cf5b9fbd71b2f38ef4aa08953f84797f"
+    },
+    {
+      "path": "avatar/§c寒叔.png",
+      "size": 162710,
+      "sha256": "28e19d6587eb8d647553eb54267c3793ea5f8a5de70d5b58314647b9d63257b5"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 39080,
+      "sha256": "4d3caf4aff034e0e025476e901d10ce87dd23e65e6587fc9319796fb9926b1da"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13423,
+      "sha256": "7e605f03efbf09f910136dd6d7428b3b57d416be110ef51c153d96e8c7dc686e"
+    },
+    {
+      "path": "models/main.json",
+      "size": 966077,
+      "sha256": "32880005ae432d2f341a3213b96c2723b4a07dac5c781a7fb8b55c36f468abdf"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 613,
+      "sha256": "aeabb5efc19dc3fe19bd5bd6f9727a0c467810c3fae08bffbb5d424c72049329"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 57399,
+      "sha256": "22d602016ff4bf82ffb2cd32eb1b9e06f03f0a7773a911bd2fe8c95d9adc8082"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1128,
+      "sha256": "18c9fef113293efd07fd8b5c4240d287b3fda8771730985a40740dad97989eae"
+    }
+  ]
+}

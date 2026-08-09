@@ -1,0 +1,175 @@
+{
+  "id": "SenrenBanka_Murasame(uniform)",
+  "path": "parsed/SenrenBanka_Murasame(uniform)",
+  "source": {
+    "path": "_SenrenBanka/SenrenBanka_Murasame(uniform).ysm",
+    "type": "ysm",
+    "stem": "SenrenBanka_Murasame(uniform)"
+  },
+  "ysm": "parsed/SenrenBanka_Murasame(uniform)/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/Almeta_owx.png",
+        "comment": "and the universe said I love you",
+        "contact": {
+          "Afdian": "https://afdian.com/a/Almeta",
+          "Bilibili": " https://b23.tv/iAsj6Ee"
+        },
+        "name": "Almeta_owx",
+        "role": "模型/动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-SA 4.0"
+    },
+    "link": {
+      "home": "https://afdian.com/a/Almeta",
+      "update": "https://b23.tv/iAsj6Ee"
+    },
+    "name": "丛雨校服（Murasame）",
+    "tips": "丛雨是柚子社《千恋＊万花》登场女主角之一。模型为换上校服的丛雨，模型如有更新请查看我的哔哩哔哩主页获取。谢谢大家的支持！"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "打招呼",
+      "extra2": "拍手",
+      "extra3": "点头",
+      "extra4": "不行",
+      "extra5": "欢呼",
+      "extra6": "无",
+      "extra7": "杂鱼"
+    },
+    "default_texture": "default",
+    "preview_animation": "xzdh",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/murasame.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/SenrenBanka_Murasame_uniform_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3207,
+      "sha256": "2da3323cc60a326c11207f286b5651eaa7707a54b58b1a4a0c46892f5b261bc3"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 1106392,
+    "sha256": "e11358f1cbdb98086e2055c37b3b2d2ad55f30717f42d6384e066c4eccf9017e",
+    "bones": 208,
+    "cubes": 866,
+    "faces": 5196,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 135934,
+      "sha256": "413c68930dc4e49b79ef12a730c319a5199d995ce884e77fccea7d3535694d75"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2859,
+      "sha256": "3dd4f23f38ad1722d99adc0d6c23c5948302e4018c551339f5ecc9f2d86a4a80"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 32462,
+      "sha256": "a05047ff2911d18a6cfcd6e7de448cbd6284df00c2ac7907a43e4302ff8003aa"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 246246,
+      "sha256": "a611bf17829cf08afe068dd5a5b3b86f611c1c50f925b1ad7ed031a767b2be84"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 132058,
+      "sha256": "7f82cd50a4b53d20853cee9121a711c66715ec9f1c02af49dfffafc66bc28afd"
+    },
+    {
+      "path": "avatar/Almeta_owx.png",
+      "size": 45632,
+      "sha256": "b53f7e87d557bed5b1e34059f3be70e1a182253102f00551f78ccdb44937ee40"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 17564,
+      "sha256": "a11d489cad3b5df9e4a057c731d71db8092e5f222c8918bd21ac6719bc0c69ad"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 462055,
+      "sha256": "3d9cc89c79b61e8aaa28302c14bbfc3ce6c2e6edd1fc9fb98776e24a4635868e"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/murasame.png",
+      "size": 22032,
+      "sha256": "05f1af8928a86d4175b7f671ba992bbcd3b11bec175b6fcd2547c477af68c97c"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1401,
+      "sha256": "d0042c804b60c0c4edf628ddd7c982e61c4c5b603557e7c2b04267bb3f18c09f"
+    }
+  ]
+}

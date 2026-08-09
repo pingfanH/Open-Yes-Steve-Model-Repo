@@ -1,0 +1,95 @@
+{
+  "id": "BA_Mika",
+  "path": "parsed/BA_Mika",
+  "source": {
+    "path": "_BlueArchive/BA_Mika.ysm",
+    "type": "ysm",
+    "stem": "BA_Mika"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "BA_Mika"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "mika.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Mika_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11138,
+      "sha256": "9ba5bedd4539d08c1aaf6e55af523d76fd798f6b616bded43833d9a8a656a70a"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 10861345,
+    "sha256": "65579ddfb360cf051b8674163c4b06541079c47d2b492e6291f63aeaaf338f7e",
+    "bones": 127,
+    "cubes": 528,
+    "faces": 3168,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 578328,
+      "sha256": "2d0f5351fe9c09a5f29cf1315b0c8111a1f7a2023e8994d0f3447b82de6ff5f0"
+    },
+    {
+      "path": "arm.json",
+      "size": 4371,
+      "sha256": "2498ae3e395f1832c22f22c7e38138cd1340c4cc3891c3ebe3895c9d00742525"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 943061,
+      "sha256": "90e5a925a21bdef25312e3f1515999d5210f90853673a646989f03af6b243d9c"
+    },
+    {
+      "path": "main.json",
+      "size": 284508,
+      "sha256": "a252986b03bf4ad6f2a419ee17e2fd74d7dafb9a5ca048fe1610f195b2488db4"
+    },
+    {
+      "path": "mika.bbmodel",
+      "size": 8877381,
+      "sha256": "b18f2203d346d4856fb3a513a88a951f867881aa44162208afc88973e7572714"
+    },
+    {
+      "path": "mika.png",
+      "size": 16430,
+      "sha256": "0bbda460c0a5ea49ac2b33aa909fea8c5fcb30e8b0921de7e59936763af0acd2"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 157266,
+      "sha256": "c03cb9613aa5a9f19a9416760c372309e79f3d12cf1f23cfea0726dc5e825aa2"
+    }
+  ]
+}

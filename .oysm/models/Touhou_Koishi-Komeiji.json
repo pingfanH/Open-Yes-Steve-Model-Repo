@@ -1,0 +1,113 @@
+{
+  "id": "Touhou_Koishi-Komeiji",
+  "path": "parsed/Touhou_Koishi-Komeiji",
+  "source": {
+    "path": "_TouhouProject/Touhou_Koishi-Komeiji.ysm",
+    "type": "ysm",
+    "stem": "Touhou_Koishi-Komeiji"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Touhou_Koishi-Komeiji"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "aofc_koishi.png",
+        "kkhta_koishi.png",
+        "sa_koishi.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Touhou_Koishi-Komeiji_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10686,
+      "sha256": "e8e28c0affba95ee9bf745919433a2acf562ad0a7f51a7e39351dd5d3f4b6f73"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 3669571,
+    "sha256": "346cdf2a9d8e30a0a77ae55a0c51c04e712f7305b5c60c9335772b537a760a12",
+    "bones": 75,
+    "cubes": 712,
+    "faces": 4272,
+    "textures": 3,
+    "materials": 3,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "aofc_koishi.png",
+      "size": 14130,
+      "sha256": "9f3daff4d401a1724330eece5458129ff0811182943fb569e1982f4fcb4d9706"
+    },
+    {
+      "path": "arm.animation.json",
+      "size": 40872,
+      "sha256": "501722b7f9b9b3616f463ea98f7f0f77126bb979355a39d889c08ff194469124"
+    },
+    {
+      "path": "arm.json",
+      "size": 52251,
+      "sha256": "a9c448989161895924e5a2be38ee294909b5020683d7b8cac9895bf432c63f06"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 89905,
+      "sha256": "6cf76cc35b71356d74f93911459173a6ee75028771ae81e27f6d3b3fa820b914"
+    },
+    {
+      "path": "kkhta_koishi.png",
+      "size": 5161,
+      "sha256": "c771fb2cb8b247284e86ca92fad09d8254807f494b68b6e52abee4452c678971"
+    },
+    {
+      "path": "koosh.bbmodel",
+      "size": 2807923,
+      "sha256": "a8d82785767b0676f587deb316519f2a524b5657e18f7556eca7d01f20a5094d"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 165760,
+      "sha256": "609d3cf7b744e2dd5c79d7872ae9a66abbcd964e86c23c75b863ed167a69a72d"
+    },
+    {
+      "path": "main.json",
+      "size": 327127,
+      "sha256": "d32aba237bde5d3cbb5a14dbeb116898847d99a94fa0fc51a10aabc479aba443"
+    },
+    {
+      "path": "sa_koishi.png",
+      "size": 9176,
+      "sha256": "e641b01ad70926ec334d7f7ef334133eb61689b2160b1f222f670f70acf4bb9e"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 157266,
+      "sha256": "c03cb9613aa5a9f19a9416760c372309e79f3d12cf1f23cfea0726dc5e825aa2"
+    }
+  ]
+}

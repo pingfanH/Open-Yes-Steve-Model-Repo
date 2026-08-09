@@ -1,0 +1,112 @@
+{
+  "id": "GI_Yip-Gaming",
+  "path": "parsed/GI_Yip-Gaming",
+  "source": {
+    "path": "_GenshinImpact/GI_Yip-Gaming.ysm",
+    "type": "ysm",
+    "stem": "GI_Yip-Gaming"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§6嘉明",
+    "tips": "模型堆积太久了\n先放出免费版\n之后慢慢添加新内容",
+    "license": {
+      "type": "All Rights Reserved"
+    },
+    "authors": [
+      {
+        "name": "§c烈鸟比百"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "block.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Yip-Gaming_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 16606,
+      "sha256": "04946ff248404726173b36e180beab442d5078fa658e22331036b8475e4690f9"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 1444899,
+    "sha256": "8d01dcbe9e671fca351bf2c7b0138f496f79601c3054a1b3c6b4990a64f5e125",
+    "bones": 97,
+    "cubes": 1575,
+    "faces": 9450,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 53433,
+      "sha256": "328f00f981db036a06537084b43e09b0e20966cf18be07bb7e3ca96f30bbce6e"
+    },
+    {
+      "path": "arm.json",
+      "size": 75156,
+      "sha256": "d6c05758f0d57feb75803052404a48cf2ec8de1d5eea8d341f0c418399e001c1"
+    },
+    {
+      "path": "block.png",
+      "size": 50393,
+      "sha256": "21e02c4a3c8816c6f75b41b57531f9cca675aeab21e44f36c14c81b0bdd7a88d"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 79956,
+      "sha256": "101b8a6489a7e7732e6cbc88dd3c1e0f13fa67757653079622630b77f28a345b"
+    },
+    {
+      "path": "info.json",
+      "size": 202,
+      "sha256": "c0dff771a8131f84d0db1f24b96fb0dcfe8172432738ff23efcb9d7efb3bc168"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 249090,
+      "sha256": "0ab5cfd286b3e5fef263c0c900807d1a2e8a81e5867af52a6117a6c5c45074c5"
+    },
+    {
+      "path": "main.json",
+      "size": 805933,
+      "sha256": "fb3d3f61875800ba6fefc21ebdecc7bfb8e167de9d8a81784b48b1c2d731c316"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 130736,
+      "sha256": "af54aa5e59f99ea21d37ccecf89e5fe40c939d76cbab5982a773af7e22ad0692"
+    }
+  ]
+}

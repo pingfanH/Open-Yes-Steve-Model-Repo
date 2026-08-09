@@ -1,0 +1,224 @@
+{
+  "id": "Bandori_Sakiko-Togawa",
+  "path": "parsed/Bandori_Sakiko-Togawa",
+  "source": {
+    "path": "_Bandori/Bandori_Sakiko-Togawa.ysm",
+    "type": "ysm",
+    "stem": "Bandori_Sakiko-Togawa"
+  },
+  "ysm": "parsed/Bandori_Sakiko-Togawa/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/02Bunny（蓝玫瑰）.png",
+        "comment": "喜欢做点酷东西",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/11814817"
+        },
+        "name": "02Bunny（蓝玫瑰）",
+        "role": "模型/贴图/动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://www.bilibili.com/video/BV1yQ5JzJEZQ"
+    },
+    "name": "§b丰川祥子",
+    "tips": "§7丰川祥子，一个对音乐充满热情却经历乐队解散挫折的少女，她坚韧不拔地追求梦想，最终重组乐队Ave Mujica，以严格要求和不懈努力向主流音乐界迈进，同时面对家庭与个人情感的挑战。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra1": "招手",
+      "extra2": "鼓掌",
+      "extra3": "点头",
+      "extra4": "不行",
+      "extra5": "诹访大舞",
+      "extra6": "摇摆",
+      "extra8": "弹琴",
+      "extra9": "#变更服装",
+      "extra10": "播放恩情小曲（请打开锁定播放）"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "变更服装",
+        "name": "变更服装",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "选择服饰",
+            "description": "选择模型穿着服饰",
+            "value": "v.roaming.mujicacloth",
+            "labels": {
+              "常服": "v.roaming.mujicacloth=0;",
+              "月之森中等部冬季校服": "v.roaming.mujicacloth=1;",
+              "羽丘冬季校服": "v.roaming.mujicacloth=2;",
+              "Ave Mujica舞台服": "v.roaming.mujicacloth=3;"
+            }
+          },
+          {
+            "type": "checkbox",
+            "title": "是否穿戴面具",
+            "description": "决定穿着舞台服时是否显示面具",
+            "value": "v.roaming.mask"
+          },
+          {
+            "type": "radio",
+            "title": "选择造型",
+            "description": "选择模型造型",
+            "value": "v.head1",
+            "labels": {
+              "常态": "v.head1=0;",
+              "圆头哈基祥": "v.head1=1;",
+              "客服小祥": "v.head1=2;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "乘坐恩情迈巴赫",
+            "description": "选择是否乘坐迈巴赫",
+            "value": "v.sakiko",
+            "labels": {
+              "小祥": "v.sakiko=0;",
+              "丰川恩情迈巴赫": "v.sakiko=1;"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "sakiko",
+    "preview_animation": "stage",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/sakiko.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Bandori_Sakiko-Togawa_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9579,
+      "sha256": "fe3891f549d8fc82b2a3ef82418499efa3b89f8ae71391c94b627b16df7baf64"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 3916689,
+    "sha256": "8c3c01c2d0d7b2bf7dcdccb1ee445e1d6c788d377908809098d35e2c75b1a2f5",
+    "bones": 280,
+    "cubes": 1910,
+    "faces": 11450,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 32454,
+      "sha256": "7a3edfe9e598fae10683e717f31bfb951eee17c0f6649236e6543a888081b0f7"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1138,
+      "sha256": "6ef6791b2b391fc30bb2f74f26eb09de94e2a382c535202f5d736eb89d37577d"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 245733,
+      "sha256": "581801b397bebdd79afecce6caf0063c2f6ba8577d680d6f14af18de9e72dadb"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 175498,
+      "sha256": "6646e63ed97d3cdc65beaffd074ceeaae12cd027b240d8010e5147727046464e"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 144367,
+      "sha256": "f1f122cd8deeb8ea622d09a1b277cd45cbf5134e67b3c57353ee7ad3404f4859"
+    },
+    {
+      "path": "avatar/02Bunny（蓝玫瑰）.png",
+      "size": 165794,
+      "sha256": "e09e66a71723ad7def4092ae8c2580b5828745528bb83c2f37f3356643aa69a6"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 10166,
+      "sha256": "3a917cbe516f08d2a94fdcf16f31b307075bd1302dbb985576c1fca66e7aa10b"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 11181,
+      "sha256": "e521bc83b704b7be6ab3d7dbc5d1828acfd53687d76ad78b8253d0c1e01957d4"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1011495,
+      "sha256": "a0d9625d5bac4af490d35d52b57952afb8ffd0a3b0ac74ddc7f034e05d712683"
+    },
+    {
+      "path": "sounds/xcgdc.ogg",
+      "size": 1968218,
+      "sha256": "12fb3456448b5e664c4c2b9f923250dd14086223bacd8b9e6986e22d2ed20ab2"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1471,
+      "sha256": "184a24abfb1b206adb8cfb404e08bf5e13a1f953fcbde018f9ed9b0c03928721"
+    },
+    {
+      "path": "textures/sakiko.png",
+      "size": 146675,
+      "sha256": "d574d336179998e153b12960c9d85ff3d33d41afa1e0f77e54bbb116a0a4bcf4"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2499,
+      "sha256": "e9655a3438db67cbe331364d19bc688702aac5415ceb21ccc92def75b67b5b07"
+    }
+  ]
+}

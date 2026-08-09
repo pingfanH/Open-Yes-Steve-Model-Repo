@@ -1,0 +1,174 @@
+{
+  "id": "ZZZ_Jane-Doe_1",
+  "path": "parsed/ZZZ_Jane-Doe_1",
+  "source": {
+    "path": "_ZenlessZoneZero/ZZZ_Jane-Doe_1.ysm",
+    "type": "ysm",
+    "stem": "ZZZ_Jane-Doe_1"
+  },
+  "ysm": "parsed/ZZZ_Jane-Doe_1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§c烈鸟比百.png",
+        "comment": "§7啦啦啦~",
+        "contact": {
+          "Afdian": "https://afdian.com/a/Aigoblin?tab=shop",
+          "Bilibili": "https://space.bilibili.com/20510758?spm_id_from=333.1007.0.0"
+        },
+        "name": "§c烈鸟比百",
+        "role": "§7模型"
+      },
+      {
+        "avatar": "avatar/§c寒叔.png",
+        "comment": "§7嘿嘿嘿~",
+        "contact": {
+          "Afdian": "https://afdian.com/a/Aigoblin?tab=shop",
+          "Bilibili": "https://space.bilibili.com/20510758?spm_id_from=333.1007.0.0"
+        },
+        "name": "§c寒叔",
+        "role": "§7配置"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/Aigoblin?tab=shop",
+      "home": "https://space.bilibili.com/20510758?spm_id_from=333.1007.0.0"
+    },
+    "name": "§e简",
+    "tips": "如果喜欢，欢迎前往爱发电支持，解锁可脱功能及更多轮盘动画！"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "切换脸型": "切换脸型"
+    },
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/ZZZ_Jane-Doe_1_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 14802,
+      "sha256": "51db700b3dea014f38ac82f33bd034d6fd200cd03ee6769613808ea13450b2ed"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 2772629,
+    "sha256": "8867e16d819928e05825a16b887a7aa5c5f8a4889158a4534083a2a5d85c7e4f",
+    "bones": 142,
+    "cubes": 1495,
+    "faces": 8970,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 36893,
+      "sha256": "4a096532cec4f7e8a14f7858ebe61cf723cb2cac5949bc7c47b57b53879b5804"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "6e8d3afe0c3baafff8f7f3e0e30ef3c621c667be5c346af73398f5fd3cb89ca5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 696,
+      "sha256": "09c30e3dc4830c19153aa87a50bdd58b85571af06ee6784aa8e07a59436d703e"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 1473836,
+      "sha256": "8856043c39e211e3d96ec36e0320066f1ca0b2514c57773039e43ade14d8511f"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 154820,
+      "sha256": "7d8a306a7bc4ebbe50ab6fba4b1fd885760f3bcbe468d7eb3a3c02db47ae9a18"
+    },
+    {
+      "path": "avatar/§c寒叔.png",
+      "size": 162710,
+      "sha256": "28e19d6587eb8d647553eb54267c3793ea5f8a5de70d5b58314647b9d63257b5"
+    },
+    {
+      "path": "avatar/§c烈鸟比百.png",
+      "size": 37915,
+      "sha256": "7f6a5899c023a97b9315642e24f8d7ab96047014cb79fef3ab1631b06f63d872"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 58630,
+      "sha256": "27fb41026531b6b19a4ae8e4e69e2e1d5d1b3c6c4700f72fe3927434cfa49ae1"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 20752,
+      "sha256": "3d9e04c5c0ad7764ca5843fb3e573f8c59c68073ea6bfcc5aef88ca9fd300aa0"
+    },
+    {
+      "path": "models/main.json",
+      "size": 779923,
+      "sha256": "632a5d2d3005682eedf5bb39307ea72909f2ff55399857b94e68453db261c3f3"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 695,
+      "sha256": "82c985a4c04f96f77308febf1874adb262dd5ff141e5dcf7ca6573aa8e66faa6"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 41713,
+      "sha256": "54ec8c7683ee04ec8981a02ac77787af63d6b43e32264eedc5bc215465734647"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1371,
+      "sha256": "604f9a059e383aed11f868866bb06482c629d95f14a6f441f3a0df098f93a51e"
+    }
+  ]
+}

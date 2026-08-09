@@ -1,0 +1,93 @@
+{
+  "id": "Nikke_Syuen(Xmas-Doro)",
+  "path": "parsed/Nikke_Syuen(Xmas-Doro)",
+  "source": {
+    "path": "_Nikke/Nikke_Syuen(Xmas-Doro).zip",
+    "type": "zip",
+    "stem": "Nikke_Syuen(Xmas-Doro)"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "doro 舒恩（圣诞节特别版）",
+    "tips": "doro？doro！dorodoro",
+    "authors": [
+      {
+        "name": "作者——雒仁"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "drororo.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Nikke_Syuen_Xmas-Doro_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 41705,
+      "sha256": "830314835178461bdfffff30111c0f8c7258bb937033b67da22a618d65ef83f2"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 335485,
+    "sha256": "49bef53b26f28175d05c497ebb644c8dfa1b546be15bc167cfea12dc8a34d3ec",
+    "bones": 7,
+    "cubes": 4,
+    "faces": 24,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 799,
+      "sha256": "4286d6b8b6669c732ee455f500b76077363be744a62be4875bd41b9b59538cb4"
+    },
+    {
+      "path": "drororo.png",
+      "size": 197056,
+      "sha256": "de27cddaddd42dd10986ab4b7d9975600a50ffc30edbee89878cb34f70e634bb"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 740,
+      "sha256": "7a4f1485d9911009b23e972a0d88da1f2bc7cfed3dae075c8d7852e7f6c6c2b1"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 134203,
+      "sha256": "b19a22926152a85af03a4aee75f95b0e9930a12559d0d297c661de48ff29c47e"
+    },
+    {
+      "path": "main.json",
+      "size": 2687,
+      "sha256": "542c747162e93fe890ca1432897170d6f65a1b23256ee6d4ae2a63d4ac8dac02"
+    }
+  ]
+}

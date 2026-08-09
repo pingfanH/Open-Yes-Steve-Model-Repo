@@ -1,0 +1,90 @@
+{
+  "id": "HI3_Qiyana",
+  "path": "parsed/HI3_Qiyana",
+  "source": {
+    "path": "_HonkaiImpact3/HI3_Qiyana.ysm",
+    "type": "ysm",
+    "stem": "HI3_Qiyana"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "HI3_Qiyana"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HI3_Qiyana_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12368,
+      "sha256": "ed255c9642d8e2ca4a23cf1e574cee581fcd291b0082eed3949a72ebb2e67046"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 716967,
+    "sha256": "f44e0ab06e2bee2f608904ab0abb787c4d8df3f5f91aec6e34f8d5ee7af32f75",
+    "bones": 134,
+    "cubes": 767,
+    "faces": 4602,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 63568,
+      "sha256": "63873a78c3d59b5b5527276d11a6dd9a09923bb8272103c90ac78a39d0aa5568"
+    },
+    {
+      "path": "arm.json",
+      "size": 26351,
+      "sha256": "98155ab25796c35378a112c788b98c21249c536b2c4c88974bc1d3e189a0bde0"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 66168,
+      "sha256": "708e815dbf2e7fd69e89f35edd29fe11dad9dfa6394cecc8f384cbd2e5181cf9"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 137803,
+      "sha256": "72e62d836228f15b68c5e002967e61d81e07819afc39218f4a44df1be73da3b3"
+    },
+    {
+      "path": "main.json",
+      "size": 395495,
+      "sha256": "01e05f6c49d6ac7763bbfe703196cab272aca9432beff1e83a39804d4e707a2e"
+    },
+    {
+      "path": "texture.png",
+      "size": 27582,
+      "sha256": "fb44016e07d23ae9d4b9409835f39e3b764e3153391830b83392d3f486856efc"
+    }
+  ]
+}

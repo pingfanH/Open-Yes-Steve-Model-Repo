@@ -1,0 +1,201 @@
+{
+  "id": "Chuunibyou_Takanashi-Rikka",
+  "path": "parsed/Chuunibyou_Takanashi-Rikka",
+  "source": {
+    "path": "_ChuunibyouDemoKoiGaShitai!/Chuunibyou_Takanashi-Rikka.ysm",
+    "type": "ysm",
+    "stem": "Chuunibyou_Takanashi-Rikka"
+  },
+  "ysm": "parsed/Chuunibyou_Takanashi-Rikka/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/绫独之落.png",
+        "comment": "邪王真眼の使い",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/39655169"
+        },
+        "name": "绫独之落",
+        "role": "role"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://space.bilibili.com/39655169",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "小鳥遊六花",
+    "tips": "邪王真眼は最強"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "Vanishment This World",
+      "extra1": "挥手",
+      "extra2": "点头",
+      "extra3": "叉腰",
+      "extra4": "op Pose",
+      "extra5": "封印（雾）",
+      "extra6": "Shoulder Bag",
+      "extra7": "Schwarz Sechs Prototype Mark II"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/skin.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Chuunibyou_Takanashi-Rikka_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13042,
+      "sha256": "b7758d4ea968ad6806fab979693854ce32103ec398c175cde031291e5c05eea2"
+    }
+  },
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 4393030,
+    "sha256": "c98d42c4acbee910c678c52e296232e42720127fd1bfecb932480b7e9f18648b",
+    "bones": 303,
+    "cubes": 2292,
+    "faces": 13752,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 138787,
+      "sha256": "a3af21806ce96199da52f3b5b39120d57d0b58ed15b197381751585db7813e34"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3109,
+      "sha256": "1df62e63dc44584783c6473b8de08284a0989ba844f5b33019245c3ce6049bbc"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 32290,
+      "sha256": "84f421e23f9d7bd9868f4ed2c419c235f1934573682dbc75f11e3b38cc360d0e"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 242658,
+      "sha256": "9406f710dfd08b591f5b2dfaa13d052010a0f436b19bceb4e496a165af59e887"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2024591,
+      "sha256": "3cc0569b74b7f1c64212966b87bc8914e344aa1a7f690737658d9f9dc21512b4"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183055,
+      "sha256": "9d56ecf7537eb894d90b9107c1b4652db6c128f2bc6d77eb1f6cac316fc142cd"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50116,
+      "sha256": "c96d1a50f2c796f2f8de4074acfed34a71d6d1138f86b47c2aec14f788c796ca"
+    },
+    {
+      "path": "avatar/绫独之落.png",
+      "size": 134953,
+      "sha256": "9968de4a48905c450bf293e1dd96730cb5bce76c79e207216fe68318c4c44b11"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 16031,
+      "sha256": "a7010e218b6e3367f173d42eb141886d745573567a9316bf1f95d54850497871"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13725,
+      "sha256": "605fc04a716cfd12d30b5d6fb5d6db461504bd2f8da602fe078a4f57b4d71c71"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1316980,
+      "sha256": "a8a14b7ea7f04e4e47d29c40b3c58a9e4388e4501c562af921845edea991b150"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2686,
+      "sha256": "197669635bbf7b8cf8892b6912e428c92c66aac37ea2d3f1a174c9a04b2b64f6"
+    },
+    {
+      "path": "textures/skin.png",
+      "size": 59589,
+      "sha256": "65712ffd309bf92dc19a972b20e09f5107f9a69590230a9a5f086af83eccd6ea"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1532,
+      "sha256": "8c2b02b4c0f2adcd20d0fe990b9c260c5da7c3cf8e85976934b456568586e8ca"
+    }
+  ]
+}

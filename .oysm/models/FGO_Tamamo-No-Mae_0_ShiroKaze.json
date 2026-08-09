@@ -1,0 +1,145 @@
+{
+  "id": "FGO_Tamamo-No-Mae_0_ShiroKaze",
+  "path": "parsed/FGO_Tamamo-No-Mae_0_ShiroKaze",
+  "source": {
+    "path": "_FateGrandOrder/FGO_Tamamo-No-Mae_0_ShiroKaze.ysm",
+    "type": "ysm",
+    "stem": "FGO_Tamamo-No-Mae_0_ShiroKaze"
+  },
+  "ysm": "parsed/FGO_Tamamo-No-Mae_0_ShiroKaze/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/_ShiroKaze.png",
+        "comment": "Happy Birthday Shiro",
+        "name": "_ShiroKaze",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "home": "https://github.com/Elaina69/Yes-Steve-Model-Repo"
+    },
+    "name": "Tamamo-No-Mae",
+    "tips": "Not a Sold Model, you can get free on the ysm discord or Elaina's ysm github. This is more or less a model with not much as much like all of the other models I make..."
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "Wink",
+      "extra1": "Hi",
+      "extra2": "Time",
+      "extra3": "SlightNod",
+      "extra4": "Hmph",
+      "extra5": "Yass",
+      "extra6": "Somethingsomethingfloss",
+      "extra7": "野狼disco"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "normal",
+    "preview_animation": "idle",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/normal.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/FGO_Tamamo-No-Mae_0_ShiroKaze_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6211,
+      "sha256": "0726e61a7dff568f0b7dedf2ced812ca5fb4880153f8a28dd0ad2a9b22c9b322"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 1037904,
+    "sha256": "dd0b54c3c1af464a74d452aa83f9eccfe7660dc1044f6a545ab28787227a5a2c",
+    "bones": 98,
+    "cubes": 545,
+    "faces": 3270,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 105513,
+      "sha256": "d596a66ffd16a6245e0150b84f24831a33ed91e9b74e3dd626ce3edbe57ebb0b"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 214856,
+      "sha256": "375b5fb4a72be3d0fa99bd00029f6e41f3f4be1997a149c5c5b3dc15f7255b7d"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "avatar/_ShiroKaze.png",
+      "size": 18381,
+      "sha256": "2346d2f2495175b0aaeb7245a152afd6b7ff3562e2491ccb65313a2b67eb729b"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 32913,
+      "sha256": "e8aceccb6ad41bc40f1dbdba3cbc44338743365b9e72409dce9dab3fc20c6c3f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 275787,
+      "sha256": "ca80720de60944e77150ebb7b12351d8058097cd8964ef935d2c1eb2a5382aa7"
+    },
+    {
+      "path": "textures/normal.png",
+      "size": 28667,
+      "sha256": "2630cd25abfa93678e5677db2401f75d61e275e6746d59c68f6558704881fdd0"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1178,
+      "sha256": "938df2d7215cd1dd21e3f98b519cccb861c8589388576b5562e41ab472cfee3b"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "Nekopara_Vanilla_1",
+  "path": "parsed/Nekopara_Vanilla_1",
+  "source": {
+    "path": "_Nekopara/Nekopara_Vanilla_1.ysm",
+    "type": "ysm",
+    "stem": "Nekopara_Vanilla_1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "香子兰",
+    "tips": "可爱猫猫香草Herb",
+    "authors": [
+      {
+        "name": "伊蕾娜教代行教皇(friskid)"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Nekopara_Vanilla_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8839,
+      "sha256": "c405d0cce7e4252b559a4f757935cdd688cf1aa0be9b8bb6551421a0bca331b0"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 705601,
+    "sha256": "a3829ddca4d27b90ffa0ea8a1c20221fff4d98b10066a55a3a6f8faa17d99e7e",
+    "bones": 129,
+    "cubes": 319,
+    "faces": 1914,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 39629,
+      "sha256": "d7d8cc5aebd96d36ee76e9e4619513300bb7dbbc5d45b351a131e1145447085a"
+    },
+    {
+      "path": "arm.json",
+      "size": 9912,
+      "sha256": "94bb88316edf5c593fac05c6d547309c5496bd205ba2b6d70887c9eeb93137bd"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 144073,
+      "sha256": "1cc30c5474076f2027d3b365b9525491a76007ff6451803a06df6814302761d7"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 185437,
+      "sha256": "5ba45fcaf0612bfa19500e3a005c56345fbf8167ae83d1ca3b7828426ce203da"
+    },
+    {
+      "path": "main.json",
+      "size": 158043,
+      "sha256": "001b18f815f00f95fe3c964947baea94e2f76b0a586fc4b42525e9a33088dd4a"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 157266,
+      "sha256": "c03cb9613aa5a9f19a9416760c372309e79f3d12cf1f23cfea0726dc5e825aa2"
+    },
+    {
+      "path": "texture.png",
+      "size": 11241,
+      "sha256": "9d8c207cf1d9a571ad70fd67d4033ad8ba1d67618ab37d5f1ad47ce921139c3d"
+    }
+  ]
+}

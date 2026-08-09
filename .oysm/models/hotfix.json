@@ -1,0 +1,204 @@
+{
+  "id": "雨试玩版-hotfix",
+  "path": "parsed/雨试玩版-hotfix",
+  "source": {
+    "path": "Unknown/雨试玩版-hotfix.ysm",
+    "type": "ysm",
+    "stem": "雨试玩版-hotfix"
+  },
+  "ysm": "parsed/雨试玩版-hotfix/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/AAA家电批发江竹雨.png",
+        "comment": "家电批发商",
+        "contact": {
+          "B站": "https://space.bilibili.com/493607297",
+          "爱发电": "https://afdian.com/a/lyza1031"
+        },
+        "name": "AAA家电批发江竹雨",
+        "role": "模型作者"
+      },
+      {
+        "avatar": "avatar/星咲.png",
+        "comment": "雨的合作伙伴",
+        "contact": {
+          "B站": "https://space.bilibili.com/3494363390806334"
+        },
+        "name": "星咲",
+        "role": "素体"
+      }
+    ],
+    "license": {
+      "desc": "DEMO",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/lyza1031",
+      "home": "https://space.bilibili.com/493607297"
+    },
+    "name": "雨",
+    "tips": "我玩我自己.png\n§4试玩版，享受换装\\模组适配\\额外动作需购买完整版"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "横坐",
+      "extra1": "招呼",
+      "extra2": "鼓掌",
+      "extra3": "可以",
+      "extra4": "不行",
+      "extra5": "#extra_config",
+      "extra6": "倒地",
+      "extra7": "doodle摇"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "眼睛控制",
+            "description": "0正常，1左>，2右<，3双眼><",
+            "value": "v.roaming.value_eyes",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 3.0
+          },
+          {
+            "type": "range",
+            "title": "嘴型控制",
+            "description": "0无，1欸，2~~，3微笑，4生气，5醉酒，6乐",
+            "value": "v.roaming.value_mouth",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 6.0
+          },
+          {
+            "type": "checkbox",
+            "title": "猫耳和尾巴",
+            "description": "开关猫耳和尾巴",
+            "value": "v.roaming.value_catgirl"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "选择界面动画",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "fp_arm": "animations/fp.arm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/parallel_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/hotfix_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5530,
+      "sha256": "1303148f0135f86a85cb8e21b70b1ec68cbdb7499268ee36b74aebc35c2de1b4"
+    }
+  },
+  "stats": {
+    "file_count": 11,
+    "total_bytes": 835647,
+    "sha256": "9720a1cf9b4e6d50fe23aa301e5ec7d590d93dd5e67eaed6b99704952d639f12",
+    "bones": 147,
+    "cubes": 723,
+    "faces": 4313,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178930,
+      "sha256": "014682dd21beb2dc673a806a578b958a7b08997309a28808f3d0e406eff22be5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 8892,
+      "sha256": "ef57fad8ce6bc5565640327114cc15ff1b1fe1d08c18bd97eddd7ee737767021"
+    },
+    {
+      "path": "animations/fp.arm.animation.json",
+      "size": 775,
+      "sha256": "210229866e9a3633fb3bb697029421f149700517be11787baeff414f9283ab4b"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 227410,
+      "sha256": "f86070984e96c19edad43697530e5cc69c7bc114cccecf8b224854492898d6af"
+    },
+    {
+      "path": "avatar/AAA家电批发江竹雨.png",
+      "size": 4941,
+      "sha256": "0281c6c2308b8feb9e3d6832c512737c02cd3259c0b9e52206dd72fdd9624a66"
+    },
+    {
+      "path": "avatar/星咲.png",
+      "size": 4670,
+      "sha256": "1ef0ab2cb9ac67d8a1f8441727684dc7ae2820e19a31d4f17ca67ec23ff3f743"
+    },
+    {
+      "path": "controller/parallel_controllers.json",
+      "size": 1886,
+      "sha256": "c932780e004099e6235e1ba29776b7b1b0ef604c2827bafccd8aee77736d1e1e"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 37021,
+      "sha256": "2c438788eacb1ea4e027ee0cc88a9b11e427c2b369497c00097135e859757e7f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 364354,
+      "sha256": "cd382e996dbd6ae73d6031966045c5f12e059f3356fbafc6edea398a453b6cc0"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 4744,
+      "sha256": "58973379417ad7c0885514677d82efc2c58acbee5474bbde7f1a4aa3cf975269"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2024,
+      "sha256": "aae27c9ef7fba934333aa1cee16ad58bbc8f8dfc97b539c5379d13a7113a30b9"
+    }
+  ]
+}

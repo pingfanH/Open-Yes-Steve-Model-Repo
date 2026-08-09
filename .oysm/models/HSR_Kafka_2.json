@@ -1,0 +1,96 @@
+{
+  "id": "HSR_Kafka_2",
+  "path": "parsed/HSR_Kafka_2",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Kafka_2.ysm",
+    "type": "ysm",
+    "stem": "HSR_Kafka_2"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "HSR_Kafka_2"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "main.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Kafka_2_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 16335,
+      "sha256": "0b24af278bfcd7f67c1c6bade79d5fc5066b839782ea81c9e70889f8588335ff"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 1402237,
+    "sha256": "3666576504f317e743dcf2833eaa4dc868aac2aa6f91b10749d05699222cff63",
+    "bones": 76,
+    "cubes": 1510,
+    "faces": 9060,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 39629,
+      "sha256": "d7d8cc5aebd96d36ee76e9e4619513300bb7dbbc5d45b351a131e1145447085a"
+    },
+    {
+      "path": "arm.json",
+      "size": 5570,
+      "sha256": "3199ec63d3b5cdd84533ead3198f2d58a99aa819b6926ad119767cefd55ff595"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 144073,
+      "sha256": "1cc30c5474076f2027d3b365b9525491a76007ff6451803a06df6814302761d7"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 137783,
+      "sha256": "d76df5c6c565f94d62e3356eab23177fc54a6eb76a01ab54ea59da285b04e47b"
+    },
+    {
+      "path": "main.json",
+      "size": 836886,
+      "sha256": "a2e64700714aa1b52b014d158c1df87f7ba033399379a23be326b60c2159d672"
+    },
+    {
+      "path": "main.png",
+      "size": 81030,
+      "sha256": "11293c42cb00fc5c0238787731c839b203d98cc507bcd700ad5077e230f61333"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 157266,
+      "sha256": "c03cb9613aa5a9f19a9416760c372309e79f3d12cf1f23cfea0726dc5e825aa2"
+    }
+  ]
+}

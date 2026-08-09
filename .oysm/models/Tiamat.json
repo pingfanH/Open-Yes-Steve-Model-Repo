@@ -1,0 +1,78 @@
+{
+  "id": "_Tiamat",
+  "path": "parsed/_Tiamat",
+  "source": {
+    "path": "Uncategorized/_Tiamat.ysm",
+    "type": "ysm",
+    "stem": "_Tiamat"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_Tiamat"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Tiamat_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 14791,
+      "sha256": "bc2648ec9bcc43e8fe7f39bb0efa1819ff1ec1f0deba979beede98bf694ad2a4"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 456249,
+    "sha256": "bf1fff294394e33e5e22db4516e7783578812d97f0dc6fbce04c74981f5285ab",
+    "bones": 365,
+    "cubes": 1003,
+    "faces": 6018,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 23824,
+      "sha256": "1c2bf5f8dc5593f8a78af04df12b8527d9121ce1852b2e698b3b6d8764dc627b"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 265482,
+      "sha256": "efa092ef65fcf76fbc341f79cbb5df2e0b05d71f99b7aef76cc24e4a53c92f73"
+    },
+    {
+      "path": "main.json",
+      "size": 152066,
+      "sha256": "c8e74a81411aac5512293b900204e08f4881feebba0d57f04aa36b0e1ddde6be"
+    },
+    {
+      "path": "texture.png",
+      "size": 14877,
+      "sha256": "89f9424426160559c9ea62a38308e88ab806f3fbafddbdcf47f7068e4504b47e"
+    }
+  ]
+}

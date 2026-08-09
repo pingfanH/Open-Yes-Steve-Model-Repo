@@ -1,0 +1,153 @@
+{
+  "id": "IdentityV_OPH.Lily",
+  "path": "parsed/IdentityV_OPH.Lily",
+  "source": {
+    "path": "_IdentityV/IdentityV_OPH.Lily.ysm",
+    "type": "ysm",
+    "stem": "IdentityV_OPH.Lily"
+  },
+  "ysm": "parsed/IdentityV_OPH.Lily/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/窝就素伽拉的苟.png",
+        "comment": "qq号要定制模型的加",
+        "contact": {
+          "email": "3080700736@qq.com",
+          "qq": "3080700736"
+        },
+        "name": "窝就素伽拉的苟",
+        "role": "模型/贴图/动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/wojiusujailadegou",
+      "home": "https://space.bilibili.com/1402337274?spm_id_from=333.1007.0.0"
+    },
+    "name": "OPH.Lily",
+    "tips": "————可以分享一下本局牵制120秒的思路吗   ————交花球"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "run": "",
+      "walk": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": false,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/textures.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/IdentityV_OPH.Lily_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11586,
+      "sha256": "b0382e337545bf081b738533e39a9863ef7d885345032c012398864a0ddbbfd2"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 1227547,
+    "sha256": "e8b3bf03cc4675ace945ed9c689851f65820caeb7cfd4c7427800d5640591702",
+    "bones": 119,
+    "cubes": 1117,
+    "faces": 6702,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 113742,
+      "sha256": "b3392340f0c71035322d0e63048cadb6fb559a20fb4a35d63d51edc46784b98d"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "6e8d3afe0c3baafff8f7f3e0e30ef3c621c667be5c346af73398f5fd3cb89ca5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 119383,
+      "sha256": "b06d669143e9e11326bacd4201eb3f29b6d0c76515982a19a11ef998ede0dc08"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 123249,
+      "sha256": "d70f249131e68dd4c94d3b69ec58edcd700a2376bc919fe54ecb75fd3615482b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 132915,
+      "sha256": "c2d1274e2c1368df6e192ca84979c249fbe60d885adc048d4f51748445f79c49"
+    },
+    {
+      "path": "avatar/窝就素伽拉的苟.png",
+      "size": 22723,
+      "sha256": "c249e7d09da630b893d38c20175bd4d6745f5ccb9ebaa2079328de2dcf48a5c7"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 23636,
+      "sha256": "90c299991d31d8f7be5ac97dbe415db8ce1008d120aada8725819c8d2f44a18d"
+    },
+    {
+      "path": "models/main.json",
+      "size": 583384,
+      "sha256": "a298676602a5dadb3ac06d467f379804d2530910a64463d8d2156fcb3c756178"
+    },
+    {
+      "path": "textures/textures.png",
+      "size": 104694,
+      "sha256": "48fc9cf5f8398fe065270fa5101b99cb1383c3c7495ceac506bfdffc76f755d1"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1146,
+      "sha256": "52f965dee83bcea36a537d51da355738457c90ef2b7d4a6d07b1e9b6083f5ac8"
+    }
+  ]
+}

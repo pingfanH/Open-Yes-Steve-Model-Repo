@@ -1,0 +1,154 @@
+{
+  "id": "Block_Birch(Moefied)",
+  "path": "parsed/Block_Birch(Moefied)",
+  "source": {
+    "path": "_MinecraftBlock/Block_Birch(Moefied).ysm",
+    "type": "ysm",
+    "stem": "Block_Birch(Moefied)"
+  },
+  "ysm": "parsed/Block_Birch(Moefied)/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/UsagiAho.png",
+        "comment": "Please do not the tree",
+        "contact": {
+          "Twitter": "https://x.com/realusagiaho"
+        },
+        "name": "UsagiAho",
+        "role": "Model + Texture"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Birch Girl",
+    "tips": "My take on the birch tree girl."
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "Dance 1",
+      "extra1": "Wave",
+      "extra2": "Applause",
+      "extra3": "Yes",
+      "extra4": "No",
+      "extra5": "Cheer",
+      "extra6": "Flossing",
+      "extra7": "Dance 2"
+    },
+    "extra_animation_classify": [],
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "tlm": "animations/tlm.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/main.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Block_Birch_Moefied_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4677,
+      "sha256": "ac9254a5aadf135bb234bd4f062eea2b6934e033dd4555293137a110b30ba02b"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 1099534,
+    "sha256": "1ed5c71832020e6c42b3dc4c8321effbdd792871ab3d5de3054caa0c0dd04efc",
+    "bones": 98,
+    "cubes": 223,
+    "faces": 1338,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 212393,
+      "sha256": "695485556eeae413920540fe82f032430207a9cb6bd8cc46c762a8146fb7ba35"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "6e8d3afe0c3baafff8f7f3e0e30ef3c621c667be5c346af73398f5fd3cb89ca5"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 286334,
+      "sha256": "317a49cb09b25141e3684e48cc636309a504253e633f7cfba49a4e224dd49a1c"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 158800,
+      "sha256": "8da3a8446d93f3ae4d1b52e56c382139efe34848a86c31cc9138cf9abda507cc"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 259971,
+      "sha256": "ab73c98af35f6be9eba9f0a7eaeeb0f5d00fddb4f1d54f39515503ff098cf882"
+    },
+    {
+      "path": "avatar/UsagiAho.png",
+      "size": 7406,
+      "sha256": "4e39684ddb28f6ed088e56e68efe2c6ba61d980bd62f4465221045e82cbb34f0"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 9766,
+      "sha256": "9457214a0d008b3db8d29c76bca3144a289a20a742fbdb6faa4b7f376de5f164"
+    },
+    {
+      "path": "models/main.json",
+      "size": 159336,
+      "sha256": "6ff0e91c19d07e10074a76e6a6b3236fb58e90933516f0420dc9c226167c4973"
+    },
+    {
+      "path": "textures/main.png",
+      "size": 1730,
+      "sha256": "bceea976f68e244c9428175a71ad250cf09f647272e95d61cf49d6a42d32536f"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1123,
+      "sha256": "52615e095e4aa45532b4c84a6b2d5949f2d9bf30f90aaae0fcd325afdf49b7fd"
+    }
+  ]
+}

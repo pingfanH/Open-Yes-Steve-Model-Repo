@@ -1,0 +1,303 @@
+{
+  "id": "Strinova_Fuchsia_v1.0",
+  "path": "parsed/Strinova_Fuchsia_v1.0",
+  "source": {
+    "path": "_Strinova/Strinova_Fuchsia_v1.0.ysm",
+    "type": "ysm",
+    "stem": "Strinova_Fuchsia_v1.0"
+  },
+  "ysm": "parsed/Strinova_Fuchsia_v1.0/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§9赤恒RedConstant.png",
+        "comment": "神人这一块",
+        "contact": {
+          "哔哩哔哩": "https://space.bilibili.com/235888316"
+        },
+        "name": "§9赤恒RedConstant",
+        "role": "§4依旧ALL IN"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/RedConstant?tab=home",
+      "home": "https://space.bilibili.com/235888316"
+    },
+    "name": "Fuchisia-§d绯莎",
+    "tips": "致敬传奇雇佣兵-鲨鱼"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#控制板",
+      "extra1": "打招呼",
+      "extra2": "§a弦化！",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "extra5": "§6MVP!",
+      "extra6": "立绘姿势",
+      "extra7": "§4浴血狂戮"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "控制板",
+        "name": "控制器",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "面具",
+            "description": "面具开关",
+            "value": "v.mianju"
+          },
+          {
+            "type": "range",
+            "title": "模型高度",
+            "description": "高度修改",
+            "value": "v.yzhou",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 3.0
+          },
+          {
+            "type": "range",
+            "title": "模型宽度",
+            "description": "宽度修改",
+            "value": "v.xzhou",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 3.0
+          },
+          {
+            "type": "range",
+            "title": "模型厚度",
+            "description": "厚度修改",
+            "value": "v.zzhou",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 3.0
+          },
+          {
+            "type": "range",
+            "title": "头部大小",
+            "description": "修改头部大小",
+            "value": "v.headsize",
+            "step": 0.1,
+            "min": 0.5,
+            "max": 2.5
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Strinova_Fuchsia_v1.0_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9558,
+      "sha256": "10f9bc5a95b26acd82a4afa0610e97e59f3824fdaac29be61f62911cab970db5"
+    }
+  },
+  "stats": {
+    "file_count": 27,
+    "total_bytes": 4207505,
+    "sha256": "6bfc7a0774dcbca75ad04ae24c546d220adcaff62d3da1b1462d03fe89973c8e",
+    "bones": 319,
+    "cubes": 1830,
+    "faces": 10976,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 185574,
+      "sha256": "cafbe0134b8c38ea050185a6642a57b143b6b2460346adfe5a68bb1e18fce9a2"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 21538,
+      "sha256": "dfa6a42e2315d5d14653503eafcab655fc4bf8156bf1b29fc5c5f0c2478e815f"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 270475,
+      "sha256": "dcc0487a5291cff2e963893989a7a2489776cf29551829eb822971589c066d3b"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 181465,
+      "sha256": "28d98ea2d2348daaafbbb477e272dc30820f22fe533ae9200b36eba8b861a641"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/§9赤恒RedConstant.png",
+      "size": 32766,
+      "sha256": "405a791239eaa4309bbf0930a4a1afc58190ea895400df7c7dd8067784b635f8"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 1318,
+      "sha256": "88e2f5f7acfc23d815b11e5e92fd4c25ec7d03c29c307ade3c6ec4d09d0b3ab1"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 116883,
+      "sha256": "54817f43d09f45cd10b0dcbe79aa2a5285cf4a9d6c9281205a0e3fbae3ece6be"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13725,
+      "sha256": "605fc04a716cfd12d30b5d6fb5d6db461504bd2f8da602fe078a4f57b4d71c71"
+    },
+    {
+      "path": "models/main.json",
+      "size": 892398,
+      "sha256": "2b1ce2720a4665fd9cc2a92ef6344cabf49f14e828ab86926888254ac6365ced"
+    },
+    {
+      "path": "sounds/holdsword.ogg",
+      "size": 31879,
+      "sha256": "4e45bec770d6ec5572fea54d0a84501ca86c356202d8fd6cad19ff403102aaf8"
+    },
+    {
+      "path": "sounds/mvp.ogg",
+      "size": 38961,
+      "sha256": "d0c3350ee835cd8e551dcd169c4918c74426a9bc7bb00c4a2cdf0b645daf4b5c"
+    },
+    {
+      "path": "sounds/nihao.ogg",
+      "size": 10590,
+      "sha256": "3feacd11a817904d8517eb09336a5d22d1411cf11d5d6bed6f811a839d8f3ceb"
+    },
+    {
+      "path": "sounds/no.ogg",
+      "size": 8501,
+      "sha256": "b472bc7367e604496a6009ce36c8b387cb309147ebb4e1fb6ee784e22a9533bb"
+    },
+    {
+      "path": "sounds/shalu.ogg",
+      "size": 23631,
+      "sha256": "e26d9128a8b2e98a24b086f04d810f809268dc7802c3f524f3e9a49615b07187"
+    },
+    {
+      "path": "sounds/swingsword1.ogg",
+      "size": 20826,
+      "sha256": "dca06aaf107fa7ff699aff4e2267d4d10128e6e5534f9318db1a23c40b0e603d"
+    },
+    {
+      "path": "sounds/swingsword2.ogg",
+      "size": 19031,
+      "sha256": "80a0187f4f0c77cd3cd1843d05c6d1d426e462350aad1594f822558507fece70"
+    },
+    {
+      "path": "sounds/xianhua.ogg",
+      "size": 9927,
+      "sha256": "9389ec01dd4c90c829248fc0b58e48096031a50131dbb9829a283f186d8a8335"
+    },
+    {
+      "path": "sounds/yes.ogg",
+      "size": 11097,
+      "sha256": "375c4a1c6dfa2b3dbd750b96e78e57009dda66c8118a771a933706c91c68f945"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2686,
+      "sha256": "197669635bbf7b8cf8892b6912e428c92c66aac37ea2d3f1a174c9a04b2b64f6"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 55824,
+      "sha256": "973daf5192d6b8e2b1c6a6371dd64d51c9c2cc8a13a98606ca9310b4a6f51dbf"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2222,
+      "sha256": "9feb7a00ecc3a7a280ee99a59341d56c8000185f93357dd0f11289901ab36dc1"
+    }
+  ]
+}

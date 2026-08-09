@@ -1,0 +1,175 @@
+{
+  "id": "Vtuber_Muu-Muyu(Small)",
+  "path": "parsed/Vtuber_Muu-Muyu(Small)",
+  "source": {
+    "path": "_Vtuber/Vtuber_Muu-Muyu(Small).ysm",
+    "type": "ysm",
+    "stem": "Vtuber_Muu-Muyu(Small)"
+  },
+  "ysm": "parsed/Vtuber_Muu-Muyu(Small)/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/NekuroMC.png",
+        "comment": "Nekuro#0661",
+        "name": "NekuroMC",
+        "role": "Author"
+      },
+      {
+        "avatar": "avatar/Oni.png",
+        "comment": "Onii#3681",
+        "name": "Oni",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://ko-fi.com/nekuromc",
+      "home": "https://www.planetminecraft.com/member/nekuromc/"
+    },
+    "name": "muu_muyu",
+    "tips": "check out my other models at PlanetMinecraft"
+  },
+  "properties": {
+    "width_scale": 0.5,
+    "height_scale": 0.5,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "preview_animation": "idle",
+    "free": false,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Vtuber_Muu-Muyu_Small_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13230,
+      "sha256": "e0c0ade64b367c75635a6d45f6e1c892308c157bb052d47defabf7c838399c81"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 1144403,
+    "sha256": "9373d551c4c0198e9c141d9eccbcbd0f831b8ed2850ad65651dc43d09fd80d27",
+    "bones": 150,
+    "cubes": 806,
+    "faces": 4836,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136637,
+      "sha256": "f795d670b8e2553548348161425e21c7a8f4c2b78d4602d33c8ccc1f03f537b3"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 123165,
+      "sha256": "0a5d3f9c0562cc4d4032464fa5a4f9c4d80d0d7a218e780240d04c0b276f8c9a"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 229931,
+      "sha256": "8582f5b44aa6867b62911beac9cda043130bc4a6eaf5750f1bba7aeda66eefc9"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "avatar/NekuroMC.png",
+      "size": 21919,
+      "sha256": "53d3b501385c0bf5ac48b6348d2e3762b1dc8b9229d82eb33446d8dc72df515c"
+    },
+    {
+      "path": "avatar/Oni.png",
+      "size": 25911,
+      "sha256": "9f1087aff826ca3b6b84ebe537d4a438ff1ac560d8bf6d2301a0ebe8dd29983e"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 28834,
+      "sha256": "55db2a60b72effbdc7725f31e82e44203862df530026d8e49f3e6d8a1814d0e1"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 408640,
+      "sha256": "f3aee7fd8cae600ed3198805d96327f816f0ccdb6b62b5f56a71b986cec36615"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 24156,
+      "sha256": "e7a62b2976a64d9bc73b01c7d642cb399046a6b2343ef390de64e211adf7e694"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1116,
+      "sha256": "a927becdcbc0daad8711642a4853e2f26fc8ac7a28a3ae3cb623d100a26b6b85"
+    }
+  ]
+}

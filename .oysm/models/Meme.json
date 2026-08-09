@@ -1,0 +1,306 @@
+{
+  "id": "Meme_圆头耄耋",
+  "path": "parsed/Meme_圆头耄耋",
+  "source": {
+    "path": "_Meme/Meme_圆头耄耋.zip",
+    "type": "zip",
+    "stem": "Meme_圆头耄耋"
+  },
+  "ysm": "parsed/Meme_圆头耄耋/ysm.json",
+  "metadata": {
+    "name": "圆头耄耋",
+    "tips": "哈！！！",
+    "license": {
+      "type": "CC 0",
+      "desc": "老吴老吴老吴老吴"
+    },
+    "authors": [
+      {
+        "name": "哥斯拉",
+        "role": "模型",
+        "avatar": "avatar/gsl.png",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少"
+      },
+      {
+        "name": "02Bunny（蓝玫瑰）",
+        "role": "模型",
+        "avatar": "avatar/蓝玫瑰.png",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/11814817",
+          "QQ群": "584570528"
+        },
+        "comment": "肘"
+      },
+      {
+        "name": "流风",
+        "role": "动画",
+        "avatar": "avatar/lf.png",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/627425089"
+        },
+        "comment": "脑袋空空的"
+      },
+      {
+        "name": "FRC",
+        "role": "音效",
+        "avatar": "avatar/FRC.png",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/399741685"
+        },
+        "comment": "进攻D点"
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "height_scale": 0.5,
+    "width_scale": 0.5,
+    "extra_animation": {
+      "竹节虫": "#竹节虫",
+      "#动作": "动作",
+      "ha1": "哈",
+      "ha2": "哈",
+      "ha3": "哈",
+      "ha4": "哈",
+      "ha5": "",
+      "ha6": ""
+    },
+    "extra_animation_classify": [
+      {
+        "id": "动作",
+        "extra_animation": {
+          "#return": "返回按钮",
+          "extra1": "哈",
+          "extra2": "哈",
+          "extra3": "哈",
+          "extra4": "哈",
+          "extra5": "哈",
+          "extra6": "哈",
+          "extra7": "哈"
+        }
+      }
+    ],
+    "extra_animation_buttons": [
+      {
+        "id": "竹节虫",
+        "name": "竹节虫",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "耄耋大小: ",
+            "description": "Change the player size (改变耄耋大小)",
+            "value": "v.roaming.player_root_size",
+            "step": 0.05,
+            "min": -0.8,
+            "max": 3
+          },
+          {
+            "type": "checkbox",
+            "title": "切换腿部款式",
+            "description": "切换腿部款式",
+            "value": "v.roaming.leg"
+          }
+        ]
+      }
+    ],
+    "preview_animation": "idle",
+    "disable_preview_rotation": true,
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true,
+    "all_cutout": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": {
+        "uv": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Meme_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7091,
+      "sha256": "9129bd9582c06b84c3a1958c66dc3ed309c241e95a80208b357a5eb0465a392b"
+    }
+  },
+  "stats": {
+    "file_count": 25,
+    "total_bytes": 4456849,
+    "sha256": "a2819ac915903982d38ebd705fc1412cf6f4477aedfa796d6c1757654132e33d",
+    "bones": 72,
+    "cubes": 129,
+    "faces": 655,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 40427,
+      "sha256": "d9a986bd2b0700bbafde275e0d3401bd1a8e43addd9e3efbbd85387745ec6f70"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 744,
+      "sha256": "01902bc329af43baf925d67eb6861c5f4e2dd5355258c96819533ed7d94239ba"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3078,
+      "sha256": "fe28bda145b9a8f8acfd3aa1d85b267a55e5c6538f595161dbd2161bbebd8bda"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 799338,
+      "sha256": "30c92d981a9ec238beb52bd005797c841c3e82416998578905a71d526ffbd08b"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 178733,
+      "sha256": "eab33d11fc8eb02336ddd09f28d2e1d2ac2690047646cc975adc3e278ec044ea"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 184361,
+      "sha256": "1bfd0c06c63282bc1f0bbb316983c0faa4e98b666989961479fa424f5f3e556a"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1652964,
+      "sha256": "af05ec10f7e23dd7148f6a72bdba8abd0e4899dd9e7bf6d65cc42e4feba118fb"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 42814,
+      "sha256": "b0018f5a7e88c21f78b75ff18c98966428ac691c46f716950d2a8f2a0815abb3"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 150939,
+      "sha256": "0238655443c6a45b74e4f685f56ad4df57f13995da65ff5934e6abf65dd63b13"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 66511,
+      "sha256": "353dc14cd77017092bc969500977609c5585fe71db258cf57ae703d9cdb00641"
+    },
+    {
+      "path": "avatar/FRC.png",
+      "size": 22909,
+      "sha256": "d2d86911f890f78ac131e4a007743dba47fd2fc622daaadc93fe719567cd9ff3"
+    },
+    {
+      "path": "avatar/gsl.png",
+      "size": 17482,
+      "sha256": "dda4f5d1d4b94eaee263a0c0686e9a02267fec3e0de969e2b42a3678393acfd5"
+    },
+    {
+      "path": "avatar/lf.png",
+      "size": 31461,
+      "sha256": "003829a47104d196585518217619408538cc5b69ab49b7a87ed1caddbe5d85ca"
+    },
+    {
+      "path": "avatar/蓝玫瑰.png",
+      "size": 19969,
+      "sha256": "8f879eedb00b6a5081fe09d7606b8cbdb9310bac1fd06a21cd9bcd0b52804f89"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 10608,
+      "sha256": "52dba459addc6d8082197fa95eb04e6e4ebca3098aa320c3d1aa99601cdd515a"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 14608,
+      "sha256": "4f04aa3cb1327346ae1f63b4f960571c990dc7fd2e0ad93965c9b130d1eff324"
+    },
+    {
+      "path": "models/main.json",
+      "size": 58370,
+      "sha256": "539438bd8f6722db1b74802967116e1d83be2bfe28310f95a4029b8eac066125"
+    },
+    {
+      "path": "sounds/bug.ogg",
+      "size": 1027710,
+      "sha256": "18b3937d8f40e416fbe7b8b5bc5fdbb0e116e51b0b443268f869a99cf17f21e1"
+    },
+    {
+      "path": "sounds/scream1.ogg",
+      "size": 28531,
+      "sha256": "249531eeaf831c8ea51c9d7842f713f1f15008c18a1babd1b43a11ffc0b2cfae"
+    },
+    {
+      "path": "sounds/scream2.ogg",
+      "size": 23532,
+      "sha256": "31f292836a74cb4979793dd90eabdc2a2dcf41d8a375728c3ca9510350465da2"
+    },
+    {
+      "path": "sounds/scream3.ogg",
+      "size": 27767,
+      "sha256": "bcd0dde3b6c6adc39539c6e3c1bea4c7f19b17ea39239af5b9c7abbec05a9cf3"
+    },
+    {
+      "path": "sounds/scream4.ogg",
+      "size": 44456,
+      "sha256": "3890503074c572531a5ee4155941af0b5e494fcaf8e11749c1b022e56d8a5a05"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1213,
+      "sha256": "0ecda6c1557cf3571289a3212c93e125d8b075cc37ac62f14dad852d83a576ec"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 4757,
+      "sha256": "94f19e2868d4a26dd2f1788df1ccb7582cba06597477f4e101216ae49f30d7fe"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3567,
+      "sha256": "0d08b4800dd01556d9ac9f83074ca2a7fd426374538c6ea7b8f16b837bbff300"
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "id": "奶龙 for ysm 2.4.1",
+  "path": "parsed/奶龙 for ysm 2.4.1",
+  "source": {
+    "path": "Unknown/奶龙 for ysm 2.4.1.ysm",
+    "type": "ysm",
+    "stem": "奶龙 for ysm 2.4.1"
+  },
+  "ysm": "parsed/奶龙 for ysm 2.4.1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/樱月粽子.png",
+        "comment": "我是奶龙",
+        "name": "樱月粽子",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "name": "奶龙",
+    "tips": "奶龙"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "#extra_classify": "Extra Classify",
+      "extra.penhuo": "喷火",
+      "I_AM_Milk_Dragon!!": "我是奶龙"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "Simple Config",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "大小:",
+            "description": "注意缩放会导致浮游炮位置改变",
+            "value": "v.roaming.player_size",
+            "step": 0.05,
+            "min": -0.8,
+            "max": 2.0
+          },
+          {
+            "type": "range",
+            "title": "上眼皮",
+            "description": "",
+            "value": "v.roaming.shangyanpi",
+            "step": 0.05,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "type": "range",
+            "title": "下眼皮",
+            "description": "",
+            "value": "v.roaming.xiayanpi",
+            "step": 0.05,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "type": "checkbox",
+            "title": "眼睛",
+            "description": "",
+            "value": "v.roaming.xieyan"
+          },
+          {
+            "type": "range",
+            "title": "嘴巴",
+            "description": "",
+            "value": "v.roaming.zuiba",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 5.0
+          },
+          {
+            "type": "range",
+            "title": "浮游炮数量",
+            "description": "一对",
+            "value": "v.roaming.fyp_sl",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 3.0
+          },
+          {
+            "type": "checkbox",
+            "title": "浮游炮分离",
+            "description": "",
+            "value": "v.roaming.fuyoupao"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json",
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/粉.png"
+        },
+        {
+          "uv": "textures/黑.png"
+        },
+        {
+          "uv": "textures/渐变.png"
+        },
+        {
+          "uv": "textures/红.png"
+        },
+        {
+          "uv": "textures/橙.png"
+        },
+        {
+          "uv": "textures/绿.png"
+        },
+        {
+          "uv": "textures/青.png"
+        },
+        {
+          "uv": "textures/蓝.png"
+        },
+        {
+          "uv": "textures/紫.png"
+        },
+        {
+          "uv": "textures/白.png"
+        },
+        {
+          "uv": "textures/cirno.png"
+        },
+        {
+          "uv": "textures/jiuhu.png"
+        },
+        {
+          "uv": "textures/贝利亚.png"
+        },
+        {
+          "uv": "textures/steve.png"
+        },
+        {
+          "uv": "textures/him.png"
+        },
+        {
+          "uv": "textures/alex.png"
+        },
+        {
+          "uv": "textures/her(bushi.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/for_ysm_2.4.1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 15045,
+      "sha256": "1e3b9b0268b858e961484ac16b117fad6606e845bf8d602b29d42ed96b5259fc"
+    }
+  },
+  "stats": {
+    "file_count": 33,
+    "total_bytes": 6118915,
+    "sha256": "9a231ffcd0588d59ecdd55e32412e6dd673e14b1d74a1e1f17a85b5c72d4a151",
+    "bones": 481,
+    "cubes": 2259,
+    "faces": 13554,
+    "textures": 18,
+    "materials": 18,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178347,
+      "sha256": "dbec1fb133ba44d81c3948fd77f6b3d9d3e509240db8664cb499612345083e26"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 258155,
+      "sha256": "55b9939f167ed0642f78891a6a8d2152fb96f351bd71306ebb17b39891f40311"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 219339,
+      "sha256": "225c96342bae58c87f6cd025f066b8dc004e656deea1a25ecba01f27ea3a2132"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182342,
+      "sha256": "ee41a1079e2e43b69b4325aa6942bd4fad87282eae39c980e85d993beb3d7b83"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50549,
+      "sha256": "fa6c80f89a97da53427ab008504f3cc68d11b828905d31129dcb5ab020d3ea9b"
+    },
+    {
+      "path": "avatar/樱月粽子.png",
+      "size": 34564,
+      "sha256": "28830203471c62624ae28ac96e4848dfccf863fe536f2728706b92b81eb8370c"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 5287,
+      "sha256": "53706ac138f3838204a81bc5fda3a1bdb27378816ae9f8456a522e409168ffb4"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 24229,
+      "sha256": "12589284f586a6da7620a54f5f0c776654a77c651559a80b0092ce7dfdbbcff8"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1171507,
+      "sha256": "e60b9008d4988e28eae93e9cb9349c5fbfbb06b8b128d7a0787d439a8e85079a"
+    },
+    {
+      "path": "sounds/dingrei.ogg",
+      "size": 25473,
+      "sha256": "28d33ce9d427c86a25d59b3edf9cbd0f06cd5bc0b3d978bf7d9c4099fb70cdb2"
+    },
+    {
+      "path": "textures/alex.png",
+      "size": 286091,
+      "sha256": "3dd1c70ef3cc53d578fd1f67206bbe2a93edede36d6acf555c32b38b198a778e"
+    },
+    {
+      "path": "textures/cirno.png",
+      "size": 36519,
+      "sha256": "0a001c1bbfe248530a4f72e5fbcee8c78d56aadc4b0db3c0e6a22a4828318287"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 46350,
+      "sha256": "252531c60bc03048b5b99a7db40e512c8702d00935146c79862a85250a8c1a6a"
+    },
+    {
+      "path": "textures/her(bushi.png",
+      "size": 286060,
+      "sha256": "ae547a27195a1f203b4ac391cd6ea9b1fb2a36686efb316e3eb11a7df8eeb792"
+    },
+    {
+      "path": "textures/him.png",
+      "size": 290508,
+      "sha256": "a3f1c911a3a47af398c29d43f9e802a7c114c891672c55b52f67b74f4cd5806f"
+    },
+    {
+      "path": "textures/jiuhu.png",
+      "size": 45003,
+      "sha256": "1e0a33b4c4212189a770b3d19fe978989f26722116309408db2c248fd2085e72"
+    },
+    {
+      "path": "textures/steve.png",
+      "size": 290452,
+      "sha256": "0d4303c229ba745e41848b5b92ea170dceca2504306cdd336972adcecd5cd7d0"
+    },
+    {
+      "path": "textures/橙.png",
+      "size": 45881,
+      "sha256": "bc7d1b38a595c5260e82d76aa0f3af7679936ba82b63673c0e2ebfe7e7e2825d"
+    },
+    {
+      "path": "textures/渐变.png",
+      "size": 65144,
+      "sha256": "a835f3d8d85aa8c543d149d3eb47fe8e30ed69a4005561cef71b2a56411f612e"
+    },
+    {
+      "path": "textures/白.png",
+      "size": 37623,
+      "sha256": "e9b6db5754de774d93ba44316e05dd49fc0699f4b3d6ea182d13437e501e64e0"
+    },
+    {
+      "path": "textures/粉.png",
+      "size": 36266,
+      "sha256": "0f20e5883264550620249f5ffa6df0fe722069461d5fedf712dd76a16e68ec2a"
+    },
+    {
+      "path": "textures/紫.png",
+      "size": 45956,
+      "sha256": "1a9bbd097000828ed524b04ccf3f8f402daf39b233ff4edfe3f99c42a0d8d8eb"
+    },
+    {
+      "path": "textures/红.png",
+      "size": 44690,
+      "sha256": "b610ba07c415304ed3b048b197cddae2155248ea0bbdbac7665070f4d11433c6"
+    },
+    {
+      "path": "textures/绿.png",
+      "size": 44767,
+      "sha256": "6666bc442563ef1a08eae435369811047d90670e47bd05f4ad550bc75f8058c3"
+    },
+    {
+      "path": "textures/蓝.png",
+      "size": 44886,
+      "sha256": "f6d38a60ad9cda7558c91342ce6cc7c59697294ed31808ba66043b2f0f24a1e0"
+    },
+    {
+      "path": "textures/贝利亚.png",
+      "size": 40669,
+      "sha256": "3bfa63449e9bcd17a0390b4b374155f993b75a2212a8aea06eb56f45af1bf3eb"
+    },
+    {
+      "path": "textures/青.png",
+      "size": 45649,
+      "sha256": "7b0bd3c74abfd97ef5ea267de6c218c88b2f08b1443f70357facb87c343ade53"
+    },
+    {
+      "path": "textures/黑.png",
+      "size": 28337,
+      "sha256": "8c7b9f5fc44a90916ddf666e24dd06fa5dd591c51864fc5611b9961c8280689b"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2715,
+      "sha256": "e231a1c763155531d3ccb9c78b8118a9dc4a3eac3f3496498bce7214d8a6d086"
+    }
+  ]
+}

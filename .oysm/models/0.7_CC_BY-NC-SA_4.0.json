@@ -1,0 +1,298 @@
+{
+  "id": "高奈利亚-常服0.7(原版动画适配完成) 采用协议CC BY-NC-SA 4.0",
+  "path": "parsed/高奈利亚-常服0.7(原版动画适配完成) 采用协议CC BY-NC-SA 4.0",
+  "source": {
+    "path": "Unknown/高奈利亚-常服0.7(原版动画适配完成) 采用协议CC BY-NC-SA 4.0.zip",
+    "type": "zip",
+    "stem": "高奈利亚-常服0.7(原版动画适配完成) 采用协议CC BY-NC-SA 4.0"
+  },
+  "ysm": "parsed/高奈利亚-常服0.7(原版动画适配完成) 采用协议CC BY-NC-SA 4.0/ysm.json",
+  "metadata": {
+    "name": "Cornelia  0.6",
+    "tips": "默认模型（Default Model）",
+    "license": {
+      "type": "All Rights Reserved"
+    },
+    "authors": [
+      {
+        "name": "一般通过神必人",
+        "role": "模型",
+        "avatar": "avatar/德哈卡 拷贝.png",
+        "contact": {
+          "QQ": "2516919271",
+          "Bilibili": "https://space.bilibili.com/277486957"
+        },
+        "comment": "独立作者，每日进化"
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {},
+    "preview_animation": "idle",
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true,
+    "disable_preview_rotation": false,
+    "all_cutout": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/main.animation_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": {
+        "uv": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/0.7_CC_BY-NC-SA_4.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7864,
+      "sha256": "3ac04a7b27831b9097296902155acbe781f7f3e1769746f150d505065e6d21ad"
+    }
+  },
+  "stats": {
+    "file_count": 38,
+    "total_bytes": 6752038,
+    "sha256": "a089150ff5d0e2d24d864eac5ec6f7696d5a96cc8e7ff5693078887205513bcd",
+    "bones": 251,
+    "cubes": 855,
+    "faces": 5130,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 168945,
+      "sha256": "70e48ad8ddf08aa0ec47e64d2cf1efccfaf0adda75ca55360bea616dc8417210"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 695,
+      "sha256": "cd2be5d42efea2613f8fbe541e3c8600c0d1edb11051924675bdc2f7955d24d5"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2917,
+      "sha256": "f1b559bb714f40be566b02e1b8dd44c2cc380783e0e8a480c89a8378caa05b96"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 120100,
+      "sha256": "257c5b79c1f1833a248735f32d17567b00093a3c25c2591b6476c2ba65d329f3"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 449650,
+      "sha256": "937a8dc056a7dc89b2077e2bc1f7cf2c86a899831342a467b3d17fd1604776c9"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 176050,
+      "sha256": "9ecf075152538c1a7ac0bcd61f40bbd607a523c184a009c37cd37e23611b2913"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1598799,
+      "sha256": "d50e8b37390c62f09b1a9af1ef4c4d95fcf0063050f7b1fd5cacc3ff682b5604"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 212304,
+      "sha256": "002ae25fb2d72e0ed6a0749e0c0a58776fe3e403c7f2b00ea0e6c64c4187184c"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 76836,
+      "sha256": "53b15a657a31331ae4fdca48d3ee1ae14a4ecfeae30dea3cd1ec91e53aafdf9d"
+    },
+    {
+      "path": "avatar/德哈卡 拷贝.png",
+      "size": 19006,
+      "sha256": "ad40c4b6e1abd505cb5b7fc84ede2bf0cb77755b86ed00ae6a05fcb1e1568445"
+    },
+    {
+      "path": "controller/main.animation_controllers.json",
+      "size": 810,
+      "sha256": "ff546eb7847ecbb59ce3f43189c005e61db5ccf749dfc4f11b5d978f82b4d106"
+    },
+    {
+      "path": "models/animations/arm.animation.json",
+      "size": 168945,
+      "sha256": "70e48ad8ddf08aa0ec47e64d2cf1efccfaf0adda75ca55360bea616dc8417210"
+    },
+    {
+      "path": "models/animations/arrow.animation.json",
+      "size": 695,
+      "sha256": "cd2be5d42efea2613f8fbe541e3c8600c0d1edb11051924675bdc2f7955d24d5"
+    },
+    {
+      "path": "models/animations/carryon.animation.json",
+      "size": 2917,
+      "sha256": "f1b559bb714f40be566b02e1b8dd44c2cc380783e0e8a480c89a8378caa05b96"
+    },
+    {
+      "path": "models/animations/extra.animation.json",
+      "size": 120100,
+      "sha256": "257c5b79c1f1833a248735f32d17567b00093a3c25c2591b6476c2ba65d329f3"
+    },
+    {
+      "path": "models/animations/main.animation.json",
+      "size": 449652,
+      "sha256": "37db92cf27a2d340cce8f97d32a648da796aa0a4a306faf45745353cf46b9818"
+    },
+    {
+      "path": "models/animations/parcool.animation.json",
+      "size": 176050,
+      "sha256": "9ecf075152538c1a7ac0bcd61f40bbd607a523c184a009c37cd37e23611b2913"
+    },
+    {
+      "path": "models/animations/slashblade.animation.json",
+      "size": 1598799,
+      "sha256": "d50e8b37390c62f09b1a9af1ef4c4d95fcf0063050f7b1fd5cacc3ff682b5604"
+    },
+    {
+      "path": "models/animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "models/animations/tac.animation.json",
+      "size": 212304,
+      "sha256": "002ae25fb2d72e0ed6a0749e0c0a58776fe3e403c7f2b00ea0e6c64c4187184c"
+    },
+    {
+      "path": "models/animations/tlm.animation.json",
+      "size": 63606,
+      "sha256": "8e38e0d04193f5023f619ba64d847eee7cb675291c0747f98292656a028dacf7"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 81107,
+      "sha256": "e8dd780b69fe6415d2f003176061c268169ae7fbaa0037a40cdb3bd48dca913a"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 18733,
+      "sha256": "1070aa5589ae3df1c5abf95a40f9de47ce2ca1df6b234ddbea96f568d1829c7a"
+    },
+    {
+      "path": "models/avatar/德哈卡 拷贝.png",
+      "size": 19006,
+      "sha256": "ad40c4b6e1abd505cb5b7fc84ede2bf0cb77755b86ed00ae6a05fcb1e1568445"
+    },
+    {
+      "path": "models/controller/main.animation_controllers.json",
+      "size": 810,
+      "sha256": "ff546eb7847ecbb59ce3f43189c005e61db5ccf749dfc4f11b5d978f82b4d106"
+    },
+    {
+      "path": "models/main.json",
+      "size": 385266,
+      "sha256": "db2fa8e9b529d0b3ab2831dba8eb242b9204fb2572dcb5901ca1e088cb672c50"
+    },
+    {
+      "path": "models/models/arm.json",
+      "size": 81107,
+      "sha256": "e8dd780b69fe6415d2f003176061c268169ae7fbaa0037a40cdb3bd48dca913a"
+    },
+    {
+      "path": "models/models/arrow.json",
+      "size": 18733,
+      "sha256": "1070aa5589ae3df1c5abf95a40f9de47ce2ca1df6b234ddbea96f568d1829c7a"
+    },
+    {
+      "path": "models/models/main.json",
+      "size": 385266,
+      "sha256": "db2fa8e9b529d0b3ab2831dba8eb242b9204fb2572dcb5901ca1e088cb672c50"
+    },
+    {
+      "path": "models/textures/arrow.png",
+      "size": 1213,
+      "sha256": "0ecda6c1557cf3571289a3212c93e125d8b075cc37ac62f14dad852d83a576ec"
+    },
+    {
+      "path": "models/textures/default.png",
+      "size": 13741,
+      "sha256": "c09ac386cf1003f7b8cf15d17285f6b0c130fd0650b5458d753eaacf78489d03"
+    },
+    {
+      "path": "models/textures/texture.png",
+      "size": 13745,
+      "sha256": "281377d6056833ab610fd9768d3b57a597b06901ad5c0598cba48142e357f7d0"
+    },
+    {
+      "path": "models/ysm.json",
+      "size": 1686,
+      "sha256": "e1c906f2e085583cadcfa82cea461930faeae522d8664928ff945091138e80b0"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1213,
+      "sha256": "0ecda6c1557cf3571289a3212c93e125d8b075cc37ac62f14dad852d83a576ec"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 13741,
+      "sha256": "c09ac386cf1003f7b8cf15d17285f6b0c130fd0650b5458d753eaacf78489d03"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 13745,
+      "sha256": "281377d6056833ab610fd9768d3b57a597b06901ad5c0598cba48142e357f7d0"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1686,
+      "sha256": "e1c906f2e085583cadcfa82cea461930faeae522d8664928ff945091138e80b0"
+    }
+  ]
+}

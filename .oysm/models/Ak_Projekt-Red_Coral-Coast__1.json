@@ -1,0 +1,197 @@
+{
+  "id": "Ak_Projekt-Red(Coral-Coast)_1",
+  "path": "parsed/Ak_Projekt-Red(Coral-Coast)_1",
+  "source": {
+    "path": "_Arknights/Ak_Projekt-Red(Coral-Coast)_1.ysm",
+    "type": "ysm",
+    "stem": "Ak_Projekt-Red(Coral-Coast)_1"
+  },
+  "ysm": "parsed/Ak_Projekt-Red(Coral-Coast)_1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/嗯嗯owo.png",
+        "comment": "大就是好，好就是大",
+        "contact": {
+          "Afdian": "https://afdian.com/a/enenowo",
+          "Bilibili": "https://space.bilibili.com/167202500?spm_id_from=333.337.0.0"
+        },
+        "name": "嗯嗯owo",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/嗯嗯owo.png",
+        "comment": "大就是好，好就是大",
+        "name": "嗯嗯owo",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/嗯嗯owo.png",
+        "comment": "大就是好，好就是大",
+        "name": "嗯嗯owo",
+        "role": "材质 "
+      },
+      {
+        "avatar": "avatar/嗯嗯owo.png",
+        "comment": "大就是好，好就是大",
+        "contact": {
+          "Afdian": "https://afdian.com/a/enenowo",
+          "Bilibili": "https://space.bilibili.com/167202500?spm_id_from=333.337.0.0"
+        },
+        "name": "嗯嗯owo",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/enenowo",
+      "home": "https://space.bilibili.com/167202500?spm_id_from=333.999.0.0"
+    },
+    "name": "红_轻风 LB01",
+    "tips": "狩猎水里的猎物需要些新装备，红正在尝试使用它们"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "立绘动作",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "default",
+    "preview_animation": "extra0",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/hong.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Projekt-Red_Coral-Coast__1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6584,
+      "sha256": "7e39aee068204080a0cd8dcf7bd419269a2add55dc7dcf320f4d837712daf502"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 1200970,
+    "sha256": "2afb6118a7dbfad2f02afac600e6f2b3db8319a35c2ccfd4699aed3afafa24de",
+    "bones": 179,
+    "cubes": 474,
+    "faces": 2844,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136090,
+      "sha256": "6282a7adf86ec60f639f0ef0d3df65d7174be7eac4c2601dae61d310b866342c"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 118138,
+      "sha256": "72f835c1f9ff376aed9403ce4b40309db7de09da85d06a1e9423455de4a8e311"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 205226,
+      "sha256": "cd469485fa02e1cc3c7f50ab692f337092eea34376cb12388d3787ade2399ca7"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/嗯嗯owo.png",
+      "size": 249656,
+      "sha256": "c821c80643b9ccc647fd6bfe98fbddbaabb67996217de55d42445e82a393d0a1"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 9957,
+      "sha256": "de51af24e60d72b5b45c3fbbebbaae841a23cc34c3fade7a467b13373a44fcc9"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 259968,
+      "sha256": "38240499831e96453f2dbaf77fdb40a9efd5e24b44236fdc7deab27813e734eb"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/hong.png",
+      "size": 25547,
+      "sha256": "f45a298e77f0d66b27c8ae07e1c380477dcc9c69ef4b6fee116af5b9b66b4b60"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1771,
+      "sha256": "b0ffdfb3042a65d55f729fc5a852134e92c864eda2815e14e53226653ccdab29"
+    }
+  ]
+}

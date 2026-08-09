@@ -1,0 +1,106 @@
+{
+  "id": "CnCMO_Yunru2",
+  "path": "parsed/CnCMO_Yunru2",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCMO_Yunru2.ysm",
+    "type": "ysm",
+    "stem": "CnCMO_Yunru2"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "云茹（便装）",
+    "tips": "出自《红警2》mod《心灵终结》",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCMO_Yunru2_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7762,
+      "sha256": "155a3ec5003714d2ea8f50fe307c3f39a1b3889b18fe25eb0f147ddf8b256c2a"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 453333,
+    "sha256": "7ebf0fc247353d11cc7753d91e8aaff66c4fe1569bfc88834f1013e0982ff14d",
+    "bones": 78,
+    "cubes": 263,
+    "faces": 1578,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 11202,
+      "sha256": "85de670019828ae750c263e31e115d31fa0589b59f6595285d48e0a4957afc6e"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 25824,
+      "sha256": "60987ea899366f90d1e96d85cdb97e03989570dcda46ecd2579b86bee3ccc1b7"
+    },
+    {
+      "path": "info.json",
+      "size": 207,
+      "sha256": "dc1e503c2b56c50b4ceb3a2863d2e34d794fe4749e1eda0ee28e3b4260a7c24d"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 124978,
+      "sha256": "561f95759c9b0cb392953408213f81069d309808fdf9f623f53a29d6974d26c0"
+    },
+    {
+      "path": "main.json",
+      "size": 128725,
+      "sha256": "8415c46dd68f0bf1796d3f091c5a5a387877168351ab54f21eaad214d7f7fc56"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 136221,
+      "sha256": "e58ddb9514daae6fe26ce8ef7476b5d675d19c087e33ec36fec73c25858ce097"
+    },
+    {
+      "path": "texture.png",
+      "size": 26176,
+      "sha256": "30d30a9676435c0484f0a42c1853b784e887448da9aed9768d73f4adbe7d5a7b"
+    }
+  ]
+}

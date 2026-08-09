@@ -1,0 +1,204 @@
+{
+  "id": "Takao",
+  "path": "parsed/Takao",
+  "source": {
+    "path": "Unknown/Takao.zip",
+    "type": "zip",
+    "stem": "Takao"
+  },
+  "ysm": "parsed/Takao/ysm.json",
+  "metadata": {
+    "name": "Takao",
+    "tips": "默认模型（Default Model）",
+    "license": {
+      "type": "All Rights Reserved"
+    },
+    "authors": [
+      {
+        "name": "<Unknown>"
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "height_scale": 0.65,
+    "width_scale": 0.65,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "#extra_classify": "Extra Classify"
+    },
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "Simple Config",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3
+          }
+        ]
+      }
+    ],
+    "preview_animation": "idle",
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true,
+    "disable_preview_rotation": false,
+    "all_cutout": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/main.animation_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Takao_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6167,
+      "sha256": "f9f6a8abc6f14965dccccaa36457cbb02a5cabfcef2060a7c57241450ab5a0d2"
+    }
+  },
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 3136199,
+    "sha256": "a280f9cc7fcb982860260e26cf3201fbb9f1778e1a93a52f311344e920a3db0d",
+    "bones": 155,
+    "cubes": 829,
+    "faces": 4969,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 190603,
+      "sha256": "472353537f91fd5d7bed0bfd6239aafdbf09d10cd35ea618c8a259f150e63060"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2917,
+      "sha256": "f1b559bb714f40be566b02e1b8dd44c2cc380783e0e8a480c89a8378caa05b96"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 120100,
+      "sha256": "257c5b79c1f1833a248735f32d17567b00093a3c25c2591b6476c2ba65d329f3"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 183896,
+      "sha256": "ed3242884fb9b3ffa71518d6481098697793670e65c2bccda5bab61b0baea33c"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 176050,
+      "sha256": "9ecf075152538c1a7ac0bcd61f40bbd607a523c184a009c37cd37e23611b2913"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1598799,
+      "sha256": "d50e8b37390c62f09b1a9af1ef4c4d95fcf0063050f7b1fd5cacc3ff682b5604"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 212304,
+      "sha256": "002ae25fb2d72e0ed6a0749e0c0a58776fe3e403c7f2b00ea0e6c64c4187184c"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 63606,
+      "sha256": "8e38e0d04193f5023f619ba64d847eee7cb675291c0747f98292656a028dacf7"
+    },
+    {
+      "path": "controller/main.animation_controllers.json",
+      "size": 810,
+      "sha256": "ff546eb7847ecbb59ce3f43189c005e61db5ccf749dfc4f11b5d978f82b4d106"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 28298,
+      "sha256": "7323ba846e59e81698bfca283ce28c44c522208207afa999abef487e83c4af4e"
+    },
+    {
+      "path": "models/main.json",
+      "size": 461963,
+      "sha256": "4a07c59656972f24ab6ea879adfcc8e7218a25aabe7713163aba375285d98196"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 26925,
+      "sha256": "e754e80e18021d2a1f4d980d1c76de160121098e188d998569b9c62afb3ed3e9"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 26896,
+      "sha256": "81859cce908bbb5470975e6b35087c533f6c6ddd92d13f8d1344f23140d22e60"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2002,
+      "sha256": "0745a3eb47cc1d59079c905585ee1dc61039ddc51e169e52ba1713ffa3fc637f"
+    }
+  ]
+}

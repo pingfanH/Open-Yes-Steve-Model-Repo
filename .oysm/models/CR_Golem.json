@@ -1,0 +1,244 @@
+{
+  "id": "CR_Golem",
+  "path": "parsed/CR_Golem",
+  "source": {
+    "path": "_ClashRoyal-COC/CR_Golem.ysm",
+    "type": "ysm",
+    "stem": "CR_Golem"
+  },
+  "ysm": "parsed/CR_Golem/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "逸一时，误一世",
+        "contact": {
+          "Afdian": "https://modrinth.com/mod/yes-steve-model",
+          "Bilibili": "https://space.bilibili.com/44619913?spm_id_from=333.1007.0.0"
+        },
+        "name": "泉溪",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "1",
+        "name": "泉溪",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "1",
+        "name": "泉溪",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "1",
+        "contact": {
+          "Afdian": "hhttps://modrinth.com/mod/yes-steve-model",
+          "Bilibili": "https://modrinth.com/mod/yes-steve-model"
+        },
+        "name": "泉溪",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://space.bilibili.com/44619913?spm_id_from=333.1007.0.0",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "戈伦石人",
+    "tips": "已连接石头人网络"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/blue.png"
+        },
+        {
+          "uv": "textures/default2.png"
+        },
+        {
+          "uv": "textures/default3.png"
+        },
+        {
+          "uv": "textures/default4.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CR_Golem_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 29916,
+      "sha256": "92b15b14fefa91e40c90ca33110b263bbd70a290028d70c190b0b38e14709e21"
+    }
+  },
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 1535833,
+    "sha256": "886456f2c688926331df0b3c9c5458844adc6a5253eb2e1f1a2bee215256f3ce",
+    "bones": 106,
+    "cubes": 115,
+    "faces": 690,
+    "textures": 5,
+    "materials": 5,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 83359,
+      "sha256": "4a28069a2a76f7034fa5e5a3a56133e811b8884a04a780fe5ec93ac599300da8"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1164,
+      "sha256": "4320491a1cc47b8708e6c6abcaadaf498c7bb6ff3fd6eb4fcc7e74b450a240f3"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2796,
+      "sha256": "bee82c6f462ced2c2d6c9df0f8a64d90e853d0c136c37a5ebe3f0a92f919db77"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 3094,
+      "sha256": "6d00488fdf10a418d69c02d0c65fe2c2f48e5342681b43a8cf369d50e766cb01"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 71688,
+      "sha256": "5026a8b79235411475f005c2b813489a49315a2f3e11ecff718f16e1439cda38"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/泉溪.png",
+      "size": 19374,
+      "sha256": "6cd420a5238d37083afb1a43736ae8f862dfb9d9065c1ae1895c2ee20071333c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 11170,
+      "sha256": "dd0f522f54b3992e363aad3215d261a2f985ab2e0b5eb4caf793aa15222f8909"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 3711,
+      "sha256": "3ba763c0d8394f9ae15040be2fc9fb398b1f605b31cd9590c60204f3a9c523dc"
+    },
+    {
+      "path": "models/main.json",
+      "size": 62204,
+      "sha256": "cfffebff82c3f09baba59da1ee7ddbe9c66243da314d5a7c03f00965d9ae80a6"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1744,
+      "sha256": "dd4cb6b9d07fca368cb54b9c63e2c9013fe179d5b26aef2b73b1ab6989d88b11"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 152873,
+      "sha256": "7b9f5c996d89409392a18b5fcaa116bbf3f8dc74732c2d342995b2910655c4b0"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 72198,
+      "sha256": "10d664c3e20a619634a5fba675781a932b65d9cf525ab3e737c756eb3fb806a3"
+    },
+    {
+      "path": "textures/default2.png",
+      "size": 231251,
+      "sha256": "2bca6ae3b26d3a0a09effda01170b6fd2714c620361939d5ed6b5a34e76ffaee"
+    },
+    {
+      "path": "textures/default3.png",
+      "size": 246433,
+      "sha256": "203e396817c11a4c343ea576aafa3c08c1754dbe78bf3aad09a7a1ff52556ee3"
+    },
+    {
+      "path": "textures/default4.png",
+      "size": 214494,
+      "sha256": "4d55efc68e12509b8d9cbc1ccc4ff890f06b19f6319243e9d277b5fb275ec148"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1893,
+      "sha256": "f59ce573bcbf2af8b36287fab85c3317ed1e4e1cfc58716744385266fefcc710"
+    }
+  ]
+}

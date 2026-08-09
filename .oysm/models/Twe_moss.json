@@ -1,0 +1,78 @@
+{
+  "id": "Twe_moss",
+  "path": "parsed/Twe_moss",
+  "source": {
+    "path": "Unknown/Twe_moss.ysm",
+    "type": "ysm",
+    "stem": "Twe_moss"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Twe_moss"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "tex.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Twe_moss_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4327,
+      "sha256": "209fc59b45b861d165b8db003f130abb580f09eb6f59ed786bca69b505499a75"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 28582,
+    "sha256": "2d86f5c453bb0e9b65ee5725c9a286c917c84a549f2a2d18cb37eeb5a2415995",
+    "bones": 14,
+    "cubes": 153,
+    "faces": 918,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 1392,
+      "sha256": "5531474f58a1f61f388786c65e50bbc187165b0fc0fa73e4793b73892ee2ae30"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 2158,
+      "sha256": "03f8fd4ea8e71de9ff25210773ac95923e515537b6d3c4503d5cf436edaf0485"
+    },
+    {
+      "path": "main.json",
+      "size": 20078,
+      "sha256": "c2b99d418e9bf38fd7be1f8e0b3b3943b01a279b3b9a97bc357be2d6987a0a96"
+    },
+    {
+      "path": "tex.png",
+      "size": 4954,
+      "sha256": "4ed22bebd878d5a4e45a565e38536a5e9af83343f03371c524b8f771f928351a"
+    }
+  ]
+}

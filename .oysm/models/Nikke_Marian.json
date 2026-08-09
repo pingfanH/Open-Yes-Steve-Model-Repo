@@ -1,0 +1,84 @@
+{
+  "id": "Nikke_Marian",
+  "path": "parsed/Nikke_Marian",
+  "source": {
+    "path": "_Nikke/Nikke_Marian.zip",
+    "type": "zip",
+    "stem": "Nikke_Marian"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Nikke_Marian"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Nikke_Marian_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10061,
+      "sha256": "2975cd74264aecba1b445fa3213e0e498f95588b314d2ba106f1a8c5251d960b"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 609217,
+    "sha256": "01a5c1857ca4941ba3ddac430d81024a589e37cb19216fc039b7aef414c68394",
+    "bones": 106,
+    "cubes": 631,
+    "faces": 3786,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 12165,
+      "sha256": "22fc0e8c97a3576e2fa8373fd8081f91bb54c9d2ace1d8c9bf1e9275d8a37295"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 137218,
+      "sha256": "315e1fc76356fed07027e21184af70a23bce6d97c9c7514cd4865873e3a08e86"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 102543,
+      "sha256": "bddb373eeb1d12ca22f13f9eb0fa8c763ea387d1fa9b7253b3c6fd62bfa94c4d"
+    },
+    {
+      "path": "main.json",
+      "size": 325667,
+      "sha256": "8d533353acf3830da230afe97ae4f575a04d9b1b3e2f282e7eb41fc52f24343a"
+    },
+    {
+      "path": "texture.png",
+      "size": 31624,
+      "sha256": "e10526fb70e1c92ae97b544b72d58d083261977e4f5c6882213f12e64e3be0fd"
+    }
+  ]
+}

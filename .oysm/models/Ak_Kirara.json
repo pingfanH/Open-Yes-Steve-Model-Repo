@@ -1,0 +1,312 @@
+{
+  "id": "Ak_Kirara",
+  "path": "parsed/Ak_Kirara",
+  "source": {
+    "path": "_Arknights/Ak_Kirara.ysm",
+    "type": "ysm",
+    "stem": "Ak_Kirara"
+  },
+  "ysm": "parsed/Ak_Kirara/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/映白L.png",
+        "comment": "感谢使用我的模型，若有问题可在B站或爱发电私信反馈",
+        "name": "映白L",
+        "role": "作者"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.net/a/ehaku",
+      "home": "https://space.bilibili.com/10208258"
+    },
+    "name": "绮良_free",
+    "tips": "来自东国的学生绮良，似乎对电子设备颇有了解。\n§4本模型完全免费，仅在映白的B站或爱发电发布，严禁倒卖。\n§4若您是付费使用或付费下载到此模型，建议联系卖家退款！"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "游戏模式": "#游戏模式",
+      "extra1": "挥手",
+      "extra2": "拍手",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "extra5": "赢！",
+      "extra6": "跳舞1",
+      "extra7": "跳舞2",
+      "extra8": "#数据显示",
+      "#分类1": "#表情切换",
+      "extra0": "掷骰子"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "表情切换",
+        "name": "表情切换",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "表情快捷切换",
+            "description": "点击下列选项切换表情",
+            "value": "v.biaoqing_S",
+            "labels": {
+              "表情 默认": "v.biaoqing_S=0;",
+              "表情 >_<": "v.biaoqing_S=1;",
+              "表情 ì︿í": "v.biaoqing_S=2;"
+            }
+          }
+        ]
+      },
+      {
+        "id": "数据显示",
+        "name": "数据显示",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "关于“数据显示”按钮",
+            "description": "可以显示血量，装备耐久等数据。 需要配置界面中打开额外玩家渲染 或是安装更好的第一人称模型mod",
+            "value": "0",
+            "labels": {
+              "此页面下可调整其他参数": "v.radio=0;"
+            }
+          },
+          {
+            "type": "range",
+            "title": "模型大小",
+            "description": "调整模型缩放比例",
+            "value": "v.roaming.size",
+            "step": 0.05,
+            "min": 0.1,
+            "max": 3.0
+          },
+          {
+            "type": "range",
+            "title": "头部大小",
+            "description": "调整头部缩放比例",
+            "value": "v.roaming.head_size",
+            "step": 0.01,
+            "min": 0.85,
+            "max": 1.25
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏尾巴",
+            "description": "点击切换隐藏或显示",
+            "value": "v.roaming.weiba"
+          }
+        ]
+      },
+      {
+        "id": "游戏模式",
+        "name": "Game启动",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "关于“游戏模式”",
+            "description": "需要手持盾牌作为游戏的控制器。若未安装真实的第一人称mod 请使用第三人称游玩",
+            "value": "0",
+            "labels": {
+              "注意:游戏多人不同步": "v.radio=0;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "重新启动游戏",
+            "description": "游戏结束后点击下方按钮重启",
+            "value": "v.game_end",
+            "labels": {
+              "+点击重启+": "v.game_end=0;"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "分类1",
+        "extra_animation": {
+          "表情1": "表情 >_<",
+          "表情2": "表情 ì︿í"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "模型选择",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "tlm": "animations/tlm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png",
+          "specular": "textures/texture_specular.png"
+        },
+        {
+          "uv": "textures/texture2.png",
+          "specular": "textures/texture2_specular.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Kirara_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9471,
+      "sha256": "e14d10b22994323b7bf1bfc7e82a3159cf3e6b6447d86a4c98584a15ded35122"
+    }
+  },
+  "stats": {
+    "file_count": 20,
+    "total_bytes": 3302678,
+    "sha256": "92477a9a61cb61bcf54d803f8192ff9fbe917de204eceda331eb2a5b4ed1c4fa",
+    "bones": 659,
+    "cubes": 1178,
+    "faces": 5162,
+    "textures": 2,
+    "materials": 2,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 264466,
+      "sha256": "56fa636712cf901521b957303c5999edb0c3b8453eb9d51f9e4e76069eaa0101"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3354,
+      "sha256": "c6b9fa7679d3505e7cddd98526bdaf177dcc2fb98687917e6e69c9283676eeae"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 133489,
+      "sha256": "df517208231558b7f81bca501b0b1be7728cc569cfbc71f66d6ba37ca5c67b1f"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 321369,
+      "sha256": "b9d9d7e9378cbfa3fb4b879a6906ff9ac86a3364d0383792a0d7080c30344e22"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 155462,
+      "sha256": "8714a68a637583f72b0137fe885d5939d4a5c5a08830f369ef71a2f443fcd96b"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1506846,
+      "sha256": "f767c1562ba196954af6b1ffb385393f314d8fb0d34443b4f2fc8da8a6e12523"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 151130,
+      "sha256": "ec4c277df6f172708f60460823da3fcb9b28a6d63e17dc4e22e6972a2be2caab"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 47029,
+      "sha256": "12ea86607422224f4e33a3d6fec43a240037037e24a7044a757fc02c77a72f1d"
+    },
+    {
+      "path": "avatar/映白L.png",
+      "size": 7245,
+      "sha256": "741df3013588372c7b0e83e2d2baabedfd0396900139a4a3b714c7c61a48a3e7"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 17004,
+      "sha256": "eb45d4be5b86b2842d30234bb5354b1731032bd6f93a9769ea2ffdd974ade90b"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 20912,
+      "sha256": "c5fbf82c20c166eadf1a8a5068bb901d0c9ef2f7653784aca9b23d9d7513e786"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 571946,
+      "sha256": "afc50c971c59c23513197836e223cb20b992ece29555dbd6569a5359cf474c9f"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 41653,
+      "sha256": "cdd3cbd148a83eb1ece5645a508e6131691891acbdb4bb53171dd18d1ca9df58"
+    },
+    {
+      "path": "textures/texture2.png",
+      "size": 41577,
+      "sha256": "12a9d8e93ced9f5c12be6e82c3701310c49a69f52de223c888b5539115ed7a0a"
+    },
+    {
+      "path": "textures/texture2_specular.png",
+      "size": 3788,
+      "sha256": "9373423a5ee4b700415b2fcb58a63e9d69602f447446d0ab598e063a50c8c458"
+    },
+    {
+      "path": "textures/texture_specular.png",
+      "size": 3788,
+      "sha256": "9373423a5ee4b700415b2fcb58a63e9d69602f447446d0ab598e063a50c8c458"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3471,
+      "sha256": "4e3b1de4a88ad61f0a540718a00f3ebb0579a2524352ee6654c18acc6da0ba79"
+    }
+  ]
+}

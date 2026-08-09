@@ -1,0 +1,172 @@
+{
+  "id": "BA_Fuuka_1.0",
+  "path": "parsed/BA_Fuuka_1.0",
+  "source": {
+    "path": "_BlueArchive/BA_Fuuka_1.0.ysm",
+    "type": "ysm",
+    "stem": "BA_Fuuka_1.0"
+  },
+  "ysm": "parsed/BA_Fuuka_1.0/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/落阳不养羊.png",
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "name": "落阳不养羊",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/.png",
+        "comment": "漂泊于群星之中",
+        "contact": {
+          "Afdian": "https://afdian.com/a/lucia2048",
+          "Bilibili": "https://space.bilibili.com/14975572"
+        },
+        "name": "",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": ""
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "风香【私服】",
+    "tips": "免费模型"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "致命公司摇",
+      "extra1": "站",
+      "extra2": "坐",
+      "extra3": "你好",
+      "extra4": "是的",
+      "extra5": "不对",
+      "extra6": "摇",
+      "extra7": "默认舞蹈"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Fuuka_1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8527,
+      "sha256": "4f94e174d618b11f6ee939fc12d49b81ebc533039d7a0df13c2b3af08e7f26b8"
+    }
+  },
+  "stats": {
+    "file_count": 11,
+    "total_bytes": 1109362,
+    "sha256": "a46613a3a6ad179f062fcbab1b35a5e325c6e952366883588008be73ca712782",
+    "bones": 107,
+    "cubes": 726,
+    "faces": 4356,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 185323,
+      "sha256": "5dafe145c7252de6614afefabe6fedd820e16b68831f2618bcd6cc5eb88d9389"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 49702,
+      "sha256": "ba003d669006558f8578e11787a18019daccde43cd6b356d73aeffddb37335e2"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 202928,
+      "sha256": "d400e78ca9e131211dc944f4760fba75d02f86e75535dcfcea46c15f3d4bc402"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 166905,
+      "sha256": "5d21e7e8db21082d2006d6f9dbc786a9d6fbe6de83504d0f592483f2a30ca70e"
+    },
+    {
+      "path": "avatar/.png",
+      "size": 22406,
+      "sha256": "2c03d4213bddb87b0bc8d40b1cc32c059b0fe72a0bd6cc09613505a82e922f65"
+    },
+    {
+      "path": "avatar/落阳不养羊.png",
+      "size": 19374,
+      "sha256": "6cd420a5238d37083afb1a43736ae8f862dfb9d9065c1ae1895c2ee20071333c"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 2350,
+      "sha256": "e5a8561560884c5cdc84362beb4a3038937ca01f0081eb242499fa824b0cb84e"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 19356,
+      "sha256": "3d6abf0a56d23d5e9a7e35da2ab48b927c77451a3d69dd11fc6515dd25dc200a"
+    },
+    {
+      "path": "models/main.json",
+      "size": 378320,
+      "sha256": "c3c48b3505001eaf3763ea044d7ac79ef00a0593820d4ff4a8db8a3012b23856"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 61303,
+      "sha256": "4fce75d1e60a91da7195c82ae2ec8bb891962aaf2fd9f5b4e9ea533b3886309b"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1395,
+      "sha256": "36caac60e1e847d5a649dddfb04ecc432a978bad79abbe0d6f24deb9cf80d540"
+    }
+  ]
+}

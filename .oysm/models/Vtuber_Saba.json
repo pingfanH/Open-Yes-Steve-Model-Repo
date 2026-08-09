@@ -1,0 +1,323 @@
+{
+  "id": "Vtuber_Saba",
+  "path": "parsed/Vtuber_Saba",
+  "source": {
+    "path": "_Vtuber/Vtuber_Saba.ysm",
+    "type": "ysm",
+    "stem": "Vtuber_Saba"
+  },
+  "ysm": "parsed/Vtuber_Saba/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/Rintaro.png",
+        "comment": "",
+        "name": "Rintaro",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Sameko Saba",
+    "tips": "I tried. It not look like her at all."
+  },
+  "properties": {
+    "width_scale": 0.55,
+    "height_scale": 0.5,
+    "extra_animation": {
+      "extra0": "#COn",
+      "extra1": "Gesture:wave",
+      "Emote1:Waving": "Norm:wave",
+      "Emote2:Dance!!": "Test:Dance!!",
+      "Emote3:Dance!!?": "Dance:Cha",
+      "Emote3:dance :)": "Dance:sway",
+      "Dance4:joggart": "Dance:Joggart",
+      "Emote:jumpin": "Emote:jumpin",
+      "Express:catty": "BUH",
+      "Sit": "",
+      "Sit2": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          }
+        ]
+      },
+      {
+        "id": "Test",
+        "name": "Cat ear",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "Cat_ear",
+            "description": "Test",
+            "value": "v.roaming.cat_ear"
+          },
+          {
+            "type": "checkbox",
+            "title": "hoodie",
+            "description": "",
+            "value": "v.hoodie=1;v.second_outfit=0;"
+          },
+          {
+            "type": "checkbox",
+            "title": "school_swimsuit",
+            "description": "",
+            "value": "v.school_swimsuit=1;v.roaming.under_L=0;v.roaming.under_U=0;"
+          },
+          {
+            "type": "checkbox",
+            "title": "Second_outfit",
+            "description": "",
+            "value": "v.hoodie=0;v.second_outfit=1;"
+          },
+          {
+            "type": "checkbox",
+            "title": "Blazer",
+            "description": "",
+            "value": "v.blazer"
+          }
+        ]
+      },
+      {
+        "id": "Blazer_config",
+        "name": "Accessory_toggle",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "Knee_sock",
+            "description": "",
+            "value": "v.roaming.knee_sock"
+          },
+          {
+            "type": "checkbox",
+            "title": "Shoes",
+            "description": "",
+            "value": "v.roaming.shoe_b"
+          }
+        ]
+      },
+      {
+        "id": "Sidetail",
+        "name": "sidetail",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "Sidetail",
+            "description": "",
+            "value": "v.roaming.tail"
+          },
+          {
+            "type": "checkbox",
+            "title": "Cat_ear",
+            "description": "",
+            "value": "v.roaming.cat_ear"
+          }
+        ]
+      },
+      {
+        "id": "COn",
+        "name": "Config",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "Dress",
+            "description": "",
+            "value": "v.roaming.Dress"
+          },
+          {
+            "type": "checkbox",
+            "title": "Dress Var",
+            "description": "Tummy!!!?",
+            "value": "v.roaming.Dress2"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "Tests",
+        "extra_animation": {
+          "Extra33": ""
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png",
+          "normal": "textures/default_normal.png",
+          "specular": "textures/default_specular.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Vtuber_Saba_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8902,
+      "sha256": "7e9f8c51f65b3ff8d2b2fb0832b264f9a8503fe9c33c87548739920cd6a75027"
+    }
+  },
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 8662646,
+    "sha256": "8e5cd50ba3e95ec7432fca31c9866bb4b9ac0e1ba17f810b9886184515170d64",
+    "bones": 845,
+    "cubes": 5401,
+    "faces": 32406,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 183002,
+      "sha256": "49f6a5cc9387924088b9de03f51f3ddb4f755a90650d7d1e6e3ada342feac097"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3056,
+      "sha256": "9620d74a56bc0372c1463c1d323001aaab197ab4885a1c0ef82a7818205866b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 78623,
+      "sha256": "60195db177ac37efdf221e84aa4a96335cb0dc0517b757a85ad1339a4a319afa"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 286230,
+      "sha256": "8ab656cc5110844bcf3f01c6863ed25888202178539efb5e963b91577c62d3cc"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139469,
+      "sha256": "60954fb387d10f7eb8afa40734411781a176e98e64f6259cfde9ce2442129a9f"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1504933,
+      "sha256": "a7801bb441a73024ddf924439243d2885a29cffd8d50ab190931f4cf11b9c95b"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182268,
+      "sha256": "d73241e15125f3cd7fe4f37ca15eea72e36297a6b614d523766f0697c1aa7042"
+    },
+    {
+      "path": "avatar/Rintaro.png",
+      "size": 10761,
+      "sha256": "d818515dfa9fc50fda4c5423d6c0de168f9e1e1ad31caaf827e372d46540ce7f"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 59457,
+      "sha256": "d54dadfb9eb04e4315904b2ebd06c479447c9b4c224dcccbb37f6befaa7d48f8"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 14233,
+      "sha256": "943bc314679b51c50b4ab0c555006e807fbfc44276c64bf7b461a6c59dbf1c4e"
+    },
+    {
+      "path": "models/main.json",
+      "size": 4080063,
+      "sha256": "f5ba05c2aaa0501829d02187290e3ae7c960b1317af08e847c5e390358b42690"
+    },
+    {
+      "path": "sounds/1.ogg",
+      "size": 357411,
+      "sha256": "da9f1a2323d73049a0a2903902ac2802e39d6458277cfe9d2968a30f06d9faae"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2627,
+      "sha256": "e94f5ecc82c2605714320db79f9e297adb4a84bbaa2d38694a4e854e9fa0cf23"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 875731,
+      "sha256": "969b5f78e6cd955770559e16ffa692fc03242fc909f59a6e667c66d59f7df411"
+    },
+    {
+      "path": "textures/default_normal.png",
+      "size": 420712,
+      "sha256": "6b4cf702b2288f4335275968db530e6da25e368cb911aa2ddc80b03b44210d5f"
+    },
+    {
+      "path": "textures/default_specular.png",
+      "size": 420712,
+      "sha256": "6b4cf702b2288f4335275968db530e6da25e368cb911aa2ddc80b03b44210d5f"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3041,
+      "sha256": "03a3fc79cf6ab0cba443d0588edc42ae93d672873c487c35e2004fad1a43c512"
+    }
+  ]
+}

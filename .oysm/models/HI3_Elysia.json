@@ -1,0 +1,84 @@
+{
+  "id": "HI3_Elysia",
+  "path": "parsed/HI3_Elysia",
+  "source": {
+    "path": "_HonkaiImpact3/HI3_Elysia.ysm",
+    "type": "ysm",
+    "stem": "HI3_Elysia"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "HI3_Elysia"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "normal_pink_inner.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HI3_Elysia_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 39801,
+      "sha256": "0082c57fb1068753e4ac0ecb9ed080df9da5c8448f59c97e2fb89b073695b105"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 2562315,
+    "sha256": "73acede661de2b0a32be634bff5904e6b085a36768d8f7d36eeab6fd5a2f7777",
+    "bones": 141,
+    "cubes": 2872,
+    "faces": 17232,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 168452,
+      "sha256": "959a4aed95dbfc4c6c851f5cf3b23a064de779709952edc3b73aad874c037cfb"
+    },
+    {
+      "path": "arm.json",
+      "size": 129080,
+      "sha256": "4daf1aaebd4cc71d150d41f7d3e6c98050f7584cc69e0145547dfb10186ea79b"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 168452,
+      "sha256": "959a4aed95dbfc4c6c851f5cf3b23a064de779709952edc3b73aad874c037cfb"
+    },
+    {
+      "path": "main.json",
+      "size": 1478783,
+      "sha256": "4dd5299711b6150d5c298763d8857016278d46d00deaf48028e988de30488911"
+    },
+    {
+      "path": "normal_pink_inner.png",
+      "size": 617548,
+      "sha256": "1b8c20813e67eee6ec2fd50490962e44dcf6d13bdfa3b10db796a427b6fbd8de"
+    }
+  ]
+}

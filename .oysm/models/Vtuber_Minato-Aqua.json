@@ -1,0 +1,138 @@
+{
+  "id": "Vtuber_Minato-Aqua",
+  "path": "parsed/Vtuber_Minato-Aqua",
+  "source": {
+    "path": "_Vtuber/Vtuber_Minato-Aqua.ysm",
+    "type": "ysm",
+    "stem": "Vtuber_Minato-Aqua"
+  },
+  "ysm": "parsed/Vtuber_Minato-Aqua/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/碎de帆.png",
+        "comment": "一般通过车车人",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/381524342"
+        },
+        "name": "碎de帆",
+        "role": "模型+动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-SA"
+    },
+    "link": {
+      "home": "https://space.bilibili.com/381524342"
+    },
+    "name": "凑阿库娅",
+    "tips": "for夏沫ミ泪枫，纪念毕业的阿夸"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "打招呼",
+      "extra1": "鼓掌",
+      "extra2": "点头",
+      "extra3": "摇头",
+      "extra4": "穿/脱外套",
+      "extra5": "傻笑",
+      "extra6": "空",
+      "extra7": "舞蹈2"
+    },
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Vtuber_Minato-Aqua_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8532,
+      "sha256": "516ce5b7304687d1f4f96fa54be47fee758b76d5a1eaf95e2656b78e911d00cd"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 686633,
+    "sha256": "c6b9165dd5dd408ed2df8c0ad797af44d7ad829de43a31ae23697222348476f7",
+    "bones": 276,
+    "cubes": 522,
+    "faces": 3132,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 121961,
+      "sha256": "6896245aaff8a0aa21106ab18196963b2da2270fa937bfc8bf50acc33f15ae3c"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 31741,
+      "sha256": "a50a90a6bc4945fc3f7712460820fe7cb46eb7a738e3fad9416a101696cd955c"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 186794,
+      "sha256": "46d5e725ae398a3d25902009e223a19e7d063909b22fe6f348642810a366f8bd"
+    },
+    {
+      "path": "avatar/碎de帆.png",
+      "size": 42052,
+      "sha256": "76bb642042dab96365c1eb38eeb89b49acaf6adb7315f3036b7c4a4833e06d0e"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 30255,
+      "sha256": "585768faf0f2ccaa750fc3b116630f90d2a2ef03331b3026190e5f97e2067a5d"
+    },
+    {
+      "path": "models/main.json",
+      "size": 253917,
+      "sha256": "f21c720803fb6bfd0ea6809ba45c9b84183597a2f369dcc2464a842b6b96560f"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 18964,
+      "sha256": "ad4bfd2c9ae0d50bfb9c7c95f53c20c3183ebace18f8f7ab3c9560720cd9dbdb"
+    },
+    {
+      "path": "ysm.json",
+      "size": 949,
+      "sha256": "fc04821f32fb5e263d58bc00c69fa5c80a547b0b1597e69c66863e21bd4c1f7b"
+    }
+  ]
+}

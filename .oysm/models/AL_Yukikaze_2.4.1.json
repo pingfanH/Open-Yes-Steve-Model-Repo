@@ -1,0 +1,341 @@
+{
+  "id": "AL_Yukikaze_2.4.1",
+  "path": "parsed/AL_Yukikaze_2.4.1",
+  "source": {
+    "path": "_AzurLane/AL_Yukikaze_2.4.1.ysm",
+    "type": "ysm",
+    "stem": "AL_Yukikaze_2.4.1"
+  },
+  "ysm": "parsed/AL_Yukikaze_2.4.1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§b§l星语.png",
+        "comment": "星空的言语",
+        "contact": {
+          "bilibili": "316739550"
+        },
+        "name": "§b§l星语",
+        "role": "§b§l动作"
+      },
+      {
+        "avatar": "avatar/§e§lNss..png",
+        "comment": "一个爱搓人模的作者",
+        "name": "§e§lNss.",
+        "role": "§e§l模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "§lAll Rights Reserved"
+    },
+    "name": "§f§l雪风",
+    "tips": "§f§lNanoda~\n§f§l雪风是一名重樱阵营的§e§l超稀有级驱逐舰娘\n§f§l原型为§c§l旧日本阳炎级驱逐舰8号舰。\n"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "§e§l立绘Pose",
+      "extra1": "§b§l坐在楼梯或床上",
+      "extra2": "§b§l坐在方块边",
+      "extra3": "§b§l正坐",
+      "extra4": "§b§l躺平",
+      "extra5": "§6§l嘎哦~",
+      "extra6": "§6§l哼哼~",
+      "extra7": "§6§l戳一戳",
+      "extra8": "§6§ldoodle",
+      "extra9": "§6§l摇啊摇"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config1",
+        "name": "着装",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "§b§l隐藏项链",
+            "description": "显示/隐藏 项链",
+            "value": "v.roaming.xianglian1"
+          },
+          {
+            "type": "checkbox",
+            "title": "§b§l隐藏围脖",
+            "description": "显示/隐藏 围脖",
+            "value": "v.roaming.weibo1"
+          },
+          {
+            "type": "checkbox",
+            "title": "§d§l隐藏左丝袜",
+            "description": "显示/隐藏 左丝袜",
+            "value": "v.roaming.siwa1"
+          },
+          {
+            "type": "checkbox",
+            "title": "§d§l隐藏右丝袜",
+            "description": "显示/隐藏 右丝袜",
+            "value": "v.roaming.siwa3"
+          },
+          {
+            "type": "checkbox",
+            "title": "§5§l隐藏鞋子",
+            "description": "显示/隐藏 鞋子",
+            "value": "v.roaming.xiezi"
+          },
+          {
+            "type": "checkbox",
+            "title": "§e§l隐藏衣服",
+            "description": "显示/隐藏 衣服",
+            "value": "v.roaming.yifu1"
+          },
+          {
+            "type": "checkbox",
+            "title": "§f§l隐藏内衣",
+            "description": "显示/隐藏 内衣",
+            "value": "v.roaming.neiyi1"
+          },
+          {
+            "type": "checkbox",
+            "title": "§e§l隐藏裙子",
+            "description": "显示/隐藏 裙子",
+            "value": "v.roaming.qunzi1"
+          },
+          {
+            "type": "checkbox",
+            "title": "§f§l隐藏胖次",
+            "description": "显示/隐藏 胖次",
+            "value": "v.roaming.neiku1"
+          }
+        ]
+      },
+      {
+        "id": "extra_config2",
+        "name": "表情",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "§e§l表情切换",
+            "description": "更改表情",
+            "value": "v.roaming.biaoqing",
+            "labels": {
+              "§f§l^‿^": "v.roaming.biaoqing = 0;",
+              "§f§l=﹏=": "v.roaming.biaoqing = 1;",
+              "§f§l￣皿￣": "v.roaming.biaoqing = 2;",
+              "§f§l≧ ▽ ≦": "v.roaming.biaoqing = 3;",
+              "§f§lOωO": "v.roaming.biaoqing = 4;",
+              "§f§lˇ ∀ ˇ": "v.roaming.biaoqing = 5;",
+              "§f§l︶へ︶": "v.roaming.biaoqing = 6;",
+              "§f§l0.0": "v.roaming.biaoqing = 7;"
+            }
+          }
+        ]
+      },
+      {
+        "id": "extra_config3",
+        "name": "配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "§f§l身高: ",
+            "description": "改变身高（碰撞箱不变）",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.5,
+            "max": 2.0
+          },
+          {
+            "type": "checkbox",
+            "title": "§8§l显示舰装",
+            "description": "显示/隐藏 舰装",
+            "value": "v.roaming.jianzhuang1"
+          },
+          {
+            "type": "checkbox",
+            "title": "§7§l隐藏鞘翅",
+            "description": "显示/隐藏 鞘翅",
+            "value": "v.roaming.qiaochi1"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "雪风",
+    "preview_animation": "appear",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/雪风.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/AL_Yukikaze_2.4.1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6208,
+      "sha256": "2cd1aa4ab7d3a6a991dd2f58e2b604459500401750a14feecfc08e3fddfafa11"
+    }
+  },
+  "stats": {
+    "file_count": 22,
+    "total_bytes": 4689257,
+    "sha256": "23a30f992f1377ff503f4c94fe5cc511f4749ef19d722b3fee8ba151dc1d5dda",
+    "bones": 199,
+    "cubes": 1924,
+    "faces": 11544,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 166777,
+      "sha256": "00f86b45c8aa22668317a24c2aea19ddde1a14a529eeb22e6e3006d72cb8ced3"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 3040,
+      "sha256": "8a798f56d67a8ffcfc2854f004fd5f5a934d26b80408ce84fb1641114daa9475"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 308699,
+      "sha256": "5bce6d21df37474c4c8458ebb232f65be5c994e84575ca3b75d9e7149ee9a68a"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 228797,
+      "sha256": "675a34afcc94b8f815d578aea4d3b5e841b21771e892997ccd2383969ec5fca9"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 136157,
+      "sha256": "cf6ea7dcecd5db37fbf4aedf82a72fe6829cc0e07a6a9f0fa9d79da6f23af093"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1505299,
+      "sha256": "2cfe596c36beecaa1688b55951b4272e660c066078bb5d95b20240a32a3a20da"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 181961,
+      "sha256": "17cd55281afd299cf470cb730e046a01b42759dd72ce8952d28da55b94ef9ca2"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 57078,
+      "sha256": "7b7a9f86eceb1f86db83efcc09fcbad78516b3d9b53326ff86903a330c987db3"
+    },
+    {
+      "path": "avatar/§b§l星语.png",
+      "size": 34783,
+      "sha256": "98483a38c4f384efba9d1bfa434f1f5f211d786c51bd042975c00dade1df26c6"
+    },
+    {
+      "path": "avatar/§e§lNss..png",
+      "size": 4382,
+      "sha256": "7b0f46425f93e18e2c038264c63390480e0a874e31d6851a3db1d4ec3a910c52"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 43930,
+      "sha256": "5ee1b221cdaf6ddcff85879535cb04f72b2186519bc5e1f6849190c9c437ab30"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 47773,
+      "sha256": "5dc3b0880c5a785d7aacd3184ce480c23ef0efb839cacdbd1413a48976189561"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1048051,
+      "sha256": "fe346da21400d8ff9e3f26091ddf479550d7e2f95022acec17cd0a1c5fc283c8"
+    },
+    {
+      "path": "sounds/doodle.ogg",
+      "size": 565385,
+      "sha256": "c5137f1975c23df6e1401232d0b4859ba7721db0a19002ce627f03597fd5e200"
+    },
+    {
+      "path": "sounds/nanoda.ogg",
+      "size": 29834,
+      "sha256": "9b52978718d569c438244d12538fa11ad65b1e21561dff84e4d7c392838783d3"
+    },
+    {
+      "path": "sounds/没什么.ogg",
+      "size": 22239,
+      "sha256": "dbff506fed9f11ad0692a7251260ff86647d0788beeafe26413e2d8d333a936f"
+    },
+    {
+      "path": "sounds/舒服.ogg",
+      "size": 60160,
+      "sha256": "2232189d01c11911717d586c17140878e8d95aaead012e6b163506ef50845eff"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 801,
+      "sha256": "db2f69ca5a624ec0fcefa8fe821de1cc03eaa0ba982dd13dc1fed6056dba5aa5"
+    },
+    {
+      "path": "textures/雪风.png",
+      "size": 198236,
+      "sha256": "e5d4a627fcd48e2d394eecbf30e19ba79761defafd707af30f602cd184b3ccaf"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3781,
+      "sha256": "2ad54eeca9dd6942b46b7b45c12b212981edcc1731a0a52c6caa40d6beb3e538"
+    }
+  ]
+}

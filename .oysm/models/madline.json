@@ -1,0 +1,195 @@
+{
+  "id": "_madline",
+  "path": "parsed/_madline",
+  "source": {
+    "path": "Uncategorized/_madline.zip",
+    "type": "zip",
+    "stem": "_madline"
+  },
+  "ysm": "parsed/_madline/ysm.json",
+  "metadata": {
+    "name": "Default",
+    "tips": "默认模型（Default Model）",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "哥斯拉",
+        "role": "模型",
+        "avatar": "avatar/gsl.png",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少"
+      },
+      {
+        "name": "朝哉261",
+        "role": "模型"
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "preview_animation": "idle",
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": "textures/arrow.png"
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/madline_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5103,
+      "sha256": "ec3d774b661837f96307de822877e2605af976131133252f6c9d988c35114ad0"
+    }
+  },
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 993870,
+    "sha256": "45d097e5bb7682bb77db0ccb16e340761e4075cf7abf169f0b020b15ecfda29f",
+    "bones": 63,
+    "cubes": 187,
+    "faces": 1122,
+    "textures": 2,
+    "materials": 2,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 146784,
+      "sha256": "a9382be337870d5db24fa61f36df5dd92a90aa656f73d569773a84a3d5014513"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 519,
+      "sha256": "81539c90a73e8a3694ddfaf885f3c4d054e14cceeb0e818ff35ea564652450fe"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3600,
+      "sha256": "d2b36b41837c25f6829cdd912970235cd457c7985598fb9e98427b08ffd81246"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 144073,
+      "sha256": "1cc30c5474076f2027d3b365b9525491a76007ff6451803a06df6814302761d7"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 189603,
+      "sha256": "94ff892974a0ab878867b70d57e85a4fb091cf566f81d967116ebfc774fe06ea"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 164868,
+      "sha256": "85f8114dce69f142d5516cd237ca63ef02dc7e655a82076387a66d05e7610700"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 215960,
+      "sha256": "35fa527e9f86f7ea4cacbc2d905420d98d907b8de94a5c2345cfbb947cabac45"
+    },
+    {
+      "path": "avatar/gsl.png",
+      "size": 17482,
+      "sha256": "dda4f5d1d4b94eaee263a0c0686e9a02267fec3e0de969e2b42a3678393acfd5"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 2145,
+      "sha256": "faa7c32f7d438e52ad54e258ccfe485087373ae4c196e72d8048a833f9109b64"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 9145,
+      "sha256": "c102c65c10571d624b3a3ac4eb89a2c307850a9c3a163af9d93e3db66de4bfb7"
+    },
+    {
+      "path": "models/main.json",
+      "size": 46692,
+      "sha256": "671031b3ad36264518bae398b276e0c88ead3fc6d2cb7a7ff9acedacdf9b9668"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 710,
+      "sha256": "7e6f6fbfc1e9fd654dc70e549f9db48607f60608c408a1315369c7f494f93fe2"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 4793,
+      "sha256": "ddc81249c0dd0ed0cf9b3a13e321195872468c64dd53e574a7c085084f891040"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 4793,
+      "sha256": "ddc81249c0dd0ed0cf9b3a13e321195872468c64dd53e574a7c085084f891040"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1673,
+      "sha256": "3b4867684d389fe91d73dc796fa42f999ce4579d03fc8f76156ce10b08728410"
+    }
+  ]
+}

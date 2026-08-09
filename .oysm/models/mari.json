@@ -1,0 +1,84 @@
+{
+  "id": "_mari",
+  "path": "parsed/_mari",
+  "source": {
+    "path": "Uncategorized/_mari.zip",
+    "type": "zip",
+    "stem": "_mari"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_mari"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "mari.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/mari_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 19246,
+      "sha256": "90c7d72014835ccdf14becc29cc8e1590a8a24c8de3535c7f38832e7a466df32"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 1318962,
+    "sha256": "0c0c9c95b4c38239d47eb22e94b1e7c9240fb2882597311df5b370ac3a10d258",
+    "bones": 244,
+    "cubes": 2040,
+    "faces": 12240,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 58336,
+      "sha256": "2f56501759f51527ef5c9c408400bb9439b00188515387bc131513add5564535"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 25847,
+      "sha256": "bee6623ff003203ccd027e3c7dd0b1694024bf2b1635726ac8cae279d4735840"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 146465,
+      "sha256": "f5b59dc249a2c44ce6fbec4b977d832b3f10d394ab17bc702f33d7d33f5009ed"
+    },
+    {
+      "path": "main.json",
+      "size": 1052697,
+      "sha256": "73900ce3ba184809967edcb51790757dad78441c3ecdb280109a437239b038c8"
+    },
+    {
+      "path": "mari.png",
+      "size": 35617,
+      "sha256": "6f7bf2920ee396051f201bb5602f29f793a4a031e6c757f1b5ae4ceac40a586b"
+    }
+  ]
+}

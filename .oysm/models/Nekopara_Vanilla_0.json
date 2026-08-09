@@ -1,0 +1,108 @@
+{
+  "id": "Nekopara_Vanilla_0",
+  "path": "parsed/Nekopara_Vanilla_0",
+  "source": {
+    "path": "_Nekopara/Nekopara_Vanilla_0.zip",
+    "type": "zip",
+    "stem": "Nekopara_Vanilla_0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "艾尔莎",
+    "tips": "哈↑哈↑",
+    "authors": [
+      {
+        "name": "猫耳魂魄妖梦"
+      }
+    ]
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "default.png",
+        "default1.png",
+        "default2.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Nekopara_Vanilla_0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10334,
+      "sha256": "863faf7412ff1b1112ca378bc5042edab3ef2dfb15c93a976b2f2f2f47e18546"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 790324,
+    "sha256": "a297afd0a2833898dc3580172b00acdfcf0885573d2c32dfe3d8b2efb468ccae",
+    "bones": 188,
+    "cubes": 848,
+    "faces": 5088,
+    "textures": 3,
+    "materials": 3,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 91,
+      "sha256": "a7c246495beaffe9733d903936d163adcb1e5ba1bcfcfaa6c9efbd051bd32222"
+    },
+    {
+      "path": "arm.json",
+      "size": 16835,
+      "sha256": "bd03266560cad074efacb53f57898d31d74a930eb61ad66efc71c7f9c6eddc46"
+    },
+    {
+      "path": "default.png",
+      "size": 18390,
+      "sha256": "9d410eb559f1feca23437b4de90a8b90d4b0ad37024c5a61c6ea26a0cb4e0d7b"
+    },
+    {
+      "path": "default1.png",
+      "size": 18114,
+      "sha256": "697729289d86c19a89fa16810b49502ad55e45c0d25a9ceb54809f6c61c082d9"
+    },
+    {
+      "path": "default2.png",
+      "size": 17012,
+      "sha256": "5675dd5f9b4d0661d0ba747f4676e1dfa432b40e1fba54018b45a694974add36"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 40001,
+      "sha256": "e777264325aa673e986d830d75d1922177594ef85d8170dc83f3323f0c87bc0c"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 233754,
+      "sha256": "3b31ea5241de841f9c935e011cd508d69f344eb445a84948f485633886b465c8"
+    },
+    {
+      "path": "main.json",
+      "size": 446127,
+      "sha256": "fe6364641df9e95988fd2814f1b22295b1a68ea85be1fcaaf6f5623c2b7531f8"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "GI_Nahida",
+  "path": "parsed/GI_Nahida",
+  "source": {
+    "path": "_GenshinImpact/GI_Nahida.ysm",
+    "type": "ysm",
+    "stem": "GI_Nahida"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "小草神",
+    "authors": [
+      {
+        "name": "幻古诗"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "nahida.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Nahida_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7831,
+      "sha256": "8ee149b3b962dde73e6569715edc9db079431f823a9e7c30abf8af4ee3cb9b56"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 1163274,
+    "sha256": "ab83184daddcb6eec275a102f01544d66facff13f5015c89c6f90af06913f796",
+    "bones": 102,
+    "cubes": 1047,
+    "faces": 6282,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 213985,
+      "sha256": "c7e26d8351859cac681e496837db50e9efb77069f826ba42d357641ab06405a1"
+    },
+    {
+      "path": "arm.json",
+      "size": 82674,
+      "sha256": "dd0e7d1a8aee1bfbe59716ab24b75ddba8defb84e7048b5536e07c1a8a8cf16e"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 2141,
+      "sha256": "304fe20c7afe78935c3832f8033a5f4bf06f50205ede44deb8058b4d08967cac"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 213985,
+      "sha256": "c7e26d8351859cac681e496837db50e9efb77069f826ba42d357641ab06405a1"
+    },
+    {
+      "path": "main.json",
+      "size": 484710,
+      "sha256": "661eb7120062fc4fddba6e80062490f29956fc38e64e6790e3c16c27319cd33c"
+    },
+    {
+      "path": "nahida.png",
+      "size": 6079,
+      "sha256": "698f3fb4ee22bcfb89196916597274719450c275c49f5b59257331026c0523de"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 159700,
+      "sha256": "f1c4777fcee871503fdd64ba67d643060283364879a5cfb7d710a37817c070c1"
+    }
+  ]
+}

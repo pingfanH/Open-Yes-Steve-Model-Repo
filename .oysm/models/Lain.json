@@ -1,0 +1,179 @@
+{
+  "id": "_Lain",
+  "path": "parsed/_Lain",
+  "source": {
+    "path": "Uncategorized/_Lain.zip",
+    "type": "zip",
+    "stem": "_Lain"
+  },
+  "ysm": "parsed/_Lain/ysm.json",
+  "metadata": {
+    "name": "Lain",
+    "tips": "Lain...",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "CookieBox",
+        "role": "模型",
+        "avatar": "avatar/xzg_8112772.png"
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "extra_animation": {
+      "extra0": "换头饰",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "是的",
+      "extra4": "不行",
+      "extra5": "卖萌",
+      "extra6": "御笔摇",
+      "extra7": "舞蹈"
+    },
+    "preview_animation": "gui",
+    "free": true,
+    "disable_preview_rotation": true,
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "render_layers_first": false,
+    "all_cutout": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "texture": [
+        {
+          "uv": "textures/skin.png"
+        }
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "texture": {
+        "uv": "textures/arrow.png"
+      },
+      "animation": "animations/arrow.animation.json"
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Lain_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5480,
+      "sha256": "c3536cd57469b6fdde00c09233b900715ad7038745687816ec2ee06ba6ff119e"
+    }
+  },
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 1497136,
+    "sha256": "f958de457ef795280c1f2ceaa89ead0407e4fd872890173eb1778c6620a4c631",
+    "bones": 103,
+    "cubes": 202,
+    "faces": 1212,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1122,
+      "sha256": "bc6cff221fc2c751de765c6ffdbd24115bca062b5d19fa4f8f716fdbf6c27389"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3798,
+      "sha256": "5371aee783c07a9d441d3b9a88666c349e692c2461bd07037ecf274423ca376e"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 135238,
+      "sha256": "07d1462680e33baa8a4204deb5664ac9daba169ba30ffb369003b5764867bafd"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 284785,
+      "sha256": "337ce7e55d0c9e97aa049ca59d31bbe11c6f406b25fa33ed7271663eb6299bf7"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183653,
+      "sha256": "b580079e39a048f7ab47a7199c2c42aa94ffd51d4214b6c3d71348efc8505d04"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 384645,
+      "sha256": "a8b72ed9d1ecc484f18bc33a9d79e854a6881005b3cab1f5b72a150255081749"
+    },
+    {
+      "path": "avatar/gsl.png",
+      "size": 4738,
+      "sha256": "0bf76a1ba896f709839f9c35bb62852350b4b0f110bc9a1c4c4c5acc99f25188"
+    },
+    {
+      "path": "avatar/xzg_8112772.png",
+      "size": 23240,
+      "sha256": "5226737e03521bac90ea59f03ac7f588473ae8c8dc4a5e1547c2b932bfc2d39c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 6717,
+      "sha256": "b78acc037f26d4d3b48fa7e26e6572d12f827884b1ebb5ec51a4b198015ca506"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 29883,
+      "sha256": "f44d4592dab26e4e9b48a607a9ab61d3e50716b64066078f57c81de5b0827ecb"
+    },
+    {
+      "path": "models/main.json",
+      "size": 106033,
+      "sha256": "0c86f646260eebef879cafd2767d3b8c121cb383bfde1d7556c4ad3077bb5e8c"
+    },
+    {
+      "path": "sounds/minuet.ogg",
+      "size": 311756,
+      "sha256": "30a88e8e2e97c04b9916a863c54ffb18554e346efd485b1c0128da7d9390beb4"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1334,
+      "sha256": "38b17c6ff0691763a9e56b19672a1f358ab3bca5e7737b4bfeb759ce7da74a74"
+    },
+    {
+      "path": "textures/skin.png",
+      "size": 18831,
+      "sha256": "c324ca3daa5dc4be708efc34110e477e0dba98d28ec507f78210885c02c17471"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1363,
+      "sha256": "fb3e77fe7b54359d458ca1c3059de49fcf38dbbfa8c56f0985eef5a928e8975d"
+    }
+  ]
+}

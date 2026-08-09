@@ -1,0 +1,101 @@
+{
+  "id": "HSR_Fuxuan",
+  "path": "parsed/HSR_Fuxuan",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Fuxuan.ysm",
+    "type": "ysm",
+    "stem": "HSR_Fuxuan"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "HSR_Fuxuan"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Fuxuan_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10298,
+      "sha256": "5b4b843a26d6ba0d43877c85da9e9d475abf1893d585d4fb53eac96a204faaf8"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 1973129,
+    "sha256": "ca4de9d5f71852fe233f1660f0aab239ba88fcef6fbf29a7a1ac70fc39497ac4",
+    "bones": 98,
+    "cubes": 463,
+    "faces": 2778,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 578328,
+      "sha256": "2d0f5351fe9c09a5f29cf1315b0c8111a1f7a2023e8994d0f3447b82de6ff5f0"
+    },
+    {
+      "path": "arm.json",
+      "size": 10805,
+      "sha256": "7dc4c06e681d311f7d14e0f7e77a60a148bf68af62b22e615a264a98a5ededc9"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 80137,
+      "sha256": "3b463af78f9be2578e2393e5ebabb1260800db724f59f6acb2d0b18a2d5b8945"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 888414,
+      "sha256": "e2a0b6520ab8c424b7a7e0fb3b9e63cd309c424414f5b422ccfdef2d856f4925"
+    },
+    {
+      "path": "main.json",
+      "size": 241462,
+      "sha256": "45513a6f370089fd07ebba2f1867778e3f0dd4eea9711f14d1251c372fe3d57c"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 157266,
+      "sha256": "c03cb9613aa5a9f19a9416760c372309e79f3d12cf1f23cfea0726dc5e825aa2"
+    },
+    {
+      "path": "texture.png",
+      "size": 15712,
+      "sha256": "a6e8b4d209661d77d3918c8ee326e1b9227483c53f16ff4f00d5aacd9dec630b"
+    },
+    {
+      "path": "模型简介.txt",
+      "size": 1005,
+      "sha256": "02149bf48947f2977fd2d0c981ef1c6730c2ee733418d90dd228de760f7cfc8a"
+    }
+  ]
+}

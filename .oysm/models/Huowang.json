@@ -1,0 +1,112 @@
+{
+  "id": "_Huowang",
+  "path": "parsed/_Huowang",
+  "source": {
+    "path": "Uncategorized/_Huowang.ysm",
+    "type": "ysm",
+    "stem": "_Huowang"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "李火旺",
+    "tips": "道诡异仙男主：李火旺",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "bilibili苏晓墨"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Huowang_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8292,
+      "sha256": "f70fa01215c1b143e7edb4258cc1138b7efba0c60d4156ea79e8a14cc16a7d65"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 1297163,
+    "sha256": "62289c9f0cb99428e5766222378797a989b40ff5bc0fd03770b874361af59a84",
+    "bones": 201,
+    "cubes": 1805,
+    "faces": 10830,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 63514,
+      "sha256": "f8889fe704f9dc36bcb24a27735cc53fb8e3d4a92d05b8fa6349b7a7826555e2"
+    },
+    {
+      "path": "arm.json",
+      "size": 16427,
+      "sha256": "96784479ec8f9f08fecbf5c10799419a5fbd92c1b9af6beb9a1bfeebfa6ab69a"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 4740,
+      "sha256": "d4040e25a35d12f8835d73c75fefa9b856fcec507d95bead74e6b2633a648954"
+    },
+    {
+      "path": "info.json",
+      "size": 202,
+      "sha256": "97c86b52da4b8722197ad3e3195ce70db8022099e4a4fc32d425f08cfddfeb85"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 119530,
+      "sha256": "71ba131f8d7d7af4be07ec7ef97063716e01326d446fe1fd87daa10c889573db"
+    },
+    {
+      "path": "main.json",
+      "size": 937403,
+      "sha256": "c2beb6cbaf679b941f8ced9de9fa939972a68e29b038ee7a83ec0fa08299e04f"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 128104,
+      "sha256": "bdfb6ab55e1d3083e66c6fda7035af2a348cc1cb3319ed689d0602f0812cf89b"
+    },
+    {
+      "path": "texture.png",
+      "size": 27243,
+      "sha256": "57da4f1490034d5d7f176c7702804ab7d63b375983fb8f73fc110176b3e029a0"
+    }
+  ]
+}

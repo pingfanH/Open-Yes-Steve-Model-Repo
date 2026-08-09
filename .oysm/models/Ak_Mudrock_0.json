@@ -1,0 +1,197 @@
+{
+  "id": "Ak_Mudrock_0",
+  "path": "parsed/Ak_Mudrock_0",
+  "source": {
+    "path": "_Arknights/Ak_Mudrock_0.ysm",
+    "type": "ysm",
+    "stem": "Ak_Mudrock_0"
+  },
+  "ysm": "parsed/Ak_Mudrock_0/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/嗯嗯owo.png",
+        "comment": "大就是好，好就是大",
+        "contact": {
+          "Afdian": "https://afdian.com/a/enenowo",
+          "Bilibili": "https://space.bilibili.com/167202500?spm_id_from=333.337.0.0"
+        },
+        "name": "嗯嗯owo",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/嗯嗯owo.png",
+        "comment": "大就是好，好就是大",
+        "name": "嗯嗯owo",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/嗯嗯owo.png",
+        "comment": "大就是好，好就是大",
+        "name": "嗯嗯owo",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/嗯嗯owo.png",
+        "comment": "大就是好，好就是大",
+        "contact": {
+          "Afdian": "https://afdian.com/a/enenowo",
+          "Bilibili": "https://space.bilibili.com/167202500?spm_id_from=333.337.0.0"
+        },
+        "name": "嗯嗯owo",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/enenowo",
+      "home": "https://space.bilibili.com/167202500?spm_id_from=333.337.0.0"
+    },
+    "name": "泥岩_原皮肤",
+    "tips": "萨卡兹雇佣兵，泥岩......您就是博士吗，罗德岛救了我不止一次，现在，请让我回报您吧。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "精二动画",
+      "extra1": "",
+      "extra2": "土",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/ny.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Mudrock_0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7230,
+      "sha256": "2193e60667f71a5365d002ce824448cefe95383c864283af978620091ad495f2"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 1308268,
+    "sha256": "3b301746c1370918d00cabd3015ebb2563e5c4cccd283c3ae3754896b9626be6",
+    "bones": 342,
+    "cubes": 826,
+    "faces": 4956,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 124258,
+      "sha256": "e061304c6af8d98de6f1388145436201bdf241c7180fc9369ac25554738844f8"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 117832,
+      "sha256": "9c120b19ecd03c8e5cdb91467ffd46cc8e6c4f927fe0002b87d25deb63441def"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 156509,
+      "sha256": "25e5f3fd7eb7c47422476dacc48640303ecb53284e07681fbecf35477409ffe9"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "avatar/嗯嗯owo.png",
+      "size": 249656,
+      "sha256": "c821c80643b9ccc647fd6bfe98fbddbaabb67996217de55d42445e82a393d0a1"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 10176,
+      "sha256": "dc0400fd37001889509423d54e72739209a9a2f1d1faa9aae5730171064e87ea"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 466296,
+      "sha256": "89b4ecf74a615a1405d9488af4ec010f4927afb61fc3e5fc95a4b30bf381360b"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/ny.png",
+      "size": 37295,
+      "sha256": "e0b7f846e21c01557bb60bed252edd37e74b6117012f783c7668ed2c37091a29"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1817,
+      "sha256": "6e9c51257d5e5fb7f0b0bc1d16775f6aeb30f607d0ae906c185120bccd68efc2"
+    }
+  ]
+}

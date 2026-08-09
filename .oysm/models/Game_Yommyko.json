@@ -1,0 +1,105 @@
+{
+  "id": "_Game_Yommyko",
+  "path": "parsed/_Game_Yommyko",
+  "source": {
+    "path": "Uncategorized/_Game_Yommyko.ysm",
+    "type": "ysm",
+    "stem": "_Game_Yommyko"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Yommyko（YommykoQAQ）",
+    "tips": "小由！游戏宅，偏爱FPS，谢谢关注呀，在B站播！\n适配YSM1.18.2-1.1.5(免费共享版)\n模型版本1.1.0",
+    "authors": [
+      {
+        "name": "完全冻结"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "tex.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Game_Yommyko_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12865,
+      "sha256": "730367b9ecad828944f96d32c108b52f81e87f69eeee05d69ac292238f243f08"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 678091,
+    "sha256": "801a9f1f624ec8a80e1a8de2d530c4c7bd833e3fabd1e5bf1fce97bac1587c2a",
+    "bones": 150,
+    "cubes": 730,
+    "faces": 4380,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 45381,
+      "sha256": "26893221b93683db3d7a685b2d260c57179ab19f1f1dee4d1ab692ff627b1296"
+    },
+    {
+      "path": "arm.json",
+      "size": 7607,
+      "sha256": "0bdac4751931f3861abc96867260456af16d3c16e39a36e81bad71e780a0b870"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 147834,
+      "sha256": "319780c67ff160c01498dd2b35c334b1d1d96d8ae5816e932a91e20c088f5eb9"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 158691,
+      "sha256": "ef34450e67e554269f950a53df4777d9fb7766f84c4fd9d0d0546bab0740d062"
+    },
+    {
+      "path": "main.json",
+      "size": 136460,
+      "sha256": "8deefa4ab459316f0543e352114dffde441a4114974a1c6dd43be5aebdd0e04c"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 167748,
+      "sha256": "a5f73477ac90a7bdfcd16c5e6c48adfbcf36f4f369e407563b836b681481ab08"
+    },
+    {
+      "path": "tex.png",
+      "size": 14370,
+      "sha256": "217a80bc960f053f973f8296b6cc4e4fc658db1104bfcd6ea31c8b2702d5dc73"
+    }
+  ]
+}

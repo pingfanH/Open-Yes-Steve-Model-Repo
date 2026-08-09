@@ -1,0 +1,85 @@
+{
+  "id": "BtR_Hitori-Goto_v1.0",
+  "path": "parsed/BtR_Hitori-Goto_v1.0",
+  "source": {
+    "path": "_BocchiTheRock/BtR_Hitori-Goto_v1.0.ysm",
+    "type": "ysm",
+    "stem": "BtR_Hitori-Goto_v1.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "波奇姜",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "default.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BtR_Hitori-Goto_v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5109,
+      "sha256": "46c829f37c42b4425c3b3cdc26db116dc13c5f172de922a48830fea61a9bb1c1"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 88757,
+    "sha256": "4c43b73acf1aaf9848e2ac9c211e1fa5de555e39af421fa6e56b67b5c3a395be",
+    "bones": 69,
+    "cubes": 143,
+    "faces": 858,
+    "textures": 1,
+    "materials": 1,
+    "animations": 0,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 5544,
+      "sha256": "da450393c60dbc375db6141d19157f3a9aec3cd2f5a18817b7ca4f3f00e3a37a"
+    },
+    {
+      "path": "default.png",
+      "size": 11934,
+      "sha256": "bd98e102921c1507244585925947fe2d5c000cdcb1e6b264a62356a6ab8284ee"
+    },
+    {
+      "path": "info.json",
+      "size": 127,
+      "sha256": "4918aeefc77fed109bbbc27b9e72882812c57fc69892ca7d9bdb3a0c088e3667"
+    },
+    {
+      "path": "main.json",
+      "size": 71152,
+      "sha256": "802a57b4fe81cbd4909d9e6be327da1a2306d47ed65e7177d548524c3dbb6818"
+    }
+  ]
+}

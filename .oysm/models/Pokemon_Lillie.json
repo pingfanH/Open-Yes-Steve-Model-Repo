@@ -1,0 +1,248 @@
+{
+  "id": "Pokemon_Lillie",
+  "path": "parsed/Pokemon_Lillie",
+  "source": {
+    "path": "_Pokemon/Pokemon_Lillie.ysm",
+    "type": "ysm",
+    "stem": "Pokemon_Lillie"
+  },
+  "ysm": "parsed/Pokemon_Lillie/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/试刀.png",
+        "comment": "我会尽量做的精致与完整，如果有人用我会很开心. >.",
+        "contact": {
+          "bilbil": "https://space.bilibili.com/543273563?spm_id_from=333.337.0.0",
+          "爱发电": "https://afdian.tv/a/SDA114"
+        },
+        "name": "试刀",
+        "role": "这里填什么？"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-mode"
+    },
+    "name": "莉莉艾2.1",
+    "tips": "来自宝可梦 日月的角色 莉莉艾  这是我做的第一个模型!♪(^∇^ )\n从神秘遥远的阿罗拉地区来到泰拉大陆的白衣少女......\n\n-——免费发布——-"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "#extra_classify": "§9默认动作",
+      "sl1": "躺一会"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "§5面部管理",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "改变玩家大小",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          },
+          {
+            "type": "radio",
+            "title": "切换眼睛",
+            "description": "眼保健操",
+            "value": "v.b_qing",
+            "labels": {
+              "O  O": "v.b_qing=0",
+              "— —": "v.b_qing=1"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "切换口",
+            "description": "阿哦伊",
+            "value": "v.z_zzz",
+            "labels": {
+              "屑嘴": "v.z_zzz=0",
+              "闭嘴了": "v.z_zzz=1",
+              "阿": "v.z_zzz=2",
+              "勾": "v.z_zzz=3",
+              "猫猫嘴": "v.z_zzz=4",
+              "无语了": "v.z_zzz=5"
+            }
+          },
+          {
+            "type": "checkbox",
+            "title": "开关包",
+            "description": "bug较多",
+            "value": "v.bao"
+          },
+          {
+            "type": "checkbox",
+            "title": "开关帽子",
+            "description": "关帽子",
+            "value": "v.maozi"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra1": "默认动作1招手",
+          "extra3": "默认动作2点头",
+          "extra2": "默认动作3鼓掌",
+          "extra4": "默认动作4摇头",
+          "extra5": "默认动作5冲！冲！",
+          "extra6": "默认动作6  / / \\ \\",
+          "extra7": "默认动作7",
+          "extra8": "默认动作8"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "Ltby",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Pokemon_Lillie_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 1647,
+      "sha256": "b2f8a0cadeeffbc184b7f0aa4897b16dc638db2eb321af8fa1f99b5b64c461c1"
+    }
+  },
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 3491291,
+    "sha256": "5282c48cc86c99343495444af364bdd3f49b652d8a33263bc5d8d28cf970dfd1",
+    "bones": 294,
+    "cubes": 826,
+    "faces": 4956,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 172613,
+      "sha256": "9e281e88b6e940daa131841869acf760fbdf8201d4175c02616a2f392efdbae9"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 109505,
+      "sha256": "fb6fb71f3a590c3d05b121f46ef99bb1e5e67f4941c31ed9ab11d8bf7fbb1ea2"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 179734,
+      "sha256": "baa6ffac30d7c857f75a7addb77cdbfb28e5e726b9203b7c52353b0de19ac3e5"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 140197,
+      "sha256": "1dc7f1b4fb85e2cab599eda7c40d37e5f9b06651e0606be581c9e96956dd8acf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2029012,
+      "sha256": "cff54e3e116b1c5ce32795604f31813048afea3c7e019e3a9f558ce9080c3a81"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50918,
+      "sha256": "24f327944f52b68875963b38b8b601837d76fac9f5dde4d539a07daf8103a132"
+    },
+    {
+      "path": "avatar/试刀.png",
+      "size": 35996,
+      "sha256": "5b98a01651e519913468ba0610bcc30f2d810a2d522fc7b33755596f5cf2a0be"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 699,
+      "sha256": "7fba44438c15bf45ba6ed7b0dce2a6d61d6bfdcca8662fdecb9dfb5d71385f23"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 15666,
+      "sha256": "81b3f2de7fdb1c6c49497d152b254eec9ebae4139de8248f5841496f28b60742"
+    },
+    {
+      "path": "models/main.json",
+      "size": 465732,
+      "sha256": "661e22fe910c20214b7eb0d8c3c6c05f757bf7c8165e40be3d1146cce9edcc2a"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 64325,
+      "sha256": "33dd7a4657d9bdfd702017a9e1f2d9679d4f4b79d5e0588b2796fef6aa87e41e"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2593,
+      "sha256": "0c4d6647c93e80a91f4d83e1fdca718f66c9c252dd58cac32290a5f0fb3b0d35"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "Ak_Virtuosa",
+  "path": "parsed/Ak_Virtuosa",
+  "source": {
+    "path": "_Arknights/Ak_Virtuosa.ysm",
+    "type": "ysm",
+    "stem": "Ak_Virtuosa"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "塑心",
+    "tips": "默认模型",
+    "authors": [
+      {
+        "name": "云曦"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Virtuosa_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10359,
+      "sha256": "94d164e70497de0cbd521b9be0a66aadab6caf2507632f11e5bccc11df1a1319"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 1079993,
+    "sha256": "be247728f48ced2bea2f6d6c065ea29b6d7033dacc42984b09485d535820c335",
+    "bones": 307,
+    "cubes": 1672,
+    "faces": 10032,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 27650,
+      "sha256": "1e73fd7e26f269133aa53e0cb2b9670dc3a79b3d3780ed55891e16d326f05e7a"
+    },
+    {
+      "path": "arm.json",
+      "size": 58959,
+      "sha256": "d97789df1c5099e0521ed1c6e67661edd5629d110bb85210a1a322009319a868"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 175611,
+      "sha256": "e60af20605015e79a5f6052d977ac511435a7f772ca5ca2ed0c935aca051e5bf"
+    },
+    {
+      "path": "main.json",
+      "size": 810515,
+      "sha256": "b84e0121d90af381d9b5f22da8dace2cc7bd9e9cf1c00847071f070bbc0f4a9f"
+    },
+    {
+      "path": "texture.png",
+      "size": 7258,
+      "sha256": "334002bf2d5631cf74439ac418cf3b4ef1050ae0db6ceb22e88ed89ea9dff48f"
+    }
+  ]
+}

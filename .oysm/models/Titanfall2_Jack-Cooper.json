@@ -1,0 +1,198 @@
+{
+  "id": "Titanfall2_Jack-Cooper",
+  "path": "parsed/Titanfall2_Jack-Cooper",
+  "source": {
+    "path": "_Titanfall2/Titanfall2_Jack-Cooper.ysm",
+    "type": "ysm",
+    "stem": "Titanfall2_Jack-Cooper"
+  },
+  "ysm": "parsed/Titanfall2_Jack-Cooper/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/长风未名.png",
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA"
+        },
+        "name": "长风未名",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Jack_Copper",
+    "tips": "泰坦陨落铁驭 杰克库伯"
+  },
+  "properties": {
+    "width_scale": 0.85,
+    "height_scale": 0.85,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png",
+          "normal": "textures/default_normal.png",
+          "specular": "textures/default_specular.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Titanfall2_Jack-Cooper_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 17235,
+      "sha256": "fd5c67c085cb38d16df8d77ba77064c077c413c2149790815e6b13400873b457"
+    }
+  },
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 3636725,
+    "sha256": "ff2ff81840f660c812dd34bb5caf41261e56beb4cd63c45116a5dfc9e2cb4cad",
+    "bones": 95,
+    "cubes": 765,
+    "faces": 4590,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 364167,
+      "sha256": "2cd338741198e302ad76abfea6f2c0c9c64513039f815a5ea617c020d7170e2a"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 109004,
+      "sha256": "ba1e5d1d0e30fc7cec4337358c630cf4f7c89f986f3a98b261c424bd3aecd477"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 127632,
+      "sha256": "826d1849447d03c3d42ddc774dee815617d9747a2476837f045564b79575aef1"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 141472,
+      "sha256": "961c9cdf317ef5e685839f236c86d093b49b4d315d4ba709caf5d4a3f23535b2"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1853312,
+      "sha256": "c221f0f44bd6759563e251606a2941777b0e6a914ee5ff59f2bedcc5df2cb605"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 40252,
+      "sha256": "eac7876819b23488d8da45d9d71d620cd88092a287f75d58b1e9d97575cd7869"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 131449,
+      "sha256": "cf18b4e67e6172b5f28390adc5b2b3bc2063470f5f78396a41a623be522638c3"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/长风未名.png",
+      "size": 19374,
+      "sha256": "6cd420a5238d37083afb1a43736ae8f862dfb9d9065c1ae1895c2ee20071333c"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 1623,
+      "sha256": "a5da5ff4a97799754ae548b0b1ceb17ba988ae95269a11338bf28d9f56920da7"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 27974,
+      "sha256": "b8e9ed1601aa30a851d1baec87f886ab8c62ac6d07a6c10540e1dc2e09210028"
+    },
+    {
+      "path": "models/main.json",
+      "size": 381424,
+      "sha256": "1d242bc4975a53b8c19d6b5206ff01169c99b7351d34c8e6683350a674f93090"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 181698,
+      "sha256": "686454f6f7d12915e48d8506219d6b03417d2241794675c70135e94a0f1d28c1"
+    },
+    {
+      "path": "textures/default_normal.png",
+      "size": 132246,
+      "sha256": "eccc6a2cc95a020dcccfd3aeadbc7034f7580bcd5e9e6497c46e179d893c51e0"
+    },
+    {
+      "path": "textures/default_specular.png",
+      "size": 71250,
+      "sha256": "2a3da125495cec330d57bef7e775c5df0388ec99e047292a0e6a65560a58653e"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1440,
+      "sha256": "3ebf941fa2587f688e486ee62c9d5c720b81e19fb98ff9f1f43b8d5cc96199ed"
+    }
+  ]
+}

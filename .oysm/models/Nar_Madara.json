@@ -1,0 +1,153 @@
+{
+  "id": "Nar_Madara",
+  "path": "parsed/Nar_Madara",
+  "source": {
+    "path": "_Naruto/Nar_Madara.ysm",
+    "type": "ysm",
+    "stem": "Nar_Madara"
+  },
+  "ysm": "parsed/Nar_Madara/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/Likewind.png",
+        "comment": "一个做事全凭兴趣使然的散人罢了",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/2139113831"
+        },
+        "name": "Likewind",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "",
+      "home": "https://space.bilibili.com/2139113831"
+    },
+    "name": "宇智波斑",
+    "tips": "所谓秽土转生，就是召回死者的术\n但它有一个风险...\n只要知道印 被从秽土唤回的死者就可以主动解除秽土转生的召唤契约\n那样一来 你们就有大麻烦了\n去告诉术者 禁术可不能滥用\n\n秽土转生 开！"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "",
+      "extra0": "",
+      "extra8": "切换眼睛"
+    },
+    "default_texture": "l",
+    "preview_animation": "gui",
+    "free": false,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/madara.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Nar_Madara_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6569,
+      "sha256": "d0b4990f214ffa2b0bcfc47cbf0a573c6d133a10348688bff29d464a11d61ec8"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 1676933,
+    "sha256": "50732e14e7cdf7ee752f2c32fbb14db38258bdbd22f5928ad887478a2ce81277",
+    "bones": 115,
+    "cubes": 623,
+    "faces": 3738,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136637,
+      "sha256": "f795d670b8e2553548348161425e21c7a8f4c2b78d4602d33c8ccc1f03f537b3"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "90d9f0230df80843151b104c46d61844b5666b285758cc1adcfe2f64c5f9a4fe"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 125890,
+      "sha256": "e120e5ab76003b1014d0c268628329945320dea6ecc2081f5cc63f8c85218959"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 204202,
+      "sha256": "dfff6d8111cf9e9c771052f1ac5b6064eae53cd3803e380be5b7fcf530fd7a1c"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 168040,
+      "sha256": "0dd658ea7d209a3252f9ba3d1efe421b2a12962cfb8f470613aefb29f0ddd53e"
+    },
+    {
+      "path": "avatar/Likewind.png",
+      "size": 647312,
+      "sha256": "9f43f34f0b9854635b8cf42ac8883e5ea4a2c82f70c9f2fe008a4fe98c7ab4f8"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 8098,
+      "sha256": "f26203fad1614da12c6889d0d629ef2d2c807037226b9f16c1c780bfd10dd78b"
+    },
+    {
+      "path": "models/main.json",
+      "size": 329591,
+      "sha256": "20b7da54e0221c180100a927505fde90433f1bc9e0e7007770bb586582e0ab95"
+    },
+    {
+      "path": "textures/madara.png",
+      "size": 53211,
+      "sha256": "a0a145a061b63108e1a99c0fe2b861cb56a3653fbff72715deaf09877f5ac29a"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1277,
+      "sha256": "732be58876cb6fcec2e4a33536d1c844292ae036a3d697e8f5d4f332ce8c2ae4"
+    }
+  ]
+}

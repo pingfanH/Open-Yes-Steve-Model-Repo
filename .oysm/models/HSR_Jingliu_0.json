@@ -1,0 +1,84 @@
+{
+  "id": "HSR_Jingliu_0",
+  "path": "parsed/HSR_Jingliu_0",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Jingliu_0.ysm",
+    "type": "ysm",
+    "stem": "HSR_Jingliu_0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "HSR_Jingliu_0"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png",
+        "texture1.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Jingliu_0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 15869,
+      "sha256": "175e68ff5d3d58595e57c6fb43b817085dbc21e608f456ce9641d22a5a051036"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 1261283,
+    "sha256": "c93170fd536cfb45ef703578350eac9cc5d8b5714c4d3f781d1f7aa9c14d4100",
+    "bones": 78,
+    "cubes": 1475,
+    "faces": 8850,
+    "textures": 2,
+    "materials": 2,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 1848,
+      "sha256": "754ef1b4783be9b95ee72dbbbc3511812b75834167eef905109012d4c151a056"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 168595,
+      "sha256": "bc2f4c32f6b48b0d93eb8622e3443c2c1dc1ccb1fcca69cae741eebf325ea4f3"
+    },
+    {
+      "path": "main.json",
+      "size": 814343,
+      "sha256": "1891e9b8c9c6be329c7d4e5ac84f72931892db0fe8119e775a3cc653cccb27c4"
+    },
+    {
+      "path": "texture.png",
+      "size": 138449,
+      "sha256": "c29fb9d9dff6a6e93ec74299c10f1228395962eb814a3ad0b72e1a17df3331b1"
+    },
+    {
+      "path": "texture1.png",
+      "size": 138048,
+      "sha256": "2c151c3c9ba3524d6873dd50e035054f5ab54768e01fb8bd0e94d43a792d88ef"
+    }
+  ]
+}

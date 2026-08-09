@@ -1,0 +1,238 @@
+{
+  "id": "IdentityV_Norton-Campbell",
+  "path": "parsed/IdentityV_Norton-Campbell",
+  "source": {
+    "path": "_IdentityV/IdentityV_Norton-Campbell.ysm",
+    "type": "ysm",
+    "stem": "IdentityV_Norton-Campbell"
+  },
+  "ysm": "parsed/IdentityV_Norton-Campbell/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/長琦.png",
+        "comment": "一个勘勘囚囚激推，不知为何开始搞模型jpg",
+        "name": "長琦",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "name": "诺顿·坎贝尔（Norton Campell）",
+    "tips": "从一场可怕的矿难中幸存之后，坎贝尔变得更加阴沉寡言。靠着从矿难中获得的陨石磁铁，他转行为一名地质勘探员，想要远离矿井下的黑暗。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "EatingBread": "吃面包",
+      "extra1": "打招呼",
+      "Tiaoxing": "挑衅",
+      "extra3": "点头",
+      "extra4": "否定",
+      "extra5": "好耶",
+      "extra6": "欢呼（？）",
+      "extra7": "神秘舞蹈",
+      "鼠鼠舞": "鼠鼠舞",
+      "sit.aim": "坐下",
+      "??": "??",
+      "sleep.aim": "睡觉",
+      "穿脱及切换": "#extra_config"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "穿脱及切换",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "体型: ",
+            "description": "大小",
+            "value": "v.player_size",
+            "step": 0.2,
+            "min": 0.2,
+            "max": 2.0
+          },
+          {
+            "type": "range",
+            "title": "项圈: ",
+            "description": "切换形态",
+            "value": "v.roaming.xq",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "type": "checkbox",
+            "title": "帽子",
+            "description": "一顶可以挡住落石的安全帽，现在主要用来挡雨",
+            "value": "v.roaming.a"
+          },
+          {
+            "type": "checkbox",
+            "title": "衣服",
+            "description": "一件破损的橄榄绿衬衫，上面充满了缝缝补补的痕迹，但依旧整洁干净",
+            "value": "v.roaming.b"
+          },
+          {
+            "type": "checkbox",
+            "title": "手套",
+            "description": "麻布手套，上面有一块简易的手表",
+            "value": "v.roaming.d"
+          },
+          {
+            "type": "checkbox",
+            "title": "领巾/红围脖",
+            "description": "承着艰苦的生活或是辞旧迎新的喜悦？",
+            "value": "v.roaming.lj"
+          },
+          {
+            "type": "checkbox",
+            "title": "裤子",
+            "description": "一条宽边裤，裤脚已经破破烂烂",
+            "value": "v.roaming.e"
+          },
+          {
+            "type": "checkbox",
+            "title": "鞋子",
+            "description": "陪伴坎贝尔丈量大地的鞋子",
+            "value": "v.roaming.f"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "勘探员的初始衣装",
+    "preview_animation": "0319",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/勘探员的初始衣装.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/IdentityV_Norton-Campbell_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12539,
+      "sha256": "8d550979bb9837f914c492af0af78ea5cfd1093d3602070e10b7587b0c44a3c9"
+    }
+  },
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 6724505,
+    "sha256": "b6f4515cc00f65dd0c8cc4b45aab2c5b13c3ccab8385f2db64e5e37a188e9906",
+    "bones": 217,
+    "cubes": 565,
+    "faces": 3390,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 26634,
+      "sha256": "1ea13da1d549150d26f6714b9634c3d0112a9c1f0d7609c4de3a20a2db752d33"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 1792,
+      "sha256": "13a75adea7cff0be35ff5940cfd6a6f3425a2710fc5e4de70cf0392f5269c7ea"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 1022984,
+      "sha256": "4d83701844b04f84851363bc45f19db8349917553cfa2b79f2bf548a11faad04"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 178422,
+      "sha256": "fe3d4b2a6de24e6ef4a3cf2eeb79aa2f99a5988ee489279b7a3dbdf1b98880ca"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1516124,
+      "sha256": "34a9e9338e2d3dd29638fab92dad5a9aa23c5cd13d04bff8dd513fa3dc655ee5"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 131639,
+      "sha256": "a73cf95259743cc506fa6931e6bed68e0e41c5edca8f4651f26f1a42c1e26994"
+    },
+    {
+      "path": "avatar/長琦.png",
+      "size": 371579,
+      "sha256": "f89267238b3ed0045de3c002fae9e288be486ba8af5abf9a9dd2c9b4c772c8b5"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 29409,
+      "sha256": "0d876b2445307e57c2023712ee8739c0430287002f8df46cc1fbe5ca6781118b"
+    },
+    {
+      "path": "models/main.json",
+      "size": 286820,
+      "sha256": "37e15ff261a4e1733bc7bd122427af15a48863446444954d8bb9ca9279355610"
+    },
+    {
+      "path": "sounds/鼠鼠舞.ogg",
+      "size": 2904125,
+      "sha256": "a2804b01c537534dc6b22980b503dd5f6006fefef6b3fe8b1ad4832f8fde2fad"
+    },
+    {
+      "path": "textures/勘探员的初始衣装.png",
+      "size": 79742,
+      "sha256": "adb41b36fd825d782218d89dba7962b34a4fe69d0f191bce1720b9067a6650d9"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2642,
+      "sha256": "2a6cd26b8f927d2c9e0507d89ea012ba0b7092ab870bba641fbbcc7b20b260e7"
+    }
+  ]
+}

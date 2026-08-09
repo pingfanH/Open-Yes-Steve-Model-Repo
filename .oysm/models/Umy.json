@@ -1,0 +1,84 @@
+{
+  "id": "_Umy",
+  "path": "parsed/_Umy",
+  "source": {
+    "path": "Uncategorized/_Umy.ysm",
+    "type": "ysm",
+    "stem": "_Umy"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_Umy"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "umy.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Umy_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8932,
+      "sha256": "62367f667bba20e684b42006442bbc44d7becba1420dfef17eeeb2fdf0408ff9"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 728582,
+    "sha256": "99c6de676256a9a72ad643db91385446dd3c2cd709317de9047adc0f770ef2bb",
+    "bones": 75,
+    "cubes": 456,
+    "faces": 2736,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 12050,
+      "sha256": "113fe5ff6a6bd7db1336cc3be348f1dfd76a32424ba9ba76449f7164fb156a45"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 144040,
+      "sha256": "ec0fb2c927f3081ee77e4e01d4d50131360d096c238ba90fe2f150f40001ffe7"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 321073,
+      "sha256": "cd0dc815cb391da8649d12659f85f7ed1d2f3eba079e8500ba61a270bdac3ce7"
+    },
+    {
+      "path": "main.json",
+      "size": 231142,
+      "sha256": "8b920b2eb16d90af802cfc026103930c99c33b735f64662454146b7977ae87c0"
+    },
+    {
+      "path": "umy.png",
+      "size": 20277,
+      "sha256": "1144f92d8851bb57ef32860d72dfccb4b94af75915a988986dbd4c251c8c64f8"
+    }
+  ]
+}

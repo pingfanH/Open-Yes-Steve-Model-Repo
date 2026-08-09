@@ -1,0 +1,174 @@
+{
+  "id": "Pwned_Red_v1.0",
+  "path": "parsed/Pwned_Red_v1.0",
+  "source": {
+    "path": "_PwnedSeries/Pwned_Red_v1.0.ysm",
+    "type": "ysm",
+    "stem": "Pwned_Red_v1.0"
+  },
+  "ysm": "parsed/Pwned_Red_v1.0/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/Omegaff0048.png",
+        "comment": "Please subscribe",
+        "contact": {
+          "Youtube": "https://www.youtube.com/@omegaff0048"
+        },
+        "name": "Omegaff0048",
+        "role": "Creator"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.net/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Character name",
+    "tips": "Description"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Pwned_Red_v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5974,
+      "sha256": "3d8301ec614a673947210128d05adbcc2e1b046acf73392989fde57ad5526d2d"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 970117,
+    "sha256": "d10dbf1cebed4bcf47108224c4df701f53206a18e8362c931f7901aac988d949",
+    "bones": 67,
+    "cubes": 423,
+    "faces": 2538,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 130467,
+      "sha256": "e6e44205a12244660332f221d03d534c0e568314cb57ac70c4a44b0bba3f016b"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 123165,
+      "sha256": "0a5d3f9c0562cc4d4032464fa5a4f9c4d80d0d7a218e780240d04c0b276f8c9a"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 200079,
+      "sha256": "2cc3d1b06769eae72013776a5b7c85a3fd0a2f81a3f917f7431beb229acd1e37"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 218398,
+      "sha256": "2abe099328e7eaa5622c8ba08e2e10e16de9ad4120a94f094691edf94f36d656"
+    },
+    {
+      "path": "avatar/Omegaff0048.png",
+      "size": 62978,
+      "sha256": "e21a49f4a4240b0834b56581e0dc22f13efa851f0bff0bb1eb6d14fe30b65572"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 7338,
+      "sha256": "d8d0b3e7d0b446d381cedcda1e3521d3ace56f2803c83e4675784bac9ba80066"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 3445,
+      "sha256": "701a6429438d9efd6c4fdb06c2edb3fa1c87ab468fb1a56cb87265dee6422da4"
+    },
+    {
+      "path": "models/main.json",
+      "size": 209190,
+      "sha256": "eb3a62c959a6f7030d6296e45a14623040ce9a4bdb682bdc195a4c716d092619"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 617,
+      "sha256": "6a07a780d21f3853dd4381c998c443d67471ff51cd76fc3a4d39fb5cebe14fdc"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 10291,
+      "sha256": "cca02a600cdc858974bfd93b7e9d57f1d6a8594bcc584d91d798c6545d5f1df5"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1140,
+      "sha256": "91e515e1617bb220f4a8f9a95c306e0beb438fc0b66f8d45786762e66e4fd2c6"
+    }
+  ]
+}

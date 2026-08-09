@@ -1,0 +1,217 @@
+{
+  "id": "CR_Mini-P.E.K.K.A",
+  "path": "parsed/CR_Mini-P.E.K.K.A",
+  "source": {
+    "path": "_ClashRoyal-COC/CR_Mini-P.E.K.K.A.ysm",
+    "type": "ysm",
+    "stem": "CR_Mini-P.E.K.K.A"
+  },
+  "ysm": "parsed/CR_Mini-P.E.K.K.A/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "逸一时，误一世",
+        "contact": {
+          "Afdian": "https://modrinth.com/mod/yes-steve-model",
+          "Bilibili": "https://space.bilibili.com/44619913?spm_id_from=333.1007.0.0"
+        },
+        "name": "泉溪",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "1",
+        "name": "泉溪",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "1",
+        "name": "泉溪",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "1",
+        "contact": {
+          "Afdian": "hhttps://modrinth.com/mod/yes-steve-model",
+          "Bilibili": "https://modrinth.com/mod/yes-steve-model"
+        },
+        "name": "泉溪",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://space.bilibili.com/44619913?spm_id_from=333.1007.0.0",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Default",
+    "tips": "一个简单的野蛮人"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CR_Mini-P.E.K.K.A_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5228,
+      "sha256": "fc21787c57584e1b0b0a8467e69201c4a3afe62c7c1167f0acbdad1ec4bfafb3"
+    }
+  },
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 744186,
+    "sha256": "879e576ac718b46476ca574ccf8239274fffcf69e37e97de37fdfe1b5320c910",
+    "bones": 79,
+    "cubes": 147,
+    "faces": 882,
+    "textures": 2,
+    "materials": 2,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 72117,
+      "sha256": "d0ba6d39016bd3897667d17a466d9a15eee81e598989108d7509e226b47ce473"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1164,
+      "sha256": "4320491a1cc47b8708e6c6abcaadaf498c7bb6ff3fd6eb4fcc7e74b450a240f3"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2754,
+      "sha256": "608fa22c62d158db3ccbe42ad009b31874ca5a167298cb88fd188596fde2a7f3"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 89902,
+      "sha256": "85ba3e3486ccaf1ec6e734ba09c0dc04e4ac226e10691550bd3140428dfb6ace"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 98422,
+      "sha256": "1ffe7b9326515f13a7ad66566228d9e7d0ce492b4c1bbe9f234a91b37ea2a79a"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/泉溪.png",
+      "size": 19374,
+      "sha256": "6cd420a5238d37083afb1a43736ae8f862dfb9d9065c1ae1895c2ee20071333c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 12871,
+      "sha256": "4a85f0fbe5c8ac8fb29f83ea1e628953d7b58cb2f2dba83b9fef58ff9a5e79f5"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 2831,
+      "sha256": "84f6dbac9e782d57c2a208815e24779e47b7873dd02f076b606268cd5c90bf17"
+    },
+    {
+      "path": "models/main.json",
+      "size": 67615,
+      "sha256": "3edbb82e6660699ec72334a0bc7dc8327973881594d7d321a4cb64d5f45348b3"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2807,
+      "sha256": "fe38d8d4d75e253eae15223673681af9930f4849ceb556aaf24a8298baaf0864"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 11115,
+      "sha256": "3d6ee25dd9507b59b1f9c436d3dcb9203c7b871121b7bd7907109916d38ecafc"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 5114,
+      "sha256": "956608741363d6fc2eed355923a53028d7d4a3b15baad29adc22e0fec4e2b781"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1713,
+      "sha256": "a98ead08160c8b8e8f31ab39eae6eca3c7c135e203b8834deb8e27524a25ab93"
+    }
+  ]
+}

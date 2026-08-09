@@ -1,0 +1,99 @@
+{
+  "id": "_Game_Longbaobao",
+  "path": "parsed/_Game_Longbaobao",
+  "source": {
+    "path": "Uncategorized/_Game_Longbaobao.ysm",
+    "type": "ysm",
+    "stem": "_Game_Longbaobao"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "龙包包（Longbaobao）",
+    "tips": "越是在乎的人越是猜不透\n适配YSM1.18.2-1.1.5(免费共享版)\n模型版本1.1.0",
+    "authors": [
+      {
+        "name": "完全冻结"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "tex.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Game_Longbaobao_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 15142,
+      "sha256": "64f1563c708371554fe01331cd916685260c8aef7b3371fd78483915e250e699"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 436954,
+    "sha256": "ff60a7f5f58da46d44285146a9b050700d77779498b449558dcf6e35cf0d1b61",
+    "bones": 125,
+    "cubes": 465,
+    "faces": 2790,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 39011,
+      "sha256": "09d153e4a424b92a7410958237516886d563705dab408db89d86fed128ffb521"
+    },
+    {
+      "path": "arm.json",
+      "size": 3504,
+      "sha256": "bbbab192ebf909d4adbf725d6a1b311989a33ae9bb72784afa15b2a14c8c24ca"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 135070,
+      "sha256": "e56b6ae7390dc0f762762866deb957215461232784f9597d89c4e63ff7d197dc"
+    },
+    {
+      "path": "main.json",
+      "size": 83039,
+      "sha256": "69d4175f8553a72fa236b9bcb173a25f30038e1b46bb1f055e9b6f12e33a4d8c"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 155459,
+      "sha256": "8541fc75efb01c8388fb54611b0066a13daa15116da81aa598a2bd120be70f53"
+    },
+    {
+      "path": "tex.png",
+      "size": 20871,
+      "sha256": "68da41985c3f7e9d21263827ea7a664435114ae6b7f869c9555f1d62d360acf1"
+    }
+  ]
+}

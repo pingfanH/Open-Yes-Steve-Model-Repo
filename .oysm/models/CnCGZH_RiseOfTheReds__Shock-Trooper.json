@@ -1,0 +1,112 @@
+{
+  "id": "CnCGZH(RiseOfTheReds)_Shock-Trooper",
+  "path": "parsed/CnCGZH(RiseOfTheReds)_Shock-Trooper",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCGZH(RiseOfTheReds)_Shock-Trooper.ysm",
+    "type": "ysm",
+    "stem": "CnCGZH(RiseOfTheReds)_Shock-Trooper"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "震波部队",
+    "tips": "出自《命令与征服 绝命时刻》mod《红色崛起》\n预览界面可更换帽子",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "rexture1.png",
+        "texture2.png",
+        "texture3.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCGZH_RiseOfTheReds__Shock-Trooper_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7040,
+      "sha256": "9f9efa8db15f90ceadacad743f542cac47b6fa4ed4e394b145fb3b37633e1307"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 439560,
+    "sha256": "547fae75299d476234b03f1d6b96bfbc226c13776abdd4df6b72457321f23cc7",
+    "bones": 45,
+    "cubes": 232,
+    "faces": 1392,
+    "textures": 3,
+    "materials": 3,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 15222,
+      "sha256": "b476a08db15180e60156856c1274343be0616cabe849c47cf030fc334ddc94c2"
+    },
+    {
+      "path": "info.json",
+      "size": 220,
+      "sha256": "3ca6bf624c8d7449481bd9d78da877b3a4ed41eeb916acb9540f9cc3fa25f3e1"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122470,
+      "sha256": "d93402d24863ccd84622801424bb845d8ff78161fae9d48b7bbf0c3d213720c1"
+    },
+    {
+      "path": "main.json",
+      "size": 103732,
+      "sha256": "3aca9da618c298eb1f0e5112095d89f858718d4b5065d34a01ba71dc4f95f103"
+    },
+    {
+      "path": "rexture1.png",
+      "size": 22271,
+      "sha256": "78530fe9fe43ebc4d5e934cebb65ff1527216d3e269555c26e0b551516ae1a18"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131639,
+      "sha256": "a73cf95259743cc506fa6931e6bed68e0e41c5edca8f4651f26f1a42c1e26994"
+    },
+    {
+      "path": "texture2.png",
+      "size": 21782,
+      "sha256": "fdc68fc4fd80b665d300c1e9680e2716a83bf94855991d3bf02fe4f43ba07e4f"
+    },
+    {
+      "path": "texture3.png",
+      "size": 22224,
+      "sha256": "acd8d5a931544429698a673609ce0c83cf37fd2ae380e00c0e48b3d92b9b23ef"
+    }
+  ]
+}

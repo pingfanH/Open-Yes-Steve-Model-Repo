@@ -1,0 +1,223 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"carryon:block": {
+			"loop": true,
+			"bones": {
+				"Root": {
+					"rotation": [2, 0, 0]
+				},
+				"UpBody": {
+					"rotation": [-15, 0, 0]
+				},
+				"Head": {
+					"rotation": [25, 0, 0]
+				},
+				"LeftArm": {
+					"rotation": [-25, 5, 5],
+					"position": [0, -0.5, 0]
+				},
+				"LeftForeArm": {
+					"rotation": [-4.98107, 0.43523, 4.98107]
+				},
+				"LeftHandLocator": {
+					"scale": 0
+				},
+				"RightArm": {
+					"rotation": [-25, -5, -5],
+					"position": [0, -0.5, 0]
+				},
+				"RightForeArm": {
+					"rotation": [-4.95744, -0.65182, -7.47178]
+				},
+				"RightHandLocator": {
+					"scale": 0
+				},
+				"LowerMantle": {
+					"rotation": [15, 0, 0]
+				},
+				"Wire2": {
+					"rotation": [20, 0, 0]
+				},
+				"ServoArm": {
+					"rotation": [10, 0, 0]
+				}
+			}
+		},
+		"carryon:entity": {
+			"loop": true,
+			"bones": {
+				"Root": {
+					"rotation": [2, 0, 0]
+				},
+				"UpBody": {
+					"rotation": [-20, 0, 0]
+				},
+				"Head": {
+					"rotation": [30, 0, 0]
+				},
+				"LeftArm": {
+					"rotation": [-45, 5, -5],
+					"position": [0, -0.5, 0]
+				},
+				"LeftForeArm": {
+					"rotation": [-5, 0, 0]
+				},
+				"LeftHandLocator": {
+					"scale": 0
+				},
+				"RightArm": {
+					"rotation": [-45, -5, 5],
+					"position": [0, -0.5, 0]
+				},
+				"RightForeArm": {
+					"rotation": [-5, 0, 0]
+				},
+				"RightHandLocator": {
+					"scale": 0
+				},
+				"LeftHand": {
+					"rotation": [0, 0, 0]
+				},
+				"LowerMantle": {
+					"rotation": [17.5, 0, 0]
+				},
+				"Wire2": {
+					"rotation": [17.5, 0, 0]
+				},
+				"ServoArm": {
+					"rotation": [17.5, 0, 0]
+				}
+			}
+		},
+		"carryon:player": {
+			"loop": true,
+			"bones": {
+				"Root": {
+					"rotation": [2, 0, 0]
+				},
+				"UpBody": {
+					"rotation": [-10, 0, 0]
+				},
+				"Head": {
+					"rotation": [10, 0, 0]
+				},
+				"LeftArm": {
+					"rotation": [-30, 5, -5],
+					"position": [0, -0.5, 0]
+				},
+				"LeftForeArm": {
+					"rotation": [-40.88608, 6.46717, -2.18336],
+					"position": [0, 0.5, 0]
+				},
+				"LeftHandLocator": {
+					"scale": 0
+				},
+				"RightArm": {
+					"rotation": [-30, -5, 5],
+					"position": [0, -0.5, 0]
+				},
+				"RightForeArm": {
+					"rotation": [-82.5, 47.5, -90],
+					"position": [-1.3, -0.9, 0.6]
+				},
+				"RightHandLocator": {
+					"scale": 0
+				},
+				"LowerMantle": {
+					"rotation": [10, 0, 0]
+				},
+				"Wire2": {
+					"rotation": [5, 0, 0]
+				},
+				"Skull": {
+					"rotation": [17.64221, -9.88028, -1.09716]
+				},
+				"ServoArm": {
+					"rotation": [-12.5, 0, 0]
+				},
+				"ServoArm2": {
+					"rotation": [10, 0, 0]
+				}
+			}
+		},
+		"carryon:princess": {
+			"loop": true,
+			"bones": {
+				"Root": {
+					"rotation": [0, -90, -115],
+					"position": [16.7, 25.5, 6]
+				},
+				"AllBody": {
+					"rotation": [0, 0, 0]
+				},
+				"UpBody": {
+					"rotation": [50, 0, 0],
+					"position": [0, 1, 0.75]
+				},
+				"Head": {
+					"rotation": [27.5, 0, 0]
+				},
+				"LongHair": {
+					"rotation": [37.5, 0, 0]
+				},
+				"LeftArm": {
+					"rotation": [-16.77609, 44.19145, -7.81185]
+				},
+				"LeftForeArm": {
+					"rotation": [-97.42825, 6.13882, -10.88332],
+					"position": [0, 0.3, 0]
+				},
+				"RightArm": {
+					"rotation": [-16.36648, -42.10287, -4.20805]
+				},
+				"RightForeArm": {
+					"rotation": [-95.5, 0, 0],
+					"position": [0, 0.3, 0.5]
+				},
+				"LeftLeg": {
+					"rotation": [-7.61435, 9.91358, -1.31845]
+				},
+				"LeftLowerLeg": {
+					"rotation": [65, 0, 0]
+				},
+				"LeftFoot": {
+					"rotation": [27.5, 0, 0]
+				},
+				"RightLeg": {
+					"rotation": [-2.17539, -10.01806, -1.21764]
+				},
+				"RightLowerLeg": {
+					"rotation": [65, 0, 0]
+				},
+				"RightFoot": {
+					"rotation": [7.5, 0, 0]
+				},
+				"LowerMantle": {
+					"rotation": [65, 0, 0]
+				},
+				"LowerlowerMantle": {
+					"rotation": [20, 0, 0]
+				},
+				"Wire1": {
+					"rotation": [40.73074, -13.35981, 15.02126]
+				},
+				"Wire2": {
+					"rotation": [0, 0, -50]
+				},
+				"Skull": {
+					"rotation": [17.5, -27.5, 0]
+				},
+				"ServoArm": {
+					"rotation": [-152.5, 0, 0]
+				},
+				"ServoArm2": {
+					"rotation": [57.5, 0, 0]
+				},
+				"ServoArm3": {
+					"rotation": [22.5, 0, 0]
+				}
+			}
+		}
+	}
+}

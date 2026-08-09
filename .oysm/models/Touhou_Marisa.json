@@ -1,0 +1,388 @@
+{
+  "id": "Touhou_Marisa",
+  "path": "parsed/Touhou_Marisa",
+  "source": {
+    "path": "_TouhouProject/Touhou_Marisa.ysm",
+    "type": "ysm",
+    "stem": "Touhou_Marisa"
+  },
+  "ysm": "parsed/Touhou_Marisa/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/墓野奈奈.png",
+        "comment": "别乱用,如果要用到服务器记得私信一下，不授权网易，不准商用",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/269519870?spm_id_from=333.1007.0.0",
+          "QQ": "3194755414"
+        },
+        "name": "墓野奈奈",
+        "role": "模型+动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "name": "雾雨魔理沙",
+    "tips": "普通的魔法使\n版本v1.0\n§3 .GUI背景参考了AnasAbdin的作画\n§3 .感谢映素尤其是伊洛是哥斯拉嘛的支持（请多多支持以上创作者）\n§3 .免费模型禁止倒卖\n§3 .基础动作适配及更改\n§3 .多种自定义外观配件\n§3 .多种自定义表情\n§3 .多种独特轮盘动画\n§3 .多段独特攻击动画\n§3 .特殊武器模型\n§3 .特殊箭失模型\n§3 .兼容carry on\n§3 .兼容TACZ\n\n§4 .不兼容拔刀剑和跑酷，因为我懒得k加上我不喜欢玩这两个mod\n§4 .不得允许，不能私自使用该模型\n§4 .不授权网易"
+  },
+  "properties": {
+    "width_scale": 0.85,
+    "height_scale": 0.85,
+    "extra_animation": {
+      "extra1": "#外观",
+      "extra2": "#外观2",
+      "extra8": "刚欲异闻姿势",
+      "extra4": "白鸡问号",
+      "extra5": "惊讶",
+      "extra6": "烤蘑菇",
+      "extra7": "#Weapon",
+      "extra0": "完全败北"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "外观",
+        "name": "外观配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "整体发型",
+            "description": "决定是长发还是辫子吧（马尾辫搭配魔女帽会穿模）",
+            "value": "v.roaming.hair",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "type": "range",
+            "title": "小辫子和蝴蝶结",
+            "description": "根据不同服饰来决定吧",
+            "value": "v.roaming.sidehair",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 3.0
+          },
+          {
+            "type": "range",
+            "title": "眉毛",
+            "description": "不同的神态",
+            "value": "v.roaming.brow",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "type": "range",
+            "title": "眼睛",
+            "description": "改变魔理沙的眼睛吧！让魔理沙做出不同的表情",
+            "value": "v.roaming.eyes",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 2.0
+          },
+          {
+            "type": "range",
+            "title": "嘴部表情",
+            "description": "改变魔理沙的嘴部表情吧！可以贱兮兮可以卡哇伊",
+            "value": "v.roaming.mouth",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 7.0
+          },
+          {
+            "type": "range",
+            "title": "领子",
+            "description": "根据不同衣服搭配不同的领子吧",
+            "value": "v.roaming.ling",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 2.0
+          },
+          {
+            "type": "range",
+            "title": "药水瓶",
+            "description": "好看的药水瓶挂身上，可以显得有“水瓶”",
+            "value": "v.roaming.bottle",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 2.0
+          },
+          {
+            "type": "checkbox",
+            "title": "腮红",
+            "description": "可爱的还是贱贱的？",
+            "value": "v.roaming.sh"
+          }
+        ]
+      },
+      {
+        "id": "外观2",
+        "name": "具体服饰",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "帽子",
+            "description": "马尾和魔女帽会穿模，谨慎考虑",
+            "value": "v.roaming.hat",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 4.0
+          },
+          {
+            "type": "range",
+            "title": "上衣",
+            "description": "三种不同的上衣，来自不同的作品",
+            "value": "v.roaming.cloth",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 3.0
+          },
+          {
+            "type": "range",
+            "title": "袖子",
+            "description": "三种不同的袖子，来自不同作品",
+            "value": "v.roaming.xz",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 2.0
+          },
+          {
+            "type": "range",
+            "title": "裙子",
+            "description": "不能不穿",
+            "value": "v.roaming.dress",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "type": "range",
+            "title": "袜子",
+            "description": "穿还是不穿？",
+            "value": "v.roaming.socks",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 2.0
+          },
+          {
+            "type": "range",
+            "title": "鞋子",
+            "description": "靴子不能搭配袜子，会穿模",
+            "value": "v.roaming.shoes",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 2.0
+          },
+          {
+            "type": "range",
+            "title": "围裙",
+            "description": "两种选择",
+            "value": "v.roaming.ap",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 2.0
+          },
+          {
+            "type": "range",
+            "title": "手套",
+            "description": "两种选择",
+            "value": "v.roaming.glove",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 2.0
+          },
+          {
+            "type": "checkbox",
+            "title": "天空璋围巾",
+            "description": "降温是因为异变啊！",
+            "value": "v.roaming.scarf"
+          }
+        ]
+      },
+      {
+        "id": "Weapon",
+        "name": "武器配置",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "特殊武器模型显示",
+            "description": "特殊武器模型显示",
+            "value": "v.broom",
+            "labels": {
+              "不显示": "v.broom=0",
+              "显示": "v.broom=1"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json",
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Touhou_Marisa_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11216,
+      "sha256": "ef8f6c3faac96b073f44d45e2c15f2b232db7018b53b51cd09ee0121c9ff8b7c"
+    }
+  },
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 4914654,
+    "sha256": "fd8437101af2665b4967ed1c23eca1871b73b98f76e3049a6b27c55998128eff",
+    "bones": 440,
+    "cubes": 3011,
+    "faces": 18066,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 165888,
+      "sha256": "b32e93605083923c4f048573d39b482576b2edff4b8301dfab570520f89e1786"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3047,
+      "sha256": "8ceee13a772c62aa0c2e330a06e79f15dfc700da045c3d51083f751aa275151c"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 57234,
+      "sha256": "fb084a80c360c316a30bb78e86d7ceb4aa4db7994434fe87ac08aa873e4e6ae9"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 330341,
+      "sha256": "69a5314cfab3a95fcc320ec03b944691e871f78ce8ace55048260fb3bba52d0e"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139929,
+      "sha256": "a600e4e50948b74a1a67c44c2a3e564d8b21510d066adca46f9837c24174fdd5"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2090013,
+      "sha256": "bac90ccbeabd8092b0e938c4b6aa821cf362973b90c3063f5bb52161a00b4e63"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 216431,
+      "sha256": "94ccbb8387125979d3501b87d4e2ff666b525aa14b0bc48e5758dc4277c40d1e"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50677,
+      "sha256": "c3610c21c6df98b6cef5d5c5f134e249aa2ad957a17f5446f1b51b854e5e43b3"
+    },
+    {
+      "path": "avatar/墓野奈奈.png",
+      "size": 43318,
+      "sha256": "b031eef0eecdb32d89b7943905446b1033b3fa9113263206f2e14ff53d4ba668"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 3522,
+      "sha256": "6f43433bc8601690150c25a6e473fcd85e72312e8c422ced2d750b7add59947b"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 53198,
+      "sha256": "0d0b9d4243e85bb398055f17b90fbe6628705d0bce0f3ce18aa9f05f44e450d2"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 11346,
+      "sha256": "d49abd0aae0a4e209401c8d493fed396a1f25a886e8ae4a29ca3da5a6063bdd9"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1576938,
+      "sha256": "cc4ba448b768ebf11b5cc8035b68e07323126b63254cba14dbd8bbfd36ccaeba"
+    },
+    {
+      "path": "sounds/SwingSword.ogg",
+      "size": 10294,
+      "sha256": "e4cce13ef94c48891805216fe9be4bbedf8af87aae1a4f4b0f8ef4cb90ba39b4"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1092,
+      "sha256": "430113dbbea5b02e0310246881e3718d17978e7187d3f011bbdac140a101b949"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 116120,
+      "sha256": "8a7b89ff3cd45536e46e6223a65422a1ce9615899c61aafe2244894af4917458"
+    },
+    {
+      "path": "ysm.json",
+      "size": 4949,
+      "sha256": "f8e051400876105fa58f9bea6d636750346516e9fc3400faedcd68a40d82f240"
+    }
+  ]
+}

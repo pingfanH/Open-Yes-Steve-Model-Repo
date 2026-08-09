@@ -1,0 +1,102 @@
+{
+  "id": "_Goblin",
+  "path": "parsed/_Goblin",
+  "source": {
+    "path": "Uncategorized/_Goblin.ysm",
+    "type": "ysm",
+    "stem": "_Goblin"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_Goblin"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture_0.png",
+        "texture_1.png",
+        "texture_2.png",
+        "texture_3.png",
+        "texture_4.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Goblin_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9283,
+      "sha256": "a09526f8555821d2247a950a80c175b5cd750454b7d3b4e8488b48639cdbb210"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 1767234,
+    "sha256": "d3ceee49ce4b4c383c664f9f4250c6e17343955489ccfe4ae83eaae6c06d2b47",
+    "bones": 75,
+    "cubes": 170,
+    "faces": 1020,
+    "textures": 5,
+    "materials": 5,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 7302,
+      "sha256": "7ee9ce478ea958097bbbb293b12a85bf551b80e82177993c89d13b412b0bc7e4"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 1704027,
+      "sha256": "89efc46905009ddd1c3a2abcf597f9876980dce1e7e74d7ef92565d8ae2c083d"
+    },
+    {
+      "path": "main.json",
+      "size": 27736,
+      "sha256": "e1e4f38b1243897a1795bf2d0dd6cbd0b56f79b8870ae7142f45dd89d07fffa4"
+    },
+    {
+      "path": "texture_0.png",
+      "size": 3941,
+      "sha256": "c850099c29f365d9393ce4ebcf8cffeb6047dcc7e3a0194d4cc9db3d5b7fdc93"
+    },
+    {
+      "path": "texture_1.png",
+      "size": 5143,
+      "sha256": "284907bd50699014a382efd4f857cc53d2fbd4c6777e8621f0788bb29d4edb90"
+    },
+    {
+      "path": "texture_2.png",
+      "size": 6099,
+      "sha256": "c9f96e663fc16313bb79e3e0ee0d09c58c52e690195709557ec8bf1c0b0b4ba6"
+    },
+    {
+      "path": "texture_3.png",
+      "size": 5651,
+      "sha256": "9eef40be6e10a8375e0af66c08145be84961133ef1f10b807d37eb0313eaeb14"
+    },
+    {
+      "path": "texture_4.png",
+      "size": 7335,
+      "sha256": "07d39956cb50188ce44d267ac97969a0ce3c034a2d27208e4ec72f61e9925040"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "id": "Alexten22_1.0.0",
+  "path": "parsed/Alexten22_1.0.0",
+  "source": {
+    "path": "_Alexten22/Alexten22_1.0.0.zip",
+    "type": "zip",
+    "stem": "Alexten22_1.0.0"
+  },
+  "ysm": "parsed/Alexten22_1.0.0/ysm.json",
+  "metadata": {
+    "name": "Alexten22_1.0.0",
+    "tips": "(Default Model）",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "Alexten22",
+        "role": "sixd",
+        "avatar": "avatar/Captura de pantalla 2025-05-24 193247.png",
+        "contact": {
+          "twitch": "https://www.twitch.tv/alexten22"
+        },
+        "comment": "YSM"
+      }
+    ]
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "Baile",
+      "extra1": "Saludo",
+      "extra2": "Aplausos",
+      "extra3": "Exacto!",
+      "extra4": "noho",
+      "extra5": "Vamos!",
+      "extra6": "Fornite",
+      "extra7": "Baile 2",
+      "extra8": "Hi_(Noo)",
+      "extra9": "Nop",
+      "extra10": "Descanso",
+      "extra11": "Buena",
+      "extra12": "chill",
+      "Extra13": "chill 2"
+    },
+    "preview_animation": "idle",
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": "textures/arrow.png"
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Alexten22_1.0.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7768,
+      "sha256": "df671511478267bc9c81f6edb87f605c2d59bee089874f92dbf0d282a6dc9116"
+    }
+  },
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 1160407,
+    "sha256": "14d6dc20a816ef8a8def09e01792c26a1736d10d865f86648898b71a722a5b38",
+    "bones": 71,
+    "cubes": 214,
+    "faces": 1284,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 156755,
+      "sha256": "3dad0c0e5839a81d27af761f2869a76de3795f36cf6bc6f84947065b8aaeaeb2"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 519,
+      "sha256": "81539c90a73e8a3694ddfaf885f3c4d054e14cceeb0e818ff35ea564652450fe"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 4237,
+      "sha256": "7b621c499e5cc9b557435f741e28d627a05d4b7fda6d3fcff2c0da34c47f2798"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 201923,
+      "sha256": "f559ee3ae09103978d6417e71ff52705e01cf3745fc921e73ef795cd030686ca"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 225886,
+      "sha256": "304c498a28a23f029122c6ae1e7420d577ec7fddac388f76532072f1a3d76e88"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 171147,
+      "sha256": "7ad55d4d4fb9ccbed782aea5836f4035529e0be4a851cda9b1b1a9d4210023ed"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 42565,
+      "sha256": "570da72abb157c11b72a3fce0a75cb0c7ac8612bf484f10610d680ac78703640"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 222802,
+      "sha256": "3c3ea9608f1d0ce1e5457e0ee9e8a914ec0a47e37668c4dc884db4a259beb659"
+    },
+    {
+      "path": "avatar/Captura de pantalla 2025-05-24 193247.png",
+      "size": 20596,
+      "sha256": "2f409e265740256176ee9882818d6e66a4b2fdcdbe2bd5991e37c36b0afe8cb8"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 9145,
+      "sha256": "c102c65c10571d624b3a3ac4eb89a2c307850a9c3a163af9d93e3db66de4bfb7"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 9145,
+      "sha256": "c102c65c10571d624b3a3ac4eb89a2c307850a9c3a163af9d93e3db66de4bfb7"
+    },
+    {
+      "path": "models/main.json",
+      "size": 75947,
+      "sha256": "9b97fb866689392f28ef0689f0ff7d37cfe9d837f72cd846682bed7bad5bd9cd"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 710,
+      "sha256": "7e6f6fbfc1e9fd654dc70e549f9db48607f60608c408a1315369c7f494f93fe2"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 17460,
+      "sha256": "5984cd997a7778b8ad3ac57e04af3f8246aa601a4973616593e3abcaf43090fd"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1570,
+      "sha256": "5a415f64662b1e2d5c4e3cb04e2241351557341c8bf6e71368b6130fb8f1ad3f"
+    }
+  ]
+}

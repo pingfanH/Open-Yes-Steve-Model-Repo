@@ -1,0 +1,210 @@
+{
+  "id": "初音未来sweetdevil(半成品)",
+  "path": "parsed/初音未来sweetdevil(半成品)",
+  "source": {
+    "path": "Unknown/初音未来sweetdevil(半成品).ysm",
+    "type": "ysm",
+    "stem": "初音未来sweetdevil(半成品)"
+  },
+  "ysm": "parsed/初音未来sweetdevil(半成品)/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/none.png",
+        "comment": "none",
+        "contact": {
+          "Afdian": "none",
+          "Bilibili": "none"
+        },
+        "name": "none",
+        "role": "none"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "none"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "甜心恶魔",
+    "tips": "none"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "",
+      "extra8": "",
+      "extra9": "",
+      "extra10": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          },
+          {
+            "type": "checkbox",
+            "title": "测试名称1",
+            "description": "测试介绍",
+            "value": "v.r"
+          },
+          {
+            "type": "checkbox",
+            "title": "测试名称2",
+            "description": "测试介绍",
+            "value": "v.roaming.a"
+          },
+          {
+            "type": "checkbox",
+            "title": "测试名称3",
+            "description": "测试介绍",
+            "value": "v.a"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/sweetdevil_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8517,
+      "sha256": "d250b1d8095d8c7b4924e640be20bc45659a19f7398eca41cf8f150a79d275a6"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 5180299,
+    "sha256": "ecd308c94158111bd44e2ae0b7781d753fd9b35752478f1954311f59229a7bcd",
+    "bones": 178,
+    "cubes": 2776,
+    "faces": 16656,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 198552,
+      "sha256": "e442ba309a256ef9b7694020a743286960473ab52ead50b3fa4ab03914676fae"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 109004,
+      "sha256": "ba1e5d1d0e30fc7cec4337358c630cf4f7c89f986f3a98b261c424bd3aecd477"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 194774,
+      "sha256": "fa98e0ef079e5e0ffecfc7198ae49dcf3ccdeb318cc477e528b623cf9f16bba8"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 196778,
+      "sha256": "fde78c96158f10a291d41a9c73aebb469003f2dabda3358dc450d54a62ddec7b"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 5476,
+      "sha256": "a8ac69825cfd3b16d90624ed2e0ec4c2be84bee7044da4a13e00f67c153532eb"
+    },
+    {
+      "path": "models/main.json",
+      "size": 2185850,
+      "sha256": "d0d71dab2994e8dd4ea4442e5bcd72feb9abb83d778fce7a02af9cb2278515ef"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 32363,
+      "sha256": "21366f497f90100edda858d8ed703a6ac7b506f88ebe26fc994ed0456c0be41b"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1780,
+      "sha256": "41cd270816dfb37c0dbfc1b92c0c8f552df74e1eb66da8df19cb5b2419fbc453"
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "id": "Senko-san_v2",
+  "path": "parsed/Senko-san_v2",
+  "source": {
+    "path": "_Senko-san/Senko-san_v2.ysm",
+    "type": "ysm",
+    "stem": "Senko-san_v2"
+  },
+  "ysm": "parsed/Senko-san_v2/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/映素工坊.png",
+        "comment": "一个不知名的MC团队 主要做相关的模组和美术",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/400235810"
+        },
+        "name": "映素工坊",
+        "role": "工作室"
+      },
+      {
+        "avatar": "avatar/蓝玫瑰.png",
+        "comment": "8月24号，传奇永不落幕",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/11814817"
+        },
+        "name": "蓝玫瑰",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/星屑海螺.png",
+        "comment": "xwx",
+        "contact": {
+          "Afdian": "https://afdian.com/a/lucia2048",
+          "Bilibili": "https://space.bilibili.com/14975572"
+        },
+        "name": "星屑海螺",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "贤惠幼妻仙狐小姐",
+    "tips": "为了照顾中野、让他得到幸福而来到他家。别看她外表像一个小孩子，其实她可是800岁的神使之狐！"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "#动作": "动作",
+      "extra9": "#extra_config"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "额外配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          },
+          {
+            "type": "checkbox",
+            "title": "头盔显示开关",
+            "description": " (用来显示或开启玩家头盔)",
+            "value": "v.hat"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "动作",
+        "extra_animation": {
+          "#return": "返回按钮",
+          "extra0": "扫地",
+          "extra1": "打招呼",
+          "extra2": "鼓掌",
+          "extra3": "是的",
+          "extra4": "不行",
+          "extra5": "好耶",
+          "extra6": "出锅了",
+          "extra7": "趴窝"
+        }
+      }
+    ],
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Senko-san_v2_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7415,
+      "sha256": "7d82292b75141696250f8181b47fbfe552756a0ac5dbefe92e28199c2e5f73a5"
+    }
+  },
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 1838588,
+    "sha256": "570fa3e6d54c8b0a046c8391069bfccd1263af10a2f173f8557032a8aec2e033",
+    "bones": 102,
+    "cubes": 385,
+    "faces": 2310,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 134851,
+      "sha256": "b221cea213709beed90e932ce054fedc7693f69733e1aef176f2a3313b3f9aff"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 42174,
+      "sha256": "1afec70bc273312a57b7c6bee60005e0689aa59a32ee5852bfb41323fb579741"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 245413,
+      "sha256": "6afcc619ee714966077e4825e1a1b39b7722b6e12450eec2124ea714668e1fe6"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/星屑海螺.png",
+      "size": 22406,
+      "sha256": "2c03d4213bddb87b0bc8d40b1cc32c059b0fe72a0bd6cc09613505a82e922f65"
+    },
+    {
+      "path": "avatar/映素工坊.png",
+      "size": 343859,
+      "sha256": "71116a36d580ced91981172082580b88367ccdb2f148952ec858d6f33539d008"
+    },
+    {
+      "path": "avatar/蓝玫瑰.png",
+      "size": 593445,
+      "sha256": "063fec7bc656912b3a31fff338788fd484dd983e2ca46e2119e0206b3568c0a4"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 17391,
+      "sha256": "7b7ba50b6557fa4e9376e807384b5253be82948a6a08568c38b115a2c242fd07"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 29337,
+      "sha256": "8e061e6ff0efaff35eedcc946de525efb205ebfb1b76e5acf2b1d3a0f5720bd3"
+    },
+    {
+      "path": "models/main.json",
+      "size": 183547,
+      "sha256": "81c6850f0050bdf11e4144158b10ff68bdfe79d97c1faa6dd30719699edd50ee"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 4106,
+      "sha256": "3f6588bc49d6ccb91f5cc5bc107fa9644184aa7b929c6d53620124c417af0de4"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 32987,
+      "sha256": "1f0a419ff64877eddef88ad5dcffb64f63279000711b75436b856674ed12122a"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2269,
+      "sha256": "0f7e40cdf1f48b8fdd070f8f950ce93fd5e6c2f51d862409d04f5f9755379b1c"
+    }
+  ]
+}

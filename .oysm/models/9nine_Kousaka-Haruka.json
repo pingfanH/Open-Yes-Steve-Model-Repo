@@ -1,0 +1,159 @@
+{
+  "id": "9nine_Kousaka-Haruka",
+  "path": "parsed/9nine_Kousaka-Haruka",
+  "source": {
+    "path": "_9nine/9nine_Kousaka-Haruka.ysm",
+    "type": "ysm",
+    "stem": "9nine_Kousaka-Haruka"
+  },
+  "ysm": "parsed/9nine_Kousaka-Haruka/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/奇葩的小毛.png",
+        "comment": "肝累~",
+        "name": "奇葩的小毛",
+        "role": "建模，贴图，动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "home": "https://space.bilibili.com/642514655?spm_id_from=333.1007.0.0"
+    },
+    "name": "香坂春风",
+    "tips": "《9Nine春春春》女主"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "释放技能",
+      "extra1": "#表情",
+      "extra2": "双子共生",
+      "extra3": "学姐亲手做的咖喱()"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "表情",
+        "name": "表情",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "表情",
+            "description": "表情",
+            "value": "v.s1",
+            "labels": {
+              "默认": "v.s1=0;v.roaming.face1=0;v.roaming.face2=0;v.roaming.face3=0",
+              "微笑": "v.s1=1;v.roaming.face1=1;v.roaming.face2=1;v.roaming.face3=0",
+              "慌乱": "v.s1=2;v.roaming.face1=1;v.roaming.face2=0;v.roaming.face3=1"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "preview_animation": "preview",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/Kousaka Haruka.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/9nine_Kousaka-Haruka_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 33660,
+      "sha256": "850c1033aee1a31a2efcaceef9224f822516c97e083a54987bf2976e78daa0ca"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 867438,
+    "sha256": "a77533c7a14631bf2bb87381b12f528ae2d43ff3bcdcda48d1965672573db0ad",
+    "bones": 140,
+    "cubes": 434,
+    "faces": 2524,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 32454,
+      "sha256": "7a3edfe9e598fae10683e717f31bfb951eee17c0f6649236e6543a888081b0f7"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 112706,
+      "sha256": "ba257f61e7e91110aef5af6012a4d9440148e649347b7978609b3a45c12ba5b5"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 119366,
+      "sha256": "393217d93093154bec8041c0a1d7b21a1df7b7f34574298ca54822f26cb818f2"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 132915,
+      "sha256": "c2d1274e2c1368df6e192ca84979c249fbe60d885adc048d4f51748445f79c49"
+    },
+    {
+      "path": "avatar/奇葩的小毛.png",
+      "size": 33313,
+      "sha256": "f167add6e2bfd5869475ca38dc2f1164541497b6bdfe9643b81e82529d2c5835"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 11555,
+      "sha256": "e90a5300ea74562f75e0a4838cf71dc66101bf377ce144c3ea9c3237c107f853"
+    },
+    {
+      "path": "models/main.json",
+      "size": 347186,
+      "sha256": "812153d9f799c7a08fbfd59a7fddb35af10a37317ec658935d8c12b0a0b4c566"
+    },
+    {
+      "path": "textures/Kousaka Haruka.png",
+      "size": 76566,
+      "sha256": "51fff937570facaee4c06b36c5b90b4309799d7b4ba446aa1b716f88d4b20eb2"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1377,
+      "sha256": "46bd315068cd5ae519f1ceb36bbf0ed7c5ff08ba0585cb181e32b1d673d3e686"
+    }
+  ]
+}

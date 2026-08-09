@@ -1,0 +1,78 @@
+{
+  "id": "GI_Kazuha",
+  "path": "parsed/GI_Kazuha",
+  "source": {
+    "path": "_GenshinImpact/GI_Kazuha.zip",
+    "type": "zip",
+    "stem": "GI_Kazuha"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "GI_Kazuha"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Kazuha_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4846,
+      "sha256": "fa7f0f7010d17cacd8d67e484d0c737a9dc4d51286e2e3382684a6dacf465f42"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 264556,
+    "sha256": "b183b3bdc8d83523c449daaf702664881b33dc0e35d82aac1bd6d815d09b10cd",
+    "bones": 62,
+    "cubes": 186,
+    "faces": 1116,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 9878,
+      "sha256": "8458102c36489be1074ffcd8a87978c50e2d77b4878dc3b5606ec9af62747f44"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 139826,
+      "sha256": "c755eb4c9bc45410ff161768b04e7b66a436dde4610f2465688ecb328d427d08"
+    },
+    {
+      "path": "main.json",
+      "size": 82633,
+      "sha256": "66ab506e116943d84067655a2134233df09a36985b22bcd6dfd5db9b3da859d8"
+    },
+    {
+      "path": "texture.png",
+      "size": 32219,
+      "sha256": "5387e345d7d9ac2e4bf0e5aa6efa84a18c882c8bcf2998ae1c2cde039ad7e854"
+    }
+  ]
+}

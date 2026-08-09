@@ -1,0 +1,78 @@
+{
+  "id": "AtomicHeart_The-Twins_v1.0",
+  "path": "parsed/AtomicHeart_The-Twins_v1.0",
+  "source": {
+    "path": "_AtomicHeart/AtomicHeart_The-Twins_v1.0.zip",
+    "type": "zip",
+    "stem": "AtomicHeart_The-Twins_v1.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "AtomicHeart_The-Twins_v1.0"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "normal.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/AtomicHeart_The-Twins_v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8672,
+      "sha256": "2b8a86f9cce11b563f9db76008dda95ba42e156c4aadd52a3dffc396bc37420f"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 332468,
+    "sha256": "5b1ecf567cabbe02925d92495fcb6480eec33c26af251844ac3f50801f8bdf9c",
+    "bones": 47,
+    "cubes": 232,
+    "faces": 1392,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 15766,
+      "sha256": "2ce7c5a802f710f2c9ba64b592737ebae6bad6f97808acb2aa6dea21498014e2"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 196458,
+      "sha256": "769c45965cdbea3c13dca2fb25c519e671d0d715ab56d37ae7fb5c3310cf1204"
+    },
+    {
+      "path": "main.json",
+      "size": 112975,
+      "sha256": "f735b7ec9306ae7c4c82b90132ee3220c58877933f961d799e8188f1e52a07b7"
+    },
+    {
+      "path": "normal.png",
+      "size": 7269,
+      "sha256": "def1e11b4dce1ff9c338044cfdc449cb9754c94b8effc556865f25c7d2a9211b"
+    }
+  ]
+}

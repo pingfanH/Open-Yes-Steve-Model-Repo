@@ -1,0 +1,335 @@
+{
+  "id": "Bandori_Kaname-Raana",
+  "path": "parsed/Bandori_Kaname-Raana",
+  "source": {
+    "path": "_Bandori/Bandori_Kaname-Raana.ysm",
+    "type": "ysm",
+    "stem": "Bandori_Kaname-Raana"
+  },
+  "ysm": "parsed/Bandori_Kaname-Raana/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§b小早川希_LuXi233.png",
+        "comment": "野生YSM作者",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/183485702"
+        },
+        "name": "§b小早川希/LuXi233",
+        "role": "模型丨贴图丨动作"
+      }
+    ],
+    "license": {
+      "desc": "可以自由二创、修改、录制视频",
+      "type": "CC BY-NC 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://space.bilibili.com/183485702"
+    },
+    "name": "§a要乐奈",
+    "tips": "§bMyGO!!!!!§f的吉他手，花咲川女子学园初中三年级学生\n很可能本体是一只野猫，凭直觉行事，拥有自由随性的个性\n感兴趣的事会全情投入，§d喜欢§6自我§b主张§d强烈§f的人"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra100": "变成猫",
+      "extra101": "奶奶的   （吉他）",
+      "extra102": "盯~~~",
+      "extra113": "不关我事~",
+      "extra103": "睡觉",
+      "extra104": "哼唱春日影",
+      "extra105": "猫猫飞踢",
+      "extra106": "呼叫饲主",
+      "extra107": "猫猫惊醒",
+      "extra301": "過惰幻  (.inst)",
+      "extra302": "TEENAGE RIOT",
+      "extra108": "抹茶芭菲",
+      "extra110": "无趣的女孩子",
+      "extra111": "有趣的...女孩子",
+      "extra112": "三年生~",
+      "extra109": "要吃（建议坐）",
+      "extra114": "封面动作"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "轮盘配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "花咲川校服和演出服替换:",
+            "description": "滑条",
+            "value": "v.cloz",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "type": "range",
+            "title": "睫毛切换: ",
+            "description": "滑条",
+            "value": "v.jm",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "type": "checkbox",
+            "title": "猫耳和猫尾巴",
+            "description": "其实，乐奈是猫变的",
+            "value": "v.catear"
+          },
+          {
+            "type": "radio",
+            "title": "表情",
+            "description": "单选切换表情",
+            "value": "v.biaoqing",
+            "labels": {
+              "微笑": "v.bq=0;v.t=0",
+              "呆呆的": "v.bq=1;v.t=1",
+              "不开心": "v.bq=2;v.t=2",
+              "得意": "v.bq=3;v.t=3",
+              "猫猫嘴": "v.bq=4;v.t=4",
+              "吐舌": "v.bq=5;v.t=5",
+              "自信": "v.bq=6;v.t=6"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "Chose",
+    "free": true,
+    "render_layers_first": true,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/Rana.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Bandori_Kaname-Raana_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12116,
+      "sha256": "8e6f9ff65490915d114f2a00f63a0e9286cbea540e2b7be50227433806ef3563"
+    }
+  },
+  "stats": {
+    "file_count": 34,
+    "total_bytes": 9576481,
+    "sha256": "c2125035d27dd3984c7fcc25237dbff2dfc679e7bc09ba1889fd66ca2c78fad3",
+    "bones": 237,
+    "cubes": 1822,
+    "faces": 10932,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 173003,
+      "sha256": "553c8560ca3ae7371b16cc0aa917498f0e82d4b31cda78b0860d88c60d7ea819"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 271698,
+      "sha256": "bbe5201ea20d0c2bff3c0144f4c41902daf33467faad40226de6239543aeaae7"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 242418,
+      "sha256": "8b323a8c3410ff3e8c294d7b7b58a8bc6d58dc327cddd0592e5296c977d3ac0f"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1505299,
+      "sha256": "2cfe596c36beecaa1688b55951b4272e660c066078bb5d95b20240a32a3a20da"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "avatar/§b小早川希_LuXi233.png",
+      "size": 33461,
+      "sha256": "2f0a5d01f0e40de2d92a6208b89ce3793e305b534c9f75662a24a8ba59048324"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 17171,
+      "sha256": "36173f5f38032521d5f9192011968e414c92a85cf472dc0e3d97b9b090f108f7"
+    },
+    {
+      "path": "models/main.json",
+      "size": 992174,
+      "sha256": "acd2fb2e028e7bb9dddf45883d5f915ee07f9a0bb04aa201a836b4927af1f335"
+    },
+    {
+      "path": "sounds/BZD.ogg",
+      "size": 11857,
+      "sha256": "e2642fdc6c60c717aea73bf6726ce629c870cfb4912841bce35ad5ca89e30841"
+    },
+    {
+      "path": "sounds/Fun.ogg",
+      "size": 25402,
+      "sha256": "36af87d1e6d5cd97100c02f9ac1fc667ac67ebd6b0a9ab5b1402905af5db76f3"
+    },
+    {
+      "path": "sounds/GDH.ogg",
+      "size": 2632681,
+      "sha256": "22abc0705240cfd8eea0c1c220fafc34f72f24add6d0938846a94b2a350e6ecc"
+    },
+    {
+      "path": "sounds/NoFun.ogg",
+      "size": 20825,
+      "sha256": "bbd78acdb0810a974c7839c15e46b513bc4712bf5e03ba6e1978fe20341f1d59"
+    },
+    {
+      "path": "sounds/SDN.ogg",
+      "size": 12814,
+      "sha256": "c0178b09d963b3b459fa569ad3f26678b3ee62781a774d51e4557eafcc827c49"
+    },
+    {
+      "path": "sounds/SNS.ogg",
+      "size": 15485,
+      "sha256": "7f6ccc037e7e5d7665240d7c474e7f36ff3c9827db670bb8e2ea3a4f5aea9987"
+    },
+    {
+      "path": "sounds/TR.ogg",
+      "size": 2429324,
+      "sha256": "bb326a300a2d87625672fab017904aeba32b02d8667f0dc6437271e77c5e604c"
+    },
+    {
+      "path": "sounds/ding.ogg",
+      "size": 22834,
+      "sha256": "507eaea7a792c5ea875a04e81fd02717d7618fe8d848c74e8d4d4e7627ac81f3"
+    },
+    {
+      "path": "sounds/en.ogg",
+      "size": 55956,
+      "sha256": "d39c4056007f3a7834f4c43f64aab28b4982cccdd8624c7b264e39cdde00144f"
+    },
+    {
+      "path": "sounds/heng1.ogg",
+      "size": 9683,
+      "sha256": "1118cdb55af8f19338be8940b011e5721a0ca2a62cdd02630455dd14caf644aa"
+    },
+    {
+      "path": "sounds/heng2.ogg",
+      "size": 9565,
+      "sha256": "46466c1a6f69b068a5a4e737e0acac5cbe34c6974882662bc5cd664fc058c08b"
+    },
+    {
+      "path": "sounds/heng3.ogg",
+      "size": 10724,
+      "sha256": "0d84a7e62c2cc6a000ef77ca8a2ee7a0a6ab505cf9af19042d7982e22e88222a"
+    },
+    {
+      "path": "sounds/heng4.ogg",
+      "size": 10961,
+      "sha256": "4729511fe3776c2c3b655ab28ff1c378bb65f853a2fbf14fdaeaa1348014afd2"
+    },
+    {
+      "path": "sounds/mcbf.ogg",
+      "size": 12712,
+      "sha256": "7e99947edb6277ed7eddf7c9af737dda93d191228191df36d9e58d202a839295"
+    },
+    {
+      "path": "sounds/nainaide.ogg",
+      "size": 12261,
+      "sha256": "c5c9c9b03189dbe951db336e54f59cb059b4e27207975e7d15be12feaa904f3e"
+    },
+    {
+      "path": "sounds/rkmcbf.ogg",
+      "size": 28512,
+      "sha256": "a61b3d1f68c85b1d42356e740cb47d172b9c09a657ed2dd4b13b6c291a828e42"
+    },
+    {
+      "path": "sounds/sleep.ogg",
+      "size": 27779,
+      "sha256": "bdfda5576ce4986d71b2876faa3bbd9cda11edc62edf2f5d6d9040e6c3ee07fc"
+    },
+    {
+      "path": "sounds/sleeping.ogg",
+      "size": 35665,
+      "sha256": "7ec1ba7e4d003b30fb78c3d72fcbdc3368da23fbb1ea69091d7599467a67bedd"
+    },
+    {
+      "path": "sounds/titui.ogg",
+      "size": 175342,
+      "sha256": "e2e5a3bbcb8b99063a918cbd8563a9d0afff4f6d804053d1a43b1cefa8848f27"
+    },
+    {
+      "path": "sounds/tryCRY.ogg",
+      "size": 219716,
+      "sha256": "92e1d1e1fa5bafde9804a1b49578143dc7953baaac7b2e26a24c25490fa059c5"
+    },
+    {
+      "path": "sounds/wanteat.ogg",
+      "size": 21024,
+      "sha256": "05668db6d9d3feaa5d8735ff19c528af168629afd0934f1347bbefbe20d96c94"
+    },
+    {
+      "path": "textures/Rana.png",
+      "size": 173309,
+      "sha256": "687a63358c0456f4acae947e4832dca4fc4248931f2bfa9bcf282b9a6f9a1af9"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2654,
+      "sha256": "34bac1c3432cf5d74015d89c787eea94a2fcf9bf7f9e82dfddd0cff2d981e0d9"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": "_Bad_batch_wrecker",
+  "path": "parsed/_Bad_batch_wrecker",
+  "source": {
+    "path": "Uncategorized/_Bad_batch_wrecker.ysm",
+    "type": "ysm",
+    "stem": "_Bad_batch_wrecker"
+  },
+  "ysm": "parsed/_Bad_batch_wrecker/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/哥斯拉.png",
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "name": "哥斯拉",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/端木一动不动.png",
+        "comment": "永远都在ing",
+        "name": "端木一动不动",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/甜粽子.png",
+        "comment": "(ᗜˬᗜ)",
+        "name": "甜粽子",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Clone Cadet Uniform",
+    "tips": "Стандартная униформа клонов кадетов не закончивших обучение на Камино"
+  },
+  "properties": {
+    "width_scale": 1.0,
+    "height_scale": 1.0,
+    "extra_animation_classify": [],
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/clone_cadet_uniform.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Bad_batch_wrecker_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 14158,
+      "sha256": "b3b222c31d31da4428b933f1224875453045d2e7d23c742f6c210d5a60f11019"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 940776,
+    "sha256": "e7af5d66c36bfbdef0569db779753721e2e636f88b51652a8f5cee92cad32bfb",
+    "bones": 74,
+    "cubes": 933,
+    "faces": 3681,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/main.animation.json",
+      "size": 128611,
+      "sha256": "daed380f7e7f66c1366c1ece818248dd367d51a219a3993a5cbabef4a70385e5"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 133335,
+      "sha256": "b318da666055faa5af34d21b6391609957c4503904cbf93913d97a73c233bee7"
+    },
+    {
+      "path": "avatar/哥斯拉.png",
+      "size": 19374,
+      "sha256": "6cd420a5238d37083afb1a43736ae8f862dfb9d9065c1ae1895c2ee20071333c"
+    },
+    {
+      "path": "avatar/甜粽子.png",
+      "size": 13575,
+      "sha256": "afbc4a0ad6483a06d38085e6ec7f55db706ce25cb1de636a1698faf2fc53d4a1"
+    },
+    {
+      "path": "avatar/端木一动不动.png",
+      "size": 22379,
+      "sha256": "3c431bb54f22ffb6bb153d5de92dee6831881419ed4135b517cc9abd32e44095"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 58355,
+      "sha256": "3479829018bb8f798b11ad7cafb5561024aac0dd763289a126d29132ecc1316f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 360296,
+      "sha256": "312a14700c709e0116d09195b746748a8ee9b5495a5346806cd5430021b8dfe3"
+    },
+    {
+      "path": "textures/clone_cadet_uniform.png",
+      "size": 203640,
+      "sha256": "68d6be1ac176f50f8078916f74cb3f5c65d46944a970490ffe5acd63967c194c"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1211,
+      "sha256": "a91288b3dc192b6292f2d9029a8e242a1c095416addaa2520a17989f20a9918b"
+    }
+  ]
+}

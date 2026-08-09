@@ -1,0 +1,1668 @@
+{
+  "id": "扶桑全年龄版2.4.9",
+  "path": "parsed/扶桑全年龄版2.4.9",
+  "source": {
+    "path": "Unknown/扶桑全年龄版2.4.9.ysm",
+    "type": "ysm",
+    "stem": "扶桑全年龄版2.4.9"
+  },
+  "ysm": "parsed/扶桑全年龄版2.4.9/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/星语.png",
+        "comment": "星空的言语",
+        "contact": {
+          "bilibili": "316739550"
+        },
+        "name": "星语",
+        "role": "动作"
+      },
+      {
+        "avatar": "avatar/雾雨波波沙.png",
+        "comment": "十天十夜想不明白",
+        "contact": {
+          "bilibili": "36761228"
+        },
+        "name": "雾雨波波沙",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/失语喵.png",
+        "comment": "关注失语喵，关注星语谢谢喵~",
+        "contact": {
+          "bilibili": "171415484"
+        },
+        "name": "失语喵",
+        "role": "控制器"
+      },
+      {
+        "avatar": "avatar/秋枫落叶.png",
+        "comment": "ruaruarua算了",
+        "contact": {
+          "qq": "176023847"
+        },
+        "name": "秋枫落叶",
+        "role": "技术支持"
+      },
+      {
+        "avatar": "avatar/墨子吉安.png",
+        "comment": "涩涩万岁≧▽≦",
+        "name": "墨子吉安",
+        "role": "定制者"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "主页": "https://b23.tv/wK8yfQh?",
+      "发癫": "https://afdian.com/a/2133TAT"
+    },
+    "name": "扶桑SFW",
+    "tips": "扶桑已经等候多时了~这也是神明的指引，从今往后，还请多多指教"
+  },
+  "properties": {
+    "width_scale": 0.6,
+    "height_scale": 0.6,
+    "extra_animation": {
+      "extra0": "#extra_config0",
+      "extra1": "坐在楼梯或床上",
+      "extra2": "坐在方块边",
+      "extra3": "正坐",
+      "extra4": "躺平",
+      "FSextra5": "#extra_config1",
+      "FSextra6": "#extra_config2",
+      "extra7": "#extra_config3"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config0",
+        "name": "立绘poss",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "主体位置前后: ",
+            "description": "改变身体前后位置（碰撞箱不变）",
+            "value": "v.player_location_z",
+            "step": 0.5,
+            "min": -50.0,
+            "max": 50.0
+          },
+          {
+            "type": "range",
+            "title": "主体位置左右: ",
+            "description": "改变身体左右位置（碰撞箱不变）",
+            "value": "v.player_location_x",
+            "step": 0.5,
+            "min": -50.0,
+            "max": 50.0
+          },
+          {
+            "type": "range",
+            "title": "主体位置上下: ",
+            "description": "改变身体上下位置（碰撞箱不变）",
+            "value": "v.player_location_y",
+            "step": 0.5,
+            "min": -50.0,
+            "max": 50.0
+          },
+          {
+            "type": "range",
+            "title": "主体x轴旋转: ",
+            "description": "改变身体x轴的角度（碰撞箱不变）",
+            "value": "v.player_angle_x",
+            "step": 1.0,
+            "min": -180.0,
+            "max": 180.0
+          },
+          {
+            "type": "range",
+            "title": "主体y轴旋转: ",
+            "description": "改变身体y轴的角度（碰撞箱不变）",
+            "value": "v.player_angle_y",
+            "step": 1.0,
+            "min": -180.0,
+            "max": 180.0
+          },
+          {
+            "type": "range",
+            "title": "主体z轴旋转: ",
+            "description": "改变身体z轴的角度（碰撞箱不变）",
+            "value": "v.player_angle_z",
+            "step": 1.0,
+            "min": -180.0,
+            "max": 180.0
+          },
+          {
+            "type": "range",
+            "title": "舰装位置前后: ",
+            "description": "改变舰装前后位置",
+            "value": "v.jianzhuang_location_z",
+            "step": 0.5,
+            "min": -10.0,
+            "max": 10.0
+          },
+          {
+            "type": "range",
+            "title": "舰装位置左右: ",
+            "description": "改变舰装左右位置（碰撞箱不变）",
+            "value": "v.jianzhuang_location_x",
+            "step": 0.5,
+            "min": -10.0,
+            "max": 10.0
+          },
+          {
+            "type": "range",
+            "title": "舰装位置上下: ",
+            "description": "改变舰装上下位置（碰撞箱不变）",
+            "value": "v.jianzhuang_location_y",
+            "step": 0.5,
+            "min": -10.0,
+            "max": 10.0
+          }
+        ]
+      },
+      {
+        "id": "extra_config1",
+        "name": "着装",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "隐藏尾巴",
+            "description": "显示/隐藏 尾巴",
+            "value": "v.roaming.weiba1"
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏头饰",
+            "description": "显示/隐藏 头饰",
+            "value": "v.roaming.toushi1"
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏左丝袜",
+            "description": "显示/隐藏 左丝袜",
+            "value": "v.roaming.siwa1"
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏右丝袜",
+            "description": "显示/隐藏 右丝袜",
+            "value": "v.roaming.siwa3"
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏袖子",
+            "description": "显示/隐藏 袖子",
+            "value": "v.roaming.xiuzi1"
+          },
+          {
+            "type": "radio",
+            "title": "隐藏胸衣",
+            "description": "显示/隐藏 胸衣",
+            "value": "v.roaming.xiongyi1",
+            "labels": {
+              "穿上": "v.roaming.xiongyi1 = 0;",
+              "乳贴": "v.roaming.xiongyi1 = 1;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "内裤切换",
+            "description": "更改内裤",
+            "value": "v.roaming.neiku",
+            "labels": {
+              "兜布": "v.roaming.neiku = 0;",
+              "内裤": "v.roaming.neiku = 1;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "鞋子切换",
+            "description": "更改鞋子",
+            "value": "v.roaming.xiezi",
+            "labels": {
+              "靴子": "v.roaming.xiezi = 0;",
+              "木屐": "v.roaming.xiezi = 1;",
+              "光脚": "v.roaming.xiezi = 2;"
+            }
+          },
+          {
+            "type": "range",
+            "title": "面饰: ",
+            "description": "一些面部装饰",
+            "value": "v.roaming.mianshi",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 3.0
+          }
+        ]
+      },
+      {
+        "id": "extra_config2",
+        "name": "表情",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "左眼皮: ",
+            "description": "改变左眼睁开程度",
+            "value": "v.zuoyanpi",
+            "step": 0.05,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "type": "range",
+            "title": "右眼皮: ",
+            "description": "改变右眼睁开程度",
+            "value": "v.youyanpi",
+            "step": 0.05,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "type": "range",
+            "title": "左睫毛: ",
+            "description": "改变左眼睫毛角度",
+            "value": "v.zuojiemao",
+            "step": 1.0,
+            "min": -10.0,
+            "max": 5.0
+          },
+          {
+            "type": "range",
+            "title": "右睫毛: ",
+            "description": "改变右眼睫毛角度",
+            "value": "v.youjiemao",
+            "step": 1.0,
+            "min": -10.0,
+            "max": 5.0
+          },
+          {
+            "type": "range",
+            "title": "左耳朵: ",
+            "description": "改变左耳朵趴下程度",
+            "value": "v.LeftEar",
+            "step": 1.0,
+            "min": -50.0,
+            "max": 60.0
+          },
+          {
+            "type": "range",
+            "title": "右耳朵: ",
+            "description": "改变右耳朵趴下程度",
+            "value": "v.RightEar",
+            "step": 1.0,
+            "min": -50.0,
+            "max": 60.0
+          },
+          {
+            "type": "radio",
+            "title": "眼部切换",
+            "description": "更改眼部表情",
+            "value": "v.roaming.yanjing",
+            "labels": {
+              "◕◕": "v.roaming.yanjing = 0;",
+              "^^": "v.roaming.yanjing = 1;",
+              "><": "v.roaming.yanjing = 2;",
+              "00": "v.roaming.yanjing = 3;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "嘴部切换",
+            "description": "更改嘴部表情",
+            "value": "v.roaming.biaoqing",
+            "labels": {
+              " ": "v.roaming.biaoqing = 0;",
+              "‿": "v.roaming.biaoqing = 1;",
+              "﹏": "v.roaming.biaoqing = 2;",
+              "皿": "v.roaming.biaoqing = 3;",
+              "▽": "v.roaming.biaoqing = 4;",
+              "ω": "v.roaming.biaoqing = 5;",
+              "∀": "v.roaming.biaoqing = 6;",
+              "へ": "v.roaming.biaoqing = 7;",
+              "Д": "v.roaming.biaoqing = 8;",
+              "︵": "v.roaming.biaoqing = 9;",
+              "▭": "v.roaming.biaoqing = 10;",
+              "👅": "v.roaming.biaoqing = 11;"
+            }
+          }
+        ]
+      },
+      {
+        "id": "extra_config3",
+        "name": "配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "身高: ",
+            "description": "获得蚁人的能力（碰撞箱不变）",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.1,
+            "max": 10.0
+          },
+          {
+            "type": "range",
+            "title": "头部大小: ",
+            "description": "选择做一位Q版人物或身材魁梧的女子",
+            "value": "v.player_head",
+            "step": 0.05,
+            "min": 0.5,
+            "max": 2.0
+          },
+          {
+            "type": "range",
+            "title": "舰船大小: ",
+            "description": "先进的魔方科技可以使战舰随地大小变（坐船时）",
+            "value": "v.zhanjian",
+            "step": 1.0,
+            "min": 3.0,
+            "max": 60.0
+          },
+          {
+            "type": "range",
+            "title": "舰装大小: ",
+            "description": "调节舰装大小（口径不变）",
+            "value": "v.jianzhuang",
+            "step": 0.05,
+            "min": 0.5,
+            "max": 2.0
+          },
+          {
+            "type": "checkbox",
+            "title": "显示舰装",
+            "description": "显示/隐藏 舰装",
+            "value": "v.roaming.jianzhuang1"
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏背包",
+            "description": "显示/隐藏 精妙背包的渲染",
+            "value": "v.roaming.beibao1"
+          },
+          {
+            "type": "checkbox",
+            "title": "创造模式飞行状态",
+            "description": "选择在创造模式中是否启用尾巴飞行",
+            "value": "v.feixing"
+          }
+        ]
+      },
+      {
+        "id": "extra_config4",
+        "name": "做爱",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "显示状态条",
+            "description": "显示“潮点值·粉条”和“淫乱值·紫条”\n进行SEX动作会增加“潮点值”和“淫乱值”\n\n“潮点值”满时可触发“高潮”、诺处于“做爱”状态中可触发“射精”效果，会随时间减少\n\n“淫乱值”到达一定时会触发各种状态、详见“数值配置”页面、淫乱值越高潮点值降低越慢，会随时间缓慢减少",
+            "value": "v.roaming.shuzhi1"
+          },
+          {
+            "type": "checkbox",
+            "title": "显示腔内图",
+            "description": "可以观察“精液”存量与抽插时的状态",
+            "value": "v.roaming.qiangnei1"
+          },
+          {
+            "type": "range",
+            "title": "抽插速度: ",
+            "description": "调节“做爱”的频率，速度越快潮点值与淫乱值上升倍率越快，-1时停止“做爱”并保持当前姿势\n\n（做太多会导致小穴合不上）",
+            "value": "v.gongsu",
+            "step": 1.0,
+            "min": -1.0,
+            "max": 2.0
+          },
+          {
+            "type": "range",
+            "title": "身上精液: ",
+            "description": "1：射满身\n2：颜射\n3：精液浴",
+            "value": "v.roaming.waishe1",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 3.0
+          },
+          {
+            "type": "checkbox",
+            "title": "启用跳蛋",
+            "description": "持续增加“潮点值”和“淫乱值”到一定水平",
+            "value": "v.roaming.tiaodan1"
+          },
+          {
+            "type": "checkbox",
+            "title": "插入肛塞",
+            "description": "使“淫乱值”不再自然下降",
+            "value": "v.roaming.Pplay"
+          },
+          {
+            "type": "checkbox",
+            "title": "胶带扩阴",
+            "description": "启用时会阻止“阴道扩张”程度随时间慢慢恢复",
+            "value": "v.roaming.jiaodai1"
+          },
+          {
+            "type": "checkbox",
+            "title": "显示进肚条",
+            "description": "显示/隐藏 进肚条",
+            "value": "v.roaming.jindutiao"
+          },
+          {
+            "type": "radio",
+            "title": "贞操带",
+            "description": "无法趁指挥官不在时偷偷自我安慰\n只能一直充满欲望的等待...",
+            "value": "v.roaming.zhencaodai",
+            "labels": {
+              "无": "v.roaming.zhencaodai = 0;",
+              "半开": "v.roaming.zhencaodai = 1;",
+              "标准": "v.roaming.zhencaodai = 2;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "贞操带附属功能",
+            "description": "非调教状态下模式为永久寸止.......\n\n当潮点值超过90时会自动停止\n直到下降至60再次重新启动",
+            "value": "v.YDplay1",
+            "labels": {
+              "无": "v.YDplay1 = 0;",
+              "软毛刷": "v.YDplay1 = 1;",
+              "旋转刷": "v.YDplay1 = 2;",
+              "飞机杯": "v.YDplay1 = 3;"
+            }
+          }
+        ]
+      },
+      {
+        "id": "extra_config5",
+        "name": "数值配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "精液存量: ",
+            "description": "每次“射精”后都会一定程度的增加\n随时间流失",
+            "value": "v.jingye",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 100.0
+          },
+          {
+            "type": "range",
+            "title": "射精次数: ",
+            "description": "将射精次数以“正”字计数\n数值为-1时关闭该功能",
+            "value": "v.roaming.zhongchu1",
+            "step": 1.0,
+            "min": -1.0,
+            "max": 15.0
+          },
+          {
+            "type": "range",
+            "title": "阴蒂勃起程度: ",
+            "description": "数值为0时随“潮点值”变化\n1~4为大小变化",
+            "value": "v.d",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 4.0
+          },
+          {
+            "type": "range",
+            "title": "阴道扩张程度: ",
+            "description": "随速度为1以上的做爱时间和中出的次数增加，会决定“精液”溢出速度，扩张程度会随时间慢慢恢复          数值为-0.1时无法被继续扩张，且“精液”值不再自然下降",
+            "value": "v.b",
+            "step": 0.1,
+            "min": -0.1,
+            "max": 3.0
+          },
+          {
+            "type": "range",
+            "title": "西瓜肚: ",
+            "description": "数值为-1时随“精液存量”变化\n0~100为大小变化",
+            "value": "v.xiguadu",
+            "step": 1.0,
+            "min": -1.0,
+            "max": 100.0
+          },
+          {
+            "type": "checkbox",
+            "title": "脸红",
+            "description": "将“淫乱值”设置为25",
+            "value": "v.lianhong1"
+          },
+          {
+            "type": "checkbox",
+            "title": "坏笑",
+            "description": "将“淫乱值”设置为35",
+            "value": "v.lianhong2"
+          },
+          {
+            "type": "checkbox",
+            "title": "皱眉",
+            "description": "将“淫乱值”设置为45",
+            "value": "v.lianhong3"
+          },
+          {
+            "type": "checkbox",
+            "title": "爱心眼",
+            "description": "将“淫乱值”设置为55",
+            "value": "v.aixinyan"
+          },
+          {
+            "type": "checkbox",
+            "title": "淫纹",
+            "description": "将“淫乱值”设置为75",
+            "value": "v.yinwen"
+          },
+          {
+            "type": "checkbox",
+            "title": "发光淫纹",
+            "description": "将“淫乱值”设置为95",
+            "value": "v.guangyinwen"
+          }
+        ]
+      },
+      {
+        "id": "extra_config7",
+        "name": "返回",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "抽插: ",
+            "description": "攻速快的时候变成直接按摩子宫颈",
+            "value": "v.choucha",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 10.0
+          },
+          {
+            "type": "range",
+            "title": "阴蒂调教: ",
+            "description": "进行残酷的阴蒂调教...\n会持续增加潮点值\n1：牙刷\n2：电动牙刷\n3：牙刷+电动牙刷\n4：真空吸阴蒂飞机杯\n5：震动棒\n6：媚药润滑液纱布",
+            "value": "v.YDplay2",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 6.0
+          },
+          {
+            "type": "range",
+            "title": "↑调教激烈程度：",
+            "description": "要是太快的话会坏掉的吧...",
+            "value": "v.YDsudu",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 10.0
+          },
+          {
+            "type": "range",
+            "title": "肛门调教: ",
+            "description": "进行色情的肛门调教...\n肛塞栏位基础效果：阻止淫乱值自然下降\n1：肛塞\n2：媚药肛塞（调教强度>0时增加淫乱值）\n3：肛门拉珠（调教强度>0时增加潮点值）\n4：神乐铃（特殊效果：持续将淫乱值转化为潮点值）",
+            "value": "v.roaming.Pplay",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 4.0
+          },
+          {
+            "type": "range",
+            "title": "↑调教激烈程度：",
+            "description": "一直这样下去会合不上的啦...",
+            "value": "v.Psudu",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 10.0
+          },
+          {
+            "type": "checkbox",
+            "title": "媚药注入&盖盖子",
+            "description": "带上能够注射媚药的项圈使淫乱值不断上涨...\n一些动作能在阴蒂处不断滴落媚药\n盒子状态下会使盖子盖上（极度危险）",
+            "value": "v.roaming.meiyao"
+          },
+          {
+            "type": "radio",
+            "title": "贞操带",
+            "description": "无法趁指挥官不在时偷偷自我安慰\n只能一直充满欲望的等待...",
+            "value": "v.roaming.zhencaodai",
+            "labels": {
+              "无": "v.roaming.zhencaodai = 0;",
+              "半开": "v.roaming.zhencaodai = 1;",
+              "标准": "v.roaming.zhencaodai = 2;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "贞操带附属功能",
+            "description": "非调教状态下模式为永久寸止.......\n\n当潮点值超过90时会自动停止\n直到下降至60再次重新启动",
+            "value": "v.YDplay1",
+            "labels": {
+              "无": "v.YDplay1 = 0;",
+              "软毛刷": "v.YDplay1 = 1;",
+              "旋转刷": "v.YDplay1 = 2;",
+              "飞机杯": "v.YDplay1 = 3;"
+            }
+          },
+          {
+            "type": "checkbox",
+            "title": "胶带扩阴",
+            "description": "阴道扩张程度不再随时间自然减少",
+            "value": "v.roaming.jiaodai1"
+          }
+        ]
+      },
+      {
+        "id": "DIY位置",
+        "name": "位置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "主体位置前后: ",
+            "description": "改变身体前后位置（碰撞箱不变）",
+            "value": "v.diy_player_location_z",
+            "step": 0.5,
+            "min": -50.0,
+            "max": 50.0
+          },
+          {
+            "type": "range",
+            "title": "主体位置左右: ",
+            "description": "改变身体左右位置（碰撞箱不变）",
+            "value": "v.diy_player_location_x",
+            "step": 0.5,
+            "min": -50.0,
+            "max": 50.0
+          },
+          {
+            "type": "range",
+            "title": "主体位置上下: ",
+            "description": "改变身体上下位置（碰撞箱不变）",
+            "value": "v.diy_player_location_y",
+            "step": 0.5,
+            "min": -50.0,
+            "max": 50.0
+          },
+          {
+            "type": "range",
+            "title": "主体x轴旋转: ",
+            "description": "改变身体x轴的角度（碰撞箱不变）",
+            "value": "v.diy_player_angle_x",
+            "step": 1.0,
+            "min": -180.0,
+            "max": 180.0
+          },
+          {
+            "type": "range",
+            "title": "主体y轴旋转: ",
+            "description": "改变身体y轴的角度（碰撞箱不变）",
+            "value": "v.diy_player_angle_y",
+            "step": 1.0,
+            "min": -180.0,
+            "max": 180.0
+          },
+          {
+            "type": "range",
+            "title": "主体z轴旋转: ",
+            "description": "改变身体z轴的角度（碰撞箱不变）",
+            "value": "v.diy_player_angle_z",
+            "step": 1.0,
+            "min": -180.0,
+            "max": 180.0
+          }
+        ]
+      },
+      {
+        "id": "DIY身体",
+        "name": "身体",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "头部x轴旋转: ",
+            "description": "改变头部x轴角度（碰撞箱不变）",
+            "value": "v.diy_Head_x",
+            "step": 1.0,
+            "min": -90.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "头部y轴旋转: ",
+            "description": "改变头部y轴角度（碰撞箱不变）",
+            "value": "v.diy_Head_y",
+            "step": 1.0,
+            "min": -90.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "头部z轴旋转: ",
+            "description": "改变头部z轴角度（碰撞箱不变）",
+            "value": "v.diy_Head_z",
+            "step": 1.0,
+            "min": -90.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "胸腔x轴旋转: ",
+            "description": "改变胸腔x轴的角度（碰撞箱不变）",
+            "value": "v.diy_Waist_x",
+            "step": 1.0,
+            "min": -45.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "胸腔y轴旋转: ",
+            "description": "改变胸腔y轴的角度（碰撞箱不变）",
+            "value": "v.diy_Waist_y",
+            "step": 1.0,
+            "min": -45.0,
+            "max": 45.0
+          },
+          {
+            "type": "range",
+            "title": "胸腔z轴旋转: ",
+            "description": "改变胸腔z轴的角度（碰撞箱不变）",
+            "value": "v.diy_Waist_z",
+            "step": 1.0,
+            "min": -45.0,
+            "max": 45.0
+          },
+          {
+            "type": "range",
+            "title": "腰部x轴旋转: ",
+            "description": "改变腰部x轴的角度（碰撞箱不变）",
+            "value": "v.diy_UpBody_x",
+            "step": 1.0,
+            "min": -45.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "腰部y轴旋转: ",
+            "description": "改变腰部y轴的角度（碰撞箱不变）",
+            "value": "v.diy_UpBody_y",
+            "step": 1.0,
+            "min": -45.0,
+            "max": 45.0
+          },
+          {
+            "type": "range",
+            "title": "腰部z轴旋转: ",
+            "description": "改变腰部z轴的角度（碰撞箱不变）",
+            "value": "v.diy_UpBody_z",
+            "step": 1.0,
+            "min": -45.0,
+            "max": 45.0
+          }
+        ]
+      },
+      {
+        "id": "DIY左手",
+        "name": "左手",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "左大臂x轴旋转: ",
+            "description": "改变左大臂x轴的角度（碰撞箱不变）",
+            "value": "v.diy_LeftArm_x",
+            "step": 1.0,
+            "min": -160.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "左大臂y轴旋转: ",
+            "description": "改变左大臂y轴的角度（碰撞箱不变）",
+            "value": "v.diy_LeftArm_y",
+            "step": 1.0,
+            "min": -90.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "左大臂z轴旋转: ",
+            "description": "改变左大臂z轴的角度（碰撞箱不变）",
+            "value": "v.diy_LeftArm_z",
+            "step": 1.0,
+            "min": -90.0,
+            "max": 180.0
+          },
+          {
+            "type": "range",
+            "title": "§7左小臂x轴旋转: ",
+            "description": "改变左小臂x轴的角度（碰撞箱不变）",
+            "value": "v.diy_LeftForeArm_x",
+            "step": 1.0,
+            "min": -160.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "§7左小臂y轴旋转: ",
+            "description": "改变左小臂y轴的角度（碰撞箱不变）",
+            "value": "v.diy_LeftForeArm_y",
+            "step": 1.0,
+            "min": -90.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "左手x轴旋转: ",
+            "description": "改变左手x轴的角度（碰撞箱不变）",
+            "value": "v.diy_LeftHand_x",
+            "step": 1.0,
+            "min": -45.0,
+            "max": 45.0
+          },
+          {
+            "type": "range",
+            "title": "左手y轴旋转: ",
+            "description": "改变左手y轴的角度（碰撞箱不变）",
+            "value": "v.diy_LeftHand_y",
+            "step": 1.0,
+            "min": -45.0,
+            "max": 45.0
+          },
+          {
+            "type": "range",
+            "title": "左手z轴旋转: ",
+            "description": "改变左手z轴的角度（碰撞箱不变）",
+            "value": "v.diy_LeftHand_z",
+            "step": 1.0,
+            "min": -45.0,
+            "max": 45.0
+          },
+          {
+            "type": "range",
+            "title": "§c左袖子x轴旋转: ",
+            "description": "改变左手x轴的角度（碰撞箱不变）",
+            "value": "v.diy_LeftSleeve_x",
+            "step": 1.0,
+            "min": -180.0,
+            "max": 180.0
+          },
+          {
+            "type": "range",
+            "title": "§c左袖子y轴旋转: ",
+            "description": "改变左手袖子y轴的角度（碰撞箱不变）",
+            "value": "v.diy_LeftSleeve_y",
+            "step": 1.0,
+            "min": -180.0,
+            "max": 180.0
+          },
+          {
+            "type": "range",
+            "title": "§c左袖子z轴旋转: ",
+            "description": "改变左手袖子z轴的角度（碰撞箱不变）",
+            "value": "v.diy_LeftSleeve_z",
+            "step": 1.0,
+            "min": -180.0,
+            "max": 180.0
+          }
+        ]
+      },
+      {
+        "id": "DIY右手",
+        "name": "右手",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "右大臂x轴旋转: ",
+            "description": "改变右大臂x轴的角度（碰撞箱不变）",
+            "value": "v.diy_RightArm_x",
+            "step": 1.0,
+            "min": -160.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "右大臂y轴旋转: ",
+            "description": "改变右大臂y轴的角度（碰撞箱不变）",
+            "value": "v.diy_RightArm_y",
+            "step": 1.0,
+            "min": -90.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "右大臂z轴旋转: ",
+            "description": "改变右大臂z轴的角度（碰撞箱不变）",
+            "value": "v.diy_RightArm_z",
+            "step": 1.0,
+            "min": -90.0,
+            "max": 180.0
+          },
+          {
+            "type": "range",
+            "title": "§7右小臂x轴旋转: ",
+            "description": "改变右小臂x轴的角度（碰撞箱不变）",
+            "value": "v.diy_RightForeArm_x",
+            "step": 1.0,
+            "min": -160.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "§7右小臂y轴旋转: ",
+            "description": "改变右小臂y轴的角度（碰撞箱不变）",
+            "value": "v.diy_RightForeArm_y",
+            "step": 1.0,
+            "min": -90.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "右手x轴旋转: ",
+            "description": "改变右手x轴的角度（碰撞箱不变）",
+            "value": "v.diy_RightHand_x",
+            "step": 1.0,
+            "min": -45.0,
+            "max": 45.0
+          },
+          {
+            "type": "range",
+            "title": "右手y轴旋转: ",
+            "description": "改变右手y轴的角度（碰撞箱不变）",
+            "value": "v.diy_RightHand_y",
+            "step": 1.0,
+            "min": -45.0,
+            "max": 45.0
+          },
+          {
+            "type": "range",
+            "title": "右手z轴旋转: ",
+            "description": "改变右手z轴的角度（碰撞箱不变）",
+            "value": "v.diy_RightHand_z",
+            "step": 1.0,
+            "min": -45.0,
+            "max": 45.0
+          },
+          {
+            "type": "range",
+            "title": "§c右袖子x轴旋转: ",
+            "description": "改变右手x轴的角度（碰撞箱不变）",
+            "value": "v.diy_RightSleeve_x",
+            "step": 1.0,
+            "min": -180.0,
+            "max": 180.0
+          },
+          {
+            "type": "range",
+            "title": "§c右袖子y轴旋转: ",
+            "description": "改变右手袖子y轴的角度（碰撞箱不变）",
+            "value": "v.diy_RightSleeve_y",
+            "step": 1.0,
+            "min": -180.0,
+            "max": 180.0
+          },
+          {
+            "type": "range",
+            "title": "§c右袖子z轴旋转: ",
+            "description": "改变右手袖子z轴的角度（碰撞箱不变）",
+            "value": "v.diy_RightSleeve_z",
+            "step": 1.0,
+            "min": -180.0,
+            "max": 180.0
+          }
+        ]
+      },
+      {
+        "id": "DIY左腿",
+        "name": "左腿",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "左腿x轴旋转: ",
+            "description": "改变左腿x轴的角度（碰撞箱不变）",
+            "value": "v.diy_leftleg_x",
+            "step": 1.0,
+            "min": -160.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "左腿y轴旋转: ",
+            "description": "改变左腿y轴的角度（碰撞箱不变）",
+            "value": "v.diy_leftleg_y",
+            "step": 1.0,
+            "min": -90.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "左腿z轴旋转: ",
+            "description": "改变左腿z轴的角度（碰撞箱不变）",
+            "value": "v.diy_leftleg_z",
+            "step": 1.0,
+            "min": -90.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "§7左小腿x轴旋转: ",
+            "description": "改变左小腿x轴的角度（碰撞箱不变）",
+            "value": "v.diy_leftlowerleg_x",
+            "step": 1.0,
+            "min": -10.0,
+            "max": 150.0
+          },
+          {
+            "type": "range",
+            "title": "§7左小腿y轴旋转: ",
+            "description": "改变左小腿y轴的角度（碰撞箱不变）",
+            "value": "v.diy_leftlowerleg_y",
+            "step": 1.0,
+            "min": -45.0,
+            "max": 45.0
+          },
+          {
+            "type": "range",
+            "title": "左脚x轴旋转: ",
+            "description": "改变左脚x轴的角度（碰撞箱不变）",
+            "value": "v.diy_leftfoot_x",
+            "step": 1.0,
+            "min": -45.0,
+            "max": 45.0
+          },
+          {
+            "type": "range",
+            "title": "左脚指x轴旋转: ",
+            "description": "改变左脚指x轴的角度（碰撞箱不变）",
+            "value": "v.diy_leftfoot2_x",
+            "step": 1.0,
+            "min": -45.0,
+            "max": 45.0
+          },
+          {
+            "type": "range",
+            "title": "§c前裙子角度: ",
+            "description": "改变身前裙子的角度（碰撞箱不变）",
+            "value": "v.diy_skirt_w",
+            "step": 1.0,
+            "min": -180.0,
+            "max": 45.0
+          },
+          {
+            "type": "range",
+            "title": "§c后裙子角度: ",
+            "description": "改变身后裙子的角度（碰撞箱不变）",
+            "value": "v.diy_skirt_s",
+            "step": 1.0,
+            "min": -45.0,
+            "max": 180.0
+          },
+          {
+            "type": "range",
+            "title": "§c左裙子角度: ",
+            "description": "改变左边裙子的角度（碰撞箱不变）",
+            "value": "v.diy_skirt_a",
+            "step": 1.0,
+            "min": -180.0,
+            "max": 45.0
+          },
+          {
+            "type": "range",
+            "title": "§c右裙子角度: ",
+            "description": "改变右边裙子的角度（碰撞箱不变）",
+            "value": "v.diy_skirt_d",
+            "step": 1.0,
+            "min": -45.0,
+            "max": 180.0
+          }
+        ]
+      },
+      {
+        "id": "DIY右腿",
+        "name": "右腿",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "右腿x轴旋转: ",
+            "description": "改变右腿x轴的角度（碰撞箱不变）",
+            "value": "v.diy_rightleg_x",
+            "step": 1.0,
+            "min": -160.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "右腿y轴旋转: ",
+            "description": "改变右腿y轴的角度（碰撞箱不变）",
+            "value": "v.diy_rightleg_y",
+            "step": 1.0,
+            "min": -90.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "右腿z轴旋转: ",
+            "description": "改变右腿z轴的角度（碰撞箱不变）",
+            "value": "v.diy_rightleg_z",
+            "step": 1.0,
+            "min": -90.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "§7右小腿x轴旋转: ",
+            "description": "改变右小腿x轴的角度（碰撞箱不变）",
+            "value": "v.diy_rightlowerleg_x",
+            "step": 1.0,
+            "min": -10.0,
+            "max": 150.0
+          },
+          {
+            "type": "range",
+            "title": "§7右小腿y轴旋转: ",
+            "description": "改变右小腿y轴的角度（碰撞箱不变）",
+            "value": "v.diy_rightlowerleg_y",
+            "step": 1.0,
+            "min": -45.0,
+            "max": 45.0
+          },
+          {
+            "type": "range",
+            "title": "右脚x轴旋转: ",
+            "description": "改变右脚x轴的角度（碰撞箱不变）",
+            "value": "v.diy_rightfoot_x",
+            "step": 1.0,
+            "min": -45.0,
+            "max": 45.0
+          },
+          {
+            "type": "range",
+            "title": "右脚指x轴旋转: ",
+            "description": "改变右脚指x轴的角度（碰撞箱不变）",
+            "value": "v.diy_rightfoot2_x",
+            "step": 1.0,
+            "min": -45.0,
+            "max": 45.0
+          },
+          {
+            "type": "range",
+            "title": "§c前裙子角度: ",
+            "description": "改变身前裙子的角度（碰撞箱不变）",
+            "value": "v.diy_skirt_w",
+            "step": 1.0,
+            "min": -180.0,
+            "max": 45.0
+          },
+          {
+            "type": "range",
+            "title": "§c后裙子角度: ",
+            "description": "改变身后裙子的角度（碰撞箱不变）",
+            "value": "v.diy_skirt_s",
+            "step": 1.0,
+            "min": -45.0,
+            "max": 180.0
+          },
+          {
+            "type": "range",
+            "title": "§c左裙子角度: ",
+            "description": "改变左边裙子的角度（碰撞箱不变）",
+            "value": "v.diy_skirt_a",
+            "step": 1.0,
+            "min": -180.0,
+            "max": 45.0
+          },
+          {
+            "type": "range",
+            "title": "§c右裙子角度: ",
+            "description": "改变右边裙子的角度（碰撞箱不变）",
+            "value": "v.diy_skirt_d",
+            "step": 1.0,
+            "min": -45.0,
+            "max": 180.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "数值配置",
+        "extra_animation": {
+          "sub0extra1": "潮点-20",
+          "sub0extra2": "强制高潮",
+          "#return": "返回",
+          "sub0extra3": "潮点+20",
+          "sub0extra4": "淫乱+20",
+          "sub0extra5": "喝媚药",
+          "sub0extra6": "喝抹茶",
+          "sub0extra7": "淫乱-20"
+        }
+      },
+      {
+        "id": "做爱",
+        "extra_animation": {
+          "CTsub1extra1": "§e躺抱腿",
+          "CTsub1extra2": "§e做瑜伽",
+          "CTsub1extra3": "§e后入位",
+          "CTsub1extra4": "§e骑乘位",
+          "CTsub1extra5": "§eH踞腿",
+          "CTsub1extra6": "§e做桌子",
+          "CTsub1extra7": "§e高抬腿",
+          "CTsub1extra8": "§e擦玻璃"
+        }
+      },
+      {
+        "id": "姿势",
+        "extra_animation": {
+          "#return": "#extra_config7",
+          "CTsub2extra1": "§ejackO",
+          "CTsub2extra2": "§e弓背",
+          "CTsub2extra3": "§e肉壶",
+          "CTsub2extra4": "§eM腿",
+          "CTsub2extra5": "§e趴着",
+          "CTsub2extra6": "§e抬腿",
+          "CTsub2extra7": "§e喷泉"
+        }
+      },
+      {
+        "id": "乳交&口交",
+        "extra_animation": {
+          "CTsub3extra1": "§e深喉",
+          "CTsub3extra2": "§e含挊",
+          "CTsub3extra3": "舔舔",
+          "#return": "返回",
+          "CTsub3extra4": "摸头",
+          "CTsub3extra5": "揉搓",
+          "CTsub3extra6": "裹舔",
+          "CTsub3extra7": "骑胸"
+        }
+      },
+      {
+        "id": "足交&自慰",
+        "extra_animation": {
+          "CTsub4extra1": "踩踩",
+          "CTsub4extra2": "钩住",
+          "CTsub4extra3": "足交",
+          "CTsub4extra4": "搓搓",
+          "#return": "返回",
+          "CTsub4extra5": "磨桌子",
+          "CTsub4extra6": "§e自慰1",
+          "CTsub4extra7": "§e自慰2"
+        }
+      },
+      {
+        "id": "拘束",
+        "extra_animation": {
+          "CTsub5extra1": "§e壁尻1",
+          "CTsub5extra2": "§e壁尻2",
+          "CTsub5extra3": "§e壁尻3",
+          "CTsub5extra4": "§e捆绑1",
+          "CTsub5extra5": "§e捆绑2",
+          "CTsub5extra6": "§e捆绑3",
+          "CTsub5extra7": "阴蒂盒",
+          "#return": "#extra_config7"
+        }
+      }
+    ],
+    "default_texture": "扶桑",
+    "preview_animation": "appear",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/扶桑.png"
+        },
+        {
+          "uv": "textures/扶桑·改.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/2.4.9_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 40739,
+      "sha256": "0bfaced912584a338082f4578285ce61a3c2dbbc6609b2335b7579df71cd98e7"
+    }
+  },
+  "stats": {
+    "file_count": 59,
+    "total_bytes": 16617283,
+    "sha256": "479345f0f4f6786317c138f0eecea7cced65d5c8f617ba3abb24a27dc486f330",
+    "bones": 866,
+    "cubes": 9197,
+    "faces": 55172,
+    "textures": 2,
+    "materials": 2,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 108070,
+      "sha256": "a0d8da85d4a0569ef88d680946118634c0039692ff4b502b85543732dc412507"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 3286,
+      "sha256": "59f353675107dd25fe317c14b1f4aa531500944819b9a0d820c2beb7025997c3"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3337,
+      "sha256": "0c4d4f4a763dc22fa19aae33b5f33b60314e32abd1f40b5219ed255e402933c3"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 1815790,
+      "sha256": "9ad830dd5642f17f0ea2527616f96ceb0dcc8954ed4b49cc859afd80ade029c1"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 321882,
+      "sha256": "9df7c07fb7773e54fa480433ba5c4eaa3e4d690ef23d5f83dd2330101e69a8fc"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 156048,
+      "sha256": "8098a3ad4d69d8147c801b391f74dc4c87c928ee23ca2328fcc32a7562cbe0d3"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1504827,
+      "sha256": "3c594f43d6dc7829207a6e033ed1606d6ab6bb769e0412be7fd37cb762c8fbec"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 42619,
+      "sha256": "4e49705c1953635e5c9d736a7822917660ee5014b44840422125cbf6f2d3a1ce"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 184183,
+      "sha256": "bfa5af8dbfb1405690cf852d1ebbada3d12c880f1e4338ffd2a5fa4bce5f1d9d"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 67007,
+      "sha256": "6889fcb044140fd49a1c17a4247b4d5b4bd1bca8d022c1837c78286c710bca34"
+    },
+    {
+      "path": "avatar/墨子吉安.png",
+      "size": 498562,
+      "sha256": "39f846d944cc14f184b92138cb4af75b50560297ca2392d181b9e375511fb821"
+    },
+    {
+      "path": "avatar/失语喵.png",
+      "size": 335504,
+      "sha256": "9d17036327d92851aca26d36ce12f5c2b3949e07d772fd41d8471edda41f6926"
+    },
+    {
+      "path": "avatar/星语.png",
+      "size": 722683,
+      "sha256": "ee996074f348380c4cc985fd4829297db150f69738405aab358325edefed37e7"
+    },
+    {
+      "path": "avatar/秋枫落叶.png",
+      "size": 521190,
+      "sha256": "9f1e8f7524f547aa5bffa0d1e71fce3d7061e19005bfd94ca009a44c832ad9f4"
+    },
+    {
+      "path": "avatar/雾雨波波沙.png",
+      "size": 15424,
+      "sha256": "8cef33f6652f3492108b149edee061f7cc8cdcc531f8849539dd8664e02741cf"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 17685,
+      "sha256": "67252bf93157f4e5a70fbf60c6369b88dece04ad80b896cf099c8e6c3e6eda9b"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 111916,
+      "sha256": "1a8c2b290ea39ec1501167ef6831b352472799c5cb047f74eec760db1dace718"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 95782,
+      "sha256": "1c46a190424c13770370ea5cd86ba74e51a97f4da216a7b9ca720267fe2d4344"
+    },
+    {
+      "path": "models/main.json",
+      "size": 4977235,
+      "sha256": "ed0bc7cd2dfb95d5094690c1eb7ec8c41764bd8c16ecb3633b0354c121221381"
+    },
+    {
+      "path": "sounds/Hse_bukkake02.ogg",
+      "size": 65056,
+      "sha256": "11780bb2b17cb21f2fcfdf575cd71c6636136babae2a3b9eed019bf5e86ab01a"
+    },
+    {
+      "path": "sounds/Hse_kutyu02.ogg",
+      "size": 57622,
+      "sha256": "b71c52639157f874d028bcc452c1099a40ec2326493ab85c469c65c191d0a325"
+    },
+    {
+      "path": "sounds/Hse_kutyu03.ogg",
+      "size": 28219,
+      "sha256": "c8b39a4653e6165bcb541ab8011c8d5599ac6f4433ed8ee8b68e9d485e1a1018"
+    },
+    {
+      "path": "sounds/Hse_mizu04.ogg",
+      "size": 20311,
+      "sha256": "0d5caa9133c45cffb64b70f15a1e958124f216488800dff00069faf1ca06484d"
+    },
+    {
+      "path": "sounds/Hse_mizu06.ogg",
+      "size": 13493,
+      "sha256": "62518074926f41b705c4a29106b28b77a45706516deb958f4f4eed7d9e36ce84"
+    },
+    {
+      "path": "sounds/Hse_mons01.ogg",
+      "size": 30403,
+      "sha256": "0f88a7f95a37e64cf60e8468794e7f610e17fd8b63729e51ddc4693f06a8257a"
+    },
+    {
+      "path": "sounds/Hse_mons02.ogg",
+      "size": 48757,
+      "sha256": "82045ac6ce8e2f8a08c764c2e928287e06c01c206b238b675c28ba48809ef381"
+    },
+    {
+      "path": "sounds/Hse_mons03.ogg",
+      "size": 28035,
+      "sha256": "6c99ebccff912be2daf97f725dfd215616134ac56373aac743945f3c6b3daba7"
+    },
+    {
+      "path": "sounds/Hse_pop01.ogg",
+      "size": 22331,
+      "sha256": "86a7d69292523329c6b90040b7d44c850cf02b32a4558927c1b6cb7f96950757"
+    },
+    {
+      "path": "sounds/Hse_tekoki01.ogg",
+      "size": 59642,
+      "sha256": "be6520084da634395bac08a1514bcad89f688d9fe9a6f70a6f11d8c73906631f"
+    },
+    {
+      "path": "sounds/SEX1.ogg",
+      "size": 277374,
+      "sha256": "6ec128c1a4baa0ea5a2a2af12b1c2becc0ac8d43bde7c3d96a0308f5ca1eeadc"
+    },
+    {
+      "path": "sounds/SEX2.ogg",
+      "size": 209368,
+      "sha256": "aff891d0a1bbadf44fc819e9c378d305d89976838432b0bf7a72ff75d6a3a610"
+    },
+    {
+      "path": "sounds/SEX3.ogg",
+      "size": 225120,
+      "sha256": "1585887549190940e3545d1dc8177ca0efb0966716358dab36e6f443f8660cfc"
+    },
+    {
+      "path": "sounds/今夜.ogg",
+      "size": 10938,
+      "sha256": "3cf90589efbc910f8f8b0e0e562b015ac9bfa199b69f3b2236ddad82b2302ea0"
+    },
+    {
+      "path": "sounds/出门散步.ogg",
+      "size": 44457,
+      "sha256": "6f7890d4ed7652f7c7b970f26a7d41b15c913344c7195b95697c36904c293a03"
+    },
+    {
+      "path": "sounds/刷子.ogg",
+      "size": 75335,
+      "sha256": "79bad94eb398dccbc035f32dafe4db003047ac6678762ca27e759a4c7491bdc6"
+    },
+    {
+      "path": "sounds/吞咽.ogg",
+      "size": 7301,
+      "sha256": "3bcb017e0dc04f778d22b9b3e3a33d308e4a71cf7e3ea76acad597b0ac8cbb90"
+    },
+    {
+      "path": "sounds/吸溜0.ogg",
+      "size": 123609,
+      "sha256": "8ee853d02fb307745c2e392a0fae49277510c8a1e750cb3c731e71b59cd153e5"
+    },
+    {
+      "path": "sounds/吸溜1.ogg",
+      "size": 28331,
+      "sha256": "d07a4d918a9173dbdc0d036cdf838a882144362435a944122830aec9f5f023f3"
+    },
+    {
+      "path": "sounds/吸溜2.ogg",
+      "size": 15576,
+      "sha256": "4bd50f5fafbabe4dd875ce8a97ffc153c3b17e75e54c21f7878be803b5d5ce90"
+    },
+    {
+      "path": "sounds/吸溜3.ogg",
+      "size": 16522,
+      "sha256": "d0620a66f5ded7d87ede27cda1822982b54ffcb12f98174df9687df7149833df"
+    },
+    {
+      "path": "sounds/吸溜4.ogg",
+      "size": 47194,
+      "sha256": "740ed2e472ec1fda25dfe4d9e52d1289dba3f97404189b1dcf06593fe544a1f9"
+    },
+    {
+      "path": "sounds/吸溜5.ogg",
+      "size": 29513,
+      "sha256": "0c8489891a4185ee39195dae66af7497420ea3485d9cb6e5ca80fe6fa30d690d"
+    },
+    {
+      "path": "sounds/啪.ogg",
+      "size": 5405,
+      "sha256": "28b0f9992942970f41d950c953af439f75aa4ba74c1c9f14f16be8ba6da54813"
+    },
+    {
+      "path": "sounds/喘息1.ogg",
+      "size": 75543,
+      "sha256": "354ce76a299bb8a27089cab87eec441368340e3854738b28533826bfa416ce4b"
+    },
+    {
+      "path": "sounds/喘息2.ogg",
+      "size": 303834,
+      "sha256": "e9e9fabe9d64f97b88e27d09734429fa27bd232fb6ab73b98f31666179485f8c"
+    },
+    {
+      "path": "sounds/喘息3.ogg",
+      "size": 146223,
+      "sha256": "8313424b007748a6f9785f2dc2c56b3b528ff1c98c7a6a5c33fac51bf0c23fcd"
+    },
+    {
+      "path": "sounds/如果您不介意.ogg",
+      "size": 15904,
+      "sha256": "0764aa90168978ecf2b4c1d95bf95638e0e204e0686f95d2999641ed0a7c04e0"
+    },
+    {
+      "path": "sounds/就由扶桑.ogg",
+      "size": 13916,
+      "sha256": "78e6129676c40647e61cedf0ae758dc5804011e6dc01fef21d73b85b84a8b04d"
+    },
+    {
+      "path": "sounds/舔舐.ogg",
+      "size": 275185,
+      "sha256": "f4cfc0fc9843732e8ce01532f334ffe953626603f68e1e71c29c087034a7ac3d"
+    },
+    {
+      "path": "sounds/过来躺好.ogg",
+      "size": 186476,
+      "sha256": "f6261b602ed6001d2b9f8f0d6651ff9bdb4f5abd596274dbbb99bfcdcfa7457a"
+    },
+    {
+      "path": "sounds/震动.ogg",
+      "size": 33397,
+      "sha256": "2d067c8627307c88a4d603152bfc36236e1b0b6af5b3b25b7cb3ba9ee6572f44"
+    },
+    {
+      "path": "sounds/高潮1.ogg",
+      "size": 44389,
+      "sha256": "1556a81ce29e783cdb0b04788f71e5e55e58521a860dcd28f5d05bfc8780d167"
+    },
+    {
+      "path": "sounds/高潮2.ogg",
+      "size": 47969,
+      "sha256": "bd80f196c556352d1fb55acb03493b14fbf826df4193fae9211a050e90fdb0a1"
+    },
+    {
+      "path": "sounds/高潮3.ogg",
+      "size": 29446,
+      "sha256": "a55966f7f6d771c7d816288f73b45cad9e68be80f510907ee8152fb63c8533d3"
+    },
+    {
+      "path": "sounds/高潮4.ogg",
+      "size": 75211,
+      "sha256": "a24abc299f7a0718794ea5675eb68bfb8479a35a8a755e3ca1937d106eecf9c0"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 801,
+      "sha256": "db2f69ca5a624ec0fcefa8fe821de1cc03eaa0ba982dd13dc1fed6056dba5aa5"
+    },
+    {
+      "path": "textures/扶桑.png",
+      "size": 1179418,
+      "sha256": "1e9c702b23ebeb5a22542b692c3e6dc6a3b4f9a318e723550a29aa699465c47d"
+    },
+    {
+      "path": "textures/扶桑·改.png",
+      "size": 1170510,
+      "sha256": "df44eea6555ebdd185a73e0057415379665be263b037b71161d65cc644dc39cb"
+    },
+    {
+      "path": "ysm.json",
+      "size": 26119,
+      "sha256": "9994e983630548266b32daf90ddfe68c084ba047096f7221eb1ea80ba0264a48"
+    }
+  ]
+}

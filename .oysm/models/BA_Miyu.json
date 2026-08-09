@@ -1,0 +1,89 @@
+{
+  "id": "BA_Miyu",
+  "path": "parsed/BA_Miyu",
+  "source": {
+    "path": "_BlueArchive/BA_Miyu.ysm",
+    "type": "ysm",
+    "stem": "BA_Miyu"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "BA_Miyu"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "meiyou.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Miyu_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4214,
+      "sha256": "0d45d0b3e261532ae1f80b0e450a6737bc72324c29453ea5d77c284759f3836b"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 1501271,
+    "sha256": "3bc20bc48814a941570fb486069fb0874cdd1f6f207f6007c3e23f2ea35fa345",
+    "bones": 198,
+    "cubes": 412,
+    "faces": 2472,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 3758,
+      "sha256": "f336bc818fa18fa007e6f7a32c8ce2a9b663b31268320e39e5ceb4e35c1dcf07"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 41810,
+      "sha256": "307d9ebab7ff563b141d41a543988e6e7e2284afe6938f1be52112620f194bd6"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 115694,
+      "sha256": "aefbf641a7f676b500d5854e83acd55cd1449b75c05fc34fc89dd942193409c5"
+    },
+    {
+      "path": "main.bbmodel",
+      "size": 1260419,
+      "sha256": "1bf732684298e226734d54cd3b63bd8cb23c2b79413746047392c8fb5e2797c6"
+    },
+    {
+      "path": "main.json",
+      "size": 68127,
+      "sha256": "3335a329f8dcea2ea155789deebe87e573b79ddc6562de46ea1256395fe75579"
+    },
+    {
+      "path": "meiyou.png",
+      "size": 11463,
+      "sha256": "93320a20048d3ebdf1aa38f8a978dbd29754b43af11eddb30b7cc8abc2d514ae"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "id": "_moeya",
+  "path": "parsed/_moeya",
+  "source": {
+    "path": "Uncategorized/_moeya.ysm",
+    "type": "ysm",
+    "stem": "_moeya"
+  },
+  "ysm": "parsed/_moeya/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/提可拉.png",
+        "comment": "苯狐狸",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "name": "提可拉",
+        "role": "[模型，贴图，动画]"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "ALL Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/6Canim",
+      "home": "https://space.bilibili.com/326133289?spm_id_from=333.1007.0.0"
+    },
+    "name": "摩耶",
+    "tips": "兽耳系列~"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "坐",
+      "extra1": "招呼",
+      "extra2": "哈气",
+      "extra3": "可以",
+      "extra4": "不行",
+      "extra5": "ODL",
+      "extra6": "手摇",
+      "extra7": "乞讨",
+      "extra9": "#example_config"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "example_config",
+        "name": "动画控制",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "表情控制: ",
+            "description": "0无，1微笑，2~~,3赌气,4呆,5哈气，6无语，7凶",
+            "value": "variable.facial",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 7.0
+          },
+          {
+            "type": "range",
+            "title": "眼睛控制: ",
+            "description": "0无，1>，2<,3><",
+            "value": "v.value_eyesrange",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 3.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "main",
+    "preview_animation": "idle",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/moeya_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8958,
+      "sha256": "53681d021d72385ca2b0592d81ae6117254aa11fe729cc54b547edd303d56ab8"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 1078721,
+    "sha256": "6d44c1c3ca006abb689449d79ab6a5b00dd2cdbc375a070ce787c3df77710d7b",
+    "bones": 153,
+    "cubes": 711,
+    "faces": 4266,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/main.animation.json",
+      "size": 235644,
+      "sha256": "ebe8d7dd9028be167aa24c37976588d7e35e8784baed8779185cd4010fb5e3da"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182125,
+      "sha256": "e76699911c7233333795f9757641e4ca696b154bdb972058601dac1f3a4db3c5"
+    },
+    {
+      "path": "avatar/提可拉.png",
+      "size": 221559,
+      "sha256": "7551a3169d3e0a02787b9561891ee4661b55dfa6b8f8c2a1125082899d21c752"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 40832,
+      "sha256": "67fdb62e993348092878d4645f878cd3a75ce03d81c1346248542b8d1d1d28a0"
+    },
+    {
+      "path": "models/main.json",
+      "size": 349334,
+      "sha256": "1fbbe904e60810c75643c20f29804553333dbad0287a973f457c4209a08e4382"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 47715,
+      "sha256": "2fd624f44806440cb0bbb80e6bfc7a1b2b239cf5abc1f0a7b809edab949e4c2a"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1512,
+      "sha256": "5aab956c2b738baddc0c53092e19ed0d5b5147189ae32de50115556784c9ca8b"
+    }
+  ]
+}

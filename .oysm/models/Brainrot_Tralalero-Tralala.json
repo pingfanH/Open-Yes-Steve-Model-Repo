@@ -1,0 +1,212 @@
+{
+  "id": "Brainrot_Tralalero-Tralala",
+  "path": "parsed/Brainrot_Tralalero-Tralala",
+  "source": {
+    "path": "_Meme/Brainrot_Tralalero-Tralala.ysm",
+    "type": "ysm",
+    "stem": "Brainrot_Tralalero-Tralala"
+  },
+  "ysm": "parsed/Brainrot_Tralalero-Tralala/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "",
+        "name": "泉溪",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Default",
+    "tips": "默认模型（Default Model）"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra1": "请输入文本"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "Simple Config",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Brainrot_Tralalero-Tralala_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 2074,
+      "sha256": "ed987de1582e710149e9c34bee36698ab83917a7dba2b6ffac9bb7c0a52ed138"
+    }
+  },
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 727527,
+    "sha256": "82debe7dc11c67b2f2e996b09b86871bf9cfa899981bc9a5e542548f4976c0fe",
+    "bones": 59,
+    "cubes": 108,
+    "faces": 648,
+    "textures": 2,
+    "materials": 2,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 161931,
+      "sha256": "1c054a298a970206e6b16269abe7d9377c00aa197d20c8c8c6dfa7cd8d3e568d"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 104696,
+      "sha256": "89e0e399fd477e76d501ee5e9d841e43851ba83e39bb2b2385a73ea50d36f74f"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 81953,
+      "sha256": "2eee4fd9b8c39a10f9db7283e598876fcb6e58ef34f6c4b28a554ebe40dfbc08"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "avatar/泉溪.png",
+      "size": 7683,
+      "sha256": "c58a5058352f2c366a9f0c7f0b1b869c461f3ce98ee2e54466a08e4ebb749c71"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 617,
+      "sha256": "58a5a4f99a17e863505e5d985c5342fafccf53eeb5799a572dff4156086be4ad"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 10747,
+      "sha256": "5f73959371c54d180af1c163938e5bd949c19dc5187b449c363203f23ed5ca69"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13725,
+      "sha256": "605fc04a716cfd12d30b5d6fb5d6db461504bd2f8da602fe078a4f57b4d71c71"
+    },
+    {
+      "path": "models/main.json",
+      "size": 48752,
+      "sha256": "b78116386a540b29335af9765f926e87a0b5de84b67ed81c36bdb1dc69144b89"
+    },
+    {
+      "path": "sounds/tlllltlll.ogg",
+      "size": 93635,
+      "sha256": "1ba95b8ecdea90d8dda26743ae4af8dc4dfd2a90b638ee05fb6aec65b00ce29e"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2689,
+      "sha256": "efdf744f6f8a747cafa4cc79551a9ccef3fc36e9c81e9535a132ceb8220638e6"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 11115,
+      "sha256": "3d6ee25dd9507b59b1f9c436d3dcb9203c7b871121b7bd7907109916d38ecafc"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 3574,
+      "sha256": "72585ff570c1acb02cc61f6219a33d65ea1bb6eaca9045e3c4373f7b10a9e99a"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1494,
+      "sha256": "513fc9468750ea471a0c67771c88a1bf36dbd48874bc449f95e5ea7e1284ab12"
+    }
+  ]
+}

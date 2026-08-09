@@ -1,0 +1,83 @@
+{
+  "id": "BA_Asuna",
+  "path": "parsed/BA_Asuna",
+  "source": {
+    "path": "_BlueArchive/BA_Asuna.ysm",
+    "type": "ysm",
+    "stem": "BA_Asuna"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "BA_Asuna"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "stiched_texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Asuna_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8172,
+      "sha256": "f70c0633cfb7b4464b419f14c43156cc90252f8d3ba57924126b01a067af6667"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 1841586,
+    "sha256": "ec1a8c7cd0e459a187df5c7b04da5f8433cac53e42992ddcacfecab8ab0701b7",
+    "bones": 176,
+    "cubes": 584,
+    "faces": 3504,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 2587,
+      "sha256": "656a2be36e705d5729a1e7347e9bb8409e864f73aad8aaabff5ba78c17ddd6cf"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 157825,
+      "sha256": "a8737985790a33d6ec2498e3451649d289c64a1fbb015f89421197c1c55cf308"
+    },
+    {
+      "path": "main.json",
+      "size": 87469,
+      "sha256": "fa504e686fb855a666786966e8c409af745fd57ef563d2481df4f0c1d77413eb"
+    },
+    {
+      "path": "mra.bbmodel",
+      "size": 1581166,
+      "sha256": "2ae3bd29905833cdc0ab3da4d9565eb98a262d473ff3067e295ac311a10bf2f8"
+    },
+    {
+      "path": "stiched_texture.png",
+      "size": 12539,
+      "sha256": "81e9a64d33dcc16ac1014c56abc13099bb6de1e39c4ba56d705f054a3e0c040d"
+    }
+  ]
+}

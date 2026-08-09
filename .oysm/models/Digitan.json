@@ -1,0 +1,93 @@
+{
+  "id": "_Digitan",
+  "path": "parsed/_Digitan",
+  "source": {
+    "path": "Uncategorized/_Digitan.ysm",
+    "type": "ysm",
+    "stem": "_Digitan"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_Digitan",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "DD1.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Digitan_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11490,
+      "sha256": "2af5538313d8863e7b4748e7c76727827ba07abcec4dd6a6c8a5ff0c1aa0ccb1"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 482467,
+    "sha256": "24a479cc993390f082455a712d218d2855d458f38d684c2bb36b69572e74d55f",
+    "bones": 121,
+    "cubes": 359,
+    "faces": 2154,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "DD1.png",
+      "size": 49628,
+      "sha256": "08da13dc6f9d83db51839ceb2a5b4f9170de193ac08945b7cc02ca9b9f72c0e6"
+    },
+    {
+      "path": "arm.animation.json",
+      "size": 51070,
+      "sha256": "e8b4a6d8ebdd57bdb01427bd99afe6adcf7704723153572015b56852f551293b"
+    },
+    {
+      "path": "arm.json",
+      "size": 7005,
+      "sha256": "cea75d9c1a1eaf0154d2b01b1e95254835275ac079e845a3d29b8ab8c8331e82"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 51491,
+      "sha256": "4f026c0bce5f0882fd316c5e2a475db2038c01eef429e9ef4a61aa88527be65f"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 140020,
+      "sha256": "56c906128f12aef5bc04d43f76117f796642422d08e6c09aed69af0985f1b459"
+    },
+    {
+      "path": "main.json",
+      "size": 183253,
+      "sha256": "764137985987d01ab5fcb3929d9e57cdfbf404c84113fb930061376afd3c9da4"
+    }
+  ]
+}

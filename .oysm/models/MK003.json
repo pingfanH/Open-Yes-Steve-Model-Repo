@@ -1,0 +1,125 @@
+{
+  "id": "MK003",
+  "path": "parsed/MK003",
+  "source": {
+    "path": "Unknown/MK003.zip",
+    "type": "zip",
+    "stem": "MK003"
+  },
+  "ysm": "parsed/MK003/ysm.json",
+  "metadata": {
+    "name": "测试模型MK003",
+    "tips": "测试模型MK003，因为是练手作而不是该形象计划中的最终效果，因此暂时没有命名，之后作者会随技术力进步而优化该模型，完整形象敬请期待",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "准尉Werner",
+        "role": "模型",
+        "avatar": "avatar/ZW.png",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/23427031"
+        },
+        "comment": "已有之事，后必再有；已行之事，后必再行。"
+      }
+    ]
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "preview_animation": "idle",
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json"
+      },
+      "texture": [
+        "textures/texture.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/MK003_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3949,
+      "sha256": "24e8d5368a9579dca4f95c3504b566df0bd4cadcfbd3e0f3ef9d2f1641a5f481"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 735324,
+    "sha256": "f69dc79d27638a50a0472f1f32496e57ca210cc5bbd05ee4df32cfba5b752ac0",
+    "bones": 63,
+    "cubes": 442,
+    "faces": 2652,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 189675,
+      "sha256": "62641ede20a9d53a593a8ce1dc4ce5d84eb9932ebe0a54bc9ac454e6455e5a6e"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 185159,
+      "sha256": "b627d183248fc8039cca36c8fc9475d9310019e1d2c0c52d1aaf96caa86cab50"
+    },
+    {
+      "path": "avatar/ZW.png",
+      "size": 127121,
+      "sha256": "023807d11a27e37172fd0c45a89b1d9c51e750e1aaaaf1b7f3ca43cf76ce1fc2"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 8762,
+      "sha256": "720b3060d3cadf9730dbecbd102f4e542ab825e4ad68b62825a5b396a83712d9"
+    },
+    {
+      "path": "models/main.json",
+      "size": 215028,
+      "sha256": "c19535507e97038e5bac1aa98c060aff51e80abfbff995c54f95656949db5adb"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 8207,
+      "sha256": "9a44d148cb1600919d0caaef4d8dc8be824aa4558d002556a6c33b9321841914"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1372,
+      "sha256": "52166affd06438fadd7e1a3b7820fa72a706a604941e7b5e47df00a97f5f6fbe"
+    }
+  ]
+}

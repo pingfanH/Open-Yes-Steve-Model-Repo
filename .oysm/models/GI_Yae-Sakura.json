@@ -1,0 +1,108 @@
+{
+  "id": "GI_Yae-Sakura",
+  "path": "parsed/GI_Yae-Sakura",
+  "source": {
+    "path": "_GenshinImpact/GI_Yae-Sakura.ysm",
+    "type": "ysm",
+    "stem": "GI_Yae-Sakura"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§d八重神子",
+    "tips": "§8普通版\n§8食用方式：\n铁剑——专武",
+    "authors": [
+      {
+        "name": "§c烈鸟比百§8（模型）"
+      },
+      {
+        "name": "§bWone_J§8（动作）"
+      }
+    ],
+    "license": {
+      "type": "All Rights Reserved"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "ss.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Yae-Sakura_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10860,
+      "sha256": "4fcb6990ad769ab91e124c060834d4e1bc99703b40281e40a9c5cdae5acea97b"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 2512079,
+    "sha256": "bda2dc75e2c287070d05bda5b821b041f8df3584609c95d4e95757092c5c89a5",
+    "bones": 178,
+    "cubes": 1241,
+    "faces": 7446,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 64012,
+      "sha256": "cb2ffa974bad519dc1f09375de75ff0d75be4adccf5e7e381443578aaca0bd67"
+    },
+    {
+      "path": "arm.json",
+      "size": 57152,
+      "sha256": "034f699bfc8256bc0d0359c51d041c4d5e59599178639ebbae4e0bfa0a2eff39"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 1128912,
+      "sha256": "e1dbc8a77f2bc901c77de3659dfd150ba5fd5a3a3e6ae3129209924874cb2524"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 453611,
+      "sha256": "cddc5af1a9e71fae6129d43b18ce0a557f541034be5bbb38868b982399c817b0"
+    },
+    {
+      "path": "main.json",
+      "size": 633968,
+      "sha256": "e15f4d6682f70d92e2a78ac3358df2687839b10e5e2c1e1ca4a228473446db21"
+    },
+    {
+      "path": "ss.png",
+      "size": 33553,
+      "sha256": "4abb3cb2c8501d5c8606871495b781c9d7107641b0f3853aae2fd4133f159d17"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 140871,
+      "sha256": "72e255776454327b3488ec24606a7e6784f7fc6190eb56fc853a11bc3e987dc2"
+    }
+  ]
+}

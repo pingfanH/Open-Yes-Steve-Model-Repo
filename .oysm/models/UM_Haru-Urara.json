@@ -1,0 +1,163 @@
+{
+  "id": "UM_Haru-Urara",
+  "path": "parsed/UM_Haru-Urara",
+  "source": {
+    "path": "_UmaMusume/UM_Haru-Urara.ysm",
+    "type": "ysm",
+    "stem": "UM_Haru-Urara"
+  },
+  "ysm": "parsed/UM_Haru-Urara/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/LuXi233.png",
+        "comment": "YSM作者",
+        "contact": {
+          "Afdian": "None",
+          "Bilibili": "https://space.bilibili.com/183485702"
+        },
+        "name": "LuXi233",
+        "role": "模型、上色、动作"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "春乌拉拉",
+    "tips": "ハルウララ うららん一等賞♪"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "卖萌",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "是的",
+      "extra4": "不行",
+      "extra5": "庆祝",
+      "extra6": "神秘的舞蹈",
+      "extra7": "舞蹈"
+    },
+    "preview_animation": "run",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/UM_Haru-Urara_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8839,
+      "sha256": "81da9f2d3894d807d044d9857ff30e39e7c1dba009fe05626b118201cd10941a"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 1643488,
+    "sha256": "404f825288609ac427513aeee484826e0c442b59a12dd0ad073721e7ef53bdfe",
+    "bones": 93,
+    "cubes": 291,
+    "faces": 1746,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136637,
+      "sha256": "f795d670b8e2553548348161425e21c7a8f4c2b78d4602d33c8ccc1f03f537b3"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 117880,
+      "sha256": "974eb550ce9ba1c74497e3701d5e6514a60ef8bfc63369a5fbd1ce68cf002a76"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 221929,
+      "sha256": "80ebfe3cc2f162dd19507b21326e9147c06e1bc0f6104345b19c1da80068f29f"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/LuXi233.png",
+      "size": 609469,
+      "sha256": "31416cc64ffcba4fb65f4c5c86986985cd4c8000aa863b55e709dc0b229f376c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 9581,
+      "sha256": "4bf9a55bae760c5653d92f2a958de1488054e1c5456caaa0f0a3b5bc8d412770"
+    },
+    {
+      "path": "models/main.json",
+      "size": 147987,
+      "sha256": "8fda99b56ba3f03c896845fa6f25dde140022b02c3468fcb310a945dbcd15817"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 39800,
+      "sha256": "dfe0b9609eb77bff7b04e759e43b917cafd787c6041178215564a7ed3a6c02f2"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1144,
+      "sha256": "289df9adf257a3731ff862f2e12ec95cc7b3fcf2a775807bc4adef188dacc400"
+    }
+  ]
+}

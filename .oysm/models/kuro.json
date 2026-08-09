@@ -1,0 +1,306 @@
+{
+  "id": "kuro",
+  "path": "parsed/kuro",
+  "source": {
+    "path": "Unknown/kuro.ysm",
+    "type": "ysm",
+    "stem": "kuro"
+  },
+  "ysm": "parsed/kuro/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/伍炎.png",
+        "comment": "",
+        "contact": {
+          "B站": "https://space.bilibili.com/347376421"
+        },
+        "name": "伍炎",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "name": "Kuro（小黑）",
+    "tips": "来自Favorite的《樱花、萌放。》中的角色小黑\n\n模型免费请勿用于商用！"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "extra5": "耶(＾－＾)V",
+      "#更多动作": "更多动作",
+      "空1": "#可选配置",
+      "空2": "#可调配置"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "可选配置",
+        "name": "可选配置",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "耳朵",
+            "description": "开关猫耳",
+            "value": "v.ear"
+          },
+          {
+            "type": "checkbox",
+            "title": "尾巴",
+            "description": "开关猫尾",
+            "value": "v.tail"
+          },
+          {
+            "type": "checkbox",
+            "title": "脸红组件",
+            "description": "开关脸红",
+            "value": "v.lh"
+          },
+          {
+            "type": "radio",
+            "title": "表情组件",
+            "description": "切换表情",
+            "value": "v.bq",
+            "labels": {
+              "默认": "v.bq=0;v.mr=1;v.ahh=0;v.smile=0;v.jx=0;v.xxy=0;v.sleep=0",
+              "流汗黄豆": "v.bq=1;v.mr=0;v.ahh=1;v.smile=0;v.jx=0;v.xxy=0;v.sleep=0",
+              "笑": "v.bq=2;v.smile=1;v.mr=0;v.ahh=0;v.jx=0;v.xxy=0;v.sleep=0",
+              "惊吓": "v.bq=3;v.jx=1;v.smile=0;v.mr=0;v.ahh=0;v.xxy=0;v.sleep=0",
+              "星星眼": "v.bq=4;v.xxy=1;v.mr=0;v.ahh=0;v.smile=0;v.jx=0;v.sleep=0",
+              "睡脸": "v.bq=5;v.sleep=1;v.mr=0;v.ahh=0;v.smile=0;v.jx=0;v.xxy=0"
+            }
+          }
+        ]
+      },
+      {
+        "id": "可调配置",
+        "name": "可调整项",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "人物大小",
+            "description": "调整人物大小倍率（0.8~1，默认为0.8倍）",
+            "value": "v.body",
+            "step": 0.01,
+            "min": 0.8,
+            "max": 1.0
+          },
+          {
+            "type": "range",
+            "title": "摆尾速度",
+            "description": "调整尾巴摆动速度（-1~1，0为正常速度，-1为完全停止）",
+            "value": "v.bw",
+            "step": 0.1,
+            "min": -1.0,
+            "max": 1.0
+          },
+          {
+            "type": "range",
+            "title": "X轴",
+            "description": "微调人物X轴坐标",
+            "value": "v.kuro_x",
+            "step": 0.5,
+            "min": -10.0,
+            "max": 10.0
+          },
+          {
+            "type": "range",
+            "title": "Y轴",
+            "description": "微调人物Y轴坐标",
+            "value": "v.kuro_y",
+            "step": 0.5,
+            "min": -10.0,
+            "max": 10.0
+          },
+          {
+            "type": "range",
+            "title": "Z轴",
+            "description": "微调人物Z轴坐标",
+            "value": "v.kuro_z",
+            "step": 0.5,
+            "min": -10.0,
+            "max": 10.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "更多动作",
+        "extra_animation": {
+          "calling": "小黑来电",
+          "靠墙": "靠墙",
+          "坐下": "坐下",
+          "休憩": "休憩"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/main.animation_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "vehicles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/vehicle/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/kuro_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4672,
+      "sha256": "785176e8af65c60dfa8339f4fdc65303e4352d744ec8538d634d39670f22402f"
+    }
+  },
+  "stats": {
+    "file_count": 18,
+    "total_bytes": 3715192,
+    "sha256": "adf19fe0764ac6714904ff86b6bae21679fcef4ac9a0abe7d9b2b8cddfe86837",
+    "bones": 319,
+    "cubes": 1361,
+    "faces": 8166,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178390,
+      "sha256": "33859699246921e2b6404a8c295e48a47c27684adee1593da9748977034babe5"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2205,
+      "sha256": "e72318bf4063894112277e3a9953728b4e62b5480dfe13e52fc1109b77595ad8"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 113678,
+      "sha256": "1f8ce01d0469560a62556c09ab7bf825ba39fbe7ae171ebc75a0d3cdbcb32182"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 215428,
+      "sha256": "b9b01b46ac53c24fb11e1439131d25269ccc02507ec12f390eccf8af22754e5d"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139176,
+      "sha256": "8fe9cecfd2b6dee8e25f57a7b24ac7620a05a24af847d4a990717721610e3fd9"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2021655,
+      "sha256": "02baa79d73b21da9353d02950c3c82413a43b94d572d94e9a9c5639fa1b44ee3"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 32914,
+      "sha256": "99403aea30c0e2b04b823f552c46ba6b130034c3c0efd99968e50db3d2d1bd55"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182129,
+      "sha256": "154e4453c08c2641937b90f072d6315bd26b8142eca60245172eeee76bd00f91"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 49611,
+      "sha256": "709cc1f2f5a9aea24314bde0b0cf5bbb49c0028bb38a585a9be42e3193c1b0d0"
+    },
+    {
+      "path": "animations/vehicle/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "avatar/伍炎.png",
+      "size": 6494,
+      "sha256": "971560222647b93a89957fdef6fd31edfed6bb1f42544e871358a73b26c9d93b"
+    },
+    {
+      "path": "controller/main.animation_controllers.json",
+      "size": 1316,
+      "sha256": "8cec357adb05ce862b2cf8143827d336f0435bef4c9a4694bfb0bc92c1271be3"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 65543,
+      "sha256": "747220a2bc20d1fff3be1b80c11522e0e4d8323be56ccd451e4d65577a444f04"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13752,
+      "sha256": "3afa51fa99152b689875ef25ca5853f92d4ccd0e44caf11d5ef58aa5413ccfbe"
+    },
+    {
+      "path": "models/main.json",
+      "size": 684066,
+      "sha256": "838662439ad4f585a7928e5facc9c4b54744bad58dc9f319d5bcfa90792d1eac"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 854,
+      "sha256": "205e4da892496567b38d2d5fa9efa703c22e1c8e9ef2b0d7ecd32c5b0682fa3a"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 4256,
+      "sha256": "cf7441ce4c505f5ed2b710c9ef3def7728c57c0c09dfb97af1305babe141e6e2"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3259,
+      "sha256": "df0551c974c7efed9ae45c6940581fa569251773393c1573e5d1c7620336d540"
+    }
+  ]
+}

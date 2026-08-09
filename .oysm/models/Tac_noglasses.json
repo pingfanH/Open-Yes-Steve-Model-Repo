@@ -1,0 +1,132 @@
+{
+  "id": "_Tac_noglasses",
+  "path": "parsed/_Tac_noglasses",
+  "source": {
+    "path": "Uncategorized/_Tac_noglasses.zip",
+    "type": "zip",
+    "stem": "_Tac_noglasses"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_Tac_noglasses"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "dead.png",
+        "tac1.png",
+        "tac2.png",
+        "tac3.png",
+        "tac4.png",
+        "tac5.png",
+        "tac6.png",
+        "taccamoforest.png",
+        "tacsnowcamo.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Tac_noglasses_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9556,
+      "sha256": "546ec6ee6dd4f0677a6c459f10d6cef73f61d9de1ba3aeaad718f7175bc1848d"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 907881,
+    "sha256": "7577cb07651ed26413a66aa237522511dc0748a669374b856b7f1dc71e159f67",
+    "bones": 75,
+    "cubes": 413,
+    "faces": 2478,
+    "textures": 9,
+    "materials": 9,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 20278,
+      "sha256": "976cfaaf14c43ee2393b90683fdaa7c87b3c4ae0a19bc575b6843c1a51cc8a7c"
+    },
+    {
+      "path": "dead.png",
+      "size": 40399,
+      "sha256": "52569d616c2c776ba61f7c441c90c32c7d191cc69918535248db0672ebb56fb1"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 143873,
+      "sha256": "4f6dfb40fb12dc2531b64b221097ea2b601a6b1dc23288a0d1a0d17a86d5823d"
+    },
+    {
+      "path": "main.json",
+      "size": 230862,
+      "sha256": "8ee6473f6f0213b4d2a308e0e786f0d4a6f2ed0050da441d9a18ddb307dd5771"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 158017,
+      "sha256": "87f89948b53f2d189599109525654e4191755196624df21444ad6824d70af625"
+    },
+    {
+      "path": "tac1.png",
+      "size": 37198,
+      "sha256": "23f910a7466f365e322388b52a3abd9d68c30ed4683d392d7aa46c0d25bf50ad"
+    },
+    {
+      "path": "tac2.png",
+      "size": 37335,
+      "sha256": "5ca45c5beb667076a37c18077796c5800dbc23d0146e539ed2c481e1158a8787"
+    },
+    {
+      "path": "tac3.png",
+      "size": 37321,
+      "sha256": "1c445e0983d4e004f629f392298f1c915ac3c571503d87008d2e272e41a14942"
+    },
+    {
+      "path": "tac4.png",
+      "size": 37327,
+      "sha256": "52dc87cac30fb2ca5c20f55ea41a14ea500307bb2054935f1ee3e2c0cdbf3544"
+    },
+    {
+      "path": "tac5.png",
+      "size": 37322,
+      "sha256": "a2fd4b172519162caab277063be7c85dbf988fc5a52f02bd578bf39337bc89d2"
+    },
+    {
+      "path": "tac6.png",
+      "size": 37439,
+      "sha256": "bfbed75970f171c6139f195faf06bccfe20b02bc4aecad8acfd269023e31d2ee"
+    },
+    {
+      "path": "taccamoforest.png",
+      "size": 52900,
+      "sha256": "90ca71d4fbe33ffb6ec9b6affba6343693f69135eb036106b7c5dc61fe24c1d4"
+    },
+    {
+      "path": "tacsnowcamo.png",
+      "size": 37610,
+      "sha256": "4870db1801bd2bd2f6acc34bfc9a7ec4c3fae7e4bc99f1fdf08c7086a929d70b"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "BA_Rio",
+  "path": "parsed/BA_Rio",
+  "source": {
+    "path": "_BlueArchive/BA_Rio.ysm",
+    "type": "ysm",
+    "stem": "BA_Rio"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "BA_Rio"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "liying.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Rio_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7397,
+      "sha256": "5695b4a686f67eca5629b5340de8bc86eae766211e0a8ff9ff4b691d0636f69d"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 1532579,
+    "sha256": "fac5b46be3c265196a1251ce51fd070d55bd14771a53efd58df951e5937345aa",
+    "bones": 148,
+    "cubes": 325,
+    "faces": 1923,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 137652,
+      "sha256": "6bd35ac18bd6507437eb57041fc4b5ddade6f90e3331744c3d22454537aa6c48"
+    },
+    {
+      "path": "arm.json",
+      "size": 11512,
+      "sha256": "ecaae60c9fc2ca591f35fcaf2a5baf697079c908e5734f419ce0786c09028e7a"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 239929,
+      "sha256": "ea6c4f7ed188dcbb36daff27e199d4fd101cc341471d5782137bbcb3d4d03085"
+    },
+    {
+      "path": "liying.png",
+      "size": 30331,
+      "sha256": "1efd2c42716057de914cf539f588d0e4a92237b7196b17ad513a68f305b31bd5"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 753903,
+      "sha256": "a28b4eb73788a24cbbe57f570568b59b0a92efb80686bfac9b592da0e1c4c71f"
+    },
+    {
+      "path": "main.json",
+      "size": 173672,
+      "sha256": "fe51658bcc823afc6b6f29779481822486b9cda78e3c692a32e252d4e94eaaea"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 185580,
+      "sha256": "ecf12433ca1854afa1caeaadc9ba310c38591e9972dabe8ef57686fd6aa972e1"
+    }
+  ]
+}

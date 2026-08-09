@@ -1,0 +1,98 @@
+{
+  "id": "HSR_HuoHuo",
+  "path": "parsed/HSR_HuoHuo",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_HuoHuo.ysm",
+    "type": "ysm",
+    "stem": "HSR_HuoHuo"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "藿藿",
+    "authors": [
+      {
+        "name": "B站幻古诗"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "huohuo.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_HuoHuo_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 25867,
+      "sha256": "a90fe1a084a4d8bf1ab99a9709eb08695c37db437697367ea6b79d3069d8af3c"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 946300,
+    "sha256": "66df3039f831e95cf143c088d237a15fd4c43d1f890a8dc53a407e6346f846bc",
+    "bones": 144,
+    "cubes": 990,
+    "faces": 5940,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 207051,
+      "sha256": "abe4d5176ba041e0f93ec6ebbf449088a5ae17e0db85ea97c134e8979f4ff461"
+    },
+    {
+      "path": "arm.json",
+      "size": 34960,
+      "sha256": "c909513110b842187b88219c67ec38cce712f97e5adeea5c2fd0dbd6e7c80f8d"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 1397,
+      "sha256": "2e46d175f8d50da7c6e32c37f5ae65b0e20e23117e0cb1159b1cc41672577434"
+    },
+    {
+      "path": "huohuo.png",
+      "size": 15635,
+      "sha256": "6406e784d529803c56a127632c4b7dc2a4eed6f6156e9758ed0dbf1fbc564178"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 207051,
+      "sha256": "abe4d5176ba041e0f93ec6ebbf449088a5ae17e0db85ea97c134e8979f4ff461"
+    },
+    {
+      "path": "main.json",
+      "size": 480206,
+      "sha256": "7d10c18c68002f5aa4d1d7299941190340266f9ccfabe8227ad0353fc3ca160c"
+    }
+  ]
+}

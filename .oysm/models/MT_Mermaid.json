@@ -1,0 +1,78 @@
+{
+  "id": "MT_Mermaid",
+  "path": "parsed/MT_Mermaid",
+  "source": {
+    "path": "Uncategorized/MT_Mermaid.ysm",
+    "type": "ysm",
+    "stem": "MT_Mermaid"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "MT_Mermaid"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/MT_Mermaid_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9086,
+      "sha256": "039a432d8eadefd3de0e200d7fb268d59175cb16e7760cb0c80be50f19b407dc"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 267884,
+    "sha256": "ee0f9b928638a66a73e3a085f931eb8e9121f91e7256f594c294bdfd6177bbf9",
+    "bones": 47,
+    "cubes": 348,
+    "faces": 2088,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 9367,
+      "sha256": "6af8dc6c3d42ff9e2dc0294a34643866c5884cf28c2af5144d0c85d4f7e0ef29"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 40725,
+      "sha256": "5d4af8eb03145a640281fea55815238cab4e4ed3943a5c0513fc07a7e6442239"
+    },
+    {
+      "path": "main.json",
+      "size": 187898,
+      "sha256": "0b1482984d38231cf594339b0264284385cfd413d84862aa6112f0ebd3d66b9c"
+    },
+    {
+      "path": "texture.png",
+      "size": 29894,
+      "sha256": "fdd0ddf078cb4566053c119f014b09432ea00a76f606487e33498757f36e20eb"
+    }
+  ]
+}

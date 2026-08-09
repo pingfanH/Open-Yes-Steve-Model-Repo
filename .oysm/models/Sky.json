@@ -1,0 +1,175 @@
+{
+  "id": "_Sky",
+  "path": "parsed/_Sky",
+  "source": {
+    "path": "Uncategorized/_Sky.ysm",
+    "type": "ysm",
+    "stem": "_Sky"
+  },
+  "ysm": "parsed/_Sky/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/LuXi233.png",
+        "comment": "YSM作者",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/183485702"
+        },
+        "name": "LuXi233",
+        "role": "模型、上色、动作"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "青云天空",
+    "tips": "呀呼～我是青雲天空喔～\r\n適度又隨便地悠閒過生活吧～\r\n……要釣大魚的話，耐心等待也很重要對吧？"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "卖萌",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "是的",
+      "extra4": "不行",
+      "extra5": "庆祝",
+      "extra6": "扭腰",
+      "extra7": "敬礼【重炮】",
+      "extra8": "待机动作【重炮】",
+      "extra9": "坐下【重炮】",
+      "extra10": "鸭子坐【重炮】",
+      "extra11": "Hello~【青云】",
+      "extra12": "诶？【青云】",
+      "extra13": "出发~【青云】",
+      "extra14": "抱头【青云】",
+      "extra15": "笑【青云】",
+      "extra16": "展示鱼获【青云】",
+      "extra17": "吓到【青云】",
+      "extra18": "困了【青云】",
+      "extra19": "卖萌【青云】",
+      "extra20": "午睡【青云】"
+    },
+    "preview_animation": "extra12",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Sky_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13281,
+      "sha256": "b25d58a9c44d2ec8c34ea7ffe91a5b749ba4bf9a17c35483e2bcc04c71b79615"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 1789978,
+    "sha256": "39776be9e3c989d0c1a57f43d0f7feaf7afe9546424226229e4ea998c7c910e6",
+    "bones": 127,
+    "cubes": 590,
+    "faces": 3540,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136999,
+      "sha256": "146f900ffa1e3864884648cfa75c8c002ab4c9db1507d9541dd384069af71982"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 62020,
+      "sha256": "8bcffb22a77553d14828ef5fba8c587817e949c22bca8356725f4e4a55c3863c"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 222654,
+      "sha256": "c2222e99ec731940c8d3d3b0bb937384309c4993925411b1a5fa9b4ce39e8372"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 131955,
+      "sha256": "0c569ced50b84c5ce95197b4ea4148305506b58c8f2b30d33c8ab2d749fa16f8"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/LuXi233.png",
+      "size": 609469,
+      "sha256": "31416cc64ffcba4fb65f4c5c86986985cd4c8000aa863b55e709dc0b229f376c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 15165,
+      "sha256": "2f8bbba25ed3575ea253d922a147885b4958baefd10f337a3c37785cb5d98d1a"
+    },
+    {
+      "path": "models/main.json",
+      "size": 299687,
+      "sha256": "e3b32e42a746d9db4fcf125df87d60b779b02c78baa787557524e8705ddf1f97"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 84061,
+      "sha256": "5df5f0b78c5f93a6a1e2a28f85c7e63e0903a3164619c3cde668747f5c6a0d98"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1649,
+      "sha256": "d8ce2363c8b7c22b82b8efbb428ca3c833213f1c4b63d9a3622217e14336f034"
+    }
+  ]
+}

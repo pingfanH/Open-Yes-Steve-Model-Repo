@@ -1,0 +1,100 @@
+{
+  "id": "CnCGZH_Red-Guard(Mini-gunners)",
+  "path": "parsed/CnCGZH_Red-Guard(Mini-gunners)",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCGZH_Red-Guard(Mini-gunners).ysm",
+    "type": "ysm",
+    "stem": "CnCGZH_Red-Guard(Mini-gunners)"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "赤卫队（米尼冈）",
+    "tips": "冼辉将军麾下的部队，装备一种非常奇特的转管机枪，人均华夏超人...",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture2.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCGZH_Red-Guard_Mini-gunners_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6444,
+      "sha256": "e37ca75b65fedab12d92780c7c40de2a4e9a6f90a5a6705f06a03d58d9b1c6e4"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 370605,
+    "sha256": "86e14ae0318ec57fca4bdf8a2efec35e7751850ade6136e28cfe5f787110fae3",
+    "bones": 47,
+    "cubes": 185,
+    "faces": 1110,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 7801,
+      "sha256": "4f26b95589ea29c6847bd175b0b6b93551e287ca54faaa37b43d11c7f7372eeb"
+    },
+    {
+      "path": "info.json",
+      "size": 235,
+      "sha256": "d89f3394fe2b22875a9c3df0cf14fdb75750003f72bc4657feaeae74c1daeb65"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122470,
+      "sha256": "d93402d24863ccd84622801424bb845d8ff78161fae9d48b7bbf0c3d213720c1"
+    },
+    {
+      "path": "main.json",
+      "size": 88496,
+      "sha256": "766e9c083c8ec35d0f33a69e3647128f9cbeb832bdf639179340d17c41fe86ab"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131639,
+      "sha256": "a73cf95259743cc506fa6931e6bed68e0e41c5edca8f4651f26f1a42c1e26994"
+    },
+    {
+      "path": "texture2.png",
+      "size": 19964,
+      "sha256": "803b127c7d560305bd6db2c57b9251c6e6e6b6b46dc753e84829a08256e0d4b5"
+    }
+  ]
+}

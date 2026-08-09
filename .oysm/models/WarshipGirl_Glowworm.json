@@ -1,0 +1,168 @@
+{
+  "id": "WarshipGirl_Glowworm",
+  "path": "parsed/WarshipGirl_Glowworm",
+  "source": {
+    "path": "_WarshipGirl/WarshipGirl_Glowworm.ysm",
+    "type": "ysm",
+    "stem": "WarshipGirl_Glowworm"
+  },
+  "ysm": "parsed/WarshipGirl_Glowworm/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/獒子coco.png",
+        "comment": "兴趣使然的獒子",
+        "contact": {
+          "Afdian": "https://afdian.com/a/AOZICOCO",
+          "Bilibili": "https://space.bilibili.com/19140392"
+        },
+        "name": "獒子coco",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/AOZICOCO",
+      "home": "https://space.bilibili.com/19140392"
+    },
+    "name": "萤火虫",
+    "tips": "为你施加勇气的魔法!"
+  },
+  "properties": {
+    "width_scale": 0.6,
+    "height_scale": 0.6,
+    "extra_animation": {
+      "extra0": "extra0",
+      "extra1": "extra1",
+      "extra2": "穿卸舰装",
+      "extra3": "extra3",
+      "extra4": "extra4",
+      "extra5": "extra5",
+      "extra6": "extra6",
+      "extra7": "extra7"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/WarshipGirl_Glowworm_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10968,
+      "sha256": "e71e00d0639302e8bdce3a6cfda60f7a8241a6c31e54c001fc57339461b9d367"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 2031648,
+    "sha256": "1bd92a98bab8d6c8d4d9d202e5fc8c99178fcedf28d565a598c4550b6fbe1eac",
+    "bones": 157,
+    "cubes": 1897,
+    "faces": 11382,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 104185,
+      "sha256": "fed94c1c543dc77da4c0fb653ba0ceff35270059190c79d51a0a18c15b7364ce"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 198058,
+      "sha256": "f0302402d5584c7ef989cd024940853102e13f755dda036392cea759fe124fd5"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/獒子coco.png",
+      "size": 32309,
+      "sha256": "60d8baa0da6209686cbf02c89534e054407011babd5e2ddbe4ff40c7aca8963c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 69734,
+      "sha256": "7ecb5d1a00812dae8108c98d06948dad9e091011c7afaa2fde4bc6b9926f5dfd"
+    },
+    {
+      "path": "models/main.json",
+      "size": 961697,
+      "sha256": "58ef2ea311c669ace708eea521cc654788449f228d7a50263eabd1473f7a4097"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 126907,
+      "sha256": "95941ac36b6ace4119a26cf76bc37ab9fa40c73c1ceca8466885131a1d23fc01"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1295,
+      "sha256": "890240486d5cbfbda6f2426ee8a8de476174ec2222b9f715d367e9024293e5b8"
+    }
+  ]
+}

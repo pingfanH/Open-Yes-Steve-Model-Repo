@@ -1,0 +1,98 @@
+{
+  "id": "Ak_Saga",
+  "path": "parsed/Ak_Saga",
+  "source": {
+    "path": "_Arknights/Ak_Saga.ysm",
+    "type": "ysm",
+    "stem": "Ak_Saga"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Ak_Saga"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "normal.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Saga_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11893,
+      "sha256": "71f53643bfbd1dd3436ce95bd379af91a1de2bd0299cfa7a7d0814a2df7aa0f9"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 3576501,
+    "sha256": "42f4b7b8f4619c0a320fce6ab2c484612eae1ec1a9833591875aa026d76d3889",
+    "bones": 79,
+    "cubes": 520,
+    "faces": 3120,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 24100,
+      "sha256": "0064671e6a13a93ba960af4ea82df70bbc6b0fe392975917aae0f1ffde67cfe6"
+    },
+    {
+      "path": "main - 副本.json",
+      "size": 278063,
+      "sha256": "4479bf0a652d1be73a7bc6aa7a9cb4de993b66350c93b4e9c0243f3365ebd70e"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 245509,
+      "sha256": "dc055f848d1187336a0b44b456d268c60f08e5c0334fcb3b150d7ec641d33765"
+    },
+    {
+      "path": "main.json",
+      "size": 263450,
+      "sha256": "d1bc4dc6f3d158d1245e584fa158907f89fe903075138f5078a7794bdbb71a3a"
+    },
+    {
+      "path": "normal.png",
+      "size": 17590,
+      "sha256": "05a1558b20412d1d3230752babeda288b95c0a95ba515e410051df9fb9c4f7b2"
+    },
+    {
+      "path": "嵯峨.bbmodel",
+      "size": 770197,
+      "sha256": "12387382aa042fb480bdd36d440015df089db449e1160e6c3e5eaaf55c5bcda9"
+    },
+    {
+      "path": "嵯峨炖哥斯拉.bbmodel",
+      "size": 871410,
+      "sha256": "9af818bae1903f974ec42e176020deced28b3ec45e341db6a0d0cf6d44c0ed74"
+    },
+    {
+      "path": "精二嵯峨poss.bbmodel",
+      "size": 1106182,
+      "sha256": "d11492dd86a8dd8c23d6126d6beb2da46038f2c5de211f42bd092fc95022a7d0"
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "id": "Ak_Eblana",
+  "path": "parsed/Ak_Eblana",
+  "source": {
+    "path": "_Arknights/Ak_Eblana.ysm",
+    "type": "ysm",
+    "stem": "Ak_Eblana"
+  },
+  "ysm": "parsed/Ak_Eblana/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/MicroCraft.png",
+        "comment": "只是一个准程序猿",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/701974112"
+        },
+        "name": "MicroCraft",
+        "role": "动画和物理参考模仿"
+      },
+      {
+        "avatar": "avatar/BradKidd.png",
+        "comment": "一个做这模型一个月前还在捏阿莫古斯的萌新",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "name": "BradKidd",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 4.0 NC-BY-SA"
+    },
+    "name": "爱布拉娜",
+    "tips": "萌新渣作出来的香蕉姐，谢谢站上各位大佬的教学视频"
+  },
+  "properties": {
+    "width_scale": 0.75,
+    "height_scale": 0.75,
+    "extra_animation": {
+      "extra0": "立绘姿势",
+      "extra1": "#开关",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "老熟人了",
+      "extra7": "生 息 演 算"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "开关",
+        "name": "开关",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "大腿监测环",
+            "description": "博士的XP",
+            "value": "v.td"
+          },
+          {
+            "type": "checkbox",
+            "title": "尾巴监测环",
+            "description": "菈芙希妮同款",
+            "value": "v.wd"
+          },
+          {
+            "type": "checkbox",
+            "title": "外套",
+            "description": "瞧这天气衣服穿了热脱了冷的",
+            "value": "v.wt"
+          },
+          {
+            "type": "checkbox",
+            "title": "尾巴火",
+            "description": "这火我画了64祯来着",
+            "value": "v.f"
+          },
+          {
+            "type": "checkbox",
+            "title": "面具",
+            "description": "给我玩明日方舟终末地",
+            "value": "v.m"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": true,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/skin.png",
+          "normal": "textures/skin_normal.png",
+          "specular": "textures/skin_specular.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Eblana_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 15627,
+      "sha256": "58177a6f685324c2902b702f224fc2f41a0b774571232301bf89f57752c85282"
+    }
+  },
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 3380644,
+    "sha256": "2e1cf12ddc7113d4f40429251bbc9bd411c2c2ca8a7fbccec89aaa64dec481de",
+    "bones": 565,
+    "cubes": 2153,
+    "faces": 12662,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 149045,
+      "sha256": "d68de16deb8493973aa3eb1dfc6689a0887be64d8428bd77188bc299d6b72f53"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 16682,
+      "sha256": "571982afaf6e3e615290ea0a5e1a76b189a000e13f195490628674ef5c5f325f"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 253871,
+      "sha256": "693eb048a65cb17053d7ed81d32db568b50d86b63601b5c62258594dc7d71bf7"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "6badb727a9b0a8819c2a258a68e353d37f5b127195a0cac321565237e4d24fd7"
+    },
+    {
+      "path": "avatar/BradKidd.png",
+      "size": 499220,
+      "sha256": "11ac73cf0573c15dd0d93708b566a7dcb2469b297fab1d257884ef9d81fbeaa3"
+    },
+    {
+      "path": "avatar/MicroCraft.png",
+      "size": 127200,
+      "sha256": "04a08ffc0dc1e03a032dde40b836801f2fb682f3a6c9daa996ffaed58ca227ff"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 30966,
+      "sha256": "1a6929fcfb1e6801d663c0d86d11e70cd3380bd190cbb9d38acc5ff2cbd121b9"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 16651,
+      "sha256": "b09e0b351a63a938c54dac9238dfea856eaa90d59ea803caf51b0c8d5fb0f6d9"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1207766,
+      "sha256": "059b28e14f524b91f0cf6753df54d8468b638f6b895f11731baed1d22fdcca68"
+    },
+    {
+      "path": "sounds/bbq_theme.ogg",
+      "size": 136260,
+      "sha256": "7c1121023dfafa702fd7c4eb209c970df84082344bb81a2952a48043afcef83f"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2244,
+      "sha256": "5ea677c59b30288e2e3f23f3602bb5a5b4211ae47a152bf0664bf5bbdcd9c20e"
+    },
+    {
+      "path": "textures/skin.png",
+      "size": 333730,
+      "sha256": "1b66a560499fcf14f6a4f497a1df0a9db7ca1411a94f6eae3b4103de10a6a64f"
+    },
+    {
+      "path": "textures/skin_normal.png",
+      "size": 134044,
+      "sha256": "2fdfddd0f45cdf5665de5bc7da964ad4d0935d22c5e74e118eddae7da63b46cc"
+    },
+    {
+      "path": "textures/skin_specular.png",
+      "size": 111336,
+      "sha256": "ad7b64852b217bb1203a2a28663404b7f0b9d8e6cf1d31d610384da9642cbc5f"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2233,
+      "sha256": "c9f0954d577ee313fad75c96e47b9fccd62676656d0213cc0734960118d8e1e0"
+    }
+  ]
+}

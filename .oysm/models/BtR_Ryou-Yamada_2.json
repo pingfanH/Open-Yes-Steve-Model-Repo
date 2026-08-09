@@ -1,0 +1,216 @@
+{
+  "id": "BtR_Ryou-Yamada_2",
+  "path": "parsed/BtR_Ryou-Yamada_2",
+  "source": {
+    "path": "_BocchiTheRock/BtR_Ryou-Yamada_2.ysm",
+    "type": "ysm",
+    "stem": "BtR_Ryou-Yamada_2"
+  },
+  "ysm": "parsed/BtR_Ryou-Yamada_2/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/动员鼬.png",
+        "comment": "脖子右拧！！",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/348421936?spm_id_from=333.1007.0.0"
+        },
+        "name": "动员鼬",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/ .png",
+        "comment": " ",
+        "name": " ",
+        "role": " "
+      },
+      {
+        "avatar": "avatar/ .png",
+        "comment": " ",
+        "name": " ",
+        "role": " "
+      },
+      {
+        "avatar": "avatar/ .png",
+        "comment": " ",
+        "name": " ",
+        "role": " "
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "name": "凉爷",
+    "tips": ""
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "pose",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "赞同",
+      "extra4": "否定",
+      "extra5": "偷笑",
+      "extra6": "弹贝斯",
+      "extra7": "蹲坑"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BtR_Ryou-Yamada_2_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7454,
+      "sha256": "9779a156f0177f1c3bbe6d9bc6c7470b31cb2e74f60b61e6e5c7b6b44a7d7b32"
+    }
+  },
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 1028675,
+    "sha256": "ea176a080dc269a0872d0d9a1c93cbd1822566b0124206abac042a284e075251",
+    "bones": 87,
+    "cubes": 448,
+    "faces": 2688,
+    "textures": 2,
+    "materials": 2,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136036,
+      "sha256": "03a0184723746a50f8015127f15c138f42d4cd613ef82fa06e66e8d43567ab20"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 23959,
+      "sha256": "fb1df1345c56301ee140bad8846eddd7dced59d77480fe42c76101be24cde49f"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 205807,
+      "sha256": "9ec624adec24e8a76de0e977e49e49a95231afaf3fdd1adb4fce297229589d7a"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 139697,
+      "sha256": "eb54f532aa2e73e7a43809fe87fa3a41a06db7ba4542783e98a202cc4a9942f1"
+    },
+    {
+      "path": "avatar/ .png",
+      "size": 31972,
+      "sha256": "c6f737e8b0cc939c8f04932eaf822dee8b9b3225d3664658077263269a112ba7"
+    },
+    {
+      "path": "avatar/动员鼬.png",
+      "size": 34808,
+      "sha256": "ebc88c7060782df12663444ce7d3aee14e935320fea7d9298a2ed1d9706080ac"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 12165,
+      "sha256": "0e49dc2a4e90c2e86dfa50e0ae3f8d1f8a519900401413c6df0704f0bfe89e90"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 223574,
+      "sha256": "a5e55c69f386a34486c9ad174e74048cec9fa0914bffa47715ea5b02ca69e06e"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 11115,
+      "sha256": "3d6ee25dd9507b59b1f9c436d3dcb9203c7b871121b7bd7907109916d38ecafc"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 24636,
+      "sha256": "cc0383d5fc2f0dcf4c68d556753c62d0a9432e8bfb52a4405cf1f4554bec370a"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1490,
+      "sha256": "4d15fe0d30a7bf6a4e94f34c20151dba19cd44511bdce82a76a8d882870002db"
+    }
+  ]
+}

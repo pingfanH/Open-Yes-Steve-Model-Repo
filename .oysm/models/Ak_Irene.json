@@ -1,0 +1,220 @@
+{
+  "id": "Ak_Irene",
+  "path": "parsed/Ak_Irene",
+  "source": {
+    "path": "_Arknights/Ak_Irene.zip",
+    "type": "zip",
+    "stem": "Ak_Irene"
+  },
+  "ysm": "parsed/Ak_Irene/ysm.json",
+  "metadata": {
+    "name": "艾丽妮",
+    "tips": "代号【艾丽妮】，伊比利亚审判庭信使。 \n§8不管伊比利亚将要面对的是滔天巨浪，还是狂风暴雨，我都不会退后，我的剑更不会再有一丝动摇！\n我的心会做出判决。\n§m§l哇嘎哇嘎哇嘎哇嘎哇嘎哇嘎",
+    "license": {
+      "type": "CC BY-NC-AS4.0"
+    },
+    "authors": [
+      {
+        "name": "桦",
+        "role": "114514",
+        "avatar": "avatar/hua.png",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/315594624"
+        },
+        "comment": "喵，来看喵"
+      }
+    ],
+    "link": {
+      "home": "https://space.bilibili.com/315594624",
+      "donate": "https://space.bilibili.com/315594624"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "preview_animation": "idle",
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "texture": [
+        "textures/default.png"
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": "textures/arrow.png"
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Irene_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10365,
+      "sha256": "12c6211c609991ac7445f81cc1ee4f99e53efb22d1e0022cfb12515c1fd0bf2a"
+    }
+  },
+  "stats": {
+    "file_count": 23,
+    "total_bytes": 1656186,
+    "sha256": "a03ea8093755c065e3ae07ea60ffa8e75b508856b76ec2b375db3fa5923aa54f",
+    "bones": 158,
+    "cubes": 1051,
+    "faces": 6306,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 159121,
+      "sha256": "08f25d11b56ca23ebb57c4b8b678c2fab31c1fe2bceda16be54f1d299f92c7a8"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 648,
+      "sha256": "a1742d97b6f3a435a92ed37c1f971b9367d8198a3c12116be4a9f433586b8e12"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3799,
+      "sha256": "32851380160c2bceea27535eeb1f27ed77e74f2fd565ac13c06c499952aff79e"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 144057,
+      "sha256": "6cf64eeeba7592c895be64ca4b66c6009cd79d4d19827daf7ba371b0a413d071"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 244323,
+      "sha256": "5dd6dd724f1e141db74cdd66ab5ac50852446775eebf4240ce2da17d9aac59b6"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 164868,
+      "sha256": "85f8114dce69f142d5516cd237ca63ef02dc7e655a82076387a66d05e7610700"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 216376,
+      "sha256": "b210402597976a7025f09eccc5bfedabc44ca118d95905c3abe318e33bad6354"
+    },
+    {
+      "path": "animations/unknown.animation.json",
+      "size": 100,
+      "sha256": "194aa2854c0e5e6edb7dfad20ec2363c206376f427ccfe737f07890aef8dadf5"
+    },
+    {
+      "path": "animations/unknown.animation_controllers.json",
+      "size": 332,
+      "sha256": "a0858f3396674eb0f46022e370865e4b8ffc479f61efcea366be11745253b786"
+    },
+    {
+      "path": "avatar/dm.png",
+      "size": 5471,
+      "sha256": "5d28f00fd947e31f361da9cab6c16693d80f25988515822e078cea1f5ef08a60"
+    },
+    {
+      "path": "avatar/gsl.png",
+      "size": 4738,
+      "sha256": "0bf76a1ba896f709839f9c35bb62852350b4b0f110bc9a1c4c4c5acc99f25188"
+    },
+    {
+      "path": "avatar/hl.png",
+      "size": 5216,
+      "sha256": "80f61d49f385faf974b8b3e579b6b307b9046992f1d3ae32647e8676102d5fa3"
+    },
+    {
+      "path": "avatar/hua.png",
+      "size": 22116,
+      "sha256": "8d574fb30ab584a03189765c84e10cd647e38ec73f7d79ffebed8824927dcb71"
+    },
+    {
+      "path": "avatar/tzz.png",
+      "size": 3433,
+      "sha256": "5067ef9a1ccad6acc4807d464f46358afd5f092ff78cf17a66ea82c613469e1e"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 25141,
+      "sha256": "bce4992f50e0e9b7f81666fc95e5cf58af3769212866a5f648c7c3b08bb5274e"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 4481,
+      "sha256": "9618cf5c97e2be6429f2394ddfd58baa08b626dd439f245c882d0dd68a9c9637"
+    },
+    {
+      "path": "models/main.json",
+      "size": 552734,
+      "sha256": "2a4bc995491e50ff3cec917f6478b217f77e80c7a98b4897a2bc3dc8af94ab8e"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 969,
+      "sha256": "9b5fa1090000af4e2795289401116b77a7604591b5d694339cce5635f2022e5e"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 3931,
+      "sha256": "e8d13cbd9f432bcc58a9d954125bca35b19e9bee84151872a9643d37d2151263"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 46531,
+      "sha256": "c3893ef4e58e6eca17b150c05d3b834237a992ccc38da34275d0bfba50b523f4"
+    },
+    {
+      "path": "textures/texture1.png",
+      "size": 4786,
+      "sha256": "3c8129de434da9a4ddb3fa93904047e0beea78254c87d3491aef98dbace1840c"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1985,
+      "sha256": "bdda9ac3aef0ed9ea83dc1c825a5c84151ae2a9eb12edeb91e563f0f3cfbd2ed"
+    }
+  ]
+}

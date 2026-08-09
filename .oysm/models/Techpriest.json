@@ -1,0 +1,123 @@
+{
+  "id": "Techpriest",
+  "path": "parsed/Techpriest",
+  "source": {
+    "path": "Unknown/Techpriest.zip",
+    "type": "zip",
+    "stem": "Techpriest"
+  },
+  "ysm": "parsed/Techpriest/ysm.json",
+  "metadata": {
+    "name": "Tech Priest",
+    "tips": "custom",
+    "authors": [
+      {
+        "name": "Praimus"
+      }
+    ]
+  },
+  "properties": {
+    "height_scale": 1,
+    "width_scale": 1,
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "extra": "animations/extra.animation.json",
+        "parcool": "animations/parcool.animation.json"
+      },
+      "texture": [
+        "textures/default.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Techpriest_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4750,
+      "sha256": "1d0b3c3535cf503115fcc2861eb27ac0d2479f7b57aa518f5b898ddbedff4061"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 891609,
+    "sha256": "a2693e1e3dc3fda7bf9ab026b43ddb6cc6108f61fbaf3b88cf1337db271cf338",
+    "bones": 73,
+    "cubes": 270,
+    "faces": 1620,
+    "textures": 1,
+    "materials": 1,
+    "animations": 6,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136822,
+      "sha256": "82bc9be4d782507e3a2b142d0c85759c30f33e40cb470f6cdf83b225c34fc0ef"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 4189,
+      "sha256": "aa23c0c8db6a0b2da6cc0a4f525e9580380ef8edc2e54e135f32d9b8bc993f6d"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 53907,
+      "sha256": "2347a3a6b2e9d0d6b3e85d80e2f793472b02899be41953ff5a925273731fe1da"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 128708,
+      "sha256": "745540ef63370a0d78fac3ddc6876331efdab94aedf22ee001879b4aa067e64a"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 194248,
+      "sha256": "65a2fb22ab5c8230b0146313ae1c5e8e1e697f9560fa3371ff246cf8c407c481"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 220454,
+      "sha256": "0221d339758ab9f0c539b3a87b038479180f0ed8292f5c9a7f8c7d3a4c27cf16"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 16711,
+      "sha256": "aed1efd28e6363c4a835e919183f76b217564a9c5ae0006c1943fba6b5181b99"
+    },
+    {
+      "path": "models/main.json",
+      "size": 128100,
+      "sha256": "54852db1f7179fd4355038c31aabb828703772112c926c49b5e0b3dbf8048f50"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 7600,
+      "sha256": "58390440865685506931a905d19e026d1e4ed7597c7f5653dc053b26b24047ac"
+    },
+    {
+      "path": "ysm.json",
+      "size": 870,
+      "sha256": "405064f0baab31bf125f670f48cecf9e0cae1f6ac2d38f9eca8cfb6190a6db95"
+    }
+  ]
+}

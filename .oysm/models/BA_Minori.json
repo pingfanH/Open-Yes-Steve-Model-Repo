@@ -1,0 +1,262 @@
+{
+  "id": "BA_Minori",
+  "path": "parsed/BA_Minori",
+  "source": {
+    "path": "_BlueArchive/BA_Minori.ysm",
+    "type": "ysm",
+    "stem": "BA_Minori"
+  },
+  "ysm": "parsed/BA_Minori/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/烛火的次元宇宙.png",
+        "comment": "还在成长的MC/YSM模型作者",
+        "contact": {
+          "Afdian": "http://afdian.com/a/zhuhuo",
+          "Bilibili": "https://space.bilibili.com/57715833?spm_id_from=333.1007.0.0"
+        },
+        "name": "烛火的次元宇宙",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/烛火的次元宇宙.png",
+        "comment": "",
+        "name": "烛火的次元宇宙",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "http://afdian.com/a/zhuhuo",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "BA_实梨",
+    "tips": "§a赤冬联邦学园所属，工务部的部长。\n§2她负责大规模的土木工程、建设等需要派遣人力的调度，以及现场指挥。虽然她的工作能力是实打实的，但是因为一点小事就罢工和示威，在雇主们看来似乎恶名昭彰"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#团结一致",
+      "extra1": "#打招呼",
+      "extra2": "拍手",
+      "extra3": "YES",
+      "extra4": "NO",
+      "extra5": "庆祝",
+      "extra6": "立绘POSS",
+      "extra7": "扭扭舞",
+      "extra8": "坐在方块边缘",
+      "extra9": "坐在地上"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "团结一致",
+        "name": "§1团结一致！",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "§6帽子",
+            "description": "显示/隐藏帽子",
+            "value": "v.mz"
+          },
+          {
+            "type": "checkbox",
+            "title": "§6光环",
+            "description": "显示/隐藏光环",
+            "value": "v.gh"
+          },
+          {
+            "type": "checkbox",
+            "title": "§6背部武器",
+            "description": "显示/隐藏武器",
+            "value": "v.ak"
+          },
+          {
+            "type": "checkbox",
+            "title": "§6裤子",
+            "description": "显示/隐藏裤子",
+            "value": "v.sw"
+          },
+          {
+            "type": "checkbox",
+            "title": "§6鞋子",
+            "description": "显示/隐藏鞋子",
+            "value": "v.xz"
+          }
+        ]
+      },
+      {
+        "id": "打招呼",
+        "name": "§2打招呼",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "表情",
+            "description": "表情",
+            "value": "v.pants_change",
+            "labels": {
+              "§1(・ω・)": "v.pants_change=0;v.MR=1;v.BQ1=0;v.BQ2=0;v.BQ3=0;v.BQ4=0;v.BQ5=0;v.ZB=1",
+              "§2< (￣ ︶ ￣)>": "v.pants_change=1;v.MR=0;v.BQ1=1;v.BQ2=0;v.BQ3=0;v.BQ4=0;v.BQ5=0;v.ZB=0",
+              "§3(  `∞´  )": "v.pants_change=2;v.MR=1;v.BQ1=0;v.BQ2=1;v.BQ3=0;v.BQ4=0;v.BQ5=0;v.ZB=0",
+              "§4(｡・ˇ‸ˇ・｡)": "v.pants_change=3;v.MR=1;v.BQ1=0;v.BQ2=0;v.BQ3=1;v.BQ4=0;v.BQ5=0;v.ZB=0",
+              "§5Σ( ° △ °)": "v.pants_change=4;v.MR=1;v.BQ1=0;v.BQ2=0;v.BQ3=0;v.BQ4=1;v.BQ5=0;v.ZB=0",
+              "§6(  T O T )": "v.pants_change=5;v.MR=0;v.BQ1=0;v.BQ2=0;v.BQ3=0;v.BQ4=0;v.BQ5=1;v.ZB=0"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Minori_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8568,
+      "sha256": "16e195d0f0ba861c7d28e59ef7c7226e15ad7093fa01a0204f721626321f6291"
+    }
+  },
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 3267514,
+    "sha256": "196cb77aa517c4d1c375108cb2cdf9fa4f2afe005b7a5a531c71b6c9b97001ef",
+    "bones": 170,
+    "cubes": 1219,
+    "faces": 7314,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 218705,
+      "sha256": "d8f405b0a2e65c3c35e241d811d8d5d45d42d7733959bdabe6076a45dd553ff3"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 52545,
+      "sha256": "062717a13a6a057fd9c560b4cc765fea16341b188bea5ca7132f088849416697"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 283353,
+      "sha256": "d309f1ae3e78ad4aef89ab23ed6ec41fffd29e7e9e06d3b7223c324475d5bf6f"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139812,
+      "sha256": "bd584a802e4171f67c6b3e65e71fb61319c125b4619a07616a87c446b3a0fb54"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1503488,
+      "sha256": "39da23aa526039a5897a28ec77a2c6399abb4daf63f0e4c001dde35e5e41d5c7"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 34600,
+      "sha256": "11a23d5d9830f9f9c2f346c4a7a44907ee4e9ecc41289beacf1bfd55c8e116f4"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 211631,
+      "sha256": "570bb9b889cc846a7682f9ffbebddbec2a1b2b1157eff7218535920fcc0fabea"
+    },
+    {
+      "path": "avatar/烛火的次元宇宙.png",
+      "size": 31433,
+      "sha256": "21d22a5c083f80f450f8a2ae358db5e67d69613169b754346496a7209a1e3ae3"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 3298,
+      "sha256": "6bd6049c5ad66da5a75aa49a213b303468d47b500ad5bfaec7a5843c16392fed"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 32833,
+      "sha256": "ccccbc3103726607fe33dcda79b3ff7d61675885cd3935ee5bb026632874f72f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 636416,
+      "sha256": "d628a7390e3eb0854f205fb0633b5f5331c9aa23158e420e1a04dc1b79a7e2a0"
+    },
+    {
+      "path": "sounds/303338.ogg",
+      "size": 29642,
+      "sha256": "7eb18a90a6592dfa04ccc6f340582be147ff2206085d4251dd4acb100cff2f8b"
+    },
+    {
+      "path": "sounds/657653.ogg",
+      "size": 32972,
+      "sha256": "8d5bfb017260f069491e8db1a29c10babb6ca3de481523eea59517b8b9c3a984"
+    },
+    {
+      "path": "sounds/934526.ogg",
+      "size": 20510,
+      "sha256": "c41df477cd669f72d40ffa9f9c8070af3700041910a6d887076c549da0f21b4e"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 30927,
+      "sha256": "7c5e017eceb97f265265165ba7e40d2c054abe52a0aa304096e024b5c5a96e20"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3106,
+      "sha256": "b70114a19bc800cd91a570ecf4838a2e445cdef1cbbe11fefc5eb4dde2ae5d2a"
+    }
+  ]
+}

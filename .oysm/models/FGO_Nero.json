@@ -1,0 +1,99 @@
+{
+  "id": "FGO_Nero",
+  "path": "parsed/FGO_Nero",
+  "source": {
+    "path": "_FateGrandOrder/FGO_Nero.ysm",
+    "type": "ysm",
+    "stem": "FGO_Nero"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "FGO_Nero",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "stichede.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/FGO_Nero_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6262,
+      "sha256": "86ab894abdbcf8dca00bfd34bf7ed5ade3563945901f3ae374e350bc9e43b7e1"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 515291,
+    "sha256": "dda10daf57c0fbfbc663d27285904f04ddee53cfc925bbc75248c46dc99109d6",
+    "bones": 91,
+    "cubes": 190,
+    "faces": 1140,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 51070,
+      "sha256": "e8b4a6d8ebdd57bdb01427bd99afe6adcf7704723153572015b56852f551293b"
+    },
+    {
+      "path": "arm.json",
+      "size": 1234,
+      "sha256": "5f86fdade44ecf6885c4516373169108e8ec8b1660faae6250b4cd8dc35816d9"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 139391,
+      "sha256": "958f93a0030596f5e8ec023d98b11c2465fc0805a30f33514deaf106e7b00b37"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 127815,
+      "sha256": "db236d077151da0a64c1bb61e5fa4eaebda2149473bf1e122dc4f84df8b49f72"
+    },
+    {
+      "path": "main.json",
+      "size": 30913,
+      "sha256": "61b396be047876fd4c6fec98d61eddc0b4e3946888bb894afca37a016d2b3c20"
+    },
+    {
+      "path": "stichede.png",
+      "size": 7647,
+      "sha256": "2eec85ffc8828a9c6d8731c4951270400a44f28e8d7255c818b22d473e267590"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 157221,
+      "sha256": "070fc2c555639f57aaefb703f8bb6d2863ce5e4e9e53cc9e8e4ce90158bb8e63"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "Overwatch_Dva",
+  "path": "parsed/Overwatch_Dva",
+  "source": {
+    "path": "_Overwatch/Overwatch_Dva.ysm",
+    "type": "ysm",
+    "stem": "Overwatch_Dva"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "D.va 免费版",
+    "tips": "最爱的D.va",
+    "license": {
+      "type": "All Rights Reserved"
+    },
+    "authors": [
+      {
+        "name": "熵"
+      }
+    ]
+  },
+  "properties": {
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "0.png",
+        "1.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Overwatch_Dva_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4877,
+      "sha256": "b1f3fc107a1a4aa0abc883dbc9d6d5be43889f1124638d9624c1915aba605a2f"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 625765,
+    "sha256": "20f982d841b19a94e84355623bcf74ef691ca955ece3d508f6811a08fc4e879d",
+    "bones": 61,
+    "cubes": 155,
+    "faces": 930,
+    "textures": 2,
+    "materials": 2,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "0.png",
+      "size": 8808,
+      "sha256": "8ab46ae560b9e3787c62d3f4c1bc74c70810d50dbca93731b10b186049a79a8e"
+    },
+    {
+      "path": "1.png",
+      "size": 9027,
+      "sha256": "12d218ebe81a3d623bf080b77ef4d212b19b3b07e38e5a7c47714c1ed0bd1178"
+    },
+    {
+      "path": "arm.animation.json",
+      "size": 121795,
+      "sha256": "fe509bd4aa81a2f23b3f8999f27e8ee34cc6ca83e462fb0558c12b3b285877b2"
+    },
+    {
+      "path": "arm.json",
+      "size": 4517,
+      "sha256": "6c631710528c10d743e80de8e8d1c55d8746e54d5e4d8a86a8dcf0073aa1ede7"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 2702,
+      "sha256": "f89a07cae523f819625f5b654ae477105af62e3998b68c8bf4afa2f0cb949892"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 123165,
+      "sha256": "0a5d3f9c0562cc4d4032464fa5a4f9c4d80d0d7a218e780240d04c0b276f8c9a"
+    },
+    {
+      "path": "info.json",
+      "size": 137,
+      "sha256": "f135a5f7d3aa78f7abb6edc8dfa513b778e995d3e371e7436a93a5e5d852bef1"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 145231,
+      "sha256": "e93063958acb1b5097d85e31e04021a9da0e9086b97c29c8d7c788858e843302"
+    },
+    {
+      "path": "main.json",
+      "size": 76777,
+      "sha256": "89c1209ebdae83520978b6bb096523f3170aa4fd16127af75b1aac50ac8cdd41"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    }
+  ]
+}

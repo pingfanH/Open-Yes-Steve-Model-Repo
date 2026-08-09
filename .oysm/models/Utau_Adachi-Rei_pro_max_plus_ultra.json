@@ -1,0 +1,219 @@
+{
+  "id": "Utau_Adachi-Rei(pro max plus ultra)",
+  "path": "parsed/Utau_Adachi-Rei(pro max plus ultra)",
+  "source": {
+    "path": "_Vocaloid-UTAU/Utau_Adachi-Rei(pro max plus ultra).ysm",
+    "type": "ysm",
+    "stem": "Utau_Adachi-Rei(pro max plus ultra)"
+  },
+  "ysm": "parsed/Utau_Adachi-Rei(pro max plus ultra)/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/小萌新idjdkd.png",
+        "comment": "none",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/1573788561"
+        },
+        "name": "小萌新idjdkd",
+        "role": "建模贴图动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 4.0 By-NC-SA"
+    },
+    "link": {
+      "donate": "none",
+      "home": "none"
+    },
+    "name": "人机",
+    "tips": "不是T-800，轮盘按键3脱光光，有可脱，有头发物理，无裙子物理，物理来自MicroCraft_大佬，无爆衣，仅做了tacz适配，将来不会做其他模组适配，禁止用于非法行为"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "分类1",
+        "name": "7"
+      },
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          },
+          {
+            "type": "checkbox",
+            "title": "测试",
+            "description": "测试",
+            "value": "v.neko"
+          },
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/uv.png",
+          "specular": "textures/uv_specular.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Utau_Adachi-Rei_pro_max_plus_ultra_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8147,
+      "sha256": "59a8683d13eecb42a66d692d698958736e17b295ef88c15e7cdea29c0629f04f"
+    }
+  },
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 8453356,
+    "sha256": "6018d22b7ef91def357be3b0972fd5cce512dbc2f4c00d24ae295522f1409206",
+    "bones": 237,
+    "cubes": 6680,
+    "faces": 40080,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 171364,
+      "sha256": "d16221c444d2d635ed1a25d9bb63d76a1b980c0d1686a3d8394830d8ab71e10f"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 315248,
+      "sha256": "f1edad382e26922d55e543fadde37f52b4af80a34ac4bf33e6810f9f081d25d3"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 130638,
+      "sha256": "170dcd9532f9880c365aafce3d52792de6848afce347e35006eb771d3a9975ee"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1505299,
+      "sha256": "2cfe596c36beecaa1688b55951b4272e660c066078bb5d95b20240a32a3a20da"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 156055,
+      "sha256": "63f58d19cdd98bb0055159a6daeb61a5d896d4976bc567b2399f9fb3bee69f77"
+    },
+    {
+      "path": "avatar/小萌新idjdkd.png",
+      "size": 21456,
+      "sha256": "8b39a7c8d6035bb4fac416fede75fd1f87358240f680a7f213636333d801828f"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 1413,
+      "sha256": "b7d0e583105a263cd9ecc751d0e99a613ce82edc5a77bfd7be01c3c0a1085cc5"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 50646,
+      "sha256": "b6e2c85af5b31767bd0da775b6aad7b3573475106aaa9b0a612edf8795b00c15"
+    },
+    {
+      "path": "models/main.json",
+      "size": 5796663,
+      "sha256": "6f119caae6089b113d456fa2adfd35c179c5a5244ae51fb5ddf81b7bff113bfd"
+    },
+    {
+      "path": "textures/uv.png",
+      "size": 74200,
+      "sha256": "19956fa80271feee6b0d463a7afdabeca4b43f6ab1b90ace9d9559523334e1c5"
+    },
+    {
+      "path": "textures/uv_specular.png",
+      "size": 7911,
+      "sha256": "4fc0b37077619c80849f0565b22a28fdd00286146986f49eac63ba33be2916d3"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1967,
+      "sha256": "104d21c1cdcefc9bd3d75a22a4d731df4aa3d52251ab170565f8492b1594657b"
+    }
+  ]
+}

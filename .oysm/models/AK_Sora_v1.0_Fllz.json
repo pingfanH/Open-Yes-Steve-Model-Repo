@@ -1,0 +1,217 @@
+{
+  "id": "AK_Sora_v1.0_Fllz",
+  "path": "parsed/AK_Sora_v1.0_Fllz",
+  "source": {
+    "path": "_Arknights/AK_Sora_v1.0_Fllz.ysm",
+    "type": "ysm",
+    "stem": "AK_Sora_v1.0_Fllz"
+  },
+  "ysm": "parsed/AK_Sora_v1.0_Fllz/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/Fllz.png",
+        "comment": "adalah gw",
+        "contact": {
+          "Discord": "fllz",
+          "Linktree": "https://linktr.ee/fllz",
+          "Vgen": "https://vgen.co/fllz"
+        },
+        "name": "Fllz",
+        "role": "Model Author"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Sora_Default",
+    "tips": "[Arknights] Sora"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/AK_Sora_v1.0_Fllz_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7509,
+      "sha256": "9406389e2978365c8a3e2c01bef043d1ff44bed6a2ed98a2bdd20e1b1581130a"
+    }
+  },
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 3328388,
+    "sha256": "1bb1c7ac1060bcde0624c7fe33ebe747d2ac98b55f5e4d3a9efeda8b58ab5f1a",
+    "bones": 129,
+    "cubes": 497,
+    "faces": 2982,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178783,
+      "sha256": "9406fc3d4833466e47db5136e5ad8ebf674512539fa50226938a26c01c22b709"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2317,
+      "sha256": "c8fcf027eb006e27199eb1f789ce6c20f5a97d6f9d41980af0b842bd416a413b"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 109004,
+      "sha256": "ba1e5d1d0e30fc7cec4337358c630cf4f7c89f986f3a98b261c424bd3aecd477"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 248181,
+      "sha256": "492838c814745aa671d6d6d1e3724becd033674fd551f2ef9db36237a594ccbd"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/Fllz.png",
+      "size": 31781,
+      "sha256": "6b36bb516fcbef3f427082ba6619a88750ef23fbdd71d93126f8ce55c8f583a5"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 13285,
+      "sha256": "8028a71423f9765d26d6d1e34505d08ddde6b7dec493d1dcddde21d938bb7c5a"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13725,
+      "sha256": "605fc04a716cfd12d30b5d6fb5d6db461504bd2f8da602fe078a4f57b4d71c71"
+    },
+    {
+      "path": "models/main.json",
+      "size": 264852,
+      "sha256": "209492ac665af94b42e7462521653919c06cd53308d5093faf737212c07cd55d"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2686,
+      "sha256": "197669635bbf7b8cf8892b6912e428c92c66aac37ea2d3f1a174c9a04b2b64f6"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 25941,
+      "sha256": "a43b9156fe2e19068bf9cd900a9370c9b69ecbc750dea13d18f99c54d748ab17"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1681,
+      "sha256": "04645f5957e5ba2f371a067986cc4ac1b1a44a686e5916173e5103a096e99df1"
+    }
+  ]
+}

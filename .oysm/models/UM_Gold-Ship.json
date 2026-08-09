@@ -1,0 +1,78 @@
+{
+  "id": "UM_Gold-Ship",
+  "path": "parsed/UM_Gold-Ship",
+  "source": {
+    "path": "_UmaMusume/UM_Gold-Ship.zip",
+    "type": "zip",
+    "stem": "UM_Gold-Ship"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "UM_Gold-Ship"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "goldship.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/UM_Gold-Ship_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7456,
+      "sha256": "67d327d32eb25e40375abc330362384962951935a29531993f29603ac9fa4f34"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 219939,
+    "sha256": "487f2b16578389df95aa5d3e6b364152d1e9ff609874e1b3714bad1c374f5724",
+    "bones": 88,
+    "cubes": 250,
+    "faces": 1500,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 2591,
+      "sha256": "e181a19bb1583ee152eff6479e40815eb5ed502be9007d3c8bf3afe39089fab6"
+    },
+    {
+      "path": "goldship.png",
+      "size": 10143,
+      "sha256": "97104b60fab6215e7e61866b6ef774d7ef6d0cd913442f44cf8d607de59f2ba3"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 169209,
+      "sha256": "c679a177ae8ca47ba0564c950775af81a241a0656cbeac7360540dfb4c43d3c2"
+    },
+    {
+      "path": "main.json",
+      "size": 37996,
+      "sha256": "b0c3571cb5c493454f3365cb4073f32811547f98346b5813b49b807fed802f60"
+    }
+  ]
+}

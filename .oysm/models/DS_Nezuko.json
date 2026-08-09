@@ -1,0 +1,108 @@
+{
+  "id": "DS_Nezuko",
+  "path": "parsed/DS_Nezuko",
+  "source": {
+    "path": "_DemonSlayer/DS_Nezuko.ysm",
+    "type": "ysm",
+    "stem": "DS_Nezuko"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "DS_Nezuko"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture(guihua).png",
+        "texture(wusheng).png",
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/DS_Nezuko_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8439,
+      "sha256": "9d554645ce21c161838eae329150b3cadcc112f966f0a1fd51147904af197551"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 810215,
+    "sha256": "c38eed06d09a78d8a689c4c3cd0d1401af1c3dc517dc08232ad80a8dff31a5e0",
+    "bones": 220,
+    "cubes": 666,
+    "faces": 3996,
+    "textures": 3,
+    "materials": 3,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 41057,
+      "sha256": "9a53275558c2558773a0a3e4ad22d06f77219d113bcd9a3b86b4a90261e30163"
+    },
+    {
+      "path": "arm.json",
+      "size": 35594,
+      "sha256": "3c7fe6bceca3b33dc89784b93b6789c73c38bda4eff1c6102c6d3ef19194acee"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 127777,
+      "sha256": "8c56c8f43c9483a0bd07099037bc611f436e38c8c4997496fc3b01ae66d90c02"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 180439,
+      "sha256": "0333daa2c3b0456e74695e5a5e4d574c873fa0bb282f8eec5f2f8dfb924fc668"
+    },
+    {
+      "path": "main.json",
+      "size": 239886,
+      "sha256": "0ed992acf14f97e964de9c5304e788514eb42133ad61a37e7a85a40aa0c89429"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 157266,
+      "sha256": "c03cb9613aa5a9f19a9416760c372309e79f3d12cf1f23cfea0726dc5e825aa2"
+    },
+    {
+      "path": "texture(guihua).png",
+      "size": 9098,
+      "sha256": "7b627b2993b4cffd8af2cd6194b380ccb80ee5bc959d9c5f1f4d87367b29ea76"
+    },
+    {
+      "path": "texture(wusheng).png",
+      "size": 9992,
+      "sha256": "c8377c882c8c7fc03f32f8526a754e382fbb60380d8b8b59798e73326a84da5f"
+    },
+    {
+      "path": "texture.png",
+      "size": 9106,
+      "sha256": "d45845395d46eab976a6cd4d597a9a9c31a33675b336dff1ddfea54fafe88093"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "Ak_Typhon",
+  "path": "parsed/Ak_Typhon",
+  "source": {
+    "path": "_Arknights/Ak_Typhon.zip",
+    "type": "zip",
+    "stem": "Ak_Typhon"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "提丰-Typhon",
+    "authors": [
+      {
+        "name": "猫耳魂魄妖梦"
+      }
+    ]
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture0.png",
+        "texture1.png",
+        "texture2.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Typhon_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 19409,
+      "sha256": "6bbaa60a1e751654ee4a746e2e6b5ba7c7219e99108d07dbc0593f8768828a5b"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 1142586,
+    "sha256": "fa260bfed970ef25678ddd62dcec4c815580cf5a31d36696a40621bb1d2d56d2",
+    "bones": 294,
+    "cubes": 1184,
+    "faces": 7104,
+    "textures": 3,
+    "materials": 3,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 91,
+      "sha256": "a7c246495beaffe9733d903936d163adcb1e5ba1bcfcfaa6c9efbd051bd32222"
+    },
+    {
+      "path": "arm.json",
+      "size": 31705,
+      "sha256": "2c3b78a22d3aa0eb07cc8d87de1cb7cec027d898319d5851439dbfd7c99b4149"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 35150,
+      "sha256": "3d14e3d0659a555100fbb1184673599b968da7a67104a8788eac957fef416513"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 385161,
+      "sha256": "e991ffb3e0a2253f758808db844f95df9760fde2253bf1995d9dc94ed4241373"
+    },
+    {
+      "path": "main.json",
+      "size": 607119,
+      "sha256": "f2c9e33914d67fed490627dc3dd1793822c68a986aeeeece1d00a97169ae4b57"
+    },
+    {
+      "path": "texture0.png",
+      "size": 30737,
+      "sha256": "c78a945eb908237419cefedfae30b99d7a542b6f8c2bdedcdfb208e32740f2bc"
+    },
+    {
+      "path": "texture1.png",
+      "size": 30295,
+      "sha256": "ecef7628ef76e7ea2709ca665fd176ee082b2d00d0f630c0841ae7619db9d591"
+    },
+    {
+      "path": "texture2.png",
+      "size": 22328,
+      "sha256": "2fc5ac2aca7919c47344ebb3de04d07c9a6faf66501e31a28af20a867566a1db"
+    }
+  ]
+}

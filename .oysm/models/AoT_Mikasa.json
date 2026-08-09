@@ -1,0 +1,96 @@
+{
+  "id": "AoT_Mikasa",
+  "path": "parsed/AoT_Mikasa",
+  "source": {
+    "path": "_AttackOnTitan/AoT_Mikasa.ysm",
+    "type": "ysm",
+    "stem": "AoT_Mikasa"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "AoT_Mikasa"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "normal.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/AoT_Mikasa_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4165,
+      "sha256": "07c11c5c045d58f6f95c9ae07f34ea40a78feeaaba00aad902fc07a598ea30cf"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 920078,
+    "sha256": "9cc011e0aafc0436ed52d96c4b8f9a94fda39fb7e3065410a0f1348065c8f31c",
+    "bones": 107,
+    "cubes": 721,
+    "faces": 4326,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 54699,
+      "sha256": "15d91775cc551ee3fc4b62a2090eda96b9cffa636173f749c066b9d7e5a2919b"
+    },
+    {
+      "path": "arm.json",
+      "size": 33152,
+      "sha256": "fa868b520396a14aa8ff2c9753126d2903fb493ce03bcad34b88b7b1049763bb"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 848,
+      "sha256": "374440b43b7b24f4234526c1b6502ce334e77c26be5044d8c47f0715e6ce3103"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 269937,
+      "sha256": "63448b9d7543f1cf79c322b9e7a91104cc65b6e6840ddeab3b81024f4ccb1d4a"
+    },
+    {
+      "path": "main.json",
+      "size": 363511,
+      "sha256": "52e5fcc75dbf9d82b9534866fa9ef6b37a2214ababe1ce84e64807500b664278"
+    },
+    {
+      "path": "normal.png",
+      "size": 27010,
+      "sha256": "ddc508eda2e89278e1941c293268792b207f79bef2a795501eb74ad00f600367"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 170921,
+      "sha256": "d41a53eafcf2fcde47a6865a580593eb5c2e6e91b2716a9ddfc15f994caf5c87"
+    }
+  ]
+}

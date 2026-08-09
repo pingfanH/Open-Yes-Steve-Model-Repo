@@ -1,0 +1,95 @@
+{
+  "id": "AliceinCradle_Noel-Corehl",
+  "path": "parsed/AliceinCradle_Noel-Corehl",
+  "source": {
+    "path": "_AliceInCradle/AliceinCradle_Noel-Corehl.ysm",
+    "type": "ysm",
+    "stem": "AliceinCradle_Noel-Corehl"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "诺艾儿",
+    "tips": "老父亲/厨圣最喜欢的一集",
+    "authors": [
+      {
+        "name": "杜阴山"
+      },
+      {
+        "name": "xxyz30"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "default.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/AliceinCradle_Noel-Corehl_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8829,
+      "sha256": "1b59a414f4b66b828131966438ae332e04d6046e2b07a9f7909326f1dbd25413"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 1132381,
+    "sha256": "7680eafbf7aeaba5830897b8b1d1fee7cc65a256ae56d443c74d042ce9fea3c0",
+    "bones": 173,
+    "cubes": 444,
+    "faces": 2664,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 16226,
+      "sha256": "77db15bffcb67163f674e88996f9e5cf22009dad363d04b0ddfa27ade660d623"
+    },
+    {
+      "path": "changed.bbmodel",
+      "size": 809202,
+      "sha256": "9a3db1c1c56e3aeeb525c12aa7b6072a04c743e6a6c9c7d9d09ca05a7fe835a7"
+    },
+    {
+      "path": "default.png",
+      "size": 12303,
+      "sha256": "ba53dbdad1d17816ea1f00821f742e0a6cf50e7a18882c9399449e30e97605fd"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 54751,
+      "sha256": "0aed83ff58095d8ea4297027c3da7d5966edf6d6e26ed98185ed343db37c34c2"
+    },
+    {
+      "path": "main.json",
+      "size": 239899,
+      "sha256": "03f33f0c49be958ace7948a5b87bde7466d773811c3f0f4545c11f2885fd1ef9"
+    }
+  ]
+}

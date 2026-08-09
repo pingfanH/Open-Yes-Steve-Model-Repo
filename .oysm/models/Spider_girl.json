@@ -1,0 +1,84 @@
+{
+  "id": "_Spider_girl",
+  "path": "parsed/_Spider_girl",
+  "source": {
+    "path": "Uncategorized/_Spider_girl.zip",
+    "type": "zip",
+    "stem": "_Spider_girl"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_Spider_girl"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "fire_spider.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Spider_girl_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12801,
+      "sha256": "69a821e4ece7fb6ee9cdf16cd01ed4470ea6a43c74357f4ba656d701558e5d63"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 193114,
+    "sha256": "ca060846d0e3bb3e5d7056a5e9825255ed7c3adedd87c5fbaf6d968553ce8529",
+    "bones": 33,
+    "cubes": 135,
+    "faces": 810,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 86,
+      "sha256": "afa1bc8066caf11f4f1869b73e2c03ac31d5502f230cb68532fc627637184203"
+    },
+    {
+      "path": "arm.json",
+      "size": 2176,
+      "sha256": "505aef2001132da52efe9b435b53dcdea8ebdeeec55436197c206c157fd6b83b"
+    },
+    {
+      "path": "fire_spider.png",
+      "size": 27715,
+      "sha256": "7db2dc9ce4f720f618b9bfa923ab9f90b3c69bc4e5569087721ada0504176106"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 94757,
+      "sha256": "b927ca8b31ac5389a93633090d772eb010ae8a85b129623799241f00ffc27267"
+    },
+    {
+      "path": "main.json",
+      "size": 68380,
+      "sha256": "f2f881db9079798a4986cb77dd50f87f005d1f6274553ca40c3da8fd4f09a5eb"
+    }
+  ]
+}

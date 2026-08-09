@@ -1,0 +1,99 @@
+{
+  "id": "PGR_Lucia_1.4",
+  "path": "parsed/PGR_Lucia_1.4",
+  "source": {
+    "path": "_PunishingGrayRaven/PGR_Lucia_1.4.ysm",
+    "type": "ysm",
+    "stem": "PGR_Lucia_1.4"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "露西亚",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "01tex.png",
+        "02tex.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/PGR_Lucia_1.4_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 14460,
+      "sha256": "e344940e8e6a8926623734787d0f646c655fa903b17d9424bd873c87fe610304"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 749535,
+    "sha256": "dfa497111857ef6c840a96689e609c77987366c526ff58590de6939a597dad68",
+    "bones": 217,
+    "cubes": 657,
+    "faces": 3942,
+    "textures": 2,
+    "materials": 2,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "01tex.png",
+      "size": 24789,
+      "sha256": "6017747157c0d4dd943464073097d7def5712c75e19fcde44267ac05cc88eb03"
+    },
+    {
+      "path": "02tex.png",
+      "size": 19466,
+      "sha256": "2d06ace37f7224e0af7a09742a82d4401a93cb4d7871f4034c745c3673e2d7c7"
+    },
+    {
+      "path": "arm.animation.json",
+      "size": 51070,
+      "sha256": "e8b4a6d8ebdd57bdb01427bd99afe6adcf7704723153572015b56852f551293b"
+    },
+    {
+      "path": "arm.json",
+      "size": 13609,
+      "sha256": "40e6c15128b7eebbc1573d2b5944ef7b2ad9cc85c8c3ee2576fad941fe942961"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 147932,
+      "sha256": "b7c70d6c11ccff8352e603c10fe0b1f0f79cc94ac369aaf1fd7a29fbcfbd3747"
+    },
+    {
+      "path": "main.json",
+      "size": 335448,
+      "sha256": "674c3470d624d4da58d6eb3c1a4c16961862508f3744b7526629c55749cfa49a"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 157221,
+      "sha256": "8dac7984f4afbfd6a3e0e4bf3a8626f37576c92cea01d39a6ed47ca032afb8ec"
+    }
+  ]
+}

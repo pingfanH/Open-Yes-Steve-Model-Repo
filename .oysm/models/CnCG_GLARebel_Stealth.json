@@ -1,0 +1,100 @@
+{
+  "id": "CnCG_GLARebel(Stealth)",
+  "path": "parsed/CnCG_GLARebel(Stealth)",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCG_GLARebel(Stealth).ysm",
+    "type": "ysm",
+    "stem": "CnCG_GLARebel(Stealth)"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "反抗军（匿迹）",
+    "tips": "科塞德的部队，这些人善于各种伪装",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCG_GLARebel_Stealth_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7921,
+      "sha256": "345940210d22834d78e75cc03c6d32e3e1736e05de41c1d1971a6e6ec5a4cd4d"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 417377,
+    "sha256": "803312c88dd65e1dd62de8bd8de8fc287c1821545e6e344d3fc39e98f8a39293",
+    "bones": 50,
+    "cubes": 284,
+    "faces": 1704,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 10129,
+      "sha256": "50cbe455bc7b9b4fa301734944f11612a5c94d23375069f766e97095973139a6"
+    },
+    {
+      "path": "info.json",
+      "size": 187,
+      "sha256": "ce2aebc5917e06ea2d99c64ac3f8a41b8b24e14be511a837d50f091471f64e48"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122108,
+      "sha256": "af5036b7752f6ed6f01602ffecb7c056551c67c103984478a55c83837b6150b4"
+    },
+    {
+      "path": "main.json",
+      "size": 136277,
+      "sha256": "841dd166cd2d0c19f3540c0d8da9226741b3792121563454d0bb0c843e384af8"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131637,
+      "sha256": "2775453b508dddd40ebe59505203ebe0e9c65496c6086d48009ee42115ea8a40"
+    },
+    {
+      "path": "texture.png",
+      "size": 17039,
+      "sha256": "7e3b33d74104bffb416b200d7a08436ae38e9528be15ed60ffe02ec4b9535f7c"
+    }
+  ]
+}

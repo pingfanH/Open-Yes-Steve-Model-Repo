@@ -1,0 +1,84 @@
+{
+  "id": "Ak_Penance_0",
+  "path": "parsed/Ak_Penance_0",
+  "source": {
+    "path": "_Arknights/Ak_Penance_0.zip",
+    "type": "zip",
+    "stem": "Ak_Penance_0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Ak_Penance_0"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "cz16.png",
+        "cz16_hide.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Penance_0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 22805,
+      "sha256": "6adc673b8154e20c31d6ce98cadef330f66d7edd28491a716bff540b728324b3"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 506477,
+    "sha256": "07416207b505bce78b404572c7414d97538bb33c30c946c5177b48c1874c696f",
+    "bones": 84,
+    "cubes": 630,
+    "faces": 3780,
+    "textures": 2,
+    "materials": 2,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 36033,
+      "sha256": "bfc1165f303b7af25c5b7919b78b1f1e9790c8e0369750876662b349488c0f96"
+    },
+    {
+      "path": "cz16.png",
+      "size": 17388,
+      "sha256": "65034a9ab68e79b6065edef978cf099c716086ef4b2fc3e212ce8c4a98285398"
+    },
+    {
+      "path": "cz16_hide.png",
+      "size": 16309,
+      "sha256": "91589e24490fc93d88544a93f948a875f5cce598000a1cb76f3d541310760070"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 132122,
+      "sha256": "6cd252d06918b956a0716c7e2225efdd452941494d933cf8a34b3c4078b741fe"
+    },
+    {
+      "path": "main.json",
+      "size": 304625,
+      "sha256": "0090bde63ce2514b35edbd70d9cf199232b95daff3adbe592144095007f73d6b"
+    }
+  ]
+}

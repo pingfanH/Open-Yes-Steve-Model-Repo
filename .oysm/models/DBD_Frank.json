@@ -1,0 +1,138 @@
+{
+  "id": "DBD_Frank",
+  "path": "parsed/DBD_Frank",
+  "source": {
+    "path": "_DeadbyDaylight/DBD_Frank.ysm",
+    "type": "ysm",
+    "stem": "DBD_Frank"
+  },
+  "ysm": "parsed/DBD_Frank/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/Mister蜘蛛.png",
+        "comment": "只是一只蜘蛛！",
+        "contact": {
+          "Afdian": "https://afdian.com/a/spidermr",
+          "Bilibili": "https://space.bilibili.com/3537124015999017"
+        },
+        "name": "Mister蜘蛛",
+        "role": "模型、材质和动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/spidermr",
+      "home": "https://space.bilibili.com/3537124015999017"
+    },
+    "name": "Frank - The Legion（弗兰克 - 军团）",
+    "tips": "The Legion are a close-knit group of murderous Killers.\n军团是一群冷血无情的杀手。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_classify": [],
+    "default_texture": "frank",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/Frank.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/DBD_Frank_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7817,
+      "sha256": "7fd7d30a5eacf5210c76ea43e013e742de31188e57c58e25a45c5ed98c01ec3f"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 1365363,
+    "sha256": "03d3534931511bc053d6f22e58f28681b1673a7460dbe3dd2039e25b3d0124c0",
+    "bones": 43,
+    "cubes": 381,
+    "faces": 2286,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 41160,
+      "sha256": "24a92c65719559dfb9fbe1cac892549d6facbcaee3e15ff4cc8131c2bd347c8e"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 151611,
+      "sha256": "ffc18c9dc0abf9aca37ca5ec27898e7fa03f52cb1f1e00f4d248d11d6ac1f828"
+    },
+    {
+      "path": "avatar/Mister蜘蛛.png",
+      "size": 941870,
+      "sha256": "049ef2f9139fa167a7ba6d912c2747a5c5cbc6b65d9f640b379d85e5bcfafab3"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 5186,
+      "sha256": "f8832cc99347b063e9a28db3473cd7294a12e89286d4648beb388d54a5736153"
+    },
+    {
+      "path": "models/main.json",
+      "size": 180739,
+      "sha256": "9d09c0c377d64b209ece814e0e678e89b291156b07bbdf7fbf5c9f9801cdf830"
+    },
+    {
+      "path": "textures/Frank.png",
+      "size": 43636,
+      "sha256": "02e18b10fe99263e5b5606acd188b6400d770a9d21a098d09b3c13104f09349d"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1161,
+      "sha256": "eb4b159b628dc3e6f4a66ecde69b11933aa53581a8d56d0738b6b60f3da086c1"
+    }
+  ]
+}

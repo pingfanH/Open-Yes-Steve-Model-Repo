@@ -1,0 +1,264 @@
+{
+  "id": "wine_fox - 女仆",
+  "path": "parsed/wine_fox - 女仆",
+  "source": {
+    "path": "Unknown/wine_fox - 女仆.zip",
+    "type": "zip",
+    "stem": "wine_fox - 女仆"
+  },
+  "ysm": "parsed/wine_fox - 女仆/ysm.json",
+  "metadata": {
+    "name": "Wine Fox（酒狐）",
+    "tips": "一只爱喝葡萄酒的狐娘。\nA fox girl who loves to drink wine.\n乱舞参考自 VRChat 的永雏塔菲动画。\n音乐为改编的 Zufolo Impazzito。",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "哥斯拉",
+        "role": "模型",
+        "avatar": "avatar/gsl.png",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少"
+      },
+      {
+        "name": "星屑海螺",
+        "role": "动画",
+        "avatar": "avatar/hl.png",
+        "contact": {
+          "Afdian": "https://afdian.com/a/lucia2048",
+          "Bilibili": "https://space.bilibili.com/14975572"
+        },
+        "comment": "漂泊于群星之中"
+      },
+      {
+        "name": "浅陌菌",
+        "role": "模型",
+        "avatar": "avatar/nico.png",
+        "comment": "最美好的前途，可不要对我冷酷",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/14975572"
+        }
+      },
+      {
+        "name": "祸御神",
+        "role": "动画",
+        "avatar": "avatar/hys.png",
+        "comment": "五十代精神病人",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/164557734"
+        }
+      },
+      {
+        "name": "羊毛",
+        "role": "音效/动画",
+        "avatar": "avatar/wool.png",
+        "comment": "喵喵喵喵",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/85335217"
+        }
+      },
+      {
+        "name": "蓝玫瑰",
+        "role": "模型",
+        "avatar": "avatar/lmg.png",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/11814817"
+        },
+        "comment": "8月24号，传奇永不落幕"
+      },
+      {
+        "name": "Dra铁锭",
+        "role": "改模"
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "extra_animation": {
+      "extra0": "变身",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "Get Down",
+      "extra4": "乱舞",
+      "extra5": "卖萌",
+      "extra6": "御笔摇",
+      "extra7": "舞蹈"
+    },
+    "preview_animation": "gui",
+    "free": true,
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "render_layers_first": false,
+    "disable_preview_rotation": false,
+    "all_cutout": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "texture": [
+        {
+          "uv": "textures/skin.png"
+        }
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "texture": {
+        "uv": "textures/arrow.png"
+      },
+      "animation": "animations/arrow.animation.json"
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/wine_fox_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8817,
+      "sha256": "e0f25f8d4c2d3b1e0f354ff874e676e9acef52faa14ad98dda0277f050eae25d"
+    }
+  },
+  "stats": {
+    "file_count": 21,
+    "total_bytes": 2394064,
+    "sha256": "54d69474dd99dbd2494026ac4e6c5f2921a2b7993431d69d75d9d1ff0afdff3e",
+    "bones": 201,
+    "cubes": 390,
+    "faces": 2340,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1122,
+      "sha256": "bc6cff221fc2c751de765c6ffdbd24115bca062b5d19fa4f8f716fdbf6c27389"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3798,
+      "sha256": "5371aee783c07a9d441d3b9a88666c349e692c2461bd07037ecf274423ca376e"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 562757,
+      "sha256": "79f5049c998232a065b02d53e59d622792d762bb6450aa77e762a42ad3da7b1f"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 304173,
+      "sha256": "b3d977b6a172dfd8dddddc76de915524451db71440e34a754a886457afc39305"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 214446,
+      "sha256": "4137bfb84e49f9c7fe4946153e0f2c3626119f906de4d2de7c9768e00afa25b2"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 321430,
+      "sha256": "f8d09b38d362cde2f018e28930c586ecce57a55e248015a874018c88ce685b10"
+    },
+    {
+      "path": "avatar/gsl.png",
+      "size": 17482,
+      "sha256": "dda4f5d1d4b94eaee263a0c0686e9a02267fec3e0de969e2b42a3678393acfd5"
+    },
+    {
+      "path": "avatar/hl.png",
+      "size": 18207,
+      "sha256": "ab407902f5040f8583a7bc7184db9a0c5979c4f3dd2eeac05b531020bde16f75"
+    },
+    {
+      "path": "avatar/hys.png",
+      "size": 22017,
+      "sha256": "420d1b556a2d3d1df9ed9432a706860d0fc74b45ee757843aa40be6bb7e45157"
+    },
+    {
+      "path": "avatar/lmg.png",
+      "size": 9255,
+      "sha256": "c3c42e908183964955b5d079b74c5041725718d0c3236faad856520a46679233"
+    },
+    {
+      "path": "avatar/nico.png",
+      "size": 6707,
+      "sha256": "049f39814371c3452eac2a7a66d366fa5d56104679ff82769fdec6e81c41936c"
+    },
+    {
+      "path": "avatar/wool.png",
+      "size": 22716,
+      "sha256": "efc2a6b3bbea4f0d97bde78137e16192c2c204ac45687dc88789412f8aa1b9d0"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 4545,
+      "sha256": "4699cac72b3c7ba7626f1043f65a38088c406d104ca9f95d2a46262f4b0e8cb8"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 29883,
+      "sha256": "13fd9a38830571238aa6a45338b188d9626229dbc1a73f81aefd04af53b36d5a"
+    },
+    {
+      "path": "models/main.json",
+      "size": 76179,
+      "sha256": "2017111d0451672ffdc13ef499a8208f989c3663be107256e4372efa8935931a"
+    },
+    {
+      "path": "sounds/get_down.ogg",
+      "size": 289223,
+      "sha256": "63dbf11be085953b3232710552f049df9465c1a15327cd083ecaa0f726cba86c"
+    },
+    {
+      "path": "sounds/otoko_wa_tsurai_yo.ogg",
+      "size": 298472,
+      "sha256": "53dc18199056bc254a8e664483b4adbcf3317bee5d1182435323c6cc4960b191"
+    },
+    {
+      "path": "sounds/zufolo_impazzito.ogg",
+      "size": 172286,
+      "sha256": "ee80cfe3f9ad70f2bd6b3b735d65c5c356c1119c67c8da4d812c838058ca6990"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1212,
+      "sha256": "0d4435fe0620372d92279e07af771b1e96cdd5d6c3e1628a538336195d47eaaf"
+    },
+    {
+      "path": "textures/skin.png",
+      "size": 15255,
+      "sha256": "76e891b059c0ff19e9593950f3887945bc94d2eea046e246561bec389d95ef9d"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2899,
+      "sha256": "8599956963b5d81a33f299f99b9ace502ecc9ed2fa2cf5ff9890a7218bd12d16"
+    }
+  ]
+}

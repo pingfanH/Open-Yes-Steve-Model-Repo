@@ -1,0 +1,227 @@
+{
+  "id": "HSR_Tribbie",
+  "path": "parsed/HSR_Tribbie",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Tribbie.ysm",
+    "type": "ysm",
+    "stem": "HSR_Tribbie"
+  },
+  "ysm": "parsed/HSR_Tribbie/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/汪.png",
+        "comment": "",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/3546753760496536"
+        },
+        "name": "汪",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "",
+      "home": ""
+    },
+    "name": "缇宝",
+    "tips": ""
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#水个动作是叉腰",
+      "extra1": "害怕火箭爆炸了",
+      "extra2": "开心你就拍拍手",
+      "extra3": "这里住着三缇宝",
+      "extra4": "礼物都在这儿呢",
+      "extra5": "五十层的小火箭",
+      "extra6": "缇宁怎么不见了",
+      "extra7": "坐着秋千晃啊晃",
+      "extra8": "人间大炮已就绪",
+      "extra9": "小缇安明天见啦"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "水个动作是叉腰",
+        "name": "水个动作是叉腰",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "大小是不能改变了",
+            "description": "",
+            "value": "v.player_size",
+            "step": 0.1,
+            "min": 0.2,
+            "max": 5.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "extra": "animations/extra.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/tibao.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Tribbie_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 59286,
+      "sha256": "8f7b367a2336c2ec18765b0efa558c0e5c19766dedf254099291ac3bf39dadfc"
+    }
+  },
+  "stats": {
+    "file_count": 20,
+    "total_bytes": 8966526,
+    "sha256": "2f4d04d095a29de3500deb674aa1f47f6b0f4cb4d233624b99e3ec75fb8cad0d",
+    "bones": 423,
+    "cubes": 4518,
+    "faces": 27108,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 351,
+      "sha256": "5a23a879d64a05367d4910f239ffcaf5a2438a6de31b2fd5826dbc60625263f5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 117656,
+      "sha256": "026afd47f04d7af4fdf21a7d16a54c959476ddbdc1a9e2de6a997d3b6c02c606"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 210989,
+      "sha256": "2c09ce77ecb7089c246098349b5e53c4427b881939ee896840e70b02ec1df495"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 32418,
+      "sha256": "59df056e911fbe5d5fe37f5d820395aaa3fb7831cd7d12beb6392b4cac11ca41"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 144993,
+      "sha256": "37639ad1354642ce845abf58da9addfb7e38d8d2e72056e1c1dac2b2db7713d5"
+    },
+    {
+      "path": "models/main.json",
+      "size": 2537164,
+      "sha256": "dfcaa84265d732966c8902568299adfc28a833a498dda2092fd1357d57025ae4"
+    },
+    {
+      "path": "sounds/1.ogg",
+      "size": 2139431,
+      "sha256": "582e2adda2c118155dc3e69958bbb151f00b2c4f8815729a2d4c5e9c6cabb24a"
+    },
+    {
+      "path": "sounds/单攻.ogg",
+      "size": 20197,
+      "sha256": "d86ddb53900e6dc3e47163b60f6f5814173c97c2693dbc348219811a8ba57b93"
+    },
+    {
+      "path": "sounds/大招.ogg",
+      "size": 45301,
+      "sha256": "07e13e9b77201288c7418ec260913b07d0f4a129bbccdf257187de85cfa0b19f"
+    },
+    {
+      "path": "sounds/大的.ogg",
+      "size": 93540,
+      "sha256": "f02ec7c2edeec410b7ecf8901d86c418c5826e704867ddcc813960fbde01b2f8"
+    },
+    {
+      "path": "sounds/射箭.ogg",
+      "size": 60460,
+      "sha256": "1e341194fc5126529f7fbdbff1df449d6bbb282951bafb057e2d284e89844afa"
+    },
+    {
+      "path": "sounds/待机.ogg",
+      "size": 2985778,
+      "sha256": "ddfcb67c5194b54f8f6b6072d355db92c81251dae75ac4a9482cfccf5464e2b7"
+    },
+    {
+      "path": "sounds/战技.ogg",
+      "size": 42001,
+      "sha256": "cb0960f3d6904ddafb76c0987d7f21cba18c13aa5cd9bad4b781d62d238b0145"
+    },
+    {
+      "path": "sounds/打招呼.ogg",
+      "size": 251122,
+      "sha256": "a98e49728426a1e3801db8d3004f59f0398c671c6b40c7b0a47fe815c66c482d"
+    },
+    {
+      "path": "sounds/秘技.ogg",
+      "size": 31482,
+      "sha256": "a9ce5c34dce869009b2cafc7b3293fa9c68867a571bb95d5585585ac20fdd3e1"
+    },
+    {
+      "path": "sounds/给你礼物.ogg",
+      "size": 43462,
+      "sha256": "beb2f26bf019a683934951717711d125e7eeb533fb779c565d85a37a7e903ec0"
+    },
+    {
+      "path": "sounds/追加.ogg",
+      "size": 47852,
+      "sha256": "09d5a8d0247342c79cb176aa00f6a3a04c0c4df46993e2694ff339eea2360e44"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 4233,
+      "sha256": "9e46922e5656e0fc42e27bcb8174a51583a8c373f44652dee45df8a07cbdd63c"
+    },
+    {
+      "path": "textures/tibao.png",
+      "size": 156661,
+      "sha256": "efcec484b63a7c2f1020ab98511dcad1b74a2c6482809add6a1b6329c6d8158b"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1435,
+      "sha256": "a5921c1891b862728ff6917d457b4c70fd15da026db1b78f9cba6577367c7432"
+    }
+  ]
+}

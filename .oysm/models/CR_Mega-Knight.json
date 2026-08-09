@@ -1,0 +1,167 @@
+{
+  "id": "CR_Mega-Knight",
+  "path": "parsed/CR_Mega-Knight",
+  "source": {
+    "path": "_ClashRoyal-COC/CR_Mega-Knight.ysm",
+    "type": "ysm",
+    "stem": "CR_Mega-Knight"
+  },
+  "ysm": "parsed/CR_Mega-Knight/ysm.json",
+  "metadata": {
+    "name": "§6超软骑士",
+    "tips": "§8哇!是超软骑士！我们有救了！",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "§c烈鸟比百",
+        "role": "§7人物模型",
+        "avatar": "avatar/lnbb.png",
+        "contact": {
+          "Afdian": "爱发电搜索“烈鸟比百”",
+          "Bilibili": "B站搜索“烈鸟比百”"
+        },
+        "comment": "§7啦啦啦~"
+      }
+    ],
+    "link": {
+      "home": "https://space.bilibili.com/20510758?spm_id_from=333.1007.0.0",
+      "donate": "https://afdian.net/a/Aigoblin?tab=shop"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "",
+      "嘿嘿嘿哈": "嘿嘿嘿哈",
+      "切换阵营": "切换阵营",
+      "切换金边": "切换金边",
+      "觉醒": "觉醒"
+    },
+    "preview_animation": "idle",
+    "default_texture": "default",
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "texture": [
+        "textures/default.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CR_Mega-Knight_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9600,
+      "sha256": "85fd0a7ddc52a85fc42593ba55a76df279f7e0235d0c330e98a29e740ea4ae42"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 1022581,
+    "sha256": "739f8ecdcde55fb3fc7f6447d4deedd52a4bfb88c90fad69c62df55441d0bf74",
+    "bones": 73,
+    "cubes": 264,
+    "faces": 1434,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 152474,
+      "sha256": "173ffd65b4b5592277efa4e1f1e6abe32aca169d478374b41659b3055a66e88a"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 648,
+      "sha256": "a1742d97b6f3a435a92ed37c1f971b9367d8198a3c12116be4a9f433586b8e12"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3799,
+      "sha256": "32851380160c2bceea27535eeb1f27ed77e74f2fd565ac13c06c499952aff79e"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 145470,
+      "sha256": "213d3621c82fb031ff49c00280adaca8187cf66fad906433644de43f3b20e588"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 119878,
+      "sha256": "38697232333486252706f1e6ee4b80fc321a2ecc72149e452b75889ae9d8f1cf"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 164868,
+      "sha256": "85f8114dce69f142d5516cd237ca63ef02dc7e655a82076387a66d05e7610700"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 225030,
+      "sha256": "a873d09b660dd231643cdce11c366f1e91e03692c3ec9ee675ad4e034aa2f404"
+    },
+    {
+      "path": "avatar/lnbb.png",
+      "size": 31345,
+      "sha256": "4cc20ed747dac439077a2fbc20ec4d9787cdee95c7266d4c97e1fd9b6b1a922b"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 2512,
+      "sha256": "93d4fc7249d4a47f95c393345d87c36042ea30c3eb19155283141609681fb948"
+    },
+    {
+      "path": "models/main.json",
+      "size": 124568,
+      "sha256": "4af8b85e786eb01273bc60af1eb540a2a1a3f8f7fc812c139ff393ec65ed6183"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 9283,
+      "sha256": "762606c1f81aba930f176fd044aaa64253b57cbf620f5b420bea852bce0db29c"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1676,
+      "sha256": "0dc93e6eb7f2323d75965d088a0d1667489a5238db234c39c2b284da8cd26dae"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "Overdose_Kangel",
+  "path": "parsed/Overdose_Kangel",
+  "source": {
+    "path": "_NeedyStreamerOverload/Overdose_Kangel.ysm",
+    "type": "ysm",
+    "stem": "Overdose_Kangel"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "糖糖"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png",
+        "texture2.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Overdose_Kangel_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13056,
+      "sha256": "6490cb6d0841d5862cca25eb973598ff2e5485022ad30d59d5398c06473690b2"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 2562913,
+    "sha256": "6752275be38c61d6e72cd507a2d59f007b5f9dd89a717f7a976063cdf24c34a9",
+    "bones": 91,
+    "cubes": 349,
+    "faces": 2094,
+    "textures": 2,
+    "materials": 2,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 4550,
+      "sha256": "8b054f40b437d08f779360b1f9e7dcdac44a22c3d9789ed2342bedae7c479542"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 208977,
+      "sha256": "993fb739bfa7efb1d50f8b96a2645d0a1064e23b7a5b1ed070e401899acad705"
+    },
+    {
+      "path": "main.animation1.json",
+      "size": 131264,
+      "sha256": "0f4c3139c0b311b45b4bde3e9fbd07701d9d769cff6922e6392f8aac8a2559d2"
+    },
+    {
+      "path": "main.json",
+      "size": 172083,
+      "sha256": "819dd662d4e6ffe96e408e138b058833e7bda91ced731e9d68f91a41f2c3e4cf"
+    },
+    {
+      "path": "texture.png",
+      "size": 8777,
+      "sha256": "8f9b26389e2c838fb74aaae46bd47558d721c05bd292b5332a8866cb5edfc0d9"
+    },
+    {
+      "path": "texture2.png",
+      "size": 9563,
+      "sha256": "d00c8f81a21b8a16c813bd15dddb73175215ab1a5aecfdfb980bd09a804e8566"
+    },
+    {
+      "path": "超天酱YSM.bbmodel",
+      "size": 1732443,
+      "sha256": "06ff233b40d3ceab51d18d7f37a3a7f8850055bc7ea1e28f3def45c0c4b05e05"
+    },
+    {
+      "path": "超天酱ver2.0.bbmodel",
+      "size": 295256,
+      "sha256": "810a809d9768b900423ac488c51826cfb0e331fd6440cce6c71fcab153bd1bb7"
+    }
+  ]
+}

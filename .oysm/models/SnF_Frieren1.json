@@ -1,0 +1,113 @@
+{
+  "id": "SnF_Frieren1",
+  "path": "parsed/SnF_Frieren1",
+  "source": {
+    "path": "_SousouNoFrieren/SnF_Frieren1.ysm",
+    "type": "ysm",
+    "stem": "SnF_Frieren1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "frieren（芙莉莲——葬送的芙莉莲）",
+    "tips": "辛逝纪芙音战士。\n替换了绝大多数手臂动画，弓、弩、剑、镐、盾、火把等等\n§4§l请勿用于商业用途§r\n\n模型作者:§d依蕾娜家的咸鱼 QQ:1249276678\n\n动画修改:§9星屑海螺§r QQ:741330261",
+    "authors": [
+      {
+        "name": "模型作者:§d依蕾娜家的咸鱼§r"
+      },
+      {
+        "name": "动画修改:§9星屑海螺§r"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "fufu.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "飞吻": "飞吻.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/SnF_Frieren1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6299,
+      "sha256": "440931a45b3955d0135ca05ed61ad0bd04a55326c8c90075e13fef1bfa581631"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 2141179,
+    "sha256": "d43d8c36425b23bcc81dc4dbf4907f6c66a7386f6102f3cf5484fdffec870600",
+    "bones": 239,
+    "cubes": 1011,
+    "faces": 5781,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 926986,
+      "sha256": "4b1636f927ff82fde5ab40f277b7393c8d87d9ebe154de240aeeb467653142bc"
+    },
+    {
+      "path": "arm.json",
+      "size": 42962,
+      "sha256": "383ffd04e91e7d3f98f60f2e68da44f22eb8ed851eca2d100d376c63611e22f9"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 351459,
+      "sha256": "d269d458bef862f2cc5b7d3c60cfbf202d54f02725f744201a6b76467f885f12"
+    },
+    {
+      "path": "fufu.png",
+      "size": 48314,
+      "sha256": "029424945e60a69ac121bf629a70aac0c7c659e1a1b1e9657a282fb6c871696f"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 236736,
+      "sha256": "f53ee1ba1f8699bd952c58f92bcd40c568d1085da481bf5a286c7e2ab53b0547"
+    },
+    {
+      "path": "main.json",
+      "size": 492566,
+      "sha256": "891d7353b62abe3f67218f34e5374d9a889f0ee8fef0f68a355c9dfb69a2541c"
+    },
+    {
+      "path": "模型简介.txt",
+      "size": 888,
+      "sha256": "e8af7ad76c55dec97ebdbf19d002985fe98a0d8928550685f8ebd60c34e8b1b3"
+    },
+    {
+      "path": "飞吻.animation.json",
+      "size": 41268,
+      "sha256": "4bf7f0dc392885fb84a0a74cdb4637f9395f5a22010e106f8db9b67aabd37f9e"
+    }
+  ]
+}

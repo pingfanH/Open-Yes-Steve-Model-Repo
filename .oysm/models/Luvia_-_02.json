@@ -1,0 +1,252 @@
+{
+  "id": "Luvia - 02",
+  "path": "parsed/Luvia - 02",
+  "source": {
+    "path": "Unknown/Luvia - 02.ysm",
+    "type": "ysm",
+    "stem": "Luvia - 02"
+  },
+  "ysm": "parsed/Luvia - 02/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/Qlnя1451.png",
+        "comment": "认真的敷衍",
+        "contact": {
+          "Afdian": "https://afdian.net/a/kr-1451",
+          "Bilibili": "https://space.bilibili.com/523232710?spm_id_from=333.1007.0.0"
+        },
+        "name": "Qlnя1451",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/暮雨回廊-milthm二创馆.png",
+        "comment": "这里是milthm#二创群官方号，非milthm官方号，欢迎任何沉浸于梦雨之声的小伙伴们加入。",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/3546836780452004?spm_id_from=333.337.0.0",
+          "QQ群": "771250001"
+        },
+        "name": "暮雨回廊-milthm二创馆",
+        "role": "模型隶属于"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.net/a/kr-1451",
+      "home": "https://afdian.net/a/kr-1451"
+    },
+    "name": "Luvia",
+    "tips": "Luvia,剧情里面的服装"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#自定义",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "是的",
+      "extra4": "不行！",
+      "extra5": "Say Cheese",
+      "extra6": "?",
+      "extra7": "#yee",
+      "extra8": "叉腰",
+      "extra12": "隐身",
+      "extra20": "你抚琵琶奏琴弦",
+      "extra21": "你游启动界面动作1",
+      "extra22": "低头",
+      "extra23": "杀戮光环",
+      "extra24": "转圈圈~(对面也开了使用)",
+      "extra25": "转圈圈~",
+      "extra26": "曲绘的动作"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "自定义",
+        "name": "基础配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "身高",
+            "description": "露维娅的身高调整",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 5.0
+          },
+          {
+            "type": "range",
+            "title": "头",
+            "description": "露维娅的头的大小调整",
+            "value": "v.Player_head",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 10.0
+          },
+          {
+            "type": "checkbox",
+            "title": "衣服后面的装饰",
+            "description": "有的曲绘有，有的没有:(",
+            "value": "v.r"
+          }
+        ]
+      },
+      {
+        "id": "yee",
+        "name": "面部管理",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "表情-嘴",
+            "description": "调整嘴巴的变化",
+            "value": "v.mouth",
+            "labels": {
+              "嘻嘻": "v.mouth=0;v.nor=0;v.lol=1;v.unlol=0;v.dra=0;v.w=0",
+              "默认": "v.mouth=1;v.nor=1;v.lol=0;v.unlol=0;v.dra=0;v.w=0",
+              "不嘻嘻": "v.mouth=2;v.nor=0;v.lol=0;v.unlol=1;v.dra=0;v.w=0",
+              "√": "v.mouth=3;v.nor=0;v.lol=0;v.unlol=0;v.dra=1;v.w=0",
+              "w": "v.mouth=4;v.nor=0;v.lol=0;v.unlol=0;v.dra=0;v.w=1"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Luvia_-_02_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12526,
+      "sha256": "089ae423b4671e20a6f010bae945e34d70164dc43b6b784da87a8773ab1b7bcb"
+    }
+  },
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 3692277,
+    "sha256": "12d3087edf57501a5375481e98b873a909d5cdc0aa9bfa20db9a8d8a192e0da1",
+    "bones": 261,
+    "cubes": 704,
+    "faces": 4224,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 140583,
+      "sha256": "6301e5cf824a5e8308835c1bdc2feee46497f22f6fd5ada4e0b9188a7794dc5d"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2712,
+      "sha256": "4f5e7ed844d6d85a5a0a97bb7a3bcce92307a1ead674f00bca412ec3425c6e4e"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 167031,
+      "sha256": "b1fd62cbbdfd84cb872cf2e72e1aad840f2900207fc046ba24abfa7fd374648c"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 279029,
+      "sha256": "4301f475bb74850e197a8fc987cc62e53fb64a5c684ad4d696efc41f715f19de"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 168955,
+      "sha256": "034aed618268f23c8d10734de50de4d97f651bad24580f0d60f24673b187919d"
+    },
+    {
+      "path": "avatar/Qlnя1451.png",
+      "size": 31013,
+      "sha256": "16ffeb6c25bbed0ef90523d123d263b2b1d1241313f633c4c1496190d146bb5d"
+    },
+    {
+      "path": "avatar/暮雨回廊-milthm二创馆.png",
+      "size": 2456968,
+      "sha256": "9a5e1df35ed79fa4d028981e4bcf882dc65c92ca877f10c1b25833c339b1c8c2"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 8001,
+      "sha256": "ae033a035126a7835f79f3e2a97e16430add90753e1d4c9034a4d10a1523a9e0"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 397873,
+      "sha256": "fcbf8872b88889c84efc1a232890c39e36a980a139eda1fec858431fac676d63"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 29118,
+      "sha256": "f104abd91b9583caa21f68ba2399b3b54d393ca8fd52c515ea6dfe4129b16716"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2845,
+      "sha256": "3131ebb43d68e1dfe8f7fd48a3b5f1aed978ad61eee5f4e8b1af2b1dea76e55b"
+    }
+  ]
+}

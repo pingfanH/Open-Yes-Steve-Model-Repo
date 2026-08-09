@@ -1,0 +1,111 @@
+{
+  "id": "Nikke_Marian(Silver_spear)_v1.0",
+  "path": "parsed/Nikke_Marian(Silver_spear)_v1.0",
+  "source": {
+    "path": "_Nikke/Nikke_Marian(Silver_spear)_v1.0.ysm",
+    "type": "ysm",
+    "stem": "Nikke_Marian(Silver_spear)_v1.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "玛丽安-银枪部队",
+    "tips": "“我”遇到的第一位妮姬，待人亲切温和，性格干脆俐落，从来不会掩饰内心的想法。从很多层面上来说，她对于“我”都有第一次的意义。",
+    "authors": [
+      {
+        "name": "模型制作者-雒仁"
+      },
+      {
+        "name": "模型素体-映素三代"
+      },
+      {
+        "name": "动作配布-星屑海螺"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "textur.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Nikke_Marian_Silver_spear__v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10403,
+      "sha256": "18b88117c5bd4b3f2d57e87f5e297a24e8fad613edc319eae62d27b284eadbb3"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 1048016,
+    "sha256": "ee8db0a1a5313aa8cda5817920da88b5ef47de65e976ceba6648039369a22fb2",
+    "bones": 96,
+    "cubes": 664,
+    "faces": 3984,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 40126,
+      "sha256": "790ab02c90e1a8abe35416ab266379138e0c8a41bca899493a72c7d697485d73"
+    },
+    {
+      "path": "arm.json",
+      "size": 24245,
+      "sha256": "0fb6afa1af49c6442bc9b766f3359c0f26a5cac1f0dc494832b60c0b66ecbe2f"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 139237,
+      "sha256": "d291351547ae3584a937d5dd63f278bdb618e1795d9e3a5bdc8420ca30faf187"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 289295,
+      "sha256": "4cc32a6ae77d464fac99b6130d7e08d8b25a23100404d5af620deb41744f77c5"
+    },
+    {
+      "path": "main.json",
+      "size": 344553,
+      "sha256": "ef2ea3a3e11958b20ae471efb7309733c1b0ad831ee003fe22af8f8db01c4cfb"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 172191,
+      "sha256": "49f0c2691135ed7d6ab9180fb8323eb190c2ed0b635e499e7eb91b8698216d5c"
+    },
+    {
+      "path": "textur.png",
+      "size": 38369,
+      "sha256": "b9590db2c38e322c84d24eb8484b3acd8b4916944e23e4ae7a811a003e5ee768"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "BA_Risa_1",
+  "path": "parsed/BA_Risa_1",
+  "source": {
+    "path": "_BlueArchive/BA_Risa_1.ysm",
+    "type": "ysm",
+    "stem": "BA_Risa_1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "蔚蓝档案-宇泽玲纱",
+    "tips": "三一综合学院所属，自警团的成员，在三一的各地出没，进行着维持治安的活动。\n虽然因为总是说些令人摸不着头脑的话，有时也会被认为是恶作剧报告，但是其实比谁都认真地在进行着自警团的活动。自报家门的开场白，每次都会稍微变化的样子",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "模型作者：伊洛是哥斯拉吗"
+      },
+      {
+        "name": "2，0动作与修组：狱际星芒"
+      }
+    ]
+  },
+  "properties": {
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "lingsha.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Risa_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8617,
+      "sha256": "99f1fcb1e541d21295595ccd50658c85ea91768fcce6de232041522c0660315e"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 1409626,
+    "sha256": "ac99b335fd09e702f7fdc5c3c5f8f5ac74bf451fa36b6467000cb9650b2e467f",
+    "bones": 106,
+    "cubes": 1130,
+    "faces": 6780,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 53133,
+      "sha256": "6528828bff1db68a8d6cefd67549ce24f31458468101bfab08db2e38637f6647"
+    },
+    {
+      "path": "arm.json",
+      "size": 20400,
+      "sha256": "ed1383f17c1ee02b59a05f75a09cc71cfee29282b08d63ba52240777a09c221c"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 2675,
+      "sha256": "6e8d3afe0c3baafff8f7f3e0e30ef3c621c667be5c346af73398f5fd3cb89ca5"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 381256,
+      "sha256": "3a9f707b3f5203153687300010005bf411aae8a5f18f2226ff47e02d1b4a5dc2"
+    },
+    {
+      "path": "info.json",
+      "size": 638,
+      "sha256": "83ef8d41baee78d188941d6ae827d3ced218cd7cc9a5b9dc39a7c1c3faa01c63"
+    },
+    {
+      "path": "lingsha.png",
+      "size": 70666,
+      "sha256": "1baa6d6205c01d027d15ecbf4e0547e7f25228d15b1dc8879b15a937b81998c1"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 192028,
+      "sha256": "147e47f5dea8dbc7112e2f6b2ba1fd535968a29e99c829b8a6765e8991f98a12"
+    },
+    {
+      "path": "main.json",
+      "size": 551447,
+      "sha256": "6b2b572b9c7e25f9a0a95d2e96c672353da23191ab384e85ea3c904a2bb866cc"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 137383,
+      "sha256": "c42aefc53ea029b9ecd4efbee8cf72dc0e5ef1ce311990e88873485f841ac5e2"
+    }
+  ]
+}

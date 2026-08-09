@@ -1,0 +1,100 @@
+{
+  "id": "CnCTW_GDIRiflemanSquad",
+  "path": "parsed/CnCTW_GDIRiflemanSquad",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCTW_GDIRiflemanSquad.ysm",
+    "type": "ysm",
+    "stem": "CnCTW_GDIRiflemanSquad"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "GDI步枪兵",
+    "tips": "军费被削，导致穿得不如2代",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCTW_GDIRiflemanSquad_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5168,
+      "sha256": "88ea5959ba51e4eaca701ec515b7d745f21db03ce14375c361d662f5661f4693"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 329704,
+    "sha256": "aab2f160b253a87fb8bfa5000bccffc8b3712ecbea53db61261f3c69dc503606",
+    "bones": 42,
+    "cubes": 112,
+    "faces": 672,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 9055,
+      "sha256": "325e150befe75cc281c975a5b0dea160f2e4a52531c1463418a15d6be99e6ca2"
+    },
+    {
+      "path": "info.json",
+      "size": 167,
+      "sha256": "b1956d376e097048eb4f73f496922db02ef8b5a72d39d21fe6914660e11bfefd"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122470,
+      "sha256": "d93402d24863ccd84622801424bb845d8ff78161fae9d48b7bbf0c3d213720c1"
+    },
+    {
+      "path": "main.json",
+      "size": 50437,
+      "sha256": "2486480364cd95af96f17a2201aaecdaaa1b1f98ce4f6b84a9ba480de462b030"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131639,
+      "sha256": "a73cf95259743cc506fa6931e6bed68e0e41c5edca8f4651f26f1a42c1e26994"
+    },
+    {
+      "path": "texture.png",
+      "size": 15936,
+      "sha256": "ce4c3c708a70bdcdcae0a66a01f9b9c49758717523669d4b1a3da5f6525eb606"
+    }
+  ]
+}

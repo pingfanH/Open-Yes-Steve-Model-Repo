@@ -1,0 +1,84 @@
+{
+  "id": "DaL_Kurumi_2",
+  "path": "parsed/DaL_Kurumi_2",
+  "source": {
+    "path": "_DateALive/DaL_Kurumi_2.ysm",
+    "type": "ysm",
+    "stem": "DaL_Kurumi_2"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "DaL_Kurumi_2"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/DaL_Kurumi_2_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13368,
+      "sha256": "8eeafeb6c81a72dc97fe4afcf2fc6f233536f57208389ce6ea3f83a4c7decd62"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 945621,
+    "sha256": "f7b8c066f122baf3fb653a30c152124fe72209323509a9d54e72664e2965a9ca",
+    "bones": 136,
+    "cubes": 946,
+    "faces": 5676,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 54909,
+      "sha256": "31d459433e8e9a41c2801180378a0c4f556f2cb28eed971cd06e508a7f268767"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 122601,
+      "sha256": "48bae44cda1c4a65410cdcc3e73aace2a302be6e77d0628b22641b059e8061be"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 156322,
+      "sha256": "3ac66070fac8284ed0509e58324194d063c91f760cb83dd8ce2f5dd840420dd7"
+    },
+    {
+      "path": "main.json",
+      "size": 475935,
+      "sha256": "25b55d466cda7a0f379195c167f756000a8987b5d3994d4958d6582c77ab1ff2"
+    },
+    {
+      "path": "texture.png",
+      "size": 135854,
+      "sha256": "02467fd070d9fa69fd16dd03d7f87606fd7cf191d3c7d16d690a82d27369b888"
+    }
+  ]
+}

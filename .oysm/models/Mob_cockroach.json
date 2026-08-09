@@ -1,0 +1,87 @@
+{
+  "id": "Mob_cockroach",
+  "path": "parsed/Mob_cockroach",
+  "source": {
+    "path": "_MinecraftMob/Mob_cockroach.zip",
+    "type": "zip",
+    "stem": "Mob_cockroach"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "美洲大蠊",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "tex11.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Mob_cockroach_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 2786,
+      "sha256": "91575345738b6f4172063d3a12062e1b16e76b093b9d8f761a653647c2f800d6"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 124272,
+    "sha256": "0e3049d2230c302463d8cd20321b61b23aff61c38981a1e95c3767b1d32f1f75",
+    "bones": 60,
+    "cubes": 71,
+    "faces": 426,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 39427,
+      "sha256": "2ff9386d7c64ece525bc0e52c797c135cbfacbf6f051a93c2c98945ee7f289c7"
+    },
+    {
+      "path": "arm.json",
+      "size": 4064,
+      "sha256": "0451fdd5dc03f22c64a207da157423c4ac63b1c267ff38e8bfd7f93941cdbe48"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 67689,
+      "sha256": "96acac442a3e80c0569991054f9783d749018d480792fd780fbb016198ebe3b0"
+    },
+    {
+      "path": "main.json",
+      "size": 11779,
+      "sha256": "230b9093b565ecad656aab32f4b900012dd7ef69eb868d985b6ffe49f539205e"
+    },
+    {
+      "path": "tex11.png",
+      "size": 1313,
+      "sha256": "200783cb90ccbd7b79472c6bb2c5d3ba07651437bedb25c51aa1370f17e11ff6"
+    }
+  ]
+}

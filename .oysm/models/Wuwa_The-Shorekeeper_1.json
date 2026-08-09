@@ -1,0 +1,160 @@
+{
+  "id": "Wuwa_The-Shorekeeper_1",
+  "path": "parsed/Wuwa_The-Shorekeeper_1",
+  "source": {
+    "path": "_WutherringWaves/Wuwa_The-Shorekeeper_1.ysm",
+    "type": "ysm",
+    "stem": "Wuwa_The-Shorekeeper_1"
+  },
+  "ysm": "parsed/Wuwa_The-Shorekeeper_1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§c寒叔.png",
+        "comment": "§7嘿嘿嘿·~",
+        "contact": {
+          "Afdian": "爱发电搜索“烈鸟比百”",
+          "Bilibili": "B站搜索“寒叔hs”"
+        },
+        "name": "§c寒叔",
+        "role": "§7模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/Aigoblin?tab=shop",
+      "home": "https://space.bilibili.com/20510758?spm_id_from=333.1007.0.0"
+    },
+    "name": "§3守岸人",
+    "tips": "守岸人，黑海岸的守护者，这种程度的说明对她便已足够。至于渴望、羁绊、情感……除职责外她所拥有的一切，都丰满于与你相遇之后。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "立绘poss": "立绘poss"
+    },
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Wuwa_The-Shorekeeper_1_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 21498,
+      "sha256": "c26addfddbf705e406ce2c5e9a4a48c34b486b06676a65989e39c7496ff5e246"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 1859037,
+    "sha256": "b44591704a7b7b5a77827769d1a0b46f1b5a301bdcb36fbed8652e54c284e9b8",
+    "bones": 177,
+    "cubes": 1489,
+    "faces": 8932,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 31366,
+      "sha256": "5112e99718a0964592490f2e6a880693fb483f5f4c6c01bc223acdb49655f15d"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "6e8d3afe0c3baafff8f7f3e0e30ef3c621c667be5c346af73398f5fd3cb89ca5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 3484,
+      "sha256": "cc04467073ec167cbec21cfe6598316dd659f7055b82c02f4541530d327bcde4"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 367064,
+      "sha256": "6cb78c3b114a3c1e24deedd3660e3513e34b9644fe4a6f21ed754a2f8695f22f"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 180237,
+      "sha256": "e87e33fc633349634c89c336e24802fffd6b4be1bf7cac6246db3e1535144b5c"
+    },
+    {
+      "path": "avatar/§c寒叔.png",
+      "size": 162710,
+      "sha256": "28e19d6587eb8d647553eb54267c3793ea5f8a5de70d5b58314647b9d63257b5"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 76266,
+      "sha256": "3a3b5c6e0a58a861e8adde1127394d99ba5eee25a27030727767ed6c468b1f46"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13423,
+      "sha256": "7e605f03efbf09f910136dd6d7428b3b57d416be110ef51c153d96e8c7dc686e"
+    },
+    {
+      "path": "models/main.json",
+      "size": 777024,
+      "sha256": "5278128064790fbc897542dd5b8c0a4e14b9cf64c16c55ee9619bf2c81400cdf"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 613,
+      "sha256": "aeabb5efc19dc3fe19bd5bd6f9727a0c467810c3fae08bffbb5d424c72049329"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 242963,
+      "sha256": "4934defef2d529aecb896b7d0432003c835a29cc87efbf3f32f826838c47b1b4"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1212,
+      "sha256": "628b2a653e94c598af9bc06eb17dd7d637614f4676d64e928746bd02d407ff50"
+    }
+  ]
+}

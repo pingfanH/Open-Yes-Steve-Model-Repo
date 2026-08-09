@@ -1,0 +1,94 @@
+{
+  "id": "Overdose_Ame-chan",
+  "path": "parsed/Overdose_Ame-chan",
+  "source": {
+    "path": "_NeedyStreamerOverload/Overdose_Ame-chan.ysm",
+    "type": "ysm",
+    "stem": "Overdose_Ame-chan"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "糖糖"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Overdose_Ame-chan_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7343,
+      "sha256": "eeb55b80c9283d26faed2b18be2ba876b60ababfc124e332629e3bfbf5ac3e8d"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 832192,
+    "sha256": "a07b610f1cce2773519c85f76f63bd76808098caffaad4e65ddee6137813f5eb",
+    "bones": 84,
+    "cubes": 307,
+    "faces": 1842,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 3630,
+      "sha256": "b25689726582fc792c3ce6ad1bee6616c1b5eda1a4f748aba6f8fec4f6b8d232"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 77368,
+      "sha256": "d2fdbb6ca7889dc785b15b029a4cb3f50c3fda7822e2b51e1ea91e938536e5a2"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 131232,
+      "sha256": "1915c3000da4458db6d0157406af193c5952b13a49e4f8d07abcb1d2f7cd7c15"
+    },
+    {
+      "path": "main.json",
+      "size": 155220,
+      "sha256": "236417e714861f2ce445ef47a2b74ef1f6676c0344a3770cd47ff8eb49d28abc"
+    },
+    {
+      "path": "texture.png",
+      "size": 6626,
+      "sha256": "7c74a22aa0af1e277cec62a6352968d1a95559c32ea2cd9a814802b5dba7e2bf"
+    },
+    {
+      "path": "糖糖YSM.bbmodel",
+      "size": 210860,
+      "sha256": "de726c65be80f531b3665c10eeaf1c7f9bb25c73b91d203e2eeebf6690a71971"
+    },
+    {
+      "path": "糖糖完成版v2.0.bbmodel",
+      "size": 247256,
+      "sha256": "28174de3e7b737b0dcebf4c28f59301785da4feac53ca07ae8f6439651a43115"
+    }
+  ]
+}

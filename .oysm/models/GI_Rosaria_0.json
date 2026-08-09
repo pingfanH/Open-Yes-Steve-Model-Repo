@@ -1,0 +1,90 @@
+{
+  "id": "GI_Rosaria_0",
+  "path": "parsed/GI_Rosaria_0",
+  "source": {
+    "path": "_GenshinImpact/GI_Rosaria_0.zip",
+    "type": "zip",
+    "stem": "GI_Rosaria_0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "GI_Rosaria_0"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "black.png",
+        "luo.png",
+        "normal.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Rosaria_0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7680,
+      "sha256": "2888ec5e837b8bfe01a683476da68f2f4522c9e286e759ea8a42eb252b393d13"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 752969,
+    "sha256": "1922f7f7e945c95705655d6448d331b638882d2b1e86d969e2c3fe55a43c0a13",
+    "bones": 85,
+    "cubes": 963,
+    "faces": 5778,
+    "textures": 3,
+    "materials": 3,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 30792,
+      "sha256": "3673ec956a2a899dc581c79dea1ae464139a2381571a09b3843f8e4ec4b7d9cd"
+    },
+    {
+      "path": "black.png",
+      "size": 20224,
+      "sha256": "f6aad8982493cbc10eb49a864f23282dd4618b03b7a3dd38c826e518c572bdc0"
+    },
+    {
+      "path": "luo.png",
+      "size": 21919,
+      "sha256": "3f5202b3b8389ec98b47558da62e969e48fd8525bea605c699aa5381674f1953"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 141930,
+      "sha256": "a044cf441eac27c0da49525c4e0de6c1b70ef109b8f20d1d3b931c47200acda5"
+    },
+    {
+      "path": "main.json",
+      "size": 516809,
+      "sha256": "1b07804080663f0e1ef3303ca5aeb4d7f6b3c06040ba9e436316915f459d7e9d"
+    },
+    {
+      "path": "normal.png",
+      "size": 21295,
+      "sha256": "5d9ed9dad3b639660860fe2c16bc34a3395b915d654981a7c3764096959ab4bb"
+    }
+  ]
+}

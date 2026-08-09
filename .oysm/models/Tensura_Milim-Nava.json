@@ -1,0 +1,212 @@
+{
+  "id": "Tensura_Milim-Nava",
+  "path": "parsed/Tensura_Milim-Nava",
+  "source": {
+    "path": "_Tensura/Tensura_Milim-Nava.ysm",
+    "type": "ysm",
+    "stem": "Tensura_Milim-Nava"
+  },
+  "ysm": "parsed/Tensura_Milim-Nava/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/哥斯拉.png",
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少",
+        "contact": {
+          "Afdian": "https://afdian.net/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "name": "哥斯拉",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/端木一动不动.png",
+        "comment": "永远都在ing",
+        "name": "端木一动不动",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/甜粽子.png",
+        "comment": "(ᗜˬᗜ)",
+        "name": "甜粽子",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/星屑海螺.png",
+        "comment": "这里是做YSM动画的up",
+        "contact": {
+          "Afdian": "https://afdian.net/a/lucia2048",
+          "Bilibili": "https://space.bilibili.com/14975572"
+        },
+        "name": "星屑海螺",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.net/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "milim_nava",
+    "tips": "默认模型（Default Model）"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Tensura_Milim-Nava_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9644,
+      "sha256": "02afc5ec6127db4027f29bbf4b5ddae4dbecec2d6dd690418953ecf519b3e04d"
+    }
+  },
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 1064486,
+    "sha256": "7b4f35422398e165f3845c8d8fe983d92b27793723322843a70a3361d6ce35fd",
+    "bones": 55,
+    "cubes": 708,
+    "faces": 4248,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 126681,
+      "sha256": "e06bf1884593494a940a6de72c1f30a1993be866ed9e9e58c2162e95985fe107"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2712,
+      "sha256": "4f5e7ed844d6d85a5a0a97bb7a3bcce92307a1ead674f00bca412ec3425c6e4e"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 123165,
+      "sha256": "0a5d3f9c0562cc4d4032464fa5a4f9c4d80d0d7a218e780240d04c0b276f8c9a"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 199514,
+      "sha256": "d8808c1d0cb3ef1d28af592dc562ee8351801cc83dbb2d1cde402eab1e6f2bdf"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "avatar/哥斯拉.png",
+      "size": 19374,
+      "sha256": "6cd420a5238d37083afb1a43736ae8f862dfb9d9065c1ae1895c2ee20071333c"
+    },
+    {
+      "path": "avatar/星屑海螺.png",
+      "size": 22406,
+      "sha256": "2c03d4213bddb87b0bc8d40b1cc32c059b0fe72a0bd6cc09613505a82e922f65"
+    },
+    {
+      "path": "avatar/甜粽子.png",
+      "size": 13575,
+      "sha256": "afbc4a0ad6483a06d38085e6ec7f55db706ce25cb1de636a1698faf2fc53d4a1"
+    },
+    {
+      "path": "avatar/端木一动不动.png",
+      "size": 22379,
+      "sha256": "3c431bb54f22ffb6bb153d5de92dee6831881419ed4135b517cc9abd32e44095"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 53452,
+      "sha256": "50d225bdc580377c0be53f487b9b4fe0cba6b7bf8e539c8b5098a4fd4bd25da0"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 325517,
+      "sha256": "c1ce01fc965a36640f05940713fce0d4be1b943820cd1f95cf21029f2e4b705e"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 12302,
+      "sha256": "1e894d760f6da48a111f26a10bdbbb846cf72b1042c3467a69850f64cf1aab19"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1654,
+      "sha256": "78a0614ccf431f57dd4108fb5cdf4962775672151efd88ac5240ad9c2b2c5b28"
+    }
+  ]
+}

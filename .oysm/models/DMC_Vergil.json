@@ -1,0 +1,219 @@
+{
+  "id": "DMC_Vergil",
+  "path": "parsed/DMC_Vergil",
+  "source": {
+    "path": "_DevilMayCry/DMC_Vergil.ysm",
+    "type": "ysm",
+    "stem": "DMC_Vergil"
+  },
+  "ysm": "parsed/DMC_Vergil/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/蓝玫瑰.png",
+        "comment": "肘",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/11814817?spm_id_from=333.788.0.0",
+          "QQ群": "584570528"
+        },
+        "name": "蓝玫瑰",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/星屑海螺.png",
+        "comment": "肘",
+        "contact": {
+          "Afdian": "https://afdian.com/a/lucia2048",
+          "Bilibili": "https://space.bilibili.com/14975572"
+        },
+        "name": "星屑海螺",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "禁止商业行为，以相同方式二次传播"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Vergil",
+    "tips": "Devil Never Cry"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "跳舞1",
+      "extra1": "招手",
+      "extra2": "鼓掌",
+      "extra3": "认同",
+      "extra4": "否定",
+      "extra5": "胜利",
+      "extra6": "摇摆",
+      "extra7": "跳舞2",
+      "extra8": "安静地坐着",
+      "extra9": "pose-宣战"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "五代形象",
+    "preview_animation": "idle",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/五代形象.png"
+        },
+        {
+          "uv": "textures/三代形象.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/DMC_Vergil_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7088,
+      "sha256": "5842702c88d2d29dcdd5ff28405ea652e7fd75d2f04ad5522a677355f031c735"
+    }
+  },
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 7257585,
+    "sha256": "4e6f60fa6265378703a7a260c15c75b4fde0319c913937fbe4910dc05dd47dcb",
+    "bones": 72,
+    "cubes": 329,
+    "faces": 1974,
+    "textures": 2,
+    "materials": 2,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136637,
+      "sha256": "f795d670b8e2553548348161425e21c7a8f4c2b78d4602d33c8ccc1f03f537b3"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 126575,
+      "sha256": "491def6fa9ba46038a4f8c45d18bf8fff5e640498dcee1f76f91ca486c84cac8"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 224863,
+      "sha256": "596580cc7920af7af5b34637fb8d23566383c36f1ce70dbaf7c68c365ff41520"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 130638,
+      "sha256": "2acf87ebb8b3517cda97496fd92fd7c8d0a8645b017694b7d373952d955b7316"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1897881,
+      "sha256": "cc769191c0582a45b9e5bb81fb4c7e4c8ec02feb28b50ed518601dbe50ba216e"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/星屑海螺.png",
+      "size": 208169,
+      "sha256": "ab056653738e9dc274c4bd1947fb5fe3122167ee64c8d35f82ea289c0199c9a0"
+    },
+    {
+      "path": "avatar/蓝玫瑰.png",
+      "size": 140683,
+      "sha256": "5af00e5b0cd73173a8cb53a0d584f8fbe87a5c69cd126326c404ff7caba82697"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 6849,
+      "sha256": "3fdcc2a5fe5b5ba2c544a7d6d104b840d2e7dbc56ea10b45d3a3709667a546e7"
+    },
+    {
+      "path": "models/main.json",
+      "size": 170531,
+      "sha256": "e3a5f9eb6252f18b6b8f85dd9fd8cbf83fff8e857881e964f6dd90fbcc1c3ef1"
+    },
+    {
+      "path": "sounds/burythelightm20_2.ogg",
+      "size": 3796856,
+      "sha256": "7c9c22a280f998dc5c4135a27897c060a50fd79b211edae9893db637e603e152"
+    },
+    {
+      "path": "sounds/judgementcut1.ogg",
+      "size": 54893,
+      "sha256": "ade81c906dd1f8357a072ec25d8880c761c540ab478b18c1026e4b130c61bb68"
+    },
+    {
+      "path": "sounds/judgementcut_launch.ogg",
+      "size": 51463,
+      "sha256": "b13f9fd3d7a4274f94b63f641b75853fd3812eeb666d89a4ee2845f989b4eece"
+    },
+    {
+      "path": "sounds/youarefinished.ogg",
+      "size": 36293,
+      "sha256": "818065bd5b5e65ac04fee8b531d69bdacaa494c743f50aa870a3e7c58a1f13cd"
+    },
+    {
+      "path": "textures/三代形象.png",
+      "size": 23260,
+      "sha256": "a82c606ec3d9eae60ec0e76700209daa81b7418e7ca88aaf3d5d716af029e3ce"
+    },
+    {
+      "path": "textures/五代形象.png",
+      "size": 24040,
+      "sha256": "e561f35124062e74974a7d0922736a2c2578c13832b1ca43581127d19b2ab187"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1635,
+      "sha256": "1022306a4bcdd172eb5edefdb2490b2a509755e319768d103392727f3061b634"
+    }
+  ]
+}

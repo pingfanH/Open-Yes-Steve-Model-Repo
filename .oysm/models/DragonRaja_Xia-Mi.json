@@ -1,0 +1,191 @@
+{
+  "id": "DragonRaja_Xia-Mi",
+  "path": "parsed/DragonRaja_Xia-Mi",
+  "source": {
+    "path": "_DragonRaja/DragonRaja_Xia-Mi.zip",
+    "type": "zip",
+    "stem": "DragonRaja_Xia-Mi"
+  },
+  "ysm": "parsed/DragonRaja_Xia-Mi/ysm.json",
+  "metadata": {
+    "name": "卡塞尔学院-夏弥",
+    "tips": "大地与山之王-耶梦加得",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "Cc纸盒",
+        "role": "模型",
+        "avatar": "avatar/zhe.png",
+        "contact": {
+          "Afdian": "https://space.bilibili.com/1494015242?spm_id_from=333.1007.0.0",
+          "Bilibili": "https://space.bilibili.com/1494015242?spm_id_from=333.1007.0.0"
+        },
+        "comment": "模型作者"
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.net/a/ysmmod"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "preview_animation": "gui",
+    "default_texture": "default",
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "slashblade": "animations/slashblade.animation.json"
+      },
+      "texture": [
+        "textures/default.png"
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": "textures/arrow.png"
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/DragonRaja_Xia-Mi_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10534,
+      "sha256": "dfda62b925c6a8d9328cfdea95940c570f53462e7a230b171343b8811fc163e5"
+    }
+  },
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 2970577,
+    "sha256": "8258e7eea10629fd4582f907c8dc5b847e5699cb271890790909cb128357169c",
+    "bones": 87,
+    "cubes": 808,
+    "faces": 4848,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 152474,
+      "sha256": "173ffd65b4b5592277efa4e1f1e6abe32aca169d478374b41659b3055a66e88a"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 3719,
+      "sha256": "46c5f2c6827c19552519171fc65bbd087ce5b31dbc2eee6e30a597435c2d681c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3860,
+      "sha256": "62a2c7e45915095762cbebc9cc1bcd210088dad7b9c4223d52e11b1d610ccf53"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 296016,
+      "sha256": "545a94dacead2b177117174fe5ba2495f6fc9b14a1b304fabf17b05e77032e5e"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 195715,
+      "sha256": "b0069dd53a9833dc7ea8685a3b9bd9aa1b7b2836cee2543ddf36c9f5c2c0ca1a"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 164587,
+      "sha256": "85b664c894b360f3c51b04683e921210cef4fa237245aa1eeb65a3079b3f5c13"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1168928,
+      "sha256": "bd506a301e83eaf38efd90a8696842fb4720922e4f18746bc966221b2d27e572"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 48669,
+      "sha256": "15a7554e77c3da8a9a9883772037315141a67e5998260d6f2d8c3b4d6e1012e8"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 218828,
+      "sha256": "74b882f853d95605a028ee8e4994f151dfc86c1c25eda1b5092ccd8ef1a76ce2"
+    },
+    {
+      "path": "animations/夏弥.animation.json",
+      "size": 2023,
+      "sha256": "c368ce0b40edd4e193278def36c55b92a1613be3f2c7e33c7e624b4bd5542b50"
+    },
+    {
+      "path": "avatar/zhe.png",
+      "size": 245063,
+      "sha256": "b52d048cea98f03e7ba6865938c6f1a83722813220741327b3e9128bed91e867"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 6548,
+      "sha256": "c94dc409d3d62890372ce2268a5ca1e17859daffdbcc5ee0c46c1a84255afccc"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 1507,
+      "sha256": "1c8292f2a61c736aa68d362dee8a01b071547a6a81ee5c7c89ce5405dc757475"
+    },
+    {
+      "path": "models/main.json",
+      "size": 439701,
+      "sha256": "7dbecbf6c72a75137af19cfd9ed3b8d8ba0c358dc28a2426e66f050fb24a450f"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 799,
+      "sha256": "8153931ce42c13017b132909078f2afe3c7ce81cd69a064c3e942a1d16848d60"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 20273,
+      "sha256": "6d7c79c902d1ec7e00d521a8a9eee68cb774cc6d4f2bc6898664763137788b05"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1867,
+      "sha256": "e54c2533aba453915be9fa57f5677044a53ae336f745c6e0355a6b522d6f9cd5"
+    }
+  ]
+}

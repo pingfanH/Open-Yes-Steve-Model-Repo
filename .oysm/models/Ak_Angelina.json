@@ -1,0 +1,152 @@
+{
+  "id": "Ak_Angelina",
+  "path": "parsed/Ak_Angelina",
+  "source": {
+    "path": "_Arknights/Ak_Angelina.ysm",
+    "type": "ysm",
+    "stem": "Ak_Angelina"
+  },
+  "ysm": "parsed/Ak_Angelina/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/映白L.png",
+        "comment": "感谢使用我的模型，若有问题可在B站或爱发电私信反馈",
+        "name": "映白L",
+        "role": "作者"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.net/a/ehaku",
+      "home": "https://space.bilibili.com/10208258"
+    },
+    "name": "安洁莉娜_free",
+    "tips": "来自叙拉古的信使，安心院安洁莉娜！\n§4本模型完全免费，仅在映白的B站或爱发电发布，严禁倒卖。\n§4若您是付费使用或付费下载到此模型，建议联系卖家退款！"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra1": "挥手",
+      "extra2": "拍手",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "extra5": "赢！",
+      "extra6": "跳舞1",
+      "extra7": "跳舞2",
+      "extra0": "跳舞3"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "模型选择",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Angelina_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9290,
+      "sha256": "94ac4117b21a2e94391da9505834d4116dde01fdf3ff8f9a6b2b851b89b2ca60"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 1116756,
+    "sha256": "e186b7a1e491e8aba21b98feb38c95991f001d4cccc07d0bba0254726969ca3e",
+    "bones": 153,
+    "cubes": 528,
+    "faces": 3168,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 260332,
+      "sha256": "5eedf5c565228b8c29443c39183a90a3b86e835caaf0e8f96f83c2f8aff01e94"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3477,
+      "sha256": "3cd85f493782b3b6fdf4371fe78dbba52371cab53d7b9bf2e664b12dbb23d878"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 109004,
+      "sha256": "ba1e5d1d0e30fc7cec4337358c630cf4f7c89f986f3a98b261c424bd3aecd477"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 213308,
+      "sha256": "9c9366077f1b88e0d138a729a4bfaac3e4dcd986765df57c9e316d95c23d6eb1"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 151130,
+      "sha256": "a4f5bda11d76e42f19e5064b5a44e0c59f2dbdb1be7b1aa6f68b466d85fefbbc"
+    },
+    {
+      "path": "avatar/映白L.png",
+      "size": 6680,
+      "sha256": "1769f6b53079f800ab198d7324a17eab659276c80e65201961a7e2e0f872e0a2"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 29131,
+      "sha256": "567fe1ea874a9b7f167fb9ce3d70b24195e122a2573cfcfee0a616bcb220abe9"
+    },
+    {
+      "path": "models/main.json",
+      "size": 270164,
+      "sha256": "4be3ad1ebd51407bc2a5fda650c92faa099550700c54d0bb30629e1f3ac16d57"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 72177,
+      "sha256": "0b3222e79afc5a7a88c00e0f19d4a784adb57d7ff004c5bef968c5c9a15dc3ff"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1353,
+      "sha256": "3ddd99fbdd601696200bff242d37c3733d1a3ee98434c371226da225e67a3bb8"
+    }
+  ]
+}

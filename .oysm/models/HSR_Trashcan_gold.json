@@ -1,0 +1,188 @@
+{
+  "id": "HSR_Trashcan(gold)",
+  "path": "parsed/HSR_Trashcan(gold)",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Trashcan(gold).ysm",
+    "type": "ysm",
+    "stem": "HSR_Trashcan(gold)"
+  },
+  "ysm": "parsed/HSR_Trashcan(gold)/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/韦懦夫斯菲尔.png",
+        "comment": "像素画，粘土人，ysm都可做",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/3546753760496536"
+        },
+        "name": "韦懦夫斯菲尔",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "name": "垃圾桶",
+    "tips": "主角诱捕器"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Trashcan_gold_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9235,
+      "sha256": "c2b458b470709ba91f213c82b27cd332f53a1327249ef75a52b529c7e03271cc"
+    }
+  },
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 9214151,
+    "sha256": "4e0b430fbc5bef1f8793835dbb85304fb646402e028eb6cba6436f1dcf830b3b",
+    "bones": 197,
+    "cubes": 711,
+    "faces": 4266,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 2984183,
+      "sha256": "7c9a92daa4ead29a78742b50767839a14c304d45eebf10882f9aa9bbf2afacc7"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 226458,
+      "sha256": "6913b2c57c4add07928590fa3e15a2447199f95db8a60008e89e193eab4ad1d5"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1505299,
+      "sha256": "2cfe596c36beecaa1688b55951b4272e660c066078bb5d95b20240a32a3a20da"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "avatar/韦懦夫斯菲尔.png",
+      "size": 101558,
+      "sha256": "c04b05a547b9bf5c89b55bdfceb548653573eea663bdf11c7751844058623aa8"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 3263,
+      "sha256": "953b1683bde6e80d5eb72a5814f9c765f6a5a1fc4508e2278f8990093383053d"
+    },
+    {
+      "path": "models/main.json",
+      "size": 406208,
+      "sha256": "cba7595c1628a2e9aa6d6fa775c78e963885dc59ca016fbe93a4f82cfbf4eb28"
+    },
+    {
+      "path": "sounds/1.ogg",
+      "size": 3418928,
+      "sha256": "9a9a0857d07fc7a5b66fbd6b5889d5cd0b607c61b1797440e7d1109d29a51653"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 24249,
+      "sha256": "6cdc93cce4f109be5e51b7053d64ebc8d3cb0de88109213ceecf44cd50cee629"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1431,
+      "sha256": "48b940a667a492661fa5ea2e9a0d65cbe9a667f140d4c9b204e9aba176b592ea"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "id": "远旅1",
+  "path": "parsed/远旅1",
+  "source": {
+    "path": "Unknown/远旅1.ysm",
+    "type": "ysm",
+    "stem": "远旅1"
+  },
+  "ysm": "parsed/远旅1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/诗人我食.png",
+        "comment": "",
+        "name": "诗人我食",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "远旅",
+    "tips": "<Unknown>"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰左",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8852,
+      "sha256": "75abbcbaaccad405a708c363316a8952d7cf5f484b7d162544c6f7ca7a725c6a"
+    }
+  },
+  "stats": {
+    "file_count": 18,
+    "total_bytes": 3252503,
+    "sha256": "b0391d480a0ae933e90639725d956b5f12aa27c59fe4d3062e32b1d818df20e3",
+    "bones": 82,
+    "cubes": 451,
+    "faces": 2706,
+    "textures": 2,
+    "materials": 2,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 110020,
+      "sha256": "e1c6b73f476444637ed83c51e474c70e2274797b1fdcdeeb5e6844f4ad2f884b"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 194962,
+      "sha256": "0f4fe43fe243b4b63b0cf0caf5f61b27650e76eabdded1be98b16af833c5460a"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182211,
+      "sha256": "b997fdff5a713154f7af8230462338b575b2a1f2a78e7d26d91044fdec41c96d"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/诗人我食.png",
+      "size": 33928,
+      "sha256": "9a74e52338d185cced4eedf76152d2afc1a1f5bfe5bb3ff030bf8bc2d631457a"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 5536,
+      "sha256": "fcab84f873606bdda1e459b9c1faca7f5bea3f41b7b4c74ad1f94344a2e3f8a9"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13725,
+      "sha256": "605fc04a716cfd12d30b5d6fb5d6db461504bd2f8da602fe078a4f57b4d71c71"
+    },
+    {
+      "path": "models/main.json",
+      "size": 243805,
+      "sha256": "953f9d365434aec02ddd29d4cc239e57915e33189f19a425ae36c714535e4d6e"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2686,
+      "sha256": "197669635bbf7b8cf8892b6912e428c92c66aac37ea2d3f1a174c9a04b2b64f6"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 11115,
+      "sha256": "3d6ee25dd9507b59b1f9c436d3dcb9203c7b871121b7bd7907109916d38ecafc"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 18329,
+      "sha256": "6ccd2fee1b8eb1e50d67157fb6374eed99676e8b9724e3e459b7210ad0c4d17a"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1596,
+      "sha256": "5619c199d365886853e537662c115cba9971f892eacb7c4f0b0b9faaf8e1684b"
+    }
+  ]
+}

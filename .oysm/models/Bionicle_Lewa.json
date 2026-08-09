@@ -1,0 +1,156 @@
+{
+  "id": "Bionicle_Lewa",
+  "path": "parsed/Bionicle_Lewa",
+  "source": {
+    "path": "_Bionicle/Bionicle_Lewa.zip",
+    "type": "zip",
+    "stem": "Bionicle_Lewa"
+  },
+  "ysm": "parsed/Bionicle_Lewa/ysm.json",
+  "metadata": {
+    "name": "Lewa",
+    "tips": "Agile Toa of Air",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "CrystalizedSun",
+        "comment": "The Contributor of TLM mod"
+      }
+    ]
+  },
+  "properties": {
+    "default_texture": "Lewa",
+    "free": true,
+    "extra_animation": {
+      "extra0": "#kanohi_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "kanohi_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "Kanohi",
+            "description": "Selection of Kanohi",
+            "value": "v.kanohi",
+            "labels": {
+              "Miru": "v.kanohi=0;",
+              "Hau": "v.kanohi=1;",
+              "Kakama": "v.kanohi=2;",
+              "Pakari": "v.kanohi=3;",
+              "Akaku": "v.kanohi=4;",
+              "Kaukau": "v.kanohi=5;"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "tac": "animations/tac.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "texture": [
+        "textures/lewa.png",
+        "textures/lewa_goldmask.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Bionicle_Lewa_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5832,
+      "sha256": "43ca243ec023c2dee63c304ee8d8b1c3469c142d0eb7b2f2075894d2fdcedc86"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 609651,
+    "sha256": "de783cc81c2abf859455b9b31fc0df13f0b648b666b915ac7bdd69fd887d195f",
+    "bones": 59,
+    "cubes": 429,
+    "faces": 2574,
+    "textures": 2,
+    "materials": 2,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/main.animation.json",
+      "size": 117755,
+      "sha256": "c969f2611a563af083f49d7dd56083f203cc07584348096b838961032f53c605"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 155248,
+      "sha256": "4f40aec385f3c4117db41fdbe6c94184a17c75cd324d37fb0660a9c70e251ff1"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 56793,
+      "sha256": "d4247a4d8064c8d548f95c8804f077c816feecbb9e24a70abc24e9a619472fcf"
+    },
+    {
+      "path": "avatar/dm.png",
+      "size": 5471,
+      "sha256": "5d28f00fd947e31f361da9cab6c16693d80f25988515822e078cea1f5ef08a60"
+    },
+    {
+      "path": "avatar/gsl.png",
+      "size": 4738,
+      "sha256": "0bf76a1ba896f709839f9c35bb62852350b4b0f110bc9a1c4c4c5acc99f25188"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 14683,
+      "sha256": "35fe629116ef59a2e59664281c6fbf5e2372cc303d3ac36134759c5a392f8e67"
+    },
+    {
+      "path": "models/main.json",
+      "size": 208074,
+      "sha256": "b822f30845c53ac9db69af30e97a4d1cfb691914b4607557c4db328e804416b2"
+    },
+    {
+      "path": "textures/lewa.png",
+      "size": 22017,
+      "sha256": "d93c1e46c99503c94fd2bac53195457a1ee5ca43ffcaf005522d061b4ea0e16d"
+    },
+    {
+      "path": "textures/lewa_goldmask.png",
+      "size": 22831,
+      "sha256": "2596b0f02995636f4875c224cca65bfe243119a4cd855de55da7c1b34b21da0c"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2041,
+      "sha256": "ecddae500e4b450017c396bdafc28fe866a7719b5a8f71c6c5872de9f3e1b92b"
+    }
+  ]
+}

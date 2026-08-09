@@ -1,0 +1,140 @@
+{
+  "id": "IdentityV_Succubus",
+  "path": "parsed/IdentityV_Succubus",
+  "source": {
+    "path": "_IdentityV/IdentityV_Succubus.ysm",
+    "type": "ysm",
+    "stem": "IdentityV_Succubus"
+  },
+  "ysm": "parsed/IdentityV_Succubus/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/窝就素伽拉的苟.png",
+        "comment": "qq号要定制模型的再加",
+        "contact": {
+          "email": "3080700736@qq.com",
+          "qq": "3080700736"
+        },
+        "name": "窝就素伽拉的苟",
+        "role": "模型/贴图/动画"
+      },
+      {
+        "avatar": "avatar/作者2.png",
+        "comment": "",
+        "name": "作者2",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/wojiusujailadegou",
+      "home": "https://space.bilibili.com/1402337274?spm_id_from=333.1007.0.0"
+    },
+    "name": "夜魔",
+    "tips": "不愧是夜魔，手残党做出来都好看"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "run": "",
+      "walk": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/textures.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/IdentityV_Succubus_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 30170,
+      "sha256": "fc4c824619698998ca1485bb6dc7d0ea139a8ecedf1ac5926450faae8a5623dd"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 3169886,
+    "sha256": "d619c51e11bbf0a1e8e17191f66c1398af8a096904fd5480b4443ecf98687f83",
+    "bones": 308,
+    "cubes": 5399,
+    "faces": 32394,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 63249,
+      "sha256": "09cca9dfdc9bad3aa34049d155ed88eb34029563ff54a04cb6a7d9b2e4c7f445"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 33207,
+      "sha256": "ce84a72f369a1eba778b67362d880d8d088c8e89de6a1d6c8f4fd663f56139d7"
+    },
+    {
+      "path": "avatar/窝就素伽拉的苟.png",
+      "size": 22723,
+      "sha256": "c249e7d09da630b893d38c20175bd4d6745f5ccb9ebaa2079328de2dcf48a5c7"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 95228,
+      "sha256": "a2bccef431a7dfba568b401d0195d7173049ce7f00f41728c33864f6bcb3b671"
+    },
+    {
+      "path": "models/main.json",
+      "size": 2855084,
+      "sha256": "4f5fd4ec056359668ea6e6b1572d2a0ca8a06e3dfafb86175cec46cd5bde1b57"
+    },
+    {
+      "path": "textures/textures.png",
+      "size": 99369,
+      "sha256": "3075cc33864d8cf0f3cd9a1eccd5e4e599b594f5bd19fb3ebfa7be77a2fd3f01"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1026,
+      "sha256": "14666db996d3481012ce26bde339ca89871031e86174b1f0afbbad1068bb9bb6"
+    }
+  ]
+}

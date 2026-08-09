@@ -1,0 +1,211 @@
+{
+  "id": "Alice-in-Wonderland_Alice_v1.0_Fllz",
+  "path": "parsed/Alice-in-Wonderland_Alice_v1.0_Fllz",
+  "source": {
+    "path": "_AliceInWonderland/Alice-in-Wonderland_Alice_v1.0_Fllz.ysm",
+    "type": "ysm",
+    "stem": "Alice-in-Wonderland_Alice_v1.0_Fllz"
+  },
+  "ysm": "parsed/Alice-in-Wonderland_Alice_v1.0_Fllz/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/哥斯拉.png",
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "name": "哥斯拉",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/Fllz.png",
+        "comment": "Want a custom model? Visit my Vgen",
+        "contact": {
+          "Discord": "fllz",
+          "Linktree": "https://linktr.ee/fllz",
+          "Vgen": "https://vgen.co/fllz"
+        },
+        "name": "Fllz",
+        "role": "Author"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All rights reserved"
+    },
+    "link": {
+      "donate": "https://vgen.co/fllz",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Alice",
+    "tips": "https://vgen.co/fllz"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/Black_ribbon.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Alice-in-Wonderland_Alice_v1.0_Fllz_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8322,
+      "sha256": "6dc876cc85360e9be9cf2c4b697a728a15a5a9a8ff7ada8105d39c67e8e1cbb8"
+    }
+  },
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 1321576,
+    "sha256": "29d47f1dd390c78c491e37befe9c88256875a0d03ea5dc106eb79996b222ec61",
+    "bones": 155,
+    "cubes": 514,
+    "faces": 3084,
+    "textures": 2,
+    "materials": 2,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136637,
+      "sha256": "f795d670b8e2553548348161425e21c7a8f4c2b78d4602d33c8ccc1f03f537b3"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2844,
+      "sha256": "faf9ad89b71b6d571db3f77aef0de407ebc4cd6581c6781d47179828a63aa2e9"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 123165,
+      "sha256": "0a5d3f9c0562cc4d4032464fa5a4f9c4d80d0d7a218e780240d04c0b276f8c9a"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 215471,
+      "sha256": "2cae7af3db9d1dc1a3e1da3ff9dcdf72934502a412e67af64b22813c98016f21"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 134353,
+      "sha256": "e824c42e1acb911752e3674e8d222d1959c5e4e1751e04edd02cf37bad836c8b"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 55136,
+      "sha256": "89df8668743adb9dea6e4720a7d9e6e25f554f91b7b993e291681bb2efb0124c"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/Fllz.png",
+      "size": 25099,
+      "sha256": "43b1954f1db86357e084df36a4c15052dfb2d973a0377e84a2690a4e9a5fd02c"
+    },
+    {
+      "path": "avatar/哥斯拉.png",
+      "size": 19374,
+      "sha256": "6cd420a5238d37083afb1a43736ae8f862dfb9d9065c1ae1895c2ee20071333c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 34428,
+      "sha256": "ae0665083a7a4ce7db4faa5911a9df99e4a886d4c693718915cd0533ba2c44ff"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 11232,
+      "sha256": "88f31da4627af212c216b98aab381f4ebbfd0c72264a8966aede5245ec403541"
+    },
+    {
+      "path": "models/main.json",
+      "size": 257007,
+      "sha256": "ce4cadfe6671ade4495a42dfb22ac096a9c5f5af4f21e7e234dcda7fb2418c4b"
+    },
+    {
+      "path": "textures/Black_ribbon.png",
+      "size": 62036,
+      "sha256": "73844fd4da74433b8fe0cde67a042bcc6d9cdcd1ba5eef019247e32e878c6949"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1909,
+      "sha256": "76a31019a897ab6c5bf4cc28702929fb48fcd34a008830f0ad6eecdde970c295"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 57212,
+      "sha256": "97bba3baa21d1b4727cf35f671513bf22a42a56e92351bd5ef67a7225a945699"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1544,
+      "sha256": "82c4a3c6a89bfaf7a09b4c045c8a4581b9fefbfae71f7981a796fcbbe0216354"
+    }
+  ]
+}

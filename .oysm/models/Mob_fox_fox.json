@@ -1,0 +1,79 @@
+{
+  "id": "Mob_fox/fox",
+  "path": "parsed/Mob_fox/fox",
+  "source": {
+    "path": "_MinecraftMob/Mob_fox.zip",
+    "type": "zip",
+    "stem": "Mob_fox",
+    "model_path": "Mob_fox/fox"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "fox"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "fox.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Mob_fox_fox_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 1102,
+      "sha256": "ab2fee97705c14969e8b38c7790545ea20be6aedf3560452368c406650c43c51"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 63866,
+    "sha256": "8bdaf37b9558dd7f1c3b73b801708d31425a381c3221efec4f1e6c04159c0bf0",
+    "bones": 25,
+    "cubes": 12,
+    "faces": 72,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 612,
+      "sha256": "b4eb9dec817e81e48f44c72bc06bcab57b95803ac8c0936261c426b6862ed009"
+    },
+    {
+      "path": "fox.png",
+      "size": 1272,
+      "sha256": "48b9c80bd448e13813fb8b67e3ce3938361187b6e2b9ac6d93896bb7683a71af"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 58730,
+      "sha256": "9168ff7c3cfbf38c05e9be904ef5af114cd77aab57abfa82d7e6570486606afe"
+    },
+    {
+      "path": "main.json",
+      "size": 3252,
+      "sha256": "9b8b527ccf87e9d1ad4a2d0a6b8da30969b0ff2cd5660a69248ae7f55c687b85"
+    }
+  ]
+}

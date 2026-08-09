@@ -1,0 +1,90 @@
+{
+  "id": "Rice-hime_Sergestid-shrimp",
+  "path": "parsed/Rice-hime_Sergestid-shrimp",
+  "source": {
+    "path": "_Dong-JinRice-hime/Rice-hime_Sergestid-shrimp.ysm",
+    "type": "ysm",
+    "stem": "Rice-hime_Sergestid-shrimp"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "絢樱",
+    "tips": "b站：嗯嗯owo",
+    "authors": [
+      {
+        "name": "嗯嗯owo"
+      },
+      {
+        "name": "星屑海螺"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Rice-hime_Sergestid-shrimp_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6693,
+      "sha256": "94934e1f7df3b2dc5300a27865f643f4db3f736606052fb6404bec407b6cb7bd"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 643388,
+    "sha256": "27131ccd23c4919f027e97f9e969aed9df708a519879158eb703f1d8437800cc",
+    "bones": 185,
+    "cubes": 784,
+    "faces": 4704,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 9326,
+      "sha256": "939a52d8e188f9206b0cacebef0a9a707abda494d6d37f58b3aa3a473aaf6711"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 197421,
+      "sha256": "1a3c08cbd511bc72d92844411207928d06b68db09e039e5fba34b74a974c3278"
+    },
+    {
+      "path": "main.json",
+      "size": 421576,
+      "sha256": "96d7f1c5b6562b3d3912c37ada13e1e5ddc64ee97f1f6de7569ae372f4312461"
+    },
+    {
+      "path": "texture.png",
+      "size": 15065,
+      "sha256": "36b8a1768db2472b9f9464c98dbba164a72406c3d4b46e859b3da50d615cb5a0"
+    }
+  ]
+}

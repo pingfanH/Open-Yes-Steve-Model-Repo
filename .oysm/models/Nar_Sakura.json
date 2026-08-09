@@ -1,0 +1,96 @@
+{
+  "id": "Nar_Sakura",
+  "path": "parsed/Nar_Sakura",
+  "source": {
+    "path": "_Naruto/Nar_Sakura.ysm",
+    "type": "ysm",
+    "stem": "Nar_Sakura"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Nar_Sakura"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Nar_Sakura_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7196,
+      "sha256": "bd4d9198995ad93ec1449e392a5ab4d91ec231e4927e1d003d19f15f22c9e479"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 968708,
+    "sha256": "44261d26dbf369c85b333ae6080fe6b6ff44936b73798795040293d612fbe0e0",
+    "bones": 152,
+    "cubes": 534,
+    "faces": 3204,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 131846,
+      "sha256": "2f71e6c50554e2a2a312edfc60541aff16d9815b7360149385757e11b356938f"
+    },
+    {
+      "path": "arm.json",
+      "size": 32423,
+      "sha256": "fb51131b2507b1c7b21abaf8d5b4bbc01cc007d5036de5305ec51a7c24141fbd"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 118893,
+      "sha256": "fd435a4863d3a6d99a327810379f97743e22cb77ec51bee32474fb6a882a3824"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 201559,
+      "sha256": "02052f44c442e92c66596d5f8b00e5c041ca61d1e206557f9f10056144471f35"
+    },
+    {
+      "path": "main.json",
+      "size": 269271,
+      "sha256": "dae79f8509338b73252f869f32ce4dee00d20383d4aa86a9412747993714c0a1"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 166491,
+      "sha256": "bf4bf83e551931e5c96680adb07a540f182b4ecec6cb2792cba8d0cf9e890365"
+    },
+    {
+      "path": "texture.png",
+      "size": 48225,
+      "sha256": "6cab43c7d7fd3fcd1460bd2a70c79c6021b5603139afb905116470c6123370b5"
+    }
+  ]
+}

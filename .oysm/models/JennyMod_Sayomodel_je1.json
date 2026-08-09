@@ -1,0 +1,133 @@
+{
+  "id": "JennyMod_Sayomodel_je1",
+  "path": "parsed/JennyMod_Sayomodel_je1",
+  "source": {
+    "path": "_JennyMod/JennyMod_Sayomodel_je1.zip",
+    "type": "zip",
+    "stem": "JennyMod_Sayomodel_je1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Default",
+    "tips": "默认模型（Default Model）",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "哥斯拉"
+      },
+      {
+        "name": "端木"
+      },
+      {
+        "name": "甜粽子"
+      },
+      {
+        "name": "星屑海螺"
+      }
+    ]
+  },
+  "properties": {
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "textures.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "arrow": "arrow.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/JennyMod_Sayomodel_je1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5132,
+      "sha256": "593f2e8b285d03b4228176a356f66bb3094df19fd60ee8868df237f51ebff3f2"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 652465,
+    "sha256": "a901720bfe5ac0652751d502ee6ab68e5b2f4c5dc7ad0e1d4daf350f88fff80b",
+    "bones": 65,
+    "cubes": 113,
+    "faces": 678,
+    "textures": 1,
+    "materials": 1,
+    "animations": 6,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 126941,
+      "sha256": "fdd53aa7ea6995c869e85aea28f56e4791a259f72fa5199ae7758ac7f28e4fac"
+    },
+    {
+      "path": "arm.json",
+      "size": 1854,
+      "sha256": "948b49625c9681a6b00f5c790faf8ec8aef7417cff9a3c27f1a5b71a4435a2e5"
+    },
+    {
+      "path": "arrow.animation.json",
+      "size": 648,
+      "sha256": "a1742d97b6f3a435a92ed37c1f971b9367d8198a3c12116be4a9f433586b8e12"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 3600,
+      "sha256": "d2b36b41837c25f6829cdd912970235cd457c7985598fb9e98427b08ffd81246"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 150072,
+      "sha256": "308245990deb76c2a396de075ae4bbbae8955d7640d89aafd7fe8e8d3e9854cf"
+    },
+    {
+      "path": "info.json",
+      "size": 203,
+      "sha256": "4ef1a952ee796e30ab4100af10d062bb7c443d744422ac2d034bb3fe9e65d208"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 142318,
+      "sha256": "c309a666dba50e7dcf61a1d92593ceb24a367cfd4523dfa75897a73529e0abcd"
+    },
+    {
+      "path": "main.json",
+      "size": 56379,
+      "sha256": "9c7255e5cd02973d911a59084c1b1def670e365e7f2359b827206396774c0a36"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 164795,
+      "sha256": "4ae5c865310d47c1ee34bbc90f7bfdfea4deba7bf7e5f6c6f9a19318474a5c2e"
+    },
+    {
+      "path": "textures.png",
+      "size": 5655,
+      "sha256": "a93455dc91cbd1e9d3c746db505e16217ebd6552804b207fafda8d31b3ba487d"
+    }
+  ]
+}

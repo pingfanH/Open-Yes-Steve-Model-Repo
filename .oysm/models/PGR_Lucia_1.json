@@ -1,0 +1,78 @@
+{
+  "id": "PGR_Lucia_1",
+  "path": "parsed/PGR_Lucia_1",
+  "source": {
+    "path": "_PunishingGrayRaven/PGR_Lucia_1.ysm",
+    "type": "ysm",
+    "stem": "PGR_Lucia_1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "PGR_Lucia_1"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "lucia_a.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/PGR_Lucia_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 14324,
+      "sha256": "984c89402fae834630bd4a91ba3e0bc7ece9b65cff0e9e94f2c16e538628afe1"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 691729,
+    "sha256": "ed81d3c33a23a946ce3cdaa1617b4c48422cbbeda1ca8712209e72749c29dda1",
+    "bones": 207,
+    "cubes": 655,
+    "faces": 3930,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 13451,
+      "sha256": "2fba4f42b235b336265bdad90a5d4a65ccc228f0896f7093bed340cdf0eef56d"
+    },
+    {
+      "path": "lucia_a.png",
+      "size": 24716,
+      "sha256": "6e1037de01012f288706d249061d8729833e9d039327c94b5fbc4321bb1d07e7"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 286180,
+      "sha256": "0499e6883ca0b11a12d47b6b8e66a856c3f205e407e0074270005b6c6f4c840f"
+    },
+    {
+      "path": "main.json",
+      "size": 367382,
+      "sha256": "1e091447293f578d7cc389e2872aa3f53727a30d8990eb26d2ede3f6d03909e4"
+    }
+  ]
+}

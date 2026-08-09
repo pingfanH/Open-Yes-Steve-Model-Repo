@@ -1,0 +1,141 @@
+{
+  "id": "_bamamei_xuejie_v12",
+  "path": "parsed/_bamamei_xuejie_v12",
+  "source": {
+    "path": "Uncategorized/_bamamei_xuejie_v12.ysm",
+    "type": "ysm",
+    "stem": "_bamamei_xuejie_v12"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "巴麻美学姐",
+    "tips": "这里是麻美学姐~学生制服装",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "@B站 平衡芝光"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "arrow.png",
+        "texturebrown.png",
+        "texturewhite.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "arrow": "arrow.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/bamamei_xuejie_v12_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5036,
+      "sha256": "8c8087204b22cebcf9f9420e2ba65bbc56ab1d51e50b81d457d3e5d97738fe0f"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 808003,
+    "sha256": "b246d7c1b5ace07dbf7f5ae0941cc7c65afeffd59600e9ecc7f842f51bfae55f",
+    "bones": 97,
+    "cubes": 534,
+    "faces": 3204,
+    "textures": 3,
+    "materials": 3,
+    "animations": 6,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 121522,
+      "sha256": "d226fbab9b0997cfc408a854e66905b4d333cf1649ec584e418d541dc03b83fd"
+    },
+    {
+      "path": "arm.json",
+      "size": 16759,
+      "sha256": "39db2eb9a91c7ea3542b148e08e21fcae2137c5ecb8b535dcb4de92a6825ba29"
+    },
+    {
+      "path": "arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 3219,
+      "sha256": "3f296a9b32dba0dd30498133079e5c061025454d680e397816e22753f8b1e1cb"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 99304,
+      "sha256": "ceeb8b1c8dac4428cca79f90ed87a0226aa6c3af854df139f367c98c0cf6da7e"
+    },
+    {
+      "path": "info.json",
+      "size": 246,
+      "sha256": "eee6f947d1c8c2c3cf816a351a91724ca4d86d9117a00eb697893341e1ff281f"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 129948,
+      "sha256": "fec1e598ab2b19c51000fee12296cfa99572a6c7ec86a7b499631f2e366beadb"
+    },
+    {
+      "path": "main.json",
+      "size": 277901,
+      "sha256": "55f8b43a46f0cd64aa8c86eee38827afb6caf60f113e5d1f49614e1690002471"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "texturebrown.png",
+      "size": 8734,
+      "sha256": "15dd3698ad3c48a5799e2cf1ea2847ec60dff7d87035e98a7db09c52f32a0687"
+    },
+    {
+      "path": "texturewhite.png",
+      "size": 8615,
+      "sha256": "8af0b07ba113d42cb0b4409972cd0b9d3799ea94839718a845f89281ac1fe000"
+    }
+  ]
+}

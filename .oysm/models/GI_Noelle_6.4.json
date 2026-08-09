@@ -1,0 +1,118 @@
+{
+  "id": "GI_Noelle_6.4",
+  "path": "parsed/GI_Noelle_6.4",
+  "source": {
+    "path": "_GenshinImpact/GI_Noelle_6.4.ysm",
+    "type": "ysm",
+    "stem": "GI_Noelle_6.4"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Noelle (原神Genshin impact/诺艾尔)",
+    "tips": "该模型为免费模型分享,请勿用于商业用途This model is free to share and should not be used for commercial purposes\n诺艾尔/狼的末路 模型作者:烈鸟比百;\n风之翼/特效贴图模型/动画修改:星屑海螺 lucia2048",
+    "authors": [
+      {
+        "name": "模型作者:烈鸟比百"
+      },
+      {
+        "name": "动画修改:星屑海螺 lucia2048"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "r12.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Noelle_6.4_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12705,
+      "sha256": "ab8a14349254127a04c87cfe69c4737bdb33a6afa1ee3298ea323145651fc72e"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 1655597,
+    "sha256": "0c9c57c687abcbc82e4a657251dd76060c74288a8e174717b7b17323f59d7445",
+    "bones": 198,
+    "cubes": 1570,
+    "faces": 9420,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 2562,
+      "sha256": "fb6f55432c8c8e3ebf4bbfd37c8bc96b277398e75871f9e4078f7b997cd476b2"
+    },
+    {
+      "path": "arm.json",
+      "size": 45752,
+      "sha256": "171c8be25717cc4651a5fa4b3e94c190f4152134bfac20571dece1daa4ec7763"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 146720,
+      "sha256": "d12aada2701b36122f0f783377f194cf4c5abe2da3712b0ab7ccd040f6ce6653"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 305506,
+      "sha256": "f890931bd40d2a2f1179b73c16cf3ce8c6ce86fed9df8e1e31e8f6ba2830a0bb"
+    },
+    {
+      "path": "main.json",
+      "size": 821197,
+      "sha256": "db4e219537dee05a66136ac70b91fc1dea0e127c42c1e0b8671d8b91e70c749e"
+    },
+    {
+      "path": "r12.png",
+      "size": 55853,
+      "sha256": "29e7fbfea4297a83544b022347e81590856876cc99dc8844acb837a14ffb126b"
+    },
+    {
+      "path": "sword.bbmodel",
+      "size": 74890,
+      "sha256": "665d4c574fdf48b7a8fb5f0515410fbbd861990b867878986b3d089bc503839a"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 186226,
+      "sha256": "7831ac89684ed3686272e3c8767cc729a9aa50af001a514bf07c988418965679"
+    },
+    {
+      "path": "wind_wings.json",
+      "size": 16891,
+      "sha256": "fdae3d775a24573398fb0ff8f1465deec5d4cc8f9a213a0980c23f8195d97e57"
+    }
+  ]
+}

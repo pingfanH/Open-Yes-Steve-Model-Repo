@@ -1,0 +1,120 @@
+{
+  "id": "_Tac",
+  "path": "parsed/_Tac",
+  "source": {
+    "path": "Uncategorized/_Tac.zip",
+    "type": "zip",
+    "stem": "_Tac"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_Tac"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "dead.png",
+        "tac1.png",
+        "tac2.png",
+        "tac3.png",
+        "tac4.png",
+        "tac5.png",
+        "tac6.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Tac_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9552,
+      "sha256": "adece765f12a5da68a8a0b2f554ec32c610a8f13df168fa7be1645f724d13550"
+    }
+  },
+  "stats": {
+    "file_count": 11,
+    "total_bytes": 835241,
+    "sha256": "1c4b0e8a7d61789aa1f7191067ca8a36ee64fd5e9d0a7a1822d097f0797c63ea",
+    "bones": 75,
+    "cubes": 425,
+    "faces": 2550,
+    "textures": 7,
+    "materials": 7,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 20278,
+      "sha256": "976cfaaf14c43ee2393b90683fdaa7c87b3c4ae0a19bc575b6843c1a51cc8a7c"
+    },
+    {
+      "path": "dead.png",
+      "size": 40399,
+      "sha256": "52569d616c2c776ba61f7c441c90c32c7d191cc69918535248db0672ebb56fb1"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 143873,
+      "sha256": "4f6dfb40fb12dc2531b64b221097ea2b601a6b1dc23288a0d1a0d17a86d5823d"
+    },
+    {
+      "path": "main.json",
+      "size": 240506,
+      "sha256": "4105367f964eb82689f0069e0c05ec5b1ec0b9a563d3a85c5e259de3e4c44967"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 158017,
+      "sha256": "87f89948b53f2d189599109525654e4191755196624df21444ad6824d70af625"
+    },
+    {
+      "path": "tac1.png",
+      "size": 45424,
+      "sha256": "5c08654bb23e38081ac7a5e95472d1e7bb1daee0a9f6fd9354edb3fb4cf36651"
+    },
+    {
+      "path": "tac2.png",
+      "size": 37335,
+      "sha256": "5ca45c5beb667076a37c18077796c5800dbc23d0146e539ed2c481e1158a8787"
+    },
+    {
+      "path": "tac3.png",
+      "size": 37321,
+      "sha256": "1c445e0983d4e004f629f392298f1c915ac3c571503d87008d2e272e41a14942"
+    },
+    {
+      "path": "tac4.png",
+      "size": 37327,
+      "sha256": "52dc87cac30fb2ca5c20f55ea41a14ea500307bb2054935f1ee3e2c0cdbf3544"
+    },
+    {
+      "path": "tac5.png",
+      "size": 37322,
+      "sha256": "a2fd4b172519162caab277063be7c85dbf988fc5a52f02bd578bf39337bc89d2"
+    },
+    {
+      "path": "tac6.png",
+      "size": 37439,
+      "sha256": "bfbed75970f171c6139f195faf06bccfe20b02bc4aecad8acfd269023e31d2ee"
+    }
+  ]
+}

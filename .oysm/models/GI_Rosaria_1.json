@@ -1,0 +1,84 @@
+{
+  "id": "GI_Rosaria_1",
+  "path": "parsed/GI_Rosaria_1",
+  "source": {
+    "path": "_GenshinImpact/GI_Rosaria_1.zip",
+    "type": "zip",
+    "stem": "GI_Rosaria_1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "GI_Rosaria_1"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "1.png",
+        "3.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Rosaria_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12112,
+      "sha256": "1ad6aaaea4eeedce4761353aae63d92c07475ea3b79f46104e3992f152dcc437"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 785843,
+    "sha256": "179ec84a93a8292060ce95f625e563805b2dfe6874df402f9c00d15cda06007a",
+    "bones": 148,
+    "cubes": 1051,
+    "faces": 6306,
+    "textures": 2,
+    "materials": 2,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "1.png",
+      "size": 21295,
+      "sha256": "5d9ed9dad3b639660860fe2c16bc34a3395b915d654981a7c3764096959ab4bb"
+    },
+    {
+      "path": "3.png",
+      "size": 20224,
+      "sha256": "f6aad8982493cbc10eb49a864f23282dd4618b03b7a3dd38c826e518c572bdc0"
+    },
+    {
+      "path": "arm.json",
+      "size": 37868,
+      "sha256": "39d38642d2b7768b68e6522ce52ad1662ecf0acc47eef30bca468aed4475f91c"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 144329,
+      "sha256": "dd246cb56c1cf26054c43add11420e98623f54f1339cb8b130696a88a8f581f6"
+    },
+    {
+      "path": "main.json",
+      "size": 562127,
+      "sha256": "91c77d23ad2cd280d4e678c2a50d6c994e7d3cc84fe6274ae6f3af9a8751541a"
+    }
+  ]
+}

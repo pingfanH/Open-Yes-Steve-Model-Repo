@@ -1,0 +1,4460 @@
+{
+  "schema_version": 1,
+  "repository": {
+    "name": "Open-Yes-Steve-Model-Repo",
+    "owner": "",
+    "url": "",
+    "authors": []
+  },
+  "model_count": 1112,
+  "models": [
+    {
+      "id": "-小空",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "-小空/models",
+      "detail": "models/models.json"
+    },
+    {
+      "id": "2.5D_Amano-Lilysa_v1.0",
+      "detail": "models/2.5D_Amano-Lilysa_v1.0.json"
+    },
+    {
+      "id": "2.5D_Tachibana-Mikari_v1.0",
+      "detail": "models/2.5D_Tachibana-Mikari_v1.0.json"
+    },
+    {
+      "id": "5Toubun_Itsuki-Nakano_v1.0",
+      "detail": "models/5Toubun_Itsuki-Nakano_v1.0.json"
+    },
+    {
+      "id": "9nine-Yuki-Noa",
+      "detail": "models/9nine-Yuki-Noa.json"
+    },
+    {
+      "id": "9nine_Kousaka-Haruka",
+      "detail": "models/9nine_Kousaka-Haruka.json"
+    },
+    {
+      "id": "9nine_Miyako-Kujo",
+      "detail": "models/9nine_Miyako-Kujo.json"
+    },
+    {
+      "id": "9nine_Niimi-Sora",
+      "detail": "models/9nine_Niimi-Sora.json"
+    },
+    {
+      "id": "AK_Chen",
+      "detail": "models/AK_Chen.json"
+    },
+    {
+      "id": "AK_Rosmontis_v0.9",
+      "detail": "models/AK_Rosmontis_v0.9.json"
+    },
+    {
+      "id": "AK_Rosmontis_v1.0",
+      "detail": "models/AK_Rosmontis_v1.0.json"
+    },
+    {
+      "id": "AK_Sora_v1.0_Fllz",
+      "detail": "models/AK_Sora_v1.0_Fllz.json"
+    },
+    {
+      "id": "AL_Agir",
+      "detail": "models/AL_Agir.json"
+    },
+    {
+      "id": "AL_Akashi",
+      "detail": "models/AL_Akashi.json"
+    },
+    {
+      "id": "AL_Akashi(Lightweight)",
+      "detail": "models/AL_Akashi_Lightweight.json"
+    },
+    {
+      "id": "AL_Alsace",
+      "detail": "models/AL_Alsace.json"
+    },
+    {
+      "id": "AL_Amagi(Summer)_v1.0",
+      "detail": "models/AL_Amagi_Summer__v1.0.json"
+    },
+    {
+      "id": "AL_ChangChun",
+      "detail": "models/AL_ChangChun.json"
+    },
+    {
+      "id": "AL_Helena",
+      "detail": "models/AL_Helena.json"
+    },
+    {
+      "id": "AL_Kawakaze",
+      "detail": "models/AL_Kawakaze.json"
+    },
+    {
+      "id": "AL_Littorio",
+      "detail": "models/AL_Littorio.json"
+    },
+    {
+      "id": "AL_Littorio(With_arm)_v1.0",
+      "detail": "models/AL_Littorio_With_arm__v1.0.json"
+    },
+    {
+      "id": "AL_Littorio(With_arm)_v1.1",
+      "detail": "models/AL_Littorio_With_arm__v1.1.json"
+    },
+    {
+      "id": "AL_Littorio_v1.1",
+      "detail": "models/AL_Littorio_v1.1.json"
+    },
+    {
+      "id": "AL_Nagato",
+      "detail": "models/AL_Nagato.json"
+    },
+    {
+      "id": "AL_Nautilus",
+      "detail": "models/AL_Nautilus.json"
+    },
+    {
+      "id": "AL_Ping-Hai_v1.0",
+      "detail": "models/AL_Ping-Hai_v1.0.json"
+    },
+    {
+      "id": "AL_Tashkent_1.5",
+      "detail": "models/AL_Tashkent_1.5.json"
+    },
+    {
+      "id": "AL_Yamashiro_2.3.2.1",
+      "detail": "models/AL_Yamashiro_2.3.2.1.json"
+    },
+    {
+      "id": "AL_Yamashiro_2.4.3",
+      "detail": "models/AL_Yamashiro_2.4.3.json"
+    },
+    {
+      "id": "AL_Yukikaze_2.4.1",
+      "detail": "models/AL_Yukikaze_2.4.1.json"
+    },
+    {
+      "id": "ATKGirl_Vermilion-Bird_v1.0",
+      "detail": "models/ATKGirl_Vermilion-Bird_v1.0.json"
+    },
+    {
+      "id": "Agflshvore_Tester_v1.1",
+      "detail": "models/Agflshvore_Tester_v1.1.json"
+    },
+    {
+      "id": "Ak_Angelina",
+      "detail": "models/Ak_Angelina.json"
+    },
+    {
+      "id": "Ak_Aurora",
+      "detail": "models/Ak_Aurora.json"
+    },
+    {
+      "id": "Ak_Bitey",
+      "detail": "models/Ak_Bitey.json"
+    },
+    {
+      "id": "Ak_Cannot_Goodenough",
+      "detail": "models/Ak_Cannot_Goodenough.json"
+    },
+    {
+      "id": "Ak_Chen(Tourist-C)",
+      "detail": "models/Ak_Chen_Tourist-C.json"
+    },
+    {
+      "id": "Ak_Eblana",
+      "detail": "models/Ak_Eblana.json"
+    },
+    {
+      "id": "Ak_Eblana_1.21-fix",
+      "detail": "models/Ak_Eblana_1.21-fix.json"
+    },
+    {
+      "id": "Ak_Eblana_1.21-fix-2",
+      "detail": "models/Ak_Eblana_1.21-fix-2.json"
+    },
+    {
+      "id": "Ak_Eyjafjalla(Medic)_v1.0",
+      "detail": "models/Ak_Eyjafjalla_Medic__v1.0.json"
+    },
+    {
+      "id": "Ak_Fiammetta",
+      "detail": "models/Ak_Fiammetta.json"
+    },
+    {
+      "id": "Ak_Hoolheyak",
+      "detail": "models/Ak_Hoolheyak.json"
+    },
+    {
+      "id": "Ak_Irene",
+      "detail": "models/Ak_Irene.json"
+    },
+    {
+      "id": "Ak_Irene_1",
+      "detail": "models/Ak_Irene_1.json"
+    },
+    {
+      "id": "Ak_Jessica",
+      "detail": "models/Ak_Jessica.json"
+    },
+    {
+      "id": "Ak_Jessica(Defender)_v1.0",
+      "detail": "models/Ak_Jessica_Defender__v1.0.json"
+    },
+    {
+      "id": "Ak_Kaltsit",
+      "detail": "models/Ak_Kaltsit.json"
+    },
+    {
+      "id": "Ak_Kaltsit_0",
+      "detail": "models/Ak_Kaltsit_0.json"
+    },
+    {
+      "id": "Ak_Kirara",
+      "detail": "models/Ak_Kirara.json"
+    },
+    {
+      "id": "Ak_Kirara_v1.01",
+      "detail": "models/Ak_Kirara_v1.01.json"
+    },
+    {
+      "id": "Ak_LaPluma_v1.0",
+      "detail": "models/Ak_LaPluma_v1.0.json"
+    },
+    {
+      "id": "Ak_Lappland",
+      "detail": "models/Ak_Lappland.json"
+    },
+    {
+      "id": "Ak_Magallan",
+      "detail": "models/Ak_Magallan.json"
+    },
+    {
+      "id": "Ak_May",
+      "detail": "models/Ak_May.json"
+    },
+    {
+      "id": "Ak_Mudrock(AmbienceSynesthesia)_0",
+      "detail": "models/Ak_Mudrock_AmbienceSynesthesia__0.json"
+    },
+    {
+      "id": "Ak_Mudrock(AmbienceSynesthesia)_1",
+      "detail": "models/Ak_Mudrock_AmbienceSynesthesia__1.json"
+    },
+    {
+      "id": "Ak_Mudrock(Coral-Coast)_0",
+      "detail": "models/Ak_Mudrock_Coral-Coast__0.json"
+    },
+    {
+      "id": "Ak_Mudrock(Coral-Coast)_1",
+      "detail": "models/Ak_Mudrock_Coral-Coast__1.json"
+    },
+    {
+      "id": "Ak_Mudrock_0",
+      "detail": "models/Ak_Mudrock_0.json"
+    },
+    {
+      "id": "Ak_Mudrock_1.1.1",
+      "detail": "models/Ak_Mudrock_1.1.1.json"
+    },
+    {
+      "id": "Ak_Mudrock_1.5.2",
+      "detail": "models/Ak_Mudrock_1.5.2.json"
+    },
+    {
+      "id": "Ak_Myrtle",
+      "detail": "models/Ak_Myrtle.json"
+    },
+    {
+      "id": "Ak_Nearl(Horse-form)",
+      "detail": "models/Ak_Nearl_Horse-form.json"
+    },
+    {
+      "id": "Ak_Nian",
+      "detail": "models/Ak_Nian.json"
+    },
+    {
+      "id": "Ak_Penance_0",
+      "detail": "models/Ak_Penance_0.json"
+    },
+    {
+      "id": "Ak_Penance_1",
+      "detail": "models/Ak_Penance_1.json"
+    },
+    {
+      "id": "Ak_Pepe",
+      "detail": "models/Ak_Pepe.json"
+    },
+    {
+      "id": "Ak_Projekt-Red(Coral-Coast)_1",
+      "detail": "models/Ak_Projekt-Red_Coral-Coast__1.json"
+    },
+    {
+      "id": "Ak_Ptilopsis",
+      "detail": "models/Ak_Ptilopsis.json"
+    },
+    {
+      "id": "Ak_Rosmontis_0",
+      "detail": "models/Ak_Rosmontis_0.json"
+    },
+    {
+      "id": "Ak_Rosmontis_1",
+      "detail": "models/Ak_Rosmontis_1.json"
+    },
+    {
+      "id": "Ak_Rosmontis_v1.1",
+      "detail": "models/Ak_Rosmontis_v1.1.json"
+    },
+    {
+      "id": "Ak_Rosmontis_v1.3",
+      "detail": "models/Ak_Rosmontis_v1.3.json"
+    },
+    {
+      "id": "Ak_Saga",
+      "detail": "models/Ak_Saga.json"
+    },
+    {
+      "id": "Ak_Shamare(WitchFeast)_v1.0_Fllz",
+      "detail": "models/Ak_Shamare_WitchFeast__v1.0_Fllz.json"
+    },
+    {
+      "id": "Ak_Shu",
+      "detail": "models/Ak_Shu.json"
+    },
+    {
+      "id": "Ak_Sideroca(Coral-Coast)_2",
+      "detail": "models/Ak_Sideroca_Coral-Coast__2.json"
+    },
+    {
+      "id": "Ak_Skadi",
+      "detail": "models/Ak_Skadi.json"
+    },
+    {
+      "id": "Ak_Skadi(Sleepwear)",
+      "detail": "models/Ak_Skadi_Sleepwear.json"
+    },
+    {
+      "id": "Ak_Soldier",
+      "detail": "models/Ak_Soldier.json"
+    },
+    {
+      "id": "Ak_Specter(Speciallist)_v1.0",
+      "detail": "models/Ak_Specter_Speciallist__v1.0.json"
+    },
+    {
+      "id": "Ak_Suzuran",
+      "detail": "models/Ak_Suzuran.json"
+    },
+    {
+      "id": "Ak_Texas(Epoque)",
+      "detail": "models/Ak_Texas_Epoque.json"
+    },
+    {
+      "id": "Ak_Texas(Speciallist)_v1.0",
+      "detail": "models/Ak_Texas_Speciallist__v1.0.json"
+    },
+    {
+      "id": "Ak_Typhon",
+      "detail": "models/Ak_Typhon.json"
+    },
+    {
+      "id": "Ak_Vigna(Coral-Coast)",
+      "detail": "models/Ak_Vigna_Coral-Coast.json"
+    },
+    {
+      "id": "Ak_Virtuosa",
+      "detail": "models/Ak_Virtuosa.json"
+    },
+    {
+      "id": "Ak_Waiifu",
+      "detail": "models/Ak_Waiifu.json"
+    },
+    {
+      "id": "Alexten22_1.0.0",
+      "detail": "models/Alexten22_1.0.0.json"
+    },
+    {
+      "id": "Alexten22_Astronauta 1.0.0_",
+      "detail": "models/Alexten22_Astronauta_1.0.0.json"
+    },
+    {
+      "id": "Alice-in-Wonderland_Alice_v1.0_Fllz",
+      "detail": "models/Alice-in-Wonderland_Alice_v1.0_Fllz.json"
+    },
+    {
+      "id": "AliceinCradle_Noel-Corehl",
+      "detail": "models/AliceinCradle_Noel-Corehl.json"
+    },
+    {
+      "id": "AoT_Mikasa",
+      "detail": "models/AoT_Mikasa.json"
+    },
+    {
+      "id": "ApexLegends_Valkyrie",
+      "detail": "models/ApexLegends_Valkyrie.json"
+    },
+    {
+      "id": "Arcaea_Nami(Twilight)_v1.0",
+      "detail": "models/Arcaea_Nami_Twilight__v1.0.json"
+    },
+    {
+      "id": "Ariableyes_Safira_v1.0_Fllz",
+      "detail": "models/Ariableyes_Safira_v1.0_Fllz.json"
+    },
+    {
+      "id": "Ariableyes_Safira_v1.2_Fllz",
+      "detail": "models/Ariableyes_Safira_v1.2_Fllz.json"
+    },
+    {
+      "id": "ArmorMayhem_SpaceSuit",
+      "detail": "models/ArmorMayhem_SpaceSuit.json"
+    },
+    {
+      "id": "ArmorMayhem_SpaceSuit(zipver)",
+      "detail": "models/ArmorMayhem_SpaceSuit_zipver.json"
+    },
+    {
+      "id": "Arstia_夜空-赛蕾特_v1.1",
+      "detail": "models/Arstia__-__v1.1.json"
+    },
+    {
+      "id": "Arstia_夜空-赛蕾特_v1.1(zipver)",
+      "detail": "models/Arstia__-__v1.1_zipver.json"
+    },
+    {
+      "id": "Arstia_夜空-赛蕾特_v1.4",
+      "detail": "models/Arstia__-__v1.4.json"
+    },
+    {
+      "id": "Arstia_夜空-赛蕾特_v1.4(zipver)",
+      "detail": "models/Arstia__-__v1.4_zipver.json"
+    },
+    {
+      "id": "AshArms_Ho229",
+      "detail": "models/AshArms_Ho229.json"
+    },
+    {
+      "id": "AshArms_猎虎H",
+      "detail": "models/AshArms__H.json"
+    },
+    {
+      "id": "AstalParty_NancyLu(No-sound)_v1.0",
+      "detail": "models/AstalParty_NancyLu_No-sound__v1.0.json"
+    },
+    {
+      "id": "AstalParty_NancyLu_v0.1",
+      "detail": "models/AstalParty_NancyLu_v0.1.json"
+    },
+    {
+      "id": "AstalParty_NancyLu_v0.2",
+      "detail": "models/AstalParty_NancyLu_v0.2.json"
+    },
+    {
+      "id": "AstalParty_NancyLu_v1.0",
+      "detail": "models/AstalParty_NancyLu_v1.0.json"
+    },
+    {
+      "id": "AstralParty_Jasmine_v1.0",
+      "detail": "models/AstralParty_Jasmine_v1.0.json"
+    },
+    {
+      "id": "AstralParty_Jasmine_v1.1.1",
+      "detail": "models/AstralParty_Jasmine_v1.1.1.json"
+    },
+    {
+      "id": "Atago",
+      "detail": "models/Atago.json"
+    },
+    {
+      "id": "Atelier_Reisalin-Stout",
+      "detail": "models/Atelier_Reisalin-Stout.json"
+    },
+    {
+      "id": "AtomicHeart_The-Twins_v1.0",
+      "detail": "models/AtomicHeart_The-Twins_v1.0.json"
+    },
+    {
+      "id": "BA_Alice(Maid)",
+      "detail": "models/BA_Alice_Maid.json"
+    },
+    {
+      "id": "BA_Alice(Maid)_2.0",
+      "detail": "models/BA_Alice_Maid__2.0.json"
+    },
+    {
+      "id": "BA_Alice(Winter)",
+      "detail": "models/BA_Alice_Winter.json"
+    },
+    {
+      "id": "BA_Alice_4.0",
+      "detail": "models/BA_Alice_4.0.json"
+    },
+    {
+      "id": "BA_Alice_5.0",
+      "detail": "models/BA_Alice_5.0.json"
+    },
+    {
+      "id": "BA_Alice_6.0",
+      "detail": "models/BA_Alice_6.0.json"
+    },
+    {
+      "id": "BA_Arona",
+      "detail": "models/BA_Arona.json"
+    },
+    {
+      "id": "BA_Arona_0",
+      "detail": "models/BA_Arona_0.json"
+    },
+    {
+      "id": "BA_Arona_1",
+      "detail": "models/BA_Arona_1.json"
+    },
+    {
+      "id": "BA_Aru",
+      "detail": "models/BA_Aru.json"
+    },
+    {
+      "id": "BA_Asuma-Toki",
+      "detail": "models/BA_Asuma-Toki.json"
+    },
+    {
+      "id": "BA_Asuma-Toki_1.0",
+      "detail": "models/BA_Asuma-Toki_1.0.json"
+    },
+    {
+      "id": "BA_Asuma-Toki_v1.0",
+      "detail": "models/BA_Asuma-Toki_v1.0.json"
+    },
+    {
+      "id": "BA_Asuna",
+      "detail": "models/BA_Asuna.json"
+    },
+    {
+      "id": "BA_Asuna(Mini)_v1.0",
+      "detail": "models/BA_Asuna_Mini__v1.0.json"
+    },
+    {
+      "id": "BA_Fuuka_1.0",
+      "detail": "models/BA_Fuuka_1.0.json"
+    },
+    {
+      "id": "BA_Fuuka_v1.0",
+      "detail": "models/BA_Fuuka_v1.0.json"
+    },
+    {
+      "id": "BA_Fuuka_v1.0.12",
+      "detail": "models/BA_Fuuka_v1.0.12.json"
+    },
+    {
+      "id": "BA_Fuuka_v1.1",
+      "detail": "models/BA_Fuuka_v1.1.json"
+    },
+    {
+      "id": "BA_Fuuka_v1.1.1",
+      "detail": "models/BA_Fuuka_v1.1.1.json"
+    },
+    {
+      "id": "BA_Fuuka_v2.0",
+      "detail": "models/BA_Fuuka_v2.0.json"
+    },
+    {
+      "id": "BA_Fuuka_v2.0.5",
+      "detail": "models/BA_Fuuka_v2.0.5.json"
+    },
+    {
+      "id": "BA_Haruka",
+      "detail": "models/BA_Haruka.json"
+    },
+    {
+      "id": "BA_Hayase-Yuuka(Track)",
+      "detail": "models/BA_Hayase-Yuuka_Track.json"
+    },
+    {
+      "id": "BA_Hayase-Yuuka(Track)(Old-Versions)",
+      "detail": "models/BA_Hayase-Yuuka_Track_Old-Versions.json"
+    },
+    {
+      "id": "BA_Hayoko",
+      "detail": "models/BA_Hayoko.json"
+    },
+    {
+      "id": "BA_Hikari(Highlande)_v1.0",
+      "detail": "models/BA_Hikari_Highlande__v1.0.json"
+    },
+    {
+      "id": "BA_Hina_0_ShiroKaze",
+      "detail": "models/BA_Hina_0_ShiroKaze.json"
+    },
+    {
+      "id": "BA_Hoshino",
+      "detail": "models/BA_Hoshino.json"
+    },
+    {
+      "id": "BA_Hoshino(Battle)",
+      "detail": "models/BA_Hoshino_Battle.json"
+    },
+    {
+      "id": "BA_Hoshino_1",
+      "detail": "models/BA_Hoshino_1.json"
+    },
+    {
+      "id": "BA_Kanoe_v0.7",
+      "detail": "models/BA_Kanoe_v0.7.json"
+    },
+    {
+      "id": "BA_Kazusa",
+      "detail": "models/BA_Kazusa.json"
+    },
+    {
+      "id": "BA_Kisaki(Alt)_v1.0",
+      "detail": "models/BA_Kisaki_Alt__v1.0.json"
+    },
+    {
+      "id": "BA_Kisaki(No_coat)_v1.0",
+      "detail": "models/BA_Kisaki_No_coat__v1.0.json"
+    },
+    {
+      "id": "BA_Kisaki(With_coat)_v1.0",
+      "detail": "models/BA_Kisaki_With_coat__v1.0.json"
+    },
+    {
+      "id": "BA_Kiyosumi-Akira",
+      "detail": "models/BA_Kiyosumi-Akira.json"
+    },
+    {
+      "id": "BA_Koharu",
+      "detail": "models/BA_Koharu.json"
+    },
+    {
+      "id": "BA_Mika",
+      "detail": "models/BA_Mika.json"
+    },
+    {
+      "id": "BA_Minori",
+      "detail": "models/BA_Minori.json"
+    },
+    {
+      "id": "BA_Miyako",
+      "detail": "models/BA_Miyako.json"
+    },
+    {
+      "id": "BA_Miyu",
+      "detail": "models/BA_Miyu.json"
+    },
+    {
+      "id": "BA_Momoi(Maid)_1.2",
+      "detail": "models/BA_Momoi_Maid__1.2.json"
+    },
+    {
+      "id": "BA_Mutsuki",
+      "detail": "models/BA_Mutsuki.json"
+    },
+    {
+      "id": "BA_Noa",
+      "detail": "models/BA_Noa.json"
+    },
+    {
+      "id": "BA_Nozomi(Highlande)_v1.0",
+      "detail": "models/BA_Nozomi_Highlande__v1.0.json"
+    },
+    {
+      "id": "BA_Plana",
+      "detail": "models/BA_Plana.json"
+    },
+    {
+      "id": "BA_Rio",
+      "detail": "models/BA_Rio.json"
+    },
+    {
+      "id": "BA_Risa_0",
+      "detail": "models/BA_Risa_0.json"
+    },
+    {
+      "id": "BA_Risa_1",
+      "detail": "models/BA_Risa_1.json"
+    },
+    {
+      "id": "BA_Saki",
+      "detail": "models/BA_Saki.json"
+    },
+    {
+      "id": "BA_Saori",
+      "detail": "models/BA_Saori.json"
+    },
+    {
+      "id": "BA_Sensei/sensei2.1",
+      "detail": "models/BA_Sensei_sensei2.1.json"
+    },
+    {
+      "id": "BA_Shiroko",
+      "detail": "models/BA_Shiroko.json"
+    },
+    {
+      "id": "BA_Shiroko(Terror)_v1.0",
+      "detail": "models/BA_Shiroko_Terror__v1.0.json"
+    },
+    {
+      "id": "BA_ichika",
+      "detail": "models/BA_ichika.json"
+    },
+    {
+      "id": "BMW_Wukong_1",
+      "detail": "models/BMW_Wukong_1.json"
+    },
+    {
+      "id": "Bandori_Anon-Chihaya",
+      "detail": "models/Bandori_Anon-Chihaya.json"
+    },
+    {
+      "id": "Bandori_Chihaya-Anon",
+      "detail": "models/Bandori_Chihaya-Anon.json"
+    },
+    {
+      "id": "Bandori_ChihayaAnon_1",
+      "detail": "models/Bandori_ChihayaAnon_1.json"
+    },
+    {
+      "id": "Bandori_ChihayaAnon_1.2",
+      "detail": "models/Bandori_ChihayaAnon_1.2.json"
+    },
+    {
+      "id": "Bandori_Kaname-Raana",
+      "detail": "models/Bandori_Kaname-Raana.json"
+    },
+    {
+      "id": "Bandori_Nagasaki-Soyo",
+      "detail": "models/Bandori_Nagasaki-Soyo.json"
+    },
+    {
+      "id": "Bandori_NagasakiSoyo",
+      "detail": "models/Bandori_NagasakiSoyo.json"
+    },
+    {
+      "id": "Bandori_NagasakiSoyo(zipver)",
+      "detail": "models/Bandori_NagasakiSoyo_zipver.json"
+    },
+    {
+      "id": "Bandori_NagasakiSoyo_1",
+      "detail": "models/Bandori_NagasakiSoyo_1.json"
+    },
+    {
+      "id": "Bandori_Nyamu-Yutenji",
+      "detail": "models/Bandori_Nyamu-Yutenji.json"
+    },
+    {
+      "id": "Bandori_Sakiko-Togawa",
+      "detail": "models/Bandori_Sakiko-Togawa.json"
+    },
+    {
+      "id": "Bandori_Takamatsu-Tomori",
+      "detail": "models/Bandori_Takamatsu-Tomori.json"
+    },
+    {
+      "id": "Bandori_Taki-Shiina",
+      "detail": "models/Bandori_Taki-Shiina.json"
+    },
+    {
+      "id": "Bandori_Uika-Misumi",
+      "detail": "models/Bandori_Uika-Misumi.json"
+    },
+    {
+      "id": "Bandori_Umiri-Yahata",
+      "detail": "models/Bandori_Umiri-Yahata.json"
+    },
+    {
+      "id": "Bandori_Wakaba-Mutsumi",
+      "detail": "models/Bandori_Wakaba-Mutsumi.json"
+    },
+    {
+      "id": "Bionicle_Gali",
+      "detail": "models/Bionicle_Gali.json"
+    },
+    {
+      "id": "Bionicle_Kopaka",
+      "detail": "models/Bionicle_Kopaka.json"
+    },
+    {
+      "id": "Bionicle_Lewa",
+      "detail": "models/Bionicle_Lewa.json"
+    },
+    {
+      "id": "Bionicle_Onua",
+      "detail": "models/Bionicle_Onua.json"
+    },
+    {
+      "id": "Bionicle_Pohatu",
+      "detail": "models/Bionicle_Pohatu.json"
+    },
+    {
+      "id": "Bionicle_Tahu",
+      "detail": "models/Bionicle_Tahu.json"
+    },
+    {
+      "id": "Block_Birch(Moefied)",
+      "detail": "models/Block_Birch_Moefied.json"
+    },
+    {
+      "id": "Block_Grass(Moefied)",
+      "detail": "models/Block_Grass_Moefied.json"
+    },
+    {
+      "id": "Block_IronGolem",
+      "detail": "models/Block_IronGolem.json"
+    },
+    {
+      "id": "Block_IronGolem(dancing)",
+      "detail": "models/Block_IronGolem_dancing.json"
+    },
+    {
+      "id": "Brainrot_Tralalero-Tralala",
+      "detail": "models/Brainrot_Tralalero-Tralala.json"
+    },
+    {
+      "id": "BrownDustII_Loen(Celebrity-bunny)",
+      "detail": "models/BrownDustII_Loen_Celebrity-bunny.json"
+    },
+    {
+      "id": "BtR_Hitori-Goto_0",
+      "detail": "models/BtR_Hitori-Goto_0.json"
+    },
+    {
+      "id": "BtR_Hitori-Goto_1",
+      "detail": "models/BtR_Hitori-Goto_1.json"
+    },
+    {
+      "id": "BtR_Hitori-Goto_v1.0",
+      "detail": "models/BtR_Hitori-Goto_v1.0.json"
+    },
+    {
+      "id": "BtR_Kita-Ikuyo_0",
+      "detail": "models/BtR_Kita-Ikuyo_0.json"
+    },
+    {
+      "id": "BtR_Kita-Ikuyo_1",
+      "detail": "models/BtR_Kita-Ikuyo_1.json"
+    },
+    {
+      "id": "BtR_Kita-Ikuyo_2",
+      "detail": "models/BtR_Kita-Ikuyo_2.json"
+    },
+    {
+      "id": "BtR_Nijika-Ijichi",
+      "detail": "models/BtR_Nijika-Ijichi.json"
+    },
+    {
+      "id": "BtR_Nijika-Ijichi(MM)",
+      "detail": "models/BtR_Nijika-Ijichi_MM.json"
+    },
+    {
+      "id": "BtR_Nijika-Ijichi_1",
+      "detail": "models/BtR_Nijika-Ijichi_1.json"
+    },
+    {
+      "id": "BtR_Ryou-Yamada_0",
+      "detail": "models/BtR_Ryou-Yamada_0.json"
+    },
+    {
+      "id": "BtR_Ryou-Yamada_1",
+      "detail": "models/BtR_Ryou-Yamada_1.json"
+    },
+    {
+      "id": "BtR_Ryou-Yamada_2",
+      "detail": "models/BtR_Ryou-Yamada_2.json"
+    },
+    {
+      "id": "BtR_Ryou-Yamada_3",
+      "detail": "models/BtR_Ryou-Yamada_3.json"
+    },
+    {
+      "id": "COC_Electro-Dragon",
+      "detail": "models/COC_Electro-Dragon.json"
+    },
+    {
+      "id": "CR_Barbarian",
+      "detail": "models/CR_Barbarian.json"
+    },
+    {
+      "id": "CR_Firecracker",
+      "detail": "models/CR_Firecracker.json"
+    },
+    {
+      "id": "CR_Golem",
+      "detail": "models/CR_Golem.json"
+    },
+    {
+      "id": "CR_Knight",
+      "detail": "models/CR_Knight.json"
+    },
+    {
+      "id": "CR_Mega-Knight",
+      "detail": "models/CR_Mega-Knight.json"
+    },
+    {
+      "id": "CR_Mini-P.E.K.K.A",
+      "detail": "models/CR_Mini-P.E.K.K.A.json"
+    },
+    {
+      "id": "CR_Musketeer",
+      "detail": "models/CR_Musketeer.json"
+    },
+    {
+      "id": "CR_P.E.K.K.A",
+      "detail": "models/CR_P.E.K.K.A.json"
+    },
+    {
+      "id": "Chinese-math-textbook_RuiRui",
+      "detail": "models/Chinese-math-textbook_RuiRui.json"
+    },
+    {
+      "id": "Chinese-math-textbook_RuiRui_1.3",
+      "detail": "models/Chinese-math-textbook_RuiRui_1.3.json"
+    },
+    {
+      "id": "Chuunibyou_Takanashi-Rikka",
+      "detail": "models/Chuunibyou_Takanashi-Rikka.json"
+    },
+    {
+      "id": "CnCGZH(RiseOfTheReds)_Shock-Trooper",
+      "detail": "models/CnCGZH_RiseOfTheReds__Shock-Trooper.json"
+    },
+    {
+      "id": "CnCGZH_Red-Guard",
+      "detail": "models/CnCGZH_Red-Guard.json"
+    },
+    {
+      "id": "CnCGZH_Red-Guard(General-1)",
+      "detail": "models/CnCGZH_Red-Guard_General-1.json"
+    },
+    {
+      "id": "CnCGZH_Red-Guard(Mini-gunners)",
+      "detail": "models/CnCGZH_Red-Guard_Mini-gunners.json"
+    },
+    {
+      "id": "CnCGZH_Red-Guard(Nuclear)",
+      "detail": "models/CnCGZH_Red-Guard_Nuclear.json"
+    },
+    {
+      "id": "CnCGZH_Red-Guard(Sergeant)",
+      "detail": "models/CnCGZH_Red-Guard_Sergeant.json"
+    },
+    {
+      "id": "CnCG_GLARebel",
+      "detail": "models/CnCG_GLARebel.json"
+    },
+    {
+      "id": "CnCG_GLARebel(Demolition)",
+      "detail": "models/CnCG_GLARebel_Demolition.json"
+    },
+    {
+      "id": "CnCG_GLARebel(Stealth)",
+      "detail": "models/CnCG_GLARebel_Stealth.json"
+    },
+    {
+      "id": "CnCG_GLARebel(Toxin)",
+      "detail": "models/CnCG_GLARebel_Toxin.json"
+    },
+    {
+      "id": "CnCMO_AlliedGI",
+      "detail": "models/CnCMO_AlliedGI.json"
+    },
+    {
+      "id": "CnCMO_AlliedGI2",
+      "detail": "models/CnCMO_AlliedGI2.json"
+    },
+    {
+      "id": "CnCMO_AlliedGuardianGI",
+      "detail": "models/CnCMO_AlliedGuardianGI.json"
+    },
+    {
+      "id": "CnCMO_AlliedRiotTrooper",
+      "detail": "models/CnCMO_AlliedRiotTrooper.json"
+    },
+    {
+      "id": "CnCMO_Krukov",
+      "detail": "models/CnCMO_Krukov.json"
+    },
+    {
+      "id": "CnCMO_Reznov",
+      "detail": "models/CnCMO_Reznov.json"
+    },
+    {
+      "id": "CnCMO_Yunru",
+      "detail": "models/CnCMO_Yunru.json"
+    },
+    {
+      "id": "CnCMO_Yunru2",
+      "detail": "models/CnCMO_Yunru2.json"
+    },
+    {
+      "id": "CnCRA2_AlliedGI",
+      "detail": "models/CnCRA2_AlliedGI.json"
+    },
+    {
+      "id": "CnCRA2_alliedNavySeal(Land)",
+      "detail": "models/CnCRA2_alliedNavySeal_Land.json"
+    },
+    {
+      "id": "CnCRA2_alliedNavySeal(Underwater)",
+      "detail": "models/CnCRA2_alliedNavySeal_Underwater.json"
+    },
+    {
+      "id": "CnCRA2_alliedNavySeal(Winter)",
+      "detail": "models/CnCRA2_alliedNavySeal_Winter.json"
+    },
+    {
+      "id": "CnCRA_Rifle-Infantry",
+      "detail": "models/CnCRA_Rifle-Infantry.json"
+    },
+    {
+      "id": "CnCRe_GDISoldier",
+      "detail": "models/CnCRe_GDISoldier.json"
+    },
+    {
+      "id": "CnCRe_NODSoldier",
+      "detail": "models/CnCRe_NODSoldier.json"
+    },
+    {
+      "id": "CnCTS_GDILightInfantry",
+      "detail": "models/CnCTS_GDILightInfantry.json"
+    },
+    {
+      "id": "CnCTS_NODLightInfantry",
+      "detail": "models/CnCTS_NODLightInfantry.json"
+    },
+    {
+      "id": "CnCTWKW_NODMilitantSquad",
+      "detail": "models/CnCTWKW_NODMilitantSquad.json"
+    },
+    {
+      "id": "CnCTW_GDIRiflemanSquad",
+      "detail": "models/CnCTW_GDIRiflemanSquad.json"
+    },
+    {
+      "id": "CnCTW_GDIRiflemanSquad(Armored)",
+      "detail": "models/CnCTW_GDIRiflemanSquad_Armored.json"
+    },
+    {
+      "id": "CnCTW_GDIRiflemanSquad(ZOCOM)",
+      "detail": "models/CnCTW_GDIRiflemanSquad_ZOCOM.json"
+    },
+    {
+      "id": "CnCTW_NODMilitantSquad",
+      "detail": "models/CnCTW_NODMilitantSquad.json"
+    },
+    {
+      "id": "CnCYR_Initiate",
+      "detail": "models/CnCYR_Initiate.json"
+    },
+    {
+      "id": "CounterSide_Kanade_v1.02",
+      "detail": "models/CounterSide_Kanade_v1.02.json"
+    },
+    {
+      "id": "CounterSide_Regina-MacCready",
+      "detail": "models/CounterSide_Regina-MacCready.json"
+    },
+    {
+      "id": "Create_Mechanical-Arm",
+      "detail": "models/Create_Mechanical-Arm.json"
+    },
+    {
+      "id": "Cursed_default_boy-ride-wine_fox_jk",
+      "detail": "models/Cursed_default_boy-ride-wine_fox_jk.json"
+    },
+    {
+      "id": "Cursed_default_boy-ride-wine_fox_jk(motobike)",
+      "detail": "models/Cursed_default_boy-ride-wine_fox_jk_motobike.json"
+    },
+    {
+      "id": "Cyberpunk_Lucyna-Kushinada",
+      "detail": "models/Cyberpunk_Lucyna-Kushinada.json"
+    },
+    {
+      "id": "Cyberpunk_Rebecca",
+      "detail": "models/Cyberpunk_Rebecca.json"
+    },
+    {
+      "id": "DBD_Frank",
+      "detail": "models/DBD_Frank.json"
+    },
+    {
+      "id": "DBD_Frank(zipver)",
+      "detail": "models/DBD_Frank_zipver.json"
+    },
+    {
+      "id": "DB_Android-21",
+      "detail": "models/DB_Android-21.json"
+    },
+    {
+      "id": "DDLC_monika_0",
+      "detail": "models/DDLC_monika_0.json"
+    },
+    {
+      "id": "DDLC_monika_1",
+      "detail": "models/DDLC_monika_1.json"
+    },
+    {
+      "id": "DDLC_natsuki",
+      "detail": "models/DDLC_natsuki.json"
+    },
+    {
+      "id": "DDLC_sayori",
+      "detail": "models/DDLC_sayori.json"
+    },
+    {
+      "id": "DDLC_yuri",
+      "detail": "models/DDLC_yuri.json"
+    },
+    {
+      "id": "DMC_Vergil",
+      "detail": "models/DMC_Vergil.json"
+    },
+    {
+      "id": "DM_Marcille",
+      "detail": "models/DM_Marcille.json"
+    },
+    {
+      "id": "DS_Nezuko",
+      "detail": "models/DS_Nezuko.json"
+    },
+    {
+      "id": "DS_Zenitsu",
+      "detail": "models/DS_Zenitsu.json"
+    },
+    {
+      "id": "DaL_Kurumi",
+      "detail": "models/DaL_Kurumi.json"
+    },
+    {
+      "id": "DaL_Kurumi2025v1",
+      "detail": "models/DaL_Kurumi2025v1.json"
+    },
+    {
+      "id": "DaL_Kurumi_2",
+      "detail": "models/DaL_Kurumi_2.json"
+    },
+    {
+      "id": "DaL_Kurumi_2025",
+      "detail": "models/DaL_Kurumi_2025.json"
+    },
+    {
+      "id": "DaL_Kurumi_3",
+      "detail": "models/DaL_Kurumi_3.json"
+    },
+    {
+      "id": "Deltarune_Ralsei",
+      "detail": "models/Deltarune_Ralsei.json"
+    },
+    {
+      "id": "Deovolente_Succubus_0",
+      "detail": "models/Deovolente_Succubus_0.json"
+    },
+    {
+      "id": "Deovolente_Succubus_1",
+      "detail": "models/Deovolente_Succubus_1.json"
+    },
+    {
+      "id": "DonBrother_Momotaro",
+      "detail": "models/DonBrother_Momotaro.json"
+    },
+    {
+      "id": "DragonRaja_Xia-Mi",
+      "detail": "models/DragonRaja_Xia-Mi.json"
+    },
+    {
+      "id": "EFT_TacticalDoll",
+      "detail": "models/EFT_TacticalDoll.json"
+    },
+    {
+      "id": "ER_Camilo",
+      "detail": "models/ER_Camilo.json"
+    },
+    {
+      "id": "ER_Malenia",
+      "detail": "models/ER_Malenia.json"
+    },
+    {
+      "id": "Endfield_Rossi_v1.1",
+      "detail": "models/Endfield_Rossi_v1.1.json"
+    },
+    {
+      "id": "FGO_Gray",
+      "detail": "models/FGO_Gray.json"
+    },
+    {
+      "id": "FGO_Kama(Summer)_v1.0",
+      "detail": "models/FGO_Kama_Summer__v1.0.json"
+    },
+    {
+      "id": "FGO_Lilith",
+      "detail": "models/FGO_Lilith.json"
+    },
+    {
+      "id": "FGO_Mashu-Kirieraito",
+      "detail": "models/FGO_Mashu-Kirieraito.json"
+    },
+    {
+      "id": "FGO_Mashu-Kirieraito(zipver)",
+      "detail": "models/FGO_Mashu-Kirieraito_zipver.json"
+    },
+    {
+      "id": "FGO_Meltryllis",
+      "detail": "models/FGO_Meltryllis.json"
+    },
+    {
+      "id": "FGO_Morgan",
+      "detail": "models/FGO_Morgan.json"
+    },
+    {
+      "id": "FGO_Nero",
+      "detail": "models/FGO_Nero.json"
+    },
+    {
+      "id": "FGO_Osakabehime",
+      "detail": "models/FGO_Osakabehime.json"
+    },
+    {
+      "id": "FGO_Saber(Alter)",
+      "detail": "models/FGO_Saber_Alter.json"
+    },
+    {
+      "id": "FGO_Sei-Shonagon",
+      "detail": "models/FGO_Sei-Shonagon.json"
+    },
+    {
+      "id": "FGO_Tamamo-No-Mae_0_ShiroKaze",
+      "detail": "models/FGO_Tamamo-No-Mae_0_ShiroKaze.json"
+    },
+    {
+      "id": "FGO_Tiamat(b)_v1.0",
+      "detail": "models/FGO_Tiamat_b__v1.0.json"
+    },
+    {
+      "id": "FGO_Tiamat(c)_v1.0",
+      "detail": "models/FGO_Tiamat_c__v1.0.json"
+    },
+    {
+      "id": "Fox-hime-zero_Mori_v1.0",
+      "detail": "models/Fox-hime-zero_Mori_v1.0.json"
+    },
+    {
+      "id": "GF_AA-12",
+      "detail": "models/GF_AA-12.json"
+    },
+    {
+      "id": "GF_AK-12",
+      "detail": "models/GF_AK-12.json"
+    },
+    {
+      "id": "GF_AK-15",
+      "detail": "models/GF_AK-15.json"
+    },
+    {
+      "id": "GF_AK-74M",
+      "detail": "models/GF_AK-74M.json"
+    },
+    {
+      "id": "GF_AK-74M_1",
+      "detail": "models/GF_AK-74M_1.json"
+    },
+    {
+      "id": "GF_AN-94",
+      "detail": "models/GF_AN-94.json"
+    },
+    {
+      "id": "GF_AN-94_0",
+      "detail": "models/GF_AN-94_0.json"
+    },
+    {
+      "id": "GF_AR-15",
+      "detail": "models/GF_AR-15.json"
+    },
+    {
+      "id": "GF_AS-VAL",
+      "detail": "models/GF_AS-VAL.json"
+    },
+    {
+      "id": "GF_G11",
+      "detail": "models/GF_G11.json"
+    },
+    {
+      "id": "GF_G11_1",
+      "detail": "models/GF_G11_1.json"
+    },
+    {
+      "id": "GF_General-Liu",
+      "detail": "models/GF_General-Liu.json"
+    },
+    {
+      "id": "GF_HK416",
+      "detail": "models/GF_HK416.json"
+    },
+    {
+      "id": "GF_HK416_1",
+      "detail": "models/GF_HK416_1.json"
+    },
+    {
+      "id": "GF_Hk416_0",
+      "detail": "models/GF_Hk416_0.json"
+    },
+    {
+      "id": "GF_KAR-98K",
+      "detail": "models/GF_KAR-98K.json"
+    },
+    {
+      "id": "GF_Kalina",
+      "detail": "models/GF_Kalina.json"
+    },
+    {
+      "id": "GF_Lenna",
+      "detail": "models/GF_Lenna.json"
+    },
+    {
+      "id": "GF_Lenna_1.0.2",
+      "detail": "models/GF_Lenna_1.0.2.json"
+    },
+    {
+      "id": "GF_M16A1",
+      "detail": "models/GF_M16A1.json"
+    },
+    {
+      "id": "GF_M16A1_0",
+      "detail": "models/GF_M16A1_0.json"
+    },
+    {
+      "id": "GF_M16A1_1",
+      "detail": "models/GF_M16A1_1.json"
+    },
+    {
+      "id": "GF_M200",
+      "detail": "models/GF_M200.json"
+    },
+    {
+      "id": "GF_M200_1",
+      "detail": "models/GF_M200_1.json"
+    },
+    {
+      "id": "GF_M4-SOPMOD_2",
+      "detail": "models/GF_M4-SOPMOD_2.json"
+    },
+    {
+      "id": "GF_M4A1",
+      "detail": "models/GF_M4A1.json"
+    },
+    {
+      "id": "GF_M4SOPMODII",
+      "detail": "models/GF_M4SOPMODII.json"
+    },
+    {
+      "id": "GF_MK23",
+      "detail": "models/GF_MK23.json"
+    },
+    {
+      "id": "GF_MP7",
+      "detail": "models/GF_MP7.json"
+    },
+    {
+      "id": "GF_Mosin-Nagant",
+      "detail": "models/GF_Mosin-Nagant.json"
+    },
+    {
+      "id": "GF_PP-19",
+      "detail": "models/GF_PP-19.json"
+    },
+    {
+      "id": "GF_RO635",
+      "detail": "models/GF_RO635.json"
+    },
+    {
+      "id": "GF_RPK-16",
+      "detail": "models/GF_RPK-16.json"
+    },
+    {
+      "id": "GF_SVD",
+      "detail": "models/GF_SVD.json"
+    },
+    {
+      "id": "GF_ScarH",
+      "detail": "models/GF_ScarH.json"
+    },
+    {
+      "id": "GF_Suomi",
+      "detail": "models/GF_Suomi.json"
+    },
+    {
+      "id": "GF_Suomi_1",
+      "detail": "models/GF_Suomi_1.json"
+    },
+    {
+      "id": "GF_Type64",
+      "detail": "models/GF_Type64.json"
+    },
+    {
+      "id": "GF_UMP40",
+      "detail": "models/GF_UMP40.json"
+    },
+    {
+      "id": "GF_UMP40-1",
+      "detail": "models/GF_UMP40-1.json"
+    },
+    {
+      "id": "GF_UMP45",
+      "detail": "models/GF_UMP45.json"
+    },
+    {
+      "id": "GF_UMP45-1",
+      "detail": "models/GF_UMP45-1.json"
+    },
+    {
+      "id": "GF_UMP45_0",
+      "detail": "models/GF_UMP45_0.json"
+    },
+    {
+      "id": "GF_UMP9",
+      "detail": "models/GF_UMP9.json"
+    },
+    {
+      "id": "GF_UMP97",
+      "detail": "models/GF_UMP97.json"
+    },
+    {
+      "id": "GF_UMP9_1",
+      "detail": "models/GF_UMP9_1.json"
+    },
+    {
+      "id": "GF_UMP9_2.0",
+      "detail": "models/GF_UMP9_2.0.json"
+    },
+    {
+      "id": "GF_UPM9_2",
+      "detail": "models/GF_UPM9_2.json"
+    },
+    {
+      "id": "GF_Vector",
+      "detail": "models/GF_Vector.json"
+    },
+    {
+      "id": "GI_Arlecchino",
+      "detail": "models/GI_Arlecchino.json"
+    },
+    {
+      "id": "GI_Diluke",
+      "detail": "models/GI_Diluke.json"
+    },
+    {
+      "id": "GI_Fatui-Cryo-Cicin-Mage",
+      "detail": "models/GI_Fatui-Cryo-Cicin-Mage.json"
+    },
+    {
+      "id": "GI_Furina",
+      "detail": "models/GI_Furina.json"
+    },
+    {
+      "id": "GI_Furina_0",
+      "detail": "models/GI_Furina_0.json"
+    },
+    {
+      "id": "GI_Furina_1",
+      "detail": "models/GI_Furina_1.json"
+    },
+    {
+      "id": "GI_Ganyu_0",
+      "detail": "models/GI_Ganyu_0.json"
+    },
+    {
+      "id": "GI_Ganyu_1",
+      "detail": "models/GI_Ganyu_1.json"
+    },
+    {
+      "id": "GI_Ganyu_2",
+      "detail": "models/GI_Ganyu_2.json"
+    },
+    {
+      "id": "GI_Hutao",
+      "detail": "models/GI_Hutao.json"
+    },
+    {
+      "id": "GI_Junjin",
+      "detail": "models/GI_Junjin.json"
+    },
+    {
+      "id": "GI_Kazuha",
+      "detail": "models/GI_Kazuha.json"
+    },
+    {
+      "id": "GI_Keqing",
+      "detail": "models/GI_Keqing.json"
+    },
+    {
+      "id": "GI_Klee",
+      "detail": "models/GI_Klee.json"
+    },
+    {
+      "id": "GI_La-Signora",
+      "detail": "models/GI_La-Signora.json"
+    },
+    {
+      "id": "GI_Nahida",
+      "detail": "models/GI_Nahida.json"
+    },
+    {
+      "id": "GI_Navia",
+      "detail": "models/GI_Navia.json"
+    },
+    {
+      "id": "GI_Nilou",
+      "detail": "models/GI_Nilou.json"
+    },
+    {
+      "id": "GI_Noelle_6.4",
+      "detail": "models/GI_Noelle_6.4.json"
+    },
+    {
+      "id": "GI_Paimon",
+      "detail": "models/GI_Paimon.json"
+    },
+    {
+      "id": "GI_Raiden-Shogun",
+      "detail": "models/GI_Raiden-Shogun.json"
+    },
+    {
+      "id": "GI_Raiden-Shogun_v3.0",
+      "detail": "models/GI_Raiden-Shogun_v3.0.json"
+    },
+    {
+      "id": "GI_Raiden-Shogun_v4.0",
+      "detail": "models/GI_Raiden-Shogun_v4.0.json"
+    },
+    {
+      "id": "GI_Rosaria_0",
+      "detail": "models/GI_Rosaria_0.json"
+    },
+    {
+      "id": "GI_Rosaria_1",
+      "detail": "models/GI_Rosaria_1.json"
+    },
+    {
+      "id": "GI_Shenhe",
+      "detail": "models/GI_Shenhe.json"
+    },
+    {
+      "id": "GI_Wanderer",
+      "detail": "models/GI_Wanderer.json"
+    },
+    {
+      "id": "GI_Xiangling",
+      "detail": "models/GI_Xiangling.json"
+    },
+    {
+      "id": "GI_Xianyun",
+      "detail": "models/GI_Xianyun.json"
+    },
+    {
+      "id": "GI_Yae-Sakura",
+      "detail": "models/GI_Yae-Sakura.json"
+    },
+    {
+      "id": "GI_YaoYao",
+      "detail": "models/GI_YaoYao.json"
+    },
+    {
+      "id": "GI_Yip-Gaming",
+      "detail": "models/GI_Yip-Gaming.json"
+    },
+    {
+      "id": "GI_Yomiya",
+      "detail": "models/GI_Yomiya.json"
+    },
+    {
+      "id": "GI_qz_yg",
+      "detail": "models/GI_qz_yg.json"
+    },
+    {
+      "id": "GT_Beth",
+      "detail": "models/GT_Beth.json"
+    },
+    {
+      "id": "GT_Female-Knight",
+      "detail": "models/GT_Female-Knight.json"
+    },
+    {
+      "id": "HI3_Bronya",
+      "detail": "models/HI3_Bronya.json"
+    },
+    {
+      "id": "HI3_Elysia",
+      "detail": "models/HI3_Elysia.json"
+    },
+    {
+      "id": "HI3_Fu-Hua(Herrscher of Sentience)",
+      "detail": "models/HI3_Fu-Hua_Herrscher_of_Sentience.json"
+    },
+    {
+      "id": "HI3_Himeko_Vermilion_Knight",
+      "detail": "models/HI3_Himeko_Vermilion_Knight.json"
+    },
+    {
+      "id": "HI3_Mobius_0",
+      "detail": "models/HI3_Mobius_0.json"
+    },
+    {
+      "id": "HI3_Pardofelis",
+      "detail": "models/HI3_Pardofelis.json"
+    },
+    {
+      "id": "HI3_Qiyana",
+      "detail": "models/HI3_Qiyana.json"
+    },
+    {
+      "id": "HM_Mare-S.-Ephemeral_v1.0",
+      "detail": "models/HM_Mare-S.-Ephemeral_v1.0.json"
+    },
+    {
+      "id": "HM_Mare-S.-Ephemeral_v1.1",
+      "detail": "models/HM_Mare-S.-Ephemeral_v1.1.json"
+    },
+    {
+      "id": "HM_Mare-S.-Ephemeral_v1.2",
+      "detail": "models/HM_Mare-S.-Ephemeral_v1.2.json"
+    },
+    {
+      "id": "HM_Mare-S.-Ephemeral_v1.3",
+      "detail": "models/HM_Mare-S.-Ephemeral_v1.3.json"
+    },
+    {
+      "id": "HM_Mare-S.-Ephemeral_v2.0",
+      "detail": "models/HM_Mare-S.-Ephemeral_v2.0.json"
+    },
+    {
+      "id": "HM_Mare-S.-Ephemeral_v2.1",
+      "detail": "models/HM_Mare-S.-Ephemeral_v2.1.json"
+    },
+    {
+      "id": "HM_Mare-S.-Ephemeral_v2.2",
+      "detail": "models/HM_Mare-S.-Ephemeral_v2.2.json"
+    },
+    {
+      "id": "HSR_Aglaea",
+      "detail": "models/HSR_Aglaea.json"
+    },
+    {
+      "id": "HSR_Anaxa",
+      "detail": "models/HSR_Anaxa.json"
+    },
+    {
+      "id": "HSR_Aventurine",
+      "detail": "models/HSR_Aventurine.json"
+    },
+    {
+      "id": "HSR_Bailu_0",
+      "detail": "models/HSR_Bailu_0.json"
+    },
+    {
+      "id": "HSR_Bailu_1",
+      "detail": "models/HSR_Bailu_1.json"
+    },
+    {
+      "id": "HSR_Castorice",
+      "detail": "models/HSR_Castorice.json"
+    },
+    {
+      "id": "HSR_Castorice_v1.1",
+      "detail": "models/HSR_Castorice_v1.1.json"
+    },
+    {
+      "id": "HSR_Castorice_v1.3",
+      "detail": "models/HSR_Castorice_v1.3.json"
+    },
+    {
+      "id": "HSR_Cerydra_0",
+      "detail": "models/HSR_Cerydra_0.json"
+    },
+    {
+      "id": "HSR_Cerydra_1",
+      "detail": "models/HSR_Cerydra_1.json"
+    },
+    {
+      "id": "HSR_Cipher",
+      "detail": "models/HSR_Cipher.json"
+    },
+    {
+      "id": "HSR_Clara_0",
+      "detail": "models/HSR_Clara_0.json"
+    },
+    {
+      "id": "HSR_Clara_1",
+      "detail": "models/HSR_Clara_1.json"
+    },
+    {
+      "id": "HSR_Clara_2",
+      "detail": "models/HSR_Clara_2.json"
+    },
+    {
+      "id": "HSR_Cyrene",
+      "detail": "models/HSR_Cyrene.json"
+    },
+    {
+      "id": "HSR_Dan-Heng(Imbibitor-lunae)",
+      "detail": "models/HSR_Dan-Heng_Imbibitor-lunae.json"
+    },
+    {
+      "id": "HSR_Dan-Heng(Permansor-terrae)",
+      "detail": "models/HSR_Dan-Heng_Permansor-terrae.json"
+    },
+    {
+      "id": "HSR_Danheng-il",
+      "detail": "models/HSR_Danheng-il.json"
+    },
+    {
+      "id": "HSR_Dr-Ratio",
+      "detail": "models/HSR_Dr-Ratio.json"
+    },
+    {
+      "id": "HSR_Firefly",
+      "detail": "models/HSR_Firefly.json"
+    },
+    {
+      "id": "HSR_Fuxuan",
+      "detail": "models/HSR_Fuxuan.json"
+    },
+    {
+      "id": "HSR_Fuxuan_1",
+      "detail": "models/HSR_Fuxuan_1.json"
+    },
+    {
+      "id": "HSR_Herta_0",
+      "detail": "models/HSR_Herta_0.json"
+    },
+    {
+      "id": "HSR_Herta_1",
+      "detail": "models/HSR_Herta_1.json"
+    },
+    {
+      "id": "HSR_HuoHuo",
+      "detail": "models/HSR_HuoHuo.json"
+    },
+    {
+      "id": "HSR_Hysilens_v0.1",
+      "detail": "models/HSR_Hysilens_v0.1.json"
+    },
+    {
+      "id": "HSR_Jingliu_0",
+      "detail": "models/HSR_Jingliu_0.json"
+    },
+    {
+      "id": "HSR_Jingliu_1",
+      "detail": "models/HSR_Jingliu_1.json"
+    },
+    {
+      "id": "HSR_Kafka_0",
+      "detail": "models/HSR_Kafka_0.json"
+    },
+    {
+      "id": "HSR_Kafka_1",
+      "detail": "models/HSR_Kafka_1.json"
+    },
+    {
+      "id": "HSR_Kafka_2",
+      "detail": "models/HSR_Kafka_2.json"
+    },
+    {
+      "id": "HSR_March7th",
+      "detail": "models/HSR_March7th.json"
+    },
+    {
+      "id": "HSR_March7th(Evernight)",
+      "detail": "models/HSR_March7th_Evernight.json"
+    },
+    {
+      "id": "HSR_Phainon_plus",
+      "detail": "models/HSR_Phainon_plus.json"
+    },
+    {
+      "id": "HSR_Phainon_v0.1",
+      "detail": "models/HSR_Phainon_v0.1.json"
+    },
+    {
+      "id": "HSR_Phantylia",
+      "detail": "models/HSR_Phantylia.json"
+    },
+    {
+      "id": "HSR_Pompom",
+      "detail": "models/HSR_Pompom.json"
+    },
+    {
+      "id": "HSR_Ruan-Mei",
+      "detail": "models/HSR_Ruan-Mei.json"
+    },
+    {
+      "id": "HSR_Seele_0",
+      "detail": "models/HSR_Seele_0.json"
+    },
+    {
+      "id": "HSR_Seele_1",
+      "detail": "models/HSR_Seele_1.json"
+    },
+    {
+      "id": "HSR_Silver-Wolf",
+      "detail": "models/HSR_Silver-Wolf.json"
+    },
+    {
+      "id": "HSR_Silver-Wolf_0",
+      "detail": "models/HSR_Silver-Wolf_0.json"
+    },
+    {
+      "id": "HSR_Silver-Wolf_1",
+      "detail": "models/HSR_Silver-Wolf_1.json"
+    },
+    {
+      "id": "HSR_Sparkle",
+      "detail": "models/HSR_Sparkle.json"
+    },
+    {
+      "id": "HSR_Stelle",
+      "detail": "models/HSR_Stelle.json"
+    },
+    {
+      "id": "HSR_Tingyun_0",
+      "detail": "models/HSR_Tingyun_0.json"
+    },
+    {
+      "id": "HSR_Tingyun_1",
+      "detail": "models/HSR_Tingyun_1.json"
+    },
+    {
+      "id": "HSR_Trashcan",
+      "detail": "models/HSR_Trashcan.json"
+    },
+    {
+      "id": "HSR_Trashcan(bronze)",
+      "detail": "models/HSR_Trashcan_bronze.json"
+    },
+    {
+      "id": "HSR_Trashcan(gold)",
+      "detail": "models/HSR_Trashcan_gold.json"
+    },
+    {
+      "id": "HSR_Tribbie",
+      "detail": "models/HSR_Tribbie.json"
+    },
+    {
+      "id": "HSR_Tribbie(maid)",
+      "detail": "models/HSR_Tribbie_maid.json"
+    },
+    {
+      "id": "HSR_Tribbie_1",
+      "detail": "models/HSR_Tribbie_1.json"
+    },
+    {
+      "id": "HSR_Yukong",
+      "detail": "models/HSR_Yukong.json"
+    },
+    {
+      "id": "Hell_Cerberus_x1",
+      "detail": "models/Hell_Cerberus_x1.json"
+    },
+    {
+      "id": "Hell_Cerberus_x3",
+      "detail": "models/Hell_Cerberus_x3.json"
+    },
+    {
+      "id": "Helldivers__1.5",
+      "detail": "models/Helldivers__1.5.json"
+    },
+    {
+      "id": "IdentityV_Composer",
+      "detail": "models/IdentityV_Composer.json"
+    },
+    {
+      "id": "IdentityV_Fool's-Gold",
+      "detail": "models/IdentityV_Fool_s-Gold.json"
+    },
+    {
+      "id": "IdentityV_Little-Girl(Compasso)",
+      "detail": "models/IdentityV_Little-Girl_Compasso.json"
+    },
+    {
+      "id": "IdentityV_Luca-Balsa",
+      "detail": "models/IdentityV_Luca-Balsa.json"
+    },
+    {
+      "id": "IdentityV_Norton-Campbell",
+      "detail": "models/IdentityV_Norton-Campbell.json"
+    },
+    {
+      "id": "IdentityV_OPH.Lily",
+      "detail": "models/IdentityV_OPH.Lily.json"
+    },
+    {
+      "id": "IdentityV_Succubus",
+      "detail": "models/IdentityV_Succubus.json"
+    },
+    {
+      "id": "Idolmaster_Higuchi",
+      "detail": "models/Idolmaster_Higuchi.json"
+    },
+    {
+      "id": "InitialD_Toyota-AE86",
+      "detail": "models/InitialD_Toyota-AE86.json"
+    },
+    {
+      "id": "Inubakumori_Osage",
+      "detail": "models/Inubakumori_Osage.json"
+    },
+    {
+      "id": "Inubakumori_Osage-chan/osagechan",
+      "detail": "models/Inubakumori_Osage-chan_osagechan.json"
+    },
+    {
+      "id": "Invincible_Tech-Jacket",
+      "detail": "models/Invincible_Tech-Jacket.json"
+    },
+    {
+      "id": "JJK_Gojo",
+      "detail": "models/JJK_Gojo.json"
+    },
+    {
+      "id": "JJK_Sukuna",
+      "detail": "models/JJK_Sukuna.json"
+    },
+    {
+      "id": "JennyMod_Bia",
+      "detail": "models/JennyMod_Bia.json"
+    },
+    {
+      "id": "JennyMod_Ellie",
+      "detail": "models/JennyMod_Ellie.json"
+    },
+    {
+      "id": "JennyMod_Jenny",
+      "detail": "models/JennyMod_Jenny.json"
+    },
+    {
+      "id": "JennyMod_Sayomodel_je1",
+      "detail": "models/JennyMod_Sayomodel_je1.json"
+    },
+    {
+      "id": "Kamen-Rider_Tycoon",
+      "detail": "models/Kamen-Rider_Tycoon.json"
+    },
+    {
+      "id": "Kamen-Rider_Tycoon_v2",
+      "detail": "models/Kamen-Rider_Tycoon_v2.json"
+    },
+    {
+      "id": "KanCollect_Northern-Princess_0",
+      "detail": "models/KanCollect_Northern-Princess_0.json"
+    },
+    {
+      "id": "KanCollect_Northern-Princess_1",
+      "detail": "models/KanCollect_Northern-Princess_1.json"
+    },
+    {
+      "id": "KanCollect_Yukikaze_1.0",
+      "detail": "models/KanCollect_Yukikaze_1.0.json"
+    },
+    {
+      "id": "KingOni",
+      "detail": "models/KingOni.json"
+    },
+    {
+      "id": "Kris",
+      "detail": "models/Kris.json"
+    },
+    {
+      "id": "Lex_Ninjia",
+      "detail": "models/Lex_Ninjia.json"
+    },
+    {
+      "id": "Lex_Ninjia(zipver)",
+      "detail": "models/Lex_Ninjia_zipver.json"
+    },
+    {
+      "id": "LibraryOfRuina_Myo_v.1.0",
+      "detail": "models/LibraryOfRuina_Myo_v.1.0.json"
+    },
+    {
+      "id": "Limbus_Bari(ysm2.2.1-special)_v2.0",
+      "detail": "models/Limbus_Bari_ysm2.2.1-special__v2.0.json"
+    },
+    {
+      "id": "Limbus_Bari_v2.0",
+      "detail": "models/Limbus_Bari_v2.0.json"
+    },
+    {
+      "id": "Limbus_Ishmael",
+      "detail": "models/Limbus_Ishmael.json"
+    },
+    {
+      "id": "LoL_Gwen",
+      "detail": "models/LoL_Gwen.json"
+    },
+    {
+      "id": "LoL_Katarina(CatVer)_v1.0",
+      "detail": "models/LoL_Katarina_CatVer__v1.0.json"
+    },
+    {
+      "id": "LoveLive_Tennoji-Rina_1.0.0",
+      "detail": "models/LoveLive_Tennoji-Rina_1.0.0.json"
+    },
+    {
+      "id": "Luvia",
+      "detail": "models/Luvia.json"
+    },
+    {
+      "id": "Luvia - 02",
+      "detail": "models/Luvia_-_02.json"
+    },
+    {
+      "id": "MA_Nanachi",
+      "detail": "models/MA_Nanachi.json"
+    },
+    {
+      "id": "MK003",
+      "detail": "models/MK003.json"
+    },
+    {
+      "id": "MLA_Ruby",
+      "detail": "models/MLA_Ruby.json"
+    },
+    {
+      "id": "MS_Inui-Sana",
+      "detail": "models/MS_Inui-Sana.json"
+    },
+    {
+      "id": "MT_Hiro",
+      "detail": "models/MT_Hiro.json"
+    },
+    {
+      "id": "MT_Jake",
+      "detail": "models/MT_Jake.json"
+    },
+    {
+      "id": "MT_Mermaid",
+      "detail": "models/MT_Mermaid.json"
+    },
+    {
+      "id": "MT_Princess",
+      "detail": "models/MT_Princess.json"
+    },
+    {
+      "id": "MT_Sakura",
+      "detail": "models/MT_Sakura.json"
+    },
+    {
+      "id": "Majo_Elaina",
+      "detail": "models/Majo_Elaina.json"
+    },
+    {
+      "id": "Majo_Elaina(Sakura)",
+      "detail": "models/Majo_Elaina_Sakura.json"
+    },
+    {
+      "id": "Marine_Gasmask",
+      "detail": "models/Marine_Gasmask.json"
+    },
+    {
+      "id": "Marine_nobalacklava",
+      "detail": "models/Marine_nobalacklava.json"
+    },
+    {
+      "id": "Marine_nogasmask",
+      "detail": "models/Marine_nogasmask.json"
+    },
+    {
+      "id": "Mavel_Jeff-The-Land-Shark",
+      "detail": "models/Mavel_Jeff-The-Land-Shark.json"
+    },
+    {
+      "id": "Meme_Bananacat",
+      "detail": "models/Meme_Bananacat.json"
+    },
+    {
+      "id": "Meme_Helikopter-Steve",
+      "detail": "models/Meme_Helikopter-Steve.json"
+    },
+    {
+      "id": "Meme_Uia-cat_0",
+      "detail": "models/Meme_Uia-cat_0.json"
+    },
+    {
+      "id": "Meme_Uia-cat_1",
+      "detail": "models/Meme_Uia-cat_1.json"
+    },
+    {
+      "id": "Meme_Uia-cat_2",
+      "detail": "models/Meme_Uia-cat_2.json"
+    },
+    {
+      "id": "Meme_圆头耄耋",
+      "detail": "models/Meme.json"
+    },
+    {
+      "id": "MiSide_Cappie(Cooler_Mita)_v1.0",
+      "detail": "models/MiSide_Cappie_Cooler_Mita__v1.0.json"
+    },
+    {
+      "id": "Misaki",
+      "detail": "models/Misaki.json"
+    },
+    {
+      "id": "Mist-train-girls_Luna-Sakurakouji",
+      "detail": "models/Mist-train-girls_Luna-Sakurakouji.json"
+    },
+    {
+      "id": "Mist-train-girls_Rinko-Akiyama",
+      "detail": "models/Mist-train-girls_Rinko-Akiyama.json"
+    },
+    {
+      "id": "Mist-train-girls_Sakurakouji-Luna",
+      "detail": "models/Mist-train-girls_Sakurakouji-Luna.json"
+    },
+    {
+      "id": "Mist_train_girls_Maitetsu_Hachiroku",
+      "detail": "models/Mist_train_girls_Maitetsu_Hachiroku.json"
+    },
+    {
+      "id": "Mob_Bee(Beeper)",
+      "detail": "models/Mob_Bee_Beeper.json"
+    },
+    {
+      "id": "Mob_Carminite-Ghastguard(Moefied)",
+      "detail": "models/Mob_Carminite-Ghastguard_Moefied.json"
+    },
+    {
+      "id": "Mob_Cat(Moefied)(milk_tea)",
+      "detail": "models/Mob_Cat_Moefied_milk_tea.json"
+    },
+    {
+      "id": "Mob_Creeper-girl(Moefied)(Charged)_v2.0",
+      "detail": "models/Mob_Creeper-girl_Moefied_Charged__v2.0.json"
+    },
+    {
+      "id": "Mob_Creeper-girl(Moefied)_v1.0",
+      "detail": "models/Mob_Creeper-girl_Moefied__v1.0.json"
+    },
+    {
+      "id": "Mob_Creeper-girl(Moefied)_v2.0",
+      "detail": "models/Mob_Creeper-girl_Moefied__v2.0.json"
+    },
+    {
+      "id": "Mob_Enderman-girl(Moefied)_v2.0",
+      "detail": "models/Mob_Enderman-girl_Moefied__v2.0.json"
+    },
+    {
+      "id": "Mob_bee/bee",
+      "detail": "models/Mob_bee_bee.json"
+    },
+    {
+      "id": "Mob_chicken",
+      "detail": "models/Mob_chicken.json"
+    },
+    {
+      "id": "Mob_cockroach",
+      "detail": "models/Mob_cockroach.json"
+    },
+    {
+      "id": "Mob_fox/fox",
+      "detail": "models/Mob_fox_fox.json"
+    },
+    {
+      "id": "Molliena v0.4",
+      "detail": "models/Molliena_v0.4.json"
+    },
+    {
+      "id": "Molliena v0.7",
+      "detail": "models/Molliena_v0.7.json"
+    },
+    {
+      "id": "Molliena v1.0",
+      "detail": "models/Molliena_v1.0.json"
+    },
+    {
+      "id": "Molliena v1.1",
+      "detail": "models/Molliena_v1.1.json"
+    },
+    {
+      "id": "NGE_Asuka",
+      "detail": "models/NGE_Asuka.json"
+    },
+    {
+      "id": "NGNL_Jibril",
+      "detail": "models/NGNL_Jibril.json"
+    },
+    {
+      "id": "NagaU_Kemomimi",
+      "detail": "models/NagaU_Kemomimi.json"
+    },
+    {
+      "id": "NanatsuTaizai_Escanor",
+      "detail": "models/NanatsuTaizai_Escanor.json"
+    },
+    {
+      "id": "Nar_Madara",
+      "detail": "models/Nar_Madara.json"
+    },
+    {
+      "id": "Nar_Madara(zipver)",
+      "detail": "models/Nar_Madara_zipver.json"
+    },
+    {
+      "id": "Nar_Naruto",
+      "detail": "models/Nar_Naruto.json"
+    },
+    {
+      "id": "Nar_Obito_0",
+      "detail": "models/Nar_Obito_0.json"
+    },
+    {
+      "id": "Nar_Obito_1",
+      "detail": "models/Nar_Obito_1.json"
+    },
+    {
+      "id": "Nar_Pain",
+      "detail": "models/Nar_Pain.json"
+    },
+    {
+      "id": "Nar_Sakura",
+      "detail": "models/Nar_Sakura.json"
+    },
+    {
+      "id": "Nar_Sasuke",
+      "detail": "models/Nar_Sasuke.json"
+    },
+    {
+      "id": "Nekopara_Vanilla_0",
+      "detail": "models/Nekopara_Vanilla_0.json"
+    },
+    {
+      "id": "Nekopara_Vanilla_1",
+      "detail": "models/Nekopara_Vanilla_1.json"
+    },
+    {
+      "id": "Nekopara_Vanilla_2",
+      "detail": "models/Nekopara_Vanilla_2.json"
+    },
+    {
+      "id": "NierAutomata_2B/2b",
+      "detail": "models/NierAutomata_2B_2b.json"
+    },
+    {
+      "id": "NierAutomata_A2",
+      "detail": "models/NierAutomata_A2.json"
+    },
+    {
+      "id": "Nikke_Alice",
+      "detail": "models/Nikke_Alice.json"
+    },
+    {
+      "id": "Nikke_Cinderella",
+      "detail": "models/Nikke_Cinderella.json"
+    },
+    {
+      "id": "Nikke_Crown_v1.0",
+      "detail": "models/Nikke_Crown_v1.0.json"
+    },
+    {
+      "id": "Nikke_Dorothy(Doro)",
+      "detail": "models/Nikke_Dorothy_Doro.json"
+    },
+    {
+      "id": "Nikke_Dorothy(Doro)_7",
+      "detail": "models/Nikke_Dorothy_Doro__7.json"
+    },
+    {
+      "id": "Nikke_Dorothy(Doro)_8",
+      "detail": "models/Nikke_Dorothy_Doro__8.json"
+    },
+    {
+      "id": "Nikke_Marian",
+      "detail": "models/Nikke_Marian.json"
+    },
+    {
+      "id": "Nikke_Marian(Silver_spear)_v1.0",
+      "detail": "models/Nikke_Marian_Silver_spear__v1.0.json"
+    },
+    {
+      "id": "Nikke_Shifty",
+      "detail": "models/Nikke_Shifty.json"
+    },
+    {
+      "id": "Nikke_Shifty(Doro)",
+      "detail": "models/Nikke_Shifty_Doro.json"
+    },
+    {
+      "id": "Nikke_Soda(Twinkling_bunny)_nkrmc",
+      "detail": "models/Nikke_Soda_Twinkling_bunny__nkrmc.json"
+    },
+    {
+      "id": "Nikke_Syuen(Doro)",
+      "detail": "models/Nikke_Syuen_Doro.json"
+    },
+    {
+      "id": "Nikke_Syuen(Xmas-Doro)",
+      "detail": "models/Nikke_Syuen_Xmas-Doro.json"
+    },
+    {
+      "id": "Nilcat_Philorty",
+      "detail": "models/Nilcat_Philorty.json"
+    },
+    {
+      "id": "Nyaruko-san_Nyaruko",
+      "detail": "models/Nyaruko-san_Nyaruko.json"
+    },
+    {
+      "id": "OK_Hoshino-Ai_0",
+      "detail": "models/OK_Hoshino-Ai_0.json"
+    },
+    {
+      "id": "OK_Hoshino-Ai_1",
+      "detail": "models/OK_Hoshino-Ai_1.json"
+    },
+    {
+      "id": "Overdose_Ame-chan",
+      "detail": "models/Overdose_Ame-chan.json"
+    },
+    {
+      "id": "Overdose_Kangel",
+      "detail": "models/Overdose_Kangel.json"
+    },
+    {
+      "id": "Overwatch_Dva",
+      "detail": "models/Overwatch_Dva.json"
+    },
+    {
+      "id": "PF_Perry",
+      "detail": "models/PF_Perry.json"
+    },
+    {
+      "id": "PGR_Adolf2",
+      "detail": "models/PGR_Adolf2.json"
+    },
+    {
+      "id": "PGR_Lamia",
+      "detail": "models/PGR_Lamia.json"
+    },
+    {
+      "id": "PGR_Lucia_1",
+      "detail": "models/PGR_Lucia_1.json"
+    },
+    {
+      "id": "PGR_Lucia_1.4",
+      "detail": "models/PGR_Lucia_1.4.json"
+    },
+    {
+      "id": "PMO_Cuxu_v1",
+      "detail": "models/PMO_Cuxu_v1.json"
+    },
+    {
+      "id": "PMO_Cuxu_v2",
+      "detail": "models/PMO_Cuxu_v2.json"
+    },
+    {
+      "id": "PMO_Cuxu_v3",
+      "detail": "models/PMO_Cuxu_v3.json"
+    },
+    {
+      "id": "Pokemon_Canari_v1",
+      "detail": "models/Pokemon_Canari_v1.json"
+    },
+    {
+      "id": "Pokemon_Groudon",
+      "detail": "models/Pokemon_Groudon.json"
+    },
+    {
+      "id": "Pokemon_Lillie",
+      "detail": "models/Pokemon_Lillie.json"
+    },
+    {
+      "id": "PussInBoots_Death",
+      "detail": "models/PussInBoots_Death.json"
+    },
+    {
+      "id": "PvZ_Peashooter_canon",
+      "detail": "models/PvZ_Peashooter_canon.json"
+    },
+    {
+      "id": "Pwned_Darwin",
+      "detail": "models/Pwned_Darwin.json"
+    },
+    {
+      "id": "Pwned_Red_v1.0",
+      "detail": "models/Pwned_Red_v1.0.json"
+    },
+    {
+      "id": "Pwned_Valeri_v0.3",
+      "detail": "models/Pwned_Valeri_v0.3.json"
+    },
+    {
+      "id": "R6S_Fuze",
+      "detail": "models/R6S_Fuze.json"
+    },
+    {
+      "id": "RA2_Constript",
+      "detail": "models/RA2_Constript.json"
+    },
+    {
+      "id": "RA3_Conscript",
+      "detail": "models/RA3_Conscript.json"
+    },
+    {
+      "id": "RA3_Imperial-Warrior",
+      "detail": "models/RA3_Imperial-Warrior.json"
+    },
+    {
+      "id": "ReZero_Ram",
+      "detail": "models/ReZero_Ram.json"
+    },
+    {
+      "id": "ReZero_Rem",
+      "detail": "models/ReZero_Rem.json"
+    },
+    {
+      "id": "ReZero_Rem_1",
+      "detail": "models/ReZero_Rem_1.json"
+    },
+    {
+      "id": "ReZero_Rem_v1.1",
+      "detail": "models/ReZero_Rem_v1.1.json"
+    },
+    {
+      "id": "ReZero_Rem_v2",
+      "detail": "models/ReZero_Rem_v2.json"
+    },
+    {
+      "id": "ReZero_Rem_v2.6",
+      "detail": "models/ReZero_Rem_v2.6.json"
+    },
+    {
+      "id": "ReZero_Rem_v2.9",
+      "detail": "models/ReZero_Rem_v2.9.json"
+    },
+    {
+      "id": "Rice-hime_Lazy_suiji",
+      "detail": "models/Rice-hime_Lazy_suiji.json"
+    },
+    {
+      "id": "Rice-hime_Sergestid-shrimp",
+      "detail": "models/Rice-hime_Sergestid-shrimp.json"
+    },
+    {
+      "id": "Rice-hime_Sergestid-shrimp(with_unbrella)",
+      "detail": "models/Rice-hime_Sergestid-shrimp_with_unbrella.json"
+    },
+    {
+      "id": "Rice-hime_Sergestid-shrimp_v2",
+      "detail": "models/Rice-hime_Sergestid-shrimp_v2.json"
+    },
+    {
+      "id": "Ruby_Rose",
+      "detail": "models/Ruby_Rose.json"
+    },
+    {
+      "id": "SAO_Kirito",
+      "detail": "models/SAO_Kirito.json"
+    },
+    {
+      "id": "SMT_Kei-Amemura",
+      "detail": "models/SMT_Kei-Amemura.json"
+    },
+    {
+      "id": "SMT_Nahobino",
+      "detail": "models/SMT_Nahobino.json"
+    },
+    {
+      "id": "SPAMton",
+      "detail": "models/SPAMton.json"
+    },
+    {
+      "id": "SV_Junimos",
+      "detail": "models/SV_Junimos.json"
+    },
+    {
+      "id": "SailorMoon_Mercury",
+      "detail": "models/SailorMoon_Mercury.json"
+    },
+    {
+      "id": "SailorMoon_Mercury_v2",
+      "detail": "models/SailorMoon_Mercury_v2.json"
+    },
+    {
+      "id": "SailorMoon_Moon",
+      "detail": "models/SailorMoon_Moon.json"
+    },
+    {
+      "id": "Sakuraba_Ema",
+      "detail": "models/Sakuraba_Ema.json"
+    },
+    {
+      "id": "Satori",
+      "detail": "models/Satori.json"
+    },
+    {
+      "id": "Senko-san_0",
+      "detail": "models/Senko-san_0.json"
+    },
+    {
+      "id": "Senko-san_1",
+      "detail": "models/Senko-san_1.json"
+    },
+    {
+      "id": "Senko-san_2",
+      "detail": "models/Senko-san_2.json"
+    },
+    {
+      "id": "Senko-san_3",
+      "detail": "models/Senko-san_3.json"
+    },
+    {
+      "id": "Senko-san_4",
+      "detail": "models/Senko-san_4.json"
+    },
+    {
+      "id": "Senko-san_v2",
+      "detail": "models/Senko-san_v2.json"
+    },
+    {
+      "id": "SenrenBanka_Murasame",
+      "detail": "models/SenrenBanka_Murasame.json"
+    },
+    {
+      "id": "SenrenBanka_Murasame(uniform)",
+      "detail": "models/SenrenBanka_Murasame_uniform.json"
+    },
+    {
+      "id": "ShiinaTaki",
+      "detail": "models/ShiinaTaki.json"
+    },
+    {
+      "id": "ShovelForge_Aiber",
+      "detail": "models/ShovelForge_Aiber.json"
+    },
+    {
+      "id": "SnF_Fern",
+      "detail": "models/SnF_Fern.json"
+    },
+    {
+      "id": "SnF_Frieren",
+      "detail": "models/SnF_Frieren.json"
+    },
+    {
+      "id": "SnF_Frieren1",
+      "detail": "models/SnF_Frieren1.json"
+    },
+    {
+      "id": "Sonic-the-hedgehog_Sonic",
+      "detail": "models/Sonic-the-hedgehog_Sonic.json"
+    },
+    {
+      "id": "SoulTide_Asuna",
+      "detail": "models/SoulTide_Asuna.json"
+    },
+    {
+      "id": "SoulTide_Inori",
+      "detail": "models/SoulTide_Inori.json"
+    },
+    {
+      "id": "SoulTide_Mako-Sakuya",
+      "detail": "models/SoulTide_Mako-Sakuya.json"
+    },
+    {
+      "id": "SoulTide_Mako-Sakuya（无载具版）",
+      "detail": "models/SoulTide_Mako-Sakuya.json"
+    },
+    {
+      "id": "SoulTide_Mako-Sakuya（无鞘翅版）",
+      "detail": "models/SoulTide_Mako-Sakuya.json"
+    },
+    {
+      "id": "StellaFantasy_Chloe",
+      "detail": "models/StellaFantasy_Chloe.json"
+    },
+    {
+      "id": "Strinova_Fuchsia_v1.0",
+      "detail": "models/Strinova_Fuchsia_v1.0.json"
+    },
+    {
+      "id": "Strinova_Fuchsia_v1.1",
+      "detail": "models/Strinova_Fuchsia_v1.1.json"
+    },
+    {
+      "id": "Suise",
+      "detail": "models/Suise.json"
+    },
+    {
+      "id": "SxF_Anya_1.0.5",
+      "detail": "models/SxF_Anya_1.0.5.json"
+    },
+    {
+      "id": "TR_Hotarumaru_1.0",
+      "detail": "models/TR_Hotarumaru_1.0.json"
+    },
+    {
+      "id": "TR_Yagen-Toshirou_1.0",
+      "detail": "models/TR_Yagen-Toshirou_1.0.json"
+    },
+    {
+      "id": "Takao",
+      "detail": "models/Takao.json"
+    },
+    {
+      "id": "Tanks_M1-Abrams",
+      "detail": "models/Tanks_M1-Abrams.json"
+    },
+    {
+      "id": "Techpriest",
+      "detail": "models/Techpriest.json"
+    },
+    {
+      "id": "Teio",
+      "detail": "models/Teio.json"
+    },
+    {
+      "id": "TenkafuMa_Iblis",
+      "detail": "models/TenkafuMa_Iblis.json"
+    },
+    {
+      "id": "TenkafuMa_NaNa",
+      "detail": "models/TenkafuMa_NaNa.json"
+    },
+    {
+      "id": "TenshiSouzouRE-BOOT_Shirayuki-Noa",
+      "detail": "models/TenshiSouzouRE-BOOT_Shirayuki-Noa.json"
+    },
+    {
+      "id": "Tensura_Milim-Nava",
+      "detail": "models/Tensura_Milim-Nava.json"
+    },
+    {
+      "id": "Terraria-calamity_Moefied_the_devourer_of_gods",
+      "detail": "models/Terraria-calamity_Moefied_the_devourer_of_gods.json"
+    },
+    {
+      "id": "Terraria-calamity_Moefied_the_devourer_of_gods(m)",
+      "detail": "models/Terraria-calamity_Moefied_the_devourer_of_gods_m.json"
+    },
+    {
+      "id": "Titanfall2_Jack-Cooper",
+      "detail": "models/Titanfall2_Jack-Cooper.json"
+    },
+    {
+      "id": "TokyoGhoul_Kaneki",
+      "detail": "models/TokyoGhoul_Kaneki.json"
+    },
+    {
+      "id": "Touhou_Cirno",
+      "detail": "models/Touhou_Cirno.json"
+    },
+    {
+      "id": "Touhou_Cirno_2",
+      "detail": "models/Touhou_Cirno_2.json"
+    },
+    {
+      "id": "Touhou_Cirno_v1",
+      "detail": "models/Touhou_Cirno_v1.json"
+    },
+    {
+      "id": "Touhou_Flandre_0",
+      "detail": "models/Touhou_Flandre_0.json"
+    },
+    {
+      "id": "Touhou_Flandre_1",
+      "detail": "models/Touhou_Flandre_1.json"
+    },
+    {
+      "id": "Touhou_Flandre_1(zipver)",
+      "detail": "models/Touhou_Flandre_1_zipver.json"
+    },
+    {
+      "id": "Touhou_Flandre_2",
+      "detail": "models/Touhou_Flandre_2.json"
+    },
+    {
+      "id": "Touhou_Flandre_20250411",
+      "detail": "models/Touhou_Flandre_20250411.json"
+    },
+    {
+      "id": "Touhou_Flandre_20250429",
+      "detail": "models/Touhou_Flandre_20250429.json"
+    },
+    {
+      "id": "Touhou_Flandre_3",
+      "detail": "models/Touhou_Flandre_3.json"
+    },
+    {
+      "id": "Touhou_Flandre_4",
+      "detail": "models/Touhou_Flandre_4.json"
+    },
+    {
+      "id": "Touhou_Hakurei-Reimu",
+      "detail": "models/Touhou_Hakurei-Reimu.json"
+    },
+    {
+      "id": "Touhou_Hatano-Kokoro",
+      "detail": "models/Touhou_Hatano-Kokoro.json"
+    },
+    {
+      "id": "Touhou_Hatate_1.0",
+      "detail": "models/Touhou_Hatate_1.0.json"
+    },
+    {
+      "id": "Touhou_Hinanawi-Tenshi_1.0",
+      "detail": "models/Touhou_Hinanawi-Tenshi_1.0.json"
+    },
+    {
+      "id": "Touhou_Izayoi-Sakuya",
+      "detail": "models/Touhou_Izayoi-Sakuya.json"
+    },
+    {
+      "id": "Touhou_Izayoi-Sakuya(zipver)",
+      "detail": "models/Touhou_Izayoi-Sakuya_zipver.json"
+    },
+    {
+      "id": "Touhou_Kagiyama-Hina",
+      "detail": "models/Touhou_Kagiyama-Hina.json"
+    },
+    {
+      "id": "Touhou_Kagiyama-Hina(zipver)",
+      "detail": "models/Touhou_Kagiyama-Hina_zipver.json"
+    },
+    {
+      "id": "Touhou_Kaku-Seiga",
+      "detail": "models/Touhou_Kaku-Seiga.json"
+    },
+    {
+      "id": "Touhou_Kana-Anaberal",
+      "detail": "models/Touhou_Kana-Anaberal.json"
+    },
+    {
+      "id": "Touhou_Koishi-Komeiji",
+      "detail": "models/Touhou_Koishi-Komeiji.json"
+    },
+    {
+      "id": "Touhou_Marisa",
+      "detail": "models/Touhou_Marisa.json"
+    },
+    {
+      "id": "Touhou_Patchouli-Knowledge",
+      "detail": "models/Touhou_Patchouli-Knowledge.json"
+    },
+    {
+      "id": "Touhou_Patchouli-Knowledge(zipver)",
+      "detail": "models/Touhou_Patchouli-Knowledge_zipver.json"
+    },
+    {
+      "id": "Touhou_Remilia",
+      "detail": "models/Touhou_Remilia.json"
+    },
+    {
+      "id": "Touhou_Rumia",
+      "detail": "models/Touhou_Rumia.json"
+    },
+    {
+      "id": "Touhou_Saigyouji-Yuyuko",
+      "detail": "models/Touhou_Saigyouji-Yuyuko.json"
+    },
+    {
+      "id": "Touhou_Sakuya",
+      "detail": "models/Touhou_Sakuya.json"
+    },
+    {
+      "id": "Twe_dfr",
+      "detail": "models/Twe_dfr.json"
+    },
+    {
+      "id": "Twe_dogs",
+      "detail": "models/Twe_dogs.json"
+    },
+    {
+      "id": "Twe_laoma",
+      "detail": "models/Twe_laoma.json"
+    },
+    {
+      "id": "Twe_mdr",
+      "detail": "models/Twe_mdr.json"
+    },
+    {
+      "id": "Twe_moss",
+      "detail": "models/Twe_moss.json"
+    },
+    {
+      "id": "Twe_spacesuit",
+      "detail": "models/Twe_spacesuit.json"
+    },
+    {
+      "id": "UM_Agnes-Digital",
+      "detail": "models/UM_Agnes-Digital.json"
+    },
+    {
+      "id": "UM_Gold-Ship",
+      "detail": "models/UM_Gold-Ship.json"
+    },
+    {
+      "id": "UM_Haru-Urara",
+      "detail": "models/UM_Haru-Urara.json"
+    },
+    {
+      "id": "UM_Haru-Urara(original)",
+      "detail": "models/UM_Haru-Urara_original.json"
+    },
+    {
+      "id": "UM_Hishi-Miracle",
+      "detail": "models/UM_Hishi-Miracle.json"
+    },
+    {
+      "id": "UM_McQueen",
+      "detail": "models/UM_McQueen.json"
+    },
+    {
+      "id": "UM_Smart-Falcon",
+      "detail": "models/UM_Smart-Falcon.json"
+    },
+    {
+      "id": "UM_Topgun",
+      "detail": "models/UM_Topgun.json"
+    },
+    {
+      "id": "UM_Vivlos",
+      "detail": "models/UM_Vivlos.json"
+    },
+    {
+      "id": "Ultra-beast-force_Huo-Linfei",
+      "detail": "models/Ultra-beast-force_Huo-Linfei.json"
+    },
+    {
+      "id": "Undertale_Papyrus",
+      "detail": "models/Undertale_Papyrus.json"
+    },
+    {
+      "id": "Undertale_Papyrus_v5.0",
+      "detail": "models/Undertale_Papyrus_v5.0.json"
+    },
+    {
+      "id": "Undertale_Sans_v1",
+      "detail": "models/Undertale_Sans_v1.json"
+    },
+    {
+      "id": "Undertale_Sans_v2",
+      "detail": "models/Undertale_Sans_v2.json"
+    },
+    {
+      "id": "Undertale_Sans_v5.0",
+      "detail": "models/Undertale_Sans_v5.0.json"
+    },
+    {
+      "id": "Utau_Adachi-Rei(pro max plus ultra)",
+      "detail": "models/Utau_Adachi-Rei_pro_max_plus_ultra.json"
+    },
+    {
+      "id": "Utau_Adachi-Rei(无机械骨骼)",
+      "detail": "models/Utau_Adachi-Rei.json"
+    },
+    {
+      "id": "Utau_Teto",
+      "detail": "models/Utau_Teto.json"
+    },
+    {
+      "id": "Utau_Teto(会有人看吗awa)",
+      "detail": "models/Utau_Teto_awa.json"
+    },
+    {
+      "id": "Utau_Tetoyo",
+      "detail": "models/Utau_Tetoyo.json"
+    },
+    {
+      "id": "VE_Violet/violet",
+      "detail": "models/VE_Violet_violet.json"
+    },
+    {
+      "id": "Vocaloid_Miku(A6c)",
+      "detail": "models/Vocaloid_Miku_A6c.json"
+    },
+    {
+      "id": "Vocaloid_Miku(Fumo)",
+      "detail": "models/Vocaloid_Miku_Fumo.json"
+    },
+    {
+      "id": "Vocaloid_Miku(Fumo)_1",
+      "detail": "models/Vocaloid_Miku_Fumo__1.json"
+    },
+    {
+      "id": "Vocaloid_Miku(McDonald)_nkrmc",
+      "detail": "models/Vocaloid_Miku_McDonald__nkrmc.json"
+    },
+    {
+      "id": "Vocaloid_Miku(机娘)",
+      "detail": "models/Vocaloid_Miku.json"
+    },
+    {
+      "id": "Vocaloid_Miku(机械神甫)",
+      "detail": "models/Vocaloid_Miku.json"
+    },
+    {
+      "id": "Vocaloid_Miku(百粉纪念)",
+      "detail": "models/Vocaloid_Miku.json"
+    },
+    {
+      "id": "Vocaloid_Miku(请搭配tacz拓展包“赛博军械师”使用)",
+      "detail": "models/Vocaloid_Miku_tacz.json"
+    },
+    {
+      "id": "Vocaloid_Miku_0",
+      "detail": "models/Vocaloid_Miku_0.json"
+    },
+    {
+      "id": "Vocaloid_Miku_1",
+      "detail": "models/Vocaloid_Miku_1.json"
+    },
+    {
+      "id": "Vocaloid_Miku_2",
+      "detail": "models/Vocaloid_Miku_2.json"
+    },
+    {
+      "id": "Vocaloid_Miku_20250518",
+      "detail": "models/Vocaloid_Miku_20250518.json"
+    },
+    {
+      "id": "Vocaloid_Miku_ver.2022(hotfix2)",
+      "detail": "models/Vocaloid_Miku_ver.2022_hotfix2.json"
+    },
+    {
+      "id": "Vocaloid_Stardust",
+      "detail": "models/Vocaloid_Stardust.json"
+    },
+    {
+      "id": "Vtuber_Fallen-Shadow_v2",
+      "detail": "models/Vtuber_Fallen-Shadow_v2.json"
+    },
+    {
+      "id": "Vtuber_Fallen-Shadow_v2.1",
+      "detail": "models/Vtuber_Fallen-Shadow_v2.1.json"
+    },
+    {
+      "id": "Vtuber_Gigi-Murin_0",
+      "detail": "models/Vtuber_Gigi-Murin_0.json"
+    },
+    {
+      "id": "Vtuber_Gigi-Murin_1",
+      "detail": "models/Vtuber_Gigi-Murin_1.json"
+    },
+    {
+      "id": "Vtuber_Gura",
+      "detail": "models/Vtuber_Gura.json"
+    },
+    {
+      "id": "Vtuber_Gura_1",
+      "detail": "models/Vtuber_Gura_1.json"
+    },
+    {
+      "id": "Vtuber_Lan-Yin-Reine(ButterflyDress)",
+      "detail": "models/Vtuber_Lan-Yin-Reine_ButterflyDress.json"
+    },
+    {
+      "id": "Vtuber_Lan-Yin-Reine(ButterflyDress)_v1.2",
+      "detail": "models/Vtuber_Lan-Yin-Reine_ButterflyDress__v1.2.json"
+    },
+    {
+      "id": "Vtuber_Lan-Yin-Reine(CityBeautyDress)_v3.51",
+      "detail": "models/Vtuber_Lan-Yin-Reine_CityBeautyDress__v3.51.json"
+    },
+    {
+      "id": "Vtuber_Lan-Yin-Reine(NationalDress)_",
+      "detail": "models/Vtuber_Lan-Yin-Reine_NationalDress.json"
+    },
+    {
+      "id": "Vtuber_Minato-Aqua",
+      "detail": "models/Vtuber_Minato-Aqua.json"
+    },
+    {
+      "id": "Vtuber_Momo",
+      "detail": "models/Vtuber_Momo.json"
+    },
+    {
+      "id": "Vtuber_Muu-Muyu(Small)",
+      "detail": "models/Vtuber_Muu-Muyu_Small.json"
+    },
+    {
+      "id": "Vtuber_Muu-Muyu(Tall)",
+      "detail": "models/Vtuber_Muu-Muyu_Tall.json"
+    },
+    {
+      "id": "Vtuber_Neuro",
+      "detail": "models/Vtuber_Neuro.json"
+    },
+    {
+      "id": "Vtuber_Neuro_1.4_CRW",
+      "detail": "models/Vtuber_Neuro_1.4_CRW.json"
+    },
+    {
+      "id": "Vtuber_Pekomama",
+      "detail": "models/Vtuber_Pekomama.json"
+    },
+    {
+      "id": "Vtuber_Pekomama(Bunnygirl)",
+      "detail": "models/Vtuber_Pekomama_Bunnygirl.json"
+    },
+    {
+      "id": "Vtuber_Saba",
+      "detail": "models/Vtuber_Saba.json"
+    },
+    {
+      "id": "Vtuber_Seren-Azuma",
+      "detail": "models/Vtuber_Seren-Azuma.json"
+    },
+    {
+      "id": "Vtuber_Suzuhara-Lulu",
+      "detail": "models/Vtuber_Suzuhara-Lulu.json"
+    },
+    {
+      "id": "Vtuber_早稻叽",
+      "detail": "models/Vtuber.json"
+    },
+    {
+      "id": "Vtuber_糖一色Shiny",
+      "detail": "models/Vtuber__Shiny.json"
+    },
+    {
+      "id": "Vtuber_黎歌Neeko_3.0",
+      "detail": "models/Vtuber__Neeko_3.0.json"
+    },
+    {
+      "id": "WarshipGirl_Gearing",
+      "detail": "models/WarshipGirl_Gearing.json"
+    },
+    {
+      "id": "WarshipGirl_Glowworm",
+      "detail": "models/WarshipGirl_Glowworm.json"
+    },
+    {
+      "id": "WarshipGirl_Lexington",
+      "detail": "models/WarshipGirl_Lexington.json"
+    },
+    {
+      "id": "WarshipGirl_Z16",
+      "detail": "models/WarshipGirl_Z16.json"
+    },
+    {
+      "id": "Wohota_O108rocket(No_space_helmet)_v1.0",
+      "detail": "models/Wohota_O108rocket_No_space_helmet__v1.0.json"
+    },
+    {
+      "id": "Wohota_O108rocket_v1.0",
+      "detail": "models/Wohota_O108rocket_v1.0.json"
+    },
+    {
+      "id": "Wuwa_Camellya",
+      "detail": "models/Wuwa_Camellya.json"
+    },
+    {
+      "id": "Wuwa_The-Shorekeeper_0",
+      "detail": "models/Wuwa_The-Shorekeeper_0.json"
+    },
+    {
+      "id": "Wuwa_The-Shorekeeper_1",
+      "detail": "models/Wuwa_The-Shorekeeper_1.json"
+    },
+    {
+      "id": "Yog-Sothoth-Yard_Tlipoca",
+      "detail": "models/Yog-Sothoth-Yard_Tlipoca.json"
+    },
+    {
+      "id": "Yog-Sothoth-Yard_Tlipoca(no_arm)_1",
+      "detail": "models/Yog-Sothoth-Yard_Tlipoca_no_arm__1.json"
+    },
+    {
+      "id": "Yog-Sothoth-Yard_Tlipoca_1",
+      "detail": "models/Yog-Sothoth-Yard_Tlipoca_1.json"
+    },
+    {
+      "id": "Z16_Free",
+      "detail": "models/Z16_Free.json"
+    },
+    {
+      "id": "ZZZ_Angels-of-Delulu_01",
+      "detail": "models/ZZZ_Angels-of-Delulu_01.json"
+    },
+    {
+      "id": "ZZZ_Angels-of-Delulu_02",
+      "detail": "models/ZZZ_Angels-of-Delulu_02.json"
+    },
+    {
+      "id": "ZZZ_Angels-of-Delulu_03",
+      "detail": "models/ZZZ_Angels-of-Delulu_03.json"
+    },
+    {
+      "id": "ZZZ_Ellen_1",
+      "detail": "models/ZZZ_Ellen_1.json"
+    },
+    {
+      "id": "ZZZ_Jane-Doe",
+      "detail": "models/ZZZ_Jane-Doe.json"
+    },
+    {
+      "id": "ZZZ_Jane-Doe_1",
+      "detail": "models/ZZZ_Jane-Doe_1.json"
+    },
+    {
+      "id": "ZZZ_Jane-Doe_2",
+      "detail": "models/ZZZ_Jane-Doe_2.json"
+    },
+    {
+      "id": "ZZZ_Miyabi",
+      "detail": "models/ZZZ_Miyabi.json"
+    },
+    {
+      "id": "ZZZ_Nekomiya-Mana",
+      "detail": "models/ZZZ_Nekomiya-Mana.json"
+    },
+    {
+      "id": "ZZZ_Soldier-11",
+      "detail": "models/ZZZ_Soldier-11.json"
+    },
+    {
+      "id": "ZZZ_Vivian",
+      "detail": "models/ZZZ_Vivian.json"
+    },
+    {
+      "id": "ZZZ_Zhu-Yuan",
+      "detail": "models/ZZZ_Zhu-Yuan.json"
+    },
+    {
+      "id": "[创伤小组]霜狐",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "_Akarin_0",
+      "detail": "models/Akarin_0.json"
+    },
+    {
+      "id": "_Akarin_1",
+      "detail": "models/Akarin_1.json"
+    },
+    {
+      "id": "_Baby-Saurius",
+      "detail": "models/Baby-Saurius.json"
+    },
+    {
+      "id": "_Bad_batch_crosshair",
+      "detail": "models/Bad_batch_crosshair.json"
+    },
+    {
+      "id": "_Bad_batch_echo",
+      "detail": "models/Bad_batch_echo.json"
+    },
+    {
+      "id": "_Bad_batch_hunter_1",
+      "detail": "models/Bad_batch_hunter_1.json"
+    },
+    {
+      "id": "_Bad_batch_tech",
+      "detail": "models/Bad_batch_tech.json"
+    },
+    {
+      "id": "_Bad_batch_wrecker",
+      "detail": "models/Bad_batch_wrecker.json"
+    },
+    {
+      "id": "_CatDad",
+      "detail": "models/CatDad.json"
+    },
+    {
+      "id": "_CatDad(zipver)",
+      "detail": "models/CatDad_zipver.json"
+    },
+    {
+      "id": "_CatDad0.2",
+      "detail": "models/CatDad0.2.json"
+    },
+    {
+      "id": "_CatDad0.2(zipver)",
+      "detail": "models/CatDad0.2_zipver.json"
+    },
+    {
+      "id": "_Demo",
+      "detail": "models/Demo.json"
+    },
+    {
+      "id": "_Digitan",
+      "detail": "models/Digitan.json"
+    },
+    {
+      "id": "_Dumnhenint_v1.0",
+      "detail": "models/Dumnhenint_v1.0.json"
+    },
+    {
+      "id": "_EZBNK_Ao1",
+      "detail": "models/EZBNK_Ao1.json"
+    },
+    {
+      "id": "_EZBNK_Ao1.1",
+      "detail": "models/EZBNK_Ao1.1.json"
+    },
+    {
+      "id": "_EZBNK_Ao1.2",
+      "detail": "models/EZBNK_Ao1.2.json"
+    },
+    {
+      "id": "_EZBNK_Ao1.3",
+      "detail": "models/EZBNK_Ao1.3.json"
+    },
+    {
+      "id": "_EZBNK_Ao1.4",
+      "detail": "models/EZBNK_Ao1.4.json"
+    },
+    {
+      "id": "_Eanes",
+      "detail": "models/Eanes.json"
+    },
+    {
+      "id": "_Eanes_arm",
+      "detail": "models/Eanes_arm.json"
+    },
+    {
+      "id": "_Game_Api",
+      "detail": "models/Game_Api.json"
+    },
+    {
+      "id": "_Game_Kaofish",
+      "detail": "models/Game_Kaofish.json"
+    },
+    {
+      "id": "_Game_Kinoko7",
+      "detail": "models/Game_Kinoko7.json"
+    },
+    {
+      "id": "_Game_Longbaobao",
+      "detail": "models/Game_Longbaobao.json"
+    },
+    {
+      "id": "_Game_Yommyko",
+      "detail": "models/Game_Yommyko.json"
+    },
+    {
+      "id": "_Goblin",
+      "detail": "models/Goblin.json"
+    },
+    {
+      "id": "_Huowang",
+      "detail": "models/Huowang.json"
+    },
+    {
+      "id": "_Jihoon",
+      "detail": "models/Jihoon.json"
+    },
+    {
+      "id": "_Lain",
+      "detail": "models/Lain.json"
+    },
+    {
+      "id": "_Martyr",
+      "detail": "models/Martyr.json"
+    },
+    {
+      "id": "_Meiria",
+      "detail": "models/Meiria.json"
+    },
+    {
+      "id": "_Merry",
+      "detail": "models/Merry.json"
+    },
+    {
+      "id": "_Minuo",
+      "detail": "models/Minuo.json"
+    },
+    {
+      "id": "_Mmcv",
+      "detail": "models/Mmcv.json"
+    },
+    {
+      "id": "_Moli",
+      "detail": "models/Moli.json"
+    },
+    {
+      "id": "_Nier",
+      "detail": "models/Nier.json"
+    },
+    {
+      "id": "_Nono",
+      "detail": "models/Nono.json"
+    },
+    {
+      "id": "_Nono_1.0.1",
+      "detail": "models/Nono_1.0.1.json"
+    },
+    {
+      "id": "_Nunlyla",
+      "detail": "models/Nunlyla.json"
+    },
+    {
+      "id": "_Nvgunit",
+      "detail": "models/Nvgunit.json"
+    },
+    {
+      "id": "_OAR",
+      "detail": "models/OAR.json"
+    },
+    {
+      "id": "_Otto_Apocalypse",
+      "detail": "models/Otto_Apocalypse.json"
+    },
+    {
+      "id": "_Plague-Doctor",
+      "detail": "models/Plague-Doctor.json"
+    },
+    {
+      "id": "_QQ",
+      "detail": "models/QQ.json"
+    },
+    {
+      "id": "_Rabbit_1",
+      "detail": "models/Rabbit_1.json"
+    },
+    {
+      "id": "_Rabbit_2",
+      "detail": "models/Rabbit_2.json"
+    },
+    {
+      "id": "_Reds",
+      "detail": "models/Reds.json"
+    },
+    {
+      "id": "_Riru",
+      "detail": "models/Riru.json"
+    },
+    {
+      "id": "_Riru(zipver)",
+      "detail": "models/Riru_zipver.json"
+    },
+    {
+      "id": "_Riru(zipver)/animations/xianyun",
+      "detail": "models/Riru_zipver_animations_xianyun.json"
+    },
+    {
+      "id": "_Rongrong",
+      "detail": "models/Rongrong.json"
+    },
+    {
+      "id": "_SAS",
+      "detail": "models/SAS.json"
+    },
+    {
+      "id": "_SAS(zipver)",
+      "detail": "models/SAS_zipver.json"
+    },
+    {
+      "id": "_SRTV",
+      "detail": "models/SRTV.json"
+    },
+    {
+      "id": "_Singer_in_last_phase",
+      "detail": "models/Singer_in_last_phase.json"
+    },
+    {
+      "id": "_Sky",
+      "detail": "models/Sky.json"
+    },
+    {
+      "id": "_Smiling_brother",
+      "detail": "models/Smiling_brother.json"
+    },
+    {
+      "id": "_Soloman",
+      "detail": "models/Soloman.json"
+    },
+    {
+      "id": "_Spider_girl",
+      "detail": "models/Spider_girl.json"
+    },
+    {
+      "id": "_Sturmsoldat",
+      "detail": "models/Sturmsoldat.json"
+    },
+    {
+      "id": "_Swx",
+      "detail": "models/Swx.json"
+    },
+    {
+      "id": "_TN酱",
+      "detail": "models/TN.json"
+    },
+    {
+      "id": "_Tac",
+      "detail": "models/Tac.json"
+    },
+    {
+      "id": "_Tac_noglasses",
+      "detail": "models/Tac_noglasses.json"
+    },
+    {
+      "id": "_Tiamat",
+      "detail": "models/Tiamat.json"
+    },
+    {
+      "id": "_Trissy_特莉丝",
+      "detail": "models/Trissy.json"
+    },
+    {
+      "id": "_Umy",
+      "detail": "models/Umy.json"
+    },
+    {
+      "id": "_Unitnonvg",
+      "detail": "models/Unitnonvg.json"
+    },
+    {
+      "id": "_Unitonenvg",
+      "detail": "models/Unitonenvg.json"
+    },
+    {
+      "id": "_Unknown",
+      "detail": "models/Unknown.json"
+    },
+    {
+      "id": "_Unknown_0",
+      "detail": "models/Unknown_0.json"
+    },
+    {
+      "id": "_Unknown_1",
+      "detail": "models/Unknown_1.json"
+    },
+    {
+      "id": "_Vika",
+      "detail": "models/Vika.json"
+    },
+    {
+      "id": "_Violet",
+      "detail": "models/Violet.json"
+    },
+    {
+      "id": "_Warmy-free",
+      "detail": "models/Warmy-free.json"
+    },
+    {
+      "id": "_Wlqs5.0",
+      "detail": "models/Wlqs5.0.json"
+    },
+    {
+      "id": "_Xiaomaolaodi",
+      "detail": "models/Xiaomaolaodi.json"
+    },
+    {
+      "id": "_Xiezhi",
+      "detail": "models/Xiezhi.json"
+    },
+    {
+      "id": "_Yujin",
+      "detail": "models/Yujin.json"
+    },
+    {
+      "id": "_ankh",
+      "detail": "models/ankh.json"
+    },
+    {
+      "id": "_bamamei_mofashaonv_v12",
+      "detail": "models/bamamei_mofashaonv_v12.json"
+    },
+    {
+      "id": "_bamamei_xuejie_v1",
+      "detail": "models/bamamei_xuejie_v1.json"
+    },
+    {
+      "id": "_bamamei_xuejie_v12",
+      "detail": "models/bamamei_xuejie_v12.json"
+    },
+    {
+      "id": "_bamamei_xuejie_v123",
+      "detail": "models/bamamei_xuejie_v123.json"
+    },
+    {
+      "id": "_bamamei_xuejie_v123.1",
+      "detail": "models/bamamei_xuejie_v123.1.json"
+    },
+    {
+      "id": "_chuyin",
+      "detail": "models/chuyin.json"
+    },
+    {
+      "id": "_dajiejie",
+      "detail": "models/dajiejie.json"
+    },
+    {
+      "id": "_devourer_of_gods(1)",
+      "detail": "models/devourer_of_gods_1.json"
+    },
+    {
+      "id": "_dongbei-qiepuying",
+      "detail": "models/dongbei-qiepuying.json"
+    },
+    {
+      "id": "_faust",
+      "detail": "models/faust.json"
+    },
+    {
+      "id": "_faust(zipver)",
+      "detail": "models/faust_zipver.json"
+    },
+    {
+      "id": "_honglu",
+      "detail": "models/honglu.json"
+    },
+    {
+      "id": "_inference",
+      "detail": "models/inference.json"
+    },
+    {
+      "id": "_jiatenghui",
+      "detail": "models/jiatenghui.json"
+    },
+    {
+      "id": "_kasha",
+      "detail": "models/kasha.json"
+    },
+    {
+      "id": "_kasha_v1.1",
+      "detail": "models/kasha_v1.1.json"
+    },
+    {
+      "id": "_kasha_v1.2",
+      "detail": "models/kasha_v1.2.json"
+    },
+    {
+      "id": "_kasitaliya",
+      "detail": "models/kasitaliya.json"
+    },
+    {
+      "id": "_lighting",
+      "detail": "models/lighting.json"
+    },
+    {
+      "id": "_madline",
+      "detail": "models/madline.json"
+    },
+    {
+      "id": "_mari",
+      "detail": "models/mari.json"
+    },
+    {
+      "id": "_maya2",
+      "detail": "models/maya2.json"
+    },
+    {
+      "id": "_merrryyuko_ver.1",
+      "detail": "models/merrryyuko_ver.1.json"
+    },
+    {
+      "id": "_mice-pirate-boy",
+      "detail": "models/mice-pirate-boy.json"
+    },
+    {
+      "id": "_moeya",
+      "detail": "models/moeya.json"
+    },
+    {
+      "id": "_mortis",
+      "detail": "models/mortis.json"
+    },
+    {
+      "id": "_rei_Alpha05",
+      "detail": "models/rei_Alpha05.json"
+    },
+    {
+      "id": "_russet",
+      "detail": "models/russet.json"
+    },
+    {
+      "id": "_taohua_20250502",
+      "detail": "models/taohua_20250502.json"
+    },
+    {
+      "id": "_threadling",
+      "detail": "models/threadling.json"
+    },
+    {
+      "id": "_umyknight_ver.1",
+      "detail": "models/umyknight_ver.1.json"
+    },
+    {
+      "id": "_vx",
+      "detail": "models/vx.json"
+    },
+    {
+      "id": "_wendy",
+      "detail": "models/wendy.json"
+    },
+    {
+      "id": "_xiaoyuansha_v1.0",
+      "detail": "models/xiaoyuansha_v1.0.json"
+    },
+    {
+      "id": "_xiaoyuansha_v1.1",
+      "detail": "models/xiaoyuansha_v1.1.json"
+    },
+    {
+      "id": "_xiashizi",
+      "detail": "models/xiashizi.json"
+    },
+    {
+      "id": "_云天明",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "_伊芙琳_1.0",
+      "detail": "models/1.0.json"
+    },
+    {
+      "id": "_公主",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "_化学防害上尉",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "_化学防害上尉(zipver)",
+      "detail": "models/zipver.json"
+    },
+    {
+      "id": "_吹雪_Free",
+      "detail": "models/Free.json"
+    },
+    {
+      "id": "_唐·吉诃特",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "_园丁等风来",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "_地狱猎犬_",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "_小小海螺",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "_小空",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "_小空/models",
+      "detail": "models/models.json"
+    },
+    {
+      "id": "_山岩 指挥官_v1.3",
+      "detail": "models/v1.3.json"
+    },
+    {
+      "id": "_忍者",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "_恶毒-免费版",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "_惊蛰",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "_扶桑",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "_报童",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "_报纸怪客",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "_星见时璃 Tokiri",
+      "detail": "models/Tokiri.json"
+    },
+    {
+      "id": "_沐白",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "_爱恩.伊瑞丝.卡列尼娜",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "_特遣1",
+      "detail": "models/1.json"
+    },
+    {
+      "id": "_白凝冰",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "_白蛤蜊",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "_碳_1.0",
+      "detail": "models/1.0.json"
+    },
+    {
+      "id": "_碳_1.0.1",
+      "detail": "models/1.0.1.json"
+    },
+    {
+      "id": "_纸板demo版",
+      "detail": "models/demo.json"
+    },
+    {
+      "id": "_苏溟v1.9",
+      "detail": "models/v1.9.json"
+    },
+    {
+      "id": "_虹玖1.03",
+      "detail": "models/1.03.json"
+    },
+    {
+      "id": "alt_nicole",
+      "detail": "models/alt_nicole.json"
+    },
+    {
+      "id": "angela_atlyss",
+      "detail": "models/angela_atlyss.json"
+    },
+    {
+      "id": "bomberman-ysm",
+      "detail": "models/bomberman-ysm.json"
+    },
+    {
+      "id": "cake",
+      "detail": "models/cake.json"
+    },
+    {
+      "id": "cap",
+      "detail": "models/cap.json"
+    },
+    {
+      "id": "cattail",
+      "detail": "models/cattail.json"
+    },
+    {
+      "id": "ccci202_枫璃_0.9",
+      "detail": "models/ccci202___0.9.json"
+    },
+    {
+      "id": "ccci202_枫璃_1.0",
+      "detail": "models/ccci202___1.0.json"
+    },
+    {
+      "id": "ccci202_枫璃_1.1",
+      "detail": "models/ccci202___1.1.json"
+    },
+    {
+      "id": "ccci202_枫璃_1.2",
+      "detail": "models/ccci202___1.2.json"
+    },
+    {
+      "id": "ccci202_枫璃_1.2.1",
+      "detail": "models/ccci202___1.2.1.json"
+    },
+    {
+      "id": "ccci202_枫璃_1.2.2",
+      "detail": "models/ccci202___1.2.2.json"
+    },
+    {
+      "id": "ccci202_枫璃_1.3",
+      "detail": "models/ccci202___1.3.json"
+    },
+    {
+      "id": "ccci202_枫璃_1.3.1",
+      "detail": "models/ccci202___1.3.1.json"
+    },
+    {
+      "id": "ccci202_枫璃_1.3.2",
+      "detail": "models/ccci202___1.3.2.json"
+    },
+    {
+      "id": "ccci202_枫璃_1.4",
+      "detail": "models/ccci202___1.4.json"
+    },
+    {
+      "id": "ccci202_枫璃_1.4.1",
+      "detail": "models/ccci202___1.4.1.json"
+    },
+    {
+      "id": "ccci202_枫璃_1.4.2",
+      "detail": "models/ccci202___1.4.2.json"
+    },
+    {
+      "id": "don_quixote",
+      "detail": "models/don_quixote.json"
+    },
+    {
+      "id": "grillby",
+      "detail": "models/grillby.json"
+    },
+    {
+      "id": "huadao",
+      "detail": "models/huadao.json"
+    },
+    {
+      "id": "jak_jak2renegade",
+      "detail": "models/jak_jak2renegade.json"
+    },
+    {
+      "id": "jak_jak2therenegade",
+      "detail": "models/jak_jak2therenegade.json"
+    },
+    {
+      "id": "jevil",
+      "detail": "models/jevil.json"
+    },
+    {
+      "id": "killa",
+      "detail": "models/killa.json"
+    },
+    {
+      "id": "kuro",
+      "detail": "models/kuro.json"
+    },
+    {
+      "id": "lighting",
+      "detail": "models/lighting.json"
+    },
+    {
+      "id": "oc_斯塔2.0",
+      "detail": "models/oc__2.0.json"
+    },
+    {
+      "id": "oc_斯塔2.0/models",
+      "detail": "models/oc__2.0_models.json"
+    },
+    {
+      "id": "sop2",
+      "detail": "models/sop2.json"
+    },
+    {
+      "id": "sweet",
+      "detail": "models/sweet.json"
+    },
+    {
+      "id": "sybil",
+      "detail": "models/sybil.json"
+    },
+    {
+      "id": "tenna",
+      "detail": "models/tenna.json"
+    },
+    {
+      "id": "wine_fox - 女仆",
+      "detail": "models/wine_fox.json"
+    },
+    {
+      "id": "xiao90",
+      "detail": "models/xiao90.json"
+    },
+    {
+      "id": "xiao902",
+      "detail": "models/xiao902.json"
+    },
+    {
+      "id": "xiaotin",
+      "detail": "models/xiaotin.json"
+    },
+    {
+      "id": "you_ye",
+      "detail": "models/you_ye.json"
+    },
+    {
+      "id": "yuki v1",
+      "detail": "models/yuki_v1.json"
+    },
+    {
+      "id": "yuki v2",
+      "detail": "models/yuki_v2.json"
+    },
+    {
+      "id": "yuki v2.1",
+      "detail": "models/yuki_v2.1.json"
+    },
+    {
+      "id": "yuki v2.2",
+      "detail": "models/yuki_v2.2.json"
+    },
+    {
+      "id": "yuki v2.3",
+      "detail": "models/yuki_v2.3.json"
+    },
+    {
+      "id": "yuki v2.4",
+      "detail": "models/yuki_v2.4.json"
+    },
+    {
+      "id": "yume v1",
+      "detail": "models/yume_v1.json"
+    },
+    {
+      "id": "yume v1.1",
+      "detail": "models/yume_v1.1.json"
+    },
+    {
+      "id": "yume_spring v1.2",
+      "detail": "models/yume_spring_v1.2.json"
+    },
+    {
+      "id": "yume_summer",
+      "detail": "models/yume_summer.json"
+    },
+    {
+      "id": "万敌",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "三津レンジユ",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "东海帝皇",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "东海帝皇v1.11",
+      "detail": "models/v1.11.json"
+    },
+    {
+      "id": "乌尔比安",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "云茹",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "亚托莉",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "仲正一花",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "企鹅",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "修卡战斗员",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "兰音JK1.2",
+      "detail": "models/JK1.2.json"
+    },
+    {
+      "id": "军士长炸弹森",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "军士长炸弹森(zip-ver)",
+      "detail": "models/zip-ver.json"
+    },
+    {
+      "id": "列克星敦_Free",
+      "detail": "models/Free.json"
+    },
+    {
+      "id": "初音未来racingmiku ver.2010",
+      "detail": "models/racingmiku_ver.2010.json"
+    },
+    {
+      "id": "初音未来racingmiku ver.2014(半成品)",
+      "detail": "models/racingmiku_ver.2014.json"
+    },
+    {
+      "id": "初音未来racingmiku ver.2020",
+      "detail": "models/racingmiku_ver.2020.json"
+    },
+    {
+      "id": "初音未来racingmiku ver.2022",
+      "detail": "models/racingmiku_ver.2022.json"
+    },
+    {
+      "id": "初音未来sweetdevil(半成品)",
+      "detail": "models/sweetdevil.json"
+    },
+    {
+      "id": "初音未来公式服",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "化学防害上尉",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "化学防害上尉(zip-ver)",
+      "detail": "models/zip-ver.json"
+    },
+    {
+      "id": "千姬-常服",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "卡莉",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "吹雪_Free",
+      "detail": "models/Free.json"
+    },
+    {
+      "id": "唯-常服",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "园丁原皮",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "园丁原皮2",
+      "detail": "models/2.json"
+    },
+    {
+      "id": "坐忘道",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "埃佩鲁1.0",
+      "detail": "models/1.0.json"
+    },
+    {
+      "id": "基林_Free",
+      "detail": "models/Free.json"
+    },
+    {
+      "id": "天音祈",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "奈亚子",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "奈奈莉娅v1.1",
+      "detail": "models/v1.1.json"
+    },
+    {
+      "id": "奶龙",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "奶龙 for ysm 2.4.1",
+      "detail": "models/for_ysm_2.4.1.json"
+    },
+    {
+      "id": "宇航员酒狐（解压使用）",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "审判鸟",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "小暗",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "巧克力",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "希儿·秋霜百合v2.7",
+      "detail": "models/v2.7.json"
+    },
+    {
+      "id": "强击",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "征酱（酒狐动画）",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "征酱（默认模型动画)",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "恐怖机器人1.1",
+      "detail": "models/1.1.json"
+    },
+    {
+      "id": "悠鲤",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "扶桑全年龄版2.4.9",
+      "detail": "models/2.4.9.json"
+    },
+    {
+      "id": "扶桑全年龄版2.5.2",
+      "detail": "models/2.5.2.json"
+    },
+    {
+      "id": "折原露露·经典",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "拇指-东部指挥官",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "早稻叽",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "昔涟_0.1",
+      "detail": "models/0.1.json"
+    },
+    {
+      "id": "昔涟_0.2",
+      "detail": "models/0.2.json"
+    },
+    {
+      "id": "星咲",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "春日椿_Free",
+      "detail": "models/Free.json"
+    },
+    {
+      "id": "普拉娜",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "朱诺",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "朱诺-常服",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "枪手-凤凰战士",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "枪手-凤凰战士(zip-ver)",
+      "detail": "models/zip-ver.json"
+    },
+    {
+      "id": "格兰尼-常服",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "格琳娜",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "格蕾修-画蓝缀星1_1",
+      "detail": "models/1_1.json"
+    },
+    {
+      "id": "格蕾酱",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "桂",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "桑丘",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "梦境大耳狗",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "梦音茶糯",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "椰子",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "樱羽艾玛",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "水无月时雨",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "水无月时雨_1",
+      "detail": "models/1.json"
+    },
+    {
+      "id": "法军侦察兵",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "法军支援兵",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "泠鸢JK",
+      "detail": "models/JK.json"
+    },
+    {
+      "id": "波斯特·猫神1.0",
+      "detail": "models/1.0.json"
+    },
+    {
+      "id": "泥岩_砾瓦1.5.2",
+      "detail": "models/1.5.2.json"
+    },
+    {
+      "id": "泥岩_静谧午夜",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "泥岩原皮ny",
+      "detail": "models/ny.json"
+    },
+    {
+      "id": "泥岩黑曜石",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "洛可可-常服",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "洛可可-常服0.6 采用协议CC BY-NC-SA 4.0",
+      "detail": "models/0.6_CC_BY-NC-SA_4.0.json"
+    },
+    {
+      "id": "洛可可-常服0.8(原版，女仆适配)",
+      "detail": "models/0.8.json"
+    },
+    {
+      "id": "浠Mizuki(G)",
+      "detail": "models/Mizuki_G.json"
+    },
+    {
+      "id": "爱丽丝",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "独角兽",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "瘟疫使者-CT",
+      "detail": "models/CT.json"
+    },
+    {
+      "id": "穆小泠2.0",
+      "detail": "models/2.0.json"
+    },
+    {
+      "id": "笑面教授",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "红2.0",
+      "detail": "models/2.0.json"
+    },
+    {
+      "id": "绫濑桃",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "舰队Collection山风v1.0",
+      "detail": "models/Collection_v1.0.json"
+    },
+    {
+      "id": "舰队Collection山风v1.0无报时版",
+      "detail": "models/Collection_v1.0.json"
+    },
+    {
+      "id": "舰队Collection山风v1.1",
+      "detail": "models/Collection_v1.1.json"
+    },
+    {
+      "id": "舰队Collection山风v1.1无报时版",
+      "detail": "models/Collection_v1.1.json"
+    },
+    {
+      "id": "艾莲乔",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "花嫁酒狐",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "草莓",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "草莓_1",
+      "detail": "models/1.json"
+    },
+    {
+      "id": "萤火虫_Free",
+      "detail": "models/Free.json"
+    },
+    {
+      "id": "萨拉托加_Free",
+      "detail": "models/Free.json"
+    },
+    {
+      "id": "诺艾儿",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "赞达尔•壹•桑原ysm2.4.1",
+      "detail": "models/ysm2.4.1.json"
+    },
+    {
+      "id": "赞达尔•壹•桑原ysm2.5.1",
+      "detail": "models/ysm2.5.1.json"
+    },
+    {
+      "id": "足立レイ女仆装(半成品)",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "足立零重置版pro max plus ultra",
+      "detail": "models/pro_max_plus_ultra.json"
+    },
+    {
+      "id": "远旅",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "远旅(旧)",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "远旅1",
+      "detail": "models/1.json"
+    },
+    {
+      "id": "逢坂大河",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "重装战姬爱塔V1.0",
+      "detail": "models/V1.0.json"
+    },
+    {
+      "id": "铁锤坦克娘_Free",
+      "detail": "models/Free.json"
+    },
+    {
+      "id": "铸铁重置版",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "长门",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "阿消1.0",
+      "detail": "models/1.0.json"
+    },
+    {
+      "id": "阿消1.1",
+      "detail": "models/1.1.json"
+    },
+    {
+      "id": "阿消1.12",
+      "detail": "models/1.12.json"
+    },
+    {
+      "id": "雨试玩版-hotfix",
+      "detail": "models/hotfix.json"
+    },
+    {
+      "id": "雪狐桑",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "雪风v2.0",
+      "detail": "models/v2.0.json"
+    },
+    {
+      "id": "霜狐2.0",
+      "detail": "models/2.0.json"
+    },
+    {
+      "id": "霜狐[泳装]",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "风堇",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "高奈利亚-常服",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "高奈利亚-常服 (2)",
+      "detail": "models/2.json"
+    },
+    {
+      "id": "高奈利亚-常服0.7(原版动画适配完成) 采用协议CC BY-NC-SA 4.0",
+      "detail": "models/0.7_CC_BY-NC-SA_4.0.json"
+    },
+    {
+      "id": "高奈利亚-常服0.7(原版动画适配完成) 采用协议CC BY-NC-SA 4.0/models",
+      "detail": "models/0.7_CC_BY-NC-SA_4.0_models.json"
+    },
+    {
+      "id": "高奈利亚-常服0.8(原版，女仆动画适配完成) 采用协议CC BY-NC-SA 4.0",
+      "detail": "models/0.8_CC_BY-NC-SA_4.0.json"
+    },
+    {
+      "id": "魔法酒狐V3.1",
+      "detail": "models/V3.1.json"
+    },
+    {
+      "id": "魔法酒狐V4.3",
+      "detail": "models/V4.3.json"
+    },
+    {
+      "id": "魔法酒狐V4.4",
+      "detail": "models/V4.4.json"
+    },
+    {
+      "id": "鸿园的君主-鸿璐",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "鹿管",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "鹿管2.0",
+      "detail": "models/2.0.json"
+    },
+    {
+      "id": "黎歌3.0",
+      "detail": "models/3.0.json"
+    },
+    {
+      "id": "黎歌国风款",
+      "detail": "models/model.json"
+    },
+    {
+      "id": "黑兽-浮士德",
+      "detail": "models/model.json"
+    }
+  ]
+}

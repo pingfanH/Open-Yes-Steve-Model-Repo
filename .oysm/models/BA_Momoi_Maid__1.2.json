@@ -1,0 +1,124 @@
+{
+  "id": "BA_Momoi(Maid)_1.2",
+  "path": "parsed/BA_Momoi(Maid)_1.2",
+  "source": {
+    "path": "_BlueArchive/BA_Momoi(Maid)_1.2.ysm",
+    "type": "ysm",
+    "stem": "BA_Momoi(Maid)_1.2"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "蔚蓝档案：才羽桃（女仆）",
+    "tips": "（本模型有非常多内容供你探索！注意！好感度和满足度均会在切换其他模型，更换存档后消失，而更新同名模型，退出游戏或死亡等不会改变这两个值。）\n千禧年科技学园所属，游戏开发部的剧本写手。\n被误认为是C&C的人，歪打正着地穿上了女仆装。被卷入事件时，也以她特有开朗正直的性格面对逆风局。\n最核心的玩法就是通过主手食用曲奇或在轮盘动画中摸头来提升满足度（每次增长后有2分钟cd），满足度的提高会增加好感度升高的速率。左手使用曲奇则可以降低满足度，左手使用苹果降低好感度（仅用以调整数值，无其他意义）。主手食用附魔金苹果会直接增加大量好感度，用于作弊模式测试用。\n以下为具体内容介绍，如果想自行养成探索的看到这里就可以停止了。\n好感度会直接影响专武，光环发光，手持水桶，扫把对三叉戟的替换，换弹动画等约10个的内容表现。\n不同材质头盔显示口型不同，不同材质胸甲也会改变眼睛表现，手持剑或使用剑则会显示双刀，化身双刀小桃。",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "模型发布者和大部分内容作者：狱际星芒"
+      },
+      {
+        "name": "部分模型素材来自：伊洛是哥斯拉嘛"
+      },
+      {
+        "name": "部分轮盘动画来源：雅音宫羽MasaneMiyaPA"
+      }
+    ]
+  },
+  "properties": {
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "momoi.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Momoi_Maid__1.2_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12578,
+      "sha256": "90b6f48f977c59b8513b919bd580d5354155b9684a6597c29c7586ab52f591d6"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 1060911,
+    "sha256": "310e78605ef8495bbd8e3d3a227bb2bfcc895c43c73b19bec5132d3192976f51",
+    "bones": 226,
+    "cubes": 945,
+    "faces": 5670,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 90910,
+      "sha256": "0b78bc87f6837d02c61c7376c63ad082339c3b63ecc545d1b1aac07f7c5033be"
+    },
+    {
+      "path": "arm.json",
+      "size": 32252,
+      "sha256": "b44e41130de2be2874ba80fdaf874dcc51fed0803fd0f83e943675a7c29eb2e1"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 2662,
+      "sha256": "faa2ed2db59363557dfc2171c58c727b53f5b0ee8543f166ca7213365294ce77"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 73299,
+      "sha256": "61750181b9884f28f5361a3c0fbd8f1d1ae3f74c87fad186dd50ed5e6805ebe6"
+    },
+    {
+      "path": "info.json",
+      "size": 1632,
+      "sha256": "c7b71214c92bdd2e2eb4bd6419610c18235ea4437506bf9782221ebe2dcae52a"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 168821,
+      "sha256": "d731bac5a1c1c24c0f62ca706ca0eea1740e6b78a022f510eb3d11df69951776"
+    },
+    {
+      "path": "main.json",
+      "size": 482535,
+      "sha256": "2bd97d7cc0c47cf914f949846362c3c65d7a0a102e4cfc34c1b6e7343f1cc560"
+    },
+    {
+      "path": "momoi.png",
+      "size": 69480,
+      "sha256": "e8bae931e864ed3e46625a045ab21051343ee932d0c7888c8a2914a626ef1ffe"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 139320,
+      "sha256": "be6de0e399224d58bb34419a12e12a07ddb6f18ffde6fdfa53b7ba03e22b617e"
+    }
+  ]
+}

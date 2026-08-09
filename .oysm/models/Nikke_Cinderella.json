@@ -1,0 +1,135 @@
+{
+  "id": "Nikke_Cinderella",
+  "path": "parsed/Nikke_Cinderella",
+  "source": {
+    "path": "_Nikke/Nikke_Cinderella.ysm",
+    "type": "ysm",
+    "stem": "Nikke_Cinderella"
+  },
+  "ysm": "parsed/Nikke_Cinderella/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/雒仁.png",
+        "comment": "",
+        "contact": {
+          "B站": "https://b23.tv/WiayS9E"
+        },
+        "name": "雒仁",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/星屑海螺.png",
+        "comment": "",
+        "contact": {
+          "B站": "https://space.bilibili.com/14975572"
+        },
+        "name": "星屑海螺",
+        "role": "适配"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC ND BY SA 4.0"
+    },
+    "link": {
+      "home": "https://afdian.com/item/d65c9192154211f0bac952540025c377"
+    },
+    "name": "灰姑娘免费版",
+    "tips": "完整版获取链接：https://afdian.com/item/d65c9192154211f0bac952540025c377\n点击左上角进入详情界面，点击主页即可跳转"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_classify": [],
+    "preview_animation": "idle",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Nikke_Cinderella_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8792,
+      "sha256": "b4e4683bbb0043096da16d19c0089f9d38990d9252b64b817be233ecef3e47e9"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 594629,
+    "sha256": "3682947233611e311a9011de7308fca9a6658e1791de5995cc1e80ac063146d3",
+    "bones": 242,
+    "cubes": 860,
+    "faces": 5160,
+    "textures": 1,
+    "materials": 1,
+    "animations": 0,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "avatar/星屑海螺.png",
+      "size": 29404,
+      "sha256": "b639e41cb1eb08139baf3652bd5aa26f03ab34f859af668982c294a4cf41c870"
+    },
+    {
+      "path": "avatar/雒仁.png",
+      "size": 35306,
+      "sha256": "917924fecb5c56e304379e6462f8605de417f6cd7a754e78082881e162c6285c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 62501,
+      "sha256": "a02b76df5f40c7704bb4402cdf0019f086f7cd754dc1d668f49461da0f5410b6"
+    },
+    {
+      "path": "models/main.json",
+      "size": 428577,
+      "sha256": "02abdb56234311918bcc85c19e1c913d9be23d46c0762cfc2d29a15fe16db1e2"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 37771,
+      "sha256": "ebaef891b99bda5a99b41c14cda33bf747a17c63a6c04c0d490a85d842fdbda2"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1070,
+      "sha256": "131987af2630cea84be4d3c4eb2e1568ece81ade9a40f636342c3ee3a722ff9c"
+    }
+  ]
+}

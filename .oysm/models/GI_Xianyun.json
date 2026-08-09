@@ -1,0 +1,111 @@
+{
+  "id": "GI_Xianyun",
+  "path": "parsed/GI_Xianyun",
+  "source": {
+    "path": "_GenshinImpact/GI_Xianyun.ysm",
+    "type": "ysm",
+    "stem": "GI_Xianyun"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§3闲云",
+    "tips": "§8普通版\n§8蹲下会变成鹤形态\n§8持弓手上显示专武",
+    "authors": [
+      {
+        "name": "§b绝对冻结§8（模型）"
+      },
+      {
+        "name": "§c烈鸟比百§8（模型）"
+      }
+    ]
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "block.png",
+        "quan.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Xianyun_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9418,
+      "sha256": "e5d01740101b083c6a5e40f6e3b63207df38da5ad8ade6adc3b9febbee65153f"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 1322574,
+    "sha256": "ef5fe5b8c9b6289269878982c009ab00c775eaf1860cdfb5a9d9a09b9cab2cd3",
+    "bones": 276,
+    "cubes": 1432,
+    "faces": 8583,
+    "textures": 2,
+    "materials": 2,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 47903,
+      "sha256": "76abda7f1026c91e376a6c8b05a61e13095b408e065908b429cb968a4601b1aa"
+    },
+    {
+      "path": "arm.json",
+      "size": 123706,
+      "sha256": "db09c33fa63621aceb0a44ad951269f9d92462ff3d6ee86ca52b0eaa222aed55"
+    },
+    {
+      "path": "block.png",
+      "size": 53101,
+      "sha256": "290c8809c813d961a4c5f8b02c4ac96886632a053470ac22cc3459bd564e3e6a"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 1857,
+      "sha256": "c3db4b8827717cff5f6654efa16e2115be8b3f606c5cfe8744bc200b1a88dbbc"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 201324,
+      "sha256": "06fd9f1e8a2b61698e9e13c42ef214d8725996c803c6dc56ba8a1ac4e1a94b43"
+    },
+    {
+      "path": "main.json",
+      "size": 686729,
+      "sha256": "55de4248ab2931562297752afb466e54e0a00fe61955aab59d87688cd18c1535"
+    },
+    {
+      "path": "quan.png",
+      "size": 53101,
+      "sha256": "66f9cb5a4c5bb7a3a8d302765fa0fbd44a1c931c64e2be6d623d46af54a70996"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 154853,
+      "sha256": "901d56a6391aee0ca066594d3a5119eb18afcfed2faa5f8002d10e7a0084e1bf"
+    }
+  ]
+}

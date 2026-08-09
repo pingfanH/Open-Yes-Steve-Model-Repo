@@ -1,0 +1,96 @@
+{
+  "id": "BA_Hayase-Yuuka(Track)",
+  "path": "parsed/BA_Hayase-Yuuka(Track)",
+  "source": {
+    "path": "_BlueArchive/BA_Hayase-Yuuka(Track).ysm",
+    "type": "ysm",
+    "stem": "BA_Hayase-Yuuka(Track)"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "BA_Hayase-Yuuka(Track)"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "yuuka.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Hayase-Yuuka_Track_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8010,
+      "sha256": "ca6eeaff490fee5c5ba1793534cd4cb2b44b960a6a86813fcea06a458a888200"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 3736472,
+    "sha256": "84a2cede1ca43c5958c3681419ac6b7411e24cc447f2ee3cd7c864f7ff819051",
+    "bones": 154,
+    "cubes": 634,
+    "faces": 3802,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 627650,
+      "sha256": "521ac1d22158ace241c15786fd50e37ace7ebc0a2450cc9cc2b181906a2370d2"
+    },
+    {
+      "path": "arm.json",
+      "size": 32142,
+      "sha256": "2ff51530afd7412f724681b2ce837e38c44e5c33701f804a3e9e243e4e21437f"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 384430,
+      "sha256": "3f1a3821dd624d46530db1e8f49f8cfe48e8869835e79ddcb850eb3b32dd8f5a"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 2194309,
+      "sha256": "1f101f2bedeb8d8a44e0a2e66a1fc71c2d9cb9caf1fc2abf1232825ac15acf65"
+    },
+    {
+      "path": "main.json",
+      "size": 314035,
+      "sha256": "9fea4cb006967f130dc65fcd683db3effc16484d451a9b8c8354ec6fb4c03ac2"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 164681,
+      "sha256": "35ecd343fb7a208a97430fd9f5341446435ff993c295dcda5eb273625bb561ed"
+    },
+    {
+      "path": "yuuka.png",
+      "size": 19225,
+      "sha256": "d5c1c5c440ba47a54670a67672de1fd6a48d249ffcb8d6fd8c35e298a2cfd31d"
+    }
+  ]
+}

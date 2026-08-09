@@ -1,0 +1,112 @@
+{
+  "id": "BA_Nozomi(Highlande)_v1.0",
+  "path": "parsed/BA_Nozomi(Highlande)_v1.0",
+  "source": {
+    "path": "_BlueArchive/BA_Nozomi(Highlande)_v1.0.ysm",
+    "type": "ysm",
+    "stem": "BA_Nozomi(Highlande)_v1.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "海兰德铁道学院-希（ノゾミ）",
+    "tips": "蔚蓝档案-海兰德铁道学院双子之一\n适配YSM1.18.2-1.2.0",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "完全冻结"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "tex.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Nozomi_Highlande__v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10726,
+      "sha256": "3c7a8cab4fe29174ad429daf91624d8a08387eb82bb4f74128f0ccc60e9c34ee"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 1453133,
+    "sha256": "c6608df8fbcee5b61541e1b83e66c9765e57ef4d7a5603b21203e51f856d322c",
+    "bones": 134,
+    "cubes": 561,
+    "faces": 3366,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 121038,
+      "sha256": "810aba570cba6ed7ab19cef298f4d928a1443fca88622956d1fa891f5a42fb53"
+    },
+    {
+      "path": "arm.json",
+      "size": 31162,
+      "sha256": "ac9bd4379f501e5d09162d1e6ac2494a66c06b5eb710d0b4863aa67f751fa012"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 706793,
+      "sha256": "07e386a7ac73a4ed762ed9b185dba68baf1829978aeb6924f9ad865ea9b12f1d"
+    },
+    {
+      "path": "info.json",
+      "size": 372,
+      "sha256": "c311a23f9b1a034ed788d69b42245fdc522374460db75ce26f4afdfa1de845d7"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 145799,
+      "sha256": "4c09b1b31edbeb551a5edd2ae062000f4050a8dc273423b009ea39ede5d21fdf"
+    },
+    {
+      "path": "main.json",
+      "size": 282963,
+      "sha256": "573d068dc4b27c9344dee9c3b8c2c271bd08ac9fba43ed766b881550cbff436d"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 149927,
+      "sha256": "9bdc501870d485ffeb92d6bcafc30bc05f3645a657528d694c452767d103d002"
+    },
+    {
+      "path": "tex.png",
+      "size": 15079,
+      "sha256": "4e24a082970df1604b8e6167e79d03d83b5f08da6c4d3d9df25fda3b6dd208c0"
+    }
+  ]
+}

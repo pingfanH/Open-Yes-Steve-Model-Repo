@@ -1,0 +1,197 @@
+{
+  "id": "泠鸢JK",
+  "path": "parsed/泠鸢JK",
+  "source": {
+    "path": "Unknown/泠鸢JK.ysm",
+    "type": "ysm",
+    "stem": "泠鸢JK"
+  },
+  "ysm": "parsed/泠鸢JK/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§c§l泠鸢yousa.png",
+        "comment": "爱唱歌爱作词",
+        "contact": {
+          "哔哩哔哩主页": "https://space.bilibili.com/282994",
+          "哔哩哔哩直播间": "https://live.bilibili.com/593"
+        },
+        "name": "§c§l泠鸢yousa",
+        "role": "§6原型"
+      },
+      {
+        "avatar": "avatar/§8默栖.png",
+        "comment": "MC短片作者，偶尔做YSM",
+        "contact": {
+          "Afdian": "https://afdian.com/a/DLMoqi",
+          "Bilibili": "https://space.bilibili.com/477165698"
+        },
+        "name": "§8默栖",
+        "role": "§6模型丨动画"
+      },
+      {
+        "avatar": "avatar/§d瀛猫.png",
+        "comment": "§3一个透明人",
+        "contact": {
+          "Afdian": "https://afdian.net/a/wincatpro",
+          "Bilibili": "https://space.bilibili.com/647224460"
+        },
+        "name": "§d瀛猫",
+        "role": "§b动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "§cAll Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/DLMoqi",
+      "home": "https://space.bilibili.com/477165698"
+    },
+    "name": "§c§lLingYuanYousa§4§l(泠鸢·JK)",
+    "tips": "§c§n泠鸢yousa·JK版本\r\n§b泠鸢yousa是一位多元化音乐人，兼具唱、词能力。\r\n§b她的歌词有鲜明的剧情走向和辨识度，音色则自带鼻音，空灵偏幼龄。\r\n§aB站关注”泠鸢yousa“;每周六晚上直播\r\n§4【严谨二次售卖，请勿用于商业用途！禁止上传一切商用服务器！】"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "§b[舞蹈]§c§l大喜",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "是的",
+      "extra4": "§c§l[整活]§5dooble",
+      "extra5": "无",
+      "extra6": "蹲下",
+      "extra8": "§c[整活]§d虎视眈眈"
+    },
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/yousa.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/JK_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7049,
+      "sha256": "a1273d009790a851034093464f7b2e7132e5010f365efe49c3be644567e156cd"
+    }
+  },
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 7006020,
+    "sha256": "b01fc424fd03e9b738f1b9ddb2d2b98b8181360c1679e22cb8b342139187fb34",
+    "bones": 111,
+    "cubes": 313,
+    "faces": 1878,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 141952,
+      "sha256": "b5ec104c3f39bb543d88e74bf29e5b86fd8507b97cdb020eda6f8c7192e46432"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 5251,
+      "sha256": "4068f3fa5ddf0cbb5e45c6e7c9a9ebaeab44c74801a30e19508301f58c063703"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 5291543,
+      "sha256": "a3ef4555e2f2a45989c7d3dcd31504766c09ed7e36e13e21de6a8604ce9378d4"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 216842,
+      "sha256": "bd837a1524caa791d1c7e3b4e4664062002e3553ba8eb5b678f30ace7754f999"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 159117,
+      "sha256": "82ccc1413e9134e6d4473ff293a76141ef679b3459eea3979effbaf639300a0b"
+    },
+    {
+      "path": "avatar/§8默栖.png",
+      "size": 591977,
+      "sha256": "011bd2f067d5c87341198992955d2b708b12ffac9553270cbbd97db16129ed5e"
+    },
+    {
+      "path": "avatar/§c§l泠鸢yousa.png",
+      "size": 92362,
+      "sha256": "f27ede02c901d750e4d8472492f18cc030fc1117ec7cf9dcde24a2a71fe01959"
+    },
+    {
+      "path": "avatar/§d瀛猫.png",
+      "size": 177987,
+      "sha256": "58b0c3d0e642622bb904ae34ffaa4bd11526280e80d5d5f92323612f54f796d9"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 8302,
+      "sha256": "e963e7edfd142c33ceb60ca8fee4e62b9654129b670aee0827ca2a758c0e69b6"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 8870,
+      "sha256": "6c2f77a0a123f36c8a2426c4df5e86a46895cd045d252c065c2440cb902f8e75"
+    },
+    {
+      "path": "models/main.json",
+      "size": 173319,
+      "sha256": "425107c541c205ac2eb6a1bb7ad5569790638b836e689264d725c8486ed8f3a8"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 905,
+      "sha256": "2ea875ee9cd97f95efa780b338b765d2a9756311dc73b4aa63ed05b66fd770de"
+    },
+    {
+      "path": "textures/yousa.png",
+      "size": 135565,
+      "sha256": "b160a24a8edddd0d2cc88d204a8fdbd108c2235d37de5ea63b2b681e1d64d560"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2028,
+      "sha256": "1edbe7e0051ae53e8cb6ab9604ec1f01e8ec2a7b2216971da2c6ffbd9d11ce24"
+    }
+  ]
+}

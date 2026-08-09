@@ -1,0 +1,84 @@
+{
+  "id": "_Unknown_0",
+  "path": "parsed/_Unknown_0",
+  "source": {
+    "path": "Uncategorized/_Unknown_0.zip",
+    "type": "zip",
+    "stem": "_Unknown_0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_Unknown_0"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "luo.png",
+        "normal.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Unknown_0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12264,
+      "sha256": "60a010718bbf2206f2ff9f5122b535c1fd48102df55fe34ab1a4b01b06b8ef31"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 487805,
+    "sha256": "7eb5a095ed5bedcb4bef872fecb12d3212b39748c12e0b59bb13ee6ea27ba797",
+    "bones": 81,
+    "cubes": 591,
+    "faces": 3546,
+    "textures": 2,
+    "materials": 2,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 32605,
+      "sha256": "cd86402d45cf7ddafe957fb33713b8d473eebd47c1df1c1cfb75317861771548"
+    },
+    {
+      "path": "luo.png",
+      "size": 13464,
+      "sha256": "ee8d57076142f953fe745ec541b453fdc94dc39c0cf7690ba59f59ff0ce49074"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 132069,
+      "sha256": "a3b1232087c74a9ef7ab239833961930ad9dbc014d8e0aa4bfffb72ba4f144f3"
+    },
+    {
+      "path": "main.json",
+      "size": 295270,
+      "sha256": "7847a93c3df6414e9c8754750f3150c9b4c7aa0ada289316c65ded26ac031c44"
+    },
+    {
+      "path": "normal.png",
+      "size": 14397,
+      "sha256": "5651f99960089719c40a984df4b3716f31a60f9b8f2a7f2820e851e6b72dc72b"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "ReZero_Ram",
+  "path": "parsed/ReZero_Ram",
+  "source": {
+    "path": "_ReZero/ReZero_Ram.ysm",
+    "type": "ysm",
+    "stem": "ReZero_Ram"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "拉姆Q",
+    "tips": "Ram，拉姆“妹妹”（笑）",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "平衡芝光"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "arrow.png",
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "arrow": "arrow.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/ReZero_Ram_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3916,
+      "sha256": "40401746c7d63153312616d6841972a9c13b2101933381ff6959aa468ea906ee"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 587888,
+    "sha256": "92e7a2fa721065901178fa7ac8c772437a27e04fe2baf38f9b1481cd5217e3bc",
+    "bones": 95,
+    "cubes": 323,
+    "faces": 1938,
+    "textures": 2,
+    "materials": 2,
+    "animations": 6,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 120275,
+      "sha256": "a363f64c8ed34d00fb9903f0b4a88a16b8ba356ca9b89e2eb28fb7df17e35cb1"
+    },
+    {
+      "path": "arm.json",
+      "size": 16192,
+      "sha256": "64ed94f50e6eacbfe8f9dbc98f39b67ceac2a23ac0e557c59b34f26baeb90b87"
+    },
+    {
+      "path": "arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 2873,
+      "sha256": "406039fac63d7e1fcb6f09707e399b65f6880fb200d409ac337484c31b21e6cf"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 7215,
+      "sha256": "4c4a97add8d1adaf16fe39ecf7bb59ec87841b2da08ab6bebf50768ff8697516"
+    },
+    {
+      "path": "info.json",
+      "size": 241,
+      "sha256": "bb8b6e558d19c28a3d7332ccfefd0d4cd6eb2032e53e4a2792852699908e367e"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 128446,
+      "sha256": "b82aa51d4ba703531841c38b57a51ecb9bf088df9e01c8d7db2c965c6eb4fcd5"
+    },
+    {
+      "path": "main.json",
+      "size": 165333,
+      "sha256": "a4318ceb38843d7a112435432d330089a1cf0f9a3d78b9e203b0652254a635aa"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "texture.png",
+      "size": 5558,
+      "sha256": "8bfd68e1089041684c76a30782b80b9288dd58402c1444002b690927aa8f6c2e"
+    }
+  ]
+}

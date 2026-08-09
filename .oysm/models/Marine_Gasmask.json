@@ -1,0 +1,84 @@
+{
+  "id": "Marine_Gasmask",
+  "path": "parsed/Marine_Gasmask",
+  "source": {
+    "path": "Uncategorized/Marine_Gasmask.zip",
+    "type": "zip",
+    "stem": "Marine_Gasmask"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Marine_Gasmask"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "123123.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Marine_Gasmask_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 19401,
+      "sha256": "13841a1f9a0a97eac01621b809f7790c65ba462c3f33c8aba65c3321a7ac4711"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 790886,
+    "sha256": "cdde3ff52c3139d883129e6eec72643629690ac33217138056574861cefd6c71",
+    "bones": 77,
+    "cubes": 506,
+    "faces": 3036,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "123123.png",
+      "size": 166672,
+      "sha256": "8b6382bad09a8b92ee7cca680dc692421ce1201ee077a4ed7beeb7837d1060a6"
+    },
+    {
+      "path": "arm.json",
+      "size": 21390,
+      "sha256": "57fbf3fef2c571bb0ec07be2c78802c629072e159c3045c09a685b50dc341d64"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 143873,
+      "sha256": "4f6dfb40fb12dc2531b64b221097ea2b601a6b1dc23288a0d1a0d17a86d5823d"
+    },
+    {
+      "path": "main.json",
+      "size": 300934,
+      "sha256": "6efeb9266afb45f4266e5abdff048b09e6bd42a2e28f1ffcd43883bcaaa83280"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 158017,
+      "sha256": "87f89948b53f2d189599109525654e4191755196624df21444ad6824d70af625"
+    }
+  ]
+}

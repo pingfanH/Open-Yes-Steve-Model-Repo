@@ -1,0 +1,324 @@
+{
+  "id": "Bandori_NagasakiSoyo_1",
+  "path": "parsed/Bandori_NagasakiSoyo_1",
+  "source": {
+    "path": "_Bandori/Bandori_NagasakiSoyo_1.ysm",
+    "type": "ysm",
+    "stem": "Bandori_NagasakiSoyo_1"
+  },
+  "ysm": "parsed/Bandori_NagasakiSoyo_1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§bLuXi233.png",
+        "comment": "YSM作者",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/183485702"
+        },
+        "name": "§bLuXi233",
+        "role": "模型丨贴图丨动作"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "§6长崎爽世",
+    "tips": "§f月之森女子学园高中一年级学生，现在是§bMyGO!!!!!§f乐队的贝斯手，\r\n给人一种很可靠的感觉，可能是乐队里的妈妈"
+  },
+  "properties": {
+    "width_scale": 0.71,
+    "height_scale": 0.71,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra3": "知道了~",
+      "extra8": "被剪开了",
+      "extra10": "干什么？",
+      "extra11": "o_O",
+      "extra12": "自愿合影",
+      "extra104": "哒咩",
+      "extra103": "同意",
+      "extra14": "偷听",
+      "extra101": "自我介绍",
+      "extra9": "爱音的信息",
+      "extra13": "§4为什么要演奏春日影!",
+      "extra300": "§b剪切线",
+      "extra301": "§b轮符雨",
+      "extra302": "§b影色舞",
+      "extra303": "§b诗超绊",
+      "extra400": "封面动作"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "月之森校服和演出服替换: ",
+            "description": "滑条",
+            "value": "v.cloz",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "type": "range",
+            "title": "睫毛切换: ",
+            "description": "滑条",
+            "value": "v.jm",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "type": "checkbox",
+            "title": "穿脱皮鞋",
+            "description": "单击检索黑丝",
+            "value": "v.pixie"
+          },
+          {
+            "type": "checkbox",
+            "title": "黑线",
+            "description": "§4我生气了...",
+            "value": "v.heixian"
+          },
+          {
+            "type": "checkbox",
+            "title": "失去高光",
+            "description": "§4进入病娇形态",
+            "value": "v.highlight"
+          },
+          {
+            "type": "radio",
+            "title": "表情",
+            "description": "单选切换表情",
+            "value": "v.biaoqing",
+            "labels": {
+              "微笑": "v.bq=0;v.t=0",
+              "不开心": "v.bq=1;v.t=1",
+              "吃惊": "v.bq=2;v.t=2",
+              "假笑": "v.bq=3;v.t=3",
+              "无表情": "v.bq=4;v.t=4"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "Chose",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Bandori_NagasakiSoyo_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9963,
+      "sha256": "ad0966d2ae52764892b87b8927c78efbde130a0c527561c3aef435b1d5d013e1"
+    }
+  },
+  "stats": {
+    "file_count": 30,
+    "total_bytes": 12514762,
+    "sha256": "10d3ab0c6976e5cc9633f38c06c2bad427e65a46b5f17c0d8fec71ed98308520",
+    "bones": 187,
+    "cubes": 1397,
+    "faces": 8382,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 179633,
+      "sha256": "66fe59f125f565d972219fb6796caaad2ef03b439181d5b6dab17453fb691ba2"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 286283,
+      "sha256": "0282c8eb3bd3377c1c2555bc59d150bf02dcf61a128c99b95eb9aeac55faa72c"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 233027,
+      "sha256": "19bdca3404a8cc4edff487f99a7d7632f46b6e8c39e9dac6a0d64455f0792622"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1505299,
+      "sha256": "2cfe596c36beecaa1688b55951b4272e660c066078bb5d95b20240a32a3a20da"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "avatar/§bLuXi233.png",
+      "size": 609469,
+      "sha256": "31416cc64ffcba4fb65f4c5c86986985cd4c8000aa863b55e709dc0b229f376c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 14785,
+      "sha256": "d37ada7bc89e3faac801efc75902973b351ee2deacb55f7ae90f65c5083fa088"
+    },
+    {
+      "path": "models/main.json",
+      "size": 750772,
+      "sha256": "3fb4f73f50c1bf0076388afb8da0d05c1280e8f79c759f14d5f383b5eacab65b"
+    },
+    {
+      "path": "sounds/Cut.ogg",
+      "size": 48392,
+      "sha256": "3f38f2316ad8aa8decd0e0810a8d07b71ce52bac4e90decb3e8e9e9ad7296886"
+    },
+    {
+      "path": "sounds/Haihai.ogg",
+      "size": 14064,
+      "sha256": "705698924b85268c639ee52a99956369fc3ead9ca5234e048a059fcd4c45f9c4"
+    },
+    {
+      "path": "sounds/JQX.ogg",
+      "size": 2355619,
+      "sha256": "d4c5dc1f1262828c642616f2e4e9d2ae1db0a583fa378fb644e4825db7630b4c"
+    },
+    {
+      "path": "sounds/JSYG.ogg",
+      "size": 132765,
+      "sha256": "5add481e32288b721f0b35c798e94961c39dfccf111663372703974c64330193"
+    },
+    {
+      "path": "sounds/LFY.ogg",
+      "size": 848063,
+      "sha256": "8be275fd778d3e8973a047425aacbca37aca0c78519b4de7e81c68718ebac730"
+    },
+    {
+      "path": "sounds/Oo.ogg",
+      "size": 22185,
+      "sha256": "fc31120e0252112ac72b3f12421128e9c26458d8da2faf54dcf12a94444e3f77"
+    },
+    {
+      "path": "sounds/SCP.ogg",
+      "size": 2335107,
+      "sha256": "305dfd2269818f4e1dd0c52efd089aee6c147b0d96721abfbb25149820a9efdb"
+    },
+    {
+      "path": "sounds/SDN.ogg",
+      "size": 13616,
+      "sha256": "7f24ed604f5a075e1d871020c6bb712f71230bb1e326bfb8ba439aabcd333e3b"
+    },
+    {
+      "path": "sounds/Stone.ogg",
+      "size": 11739,
+      "sha256": "71587e3c7a2c9bd30d2a3bb42b19407d29f1144e701d0f0af3eefd04d9edfae3"
+    },
+    {
+      "path": "sounds/WhyCRY.ogg",
+      "size": 65290,
+      "sha256": "b2ab326c08bb4da39e294940c1d3e5985625ed575dd3eab7c1729602592845b9"
+    },
+    {
+      "path": "sounds/YSW.ogg",
+      "size": 2304682,
+      "sha256": "e64a5725f7a64a2775f27aa9990ec6ca89dc1e766c066ddb519b87bf6b2f4b82"
+    },
+    {
+      "path": "sounds/ZWJS.ogg",
+      "size": 52521,
+      "sha256": "9ba7e0e3948be43b3a276ed2e7f3ee0811ef4ce53f96462e5d060c85578be0ae"
+    },
+    {
+      "path": "sounds/anno.ogg",
+      "size": 164176,
+      "sha256": "3fb6842dab43f764744d3b6744454d2e75ba6a64d0b3c6f8b39d4fbfb854779f"
+    },
+    {
+      "path": "sounds/bushuang.ogg",
+      "size": 34560,
+      "sha256": "52f9cde47c3b6d8ab9d418c60b09c8819e6988a92638dc232de2827f144f92fe"
+    },
+    {
+      "path": "sounds/dame.ogg",
+      "size": 13359,
+      "sha256": "9e3a728c9394e38822191906fd5fe3f2845f361ff9712a568fbeeaf56adb6495"
+    },
+    {
+      "path": "sounds/nani.ogg",
+      "size": 21194,
+      "sha256": "a7a56ad448b4df6bc2f220c7d0b97fe1f630e836c8dafc31200bc4be23340ef0"
+    },
+    {
+      "path": "sounds/spy.ogg",
+      "size": 12517,
+      "sha256": "75de20eafd1bda577b089c3c7c4f2a35e831197eb22fa2de040de0682b78573a"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 118907,
+      "sha256": "cc9fdc4eadd6274b58f33abcdf589b36625215d86b5b24bd4447a7849425f98f"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2566,
+      "sha256": "ff260c3b95f6ee3033b928d908cefb32d89348bb44470ae06294672eb54145da"
+    }
+  ]
+}

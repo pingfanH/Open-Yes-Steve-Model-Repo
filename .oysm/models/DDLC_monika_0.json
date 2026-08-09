@@ -1,0 +1,84 @@
+{
+  "id": "DDLC_monika_0",
+  "path": "parsed/DDLC_monika_0",
+  "source": {
+    "path": "_DokiDokiLiteratureClub/DDLC_monika_0.zip",
+    "type": "zip",
+    "stem": "DDLC_monika_0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "DDLC_monika_0"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/DDLC_monika_0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7723,
+      "sha256": "b1c0c7cab05b2b76b800bb5a79a7467be6fb85c8d4f79048855dac4030d77d7d"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 413445,
+    "sha256": "3c0e6fc0bd2c13dd099c19abca0e8fb152a2a408e8e44435949e63d3162055d0",
+    "bones": 54,
+    "cubes": 416,
+    "faces": 2496,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 39629,
+      "sha256": "d7d8cc5aebd96d36ee76e9e4619513300bb7dbbc5d45b351a131e1145447085a"
+    },
+    {
+      "path": "arm.json",
+      "size": 8581,
+      "sha256": "dcd47c02652aedcc9394fc76457ebeb824760184c52a173173bef7cf113ef15f"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 132640,
+      "sha256": "300ec88d7c7c8e95966fd85b86e26527285cc0184cd790c470fa5e375e5d3729"
+    },
+    {
+      "path": "main.json",
+      "size": 211129,
+      "sha256": "6aeb6647e8c48f3c7bfa7c1aff4e3d8bcb51362abca441b104aa31ee559ac8d9"
+    },
+    {
+      "path": "texture.png",
+      "size": 21466,
+      "sha256": "d555b77800587e92f15709af6b9a3db0f5cebd80e34837cf122fe3483fe9fa59"
+    }
+  ]
+}

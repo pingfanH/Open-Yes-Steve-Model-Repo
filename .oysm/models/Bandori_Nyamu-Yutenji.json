@@ -1,0 +1,207 @@
+{
+  "id": "Bandori_Nyamu-Yutenji",
+  "path": "parsed/Bandori_Nyamu-Yutenji",
+  "source": {
+    "path": "_Bandori/Bandori_Nyamu-Yutenji.ysm",
+    "type": "ysm",
+    "stem": "Bandori_Nyamu-Yutenji"
+  },
+  "ysm": "parsed/Bandori_Nyamu-Yutenji/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/艾卡斯特.png",
+        "comment": "上辈子杀人放火，这辈子做模受苦",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/98936728"
+        },
+        "name": "艾卡斯特",
+        "role": "模型/贴图"
+      },
+      {
+        "avatar": "avatar/02Bunny（蓝玫瑰）.png",
+        "comment": "喜欢做点酷东西",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/11814817"
+        },
+        "name": "02Bunny（蓝玫瑰）",
+        "role": "模型/贴图/动画"
+      },
+      {
+        "avatar": "avatar/裤管炸了救救我.png",
+        "comment": "我无畏咕咕咕",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/243846071"
+        },
+        "name": "裤管炸了救救我",
+        "role": "模型/贴图"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://www.bilibili.com/video/BV1yQ5JzJEZQ"
+    },
+    "name": "§d祐天寺若麦",
+    "tips": "§7祐天寺若麦，美妆视频博主，以“喵梦亲”自称，跨界尝试打鼓，双利手演奏风格独特，Ave Mujica成员Amoris，其姓氏与东京地名相关，家中练习使用罗兰TD-11K电子鼓。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra1": "招手",
+      "extra2": "鼓掌",
+      "extra3": "点头",
+      "extra4": "不行",
+      "extra5": "诹访大舞",
+      "extra6": "摇摆",
+      "extra8": "打鼓",
+      "extra9": "#变更服装",
+      "extra10": "oiiaioiiiiai"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "变更服装",
+        "name": "变更服装",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "选择服饰",
+            "description": "选择模型穿着服饰",
+            "value": "v.roaming.mujicacloth",
+            "labels": {
+              "常服": "v.roaming.mujicacloth=0;",
+              "Ave Mujica舞台服": "v.roaming.mujicacloth=1;"
+            }
+          },
+          {
+            "type": "checkbox",
+            "title": "是否穿戴面具",
+            "description": "决定穿着舞台服时是否显示面具",
+            "value": "v.roaming.mask"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "res0",
+    "preview_animation": "stage",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/res0.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Bandori_Nyamu-Yutenji_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3941,
+      "sha256": "624ffc165b94bd645473355296f0ce03a3f74a9eb7400c07c7ce2988ba512e9b"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 1273087,
+    "sha256": "bf0c41374a41499cd37ab17c4687200f1a9e11906bcea61d31137b5f52fe8a67",
+    "bones": 204,
+    "cubes": 896,
+    "faces": 5366,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 32454,
+      "sha256": "7a3edfe9e598fae10683e717f31bfb951eee17c0f6649236e6543a888081b0f7"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 210398,
+      "sha256": "863823d9c0d0ffeb15104bc4e9bac7712d3e9cb9f49b9f1c55e6e3db8945ca1b"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 164815,
+      "sha256": "8b86bcf8dd1dc70d9dc57c57a0c0e838499f869b13b4e9d6f43510c94d4c82c8"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 132915,
+      "sha256": "c2d1274e2c1368df6e192ca84979c249fbe60d885adc048d4f51748445f79c49"
+    },
+    {
+      "path": "avatar/02Bunny（蓝玫瑰）.png",
+      "size": 21986,
+      "sha256": "15d683b20b12c36e70755823fafa23e4f49d2b98a9579b250f7e13873d95efab"
+    },
+    {
+      "path": "avatar/艾卡斯特.png",
+      "size": 32923,
+      "sha256": "c6a5da37647d0c7a753f3baeccf96e1ce19da21c77e8db65f2fdbeedc7a0dc8b"
+    },
+    {
+      "path": "avatar/裤管炸了救救我.png",
+      "size": 38024,
+      "sha256": "5a6b4c774a3f5bde998b865aaddd67076762ab4e444496245974fb8bf3d9de99"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 9221,
+      "sha256": "ea86258823a977cdebedd8362baa61ab9ae35e936d5ae4fe7761c22042eea327"
+    },
+    {
+      "path": "models/main.json",
+      "size": 485524,
+      "sha256": "09d572ee6af8783e1d9d0dff30f4674591c5969183e8348d0ae1b0aacf55bff0"
+    },
+    {
+      "path": "sounds/oiiaioiiiiai.ogg",
+      "size": 52289,
+      "sha256": "6ca2d4b7bf665d09477cb1eb12797290f05ed7b94ea080bcb08a9fd6c5b223e6"
+    },
+    {
+      "path": "textures/res0.png",
+      "size": 90317,
+      "sha256": "4391f3963eb6ea36ca0f7953bf22f9d234021e9f24deb9032b6fee892fe8b42d"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2221,
+      "sha256": "aee55be20d43187d9ae34106f5db1534097ed443c9998669b1a75aa2c9631041"
+    }
+  ]
+}

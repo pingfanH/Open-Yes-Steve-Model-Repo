@@ -1,0 +1,266 @@
+{
+  "id": "瘟疫使者-CT",
+  "path": "parsed/瘟疫使者-CT",
+  "source": {
+    "path": "Unknown/瘟疫使者-CT.ysm",
+    "type": "ysm",
+    "stem": "瘟疫使者-CT"
+  },
+  "ysm": "parsed/瘟疫使者-CT/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/池塘-tl.png",
+        "comment": "一个模型制作者,感兴趣的话就关注我吧",
+        "contact": {
+          "哔哩": "【池塘-tl的个人空间-哔哩哔哩】 https://b23.tv/0J6Z50q"
+        },
+        "name": "池塘-tl",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/1816.png",
+        "comment": "一个动画制作者,感兴趣的话就关注我吧",
+        "contact": {
+          "哔哩": "【1816是小六的个人空间-哔哩哔哩】 https://b23.tv/GeZuX4S"
+        },
+        "name": "1816",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "仅个人使用",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/114514ctjl",
+      "home": "B站搜索名字,爱发电也一样"
+    },
+    "name": "瘟疫使者",
+    "tips": "奴役蜜蜂可耻,禁止奴役蜜蜂🐝"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "#extra_classify": "Extra Classify"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "Simple Config",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          },
+          {
+            "type": "checkbox",
+            "title": "关闭面罩",
+            "description": "防毒",
+            "value": "v.kz"
+          },
+          {
+            "type": "checkbox",
+            "title": "血条显示",
+            "description": "展示血条",
+            "value": "v.xt"
+          },
+          {
+            "type": "checkbox",
+            "title": "粒子效果",
+            "description": "史莱姆",
+            "value": "v.lz"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/main.animation_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/gl.png"
+        }
+      ]
+    },
+    "vehicles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/vehicle/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CT_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 17157,
+      "sha256": "9234f5b9594b53110020cb6377bb3ee05a305975e60236f547c0a6197929bd08"
+    }
+  },
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 3979383,
+    "sha256": "9b316daae1ae3c020202f17325bd49ec4d1b7837c78a9404f3713d4a3c77c52d",
+    "bones": 226,
+    "cubes": 1675,
+    "faces": 10050,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 181142,
+      "sha256": "09583892bec52a26d8348dfe1e014fe5351e784281da62002076eebf180957a9"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 104259,
+      "sha256": "1e22f194dc9419549b1540944fb5c8dbca454639c0a521715ea01411f70b25bc"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 260145,
+      "sha256": "3409f2edca22fd6e1120d0071fde99e6bfb53a9336e7422a26e9a30d796bc372"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "animations/vehicle/arrow.animation.json",
+      "size": 473,
+      "sha256": "366fd75bb7da4a498867bbb2c2e00deed3bee362629fb344249305b54068c1b2"
+    },
+    {
+      "path": "avatar/1816.png",
+      "size": 4039,
+      "sha256": "b59eda6aa695e5c3a20db83c0e3129511f075b130feb52b54e469703967dcd6d"
+    },
+    {
+      "path": "avatar/池塘-tl.png",
+      "size": 4791,
+      "sha256": "0f46ebae3ade33742c42feeb442287cff7c7a584db18b8a2229dfeb3b4f7b307"
+    },
+    {
+      "path": "controller/main.animation_controllers.json",
+      "size": 1461,
+      "sha256": "c403e3946329a7990a03b0bba5e821fcebb67b86390b5699eebf10e1d1a4682c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 58661,
+      "sha256": "a266a5b137b77660901b40ead0dd059db58e2bd9e64c5175a7b2b26981fe5cfc"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 10028,
+      "sha256": "13c1e64f3cc356570b216fc65e4665de5dd979e145a1ac64dc15db79b19b31b7"
+    },
+    {
+      "path": "models/main.json",
+      "size": 877316,
+      "sha256": "ae010d7bd82bee918968e390cceb425b17fa63ac2cffa3f0b490e017101640ed"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 510,
+      "sha256": "49757d408be8c248d2cca9047f3ce609a398f3493841a6436c11d974c246b4b6"
+    },
+    {
+      "path": "textures/gl.png",
+      "size": 36188,
+      "sha256": "70c23068ec2619e71fd6c3cc98e3133881fb95649ef0d3ee6ebe41792ac462e2"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2441,
+      "sha256": "860ffc5dcf0268f1ff46e27e4d664848d57400f518fcffbbc9d796b6f9ce26b9"
+    }
+  ]
+}

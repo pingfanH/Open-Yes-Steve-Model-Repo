@@ -1,0 +1,215 @@
+{
+  "id": "_Trissy_特莉丝",
+  "path": "parsed/_Trissy_特莉丝",
+  "source": {
+    "path": "Uncategorized/_Trissy_特莉丝.ysm",
+    "type": "ysm",
+    "stem": "_Trissy_特莉丝"
+  },
+  "ysm": "parsed/_Trissy_特莉丝/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/Almeta_owx.png",
+        "comment": "and the universe said I love you",
+        "contact": {
+          "Afdian": "https://afdian.com/a/Almeta",
+          "Bilibili": " https://b23.tv/iAsj6Ee"
+        },
+        "name": "Almeta_owx",
+        "role": "模型/动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "home": "https://afdian.com/a/Almeta",
+      "update": "https://b23.tv/iAsj6Ee"
+    },
+    "name": "Trissy特莉丝",
+    "tips": "原创角色兽耳娘系列可爱白色魔法猫猫Trissy特莉丝。Our journey, now a memory fading from sight~"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "星辉闪耀",
+      "extra1": "打招呼",
+      "extra2": "拍手",
+      "extra3": "同意",
+      "extra4": "不行",
+      "extra5": "可爱",
+      "extra6": "互联网过度依存",
+      "extra7": "可爱摇",
+      "extra8": "嘟里嘟里邦邦",
+      "extra9": "站姿靠墙看手机",
+      "extra10": "坐地上",
+      "extra11": "看电脑",
+      "extra12": "喝咖啡",
+      "extra13": "扫地姬",
+      "extra14": "飞行",
+      "extra15": "扫地姬睁眼睛",
+      "extra16": "普通坐地上",
+      "extra17": "吉他音乐循环",
+      "extra18": "吉他待机",
+      "extra19": "吉他音乐单次",
+      "extra20": "随便弹点",
+      "extra21": "坐半砖随便弹点"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/NekoWhite.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Trissy_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 14304,
+      "sha256": "190989db571f4c3da6d71d9dcb4ae86e7dfd1b3dad7253b249777d7271b592d8"
+    }
+  },
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 7949241,
+    "sha256": "0b9775de57eaab38e92f6a8d0e8765b6d84d323093b8345184966e65912ea451",
+    "bones": 422,
+    "cubes": 1031,
+    "faces": 6186,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 152799,
+      "sha256": "d4db7c879f1458874a05605a41a85662555801bb9e6a373f0966c596f28cf23e"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3925,
+      "sha256": "f6ec360624ce49c0041b51fe817acd7b2c3741492a8afd66ad64a639c229ab93"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 1579825,
+      "sha256": "58497aab9f52250269042616ef4925f3ca79e77b87466f07ff50275e5a30d4fc"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 504412,
+      "sha256": "757164261024a8cd21b6041ae0faae0e7a3f6a0b9669fbf0caae29580b49e108"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1502619,
+      "sha256": "0a1d89b29152d1f9dcda7fa5595f079f52b820caf3a3ca3706ec6c5c4e99abd4"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 148543,
+      "sha256": "74f24cd3233d3cad21c17701cb3be23971394b24333226c9323706cf205bd2e6"
+    },
+    {
+      "path": "avatar/Almeta_owx.png",
+      "size": 45632,
+      "sha256": "b53f7e87d557bed5b1e34059f3be70e1a182253102f00551f78ccdb44937ee40"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 38488,
+      "sha256": "aa3ce2a21d2d026c734b867a17a0425a22a7e924084000aa33524f51c14cde92"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 539070,
+      "sha256": "78468d8658c6f32b7d099136ac530b3514058844326ea2143054ab126ca70d02"
+    },
+    {
+      "path": "sounds/Spells.ogg",
+      "size": 3174622,
+      "sha256": "5b624330c7bce822ba24e28e275151813b90d98fd3db8eef8691f905bc5cd546"
+    },
+    {
+      "path": "textures/NekoWhite.png",
+      "size": 69477,
+      "sha256": "86496a4a3f90f3938a94224d6c254c30ceb453e7141b694d773697acfa096f1b"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1958,
+      "sha256": "137ce99927d46750ae9cb2e99dd220e7737c161c6111b6dc3b9b163612ea49ad"
+    }
+  ]
+}

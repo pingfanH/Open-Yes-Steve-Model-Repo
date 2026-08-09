@@ -1,0 +1,231 @@
+{
+  "id": "_vx",
+  "path": "parsed/_vx",
+  "source": {
+    "path": "Uncategorized/_vx.zip",
+    "type": "zip",
+    "stem": "_vx"
+  },
+  "ysm": "parsed/_vx/ysm.json",
+  "metadata": {
+    "name": "vx",
+    "tips": "默认模型（Default Model）",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "白洛白",
+        "role": "打击者vx",
+        "avatar": "avatar/微信图片_2025-07-22_190623_188.png",
+        "contact": {
+          "QQ": "1770097341",
+          "bilibili": "https://b23.tv/ltPrQwx"
+        },
+        "comment": "awa？"
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          }
+        ]
+      }
+    ],
+    "preview_animation": "idle",
+    "disable_preview_rotation": false,
+    "default_texture": "texture",
+    "render_layers_first": false,
+    "free": true,
+    "all_cutout": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": {
+        "uv": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/vx_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5522,
+      "sha256": "3af982477a19c1cd7fb2ddc31238c2da5761a65a32a2f64f7439ee351e3b2967"
+    }
+  },
+  "stats": {
+    "file_count": 20,
+    "total_bytes": 3359250,
+    "sha256": "b3f44676e164e56e4c3d718823f39bc42c38a396dbfaecb52e3fe279274bd1a4",
+    "bones": 57,
+    "cubes": 1326,
+    "faces": 7956,
+    "textures": 2,
+    "materials": 2,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 194800,
+      "sha256": "369e2f4f58490ebb5cb66195d85b3e3fe3eed98659f18b15cc0192d7c66772c1"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 744,
+      "sha256": "01902bc329af43baf925d67eb6861c5f4e2dd5355258c96819533ed7d94239ba"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3094,
+      "sha256": "37f45aeea0bb385a43388a676c297390a93be60139c376b1d6f6c1734d20c184"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 120692,
+      "sha256": "95daad8462c35e2071f8864b749ec3e67cd97f503cab312fcce85aba9b451a33"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 53460,
+      "sha256": "0ab7a790ea14215bf662587bea524a9720cfb338f69172f184a890ad1592b901"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 185818,
+      "sha256": "48a1aba9d03e84f2b9d608a9aa455fa259b0f63813787d63270e45c748bdd667"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1606136,
+      "sha256": "0736cc19737d47b26a3d06f0b1362b6fe196bf3823a568d9d8d01ce802b79220"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41773,
+      "sha256": "a6fd14b8a55aa142b049f7780473581d925c127fb6dae8c5546cde655021b8f0"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 218437,
+      "sha256": "9778689cbd65a2ee85744b3b0cf1d786b3886cc3cf66a54d2fd59f386b7084ac"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 65095,
+      "sha256": "ffc98cd651958865c2b2c4292684873b59b59202b1c3a866d8c8436c0704778e"
+    },
+    {
+      "path": "avatar/gsl.png",
+      "size": 17482,
+      "sha256": "dda4f5d1d4b94eaee263a0c0686e9a02267fec3e0de969e2b42a3678393acfd5"
+    },
+    {
+      "path": "avatar/微信图片_2025-07-22_190623_188.png",
+      "size": 23315,
+      "sha256": "844025e8caf8341e24352a050e53748188b446ac145186a73dbf96851348a678"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 1946,
+      "sha256": "ef77f2f6a28cbced6c8cacb8fe9d72797c8997ef6fe3798e1e89b44cf9e7739c"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 14608,
+      "sha256": "4f04aa3cb1327346ae1f63b4f960571c990dc7fd2e0ad93965c9b130d1eff324"
+    },
+    {
+      "path": "models/main.json",
+      "size": 738731,
+      "sha256": "632ec43ceddef2a0a57f0d00a38ac79b7bc756de9a093cf39eee77c171f4836b"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1213,
+      "sha256": "0ecda6c1557cf3571289a3212c93e125d8b075cc37ac62f14dad852d83a576ec"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 23274,
+      "sha256": "c3691f8a51ca48075e32bd701237fcdefa5cbd320ca6024587160fc8d00f83ec"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 23274,
+      "sha256": "c3691f8a51ca48075e32bd701237fcdefa5cbd320ca6024587160fc8d00f83ec"
+    },
+    {
+      "path": "textures/vx.png",
+      "size": 23274,
+      "sha256": "c3691f8a51ca48075e32bd701237fcdefa5cbd320ca6024587160fc8d00f83ec"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2084,
+      "sha256": "5f0409b0feaba642323907979991bb0a485e13cd95051fbfba39d7744fd9c232"
+    }
+  ]
+}

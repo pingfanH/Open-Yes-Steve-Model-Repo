@@ -1,0 +1,330 @@
+{
+  "id": "奈奈莉娅v1.1",
+  "path": "parsed/奈奈莉娅v1.1",
+  "source": {
+    "path": "Unknown/奈奈莉娅v1.1.ysm",
+    "type": "ysm",
+    "stem": "奈奈莉娅v1.1"
+  },
+  "ysm": "parsed/奈奈莉娅v1.1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/奈奈莉娅.png",
+        "comment": "§d这世界上没有偶然，有的只是必然，我们的相遇亦是如此",
+        "contact": {
+          "哔哩哔哩": "https://space.bilibili.com/489146840"
+        },
+        "name": "奈奈莉娅",
+        "role": "原IP"
+      },
+      {
+        "avatar": "avatar/瀛猫.png",
+        "comment": "一个透明人",
+        "contact": {
+          "afd": "https://afdian.com/a/wincatpro",
+          "哔哩哔哩": "https://space.bilibili.com/647224460"
+        },
+        "name": "瀛猫",
+        "role": "模型制作"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/wincatpro",
+      "home": "https://space.bilibili.com/647224460"
+    },
+    "name": "§d奈奈莉娅",
+    "tips": "§e奈奈莉娅-打歌偶像服\n§c§n这世界上没有偶然，有的只是必然，我们的相遇亦是如此."
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "#cloth",
+      "extra2": "#emoto",
+      "extra11": "§d立绘POS\"歌唱”",
+      "extra4": "不可以",
+      "#mmd": "§d§l舞蹈"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "§5§l角色配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "角色大小",
+            "description": "修改角色大小",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          },
+          {
+            "type": "checkbox",
+            "title": "§e走路姿态切换",
+            "description": "修改行走姿势",
+            "value": "v.walkr"
+          },
+          {
+            "type": "range",
+            "title": "§c飞行姿态切换",
+            "description": "人物飞行与骑行飞行",
+            "value": "v.fly",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 1.0
+          }
+        ]
+      },
+      {
+        "id": "cloth",
+        "name": "§d服装",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "§c皇冠",
+            "description": "",
+            "value": "v.king"
+          },
+          {
+            "type": "checkbox",
+            "title": "§c右腿丝袜",
+            "description": "",
+            "value": "v.rsw"
+          },
+          {
+            "type": "checkbox",
+            "title": "§c左腿丝袜",
+            "description": "",
+            "value": "v.lsw"
+          },
+          {
+            "type": "checkbox",
+            "title": "§c左腿腿环",
+            "description": "",
+            "value": "v.tuihuan"
+          },
+          {
+            "type": "checkbox",
+            "title": "§c披肩",
+            "description": "",
+            "value": "v.pijian"
+          },
+          {
+            "type": "checkbox",
+            "title": "§c拖尾",
+            "description": "",
+            "value": "v.tuowei"
+          }
+        ]
+      },
+      {
+        "id": "emoto",
+        "name": "表情",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "面部表情",
+            "description": "",
+            "value": "v.bq",
+            "labels": {
+              "§a正常": "v.bq=0",
+              ">_<": "v.bq=1",
+              "§eOi（白眼）": "v.bq=2"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "§e嘴巴",
+            "description": "",
+            "value": "v.zb",
+            "labels": {
+              "§a默认": "v.zb=0",
+              "§6笑": "v.zb=1"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "mmd",
+        "extra_animation": {
+          "extra8": "§d《法修散打》",
+          "extra9": "§6虎视眈眈",
+          "extra10": "§b§l勾指起誓"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false,
+    "gui_no_lighting": false,
+    "gui_foreground": "textures/gui/foreground.png",
+    "gui_background": "textures/gui/background.png"
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "tlm": "animations/tlm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [
+        "controller/main_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/nomarl.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "horse": {
+        "model": "models/horse.json",
+        "animation": "animations/projectiles/horse.animation.json",
+        "texture": "textures/horse.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/v1.1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 20222,
+      "sha256": "9ae2ff7c9e124a90970c569bb4fda04b1b2f3e05f6ddc8f115f22719bfacd371"
+    }
+  },
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 12902559,
+    "sha256": "6f048649fe031cea09bbf43394bcc9731aa1cf28c0a9de14ec8bfa6cda8a1c6e",
+    "bones": 444,
+    "cubes": 2597,
+    "faces": 15101,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 168631,
+      "sha256": "f6620c0432ed40e09feee97c711d605a36016b70c76221f94dcb0b64530a96b7"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 7940709,
+      "sha256": "89ffc17a29de02e184b32451914efbb250bf7d181cf409532e320c3c5110ab1e"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 191899,
+      "sha256": "25c4fca25c323aab5bca59c53688e480154fadfd64acfaf6e6e7190c317a2eba"
+    },
+    {
+      "path": "animations/projectiles/horse.animation.json",
+      "size": 1121,
+      "sha256": "1f399c6f97bd9057c0b3b16d6a8c4b0286068a0c9d3a1322f84d3927b67c3425"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 156820,
+      "sha256": "f36fafe4768582999dd936a3f1424508eb9d2f9c7ee4c24a3cd425cb495037b7"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50624,
+      "sha256": "ddf73dec762b4409893cc6d805424d11256c0cb66871355fe9a5c869ef6bd476"
+    },
+    {
+      "path": "avatar/奈奈莉娅.png",
+      "size": 8066,
+      "sha256": "1af2e8d0224d087a13e059faeb973d6fb74f67f65a69484e29d17ba6c008724d"
+    },
+    {
+      "path": "avatar/瀛猫.png",
+      "size": 2176,
+      "sha256": "122c3722509e3c40c0ece3ae2c19b55bce9b0f7733d6456dd1442042f63cf3f7"
+    },
+    {
+      "path": "controller/main_controllers.json",
+      "size": 18347,
+      "sha256": "948ce21f00e51f8471444df13f4ab51c0a5a7018c16c30954437d843f7ae1349"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 91135,
+      "sha256": "32b01ad910a9fcd58176945c6ad51c3f71f38b2a248f562ae3514a10c2c950dc"
+    },
+    {
+      "path": "models/horse.json",
+      "size": 182831,
+      "sha256": "5a9167a0b184672e3e565b2d308ae2beaea4c9582258ef4996232cf0474b1e07"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1372367,
+      "sha256": "61e80502c8d1d056316dac94fbbaa891dcae3ed7fe912d082d4a904f7b71e51b"
+    },
+    {
+      "path": "sounds/fxsd.ogg",
+      "size": 210162,
+      "sha256": "a4f26d55551ca1d5bbf1002cf89b6e4458277f7f6ca63be7056e522c31175431"
+    },
+    {
+      "path": "sounds/gzqs.ogg",
+      "size": 2467706,
+      "sha256": "1b9b5d8a9540646c933059110ca31929fe407566a3bdc20a28a5116fb7150646"
+    },
+    {
+      "path": "textures/gui/background.png",
+      "size": 777,
+      "sha256": "6b61657270a76e0fd6fb74b441a275165de16ee8d31c6aa64b9673379b20daf1"
+    },
+    {
+      "path": "textures/gui/foreground.png",
+      "size": 357,
+      "sha256": "589c9f47ae997965b1df10cb60b571d7d8b27bf437cd8f97a5c8141cdbadc0c1"
+    },
+    {
+      "path": "textures/horse.png",
+      "size": 2382,
+      "sha256": "73fcb86c46dc9b405ddb0504ed5d27973a56b95ae1b846d63944f21d5cce3d8d"
+    },
+    {
+      "path": "textures/nomarl.png",
+      "size": 33218,
+      "sha256": "606e373e3978f070d921309ca8672f23466b2bb2c25f8cea6a06e9d04d4f1fbd"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3231,
+      "sha256": "a395fbb7323ff3c97d6bd705bf3a95c737c2e29bcc1c216bbcf4a42bf49a7f61"
+    }
+  ]
+}

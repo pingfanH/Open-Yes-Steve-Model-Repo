@@ -1,0 +1,149 @@
+{
+  "id": "Ak_Ptilopsis",
+  "path": "parsed/Ak_Ptilopsis",
+  "source": {
+    "path": "_Arknights/Ak_Ptilopsis.ysm",
+    "type": "ysm",
+    "stem": "Ak_Ptilopsis"
+  },
+  "ysm": "parsed/Ak_Ptilopsis/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/映白L.png",
+        "comment": "感谢使用我的模型，若有问题可在B站或爱发电私信反馈",
+        "name": "映白L",
+        "role": "作者"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.net/a/ehaku",
+      "home": "https://space.bilibili.com/10208258"
+    },
+    "name": "白面鸮 - 免费版",
+    "tips": "莱茵生命数据维护员白面鸮启动完成，请输入命令行进行操作。\n§8--支持作者请在爱发电搜索 映白 噢~"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "掷骰子",
+      "extra1": "挥手",
+      "extra2": "拍手",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "extra5": "赢！",
+      "extra6": "跳舞1",
+      "extra7": "跳舞2"
+    },
+    "default_texture": "default",
+    "preview_animation": "模型选择",
+    "free": false,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Ptilopsis_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9111,
+      "sha256": "f27bb035b2deab7793e5ed0084ab4d69e82a9a2b98c47e4ce586511565b34503"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 1071095,
+    "sha256": "97a89cc95c3c5386798865d8512ae0008be7fc89d3a97a71cfcd55ad84eba9a2",
+    "bones": 134,
+    "cubes": 543,
+    "faces": 3101,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 214208,
+      "sha256": "9e0915c83cb5521461eac697db8e90854e640ff82c6c2dd85dbf5ee3bfcd41c5"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3362,
+      "sha256": "08b262ada6ba8fccf25a266a4ef9cb56f744564b3e336a2edf6fee7443b4ab03"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 132650,
+      "sha256": "13e99e2847e616b3720aab1fb035e5e8a06f56d403b1a126b77f22945c9ed8d4"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 220440,
+      "sha256": "08a8aad4c05d540696e796cc320910ed1bcea36b511abc6b1ba0b31d4648db71"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 142773,
+      "sha256": "caf04fb2e28bf4210784625e63c700461ef8337cc0311e785681b48b7d63fba0"
+    },
+    {
+      "path": "avatar/映白L.png",
+      "size": 35784,
+      "sha256": "cd850fdc2a5099ad38ebcdd80ee5eb816c6d6320ab8d95072d037b4d9881b369"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 22686,
+      "sha256": "1b5dbb5d290dfb3f8c9b554427c517d69d0858fff4c2125b0413d511dd944521"
+    },
+    {
+      "path": "models/main.json",
+      "size": 272352,
+      "sha256": "c151b9dafe96cc7edfec2b55d69dbbcbf17746f948bf3503cc408f89a19e6c3f"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 25645,
+      "sha256": "7856b81305120e63a67b8c25b7462aa4e584b8e7f91e00503e8af2b51a79099d"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1195,
+      "sha256": "ba00f53bddc68b11d85bee4eb4a102a30db31345eca5e72764fd08507fab81b3"
+    }
+  ]
+}

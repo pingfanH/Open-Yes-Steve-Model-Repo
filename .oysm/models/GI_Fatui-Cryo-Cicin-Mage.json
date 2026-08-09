@@ -1,0 +1,140 @@
+{
+  "id": "GI_Fatui-Cryo-Cicin-Mage",
+  "path": "parsed/GI_Fatui-Cryo-Cicin-Mage",
+  "source": {
+    "path": "_GenshinImpact/GI_Fatui-Cryo-Cicin-Mage.ysm",
+    "type": "ysm",
+    "stem": "GI_Fatui-Cryo-Cicin-Mage"
+  },
+  "ysm": "parsed/GI_Fatui-Cryo-Cicin-Mage/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/_Unknown_.png",
+        "comment": "",
+        "name": "<Unknown>",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "name": "冰萤术士",
+    "tips": "奇怪的冰萤术士，比其他的冰萤术士多了一分……可爱？"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra11": "坐下",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "认可",
+      "extra4": "否认",
+      "extra5": "加油",
+      "extra6": "舞蹈1",
+      "extra10": "poss",
+      "extra9": "祈祷",
+      "extra0": "穿脱外套",
+      "extra7": "护盾",
+      "extra8": "穿脱眼罩"
+    },
+    "extra_animation_classify": [],
+    "preview_animation": "gui",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Fatui-Cryo-Cicin-Mage_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7548,
+      "sha256": "5fe5219b1020a3a8d6346b76968e6d358e00f94d42d5b36a8e8f301017653d22"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 1013117,
+    "sha256": "3439c0366ae0e7d708dc15c6550827b72d397c5952f7dfc529782bba112f9618",
+    "bones": 101,
+    "cubes": 664,
+    "faces": 3984,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 176003,
+      "sha256": "a7a3b3ee0357730f214789e01aeeb40abe72a0e11cd3fde6709f2e2e28757459"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 37400,
+      "sha256": "d8729a4133a208f220af359c1a39f355312653d682362d85cb4c7542b8e9e282"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 210927,
+      "sha256": "cd62dcd2fa65246c98aa22dd5a34b49e98d903753eacfbcf69d8df54ce593788"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 5290,
+      "sha256": "9b58f377d01dea77fd68b9f548ddb6060b585a55ef2a6e08a1da189c56e5cfee"
+    },
+    {
+      "path": "models/main.json",
+      "size": 352961,
+      "sha256": "268ec6cfe1016ff7eee4ac97e6527224c72898858f61fb65260dc8848c5e8975"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 47285,
+      "sha256": "25c761ffa3af1b32b9b5c9a7dc7e92abb9239281b8155d41f1e3c0483e1881a4"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1044,
+      "sha256": "724e69154c754e407d77e4b00b450d9d8dc6515cd60163078acb599f0624d34e"
+    }
+  ]
+}

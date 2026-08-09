@@ -1,0 +1,215 @@
+{
+  "id": "Chinese-math-textbook_RuiRui_1.3",
+  "path": "parsed/Chinese-math-textbook_RuiRui_1.3",
+  "source": {
+    "path": "Uncategorized/Chinese-math-textbook_RuiRui_1.3.ysm",
+    "type": "ysm",
+    "stem": "Chinese-math-textbook_RuiRui_1.3"
+  },
+  "ysm": "parsed/Chinese-math-textbook_RuiRui_1.3/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/源石姬变体(raw_chicken).png",
+        "comment": "一块油炸大姬排",
+        "contact": {
+          "Afdian": "https://afdian.com/a/rawchicken",
+          "Bilibili": "https://space.bilibili.com/219540765"
+        },
+        "name": "源石姬变体(raw_chicken)",
+        "role": "模型/动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC SA"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/rawchicken",
+      "home": "https://space.bilibili.com/219540765"
+    },
+    "name": "锐锐",
+    "tips": "§3毒舌小学霸，数学小能手，怼人专业户\n§f护甲可脱效果：\n头盔：无，胸甲：无，护腿：白丝，靴子：小皮鞋\n§c注：YSM只是加载模型用的MCMOD，本身不包含任何不规范内容。模型制作者或者使用者的个人行为，与MOD作者无关"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "settings1": "#模型配置",
+      "settings2": "#体型配置",
+      "extra0": "变身",
+      "extra1": "打招呼",
+      "extra2": "打咩",
+      "extra3": "嗯嗯",
+      "extra4": "pokedance",
+      "extra5": "§7默认",
+      "extra6": "pose",
+      "extra7": "舞蹈",
+      "extra8": "doodledance"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "模型配置",
+        "name": "§3模型配置",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "§a爱心眼显示",
+            "description": "勾选后会显示爱心眼",
+            "value": "v.roaming.heart_eye"
+          },
+          {
+            "type": "checkbox",
+            "title": "§a吐舌显示",
+            "description": "勾选后会变成吐舌表情",
+            "value": "v.roaming.hot_mouth"
+          },
+          {
+            "type": "checkbox",
+            "title": "§a红晕显示",
+            "description": "勾选后会显示大红晕",
+            "value": "v.roaming.large_blush"
+          },
+          {
+            "type": "checkbox",
+            "title": "§a猫爪爪",
+            "description": "勾选后会显示猫爪手套",
+            "value": "v.roaming.c_paw"
+          }
+        ]
+      },
+      {
+        "id": "体型配置",
+        "name": "§3体型配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "身体⼤⼩",
+            "description": "⽤来调整玩家的⼤⼩",
+            "value": "v.roaming.root_scale",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 100.0
+          },
+          {
+            "type": "range",
+            "title": "身体⼤⼩（反向）",
+            "description": "⽤来调整玩家的⼤⼩",
+            "value": "v.roaming.root_scale_reverse",
+            "step": 0.01,
+            "min": 0.0,
+            "max": 1.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "锐锐",
+    "preview_animation": "preview",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/锐锐.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Chinese-math-textbook_RuiRui_1.3_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9097,
+      "sha256": "80d5f008fd1a4785775fffb74228a17505e55d2f6775cab8435d5db8fea15a96"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 1724722,
+    "sha256": "c004fba3ddebed9f4a93384893f37592e7b00c4df2e72cee1cdebb6f8c3d3ac4",
+    "bones": 268,
+    "cubes": 1816,
+    "faces": 10896,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 164176,
+      "sha256": "8b890c03a1b6badc8f5a3148151d8ee09402fb965e41a46fc0476a757a0d6ba8"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 143152,
+      "sha256": "330f821feba2d280ba77dcc825c3c8ca9dfbf9f6b9b2cb70ab81c0f8819d44a1"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 187037,
+      "sha256": "9339346a138e4afc6a0fb986e6c7e201afa0495b1c3e197f921142807bcacbc9"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "avatar/源石姬变体(raw_chicken).png",
+      "size": 101464,
+      "sha256": "445de467889ef7d32e2e2ceb6ac63301fc555ca3a6dd35dbbd00e7ef0980b683"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 19333,
+      "sha256": "7968d71a3f455467fac4edd835cdf0f0bdccb53ca129ebaccf52e626ac02e4aa"
+    },
+    {
+      "path": "models/main.json",
+      "size": 948049,
+      "sha256": "922369c4371b6bc12f8af0e8ba5f553f6670263bd51a07b993e633cb97ee2a9d"
+    },
+    {
+      "path": "textures/锐锐.png",
+      "size": 22673,
+      "sha256": "c0a36d146f91820e6d5d8a0577639f1149eaabd3b79c228b058bfec4165213ca"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2558,
+      "sha256": "871d59a86c0ef663f2a88f797877b992414db643c071fc1536f791b643c556af"
+    }
+  ]
+}

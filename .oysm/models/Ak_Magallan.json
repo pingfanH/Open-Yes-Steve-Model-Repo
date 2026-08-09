@@ -1,0 +1,105 @@
+{
+  "id": "Ak_Magallan",
+  "path": "parsed/Ak_Magallan",
+  "source": {
+    "path": "_Arknights/Ak_Magallan.ysm",
+    "type": "ysm",
+    "stem": "Ak_Magallan"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "麦哲伦",
+    "tips": "她摁下按钮后会发生很多事情，但其中绝对不包括爆炸。",
+    "authors": [
+      {
+        "name": "映白L"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Magallan_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8705,
+      "sha256": "34c42789ce9437c99b0237bd4fed05c3b190c7e118e9b07fe22ad8067cd57773"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 784549,
+    "sha256": "e66c38245c7f39df9f334b645577551ea0a215ba35efa8b1a437e5f6a8d17345",
+    "bones": 118,
+    "cubes": 464,
+    "faces": 2784,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 42170,
+      "sha256": "7b1e475ac70b76c556badbfb01bb284fcfe453a8e9310aeefbae1b55f8bf742c"
+    },
+    {
+      "path": "arm.json",
+      "size": 26116,
+      "sha256": "9a323969046c0347dbc5a3cf0c9f67dc8e5aecdd89a53bfad7653dd94fa4b1ef"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 144781,
+      "sha256": "d61c239e755dae6878b03df39836f5b89e42811065594bbb5e9209bc6fe7b87d"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 159259,
+      "sha256": "b8d7a2b10c9e6645d2ce376a5592852e15b361c49d41c0553237f63236c48310"
+    },
+    {
+      "path": "main.json",
+      "size": 230479,
+      "sha256": "b996902424f981693da2e21fb6aa889cd70b9d1b45973843ce4e31dd10ebaba6"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 164729,
+      "sha256": "4d768f5e5f3c3df8024e4ed2c5d352dfef6909b34c7ad5023ff018c881f166f6"
+    },
+    {
+      "path": "texture.png",
+      "size": 17015,
+      "sha256": "53d53b15cd7123dd2faf643e46fd3c50654ecd61f86c12fc1b84a9e7c8a6738d"
+    }
+  ]
+}

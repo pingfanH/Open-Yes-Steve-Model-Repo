@@ -1,0 +1,78 @@
+{
+  "id": "Nar_Obito_0",
+  "path": "parsed/Nar_Obito_0",
+  "source": {
+    "path": "_Naruto/Nar_Obito_0.zip",
+    "type": "zip",
+    "stem": "Nar_Obito_0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Nar_Obito_0"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Nar_Obito_0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9919,
+      "sha256": "bbb6c192e2934ba73266f379bf6fba8d16e2a9954f01596f108a06878b41de83"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 320295,
+    "sha256": "93deb112752da721df61377162bd21ffbf6b65f3382bb86e7de9bdf6516c4b3e",
+    "bones": 82,
+    "cubes": 284,
+    "faces": 1704,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 12449,
+      "sha256": "9c7ace137c91905443b3680922253965821255b92670a9863354f4d23830d038"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 154080,
+      "sha256": "482973d437fe42df601e3a1fe2f84bcad6b970d0003e8cd5e084d6283b62ab99"
+    },
+    {
+      "path": "main.json",
+      "size": 132235,
+      "sha256": "35251a4b26d14ae080fc1194e580d3b43dd97a5a63f4009bd8d92237266d6efd"
+    },
+    {
+      "path": "texture.png",
+      "size": 21531,
+      "sha256": "0bdc502661674afe80363c3d5df7b6e32e92a53db1b7cff14fed53c4592b8f90"
+    }
+  ]
+}

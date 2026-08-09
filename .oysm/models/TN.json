@@ -1,0 +1,185 @@
+{
+  "id": "_TN酱",
+  "path": "parsed/_TN酱",
+  "source": {
+    "path": "Uncategorized/_TN酱.ysm",
+    "type": "ysm",
+    "stem": "_TN酱"
+  },
+  "ysm": "parsed/_TN酱/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/支离破碎的TN酱.png",
+        "comment": "约稿请甲方自带价，偏贵",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/77479483"
+        },
+        "name": "支离破碎的TN酱",
+        "role": "oc方"
+      },
+      {
+        "avatar": "avatar/兔兔猫officials.png",
+        "comment": "关注兔兔猫喵",
+        "contact": {
+          "Afdian": "https://ifdian.net/a/RABET",
+          "Bilibili": "https://space.bilibili.com/13875779"
+        },
+        "name": "兔兔猫officials",
+        "role": "全部（）"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://space.bilibili.com/3546785165347464",
+      "home": ""
+    },
+    "name": "TN酱",
+    "tips": "§l§f我§3不知道§7这里该写啥，如果§3你§7想§3自§4定§b义§7的话就把§6文案§7发给§f我"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "变身",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "是的",
+      "extra4": "不行",
+      "extra5": "卖萌",
+      "extra6": "御笔摇",
+      "extra7": "舞蹈"
+    },
+    "extra_animation_classify": [],
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/TN_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7713,
+      "sha256": "7ca818b43f5258442fc27ce54ad693fc8410ffa69b7a05dc35c5409aee8b1c32"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 881035,
+    "sha256": "0a3e0ae8ba5266c4f6031811e847edca972848190acf759da31f7f0d30d7a453",
+    "bones": 96,
+    "cubes": 189,
+    "faces": 1134,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1138,
+      "sha256": "6ef6791b2b391fc30bb2f74f26eb09de94e2a382c535202f5d736eb89d37577d"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "6e8d3afe0c3baafff8f7f3e0e30ef3c621c667be5c346af73398f5fd3cb89ca5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 118920,
+      "sha256": "3da9a925066ba91aa8470c4ed7d6b4312d040b96a0aacc3f213e8b4f8b7a2566"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 305949,
+      "sha256": "ed083f2301fe93c9ae45cace3242d7d8b47944e04394a601c44788aaaf37d631"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 158827,
+      "sha256": "266108ae157d56e13e3a75558297cc806770d9764e1bded2dd10663a28a7ac47"
+    },
+    {
+      "path": "avatar/兔兔猫officials.png",
+      "size": 115873,
+      "sha256": "90b9e858933bbf9e8916e7bc4bcba4d4cc58cec03aaf8277b0e6f252d55d3d94"
+    },
+    {
+      "path": "avatar/支离破碎的TN酱.png",
+      "size": 40298,
+      "sha256": "c3242995641cdd1b9c9a7bbd893a67a1cbb653bfea2ecbc7ea88366125f3a3c9"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 7490,
+      "sha256": "02a4fefcf4e3dba8f48fdb90cebc3954c54e1be6a8138950ade76f959c73743d"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 102792,
+      "sha256": "584eb032d6eb24050bc48a091f980f7324c6a3ec77d0da95ebce7274d114e090"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 17710,
+      "sha256": "956158f491856115347646fc406d8d0c875bbe2ce7f74c38c8bd62459b7ea752"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1549,
+      "sha256": "a7657db91b3d98475aee45acaff4f26e8bd2a927c07be5b2b501c6ce6b8210c5"
+    }
+  ]
+}

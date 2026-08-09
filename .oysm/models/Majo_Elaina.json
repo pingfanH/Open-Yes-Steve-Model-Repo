@@ -1,0 +1,152 @@
+{
+  "id": "Majo_Elaina",
+  "path": "parsed/Majo_Elaina",
+  "source": {
+    "path": "_MajoNoTabitabi/Majo_Elaina.ysm",
+    "type": "ysm",
+    "stem": "Majo_Elaina"
+  },
+  "ysm": "parsed/Majo_Elaina/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/NekuroMC.png",
+        "comment": "Hello",
+        "contact": {
+          "Planetminecraft": "https://www.planetminecraft.com/member/nekuromc/",
+          "Sketchfab": "sketchfab.com/NekuroMC/models"
+        },
+        "name": "NekuroMC",
+        "role": "Author"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://ko-fi.com/nekuromc",
+      "home": "https://www.planetminecraft.com/member/nekuromc/"
+    },
+    "name": "Elaina 2.0",
+    "tips": "Wandering Witch - Check out my other models at PMC"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        },
+        {
+          "uv": "textures/nohat.png"
+        },
+        {
+          "uv": "textures/nohatnobag.png"
+        },
+        {
+          "uv": "textures/nobag.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Majo_Elaina_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13410,
+      "sha256": "7ab4202df5af3e1d5745958a05af074190418e109bcf64f608c1a3c3bf71cb72"
+    }
+  },
+  "stats": {
+    "file_count": 11,
+    "total_bytes": 899705,
+    "sha256": "2f4345423410ee7c21de7c68809fa98615322b298f89ea6f64498ad315048f1f",
+    "bones": 112,
+    "cubes": 457,
+    "faces": 2742,
+    "textures": 4,
+    "materials": 4,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 124982,
+      "sha256": "18c316c78e8814070156c2f190c90d764f005fe5ff4e8b0dd7c2175510d9b955"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 157316,
+      "sha256": "c82ae39e57e3a09990127a825d41914a41eb13ff4c40b05a819b9107cbc5ae7c"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "avatar/NekuroMC.png",
+      "size": 161044,
+      "sha256": "14c258b692cd42d805dcfed883167c80c94286f28e0e079e936e96b575953595"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 19608,
+      "sha256": "9e96ae3f1240f4138a19110eca2b109cacd55311dc02db34064afd61419592c6"
+    },
+    {
+      "path": "models/main.json",
+      "size": 227148,
+      "sha256": "0f6e79b33bc7bf040e8554674029dc1b8be3d8b91e86c37c8396bc682c3b009c"
+    },
+    {
+      "path": "textures/nobag.png",
+      "size": 19634,
+      "sha256": "1500c1da4ad6050db44e28bb44510c1f9bf647adeabc8ba89ed148d11a567dae"
+    },
+    {
+      "path": "textures/nohat.png",
+      "size": 18048,
+      "sha256": "6ead26cbcb8d26835ea087e0e34078a1de5577da8e239e229583b86b18c89f8d"
+    },
+    {
+      "path": "textures/nohatnobag.png",
+      "size": 17331,
+      "sha256": "3f4ad595da62fa42a631179c61793284f7d0c6e93f453bfdcde6d89df5ab16d6"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 20078,
+      "sha256": "3b57030bec7a0f1d82cf28f5c40cbc356058f77d4c0034b5ee46b5f850dc3524"
+    },
+    {
+      "path": "ysm.json",
+      "size": 910,
+      "sha256": "d1640457a291b4417ec655109db9b19627254b542bec36ad1a43d51da6a71dbe"
+    }
+  ]
+}

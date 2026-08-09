@@ -1,0 +1,113 @@
+{
+  "id": "BA_Asuna(Mini)_v1.0",
+  "path": "parsed/BA_Asuna(Mini)_v1.0",
+  "source": {
+    "path": "_BlueArchive/BA_Asuna(Mini)_v1.0.ysm",
+    "type": "ysm",
+    "stem": "BA_Asuna(Mini)_v1.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "BA_Asuna(Mini)_v1.0"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png",
+        "texturea.png",
+        "textureab.png",
+        "texturec.png",
+        "textured.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "model": "model.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Asuna_Mini__v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4840,
+      "sha256": "94cf1f5180e7015d23ac225284681b2a33463cfcff5deee1b4b9723732e2445d"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 1824991,
+    "sha256": "926e15c5a2a99c0d61665b1e4a34600b09d8260d62b9d914deac1e1f58589b00",
+    "bones": 77,
+    "cubes": 132,
+    "faces": 792,
+    "textures": 5,
+    "materials": 5,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "a.bbmodel",
+      "size": 1464822,
+      "sha256": "40bbaf28dab551f7d73b847ddf641748dd81241d5e4251380902c94657caa5be"
+    },
+    {
+      "path": "arm.json",
+      "size": 2208,
+      "sha256": "97a48292212c6d4365e509e1ab59ab521ad51c7be7b518d6cc8fe3f9717931d2"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 158373,
+      "sha256": "0fad1fbf8daef371216c5f06186ed59b46292132cdaff01831467c166c5a0b84"
+    },
+    {
+      "path": "main.json",
+      "size": 22408,
+      "sha256": "cf8a724253de8eb2b5af5dabafbcb7673b44d0e9b349a523221e2331545cbd38"
+    },
+    {
+      "path": "model.animation.json",
+      "size": 158345,
+      "sha256": "b8de9d883db9d7a5f6f9e41a3b5445d8a0f59659dfa071abd5a5a134da12645b"
+    },
+    {
+      "path": "texture.png",
+      "size": 4616,
+      "sha256": "f3e6a9a782594fc0350f07a48d85d3131154649603f85cc86dbd89eb30ecd713"
+    },
+    {
+      "path": "texturea.png",
+      "size": 4451,
+      "sha256": "48cf395864e06e15016877a5503b8f95c519f222a4d1a98da9b0a9fd88055dca"
+    },
+    {
+      "path": "textureab.png",
+      "size": 4319,
+      "sha256": "83f731e9afcc44c985f17c62ea5901db66e2904ad5a0fc1819d7e669e8133a1b"
+    },
+    {
+      "path": "texturec.png",
+      "size": 2682,
+      "sha256": "829a6dfe12c0d78747fca405867d1506ccc3f8c1814a53006a87ab9683e75350"
+    },
+    {
+      "path": "textured.png",
+      "size": 2767,
+      "sha256": "ff7efcbbbdd62f593408e48291072d38408e87a61511ede41f4a434193e3f61c"
+    }
+  ]
+}

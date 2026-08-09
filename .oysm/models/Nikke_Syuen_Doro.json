@@ -1,0 +1,93 @@
+{
+  "id": "Nikke_Syuen(Doro)",
+  "path": "parsed/Nikke_Syuen(Doro)",
+  "source": {
+    "path": "_Nikke/Nikke_Syuen(Doro).zip",
+    "type": "zip",
+    "stem": "Nikke_Syuen(Doro)"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "doro 舒恩",
+    "tips": "doro！dorodoro！",
+    "authors": [
+      {
+        "name": "作者——雒仁"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "shuen.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Nikke_Syuen_Doro_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 31856,
+      "sha256": "64234d0963bb9d5a8d7a7ad11958c695c037d795dcbc88731c31883b52860647"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 267520,
+    "sha256": "5226edc6607bc75814a07de09fbc90b5ec756680b18c8652d9fdbdfe9469d9fc",
+    "bones": 6,
+    "cubes": 3,
+    "faces": 18,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 799,
+      "sha256": "4286d6b8b6669c732ee455f500b76077363be744a62be4875bd41b9b59538cb4"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 740,
+      "sha256": "7a4f1485d9911009b23e972a0d88da1f2bc7cfed3dae075c8d7852e7f6c6c2b1"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 134274,
+      "sha256": "d766638c7f01459eb336d786f8a63496aaed649b683b18afdc0680f5182c33eb"
+    },
+    {
+      "path": "main.json",
+      "size": 2016,
+      "sha256": "bcb09e27ec6cd42bf38bf4a00fc9e17cdeada04a5d1ce5ec54ae64a1bb0f3e70"
+    },
+    {
+      "path": "shuen.png",
+      "size": 129691,
+      "sha256": "cc06c0010287798b47dd77b41af0713731b4fe509e51e5e5c661aaa796f466f5"
+    }
+  ]
+}

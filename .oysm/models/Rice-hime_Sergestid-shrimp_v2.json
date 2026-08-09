@@ -1,0 +1,90 @@
+{
+  "id": "Rice-hime_Sergestid-shrimp_v2",
+  "path": "parsed/Rice-hime_Sergestid-shrimp_v2",
+  "source": {
+    "path": "_Dong-JinRice-hime/Rice-hime_Sergestid-shrimp_v2.ysm",
+    "type": "ysm",
+    "stem": "Rice-hime_Sergestid-shrimp_v2"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "絢樱",
+    "tips": "b站：嗯嗯owo",
+    "authors": [
+      {
+        "name": "嗯嗯owo"
+      },
+      {
+        "name": "星屑海螺"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Rice-hime_Sergestid-shrimp_v2_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8192,
+      "sha256": "67b369f43447b46a87b91406e01153423c1b1a5648d19d7f1c858624edeaa6fd"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 649335,
+    "sha256": "2983d58725bd9e43ab777578feb240f3195262fc27bee693ebbffdf0fb3a7a97",
+    "bones": 185,
+    "cubes": 784,
+    "faces": 4704,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 9326,
+      "sha256": "939a52d8e188f9206b0cacebef0a9a707abda494d6d37f58b3aa3a473aaf6711"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 197421,
+      "sha256": "1a3c08cbd511bc72d92844411207928d06b68db09e039e5fba34b74a974c3278"
+    },
+    {
+      "path": "main.json",
+      "size": 421576,
+      "sha256": "295974f765343fccc4b1dd48d25d30ad78d3e1a5321da176c5ea3219c0d55f60"
+    },
+    {
+      "path": "texture.png",
+      "size": 21012,
+      "sha256": "eac280dea75a8280e0ce5d4d3f2405e11d9d7e972138ac7fe16b9f35fba698e4"
+    }
+  ]
+}

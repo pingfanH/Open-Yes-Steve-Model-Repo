@@ -1,0 +1,240 @@
+{
+  "id": "_Jihoon",
+  "path": "parsed/_Jihoon",
+  "source": {
+    "path": "Uncategorized/_Jihoon.zip",
+    "type": "zip",
+    "stem": "_Jihoon"
+  },
+  "ysm": "parsed/_Jihoon/ysm.json",
+  "metadata": {
+    "name": "Jihoon",
+    "tips": "<Unknown>",
+    "license": {
+      "type": "All Rights Reserved"
+    },
+    "authors": [
+      {
+        "name": "Tanaka",
+        "avatar": "avatar/__curian_counter_side_drawn_by_tktk_tnk__sample-6e75a9ca43bfff47ed9b51572df77a21.png",
+        "contact": {
+          "Afdian": "https://afdian.com/a/t4n4k4"
+        }
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/t4n4k4"
+    }
+  },
+  "properties": {
+    "height_scale": 0.65,
+    "width_scale": 0.65,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "#extra_classify": "Extra Classify"
+    },
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "Simple Config",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3
+          }
+        ]
+      }
+    ],
+    "preview_animation": "idle",
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true,
+    "disable_preview_rotation": false,
+    "all_cutout": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/main.animation_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": {
+        "uv": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Jihoon_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6895,
+      "sha256": "6d5e031176ea7043573959d2e6415109f4f7895235175fd49786d9e9bd264787"
+    }
+  },
+  "stats": {
+    "file_count": 20,
+    "total_bytes": 2986153,
+    "sha256": "f43d7608c742d14a19eb1616947977785694e02de3e131a2b1257a205a28dfba",
+    "bones": 116,
+    "cubes": 536,
+    "faces": 3216,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 190373,
+      "sha256": "8c43dd4c3a7ed305183ccd84e7316a5f1cd836ff13c43b15ed2e84a20fae0b43"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 695,
+      "sha256": "cd2be5d42efea2613f8fbe541e3c8600c0d1edb11051924675bdc2f7955d24d5"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2917,
+      "sha256": "f1b559bb714f40be566b02e1b8dd44c2cc380783e0e8a480c89a8378caa05b96"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 120100,
+      "sha256": "257c5b79c1f1833a248735f32d17567b00093a3c25c2591b6476c2ba65d329f3"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 179417,
+      "sha256": "c445fe34c42325b63fc2fa85fddc3eb2388fc81f18e79f01490f9ce94eb13a36"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 176050,
+      "sha256": "9ecf075152538c1a7ac0bcd61f40bbd607a523c184a009c37cd37e23611b2913"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1598799,
+      "sha256": "d50e8b37390c62f09b1a9af1ef4c4d95fcf0063050f7b1fd5cacc3ff682b5604"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 212304,
+      "sha256": "002ae25fb2d72e0ed6a0749e0c0a58776fe3e403c7f2b00ea0e6c64c4187184c"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 63606,
+      "sha256": "8e38e0d04193f5023f619ba64d847eee7cb675291c0747f98292656a028dacf7"
+    },
+    {
+      "path": "avatar/__curian_counter_side_drawn_by_tktk_tnk__sample-6e75a9ca43bfff47ed9b51572df77a21.png",
+      "size": 20558,
+      "sha256": "be09f7051acf3e8660265ec59c18f95d85276b8c7a88eb948bdf466ce1cb173e"
+    },
+    {
+      "path": "avatar/gsl.png",
+      "size": 4738,
+      "sha256": "0bf76a1ba896f709839f9c35bb62852350b4b0f110bc9a1c4c4c5acc99f25188"
+    },
+    {
+      "path": "controller/main.animation_controllers.json",
+      "size": 810,
+      "sha256": "ff546eb7847ecbb59ce3f43189c005e61db5ccf749dfc4f11b5d978f82b4d106"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 30006,
+      "sha256": "8766e9aa0f8c6f1de8d4d1de15626da3299f6ca0685505b32c0df2db9c757b6e"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 18733,
+      "sha256": "1070aa5589ae3df1c5abf95a40f9de47ce2ca1df6b234ddbea96f568d1829c7a"
+    },
+    {
+      "path": "models/main.json",
+      "size": 291160,
+      "sha256": "4e2aaa78f5d2e55b782466688976e015df5ee929c15de3bf96596dede6014b2c"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1213,
+      "sha256": "0ecda6c1557cf3571289a3212c93e125d8b075cc37ac62f14dad852d83a576ec"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 4210,
+      "sha256": "7145bb7042e2a47da62ca4bb9197089bacaf7a254acb4e99da261e42429f1b5f"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 27124,
+      "sha256": "6c47c31c8e715064475269c371ad5ddee0d6bb6af2a969b6cf5d4192156bc44e"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2310,
+      "sha256": "44b07eccf499f075aab703235bb93213dc6134149fedd4d236a2a9d4e1bc2d93"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "GI_Paimon",
+  "path": "parsed/GI_Paimon",
+  "source": {
+    "path": "_GenshinImpact/GI_Paimon.ysm",
+    "type": "ysm",
+    "stem": "GI_Paimon"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§6应急食物派蒙",
+    "tips": "小♂小♀的也很可爱捏",
+    "authors": [
+      {
+        "name": "§c烈鸟比百§8（模型）"
+      },
+      {
+        "name": "§b御神§8（模型）"
+      }
+    ],
+    "license": {
+      "type": "All Rights Reserved"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "default.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Paimon_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12597,
+      "sha256": "b6fde6e15cdcc71d6adcf51b77d2190e15f42ea42c22a77d2809248eac380983"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 917696,
+    "sha256": "df9b17e81e23846e9895b50b86a9681b6af28c79810e0781c04e500a46ed2e33",
+    "bones": 56,
+    "cubes": 419,
+    "faces": 2514,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 91,
+      "sha256": "a7c246495beaffe9733d903936d163adcb1e5ba1bcfcfaa6c9efbd051bd32222"
+    },
+    {
+      "path": "arm.json",
+      "size": 29320,
+      "sha256": "998cc7496c827ca9e0dac7c7ed935ae5682a6113e14ed49d61e085e5e1a4ee99"
+    },
+    {
+      "path": "default.png",
+      "size": 15270,
+      "sha256": "98a3422a8399a8389ffb6d821423084d8663ceae7db9a26e818dfd38d0fa6cd5"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 73397,
+      "sha256": "6f932308431b46db621a5e02f0bab7e097073d9174b726d57292ef78c9b0a24d"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 147378,
+      "sha256": "36cceb4cb8732696d3037b5d388c92ba36147df1df6ce0abcb3a01be6b63cf74"
+    },
+    {
+      "path": "main.json",
+      "size": 200388,
+      "sha256": "15e809a9c30e6a0e63381f5a53094d6b5042e83af9ec549cd60280e8cc175c47"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 141762,
+      "sha256": "2b4458e3b40de3b0019765b0ea739a00e09ba27f7f0e77d1167385d25e56adad"
+    },
+    {
+      "path": "派蒙.bbmodel",
+      "size": 310090,
+      "sha256": "d8015b9a7601baa6157998737e37bd5788aa8e78e0b3f40ed4db64cae7a25c8b"
+    }
+  ]
+}

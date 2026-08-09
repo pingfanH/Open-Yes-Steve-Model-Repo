@@ -1,0 +1,96 @@
+{
+  "id": "UM_McQueen",
+  "path": "parsed/UM_McQueen",
+  "source": {
+    "path": "_UmaMusume/UM_McQueen.zip",
+    "type": "zip",
+    "stem": "UM_McQueen"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "MC Queen （赛马娘/目白麦昆）",
+    "tips": "该模型为免费模型分享,请勿用于商业用途\n模型作者:伊洛是哥斯拉嘛 QQ:1562437496;\n模型适配:星屑海螺 QQ:741330261",
+    "authors": [
+      {
+        "name": "模型作者:伊洛是哥斯拉嘛"
+      },
+      {
+        "name": "模型适配:星屑海螺"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "mc_queen.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/UM_McQueen_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6677,
+      "sha256": "bf241a30becedcbe3f60b7a1fad6e0774d498e485f1f2e1dd7216310a1805852"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 231327,
+    "sha256": "2632c7ece4218f62843ee29ac3170a268091d99c0f8131d6ec6a084b1871f99d",
+    "bones": 102,
+    "cubes": 243,
+    "faces": 1458,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 2783,
+      "sha256": "9cae1e41b6281d015905f7389fb89c14ddbe01742a00fdc22e93d3e7df70f751"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 8154,
+      "sha256": "2916ef133799d690501a4d245c444beae4145d3effe216b9eae46dc3f434fe40"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 173228,
+      "sha256": "1314411b8008e5964e565c214154718a7f5607a782b8bc9dfc8db40a9382980a"
+    },
+    {
+      "path": "main.json",
+      "size": 38127,
+      "sha256": "8e965d3fe408f3de670f1c4fa5b76da88ada052080ee8fa6f9a60d9d72942b60"
+    },
+    {
+      "path": "mc_queen.png",
+      "size": 9035,
+      "sha256": "80ab7a32c8c33707f64be814598272152df44a948742c57afa65fa5d84027029"
+    }
+  ]
+}

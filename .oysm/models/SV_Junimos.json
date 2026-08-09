@@ -1,0 +1,171 @@
+{
+  "id": "SV_Junimos",
+  "path": "parsed/SV_Junimos",
+  "source": {
+    "path": "_StardewValley/SV_Junimos.ysm",
+    "type": "ysm",
+    "stem": "SV_Junimos"
+  },
+  "ysm": "parsed/SV_Junimos/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/丁真蟹.png",
+        "comment": "",
+        "contact": {
+          "Afdian": "https://afdian.com/a/ZHEN2023",
+          "Bilibili": "https://account.bilibili.com/account/face/upload652519489"
+        },
+        "name": "丁真蟹",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ZHEN2023",
+      "home": "https://account.bilibili.com/account/face/upload652519489"
+    },
+    "name": "Wine Fox（ZHEN）",
+    "tips": " I had a white cigarette in my hand, but I couldn't smoke—— bohemian craze\n爱来自丁真蟹本模型免费。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "§2草！走！忽略/Somersaults",
+      "extra1": "§b蓝色/blue",
+      "extra2": "§4红色/red",
+      "extra3": "§5紫色/purple",
+      "extra4": "§e黄色/Yellow",
+      "extra5": "§6橙色/orange",
+      "extra6": "§0黑色/orange",
+      "extra7": "§c你从丹东来/jump"
+    },
+    "extra_animation_classify": [],
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/skin.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/SV_Junimos_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 1152,
+      "sha256": "9ae2c574974555256cc6454d8bef0f565b026ee0c2e4534190c8bc1cb74634d4"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 1970346,
+    "sha256": "8b1f4319d2bb5e7b84a501734d3e69e4f8782e1e936b8158e5e9f3119a371594",
+    "bones": 117,
+    "cubes": 231,
+    "faces": 1386,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 355,
+      "sha256": "052c5ea7fff4ad48d60239999867efcae084addf36e8e0979259e7deecf13973"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "6e8d3afe0c3baafff8f7f3e0e30ef3c621c667be5c346af73398f5fd3cb89ca5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 17390,
+      "sha256": "80985eb39b65fe8e8388249f34d0c75dc58f743e5af6e309344d8100d8cc2daa"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 1564246,
+      "sha256": "e3590af9eeb2280fe05972361f489a65923e8851694a4c2f9fb68808c73ba95a"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 158827,
+      "sha256": "266108ae157d56e13e3a75558297cc806770d9764e1bded2dd10663a28a7ac47"
+    },
+    {
+      "path": "avatar/丁真蟹.png",
+      "size": 39395,
+      "sha256": "a1ecd94cc4af4bb09bb3de6f0aa9c44c0c51624b49d899851de0d54d6cea1b0c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 3127,
+      "sha256": "acb325214736f3b2cd693a100084ab48a097dd16dc3ba2481d980119312b1d0f"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 10664,
+      "sha256": "95f2a6de37830b578a61fe90bb19d4168f673c10608c61c98de4bc2fcd427264"
+    },
+    {
+      "path": "models/main.json",
+      "size": 129249,
+      "sha256": "1f42b302311f18fa40eb12d42ee9ca3a0318e275b50b0de4f5c191dcd9c7b9ea"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1187,
+      "sha256": "91af115222fb65131cb1cf9ea2c0d5ea76f147751f698864ff544a5461026d40"
+    },
+    {
+      "path": "textures/skin.png",
+      "size": 41751,
+      "sha256": "f089324f6ecad256df328facd6b5bc3f175e6b09f3c9580cf27aeb5efe62d406"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1480,
+      "sha256": "7564e1442825df201c31ea5fad40e1ca0cd5ef95e975edd6bb125fa40351fd44"
+    }
+  ]
+}

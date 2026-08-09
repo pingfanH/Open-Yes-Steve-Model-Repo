@@ -1,0 +1,278 @@
+{
+  "id": "Bandori_Anon-Chihaya",
+  "path": "parsed/Bandori_Anon-Chihaya",
+  "source": {
+    "path": "_Bandori/Bandori_Anon-Chihaya.ysm",
+    "type": "ysm",
+    "stem": "Bandori_Anon-Chihaya"
+  },
+  "ysm": "parsed/Bandori_Anon-Chihaya/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§bLuXi233.png",
+        "comment": "YSM作者",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/183485702"
+        },
+        "name": "§bLuXi233",
+        "role": "模型丨贴图丨动作"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "§d千早爱音",
+    "tips": "§bMyGO!!!!!§f的吉他手，羽丘女子学园高中一年级学生。\r\n§dAnonTokyo§f的创始人。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "同意",
+      "extra4": "哒咩",
+      "extra16": "庆祝，然后变糊",
+      "extra15": "商量一下...",
+      "extra10": "咬牙切齿",
+      "extra11": "爱音唐哭",
+      "extra12": "哈？",
+      "extra13": "还是有一点的...",
+      "extra14": "怎么样我这C和弦",
+      "extra300": "§b碧天伴走",
+      "extra301": "§b春日影",
+      "extra302": "§b毫无活力",
+      "extra303": "§b诗超绊",
+      "extra400": "封面动作"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "羽丘秋季校服和演出服替换: ",
+            "description": "滑条",
+            "value": "v.cloz",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "type": "range",
+            "title": "睫毛切换: ",
+            "description": "滑条",
+            "value": "v.jm",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "type": "checkbox",
+            "title": "黑框眼镜",
+            "description": "用来显示爱音的难绷眼镜",
+            "value": "v.glasses"
+          },
+          {
+            "type": "checkbox",
+            "title": "创可贴",
+            "description": "用来显示灯送的创可贴",
+            "value": "v.ckt"
+          },
+          {
+            "type": "radio",
+            "title": "表情",
+            "description": "鼠标指上显示单选框名",
+            "value": "v.biaoqing",
+            "labels": {
+              "无表情": "v.bq=0;v.t=0",
+              "微笑": "v.bq=1;v.t=1",
+              "虎牙笑": "v.bq=2;v.t=2",
+              "唐笑": "v.bq=3;v.t=3",
+              "开心": "v.bq=4;v.t=4"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "Chose",
+    "free": true,
+    "render_layers_first": true,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Bandori_Anon-Chihaya_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13086,
+      "sha256": "34a472b065ae395d940f227925097877dda5c0c04ab486be038add3a031933a0"
+    }
+  },
+  "stats": {
+    "file_count": 22,
+    "total_bytes": 13837761,
+    "sha256": "51984326bb6a431009ec61c852bec7dd98c8320b676858e0aa81f5d173f9f914",
+    "bones": 163,
+    "cubes": 1070,
+    "faces": 6420,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 179633,
+      "sha256": "66fe59f125f565d972219fb6796caaad2ef03b439181d5b6dab17453fb691ba2"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 409087,
+      "sha256": "1afab8f3bf04e5b707e0014b96c958f6eabd9405260b011eaf7a287e14d2b4e3"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 209479,
+      "sha256": "f12310592316b22c76316c6372637ae2ff34fee260ef96536edf1d2468bee499"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1505299,
+      "sha256": "2cfe596c36beecaa1688b55951b4272e660c066078bb5d95b20240a32a3a20da"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "avatar/§bLuXi233.png",
+      "size": 609469,
+      "sha256": "31416cc64ffcba4fb65f4c5c86986985cd4c8000aa863b55e709dc0b229f376c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 20670,
+      "sha256": "d36074cc1eb90b890a619846c1ba15af0f43df471a2fd76a710606d1992ad46a"
+    },
+    {
+      "path": "models/main.json",
+      "size": 565273,
+      "sha256": "db8198fc6b273a2686399f802da62df9b1dd5f1258d92c24970be3ff4c2549b4"
+    },
+    {
+      "path": "sounds/BTBZ.ogg",
+      "size": 2203349,
+      "sha256": "94a7c1fbb2f55556bacc3e39d247ed9588e52641a711008e1e35830933cebcc0"
+    },
+    {
+      "path": "sounds/CHX.ogg",
+      "size": 73511,
+      "sha256": "5ecde10e3ff6cf6c74bf765189df6e68acc12238b03e99877c90a636cc5f5570"
+    },
+    {
+      "path": "sounds/ChunRY.ogg",
+      "size": 2744326,
+      "sha256": "669bccb4d60332af03c98a12b46a57a32ef097a3549f8f6fa6409b47985091ad"
+    },
+    {
+      "path": "sounds/HWHL.ogg",
+      "size": 2194035,
+      "sha256": "366838e5a47a019eaa4e215246c42635bbb996792224734a0e1fc507c6306cf6"
+    },
+    {
+      "path": "sounds/SCP.ogg",
+      "size": 2335107,
+      "sha256": "305dfd2269818f4e1dd0c52efd089aee6c147b0d96721abfbb25149820a9efdb"
+    },
+    {
+      "path": "sounds/TangCry.ogg",
+      "size": 108488,
+      "sha256": "1bce49d3f5c4e5319baf0a4962ac2630c605e301dc5abab5058cd4a2754bdfb8"
+    },
+    {
+      "path": "sounds/ha.ogg",
+      "size": 15477,
+      "sha256": "d6c232f2a28f41a3448fb2d0a5d9b21d93318a7331ad5401585f284ee4b34752"
+    },
+    {
+      "path": "sounds/slyx.ogg",
+      "size": 27502,
+      "sha256": "dca04816e3c7f72c0cb59b4c28d41fdb89e3270aeab82e9e061df530539d7fc3"
+    },
+    {
+      "path": "sounds/zufolo_impazzito.ogg",
+      "size": 172286,
+      "sha256": "ee80cfe3f9ad70f2bd6b3b735d65c5c356c1119c67c8da4d812c838058ca6990"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 98133,
+      "sha256": "f01b7bca9d664a199314ddbfb99c12fd0ba99749859076c8de14ad0c0f0a45cf"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2465,
+      "sha256": "be559ee534cc0a4b2e8ff5a15347326a7dfc4b4cffd6b4dae3959c774e140e9a"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "PMO_Cuxu_v3",
+  "path": "parsed/PMO_Cuxu_v3",
+  "source": {
+    "path": "Uncategorized/PMO_Cuxu_v3.ysm",
+    "type": "ysm",
+    "stem": "PMO_Cuxu_v3"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "PMO_Cuxu_v3"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "pmo_role_heroinev3.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/PMO_Cuxu_v3_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7039,
+      "sha256": "0812638565f02894ce46e6031863a5478d91e863aa44268e45a1eee21e78e5b8"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 315076,
+    "sha256": "e3649c842d5b25b2c60d162023c76d3c7258c7f839bfeee6534f41306239eb04",
+    "bones": 56,
+    "cubes": 157,
+    "faces": 942,
+    "textures": 1,
+    "materials": 1,
+    "animations": 0,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.bbmodel",
+      "size": 113253,
+      "sha256": "51d401c43e999046a46cc1da7cc06ee3b345c1ddce92dee8a28b4813f8908547"
+    },
+    {
+      "path": "arm.json",
+      "size": 7205,
+      "sha256": "d205f0887ac6e09dcc6bb23c80ff711f1a96c1c04820b03d7dd14f6e53e14d79"
+    },
+    {
+      "path": "main.json",
+      "size": 74095,
+      "sha256": "2ecdcb0f8ffb8a0d948a457dc88b6d3396845912f98b1d0917364025f5f7cf97"
+    },
+    {
+      "path": "pmo_role_heroineV3_YSM.bbmodel",
+      "size": 112291,
+      "sha256": "73122ea5ce15c6f6d95c52857825489c98975ea43cc82f92e32eccfca1e14dc9"
+    },
+    {
+      "path": "pmo_role_heroinev3.png",
+      "size": 8232,
+      "sha256": "3e1f1152ff8da2e3359cb639bb20ffe899125db2718ebd7012facfa8a3883601"
+    }
+  ]
+}

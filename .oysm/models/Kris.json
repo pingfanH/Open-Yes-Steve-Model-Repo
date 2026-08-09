@@ -1,0 +1,147 @@
+{
+  "id": "Kris",
+  "path": "parsed/Kris",
+  "source": {
+    "path": "Unknown/Kris.ysm",
+    "type": "ysm",
+    "stem": "Kris"
+  },
+  "ysm": "parsed/Kris/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/raiden.png",
+        "comment": "i love indie game",
+        "name": "raiden",
+        "role": "create"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "human"
+    },
+    "name": "kris",
+    "tips": "..."
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Kris_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8466,
+      "sha256": "81eec9e317bc7b351a812aa92f11aa328ab8e4d9a93a3f440458c6bf8e16a7d1"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 820941,
+    "sha256": "92dd677a1ebf6eb18a02cbfb7d6f1e821437449cba069e7dfecd0bd69209d939",
+    "bones": 61,
+    "cubes": 296,
+    "faces": 1776,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 180044,
+      "sha256": "2c1b43fcb7082a1c2187279d9ff87df54a704252807985cf616e9f2ac24f3f91"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 109004,
+      "sha256": "ba1e5d1d0e30fc7cec4337358c630cf4f7c89f986f3a98b261c424bd3aecd477"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 200758,
+      "sha256": "8cde234320eee981fdee88e4d18f4be56c3c9d20e5abf99db2f481f467994e63"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 131666,
+      "sha256": "d937d3484f7d28e66237f4445ebb43edcd2cec683b7f68ac581bcf897e45eb3c"
+    },
+    {
+      "path": "avatar/raiden.png",
+      "size": 11591,
+      "sha256": "d8be4eec62740a3910027d610495bef19bb67573ef139d09f8d5a5cacc58c9ca"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 19258,
+      "sha256": "cd97201995f6bf9dbee21451eaa48a572ff91f0ad31bbd7f60ed4435d1afa7d6"
+    },
+    {
+      "path": "models/main.json",
+      "size": 138495,
+      "sha256": "27c7a9ef0ea42820957367916724d9ae6e6d6d8e11c5d6b13d407dde167f3252"
+    },
+    {
+      "path": "sounds/s1.ogg",
+      "size": 20008,
+      "sha256": "f04f3c124742752965c9e982ca42b9be504e2a8aff1a386d9b83ca6953b5a6b1"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 9248,
+      "sha256": "6560bff910317c15c54fd00e7cad57439f82eafd7f6f8718f3216854a3adf0a0"
+    },
+    {
+      "path": "ysm.json",
+      "size": 869,
+      "sha256": "77cb6626ec0d99908eb583e2ef058c69395c0c78592060c6658363957d09ef14"
+    }
+  ]
+}

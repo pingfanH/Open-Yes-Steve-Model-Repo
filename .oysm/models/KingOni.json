@@ -1,0 +1,156 @@
+{
+  "id": "KingOni",
+  "path": "parsed/KingOni",
+  "source": {
+    "path": "Unknown/KingOni.ysm",
+    "type": "ysm",
+    "stem": "KingOni"
+  },
+  "ysm": "parsed/KingOni/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/獒子coco.png",
+        "comment": "兴趣使然的獒子",
+        "name": "獒子coco",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/AOZICOCO",
+      "home": "https://space.bilibili.com/19140392"
+    },
+    "name": "鬼王",
+    "tips": "先进反装甲"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_classify": [],
+    "default_texture": "blue",
+    "preview_animation": "idle",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/KingOni_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11416,
+      "sha256": "3cd332d7377f64c3b4603f42f8a588edde5c9568ef10a39faf07fbb27de9f0c6"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 935806,
+    "sha256": "443764b7657dd9e8636e815d8c4504935e21cc475b379a78f1d19a41590e9a7f",
+    "bones": 51,
+    "cubes": 850,
+    "faces": 5100,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 164694,
+      "sha256": "9c895dd5db790066b2ff5555d3103d17d238f6bf4da1b59134897e3357baf8e1"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 117283,
+      "sha256": "c9c2caddb7d1bde2807a390d33547a4a99eec0815eb47d81107007c01ad5d1c8"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 131666,
+      "sha256": "d937d3484f7d28e66237f4445ebb43edcd2cec683b7f68ac581bcf897e45eb3c"
+    },
+    {
+      "path": "avatar/獒子coco.png",
+      "size": 32309,
+      "sha256": "60d8baa0da6209686cbf02c89534e054407011babd5e2ddbe4ff40c7aca8963c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 90092,
+      "sha256": "fc0a5721433666a1517887c9cec50c748fc9d5d41a74cfe4d0152302f57d9871"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 7863,
+      "sha256": "fb8328150242eab64dd70f7ec1e693b1008563d853c0cdcc9fba47ce25c455f3"
+    },
+    {
+      "path": "models/main.json",
+      "size": 364699,
+      "sha256": "589b66693e66c743bcad5e2ae1168614ecabac8b8908723b56eb8e78697bbfbf"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2319,
+      "sha256": "954d1c35803dc895e3714950821d67aa63e27821e7f93039e6284464479e9c27"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 23864,
+      "sha256": "50a898e4741fa84ca47a468c17f773d77b8b2b28c10647933fd42aa53a2e7169"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1017,
+      "sha256": "d12cc845a096d0090a2ee11bc2180f4bcfff902fb6f737736661161bfbcd214b"
+    }
+  ]
+}

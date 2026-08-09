@@ -1,0 +1,187 @@
+{
+  "id": "Touhou_Rumia",
+  "path": "parsed/Touhou_Rumia",
+  "source": {
+    "path": "_TouhouProject/Touhou_Rumia.ysm",
+    "type": "ysm",
+    "stem": "Touhou_Rumia"
+  },
+  "ysm": "parsed/Touhou_Rumia/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/qidai.png",
+        "comment": "摸了",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/172318031"
+        },
+        "name": "qidai",
+        "role": "模型&动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "name": "Rumia",
+    "tips": "宵暗的妖怪"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra12": "甩手",
+      "extra4": "月符「月光」",
+      "extra1": "唔~~~耶！",
+      "extra2": "悲伤猫猫",
+      "extra8": "挥手",
+      "extra9": "拍手",
+      "extra0": "清凉模式开关",
+      "extra3": "操纵黑暗程度的能力",
+      "extra5": "衣服开关",
+      "extra6": "鞋开关",
+      "extra7": "神秘开关",
+      "extra10": "默认服装一",
+      "extra11": "白衣服"
+    },
+    "default_texture": "default",
+    "preview_animation": "1",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Touhou_Rumia_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 795,
+      "sha256": "b2990338fa0611a2b21834d7b1f0c79a971fa2bf53e561fb63a292ebd9f6b8b2"
+    }
+  },
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 3373582,
+    "sha256": "bfa37f88a6bc11e40835d004e0e7c60fae7a37e1ae3821bdad5e8e918a363fc0",
+    "bones": 561,
+    "cubes": 2220,
+    "faces": 13320,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 140859,
+      "sha256": "9c88085eb9e0e00ff021d9234a89635742d51f86e0131b70d435085af1c32d4e"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 768,
+      "sha256": "1841fd3ad023e8fc7ae9bcb6ddd1da5ec2111579460a32fb2d6ed31e9c5e8cfe"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2789,
+      "sha256": "5ed1dd25c52d19a3b0276d38edcd54b86404874e2e8b78a1b38182c579127742"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 416852,
+      "sha256": "1eb1527d6f6832cb92efa74267c6fcd9e99e54b3f693e0de027979c0962bbea6"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 174606,
+      "sha256": "40ed82edd79b775797ba961206a561539549d990d48f94dfac9987b626f58f92"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 195095,
+      "sha256": "965e6d2be177c6dca3497df4a58a2566e399211c6b3f005a8190cdbb82a97520"
+    },
+    {
+      "path": "avatar/qidai.png",
+      "size": 935687,
+      "sha256": "1d0cfb18593ee0129b32f679d23a272b52b044eef0965209b3bf94ee53ac9e86"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 28666,
+      "sha256": "e82f43b1be1cae66129aaa6f254b251efcfd7b869dd0154873e376276b4f8299"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 10352,
+      "sha256": "1faeaf9338fa3ef5f3d9ed24c91df13da28ccef734a56d3cf54a17418c05fec0"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1248292,
+      "sha256": "a34c8fc6cfce73bb28d9dd2c1b818a1774acc1f432fc23721dddf1cc04a9448b"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 354,
+      "sha256": "4086300a0be1623cf945513b1362e2e49dffbe77ca5ce2b419ef4aae227fce8e"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 45339,
+      "sha256": "b3a251756debf434fe82c3b57169fbe7f0e067b05ec312085e15546306ebc84b"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1330,
+      "sha256": "76e793144e179d7382ae439976064f65eedd10e1ec3f6642a37ce093cc672459"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "Mist_train_girls_Maitetsu_Hachiroku",
+  "path": "parsed/Mist_train_girls_Maitetsu_Hachiroku",
+  "source": {
+    "path": "_MistTrainGirls/Mist_train_girls_Maitetsu_Hachiroku.ysm",
+    "type": "ysm",
+    "stem": "Mist_train_girls_Maitetsu_Hachiroku"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Mist_train_girls_Maitetsu_Hachiroku"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "hachiroku.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Mist_train_girls_Maitetsu_Hachiroku_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8953,
+      "sha256": "0bdd517e349cd7abdb9328ede4d49d245f4bdc591e6e31063994c9c242c11202"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 859544,
+    "sha256": "654eff4f5068574583712539443f402234ba4a64a6163ecfb065caddcec32d9b",
+    "bones": 77,
+    "cubes": 964,
+    "faces": 5784,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 32454,
+      "sha256": "7a3edfe9e598fae10683e717f31bfb951eee17c0f6649236e6543a888081b0f7"
+    },
+    {
+      "path": "arm.json",
+      "size": 28416,
+      "sha256": "d4408d5785e8915dcac15c0af83619427dce128e4d459904b886ab969e47bfdf"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 33616,
+      "sha256": "87604abd5c7466c1cda440242aab792bad18315b7e43642ea4fadf7391de67db"
+    },
+    {
+      "path": "hachiroku.png",
+      "size": 21949,
+      "sha256": "5ee253d4b7e3902b1c14bb4fd7480e971405666f7c1b8cf1cf4d6579688fd994"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 132067,
+      "sha256": "ac36411afad3bb73fae833954966bf77b412b8d8d2001936b2848d7ee6a5a90c"
+    },
+    {
+      "path": "main.json",
+      "size": 478127,
+      "sha256": "52a9ac9fc92d99e6f5fababfa3651f8edff2243fb7cec845d4897cfda54cc5f8"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 132915,
+      "sha256": "c2d1274e2c1368df6e192ca84979c249fbe60d885adc048d4f51748445f79c49"
+    }
+  ]
+}

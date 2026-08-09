@@ -1,0 +1,97 @@
+{
+  "id": "BA_Sensei/sensei2.1",
+  "path": "parsed/BA_Sensei/sensei2.1",
+  "source": {
+    "path": "_BlueArchive/BA_Sensei.zip",
+    "type": "zip",
+    "stem": "BA_Sensei",
+    "model_path": "BA_Sensei/sensei2.1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "sensei2.1"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "sensei.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Sensei_sensei2.1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 1567,
+      "sha256": "c9312c8ca72de9fd276f51af00545ccd72d9c031e4d15c5a5e54a68d561981c7"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 433123,
+    "sha256": "198d1012c3e6773eb43d86fba06648b1f54f17fb570af0f7f295d6aa1a15e5b1",
+    "bones": 37,
+    "cubes": 33,
+    "faces": 198,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 51070,
+      "sha256": "e8b4a6d8ebdd57bdb01427bd99afe6adcf7704723153572015b56852f551293b"
+    },
+    {
+      "path": "arm.json",
+      "size": 1156,
+      "sha256": "54ef1b6eb839f213fd81dc13bfe8f962b57d11b64a9c014429835e2cac07d7da"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 1456,
+      "sha256": "d89c3136f837ff47b2332b47b41fca24b7dcf005af38ffb0046a49fcc5ee1e8c"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 214666,
+      "sha256": "0244965655d2bce95c868c4a518f8f050d7aa69b1746dcdecd2bce5cf4b9a5fc"
+    },
+    {
+      "path": "main.json",
+      "size": 6789,
+      "sha256": "afa39fef0576a4dd48073577a3c244cb60e0b2c949ed3b2c12f7bd7b88c21818"
+    },
+    {
+      "path": "sensei.png",
+      "size": 720,
+      "sha256": "b8acd0f2f563b784121ecdfe4aacaf36442f104a11b230fcdbabca998edc23dd"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 157266,
+      "sha256": "c03cb9613aa5a9f19a9416760c372309e79f3d12cf1f23cfea0726dc5e825aa2"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "Ak_Texas(Speciallist)_v1.0",
+  "path": "parsed/Ak_Texas(Speciallist)_v1.0",
+  "source": {
+    "path": "_Arknights/Ak_Texas(Speciallist)_v1.0.ysm",
+    "type": "ysm",
+    "stem": "Ak_Texas(Speciallist)_v1.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§3德克萨斯(缄默)",
+    "tips": "§8免费版\n§8食用方式：\n钻石剑——蓝刀\n下届剑——红刀\n铁头盔——吸烟\n下届头盔——魔镜",
+    "authors": [
+      {
+        "name": "§b御神（模型）"
+      },
+      {
+        "name": "§c烈鸟比百§8（配置）"
+      }
+    ],
+    "license": {
+      "type": "All Rights Reserved"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "normal.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Texas_Speciallist__v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5483,
+      "sha256": "31f475701041800b99a1be0b72823f8a75dcad82fdf1b5a6671956f5ab802c1a"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 2756264,
+    "sha256": "35ceb1373f10cfd225c0733b1d09e6cdf8fb429bc499a6118cb28f488f1570a5",
+    "bones": 124,
+    "cubes": 1154,
+    "faces": 6924,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 67039,
+      "sha256": "d6b2558defc1acb3772e78eceaeebdaa6e9eb1e090c1e043a1feea7bb27e9127"
+    },
+    {
+      "path": "arm.json",
+      "size": 36143,
+      "sha256": "5bba07aa7dff12052b65d24b17678005af1c8bf83dcafaef911fc3871d855e13"
+    },
+    {
+      "path": "attack.json",
+      "size": 63768,
+      "sha256": "001e9981f640d4204d26b44181393e11e25751dd69114b0e5f28003960b9b137"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 1423049,
+      "sha256": "9c3f71e11b869d81d7d4186ba1d9a1e879a647170040198e3228eb149a51b2f7"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 307229,
+      "sha256": "8dbfe8372d5a2a20c170fbe7b8c5cbc69849ec38451f42701fd39d298f667c80"
+    },
+    {
+      "path": "main.json",
+      "size": 627973,
+      "sha256": "725ab8c704db9d7c44abe9b4d9c823d2f1ee8c3c587183c9137bb83cec09cf4c"
+    },
+    {
+      "path": "normal.png",
+      "size": 60142,
+      "sha256": "629a16cd8f2a1e1713de782156582e43fe5cfb56065aad82f51d251204cb83fc"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 170921,
+      "sha256": "d41a53eafcf2fcde47a6865a580593eb5c2e6e91b2716a9ddfc15f994caf5c87"
+    }
+  ]
+}

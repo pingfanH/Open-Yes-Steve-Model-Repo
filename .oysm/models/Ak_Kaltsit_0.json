@@ -1,0 +1,75 @@
+{
+  "id": "Ak_Kaltsit_0",
+  "path": "parsed/Ak_Kaltsit_0",
+  "source": {
+    "path": "_Arknights/Ak_Kaltsit_0.zip",
+    "type": "zip",
+    "stem": "Ak_Kaltsit_0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Ak_Kaltsit_0"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Kaltsit_0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12142,
+      "sha256": "4822acc724794a79e41436959d50b56d94217d4ee80cf86de498fa9da4828511"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 446713,
+    "sha256": "abb021c7b81c2c28b4c22485988b53cc0a958a43646c7bcfe4ad0920293a428b",
+    "bones": 88,
+    "cubes": 881,
+    "faces": 5286,
+    "textures": 1,
+    "materials": 1,
+    "animations": 0,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 52232,
+      "sha256": "a532a9691c9806bde41d2592488db87a8dd5aa3f28de77054148f8d7f627f0a3"
+    },
+    {
+      "path": "main.geo.json",
+      "size": 184212,
+      "sha256": "5fd24a01b5ae53e9542468c08765c37f8ea13fc6ff50e3d9f0fabb2121f0527a"
+    },
+    {
+      "path": "main.json",
+      "size": 185422,
+      "sha256": "2e9d05c14e27fb67506d57795961c0df3c78e5b5d078570ace383edae7840534"
+    },
+    {
+      "path": "texture.png",
+      "size": 24847,
+      "sha256": "e7e13dd49259f3034cf5d9df20f8b9023680014237bce4827a4e2bcf955c7460"
+    }
+  ]
+}

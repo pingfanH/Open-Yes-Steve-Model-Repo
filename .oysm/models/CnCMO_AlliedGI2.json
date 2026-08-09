@@ -1,0 +1,100 @@
+{
+  "id": "CnCMO_AlliedGI2",
+  "path": "parsed/CnCMO_AlliedGI2",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCMO_AlliedGI2.ysm",
+    "type": "ysm",
+    "stem": "CnCMO_AlliedGI2"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "游骑兵(镭射)",
+    "tips": "汤文斯将军麾下的部队，装备了镭射步枪，不过在原作中被废弃",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCMO_AlliedGI2_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6269,
+      "sha256": "498f515222c3269a22a6a0195cb4c75738a091ee2d3f5dad0885df37d50046de"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 363718,
+    "sha256": "c03c2e1c7002ce83c5c9e81a8a286e94eef720cc6c7f63c5df4695b5ace1c6d2",
+    "bones": 42,
+    "cubes": 175,
+    "faces": 1050,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 12688,
+      "sha256": "d9f617a076831c923fb09c4373b70a095a03fd986ea6b9eb01d300bfa2f2645a"
+    },
+    {
+      "path": "info.json",
+      "size": 219,
+      "sha256": "034bd4f96a55cde441b249b5e4b904833604c3e2f70c96a0f4900bc6502dc6bf"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122470,
+      "sha256": "d93402d24863ccd84622801424bb845d8ff78161fae9d48b7bbf0c3d213720c1"
+    },
+    {
+      "path": "main.json",
+      "size": 77499,
+      "sha256": "c13c0b21636c52e0bc225cc11e8950182fbe523ab00857eb7a2a879acf6f1eda"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131639,
+      "sha256": "a73cf95259743cc506fa6931e6bed68e0e41c5edca8f4651f26f1a42c1e26994"
+    },
+    {
+      "path": "texture.png",
+      "size": 19203,
+      "sha256": "c0c1206a1ce1ba6bf92da578df04b1186ea8ba37d56919d28971c7e8ce1a5684"
+    }
+  ]
+}

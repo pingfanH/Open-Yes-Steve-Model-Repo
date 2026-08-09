@@ -1,0 +1,96 @@
+{
+  "id": "MT_Sakura",
+  "path": "parsed/MT_Sakura",
+  "source": {
+    "path": "Uncategorized/MT_Sakura.ysm",
+    "type": "ysm",
+    "stem": "MT_Sakura"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "MT_Sakura"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "purple.png",
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/MT_Sakura_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10550,
+      "sha256": "3b204be1cabe8e99727c62de3b9d03626c13c69d680477857497b5cefb121f48"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 331049,
+    "sha256": "dcfa267f83c4c6af3489dd267fb93d4644498f6f6ffb94c8df722a7f1888ced2",
+    "bones": 46,
+    "cubes": 335,
+    "faces": 2010,
+    "textures": 2,
+    "materials": 2,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 1118,
+      "sha256": "752d714437b0ecf41f48a2b72cfd9edbccfadbee49acb827e5198037d3299d56"
+    },
+    {
+      "path": "arm.json",
+      "size": 14899,
+      "sha256": "ff3f8970106431571bcd5342c01054b720386e9f86ed5df2aff1475c1c6321f0"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 34657,
+      "sha256": "1a905e0fc0e56d975fda7927d3d08be61264abccff5f752b6423dbd672f117ef"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 47185,
+      "sha256": "18daa17077615bcfeba955ea158e81b0d71f45862eebd9865039ee2c61c602ee"
+    },
+    {
+      "path": "main.json",
+      "size": 173842,
+      "sha256": "e0ae2307838ac701057e1be5784b10128f57c026b77d528341ee5ebfcf7c0a18"
+    },
+    {
+      "path": "purple.png",
+      "size": 29809,
+      "sha256": "f22bc2b82e262e9dcf4fe6927d078e98e6ae228b8fcdbc7e6494b6a50bf3adc1"
+    },
+    {
+      "path": "texture.png",
+      "size": 29539,
+      "sha256": "a6ee3e811609e0f076cce92c2af501d7e94adfb9bde0ce0ec310550f567ed602"
+    }
+  ]
+}

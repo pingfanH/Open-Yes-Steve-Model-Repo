@@ -1,0 +1,140 @@
+{
+  "id": "Deltarune_Ralsei",
+  "path": "parsed/Deltarune_Ralsei",
+  "source": {
+    "path": "_Deltarune/Deltarune_Ralsei.ysm",
+    "type": "ysm",
+    "stem": "Deltarune_Ralsei"
+  },
+  "ysm": "parsed/Deltarune_Ralsei/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/raiden.png",
+        "comment": "i love indie game",
+        "name": "raiden",
+        "role": "create"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "darkner"
+    },
+    "name": "ralsei",
+    "tips": "fluffy fur"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Deltarune_Ralsei_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6706,
+      "sha256": "d3d3f35b06c02324e5844a8ee5f476cf536e575c0a368e4a9c23ece5e44ccc18"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 783106,
+    "sha256": "2da92923430475489316bb82efaceae6783d1ac4611e4df520a2da7699e95bd9",
+    "bones": 61,
+    "cubes": 428,
+    "faces": 2568,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/main.animation.json",
+      "size": 190420,
+      "sha256": "39d6e86dc0b96fdc395c0c4e6d1cc474c687ea80086c70a862e77387100f7878"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 268664,
+      "sha256": "d3cc0eb9602e8a18d2954e37580cb5d60731377053e6947965619819066950ec"
+    },
+    {
+      "path": "avatar/raiden.png",
+      "size": 11591,
+      "sha256": "d8be4eec62740a3910027d610495bef19bb67573ef139d09f8d5a5cacc58c9ca"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 39579,
+      "sha256": "209946c8adb7f52a049c31f4184dd3d7cdabd8dc439470f46d9f935e92f3a528"
+    },
+    {
+      "path": "models/main.json",
+      "size": 190939,
+      "sha256": "301851b753d0da8467bc1dd99619a6b06e8fcb9eaed656fcec1f2999d2aa4c55"
+    },
+    {
+      "path": "sounds/1.ogg",
+      "size": 57826,
+      "sha256": "5969baf990b370d2c2aae039dd9e0bded20018c69991dc92b94a772a17144e0e"
+    },
+    {
+      "path": "sounds/2.ogg",
+      "size": 15469,
+      "sha256": "3ad731e53105ca27bf87f6e1daf980c3ce623fa83041836002708c8c045e5945"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 7818,
+      "sha256": "51703b1763604bd4478b8ad29e981eae6ee806052b705529a87ff5a3a10b1a80"
+    },
+    {
+      "path": "ysm.json",
+      "size": 800,
+      "sha256": "63293e76baed0d79bf0f24adccd6829310f6fbf902df0d988cee4e7e337b3fbe"
+    }
+  ]
+}

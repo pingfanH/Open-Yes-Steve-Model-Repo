@@ -1,0 +1,186 @@
+{
+  "id": "Arstia_夜空-赛蕾特_v1.1",
+  "path": "parsed/Arstia_夜空-赛蕾特_v1.1",
+  "source": {
+    "path": "_Arstia/Arstia_夜空-赛蕾特_v1.1.ysm",
+    "type": "ysm",
+    "stem": "Arstia_夜空-赛蕾特_v1.1"
+  },
+  "ysm": "parsed/Arstia_夜空-赛蕾特_v1.1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/MicroCraft.png",
+        "comment": "只是一个准程序猿",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/701974112"
+        },
+        "name": "MicroCraft",
+        "role": "模型、动画、物理"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 4.0 NC-BY-SA"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "夜空*塞蕾特",
+    "tips": "很懵懂很可爱的吃瘪系大小姐～"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "default",
+    "preview_animation": "idel",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/skin.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Arstia__-__v1.1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8083,
+      "sha256": "a81f12c5c2755c155463fb83bc88bf2863e45c8159cac249b7d4ea4c3496923d"
+    }
+  },
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 1415193,
+    "sha256": "66b17fc1fc499fb408f5be299ef1628e06fd9e454efea58944f6ba4cce4ca3c9",
+    "bones": 154,
+    "cubes": 683,
+    "faces": 4098,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136637,
+      "sha256": "f795d670b8e2553548348161425e21c7a8f4c2b78d4602d33c8ccc1f03f537b3"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 123165,
+      "sha256": "0a5d3f9c0562cc4d4032464fa5a4f9c4d80d0d7a218e780240d04c0b276f8c9a"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 217056,
+      "sha256": "9aeac6a4482da40e19e1bdb5629082f2e11cafc68669a2b490e2808f14576845"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "6badb727a9b0a8819c2a258a68e353d37f5b127195a0cac321565237e4d24fd7"
+    },
+    {
+      "path": "avatar/MicroCraft.png",
+      "size": 127200,
+      "sha256": "04a08ffc0dc1e03a032dde40b836801f2fb682f3a6c9daa996ffaed58ca227ff"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 17293,
+      "sha256": "b4eb73f1b473bbe0fe38e87ead205b5f33df87ce46e9675d266cc7d540217245"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 378380,
+      "sha256": "46bf5e6a3d4d8e511d51aba246ec112283b3125aaeb3146f0ee475b2219835d1"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/skin.png",
+      "size": 46961,
+      "sha256": "31ea880a3cd0bfcd284f047372f50559d7185106ec27622ae1063e650e53c93b"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1291,
+      "sha256": "80ad45b827f45cfc3f92b387cef09e287acfd3b986706ad1517ffd651ea76245"
+    }
+  ]
+}

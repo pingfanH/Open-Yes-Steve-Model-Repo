@@ -1,0 +1,119 @@
+{
+  "id": "GI_Furina_0",
+  "path": "parsed/GI_Furina_0",
+  "source": {
+    "path": "_GenshinImpact/GI_Furina_0.ysm",
+    "type": "ysm",
+    "stem": "GI_Furina_0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§9Furina/Focalors§r（水神芙宁娜）",
+    "tips": "不知从什么时候开始，枫丹一直流传着这样一个预言，所有人都会溶解在海里，只剩下芙宁娜自己在神座上哭泣\n\n§4§l该模型为免费模型分享,请勿用于商业用途§r\n\n模型作者:§d墨染逝羽§r QQ:2663167496\n\n动画修改:§9星屑海螺§r QQ:741330261",
+    "authors": [
+      {
+        "name": "模型作者:§d墨染逝羽§r"
+      },
+      {
+        "name": "动画修改:§9星屑海螺§r"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "furina.png",
+        "furinaneko.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Furina_0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8812,
+      "sha256": "1f22b833facd41b7c430e9a848e7e44e358db64235ee0488f675662ebfef9dd8"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 2391772,
+    "sha256": "4355593ef0d03762f9a2613188139b23983096033321e202964244e2f4cfd9ed",
+    "bones": 130,
+    "cubes": 1162,
+    "faces": 6972,
+    "textures": 2,
+    "materials": 2,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 545665,
+      "sha256": "1512a51b7e8bc073306544bb761876431951b739c83f6c8f75d75530ee06dc25"
+    },
+    {
+      "path": "arm.json",
+      "size": 46602,
+      "sha256": "dcc8538b59c1ecb3363db519f0cf0e8316f98922776bea80e62c689491c78aef"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 80137,
+      "sha256": "3b463af78f9be2578e2393e5ebabb1260800db724f59f6acb2d0b18a2d5b8945"
+    },
+    {
+      "path": "furina.png",
+      "size": 25532,
+      "sha256": "469badb2405fd33dc682006fc6eddc04fce4f55f99a29f5d6aeef587a2874d4b"
+    },
+    {
+      "path": "furinaneko.png",
+      "size": 25316,
+      "sha256": "a169be729ab25fe4595435c5c98ad72f68f36d8dc346e6f61e3a593b864ae060"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 931189,
+      "sha256": "eb0bae1ec4419a3cc878ab60ff0600f926406343ffc429cf1e7a28f2e7688dae"
+    },
+    {
+      "path": "main.json",
+      "size": 579060,
+      "sha256": "562fd8384d6c9c6f1f67e0a7252ade9c24e8a7e3d1dae2607d7d6bb192a55dbd"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 157266,
+      "sha256": "c03cb9613aa5a9f19a9416760c372309e79f3d12cf1f23cfea0726dc5e825aa2"
+    },
+    {
+      "path": "模型简介.txt",
+      "size": 1005,
+      "sha256": "02149bf48947f2977fd2d0c981ef1c6730c2ee733418d90dd228de760f7cfc8a"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "GI_Yomiya",
+  "path": "parsed/GI_Yomiya",
+  "source": {
+    "path": "_GenshinImpact/GI_Yomiya.ysm",
+    "type": "ysm",
+    "stem": "GI_Yomiya"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§c宵宫",
+    "tips": "§8普通版\n§8持弓类手上显示专武\n§8持火把手上显示手花",
+    "license": {
+      "type": "All Rights Reserved"
+    },
+    "authors": [
+      {
+        "name": "§l§4秘§6糸§2西§b里§8（模型）"
+      },
+      {
+        "name": "§c烈鸟比百§8（配置）"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "arrow.png",
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "arrow": "arrow.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Yomiya_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5787,
+      "sha256": "304a10bdf1e04ff397193cad5a3362b63787fa9c8015e24248d81b5bbbfc653d"
+    }
+  },
+  "stats": {
+    "file_count": 11,
+    "total_bytes": 1149254,
+    "sha256": "a81f5f8f914db97575d8bf290b08c78bb0f3c05d24dc56cc542e77514a33e7fb",
+    "bones": 170,
+    "cubes": 1261,
+    "faces": 7566,
+    "textures": 2,
+    "materials": 2,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 37861,
+      "sha256": "ce29dca008d93a5def032e87edf90be04f965717876280f99888e5f88d25a243"
+    },
+    {
+      "path": "arm.json",
+      "size": 91546,
+      "sha256": "de2a8a74a59e815698c47763217bc5fb15c121bbb84d0425c2d7a17599eb5281"
+    },
+    {
+      "path": "arrow.animation.json",
+      "size": 5850,
+      "sha256": "03783b7e178acc50698c1c30982ef43ce6a875a63872fbac2807c37346f38c43"
+    },
+    {
+      "path": "arrow.json",
+      "size": 38527,
+      "sha256": "ff0b269bd599849e5c991778a9c92be40a68878fe6cba6d227d20471bea9602a"
+    },
+    {
+      "path": "arrow.png",
+      "size": 297,
+      "sha256": "5a81d58666ebfd2debf955f0e34214277b2e98e4f5148480a2ceaadd8f3b2be9"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 8118,
+      "sha256": "cfcaf5c71dda77d44d6d2b4c7da03697e8812e54283980bac2d48e31520b8742"
+    },
+    {
+      "path": "info.json",
+      "size": 321,
+      "sha256": "f40c75f01e9ffff45b2ee684ac939c3ae1449fcc7e2779d508a6982aa7b861f4"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 174901,
+      "sha256": "1cd0017a630b641020441b0b8a1d6938f9cdc856fb02677cfff039cfdbcd69d1"
+    },
+    {
+      "path": "main.json",
+      "size": 625445,
+      "sha256": "0c34672b6a81cd8449101b675d068ccb1cbcd9062d44c46689928916cc398dae"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 130736,
+      "sha256": "af54aa5e59f99ea21d37ccecf89e5fe40c939d76cbab5982a773af7e22ad0692"
+    },
+    {
+      "path": "texture.png",
+      "size": 35652,
+      "sha256": "aecab38ab505a7d909c4b5b8a8bbaa58a331afa8eb198732d8cf8a9dc10bcb38"
+    }
+  ]
+}

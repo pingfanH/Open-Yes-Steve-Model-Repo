@@ -1,0 +1,178 @@
+{
+  "id": "IdentityV_Little-Girl(Compasso)",
+  "path": "parsed/IdentityV_Little-Girl(Compasso)",
+  "source": {
+    "path": "_IdentityV/IdentityV_Little-Girl(Compasso).ysm",
+    "type": "ysm",
+    "stem": "IdentityV_Little-Girl(Compasso)"
+  },
+  "ysm": "parsed/IdentityV_Little-Girl(Compasso)/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/bili窝就素伽拉的苟.png",
+        "comment": "你说得对，但窝素伽拉的苟",
+        "contact": {
+          "bili": "https://space.bilibili.com/1402337274?spm_id_from=333.1007.0.0"
+        },
+        "name": "bili窝就素伽拉的苟",
+        "role": "模型/纹理/动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/wojiusujailadegou",
+      "home": "https://space.bilibili.com/1402337274?spm_id_from=333.1007.0.0"
+    },
+    "name": "异动指针",
+    "tips": "“人”与“物”的边界在这片荒原逐渐被抹除，而“向导”在缄默中指引着这支队伍行进。无论如何，她在一次次致命的危境中带来奇迹般的转机，从而被信赖——即使她对荒原认知的来源，仍是值得探究的谜团。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#表情",
+      "extra1": "前进",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "拜年",
+      "extra6": "讨红包",
+      "extra7": "飞吻"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "表情",
+        "name": "表情",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "表情",
+            "description": "表情",
+            "value": "v.experssion",
+            "labels": {
+              "微笑": "v.experssion=1",
+              "开心": "v.experssion=2",
+              "不开心": "v.experssion=3",
+              "生气": "v.experssion=5",
+              "猫猫嘴": "v.experssion=6",
+              "伤心": "v.experssion=7"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "texture",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/IdentityV_Little-Girl_Compasso_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9599,
+      "sha256": "2ffabf4017d1f0bdb2cafeb082065498564fc40e9ec0931a047fc3b0f85d384f"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 1600157,
+    "sha256": "868431131564c0ea1eb7b930892e3ead4d00987283549398806c0654168c5ade",
+    "bones": 254,
+    "cubes": 1955,
+    "faces": 11730,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 91643,
+      "sha256": "9c8de3da79b83edc91b15edf47f14e56000f0cf3b53ceed407f6dab6de228c63"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 23530,
+      "sha256": "3f8a4b19a97597a7f0d09422480a1b5ce02c83a007d1e4c071dd42f0a27fa462"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 157468,
+      "sha256": "cc53e1ff4969bc5ab539578639202099968e7fce46f86fb16c962ae4f9a64cf7"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 132915,
+      "sha256": "c2d1274e2c1368df6e192ca84979c249fbe60d885adc048d4f51748445f79c49"
+    },
+    {
+      "path": "avatar/bili窝就素伽拉的苟.png",
+      "size": 16626,
+      "sha256": "209df286c5942b49a1a88ae5861fe70b441fa93cf50b69945a50d46d414eb12f"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 3936,
+      "sha256": "d49299c5445a95f46bc48a1b8664272888fb29c0413ee57f52cd7080d9858b9c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 91452,
+      "sha256": "15e8ae66862d08286ad5c9770bd030752827e765654f72896198c1366e4ec6e5"
+    },
+    {
+      "path": "models/main.json",
+      "size": 965822,
+      "sha256": "f1fd858724be7c74896c6b65e93c42cf340c0d1c312d88f595f6fe4768904c0b"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 114927,
+      "sha256": "fda581ed440ae2eb10f3d0caac40b75e046bd61f80ed56be1ae508a14038d742"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1838,
+      "sha256": "f3fec30be50adc3e20995a2924acc42ed5cd8c58de68debcfa860a719ae58eed"
+    }
+  ]
+}

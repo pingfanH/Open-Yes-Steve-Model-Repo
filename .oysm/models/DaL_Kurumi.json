@@ -1,0 +1,96 @@
+{
+  "id": "DaL_Kurumi",
+  "path": "parsed/DaL_Kurumi",
+  "source": {
+    "path": "_DateALive/DaL_Kurumi.zip",
+    "type": "zip",
+    "stem": "DaL_Kurumi"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "DaL_Kurumi"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/DaL_Kurumi_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9095,
+      "sha256": "85641bde8abd790166d8fbeba2fcf38da7ebfec8839713beead811145f77478f"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 1042559,
+    "sha256": "6e016cc02ee82469c8de6dbd55eab9f8e3110aeb36a311a44c42f7029be34ae8",
+    "bones": 122,
+    "cubes": 942,
+    "faces": 5652,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 51070,
+      "sha256": "e8b4a6d8ebdd57bdb01427bd99afe6adcf7704723153572015b56852f551293b"
+    },
+    {
+      "path": "arm.json",
+      "size": 254476,
+      "sha256": "8fe17956a5a7ac8dcd480f3e71bddef189433227341e8654869cfe9cde0b3dc6"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 144073,
+      "sha256": "1cc30c5474076f2027d3b365b9525491a76007ff6451803a06df6814302761d7"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 136157,
+      "sha256": "514574177cf6e0d6656233a4ab1d6c98996934aae5b57061a49d96d6913f833c"
+    },
+    {
+      "path": "main.json",
+      "size": 254476,
+      "sha256": "8fe17956a5a7ac8dcd480f3e71bddef189433227341e8654869cfe9cde0b3dc6"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 163831,
+      "sha256": "19e2b900c673ea532334f7c646c11c87f084c49947171501b4eff8eee0a29af3"
+    },
+    {
+      "path": "texture.png",
+      "size": 38476,
+      "sha256": "824edb6127f11fe8ad396e2aedc480ae4b1e2cac9dd4b285809661e3ccfea1d4"
+    }
+  ]
+}

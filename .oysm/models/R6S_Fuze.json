@@ -1,0 +1,142 @@
+{
+  "id": "R6S_Fuze",
+  "path": "parsed/R6S_Fuze",
+  "source": {
+    "path": "_RainbowSix/R6S_Fuze.zip",
+    "type": "zip",
+    "stem": "R6S_Fuze"
+  },
+  "ysm": "parsed/R6S_Fuze/ysm.json",
+  "metadata": {
+    "name": "舒赫拉特\"Fuze\"凯西克巴耶夫",
+    "tips": "只有在你无法适应的时候，混乱才会成为敌人",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "XG残党",
+        "avatar": "avatar/1721656327_385063_CBeF.png",
+        "contact": {
+          "B站": "https://b23.tv/mSs1PEB"
+        },
+        "comment": "What can I say"
+      }
+    ]
+  },
+  "properties": {
+    "default_texture": "blue",
+    "free": true,
+    "height_scale": 0.85,
+    "width_scale": 0.85,
+    "extra_animation": {
+      "new": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "",
+      "new1": ""
+    },
+    "preview_animation": "new",
+    "render_layers_first": false,
+    "disable_preview_rotation": true,
+    "all_cutout": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "tac": "animations/tac.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json"
+      },
+      "texture": [
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/R6S_Fuze_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9864,
+      "sha256": "480f32aacbe7c233112b2cff0971b1f0662a569ae8b4f83311403d00c542766e"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 735652,
+    "sha256": "3328544dd468c8a48ec0e3ec32cd180b666243018373e00b72012bf5379eb38d",
+    "bones": 121,
+    "cubes": 666,
+    "faces": 3996,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 192924,
+      "sha256": "6d7ad02dabb696be59db5c5131086235daa1fa682ace979b5a467c891fdd111b"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 118502,
+      "sha256": "1d3b5c2fd8a8897ee8ce0bf62858d1a3fda84e98358168817d9528c18c26bb34"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 117422,
+      "sha256": "65cd97941c991419424c756325c626af31ffaa367ce9f2b812a503ff44da317e"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 155494,
+      "sha256": "998fc029ca870a51f18c413f99aca7ad1060fd8f43e7e04c5f069fafae3265da"
+    },
+    {
+      "path": "avatar/1721656327_385063_CBeF.png",
+      "size": 33093,
+      "sha256": "32ae812fdff67547f1fe362828716434a6331d7b92d0945404d44873551e178f"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 7068,
+      "sha256": "76c6b6bc6c82c4b8e0eb4d0d7d02378b04337312f63bd6500637ed740f142235"
+    },
+    {
+      "path": "models/main.json",
+      "size": 94381,
+      "sha256": "1c9784799fc144046acd29abfa938ebd97fec4807468f09cc477d8c46dd9aab1"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 15581,
+      "sha256": "f25d2b994133063a1ad7debccd8a8e5339863dd5b5c60c0a9fd827481b381232"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1187,
+      "sha256": "aaabbd4a1d3a8d7688ec5415cdd2c12a7ac95b1adefd50647f8dc503ac9dc2d3"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "id": "DM_Marcille",
+  "path": "parsed/DM_Marcille",
+  "source": {
+    "path": "_DungeonMeshi/DM_Marcille.ysm",
+    "type": "ysm",
+    "stem": "DM_Marcille"
+  },
+  "ysm": "parsed/DM_Marcille/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§c寒叔.png",
+        "comment": "§7嘿嘿嘿·~",
+        "contact": {
+          "Afdian": "爱发电搜索“烈鸟比百”",
+          "Bilibili": "B站搜索“寒叔hs”"
+        },
+        "name": "§c寒叔",
+        "role": "§7适配·"
+      },
+      {
+        "avatar": "avatar/§c烈鸟比百.png",
+        "comment": "§7啦啦啦~",
+        "contact": {
+          "Afdian": "爱发电搜索“烈鸟比百”",
+          "Bilibili": "B站搜索“烈鸟比百”"
+        },
+        "name": "§c烈鸟比百",
+        "role": "§7人物模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/Aigoblin?tab=shop",
+      "home": "https://space.bilibili.com/20510758?spm_id_from=333.1007.0.0"
+    },
+    "name": "§6玛露西尔",
+    "tips": "如果喜欢，欢迎前往爱发电支持，解锁可脱功能及更多轮盘动画！"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "切换脸型": "切换脸型"
+    },
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/DM_Marcille_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12080,
+      "sha256": "308d9ad51215035a0cd8a102e8773411e281310b8d8f9e0635e71b8b9e6543d2"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 1934738,
+    "sha256": "f9b3b6c0a1e45a8ae9f47bd0edb1943deb7fa9dbe05d595de514c1fecb8d20f4",
+    "bones": 258,
+    "cubes": 1777,
+    "faces": 10655,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 30522,
+      "sha256": "41359fa1f1abf030ac010cb32e47d643a533bb78021c8fc7ef4802dd7bd8036a"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "6e8d3afe0c3baafff8f7f3e0e30ef3c621c667be5c346af73398f5fd3cb89ca5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 693,
+      "sha256": "2798ff73a01e1dbb33c3fc209d8fd6bd30d1f0b728ec7cbf585351f756d03613"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 533921,
+      "sha256": "b88a8a4e8353fd0360d15804bd69818b8accde43b383ea0c1edb88bb7694a900"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 119001,
+      "sha256": "0aa28677aeaff92f0ab81960b5c71377de839f79352d90448cf401f47a1c8dd3"
+    },
+    {
+      "path": "avatar/§c寒叔.png",
+      "size": 162710,
+      "sha256": "28e19d6587eb8d647553eb54267c3793ea5f8a5de70d5b58314647b9d63257b5"
+    },
+    {
+      "path": "avatar/§c烈鸟比百.png",
+      "size": 37915,
+      "sha256": "7f6a5899c023a97b9315642e24f8d7ab96047014cb79fef3ab1631b06f63d872"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 30516,
+      "sha256": "a102f96db7d9c83efd49641d44519e263819c2d5eb15bd5f289d17736cc9d956"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13423,
+      "sha256": "7e605f03efbf09f910136dd6d7428b3b57d416be110ef51c153d96e8c7dc686e"
+    },
+    {
+      "path": "models/main.json",
+      "size": 945949,
+      "sha256": "bf61a10a935ad5c15405d4c2992880de18ed5b85be734e6c7e328d3bccb1a6f7"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 613,
+      "sha256": "aeabb5efc19dc3fe19bd5bd6f9727a0c467810c3fae08bffbb5d424c72049329"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 55488,
+      "sha256": "730836878b34fb36877073b736e306bda6848c96db646aeef1061f7fdf3bf153"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1312,
+      "sha256": "6784870cd9a538bb881a1062724299f75cc68d2c2c2c6d16634d45d5c017044d"
+    }
+  ]
+}

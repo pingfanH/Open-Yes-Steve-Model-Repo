@@ -1,0 +1,192 @@
+{
+  "id": "xiaotin",
+  "path": "parsed/xiaotin",
+  "source": {
+    "path": "Unknown/xiaotin.ysm",
+    "type": "ysm",
+    "stem": "xiaotin"
+  },
+  "ysm": "parsed/xiaotin/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/销汀·桉柏.png",
+        "comment": "",
+        "name": "销汀·桉柏",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/XiaoTin"
+    },
+    "name": "销汀·桉柏",
+    "tips": "睡衣？泳衣？"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "1": "猫耳",
+      "2": "猫耳·真",
+      "extra0": "马尾",
+      "extra1": "[原版]招手",
+      "extra2": "[原版]拍手",
+      "extra3": "[原版]点头",
+      "extra4": "[原版]摇头",
+      "extra5": "[原版]胜利姿势",
+      "extra6": "无",
+      "new": "眼镜切换",
+      "new2": "变身",
+      "new3": "战斗脸"
+    },
+    "extra_animation_classify": [],
+    "preview_animation": "sleep",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": true,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture0.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 3612440,
+    "sha256": "f1f9026bf49d2886590132b514c4ebb71788e7d6d97b8287fc1023501427ff20",
+    "bones": 425,
+    "cubes": 1144,
+    "faces": 6864,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 177419,
+      "sha256": "db0ff2b0e7f976b636d0e356f399b948d074c9824c5bce2587496ded54d574de"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 538,
+      "sha256": "c58516207955d6a899d1f45b1b1cf3464e5a2b654a7b42356edf1303322ca03d"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2247,
+      "sha256": "f9da0991d92aa06598dec723f1ca0a8f9b18f04b433f2406152d7f22fd862736"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 37726,
+      "sha256": "30e1f5e14b0299041565cd76c94e27a4f93307c186db08b8454da025f74cc0dc"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 230571,
+      "sha256": "a6b0d8d178a2469e934bc75018d53610ab389ae142d2f86cb35b532d9958e153"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139521,
+      "sha256": "06347a54349bd9ec56b929c116821734afd45fe295d959edfb04ef5514a95423"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023685,
+      "sha256": "0113127d4f962c28c749f031e634c72bf2a390ce20b587e8874be39e4f61d7f1"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39870,
+      "sha256": "5b7ae61bdf71b34bc25a3cdc24f628e34e03e1f6174de5747b3104cf6d5a45f4"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 185721,
+      "sha256": "99f3717bc11d98b04d012438bc383201c5fa2aaa4f2416790548a4fa6fa8a052"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "178d0f90b21af957300ebbc569fd928443ee94dcd773eddf812ea522e8139f74"
+    },
+    {
+      "path": "avatar/销汀·桉柏.png",
+      "size": 11259,
+      "sha256": "4407f8eb2930054bd240e2463687a29ba388600bb09155bb62886c61dce2c9f6"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 32395,
+      "sha256": "39544ed606cbb0f9c1944615b8085f80a632f4aa77e3ac46984253950c4f7227"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 1345,
+      "sha256": "53c97d2e407223c0c40c6fcddb4fee6215164532c019d0b58cd7d3d452dd9b04"
+    },
+    {
+      "path": "models/main.json",
+      "size": 623592,
+      "sha256": "eb783c7d8bb31c0c4e1e44df7ad4e3c11bbace56948158d6d2e9c5f781bc6be8"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 351,
+      "sha256": "c89631d63d8fd9a86577788f53ac25cea89e400a6237860dc2a46e2680431fad"
+    },
+    {
+      "path": "textures/texture0.png",
+      "size": 54608,
+      "sha256": "3069e5b0674ca0bd3fd7de2bb0336f368db989d2af48a901103da31ffbcaa76c"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1427,
+      "sha256": "93de7417bdb2a27aa23bc12c484bf7040a1869563ab56a7064118591606016a8"
+    }
+  ],
+  "preview_errors": [
+    {
+      "type": "image",
+      "error": "ValueError: no renderable cube faces found"
+    }
+  ]
+}

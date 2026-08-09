@@ -1,0 +1,203 @@
+{
+  "id": "_rei_Alpha05",
+  "path": "parsed/_rei_Alpha05",
+  "source": {
+    "path": "Uncategorized/_rei_Alpha05.ysm",
+    "type": "ysm",
+    "stem": "_rei_Alpha05"
+  },
+  "ysm": "parsed/_rei_Alpha05/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/小萌新idjdkd.png",
+        "comment": "none",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/1573788561"
+        },
+        "name": "小萌新idjdkd",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 4.0 NC-BY-SA"
+    },
+    "link": {
+      "donate": "none",
+      "home": "none"
+    },
+    "name": "足立レイ",
+    "tips": "借用了MicroCraft的物理与部分动画。注：这个模型有许多逆天特性，如逐面UV箱型UV混杂，逆天命名，纯色填涂，手持物品定位组缺失，穿模等"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          },
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/uv.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/rei_Alpha05_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9705,
+      "sha256": "78f72e6f5dd4ff99a7c1b74e3b79fe806884f94d7623329701c0af11ee69aaf0"
+    }
+  },
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 3989589,
+    "sha256": "a82c8e1da2b40f571e5eb038b11177ddd9a4543f505a7255d24680b1c2586a7a",
+    "bones": 155,
+    "cubes": 2340,
+    "faces": 14040,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 95259,
+      "sha256": "dc2ce8cc7ed12bb8600ccfe8a77326c21d04185fce8400bd2bc87f3fcff798ac"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 290587,
+      "sha256": "886ed973ff6558f4b741436854cc422329930b5fccd2b3966c0b36441f335ca3"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 130638,
+      "sha256": "170dcd9532f9880c365aafce3d52792de6848afce347e35006eb771d3a9975ee"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1505299,
+      "sha256": "2cfe596c36beecaa1688b55951b4272e660c066078bb5d95b20240a32a3a20da"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 156895,
+      "sha256": "747a18b07644bc13f78d172812527bb67004d05cad1740407b4eb57e93048d64"
+    },
+    {
+      "path": "avatar/小萌新idjdkd.png",
+      "size": 21456,
+      "sha256": "8b39a7c8d6035bb4fac416fede75fd1f87358240f680a7f213636333d801828f"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 2036,
+      "sha256": "93664fdd7610ccaa738bb3dea35bf783d8bb7096737ef84aa2491a96cb440315"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 205756,
+      "sha256": "a2bd6a7f265afe37cab238194d7afa108c00a5f2a10a4dd8f5b96cf3e6084cc3"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1280517,
+      "sha256": "7315d8f0a05e0d1ee6d53a141f7403cb049822ed88919698d5c348505a017eb5"
+    },
+    {
+      "path": "textures/uv.png",
+      "size": 78860,
+      "sha256": "c557e80488d4e9555ddb46dc34a90e25fb8a24068158634fa30840c1cfd0899a"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1790,
+      "sha256": "f0da85581a472fe5bd2bce64707f469644e8fd829c83b49e88a07530c7a526ef"
+    }
+  ]
+}

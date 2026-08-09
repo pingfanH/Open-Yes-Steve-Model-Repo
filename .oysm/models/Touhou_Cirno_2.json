@@ -1,0 +1,158 @@
+{
+  "id": "Touhou_Cirno_2",
+  "path": "parsed/Touhou_Cirno_2",
+  "source": {
+    "path": "_TouhouProject/Touhou_Cirno_2.ysm",
+    "type": "ysm",
+    "stem": "Touhou_Cirno_2"
+  },
+  "ysm": "parsed/Touhou_Cirno_2/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/02Bunny（蓝玫瑰）.png",
+        "comment": "喜欢做点酷东西",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/11814817?spm_id_from=333.788.0.0",
+          "QQ群": "584570528"
+        },
+        "name": "02Bunny（蓝玫瑰）",
+        "role": "模型/贴图/动画"
+      },
+      {
+        "avatar": "avatar/かめぱすた.png",
+        "comment": "",
+        "contact": {
+          "X（twitter）": "https://x.com/kamepan44231"
+        },
+        "name": "かめぱすた",
+        "role": "系列二创图原作者"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "§e琪露诺",
+    "tips": "§7雾之湖畔的冰之妖精之王，好战且顽皮，以恶作剧为乐，常因不顾后果而自食其果，却乐此不疲。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "跳舞",
+      "extra1": "招手",
+      "extra2": "鼓掌",
+      "extra3": "点头",
+      "extra4": "不行",
+      "extra5": "胜利",
+      "extra6": "摇摆",
+      "extra7": "耶"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "res1",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/res1.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Touhou_Cirno_2_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8229,
+      "sha256": "1616192040e8c561fd709ff96099b54d9bd233680c1f9b09ecc2936849f03a08"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 861856,
+    "sha256": "6806d44d24bd3482da8af92c7412d168cc619c95fd7a1cd2699989c1474aa202",
+    "bones": 109,
+    "cubes": 321,
+    "faces": 1926,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 137289,
+      "sha256": "9613ef937a993956e3ef641f3c471e66aee60820fdfda0e9cbc5e25a7bd5d9be"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 51847,
+      "sha256": "7bc669cc46be571768a29a00f740011917b7aaaae8f9e7a60984aaac08d04289"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 214400,
+      "sha256": "4addcb66fd164835fa8298d39985fb8e18448f8989d68c7b54f5bd93de452e28"
+    },
+    {
+      "path": "avatar/02Bunny（蓝玫瑰）.png",
+      "size": 21986,
+      "sha256": "15d683b20b12c36e70755823fafa23e4f49d2b98a9579b250f7e13873d95efab"
+    },
+    {
+      "path": "avatar/かめぱすた.png",
+      "size": 233291,
+      "sha256": "8a8609576d8bd498c571ec82a6512dc3f511e0fe90cc40086cccaac871e57c9b"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 37443,
+      "sha256": "c725b1d62aecbdfdf150dbec7352e0f8e6eb74764ac3bdf8ae1f9797af2e7edb"
+    },
+    {
+      "path": "models/main.json",
+      "size": 136857,
+      "sha256": "65d26f367fdf2f4faa172fd23f16718da07063e3ef529ae9f386cbd60b4b53e3"
+    },
+    {
+      "path": "textures/res1.png",
+      "size": 27309,
+      "sha256": "bdd414e4c0f05236edab13de3674eba2457120108a4e5eb2978bfaa8864c6467"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1434,
+      "sha256": "54af6cc2f6341352b60dc1d6b87da17894341ce4cd4c05aeb3cbeecf6af9cbe4"
+    }
+  ]
+}

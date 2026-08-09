@@ -1,0 +1,100 @@
+{
+  "id": "CnCTWKW_NODMilitantSquad",
+  "path": "parsed/CnCTWKW_NODMilitantSquad",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCTWKW_NODMilitantSquad.ysm",
+    "type": "ysm",
+    "stem": "CnCTWKW_NODMilitantSquad"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "NOD武装民兵（KW）",
+    "tips": "TS经典造型，第三次泰战也有一部分士兵穿着这些装备",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCTWKW_NODMilitantSquad_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5795,
+      "sha256": "1d44c6876710633c850476d3969a739c5139858177f677c0e6e4ecee85417291"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 368811,
+    "sha256": "ec888a7036852cae93b06ff930524365e51d176cb2fa83905feb66334b409a48",
+    "bones": 45,
+    "cubes": 185,
+    "faces": 1110,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 12769,
+      "sha256": "335d3b87634d59ea16a833b3ddd42b5e148281cba1bd405adab0d458fb5c70bc"
+    },
+    {
+      "path": "info.json",
+      "size": 212,
+      "sha256": "79260079d18797adc655e1c263894ee87aa791cce7fe4be3fc474ef4e38605f3"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122470,
+      "sha256": "d93402d24863ccd84622801424bb845d8ff78161fae9d48b7bbf0c3d213720c1"
+    },
+    {
+      "path": "main.json",
+      "size": 83327,
+      "sha256": "f9e7d98c958d52d005b1ce69b2702228c56680ef1d187dee6686fa3f434e841e"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131639,
+      "sha256": "a73cf95259743cc506fa6931e6bed68e0e41c5edca8f4651f26f1a42c1e26994"
+    },
+    {
+      "path": "texture.png",
+      "size": 18394,
+      "sha256": "559e4b665a7e0397b8dfe23841b4f9de2af56d9e13f3ec2f360af570dcd7aac2"
+    }
+  ]
+}

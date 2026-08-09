@@ -1,0 +1,106 @@
+{
+  "id": "GI_Klee",
+  "path": "parsed/GI_Klee",
+  "source": {
+    "path": "_GenshinImpact/GI_Klee.ysm",
+    "type": "ysm",
+    "stem": "GI_Klee"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "GI_Klee"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "default.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Klee_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10131,
+      "sha256": "0344f92981eef9aa34993b463fcd7fd9b9dfa669628300f01d5f3207d15e9edb"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 1666274,
+    "sha256": "ccc59dc4b98e638caf8ed911b80462dad88e6c9a4f726f6137e32c8c2387e27d",
+    "bones": 92,
+    "cubes": 884,
+    "faces": 5304,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 91,
+      "sha256": "a7c246495beaffe9733d903936d163adcb1e5ba1bcfcfaa6c9efbd051bd32222"
+    },
+    {
+      "path": "arm.json",
+      "size": 28827,
+      "sha256": "890a2819727dd1b75262a06527dadced42fa08e8c7970f7b1a34cd812a4e628d"
+    },
+    {
+      "path": "default.png",
+      "size": 24262,
+      "sha256": "1354e6a19f4f82603d49b4c9276c49bd9d6e2a4a3d92c5d6ec04edcdcb766c0a"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 140951,
+      "sha256": "b964ad142b6666a7075044a513c84b51e25ec68988c32da0d7529ffcf0bd0d31"
+    },
+    {
+      "path": "gs_keli.zip",
+      "size": 221551,
+      "sha256": "30080a5d864a7e8f386904070dc250b851701952905272522ebcc7a5dc2e1189"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 191749,
+      "sha256": "07c053d600f4e4c658e48b025b9c5b8c7308fc6d95c8a4414e35d554199de4fd"
+    },
+    {
+      "path": "main.json",
+      "size": 492425,
+      "sha256": "c997d9b45c3867803e00a18df41ce9e9b60329388de99416bb3bcc4bbbcdcc51"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 140871,
+      "sha256": "72e255776454327b3488ec24606a7e6784f7fc6190eb56fc853a11bc3e987dc2"
+    },
+    {
+      "path": "可莉.bbmodel",
+      "size": 425547,
+      "sha256": "70ac6083bcb45a7db85d75ac3f16a4ffe23d13ed3eb3ea09425679e610740902"
+    }
+  ]
+}

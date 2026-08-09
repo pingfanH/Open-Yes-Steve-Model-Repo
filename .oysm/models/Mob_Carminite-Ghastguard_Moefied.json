@@ -1,0 +1,115 @@
+{
+  "id": "Mob_Carminite-Ghastguard(Moefied)",
+  "path": "parsed/Mob_Carminite-Ghastguard(Moefied)",
+  "source": {
+    "path": "_MinecraftMob/Mob_Carminite-Ghastguard(Moefied).zip",
+    "type": "zip",
+    "stem": "Mob_Carminite-Ghastguard(Moefied)"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§c高塔幽灵(Carminite Gastguard)",
+    "tips": "暮色森林",
+    "authors": [
+      {
+        "name": "§e雾雨波波沙"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png",
+        "texture2.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Mob_Carminite-Ghastguard_Moefied_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3229,
+      "sha256": "509432b4cedd7d30510f328ddd5570037ee78d93808d906b2e961a64646afe89"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 903530,
+    "sha256": "c3d432d63fa2c8444dd9f96fe04de789ce732026a23d59c15ecd59ba1e50193a",
+    "bones": 279,
+    "cubes": 300,
+    "faces": 1800,
+    "textures": 2,
+    "materials": 2,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 91,
+      "sha256": "a7c246495beaffe9733d903936d163adcb1e5ba1bcfcfaa6c9efbd051bd32222"
+    },
+    {
+      "path": "arm.json",
+      "size": 10142,
+      "sha256": "17a0b6663152fae791de29e274f1315b70f0c9844dd1d2da1fa0a420afadcded"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 133541,
+      "sha256": "b8646cf9d2aa1cecde20fc9e75f8486279a83e3600bd52d8ac66941937cb1301"
+    },
+    {
+      "path": "koishi_komeiji.ysm",
+      "size": 460372,
+      "sha256": "e42ef47c7a1eb7d7caa7b59f3409abf67b5934d265e318ae74916bf0498fd344"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 152607,
+      "sha256": "ea7d85e9eda9913ecdc48b212defedba0e106d1b744bab16b6981701d95b8aea"
+    },
+    {
+      "path": "main.json",
+      "size": 63509,
+      "sha256": "76706fb709e411d90a1fbae5e3bb0a866749978171b82a90a6827e17bca45e5c"
+    },
+    {
+      "path": "readme.txt",
+      "size": 741,
+      "sha256": "d7c4f027f4d563cd8c874de05c0b599afb9f46c1be4302a411e09a3ae2babafa"
+    },
+    {
+      "path": "texture.png",
+      "size": 43619,
+      "sha256": "917a651a81242acb79145df41cd69fc3473f8e4962bbc04ff613a4297b7b98b8"
+    },
+    {
+      "path": "texture2.png",
+      "size": 38908,
+      "sha256": "419c403c06066aaa46d7eed4f0e0bf64d89cb4b1ffa1913efcdf1a1a169adb76"
+    }
+  ]
+}

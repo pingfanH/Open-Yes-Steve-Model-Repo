@@ -1,0 +1,100 @@
+{
+  "id": "CnCMO_Reznov",
+  "path": "parsed/CnCMO_Reznov",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCMO_Reznov.ysm",
+    "type": "ysm",
+    "stem": "CnCMO_Reznov"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "雷泽诺夫",
+    "tips": "出自《红警2》mod《心灵终结》\n精英狙击手，库可夫的老搭档，在某一关卡有致敬《使命召唤》同名人物的彩蛋",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCMO_Reznov_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8279,
+      "sha256": "104a243780920ede86433f556aebaf754d6b7c49b7d99184bb5e7540d9a870cc"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 362449,
+    "sha256": "aef11a233e0337d8ffad997c532ba8efa250d60dcc7b6fd5074c978f6b082b1b",
+    "bones": 43,
+    "cubes": 167,
+    "faces": 1002,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 10155,
+      "sha256": "818da2fe6f1b2a4a97930b833ad7478082142125f0e3bbc3aeb6021ca04cee8f"
+    },
+    {
+      "path": "info.json",
+      "size": 277,
+      "sha256": "2a26d452ca280d2e129435d35edc5dd8549df2bc4aeef163a01f241e2c926fcd"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122470,
+      "sha256": "d93402d24863ccd84622801424bb845d8ff78161fae9d48b7bbf0c3d213720c1"
+    },
+    {
+      "path": "main.json",
+      "size": 76637,
+      "sha256": "90cb2573509bf330bc5eaf615cdb77c737a7a03937927aabaa4c2298eb299633"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131639,
+      "sha256": "a73cf95259743cc506fa6931e6bed68e0e41c5edca8f4651f26f1a42c1e26994"
+    },
+    {
+      "path": "texture.png",
+      "size": 21271,
+      "sha256": "28ec1044f72e12bbd269f9fe1cf132cbe056bd7a41e008c4d332ef4ef3600713"
+    }
+  ]
+}

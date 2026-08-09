@@ -1,0 +1,78 @@
+{
+  "id": "Ak_Jessica",
+  "path": "parsed/Ak_Jessica",
+  "source": {
+    "path": "_Arknights/Ak_Jessica.zip",
+    "type": "zip",
+    "stem": "Ak_Jessica"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Ak_Jessica"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "default.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Jessica_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9431,
+      "sha256": "6f52a355e4dfe5d6455e600b02a420f05fb83e23a79be2b8a9e193e88cbd72d1"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 389776,
+    "sha256": "fc52c01c15c5da5a566b9888cc95a472fefb021a603253a44243471afedb4914",
+    "bones": 68,
+    "cubes": 438,
+    "faces": 2628,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 12990,
+      "sha256": "9557f66bad214b2ec6d25f790a67e976365e885db8d5a431ada6688da31d7082"
+    },
+    {
+      "path": "default.png",
+      "size": 14720,
+      "sha256": "c276da1e9dbf37642b99ad4faa026c6987a038db386bc331d3bc08e10f6cbe89"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 143065,
+      "sha256": "182a7ae897f3b594e6540439db388bbaf4743b7535a0f68437f7490b5e0959fd"
+    },
+    {
+      "path": "main.json",
+      "size": 219001,
+      "sha256": "b8a50745661318e4a10a04f15ba4fdeefed7d81ab8f2cbdd9fd703103008a290"
+    }
+  ]
+}

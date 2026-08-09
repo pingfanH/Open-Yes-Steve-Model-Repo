@@ -1,0 +1,84 @@
+{
+  "id": "_Sturmsoldat",
+  "path": "parsed/_Sturmsoldat",
+  "source": {
+    "path": "Uncategorized/_Sturmsoldat.ysm",
+    "type": "ysm",
+    "stem": "_Sturmsoldat"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_Sturmsoldat"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Sturmsoldat_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3465,
+      "sha256": "f748ac3b2a5ab6c6affe037c8494ae19608abc1945cad1af5be0cadf5baf3ba0"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 158721,
+    "sha256": "358961e49744259d918e1a7382559bec494c0fb678b973a1a84e424d9718151f",
+    "bones": 70,
+    "cubes": 134,
+    "faces": 804,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 4711,
+      "sha256": "80012879fd5cd4d1ffb9a64c3c3445d81535d6263c2b61ddf51ef1c6802d5880"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 13754,
+      "sha256": "1d599a0a189a57f2c538eb0c966bec01dfe75f2b00142b82659279c250efe80b"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 118242,
+      "sha256": "221eb1dfd1de6d04fc33c2cbaa0c4669cd9aef8163c8350bf35fa11f5d47e185"
+    },
+    {
+      "path": "main.json",
+      "size": 18945,
+      "sha256": "154fabd10bc140a581de366df79a5b498e46e690f32f20b094972654180ebf58"
+    },
+    {
+      "path": "texture.png",
+      "size": 3069,
+      "sha256": "ffd2e5e110669c2301effdf1c8cc56d5e3e80f5c1371a440706e06fe9362595f"
+    }
+  ]
+}

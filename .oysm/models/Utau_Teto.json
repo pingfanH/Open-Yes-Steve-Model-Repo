@@ -1,0 +1,177 @@
+{
+  "id": "Utau_Teto",
+  "path": "parsed/Utau_Teto",
+  "source": {
+    "path": "_Vocaloid-UTAU/Utau_Teto.ysm",
+    "type": "ysm",
+    "stem": "Utau_Teto"
+  },
+  "ysm": "parsed/Utau_Teto/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/Omegaff0048.png",
+        "comment": "Please subscribe",
+        "contact": {
+          "Youtube": "https://www.youtube.com/@omegaff0048"
+        },
+        "name": "Omegaff0048",
+        "role": "Creator"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.net/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Kasane Teto",
+    "tips": "From Utauloid"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Utau_Teto_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7274,
+      "sha256": "daa6bee0fb049194f9f40f93022f78c28a55321a51a07d5a773d81db5cdab651"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 887600,
+    "sha256": "6e6e7d440fd9b4535fabc7e37bc5d91f0228f00cfd2b01b3ca16c462be7a8c62",
+    "bones": 55,
+    "cubes": 307,
+    "faces": 1842,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136637,
+      "sha256": "f795d670b8e2553548348161425e21c7a8f4c2b78d4602d33c8ccc1f03f537b3"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 123165,
+      "sha256": "0a5d3f9c0562cc4d4032464fa5a4f9c4d80d0d7a218e780240d04c0b276f8c9a"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 199514,
+      "sha256": "6e08009aee3874a145316089aa6ce4643dcac714a2843263a2abc3b2ca7408dd"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/Omegaff0048.png",
+      "size": 62978,
+      "sha256": "e21a49f4a4240b0834b56581e0dc22f13efa851f0bff0bb1eb6d14fe30b65572"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 12053,
+      "sha256": "a957be82e81193fd4aac16bec8a26dfac30c0fbcc5e01de7e267bd91ebfb033e"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 148654,
+      "sha256": "8e6ecd94256ff65d2caac45887b073ff3844a81cd31ad801ae2ac8b8d8b82401"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 8761,
+      "sha256": "4274faedb3360957545f51e4cad9d20265925359a29c89697365e496bc8ea60d"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1221,
+      "sha256": "a8ac2627b2f8d54642e330aee74c0e22ceaef527ee01b4ebe9507b3c092a1489"
+    }
+  ]
+}

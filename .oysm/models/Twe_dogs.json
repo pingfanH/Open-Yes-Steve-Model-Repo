@@ -1,0 +1,78 @@
+{
+  "id": "Twe_dogs",
+  "path": "parsed/Twe_dogs",
+  "source": {
+    "path": "Unknown/Twe_dogs.ysm",
+    "type": "ysm",
+    "stem": "Twe_dogs"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Twe_dogs"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "tex.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Twe_dogs_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3312,
+      "sha256": "aa42f061731cb1ce5e51f3b727433ff1b64dc673952b3d813ee36da7850e6a3c"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 85573,
+    "sha256": "0dfad5a6f77bc79412b7f8b644837af80ebf27f0c41f4324d45833a6682c5fd4",
+    "bones": 57,
+    "cubes": 265,
+    "faces": 1590,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 1109,
+      "sha256": "d3b484e495241fd71c2b9f785dc5e309e141de40db64042384409e156ab7bc27"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 44407,
+      "sha256": "da491d604d3cbb30d272408aa079b4e09d4af7a7ae90e8be2f7e9c447cce3ea4"
+    },
+    {
+      "path": "main.json",
+      "size": 33743,
+      "sha256": "9b4c9b501b7a3e1e245b71280bfcd00f50d2446224298a5b0e5a4966c75c4bad"
+    },
+    {
+      "path": "tex.png",
+      "size": 6314,
+      "sha256": "e7f6be1a4d69310cb3bdea8db9a06ecc1e9012e12d8ca9bd6104ebf206e7ab7a"
+    }
+  ]
+}

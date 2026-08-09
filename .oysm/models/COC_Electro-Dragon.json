@@ -1,0 +1,204 @@
+{
+  "id": "COC_Electro-Dragon",
+  "path": "parsed/COC_Electro-Dragon",
+  "source": {
+    "path": "_ClashRoyal-COC/COC_Electro-Dragon.ysm",
+    "type": "ysm",
+    "stem": "COC_Electro-Dragon"
+  },
+  "ysm": "parsed/COC_Electro-Dragon/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "",
+        "name": "泉溪",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "雷电飞龙",
+    "tips": "停不下来也不想停下"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "Simple Config",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "fly",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/COC_Electro-Dragon_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5633,
+      "sha256": "01fe19a71a653a99af17fdc377123f5487391a4701bfc54814e7d064869d6ae5"
+    }
+  },
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 655086,
+    "sha256": "af7bc5736f9a742fc0d0cdd5b032ba037545414e933da33653d14fb6c08b47d9",
+    "bones": 83,
+    "cubes": 296,
+    "faces": 1776,
+    "textures": 2,
+    "materials": 2,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 146920,
+      "sha256": "b0a55b3ea8f6ed4ea1a03c4829d7b2e1ba5cfef89e7b7ad66b6e0dc491686634"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2248,
+      "sha256": "eb55ffba49832ac7f863537d37d777835f141b7806b408f4fc6437848492f1f2"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 4618,
+      "sha256": "032c45481a99fd99cb48fdf272cb76a93da67239fcd680e57cb9b1da7d395d1a"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 115576,
+      "sha256": "f2e9cbbfab7dbaad51b8687af5ef76c16cce29c0ba682f37d71c5e75ce86fe19"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "avatar/泉溪.png",
+      "size": 7683,
+      "sha256": "c58a5058352f2c366a9f0c7f0b1b869c461f3ce98ee2e54466a08e4ebb749c71"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 617,
+      "sha256": "58a5a4f99a17e863505e5d985c5342fafccf53eeb5799a572dff4156086be4ad"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 22029,
+      "sha256": "b2220b9a05d8bcbc4e436c654791f31651185afe00f56fb202c3e165741678f1"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 10093,
+      "sha256": "c224d8fc276922482fca3430968cc160943b1d7b25c92f10fbc5f41401e23524"
+    },
+    {
+      "path": "models/main.json",
+      "size": 144978,
+      "sha256": "f0594d152bb495ab2847adae9276823869a9b46db0dd588b33192a663175d587"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 342,
+      "sha256": "b99fbe93e023b79e948bbee8785264a24a3df708be8c0b0db96d8b3e87ea139b"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 11115,
+      "sha256": "3d6ee25dd9507b59b1f9c436d3dcb9203c7b871121b7bd7907109916d38ecafc"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 4747,
+      "sha256": "da314a9248eff6b1961c11df5c423414d9c36fc1b4bdb0785f4f29f84f5acbcc"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1447,
+      "sha256": "6ca69ccf178335c84397bc27227f2c1b9c36e18cef1945c3fedfe4d7231ff89e"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "Ak_Nian",
+  "path": "parsed/Ak_Nian",
+  "source": {
+    "path": "_Arknights/Ak_Nian.ysm",
+    "type": "ysm",
+    "stem": "Ak_Nian"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Ak_Nian"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "a.png",
+        "nian.png",
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "nian": "nian.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Nian_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10538,
+      "sha256": "acedb969ccb9f1bc991c4d2a62ce935442bfa5c2c61302188cf1cfae394f18fe"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 3275217,
+    "sha256": "b7a3f13d05b4490d572064b18fc074984e37285d1ec66d20a2504c308c17391d",
+    "bones": 159,
+    "cubes": 526,
+    "faces": 3156,
+    "textures": 3,
+    "materials": 3,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "a.png",
+      "size": 18290,
+      "sha256": "a80cb6d3b9e4654d1ad6ccb0d1608d2324635ea8910f2bea2c229015909982b3"
+    },
+    {
+      "path": "arm.json",
+      "size": 6495,
+      "sha256": "6ae4f5a48bfff36dd9791203f78b095b40ae9f7b68617985300ece0940f56c81"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 1644390,
+      "sha256": "65425730b1dba92c9a38dea27e230b61a4321ca76c48c15f81b0bb03df008a6c"
+    },
+    {
+      "path": "main.json",
+      "size": 81628,
+      "sha256": "a335137d1d695fae296333748823723dbaa769643f3639856135e580d312eda8"
+    },
+    {
+      "path": "nian.animation.json",
+      "size": 1486121,
+      "sha256": "b808cfce1ce601ffd60794f2fb89f0bb4e13178b7c713f9e492d0b46aeed9d53"
+    },
+    {
+      "path": "nian.png",
+      "size": 22299,
+      "sha256": "eaaba49c3a731a854470ae8f755f459454ed364f03bedb822867de6d4c129183"
+    },
+    {
+      "path": "texture.png",
+      "size": 15994,
+      "sha256": "41c382b5ea2ea5fe21201fae02b607cdb7b6b5caad000b0ef908c3c8cfdd0862"
+    }
+  ]
+}

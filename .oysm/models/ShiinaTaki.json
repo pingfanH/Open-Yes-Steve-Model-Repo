@@ -1,0 +1,262 @@
+{
+  "id": "ShiinaTaki",
+  "path": "parsed/ShiinaTaki",
+  "source": {
+    "path": "Unknown/ShiinaTaki.zip",
+    "type": "zip",
+    "stem": "ShiinaTaki"
+  },
+  "ysm": "parsed/ShiinaTaki/ysm.json",
+  "metadata": {
+    "name": "§9椎名立希",
+    "tips": "花咲川女子学园高中一年级学生，MyGO!!!!!的鼓手\n负责作曲，是乐队实际上的队长（虽然自己不这么觉得）\n非常喜欢熊猫和杏仁豆腐",
+    "license": {
+      "type": "CC BY-NC 4.0",
+      "desc": "可以自由二创、修改、录制视频"
+    },
+    "authors": [
+      {
+        "name": "§b小早川希/LuXi233",
+        "role": "模型丨贴图丨动作",
+        "avatar": "avatar/LuXi233.png",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/183485702"
+        },
+        "comment": "野生YSM作者"
+      }
+    ],
+    "link": {
+      "home": "https://space.bilibili.com/183485702",
+      "donate": "https://afdian.com/a/LuXi233"
+    }
+  },
+  "properties": {
+    "height_scale": 0.71,
+    "width_scale": 0.71,
+    "extra_animation": {
+      "extra0": "#变更服装及表情",
+      "extra100": "海铃的面具",
+      "extra10": "应当立希",
+      "extra11": "生气(肘击)",
+      "extra1": "打招呼",
+      "extra12": "无语",
+      "extra13": "哈？",
+      "extra14": "#口味",
+      "extra15": "我...现在就觉得很幸福",
+      "extra101": "打鼓",
+      "extra2": "鼓掌",
+      "extra3": "点头",
+      "extra4": "否定"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "变更服装及表情",
+        "name": "变更服装及表情",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "选择服饰",
+            "description": "单击选择服饰",
+            "value": "v.roaming.cloth",
+            "labels": {
+              "§e§l花咲川秋季校服": "v.roaming.cloth=0;",
+              "§f§l花咲川夏季校服": "v.roaming.cloth=1;",
+              "§b§l演出服": "v.roaming.cloth=2;",
+              "§9§l常服": "v.roaming.cloth=3;",
+              "§5§l羽丘秋季校服": "v.roaming.cloth=4;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "睫毛形状",
+            "description": "单击切换",
+            "value": "v.roaming.jiemao",
+            "labels": {
+              "弯": "v.roaming.jiemao=0;",
+              "平": "v.roaming.jiemao=1;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "表情",
+            "description": "单击切换",
+            "value": "v.roaming.biaoqing",
+            "labels": {
+              "无表情": "v.roaming.biaoqing=0;",
+              "微笑": "v.roaming.biaoqing=1;",
+              "不开心": "v.roaming.biaoqing=2;",
+              "吃惊": "v.roaming.biaoqing=3;",
+              "§d糖笑": "v.roaming.biaoqing=4;"
+            }
+          }
+        ]
+      },
+      {
+        "id": "口味",
+        "name": "杏仁豆腐",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "杏仁豆腐口味",
+            "description": "口味",
+            "value": "v.roaming.kw",
+            "labels": {
+              "橘子味": "v.roaming.kw=0;",
+              "巧克力味": "v.roaming.kw=1;"
+            }
+          },
+          {
+            "type": "checkbox",
+            "title": "§4失去高光",
+            "description": "单击切换",
+            "value": "v.roaming.highlight"
+          }
+        ]
+      }
+    ],
+    "preview_animation": "chose",
+    "disable_preview_rotation": true,
+    "default_texture": "taki",
+    "render_layers_first": false,
+    "free": true,
+    "all_cutout": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "slashblade": "animations/slashblade.animation.json"
+      },
+      "texture": [
+        {
+          "uv": "textures/taki.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/ShiinaTaki_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 16416,
+      "sha256": "d8c27100dd2fa0b760045ebaa87282d380a7939c89a58a090324124db61dc34a"
+    }
+  },
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 4387231,
+    "sha256": "98d933b851b48f89c6c0d78a38d805bf1b416fea2b4c0121787b60ca557ae32f",
+    "bones": 274,
+    "cubes": 2716,
+    "faces": 16026,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 147017,
+      "sha256": "942d987bc9eec67529f23af5ba841adddfe32a5926cf0ad1eeaa0d63e9ab99db"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 695,
+      "sha256": "cd2be5d42efea2613f8fbe541e3c8600c0d1edb11051924675bdc2f7955d24d5"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2917,
+      "sha256": "f1b559bb714f40be566b02e1b8dd44c2cc380783e0e8a480c89a8378caa05b96"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 94305,
+      "sha256": "dacef8c5afcdcadd73cea18a13c22bfea258b8fa973916dbfd878dad6df7fb60"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 271358,
+      "sha256": "d2f2a24b7cc369bd35c84cc47de92c8c04da77c6d6230adf85f1e830a78bce06"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 176050,
+      "sha256": "9ecf075152538c1a7ac0bcd61f40bbd607a523c184a009c37cd37e23611b2913"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1652964,
+      "sha256": "af05ec10f7e23dd7148f6a72bdba8abd0e4899dd9e7bf6d65cc42e4feba118fb"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 212280,
+      "sha256": "12ef00df28524eef972954eee79176690c7b0f4bed3ed250bdaa334712475efd"
+    },
+    {
+      "path": "avatar/LuXi233.png",
+      "size": 32224,
+      "sha256": "61a55689c3539e0990ceb04650671861649d2c28fc06508a392e44f721f08061"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 13242,
+      "sha256": "7ff4683dfbee134138bb923710743d411a3a2e6e52072db7ad6b867bdbc18d49"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1469337,
+      "sha256": "93469e222ee1648d79d7240b9a4a7a5253089ee5684dd702f13a818fcf95aff0"
+    },
+    {
+      "path": "sounds/Ha.ogg",
+      "size": 8421,
+      "sha256": "5fdfee5a22e721325fd1c3372bf1dcde8d5c920e225be95bc2a32e5644290ece"
+    },
+    {
+      "path": "sounds/XF.ogg",
+      "size": 51147,
+      "sha256": "9d757b7b4c4c6f613f6c03e80ec91d2fad8e5df5cef3ebe26be5b284d79f01df"
+    },
+    {
+      "path": "sounds/tmr.ogg",
+      "size": 15946,
+      "sha256": "1a2c0c721f82b97654e5324f7638a1e7f26e51a7eb5441bb1f01726b61fb9b63"
+    },
+    {
+      "path": "textures/taki.png",
+      "size": 194660,
+      "sha256": "391992b2f70a16e3a057158e42ad4673afae7d9e07b9284e9742643f65363ef7"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3638,
+      "sha256": "8239e9e74eae7e388ef8a07597c27c870f4acaef173f531141023838be50da43"
+    }
+  ]
+}

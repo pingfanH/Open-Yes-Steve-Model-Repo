@@ -1,0 +1,434 @@
+{
+  "id": "AstralParty_Jasmine_v1.0",
+  "path": "parsed/AstralParty_Jasmine_v1.0",
+  "source": {
+    "path": "_AstralParty/AstralParty_Jasmine_v1.0.ysm",
+    "type": "ysm",
+    "stem": "AstralParty_Jasmine_v1.0"
+  },
+  "ysm": "parsed/AstralParty_Jasmine_v1.0/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/史莱姆坍缩.png",
+        "comment": "史莱姆的中心是黑洞！",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/10547419",
+          "爱发电": "https://afdian.com/a/slmts"
+        },
+        "name": "史莱姆坍缩",
+        "role": "模型、动画"
+      }
+    ],
+    "license": {
+      "desc": "免费公开模型，署名分享，禁止商用、转卖",
+      "type": "CC-BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/slmts",
+      "home": "https://space.bilibili.com/10547419"
+    },
+    "name": "茉莉--星引擎AstralParty",
+    "tips": "来自《星引擎Patry》的高性能机器人女仆：茉莉\n\n当前版本1.0，刚刚尝试做模型不久，有很多经验不足的地方\n如果遇到bug可以向我反馈，能改就改（？\n由于没有用动画控制器，有些动作的表情改变瞬间会发现五官位移，是正常的，暂时没什么办法\n手持带“c:foods”标签的物品时有托盘动画，有能力的可以自己修改物品标签"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config_eye",
+      "extra1": "#extra_config_faceother",
+      "extra2": "确认",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "extra5": "立绘姿势",
+      "extra6": "清洁",
+      "extra7": "胜利"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config_eye",
+        "name": "加急加快！",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "眉毛",
+            "description": "更改眉毛形状",
+            "value": "v.roaming.brow??0",
+            "labels": {
+              "无": "v.roaming.brow = 0",
+              "\\   /": "v.roaming.brow = 1",
+              "——": "v.roaming.brow = 2",
+              "/   \\": "v.roaming.brow = 3",
+              "\\/  /\\": "v.roaming.brow = 4"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "眼部表情",
+            "description": "更改眼部表情",
+            "value": "v.roaming.eye??0",
+            "labels": {
+              "正常": "v.roaming.eye=0",
+              "闭眼": "v.roaming.eye=1",
+              "闭眼无爱心": "v.roaming.eye=2",
+              "无语": "v.roaming.eye=3",
+              "X形": "v.roaming.eye=4",
+              "圈圈眼": "v.roaming.eye=5",
+              "眯眼": "v.roaming.eye=6",
+              "半睁": "v.roaming.eye=7"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "眼瞳",
+            "description": "更改眼瞳状态",
+            "value": "v.roaming.eyeball??0",
+            "labels": {
+              "正常": "v.roaming.eyeball=0",
+              "无高光": "v.roaming.eyeball=1",
+              "星星眼": "v.roaming.eyeball=2",
+              "瞪人": "v.roaming.eyeball=3"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "呆毛样式",
+            "description": "更改呆毛样式",
+            "value": "v.roaming.ahoge??0",
+            "labels": {
+              "正常": "v.roaming.ahoge=0",
+              "翘起": "v.roaming.ahoge=1",
+              "闪电": "v.roaming.ahoge=2"
+            }
+          },
+          {
+            "type": "checkbox",
+            "title": "显示马尾",
+            "description": "显示脑后的双马尾与否",
+            "value": "v.roaming.ponytail"
+          },
+          {
+            "type": "checkbox",
+            "title": "红色马尾",
+            "description": "切换到愤怒的红色马尾",
+            "value": "v.roaming.redhair"
+          }
+        ]
+      },
+      {
+        "id": "extra_config_faceother",
+        "name": "招手",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "嘴型",
+            "description": "更改嘴型",
+            "value": "v.roaming.mouth??0",
+            "labels": {
+              "笑容": "v.roaming.mouth=0",
+              "吃惊": "v.roaming.mouth=1",
+              "咧嘴": "v.roaming.mouth=2",
+              "三角": "v.roaming.mouth=3",
+              "点形": "v.roaming.mouth=4",
+              "沉默": "v.roaming.mouth=5",
+              "歪嘴": "v.roaming.mouth=6",
+              "吐舌": "v.roaming.mouth=7",
+              "V形嘴": "v.roaming.mouth=8",
+              "噘嘴": "v.roaming.mouth=9",
+              "咬牙": "v.roaming.mouth=10"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "脸色",
+            "description": "更改脸色",
+            "value": "v.roaming.face??0",
+            "labels": {
+              "正常": "v.roaming.face=0",
+              "黑脸": "v.roaming.face=1",
+              "红温": "v.roaming.face=2"
+            }
+          },
+          {
+            "type": "checkbox",
+            "title": "流汗",
+            "description": "流汗",
+            "value": "v.sweat"
+          },
+          {
+            "type": "checkbox",
+            "title": "小黑线",
+            "description": "眉间的小黑线",
+            "value": "v.blackline"
+          },
+          {
+            "type": "checkbox",
+            "title": "脸红_大",
+            "description": "大块脸红",
+            "value": "v.blushBig"
+          },
+          {
+            "type": "checkbox",
+            "title": "脸红_线",
+            "description": "斜线脸红",
+            "value": "v.blushLine"
+          },
+          {
+            "type": "checkbox",
+            "title": "眼泪",
+            "description": "大颗茉之泪",
+            "value": "v.tear"
+          },
+          {
+            "type": "checkbox",
+            "title": "愤怒符号",
+            "description": "非常地怒",
+            "value": "v.angrymark"
+          },
+          {
+            "type": "checkbox",
+            "title": "大黑线",
+            "description": "非常尴尬",
+            "value": "v.headBlackline"
+          },
+          {
+            "type": "checkbox",
+            "title": "小太阳",
+            "description": "用来表示注意或者很阳光",
+            "value": "v.sunshine"
+          },
+          {
+            "type": "checkbox",
+            "title": "眼罩",
+            "description": "会把刘海挡住",
+            "value": "v.eyemask"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "selectanimation",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/AstralParty_Jasmine_v1.0_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4886,
+      "sha256": "dfd8ce1aef9f2fd3cf3aa3fc1b659ee7f4238d057a335f6da526af8caa5764c1"
+    }
+  },
+  "stats": {
+    "file_count": 31,
+    "total_bytes": 4475286,
+    "sha256": "5cb4e3c75bcfd98132b343205f0a8b132ca0a40c2f5a2e8cfacfe74f8b9dbceb",
+    "bones": 624,
+    "cubes": 1761,
+    "faces": 10566,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 213357,
+      "sha256": "e11f52f91e282e9c7f35f91b91a013f8377636048c5fc47008962c503557b0c3"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1785,
+      "sha256": "90d89ded552e32a06f0bc57b70cb85e1c1662b6b2a2383de7e09d791343bed98"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3972,
+      "sha256": "05dfa53f7c46e2c9f1bf4e158fe8c69727daabd2e661a93ff744262e7f11dd7c"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 52692,
+      "sha256": "64c4ed6a678e28c3739c0b0d6012e91fcb191b0ef17f47f85f5b5187da4f6b0d"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 185778,
+      "sha256": "24a747ec3e1df8a4e461935c12cd228444d9ad2cf4b95a1b995a9ba27c4ea14c"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/史莱姆坍缩.png",
+      "size": 22433,
+      "sha256": "a5ea744bd8ee96810d3690fa939884bffb902daae01b400f99619065bbbae8c6"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 34703,
+      "sha256": "b14f6cb857544d415c9746dbe67f3ace72fa6dc2f40b8c743640f01e6fe93056"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 21587,
+      "sha256": "5ab5818019752f200aa94dc2cbc0dbf7b08322f11c228e2dbbdd4501baaeabfd"
+    },
+    {
+      "path": "models/main.json",
+      "size": 976585,
+      "sha256": "5d7e9167b3b3038e963db478e479c37b19a874fc4ab0836596d6e6da77659535"
+    },
+    {
+      "path": "sounds/jasmine_attack.ogg",
+      "size": 15841,
+      "sha256": "cebe353fd1bfa6ff4fbd32543b1ce27d1df31df10bb3432ce4a349c7e08ee649"
+    },
+    {
+      "path": "sounds/jasmine_death.ogg",
+      "size": 33574,
+      "sha256": "f99d9ff4e0f3d3a0d5f83029fe4429aa672c49c59d271a0637e5eb0b1b36b1ca"
+    },
+    {
+      "path": "sounds/jasmine_dondondon.ogg",
+      "size": 30276,
+      "sha256": "c9c6c4a8070cb0c69e2cceeb8e8212bb8921f1e972c6c6f1966b28b4bef4e2e0"
+    },
+    {
+      "path": "sounds/jasmine_fish.ogg",
+      "size": 14489,
+      "sha256": "02ff40113eead01485bfc3475168e9f6638980219c5dbdec51105ead53fed0ec"
+    },
+    {
+      "path": "sounds/jasmine_fly.ogg",
+      "size": 16495,
+      "sha256": "40567ac2ad5ae397650ecc3734d4af050549181efc542e159b569cbdc40f6577"
+    },
+    {
+      "path": "sounds/jasmine_guard.ogg",
+      "size": 22194,
+      "sha256": "ee909787b4d07c132e1589d0e589914c978070ec1fb23301f5726665ad31e793"
+    },
+    {
+      "path": "sounds/jasmine_happy.ogg",
+      "size": 20182,
+      "sha256": "7fd4dd0b2a3a98166a8b5f25b11b0478f1ce9649eb2d5eb460ec25cdf71b5c38"
+    },
+    {
+      "path": "sounds/jasmine_howtouse.ogg",
+      "size": 36414,
+      "sha256": "fabebe919b02bc7817565c0264bdc2c0248f14b0a4fb3890100aec7ccf35e5fb"
+    },
+    {
+      "path": "sounds/jasmine_master.ogg",
+      "size": 34416,
+      "sha256": "16e5f22899e073cf9f20c3abc7744304548841fc8d461c077b3c27ced0b2ad7b"
+    },
+    {
+      "path": "sounds/jasmine_selfintroduction.ogg",
+      "size": 61610,
+      "sha256": "dca1af29b30fe4744841f4b18284637dfabc4763725ffc9034adedbb21156b00"
+    },
+    {
+      "path": "sounds/jasmine_targeting.ogg",
+      "size": 11118,
+      "sha256": "fa879bdcfc4cbe48a3d21832a1a0e74271dc7d815412ac11ed9c23b0c0ecdc31"
+    },
+    {
+      "path": "sounds/jasmine_tnt.ogg",
+      "size": 30027,
+      "sha256": "50ff09a6735646d625ff379fc92b0cb7bbace9be56dcc0e897a872e603f0487c"
+    },
+    {
+      "path": "sounds/jasmine_upgrade.ogg",
+      "size": 42620,
+      "sha256": "b56d364590472d8d3a899a50148a8564f52595d0c7bdf509ead468a31234aa4c"
+    },
+    {
+      "path": "sounds/jasmine_whatwillhappen.ogg",
+      "size": 24909,
+      "sha256": "ae586bace5b980dc36420ba27248a8950c99354cb1ef9cfae8c28b1b89e12dd8"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 3504,
+      "sha256": "1a8d69a707acd833a355239b46cc00a5f66e3e86f140d33e732c9bc7b87e01dc"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 124099,
+      "sha256": "a93cb06d06683dcfe5ef5f8430aaf13f6bf31b2399761118fda7f139dce960a5"
+    },
+    {
+      "path": "ysm.json",
+      "size": 4940,
+      "sha256": "6257e35ddc3e1d08fc622344a33b3ae45cd1886a46eff5b176417e226e79d0f9"
+    }
+  ]
+}

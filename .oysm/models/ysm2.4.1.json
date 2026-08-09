@@ -1,0 +1,196 @@
+{
+  "id": "赞达尔•壹•桑原ysm2.4.1",
+  "path": "parsed/赞达尔•壹•桑原ysm2.4.1",
+  "source": {
+    "path": "Unknown/赞达尔•壹•桑原ysm2.4.1.ysm",
+    "type": "ysm",
+    "stem": "赞达尔•壹•桑原ysm2.4.1"
+  },
+  "ysm": "parsed/赞达尔•壹•桑原ysm2.4.1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/Cc纸盒.png",
+        "comment": "模型作者",
+        "contact": {
+          "Afdian": "https://space.bilibili.com/1494015242?spm_id_from=333.1007.0.0",
+          "Bilibili": "https://space.bilibili.com/1494015242?spm_id_from=333.1007.0.0"
+        },
+        "name": "Cc纸盒",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.net/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "赞达尔·壹·桑原",
+    "tips": "“智识”令使、天才俱乐部创始人兼#1席成员"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "比心",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "嘘",
+      "extra6": "撩头发",
+      "extra7": "抱胸"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/ysm2.4.1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 28246,
+      "sha256": "075d7cbcb0391620841db2338c6b4398d14e547838eaa6e20fbcd3c3bb4892f2"
+    }
+  },
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 3460234,
+    "sha256": "6cb1037201d2fe5ff96c66fdbf8892f9ef8a25a2f04a5ed95d6712be52dd530e",
+    "bones": 100,
+    "cubes": 1498,
+    "faces": 8988,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136637,
+      "sha256": "f795d670b8e2553548348161425e21c7a8f4c2b78d4602d33c8ccc1f03f537b3"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 40303,
+      "sha256": "d2c34763d8988f9415af790761265455aba05e2a7dbd14cbf2d4ab9280ffd137"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 215440,
+      "sha256": "49a8fd29bd80dfea9f0f961bcc8ffad017269fed8ddc62e398f8564e8853e910"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1507390,
+      "sha256": "7efd7bbf1d4970552f77c10f0460216a8845a64e2dd1423306321b551d5e6e35"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183826,
+      "sha256": "dddd9ef3c0f24ec18d29f2db78aaddd586e23386597d1e419d8564f92d3f105f"
+    },
+    {
+      "path": "avatar/Cc纸盒.png",
+      "size": 267006,
+      "sha256": "c4d28c3c48d65c6fc9b185aeca79f33fa1db8885fc4ff99dd8984e9dcc64e7fe"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 5530,
+      "sha256": "b3f33b43ec5418e0b8ae3d9f90aa5969c9db907ef852b05a0c6cdc36efb2bd2d"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 804829,
+      "sha256": "d969976543db39c268d2c57ed79f1f04f0fa482848fc29647ed0c137abc99815"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 114328,
+      "sha256": "7eed75eb08821a6e7e59a6ec68ce504619cd1eaecdf6d547bd4781cacc4d281c"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1529,
+      "sha256": "94f4018481e7b6318be4a839c0b225b37f9e7962ad31087b12d6b230fa084f0c"
+    }
+  ]
+}

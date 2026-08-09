@@ -1,0 +1,78 @@
+{
+  "id": "Deovolente_Succubus_0",
+  "path": "parsed/Deovolente_Succubus_0",
+  "source": {
+    "path": "_Deovolente/Deovolente_Succubus_0.ysm",
+    "type": "ysm",
+    "stem": "Deovolente_Succubus_0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Deovolente_Succubus_0"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture1.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Deovolente_Succubus_0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12076,
+      "sha256": "b3a249e1cc67b39038d845d2cf5b37e32d5a834502ba5434d44ad15959a0bec5"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 405284,
+    "sha256": "95acfd8bce5e7ac699cfb778ed708d358848c1745bcf66650b8a2e295fb36bc5",
+    "bones": 160,
+    "cubes": 730,
+    "faces": 4380,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 2682,
+      "sha256": "70b8d36879552a35d68d22d961d6559d5fb2d9c4992db3a09ccbed5624f1495e"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 258775,
+      "sha256": "7eed055bfd48c9fff7dc751ccf7d0822a6d843be59faa55cdb961c0b58a27221"
+    },
+    {
+      "path": "main.json",
+      "size": 125583,
+      "sha256": "bbbd3a354736723bd87100a35a01db8c6eef9dab89bbf309e31570973ae3a265"
+    },
+    {
+      "path": "texture1.png",
+      "size": 18244,
+      "sha256": "36a8b6de15ad449d415b0ff7800b9b090ab12b31258308a0079f199fb7aa2a6e"
+    }
+  ]
+}

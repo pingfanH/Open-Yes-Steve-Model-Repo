@@ -1,0 +1,175 @@
+{
+  "id": "ZZZ_Miyabi",
+  "path": "parsed/ZZZ_Miyabi",
+  "source": {
+    "path": "_ZenlessZoneZero/ZZZ_Miyabi.zip",
+    "type": "zip",
+    "stem": "ZZZ_Miyabi"
+  },
+  "ysm": "parsed/ZZZ_Miyabi/ysm.json",
+  "metadata": {
+    "name": "Default",
+    "tips": "默认模型（Default Model）",
+    "license": {
+      "type": "All Rights its my",
+      "desc": "Can be empty Pastebin"
+    },
+    "authors": [
+      {
+        "name": "Mochitik",
+        "role": "Creator",
+        "avatar": "avatar/miyabi.png",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/1874517490"
+        },
+        "comment": "@mochitik"
+      }
+    ],
+    "link": {
+      "home": "",
+      "donate": ""
+    }
+  },
+  "properties": {
+    "height_scale": 0.95,
+    "width_scale": 0.95,
+    "preview_animation": "idle",
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": false,
+    "disable_preview_rotation": false,
+    "all_cutout": false,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    }
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/main.animation_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": {
+        "uv": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/ZZZ_Miyabi_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5360,
+      "sha256": "603f9d2cfb99c484caa9c82f03ce7c12a09df55a208cc12d5fec681df7b0e230"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 991787,
+    "sha256": "5aa9ec872c8eed59f0e9bb647a8051d8bf3a95a46122df61fcdd301eee4c4917",
+    "bones": 59,
+    "cubes": 177,
+    "faces": 1062,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 197705,
+      "sha256": "1e9f67fac723fd200d172d74aa092ea393f005b9aeafe9086ecc1b475fb1a535"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 744,
+      "sha256": "01902bc329af43baf925d67eb6861c5f4e2dd5355258c96819533ed7d94239ba"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 225761,
+      "sha256": "c90c06c6acc2cd0f2f8c843611eafd2b180f69d4224eca9c25d664ccc61ddef6"
+    },
+    {
+      "path": "animations/main.animation_orig.json",
+      "size": 235368,
+      "sha256": "2db5d7fed2cbd79710879a6b0d29db91cb99686c9c9ad4ec39ea18d296d247d6"
+    },
+    {
+      "path": "animations/main_work.json",
+      "size": 190348,
+      "sha256": "a0ff68a9d39a45f1baba0ac49275ae5e7ed3f5cc34c88175a34f952cd57880fd"
+    },
+    {
+      "path": "avatar/miyabi.png",
+      "size": 12802,
+      "sha256": "94970b4882606cc7f42337f600f6a3fc8bbae3bd15da67d46783d2f8a5b30d3f"
+    },
+    {
+      "path": "controller/main.animation_controllers.json",
+      "size": 810,
+      "sha256": "ff546eb7847ecbb59ce3f43189c005e61db5ccf749dfc4f11b5d978f82b4d106"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 5491,
+      "sha256": "baab3a57735ecee9ab4ee8834e1e799d995b34c0d008af8b6b84a1bc455872fd"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 20689,
+      "sha256": "4615f80e18895694cf495629d535bbe1b1debf2da7348819564319d674a3aadc"
+    },
+    {
+      "path": "models/main.json",
+      "size": 87685,
+      "sha256": "aec2c28b5e336beda1d02fe6d095d289b2c69eac03aef06ffa83bb51698a87a9"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1213,
+      "sha256": "0ecda6c1557cf3571289a3212c93e125d8b075cc37ac62f14dad852d83a576ec"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 11791,
+      "sha256": "ce9751c5be62922faff397379470bb5f4b4d0f8026d2dc126872c05854269d82"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1380,
+      "sha256": "16a09a4694571a1d19d25cd129bceb8aa67b214aec16e1fcc2b1e83de6241674"
+    }
+  ]
+}

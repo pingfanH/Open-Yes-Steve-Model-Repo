@@ -1,0 +1,182 @@
+{
+  "id": "UM_Hishi-Miracle",
+  "path": "parsed/UM_Hishi-Miracle",
+  "source": {
+    "path": "_UmaMusume/UM_Hishi-Miracle.ysm",
+    "type": "ysm",
+    "stem": "UM_Hishi-Miracle"
+  },
+  "ysm": "parsed/UM_Hishi-Miracle/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/LuXi233.png",
+        "comment": "YSM作者",
+        "contact": {
+          "Afdian": "None",
+          "Bilibili": "https://space.bilibili.com/183485702"
+        },
+        "name": "LuXi233",
+        "role": "模型丨贴图丨动作"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "菱钻奇宝",
+    "tips": "那个，我是菱钻奇宝。怎么说呢？\r\n感觉还算不错，要是能继续努力下去就好了，\r\n我是这么想的，请多关照啦～"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "同意",
+      "extra4": "哒咩",
+      "extra5": "坐下",
+      "extra6": "鸭子坐",
+      "extra7": "庆祝",
+      "extra8": "开心",
+      "extra20": "切换 决胜服/学校泳装",
+      "extra21": "切换 丝袜",
+      "extra90": "切换 睫毛",
+      "extra92": "切换 腮红",
+      "extra93": "切换 表情2",
+      "extra94": "切换 表情1",
+      "extra95": "切换 星星眼",
+      "extra24": "切换 鞋子",
+      "extra33": "就是这样",
+      "extra9": "吓到",
+      "extra11": "卖萌",
+      "extra23": "拜托了",
+      "extra28": "激动",
+      "extra31": "坐下",
+      "extra32": "尴尬",
+      "extra404": "隐身(需要同时锁定)"
+    },
+    "extra_animation_classify": [],
+    "preview_animation": "Choose2",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/UM_Hishi-Miracle_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11845,
+      "sha256": "4586d358501cc311519bc2ee8a2eb002bd4fe28c6e6a66811846f8cf74a57e2b"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 2177090,
+    "sha256": "92eefa4c091395d3909fef8737fd21e462240ff7e9829572440023167edef3b6",
+    "bones": 207,
+    "cubes": 1198,
+    "faces": 7188,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136954,
+      "sha256": "0a62650ec7c5e7830a1712321f99b8d8c3b7548711ccc5bef5f9d92bc83da811"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2699,
+      "sha256": "a22b79ffc2d121e668f7a381ac200d1f90b74985e5e8ca97f1986585464e9486"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 53529,
+      "sha256": "306f3bab0801d2a66681c09a4fed2a572bee06b4e8ef7b965b14300f4f5a1306"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 226610,
+      "sha256": "3dadd429927c1ed68d9808b3f9d669f45cc62cfe8c5271704877c604628e33d8"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 131955,
+      "sha256": "0c569ced50b84c5ce95197b4ea4148305506b58c8f2b30d33c8ab2d749fa16f8"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/LuXi233.png",
+      "size": 609469,
+      "sha256": "31416cc64ffcba4fb65f4c5c86986985cd4c8000aa863b55e709dc0b229f376c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 62060,
+      "sha256": "9281e6c26efff1f8a6513bbefbc9bf38e604b742c60f2eb27904609e136a3efb"
+    },
+    {
+      "path": "models/main.json",
+      "size": 602454,
+      "sha256": "0ccc0581efc012751d0f2d6642fcbdbe1af225575045c103d2ef4ca68f0e64cf"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 125969,
+      "sha256": "19dc21c5d23d8f5b2750d36bb9b8a4cf5bf57602d6dbc8d888560577b911a011"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1746,
+      "sha256": "1120f2be899598d2c944a47b11b43008735889352a8ece1fa5630a12ec48ad3a"
+    }
+  ]
+}

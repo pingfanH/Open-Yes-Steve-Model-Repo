@@ -1,0 +1,250 @@
+{
+  "id": "Create_Mechanical-Arm",
+  "path": "parsed/Create_Mechanical-Arm",
+  "source": {
+    "path": "Uncategorized/Create_Mechanical-Arm.ysm",
+    "type": "ysm",
+    "stem": "Create_Mechanical-Arm"
+  },
+  "ysm": "parsed/Create_Mechanical-Arm/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/kyln默寒寒冰.png",
+        "comment": "做点神经玩意",
+        "contact": {
+          "Afdian": "https://afdian.com/a/mhanhanbing",
+          "Bilibili": "https://space.bilibili.com/177247448?spm_id_from=333.788.0.0"
+        },
+        "name": "kyln默寒寒冰",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/机械动力.png",
+        "comment": "",
+        "contact": {
+          "curseforge": "https://www.curseforge.com/minecraft/mc-mods/create",
+          "mcmod百科": "https://www.mcmod.cn/class/2021.html",
+          "modrinth": "https://modrinth.com/mod/create"
+        },
+        "name": "机械动力",
+        "role": "灵感来源"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "动力臂",
+    "tips": "应力消耗：2su/RPM"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "跳舞",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "#extra_classify": "Extra Classify"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "Simple Config",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Create_Mechanical-Arm_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4107,
+      "sha256": "66a8d691023356b1292457df842be5d284dc241ca7ba17461284dadaa9c548b9"
+    }
+  },
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 3013598,
+    "sha256": "5e85bcf9d052daf736d71b3b5e68a90a06936e4e5b2a839dc820ffaa017763c1",
+    "bones": 35,
+    "cubes": 54,
+    "faces": 315,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 174868,
+      "sha256": "c05eb9df4e7b41e42db9b0affe64fe2ab291fe32acc8ad6fe214dd868d2e16a3"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 108292,
+      "sha256": "4c287a35656ce9f50377a15308487a9bd3ea3f4fe7c46997a6005bbaf0ab7706"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 187268,
+      "sha256": "598bba26e550c7b646d092847bfd392f0b15f46f3487191d148926ed0f30b63e"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/kyln默寒寒冰.png",
+      "size": 29112,
+      "sha256": "6d6704757300dda505e1cecd4c3302b46a0cb24fc5af53765326d3d1a399e2d8"
+    },
+    {
+      "path": "avatar/机械动力.png",
+      "size": 23230,
+      "sha256": "65f1a42e3df492a0a23e1ac3e471944e495113625c8407b0075c3d99c69629e8"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 617,
+      "sha256": "58a5a4f99a17e863505e5d985c5342fafccf53eeb5799a572dff4156086be4ad"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 7698,
+      "sha256": "10e508cd814d8121a20325c6b525cf81670f4c6e4b0cbcb1a58f3f63b71eea77"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13725,
+      "sha256": "605fc04a716cfd12d30b5d6fb5d6db461504bd2f8da602fe078a4f57b4d71c71"
+    },
+    {
+      "path": "models/main.json",
+      "size": 18750,
+      "sha256": "610caad3f36219daced1370a2ec440856c9a48381cd96fc164deaf3b74f72d9b"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2686,
+      "sha256": "197669635bbf7b8cf8892b6912e428c92c66aac37ea2d3f1a174c9a04b2b64f6"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 6777,
+      "sha256": "269f23c14668b8fe6c975ceb434f9f83d8d23f064883cf48d7278471ffd37101"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2180,
+      "sha256": "867bd0be352c2dab6a9b09dab322f1a0c24fc5d4712022f68fc29bac3a1bf373"
+    }
+  ]
+}

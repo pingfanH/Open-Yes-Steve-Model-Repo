@@ -1,0 +1,242 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"carryon:block": {
+			"loop": true,
+			"bones": {
+				"Root": {
+					"rotation": [2, 0, 0],
+					"scale": 1.2
+				},
+				"UpBody": {
+					"rotation": [-15, 0, 0]
+				},
+				"Head": {
+					"rotation": [25, 0, 0]
+				},
+				"LeftArm": {
+					"rotation": [-25, 5, 5],
+					"position": [0, -0.5, 0]
+				},
+				"LeftForeArm": {
+					"rotation": [-5, 0, 0]
+				},
+				"LeftHandLocator": {
+					"scale": 0
+				},
+				"RightArm": {
+					"rotation": [-25, -5, -5],
+					"position": [0, -0.5, 0]
+				},
+				"RightForeArm": {
+					"rotation": [-5, 0, 0]
+				},
+				"RightHandLocator": {
+					"scale": 0
+				},
+				"LeftHand": {
+					"rotation": [0, 0, 0]
+				},
+				"RightHand": {
+					"rotation": [0, 0, 0]
+				},
+				"clothe": {
+					"rotation": [12.5, 0, 0]
+				},
+				"silla": {
+					"scale": 0
+				},
+				"bone4": {
+					"scale": 0
+				},
+				"esp": {
+					"scale": 0
+				}
+			}
+		},
+		"carryon:entity": {
+			"loop": true,
+			"bones": {
+				"Root": {
+					"rotation": [2, 0, 0],
+					"scale": 1.2
+				},
+				"UpBody": {
+					"rotation": [-20, 0, 0]
+				},
+				"Head": {
+					"rotation": [30, 0, 0]
+				},
+				"LeftArm": {
+					"rotation": [-45, 5, -5],
+					"position": [0, -0.5, 0]
+				},
+				"LeftForeArm": {
+					"rotation": [-5, 0, 0]
+				},
+				"LeftHandLocator": {
+					"scale": 0
+				},
+				"RightArm": {
+					"rotation": [-45, -5, 5],
+					"position": [0, -0.5, 0]
+				},
+				"RightForeArm": {
+					"rotation": [-5, 0, 0]
+				},
+				"RightHandLocator": {
+					"scale": 0
+				},
+				"RightHand": {
+					"rotation": [0, 0, 0]
+				},
+				"LeftHand": {
+					"rotation": [0, 0, 0]
+				},
+				"clothe": {
+					"rotation": [15, 0, 0]
+				},
+				"silla": {
+					"scale": 0
+				},
+				"bone4": {
+					"scale": 0
+				},
+				"esp": {
+					"scale": 0
+				}
+			}
+		},
+		"carryon:player": {
+			"loop": true,
+			"bones": {
+				"Root": {
+					"rotation": [2, 0, 0],
+					"scale": 1.2
+				},
+				"UpBody": {
+					"rotation": [-10, 0, 0]
+				},
+				"Head": {
+					"rotation": [10, 0, 0]
+				},
+				"LeftArm": {
+					"rotation": [-30, 5, -5],
+					"position": [0, -0.5, 0]
+				},
+				"LeftForeArm": {
+					"rotation": [-90, -47.5, 90]
+				},
+				"LeftHandLocator": {
+					"scale": 0
+				},
+				"RightArm": {
+					"rotation": [-30, -5, 5],
+					"position": [0, -0.5, 0]
+				},
+				"RightForeArm": {
+					"rotation": [-90, 47.5, -90]
+				},
+				"RightHandLocator": {
+					"scale": 0
+				},
+				"RightHand": {
+					"rotation": [0, 0, 0]
+				},
+				"LeftHand": {
+					"rotation": [0, 0, 0]
+				},
+				"clothe": {
+					"rotation": [7.5, 0, 0]
+				},
+				"silla": {
+					"scale": 0
+				},
+				"bone4": {
+					"scale": 0
+				},
+				"esp": {
+					"scale": 0
+				}
+			}
+		},
+		"carryon:princess": {
+			"loop": true,
+			"bones": {
+				"Root": {
+					"rotation": [0, 0, 0],
+					"scale": 1.2
+				},
+				"AllBody": {
+					"rotation": [0, -90, -115],
+					"position": [-1, -4.5, 6]
+				},
+				"UpBody": {
+					"rotation": [50, 0, 0],
+					"position": [0, 1, 0.75]
+				},
+				"Head": {
+					"rotation": [25.22465, -36.81662, -22.93393]
+				},
+				"LongHair": {
+					"rotation": [37.5, 0, 0]
+				},
+				"LeftArm": {
+					"rotation": [-40.87647, -8.79464, 0.45322],
+					"position": [0, -1, 0]
+				},
+				"LeftForeArm": {
+					"rotation": [-74.41472, -21.26454, -5.7764]
+				},
+				"RightArm": {
+					"rotation": [2.79257, -11.4201, -0.36401]
+				},
+				"RightForeArm": {
+					"rotation": [-78.99034, -24.59477, -4.62934]
+				},
+				"LeftLeg": {
+					"rotation": [-7.61435, 9.91358, -1.31845]
+				},
+				"LeftLowerLeg": {
+					"rotation": [65, 0, 0]
+				},
+				"LeftFoot": {
+					"rotation": [27.5, 0, 0],
+					"position": [0, 0.7, 0.7]
+				},
+				"RightLeg": {
+					"rotation": [-2.17539, -10.01806, -1.21764]
+				},
+				"RightLowerLeg": {
+					"rotation": [65, 0, 0]
+				},
+				"RightFoot": {
+					"rotation": [7.5, 0, 0]
+				},
+				"RightHand": {
+					"rotation": [0, 0, 0]
+				},
+				"LeftHand": {
+					"rotation": [0, 0, 0]
+				},
+				"Tail": {
+					"rotation": [20, 0, 0],
+					"position": [0, 0, -3]
+				},
+				"clothe": {
+					"rotation": [-37.5, 0, 0],
+					"scale": [1.065, 1, 1]
+				},
+				"silla": {
+					"scale": 0
+				},
+				"bone4": {
+					"scale": 0
+				},
+				"esp": {
+					"scale": 0
+				}
+			}
+		}
+	}
+}

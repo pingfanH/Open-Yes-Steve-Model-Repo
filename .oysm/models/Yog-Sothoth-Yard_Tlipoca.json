@@ -1,0 +1,111 @@
+{
+  "id": "Yog-Sothoth-Yard_Tlipoca",
+  "path": "parsed/Yog-Sothoth-Yard_Tlipoca",
+  "source": {
+    "path": "_YogSothothYard/Yog-Sothoth-Yard_Tlipoca.ysm",
+    "type": "ysm",
+    "stem": "Yog-Sothoth-Yard_Tlipoca"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "特莉波卡1.0",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "伊洛是哥斯拉嘛"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "偏粉.png",
+        "偏紫.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Yog-Sothoth-Yard_Tlipoca_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9675,
+      "sha256": "d2ae8e24b2c491437286fb03016ee1bf3178f53c27c7e7a39d2b454c16619174"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 1242375,
+    "sha256": "4a6366b153b8d94b3dd28374fab54dfbcf7886c92e3b136e481ff0919071dc88",
+    "bones": 145,
+    "cubes": 758,
+    "faces": 4548,
+    "textures": 2,
+    "materials": 2,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 49451,
+      "sha256": "f0c31f387dcb03ed244e48431668d6d1274cf05a027c7fe4bdb830cfb13d98b2"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 154492,
+      "sha256": "507b8c218b4bc09e5a959f8554ea244c6c04d7fc27c062346a6c34f2a5fc8f59"
+    },
+    {
+      "path": "info.json",
+      "size": 235,
+      "sha256": "9eb47ef4cfb72ae8773733e38565a6077bfa32f3e3e0e5b61b1b590ca8753ee7"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 309439,
+      "sha256": "c52207cec4f9c6cd0f5cf792eebbb631a68b45c8618a484f51aa7aba29d9811d"
+    },
+    {
+      "path": "main.json",
+      "size": 374718,
+      "sha256": "86ebf32ee86140dd40242503fcea0675a22c0ec10c1acdb932c050d5291f7dbc"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 264394,
+      "sha256": "87cdbcdd4719e803e2019fd520a3d15eae7c52489a70095200d1045c0ff8153c"
+    },
+    {
+      "path": "偏粉.png",
+      "size": 44838,
+      "sha256": "3943cbb656166ad02610bf99d5f2f6edc5a1305db577bf462a2d0a97b5e679f2"
+    },
+    {
+      "path": "偏紫.png",
+      "size": 44808,
+      "sha256": "8c581bd7742865d7f99172b448d0a4baf7caecf16db45254ce17c058bc47bf8d"
+    }
+  ]
+}

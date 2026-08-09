@@ -1,0 +1,85 @@
+{
+  "id": "Inubakumori_Osage-chan/osagechan",
+  "path": "parsed/Inubakumori_Osage-chan/osagechan",
+  "source": {
+    "path": "_Inubakumori/Inubakumori_Osage-chan.zip",
+    "type": "zip",
+    "stem": "Inubakumori_Osage-chan",
+    "model_path": "Inubakumori_Osage-chan/osagechan"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "osagechan"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Inubakumori_Osage-chan_osagechan_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4715,
+      "sha256": "fa83440d40cebf16d1a85656f1c2123c1da2c92f338e502c8bbee6af17a5cab2"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 594534,
+    "sha256": "38b68fa43c6459ddb4603281fe5ca67e6767e371b1451ddbc33344de5d5d8a35",
+    "bones": 57,
+    "cubes": 120,
+    "faces": 720,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 51070,
+      "sha256": "e8b4a6d8ebdd57bdb01427bd99afe6adcf7704723153572015b56852f551293b"
+    },
+    {
+      "path": "arm.json",
+      "size": 1850,
+      "sha256": "9868a3bafffbbe79aed3c3749b89c65e23e808fe28c206b393052269aa96977f"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 520107,
+      "sha256": "2b184fb2b83d2cba786ff98e814f29f7f829da72abeb694e9e986e506a550aba"
+    },
+    {
+      "path": "main.json",
+      "size": 15286,
+      "sha256": "efbbe331a5f6ede1ff7e747f9baa83cdc59614b7116845cc0f3fdea8e778b27d"
+    },
+    {
+      "path": "texture.png",
+      "size": 6221,
+      "sha256": "40dc6501cb5b0bad609594bf2d73540fe82892bf30f605fb8653ad2eba7bd911"
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "id": "AL_Tashkent_1.5",
+  "path": "parsed/AL_Tashkent_1.5",
+  "source": {
+    "path": "_AzurLane/AL_Tashkent_1.5.ysm",
+    "type": "ysm",
+    "stem": "AL_Tashkent_1.5"
+  },
+  "ysm": "parsed/AL_Tashkent_1.5/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/隐居中的Fe2O3.png",
+        "comment": "模型制作全凭俺寻思，爱好烹饪，目前大学牲，即将成为24岁是个学生(大喜)",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/",
+          "OTTOhub": "https://ottohub.cn/"
+        },
+        "name": "隐居中的Fe2O3",
+        "role": "全局"
+      },
+      {
+        "avatar": "avatar/塔什干.png",
+        "comment": "本期主角",
+        "contact": {
+          "Bilibili": "https://wiki.biligame.com/blhx/%E5%A1%94%E4%BB%80%E5%B9%B2"
+        },
+        "name": "塔什干",
+        "role": "陪伴"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "塔什干",
+    "tips": "北方联合塔什干级驱逐领舰 塔什干 （проекта 20-И）SN-Tashkent"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "舾装",
+      "extra1": "你好",
+      "extra2": "鼓掌",
+      "extra3": "认可",
+      "extra4": "不行",
+      "extra5": "Pizza!",
+      "extra6": "雪地画大字",
+      "extra7": "节拍器"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/tashkent.png"
+        },
+        {
+          "uv": "textures/tashkent-whiteplan.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/AL_Tashkent_1.5_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 14018,
+      "sha256": "12082f8f1d71c8d6b5a25b669a7657e066035c437db76389005e4ca26d99f5d6"
+    }
+  },
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 2646949,
+    "sha256": "408501d13a65aa04e998915286a9b3829a518c14b0109b8543b6ec454f35637d",
+    "bones": 409,
+    "cubes": 1979,
+    "faces": 11874,
+    "textures": 2,
+    "materials": 2,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 149397,
+      "sha256": "bff210b379d933acaacf0869be730e2bdbe70b37e11d86646a1234dbbdacda37"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1154,
+      "sha256": "0ced3ba87e73deb443587b316d67c17d0201a3b67916cbea042c2bb9d81806a5"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2712,
+      "sha256": "4f5e7ed844d6d85a5a0a97bb7a3bcce92307a1ead674f00bca412ec3425c6e4e"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 26411,
+      "sha256": "b0f44bbe9678577bf1f44dd7f4d7f3f9bb6e93942c81e646ea710a169f92395e"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 204023,
+      "sha256": "f6070f52568d4b79d674c740d7262e1751e8b4e570fafad4968fcd820ddd7815"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 137860,
+      "sha256": "62f30226a85f443551925e06819bae4ae274b0af6167605ccbdae8e5279d9d49"
+    },
+    {
+      "path": "avatar/塔什干.png",
+      "size": 66619,
+      "sha256": "cf3975cdffe2fc037741f4d6cdeb7231b5e8a4666a758df8a531557d3cc819ab"
+    },
+    {
+      "path": "avatar/隐居中的Fe2O3.png",
+      "size": 269072,
+      "sha256": "604dee8a7d0ba1e20306e13edb68df45eedf207b3d8508bd3609e4c85632477a"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 6993,
+      "sha256": "1d4e84076ac0fdf48f1ebb68b17530530bfe0bad61c3a7c1e645d2258c322d12"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 8743,
+      "sha256": "347a03c39f087bac6c13701806f1bab169c1604d1001d9c965d9e1146c350c41"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1136247,
+      "sha256": "e90c3943827822b4a064c9496ccfdc6baf77a718bae0fb3456c6146849f51509"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2738,
+      "sha256": "c426de6897df2a2226aa5a58935d2be4933694806d98df1d0baaa070a66aae2e"
+    },
+    {
+      "path": "textures/tashkent-whiteplan.png",
+      "size": 232378,
+      "sha256": "6f207033ca1d8c00fcc7b7a4ba992d2dfad400aa91c5a37bb65ae78b5c6a7114"
+    },
+    {
+      "path": "textures/tashkent.png",
+      "size": 228223,
+      "sha256": "72781aa284ab3bce82cf5e9216f892d0d7ce06c86a65b71c9611f650adb21d76"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1786,
+      "sha256": "142cca1e5cb84b5fb2ef5103c0e01ef3f38764b32bdbc9fc62fdf41e208e71ea"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "GF_UMP40",
+  "path": "parsed/GF_UMP40",
+  "source": {
+    "path": "_GirlsFrontline/GF_UMP40.ysm",
+    "type": "ysm",
+    "stem": "GF_UMP40"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "GF_UMP40"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "tex2.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GF_UMP40_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7189,
+      "sha256": "d7db9804e3f99e7d99a18830bcd76d7fc05520e1c03e1f7353726f6a465047eb"
+    }
+  },
+  "stats": {
+    "file_count": 3,
+    "total_bytes": 47734,
+    "sha256": "90c956950eb120cffe3705834ba340018897d26d3409e6dc62167769c07533c2",
+    "bones": 77,
+    "cubes": 262,
+    "faces": 1572,
+    "textures": 1,
+    "materials": 1,
+    "animations": 0,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 3214,
+      "sha256": "dab30080df9b1738a26f8b026b47815b5645580dbb3b8021189194b23050a750"
+    },
+    {
+      "path": "main.json",
+      "size": 35745,
+      "sha256": "718852cd908c37e5cc97d6564e54ad0872a9cc26aec428f355d0da071c9bf184"
+    },
+    {
+      "path": "tex2.png",
+      "size": 8775,
+      "sha256": "53242450a9e9cf2b567abbfd4da525454e02156a6c6225476eb3de2549c83d02"
+    }
+  ]
+}

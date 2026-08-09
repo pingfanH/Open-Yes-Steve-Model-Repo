@@ -1,0 +1,147 @@
+{
+  "id": "Suise",
+  "path": "parsed/Suise",
+  "source": {
+    "path": "Unknown/Suise.ysm",
+    "type": "ysm",
+    "stem": "Suise"
+  },
+  "ysm": "parsed/Suise/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/raiden.png",
+        "comment": "i love indie game",
+        "name": "raiden",
+        "role": "create"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "monster"
+    },
+    "name": "suise",
+    "tips": "bad girl"
+  },
+  "properties": {
+    "width_scale": 0.8,
+    "height_scale": 0.8,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Suise_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9227,
+      "sha256": "717a839b7f4ce04df0b92989429d8f46aa85d700316cc6b22905aec0c1aa8555"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 835059,
+    "sha256": "6801e890e03f45923b56bfbd8162ff977870e807c82622f0d71d7d00e5122435",
+    "bones": 76,
+    "cubes": 313,
+    "faces": 1878,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178879,
+      "sha256": "a30ee6fdecc8953fdb3516cba30c32dcdf7822b4fa9cc0645784e56cd9595866"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 109004,
+      "sha256": "ba1e5d1d0e30fc7cec4337358c630cf4f7c89f986f3a98b261c424bd3aecd477"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 201558,
+      "sha256": "2c8925add33864023158ed6796bf0dbb4cd953771c0843160cecaff618458bc7"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 131666,
+      "sha256": "d937d3484f7d28e66237f4445ebb43edcd2cec683b7f68ac581bcf897e45eb3c"
+    },
+    {
+      "path": "avatar/raiden.png",
+      "size": 11591,
+      "sha256": "d8be4eec62740a3910027d610495bef19bb67573ef139d09f8d5a5cacc58c9ca"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 26178,
+      "sha256": "ebc16113996a8a1f13462b70c2c6bdbcacba359f43f8161c52806bd66c32f323"
+    },
+    {
+      "path": "models/main.json",
+      "size": 141636,
+      "sha256": "cf4a5b65c9ff5d78caca02eb9fb7e2a90f2a0233cd5d9007b34ece7af3728096"
+    },
+    {
+      "path": "sounds/s1.ogg",
+      "size": 20008,
+      "sha256": "f04f3c124742752965c9e982ca42b9be504e2a8aff1a386d9b83ca6953b5a6b1"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 13662,
+      "sha256": "31d3fbb98ff851433a91d47c83fd456e8fa2e3ce9a50c19c1994fac79b267df2"
+    },
+    {
+      "path": "ysm.json",
+      "size": 877,
+      "sha256": "c8a60bab9f15b2da190b72b8c36844743ef2fb3c4b8f4211b44610ec25cbb4bc"
+    }
+  ]
+}

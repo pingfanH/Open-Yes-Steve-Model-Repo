@@ -1,0 +1,213 @@
+{
+  "id": "Ak_Irene_1",
+  "path": "parsed/Ak_Irene_1",
+  "source": {
+    "path": "_Arknights/Ak_Irene_1.ysm",
+    "type": "ysm",
+    "stem": "Ak_Irene_1"
+  },
+  "ysm": "parsed/Ak_Irene_1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/烛火的次元宇宙.png",
+        "comment": "还在成长的MC/YSM模型作者",
+        "contact": {
+          "Afdian": "http://afdian.com/a/zhuhuo",
+          "Bilibili": "https://space.bilibili.com/57715833?spm_id_from=333.1007.0.0"
+        },
+        "name": "烛火的次元宇宙",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/烛火的次元宇宙.png",
+        "comment": "",
+        "contact": {
+          "Afdian": "",
+          "Bilibili": ""
+        },
+        "name": "烛火的次元宇宙",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "http://afdian.com/a/zhuhuo",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "艾丽妮",
+    "tips": "艾丽妮，前伊比利亚审判官，大审判官达里奥的学生。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "睡觉",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "Yes",
+      "extra4": "No",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "判决"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/aln.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Irene_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13288,
+      "sha256": "efa15da7fb9dad47d765b7b7b6619511f142ab9639af3a42ebaf734513b9c1fa"
+    }
+  },
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 4342587,
+    "sha256": "776617918dbf432fe627553692819cbe0898b032c2a8c4d5834ff6f71e03d7ab",
+    "bones": 234,
+    "cubes": 1993,
+    "faces": 11958,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 196699,
+      "sha256": "b936d959cecb60cb266a8eca310c0de8d8dc133843fc719f7fa574a1630e1606"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3408,
+      "sha256": "e33c1a9eb9280b7bdb418b449b44ece4e2b7e5eeb7b748f71d8751ac682ca7af"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 62730,
+      "sha256": "8554e1e46dd2484ff5340f1716980accd399a43a443a47dddc4b2d825a972f46"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 260052,
+      "sha256": "4d34f45c36c66867d9c34195ecf88f388641878902186c0b78a94801165df593"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 140179,
+      "sha256": "234678c656488f11c8fdef4e1e49cb3bfec0a63b0ce29a974bd73824d5a9b4b7"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1504135,
+      "sha256": "22e89de4d7116e5b66741b72de8a30d852cddefed8c9137ff3cd3e2e9d9c3dc9"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41548,
+      "sha256": "dc262d2860f2bc1a5d5db8469d22c958256ff74be0a3e2a6ae3303a34a4fe5f0"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 207946,
+      "sha256": "cbf9b6cd04175c47d9fe1c47816c70e9c2ad5c31cead6e4aa74367d1d0871222"
+    },
+    {
+      "path": "avatar/烛火的次元宇宙.png",
+      "size": 218805,
+      "sha256": "03a5875e2cc3ae2adb79931bef6dd43fca33bf18f7e4abb7f19cef29a4e76a1c"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 2903,
+      "sha256": "79575d4ac1de707b0dd76ef2dda8e61d987f00875db77788a671cf7ae21d7020"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 73171,
+      "sha256": "6c00f5f55d25f16e5cf1df09672ca5958ab75ef8c797ed10e408c801b004aab7"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1080688,
+      "sha256": "9b8483eeb19df302a3764982d4c16563ecc2f0621273c4f6bf726d5e4fe87d3c"
+    },
+    {
+      "path": "sounds/111.ogg",
+      "size": 32593,
+      "sha256": "6acffb52c68af57c8df1fa1a24f2ecb8b3cf724a125fc90d9961b5d1405f207d"
+    },
+    {
+      "path": "textures/aln.png",
+      "size": 515903,
+      "sha256": "1047286c3d8f7d572c0707dd3db2abdcb01a326b80256d4456f5d157357c996d"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1827,
+      "sha256": "745cc0db78b2bdc402e4ccc9e398016af28a9eb474b71204cb34437be1788dfd"
+    }
+  ]
+}

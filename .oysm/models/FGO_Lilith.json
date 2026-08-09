@@ -1,0 +1,290 @@
+{
+  "id": "FGO_Lilith",
+  "path": "parsed/FGO_Lilith",
+  "source": {
+    "path": "_FateGrandOrder/FGO_Lilith.ysm",
+    "type": "ysm",
+    "stem": "FGO_Lilith"
+  },
+  "ysm": "parsed/FGO_Lilith/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/法老号船长-爱德蒙莉莉.png",
+        "comment": "真遗憾啊，阿尔培·马瑟夫，你做了错误的选择……",
+        "contact": {
+          "Bilibili": " https://b23.tv/391wLUC"
+        },
+        "name": "法老号船长-爱德蒙莉莉",
+        "role": "模型、动画作者"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "莉莉丝",
+    "tips": "“——本模型角色原型是手机游戏‘Fate/Grand Order‘（中文名《命运/冠位指定》）中的莉莉丝（友情提示：是职阶为Berserker的那位，和AlterEgo以及Lancer职阶的Meltryllis没有任何关系。）。本模型完全免费，请不要用于商业用途，哪怕只卖1QP也不行，因为那足够给人家买新的贴身衣物了~”“你这种说法好像会适得其反哦？虽然那依然是不可能的吧。”"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "配置1": "#表情配置",
+      "extra1": "#灵基切换（换衣服）",
+      "待机动画（技能动作1）": "待机动画（技能动作1）",
+      "退场动画（延长版）": "退场动画（延长版）",
+      "宣传图的动作": "宣传图的动作",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "表情配置",
+        "name": "配置（表情相关）",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "眼睛发光开关",
+            "description": "150%的魅惑想必不可能有任何人能抵抗吧！（赫拉克勒斯：？）",
+            "value": "v.eyes"
+          },
+          {
+            "type": "checkbox",
+            "title": "猫眼开关",
+            "description": "……嗯？你说人家看起来像一个叫下江小春的小丫头？那我模仿一下……Master！赶紧过来色色！不色色就给你下诅咒哦！",
+            "value": "v.cat"
+          },
+          {
+            "type": "checkbox",
+            "title": "腮红",
+            "description": "顾名思义。",
+            "value": "v.saihong"
+          },
+          {
+            "type": "checkbox",
+            "title": "棒棒糖",
+            "description": "你说那个……被莉莉姆吃掉了哦，要我再买一根给你吗……啥，你想看人家吃吗？！",
+            "value": "v.bbt"
+          },
+          {
+            "type": "radio",
+            "title": "棒棒糖的口味切换",
+            "description": "换色的原因只是因为觉得绿色和嘴的颜色不会混在一起……",
+            "value": "v.va1",
+            "labels": {
+              "§ 绿": "v.va1 = 0; v.g = 1 ; v.b= 0",
+              "§ 棕": "v.va1 = 1; v.g = 0 ; v.b= 1"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "表情切换",
+            "description": "人家的表情很邪恶吗？为什么你认为人家是雌小鬼呢？（友情提示：部分动作可能会覆盖你选择的表情）",
+            "value": "v.value_radio",
+            "labels": {
+              "§ 微笑": "v.value_radio = 0; v.nor = 0; v.nor2 = 0; v.smi = 1;  v.smi2 = 0; v.laugh = 0; v.catmo = 0; v.unhappy = 0;v.mad= 0",
+              "§ 无表情": "v.value_radio = 1;  v.nor = 1; v.nor2 = 0; v.smi = 0;  v.smi2 = 0; v.laugh = 0; v.catmo = 0; v.unhappy = 0;v.mad= 0",
+              "§ 疑惑": "v.value_radio = 2;  v.nor = 0; v.nor2 = 1; v.smi = 0;  v.smi2 = 0; v.laugh = 0; v.catmo = 0; v.unhappy = 0;v.mad= 0",
+              "§ 笑": "v.value_radio = 3;  v.nor = 0; v.nor2 = 0; v.smi = 0;  v.smi2 = 1; v.laugh = 0; v.catmo = 0; v.unhappy = 0;v.mad= 0",
+              "§ 讥笑": "v.value_radio = 4;  v.nor = 0; v.nor2 = 0; v.smi = 0;  v.smi2 = 0; v.laugh = 1; v.catmo = 0; v.unhappy = 0;v.mad= 0",
+              "§ 惊讶（建议搭配猫眼开关使用）": "v.value_radio = 5;  v.nor = 0; v.nor2 = 0; v.smi = 0;  v.smi2 = 0; v.laugh = 0; v.catmo = 1; v.unhappy = 0;v.mad= 0",
+              "§ 不悦": "v.value_radio = 6;  v.nor = 0; v.nor2 = 0; v.smi = 0;  v.smi2 = 0; v.laugh = 0; v.catmo = 0; v.unhappy = 1;v.mad= 0",
+              "§ 愤怒": "v.value_radio = 7; v. v.nor = 0; v.nor2 = 0; v.smi = 0;  v.smi2 = 0; v.laugh = 0; v.catmo = 0; v.unhappy = 0;v.mad= 1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "灵基切换（换衣服）",
+        "name": "配置（形象切换、神态相关）",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "灵基切换",
+            "description": "目前做了初始形象与灵基再临1的形象。",
+            "value": "v.va3",
+            "labels": {
+              "§ 初始形象": "v.va3 = 0; v.sv0 = 1 ; v.sv1= 0",
+              "§ 灵基再临1": "v.va3 = 1; v.sv0 = 0 ; v.sv1= 1"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "眼神切换",
+            "description": "YAHO！",
+            "value": "v.va4",
+            "labels": {
+              "§ 常态": "v.va4 = 0; v.eyes1 = 1 ; v.eyes2 = 0 ; v.eyes3= 0",
+              "§ 嗔怒": "v.va4 = 1; v.eyes1 = 0 ; v.eyes2 = 1 ; v.eyes3= 0",
+              "§ 疑惑": "v.va4 = 2;  v.eyes1 = 0 ; v.eyes2 = 0 ; v.eyes3= 1"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "眉毛切换",
+            "description": "是不是配置文件太多了……",
+            "value": "v.vaLL",
+            "labels": {
+              "§ (*^ ^*)": "v.vaLL = 0; v.mm = 1 ; v.mm2 = 0 ; v.mm3= 0",
+              "§ ╮(╯ ╰)╭": "v.vaLL = 1; v.mm = 0 ; v.mm2 = 0 ; v.mm3= 1",
+              "§ [○･｀Д´･ ○]": "v.vaLL = 2;  v.mm = 0 ; v.mm2 = 1 ; v.mm3= 0"
+            }
+          },
+          {
+            "type": "checkbox",
+            "title": "（初始形象）兜帽穿脱",
+            "description": "人家戴兜帽的样子应该还算亲切吧？",
+            "value": "v.sv01"
+          },
+          {
+            "type": "checkbox",
+            "title": "（第一再临）披风穿脱",
+            "description": "如果你看过我的宣传海报的话，会发现人家里面也是有穿的……",
+            "value": "v.sv11"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "texture",
+    "preview_animation": "showtimeda!",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "tlm": "animations/tlm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/FGO_Lilith_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 29919,
+      "sha256": "ac59c5043b54c2f23ed143c4bcfe704f4151005ae21b1e4bf582999b4d0b60fe"
+    }
+  },
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 4727748,
+    "sha256": "4fc5042afb988e7f15edbd53114009c070e369c09faf1b8ae9e374a39f13ad42",
+    "bones": 1158,
+    "cubes": 5783,
+    "faces": 34635,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 168603,
+      "sha256": "0a072aa5ac644b0a344f7762fe44a376c11ae3e6b8287eda6e022355886992e4"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 133634,
+      "sha256": "b2a1d0d3eebb9b23457f84029cb33076803ab9117f5f658343b2f88805474b96"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 221532,
+      "sha256": "460a057b84bfd5cdd3e133570d172f6e521c1c20a9b40994d2e9ace5d36c8625"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 54578,
+      "sha256": "d3b6cb051cab3b359cc824f63ea19f1d346f24d77ef2dbc2a358a1a7431148c7"
+    },
+    {
+      "path": "avatar/法老号船长-爱德蒙莉莉.png",
+      "size": 177658,
+      "sha256": "27b605be1f6b8df59cc01bca7c430457f6901188595389d05f4e58abbc6a1825"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 2610,
+      "sha256": "7308c79fcdfbcd508b8177d0845300e06ec5efea356f6260a253ad6c949ac984"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 91602,
+      "sha256": "41bc54e1760222f5476515564e3e8d2ccbce2e2c019cd35ca7d469c95c1b19f5"
+    },
+    {
+      "path": "models/main.json",
+      "size": 3246942,
+      "sha256": "56df29b98fd6e1b028a299b83bc5e4de0e4057c25101ddcfe41300d54d2caeeb"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 260825,
+      "sha256": "7988145c3ac1b184e5a8d056821cb0b9d3ba2ef430cac4e335ecda24ffd7387b"
+    },
+    {
+      "path": "ysm.json",
+      "size": 5592,
+      "sha256": "479e0bbc6e73b1d3ef33cbca77e6d3f0cb3178414e6d1983a7eceb5523ab3120"
+    }
+  ]
+}

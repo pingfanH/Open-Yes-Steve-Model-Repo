@@ -1,0 +1,104 @@
+{
+  "id": "FGO_Sei-Shonagon",
+  "path": "parsed/FGO_Sei-Shonagon",
+  "source": {
+    "path": "_FateGrandOrder/FGO_Sei-Shonagon.ysm",
+    "type": "ysm",
+    "stem": "FGO_Sei-Shonagon"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "default",
+    "tips": "夏则夜。有月的时候自不待言——但是，夏天还有堆成小山般多的有趣事情嗷!\n大海、泳装然后是刨冰，还有想稍微尝试一下冒 险。像这样沉醉于夏日诱惑的平安女子，还有一人。\n「我说，亲御....起来干坏事吧?」\n于是诞生的便是,这位Berserker清少纳言啦。\n老老实实地度过也好，稍微玩嗨一点也好， 今年夏天可是人生仅此一回。\n所以，就尽情地享受其中吧!",
+    "authors": [
+      {
+        "name": "模型制作者-雒仁"
+      },
+      {
+        "name": "模型素体创作者-老杰克"
+      },
+      {
+        "name": "动作优化者-星屑海螺"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/FGO_Sei-Shonagon_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11215,
+      "sha256": "ecf1cf460e537efbdadc227eb257c9e6f3a10b08b045316479a4e964adc3573f"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 1092495,
+    "sha256": "e836e3da9f909ce112b3872e343ad9325c44e473b139b095653a413451c3d5e4",
+    "bones": 94,
+    "cubes": 570,
+    "faces": 3420,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 10773,
+      "sha256": "34a3cef9514392fa76590048425761417a0fb946d68e2707f2f019219123bb68"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 144938,
+      "sha256": "80739186204694b3765e8fd1712963e0d082e8a1723cd338638f7299a835652a"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 219555,
+      "sha256": "3702d59cdddf59d8352dc37e9f9a73c444a4a5eecb16a8d6db457382b2bce0e5"
+    },
+    {
+      "path": "main.bbmodel",
+      "size": 389441,
+      "sha256": "24063e5f99ceebd25d8f9340142fff38b13e6cd17173ab78c254e650b8483a64"
+    },
+    {
+      "path": "main.json",
+      "size": 295655,
+      "sha256": "64d51537826f50f834849eb8da9a5ecbd4f8910dbefeffbe1479d9450103170e"
+    },
+    {
+      "path": "texture.png",
+      "size": 32133,
+      "sha256": "29c3aa37c0e92ded83aa05504288746e8e734ce82fd8fa98342d2cc73aa930f9"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "AL_Alsace",
+  "path": "parsed/AL_Alsace",
+  "source": {
+    "path": "_AzurLane/AL_Alsace.ysm",
+    "type": "ysm",
+    "stem": "AL_Alsace"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Alsace",
+    "tips": "from Azur lane",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "NekuroMC"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "arrow.png",
+        "nomask.png",
+        "nomasknowings.png",
+        "nowings.png",
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/AL_Alsace_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9840,
+      "sha256": "1134ebef587ee9ef28d402f4eb879d393205144561a8f36cef56e2048629c5f6"
+    }
+  },
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 1059530,
+    "sha256": "e8475f1bb18ec38bbc1e203ee465a818e164dabbe3954794a5722d6c95d82513",
+    "bones": 100,
+    "cubes": 584,
+    "faces": 3504,
+    "textures": 5,
+    "materials": 5,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 122931,
+      "sha256": "7ba3863b78d9d5a72ff2d3fcee0402d8ed683d1aef65ea873008074a57bb3166"
+    },
+    {
+      "path": "arm.json",
+      "size": 15630,
+      "sha256": "18f24faec03577b7bf5f408f513a7782266c0e88c93c34af916a262eaa238cda"
+    },
+    {
+      "path": "arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 123165,
+      "sha256": "0a5d3f9c0562cc4d4032464fa5a4f9c4d80d0d7a218e780240d04c0b276f8c9a"
+    },
+    {
+      "path": "info.json",
+      "size": 132,
+      "sha256": "5e6792a0358c6bdfd3e553c0b75330d56b08b4a98613f8aa72929685bc5e16c9"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 146021,
+      "sha256": "2d0efd04f08c7dbe910c4e1184d42da9144fe53d5520c968f89620c8a6e51d0e"
+    },
+    {
+      "path": "main.json",
+      "size": 311639,
+      "sha256": "eb5c705b3f94500895a62ca687213457a842ad8f2f483aab2f960aab570799b2"
+    },
+    {
+      "path": "nomask.png",
+      "size": 51860,
+      "sha256": "68e729f11967cd962cf2fe8818e3798d8c2c128c4a2e73d223f4ffe55ce23418"
+    },
+    {
+      "path": "nomasknowings.png",
+      "size": 45621,
+      "sha256": "4c6379da91b4a48babdf2d03533bccbf898bc83487a75724d0a689838e88bcf5"
+    },
+    {
+      "path": "nowings.png",
+      "size": 46104,
+      "sha256": "a7a158c41c01b6b6048c43292edf4912ca7d6902246d9fdeb2c322296c13876a"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "texture.png",
+      "size": 52333,
+      "sha256": "f3f660f9f16cd84c209d677e4bd6f1272f5ae1ece81054936e3d2e307337ff51"
+    }
+  ]
+}

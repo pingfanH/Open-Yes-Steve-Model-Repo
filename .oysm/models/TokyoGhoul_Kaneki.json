@@ -1,0 +1,84 @@
+{
+  "id": "TokyoGhoul_Kaneki",
+  "path": "parsed/TokyoGhoul_Kaneki",
+  "source": {
+    "path": "_TokyoGhoul/TokyoGhoul_Kaneki.ysm",
+    "type": "ysm",
+    "stem": "TokyoGhoul_Kaneki"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "TokyoGhoul_Kaneki"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/TokyoGhoul_Kaneki_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7376,
+      "sha256": "04cc4b39e7c088c7e38d6b1be88b230a06ae4c2adf12688279ae8693288a4c5f"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 994424,
+    "sha256": "cbd7ad7b93cf94b9fde55bc7db0370728fa5bade6f8b801fc5327b55aa33c5a2",
+    "bones": 184,
+    "cubes": 449,
+    "faces": 2032,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 35882,
+      "sha256": "9b93e9e4fc7fcc07862f910aa4ae7801ae07aac12194a572a58c1104a7d58b75"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 6153,
+      "sha256": "759c9a246824254c78df2ece44450b725d3c2c321d18eea480bb579040dcaffb"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 760663,
+      "sha256": "936bee0ff54635f8a82198ddb3715a5a821cee658ff52d7e1fa5ca6c9f2e42a2"
+    },
+    {
+      "path": "main.json",
+      "size": 163372,
+      "sha256": "0e5195cebfa6e7b0ed06e5939fd1bc570a2630ad22b571059497abc278c62852"
+    },
+    {
+      "path": "texture.png",
+      "size": 28354,
+      "sha256": "a0d0641dda10529b2663c0dd8db7302bc7f3df886b97722c91aef52c9c316b73"
+    }
+  ]
+}

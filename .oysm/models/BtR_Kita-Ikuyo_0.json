@@ -1,0 +1,86 @@
+{
+  "id": "BtR_Kita-Ikuyo_0",
+  "path": "parsed/BtR_Kita-Ikuyo_0",
+  "source": {
+    "path": "_BocchiTheRock/BtR_Kita-Ikuyo_0.ysm",
+    "type": "ysm",
+    "stem": "BtR_Kita-Ikuyo_0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "喜多郁代",
+    "tips": "泥滴现充",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "blue.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BtR_Kita-Ikuyo_0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5610,
+      "sha256": "a82d413b7d1f3cb5b914a4f73e8d89b1cae4ebbb66b942536087eaf8b9b7940b"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 96873,
+    "sha256": "bae6f899f3e48cf20ba419cba833d705e2824b1ee338e76145538088baa22292",
+    "bones": 67,
+    "cubes": 160,
+    "faces": 960,
+    "textures": 1,
+    "materials": 1,
+    "animations": 0,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 5530,
+      "sha256": "e2abae9fc6befa0f283403a4073322a4d30cdcd9d00ca382b2cb1236dae147e7"
+    },
+    {
+      "path": "blue.png",
+      "size": 11469,
+      "sha256": "9344e10afda2d9d0473cd2df459b363bbd515d22ed317a03d0f61b7b713a6289"
+    },
+    {
+      "path": "info.json",
+      "size": 142,
+      "sha256": "f179524b16c9a6ba4684ce306b08b935c4e74a69aaca8479e3aab70b569be01a"
+    },
+    {
+      "path": "main.json",
+      "size": 79732,
+      "sha256": "40c8913954c278873920511602b127fce3cda521313958985c156f5409c05a26"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "CnCRe_NODSoldier",
+  "path": "parsed/CnCRe_NODSoldier",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCRe_NODSoldier.ysm",
+    "type": "ysm",
+    "stem": "CnCRe_NODSoldier"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "NOD步枪兵",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCRe_NODSoldier_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5355,
+      "sha256": "ec39d27a899e74e1d1f7349b1f9caeb9145ccaf13fbea548d228997e5c9e1a1b"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 344601,
+    "sha256": "075ce9cca2ff82699a0530a7065fa8f4eefae56fa3da6b35f6cb6e22a1c9f6dd",
+    "bones": 38,
+    "cubes": 139,
+    "faces": 834,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 9881,
+      "sha256": "b064773a6a5dc4fe832d0710c4eabb25c0abe598d4150bfc4656a276d6710ca0"
+    },
+    {
+      "path": "info.json",
+      "size": 130,
+      "sha256": "e2c4b259207f9919b3b1ac25575e62987e1e33d654f000a421cb05497dff950f"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122470,
+      "sha256": "d93402d24863ccd84622801424bb845d8ff78161fae9d48b7bbf0c3d213720c1"
+    },
+    {
+      "path": "main.json",
+      "size": 62212,
+      "sha256": "a13975951738fb8982c2f828dc6ef571dc63791c2398a359b5edea3b5503eeec"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131639,
+      "sha256": "a73cf95259743cc506fa6931e6bed68e0e41c5edca8f4651f26f1a42c1e26994"
+    },
+    {
+      "path": "texture.png",
+      "size": 18269,
+      "sha256": "32c2182234319a5d68661c519da46628f558e98597562fb0d70cc2c220300dfa"
+    }
+  ]
+}

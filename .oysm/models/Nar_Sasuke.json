@@ -1,0 +1,90 @@
+{
+  "id": "Nar_Sasuke",
+  "path": "parsed/Nar_Sasuke",
+  "source": {
+    "path": "_Naruto/Nar_Sasuke.ysm",
+    "type": "ysm",
+    "stem": "Nar_Sasuke"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Nar_Sasuke"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Nar_Sasuke_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 980,
+      "sha256": "e426a99c9221d61e70c845583d0940e759be76f53f4b3889fea4af83a5024a04"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 812491,
+    "sha256": "5f7f1ea9525cfe11bdb5c6ae598c873e4e014b35750cc0c545bdb86dbf190b5f",
+    "bones": 234,
+    "cubes": 583,
+    "faces": 3498,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 138668,
+      "sha256": "0630fa93a8646889c35de4aaedc8eb5265c2536a96d0dd817d61538e889b3a47"
+    },
+    {
+      "path": "arm.json",
+      "size": 9150,
+      "sha256": "2d320a70ffe6e643ab2e76710d8f59ef469bfbade2fbdd8519f16930e3161da8"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 135464,
+      "sha256": "7ed9cd059268b1c5123ec1657af40cfd7e903c173aad3dcfc572427b94bb4272"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 138722,
+      "sha256": "a03a01464d6911755898b6130bac7c93215d48e14b70d6f1aca911e949f8a294"
+    },
+    {
+      "path": "main.json",
+      "size": 304246,
+      "sha256": "d5aa2df9dad272e1cf330f538ae67b11141a078b02238a15de05793f432d490c"
+    },
+    {
+      "path": "texture.png",
+      "size": 86241,
+      "sha256": "47031c6bbfe7cf844f5e771881abee25c4ae2273ce6f99c295302acfce1e7f02"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "id": "GF_UMP45_0",
+  "path": "parsed/GF_UMP45_0",
+  "source": {
+    "path": "_GirlsFrontline/GF_UMP45_0.zip",
+    "type": "zip",
+    "stem": "GF_UMP45_0"
+  },
+  "ysm": "parsed/GF_UMP45_0/ysm.json",
+  "metadata": {
+    "name": "UMP45",
+    "tips": "让我们重新认识彼此吧，指挥官……趁我觉得这个世界还有救。",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "XG残党",
+        "role": "模型",
+        "avatar": "avatar/1721656327_385063_CBeF.png"
+      }
+    ],
+    "link": {
+      "home": "https://afdian.com/a/x416g",
+      "donate": "https://afdian.com/a/x416g"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3
+          },
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          }
+        ]
+      }
+    ],
+    "preview_animation": "idle2",
+    "disable_preview_rotation": true,
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": false,
+    "all_cutout": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "slashblade": "animations/slashblade.animation.json"
+      },
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": {
+        "uv": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GF_UMP45_0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7238,
+      "sha256": "87ff2e902cc36ebd35186f8c6b3eeb269edf68fb30185542ae1a5f640302fae0"
+    }
+  },
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 2275199,
+    "sha256": "fa1edde8ff4aec5c573a6a5c7020948f2e1a96ba0d5d8839665151cc166ab3a3",
+    "bones": 99,
+    "cubes": 724,
+    "faces": 4344,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 192554,
+      "sha256": "12b77c393470ddd3c12a2b7dad42e1f455e15f27a1ab02c5a8ce2e247d363931"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 726,
+      "sha256": "1adcba945eaf9fbe605a03fc6173031fb13e31207e6ddfa136c543b0908318d6"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2917,
+      "sha256": "f1b559bb714f40be566b02e1b8dd44c2cc380783e0e8a480c89a8378caa05b96"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 115422,
+      "sha256": "cbc7e0d052e8979088daae28fb7520f3ee24e882551e5edff671591d28733d10"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 187600,
+      "sha256": "f60c179ba1d23a2e5af24ea2dd810b10415cf7535fefe488416b97b0b66511fe"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 163820,
+      "sha256": "d987a9b3c8e3e2efc98973dfaff5af5511a7b6aee0c7edc6cb3e135479d95471"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1154783,
+      "sha256": "e3aed0cd211de3710a9b46cf7811954ba6da7ee6298d41dda6241cff19c7f86f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 191601,
+      "sha256": "97fb40b27bbb3f904068b091ef21a535c8b9832300283167ab48691395436f02"
+    },
+    {
+      "path": "avatar/1721656327_385063_CBeF.png",
+      "size": 33093,
+      "sha256": "32ae812fdff67547f1fe362828716434a6331d7b92d0945404d44873551e178f"
+    },
+    {
+      "path": "avatar/DM8]LH_5N4I}EJ2[I7ZETYN.png",
+      "size": 35011,
+      "sha256": "e58a932dfd4822416cf709132bbcc21a0d656dd49175eeca5e069799727a03b6"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 1848,
+      "sha256": "754ef1b4783be9b95ee72dbbbc3511812b75834167eef905109012d4c151a056"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6961,
+      "sha256": "60192674c79bd7cb79c241c5b30a7c9e0ba603bb3c88d1d98376d15595ac035c"
+    },
+    {
+      "path": "models/main.json",
+      "size": 127936,
+      "sha256": "dad46e06d438a6502f81525e6ead7fc19a9c029de443d30c265869470b09e130"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 706,
+      "sha256": "7e060893a7aa96f52fc37360dcb698bf1575cbc8ed51ee7d729fe17e9940ef1d"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 17064,
+      "sha256": "c3286b3e0a2002a63fadce1562e33093ebe8af77a3cf70ef5c89e2a73d4a2cc0"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2127,
+      "sha256": "0296ff1b95a5645ab5ebc2d090a2c64438786715a6fa662ad0fe06d1f8556b4f"
+    }
+  ]
+}

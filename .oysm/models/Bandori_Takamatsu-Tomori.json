@@ -1,0 +1,292 @@
+{
+  "id": "Bandori_Takamatsu-Tomori",
+  "path": "parsed/Bandori_Takamatsu-Tomori",
+  "source": {
+    "path": "_Bandori/Bandori_Takamatsu-Tomori.ysm",
+    "type": "ysm",
+    "stem": "Bandori_Takamatsu-Tomori"
+  },
+  "ysm": "parsed/Bandori_Takamatsu-Tomori/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§b小早川希_LuXi233.png",
+        "comment": "野生YSM作者",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/183485702"
+        },
+        "name": "§b小早川希/LuXi233",
+        "role": "模型丨贴图丨动作"
+      }
+    ],
+    "license": {
+      "desc": "可以自由二创、修改、录制视频",
+      "type": "CC BY-NC 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/LuXi233",
+      "home": "https://space.bilibili.com/183485702"
+    },
+    "name": "§b高松灯",
+    "tips": "§bMyGO!!!!!§f的主唱，羽丘女子学园高中一年级学生\n§f喜欢收集心仪的物品，经常会去捡掉在路上的石头或树叶\n§f在学校里是如同吉祥物一般的存在，备受大家的§d喜爱§f。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#变更服装及表情",
+      "extra21": "不行",
+      "extra22": "感谢",
+      "extra23": "疑问",
+      "extra25": "好厉害...",
+      "extra17": "伸手",
+      "extra20": "再见",
+      "extra14": "来弹吉他",
+      "extra15": "捡石头",
+      "extra12": "鸭子坐",
+      "extra16": "MyGO",
+      "extra18": "创可贴",
+      "extra19": "念诗",
+      "extra11": "会加油的",
+      "extra24": "写诗（坐）",
+      "extra13": "乐队什么的..",
+      "extra100": "封面动作"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "变更服装及表情",
+        "name": "变更服装及表情",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "选择服饰",
+            "description": "单击选择服饰",
+            "value": "v.roaming.cloth",
+            "labels": {
+              "秋季校服": "v.roaming.cloth=0;",
+              "演出服": "v.roaming.cloth=1;",
+              "常服": "v.roaming.cloth=2;",
+              "夏季校服": "v.roaming.cloth=3;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "弯睫毛和平眼",
+            "description": "单击切换",
+            "value": "v.roaming.jiemao",
+            "labels": {
+              "弯": "v.roaming.jiemao=0;",
+              "平": "v.roaming.jiemao=1;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "表情",
+            "description": "单击切换",
+            "value": "v.roaming.biaoqing",
+            "labels": {
+              "无表情": "v.roaming.biaoqing=0;",
+              "微笑": "v.roaming.biaoqing=1;",
+              "不开心": "v.roaming.biaoqing=2;",
+              "开心": "v.roaming.biaoqing=3;",
+              "吃惊": "v.roaming.biaoqing=4;",
+              "害怕": "v.roaming.biaoqing=5;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "演出服模式",
+            "description": "单击切换",
+            "value": "v.roaming.by",
+            "labels": {
+              "普通": "v.roaming.by=0;",
+              "露肩": "v.roaming.by=1;"
+            }
+          },
+          {
+            "type": "checkbox",
+            "title": "失去高光",
+            "description": "单击切换",
+            "value": "v.roaming.highlight"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "tmr",
+    "preview_animation": "Chose",
+    "free": true,
+    "render_layers_first": true,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/tmr.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Bandori_Takamatsu-Tomori_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7789,
+      "sha256": "af0ae095848145fd059ab4ce15288cb713d9011609297e0a306b3f7dccde29a9"
+    }
+  },
+  "stats": {
+    "file_count": 23,
+    "total_bytes": 4645617,
+    "sha256": "8ec3e60717e67c6bb965361322b52f3213e2060544bc12b51f6109039110fdfe",
+    "bones": 236,
+    "cubes": 1866,
+    "faces": 11080,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136954,
+      "sha256": "0a62650ec7c5e7830a1712321f99b8d8c3b7548711ccc5bef5f9d92bc83da811"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 93314,
+      "sha256": "00f851c1d641897dbbba7f2c74063fe22a0c5a6ae7fb61ff75f4864f9e72af36"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 247347,
+      "sha256": "9d2b8ca4d9c97842ccdc0afe4a706123bcc2d0baccb939909e5c31917788b399"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1505299,
+      "sha256": "2cfe596c36beecaa1688b55951b4272e660c066078bb5d95b20240a32a3a20da"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182699,
+      "sha256": "053436fd835b9078e07766c167316f153e36f16cba969f1bc24e1a16880dff40"
+    },
+    {
+      "path": "avatar/§b小早川希_LuXi233.png",
+      "size": 33461,
+      "sha256": "2f0a5d01f0e40de2d92a6208b89ce3793e305b534c9f75662a24a8ba59048324"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 21727,
+      "sha256": "6833ddd9974bec9115a24e7f8f2c0f121d9e9bd02caaedbd184a1a0ff81da615"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1000220,
+      "sha256": "953045b0fef844d3ab68db6f420e325db8a7a90dc053554cdb88167300d879c8"
+    },
+    {
+      "path": "sounds/3q.ogg",
+      "size": 19813,
+      "sha256": "83dbb14e33f6ae196fb5b55d6d6ba6a69c9c893578bb547ddbd8b932fcacebbb"
+    },
+    {
+      "path": "sounds/bye.ogg",
+      "size": 10494,
+      "sha256": "c7c78817078855a89504f40585d0e34dff39a67dd0597a446fefe062467146fc"
+    },
+    {
+      "path": "sounds/haolihai.ogg",
+      "size": 16099,
+      "sha256": "6eb8df188318c984804cc03686cf684d88abfc2fbfae29ce91e356aae06c50a1"
+    },
+    {
+      "path": "sounds/jiayou.ogg",
+      "size": 19704,
+      "sha256": "fc7b294a6f8e8403c46813f0e5c425225c35b2cc82b906b5c55f724ecf3461b9"
+    },
+    {
+      "path": "sounds/laitanjita.ogg",
+      "size": 116124,
+      "sha256": "0b85c98260fbdebacaf18c615caa1a81889fb243b7bc5f5bdcb71b5db60b7ece"
+    },
+    {
+      "path": "sounds/mygo.ogg",
+      "size": 33284,
+      "sha256": "eb8677f527aea433227021513ce45b99a23ef468beea0ae8b42bde05e40d1ec0"
+    },
+    {
+      "path": "sounds/nianshi.ogg",
+      "size": 630133,
+      "sha256": "61a9a99f4f5900d77a60f3dd459e24537a7a71221d8d04820eba4b6ecd75898d"
+    },
+    {
+      "path": "sounds/pofang.ogg",
+      "size": 14240,
+      "sha256": "54ac126a75eee923305604a94cbea44748efa84116b31ef02e1fccd9f00ab4e8"
+    },
+    {
+      "path": "sounds/what.ogg",
+      "size": 11254,
+      "sha256": "b99dd7db7553e7368e065a6d075919246be635d6fbbd8d6c50c4c6979185aa66"
+    },
+    {
+      "path": "sounds/wobugan.ogg",
+      "size": 11176,
+      "sha256": "f9bc6aa8f7754d55a513616e83d5984f9c3cca6eaa9658a8049b7fd96fbf2e19"
+    },
+    {
+      "path": "textures/tmr.png",
+      "size": 357400,
+      "sha256": "c2df5cca8c2aff6878d08da132d12c7551628a6bb6a3f422f4063c65cfee12b8"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2910,
+      "sha256": "f181522afbbea541f285e88ffd16ef25788dcd25423ef0866e6c88647d3661ee"
+    }
+  ]
+}

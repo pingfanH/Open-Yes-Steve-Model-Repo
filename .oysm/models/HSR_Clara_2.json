@@ -1,0 +1,142 @@
+{
+  "id": "HSR_Clara_2",
+  "path": "parsed/HSR_Clara_2",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Clara_2.zip",
+    "type": "zip",
+    "stem": "HSR_Clara_2"
+  },
+  "ysm": "parsed/HSR_Clara_2/ysm.json",
+  "metadata": {
+    "name": "Clara",
+    "tips": "",
+    "license": {
+      "type": "all rights reserved"
+    },
+    "authors": [
+      {
+        "name": "德斯蒙德051",
+        "role": "明星员工",
+        "avatar": "avatar/051.png",
+        "contact": {
+          "Discord": "https://discord.com/invite/9nUwtmah"
+        },
+        "comment": "它的创建不带有任何商业意图。！"
+      }
+    ],
+    "link": {
+      "home": "",
+      "donate": ""
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra.疑问": "表情-疑问",
+      "extra.流汗": "表情-流汗",
+      "extra.生气": "表情-生气",
+      "extra2": "问候",
+      "extra3": "是时候了",
+      "extra4": "是的",
+      "extra5": "不",
+      "extra6": "快乐的",
+      "extra7": "被殴打",
+      "extra0": "害怕"
+    },
+    "preview_animation": "idle",
+    "default_texture": "texture"
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "texture": [
+        "textures/texture.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Clara_2_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 18550,
+      "sha256": "1f751714670ec8a2330bc0801a159e0e591e27eb406db304d1b7f7adf50b9fa7"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 1439783,
+    "sha256": "f9a8137799eb981231917bf1c2f600139147554114260a89b8db5b8559a675d2",
+    "bones": 211,
+    "cubes": 878,
+    "faces": 5263,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 193340,
+      "sha256": "0b839b6c03c920a8ebbb15746c680fa933fc8a8c907a775891aef803453613ee"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 4175,
+      "sha256": "c73e53c172b7b0cadb2506113f87ec6c06327155ca12acbe71c792fbf612eab0"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 59113,
+      "sha256": "eb249aca4a633867ae43ccbfbeb603f1850121c23f29bca018856830fb66c987"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 393045,
+      "sha256": "6a094ded783251b4fb0f560facae294e60c748a28cd2f205adc25f1be843c818"
+    },
+    {
+      "path": "avatar/051.png",
+      "size": 213859,
+      "sha256": "b3a333a0f9d0c97d6862880731feb258fbd1a6409af11ddd4300ed4acc891038"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 8769,
+      "sha256": "9520af9aca2904f0c39b5f072dbaf6f0d03f12cc46c1b482aac5570d4110570b"
+    },
+    {
+      "path": "models/main.json",
+      "size": 482937,
+      "sha256": "92b0b09daadaeaadad1c6b1902da3f60703f620fe32bd84eae6574299d9a74f9"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 83149,
+      "sha256": "5bf07bbd8181f315139f24f33d80021abb91de79901c4864b7277a71a9acb099"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1396,
+      "sha256": "296ad66f86b550e2615d12c43a87183596502ac893e5607a4707bf21913f5d54"
+    }
+  ]
+}

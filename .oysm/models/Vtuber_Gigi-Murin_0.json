@@ -1,0 +1,234 @@
+{
+  "id": "Vtuber_Gigi-Murin_0",
+  "path": "parsed/Vtuber_Gigi-Murin_0",
+  "source": {
+    "path": "_Vtuber/Vtuber_Gigi-Murin_0.ysm",
+    "type": "ysm",
+    "stem": "Vtuber_Gigi-Murin_0"
+  },
+  "ysm": "parsed/Vtuber_Gigi-Murin_0/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/RintaroA.png",
+        "comment": "Free!!!",
+        "contact": {
+          "Discord": "rintaroa",
+          "Ko-fi": "rintaroa",
+          "Twitter": "Torontopizza",
+          "Youtube": "@rintaroA"
+        },
+        "name": "RintaroA",
+        "role": "Bubuker"
+      },
+      {
+        "avatar": "avatar/Bee.png",
+        "comment": "Camillo suck",
+        "name": "Bee",
+        "role": "Eternal return player"
+      }
+    ],
+    "license": {
+      "desc": "Boat goes binted",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "GIGI",
+    "tips": "Scrappy hololive Gigi model"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "Gesture:wave",
+      "Emote1:Waving": "Norm:wave",
+      "Emote2:Dance!!": "Test:Dance!!",
+      "Emote3:Dance!!?": "Dance:Cha",
+      "Emote3:dance :)": "Dance:sway",
+      "Dance4:joggart": "Dance:Joggart"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png",
+          "normal": "textures/default_normal.png",
+          "specular": "textures/default_specular.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Vtuber_Gigi-Murin_0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8284,
+      "sha256": "396403572dd4e709b5992a225fbe117f849efa321cab11c6f8b8a144d29c835e"
+    }
+  },
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 3918650,
+    "sha256": "6bb418192ac12a05123d060a38f8d29d18575dae342e1f9de9a5ea927adb75c1",
+    "bones": 121,
+    "cubes": 512,
+    "faces": 3051,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 180304,
+      "sha256": "9cafb96f291e956219b8193020a673e0f6cf0c0f108e28d1e162cee866655aed"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 20129,
+      "sha256": "29cdb44deb1794c44dd6ce7bcc7c053731e875ab805f0d18e968c35db32fb3d4"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 183863,
+      "sha256": "237185704a80c2ee1b6bd8a052c70f3c76c67058ab3bad0d61bc4aac51ea275b"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1505299,
+      "sha256": "2cfe596c36beecaa1688b55951b4272e660c066078bb5d95b20240a32a3a20da"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "avatar/Bee.png",
+      "size": 31605,
+      "sha256": "1c1752d9b6342ba560dd4aa61abde71d0c1bd1f59190f323e68ddba2916e0ed2"
+    },
+    {
+      "path": "avatar/RintaroA.png",
+      "size": 14975,
+      "sha256": "f60f70502cbf0a82fb4a55dc20f5388eed7ce6218083d92a46a5fdfa8b65133e"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 16513,
+      "sha256": "11610f9a1daef3efb921c099cecccd4c02d01fd880c6273f61937529fc924bf3"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 18885,
+      "sha256": "86ac268a5135243c1a8ca79bb1f1810e32a7f09c7015322fd839d54ae935fead"
+    },
+    {
+      "path": "models/main.json",
+      "size": 272043,
+      "sha256": "745b6883d229283a6fca7be1a2ff97e03de5a4fa952bec99c733d0096396056d"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1536,
+      "sha256": "ca5dc384bedb7173f2301247a2fd0960e87a773c9a917c28d714bf21597defd9"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 524447,
+      "sha256": "92d41c69044463ab26917b1549014a52adda1210a49fd2e4dd49dc34d9ad0b38"
+    },
+    {
+      "path": "textures/default_normal.png",
+      "size": 391238,
+      "sha256": "9e740af051e58b8c80470e96fa697ece353fd89a3f2869e431b631c1738711a6"
+    },
+    {
+      "path": "textures/default_specular.png",
+      "size": 391238,
+      "sha256": "9e740af051e58b8c80470e96fa697ece353fd89a3f2869e431b631c1738711a6"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1937,
+      "sha256": "143c5fa38956e3da2285c3000f8f76ce5592f0fc1e6f9d6db1c5446b3b51f978"
+    }
+  ]
+}

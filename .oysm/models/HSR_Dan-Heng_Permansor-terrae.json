@@ -1,0 +1,235 @@
+{
+  "id": "HSR_Dan-Heng(Permansor-terrae)",
+  "path": "parsed/HSR_Dan-Heng(Permansor-terrae)",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Dan-Heng(Permansor-terrae).ysm",
+    "type": "ysm",
+    "stem": "HSR_Dan-Heng(Permansor-terrae)"
+  },
+  "ysm": "parsed/HSR_Dan-Heng(Permansor-terrae)/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/烟雨画桥.png",
+        "comment": "…………懒，有问题私信",
+        "contact": {
+          "email": "",
+          "qq": ""
+        },
+        "name": "烟雨画桥",
+        "role": "作者"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.net/a/mj204",
+      "home": "https://space.bilibili.com/1268865161"
+    },
+    "name": "丹恒·腾荒",
+    "tips": "\n\n\n该模型为免费模型"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extr": "#配置",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "配置",
+        "name": "配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "待机动画",
+            "description": "用来切换待机动画",
+            "value": "v.roaming.idle_num",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 1.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "yanqing",
+    "preview_animation": "show",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/yanqing.png"
+        },
+        {
+          "uv": "textures/tacz_use.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Dan-Heng_Permansor-terrae_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 14780,
+      "sha256": "363c819c1e8c867857e35dd0367abb8f3ade4d34708e1de2dd9aeeb152f79b43"
+    }
+  },
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 3809866,
+    "sha256": "ec4abfeb19d04e57d0177a117ac59f6ea341262dcbd993626aa8d1622ed787ee",
+    "bones": 207,
+    "cubes": 1647,
+    "faces": 9822,
+    "textures": 2,
+    "materials": 2,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 157379,
+      "sha256": "01a8921d7e7ade0f16c078c35c1a24defc349ae26c6cc62d22cab28a078ba7f9"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 117105,
+      "sha256": "b9e62d4af35e0523ce3adbf67eef49a8e44b295b0b97a22a11e81c79a0cff347"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 252951,
+      "sha256": "c0f722ac36f224b1bac8bb6aa1cf2b19ad1452f05a4bfc5660c487a9813b43c9"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1502443,
+      "sha256": "ebe13f8d3852cdab756e2af75380df4756909c250dea597a7199954b6ba6b3e2"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 144115,
+      "sha256": "9e42a613c75f5c87cbd19c69ad84678ea6944d7819267ba2c82ea8d4d974e57f"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 53433,
+      "sha256": "a851936395980dda0962c802d2109cefb8e77c14bec03dfa1641503a05d0104b"
+    },
+    {
+      "path": "avatar/烟雨画桥.png",
+      "size": 36436,
+      "sha256": "378b13eb21c05a10fe8be12b484abfbe033ecbb76fddf79f5785d4cd147735a1"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 3406,
+      "sha256": "d88eba1602d6fa209f992876ef093c56d86de6076693a14d12fcadbd1907b30f"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 109056,
+      "sha256": "8dbf3a3d2ac0a592a8d0a963f8ab1e2bea4c31c7e31571dee841de4b0e9314f5"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 814875,
+      "sha256": "9b7412e2c838dea7bbd129c730be0c21027ea25a3acea665cb5038b9132c1b92"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/tacz_use.png",
+      "size": 213183,
+      "sha256": "f5721fcdecc3fc8934b7cfbd6e9d58ba6240ebf50d373e3ea5fb79cb988bfd40"
+    },
+    {
+      "path": "textures/yanqing.png",
+      "size": 213528,
+      "sha256": "377ad3fdaceb7760c0741cb90b9cf6a32325e33cdab0db2bf58fab05038d7b6f"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1711,
+      "sha256": "a6e4828e8fb64103de6137cb7ce12299a8800074cadc63764db603b1de743c75"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "HSR_Danheng-il",
+  "path": "parsed/HSR_Danheng-il",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Danheng-il.zip",
+    "type": "zip",
+    "stem": "HSR_Danheng-il"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "HSR_Danheng-il"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "yyj.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Danheng-il_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10139,
+      "sha256": "0750f20201001ca725797612ac676038ecb32e85d79970d8aebd3115e2ab45cd"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 817287,
+    "sha256": "9620def686629b57a50811749298be0977d092fcc48176c8e33a510e19d17748",
+    "bones": 110,
+    "cubes": 874,
+    "faces": 5244,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 200018,
+      "sha256": "a88904a73f9924c2e0d6d27aed0e2d9ad3ff0a96c1fe4e82869271161af0c5ca"
+    },
+    {
+      "path": "arm.json",
+      "size": 11423,
+      "sha256": "d1e7000e8e7c51d96523b6efed0e6bfb78bd7ed7af29e6d8f6029b72b2bf5436"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 53486,
+      "sha256": "695dda87701e404e7046493c08329738488cbe8e1899202eb2e4c48935391969"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 200018,
+      "sha256": "a88904a73f9924c2e0d6d27aed0e2d9ad3ff0a96c1fe4e82869271161af0c5ca"
+    },
+    {
+      "path": "main.json",
+      "size": 185272,
+      "sha256": "a6152c5eed959ff6101367fcd34317fe933399d8991b2a3f27bce652da364dde"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 160177,
+      "sha256": "3286d10cea3dc86fd76d493b95e1533a734b671fde7bb2f4110cbfbac92507fa"
+    },
+    {
+      "path": "yyj.png",
+      "size": 6893,
+      "sha256": "d6d407c06aa85bbc9c3849620d4bb7ce5ad2e48cb7375d0d879ae55bf5684bf2"
+    }
+  ]
+}

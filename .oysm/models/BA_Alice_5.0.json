@@ -1,0 +1,96 @@
+{
+  "id": "BA_Alice_5.0",
+  "path": "parsed/BA_Alice_5.0",
+  "source": {
+    "path": "_BlueArchive/BA_Alice_5.0.ysm",
+    "type": "ysm",
+    "stem": "BA_Alice_5.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "BA_Alice_5.0"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "alice.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Alice_5.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 16382,
+      "sha256": "bc30c7a84f6bf78dcb42fee17e54571dfd59cd7db536059f280d9b1ab8954e2c"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 1097467,
+    "sha256": "0093530d61b250725ef66f0d78c01580a461e53673d58244bbc6e97611967399",
+    "bones": 304,
+    "cubes": 1262,
+    "faces": 7572,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "alice.png",
+      "size": 19834,
+      "sha256": "ae5f549b8c429173dbacc3318b969a5d0ecfd2721a6e33c9bc00b12997b0590f"
+    },
+    {
+      "path": "arm.animation.json",
+      "size": 53045,
+      "sha256": "80256961fe30569fb6c9435da100c289499a2909cc9caa240f480526ce4d44ba"
+    },
+    {
+      "path": "arm.json",
+      "size": 5609,
+      "sha256": "144536a853e37d653726e056d40dcf78787648f2410a646bd69c08af2a9ce8ca"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 50003,
+      "sha256": "a0f93d7129be718d1861dd1556898d7f4c7dd8569d87a16382b2bfc42e39a6e2"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 157648,
+      "sha256": "311cdd4d8037dd5b2a2bfb9512d2aa5fc3f3b8a6406136f39bb1137b3dae9753"
+    },
+    {
+      "path": "main.json",
+      "size": 637496,
+      "sha256": "deec9ddc98f553d0955cd71e5659cfd0ee9908639c7d3df3ada1d5fa61204ebb"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 173832,
+      "sha256": "bbbaa61b46094d1bca0fd8da21546cb2a68366d24c3f8af8439d862842f3a334"
+    }
+  ]
+}

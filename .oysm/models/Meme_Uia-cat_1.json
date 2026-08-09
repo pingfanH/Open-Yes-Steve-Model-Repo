@@ -1,0 +1,193 @@
+{
+  "id": "Meme_Uia-cat_1",
+  "path": "parsed/Meme_Uia-cat_1",
+  "source": {
+    "path": "_Meme/Meme_Uia-cat_1.ysm",
+    "type": "ysm",
+    "stem": "Meme_Uia-cat_1"
+  },
+  "ysm": "parsed/Meme_Uia-cat_1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/樱月粽子.png",
+        "comment": "ok 兄弟们 全体目光向我看齐 看我看我 我是个奶龙",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/32416129"
+        },
+        "name": "樱月粽子",
+        "role": "模型,动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "name": "oiiaiooiiiiai",
+    "tips": "(❁´◡`❁)-"
+  },
+  "properties": {
+    "width_scale": 0.6,
+    "height_scale": 0.6,
+    "extra_animation": {
+      "oiiaiooooiiai": "#oiia",
+      "oiiaiooooiiai2": "<><>",
+      "oiiasound": "一次oiiaiooooiiai"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "oiia",
+        "name": "多次不循环oiiaiooooiiai",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "声音",
+            "description": "因为循环音效穿越维度和退出存档再次进入会卡出无法关闭声音的bug 所以将音效改成了单次播放 ",
+            "value": "v.roaming.ss"
+          },
+          {
+            "type": "checkbox",
+            "title": "猫猫切换",
+            "description": "我是奶龙",
+            "value": "v.roaming.aa"
+          },
+          {
+            "type": "checkbox",
+            "title": "挥剑音效",
+            "description": "无",
+            "value": "v.roaming.sb"
+          },
+          {
+            "type": "range",
+            "title": "旋转速度: ",
+            "description": "无",
+            "value": "v.roaming.xx",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 10.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "oiiaiooooiiaiys",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/oiiaioooooiai.png"
+        },
+        {
+          "uv": "textures/choumao.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Meme_Uia-cat_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 58217,
+      "sha256": "87f2e8b2527171feb9a9daba531bb68f032b28c8cd77624a0fa4f1e515fe7dc3"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 3224898,
+    "sha256": "f9a06fa5cfb711ca74cb0449a22613a8747d05b4af9e179e947bab982a83d7d1",
+    "bones": 24,
+    "cubes": 206,
+    "faces": 1236,
+    "textures": 2,
+    "materials": 2,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/main.animation.json",
+      "size": 6592,
+      "sha256": "2637abf145b020f7930cfc9bb941f8061d41c1c951956d989bbaff64fbd97e1e"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 7480,
+      "sha256": "d28ff2cf5ae285a65d8b1f1389c0889e8472e9ace6c90426b4ee00b9c3387d4e"
+    },
+    {
+      "path": "avatar/樱月粽子.png",
+      "size": 45970,
+      "sha256": "e9d5879fbca50c8e11dbbd4daf434f59f00f891cd2b7644306cb7870be9f8db1"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 1421,
+      "sha256": "99a10db78746418cb3bde1a071d56018a4aae10063aaf5f1e552c13b21b49942"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 57064,
+      "sha256": "83366e5ef9666530cf8086bde135fd17d06274ded53e595d31f1f9e24f9cb391"
+    },
+    {
+      "path": "models/main.json",
+      "size": 58379,
+      "sha256": "5788038d81fde1db66b6db2da00dfed45c7821a6ac928e899ccc10bb12c039ff"
+    },
+    {
+      "path": "sounds/bonk.ogg",
+      "size": 17501,
+      "sha256": "1c9926a70fb696216f8bac15d896a679174feabee9573fbd3cc030dd8eeb08a7"
+    },
+    {
+      "path": "sounds/coumao.ogg",
+      "size": 481500,
+      "sha256": "756b98129f22eda3261654ca3f6ca0881b78ae38c509be12c28de69675d59040"
+    },
+    {
+      "path": "sounds/oiiaioiiiai.ogg",
+      "size": 22040,
+      "sha256": "d119f59ddcb3bc77fc90ee748dbde1c411b45206a2823b4e48ab94297214bb63"
+    },
+    {
+      "path": "textures/choumao.png",
+      "size": 1039302,
+      "sha256": "13fbce4eab6a1411a118069794f0cdf39f8204c839bd84fb740b5781d46f0cd6"
+    },
+    {
+      "path": "textures/oiiaioooooiai.png",
+      "size": 1486049,
+      "sha256": "0ae4b78ddd9d674e289651f0e5f0135774144910642da44c157bfc22525744ad"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1600,
+      "sha256": "7dbda2dd1fdc6d2b9ea205f99fc0a995db503609c8014d7325e5dbb382e8d143"
+    }
+  ]
+}

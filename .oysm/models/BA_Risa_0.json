@@ -1,0 +1,78 @@
+{
+  "id": "BA_Risa_0",
+  "path": "parsed/BA_Risa_0",
+  "source": {
+    "path": "_BlueArchive/BA_Risa_0.ysm",
+    "type": "ysm",
+    "stem": "BA_Risa_0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "BA_Risa_0"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "lingsha.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Risa_0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7003,
+      "sha256": "239dc21950ba2d11cb3b3f544667c9901055b2cf0b736de86352a71824592461"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 831968,
+    "sha256": "4dc8ba40f4ae4ab3f535e377118dc0da40b34be02aa32bfef9a382d3fd924963",
+    "bones": 127,
+    "cubes": 1139,
+    "faces": 6834,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 7024,
+      "sha256": "3a96eec8c04ec55bc9aaed8a0aa35477ef62be908e448fecd4268ad03f4d982b"
+    },
+    {
+      "path": "lingsha.png",
+      "size": 22355,
+      "sha256": "e4f6fa054285a07773d5f5c704508cc2600aa11ec2e2026fad73dfe072ba8859"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 409951,
+      "sha256": "27d5170e7b94712fac8a9c4e0ba59c5a90d78e1e2e2995ad9c00c8e6581b0f90"
+    },
+    {
+      "path": "main.json",
+      "size": 392638,
+      "sha256": "0c2867a1b26443dc9ac8b1d4f8a3b6700681b039d447c3862783fd806b2300a0"
+    }
+  ]
+}

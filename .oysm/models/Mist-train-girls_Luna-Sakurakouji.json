@@ -1,0 +1,142 @@
+{
+  "id": "Mist-train-girls_Luna-Sakurakouji",
+  "path": "parsed/Mist-train-girls_Luna-Sakurakouji",
+  "source": {
+    "path": "_MistTrainGirls/Mist-train-girls_Luna-Sakurakouji.ysm",
+    "type": "ysm",
+    "stem": "Mist-train-girls_Luna-Sakurakouji"
+  },
+  "ysm": "parsed/Mist-train-girls_Luna-Sakurakouji/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/奇葩的小毛.png",
+        "comment": "纯新手，不喜勿喷qwq",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/642514655?spm_id_from=333.788.0.0"
+        },
+        "name": "奇葩的小毛",
+        "role": "模型,动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "link": {
+      "home": "https://space.bilibili.com/642514655?spm_id_from=333.788.0.0"
+    },
+    "name": "樱小路露娜",
+    "tips": "《近月少女的礼仪》真女主"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "害羞",
+      "extra1": "露娜sama为什么是神",
+      "extra2": "戴上/取下猫耳",
+      "extra3": "大変に気分がいい",
+      "extra4": "灵感爆发",
+      "extra5": "无",
+      "extra6": "无",
+      "extra7": "无"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "preview",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/luna.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Mist-train-girls_Luna-Sakurakouji_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9294,
+      "sha256": "b83fa754e3d13c57d00504d462eaa7e3fa1df0393a5f6dac137a3fbb4805b564"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 1567865,
+    "sha256": "e33c041f9bf6893bf30848a49f1dc6943f60bc76d492462c54a6e57ec6b4ea6e",
+    "bones": 98,
+    "cubes": 441,
+    "faces": 2500,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 34697,
+      "sha256": "27e325a35e2475505a0ea6e29363d7d9a8761470f112c195fb426875448be483"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 14289,
+      "sha256": "49fd8ee9c17291d3af3468c9a0604013ae76e325602bf0cb042eda6eafe871dc"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 175815,
+      "sha256": "0fe53a930023401ab0584c890b21b3f96f344ea5175d2a4a3657c6632d8d4c4b"
+    },
+    {
+      "path": "avatar/奇葩的小毛.png",
+      "size": 934245,
+      "sha256": "d980743034670b949d422e2ef93cdf4dba3e2154c6712435efaa0f5979f4a097"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 51570,
+      "sha256": "759dfc9edb0528d0d9a8039eeea8d2aad12746d6d585bca8ac1c38901c48fd33"
+    },
+    {
+      "path": "models/main.json",
+      "size": 291669,
+      "sha256": "4847d6c385d526db18956bedb4b1c4a6b858d1124e73ddd7a624f57609bb0a27"
+    },
+    {
+      "path": "textures/luna.png",
+      "size": 64410,
+      "sha256": "057482e42d276f7d324afaa8ef93770882bc80f04294a201820db63ce17f2e8a"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1170,
+      "sha256": "cd2b2b681bba20bdcbb0dfeb06e8f0be32ee190c5d4b7dc51b3df8acc959fd10"
+    }
+  ]
+}

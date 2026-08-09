@@ -1,0 +1,84 @@
+{
+  "id": "Marine_nobalacklava",
+  "path": "parsed/Marine_nobalacklava",
+  "source": {
+    "path": "Uncategorized/Marine_nobalacklava.zip",
+    "type": "zip",
+    "stem": "Marine_nobalacklava"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Marine_nobalacklava"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "342.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Marine_nobalacklava_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 18561,
+      "sha256": "b57479ac8ae40dc2f382cc4d6adc6fb06466934bce690e7cef5eda0b85b529e2"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 734377,
+    "sha256": "d87aa1b62aa41d94fdbcf67b5341daf214fa062139f4c7052a99e0c14842823c",
+    "bones": 75,
+    "cubes": 416,
+    "faces": 2496,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "342.png",
+      "size": 166860,
+      "sha256": "bc185e174b32eb5ca33960c2ecee8b9a7395c4d19c5bf9b116ef96c8ce8f5124"
+    },
+    {
+      "path": "arm.json",
+      "size": 21390,
+      "sha256": "57fbf3fef2c571bb0ec07be2c78802c629072e159c3045c09a685b50dc341d64"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 143873,
+      "sha256": "4f6dfb40fb12dc2531b64b221097ea2b601a6b1dc23288a0d1a0d17a86d5823d"
+    },
+    {
+      "path": "main.json",
+      "size": 244237,
+      "sha256": "a5027e39b68f8cb0acc2377931b7a3806670a90fb3b4b6a8bf3ec962b037a77d"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 158017,
+      "sha256": "87f89948b53f2d189599109525654e4191755196624df21444ad6824d70af625"
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "id": "兰音JK1.2",
+  "path": "parsed/兰音JK1.2",
+  "source": {
+    "path": "Unknown/兰音JK1.2.ysm",
+    "type": "ysm",
+    "stem": "兰音JK1.2"
+  },
+  "ysm": "parsed/兰音JK1.2/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§d兰音Reine.png",
+        "comment": "§c音乐系VUP，梦想是自己的音乐可以被更多人听到。",
+        "contact": {
+          "§b哔哩哔哩主页": "§2https://space.bilibili.com/698029620",
+          "§b直播间": "§2https://live.bilibili.com/22696653"
+        },
+        "name": "§d兰音Reine",
+        "role": "§b原型人物"
+      },
+      {
+        "avatar": "avatar/§d瀛猫.png",
+        "comment": "§3一个透明人 宇航兔。",
+        "contact": {
+          "Afdian": "https://afdian.com/a/wincatpro",
+          "Bilibili": "https://space.bilibili.com/647224460"
+        },
+        "name": "§d瀛猫",
+        "role": "§b模型丨动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "§cAll Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/wincatpro",
+      "home": "https://space.bilibili.com/647224460"
+    },
+    "name": "§9§l☪JK of Reine☪§e§l(水手服JK·兰音)",
+    "tips": "§b这里是水手服JK兰音，参考兰音人间体\r\n§a此版本为免费公开版！\r\n§c§l音乐系VUP，梦想是自己的音乐可以被更多人听到。\r\n§b§n未经允许请勿商用\r\n§2§l请B站关注虚拟up主§d§l“兰音Reine”§2§l哦"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "§d§l[舞蹈]偶像！NO.1",
+      "extra1": "§d§l[舞蹈]偶像！NO.2",
+      "extra2": "§d§l[舞蹈]偶像！NO.3",
+      "extra3": "§b[展示]§c歌唱！完美偶像。",
+      "extra4": "§2不可以！",
+      "extra5": "§b[展示]§a鄙视",
+      "extra6": "§b[展示]§c§l鸢见兰叙",
+      "extra7": "§b§l『♛变身吧！斗篷兔♛』",
+      "extra8": "§c§l[整活]§5dooble"
+    },
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/reinejk.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/JK1.2_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13199,
+      "sha256": "703ecb90adf52abc164254365fbd74638bcdbf3ac012715f8fb9efe325edd69d"
+    }
+  },
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 11091036,
+    "sha256": "307463ec98658d6d1793a668c655c7c41deb05fef49a10cc42ba1512ef6e4e26",
+    "bones": 474,
+    "cubes": 2443,
+    "faces": 14614,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 721670,
+      "sha256": "cfb50f76f9c6e95ce56a7e02c4f4cee36672a59dc51a78355aba69b7679132df"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 4191,
+      "sha256": "4b9cb9e6b74bc7e8947758c07ec694347a4be2a370b1267c179f46ef7515603f"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 6664929,
+      "sha256": "4293640fe8a9f73a2ff144962e5142dbdc956dac88e4354a438b12a2a9b7c937"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 265822,
+      "sha256": "a5d7a160f7b12e42258fb78a063ef1627814db428b20f5fbcd82118adcab83c0"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 188234,
+      "sha256": "5a8198816a912a237b9f6b85f39b5dfafa29314e356c9be320a3dfe59415913d"
+    },
+    {
+      "path": "avatar/§d兰音Reine.png",
+      "size": 673535,
+      "sha256": "7b3371450cd2b295668d228aa49a1ef53075fb7f42b6656c42fd0f1c6d3855dc"
+    },
+    {
+      "path": "avatar/§d瀛猫.png",
+      "size": 177987,
+      "sha256": "58b0c3d0e642622bb904ae34ffaa4bd11526280e80d5d5f92323612f54f796d9"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 57488,
+      "sha256": "afb34bdd7dd0e27c5c4a65464c8f9725929b84ce6c59f936d103a4975f7a6abe"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 1948,
+      "sha256": "d7072fa3831359ca8f78c545c5a541247ee35413c6f303c680b434256d6da5c9"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1335253,
+      "sha256": "a27642d1a3039b4c0675e6c773e1d4426404dff57f8c3428937326c36aefece1"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 408,
+      "sha256": "66671c35c17591f9eb234e8687ddcbb7d0675f25a1bc8c4c8292821997b7a7f2"
+    },
+    {
+      "path": "textures/reinejk.png",
+      "size": 997163,
+      "sha256": "5718e5e34a8538b6caa4be28116c794bc7153043806ca786d205fbd8dacc2898"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2073,
+      "sha256": "bec55e495e298191a666eb627cc0fee1f62976144945a3cc18a63f1cc4ee7be2"
+    }
+  ]
+}

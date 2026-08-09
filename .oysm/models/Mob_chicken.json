@@ -1,0 +1,93 @@
+{
+  "id": "Mob_chicken",
+  "path": "parsed/Mob_chicken",
+  "source": {
+    "path": "_MinecraftMob/Mob_chicken.ysm",
+    "type": "ysm",
+    "stem": "Mob_chicken"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Tester 1.1",
+    "tips": "By BlockBench From Happy's Pangolin",
+    "authors": [
+      {
+        "name": "Happy's Pangolin"
+      }
+    ],
+    "license": {
+      "type": "FSB"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "kun.png",
+        "normal.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Mob_chicken_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 1122,
+      "sha256": "30390bf3c7e892833a3f07c93e41e40a9f5605a6b95a33ea333a3ab87b6a9ac3"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 132847,
+    "sha256": "578a70108bf286b80b49451967125a05a393187c17fa4b137d072b7481832ef2",
+    "bones": 21,
+    "cubes": 21,
+    "faces": 126,
+    "textures": 2,
+    "materials": 2,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 7904,
+      "sha256": "fadf6e019dabd194242e4e2145130e13c1f82d3807ead3e647fa7c19c2163e3b"
+    },
+    {
+      "path": "kun.png",
+      "size": 788,
+      "sha256": "800ca68b917a2ede47076695e981ec9644be182644cd085e4abe8f277994d9b7"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 121929,
+      "sha256": "f3f7b3fc4b4f635a22d121a195d56ba4c2d00755249ce25cf51a94ae3c8e08ba"
+    },
+    {
+      "path": "main.json",
+      "size": 1725,
+      "sha256": "0f210aef28c606623edbc57feb90e3310d50d613c2d176a5edb9056b43cdbe8f"
+    },
+    {
+      "path": "normal.png",
+      "size": 501,
+      "sha256": "487a9bed72731b586bbbd365b78320fbe04e4c44aeb840e7d2f3a828a0906c9d"
+    }
+  ]
+}

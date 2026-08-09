@@ -1,0 +1,191 @@
+{
+  "id": "Ak_Eyjafjalla(Medic)_v1.0",
+  "path": "parsed/Ak_Eyjafjalla(Medic)_v1.0",
+  "source": {
+    "path": "_Arknights/Ak_Eyjafjalla(Medic)_v1.0.zip",
+    "type": "zip",
+    "stem": "Ak_Eyjafjalla(Medic)_v1.0"
+  },
+  "ysm": "parsed/Ak_Eyjafjalla(Medic)_v1.0/ysm.json",
+  "metadata": {
+    "name": "Default",
+    "tips": "纯烬艾雅法拉（Eyjafjalla the Hvít Aska）",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "妖梦",
+        "role": "模型",
+        "avatar": "avatar/youmu.png",
+        "contact": {
+          "Afdian": "https://afdian.com/a/ll45I4",
+          "Bilibili": "https://space.bilibili.com/1436299"
+        },
+        "comment": "能力有限    996ing..."
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "[原版]打招呼",
+      "extra2": "[原版]鼓掌",
+      "extra3": "[原版]是的",
+      "extra4": "[原版]不行",
+      "extra5": "撑伞",
+      "extra6": "随机骰子",
+      "extra7": "切换服装显示"
+    },
+    "preview_animation": "preview",
+    "default_texture": "texture1",
+    "render_layers_first": false,
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "texture": [
+        "textures/texture1.png"
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": "textures/arrow.png"
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Eyjafjalla_Medic__v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11849,
+      "sha256": "64c830c042fbca63939e6cdf6de352ac7b4089b605c524b084f0b68374aa12a6"
+    }
+  },
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 1899650,
+    "sha256": "b19625cb65d385fc3d89ea0609ec3261bc98e7e98f300bb141e318c9202efcb7",
+    "bones": 449,
+    "cubes": 1277,
+    "faces": 7662,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 249952,
+      "sha256": "a23a9b518586317a9d43c184fd7039670f5de6cb95de3090cb4e2a8d957f9479"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 535,
+      "sha256": "a53e4e0dc40ce1daa8c44377ae682014efcd0cd870c244ba57011bec71f2fdd8"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3629,
+      "sha256": "0f91490fa39cbbaf301fc0c2550215f4f8a5ec56c5ee4e200ce74c8a4f17f901"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 23418,
+      "sha256": "84915b6f0e7713612fc5c1c80f79c3eb71ca37c0d03906d22159fbe1a0874e82"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 351854,
+      "sha256": "6e976a5b4dd0da2a8790dc91a8fe3359adfc2482c601e9b57cdde12d53904a78"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 163899,
+      "sha256": "1f1b0cd01ccc551bc39e55cbcc7757122ea7452c26d81221da9f0466d59e6e03"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 216682,
+      "sha256": "31cc89e268115c6d1b2ea88220e9ca224bb16e326b04971d00c42d5454b970d2"
+    },
+    {
+      "path": "avatar/youmu.png",
+      "size": 30329,
+      "sha256": "7a6c3054c70c96f491dc828261a9c3adf31ee6f5983200cfe502e5f60e162f9e"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 39020,
+      "sha256": "db827f0e8c428e905893a1d38d158fdad7b46049f7932a9ed4c54c3f4a749057"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 7039,
+      "sha256": "508f6c0ac8d9c9094db9d636e3aa59c97a542fc55155fcb91312a6f676a31b56"
+    },
+    {
+      "path": "models/info.json",
+      "size": 33,
+      "sha256": "5fbb3b137c23d522b786dbcbe701a8e21879592ddd46d516b32f8b5ce689a75e"
+    },
+    {
+      "path": "models/main.json",
+      "size": 687399,
+      "sha256": "09648210ae087e924351891fe2c5759113900d5ff16d778f8faa1f7de39b7e63"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 654,
+      "sha256": "9da338a306098e6e7b6c9bb302f7a92b1a047895bdfc38776932c30f344765d3"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 41374,
+      "sha256": "55eb1fcf426ae8d8c731a513e5207ad77cfe0a340ea4b6d5b9c7bc08edcc0ed4"
+    },
+    {
+      "path": "textures/texture1.png",
+      "size": 40817,
+      "sha256": "5c93eb3fa96bef35efd40afb6f3f77844b740ddeef620d9e776ef73f5297b5c8"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1986,
+      "sha256": "1067ab4e6580654d37fe53ada8d944d74a3836eceac67eee2c561323fabc5837"
+    }
+  ]
+}

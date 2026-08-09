@@ -1,0 +1,138 @@
+{
+  "id": "GI_qz_yg",
+  "path": "parsed/GI_qz_yg",
+  "source": {
+    "path": "_GenshinImpact/GI_qz_yg.ysm",
+    "type": "ysm",
+    "stem": "GI_qz_yg"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§6千织",
+    "tips": "§8普通版\n§8持剑类手上显示专武\n§8体型随等级变化、30级成年",
+    "license": {
+      "type": "All Rights Reserved"
+    },
+    "authors": [
+      {
+        "name": "§9寒叔§8（模型）"
+      },
+      {
+        "name": "§c烈鸟比百§8（配置）"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "arrow.png",
+        "block.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "arrow": "arrow.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_qz_yg_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 2924,
+      "sha256": "eee973e4833cc4c902cfd1c938ec2b502de0806df84d35fe3799705d60cbeadb"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 2702160,
+    "sha256": "8c9c6db65b82d0c01cac2dffdb804f9d92fd1fc452cd477d65972db0102a1ef0",
+    "bones": 211,
+    "cubes": 3878,
+    "faces": 23260,
+    "textures": 2,
+    "materials": 2,
+    "animations": 6,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 37650,
+      "sha256": "8b492efdb5c339420e1efa5cf8b21778436f2c02136b56761eccf14b19d87749"
+    },
+    {
+      "path": "arm.json",
+      "size": 244023,
+      "sha256": "6462c82672aef673b794df0b0ac20a59018269ab0ba9ff5c4a8b76db551a3ee6"
+    },
+    {
+      "path": "arrow.animation.json",
+      "size": 450,
+      "sha256": "39a245640ccd1339a8f51566faa35cc97ca105358678fe9bb1f6191a76849d87"
+    },
+    {
+      "path": "arrow.json",
+      "size": 7889,
+      "sha256": "8a98751d0aab2461ca8ddae465e7e7b85f0554c8611d33dac390af38c32f1ce9"
+    },
+    {
+      "path": "arrow.png",
+      "size": 198,
+      "sha256": "5b711e442a7b7cbcac0b0321631c68bcfc0d254c33c1cfd9cb6e95540db602d0"
+    },
+    {
+      "path": "block.png",
+      "size": 46281,
+      "sha256": "4113affc2cb1d333452b4e85da4ae3d07b65e4e07279382266bfe1e91d0815ba"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 4578,
+      "sha256": "136d5cd6d7f785d218b79c41752e6a9d84757d4103332c6b074754acb55dd636"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 46128,
+      "sha256": "174f5848decf1c33df90f77122eb6f43da5f73d56b9dc329e12fe1859c482ff1"
+    },
+    {
+      "path": "info.json",
+      "size": 311,
+      "sha256": "ee2478d16d7b354b97a911b99dee1c1ff6d638ddfb34479fd0b83deb4ef7b462"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 220138,
+      "sha256": "ddce00b22bafc7a336d90c225d724a4dbde439f5c95b46a11a902f0106dd7bd0"
+    },
+    {
+      "path": "main.json",
+      "size": 1963778,
+      "sha256": "0346ee457207fa5670d10f3ee8b611708c0207d5b6f0ac23785d3d511f5a12f2"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 130736,
+      "sha256": "af54aa5e59f99ea21d37ccecf89e5fe40c939d76cbab5982a773af7e22ad0692"
+    }
+  ]
+}

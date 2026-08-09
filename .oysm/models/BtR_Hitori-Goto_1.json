@@ -1,0 +1,217 @@
+{
+  "id": "BtR_Hitori-Goto_1",
+  "path": "parsed/BtR_Hitori-Goto_1",
+  "source": {
+    "path": "_BocchiTheRock/BtR_Hitori-Goto_1.ysm",
+    "type": "ysm",
+    "stem": "BtR_Hitori-Goto_1"
+  },
+  "ysm": "parsed/BtR_Hitori-Goto_1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "逸一时，误一世",
+        "contact": {
+          "Afdian": "https://modrinth.com/mod/yes-steve-model",
+          "Bilibili": "https://space.bilibili.com/44619913?spm_id_from=333.1007.0.0"
+        },
+        "name": "泉溪",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "1",
+        "name": "泉溪",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "1",
+        "name": "泉溪",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "1",
+        "contact": {
+          "Afdian": "hhttps://modrinth.com/mod/yes-steve-model",
+          "Bilibili": "https://modrinth.com/mod/yes-steve-model"
+        },
+        "name": "泉溪",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": ""
+    },
+    "link": {
+      "donate": "https://space.bilibili.com/44619913?spm_id_from=333.1007.0.0",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "后藤一里",
+    "tips": "波奇酱"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "害怕",
+      "extra1": "",
+      "extra2": "牡牡牡牡牡牡牡牡",
+      "extra3": "彳亍",
+      "extra4": "不彳亍",
+      "extra5": ">_<",
+      "extra6": "",
+      "extra7": "弹"
+    },
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BtR_Hitori-Goto_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8845,
+      "sha256": "c4395c94ca509f54dde1a9c08707d12646138af1b3cffe3a8e5a332748658e84"
+    }
+  },
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 871908,
+    "sha256": "63be5227acf17a83df39384bbc6fbbe26d93120d9058f5db5bb1e185c9cb52ae",
+    "bones": 81,
+    "cubes": 224,
+    "faces": 1344,
+    "textures": 2,
+    "materials": 2,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 134943,
+      "sha256": "24efd22048dd69cc064cb9e6f6f7ca6efd6d7c4007532f02a1ed5d9a38f054fd"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2792,
+      "sha256": "686ffca6d0d01ab2b9bf6a421e8fd4bd90f40d97016e340661335c14fab098a0"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 16706,
+      "sha256": "6d6629368344a0109e5328be7a0a4e86424071496af454552afea6740ebf1b22"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 183594,
+      "sha256": "b28b86d1ffb0539efb3c2f3ac195008d41ae95e5cc526a27485fb7a5b0e25562"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/泉溪.png",
+      "size": 19374,
+      "sha256": "6cd420a5238d37083afb1a43736ae8f862dfb9d9065c1ae1895c2ee20071333c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 4744,
+      "sha256": "7daf63ed79581345335cf888ea79e2ddc983b91e1077d95e8a5ea30f23f85496"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 3382,
+      "sha256": "a6cf7bec8a7dc0554dee95269bd0591004a22aec25fcefc7a2f290ac7a3d3ef6"
+    },
+    {
+      "path": "models/main.json",
+      "size": 114219,
+      "sha256": "af0e8bbbe5613274c3bc5ab16bff45d5bcf3e6247e2bd5ffc54b091dfe5c3d38"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 312,
+      "sha256": "332a9e07a16e1411a8406f1b7167c0eacb5e65b810a9f5b5db20f3e793e8e7b8"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 11115,
+      "sha256": "3d6ee25dd9507b59b1f9c436d3dcb9203c7b871121b7bd7907109916d38ecafc"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 22255,
+      "sha256": "9c6110b3157a4256bfcaceb6ff57f9346e6c262ea069028f2886a69df3b3ce58"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1750,
+      "sha256": "d0943c088af4a79c9037bbe0f195944f06c6bd5ca669840e8cbdde16c7dd4c5d"
+    }
+  ]
+}

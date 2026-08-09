@@ -1,0 +1,285 @@
+{
+  "id": "BA_Fuuka_v2.0.5",
+  "path": "parsed/BA_Fuuka_v2.0.5",
+  "source": {
+    "path": "_BlueArchive/BA_Fuuka_v2.0.5.ysm",
+    "type": "ysm",
+    "stem": "BA_Fuuka_v2.0.5"
+  },
+  "ysm": "parsed/BA_Fuuka_v2.0.5/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/筅袔.png",
+        "comment": "设计蚂蚁真好听",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/13098279"
+        },
+        "name": "筅袔",
+        "role": "模型&额外动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "name": "爱清枫香",
+    "tips": "就读于歌赫娜学园，负责学生食堂管理的供餐部成员。每天早晨为歌赫娜的学生们准备着巨量的食物，在歌赫娜里属于非常少见的温柔又认真踏实的学生。烹饪手艺还不错，然而由于食堂人手长期不足，无法认真对待每道料理的缘故，她的烹饪水平常常被低估。尽管如此她从未气馁，每天都在为了能做出更美味的料理而脚踏实地地努力着。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra1": "挥手",
+      "extra2": "拍手",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "extra5": "加油！",
+      "extra9": "端锅",
+      "extra11": "做饭中~",
+      "extra8": "§a[♪]醉酒舞",
+      "extra30": "#extra_config",
+      "extra12": "§e/非标高度/椅子坐姿",
+      "extra6": "摆手摇",
+      "extra7": "机械舞",
+      "extra0": "诹访大舞"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "§9模型设置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "模型缩放修正：",
+            "description": "碰撞箱及视角不变，§m并非个人缩放装置",
+            "value": "v.player_size",
+            "step": 0.1,
+            "min": 0.1,
+            "max": 10.0
+          },
+          {
+            "type": "range",
+            "title": "模型高度修正：",
+            "description": "§m用于适配动画以及各种各样高度的椅子",
+            "value": "v.player_att",
+            "step": 1.0,
+            "min": -20.0,
+            "max": 20.0
+          },
+          {
+            "type": "checkbox",
+            "title": "鞘翅显示",
+            "description": "用来显示或隐藏鞘翅",
+            "value": "v.qiaochi"
+          },
+          {
+            "type": "checkbox",
+            "title": "副手手枪显示",
+            "description": "适用于TAC/TACZ",
+            "value": "v.shouqiang"
+          },
+          {
+            "type": "checkbox",
+            "title": "副手长枪显示",
+            "description": "适用于TAC/TACZ",
+            "value": "v.changqiang"
+          },
+          {
+            "type": "radio",
+            "title": "服装切换",
+            "description": "夏日服装基于 ゼ一ロ様 的模型制作",
+            "value": "v.fu",
+            "labels": {
+              "工作服": "v.fu=0;v.fu_1=1;v.fu_2=1;v.fu_3=0",
+              "校服": "v.fu=1;v.fu_1=1;v.fu_2=0;v.fu_3=0",
+              "夏日": "v.fu=2;v.fu_1=0;v.fu_2=0;v.fu_3=1"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "表情切换",
+            "description": "",
+            "value": "v.eye",
+            "labels": {
+              "立绘": "v.eye=0;v.eye_1=1;v.eye_2=1;v.eye_3=0;v.eye_4=0",
+              "微笑": "v.eye=1;v.eye_1=1;v.eye_2=0;v.eye_3=1;v.eye_4=0",
+              "无语": "v.eye=2;v.eye_1=0;v.eye_2=0;v.eye_3=0;v.eye_4=1"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "zhanshi",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Fuuka_v2.0.5_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10606,
+      "sha256": "eb17956cbc93e41387452f44b05945bacdc9f3f9633073bb7d36ae176a057ab6"
+    }
+  },
+  "stats": {
+    "file_count": 20,
+    "total_bytes": 5140448,
+    "sha256": "8ce15f8c87e57dcafba87b71603db8cd2be23da7937d394cae09dd936f63b0eb",
+    "bones": 201,
+    "cubes": 1160,
+    "faces": 6960,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 130743,
+      "sha256": "372a11a1a45332ee124f8b134359b40f7a3918001653a72511033104161cd4ba"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 255705,
+      "sha256": "78f6186c2a7d0245fe6624ef6cf74dcba514f4c8a84a3e0624575aacb6bdd8e9"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 187115,
+      "sha256": "1e6e4fcca1625c62051733cb86af41c4047991acd715d145ace00de55b2fcdc4"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 59568,
+      "sha256": "f960b2df1cf0eb03e8ac4c80291c4af96c39d997966d5ab376a0b7b00e26143f"
+    },
+    {
+      "path": "avatar/筅袔.png",
+      "size": 836947,
+      "sha256": "bd9db11b9927333728f9ef0722a9578c79c190df4652f5e79f2e90597c65b2bc"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 13516,
+      "sha256": "506e906e84ccff7d9529c3ce2db71ee86328e39aeca8b442a10d4fd8b6fb9ce7"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 29018,
+      "sha256": "27e04105f91d1a9f80d35224d2caf96311f2cb20f402d2bbf656144e180f5a3b"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 3463,
+      "sha256": "65aaa033f2274866700d0ff9ba45541e451ab41818d8f2e85e84ba9fc4d1ee42"
+    },
+    {
+      "path": "models/main.json",
+      "size": 616661,
+      "sha256": "7dc2e08c84e3221582ea0379744069ff1ab242a0fb27867b60bad167f7eedc4f"
+    },
+    {
+      "path": "sounds/focus.ogg",
+      "size": 35203,
+      "sha256": "e515e2e953c509ce1a84111adac5d5bf1a7d743cc95d90ffa1eeb8d1bcf225a7"
+    },
+    {
+      "path": "sounds/zuijiuwu.ogg",
+      "size": 349509,
+      "sha256": "cdc05ccebd5813169a9e0f67b4d168621f74dd46a801485617df3978192ccdc3"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 4744,
+      "sha256": "968db88b680fd2c1914b1e4d6ee335f153509eb7d5481c2dd856efaf54519ad1"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 230553,
+      "sha256": "264711cab4f10a6b09e4a937f65acaf0e70f3e791fc1ece1d496b308752028a9"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3278,
+      "sha256": "00278d30b769efb288d98c5ea581a1bb813a653808d7f5fcb88588d6072c29c8"
+    }
+  ]
+}

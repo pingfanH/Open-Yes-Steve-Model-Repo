@@ -1,0 +1,78 @@
+{
+  "id": "_Xiaomaolaodi",
+  "path": "parsed/_Xiaomaolaodi",
+  "source": {
+    "path": "Uncategorized/_Xiaomaolaodi.ysm",
+    "type": "ysm",
+    "stem": "_Xiaomaolaodi"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_Xiaomaolaodi"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Xiaomaolaodi_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 17902,
+      "sha256": "99c5d80738a3aa2947ec372710329056cb2e498108eb4ece34d990598371f27b"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 999573,
+    "sha256": "6de03434b3ecb71cffb335d6cb7f47f31f571479bafe0800186861fb8afde375",
+    "bones": 243,
+    "cubes": 975,
+    "faces": 5850,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 17534,
+      "sha256": "779eef910d3cfc616bdf1ff148b53e67f59ce1a6a9bb7b63e2c146c32573185e"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 220023,
+      "sha256": "0f7028698007a8d95eb984ef076530d59d8d8e8208fa718b89ee77662fb6cdbd"
+    },
+    {
+      "path": "main.json",
+      "size": 581919,
+      "sha256": "ce07f8ecd55fd305f271fa1d5850fc289439bb2e64d2850badbae76730de2951"
+    },
+    {
+      "path": "texture.png",
+      "size": 180097,
+      "sha256": "86f3270ff360f0c3aa261548072632d9b7f1495dc9bfb5b5e4ab71e8711de4f6"
+    }
+  ]
+}

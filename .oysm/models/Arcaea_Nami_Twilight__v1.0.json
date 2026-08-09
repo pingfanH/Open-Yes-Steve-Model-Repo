@@ -1,0 +1,110 @@
+{
+  "id": "Arcaea_Nami(Twilight)_v1.0",
+  "path": "parsed/Arcaea_Nami(Twilight)_v1.0",
+  "source": {
+    "path": "_Arcaea/Arcaea_Nami(Twilight)_v1.0.ysm",
+    "type": "ysm",
+    "stem": "Arcaea_Nami(Twilight)_v1.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "奈美",
+    "tips": "原游戏名：Arcaea\nTo The Milky Way 曲绘封面\n——————————————\n该模型为免费模型，禁止二次出售\n仅在云曦的爱发电出售，在其他地方购买请立即告知云曦\n云曦QQ 1922137073  -  催更小窝：924884449",
+    "authors": [
+      {
+        "name": "云曦-Yunxxi_ugo"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Arcaea_Nami_Twilight__v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 18326,
+      "sha256": "68cf9d3542d6c65f61ffee2ab7f6f82b06af025f37ebb80375b265fb846911dd"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 1499645,
+    "sha256": "804ba4bc26101b2f813e8e1b0ed7bb34bf958067ee7e820cf4bb0ff08f84d422",
+    "bones": 434,
+    "cubes": 1552,
+    "faces": 9312,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 34872,
+      "sha256": "17fea5227865ce545d5755d773eecf3686cfc6dbd9a107f0acac12fc0a0bef51"
+    },
+    {
+      "path": "arm.json",
+      "size": 21069,
+      "sha256": "722797b0ba5e7d29a21f50a1de1a305469dccc6367a0515499289aa6e6a83af3"
+    },
+    {
+      "path": "arm_havehand.json",
+      "size": 45094,
+      "sha256": "6a8f4949b0f70e70aa96c572247d5c21f1546550e215f0481178ca5c173c918b"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 116667,
+      "sha256": "9d835fa50830a4128ceb9c84633a13016af52297f58d9610e61ac27db570a035"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 213527,
+      "sha256": "6c3d51ad4fa4fe2fdae7a5a9e4a1b1e80834f88e542f10feaae6113c26269645"
+    },
+    {
+      "path": "main.json",
+      "size": 855125,
+      "sha256": "ef17ce80e7adc188d04c16d29348134c7e9a3f2d4577d40af5dfa373933f7a48"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 171378,
+      "sha256": "155d4e5c489e331f9d295be589cd9937235e71ee601258d989a7d3315a59a570"
+    },
+    {
+      "path": "texture.png",
+      "size": 41913,
+      "sha256": "252e87b27779a17e3d261733b8f6126fae544a0b1fbfc05f6ac2c23c4e5a2903"
+    }
+  ]
+}

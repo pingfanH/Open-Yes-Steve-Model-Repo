@@ -1,0 +1,417 @@
+{
+  "id": "舰队Collection山风v1.1无报时版",
+  "path": "parsed/舰队Collection山风v1.1无报时版",
+  "source": {
+    "path": "Unknown/舰队Collection山风v1.1无报时版.ysm",
+    "type": "ysm",
+    "stem": "舰队Collection山风v1.1无报时版"
+  },
+  "ysm": "parsed/舰队Collection山风v1.1无报时版/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/哈雷汰多.png",
+        "comment": "",
+        "name": "哈雷汰多",
+        "role": "作者"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "山风_无保时",
+    "tips": "我是，白露型驱逐舰，8号舰，山风。不用……在意我。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra1": "#extra_config",
+      "#extra1": "默认动作",
+      "extra8": "鸭子坐",
+      "extra9": "立绘动作1",
+      "extra10": "立绘动作2",
+      "extra12": "坐在方块边缘",
+      "extra13": "双手合十",
+      "#套装切换": "#cloth",
+      "extra14": "✌",
+      "extra18": "#emoji",
+      "extra19": "#zuotantou",
+      "extra20": "#youtantou",
+      "extra21": "叉腰",
+      "extra22": "自动探头",
+      "extra23": "坐下"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "杂项配置",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "预设表情",
+            "description": "切换表情",
+            "value": "v.emoji",
+            "labels": {
+              "默认": "v.emoji=0",
+              "开心": "v.emoji=1",
+              "QAQ": "v.emoji=2",
+              "･ω･": "v.emoji=3",
+              "开心2": "v.emoji=4",
+              "虎牙": "v.emoji=5",
+              "虎牙2": "v.emoji=6",
+              "·▲·": "v.emoji=7",
+              "撅嘴": "v.emoji=8",
+              "(ᗜ .ᗜ)": "v.emoji=9"
+            }
+          },
+          {
+            "type": "checkbox",
+            "title": "开关舰装",
+            "description": "开关外观显示",
+            "value": "v.jianzhuang"
+          },
+          {
+            "type": "checkbox",
+            "title": "开关下衣",
+            "description": "开关外观显示",
+            "value": "v.xiayi"
+          },
+          {
+            "type": "checkbox",
+            "title": "关闭自动切换表情",
+            "description": "若启用则不会自动变表情",
+            "value": "v.roaming.emojichange2"
+          }
+        ]
+      },
+      {
+        "id": "cloth",
+        "name": "服装配置",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "马尾",
+            "description": "显示马尾",
+            "value": "v.roaming.mawei"
+          },
+          {
+            "type": "checkbox",
+            "title": "大蝴蝶结",
+            "description": "显示头顶蝴蝶结",
+            "value": "v.roaming.dahudiejie"
+          },
+          {
+            "type": "radio",
+            "title": "袜子",
+            "description": "选择装扮",
+            "value": "v.roaming.wazi",
+            "labels": {
+              "默认": "v.roaming.wazi=0",
+              "无": "v.roaming.wazi=1",
+              "黑丝": "v.roaming.wazi=2",
+              "默认白": "v.roaming.wazi=3"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "鞋子",
+            "description": "选择装扮",
+            "value": "v.roaming.shoes",
+            "labels": {
+              "默认": "v.roaming.shoes=0",
+              "无": "v.roaming.shoes=1",
+              "凉鞋": "v.roaming.shoes=2"
+            }
+          }
+        ]
+      },
+      {
+        "id": "emoji",
+        "name": "表情切换",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "眉毛调整",
+            "description": "切换眉毛外观（部分预设表情暂时固定眉毛）",
+            "value": "v.roaming.meimao",
+            "labels": {
+              "眉毛1": "v.roaming.meimao=0",
+              "眉毛2": "v.roaming.meimao=1",
+              "眉毛3": "v.roaming.meimao=2"
+            }
+          },
+          {
+            "type": "checkbox",
+            "title": "开发中...",
+            "description": "尽请期待",
+            "value": "v.roaming.mouth"
+          }
+        ]
+      },
+      {
+        "id": "zuotantou",
+        "name": "左探头",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "关闭坐标吸附",
+            "description": "启用后坐标不再吸附",
+            "value": "v.zuobiaoxi"
+          },
+          {
+            "type": "checkbox",
+            "title": "关闭旋转吸附",
+            "description": "启用后旋转不再吸附",
+            "value": "v.xuanzuanxi"
+          }
+        ]
+      },
+      {
+        "id": "youtantou",
+        "name": "右探头",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "关闭坐标吸附",
+            "description": "启用后坐标不再吸附",
+            "value": "v.zuobiaoxi"
+          },
+          {
+            "type": "checkbox",
+            "title": "关闭旋转吸附",
+            "description": "启用后旋转不再吸附",
+            "value": "v.xuanzuanxi"
+          }
+        ]
+      },
+      {
+        "id": "yongzhuang",
+        "name": "泳装",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "开关外套",
+            "description": "开关外套显示",
+            "value": "v.roaming.waitao"
+          },
+          {
+            "type": "checkbox",
+            "title": "草帽",
+            "description": "开关帽子显示",
+            "value": "v.roaming.maozi"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra1",
+        "extra_animation": {
+          "extra1": "",
+          "extra2": "",
+          "extra3": "",
+          "extra4": "",
+          "extra5": "",
+          "extra6": "",
+          "extra7": ""
+        }
+      },
+      {
+        "id": "套装切换",
+        "extra_animation": {
+          "extra17": "默认",
+          "extra16": "#yongzhuang",
+          "extra15": "女仆装"
+        }
+      }
+    ],
+    "default_texture": "texture",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [
+        "controller/parallel_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "boat": {
+        "model": "models/boat.json",
+        "animation": "animations/projectiles/boat.animation.json",
+        "texture": "textures/boat.png"
+      }
+    },
+    "vehicles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/vehicle/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Collection_v1.1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8759,
+      "sha256": "508b2203961bf517a871c244f111daa5586d34f92dade067402b89570ad7242d"
+    }
+  },
+  "stats": {
+    "file_count": 21,
+    "total_bytes": 4328342,
+    "sha256": "03d54030a0160827e8f010173c41fd52df3da810c334fd4f09aede8cf575b1ad",
+    "bones": 271,
+    "cubes": 2116,
+    "faces": 11303,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 150572,
+      "sha256": "8b81a0c8b03891b56dd6ec803b5619261d7ba7349abe4b74fee461e6503da518"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 136569,
+      "sha256": "dd5891dee0476a03ceb5bdae6754f44418ac8e815216d8f65e1af4be131edd7f"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 406581,
+      "sha256": "b83bbee14683a5685fa0e4f206d628aff311a234d85c32ddc9c8ed523d80ebc6"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 158429,
+      "sha256": "08a46dffc3a6b6db11c2cd83427dbdaa7549204878ffec96d6f14b0ccd050e4d"
+    },
+    {
+      "path": "animations/projectiles/boat.animation.json",
+      "size": 678,
+      "sha256": "83153866c936ed35eb983931cb2052e317201e1047235bf79c69f68f09ed50a3"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 262768,
+      "sha256": "3ee5fb54c50ad26a8e110fffbb2f166300f19ee9c315faaf5f5059cf3ade170d"
+    },
+    {
+      "path": "animations/vehicle/arrow.animation.json",
+      "size": 582,
+      "sha256": "939cdabe49d37ab6d02ae2052324ebf751481710b550a72453dd2b59ec36da97"
+    },
+    {
+      "path": "avatar/哈雷汰多.png",
+      "size": 3134,
+      "sha256": "18f541480f5810662c6c7057f97057edab8c8adaff3df2d3017b3fb9936c4419"
+    },
+    {
+      "path": "controller/parallel_controllers.json",
+      "size": 5513,
+      "sha256": "6ddb1f0add38ac98f9a126439e56390c75ffe5bd278c3d259c37643150b9cb4b"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 22302,
+      "sha256": "7eab10b93b5df6a2187caf1317b53c6288042eb9d291b5d6f66c35a363eefbcf"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13752,
+      "sha256": "3afa51fa99152b689875ef25ca5853f92d4ccd0e44caf11d5ef58aa5413ccfbe"
+    },
+    {
+      "path": "models/boat.json",
+      "size": 1148,
+      "sha256": "c29d700d438380439f09fcc186c068737888376002eb9604ccc49b907d4e2d2d"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1073684,
+      "sha256": "5152fcd069849af4b9a32295c70c7298c941678f3e8b612b41e554584d7cb1ad"
+    },
+    {
+      "path": "sounds/fire04.ogg",
+      "size": 10488,
+      "sha256": "7078f9ec34e7165f4b2b6e6481b68eaf24b7d71958b815944a6a14df0265c039"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 854,
+      "sha256": "205e4da892496567b38d2d5fa9efa703c22e1c8e9ef2b0d7ecd32c5b0682fa3a"
+    },
+    {
+      "path": "textures/boat.png",
+      "size": 256,
+      "sha256": "d3a943490a895371fb979825bdfb80d292e24ba2b6bfa3629f299a45fbe574d8"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 10698,
+      "sha256": "15a79bd3d2b88909b3da7acdd20272c064935ff6b7a22398151494b422e9f000"
+    },
+    {
+      "path": "ysm.json",
+      "size": 4648,
+      "sha256": "b798105a79589c5fe94b7f9a6c1f135a3ed68fc39120229815999d68959d0190"
+    }
+  ]
+}

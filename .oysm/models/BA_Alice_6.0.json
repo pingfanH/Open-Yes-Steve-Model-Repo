@@ -1,0 +1,121 @@
+{
+  "id": "BA_Alice_6.0",
+  "path": "parsed/BA_Alice_6.0",
+  "source": {
+    "path": "_BlueArchive/BA_Alice_6.0.ysm",
+    "type": "ysm",
+    "stem": "BA_Alice_6.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§9Tendou Arisu§r / §4§kkey§r （天童爱丽丝）",
+    "tips": "\n隶属千年学园游戏开发部的成员。在废墟发现的来历不明的少女。包含年龄在内，所有情报都无法推断。现在跟着绿和桃井玩游戏，已经变成重度游戏狂热者了。大部分不会说的话都以复古游戏的对白代替。\n\n§4§l该模型为免费模型分享,请勿用于商业用途§r\n\n模型作者:§d伊洛是哥斯拉嘛_Gesila§r QQ:1562437496\n\n动画修改:§9星屑海螺§r QQ:741330261\n",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "模型作者:§d伊洛是哥斯拉嘛_Gesila§r"
+      },
+      {
+        "name": "动画修改:§9星屑海螺§r"
+      }
+    ]
+  },
+  "properties": {
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "alice.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Alice_6.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 16366,
+      "sha256": "cbae4a42d3a4b63f3ccc75328a653bfb5fdbba12b8abf6b41a249577ddf3e9e1"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 1299352,
+    "sha256": "b5eba500270554baf2c2335fd412aaca099eca1ffa3449fc1cd4008cf5c21cf7",
+    "bones": 301,
+    "cubes": 1267,
+    "faces": 7602,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "alice.png",
+      "size": 33917,
+      "sha256": "8bc3f602666b3605e77d974042c88d412aa6b15ea2bd10443f2f7f08ddb81a10"
+    },
+    {
+      "path": "arm.animation.json",
+      "size": 121683,
+      "sha256": "645612898b072288f5241e39a5a2f382f1200d0c472f7c9e241b16b735af6ced"
+    },
+    {
+      "path": "arm.json",
+      "size": 16910,
+      "sha256": "1d97348ecc737909d80d55a7309c22b969dd5347cf50f555a80053c761641c0c"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 83755,
+      "sha256": "8b16ff3f86e858a559c47f7ae0baff34d46e4961d147aabb0201a674daeff34a"
+    },
+    {
+      "path": "info.json",
+      "size": 804,
+      "sha256": "11f39e5e21bc2b8527365ff63437c8d814556b3457d6917fc3ed8189942f67e0"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 162174,
+      "sha256": "f1077f2609e4f54c8d75f8ede23d5aa3cc119ffe7be0bd93eb78e8388f8eed58"
+    },
+    {
+      "path": "main.json",
+      "size": 662812,
+      "sha256": "fb67d086df1d8b843a160731cb805ac6e4f85244f4c4933951b069d64255d9c2"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 214623,
+      "sha256": "1672ac1959bf98be015ce26550c3ba59f0d7e6a01a7c4e1fe7039e6fd36a5c6e"
+    }
+  ]
+}

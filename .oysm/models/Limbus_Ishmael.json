@@ -1,0 +1,199 @@
+{
+  "id": "Limbus_Ishmael",
+  "path": "parsed/Limbus_Ishmael",
+  "source": {
+    "path": "_LimbusCompany/Limbus_Ishmael.ysm",
+    "type": "ysm",
+    "stem": "Limbus_Ishmael"
+  },
+  "ysm": "parsed/Limbus_Ishmael/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/映白L.png",
+        "comment": "感谢使用我的模型，若有问题可在B站或爱发电私信反馈",
+        "name": "映白L",
+        "role": "作者"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.net/a/ehaku",
+      "home": "https://space.bilibili.com/10208258"
+    },
+    "name": "以实玛丽_free",
+    "tips": "都是你的错，以实玛利！\n§4本模型完全免费，仅在映白的B站或爱发电发布，严禁倒卖。\n§4若您是付费使用或付费下载到此模型，建议联系卖家退款！"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "掷骰子",
+      "extra1": "挥手",
+      "extra2": "拍手",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "extra5": "赢！",
+      "extra6": "跳舞1",
+      "extra7": "跳舞2"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "模型选择",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "tlm": "animations/tlm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Limbus_Ishmael_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8897,
+      "sha256": "f96d38fb2dca20ecbd1b3d9bb2176076ada9db2f538f24554d3d7c949cfc78e8"
+    }
+  },
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 2869394,
+    "sha256": "c6dca8d59f4114a459bd0714adcb240e9f008efb0ed720186933cc2c0fab19c9",
+    "bones": 210,
+    "cubes": 592,
+    "faces": 3552,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 263577,
+      "sha256": "85801573e9e72a5a2b6baa75e1e0e4a2401f8c4176aafa4f4774cfb22d2ece33"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3354,
+      "sha256": "c6b9fa7679d3505e7cddd98526bdaf177dcc2fb98687917e6e69c9283676eeae"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 133672,
+      "sha256": "dd90dcdf87178c0535404ad62e86dfdf9c92432f0fa9a716b319f290b5851405"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 226100,
+      "sha256": "4932aa688c112093cd1ddb10a24eab9b41bb39656d99e3ca73a25b869edc0919"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 155462,
+      "sha256": "8714a68a637583f72b0137fe885d5939d4a5c5a08830f369ef71a2f443fcd96b"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1506846,
+      "sha256": "f767c1562ba196954af6b1ffb385393f314d8fb0d34443b4f2fc8da8a6e12523"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 151130,
+      "sha256": "ec4c277df6f172708f60460823da3fcb9b28a6d63e17dc4e22e6972a2be2caab"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 46179,
+      "sha256": "9d285af091514e37ea75bade3ec5fd81333b8602a0f78aa73cd14d5fe2286a74"
+    },
+    {
+      "path": "avatar/映白L.png",
+      "size": 7245,
+      "sha256": "741df3013588372c7b0e83e2d2baabedfd0396900139a4a3b714c7c61a48a3e7"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 1489,
+      "sha256": "e745df0823bdf016f873d15bc40ebd59f2cb993adc1ca495d9268587bec80364"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 8362,
+      "sha256": "bedcfc0da33c0e81219fe5b882f72e0abc080f62b2d0283336f52abee3476f7c"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 331093,
+      "sha256": "d9064f0a44163aafd7dcd488bbbd5f7a8f3522dcf242ea370328ed078eb17fc0"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 25104,
+      "sha256": "8f77ba7490022e8696edf284945a5c15c4edaecfdb105ed35e352c3ffa5fc1a9"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1632,
+      "sha256": "1a3de972688c89de42cc2f9a2bf0858e250a44000889e7090d73764053d56fd5"
+    }
+  ]
+}

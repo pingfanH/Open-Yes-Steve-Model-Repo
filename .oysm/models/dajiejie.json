@@ -1,0 +1,134 @@
+{
+  "id": "_dajiejie",
+  "path": "parsed/_dajiejie",
+  "source": {
+    "path": "Uncategorized/_dajiejie.ysm",
+    "type": "ysm",
+    "stem": "_dajiejie"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "大姐姐",
+    "license": {
+      "type": "All Rights Reserved"
+    },
+    "authors": [
+      {
+        "name": "@B站 平衡芝光"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "arrow.png",
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "arrow": "arrow.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/dajiejie_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4243,
+      "sha256": "4cc32c6a4f0977cea05796a0f8d123936fb6d45fffb594f78d0476fd6ad36a04"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 701767,
+    "sha256": "6913f4df337ee1470eec0b784cd8e1a4c3d7cbb1346f121c85b560550c2da6f9",
+    "bones": 113,
+    "cubes": 536,
+    "faces": 3216,
+    "textures": 2,
+    "materials": 2,
+    "animations": 6,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 121522,
+      "sha256": "d226fbab9b0997cfc408a854e66905b4d333cf1649ec584e418d541dc03b83fd"
+    },
+    {
+      "path": "arm.json",
+      "size": 10785,
+      "sha256": "19176a5b0dc5924d5f688ac65f46ec42898e51459ed030e8f0e005a13cf8cd5a"
+    },
+    {
+      "path": "arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 2750,
+      "sha256": "7da9311c2d2094c0b430523436d244a95ef3eb527da4857b17692669f9c949a0"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 334,
+      "sha256": "358ca0cac6a8584125845a2d846f62122ee63f5efafb9526236c72cec56b06da"
+    },
+    {
+      "path": "info.json",
+      "size": 174,
+      "sha256": "bcda2a6aa6aa2854acc593fc58ef1541828d7040a2c25e806cd20f97f72e9f1e"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 131982,
+      "sha256": "26e727e951e1427783e1f0fb176153196ab09c99891ac58e293b4bd32ac497e7"
+    },
+    {
+      "path": "main.json",
+      "size": 282675,
+      "sha256": "0d3227e6f7cdee94c10c2faa85a45cd37d9478947d5a2fa3cb06453d9bdb1af7"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "texture.png",
+      "size": 9790,
+      "sha256": "b3a63ac112347667001d761995171a7d03498b6315d989bd083ccff601f093c5"
+    }
+  ]
+}

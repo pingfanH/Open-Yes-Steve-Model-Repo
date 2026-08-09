@@ -1,0 +1,84 @@
+{
+  "id": "Nar_Naruto",
+  "path": "parsed/Nar_Naruto",
+  "source": {
+    "path": "_Naruto/Nar_Naruto.ysm",
+    "type": "ysm",
+    "stem": "Nar_Naruto"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Nar_Naruto"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png",
+        "texture2.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Nar_Naruto_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5149,
+      "sha256": "1df96c62bc2b4698eec2acfba08df25b8d55a6d0860b104f7b71c1343854dc64"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 499632,
+    "sha256": "991134f3ddab07905c1b4c9a782bf124e7463178d1e5e3624593440e4d5be2cc",
+    "bones": 237,
+    "cubes": 1009,
+    "faces": 6054,
+    "textures": 2,
+    "materials": 2,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 4850,
+      "sha256": "292f24a9272e99f73acc9e5677b6821c29dcd6d27706e9c55c04a881c917b7e2"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 154012,
+      "sha256": "562a16b333106f599205b6d1ed7394ad8857b58315597bfee0a8a7fd6523f416"
+    },
+    {
+      "path": "main.json",
+      "size": 293929,
+      "sha256": "ed1f0e39c589acfeee6ba80de1ebc9b6b2c7e324b35dfce9588e3ec993076cd5"
+    },
+    {
+      "path": "texture.png",
+      "size": 22340,
+      "sha256": "877ddb14a1ba71c7ed31287ba975f9c1e4419c84cc06f433ac07496a8243d401"
+    },
+    {
+      "path": "texture2.png",
+      "size": 24501,
+      "sha256": "417f5114415225fa06137557a1657ffc8d4d3f8979a2da183fb9fe32e37e0a7b"
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "id": "_Akarin_1",
+  "path": "parsed/_Akarin_1",
+  "source": {
+    "path": "Unknown/_Akarin_1.ysm",
+    "type": "ysm",
+    "stem": "_Akarin_1"
+  },
+  "ysm": "parsed/_Akarin_1/ysm.json",
+  "metadata": {
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "name": "Akarin",
+    "tips": "a lot of difference and improvise comapred to the original ref in animation, credit to @rayquazura (he is in ysm and tacz discord yes) for the gun texture"
+  },
+  "properties": {
+    "width_scale": 0.6,
+    "height_scale": 0.6,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "Get Down",
+      "extra4": "乱舞",
+      "extra5": "卖萌",
+      "extra6": "御笔摇",
+      "extra7": "舞蹈"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "toggle jacket",
+            "description": "toggle jacket",
+            "value": "v.jacket"
+          },
+          {
+            "type": "checkbox",
+            "title": "toggle hat",
+            "description": "toggle hat",
+            "value": "v.hat"
+          },
+          {
+            "type": "checkbox",
+            "title": "toggle suitcase",
+            "description": "toggle suitcase",
+            "value": "v.scase"
+          },
+          {
+            "type": "checkbox",
+            "title": "toggle tie",
+            "description": "toggle tie",
+            "value": "v.tie"
+          },
+          {
+            "type": "checkbox",
+            "title": "simplify skirt",
+            "description": "simplify skirt a bit",
+            "value": "v.skirt"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "tlm": "animations/tlm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "fp_arm": "animations/fp.arm.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [
+        "controller/main.animation_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "vehicles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/vehicle/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      },
+      "trident": {
+        "model": "models/trident.json",
+        "texture": "textures/trident.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Akarin_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8985,
+      "sha256": "614791c3f043228ad2eaf846aad1acf90f26f5d022eb9829a68bbea831013163"
+    }
+  },
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 1714049,
+    "sha256": "fbcd94845a72d8b5dda45c36ee6fc75e9e6c36fe9282f93d12c566c10239cbc2",
+    "bones": 183,
+    "cubes": 1547,
+    "faces": 8652,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 222105,
+      "sha256": "20d2c718490e4f3d3f57c0e7d8478af09f83665d5e5471c5af8f3dbf9816d33d"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 108694,
+      "sha256": "0b80853cd6e2d06e9d34e6c80ed3cc36f2c5698031caad1a2cf4a8582dbadabf"
+    },
+    {
+      "path": "animations/fp.arm.animation.json",
+      "size": 392,
+      "sha256": "d37dabd62a319b0c92d360f6b1358436b35894a6b60d4523317e34c89bdd4d4b"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 195656,
+      "sha256": "163df668f1cc65ea7449cc5e2e854becdcc7d0bcf452de2dbad68b661b6f0b00"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 262768,
+      "sha256": "3ee5fb54c50ad26a8e110fffbb2f166300f19ee9c315faaf5f5059cf3ade170d"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "animations/vehicle/arrow.animation.json",
+      "size": 1207,
+      "sha256": "41b922826b22918ce0eac18ab0e3cd6e2d614bdc0e3fda1b68ec4c1fd958f5a0"
+    },
+    {
+      "path": "controller/main.animation_controllers.json",
+      "size": 12392,
+      "sha256": "e9bdce2ee0d7532d508d3ed2032f9fb5ae5594cceebdfc94806747948468eb31"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 47045,
+      "sha256": "1ce52109841cc50cbca88aa96ffab886deaddefae20aa593fd5b63ffb1185c14"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 1022,
+      "sha256": "ea03fed318b391eb4baece2b0044abbfbc9068773a5f164a55ea735be4761df2"
+    },
+    {
+      "path": "models/main.json",
+      "size": 779430,
+      "sha256": "4ea5ad020eec4c52688e4d6a0eba74f8cb05e3c6fc403dcc6330e81f5e798fe8"
+    },
+    {
+      "path": "models/trident.json",
+      "size": 1944,
+      "sha256": "410a84f96ef62a5eb759dddc96daee7937ae707f5efbf51b1db861d50cf29421"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 112,
+      "sha256": "b6acc6ec29f8dac82f6323f0755b158d439ae1fdc49b2586b2ff88c02dec45cc"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 26828,
+      "sha256": "60f7ae5d15d85eba81481fb728aea559ae1790e2725585060bc9154733b97650"
+    },
+    {
+      "path": "textures/trident.png",
+      "size": 154,
+      "sha256": "219f84f76a9100113f829b1278e6b23f34eb4b373cedbffee3caec50b6ea8d90"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1892,
+      "sha256": "b562b0bffe284dd5488f495e894314ea36f9f4f7356465172cca7bbb01179b87"
+    }
+  ]
+}

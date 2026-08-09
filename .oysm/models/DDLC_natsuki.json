@@ -1,0 +1,96 @@
+{
+  "id": "DDLC_natsuki",
+  "path": "parsed/DDLC_natsuki",
+  "source": {
+    "path": "_DokiDokiLiteratureClub/DDLC_natsuki.zip",
+    "type": "zip",
+    "stem": "DDLC_natsuki"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "DDLC_natsuki"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png",
+        "texture2.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/DDLC_natsuki_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8136,
+      "sha256": "3fbbed16aba3501dcb4e04e9f6e3ffdfde0923b4b7c21f1cc6b3763498f75d17"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 563490,
+    "sha256": "b297f7167b196368253125fce49086c51c20c52e7f88f43a884f800d2dd8dcbf",
+    "bones": 61,
+    "cubes": 377,
+    "faces": 2262,
+    "textures": 2,
+    "materials": 2,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 39629,
+      "sha256": "d7d8cc5aebd96d36ee76e9e4619513300bb7dbbc5d45b351a131e1145447085a"
+    },
+    {
+      "path": "arm.json",
+      "size": 10930,
+      "sha256": "ad5c609e033105d8c3f7000c7579eeabeacec99645ae682712f701cf3e364e82"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 134851,
+      "sha256": "1b633f8b9cab68cb6400af570d28326df226ac9d7b1cab7a3e65ed3d189f499f"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 138652,
+      "sha256": "4507cd420c4bc360c6cae5183800e8b31e26771db73b668ff243470f0dc4deb0"
+    },
+    {
+      "path": "main.json",
+      "size": 198326,
+      "sha256": "732956c707df6948b0804af5fd2faa1c3ea584fecf6d9ca665cf45fd56d863a5"
+    },
+    {
+      "path": "texture.png",
+      "size": 21131,
+      "sha256": "ac2cf05063288956c172003b7902401a1b7029d62860b0da70b5aa6dfe01ca26"
+    },
+    {
+      "path": "texture2.png",
+      "size": 19971,
+      "sha256": "e5b81a0535b852304cf2f9f4584994d38e228bb217bcba898bcb76c78d80ff8e"
+    }
+  ]
+}

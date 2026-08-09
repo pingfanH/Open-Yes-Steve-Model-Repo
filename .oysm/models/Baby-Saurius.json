@@ -1,0 +1,156 @@
+{
+  "id": "_Baby-Saurius",
+  "path": "parsed/_Baby-Saurius",
+  "source": {
+    "path": "Uncategorized/_Baby-Saurius.ysm",
+    "type": "ysm",
+    "stem": "_Baby-Saurius"
+  },
+  "ysm": "parsed/_Baby-Saurius/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/02Bunny（蓝玫瑰）.png",
+        "comment": "喜欢做点怪东西",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/11814817?spm_id_from=333.788.0.0",
+          "QQ群": "584570528"
+        },
+        "name": "02Bunny（蓝玫瑰）",
+        "role": "模型/贴图/动画"
+      },
+      {
+        "avatar": "avatar/夏天y.png",
+        "comment": "",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/84130356?spm_id_from=333.337.0.0",
+          "虎牙直播": "https://www.huya.com/110120"
+        },
+        "name": "夏天y",
+        "role": "赞助"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "§6奶龙",
+    "tips": "§7一只拥有duang~duang大肚子的异星幼龙。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "§e奶龙舞",
+      "extra1": "招手",
+      "extra2": "鼓掌",
+      "extra3": "点头",
+      "extra4": "不行",
+      "extra5": "胜利",
+      "extra6": "摇摆",
+      "extra7": "跳舞"
+    },
+    "default_texture": "res1",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/res1.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Baby-Saurius_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3591,
+      "sha256": "1a7467cdd5ff4f2741ce067212a8b9c122d92485272ffdbbf03212833f3c4bde"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 581841,
+    "sha256": "6e2d3f66a66dacdf64859728490a6361ebf1ce0c4674031d3a2b5e46459397fa",
+    "bones": 40,
+    "cubes": 113,
+    "faces": 678,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 138783,
+      "sha256": "ad8324d12ce4496c660f01a105385257204b8a2d5df2b2520cb79a57e974bc6a"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 124834,
+      "sha256": "f96d37f7194abd9b7f4195e1e19570e8f136a48a5fbc5057dce02891d71c1614"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 201605,
+      "sha256": "2b85f2f232dba9e82d43bde48ab9e07928be058fc2a6af4d2bc1e3da76f77d41"
+    },
+    {
+      "path": "avatar/02Bunny（蓝玫瑰）.png",
+      "size": 21986,
+      "sha256": "15d683b20b12c36e70755823fafa23e4f49d2b98a9579b250f7e13873d95efab"
+    },
+    {
+      "path": "avatar/夏天y.png",
+      "size": 22414,
+      "sha256": "175e965acfc04f440cf77966ef2091d91397ca5a5eb6a0c6dd971cec0fea5728"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 12848,
+      "sha256": "75de16d700b51e6254311198b58cec47317566c5a24b32b0d421025e1d9ed9cb"
+    },
+    {
+      "path": "models/main.json",
+      "size": 45903,
+      "sha256": "639b400a7e5cd259a1af8334de1dfca1427886c67f69edfa5cd000b789c5b88b"
+    },
+    {
+      "path": "textures/res1.png",
+      "size": 12151,
+      "sha256": "573661eb615574ddfc08d67ed2d702b166cbce2027033e530b1a2f5661116844"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1317,
+      "sha256": "41dd4d45498534a70718778e36b1cd779cf759aab939c7263887c42f2d956671"
+    }
+  ]
+}

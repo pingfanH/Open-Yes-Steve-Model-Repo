@@ -1,0 +1,111 @@
+{
+  "id": "GF_Lenna_1.0.2",
+  "path": "parsed/GF_Lenna_1.0.2",
+  "source": {
+    "path": "_GirlsFrontline/GF_Lenna_1.0.2.ysm",
+    "type": "ysm",
+    "stem": "GF_Lenna_1.0.2"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "间桐樱",
+    "license": {
+      "type": "All Rights Reserved"
+    },
+    "authors": [
+      {
+        "name": "炽湮"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "lenna.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GF_Lenna_1.0.2_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12830,
+      "sha256": "ee14d97bec9836151e338b07f37814e4e186a626f508ffb20d609b3f8e76982c"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 784441,
+    "sha256": "4986b25ac3d9ea6f4388ecb3525a5084f5e5ab69589a3294566ff0b695c4a568",
+    "bones": 100,
+    "cubes": 562,
+    "faces": 3372,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 27131,
+      "sha256": "29cfbba1dcf05b87f8c28a1c9ecfe409d1c3499be2204194e8a98796a236c0fd"
+    },
+    {
+      "path": "arm.json",
+      "size": 13148,
+      "sha256": "0f1ee24ef193091b0d52058e9d26a9405720f787cab5d3bfe00a57b772b789e5"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 36163,
+      "sha256": "fe4301d4acb3de78056d0f7bb02c5545f531fe9e05f0317c76d5e1fdabdc1d30"
+    },
+    {
+      "path": "info.json",
+      "size": 123,
+      "sha256": "18a832100a1dc70b4da1d7ddddb2bae415c6bf6f276195536a673cb4af4811ca"
+    },
+    {
+      "path": "lenna.png",
+      "size": 67449,
+      "sha256": "11fc672acc2ef64523f346b6c95afe1fc4600452a836cc3b94d75cfe40d9dcd4"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 195934,
+      "sha256": "e097f152ac4d77e1cf62f150ccb3f5fbfefb9d3a390c919b2023da85aa22751f"
+    },
+    {
+      "path": "main.json",
+      "size": 297437,
+      "sha256": "328ed1848eace11de2ecd8648abe4d1f6869dd5c0db49cf00ddf796431ca68dc"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 147056,
+      "sha256": "7a1a4f5fa5cda2113535f2df9a8c6dd3db7ca6d86d66f0956fdc57240daf05da"
+    }
+  ]
+}

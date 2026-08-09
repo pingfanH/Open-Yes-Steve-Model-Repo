@@ -1,0 +1,221 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"carryon:block": {
+			"loop": true,
+			"bones": {
+				"Root": {
+					"rotation": [2, 0, 0]
+				},
+				"UpBody": {
+					"rotation": [-15, 0, 0]
+				},
+				"Head": {
+					"rotation": [25, 0, 0]
+				},
+				"LeftArm": {
+					"rotation": [-25, 5, 5],
+					"position": [0, -0.5, 0]
+				},
+				"LeftForeArm": {
+					"rotation": [-5, 0, 0]
+				},
+				"LeftHandLocator": {
+					"scale": 0
+				},
+				"RightArm": {
+					"rotation": [-25, -5, -5],
+					"position": [0, -0.5, 0]
+				},
+				"RightForeArm": {
+					"rotation": [-5, 0, 0]
+				},
+				"RightHandLocator": {
+					"scale": 0
+				}
+			}
+		},
+		"carryon:entity": {
+			"loop": true,
+			"bones": {
+				"Root": {
+					"rotation": [2, 0, 0]
+				},
+				"UpBody": {
+					"rotation": [-20, 0, 0]
+				},
+				"Head": {
+					"rotation": [30, 0, 0]
+				},
+				"LeftArm": {
+					"rotation": [-45, 5, -5],
+					"position": [0, -0.5, 0]
+				},
+				"LeftForeArm": {
+					"rotation": [-5, 0, 0]
+				},
+				"LeftHandLocator": {
+					"scale": 0
+				},
+				"RightArm": {
+					"rotation": [-45, -5, 5],
+					"position": [0, -0.5, 0]
+				},
+				"RightForeArm": {
+					"rotation": [-5, 0, 0]
+				},
+				"RightHandLocator": {
+					"scale": 0
+				},
+				"LeftHand": {
+					"rotation": [0, 0, 0]
+				}
+			}
+		},
+		"carryon:player": {
+			"loop": true,
+			"bones": {
+				"Root": {
+					"rotation": [2, 0, 0]
+				},
+				"UpBody": {
+					"rotation": [-10, 0, 0]
+				},
+				"Head": {
+					"rotation": [10, 0, 0]
+				},
+				"LeftArm": {
+					"rotation": [-30, 5, -5],
+					"position": [0, -0.5, 0]
+				},
+				"LeftForeArm": {
+					"rotation": [-90, -47.5, 90],
+					"position": [0, -0.47291, 0.51609]
+				},
+				"LeftHandLocator": {
+					"scale": 0
+				},
+				"RightArm": {
+					"rotation": [-30, -5, 5],
+					"position": [0, -0.5, 0]
+				},
+				"RightForeArm": {
+					"rotation": [-90, 47.5, -90],
+					"position": [0, -0.47291, 0.51609]
+				},
+				"RightHandLocator": {
+					"scale": 0
+				}
+			}
+		},
+		"carryon:princess": {
+			"loop": true,
+			"bones": {
+				"Root": {
+					"rotation": [0, -90, -115],
+					"position": [19.2, 27.5, 6.4]
+				},
+				"AllBody": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0]
+				},
+				"UpBody": {
+					"rotation": [50, 0, 0],
+					"position": [0, 1, 0.75]
+				},
+				"Head": {
+					"rotation": [27.5, 0, 0]
+				},
+				"LongHair": {
+					"rotation": [37.5, 0, 0]
+				},
+				"LeftArm": {
+					"rotation": [-16.77609, 44.19145, -7.81185]
+				},
+				"LeftForeArm": {
+					"rotation": [-97.5, 0, 0],
+					"position": [0, 0.69401, 0.09137]
+				},
+				"RightArm": {
+					"rotation": [-31.14555, -39.6568, 1.56205]
+				},
+				"RightForeArm": {
+					"rotation": [-118.5, 0, 0],
+					"position": [0, 0.71402, 0.54789]
+				},
+				"LeftLeg": {
+					"rotation": [-7.61435, 9.91358, -1.31845]
+				},
+				"LeftLowerLeg": {
+					"rotation": [65, 0, 0]
+				},
+				"LeftFoot": {
+					"rotation": [27.5, 0, 0]
+				},
+				"RightLeg": {
+					"rotation": [-2.17539, -10.01806, -1.21764]
+				},
+				"RightLowerLeg": {
+					"rotation": [65, 0, 0]
+				},
+				"RightFoot": {
+					"rotation": [7.5, 0, 0]
+				},
+				"beltA": {
+					"rotation": [-43, 0, 0]
+				},
+				"bletB": {
+					"rotation": [-7, 0, 0]
+				},
+				"beltC": {
+					"rotation": [-5, 0, 0]
+				},
+				"RskirtA": {
+					"rotation": [-29, 0, 0]
+				},
+				"RskirtA1": {
+					"rotation": [-24, 0, 0]
+				},
+				"RskirtA3": {
+					"rotation": [16, 0, 0]
+				},
+				"LskirtA": {
+					"rotation": [-40, 0, 0]
+				},
+				"LskirtA1": {
+					"rotation": [-17, 0, 0]
+				},
+				"LskirtA3": {
+					"rotation": [22, 0, 0]
+				},
+				"Face": {
+					"scale": 0
+				},
+				"expressions": {
+					"scale": 1
+				},
+				"blush_princess": {
+					"scale": 1
+				},
+				"RightScaredbrow_2": {
+					"scale": 1
+				},
+				"LeftScaredbrow_2": {
+					"scale": 1
+				},
+				"EmbarrassedMouth2": {
+					"scale": 1
+				},
+				"ScaredLeftEye2_": {
+					"scale": 1
+				},
+				"ScaredRightEye2_": {
+					"scale": 1
+				},
+				"Mouth": {
+					"scale": 0
+				}
+			}
+		}
+	}
+}

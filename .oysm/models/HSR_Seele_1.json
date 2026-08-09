@@ -1,0 +1,96 @@
+{
+  "id": "HSR_Seele_1",
+  "path": "parsed/HSR_Seele_1",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Seele_1.zip",
+    "type": "zip",
+    "stem": "HSR_Seele_1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "HSR_Seele_1"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "main.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Seele_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 17641,
+      "sha256": "8788be22b52a0fe2b7e22686c35b40fb4a871a5a88334ef58fb7af4ece9c1bad"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 1331059,
+    "sha256": "d2a50e81b08324ab4143996e49ba7ece8c5c149effb96fa6c642667429ef2164",
+    "bones": 83,
+    "cubes": 1289,
+    "faces": 7734,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 39629,
+      "sha256": "d7d8cc5aebd96d36ee76e9e4619513300bb7dbbc5d45b351a131e1145447085a"
+    },
+    {
+      "path": "arm.json",
+      "size": 1858,
+      "sha256": "7e46a35f5033c60c33c079942646f19278d35de8a9bdf4087385a30b8252d708"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 147863,
+      "sha256": "4eb815de0343474a2182d49ee11f254fc2d1fa789b50a3a1f1c9e59e3f690b0b"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 175515,
+      "sha256": "9fe1fab04c444e91a887196a74831cb150a7b72147036ebf2ee7fa867fb32596"
+    },
+    {
+      "path": "main.json",
+      "size": 719724,
+      "sha256": "c3c5a04f425e869923c2e4164b2ae8bdb596303474f2b6e5edcac1ed26320108"
+    },
+    {
+      "path": "main.png",
+      "size": 89382,
+      "sha256": "96979301da14bd6d66fed2a7f15349cee0a0b83d9379083a5ca32ad6ed284ef9"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 157088,
+      "sha256": "3e982c67f7a07d424f11293738e7cf5e3fc45bf82ce45bf95ce1e218b7a3da22"
+    }
+  ]
+}

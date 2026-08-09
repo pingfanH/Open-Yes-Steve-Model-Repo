@@ -1,0 +1,220 @@
+{
+  "id": "CR_Knight",
+  "path": "parsed/CR_Knight",
+  "source": {
+    "path": "_ClashRoyal-COC/CR_Knight.ysm",
+    "type": "ysm",
+    "stem": "CR_Knight"
+  },
+  "ysm": "parsed/CR_Knight/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "逸一时，误一世",
+        "contact": {
+          "Afdian": "https://modrinth.com/mod/yes-steve-model",
+          "Bilibili": "https://space.bilibili.com/44619913?spm_id_from=333.1007.0.0"
+        },
+        "name": "泉溪",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "1",
+        "name": "泉溪",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "1",
+        "name": "泉溪",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "1",
+        "contact": {
+          "Afdian": "hhttps://modrinth.com/mod/yes-steve-model",
+          "Bilibili": "https://modrinth.com/mod/yes-steve-model"
+        },
+        "name": "泉溪",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://space.bilibili.com/44619913?spm_id_from=333.1007.0.0",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "骑士",
+    "tips": "一个简单的文明人"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "觉醒poss",
+      "extra1": "表情1",
+      "extra2": "表情2",
+      "extra3": "表情3",
+      "extra4": "表情4",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CR_Knight_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12672,
+      "sha256": "df8d1a91420bc61d22477ce1be64150ddb7b3191ccae789d0dc5e5f2d891c832"
+    }
+  },
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 829794,
+    "sha256": "259bd1014268b3a60ffc169c7e79d40962dc062079392389f73b59a3b2499aff",
+    "bones": 99,
+    "cubes": 233,
+    "faces": 1398,
+    "textures": 2,
+    "materials": 2,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 72857,
+      "sha256": "70f5b564f23c249cc4de33cc478d0da730ba72611a5099ba23e30ccc8b069d43"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1164,
+      "sha256": "4320491a1cc47b8708e6c6abcaadaf498c7bb6ff3fd6eb4fcc7e74b450a240f3"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2754,
+      "sha256": "608fa22c62d158db3ccbe42ad009b31874ca5a167298cb88fd188596fde2a7f3"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 95761,
+      "sha256": "171d2d6c3465d3471e0e86aebd625fd54e5cc627974851c23facbe2d1326a4c4"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 103608,
+      "sha256": "d63b7a5959584dca4d152229fd90c54e4ba5d89e6625e9e9b8762a900f3f168c"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/泉溪.png",
+      "size": 19374,
+      "sha256": "6cd420a5238d37083afb1a43736ae8f862dfb9d9065c1ae1895c2ee20071333c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 4618,
+      "sha256": "0420b4cfd432029dbad55e0e37b41554074d90e148613f69e869ad9990576639"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 2831,
+      "sha256": "84f6dbac9e782d57c2a208815e24779e47b7873dd02f076b606268cd5c90bf17"
+    },
+    {
+      "path": "models/main.json",
+      "size": 126489,
+      "sha256": "ef71aea5aaf3510865bf9043c4d4d32a10c24a4e7760151e84b51ca20e36a247"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2807,
+      "sha256": "fe38d8d4d75e253eae15223673681af9930f4849ceb556aaf24a8298baaf0864"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 11115,
+      "sha256": "3d6ee25dd9507b59b1f9c436d3dcb9203c7b871121b7bd7907109916d38ecafc"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 28197,
+      "sha256": "b68188b645e26981b7518b43bceaf3dd22bc58d0637aeaa608aed4220eebe0c2"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1832,
+      "sha256": "71379ab1a339c6587c085b587acc5775376225cd106daf6a939cf0a2f31d35e4"
+    }
+  ]
+}

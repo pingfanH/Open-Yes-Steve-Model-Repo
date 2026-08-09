@@ -1,0 +1,138 @@
+{
+  "id": "Block_IronGolem",
+  "path": "parsed/Block_IronGolem",
+  "source": {
+    "path": "_MinecraftBlock/Block_IronGolem.ysm",
+    "type": "ysm",
+    "stem": "Block_IronGolem"
+  },
+  "ysm": "parsed/Block_IronGolem/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/Nic.png",
+        "comment": "  §eCHISHI",
+        "contact": {
+          "Afdian": " "
+        },
+        "name": "Nic",
+        "role": "模型 动作"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "0"
+    },
+    "name": "铁傀儡",
+    "tips": "赤石科技"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "0",
+      "extra1": "一次",
+      "extra2": "循环",
+      "extra3": "快循环",
+      "extra4": "播放音乐",
+      "extra5": "循环带音乐",
+      "extra6": "0",
+      "extra7": "0",
+      "sound_path": "sounds/assumptionssamgellaitry2.ogg"
+    },
+    "extra_animation_classify": [],
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "extra": "animations/extra.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/tie.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Block_IronGolem_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 2113,
+      "sha256": "4a885b3ef726777e7dfd35fa563475979c4115fc5743dab8c1bb8a8caed89e60"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 4082728,
+    "sha256": "99ba03728d5224997df7d227c796351e12b27d9b05b97d78e7c72bdf0859e363",
+    "bones": 20,
+    "cubes": 17,
+    "faces": 102,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/extra.animation.json",
+      "size": 132722,
+      "sha256": "16a342db6eeb3066beeef910ce0a915ecdae9ad7e337a5a994b7b181c2856db4"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 144481,
+      "sha256": "2ab9a44a67329c9c58c2549946c1f08da1f3b69e2c071895c32bc2ee79de0dbb"
+    },
+    {
+      "path": "avatar/Nic.png",
+      "size": 687,
+      "sha256": "5d363ca79c5eba8c2d6ac194b05b25e3e4e89939de606b692e89f30eaf4004b8"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 6126,
+      "sha256": "a3cc7b3a9bcd40c9552a95de40f66f178dc3a2cd0db60b2b06d2fc4cc6d2ebb3"
+    },
+    {
+      "path": "models/main.json",
+      "size": 2660,
+      "sha256": "213c51936699caf214201d4994e87ee865e0cc41803216b55c5078492bda2831"
+    },
+    {
+      "path": "sounds/assumptionssamgellaitry2.ogg",
+      "size": 3783112,
+      "sha256": "1837b1e8934caafca3d02a9916b33bfc7a72773dc589a5a9d6b4f0019c20c4f3"
+    },
+    {
+      "path": "textures/tie.png",
+      "size": 12058,
+      "sha256": "a9a3274d385820c36e6bf37b7d84d85947af1563ffb1517b368cc4c42e20fd6d"
+    },
+    {
+      "path": "ysm.json",
+      "size": 882,
+      "sha256": "52ae4bca9e9c64f855462e69d0fe6d12ee95f8300bddd048d73df048daee260a"
+    }
+  ]
+}

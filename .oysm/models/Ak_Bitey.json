@@ -1,0 +1,144 @@
+{
+  "id": "Ak_Bitey",
+  "path": "parsed/Ak_Bitey",
+  "source": {
+    "path": "_Arknights/Ak_Bitey.zip",
+    "type": "zip",
+    "stem": "Ak_Bitey"
+  },
+  "ysm": "parsed/Ak_Bitey/ysm.json",
+  "metadata": {
+    "name": "阿咬",
+    "tips": "一只平凡的墨魉",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "映白L",
+        "role": "作者",
+        "avatar": "avatar/ehaku.png",
+        "comment": "感谢使用我的模型，若有问题可在B站或爱发电私信反馈"
+      }
+    ],
+    "link": {
+      "home": "https://space.bilibili.com/10208258",
+      "donate": "https://afdian.net/a/ehaku"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "跳舞3",
+      "extra1": "挥手",
+      "extra2": "拍手",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "extra5": "赢！",
+      "extra6": "跳舞1",
+      "extra7": "跳舞2"
+    },
+    "preview_animation": "模型选择",
+    "default_texture": "default",
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "animation": {
+        "main": "main.animation.json",
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "carryon": "carryon.animation.json"
+      },
+      "texture": [
+        "blue.png",
+        "red.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Bitey_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4531,
+      "sha256": "5616ea85c8f18d1279da9248a956699d2cc14f5e2134d2bec4ea4605eba7c53b"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 591762,
+    "sha256": "3bb7264119dc62ae27afaf84c4fef99bc807bae9b8f478890ee69de085b70899",
+    "bones": 59,
+    "cubes": 97,
+    "faces": 582,
+    "textures": 2,
+    "materials": 2,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 152474,
+      "sha256": "173ffd65b4b5592277efa4e1f1e6abe32aca169d478374b41659b3055a66e88a"
+    },
+    {
+      "path": "arm.json",
+      "size": 5784,
+      "sha256": "8d0042c437789bbc10551e2e718556f6033673e1bd846581141f536779b45306"
+    },
+    {
+      "path": "avatar/ehaku.png",
+      "size": 30491,
+      "sha256": "3fadf2df69bdc77af7532f72283b77207ba51b5db9ba8b4eb45a39e519615fae"
+    },
+    {
+      "path": "blue.png",
+      "size": 3901,
+      "sha256": "442f5472e073cf37c9a2acd2cf7c7a802e2bbfd5cd12f44bef0889c66d697a9a"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 3599,
+      "sha256": "7013dab6b2a2f2e505e566e5b9fb2159501c6f721e233e0ca7011b5a72747161"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 150072,
+      "sha256": "308245990deb76c2a396de075ae4bbbae8955d7640d89aafd7fe8e8d3e9854cf"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 189571,
+      "sha256": "a1d74c78b6585becccf3a6e750eca8f5185a8d6ff55d497f35d8a27c1b4470dd"
+    },
+    {
+      "path": "main.json",
+      "size": 50619,
+      "sha256": "ca3e02709864a63740aaf99093b4141d10fb56658ce49a58da3946c7b2be9977"
+    },
+    {
+      "path": "red.png",
+      "size": 3916,
+      "sha256": "530c459143093a7e262612f87e0341464a2c7be703b6adc4f0b21b81cff88526"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1335,
+      "sha256": "d6f9a141a77943eddf1c366a1d392bf1444dd687d818a059c8d80d7c0c8a1d9d"
+    }
+  ]
+}

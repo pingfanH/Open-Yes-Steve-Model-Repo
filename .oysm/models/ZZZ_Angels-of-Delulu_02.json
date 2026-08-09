@@ -1,0 +1,224 @@
+{
+  "id": "ZZZ_Angels-of-Delulu_02",
+  "path": "parsed/ZZZ_Angels-of-Delulu_02",
+  "source": {
+    "path": "_ZenlessZoneZero/ZZZ_Angels-of-Delulu_02.ysm",
+    "type": "ysm",
+    "stem": "ZZZ_Angels-of-Delulu_02"
+  },
+  "ysm": "parsed/ZZZ_Angels-of-Delulu_02/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/安欣.png",
+        "comment": "没有梦想的咸鱼      罒ω罒",
+        "contact": {
+          "Afdian": "https://afdian.com/a/Anxin520X",
+          "Bilibili": "https://b23.tv/3YJgdWD"
+        },
+        "name": "安欣",
+        "role": "模型，动画"
+      },
+      {
+        "avatar": "avatar/.png",
+        "comment": "",
+        "contact": {
+          "Afdian": " ",
+          "Bilibili": ""
+        },
+        "name": "",
+        "role": ""
+      },
+      {
+        "avatar": "avatar/.png",
+        "comment": "",
+        "contact": {
+          "Bilibili": ""
+        },
+        "name": "",
+        "role": ""
+      },
+      {
+        "avatar": "avatar/.png",
+        "comment": "",
+        "contact": {
+          "Bilibili": ""
+        },
+        "name": "",
+        "role": ""
+      },
+      {
+        "avatar": "avatar/.png",
+        "comment": "",
+        "contact": {
+          "Bilibili": ""
+        },
+        "name": "",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "02",
+    "tips": "虚拟偶像，妄想天使"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "转圈圈【】",
+      "extra1": "打招呼",
+      "extra2": "Doodle摇",
+      "extra3": "是的",
+      "extra4": "不行",
+      "extra5": "卖萌",
+      "extra6": "御笔摇",
+      "extra7": "Sakana"
+    },
+    "extra_animation_classify": [],
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/skin.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/ZZZ_Angels-of-Delulu_02_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9743,
+      "sha256": "b59443c030f2ec6896d010628bb2571f8ee6f420f35e3b9565b609d5c603d486"
+    }
+  },
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 1552111,
+    "sha256": "4d146c3c7fa7014d36877cc6118e8907e66ae86d8e545d736302f4c4f5017768",
+    "bones": 126,
+    "cubes": 835,
+    "faces": 5010,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136637,
+      "sha256": "f795d670b8e2553548348161425e21c7a8f4c2b78d4602d33c8ccc1f03f537b3"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1138,
+      "sha256": "6ef6791b2b391fc30bb2f74f26eb09de94e2a382c535202f5d736eb89d37577d"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2714,
+      "sha256": "c73a37acaeecd72ee35d4a3902a8d9b7cc8036fef95e4e4efb8d81d833b32acc"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 389945,
+      "sha256": "007bf330fdbba4efb8a87dcd3f94e51ef1014e85eedb3afc2bcb2f88d9195105"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 287117,
+      "sha256": "2dc32c8d15bd0342b1873b30078f5787d0f30853257bd764e707de79c9135bae"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 158827,
+      "sha256": "266108ae157d56e13e3a75558297cc806770d9764e1bded2dd10663a28a7ac47"
+    },
+    {
+      "path": "avatar/安欣.png",
+      "size": 32037,
+      "sha256": "3d8df561b1abb777882abf3b10c44731c6faa676b485d1dcaed5939742b293c0"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 32481,
+      "sha256": "17a82c185f26f93799d37b74a1369da5c3f55571d891269db88830627ff67f3c"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13725,
+      "sha256": "605fc04a716cfd12d30b5d6fb5d6db461504bd2f8da602fe078a4f57b4d71c71"
+    },
+    {
+      "path": "models/main.json",
+      "size": 419177,
+      "sha256": "6a7efc0bf58a60653c4ac910b7c076a7c9f5e589d2981b63ed9cafa61a3471ae"
+    },
+    {
+      "path": "sounds/96e066c753a5908145a424fa3d822a1d_5140614653369784147.ogg",
+      "size": 26586,
+      "sha256": "aacd11312e8ff57884407c047a01f6fd13e2a25d987128079163c6a006b7e0d5"
+    },
+    {
+      "path": "sounds/sakana.ogg",
+      "size": 23239,
+      "sha256": "a5c0205e262eec42ab80c10e64c2ba19661b6f0525d764e5f11646fb384105df"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2686,
+      "sha256": "197669635bbf7b8cf8892b6912e428c92c66aac37ea2d3f1a174c9a04b2b64f6"
+    },
+    {
+      "path": "textures/skin.png",
+      "size": 24137,
+      "sha256": "d46b6f7899f99c2b2e574e394fd3f92d3e3c63ad15dd3689f0db355c48fa8703"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1665,
+      "sha256": "d215bcfd050b35a9ec0dfcc1e7154313b98e19126183738f9f0f01aa0bb9aec2"
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "id": "KanCollect_Yukikaze_1.0",
+  "path": "parsed/KanCollect_Yukikaze_1.0",
+  "source": {
+    "path": "_KantaiCollection/KanCollect_Yukikaze_1.0.ysm",
+    "type": "ysm",
+    "stem": "KanCollect_Yukikaze_1.0"
+  },
+  "ysm": "parsed/KanCollect_Yukikaze_1.0/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/★【宇宙影帝の终焉】.png",
+        "comment": "苦练BB",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/364412316",
+          "QQ": "3249851858"
+        },
+        "name": "★【宇宙影帝の终焉】",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "home": "https://space.bilibili.com/364412316"
+    },
+    "name": "雪风",
+    "tips": "我是阳炎型驱逐舰8号舰的雪风\n奇迹的驱逐舰？不，才不是什么奇迹呢！\n\n本模型为免费分享但请勿商用！"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra9": "#extra_config",
+      "extra1": "#extra_config2",
+      "extra2": "很开心哦",
+      "extra3": "雪风会保护好大家！",
+      "extra4": "夜战CI",
+      "extra5": "是雪风哦",
+      "extra0": "绝对没问题",
+      "extra6": "立绘站姿"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "雪风改二/雪风切换",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "眼睛",
+            "description": "更换角色眼型",
+            "value": "v.value_eye",
+            "labels": {
+              "§f正常": "v.value_eye = 0; v.eye1 = 0;v.eye2 = 0;v.eye3 = 0;v.eye4 = 0;v.eye5 = 0;v.eye7 = 0",
+              "§f> <": "v.value_eye = 1; v.eye1 = 1;v.eye2 = 1;v.eye3 = -1;v.eye4 = -1;v.eye5 = 0;v.eye7 = 0",
+              "§f> O": "v.value_eye = 2; v.eye1 = 0;v.eye2 = 1;v.eye3 = 0;v.eye4 = -1;v.eye5 = 0;v.eye7 = 0",
+              "§fO <": "v.value_eye = 3; v.eye1 = 1;v.eye2 = 0;v.eye3 = -1;v.eye4 = 0;v.eye5 = 0;v.eye7 = 0",
+              "§f@ @": "v.value_eye = 4; v.eye1 = 1;v.eye2 = 1;v.eye3 = 0;v.eye4 = 0;v.eye5 = -1;v.eye7 = 0",
+              "§f墨镜": "v.value_eye = 5; v.eye1 = 0;v.eye2 = 0;v.eye3 = 0;v.eye4 = 0;v.eye5 = 0;v.eye7 = -1"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "嘴型",
+            "description": "更换角色嘴型",
+            "value": "v.value_mouth",
+            "labels": {
+              "§f無": "v.value_mouth = 0; v.mou1 = 0;v.mou2 = 0;v.mou3 = 0;v.mou4 = 0;v.mou5 = 0;v.mou6 = 0;v.mou7 = 0;v.eye6 = 0;v.eye8 = 0;v.eye9 = 0",
+              "§fw": "v.value_mouth = 1; v.mou1 = -1;v.mou2 = 0;v.mou3 = 0;v.mou4 = 0;v.mou5 = 0;v.mou6 = 0;v.mou7 = 0;v.eye6 = 0;v.eye8 = 0;v.eye9 = 0",
+              "§fw笑": "v.value_mouth = 2; v.mou1 = 0;v.mou2 = -1;v.mou3 = 0;v.mou4 = 0;v.mou5 = 0;v.mou6 = 0;v.mou7 = 0;v.eye6 = 0;v.eye8 = 0;v.eye9 = 0",
+              "§f小唐": "v.value_mouth = 3; v.mou1 = 0;v.mou2 = 0;v.mou3 = -1;v.mou4 = 0;v.mou5 = 0;v.mou6 = 0;v.mou7 = 0;v.eye6 = 0;v.mou31 = 1;v.eye8 = 0;v.eye9 = 0",
+              "§f大唐": "v.value_mouth = 4; v.mou1 = 0;v.mou2 = 0;v.mou3 = -1;v.mou4 = 0;v.mou5 = 0;v.mou6 = 0;v.mou7 = 0;v.eye6 = 0;v.mou31 = 1.5;v.eye8 = 0;v.eye9 = 0",
+              "§fsad": "v.value_mouth = 5; v.mou1 = 0;v.mou2 = 0;v.mou3 = 0;v.mou4 = -1;v.mou5 = 0;v.mou6 = 0;v.mou7 = 0;v.eye6 = -0.2;v.eye8 = 0;v.eye9 = 0",
+              "§f生气": "v.value_mouth = 6; v.mou1 = 0;v.mou2 = 0;v.mou3 = 0;v.mou4 = 0;v.mou5 = -1;v.mou6 = 0;v.mou7 = 0;v.eye6 = 0;v.eye8 = -10;v.eye9 = 10",
+              "§f∧": "v.value_mouth = 7; v.mou1 = 0;v.mou2 = 0;v.mou3 = 0;v.mou4 = 0;v.mou5 = 0;v.mou6 = -1;v.mou7 = 0;v.eye6 = 0;v.eye8 = -5;v.eye9 = 5",
+              "§f︶": "v.value_mouth = 8; v.mou1 = 0;v.mou2 = 0;v.mou3 = 0;v.mou4 = 0;v.mou5 = 0;v.mou6 = 0;v.mou7 = -1;v.eye6 = 0;v.eye8 = 0;v.eye9 = 0"
+            }
+          }
+        ]
+      },
+      {
+        "id": "extra_config2",
+        "name": "会加油的！",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "体型: ",
+            "description": "大小",
+            "value": "v.player_size",
+            "step": 0.02,
+            "min": 0.9,
+            "max": 1.1
+          },
+          {
+            "type": "range",
+            "title": "鱼雷管旋转: ",
+            "description": "角度",
+            "value": "v.torpeto.rota",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 360.0
+          },
+          {
+            "type": "checkbox",
+            "title": "卸下舰装",
+            "description": "卸下或装备舰装",
+            "value": "v.tor"
+          },
+          {
+            "type": "checkbox",
+            "title": "卸下主炮",
+            "description": "卸下或装备主炮",
+            "value": "v.nav"
+          },
+          {
+            "type": "checkbox",
+            "title": "卸下望远镜",
+            "description": "卸下或装备望远镜",
+            "value": "v.tele"
+          },
+          {
+            "type": "checkbox",
+            "title": "卸下头饰",
+            "description": "卸下或装备舰装",
+            "value": "v.head"
+          },
+          {
+            "type": "checkbox",
+            "title": "关闭射箭音效",
+            "description": "关闭射箭时炮击声音",
+            "value": "v.sound"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/KanCollect_Yukikaze_1.0_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 75338,
+      "sha256": "1e1658341c0fd26e43e2fc37b06da6758fc08460eb880dc2de63fb3f47a8dcff"
+    }
+  },
+  "stats": {
+    "file_count": 26,
+    "total_bytes": 1496179,
+    "sha256": "ca457ef4b526f1df58968524e3411f44b1b1a63ac266422be2137eca3d728423",
+    "bones": 194,
+    "cubes": 515,
+    "faces": 3090,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 67077,
+      "sha256": "03a18730d352bd87e5f6057892334a5ee431698c553f76d4cc22340e8b39cbdc"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1146,
+      "sha256": "1534474b3a925a3af38f2903f2de543888eb6eb01c7609c27c435c009fb8e7c7"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 44906,
+      "sha256": "7575653c16d7c3e4fe1f59ec4563169390d929f11776d8edf902ea48c42043f1"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 117558,
+      "sha256": "0b281656b58610110a5e929971f4eaa3f16987602f8fd3d06494e28f19eef888"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 115486,
+      "sha256": "a010f2f305ad1e37a207dcca800e088a4f70c695eea76495006aa5db65f788ae"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 185743,
+      "sha256": "e1bb95e26e0bd1c50295b8a53a9ad7a661e2d2cc0dfa6ae55d917978b0635232"
+    },
+    {
+      "path": "avatar/★【宇宙影帝の终焉】.png",
+      "size": 32589,
+      "sha256": "87a27b454c615c0bb9aa312b5ce7d393d3bfd24164469a5458a4bbbb605cbd82"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 5534,
+      "sha256": "fc1649d0d6bdfe2a779cf8e8ecccc1af7f7acdf43660ca223e519501d75dcc97"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 8803,
+      "sha256": "4be32a5b9714eddddc070d279483b30f97f04e19c14671a76a6c990fd23c6606"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 11166,
+      "sha256": "0dbfaf777ea5228b2749adcc110eb9ed3f3b8a6ef56d98c5211c54aaab2a266d"
+    },
+    {
+      "path": "models/main.json",
+      "size": 285760,
+      "sha256": "81139bb16ac7bf11f6e20ab1c5fec490c28d69f9cf794eed2d98105c0b4d452f"
+    },
+    {
+      "path": "sounds/atk1.ogg",
+      "size": 24959,
+      "sha256": "5c109dfac60a2ec845809b9e0dec6c2edddd92be9dda1f3e3b7478c505eed12e"
+    },
+    {
+      "path": "sounds/battle.ogg",
+      "size": 28164,
+      "sha256": "d4156531ada676c85fd06ca9433ba5237adbadfe6e557aaf2d8a0d5b617e64bc"
+    },
+    {
+      "path": "sounds/equip.ogg",
+      "size": 13280,
+      "sha256": "18c47f046bba32601f61323e0fa2644e6f61610310f339c7d59cbb7000078878"
+    },
+    {
+      "path": "sounds/fire.ogg",
+      "size": 145220,
+      "sha256": "8497a169050cfab792a63814df84e4b42f9a4257f634d5d2c4fa615cc92cd5a2"
+    },
+    {
+      "path": "sounds/fire1.ogg",
+      "size": 10149,
+      "sha256": "231e6a4d54c3cc7691cd2e478cfa1c84cc3e2fcfa86ca8232ac02a4d057e9025"
+    },
+    {
+      "path": "sounds/happy.ogg",
+      "size": 16893,
+      "sha256": "e7b7d4bfbab86cd0f3c3629ba85ba4f227d583d52150937e6d8d634f682b7df2"
+    },
+    {
+      "path": "sounds/intro2.ogg",
+      "size": 90356,
+      "sha256": "35f1d86aa8843fa762fb3f2c08fb1e8bc51702136ea8e478d5743c7eb516862d"
+    },
+    {
+      "path": "sounds/night1.ogg",
+      "size": 17817,
+      "sha256": "3d7a6afd544c810b13d6a5634ff511af5a8c044c918ab41f40136dfccb56ed56"
+    },
+    {
+      "path": "sounds/night2.ogg",
+      "size": 54478,
+      "sha256": "9af85437ffb415d62ccef5fa5a4c00faf867ac44141745fdd073729d1f277965"
+    },
+    {
+      "path": "sounds/nuli.ogg",
+      "size": 13620,
+      "sha256": "9e9bf63619c7aecdc5ae0d237c79d7daa0a684578929ff9004b25c26936da3a4"
+    },
+    {
+      "path": "sounds/sec1.ogg",
+      "size": 11759,
+      "sha256": "e2b23ae82fb64169c5852d75c58d793c926b4183d91183542d458b6fbdea079b"
+    },
+    {
+      "path": "sounds/sec21.ogg",
+      "size": 18595,
+      "sha256": "773a72090e12e3703b250066002efc8506008ce79f4571485194ffc0d8ce7717"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1875,
+      "sha256": "6b313185277f273c0765380c53cdd5c756551357cc5bd1d99b265323aea5ea91"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 168625,
+      "sha256": "d81f4310d6dc6a91b6e3b286b94b59289bc6328ba98c1149f6992bb074bcaf58"
+    },
+    {
+      "path": "ysm.json",
+      "size": 4621,
+      "sha256": "fd375d9b71c6840d226ffcfaa0e1ce70ff823bca27cf306ffbdf812f251ee8e5"
+    }
+  ]
+}

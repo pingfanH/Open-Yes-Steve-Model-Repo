@@ -1,0 +1,135 @@
+{
+  "id": "SailorMoon_Mercury",
+  "path": "parsed/SailorMoon_Mercury",
+  "source": {
+    "path": "_SailorMoon/SailorMoon_Mercury.ysm",
+    "type": "ysm",
+    "stem": "SailorMoon_Mercury"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "月野兔 [20250119]",
+    "tips": "美少女战士-月野兔\nセーラームーン，Sailor Moon，水兵月\n\nB站主页：b23.tv/0mjdVF0\nAFD主页：afdian.com/a/PH667",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "平衡芝光"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "arrow.png",
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "arrow": "arrow.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/SailorMoon_Mercury_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7280,
+      "sha256": "6c1a902be422b57adc2eec514cf0f0a9488d621461177b68d336fe30cd91498e"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 796451,
+    "sha256": "db4f15d3a87de17ee72b70808fffa3967fdd9b839071896dbe9cf6f201c03367",
+    "bones": 150,
+    "cubes": 688,
+    "faces": 4128,
+    "textures": 2,
+    "materials": 2,
+    "animations": 6,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 122628,
+      "sha256": "76a64a08435e2fd2d4948320bb2f24082a44bced3f9af7507445837fd3c13c30"
+    },
+    {
+      "path": "arm.json",
+      "size": 27684,
+      "sha256": "f305675e2b48d3bb3b2a8c137a8a8d60a7206a927791d6a8aa8b28eb6a9b8fb0"
+    },
+    {
+      "path": "arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 2773,
+      "sha256": "57484f0ce73032c69f36cfc1ebb8aadc09ba4efd5d303b9f9d3566f5d3534fa2"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 9928,
+      "sha256": "40e8383471098302fba67675abe7bb16a9e4e7a27471f154334b9cd6beda8844"
+    },
+    {
+      "path": "info.json",
+      "size": 385,
+      "sha256": "a787943321f5e433352fd2f449488cd2104562a099f3c6520c6a25c78fb7319f"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 128003,
+      "sha256": "dfb960daae26ad6a3ed48638d47e1045d03348b9963df0b6475f65cd469200cd"
+    },
+    {
+      "path": "main.json",
+      "size": 351943,
+      "sha256": "b8589d57d7af55369aca7882a93518806b22c9091fd2b78dab17fae7ffbd6851"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "texture.png",
+      "size": 11352,
+      "sha256": "accebba23f579e018786e7f448ca3170c01a9844efcae51975e4c36028baa22f"
+    }
+  ]
+}

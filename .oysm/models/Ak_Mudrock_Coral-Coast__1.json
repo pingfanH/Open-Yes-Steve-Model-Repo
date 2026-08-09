@@ -1,0 +1,197 @@
+{
+  "id": "Ak_Mudrock(Coral-Coast)_1",
+  "path": "parsed/Ak_Mudrock(Coral-Coast)_1",
+  "source": {
+    "path": "_Arknights/Ak_Mudrock(Coral-Coast)_1.ysm",
+    "type": "ysm",
+    "stem": "Ak_Mudrock(Coral-Coast)_1"
+  },
+  "ysm": "parsed/Ak_Mudrock(Coral-Coast)_1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/嗯嗯owo.png",
+        "comment": "大就是好，好就是大",
+        "contact": {
+          "Afdian": "https://afdian.com/a/enenowo",
+          "Bilibili": "https://space.bilibili.com/167202500?spm_id_from=333.337.0.0"
+        },
+        "name": "嗯嗯owo",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/嗯嗯owo.png",
+        "comment": "大就是好，好就是大",
+        "name": "嗯嗯owo",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/嗯嗯owo.png",
+        "comment": "大就是好，好就是大",
+        "name": "嗯嗯owo",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/嗯嗯owo.png",
+        "comment": "大就是好，好就是大",
+        "contact": {
+          "Afdian": "https://afdian.com/a/enenowo",
+          "Bilibili": "https://space.bilibili.com/167202500?spm_id_from=333.337.0.0"
+        },
+        "name": "嗯嗯owo",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/enenowo",
+      "home": "https://space.bilibili.com/167202500?spm_id_from=333.337.0.0"
+    },
+    "name": "静谧午夜_泥岩",
+    "tips": "MARTHE [珊瑚海岸/CoralCoast]静谧午夜系列泳衣06款。材质轻便透气，舒适耐磨。采用尖端设计，神秘典雅，高贵"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "精二",
+      "extra2": "黑曜石立绘动作",
+      "extra3": "静谧午夜立绘动作",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "default",
+    "preview_animation": "extra3",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/ny.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Mudrock_Coral-Coast__1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8146,
+      "sha256": "0ff42818b7af5add3b0f1d8b1f79cd6d0d76168cefddc4134f143e23b59b1e46"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 1341214,
+    "sha256": "e9f6629cbc26aa43e5f09295e19c4fb8a85df90251305d92b683249161a132ef",
+    "bones": 343,
+    "cubes": 731,
+    "faces": 4386,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 141574,
+      "sha256": "a142b5d33d900be08cfd02e7d4dda191696c8eb70094e44342914993d6d9cdff"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3956,
+      "sha256": "157032a44c1242eba2054976bcba0d1c43b550e26dc9379ecda93a0634cd499d"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 123301,
+      "sha256": "08627c76ccfb333c7ce59a3f26cc676e082c362315db39959934e2a33e29f3cb"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 181311,
+      "sha256": "652df8db757eff980025515c372307149726c2ed3fa9bb22c36b2009300aa77f"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "avatar/嗯嗯owo.png",
+      "size": 249656,
+      "sha256": "c821c80643b9ccc647fd6bfe98fbddbaabb67996217de55d42445e82a393d0a1"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 14322,
+      "sha256": "e1bf1b9a936fdaaf7f2cf78b45587eec0ee4d3e5846ee3bd40cbf41dace094c5"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 410845,
+      "sha256": "90c85bca962bc369f613aeabcf698cb337e9f6a6cf1c68fb13a392c1bccd42eb"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/ny.png",
+      "size": 72614,
+      "sha256": "c4d6e821e5616b62485117e7c9be48a8547bcb54bff8f08ae944793fdd532f95"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1880,
+      "sha256": "8a3312ea1b6b0ccef7b3b7b23627b5a0a59e877207a3517dd311ef14aa4325ca"
+    }
+  ]
+}

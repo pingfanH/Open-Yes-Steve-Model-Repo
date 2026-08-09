@@ -1,0 +1,89 @@
+{
+  "id": "Block_Grass(Moefied)",
+  "path": "parsed/Block_Grass(Moefied)",
+  "source": {
+    "path": "_MinecraftBlock/Block_Grass(Moefied).ysm",
+    "type": "ysm",
+    "stem": "Block_Grass(Moefied)"
+  },
+  "ysm": null,
+  "metadata": {
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [],
+    "name": "Block_Grass(Moefied)"
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Block_Grass_Moefied_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6961,
+      "sha256": "856fe20d7afe40f4562c1a85a1af80165f0139f851827cd563253786de3a0c42"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 535507,
+    "sha256": "2442856f1b9e239cde07a98693804bb0023f08e67212517ce4e89903be7f2ba5",
+    "bones": 206,
+    "cubes": 497,
+    "faces": 2982,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 8100,
+      "sha256": "f0eec109375291d86c610ead808c76df7f5bc6832f189074133978fc9214a308"
+    },
+    {
+      "path": "info.json",
+      "size": 102,
+      "sha256": "f48e72a220a1acd7b94d794e049448ef160566fba78c19ee294e887e665b6195"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 165196,
+      "sha256": "56bc9cb3dbc193a8b99b644d9d2473dc0d0bf3f3c86f36b0bd3154ecfc20f00a"
+    },
+    {
+      "path": "main.json",
+      "size": 281341,
+      "sha256": "44997e83e9584c0c58309e4bc1acf06f787f245f9c87476f326bf574746b6f6b"
+    },
+    {
+      "path": "texture.png",
+      "size": 80768,
+      "sha256": "9e3b035db0f9232b962a31eb8f266a8fa5b7f20992d17f92ed0b323761762358"
+    }
+  ]
+}

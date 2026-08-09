@@ -1,0 +1,78 @@
+{
+  "id": "UM_Smart-Falcon",
+  "path": "parsed/UM_Smart-Falcon",
+  "source": {
+    "path": "_UmaMusume/UM_Smart-Falcon.zip",
+    "type": "zip",
+    "stem": "UM_Smart-Falcon"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "UM_Smart-Falcon"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "feiying.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/UM_Smart-Falcon_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9382,
+      "sha256": "820d5e7ba0e490c428e46e4e762faeda21b667f167ed8de7f82e6e7a00f31a14"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 315235,
+    "sha256": "50c0b1b8e53eaca834e8fe1aa55f68f0d77a9e5152e3b414fa924d5fa9526886",
+    "bones": 93,
+    "cubes": 273,
+    "faces": 1638,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 8306,
+      "sha256": "041efe4ffb9509036b078f088581d8492e1f177dc53992782a0736bcbf2c725c"
+    },
+    {
+      "path": "feiying.png",
+      "size": 8518,
+      "sha256": "1c461e51ddfcf0404f0abfb26663a30f02e32bffc3f9e9a85a985e5b74e556d0"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 166557,
+      "sha256": "59e04367711d2e8270f08244d4db35e00dbdea5a293ab13a3fc84d725dc4bd62"
+    },
+    {
+      "path": "main.json",
+      "size": 131854,
+      "sha256": "6f80baa0658eeaf03a47657a9e59c08fd1015d48c75661bd470a395da55aea86"
+    }
+  ]
+}

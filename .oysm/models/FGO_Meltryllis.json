@@ -1,0 +1,129 @@
+{
+  "id": "FGO_Meltryllis",
+  "path": "parsed/FGO_Meltryllis",
+  "source": {
+    "path": "_FateGrandOrder/FGO_Meltryllis.ysm",
+    "type": "ysm",
+    "stem": "FGO_Meltryllis"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Meltryllis",
+    "tips": "Fate/Grand Order - Check out my other models at PMC!\nReminiscence - Fate/Extra CCC - OST\nhttps://youtu.be/dQW7AmRdnV4?si=_ftIpWjIyeTC91Dz\n\nApril 12, 2024",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "NekuroMC"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "arrow.png",
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/FGO_Meltryllis_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7809,
+      "sha256": "322deb7fe3b6b374f7f65c1a76f40ce4f63d47dc54e898c2a7cedd479f241aaf"
+    }
+  },
+  "stats": {
+    "file_count": 11,
+    "total_bytes": 926940,
+    "sha256": "37c2a0b8a55bb8c303792c6d8e8469593cd027b4682cec24a96171900ec4390a",
+    "bones": 190,
+    "cubes": 655,
+    "faces": 3930,
+    "textures": 2,
+    "materials": 2,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 125370,
+      "sha256": "f7aab4f30d309e5c9b04d0e843ef801bc88992f422bb752f8a24462a0a09de9d"
+    },
+    {
+      "path": "arm.json",
+      "size": 27906,
+      "sha256": "ed44f1ff5dc256ca1900f1d5cef731d5a5d13bb5f9d4dfb9e762c67051e18cd0"
+    },
+    {
+      "path": "arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 123165,
+      "sha256": "0a5d3f9c0562cc4d4032464fa5a4f9c4d80d0d7a218e780240d04c0b276f8c9a"
+    },
+    {
+      "path": "info.json",
+      "size": 279,
+      "sha256": "88db1dd282edb3045428347a738b6f65834bcc3c193d8f0f93165408ab0d7fe1"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 137181,
+      "sha256": "048ff90f5312e216f94ab77e0b53da51d24abd51d53804011527ff60733ff794"
+    },
+    {
+      "path": "main.json",
+      "size": 337756,
+      "sha256": "b5cb0f2fd75036609dc1a0cec1dfe2cac40136314c17b46c5ede1a3c68c2dfca"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "texture.png",
+      "size": 31189,
+      "sha256": "f1ea675f9566a939d0d9047e3e82c2af89f8365fcbbab37bd50cf0a06fc08715"
+    }
+  ]
+}

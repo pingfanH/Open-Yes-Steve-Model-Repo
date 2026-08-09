@@ -1,0 +1,197 @@
+{
+  "id": "Ak_Mudrock_1.1.1",
+  "path": "parsed/Ak_Mudrock_1.1.1",
+  "source": {
+    "path": "_Arknights/Ak_Mudrock_1.1.1.ysm",
+    "type": "ysm",
+    "stem": "Ak_Mudrock_1.1.1"
+  },
+  "ysm": "parsed/Ak_Mudrock_1.1.1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/嗯嗯owo.png",
+        "comment": "大就是好，好就是大",
+        "contact": {
+          "Afdian": "https://afdian.com/a/enenowo",
+          "Bilibili": "https://space.bilibili.com/167202500?spm_id_from=333.337.0.0"
+        },
+        "name": "嗯嗯owo",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/嗯嗯owo.png",
+        "comment": "大就是好，好就是大",
+        "name": "嗯嗯owo",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/嗯嗯owo.png",
+        "comment": "大就是好，好就是大",
+        "name": "嗯嗯owo",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/嗯嗯owo.png",
+        "comment": "大就是好，好就是大",
+        "contact": {
+          "Afdian": "https://afdian.com/a/enenowo",
+          "Bilibili": "https://space.bilibili.com/167202500?spm_id_from=333.337.0.0"
+        },
+        "name": "嗯嗯owo",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/enenowo",
+      "home": "https://space.bilibili.com/167202500?spm_id_from=333.337.0.0"
+    },
+    "name": "泥岩_砾瓦",
+    "tips": "在土石之子看来，颓败的废墟很快就能成为卡兹戴尔的一栋栋屋舍。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "显/隐碎盾",
+      "extra1": "精二",
+      "extra2": "黑曜石立绘动作",
+      "extra3": "静谧午夜立绘动作",
+      "extra4": "瓦砾立绘动作",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/ny.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Mudrock_1.1.1_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11974,
+      "sha256": "87c3034e7a8f0289f33db0c5a62ce3d46a9f48dfbdbb43e35810c252eb8f6120"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 1747356,
+    "sha256": "98661e6f620addbf9f428c3332f5d3d07643261a8b6c88f15cf88633118ccabb",
+    "bones": 421,
+    "cubes": 1158,
+    "faces": 6948,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 193077,
+      "sha256": "128d32712d4084c290266cf0c3c81dcba5743a568a2fb047bd02b926add105f3"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3956,
+      "sha256": "157032a44c1242eba2054976bcba0d1c43b550e26dc9379ecda93a0634cd499d"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 116959,
+      "sha256": "c6f9b099ce37c1f7a7d3430a7923dc86aeafd6e3454f776cb81f7aadabf27a50"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 248169,
+      "sha256": "8aa43ec7c87ef66b7731882406f5d01756d0ab608c9ba6e8ec0c1176c73a659b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "avatar/嗯嗯owo.png",
+      "size": 249656,
+      "sha256": "c821c80643b9ccc647fd6bfe98fbddbaabb67996217de55d42445e82a393d0a1"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 18957,
+      "sha256": "a77a67e95f5ba4766d745b957a1bd51bf876f7370344e0ea99a5e16c025a5c6b"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 637264,
+      "sha256": "af77b468610499bfacc5988ea3455c48605f5cf7cc7dd8581f8e699ba8b1b0ce"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/ny.png",
+      "size": 135713,
+      "sha256": "1d5ec3986c48d31120121b2c4df5ea17e9ecd8acda648a4b2ffeedd2e7971d61"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1850,
+      "sha256": "c703e726c64d01e7234d588f1069d229ba5964abf1076fbe1b7b91b7f56dc385"
+    }
+  ]
+}

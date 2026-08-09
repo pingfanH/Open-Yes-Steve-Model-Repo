@@ -1,0 +1,99 @@
+{
+  "id": "HSR_Silver-Wolf_0",
+  "path": "parsed/HSR_Silver-Wolf_0",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Silver-Wolf_0.ysm",
+    "type": "ysm",
+    "stem": "HSR_Silver-Wolf_0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "崩坏：星穹铁道——银狼",
+    "tips": "【星核猎手】的成员，骇客高手。\n将宇宙视作大型沉浸式模拟游戏，玩乐其中。\n掌握了能够修改现实数据的【以太编辑】。\n\n银河和平公司悬赏51亿，不论死活。",
+    "authors": [
+      {
+        "name": "流风LFly"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Silver-Wolf_0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8634,
+      "sha256": "47912a57c9725342f8deabe17835bdcf5332304101e700b2299cca861d4d0229"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 490544,
+    "sha256": "6f46d62845a223111e2aa53e0cc00989d8471e0bd85adace9f9ae3f3888fc490",
+    "bones": 105,
+    "cubes": 484,
+    "faces": 2904,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 1019,
+      "sha256": "52634aac22077f9aa75e587aaeeb6c204de94a19370da4332f0573931f5d5e94"
+    },
+    {
+      "path": "arm.json",
+      "size": 15327,
+      "sha256": "5ffece3b6c1bc4e3891260a8cf937baea2f11ec502e075e9904cee394e793876"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 40637,
+      "sha256": "cf254077ff1ec636bbc474db3e238a29856a557dc5e45a9c310afe93002762ad"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 172116,
+      "sha256": "ad49ed53ccb4cd6797d8101343dc5baec67c8ae51a15449cd01dd5b06bbc35f9"
+    },
+    {
+      "path": "main.json",
+      "size": 241805,
+      "sha256": "7a8901dff5b9753e84a9eeb473ba12663a5ab9ee6e4dc07ee1e38ca54d057d9a"
+    },
+    {
+      "path": "texture.png",
+      "size": 19640,
+      "sha256": "0024edfdf69b8ae3f8a39a0e47f623ae1e5ba6a02656b6e93560ffc39a2c564a"
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "id": "Vocaloid_Miku(请搭配tacz拓展包“赛博军械师”使用)",
+  "path": "parsed/Vocaloid_Miku(请搭配tacz拓展包“赛博军械师”使用)",
+  "source": {
+    "path": "_Vocaloid-UTAU/Vocaloid_Miku(请搭配tacz拓展包“赛博军械师”使用).ysm",
+    "type": "ysm",
+    "stem": "Vocaloid_Miku(请搭配tacz拓展包“赛博军械师”使用)"
+  },
+  "ysm": "parsed/Vocaloid_Miku(请搭配tacz拓展包“赛博军械师”使用)/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/小萌新idjdkd.png",
+        "comment": "none",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/1573788561"
+        },
+        "name": "小萌新idjdkd",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 4.0 By-NC-SA"
+    },
+    "link": {
+      "donate": "none",
+      "home": "none"
+    },
+    "name": "Mkiu",
+    "tips": "做了螳螂刀/暴恐机动队螳螂刀的动作适配，钻石甲对应防弹衣，任意鞋子对应靴子，目前有未知bug导致模型切换时右手挥动螳螂刀。https://space.bilibili.com/1573788561我的b站号关注球球惹qwq"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "",
+      "extra8": "",
+      "extra9": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "分类1",
+        "name": "7"
+      },
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          },
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/uv.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Vocaloid_Miku_tacz_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10188,
+      "sha256": "eaf4edb69e6d99ba014933965f072f1c5757192bba511408c67b43cf855e435d"
+    }
+  },
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 4061221,
+    "sha256": "dde03341ac3b75a1b2f8cdbb823fec1c5c0b402e73e27a3f77ec7a2ccc647c6d",
+    "bones": 171,
+    "cubes": 1913,
+    "faces": 11478,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 92234,
+      "sha256": "99212d2d48a143438c46627690da21eddb4d7159d1a7cdfd980e4ed68377e970"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 327303,
+      "sha256": "065daa08a91421e54d92fc5a8e73283d2d78726ca9167555d09f6b26b4bb6ad8"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 130638,
+      "sha256": "170dcd9532f9880c365aafce3d52792de6848afce347e35006eb771d3a9975ee"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1505299,
+      "sha256": "2cfe596c36beecaa1688b55951b4272e660c066078bb5d95b20240a32a3a20da"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 150171,
+      "sha256": "505e09af4d407038c35d94c479de00fcccabfadc275e26f54e924bd748e8719d"
+    },
+    {
+      "path": "avatar/小萌新idjdkd.png",
+      "size": 21456,
+      "sha256": "8b39a7c8d6035bb4fac416fede75fd1f87358240f680a7f213636333d801828f"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 2659,
+      "sha256": "742e9c71c7ab2eaf5e8731962fd454839eedc001b7be9e812fa33f62f6e35f07"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 35407,
+      "sha256": "03053180713b95b03917bbc5aabc489378cbb3ffe46e044491a4d339b9c01c69"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1497442,
+      "sha256": "d580bbef2af43effe37231a203ca494d00616d2c84b24dcba070880e07881b35"
+    },
+    {
+      "path": "textures/uv.png",
+      "size": 76224,
+      "sha256": "cdbb08dcbe0ca1bef82004a30e5a49f91100c11d1350f5cee114efc008bc5ca6"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1892,
+      "sha256": "3e3bb55abfb88d7d410f3ecbd81d33435c5dbae7cafc54275ed7f2b4d9e76d06"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "id": "重装战姬爱塔V1.0",
+  "path": "parsed/重装战姬爱塔V1.0",
+  "source": {
+    "path": "Unknown/重装战姬爱塔V1.0.zip",
+    "type": "zip",
+    "stem": "重装战姬爱塔V1.0"
+  },
+  "ysm": "parsed/重装战姬爱塔V1.0/ysm.json",
+  "metadata": {
+    "name": "爱塔",
+    "tips": "重装战姬——爱塔",
+    "license": {
+      "type": "CC BY-NC-SA"
+    },
+    "authors": [
+      {
+        "name": "Anaye",
+        "role": "模型",
+        "avatar": "avatar/Anaye.png",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/454110884"
+        }
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "height_scale": 0.8,
+    "width_scale": 0.8,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          }
+        ]
+      }
+    ],
+    "preview_animation": "preview",
+    "disable_preview_rotation": false,
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true,
+    "all_cutout": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "texture": [
+        {
+          "uv": "textures/爱塔.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/V1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12162,
+      "sha256": "3b3eee576a177a55dfa513595534cf26cf1e0df7ddc92d23179df42905f084b9"
+    }
+  },
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 3590084,
+    "sha256": "8913ea4863259e2c5041099fabb30bfa7ff186c2ce741af5240d0c9146a24159",
+    "bones": 134,
+    "cubes": 625,
+    "faces": 3750,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 190718,
+      "sha256": "33fd7d162bef5fd8bc9cca77220dd76bc1fc61d8c4db398cc9557719d8332a93"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 744,
+      "sha256": "01902bc329af43baf925d67eb6861c5f4e2dd5355258c96819533ed7d94239ba"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3078,
+      "sha256": "fe28bda145b9a8f8acfd3aa1d85b267a55e5c6538f595161dbd2161bbebd8bda"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 124928,
+      "sha256": "47014ba7279bc6bd4ac5f360035d2ff3fbc48ff376423b21508cf572ce02ea27"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 198988,
+      "sha256": "4e5a6b40126996c4a865cecb1b577dd32afd3b3a83530eb98b04154cf69e4d78"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 184361,
+      "sha256": "1bfd0c06c63282bc1f0bbb316983c0faa4e98b666989961479fa424f5f3e556a"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1652964,
+      "sha256": "af05ec10f7e23dd7148f6a72bdba8abd0e4899dd9e7bf6d65cc42e4feba118fb"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 42814,
+      "sha256": "b0018f5a7e88c21f78b75ff18c98966428ac691c46f716950d2a8f2a0815abb3"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 221169,
+      "sha256": "1ae84ef6e9cf75e62b614899b78d50293afe2dc872cb86483721950352389d7a"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 66511,
+      "sha256": "353dc14cd77017092bc969500977609c5585fe71db258cf57ae703d9cdb00641"
+    },
+    {
+      "path": "avatar/Anaye.png",
+      "size": 10730,
+      "sha256": "345f2acc3e69be8fc15f41c9a190f9e6026cb041300870ef9a78ffa1211cc31c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 4874,
+      "sha256": "dc27775e5a52152c8e39d0b0e7908d616a8a2e0bff84fcefa5bec568ec183403"
+    },
+    {
+      "path": "models/main.json",
+      "size": 99328,
+      "sha256": "fbd22049817e9d72c452f3f41ad626d7b99305f011a1a72eab6fedfeae44f048"
+    },
+    {
+      "path": "models/雨燕.bbmodel",
+      "size": 713034,
+      "sha256": "05906555460bafb59a1a238086f485e56ebfcfcf614a6c3af49406d93374be7e"
+    },
+    {
+      "path": "sounds/Mission_Failed.ogg",
+      "size": 42023,
+      "sha256": "da00f2983e905b8c596f974c6bb1a4a18e09f0fcdc866d2faea3ff6684e0b56c"
+    },
+    {
+      "path": "sounds/准备就绪.ogg",
+      "size": 22295,
+      "sha256": "ffb5703f832a4f65a01e99098f7c7ba1b95a1091ff0ccf30dd066f31e038ba13"
+    },
+    {
+      "path": "textures/爱塔.png",
+      "size": 7331,
+      "sha256": "22461e66c333afc0a31b7437838bdf5828e03ab3f8d8b1dfea72832ac043b415"
+    },
+    {
+      "path": "textures/雨燕.png",
+      "size": 2376,
+      "sha256": "7aab6217a111050bbd8c8a13cea7af8b436bb7a3bb5100bd0914860320691950"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1818,
+      "sha256": "f2060be340dd76c14134bae5e98af0253bf9488b3480d468efbc3c817cbf00e3"
+    }
+  ]
+}

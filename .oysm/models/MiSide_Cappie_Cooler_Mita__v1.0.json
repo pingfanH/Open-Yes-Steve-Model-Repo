@@ -1,0 +1,136 @@
+{
+  "id": "MiSide_Cappie(Cooler_Mita)_v1.0",
+  "path": "parsed/MiSide_Cappie(Cooler_Mita)_v1.0",
+  "source": {
+    "path": "_MiSide/MiSide_Cappie(Cooler_Mita)_v1.0.ysm",
+    "type": "ysm",
+    "stem": "MiSide_Cappie(Cooler_Mita)_v1.0"
+  },
+  "ysm": "parsed/MiSide_Cappie(Cooler_Mita)_v1.0/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/NekuroMC.png",
+        "comment": "Hello",
+        "contact": {
+          "Planetminecraft": "https://www.planetminecraft.com/member/nekuromc/",
+          "Sketchfab": "sketchfab.com/NekuroMC/models"
+        },
+        "name": "NekuroMC",
+        "role": "Author"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://ko-fi.com/nekuromc",
+      "home": "https://www.planetminecraft.com/member/nekuromc/"
+    },
+    "name": "Cappie - Cool Mita",
+    "tips": "MiSide - >> Check out my other models at PMC <<"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/MiSide_Cappie_Cooler_Mita__v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7906,
+      "sha256": "e9eadbbf44dbde9a2f761fbd7490224cc617c378509c623b9df2ba9f271529e1"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 917239,
+    "sha256": "28820537289d5b38f3baccefb407d26743e1f65a56af3292b02992aa0382d316",
+    "bones": 100,
+    "cubes": 362,
+    "faces": 2172,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 122272,
+      "sha256": "4a6a0e79c2a13e8ab9048feeb534a9556669ba691fe9544227095de352b5bce5"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 179922,
+      "sha256": "4efff6c3884899f00583ca57f312de4a21ad1a6d4ad3dfaec354d5036ca17e91"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "avatar/NekuroMC.png",
+      "size": 161044,
+      "sha256": "14c258b692cd42d805dcfed883167c80c94286f28e0e079e936e96b575953595"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 15016,
+      "sha256": "5d46c47e3e55528c04d0122440aaf607dfd931047e654c3fcaad7abe18b10cf4"
+    },
+    {
+      "path": "models/main.json",
+      "size": 286019,
+      "sha256": "7bb46e57d2033085ae47685434347753372393a45bb8f90192b41eef178d6554"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 15760,
+      "sha256": "7c573cad0ffbe69dc7c955c3020fb8136b4356b6d0d41f152fae4070855e59b8"
+    },
+    {
+      "path": "ysm.json",
+      "size": 926,
+      "sha256": "d16e6664db813bb69761c5afd515f42616d6171e3485c30c353ef8a4f891d2ca"
+    }
+  ]
+}

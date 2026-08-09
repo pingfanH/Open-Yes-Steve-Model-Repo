@@ -1,0 +1,336 @@
+{
+  "id": "IdentityV_Luca-Balsa",
+  "path": "parsed/IdentityV_Luca-Balsa",
+  "source": {
+    "path": "_IdentityV/IdentityV_Luca-Balsa.ysm",
+    "type": "ysm",
+    "stem": "IdentityV_Luca-Balsa"
+  },
+  "ysm": "parsed/IdentityV_Luca-Balsa/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/長琦.png",
+        "comment": "一个勘勘囚囚激推，不知为何开始搞模型jpg",
+        "contact": {
+          "qq": "1530803476"
+        },
+        "name": "長琦",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ChangQi",
+      "home": "https://space.bilibili.com/2089018983?spm_id_from=333.1007.0.0"
+    },
+    "name": "卢卡·巴尔萨（Luca Balsa）",
+    "tips": "卢卡并未放弃实践当初自己那项发明的决心，但这需要许多许多的钱，所以在他收到那封附带巨额奖励条件的邀请函后，他决定铤而走险。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "打响指": "打响指",
+      "趴趴": "趴趴",
+      "穿脱及切换": "#extra_config",
+      "表情": "#表情切换",
+      "小鸟坐": "小鸟坐",
+      "鼠鼠舞": "鼠鼠舞",
+      "飞吻": "飞吻",
+      "起舞": "起舞",
+      "坐下": "坐下",
+      "似了": "似了",
+      "extra1": "extra1打招呼",
+      "extra2": "extra2鼓掌",
+      "extra3": "extra3对的对的",
+      "extra4": "extra4不对不对",
+      "extra5": "extra5好耶！",
+      "extra6": "extra6欢呼（？）",
+      "extra7": "extra7神秘舞蹈"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "穿脱及切换",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "体型: ",
+            "description": "大小",
+            "value": "v.player_size",
+            "step": 0.2,
+            "min": 0.2,
+            "max": 2.0
+          },
+          {
+            "type": "range",
+            "title": "项圈: ",
+            "description": "切换形态",
+            "value": "v.roaming.xq",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "type": "checkbox",
+            "title": "衣服",
+            "description": "一件老旧的囚服，但被它的主人打理的干净整洁",
+            "value": "v.roaming.a"
+          },
+          {
+            "type": "checkbox",
+            "title": "手套",
+            "description": "绝缘手套，修理电路离不开它",
+            "value": "v.roaming.b"
+          },
+          {
+            "type": "checkbox",
+            "title": "项圈/红围脖",
+            "description": "承着痛苦的回忆或是辞旧迎新的喜悦？",
+            "value": "v.roaming.c"
+          },
+          {
+            "type": "checkbox",
+            "title": "裤子",
+            "description": "一种卢卡以前没有尝试过的时髦裤子",
+            "value": "v.roaming.d"
+          },
+          {
+            "type": "checkbox",
+            "title": "鞋子",
+            "description": "特殊的结构可以辅助卢卡走路",
+            "value": "v.roaming.e"
+          }
+        ]
+      },
+      {
+        "id": "表情切换",
+        "name": "表情切换",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "嘴巴",
+            "description": "今天是什么心情？",
+            "value": "v.value_radio1",
+            "labels": {
+              "§7:3": "v.value_radio1 = 0; v.roaming.zb = 0",
+              "§7:p": "v.value_radio1 = 1; v.roaming.zb = 1",
+              "§7:(": "v.value_radio1 = 2; v.roaming.zb = 2"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "眼睛",
+            "description": "今天是什么心情？",
+            "value": "v.value_radio2",
+            "labels": {
+              "§90w0": "v.value_radio2 = 0; v.roaming.eyes = 0;v.roaming.re = 0;v.roaming.le = 0;v.roaming.brow = 0",
+              "§9>w0": "v.value_radio2 = 1; v.roaming.eyes = 1;v.roaming.re = 1;v.roaming.le = 0;v.roaming.brow = 0",
+              "§9>w<": "v.value_radio2 = 2; v.roaming.eyes = 4;v.roaming.re = 1;v.roaming.le = 1;v.roaming.brow = 0",
+              "§90_0": "v.value_radio2 = 3; v.roaming.eyes = 2;v.roaming.re = 1;v.roaming.le = 1;v.roaming.brow = 0",
+              "§9QmQ": "v.value_radio2 = 4; v.roaming.eyes = 3;v.roaming.re = 1;v.roaming.le = 1;v.roaming.brow = 1"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "脸部",
+            "description": "今天是什么心情？",
+            "value": "v.value_radio3",
+            "labels": {
+              "§1无": "v.value_radio3 = 0; v.roaming.lh = 0",
+              "§1脸红": "v.value_radio3 = 1; v.roaming.lh = 1",
+              "§1黑线": "v.value_radio3 = 2; v.roaming.lh = 2"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "0710",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/囚徒的初始衣装.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/IdentityV_Luca-Balsa_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12863,
+      "sha256": "24d248427b0d45d0da4675aca9c87cf25bfc954821c6be0b57f4ba8006eca5c9"
+    }
+  },
+  "stats": {
+    "file_count": 23,
+    "total_bytes": 7764112,
+    "sha256": "3240545e39e6174d3c63255c73f50736c8c8bc8bb57a878694ada507143d6702",
+    "bones": 395,
+    "cubes": 1060,
+    "faces": 6360,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 278441,
+      "sha256": "75b826c4adb756962d2d24e6a1e490e99915a1f2ff4e6d18216b466a9a24fc50"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 3967,
+      "sha256": "6462105d1334494c2cdf8cb4dda8be415f5a99f6d9afe4e004bd26c3d4b46c17"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "1aa0ecb03eea7041f0f1b44054242b09b31cb77d8f7e2cb7bb2eb26ec9c56c45"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 1061353,
+      "sha256": "23a5be0dc34778d925b38b10ac56975323681c195ee304ce8d12894eb5b583e6"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 339709,
+      "sha256": "75eefa7b9c38137b657b25766e769ac89ed4301f85520d81db776b36f693e874"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1505299,
+      "sha256": "2cfe596c36beecaa1688b55951b4272e660c066078bb5d95b20240a32a3a20da"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/長琦.png",
+      "size": 371579,
+      "sha256": "f89267238b3ed0045de3c002fae9e288be486ba8af5abf9a9dd2c9b4c772c8b5"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 42261,
+      "sha256": "d82d5aaee04dd5ac29b13ec86f8a9dc4b63887b6c6ea3f875252f6a2b1a549a3"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6115,
+      "sha256": "6efc467a561b5052cc4f52a58bd8cad9fbc33978de87170e45b0ec322202abc1"
+    },
+    {
+      "path": "models/main.json",
+      "size": 581908,
+      "sha256": "80f0e54acfe0d96807bc35cd04ed19c9f2b48879b33ddf9a8974ac884cec1dfa"
+    },
+    {
+      "path": "sounds/卢卡受伤.ogg",
+      "size": 11887,
+      "sha256": "a526886fcf246a9640ec5a257aefca8aba28d5d675af4e769d1e030218e0340b"
+    },
+    {
+      "path": "sounds/卢卡嘿嘿.ogg",
+      "size": 17011,
+      "sha256": "09c7d8870a15fad54afecae670076ca789ca19e9a9cec5eeb6576eb0f757916b"
+    },
+    {
+      "path": "sounds/卢卡跳舞.ogg",
+      "size": 43912,
+      "sha256": "c11fe05df260040e1f4881d0b4ee31f2faac3ed9a4e57c68b66275047719bf4c"
+    },
+    {
+      "path": "sounds/卢卡躺地.ogg",
+      "size": 41554,
+      "sha256": "3b85dfc2e06769074b595e1f3d18076859cc5c7f4c74158106cf956e2b788173"
+    },
+    {
+      "path": "sounds/受伤.ogg",
+      "size": 12254,
+      "sha256": "02b215fe07403d0a7cefea7dbaca986b579f87f3c2974d35504ce1c4ecad4022"
+    },
+    {
+      "path": "sounds/水晶宫.ogg",
+      "size": 33573,
+      "sha256": "746556ccc0874c439311d1f44c1348822f00219d5f0417a94becce12cf694ed2"
+    },
+    {
+      "path": "sounds/鼠鼠舞.ogg",
+      "size": 2904125,
+      "sha256": "a2804b01c537534dc6b22980b503dd5f6006fefef6b3fe8b1ad4832f8fde2fad"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1668,
+      "sha256": "6194d2ffa6321d014d293e243eb91b564132efc2efebe0870edc72fc06518123"
+    },
+    {
+      "path": "textures/囚徒的初始衣装.png",
+      "size": 144357,
+      "sha256": "a42037f7fca79212c8a709e5e5537c26b9b6707fc206d133e96a22c49f13e940"
+    },
+    {
+      "path": "ysm.json",
+      "size": 4078,
+      "sha256": "2b9a5b32c081c686430c1c1060338f63e01195eb22f2b9bc3d5d46f8f9a01cc7"
+    }
+  ]
+}

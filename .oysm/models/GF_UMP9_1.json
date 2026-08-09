@@ -1,0 +1,226 @@
+{
+  "id": "GF_UMP9_1",
+  "path": "parsed/GF_UMP9_1",
+  "source": {
+    "path": "_GirlsFrontline/GF_UMP9_1.ysm",
+    "type": "ysm",
+    "stem": "GF_UMP9_1"
+  },
+  "ysm": "parsed/GF_UMP9_1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/★【宇宙影帝の终焉】.png",
+        "comment": "苦练BB",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/364412316",
+          "QQ": "3249851858"
+        },
+        "name": "★【宇宙影帝の终焉】",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "home": "https://space.bilibili.com/364412316"
+    },
+    "name": "UMP9",
+    "tips": "可爱的9妹\n本模型为免费分享但请勿商用！"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra9": "#extra_config",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "肯定",
+      "extra4": "否定",
+      "extra5": "胜利",
+      "extra8": "再见",
+      "extra0": "跳舞"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "立绘站姿",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "眼睛",
+            "description": "鼠标指上显示单选框名",
+            "value": "v.value_eye",
+            "labels": {
+              "§0正常": "v.value_eye = 0; v.eye1 = 0;v.eye2 = 0",
+              "§1> <": "v.value_eye = 1; v.eye1 = 1;v.eye2 = -1"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "嘴型",
+            "description": "鼠标指上显示单选框名",
+            "value": "v.value_mouth",
+            "labels": {
+              "§0無": "v.value_mouth = 0; v.mou1 = 0;v.mou2 = 0;v.mou3 = 0;v.mou4 = 0;v.eye3 = 0",
+              "§1猫嘴": "v.value_mouth = 1; v.mou1 = -1;v.mou2 = 0;v.mou3 = 0;v.mou4 = 0;v.eye3 = 0",
+              "§3猫嘴笑": "v.value_mouth = 2; v.mou1 = 0;v.mou2 = -1;v.mou3 = 0;v.mou4 = 0;v.eye3 = 0",
+              "§4唐笑": "v.value_mouth = 3; v.mou1 = 0;v.mou2 = 0;v.mou3 = -1;v.mou4 = 0;v.eye3 = 0",
+              "§5sad": "v.value_mouth = 4; v.mou1 = 0;v.mou2 = 0;v.mou3 = 0;v.mou4 = -1;v.eye3 = -0.2"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GF_UMP9_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8749,
+      "sha256": "a35b6dc9b35bf2deea9e6cfbcdebc11557591a64bf543dbc9a6f338721261bd5"
+    }
+  },
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 951232,
+    "sha256": "ab34807e1845aba99b25cba2a31d4f9844dbd335fecf3ca763cf9acea9624761",
+    "bones": 95,
+    "cubes": 310,
+    "faces": 1860,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 48388,
+      "sha256": "f3b07140b228b65e861cfdf654b0894545b905556ac447920178999bc8de738c"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 119333,
+      "sha256": "d960d040889254ec4e7c370857ff8b5b22ed489c81d2b8d97168237ef23ebc01"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 115141,
+      "sha256": "ba6cc521270c1d79bbe083da827c91318df88190645c8e4ff870b4097057a142"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 109439,
+      "sha256": "41db7af48f80ea92eb93193889eba3916053b3df80c88424341449b02335ad36"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 184868,
+      "sha256": "6e93f2aac82baeebf66d4677eb902a508203760220ed43d34c76ab824009d975"
+    },
+    {
+      "path": "avatar/★【宇宙影帝の终焉】.png",
+      "size": 32589,
+      "sha256": "87a27b454c615c0bb9aa312b5ce7d393d3bfd24164469a5458a4bbbb605cbd82"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 2903,
+      "sha256": "79575d4ac1de707b0dd76ef2dda8e61d987f00875db77788a671cf7ae21d7020"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 10701,
+      "sha256": "679836a8a5b6489a94c19b0cedabe75732eb0ad3db42f0710a726b4541f0794b"
+    },
+    {
+      "path": "models/main.json",
+      "size": 161061,
+      "sha256": "36497478895c79f2c1570abebd45f3f11fbc27b3773a081ef7f365a6ea460209"
+    },
+    {
+      "path": "sounds/1.ogg",
+      "size": 74410,
+      "sha256": "ca25b65c6f85af6d0fcdf44d9ed8cdafd963ff4b479d701f9e9aae1c8286d757"
+    },
+    {
+      "path": "sounds/2.ogg",
+      "size": 25018,
+      "sha256": "f451fa2ea3cb639de9b797d519c58a7b755ced4b666debad0a5592441ee31ba8"
+    },
+    {
+      "path": "sounds/3.ogg",
+      "size": 21230,
+      "sha256": "33a492cbf95fe5c9242c292f0024b972fb307dd23def9108f2737f5b9217b6e9"
+    },
+    {
+      "path": "sounds/4.ogg",
+      "size": 10364,
+      "sha256": "99c062781d32f0ca216df8cf8dbdd5ba9b11355119bfbd506cb5154a7b04199e"
+    },
+    {
+      "path": "sounds/5.ogg",
+      "size": 16059,
+      "sha256": "5e861a37f5a154512044cc352e0e300f98c2276f2e1510819ec4db79520f562f"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 17519,
+      "sha256": "2fdeb3293c4800895857a1ad1428eb296f7150bd7a89e3ebcf2738e37e0c1688"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2209,
+      "sha256": "9788b298080c40f72b8e9ddcc07ab7c760e363dad01245f4b97d3f71b4d6f6da"
+    }
+  ]
+}

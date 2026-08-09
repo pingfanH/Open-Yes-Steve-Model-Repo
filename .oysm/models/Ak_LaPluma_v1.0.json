@@ -1,0 +1,162 @@
+{
+  "id": "Ak_LaPluma_v1.0",
+  "path": "parsed/Ak_LaPluma_v1.0",
+  "source": {
+    "path": "_Arknights/Ak_LaPluma_v1.0.ysm",
+    "type": "ysm",
+    "stem": "Ak_LaPluma_v1.0"
+  },
+  "ysm": "parsed/Ak_LaPluma_v1.0/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/失踪的李元.png",
+        "comment": "做不完，根本做不完",
+        "contact": {
+          "Afdian": "https://afdian.com/a/ly3064421540",
+          "Bilibili": "https://space.bilibili.com/505613984"
+        },
+        "name": "失踪的李元",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "name": "羽毛笔",
+    "tips": "博士，你好，我是陈小姐推荐来的，名字是拉菲艾拉，今天开始正式加入罗德岛。欸，代号？唔......就叫我羽毛笔吧。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "模型张力！",
+      "extra1": "立绘动作",
+      "extra2": "双剑银战立",
+      "extra3": "二乔立",
+      "extra4": "波波立",
+      "extra5": "今晚来吃烤肉吧！",
+      "extra6": "总之很有张力",
+      "extra7": "凤凰现行！",
+      "extra8": "饭盒掉了TAT",
+      "extra9": "守护饭盒"
+    },
+    "preview_animation": "hui",
+    "free": true,
+    "render_layers_first": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png",
+          "specular": "textures/texture_specular.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_LaPluma_v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7646,
+      "sha256": "38ed6f89df5fe80fdf32a80d9eebc94956d20a3d1dca8bc179a291713d642731"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 1148560,
+    "sha256": "140e82406ad2c41e341ed2feacaf523783bb64d9bc6315aee8d9472509911dfe",
+    "bones": 96,
+    "cubes": 715,
+    "faces": 4290,
+    "textures": 1,
+    "materials": 1,
+    "animations": 6,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 122833,
+      "sha256": "d9eb1204168555830831b3f9ea4f2570457bdcd1b307f03e58ac09801aaa42a0"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2996,
+      "sha256": "5446fbc14b222cf69d32f46346d61e499fd0eb621215dc9cc8366833d51e458c"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 16971,
+      "sha256": "8066ce2881b0ff29f9b69fc147ba22d582548c0d9ca31c00584df6f9fb549cdd"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 162702,
+      "sha256": "c0652711d50139992170e38f9be7cee11813c8a80e64b72b7495abc60c742987"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "avatar/失踪的李元.png",
+      "size": 169289,
+      "sha256": "b75ff18e9ed03b4f68d6745f84192065178f293d710d3fa411580e8588d7e195"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 11620,
+      "sha256": "cd707649608c5e86c197156b8c8e46cd367ac97f7347bc2624938401425ab981"
+    },
+    {
+      "path": "models/main.json",
+      "size": 371685,
+      "sha256": "4d41c5c25ad74019403844703a312452edc5bfe7ce5f320e1e50b44bb9fdbdac"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 15747,
+      "sha256": "bbf4f3b081fc023142acaf7c2eca354e28ee45d572ca6697351e6ae68d58bdcc"
+    },
+    {
+      "path": "textures/texture_specular.png",
+      "size": 7016,
+      "sha256": "24d63b1201b9bdb883279cf512fda9583e40f3d332cf55ee6018d3e2898fe51e"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1353,
+      "sha256": "6ae77eb8ac664603f90a4f78647a853e5377ae701221b906d2a255621e43d936"
+    }
+  ]
+}

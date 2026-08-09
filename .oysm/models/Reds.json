@@ -1,0 +1,84 @@
+{
+  "id": "_Reds",
+  "path": "parsed/_Reds",
+  "source": {
+    "path": "Uncategorized/_Reds.zip",
+    "type": "zip",
+    "stem": "_Reds"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_Reds"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Reds_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3068,
+      "sha256": "1c1816aebd470d77e2c2adca566ddb348570b8f7586da93d655ad0a9d6a2732e"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 92838,
+    "sha256": "8366eaa1feac8937e6740daa5e669d393263c5a922377b2f29211d76ca4e2957",
+    "bones": 68,
+    "cubes": 155,
+    "faces": 930,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 86,
+      "sha256": "afa1bc8066caf11f4f1869b73e2c03ac31d5502f230cb68532fc627637184203"
+    },
+    {
+      "path": "arm.json",
+      "size": 2608,
+      "sha256": "94e272ef329799b39971d6009207c195484a20b26fa4191378421ab5cc2139d8"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 64349,
+      "sha256": "dd7be70f34a587aa24c694c98cf88707d4ac0260970fff4b5fa5b1d4046965f9"
+    },
+    {
+      "path": "main.json",
+      "size": 20412,
+      "sha256": "4c1516ba7f40a1a0ce8052f0f19db7f51057a5fc236796057b90f0172d9640e6"
+    },
+    {
+      "path": "texture.png",
+      "size": 5383,
+      "sha256": "63b41f94baaebac66cebf86e8f5d5aac22831867f96bde61683022188262310e"
+    }
+  ]
+}

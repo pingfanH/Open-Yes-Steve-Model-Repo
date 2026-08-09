@@ -1,0 +1,177 @@
+{
+  "id": "9nine-Yuki-Noa",
+  "path": "parsed/9nine-Yuki-Noa",
+  "source": {
+    "path": "_9nine/9nine-Yuki-Noa.ysm",
+    "type": "ysm",
+    "stem": "9nine-Yuki-Noa"
+  },
+  "ysm": "parsed/9nine-Yuki-Noa/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/奇葩的小毛.png",
+        "comment": "肝累~",
+        "name": "奇葩的小毛",
+        "role": "建模，动画，贴图"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "home": "https://space.bilibili.com/642514655?spm_id_from=333.1007.0.0"
+    },
+    "name": "结成希亚",
+    "tips": "《9Nine-雪雪雪》女主"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "释放技能",
+      "extra1": "#表情",
+      "extra2": "#换装",
+      "extra3": "无论多少次，我都会重新爱上你",
+      "extra4": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "表情",
+        "name": "表情",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "表情",
+            "description": "表情",
+            "value": "v.s1",
+            "labels": {
+              "默认": "v.s1=0;v.roaming.face1=0;v.roaming.face2=0",
+              "哈基米": "v.s1=1;v.roaming.face1=1;v.roaming.face2=1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "换装",
+        "name": "换装",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "换装",
+            "description": "换装",
+            "value": "v.s2",
+            "labels": {
+              "校服": "v.s2=0;v.roaming.c1=0;v.roaming.c2=0;v.roaming.shoulder=1",
+              "常服(带披肩)": "v.s2=1;v.roaming.c1=1;v.roaming.c2=1;v.roaming.shoulder=1",
+              "常服(无披肩)": "v.s2=2;v.roaming.c1=1;v.roaming.c2=1;v.roaming.shoulder=0"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "noa",
+    "preview_animation": "preview",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/noa.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/9nine-Yuki-Noa_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 15556,
+      "sha256": "7c088e8a1ac53ac517a96b23d1455928edfba0f363b9ca0b75f40f7badeb454d"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 1022653,
+    "sha256": "ff9cb7c14d8c324cfeb858aa78d2bccadd488ee6ca05c73275d89a08b9601fbe",
+    "bones": 182,
+    "cubes": 598,
+    "faces": 3478,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 32454,
+      "sha256": "7a3edfe9e598fae10683e717f31bfb951eee17c0f6649236e6543a888081b0f7"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 122450,
+      "sha256": "2dc82321f29f43c74c572a4a163e28844f921e0fc09c754de0e20205d3cf1f98"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 125144,
+      "sha256": "dcb06962adef4f6bf73a0627692bba58be36060046f00bd61af1d28911b8187a"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 132915,
+      "sha256": "c2d1274e2c1368df6e192ca84979c249fbe60d885adc048d4f51748445f79c49"
+    },
+    {
+      "path": "avatar/奇葩的小毛.png",
+      "size": 33313,
+      "sha256": "f167add6e2bfd5869475ca38dc2f1164541497b6bdfe9643b81e82529d2c5835"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 21910,
+      "sha256": "ccd7a1a853bee3d4e16fbdea449f4d2db973036672c39ee459af25801690482d"
+    },
+    {
+      "path": "models/main.json",
+      "size": 490054,
+      "sha256": "56ea561c507f32ce6df8034560227ed46848280be98a252a20b6f47747a3a0ae"
+    },
+    {
+      "path": "textures/noa.png",
+      "size": 62743,
+      "sha256": "82cb97d448b63d9c4a84ee569c8fc8674e27c8f3e7477ac19561812a5ba8dcb7"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1670,
+      "sha256": "096213109cd769e66327e961df1b80bfdffb97fe347a864495191c76ae05caa7"
+    }
+  ]
+}

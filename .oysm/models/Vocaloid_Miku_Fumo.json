@@ -1,0 +1,78 @@
+{
+  "id": "Vocaloid_Miku(Fumo)",
+  "path": "parsed/Vocaloid_Miku(Fumo)",
+  "source": {
+    "path": "_Vocaloid-UTAU/Vocaloid_Miku(Fumo).ysm",
+    "type": "ysm",
+    "stem": "Vocaloid_Miku(Fumo)"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Vocaloid_Miku(Fumo)"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Vocaloid_Miku_Fumo_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 24450,
+      "sha256": "9c83bafe0e2461b9f2bb848abbff4d63731b84621848105e27950a2f4b482d12"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 709773,
+    "sha256": "cdfd9aa82c66fc7584b116bc921b9bf6fdee62b62d4c2e8c15d781e5a3355e69",
+    "bones": 240,
+    "cubes": 443,
+    "faces": 2658,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 18262,
+      "sha256": "09af54a80cc3a70d4b5b30e218d98ea2e6a1ede5a688cbdf8dd32572b9ea5bc7"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 377774,
+      "sha256": "837838cfdf38616d2bcab598a0d7bc7a4a27bec660300643ffa00f8f58b47f57"
+    },
+    {
+      "path": "main.json",
+      "size": 260940,
+      "sha256": "8cce19d64e1ab378a552d93aaa08cae59063490585b21b1396349ce0c245032f"
+    },
+    {
+      "path": "texture.png",
+      "size": 52797,
+      "sha256": "1915d33e5d3f1103f1a4d10106ec92a5f2ee7dc3331fa989e4653c0c49b3cb4f"
+    }
+  ]
+}

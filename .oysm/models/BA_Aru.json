@@ -1,0 +1,140 @@
+{
+  "id": "BA_Aru",
+  "path": "parsed/BA_Aru",
+  "source": {
+    "path": "_BlueArchive/BA_Aru.ysm",
+    "type": "ysm",
+    "stem": "BA_Aru"
+  },
+  "ysm": "parsed/BA_Aru/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/哥斯拉.png",
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少",
+        "contact": {
+          "Afdian": "https://afdian.net/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "name": "哥斯拉",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/YoosPerson.png",
+        "comment": "U want a piece of me, boy?",
+        "name": "YoosPerson",
+        "role": "舞蹈动画支持"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.net/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "陆八魔 阿露",
+    "tips": "格黑娜学园所属，自称便利屋68社长。\n作为格黑娜学园的社团活动，阿露喜欢以便利屋68为据点，从事一些不法行当。\n阿露虽然十分向往成为一位帅气的黑帮分子，但因为经常做事错漏百出，所以总是很快就暴露无遗。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "",
+      "extra8": "加州女孩"
+    },
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "extra": "animations/extra.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/aru.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Aru_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10076,
+      "sha256": "400c50af7c1170312b6d4f4915cb4999e955d33a86e41a74372532e3523a23e0"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 857368,
+    "sha256": "b23c106478b08e4427e7f86009aed07be707c41ea00441849d416b46e8ff3cc7",
+    "bones": 118,
+    "cubes": 343,
+    "faces": 2058,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/extra.animation.json",
+      "size": 297021,
+      "sha256": "f02103567506272dbdde9ca9407ae8f943459a43a6bc01699880f3d26da19e36"
+    },
+    {
+      "path": "avatar/YoosPerson.png",
+      "size": 311188,
+      "sha256": "252381f7fa8b4a82de973d1532d8740da4535dfb0623b83f862e903d2fbcd87b"
+    },
+    {
+      "path": "avatar/哥斯拉.png",
+      "size": 19374,
+      "sha256": "6cd420a5238d37083afb1a43736ae8f862dfb9d9065c1ae1895c2ee20071333c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 4762,
+      "sha256": "a9f6da303e0ed47a6cc1b9183951e766819c131c2366fcc1d8f1f53281248f0f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 184443,
+      "sha256": "43fbf638725c4536e8df3d7ecb6650fa7bb80b0379995dfc4a5f5dc9e6319c86"
+    },
+    {
+      "path": "textures/aru.png",
+      "size": 39253,
+      "sha256": "8bec90b03d9bded664a9404f72047881a63e361d084fab8caf30fd53101acb92"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1327,
+      "sha256": "1f6ec28f7583317e37e05b07d363d612cedb72107326d75783e59caa2c86ca8f"
+    }
+  ]
+}

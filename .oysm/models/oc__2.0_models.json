@@ -1,0 +1,61 @@
+{
+  "id": "oc_斯塔2.0/models",
+  "path": "parsed/oc_斯塔2.0/models",
+  "source": {
+    "path": "Unknown/oc_斯塔2.0.zip",
+    "type": "zip",
+    "stem": "oc_斯塔2.0",
+    "model_path": "oc_斯塔2.0/models"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "models"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": []
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 3,
+    "total_bytes": 17049213,
+    "sha256": "8041bf61d15410498081dd8c2006358fabf99ebd771cf8be29c50c8ac7f774af",
+    "bones": 534,
+    "cubes": 4559,
+    "faces": 26720,
+    "textures": 0,
+    "materials": 0,
+    "animations": 0,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 13485,
+      "sha256": "dc370bbd40b685dcbd7f6f2098e534dd588bb5dd98aa33122dda93ac1f785659"
+    },
+    {
+      "path": "main.bbmodel",
+      "size": 14643146,
+      "sha256": "e442d8ac01388b1d65cc849631b36fa3980eeea61aa401b01817a31947d1d570"
+    },
+    {
+      "path": "main.json",
+      "size": 2392582,
+      "sha256": "dff971b7ba33372242c6df39fd5dd53906bd2bb10cf11f4fac76c3a967cd7773"
+    }
+  ],
+  "preview_errors": [
+    {
+      "type": "image",
+      "error": "TypeError: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'"
+    }
+  ]
+}

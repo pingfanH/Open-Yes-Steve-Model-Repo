@@ -1,0 +1,78 @@
+{
+  "id": "HSR_Dr-Ratio",
+  "path": "parsed/HSR_Dr-Ratio",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Dr-Ratio.zip",
+    "type": "zip",
+    "stem": "HSR_Dr-Ratio"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "HSR_Dr-Ratio"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "skin.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Dr-Ratio_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7600,
+      "sha256": "ca01161e6f3abba97f90076c6f63aa0df2369e060a2da398e146b1d259ef9e5a"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 414568,
+    "sha256": "23ff1f4ea4ee159470e01c9ef06c2b92149a486d77a6a203ca42abddb103f94a",
+    "bones": 101,
+    "cubes": 455,
+    "faces": 2730,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 59586,
+      "sha256": "91af2cf9c14504252be2db984638265deb6ef887de90973392817447bc6b09d9"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 115381,
+      "sha256": "80c373d19a7e13f31e3fdfa550e935d345bf9f513c348abec45863006bd56d0a"
+    },
+    {
+      "path": "main.json",
+      "size": 213327,
+      "sha256": "90f0e24cbc39c3eec0ca19f921d958e794d46bd9db33f060de02020cc8707088"
+    },
+    {
+      "path": "skin.png",
+      "size": 26274,
+      "sha256": "f14c01c235c25021a80cca59fb7a6ac5da84ecb6f45fede68d094f7bb184d181"
+    }
+  ]
+}

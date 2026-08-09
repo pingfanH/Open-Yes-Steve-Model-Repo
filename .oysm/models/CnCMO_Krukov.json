@@ -1,0 +1,106 @@
+{
+  "id": "CnCMO_Krukov",
+  "path": "parsed/CnCMO_Krukov",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCMO_Krukov.ysm",
+    "type": "ysm",
+    "stem": "CnCMO_Krukov"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "库可夫",
+    "tips": "出自《红警2》mod《心灵终结》\n‘‘我是核弹，我很狂野’’",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCMO_Krukov_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8396,
+      "sha256": "682c3fede5fa303e1fb5f9c173763f95665898b61abb8e533eab7b00d6b42206"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 515948,
+    "sha256": "37cd7ea97ccf9384fb04412fc10eadcc47ba2d8a8f44565ca5ebc3e8717a8c86",
+    "bones": 44,
+    "cubes": 187,
+    "faces": 1122,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 136637,
+      "sha256": "f795d670b8e2553548348161425e21c7a8f4c2b78d4602d33c8ccc1f03f537b3"
+    },
+    {
+      "path": "arm.json",
+      "size": 11715,
+      "sha256": "cb5815db91c979bfc0f4a17b915a162bfe786404a8b77867005a65fe7a853033"
+    },
+    {
+      "path": "info.json",
+      "size": 208,
+      "sha256": "b9d858b9966594c2d1fbd4e43133115c98d5534bbbe95adc6adb0cb355d0d19e"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122881,
+      "sha256": "381268c6657e6a4deb4e0da333edbe283cd6c74dee615d623587d3e70aa4c2d8"
+    },
+    {
+      "path": "main.json",
+      "size": 85482,
+      "sha256": "55b4c244c1415defce5bb1b39bd7882c84f1a11509d84c8acc658564fda5af45"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 136175,
+      "sha256": "8cb25edd9d3f085e23d0eb7b8b7695f3cc3126e020e2685305f49da03b583321"
+    },
+    {
+      "path": "texture.png",
+      "size": 22850,
+      "sha256": "22d509b22e5f22de49dd8e93335c6cb1703605e706246a18fde0dc86885e3284"
+    }
+  ]
+}

@@ -1,0 +1,532 @@
+{
+  "id": "NagaU_Kemomimi",
+  "path": "parsed/NagaU_Kemomimi",
+  "source": {
+    "path": "_Naga-U/NagaU_Kemomimi.ysm",
+    "type": "ysm",
+    "stem": "NagaU_Kemomimi"
+  },
+  "ysm": "parsed/NagaU_Kemomimi/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/棒锤锤QWQ，蓝玫瑰.png",
+        "comment": "摸鱼中",
+        "contact": {
+          "Afdian": "https://afdian.net/a/bbc6868",
+          "Bilibili": "https://b23.tv/kQRlwMc"
+        },
+        "name": "棒锤锤QWQ，蓝玫瑰",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://mall.bilibili.com/neul-next/index.html?noTitleBar=1&page=mall-up_shop&shopId=657815&from=shop_share&msource=shop_share",
+      "home": " https://b23.tv/kQRlwMc"
+    },
+    "name": "兽耳酱",
+    "tips": "严禁商用与复制§a(Prohibition of Reproduction and Commercial Use\n此模型不会在任何公共区域分享§a(如论坛，咸鱼，群文件),§e如有发现请和作者上报\n§4禁止以辛苦费，整理费之类为由进行模型整合出售\n§4【此为免费模型，严禁任何收费行为，请举报收费者】"
+  },
+  "properties": {
+    "width_scale": 0.75,
+    "height_scale": 0.75,
+    "extra_animation": {
+      "extra0": "站街",
+      "extra1": "#常服配置1",
+      "extra2": "#常服配置2",
+      "extra3": "#换装",
+      "extra4": "#面部调整",
+      "extra7": "#眼睛调整",
+      "#休闲动作": "休闲动作",
+      "#动画动作": "动画动作"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "常服配置1",
+        "name": "常服配置1",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "大小",
+            "description": "",
+            "value": "v.player_size",
+            "step": 0.1,
+            "min": 0.2,
+            "max": 10.0
+          },
+          {
+            "type": "range",
+            "title": "X大小",
+            "description": "",
+            "value": "v.X1",
+            "step": 0.1,
+            "min": 0.2,
+            "max": 10.0
+          },
+          {
+            "type": "range",
+            "title": "Y大小",
+            "description": "",
+            "value": "v.Y2",
+            "step": 0.1,
+            "min": 0.2,
+            "max": 10.0
+          },
+          {
+            "type": "range",
+            "title": "Z大小",
+            "description": "",
+            "value": "v.Z3",
+            "step": 0.1,
+            "min": 0.2,
+            "max": 10.0
+          },
+          {
+            "type": "radio",
+            "title": "常服切换",
+            "description": "",
+            "value": "v.roaming.huanse",
+            "labels": {
+              "默认": "v.roaming.huanse=0;",
+              "默认2": "v.roaming.huanse=1;",
+              "灰色": "v.roaming.huanse=2;",
+              "黛蓝色": "v.roaming.huanse=3;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "裙子切换",
+            "description": "",
+            "value": "v.roaming.qunzi",
+            "labels": {
+              "红色": "v.roaming.qunzi=0;",
+              "绿色": "v.roaming.qunzi=1;",
+              "黛蓝1": "v.roaming.qunzi=2;",
+              "黛蓝2": "v.roaming.qunzi=3;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "毛色切换",
+            "description": "",
+            "value": "v.roaming.hair",
+            "labels": {
+              "米色": "v.roaming.hair=0;",
+              "红色": "v.roaming.hair=1;",
+              "蓝色": "v.roaming.hair=2;",
+              "粉色": "v.roaming.hair=3;",
+              "银色": "v.roaming.hair=4;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "瞳色切换",
+            "description": "",
+            "value": "v.roaming.eye",
+            "labels": {
+              "红色": "v.roaming.eye=0;",
+              "蓝色": "v.roaming.eye=1;",
+              "黄色": "v.roaming.eye=2;",
+              "绿色": "v.roaming.eye=3;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "肤色切换",
+            "description": "",
+            "value": "v.roaming.pifu",
+            "labels": {
+              "肉色": "v.roaming.pifu=0;",
+              "晒黑": "v.roaming.pifu=1;"
+            }
+          }
+        ]
+      },
+      {
+        "id": "常服配置2",
+        "name": "常服配置2",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "发簪切换",
+            "description": "",
+            "value": "v.roaming.zhanzi",
+            "labels": {
+              "棕色": "v.roaming.zhanzi=0;",
+              "蓝色": "v.roaming.zhanzi=1;",
+              "红色": "v.roaming.zhanzi=0;",
+              "黄色": "v.roaming.zhanzi=0;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "项圈切换",
+            "description": "",
+            "value": "v.roaming.xiangquan",
+            "labels": {
+              "棕色": "v.roaming.xiangquan=0;",
+              "红色": "v.roaming.xiangquan=1;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "衣领切换",
+            "description": "",
+            "value": "v.roaming.yiling",
+            "labels": {
+              "白/红": "v.roaming.yiling=0;",
+              "白/绿": "v.roaming.yiling=1;",
+              "蓝/白": "v.roaming.yiling=2;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "领带切换",
+            "description": "",
+            "value": "v.roaming.lingdai",
+            "labels": {
+              "黄色": "v.roaming.lingdai=0;",
+              "粉色": "v.roaming.lingdai=1;",
+              "暗红色": "v.roaming.lingdai=2;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "袜子切换",
+            "description": "",
+            "value": "v.roaming.wazi",
+            "labels": {
+              "白色": "v.roaming.wazi=0;",
+              "黑色": "v.roaming.wazi=1;",
+              "脱掉": "v.roaming.wazi=2;",
+              "绿色": "v.roaming.wazi=3;",
+              "黑丝": "v.roaming.wazi=4;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "常服预设",
+            "description": "",
+            "value": "v.roaming.huanse;v.roaming.qunzi;v.roaming.hair;v.roaming.eye;v.roaming.pifu;v.roaming.zhanzi;v.roaming.wazi;",
+            "labels": {
+              "1P": "v.roaming.huanse=0;v.roaming.qunzi=0;v.roaming.hair=0;v.roaming.eye=0;v.roaming.pifu=0;v.roaming.zhanzi=0;v.roaming.wazi=0;v.roaming.yiling=0;v.roaming.lingdai=0",
+              "2P": "v.roaming.huanse=1;v.roaming.qunzi=1;v.roaming.hair=1;v.roaming.eye=1;v.roaming.pifu=0;v.roaming.zhanzi=1;v.roaming.wazi=1;v.roaming.yiling=1;v.roaming.lingdai=0",
+              "3P": "v.roaming.huanse=2;v.roaming.qunzi=2;v.roaming.hair=2;v.roaming.eye=2;v.roaming.pifu=1;v.roaming.zhanzi=2;v.roaming.wazi=2;v.roaming.yiling=2;v.roaming.lingdai=1",
+              "4P": "v.roaming.huanse=3;v.roaming.qunzi=3;v.roaming.hair=3;v.roaming.eye=3;v.roaming.pifu=0;v.roaming.zhanzi=3;v.roaming.wazi=3;v.roaming.yiling=3;v.roaming.lingdai=2"
+            }
+          }
+        ]
+      },
+      {
+        "id": "换装",
+        "name": "换装",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "换装",
+            "description": "",
+            "value": "v.roaming.yf",
+            "labels": {
+              "常服": "v.roaming.yf=0;v.roaming.wazi=0",
+              "兔女郎": "v.roaming.yf=1;v.roaming.wazi=4",
+              "巫女服": "v.roaming.yf=2;v.roaming.wazi=0"
+            }
+          }
+        ]
+      },
+      {
+        "id": "面部调整",
+        "name": "面部调整",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "瞳孔开关",
+            "description": "",
+            "value": "v.roaming.tk",
+            "labels": {
+              "关闭瞳孔": "v.roaming.tk=0",
+              "打开瞳孔": "v.roaming.tk=1"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "脸型切换",
+            "description": "",
+            "value": "v.roaming.lx",
+            "labels": {
+              "尖脸": "v.roaming.lx=0;v.roaming.lx1=0",
+              "方脸": "v.roaming.lx=1;v.roaming.lx1=-0.25"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "情绪",
+            "description": "",
+            "value": "v.roaming.fh",
+            "labels": {
+              "无": "v.roaming.fh=0",
+              "怒": "v.roaming.fh=1",
+              "?": "v.roaming.fh=2",
+              "尴尬": "v.roaming.fh=3",
+              "汗": "v.roaming.fh=4"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "眼睛切换",
+            "description": "",
+            "value": "v.roaming.bqeye",
+            "labels": {
+              "正常": "v.roaming.bqeye=0",
+              "眼睛1": "v.roaming.bqeye=1",
+              "眼睛2": "v.roaming.bqeye=2",
+              "眼睛3": "v.roaming.bqeye=3",
+              "眼睛4": "v.roaming.bqeye=4",
+              "眼睛5": "v.roaming.bqeye=5",
+              "眼睛6": "v.roaming.bqeye=6",
+              "眼睛7": "v.roaming.bqeye=7",
+              "眼睛8": "v.roaming.bqeye=8",
+              "眼睛9": "v.roaming.bqeye=9"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "眼睛切换",
+            "description": "",
+            "value": "v.roaming.bqmouth",
+            "labels": {
+              "正常": "v.roaming.bqmouth=0",
+              "嘴巴1": "v.roaming.bqmouth=1",
+              "嘴巴2": "v.roaming.bqmouth=2",
+              "嘴巴3": "v.roaming.bqmouth=3",
+              "嘴巴4": "v.roaming.bqmouth=4",
+              "嘴巴5": "v.roaming.bqmouth=5",
+              "嘴巴6": "v.roaming.bqmouth=6",
+              "嘴巴7": "v.roaming.bqmouth=7",
+              "嘴巴8": "v.roaming.bqmouth=8",
+              "嘴巴9": "v.roaming.bqmouth=9"
+            }
+          }
+        ]
+      },
+      {
+        "id": "眼睛调整",
+        "name": "眼睛调整",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "眉毛角度",
+            "description": "",
+            "value": "v.roaming.meimao",
+            "labels": {
+              "无": "v.roaming.meimao=0",
+              "生气": "v.roaming.meimao=1",
+              "悲伤": "v.roaming.meimao=2",
+              "无聊": "v.roaming.meimao=3"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "休闲动作",
+        "extra_animation": {
+          "extra8": "坐下",
+          "extra9": "躺下",
+          "extra10": "趴下"
+        }
+      },
+      {
+        "id": "动画动作",
+        "extra_animation": {
+          "extra11": "四足形态",
+          "extra12": "老鼠舞",
+          "extra13": "蓝蓝路",
+          "extra14": "doodle舞",
+          "extra17": "扭腰",
+          "extra18": "开车车",
+          "extra15": "舞蹈1",
+          "extra16": "舞蹈2"
+        }
+      }
+    ],
+    "preview_animation": "角色选择动画",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture1.png"
+        },
+        {
+          "uv": "textures/texture2.png"
+        },
+        {
+          "uv": "textures/texture3.png"
+        },
+        {
+          "uv": "textures/texture4.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/NagaU_Kemomimi_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10174,
+      "sha256": "d897faf2a756054889abd5a7e05c0a891d6577ed9f529e4d096b6db0f189c642"
+    }
+  },
+  "stats": {
+    "file_count": 20,
+    "total_bytes": 15716668,
+    "sha256": "c2b3d77f3ea48ff942d062e6933f5a5b14b8863a49957fa3803d75b9473ac99f",
+    "bones": 381,
+    "cubes": 2000,
+    "faces": 12000,
+    "textures": 4,
+    "materials": 4,
+    "animations": 6,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 177956,
+      "sha256": "154ee815e3dd091ddd4d32ab09689fb84d076dd839b28a92a08391887b0f2cc4"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1093,
+      "sha256": "2ff88c8254a3847a758cf2fdd440ca804f09d7b03f8836c263457f11c6f60417"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "6e8d3afe0c3baafff8f7f3e0e30ef3c621c667be5c346af73398f5fd3cb89ca5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 238445,
+      "sha256": "778d1e70252353bf77bfde487b2fb2c69652eeb92246908dfa3961a0158f58c5"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 244554,
+      "sha256": "cad8d203e1f0ad7c8011c4d46c837d287bb49093b856f6e2bd55df95fee73865"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "avatar/棒锤锤QWQ，蓝玫瑰.png",
+      "size": 897337,
+      "sha256": "d37f2e652b4d4af3fdb459ca34f265a8834fe6ab542e609b556de6078199616c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 35728,
+      "sha256": "e18d2329448017afca3683ee9a63a9059ba0036a73de73e4be926f97376fd18e"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 3411,
+      "sha256": "104a571a270c82a7eb961f7c609e57c90658f3369ae613e0ec5221b5d7941438"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1056381,
+      "sha256": "ee8f34ca2a661cc4dcfdac143cf4be31cf066382a5d4de68249209168d90b212"
+    },
+    {
+      "path": "sounds/1.ogg",
+      "size": 4131767,
+      "sha256": "31aeb33743c5719b27c119c852daa3934a0beaaaf3836de900d0bb2481e667b7"
+    },
+    {
+      "path": "sounds/2.ogg",
+      "size": 2726581,
+      "sha256": "6fb707c675908045540c335320a597e374b3a2feb4fd542cf43d7698324b1229"
+    },
+    {
+      "path": "sounds/3.ogg",
+      "size": 3610874,
+      "sha256": "7ee3c4a0c4bee8c1ee20bfe04e3f7eddddd5de86d96359b36359ee26228ad0bc"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1558,
+      "sha256": "f1ad04a8c9f548f9f087e9271e3834493e15d9101aa987d8e4219f199ac271ee"
+    },
+    {
+      "path": "textures/texture1.png",
+      "size": 256676,
+      "sha256": "135ee3f78f05102a63cbba90f95cfd55e6014d653ebed39fab46c879a135f0c4"
+    },
+    {
+      "path": "textures/texture2.png",
+      "size": 39396,
+      "sha256": "cd4a439e43721e88b9937d3b6f4e9d8ffd032db0fbc3d7c9bd23f811fb454d6c"
+    },
+    {
+      "path": "textures/texture3.png",
+      "size": 39543,
+      "sha256": "b5977b10e85911d86abb9e4893c5e9e8b60ad50f062f3528d5e80c5c5247c6d8"
+    },
+    {
+      "path": "textures/texture4.png",
+      "size": 39256,
+      "sha256": "a8dd11a83012ea499a8d4fe119a86c271778ecbc85f1964cffb22c8e6b789a61"
+    },
+    {
+      "path": "ysm.json",
+      "size": 7638,
+      "sha256": "c29c79769c00bdb8d3b6db640fd54b3f494f43f9a8c84aad96e827ebd1ce65bf"
+    }
+  ]
+}

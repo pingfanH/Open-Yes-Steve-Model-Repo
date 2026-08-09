@@ -1,0 +1,266 @@
+{
+  "id": "BA_Fuuka_v1.1.1",
+  "path": "parsed/BA_Fuuka_v1.1.1",
+  "source": {
+    "path": "_BlueArchive/BA_Fuuka_v1.1.1.ysm",
+    "type": "ysm",
+    "stem": "BA_Fuuka_v1.1.1"
+  },
+  "ysm": "parsed/BA_Fuuka_v1.1.1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/筅袔.png",
+        "comment": "设计蚂蚁真好听",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/13098279"
+        },
+        "name": "筅袔",
+        "role": "模型&额外动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "name": "爱清枫香",
+    "tips": "就读于格黑娜学园，负责学生食堂管理的供餐部成员。每天早晨为格黑娜的学生们准备着巨量的食物，在格黑娜里属于非常少见的温柔又认真踏实的学生。烹饪手艺还不错，然而由于食堂人手长期不足，无法认真对待每道料理的缘故，她的烹饪水平常常被低估。尽管如此她从未气馁，每天都在为了能做出更美味的料理而脚踏实地地努力着。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra30": "#extra_config",
+      "extra0": "诹访大舞",
+      "extra1": "挥手",
+      "extra2": "拍手",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "extra5": "§e[♪]加油！",
+      "extra6": "摆手摇",
+      "extra7": "机械舞",
+      "extra8": "§e[♪]醉酒舞",
+      "extra9": "端锅",
+      "extra11": "做饭中~",
+      "extra12": "§e[♪]自我介绍",
+      "extra13": "烤光环",
+      "extra14": "枫香转啊转",
+      "extra15": "§e[♪]私货:§c一§6键§e播§a放§b设§3计§9蚂§5蚁"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "§9模型设置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "模型缩放：",
+            "description": "碰撞箱及视角不变，§m并非个人缩放装置",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.1,
+            "max": 10.0
+          },
+          {
+            "type": "checkbox",
+            "title": "围裙",
+            "description": "用来显示或隐藏围裙",
+            "value": "v.weiqun"
+          },
+          {
+            "type": "checkbox",
+            "title": "副手手持锅勺",
+            "description": "用来显示或隐藏锅勺",
+            "value": "v.shao"
+          },
+          {
+            "type": "checkbox",
+            "title": "死鱼眼",
+            "description": "用来显示或隐藏死鱼眼",
+            "value": "v.syy"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "chuchang",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Fuuka_v1.1.1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3839,
+      "sha256": "66a1a9f3decf682058ec2ab9d353c2805b69a7f997d996767b53402b011feff3"
+    }
+  },
+  "stats": {
+    "file_count": 22,
+    "total_bytes": 7561945,
+    "sha256": "eb5db8dd08409eb2043393b2b7ee709b2d5667b8a51b32d9318a8503eb95d29d",
+    "bones": 129,
+    "cubes": 581,
+    "faces": 3486,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 131166,
+      "sha256": "0ff83f5a5151238c627b0740366d0ea1c2ebabc5d0402095b12e20decc86e40a"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 197493,
+      "sha256": "306c1e23daeb9029f22b3ae1069321372e373caed58833d174f62bedec6497ac"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 130638,
+      "sha256": "170dcd9532f9880c365aafce3d52792de6848afce347e35006eb771d3a9975ee"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 164888,
+      "sha256": "b3ec09c8da9482e5ebbb377237438f88b9ea221ab3004d4bee9d8a9d8098f879"
+    },
+    {
+      "path": "avatar/筅袔.png",
+      "size": 836947,
+      "sha256": "bd9db11b9927333728f9ef0722a9578c79c190df4652f5e79f2e90597c65b2bc"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 13300,
+      "sha256": "93807145ceabaf7042d7cf25831c8d6507e1fd0ad2379f69993309d939fc7246"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 6900,
+      "sha256": "e04e4e217dca34aea3cb6a773c26f82d4b285368303a741cd11d9424253e40a4"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 3463,
+      "sha256": "65aaa033f2274866700d0ff9ba45541e451ab41818d8f2e85e84ba9fc4d1ee42"
+    },
+    {
+      "path": "models/main.json",
+      "size": 309893,
+      "sha256": "5ee7b0bf12ca83732ab1cb69fbd259366306e8b887c3df73c550bd441351dda4"
+    },
+    {
+      "path": "sounds/designant.ogg",
+      "size": 2935941,
+      "sha256": "80a53a8803713e0e03e1a26424898a6c9d1daa49c1568e18d92b60f537e83d4c"
+    },
+    {
+      "path": "sounds/jiayou.ogg",
+      "size": 40115,
+      "sha256": "f5b3f919c3d8e53f66dfd3ee2280ab6e067aa5e3bba357c29e5a524d8b394a66"
+    },
+    {
+      "path": "sounds/xvanze.ogg",
+      "size": 35203,
+      "sha256": "e515e2e953c509ce1a84111adac5d5bf1a7d743cc95d90ffa1eeb8d1bcf225a7"
+    },
+    {
+      "path": "sounds/ziwojieshao.ogg",
+      "size": 102733,
+      "sha256": "1db1a7428e61232fa28d7c8137af22c235b093cc854591cad7b33dadc26b8366"
+    },
+    {
+      "path": "sounds/zuijiuwu.ogg",
+      "size": 349509,
+      "sha256": "cdc05ccebd5813169a9e0f67b4d168621f74dd46a801485617df3978192ccdc3"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 4744,
+      "sha256": "968db88b680fd2c1914b1e4d6ee335f153509eb7d5481c2dd856efaf54519ad1"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 51808,
+      "sha256": "9f18e3619f6c9cfc451fa7e336a85b3157daa0a40cee0ab6fd37a4390073fbee"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2650,
+      "sha256": "5acdea2208e8735ca8e25130c6da1f6897f4aa186428c519b63e2624faa10c49"
+    }
+  ]
+}

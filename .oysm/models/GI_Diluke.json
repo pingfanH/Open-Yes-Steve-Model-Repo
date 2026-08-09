@@ -1,0 +1,78 @@
+{
+  "id": "GI_Diluke",
+  "path": "parsed/GI_Diluke",
+  "source": {
+    "path": "_GenshinImpact/GI_Diluke.ysm",
+    "type": "ysm",
+    "stem": "GI_Diluke"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "GI_Diluke"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "normal.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Diluke_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 14743,
+      "sha256": "6a5a71d3e86e24e0396eb5396bea35cfed694c992468d0e39f209845794c9871"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 843056,
+    "sha256": "a26ab6705c2c77ba59481b130f02b1fbc3a24c443e5d4f0c59e26a90ef7ebae7",
+    "bones": 68,
+    "cubes": 842,
+    "faces": 5052,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 95003,
+      "sha256": "173250df000bb0b1da73f0cd64a47c06cb7519c570764017f35e3f396e8d408d"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 370747,
+      "sha256": "7529aff0ce1311d7deac19c1dd3a1b575e43ceb09038fee93e3029c1dd381efa"
+    },
+    {
+      "path": "main.json",
+      "size": 358638,
+      "sha256": "bba5960787d95f960a4870d9e9df900fb3e035dfc560f6856a463188e73a3cfa"
+    },
+    {
+      "path": "normal.png",
+      "size": 18668,
+      "sha256": "f515ea3a0f57500b3f5325d4739bdae522cb31cf9ff154a1e67efb8e665ea213"
+    }
+  ]
+}

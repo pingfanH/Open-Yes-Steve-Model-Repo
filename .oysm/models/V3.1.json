@@ -1,0 +1,322 @@
+{
+  "id": "魔法酒狐V3.1",
+  "path": "parsed/魔法酒狐V3.1",
+  "source": {
+    "path": "Unknown/魔法酒狐V3.1.ysm",
+    "type": "ysm",
+    "stem": "魔法酒狐V3.1"
+  },
+  "ysm": "parsed/魔法酒狐V3.1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/哥斯拉.png",
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "name": "哥斯拉",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/星屑海螺.png",
+        "comment": "漂泊于群星之中",
+        "contact": {
+          "Afdian": "https://afdian.com/a/lucia2048",
+          "Bilibili": "https://space.bilibili.com/14975572"
+        },
+        "name": "星屑海螺",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/浅陌菌.png",
+        "comment": "最美好的前途，可不要对我冷酷",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/14975572"
+        },
+        "name": "浅陌菌",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/祸御神.png",
+        "comment": "五十代精神病人",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/164557734"
+        },
+        "name": "祸御神",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/羊毛.png",
+        "comment": "喵喵喵喵",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/85335217"
+        },
+        "name": "羊毛",
+        "role": "音效/动画"
+      },
+      {
+        "avatar": "avatar/蓝玫瑰.png",
+        "comment": "8月24号，传奇永不落幕",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/11814817"
+        },
+        "name": "蓝玫瑰",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/星海ELIYA.png",
+        "comment": "繁星凝望着海洋，海洋拥抱着风帆。",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/66634439"
+        },
+        "name": "星海ELIYA",
+        "role": "模型/动画/纹理修改"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "魔女酒狐",
+    "tips": "来自星海的狐之魔女，传说她居住在一个薰衣草盛开的地方。\n（装备头盔可佩戴魔女帽，背后的法杖可通过轮盘动画隐藏。）\n（本模型为免费分享的二次创作模型，请勿用于商业用途）"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "变身",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "Get Down",
+      "extra4": "乱舞",
+      "extra5": "卖萌",
+      "extra6": "御笔摇",
+      "extra7": "舞蹈",
+      "": "#extra8"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra8",
+        "name": "隐藏/显示法杖",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "隐藏/显示法杖",
+            "description": "隐藏&显示",
+            "value": "v.roaming.B"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "preview_animation": "gui",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "tlm": "animations/tlm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/skin.png"
+        },
+        {
+          "uv": "textures/skin_fox.png"
+        },
+        {
+          "uv": "textures/skin_white.png"
+        },
+        {
+          "uv": "textures/skin_blood.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/V3.1_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8803,
+      "sha256": "e5c6e4be581490060bf0a87c32efbd95ae5eb130a1fa772b7dfb7ad62cdefa43"
+    }
+  },
+  "stats": {
+    "file_count": 26,
+    "total_bytes": 2990408,
+    "sha256": "b6e340f58a63f4c34618b03b96483f4fd81ee84ae38a0401eafcd4378262b57b",
+    "bones": 289,
+    "cubes": 1443,
+    "faces": 8649,
+    "textures": 4,
+    "materials": 4,
+    "animations": 6,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 186421,
+      "sha256": "88cefc1419d4671aa3a0d7235f92cbfb56c8efed3830cf65f97d79ed5a0eda05"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1138,
+      "sha256": "6ef6791b2b391fc30bb2f74f26eb09de94e2a382c535202f5d736eb89d37577d"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "6e8d3afe0c3baafff8f7f3e0e30ef3c621c667be5c346af73398f5fd3cb89ca5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 482404,
+      "sha256": "e4918c5e1fe85983a7a716dd136c161393d011628e82359ba10532a9be6ea5f2"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 298867,
+      "sha256": "6b57d2dd9957b67b1d45e746d7af61b16112b8815b002f9c64ba8badb4940858"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 158800,
+      "sha256": "8da3a8446d93f3ae4d1b52e56c382139efe34848a86c31cc9138cf9abda507cc"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 259971,
+      "sha256": "ab73c98af35f6be9eba9f0a7eaeeb0f5d00fddb4f1d54f39515503ff098cf882"
+    },
+    {
+      "path": "avatar/哥斯拉.png",
+      "size": 19374,
+      "sha256": "6cd420a5238d37083afb1a43736ae8f862dfb9d9065c1ae1895c2ee20071333c"
+    },
+    {
+      "path": "avatar/星屑海螺.png",
+      "size": 22406,
+      "sha256": "2c03d4213bddb87b0bc8d40b1cc32c059b0fe72a0bd6cc09613505a82e922f65"
+    },
+    {
+      "path": "avatar/星海ELIYA.png",
+      "size": 36057,
+      "sha256": "9935b9c8c7d0d15b99c37a28e764645c1daaeaa983a8469caccf42d965d31379"
+    },
+    {
+      "path": "avatar/浅陌菌.png",
+      "size": 7629,
+      "sha256": "576787a39e06abb526fabbfe67c30764b05a184af7b7eb085cca9170a912fc6b"
+    },
+    {
+      "path": "avatar/祸御神.png",
+      "size": 24566,
+      "sha256": "942e9db410642819dfb5ce6725d827f1d6993ff1725a51791efe1216aebe2e1a"
+    },
+    {
+      "path": "avatar/羊毛.png",
+      "size": 24751,
+      "sha256": "363dd32682776ef10a2d75b0f8766ce8f06db1d0fc7b161e015ecfd6b980d2e4"
+    },
+    {
+      "path": "avatar/蓝玫瑰.png",
+      "size": 9818,
+      "sha256": "da06a03dd36c2a197cca8df4cdb9152b7e8c4502889929999ec049559c9ec377"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 18940,
+      "sha256": "81700940d708a5b72159e98df91c91fe729fe4e397233c2293b86e817539a0d3"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 8392,
+      "sha256": "9efaf7bdeef8cbdfedf76b2e0d71fdd98a6bdcc9156ca6d672ef609acf401def"
+    },
+    {
+      "path": "models/main.json",
+      "size": 766855,
+      "sha256": "3cfb4e9271c47fcac734a28cbea8b9d5b76aae8ab8fa857656980cccb35b2972"
+    },
+    {
+      "path": "sounds/get_down.ogg",
+      "size": 109937,
+      "sha256": "4ce09669ffb074240d6cd7aa4379eac85cead846b5182da07a9788a5d51b9a18"
+    },
+    {
+      "path": "sounds/otoko_wa_tsurai_yo.ogg",
+      "size": 256808,
+      "sha256": "8f2d85baf0b00f5c101e9b8a1f907a75a01d31089e26ec2cbbbe579630ef280c"
+    },
+    {
+      "path": "sounds/zufolo_impazzito.ogg",
+      "size": 172286,
+      "sha256": "ee80cfe3f9ad70f2bd6b3b735d65c5c356c1119c67c8da4d812c838058ca6990"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 3352,
+      "sha256": "7e7152b789487f5985ca8eae0a26ccd8061b2eb7400bd086f29fbf34afcc1f31"
+    },
+    {
+      "path": "textures/skin.png",
+      "size": 29601,
+      "sha256": "e21a342dfe3621de53fad1521bf2f6af088e021d22e47e680d77531b776bac78"
+    },
+    {
+      "path": "textures/skin_blood.png",
+      "size": 28549,
+      "sha256": "2caea5dba1c9b1aebff3f556afb56f3f6075d03c62c1e0237d78dcfd42a808e3"
+    },
+    {
+      "path": "textures/skin_fox.png",
+      "size": 30675,
+      "sha256": "010c027f762111614a1df8cba0b7a4b9439d88338567d53dda6ce1d04aba97a4"
+    },
+    {
+      "path": "textures/skin_white.png",
+      "size": 27124,
+      "sha256": "01081d02f9c768105af9ef42ed9a519e8e6d6915c4ce259de18d9b841d6d355f"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3012,
+      "sha256": "1a16b4e7f0bfc265018c6cf957deeaee19cc8e0f474a4a9177c82c93d65be33c"
+    }
+  ]
+}

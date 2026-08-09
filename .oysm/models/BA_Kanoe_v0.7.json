@@ -1,0 +1,306 @@
+{
+  "id": "BA_Kanoe_v0.7",
+  "path": "parsed/BA_Kanoe_v0.7",
+  "source": {
+    "path": "_BlueArchive/BA_Kanoe_v0.7.ysm",
+    "type": "ysm",
+    "stem": "BA_Kanoe_v0.7"
+  },
+  "ysm": "parsed/BA_Kanoe_v0.7/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/哈雷汰多（羽毛汐）.png",
+        "comment": "曼波~",
+        "name": "哈雷汰多（羽毛汐）",
+        "role": "哈基米"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "板垣 カノエ",
+    "tips": "兴趣爱好：§b妄想\n§7狂猎艺术学院所属，致力于探究艺术中寄宿的神秘的神秘学研究会成员。\n身为研究会唯一的3年级生，却非会长而以支援者身份扶持其他成员。\n因其可疑外貌与行径，甚至有传闻称其本人就是活体神秘学现象……"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "立绘动作",
+      "extra13": "#部件调整",
+      "extra8": "闭眼",
+      "extra9": "静态咖啡厅动作",
+      "extra10": "§b很好吃的哦……",
+      "extra14": " §5      Ex技       §m铁锅炖自己",
+      "#moren": "默认动作"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "部件调整",
+        "name": "部件调整",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "开启黑脸",
+            "description": " ",
+            "value": "v.red_bow_heinian"
+          },
+          {
+            "type": "radio",
+            "title": "嘴部表情调整",
+            "description": "用来更改嘴部表情",
+            "value": "v.emoji_change",
+            "labels": {
+              "无": "v.emoji_change=0",
+              "普通": "v.emoji_change=1",
+              "笑1": "v.emoji_change=2",
+              "笑2": "v.emoji_change=3",
+              "脸红": "v.emoji_change=4",
+              "·o·": "v.emoji_change=5",
+              "痴笑1": "v.emoji_change=6",
+              "痴笑2'": "v.emoji_change=7",
+              "普通2": "v.emoji_change=8"
+            }
+          },
+          {
+            "type": "checkbox",
+            "title": "§b佩戴耳机",
+            "description": "(随便弄的后面会改)",
+            "value": "v.earphone"
+          },
+          {
+            "type": "checkbox",
+            "title": "§b开关瞳孔",
+            "description": "1",
+            "value": "v.tongkong"
+          },
+          {
+            "type": "checkbox",
+            "title": "§b瞳孔发光",
+            "description": "1",
+            "value": "v.glowtongkong"
+          },
+          {
+            "type": "checkbox",
+            "title": "§b穿脱外衣",
+            "description": "(随便弄的后面会改)",
+            "value": "v.waiyi"
+          },
+          {
+            "type": "checkbox",
+            "title": "腮红开关",
+            "description": "开关脸红选项",
+            "value": "v.emoji4"
+          },
+          {
+            "type": "range",
+            "title": "调整身高",
+            "description": "推荐1~1.1",
+            "value": "v.shengao",
+            "step": 0.01,
+            "min": 0.5,
+            "max": 2.0
+          },
+          {
+            "type": "range",
+            "title": "调整眉毛",
+            "description": "",
+            "value": "v.Eyebrow_y",
+            "step": 0.01,
+            "min": -0.15,
+            "max": 0.15
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "moren",
+        "extra_animation": {
+          "extra2": "鼓掌",
+          "extra3": "点头",
+          "extra4": "摇头",
+          "extra5": "占位符",
+          "extra6": "",
+          "extra7": ""
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/parallel_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture2.png"
+        }
+      ]
+    },
+    "vehicles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/vehicle/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Kanoe_v0.7_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 15081,
+      "sha256": "0c48840e65e8df0ea30c971b760cb6a83bfbad3c1dd3b457504fe2ab4e026a85"
+    }
+  },
+  "stats": {
+    "file_count": 20,
+    "total_bytes": 4370070,
+    "sha256": "e44b3ecef1ac35b224efbb1f18c1f37d1e5bb96bb8c90ebc4911d45d4bf6ee74",
+    "bones": 206,
+    "cubes": 2303,
+    "faces": 12143,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 186817,
+      "sha256": "d523fb931a4d0e482df07ee312ec9b38eee6a1f8ba72c3a9bab4be8aee0f5b57"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2257,
+      "sha256": "ee2515eab873dfd5804d6614dd64f8ae8312b94af348e0ea7d888637fe661a21"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 127950,
+      "sha256": "57e0cb0e352cae8dc7befd27d5b33a018887c70109f7823ab751b0bada0f148a"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 302306,
+      "sha256": "22f924ee545100de9a550711085246a15471ddc3e256c116b525e66d6dcc61f0"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139856,
+      "sha256": "39c7b69812994a0028ca6148063c4743a13153ede021d2fb370c840099843294"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 51290,
+      "sha256": "a22135c26a48448647ca5d9e612fd88a636af8ac43fcf0f9b3eabd36cc505852"
+    },
+    {
+      "path": "animations/vehicle/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "avatar/哈雷汰多（羽毛汐）.png",
+      "size": 3134,
+      "sha256": "18f541480f5810662c6c7057f97057edab8c8adaff3df2d3017b3fb9936c4419"
+    },
+    {
+      "path": "controller/parallel_controllers.json",
+      "size": 1323,
+      "sha256": "4927dfdfdf13f443d4e4378a78996af37fd547c003f3b33f617321bbb575f6f1"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 13168,
+      "sha256": "38589222a1202700aa8c67e8e7e7949dbdaaeaef804605dfe631736b7f262bed"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13752,
+      "sha256": "3afa51fa99152b689875ef25ca5853f92d4ccd0e44caf11d5ef58aa5413ccfbe"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1204654,
+      "sha256": "c745bb342724c971f1841aee008f4c06227dd695c5888d93bbcbaa1113ed08b9"
+    },
+    {
+      "path": "sounds/260251.ogg",
+      "size": 17535,
+      "sha256": "73454605462abdfe58bcce55018665fe46b73ff6b15580977629dc173967d023"
+    },
+    {
+      "path": "sounds/260251_a.ogg",
+      "size": 28590,
+      "sha256": "639230fbbe0d56c78e6dc4e784e607a9f25c94a36ef5772d85eadb9f678ebd46"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 854,
+      "sha256": "205e4da892496567b38d2d5fa9efa703c22e1c8e9ef2b0d7ecd32c5b0682fa3a"
+    },
+    {
+      "path": "textures/texture2.png",
+      "size": 27200,
+      "sha256": "e9457abc040ec8df31b53d9e2a526057975ff7ce82c6d980e591cd8baef0c018"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3268,
+      "sha256": "fcef356c1be13e1b42d3cbae45cadcb8f36ee9b8fce8f925f6ca010d04abd066"
+    }
+  ]
+}

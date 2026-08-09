@@ -1,0 +1,84 @@
+{
+  "id": "Idolmaster_Higuchi",
+  "path": "parsed/Idolmaster_Higuchi",
+  "source": {
+    "path": "_IdolMaster/Idolmaster_Higuchi.zip",
+    "type": "zip",
+    "stem": "Idolmaster_Higuchi"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Idolmaster_Higuchi"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture2.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Idolmaster_Higuchi_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3448,
+      "sha256": "826e09b014882f68f00a091af3c16093405f8d3d5af8206773bda4dd2c16d1b9"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 289614,
+    "sha256": "3431414e45f5db48ad0052f264639ac0f05fa35cdef0cd1db9cdef2366d98f3c",
+    "bones": 125,
+    "cubes": 342,
+    "faces": 2052,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 2419,
+      "sha256": "902ef4b7e1c4c08fcef025877a5bf1f67487d21e08272cf3f0cba4fe0df379c0"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 1111,
+      "sha256": "baef1763ef1c8e02935e6aa363a7b5350931ee42f181ff5a154758fda5624630"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 102492,
+      "sha256": "5361b80ba3f54e9914a1782eed14ed3234110f0734bbb6cbfee267e9030aa52c"
+    },
+    {
+      "path": "main.json",
+      "size": 173692,
+      "sha256": "d45180a5aa3b3fdbb9fbf0260a85a1b55dd8b579fff1453ed2aae7c4ed61d2db"
+    },
+    {
+      "path": "texture2.png",
+      "size": 9900,
+      "sha256": "c0e0e6e11b97a019192bb993e49090fb4df72100188fca1eeb2d408fabb96e64"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "_QQ",
+  "path": "parsed/_QQ",
+  "source": {
+    "path": "Uncategorized/_QQ.ysm",
+    "type": "ysm",
+    "stem": "_QQ"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_QQ"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/QQ_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7546,
+      "sha256": "fd3daef94ca1111fed5c0fed4508dfea4bfbeef37b54db02afb91b0dbb0e43f8"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 881059,
+    "sha256": "71cfcf2dd83e3921e01442abb6656cb005e169cfda28f728e34c11f6ebbfa53c",
+    "bones": 117,
+    "cubes": 400,
+    "faces": 2400,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 141952,
+      "sha256": "791dd5a6cb4fb00a2fce1c1e9979b7ef03e77f8e8c17affcb57d139242b957ee"
+    },
+    {
+      "path": "arm.json",
+      "size": 16714,
+      "sha256": "6003a876fb30ba483a43dd4fc71d2668870a37419d1775a7c1ee07b3a5605a2e"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 2712,
+      "sha256": "4f5e7ed844d6d85a5a0a97bb7a3bcce92307a1ead674f00bca412ec3425c6e4e"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 123165,
+      "sha256": "0a5d3f9c0562cc4d4032464fa5a4f9c4d80d0d7a218e780240d04c0b276f8c9a"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 198349,
+      "sha256": "404cc3d803de7fa94d98023e58fb83e5230b884c489ebb23c901c4e93188e4dd"
+    },
+    {
+      "path": "main.json",
+      "size": 211844,
+      "sha256": "e04250a4ca515e1a7e9dac1f1dbc2a154efdbd01fdc9b2a3b2da03f0d748ff03"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 166491,
+      "sha256": "bf4bf83e551931e5c96680adb07a540f182b4ecec6cb2792cba8d0cf9e890365"
+    },
+    {
+      "path": "texture.png",
+      "size": 19832,
+      "sha256": "d6ce25249a5c2742e26a43b54e248070dbb2133e84b54d6379160081265acfa5"
+    }
+  ]
+}

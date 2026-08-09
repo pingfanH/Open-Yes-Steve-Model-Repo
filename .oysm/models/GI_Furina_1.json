@@ -1,0 +1,125 @@
+{
+  "id": "GI_Furina_1",
+  "path": "parsed/GI_Furina_1",
+  "source": {
+    "path": "_GenshinImpact/GI_Furina_1.ysm",
+    "type": "ysm",
+    "stem": "GI_Furina_1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§9Furina de Fontaine§r（芙宁娜·德·枫丹）",
+    "tips": "不休独舞\n\n§4§l该模型为免费模型分享,请勿用于商业用途§r\n\n模型作者:§d墨染逝羽§r QQ:2663167496\n\n动画修改:§9星屑海螺§r QQ:741330261",
+    "authors": [
+      {
+        "name": "模型作者:§d墨染逝羽§r"
+      },
+      {
+        "name": "动画修改:§9星屑海螺§r"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "black.png",
+        "neko.png",
+        "white.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Furina_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13172,
+      "sha256": "e96304af846dfefb29c7e09d28bd990a1d6accfeb5f1b6bb38560fdb9d32035b"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 3509930,
+    "sha256": "d6d8d82495983638cc851d80e749533014b2d493066ec2939f7c98868683e246",
+    "bones": 216,
+    "cubes": 2497,
+    "faces": 14982,
+    "textures": 3,
+    "materials": 3,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 885548,
+      "sha256": "1a40818f5d7811929b67041766d61fc6490741c6eb7622b656ad27ce8ba7ffee"
+    },
+    {
+      "path": "arm.json",
+      "size": 46055,
+      "sha256": "f58ed130be8b18aeae4d590442f586b7906674b6b5ee48134743296de6c7ac49"
+    },
+    {
+      "path": "black.png",
+      "size": 46659,
+      "sha256": "90c42a6d6780ab1b4edd740f9b1ffe49078b0c054aa805951eb32d0eb32bf1cb"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 80137,
+      "sha256": "3b463af78f9be2578e2393e5ebabb1260800db724f59f6acb2d0b18a2d5b8945"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 901599,
+      "sha256": "efccfa8eb7c4ac01a1fb400f22dc5b3b13e7e1de2eeddca351aff6d83d2508f1"
+    },
+    {
+      "path": "main.json",
+      "size": 1297750,
+      "sha256": "47ae4bea5388e1dba087b42266eb2bc2fbf1db41d84245b3887e560b8c5156d6"
+    },
+    {
+      "path": "neko.png",
+      "size": 46539,
+      "sha256": "0b6768f71362c47177859803f425d78c6bc34e8a3dbcf7fceb62089941ad6a4d"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 157266,
+      "sha256": "c03cb9613aa5a9f19a9416760c372309e79f3d12cf1f23cfea0726dc5e825aa2"
+    },
+    {
+      "path": "white.png",
+      "size": 47497,
+      "sha256": "85ed2a057e96116f60781785e88bc32241df9b7abba1cdbdf10028ef675b63f9"
+    },
+    {
+      "path": "模型简介.txt",
+      "size": 880,
+      "sha256": "4cf2b3396a19da3b96a6ecdb7e151bed0acdfe37e8620acb15b0cd45c3f5412f"
+    }
+  ]
+}

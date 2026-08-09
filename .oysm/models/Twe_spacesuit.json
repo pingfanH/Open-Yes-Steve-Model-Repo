@@ -1,0 +1,84 @@
+{
+  "id": "Twe_spacesuit",
+  "path": "parsed/Twe_spacesuit",
+  "source": {
+    "path": "Unknown/Twe_spacesuit.ysm",
+    "type": "ysm",
+    "stem": "Twe_spacesuit"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Twe_spacesuit"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "normal_red.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Twe_spacesuit_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7838,
+      "sha256": "d29e4bacf2c2a8fbdddcebb974d01f8dbb43a5ddd7ce648d15ca49fde94dcb3a"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 201112,
+    "sha256": "bae938133f5395830a8aca1a0b618460d1a12d2b53fafbfaa75d237da173b6cb",
+    "bones": 35,
+    "cubes": 235,
+    "faces": 1410,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 4005,
+      "sha256": "3d9d93e22363e31c7683d0e6a3b0402981c7b11a52bc2ac7949a83183c151ac6"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 37657,
+      "sha256": "41096fa9f7fcdfd8d162a1697dfa214423d9ff6f4e28c6b58f978c85a846a9ea"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 113213,
+      "sha256": "3b31fb39b71c9139b9f101c1baf0ba9d87101d8ee9105bcc18e8a22ee7a7ca7a"
+    },
+    {
+      "path": "main.json",
+      "size": 35286,
+      "sha256": "f8ceb5e7f8a554f162e4f48ca3cd7fd2c09e6229f7f50239409bb88319011e2b"
+    },
+    {
+      "path": "normal_red.png",
+      "size": 10951,
+      "sha256": "2ba9698de488bfe9cde9b25c6e080be94718c32057997827cfb9244c49744224"
+    }
+  ]
+}

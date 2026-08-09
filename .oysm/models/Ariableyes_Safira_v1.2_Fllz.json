@@ -1,0 +1,227 @@
+{
+  "id": "Ariableyes_Safira_v1.2_Fllz",
+  "path": "parsed/Ariableyes_Safira_v1.2_Fllz",
+  "source": {
+    "path": "_Ariableyes/Ariableyes_Safira_v1.2_Fllz.ysm",
+    "type": "ysm",
+    "stem": "Ariableyes_Safira_v1.2_Fllz"
+  },
+  "ysm": "parsed/Ariableyes_Safira_v1.2_Fllz/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/哥斯拉.png",
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "name": "哥斯拉",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/端木一动不动.png",
+        "comment": "永远都在ing",
+        "name": "端木一动不动",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/甜粽子.png",
+        "comment": "(ᗜˬᗜ)",
+        "name": "甜粽子",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/星屑海螺.png",
+        "comment": "漂泊于群星之中",
+        "contact": {
+          "Afdian": "https://afdian.com/a/lucia2048",
+          "Bilibili": "https://space.bilibili.com/14975572"
+        },
+        "name": "星屑海螺",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/Fllz.png",
+        "comment": "Aku Ariableyes",
+        "contact": {
+          "Facebook": "https://www.facebook.com/asche.scheer",
+          "Linktree": "https://linktr.ee/fllz"
+        },
+        "name": "Fllz",
+        "role": "Author"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Safira",
+    "tips": "Yes"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ariableyes_Safira_v1.2_Fllz_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12316,
+      "sha256": "11484c2be79529d54197b52c354aefb197edd9ee2c28e62e67d8be7b98d8cdfb"
+    }
+  },
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 1663412,
+    "sha256": "7bc9d9d22a3c083faa2e78b3991cc7604cd6d7d3a03cb91909ab19a2e8cc8c71",
+    "bones": 218,
+    "cubes": 1424,
+    "faces": 8544,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 127178,
+      "sha256": "edfd4e42becf4f600481fa149178cc67897431b32d1b614e021c7cd6007d85f0"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2928,
+      "sha256": "c42c1c8cefd90e6eb58e8c949923593a8f2d007aa398186cb7d1ecc7756c1756"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 123165,
+      "sha256": "0a5d3f9c0562cc4d4032464fa5a4f9c4d80d0d7a218e780240d04c0b276f8c9a"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 152045,
+      "sha256": "805e057550119c26bb41264e3b013b886d594de5f33b679eb560fd397e4b3e9f"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 138067,
+      "sha256": "9a2d159dbb88addde0f90633af66199f517fc79269bb04bc602d9ef956dbc425"
+    },
+    {
+      "path": "avatar/Fllz.png",
+      "size": 31781,
+      "sha256": "6b36bb516fcbef3f427082ba6619a88750ef23fbdd71d93126f8ce55c8f583a5"
+    },
+    {
+      "path": "avatar/哥斯拉.png",
+      "size": 19374,
+      "sha256": "6cd420a5238d37083afb1a43736ae8f862dfb9d9065c1ae1895c2ee20071333c"
+    },
+    {
+      "path": "avatar/星屑海螺.png",
+      "size": 22406,
+      "sha256": "2c03d4213bddb87b0bc8d40b1cc32c059b0fe72a0bd6cc09613505a82e922f65"
+    },
+    {
+      "path": "avatar/甜粽子.png",
+      "size": 13575,
+      "sha256": "afbc4a0ad6483a06d38085e6ec7f55db706ce25cb1de636a1698faf2fc53d4a1"
+    },
+    {
+      "path": "avatar/端木一动不动.png",
+      "size": 22379,
+      "sha256": "3c431bb54f22ffb6bb153d5de92dee6831881419ed4135b517cc9abd32e44095"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 149446,
+      "sha256": "f2873b8d3ff49448aec8c78dbb4f273eda65c5cfcbd817371766dfe03f5bfc5f"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 25495,
+      "sha256": "aff2e3a80e7f03439790b07e7bc58dd03d187ae55b7494f2b33df8860fb22ba0"
+    },
+    {
+      "path": "models/main.json",
+      "size": 680062,
+      "sha256": "2865cad5842a982d9b7aa1a5f9cbfd79ddac78692a7379bdc5e3518919c98733"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 503,
+      "sha256": "47baeec05d8312a6e42d2d43210cf3c987554178ff2c8656840c1eafb5fba843"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 152871,
+      "sha256": "99dbcc209b89d11f30e7f6d6b9387509c730d84b4668ce77989c730284d266c5"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1802,
+      "sha256": "efe349e805c44caab82835ac17f78816b1f771456087c74bc0d623f31a6f6d14"
+    }
+  ]
+}

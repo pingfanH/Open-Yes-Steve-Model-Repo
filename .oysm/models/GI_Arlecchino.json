@@ -1,0 +1,174 @@
+{
+  "id": "GI_Arlecchino",
+  "path": "parsed/GI_Arlecchino",
+  "source": {
+    "path": "_GenshinImpact/GI_Arlecchino.ysm",
+    "type": "ysm",
+    "stem": "GI_Arlecchino"
+  },
+  "ysm": "parsed/GI_Arlecchino/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§c烈鸟比百.png",
+        "comment": "§7啦啦啦~",
+        "contact": {
+          "Afdian": "https://afdian.com/a/Aigoblin?tab=shop",
+          "Bilibili": "https://space.bilibili.com/20510758?spm_id_from=333.1007.0.0"
+        },
+        "name": "§c烈鸟比百",
+        "role": "§7动作"
+      },
+      {
+        "avatar": "avatar/§c寒叔.png",
+        "comment": "§7嘿嘿嘿~",
+        "contact": {
+          "Afdian": "https://afdian.com/a/Aigoblin?tab=shop",
+          "Bilibili": "https://space.bilibili.com/20510758?spm_id_from=333.1007.0.0"
+        },
+        "name": "§c寒叔",
+        "role": "§7模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/Aigoblin?tab=shop",
+      "home": "https://space.bilibili.com/20510758?spm_id_from=333.1007.0.0"
+    },
+    "name": "§4仆人-阿蕾奇诺",
+    "tips": "我是愚人众执行官第四席，「仆人」阿蕾奇诺，也是壁炉之家的孩子们口中的「父亲」。希望我们相处愉快——这并非什么难事，现在的我们还没有冲突的理由，不是吗？"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "切换脸型": "切换脸型"
+    },
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Arlecchino_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 16192,
+      "sha256": "d9b1d82169b99d157e6eb01f15b70738c8563348bb092d728625e91e3f1b2eaa"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 2133944,
+    "sha256": "09d8e4f78ac468d57a96e9322e85430ac4179d717573b98381745cfca60953dc",
+    "bones": 133,
+    "cubes": 2174,
+    "faces": 13044,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 31577,
+      "sha256": "c8477b3ab1e7f24250e3d0c49b0d79a72e372421e5f95b1a645086f0a48cc7f2"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "6e8d3afe0c3baafff8f7f3e0e30ef3c621c667be5c346af73398f5fd3cb89ca5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 693,
+      "sha256": "2798ff73a01e1dbb33c3fc209d8fd6bd30d1f0b728ec7cbf585351f756d03613"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 470399,
+      "sha256": "adfdea759a238e6da390469e35856d7f6dbddf900c41f4e60d61909035b672ee"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 118999,
+      "sha256": "86c174ce013475a02af283d7adbceb95d3e36a881f55a9501aaa1c1a2db9fe42"
+    },
+    {
+      "path": "avatar/§c寒叔.png",
+      "size": 162710,
+      "sha256": "28e19d6587eb8d647553eb54267c3793ea5f8a5de70d5b58314647b9d63257b5"
+    },
+    {
+      "path": "avatar/§c烈鸟比百.png",
+      "size": 37915,
+      "sha256": "7f6a5899c023a97b9315642e24f8d7ab96047014cb79fef3ab1631b06f63d872"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 162879,
+      "sha256": "bcbfe0db5d932cdcbbfb024c77b7e0e09079db371962763c29c91d2d9c82869c"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13423,
+      "sha256": "7e605f03efbf09f910136dd6d7428b3b57d416be110ef51c153d96e8c7dc686e"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1054240,
+      "sha256": "0a5156e98fd3081d468f25395ac45f1cbbaf28c7d1081bb14e1a2374a467254e"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 613,
+      "sha256": "aeabb5efc19dc3fe19bd5bd6f9727a0c467810c3fae08bffbb5d424c72049329"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 76296,
+      "sha256": "88ac57fbacf7289414df5160a93dfe8d3d50ca921c2e9591e8ac09e9f32c5d11"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1525,
+      "sha256": "90daf5b0cf1193d0255138cfccd891075a8b7fb98634c22a37982b1d4a427e1f"
+    }
+  ]
+}

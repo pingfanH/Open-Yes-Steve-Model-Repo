@@ -1,0 +1,110 @@
+{
+  "id": "Ak_Waiifu",
+  "path": "parsed/Ak_Waiifu",
+  "source": {
+    "path": "_Arknights/Ak_Waiifu.ysm",
+    "type": "ysm",
+    "stem": "Ak_Waiifu"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§6槐琥",
+    "tips": "§8不可脱阉割版",
+    "authors": [
+      {
+        "name": "§c烈鸟比百§8（模型）"
+      }
+    ],
+    "license": {
+      "type": "All Rights Reserved"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "normal.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Waiifu_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4309,
+      "sha256": "54796f33da7f7c7e47fe90a3f60fe92a5a5f4e33c10062927c17f3c46c08e548"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 2157770,
+    "sha256": "58416118373e2326485eddf079754759894b1b36cfc99c9dff8d04afbc3c15d7",
+    "bones": 119,
+    "cubes": 880,
+    "faces": 5280,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 61239,
+      "sha256": "5a1ab090b4dd98027e1fb18fa7317a74febf0d171e9aac00bc22a388629de67c"
+    },
+    {
+      "path": "arm.json",
+      "size": 48782,
+      "sha256": "2f2ceaaef4ef9bb2a99e9b2fd19880efc51b6fa95cba3386e325470030ec4a60"
+    },
+    {
+      "path": "attack.json",
+      "size": 63768,
+      "sha256": "001e9981f640d4204d26b44181393e11e25751dd69114b0e5f28003960b9b137"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 880998,
+      "sha256": "0d5e0e44ecd8457c5fbfb2d67a634d0dd40455a623fe5417e0eaede7c72b3459"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 471414,
+      "sha256": "9f01933c8f6b45f26d576a2b7f813960e7d27b91f52e8661efa774c213b82015"
+    },
+    {
+      "path": "main.json",
+      "size": 434694,
+      "sha256": "c1806baee0735a834e8a30918e50f07934a09b5275d124e3a55cb371ded36b7e"
+    },
+    {
+      "path": "normal.png",
+      "size": 25954,
+      "sha256": "3bfe43aafc539f86374dfd2edb60cd196a6cac6799a2d35317234bf75d6839e9"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 170921,
+      "sha256": "d41a53eafcf2fcde47a6865a580593eb5c2e6e91b2716a9ddfc15f994caf5c87"
+    }
+  ]
+}

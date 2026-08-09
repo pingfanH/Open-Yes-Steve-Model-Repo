@@ -1,0 +1,182 @@
+{
+  "id": "LibraryOfRuina_Myo_v.1.0",
+  "path": "parsed/LibraryOfRuina_Myo_v.1.0",
+  "source": {
+    "path": "_LibraryOfRuina/LibraryOfRuina_Myo_v.1.0.zip",
+    "type": "zip",
+    "stem": "LibraryOfRuina_Myo_v.1.0"
+  },
+  "ysm": "parsed/LibraryOfRuina_Myo_v.1.0/ysm.json",
+  "metadata": {
+    "name": "R公司第4集团军兔子队-缪",
+    "tips": "(BetaModel_0.1)Myo",
+    "license": {
+      "type": "R-4-Myo"
+    },
+    "authors": [
+      {
+        "name": "爱摆烂的野生保护废物",
+        "role": "模型",
+        "avatar": "avatar/gsriel.png",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/603131252"
+        },
+        "comment": "寄！"
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "大小: ",
+            "description": "改变玩家大小",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.5,
+            "max": 1
+          },
+          {
+            "type": "checkbox",
+            "title": "面部阴影",
+            "description": "极端狂化？（暂无特殊效果）",
+            "value": "v.shades"
+          },
+          {
+            "type": "checkbox",
+            "title": "头盔（暂未实装）",
+            "description": "预留位置，暂时不做（发布后该期视频播放量过千就做awa）",
+            "value": "v.helmets"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "preview_animation": "idle",
+    "disable_preview_rotation": false,
+    "default_texture": "textur",
+    "render_layers_first": false,
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "tac": "animations/tac.animation.json",
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "parcool": "animations/parcool.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controllers.json"
+      ],
+      "texture": [
+        "textures/texture.png"
+      ],
+      "sound_path": "sounds"
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/LibraryOfRuina_Myo_v.1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6579,
+      "sha256": "3c07d65bcf3fd00710f194d08040b89fe2e5836c2a1a70b9389c88cc51280df6"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 873600,
+    "sha256": "09fbcd72698683c79dde615be30f7005e9707516f6ecad8fb8866280a9a172da",
+    "bones": 79,
+    "cubes": 370,
+    "faces": 2195,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 233058,
+      "sha256": "8bb356be8e5629ae044decd5d1b55f351af0b38dbf5359c84144c438a6a93801"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 200014,
+      "sha256": "80f3329bf558b016ccb8984d0730eae343a9bfa32c88e5b766df7a0f992597a1"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 177517,
+      "sha256": "d4df617dc8a13b1911f8f8e21d7f2629614abd3b2a9e8dfa976247e3caee14c1"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 164086,
+      "sha256": "074200e6fb09614b935c57474191f3c584c07d89c10caafbd35ffcbda46472f1"
+    },
+    {
+      "path": "avatar/gsriel.png",
+      "size": 13824,
+      "sha256": "a824437258d0b9b4d3ffc5ae4c6132fdaf6827d3044126afbdf761acddaeb0e5"
+    },
+    {
+      "path": "controller/controllers.json",
+      "size": 4104,
+      "sha256": "ff70809f349c9edc9812012810723fd2e0580b41a5ac6e940255deafde58ccb3"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 2834,
+      "sha256": "2ff3f57d40e61d9a609a4df6c904a8e276d2ae6c456b1d1c192a4349d9622054"
+    },
+    {
+      "path": "models/main.json",
+      "size": 70159,
+      "sha256": "6656644a41960c1b60963d22fab0f69f74efeccd93bb1ca49ffab84a7b4df8da"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 5511,
+      "sha256": "2590f29e04f427d5ac4be2c8c4f7a947b4ff774653545dcf043c30587423012d"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2493,
+      "sha256": "88497c31d75492595b1037d763a37869bb18fe41528e076fcbde2ad05d1a905b"
+    }
+  ]
+}

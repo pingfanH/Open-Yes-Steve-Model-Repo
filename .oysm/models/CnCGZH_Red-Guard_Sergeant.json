@@ -1,0 +1,99 @@
+{
+  "id": "CnCGZH_Red-Guard(Sergeant)",
+  "path": "parsed/CnCGZH_Red-Guard(Sergeant)",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCGZH_Red-Guard(Sergeant).ysm",
+    "type": "ysm",
+    "stem": "CnCGZH_Red-Guard(Sergeant)"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "赤卫队（中士）",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCGZH_Red-Guard_Sergeant_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6074,
+      "sha256": "f46add0f9d66541b33ae760467bfa971eb6c2262bb0f07ca8c24850de5d39bca"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 362916,
+    "sha256": "ce49150067200634bafab40b67d437eb9c481cfdca74dd1b65b1f0025d445c53",
+    "bones": 43,
+    "cubes": 168,
+    "faces": 1008,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 9878,
+      "sha256": "29224a8c43a42406b7a5a6c8c10087e22f11a00b6ddbf95f3597b7f8dd7e5fde"
+    },
+    {
+      "path": "info.json",
+      "size": 139,
+      "sha256": "f7d4394fa7cbd12e9dc620e795fdf283e970a94b4302720ac1eada6c939d6c35"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122470,
+      "sha256": "d93402d24863ccd84622801424bb845d8ff78161fae9d48b7bbf0c3d213720c1"
+    },
+    {
+      "path": "main.json",
+      "size": 77491,
+      "sha256": "2b330e9f374ad24d55f1ced6cd89a4781eec0dde2221798f8746d04c0ae17d17"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 136175,
+      "sha256": "8cb25edd9d3f085e23d0eb7b8b7695f3cc3126e020e2685305f49da03b583321"
+    },
+    {
+      "path": "texture.png",
+      "size": 16763,
+      "sha256": "99d9def86f265e824cb66446cdf2dab383f3568989cbc5fdd8327f652c03b37c"
+    }
+  ]
+}

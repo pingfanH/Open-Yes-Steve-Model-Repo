@@ -1,0 +1,78 @@
+{
+  "id": "JennyMod_Jenny",
+  "path": "parsed/JennyMod_Jenny",
+  "source": {
+    "path": "_JennyMod/JennyMod_Jenny.zip",
+    "type": "zip",
+    "stem": "JennyMod_Jenny"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Jenny"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "jenny.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/JennyMod_Jenny_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 2666,
+      "sha256": "fac199522c9b06e565256bfb21860b503ae2a8fcb0d9b62aa94331f5d369556f"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 37013,
+    "sha256": "3619878300cb98a98c925ed2b00d48154bb2972fc596dc32927356596a42c1aa",
+    "bones": 51,
+    "cubes": 53,
+    "faces": 318,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 1229,
+      "sha256": "2429d5d6a218da879765b9fa2c2907191c520af1b0e93ff695b4565960f07acc"
+    },
+    {
+      "path": "jenny.png",
+      "size": 2973,
+      "sha256": "152cd260172d4b734b467ee6a8da5c85132eb58d330e71145da55012ac96e3b7"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 19167,
+      "sha256": "cf8096bd6deb8efa1bc4aebff8554d5257ae44310a3816e9b159a61ea5eba79d"
+    },
+    {
+      "path": "main.json",
+      "size": 13644,
+      "sha256": "c841635585f067211467607fa750143c69e1c691e880b9c04b12333ce3d49503"
+    }
+  ]
+}

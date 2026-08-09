@@ -1,0 +1,220 @@
+{
+  "id": "CR_Musketeer",
+  "path": "parsed/CR_Musketeer",
+  "source": {
+    "path": "_ClashRoyal-COC/CR_Musketeer.ysm",
+    "type": "ysm",
+    "stem": "CR_Musketeer"
+  },
+  "ysm": "parsed/CR_Musketeer/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "逸一时，误一世",
+        "contact": {
+          "Afdian": "https://modrinth.com/mod/yes-steve-model",
+          "Bilibili": "https://space.bilibili.com/44619913?spm_id_from=333.1007.0.0"
+        },
+        "name": "泉溪",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "1",
+        "name": "泉溪",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "1",
+        "name": "泉溪",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "1",
+        "contact": {
+          "Afdian": "hhttps://modrinth.com/mod/yes-steve-model",
+          "Bilibili": "https://modrinth.com/mod/yes-steve-model"
+        },
+        "name": "泉溪",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://space.bilibili.com/44619913?spm_id_from=333.1007.0.0",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "火枪手",
+    "tips": "最准的一集"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "检视",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CR_Musketeer_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12568,
+      "sha256": "99bb369679351afd3c605548cf144b65c57cb03394c666dfe1b6c4931f6cbfeb"
+    }
+  },
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 1198719,
+    "sha256": "91ac993e237d1be31e1aae15d1dfe7bf3f3af02ac2633555650aa469b9aec9f5",
+    "bones": 91,
+    "cubes": 591,
+    "faces": 3546,
+    "textures": 2,
+    "materials": 2,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 132751,
+      "sha256": "62954a84308c4248e09ff32b0e36a335a863d660eca38f0ea22bb1839a4033cc"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 113170,
+      "sha256": "e3117ac84d6ca61923f033be4ae720197fb7fd754c14297a5d3136383c806b68"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 198250,
+      "sha256": "3595bae963571c4906b2f514102435e653fb37af091632a0924d403578df3512"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/泉溪.png",
+      "size": 19374,
+      "sha256": "6cd420a5238d37083afb1a43736ae8f862dfb9d9065c1ae1895c2ee20071333c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 4839,
+      "sha256": "5c6566cf5576cc64ac680fcc352b9dd175fbabb3f0382b5dc67648bc7c9428f4"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 1794,
+      "sha256": "a5af1b42e4805cc04297824201b29779302b7244e1a2ed851d902fd80e8fc1b4"
+    },
+    {
+      "path": "models/main.json",
+      "size": 314964,
+      "sha256": "2ff7fb8469601466242fc392652c6ce40c5fa4685d237162c2419759c49bb732"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 17640,
+      "sha256": "a7c5530c05b93cd6a2d785685082253f97a802c42eca3f057d5135df8f96a8fc"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 11115,
+      "sha256": "3d6ee25dd9507b59b1f9c436d3dcb9203c7b871121b7bd7907109916d38ecafc"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 23632,
+      "sha256": "d87530e49ab1640526feccffadab4d2fcb716f9da88fba290c041a9d63a4b685"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1794,
+      "sha256": "096997cf6bb11af763223213a7eea57466da78812c7882a50b6c5647b6b01f44"
+    }
+  ]
+}

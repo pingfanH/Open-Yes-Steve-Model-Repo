@@ -1,0 +1,127 @@
+{
+  "id": "InitialD_Toyota-AE86",
+  "path": "parsed/InitialD_Toyota-AE86",
+  "source": {
+    "path": "_InitialD/InitialD_Toyota-AE86.zip",
+    "type": "zip",
+    "stem": "InitialD_Toyota-AE86"
+  },
+  "ysm": "parsed/InitialD_Toyota-AE86/ysm.json",
+  "metadata": {
+    "name": "Toyota Sprinter Trueno",
+    "tips": "Toyota AE86",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "Nervonment",
+        "role": "模型",
+        "avatar": "avatar/401603096.png",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/401603096"
+        },
+        "comment": "看我主页"
+      }
+    ]
+  },
+  "properties": {
+    "height_scale": 1.6,
+    "width_scale": 1.6,
+    "extra_animation": {
+      "extra0": "前灯切换"
+    },
+    "extra_animation_classify": [],
+    "preview_animation": "idle",
+    "disable_preview_rotation": false,
+    "default_texture": "texture",
+    "render_layers_first": false,
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "extra": "animations/extra.animation.json"
+      },
+      "texture": [
+        "textures/texture.png"
+      ],
+      "sound_path": "sounds"
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/InitialD_Toyota-AE86_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3307,
+      "sha256": "125608575bc6902025248dfd92c57666f8af20f0c471a1be2513d6fb5503a475"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 737742,
+    "sha256": "18a9eeea682faca1f7e9913ada8ef4f24de8bf5e4311052216738252b7e7dba0",
+    "bones": 81,
+    "cubes": 654,
+    "faces": 3924,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/extra.animation.json",
+      "size": 1215,
+      "sha256": "7493277dbd234dac630861a8cf331f053a6a789964bd82253a199ba9eba70450"
+    },
+    {
+      "path": "animations/extra.json",
+      "size": 84,
+      "sha256": "072ce247dbecb2ef75512cad21a8d7bcfce1aa0c76bf7384afbd97cd67b8fb17"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 1199,
+      "sha256": "9e757c9976a55020fb5c7a9105633aff7fc478e64e771b87a8c26675c542549e"
+    },
+    {
+      "path": "avatar/401603096.png",
+      "size": 382109,
+      "sha256": "fcf3a12d285cffcd6be6e8c6c26fd56d0d0c7a2791079ba247a6598a7f06ceee"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 174482,
+      "sha256": "78029088ab387bd9d5287ff02cbe7c587a11e6fee244c14fadb15aedcd226249"
+    },
+    {
+      "path": "models/main.json",
+      "size": 168292,
+      "sha256": "bab8bc7099ce8a7da28879b05247ad995f69fa0a5891b74886c91ec5119f94e2"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 9220,
+      "sha256": "ec706a4da45317426505d2f674af8d5884fdf160173f28ba3894b9cf9a775f58"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1141,
+      "sha256": "2887c9f2d86203092b762d556df39b3ae6d3985de06d49206e084443b014462e"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "Hell_Cerberus_x3",
+  "path": "parsed/Hell_Cerberus_x3",
+  "source": {
+    "path": "_Helltaker/Hell_Cerberus_x3.zip",
+    "type": "zip",
+    "stem": "Hell_Cerberus_x3"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Hell_Cerberus_x3"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "cerberus.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Hell_Cerberus_x3_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11631,
+      "sha256": "44b90f8e83b7f988470a5094fde960bff9b3794915576b1447e357e169ba233d"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 670689,
+    "sha256": "619f1a1ceabaddcc5c8d73ff03405ae210719a768e7149119826b539b56e2325",
+    "bones": 186,
+    "cubes": 761,
+    "faces": 4566,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 12931,
+      "sha256": "0325c4bc1fe40332441836b2f019ee98c0e3dabdb3e000b33269ab3a75e8717b"
+    },
+    {
+      "path": "cerberus.png",
+      "size": 5850,
+      "sha256": "a6a1146748c51b03a5459fb1c144498e4ad3224a37ed93f99a2f1d216fb135e3"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 258199,
+      "sha256": "482cc497f9fc943e116de15cfec973fd5f9ceb5838b45ba3c2160b1d23bbf3d0"
+    },
+    {
+      "path": "main.json",
+      "size": 393709,
+      "sha256": "9e83e7029af8ae22cd96f96b966b7510c0870eaae3eda821234d373f3331ec51"
+    }
+  ]
+}

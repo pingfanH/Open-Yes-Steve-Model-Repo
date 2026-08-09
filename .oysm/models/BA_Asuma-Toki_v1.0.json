@@ -1,0 +1,105 @@
+{
+  "id": "BA_Asuma-Toki_v1.0",
+  "path": "parsed/BA_Asuma-Toki_v1.0",
+  "source": {
+    "path": "_BlueArchive/BA_Asuma-Toki_v1.0.ysm",
+    "type": "ysm",
+    "stem": "BA_Asuma-Toki_v1.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "飞鸟马时（兔女郎）",
+    "tips": "大概版本，后续看热度决定要不要补上拳套等一系列动作。\n目前有三段血量爆衣，乳摇\n贴图有短发与更清凉些的爆衣",
+    "authors": [
+      {
+        "name": "纸板（b站木宁苒）"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "a.png",
+        "duanfa.png",
+        "l.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Asuma-Toki_v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7795,
+      "sha256": "7c13cadb4f6c2ccdfcfc65b89c0a394360cb4a66d4710433fdd8652535704a1d"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 1173474,
+    "sha256": "bed8491f968ab52bf3c62fd44636ce6dee137d79bbc9d6e3f84aecaaee26dcfe",
+    "bones": 229,
+    "cubes": 992,
+    "faces": 5952,
+    "textures": 3,
+    "materials": 3,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "a.png",
+      "size": 45934,
+      "sha256": "ef00fcaf4a07fafa9c2ab08dd28fd1346005896a08bc5161c3562278034b387e"
+    },
+    {
+      "path": "arm.json",
+      "size": 29016,
+      "sha256": "20a74325b41458ab95e7ec4156f79dc31376ad32523479c9b26b33edc298e03c"
+    },
+    {
+      "path": "duanfa.png",
+      "size": 44768,
+      "sha256": "2f5489c85c5c89199c1357122ea4ad077bff0899001f3909244d5448fcff7bba"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 232901,
+      "sha256": "59d7fd171d6b40e6fe5037e387beaac541e04c0b150908050e351a599e61de69"
+    },
+    {
+      "path": "l.png",
+      "size": 45724,
+      "sha256": "20ada7e3b8d6e98978ef263f95f64c8fa03ee761fc8d29188a614f11d6d1c17d"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 233251,
+      "sha256": "0f1cbcd887422c7eb635813535ea5de0197ef7f6dc6b822059fcfcf22f405a9f"
+    },
+    {
+      "path": "main.json",
+      "size": 541880,
+      "sha256": "715b6bbe2a171371d7503ae4c40e25c9bc7bd2393051bb6128dd9b171344c8f3"
+    }
+  ]
+}

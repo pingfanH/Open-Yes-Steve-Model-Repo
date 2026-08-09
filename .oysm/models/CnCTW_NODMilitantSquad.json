@@ -1,0 +1,100 @@
+{
+  "id": "CnCTW_NODMilitantSquad",
+  "path": "parsed/CnCTW_NODMilitantSquad",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCTW_NODMilitantSquad.ysm",
+    "type": "ysm",
+    "stem": "CnCTW_NODMilitantSquad"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "NOD武装民兵（TW）",
+    "tips": "乌合之众",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCTW_NODMilitantSquad_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5766,
+      "sha256": "32c9d58353a53d14d262225bea4b74c4f464b6831ea6739b5b6b8f36eff8859d"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 350440,
+    "sha256": "d519757eacafec8e1122e0d83b05c02d08dec2d0ddb137499fbc33b967104620",
+    "bones": 45,
+    "cubes": 147,
+    "faces": 882,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 8340,
+      "sha256": "c150f2514df59da97632cdce61b9591d9d7f4839c804ae0e9e4c0c644c923100"
+    },
+    {
+      "path": "info.json",
+      "size": 153,
+      "sha256": "2444192d60496fdffb8ec28e4b4e00746603be9b84279a3fe106f5a618c3624e"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122470,
+      "sha256": "d93402d24863ccd84622801424bb845d8ff78161fae9d48b7bbf0c3d213720c1"
+    },
+    {
+      "path": "main.json",
+      "size": 68992,
+      "sha256": "13d7d154a255e5ee8edb0cfce1053f2686bc4d10513a0bc018c2617238a7a098"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131639,
+      "sha256": "a73cf95259743cc506fa6931e6bed68e0e41c5edca8f4651f26f1a42c1e26994"
+    },
+    {
+      "path": "texture.png",
+      "size": 18846,
+      "sha256": "46c3022b6e838a31c6ff33eaf7f75f119c933cd794f055c90bfd8f0847f5eb51"
+    }
+  ]
+}

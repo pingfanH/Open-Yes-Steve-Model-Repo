@@ -1,0 +1,181 @@
+{
+  "id": "EFT_TacticalDoll",
+  "path": "parsed/EFT_TacticalDoll",
+  "source": {
+    "path": "Unknown/EFT_TacticalDoll.ysm",
+    "type": "ysm",
+    "stem": "EFT_TacticalDoll"
+  },
+  "ysm": "parsed/EFT_TacticalDoll/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/铁血人形M16A3.png",
+        "comment": "一个MC的YSM模型作者，是只鸽子",
+        "contact": {
+          "Afdian": "https://afdian.net/a/TacticalDoll-M16a3",
+          "Bilibili": "https://space.bilibili.com/13432967"
+        },
+        "name": "铁血人形M16A3",
+        "role": "模型/动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.net/a/TacticalDoll-M16a3",
+      "home": "https://space.bilibili.com/13432967"
+    },
+    "name": "无名的异界旅者3.3_Beta_免费版",
+    "tips": "“我的名字？我从来都没有过特定的名字，伙计”\n“有人称呼我为‘SCAV’，有些人叫我‘指挥官’或者‘舰长’之类的...”\n“也有一群孩子管我叫‘老师’”\n“在这片大地上，你也可以称呼我为‘S.T.A.L.K.E.R’”\n\n形象灵感来源：\n碧蓝档案\n逃离塔克夫\n使命召唤\n在不同世界的旅程中留下故事的玩家（略）\n\n注：针对第一人称mod和TacZ进行了微调\n如果需要搭配这两个mod\n请确认第一人称mod版本为2.2.4\n确认你在第一人称mod的配置文件里\n写上了TacZ的枪械tag\n以确保TacZ的枪械能在第一人称下正常显示"
+  },
+  "properties": {
+    "width_scale": 0.79,
+    "height_scale": 0.79,
+    "extra_animation": {
+      "extra0": "检视手表时间",
+      "extra1": "挥手打招呼",
+      "extra2": "鼓掌",
+      "extra3": "肯定",
+      "extra4": "否定",
+      "extra5": "凸",
+      "extra6": "似乎在说些什么",
+      "extra8": "美军跳舞"
+    },
+    "default_texture": "nameless",
+    "preview_animation": "meun_idle",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/nameless.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/EFT_TacticalDoll_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9879,
+      "sha256": "c853d94724a1f54b2d12a22bef7de68c2ed5f4a84390df212f444eb20f28984f"
+    }
+  },
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 6973509,
+    "sha256": "8820acf92c00f6d5393abe891f9e28c03d70415be5ef0ccff27d4c74d76dd626",
+    "bones": 286,
+    "cubes": 1115,
+    "faces": 6638,
+    "textures": 1,
+    "materials": 1,
+    "animations": 6,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136649,
+      "sha256": "ccbbf29318c6e79717aff19d914ed707cc921d7aa6d07f151a6447c2c162fe9b"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 8948,
+      "sha256": "70cf187970c75499726b98446554249847f5e676af41cd788e417ed72f8de775"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 25997,
+      "sha256": "587afed8e555fb5b6470b48f4019a3da672ed8cf12ef34ca7f6c9fc29ce70dbe"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 237596,
+      "sha256": "f818ea1094913167e82fe841f04d289c050bfde7c6e177798ea645484d347daf"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 175957,
+      "sha256": "bf79ae26319cbf9ca79ce27da3124f99ff3c70c8edd7e9d7ef5374a9b45bf7cb"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 4151105,
+      "sha256": "250524f8397a27d8ca3ba5b7cacf539d3e4e96e945d2f6673f04972b7f5a3df1"
+    },
+    {
+      "path": "avatar/铁血人形M16A3.png",
+      "size": 1590552,
+      "sha256": "33817c420b4a2a0f716673b554e044c5a099f1812824a23898c55135034489b5"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 52268,
+      "sha256": "3d24ad080a8b185c025d38ae7ee3dbafee8c7f1a4b6d26979222be1d23ded443"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6659,
+      "sha256": "b7a57f71cbdc44e10491b92cb2d2ba39e47d2004794e3802da5e99ff5f483a8a"
+    },
+    {
+      "path": "models/main.json",
+      "size": 557701,
+      "sha256": "925ed57c3b652de247f2a61e9e7269aa4ea84eb8e56c0f07433f64a5afd41eda"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 861,
+      "sha256": "67213b06bd0304cf0b45af0ffd36c083f78c07fe56b4fd8691475f31c418ad4f"
+    },
+    {
+      "path": "textures/nameless.png",
+      "size": 26804,
+      "sha256": "778703cf16ce9e8d420226d145442f51af919670408b1308c703b2856f22850a"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2077,
+      "sha256": "dcbf7a3d1311ce7cc47b00ed9741789297fa6c0667254541aa8d45a2df39b04e"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "id": "killa",
+  "path": "parsed/killa",
+  "source": {
+    "path": "Unknown/killa.zip",
+    "type": "zip",
+    "stem": "killa"
+  },
+  "ysm": "parsed/killa/ysm.json",
+  "metadata": {
+    "name": "Killa",
+    "tips": "默认模型（Default Model）",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "老柿子y__",
+        "avatar": "avatar/QQ20251007-180842.png",
+        "role": "模型"
+      }
+    ],
+    "link": {
+      "home": "https://space.bilibili.com/2004701969?spm_id_from=333.337.0.0"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          }
+        ]
+      }
+    ],
+    "preview_animation": "idle",
+    "disable_preview_rotation": false,
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true,
+    "all_cutout": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": {
+        "uv": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/killa_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5634,
+      "sha256": "ce0ebcc1308af50a1ef6f43ac508ebd7528b430f180b347055757a4f11fc3352"
+    }
+  },
+  "stats": {
+    "file_count": 20,
+    "total_bytes": 2810976,
+    "sha256": "67526c5410d3d2615bc7affa4ea6ce35fe30c4bb0d317c552196a020dc488501",
+    "bones": 95,
+    "cubes": 352,
+    "faces": 2112,
+    "textures": 2,
+    "materials": 2,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 192024,
+      "sha256": "f18488694624665dbc2ae48e6a9e3002ad0e864882d2d7a0cfebf2b4aa028307"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 744,
+      "sha256": "01902bc329af43baf925d67eb6861c5f4e2dd5355258c96819533ed7d94239ba"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3078,
+      "sha256": "fe28bda145b9a8f8acfd3aa1d85b267a55e5c6538f595161dbd2161bbebd8bda"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 124928,
+      "sha256": "47014ba7279bc6bd4ac5f360035d2ff3fbc48ff376423b21508cf572ce02ea27"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 186596,
+      "sha256": "4fa00978ab2e353a9f6d0dd68916d33f6777aa839fd77cef0566d4735103f2fc"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 184361,
+      "sha256": "1bfd0c06c63282bc1f0bbb316983c0faa4e98b666989961479fa424f5f3e556a"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1652964,
+      "sha256": "af05ec10f7e23dd7148f6a72bdba8abd0e4899dd9e7bf6d65cc42e4feba118fb"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 42814,
+      "sha256": "b0018f5a7e88c21f78b75ff18c98966428ac691c46f716950d2a8f2a0815abb3"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 216204,
+      "sha256": "3b0d4047e38be15edfbd4c1691f9893f9523bc44b5c622df9bafbb9e4bb72db2"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 66511,
+      "sha256": "353dc14cd77017092bc969500977609c5585fe71db258cf57ae703d9cdb00641"
+    },
+    {
+      "path": "avatar/404.png",
+      "size": 22501,
+      "sha256": "af2e31a165fbe7259c78b00a8da54dfd561855f266683011ee1b7652a5a3c578"
+    },
+    {
+      "path": "avatar/QQ20251007-180842.png",
+      "size": 22501,
+      "sha256": "af2e31a165fbe7259c78b00a8da54dfd561855f266683011ee1b7652a5a3c578"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 4525,
+      "sha256": "e689132234353351d30f8b97e4e9e1aee3bef334e5a9b3070f7d521d8bcab22e"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 14608,
+      "sha256": "4f04aa3cb1327346ae1f63b4f960571c990dc7fd2e0ad93965c9b130d1eff324"
+    },
+    {
+      "path": "models/main.json",
+      "size": 50256,
+      "sha256": "2682e0012aa934080a11df6070e4f1204501db935f1ed6ac9bdf8d75ba493dc0"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1213,
+      "sha256": "0ecda6c1557cf3571289a3212c93e125d8b075cc37ac62f14dad852d83a576ec"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 9504,
+      "sha256": "84f7cd874c288b7e6e5392c297e0de248033faae7f5c635a6173abd4e410a438"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 9504,
+      "sha256": "84f7cd874c288b7e6e5392c297e0de248033faae7f5c635a6173abd4e410a438"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 4211,
+      "sha256": "cb08588b2faa84bbe32c39a165dc40b6cde9b9a103972a961ab067dd473275d5"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1929,
+      "sha256": "818e8fe903789e58ca9f0aa7e3ca3eec1ca81ee0f9d8d7cd959106c5e5cb5b5d"
+    }
+  ]
+}

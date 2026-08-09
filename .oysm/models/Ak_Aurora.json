@@ -1,0 +1,152 @@
+{
+  "id": "Ak_Aurora",
+  "path": "parsed/Ak_Aurora",
+  "source": {
+    "path": "_Arknights/Ak_Aurora.ysm",
+    "type": "ysm",
+    "stem": "Ak_Aurora"
+  },
+  "ysm": "parsed/Ak_Aurora/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/映白L.png",
+        "comment": "感谢使用我的模型，若有问题可在B站或爱发电私信反馈",
+        "name": "映白L",
+        "role": "作者"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.net/a/ehaku",
+      "home": "https://space.bilibili.com/10208258"
+    },
+    "name": "极光",
+    "tips": "重装干员极光，总会在你需要的时候伴你左右。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "掷骰子",
+      "extra1": "挥手",
+      "extra2": "拍手",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "extra5": "赢！",
+      "extra6": "跳舞1",
+      "extra7": "跳舞2",
+      "extra8": "数据显示",
+      "表情1": "表情 >_<",
+      "表情2": "表情 生气"
+    },
+    "default_texture": "default",
+    "preview_animation": "模型选择",
+    "free": false,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Aurora_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7576,
+      "sha256": "7cccb5fe8e6a6e35cc20ed5d7180a58d91db07b0f4f1c2b7924dd79bb671c91d"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 1200195,
+    "sha256": "31894d133c8751ad0840e281e4c4e450c392d78c8a6290ec4b442c719dc9d1b3",
+    "bones": 389,
+    "cubes": 767,
+    "faces": 3445,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 223382,
+      "sha256": "bd1d4f4b14e8aac4fbd1d81bb1eb5839d14ab13aba272730d0820c6cb2d301e5"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3362,
+      "sha256": "08b262ada6ba8fccf25a266a4ef9cb56f744564b3e336a2edf6fee7443b4ab03"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 134344,
+      "sha256": "932da14ed9fc811ba90ab91a86844ff8d4bca6e6a7542be3a9c2d272336f4e4f"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 245662,
+      "sha256": "4208b27f2c1863cba19bf723d039553877390c63fc4a10fd62a365aa6fd69e00"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 142773,
+      "sha256": "caf04fb2e28bf4210784625e63c700461ef8337cc0311e785681b48b7d63fba0"
+    },
+    {
+      "path": "avatar/映白L.png",
+      "size": 35784,
+      "sha256": "cd850fdc2a5099ad38ebcdd80ee5eb816c6d6320ab8d95072d037b4d9881b369"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 16951,
+      "sha256": "b707177105433de1bddd3f2088b7ec77c056cb5df300efcfcef98599657f3bb9"
+    },
+    {
+      "path": "models/main.json",
+      "size": 371944,
+      "sha256": "56ca66390d884107425adcc9a9b63f592e0fe8ef6415a53e3990321f9b9575be"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 24813,
+      "sha256": "ace900248b4107b5291f638d5d8059543d698a4c0b2ee4301442f7cfe806a4a4"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1180,
+      "sha256": "3c7e3d8dd2245ae8761a70e1f0dd380fe06406fd6b1463d639931e0b09b82a58"
+    }
+  ]
+}

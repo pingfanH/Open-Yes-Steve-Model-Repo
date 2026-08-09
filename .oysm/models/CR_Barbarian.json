@@ -1,0 +1,217 @@
+{
+  "id": "CR_Barbarian",
+  "path": "parsed/CR_Barbarian",
+  "source": {
+    "path": "_ClashRoyal-COC/CR_Barbarian.ysm",
+    "type": "ysm",
+    "stem": "CR_Barbarian"
+  },
+  "ysm": "parsed/CR_Barbarian/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "逸一时，误一世",
+        "contact": {
+          "Afdian": "https://modrinth.com/mod/yes-steve-model",
+          "Bilibili": "https://space.bilibili.com/44619913?spm_id_from=333.1007.0.0"
+        },
+        "name": "泉溪",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "1",
+        "name": "泉溪",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "1",
+        "name": "泉溪",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "1",
+        "contact": {
+          "Afdian": "hhttps://modrinth.com/mod/yes-steve-model",
+          "Bilibili": "https://modrinth.com/mod/yes-steve-model"
+        },
+        "name": "泉溪",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://space.bilibili.com/44619913?spm_id_from=333.1007.0.0",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "野蛮人",
+    "tips": "一个简单的野蛮人"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CR_Barbarian_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4293,
+      "sha256": "137efd15a88f62e9b77b21b9bd9118659c1b2e68e813f02bfa7cab1e4d0ac300"
+    }
+  },
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 869319,
+    "sha256": "9ba2d10f3d4db1c90590d12c965541db29983d48d4fc5d35fddb357b24b2b121",
+    "bones": 88,
+    "cubes": 237,
+    "faces": 1422,
+    "textures": 2,
+    "materials": 2,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 80033,
+      "sha256": "ab56e791b6a533d45f04b1391b2e18f8949d3bc4ab0687d518371c1f8671a5e7"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1164,
+      "sha256": "4320491a1cc47b8708e6c6abcaadaf498c7bb6ff3fd6eb4fcc7e74b450a240f3"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2754,
+      "sha256": "608fa22c62d158db3ccbe42ad009b31874ca5a167298cb88fd188596fde2a7f3"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 112266,
+      "sha256": "3d0f1f4c69777fd5e16fb963b8bb0059d6d12af224981e48532e2b5df430e77f"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 141524,
+      "sha256": "6e0c7e83107e16aeb00080ea92a03b255e4b634597c3d015ea02b372849caded"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/泉溪.png",
+      "size": 19374,
+      "sha256": "6cd420a5238d37083afb1a43736ae8f862dfb9d9065c1ae1895c2ee20071333c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 12303,
+      "sha256": "bcc788dfb30fe59df94434a036ad54b935c51acf0c79b0e3573c035f4aaaa768"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 2831,
+      "sha256": "84f6dbac9e782d57c2a208815e24779e47b7873dd02f076b606268cd5c90bf17"
+    },
+    {
+      "path": "models/main.json",
+      "size": 117630,
+      "sha256": "2547a6a821ee96de7c3c5521980080ac65ac46df6687135744651fdaafd6c2b0"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2807,
+      "sha256": "fe38d8d4d75e253eae15223673681af9930f4849ceb556aaf24a8298baaf0864"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 11115,
+      "sha256": "3d6ee25dd9507b59b1f9c436d3dcb9203c7b871121b7bd7907109916d38ecafc"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 7416,
+      "sha256": "8973c0479c5666a8ae1f17e2366ccfe44ca9ef2ea84d8d6523196363339cbb9c"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1715,
+      "sha256": "b11fbf2aac18d69d8a9394e68ab579295daf979c66be3d39b07ec1fc8d880e3e"
+    }
+  ]
+}

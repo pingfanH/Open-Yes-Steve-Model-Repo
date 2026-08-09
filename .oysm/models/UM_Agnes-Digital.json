@@ -1,0 +1,195 @@
+{
+  "id": "UM_Agnes-Digital",
+  "path": "parsed/UM_Agnes-Digital",
+  "source": {
+    "path": "_UmaMusume/UM_Agnes-Digital.ysm",
+    "type": "ysm",
+    "stem": "UM_Agnes-Digital"
+  },
+  "ysm": "parsed/UM_Agnes-Digital/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/LuXi233.png",
+        "comment": "YSM作者",
+        "contact": {
+          "Afdian": "None",
+          "Bilibili": "https://space.bilibili.com/183485702"
+        },
+        "name": "LuXi233",
+        "role": "模型丨贴图丨动作"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "爱丽数码 常服",
+    "tips": "辛苦了！这里是数码碳！\r\n我正在推闪闪发光的赛马娘们！\r\n毎天都非常幸福！作为御宅族出生什么的真的是太棒了～♪"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "同意",
+      "extra4": "哒咩",
+      "extra5": "坐下",
+      "extra6": "鸭子坐",
+      "extra7": "庆祝",
+      "extra8": "开心",
+      "extra9": "吓到",
+      "extra10": "寝不足",
+      "extra11": "卖萌",
+      "extra20": "看书",
+      "extra21": "变态地笑",
+      "extra22": "尊到旋转",
+      "extra23": "拜托了",
+      "extra24": "直接尊死",
+      "extra25": "敬礼",
+      "extra26": "翻找谷子",
+      "extra27": "荧光棒应援",
+      "extra28": "激动",
+      "extra29": "Stop！",
+      "extra30": "暗中观察",
+      "extra31": "坐下",
+      "extra32": "尴尬",
+      "extra33": "就是这样",
+      "extra90": "切换 睫毛",
+      "extra91": "切换 脸红",
+      "extra92": "切换 腮红",
+      "extra93": "切换 变态笑",
+      "extra94": "切换 笑",
+      "extra95": "切换 星星眼",
+      "extra96": "切换 爱心眼"
+    },
+    "preview_animation": "ChooseAct",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        },
+        {
+          "uv": "textures/textureB.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/UM_Agnes-Digital_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12458,
+      "sha256": "dbfac28083e7c035230a23c7477bd3cce03085fd9e3e8147a1f5a7d3dcb01a1f"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 2070957,
+    "sha256": "b08b82e61a5a1a88f6db2c6f2ab32bfdc236b4d9ee88891115a5116977e84c18",
+    "bones": 212,
+    "cubes": 745,
+    "faces": 4470,
+    "textures": 2,
+    "materials": 2,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136954,
+      "sha256": "0a62650ec7c5e7830a1712321f99b8d8c3b7548711ccc5bef5f9d92bc83da811"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2699,
+      "sha256": "a22b79ffc2d121e668f7a381ac200d1f90b74985e5e8ca97f1986585464e9486"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 80740,
+      "sha256": "6853f2e585298c399ad36c62ce2ac047618a0ae83edf0b9f2687a5f8754a283b"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 223299,
+      "sha256": "e6996a431db03b643b501d788cc86b91c6cd3f28120aa2c9408845914bad7de8"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 131955,
+      "sha256": "0c569ced50b84c5ce95197b4ea4148305506b58c8f2b30d33c8ab2d749fa16f8"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/LuXi233.png",
+      "size": 609469,
+      "sha256": "31416cc64ffcba4fb65f4c5c86986985cd4c8000aa863b55e709dc0b229f376c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 16824,
+      "sha256": "6e11e42e0cd584fa18706a03d9702cd9f911903428bf672ef684bee2c5b4ec12"
+    },
+    {
+      "path": "models/main.json",
+      "size": 394063,
+      "sha256": "acfe892388ffe109888a22e4c9f72afb899fc330cd68734e3a6988b3599e7289"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 124879,
+      "sha256": "a28d8df4503a3df5cae1c6c0f42609cbeab6dc7b7935d3b599d6bc635f2de7ea"
+    },
+    {
+      "path": "textures/textureB.png",
+      "size": 124565,
+      "sha256": "30e2b17de3cd4647bd42e534920518a927a0476a61a87b2d1d4b4cb98d6e00b3"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1865,
+      "sha256": "e61fb3c598f257cdc18fb89af9c4f9abe851af644473c80b17cf6c4cd4a2f9ec"
+    }
+  ]
+}

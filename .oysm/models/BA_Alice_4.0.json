@@ -1,0 +1,101 @@
+{
+  "id": "BA_Alice_4.0",
+  "path": "parsed/BA_Alice_4.0",
+  "source": {
+    "path": "_BlueArchive/BA_Alice_4.0.ysm",
+    "type": "ysm",
+    "stem": "BA_Alice_4.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Tendou Arisu （天童爱丽丝）",
+    "tips": "隶属千年学园游戏开发部的成员。\n\t\t\t\t\t在废墟发现的来历不明的少女。包含年龄在内，所有情报都无法推断。现在跟着绿和桃井玩游戏，已经变成重度游戏狂热者了。\n\t\t\t\t\t大部分不会说的话都以复古游戏的对白代替。\n\n该模型为免费模型分享,请勿用于商业用途\n\n模型作者:伊洛是哥斯拉嘛_Gesila QQ:1562437496\n\n动画修改:星屑海螺 QQ:741330261",
+    "authors": [
+      {
+        "name": "模型作者:伊洛是哥斯拉嘛_Gesila"
+      },
+      {
+        "name": "动画修改:星屑海螺"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "alice.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Alice_4.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 15409,
+      "sha256": "e5f359f6c523824b244a5d2ff7421bd758969790954783a670943da27ee1bbd7"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 2747169,
+    "sha256": "97750eb4e98109c89290448d57e8dcf4072679ca8849b99f334c8f9964079b2e",
+    "bones": 235,
+    "cubes": 829,
+    "faces": 4974,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "alice.png",
+      "size": 19827,
+      "sha256": "7e947c7df0a7d6bd3a2e2c0f0eadad95491fbc8cd833faad125f197c03258cf5"
+    },
+    {
+      "path": "arm.json",
+      "size": 5609,
+      "sha256": "144536a853e37d653726e056d40dcf78787648f2410a646bd69c08af2a9ce8ca"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 52393,
+      "sha256": "943295b6a6a86adcff034e8214558e776c1cd27046a037e4c58777823554eb6b"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 232020,
+      "sha256": "b69dd9239108bff5184ecdd509633ee1a5957d9d115d3c468f412b70b95a19a2"
+    },
+    {
+      "path": "main.bbmodel",
+      "size": 2019374,
+      "sha256": "81953e2473141188db4735d6acbdcbd0849cb7f05ad1ce68bcc9593f6ad0a95b"
+    },
+    {
+      "path": "main.json",
+      "size": 417946,
+      "sha256": "0e32ea6fe5d41f95c18c796925944c1d9959b1b17871a67bb65524cdee031835"
+    }
+  ]
+}

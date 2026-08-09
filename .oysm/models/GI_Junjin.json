@@ -1,0 +1,108 @@
+{
+  "id": "GI_Junjin",
+  "path": "parsed/GI_Junjin",
+  "source": {
+    "path": "_GenshinImpact/GI_Junjin.ysm",
+    "type": "ysm",
+    "stem": "GI_Junjin"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§d云锦",
+    "tips": "§8普通版\n§8持剑类手上显示专武",
+    "authors": [
+      {
+        "name": "§c烈鸟比百§8（模型）"
+      }
+    ]
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "block.png",
+        "quan.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Junjin_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 14930,
+      "sha256": "999e204118c558e7f1023c320c4524c510e9d8e241a7cbd9f8a85a675be6cfb0"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 1377684,
+    "sha256": "0ce93b1961921739f3cf13b920477c3510a7ac70888919f736e115283332baf1",
+    "bones": 133,
+    "cubes": 1353,
+    "faces": 8118,
+    "textures": 2,
+    "materials": 2,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 38467,
+      "sha256": "8aa8ab087d4972b37b9ea8580d62c5a341aeddff7ab67080b0a9cc591f313bc6"
+    },
+    {
+      "path": "arm.json",
+      "size": 52500,
+      "sha256": "674e3c244aad7b9dbcab1d152d1638464169b2758253d1378ba15405446bed0a"
+    },
+    {
+      "path": "block.png",
+      "size": 31886,
+      "sha256": "2263326736ae61e296e6dc947fd17f0934f01678db488c48eea11d372831257c"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 227596,
+      "sha256": "744aee1db3f5d0935fa413014a9ec6ff4bf9a5b518e966b6970f5e5eea5971de"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 137772,
+      "sha256": "1846b98298b1f09a46ec3befbbfac6ea001c04d43f95ed72c4ec732f1d2f3813"
+    },
+    {
+      "path": "main.json",
+      "size": 702581,
+      "sha256": "a64635556cf2e3824f3a747dbc6a0f55d9bcf61ebcade88c13463327b18f45f7"
+    },
+    {
+      "path": "quan.png",
+      "size": 32029,
+      "sha256": "751b7510742ac922bf84cf7354eba42f40a5fceffa3c8e38b81b61f8bd9fb50f"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 154853,
+      "sha256": "901d56a6391aee0ca066594d3a5119eb18afcfed2faa5f8002d10e7a0084e1bf"
+    }
+  ]
+}

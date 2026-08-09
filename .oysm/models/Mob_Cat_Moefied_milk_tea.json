@@ -1,0 +1,96 @@
+{
+  "id": "Mob_Cat(Moefied)(milk_tea)",
+  "path": "parsed/Mob_Cat(Moefied)(milk_tea)",
+  "source": {
+    "path": "_MinecraftMob/Mob_Cat(Moefied)(milk_tea).zip",
+    "type": "zip",
+    "stem": "Mob_Cat(Moefied)(milk_tea)"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Milk_tea",
+    "tips": "男不了一点点",
+    "authors": [
+      {
+        "name": "猫耳魂魄妖梦"
+      }
+    ]
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "default.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Mob_Cat_Moefied_milk_tea_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8731,
+      "sha256": "1a9b801de82c7f7c79b518f0917c7aced998d4d88c7a2ec5ee7ed747c917e622"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 625599,
+    "sha256": "312af7e6291f55f711a2c68caeeb2b521498bac8c27b5c068d3cf9a6188f5c55",
+    "bones": 156,
+    "cubes": 686,
+    "faces": 4116,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 91,
+      "sha256": "a7c246495beaffe9733d903936d163adcb1e5ba1bcfcfaa6c9efbd051bd32222"
+    },
+    {
+      "path": "arm.json",
+      "size": 17085,
+      "sha256": "757d7faa435fd83f1f842510efe48f10bda51ea13356f0ecc8bddd8e368bacf7"
+    },
+    {
+      "path": "default.png",
+      "size": 16740,
+      "sha256": "41ab8402473a9d79659c0d4d26b872c3dab51b05ace4826920ad276542e186af"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 34672,
+      "sha256": "7d581a1c3e645a01bddb3b4fbe75a7e1cec984b509919dc769e5947dd3e635ab"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 197059,
+      "sha256": "cfecbd136710412e542b572e653fa816eb8aeff730d7d87e37a36ce6444a8152"
+    },
+    {
+      "path": "main.json",
+      "size": 359952,
+      "sha256": "2227791e199890fa8b7ad6ac91840d29ef565e6c55b3c1d7a80e7e21d234ecf6"
+    }
+  ]
+}

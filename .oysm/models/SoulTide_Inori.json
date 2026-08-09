@@ -1,0 +1,202 @@
+{
+  "id": "SoulTide_Inori",
+  "path": "parsed/SoulTide_Inori",
+  "source": {
+    "path": "_SoulTide/SoulTide_Inori.ysm",
+    "type": "ysm",
+    "stem": "SoulTide_Inori"
+  },
+  "ysm": "parsed/SoulTide_Inori/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/红色幽默.png",
+        "comment": "一个喜欢mc与灵魂潮汐的鸽子",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/1839129371"
+        },
+        "name": "红色幽默",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "name": "天音祈",
+    "tips": "因为升上高中而雀跃不已、名为天音祈的少女，她那待讴歌的青春于某个夏日夏然而止。被召唤至新月大陆的“她”有着与过去不符的成熟外表，内在却似乎仍是那么热情且柔软。除了最喜欢的愿望什么都吃的“天使”，光芒乍现！\n出自游戏《灵魂潮汐》"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "挥手": "挥手",
+      "拍手": "拍手",
+      "点头": "点头",
+      "摇头": "摇头",
+      "必胜！": "必胜！",
+      "舞蹈3": "舞蹈",
+      "~因果轮转~": "~因果轮转~",
+      "": "#光环与翅膀开关"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "光环与翅膀开关",
+        "name": "光环与翅膀开关",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "光环开关",
+            "description": "用于开启或关闭光环",
+            "value": "v.rim"
+          },
+          {
+            "type": "checkbox",
+            "title": "翅膀开关",
+            "description": "用于开启或关闭翅膀",
+            "value": "v.wing"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "GUI",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/SoulTide_Inori_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11589,
+      "sha256": "b44e21fad3813f3a8bf3f2b30da82ca4ff76eafe70d4896a9ad92b85f01831e6"
+    }
+  },
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 3019932,
+    "sha256": "49e51a291e1d0c6bc22f853d4a408dc8f035407e9cfbd6563cedac4048ad1689",
+    "bones": 79,
+    "cubes": 134,
+    "faces": 804,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 112376,
+      "sha256": "1fdb65a373d42c6f0266ea60a84ddd955d705d239697b37a1110dbd36aa686ac"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 195350,
+      "sha256": "fe6264c4967edceb269c5525f83fbcb826f3a71b7f31f21d79f65221b3f809c7"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/红色幽默.png",
+      "size": 9303,
+      "sha256": "93395303967ce4507a969cf9bd6594690e6d7bb2399cab5ccbe0dff0f096d249"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 617,
+      "sha256": "58a5a4f99a17e863505e5d985c5342fafccf53eeb5799a572dff4156086be4ad"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 6911,
+      "sha256": "d1d695c9da443afc4f4408f58af7fe567090348e35a2264be6028b8e8d3adb49"
+    },
+    {
+      "path": "models/main.json",
+      "size": 66102,
+      "sha256": "5200faa7710dc5dcb11fd1151d6193e384a146afc1f814f2038b86a0e9ac0b3d"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 10990,
+      "sha256": "029859eb20f5eac9b78d3056e492ee801f5a811c0e21b06159b07ae547346e9a"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1952,
+      "sha256": "3dc374e13c87e864fd0f73229459929e4b5d7c122a6e4ce3ad62a3887fd2aeed"
+    }
+  ]
+}

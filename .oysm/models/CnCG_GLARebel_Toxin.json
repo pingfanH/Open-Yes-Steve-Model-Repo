@@ -1,0 +1,100 @@
+{
+  "id": "CnCG_GLARebel(Toxin)",
+  "path": "parsed/CnCG_GLARebel(Toxin)",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCG_GLARebel(Toxin).ysm",
+    "type": "ysm",
+    "stem": "CnCG_GLARebel(Toxin)"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "反抗军(毒素)",
+    "tips": "崔克斯博士的部队，装备了毒素喷洒器，对步兵单位十分致命",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCG_GLARebel_Toxin_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6464,
+      "sha256": "d6e923aa4d04f8d9a392cbe8b17bfd7955d326ca6f61e9ae077d0bdcb140af55"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 356968,
+    "sha256": "0df4bc748886e99eb7f73103bd5ef2b0543edfed78bb9d7a975bb26402beb32d",
+    "bones": 46,
+    "cubes": 158,
+    "faces": 948,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 9939,
+      "sha256": "112e30660f9e038ba102839a78038ae7811bbdbc05b0e4368c96112f984be156"
+    },
+    {
+      "path": "info.json",
+      "size": 216,
+      "sha256": "7f1c94da7b9deca64e2c777a63d27f58a505f227ae79c1d3500090b3589917ed"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122470,
+      "sha256": "d93402d24863ccd84622801424bb845d8ff78161fae9d48b7bbf0c3d213720c1"
+    },
+    {
+      "path": "main.json",
+      "size": 73132,
+      "sha256": "1fd57a742960c3b5182d61c995463d630e19140da6f124f92d83ed367e646f1b"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131639,
+      "sha256": "a73cf95259743cc506fa6931e6bed68e0e41c5edca8f4651f26f1a42c1e26994"
+    },
+    {
+      "path": "texture.png",
+      "size": 19572,
+      "sha256": "edbd72b8802f280f8fc9baf0729c54d12be778d04c50f8bdb4b421103120fac7"
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "id": "Ak_Soldier",
+  "path": "parsed/Ak_Soldier",
+  "source": {
+    "path": "_Arknights/Ak_Soldier.ysm",
+    "type": "ysm",
+    "stem": "Ak_Soldier"
+  },
+  "ysm": "parsed/Ak_Soldier/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/空气避难所.png",
+        "comment": "咕咕嘎嘎 --希望你喜欢这个模型！",
+        "contact": {
+          "B站": "space.bilibili.com/313304486",
+          "原力推（往期模型）": "yuanlitui.com/u/airshelter",
+          "爱发电": "afdian.com/a/airshelter"
+        },
+        "name": "空气避难所",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/airshelter",
+      "home": "https://space.bilibili.com/313304486"
+    },
+    "name": "整合运动士兵",
+    "tips": "普通不过一个战士"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#衣服身体",
+      "extra1": "#表情",
+      "#额外动画": "额外动画",
+      "#动画": "动画"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "衣服身体",
+        "name": "衣服设置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "帽子",
+            "description": "帽子穿戴",
+            "value": "v.mz",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "type": "checkbox",
+            "title": "围脖",
+            "description": "围脖穿戴",
+            "value": "v.vb"
+          },
+          {
+            "type": "checkbox",
+            "title": "防弹衣",
+            "description": "穿脱防弹衣",
+            "value": "v.fdy"
+          },
+          {
+            "type": "range",
+            "title": "玩家大小",
+            "description": "",
+            "value": "v.all",
+            "step": 0.05,
+            "min": 0.1,
+            "max": 10.0
+          }
+        ]
+      },
+      {
+        "id": "表情",
+        "name": "表情变化",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "眼睛",
+            "description": "眼睛变化",
+            "value": "v.yj",
+            "step": 1.0,
+            "min": 1.0,
+            "max": 6.0
+          },
+          {
+            "type": "range",
+            "title": "搞怪",
+            "description": "真的怪",
+            "value": "v.mm",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 2.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "额外动画",
+        "extra_animation": {
+          "extra11": "找找自己问题",
+          "extra22": "我喜欢你",
+          "extra33": "背手摔",
+          "extra44": "其他人做得到吗",
+          "extra55": "哇噢"
+        }
+      },
+      {
+        "id": "动画",
+        "extra_animation": {
+          "extra0": "舞蹈1",
+          "extra1": "打招呼",
+          "extra2": "拍手",
+          "extra3": "我觉得行",
+          "extra4": "我觉得不行",
+          "extra5": "鼓气",
+          "extra6": "舞蹈2",
+          "extra7": "舞蹈3"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "extra44",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Soldier_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7564,
+      "sha256": "8d62518c876b816c1386ac57c5fdab1a073eb7e310a3603b90b60a0a4ac53d6c"
+    }
+  },
+  "stats": {
+    "file_count": 20,
+    "total_bytes": 3648205,
+    "sha256": "d0dbe43d3f41d4a07611b6877ba76a4f2d0a4019cd7b77d2a2bc7aa3550f1597",
+    "bones": 86,
+    "cubes": 587,
+    "faces": 3522,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 179652,
+      "sha256": "856fdbd0ec28049085b485b287ee66827bd56488705f1ca5007ba51d59f95e7d"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2333,
+      "sha256": "25f23143e6f98885152cb4525f44ffeb2df955793c8ad5e282277f038462f087"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 189447,
+      "sha256": "d468886ad0f9dfa4cd39b13937a41e24e0df8997a56858ed82d4976eba5d8518"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 192886,
+      "sha256": "f55e7b6158d34c6e42134e48d6056f193364763e3cce348577f5ae955b47d802"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/空气避难所.png",
+      "size": 23886,
+      "sha256": "c6b236c06ed51d96c7fd9986f4ea901f3c23fe8c0bf51acacba404f71fff60d8"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 41195,
+      "sha256": "e32dc86b35aea126e19882fc7122bff60587634e691e8effa63a80e94b08c718"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13725,
+      "sha256": "605fc04a716cfd12d30b5d6fb5d6db461504bd2f8da602fe078a4f57b4d71c71"
+    },
+    {
+      "path": "models/main.json",
+      "size": 317024,
+      "sha256": "f1957f9a23e9985915b1fc979317875621c2fc3722d2fbd2a62197d4bcb48496"
+    },
+    {
+      "path": "sounds/belike.ogg",
+      "size": 166864,
+      "sha256": "d05402db68f0287df9d4114f9a83a28b9aa18ae639fc02dfb99c484ed0a7b07e"
+    },
+    {
+      "path": "sounds/waooo.ogg",
+      "size": 47786,
+      "sha256": "56105c32243a0f960d31dd019da575563c292ce71751cb90e8a9c5501982ae45"
+    },
+    {
+      "path": "sounds/wxhn.ogg",
+      "size": 15865,
+      "sha256": "e24d8d29682adef9b4cdc1af2990f6f2eaf6d92feb8c8fca7f9d400b8d4e1bc2"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2686,
+      "sha256": "197669635bbf7b8cf8892b6912e428c92c66aac37ea2d3f1a174c9a04b2b64f6"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 16040,
+      "sha256": "dab45a9121c20c01a351807f9f8c8d1a35132cb1c55b4d67c5c1bd46a3a75201"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2664,
+      "sha256": "b43be82dcc8bde23f0aa309e3f80543f4e1843762f652daccd770cf8fcc83256"
+    }
+  ]
+}

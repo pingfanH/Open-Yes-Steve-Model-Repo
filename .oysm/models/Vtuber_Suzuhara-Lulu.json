@@ -1,0 +1,98 @@
+{
+  "id": "Vtuber_Suzuhara-Lulu",
+  "path": "parsed/Vtuber_Suzuhara-Lulu",
+  "source": {
+    "path": "_Vtuber/Vtuber_Suzuhara-Lulu.ysm",
+    "type": "ysm",
+    "stem": "Vtuber_Suzuhara-Lulu"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "鈴原るる (Suzuhara_Lulu)_lite",
+    "authors": [
+      {
+        "name": "人生不如一行波德莱尔"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "suzuhara_ruru_normal.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Vtuber_Suzuhara-Lulu_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11067,
+      "sha256": "3ff8e6a55df4ff96d4b6afb48e4c286e86684f654ec5879c527655bd28a28cdb"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 757571,
+    "sha256": "688d37ce351a03039cc9e79d7e59539dc0b63ee82cb61d359c7d6c8d6ae052b9",
+    "bones": 110,
+    "cubes": 750,
+    "faces": 4500,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 91,
+      "sha256": "a7c246495beaffe9733d903936d163adcb1e5ba1bcfcfaa6c9efbd051bd32222"
+    },
+    {
+      "path": "arm.json",
+      "size": 25990,
+      "sha256": "e73e5bb3530134f25c320aafecb875052c56ce70aa775d62d6b019dd50ffdf70"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 150072,
+      "sha256": "308245990deb76c2a396de075ae4bbbae8955d7640d89aafd7fe8e8d3e9854cf"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 169852,
+      "sha256": "40d5888271753ac3c9bce80a180541cdd1797250f9e3451bd33d5cfbd2acbb0a"
+    },
+    {
+      "path": "main.json",
+      "size": 383189,
+      "sha256": "c9afd255a4af41e48899f0c81369c92eeefc26d726df0338d9a8ff47a395cb89"
+    },
+    {
+      "path": "suzuhara_ruru_normal.png",
+      "size": 28377,
+      "sha256": "b46615121ec580dd2f7a0e1d93fc6649cb326ce1009455031c6e32ad1330c7f3"
+    }
+  ]
+}

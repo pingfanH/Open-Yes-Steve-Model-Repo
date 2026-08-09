@@ -1,0 +1,127 @@
+{
+  "id": "Wohota_O108rocket(No_space_helmet)_v1.0",
+  "path": "parsed/Wohota_O108rocket(No_space_helmet)_v1.0",
+  "source": {
+    "path": "_Wohota-NekoHacker/Wohota_O108rocket(No_space_helmet)_v1.0.ysm",
+    "type": "ysm",
+    "stem": "Wohota_O108rocket(No_space_helmet)_v1.0"
+  },
+  "ysm": "parsed/Wohota_O108rocket(No_space_helmet)_v1.0/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/Pinecone_W.png",
+        "comment": "欢迎来我的大水果树乘凉中心坐一坐：891311984（QQ群）",
+        "contact": {
+          "email": "1147102455@qq.com",
+          "qq": "1147102455"
+        },
+        "name": "Pinecone_W",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/.png",
+        "comment": "",
+        "name": "",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "喵喵？",
+      "home": "https://space.bilibili.com/102750614/"
+    },
+    "name": "O108ROCKET(No space helmet)",
+    "tips": "Wotoha in O108ROCKET ,no space helmet and candy box in the back"
+  },
+  "properties": {
+    "width_scale": 0.8,
+    "height_scale": 0.8,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "打招呼",
+      "run": "润",
+      "walk": "跑路",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "O108",
+    "preview_animation": "idle",
+    "free": false,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/O108.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Wohota_O108rocket_No_space_helmet__v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3514,
+      "sha256": "d0c4b8247901e9068d1034679ca2f9cf101fdf390dc83553cd7b565a04c1c808"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 714264,
+    "sha256": "d3b08e3dce2f63428af5c49c09502d9cb0e9a9f657bc3e0c1409f9756d661dc4",
+    "bones": 55,
+    "cubes": 165,
+    "faces": 990,
+    "textures": 1,
+    "materials": 1,
+    "animations": 0,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "avatar/Pinecone_W.png",
+      "size": 505599,
+      "sha256": "3a7a9e241756a0b3aec6a46ed64d43d8685ffff36ed3220493e8d8086f921945"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 9762,
+      "sha256": "8b14209a1aa89c534d6d1a9e65069a87395227f8586024ea6ce601f3ad66da94"
+    },
+    {
+      "path": "models/main.json",
+      "size": 78451,
+      "sha256": "ae4de1b0a758c11207c8fab316ff4467aa95ba0d4215b5d9aa16631f4bb74cd1"
+    },
+    {
+      "path": "textures/O108.png",
+      "size": 119502,
+      "sha256": "cf20b489083efd2400f9a6ec371519bb55a6c4a0993163e6609538e4be1f4c35"
+    },
+    {
+      "path": "ysm.json",
+      "size": 950,
+      "sha256": "0c4d3545fe437c36e379e38b4676b116cf25254f157ac6e3052c2b111cf731d6"
+    }
+  ]
+}

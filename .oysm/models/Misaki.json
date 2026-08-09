@@ -1,0 +1,328 @@
+{
+  "id": "Misaki",
+  "path": "parsed/Misaki",
+  "source": {
+    "path": "Unknown/Misaki.ysm",
+    "type": "ysm",
+    "stem": "Misaki"
+  },
+  "ysm": "parsed/Misaki/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§9赤恒RedConstant.png",
+        "comment": "无聊这一块",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/235888316"
+        },
+        "name": "§9赤恒RedConstant",
+        "role": "ALL"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/RedConstant?tab=home",
+      "home": "https://space.bilibili.com/235888316"
+    },
+    "name": "Misaki",
+    "tips": "太刀使-§4美咲"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "none": "#角色配置",
+      "NONE-2": "#表情配置",
+      "POWER": "§4Power!",
+      "extra3": "肯定",
+      "extra4": "否定",
+      "extra5": "站姿",
+      "extra1": "打招呼",
+      "henshin!": "§4变身太刀虾",
+      "you shall die!": "有小代！"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "角色配置",
+        "name": "角色配置",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "头饰",
+            "description": "头饰开关",
+            "value": "v.toushi"
+          },
+          {
+            "type": "checkbox",
+            "title": "嗨丝",
+            "description": "嗨丝",
+            "value": "v.heisi"
+          },
+          {
+            "type": "range",
+            "title": "X轴",
+            "description": "X轴",
+            "value": "v.xzhou",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 5.0
+          },
+          {
+            "type": "range",
+            "title": "Y轴",
+            "description": "Y轴",
+            "value": "v.yzhou",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 5.0
+          },
+          {
+            "type": "range",
+            "title": "Z轴",
+            "description": "Z轴",
+            "value": "v.zzhou",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 5.0
+          },
+          {
+            "type": "range",
+            "title": "头部大小",
+            "description": "头部大小",
+            "value": "v.headsize",
+            "step": 0.05,
+            "min": 0.5,
+            "max": 2.0
+          }
+        ]
+      },
+      {
+        "id": "表情配置",
+        "name": "表情配置",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "面部",
+            "description": "面部",
+            "value": "v.mianse",
+            "labels": {
+              "正常": "v.mianse=0;v.heilian=0;v.xiuse=0;v.saihong=0",
+              "黑颜": "v.mianse=1;v.heilian=1;v.xiuse=0;v.saihong=0",
+              "羞涩": "v.mianse=2;v.heilian=0;v.xiuse=1;v.saihong=0",
+              "腮红": "v.mianse=3;v.heilian=0;v.xiuse=0;v.saihong=1"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "嘴部",
+            "description": "嘴部",
+            "value": "v.mouth",
+            "labels": {
+              "无": "v.mouth=0;v.weixiao=0;v.wanla=0;v.shengqi=0;v.buxixi=0;v.wuyan=0;v.xiao=0;v.weizhang=0",
+              "微笑": "v.mouth=1;v.weixiao=1;v.wanla=0;v.shengqi=0;v.buxixi=0;v.wuyan=0;v.xiao=0;v.weizhang=0",
+              "不好": "v.mouth=2;v.weixiao=0;v.wanla=1;v.shengqi=0;v.buxixi=0;v.wuyan=0;v.xiao=0;v.weizhang=0",
+              "生气": "v.mouth=3;v.weixiao=0;v.wanla=0;v.shengqi=1;v.buxixi=0;v.wuyan=0;v.xiao=0;v.weizhang=0",
+              "不悦": "v.mouth=4;v.weixiao=0;v.wanla=0;v.shengqi=0;v.buxixi=1;v.wuyan=0;v.xiao=0;v.weizhang=0",
+              "无言": "v.mouth=5;v.weixiao=0;v.wanla=0;v.shengqi=0;v.buxixi=0;v.wuyan=1;v.xiao=0;v.weizhang=0",
+              "笑": "v.mouth=6;v.weixiao=0;v.wanla=0;v.shengqi=0;v.buxixi=0;v.wuyan=0;v.xiao=1;v.weizhang=0",
+              "微微张嘴": "v.mouth=7;v.weixiao=0;v.wanla=0;v.shengqi=0;v.buxixi=0;v.wuyan=0;v.xiao=0;v.weizhang=1"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "眼睛",
+            "description": "眼睛",
+            "value": "v.eyeschange",
+            "labels": {
+              "普通": "v.eyeschange=0;v.normaleye=1;v.ooeye=0;v.xxeye=0",
+              "O . O": "v.eyeschange=1;v.normaleye=0;v.ooeye=1;v.xxeye=0",
+              "X_X": "v.eyeschange=2;v.normaleye=0;v.ooeye=0;v.xxeye=1"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Misaki_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5921,
+      "sha256": "ea65bc177634084ad342d01b2d3a3c912e56bc836624053e4f6dccaaeba6d773"
+    }
+  },
+  "stats": {
+    "file_count": 22,
+    "total_bytes": 4136268,
+    "sha256": "8001dabac49ed9c852e322f5f5134283aa880386f254bbb3106d183eb8b1d7f1",
+    "bones": 291,
+    "cubes": 1480,
+    "faces": 8880,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 213003,
+      "sha256": "1800d26bd74df51bec602f1a551b30e1762206fece6ceb1d02eaf1c1daba49bb"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2588,
+      "sha256": "5bb65664fcbbf77b602bca146730715a485b98f8f4931e58b940a7b1a05c5573"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 31840,
+      "sha256": "2c369ced3a2be1f77ab45328f197150a532e6f0893e6bbafe4f4bd76ba703cc9"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 220314,
+      "sha256": "a0f54651b6a57efc37586fb937760c49a975931062b69300a05882c533c1c93a"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 146124,
+      "sha256": "0fe3eecafe61fd84ff55511baebf535dc89ae4d0b0699539624d81d1ca983acc"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2161699,
+      "sha256": "0c914d37e2c6a3e956333e99437ef6585c6738bbe74355938bc1188f5b5d9650"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 46573,
+      "sha256": "742188609b973fe9a803482f5f1338176c3777670b60f2952bab11df0e0db011"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 210087,
+      "sha256": "01e81824b60f8880f1f3495061596c807fce461f798de481673e568607119b80"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 53651,
+      "sha256": "c6ee4f1c389ec5cba6b64d6d3a61dea475e7a130c41865005a297bcf298cc486"
+    },
+    {
+      "path": "avatar/§9赤恒RedConstant.png",
+      "size": 32766,
+      "sha256": "405a791239eaa4309bbf0930a4a1afc58190ea895400df7c7dd8067784b635f8"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 71584,
+      "sha256": "d306f7e45476f77d2bacfbd8da294dc12f049b989beb8da282f6d09949f7d68f"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13725,
+      "sha256": "605fc04a716cfd12d30b5d6fb5d6db461504bd2f8da602fe078a4f57b4d71c71"
+    },
+    {
+      "path": "models/main.json",
+      "size": 744024,
+      "sha256": "bcbcab2aaa90b4b6cb3d42904b883ef24fd10189d3a9ac4af66a9b2a26db270d"
+    },
+    {
+      "path": "sounds/death.ogg",
+      "size": 15532,
+      "sha256": "c1aba012929d87cb12085fed7c358b297a7240752b47762cfab2a864dcd3b979"
+    },
+    {
+      "path": "sounds/holdsword.ogg",
+      "size": 30799,
+      "sha256": "2dc9f74acbe9cc6007fc136ab07b848963aa90fe445e91048d73f58c4ee96160"
+    },
+    {
+      "path": "sounds/nya.ogg",
+      "size": 13809,
+      "sha256": "a374284d24a408eadc906460076ce7941b9085a68309ba4edefbc4cd8ef7cc9d"
+    },
+    {
+      "path": "sounds/shield.ogg",
+      "size": 28719,
+      "sha256": "034367df4c953a37d0b9820af000a3f58b3c21d51a0618332ffd0a4992ac6e9c"
+    },
+    {
+      "path": "sounds/ushalldie.ogg",
+      "size": 28482,
+      "sha256": "5cb9f7fd6bd90c9a0a447f86a23f6523910de4cabc52a3f6f7a16e1e5560c8d2"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2686,
+      "sha256": "197669635bbf7b8cf8892b6912e428c92c66aac37ea2d3f1a174c9a04b2b64f6"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 64066,
+      "sha256": "42dc16c5d7232a8fdd91e77e350bdcd8c5059cf73f1c82ec5bc68c30a51ecc2c"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3731,
+      "sha256": "5ca82d0ca65edb079cb339a494221d56f9e27da1f3162d4f350e7b6cb02f2e4d"
+    }
+  ]
+}

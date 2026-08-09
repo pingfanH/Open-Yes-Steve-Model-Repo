@@ -1,0 +1,252 @@
+{
+  "id": "GF_M200",
+  "path": "parsed/GF_M200",
+  "source": {
+    "path": "_GirlsFrontline/GF_M200.ysm",
+    "type": "ysm",
+    "stem": "GF_M200"
+  },
+  "ysm": "parsed/GF_M200/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/映素工坊.png",
+        "comment": "",
+        "contact": {
+          "B站": "https://space.bilibili.com/17798027",
+          "afd": "https://afdian.com/a/6TGESILA"
+        },
+        "name": "映素工坊",
+        "role": "模型适配"
+      },
+      {
+        "avatar": "avatar/荒漠.png",
+        "comment": "",
+        "name": "荒漠",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "name": "m200",
+    "tips": "你好，指挥官。我是M200，希望能用储备的知识帮上您的忙……不，不是精通，只是希望这样……"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra8": "#extra_config",
+      "extra10": "IDW喵",
+      "extra11": "宜家鲨鱼",
+      "#stand_anima": "立绘姿势",
+      "#defualt_anima": "默认动画",
+      "extra14": "喇↑叭↓",
+      "extra15": "旋转喇↑叭↓",
+      "extra17": "#face_config"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "配件选项",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "高度",
+            "description": "调整腿皇高度",
+            "value": "v.leg_size",
+            "step": 0.2,
+            "min": 1.0,
+            "max": 4.0
+          },
+          {
+            "type": "checkbox",
+            "title": "狗子开关",
+            "description": "开启或者关闭头顶狗子",
+            "value": "v.dog"
+          },
+          {
+            "type": "checkbox",
+            "title": "切换时装",
+            "description": "切换默认服装/战地的采访者",
+            "value": "v.skin"
+          },
+          {
+            "type": "checkbox",
+            "title": "切换M200",
+            "description": "切换TACZ动画下的武器",
+            "value": "v.mhand"
+          }
+        ]
+      },
+      {
+        "id": "face_config",
+        "name": "脸部设置",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "眼睛设置",
+            "description": "切换眼睛组件",
+            "value": "v.eye",
+            "labels": {
+              "默认": "v.eye=0",
+              "Q Q": "v.eye=1",
+              "> <": "v.eye=2"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "嘴部设置",
+            "description": "切换嘴部组件",
+            "value": "v.mouth",
+            "labels": {
+              "默认": "v.mouth=0",
+              "微笑": "v.mouth=1",
+              "口": "v.mouth=2",
+              "张开": "v.mouth=3",
+              "^": "v.mouth=4",
+              "张嘴笑": "v.mouth=5",
+              "含蓄的笑": "v.mouth=6",
+              "撇嘴": "v.mouth=7",
+              "x": "v.mouth=8",
+              "◇": "v.mouth=9",
+              "抿嘴": "v.mouth=10",
+              "吐舌": "v.mouth=11",
+              "紧张": "v.mouth=12",
+              "紧张2": "v.mouth=13",
+              "张嘴": "v.mouth=14"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "stand_anima",
+        "extra_animation": {
+          "extra12": "普通立绘姿势",
+          "extra13": "大破立绘姿势"
+        }
+      },
+      {
+        "id": "defualt_anima",
+        "extra_animation": {
+          "extra0": "",
+          "extra1": "",
+          "extra2": "",
+          "extra3": "",
+          "extra4": "",
+          "extra5": "",
+          "extra6": "",
+          "extra7": ""
+        }
+      }
+    ],
+    "preview_animation": "gui",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GF_M200_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6173,
+      "sha256": "3f2abbb60711c96d06a6db92eb02bb48eb516852016d54b20411b19ee45a7239"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 1171230,
+    "sha256": "d8de2c44009d4790ece4a0f360512e91f47065cad9955a7530b9ee0a2cbb56c4",
+    "bones": 221,
+    "cubes": 771,
+    "faces": 4626,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 113668,
+      "sha256": "4e671a699ac8159751ef4a848aadada0c7646e829eec162f1ce7c0d8b9e12475"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 179334,
+      "sha256": "a3ba192b2620e7175295c071eadd2c4b70f1c02924be3aee23b611d329f103d6"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182154,
+      "sha256": "8ab8a9edb565dbb8f244b0d8642add699b1bccbfb474f47faa38f5002d6467ef"
+    },
+    {
+      "path": "avatar/映素工坊.png",
+      "size": 7627,
+      "sha256": "dd0cbfc9d86f7c9e22826e086b2634dfbb4113952b88d93db3b6632f98a6840d"
+    },
+    {
+      "path": "avatar/荒漠.png",
+      "size": 34234,
+      "sha256": "b7afa8ee419b278d78a6336365a79b8ac5f95b3d9bd34150e1b9dafe4029b9fc"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 14107,
+      "sha256": "16784ccb9566ef48da1de81116efd78233a3b1e2548067f6ac8bd59186a82709"
+    },
+    {
+      "path": "models/main.json",
+      "size": 409763,
+      "sha256": "0206994c59cd50dc3861a458d369ab522834fc87de6476e64b370bf46422881f"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 49279,
+      "sha256": "c8924b4eef40c0a46d7f8a16c18cd3f037d88c984ff5f7fca661ba18324ec726"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2662,
+      "sha256": "3f123038ae04bb62c5eb0ead45d9df8630dce2644bd2b8677a990bb11cf65e77"
+    }
+  ]
+}

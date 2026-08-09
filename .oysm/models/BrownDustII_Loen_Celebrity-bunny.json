@@ -1,0 +1,168 @@
+{
+  "id": "BrownDustII_Loen(Celebrity-bunny)",
+  "path": "parsed/BrownDustII_Loen(Celebrity-bunny)",
+  "source": {
+    "path": "_BrownDustII/BrownDustII_Loen(Celebrity-bunny).ysm",
+    "type": "ysm",
+    "stem": "BrownDustII_Loen(Celebrity-bunny)"
+  },
+  "ysm": "parsed/BrownDustII_Loen(Celebrity-bunny)/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/绘飞.png",
+        "comment": "",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/8714030",
+          "爱发电": "https://afdian.com/a/huifei"
+        },
+        "name": "绘飞",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/huifei",
+      "home": "https://space.bilibili.com/8714030"
+    },
+    "name": "名人兔女郎 - 罗安",
+    "tips": "\n§d嘿嘿...这、这是福利。\n§d不可以跟店长说哦...！\n \n"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "切换",
+      "extra1": "挥手",
+      "extra2": "拍手",
+      "extra3": "乳贴",
+      "extra4": "黑丝",
+      "extra5": "坐",
+      "extra6": "趴1",
+      "extra7": "趴2"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "la",
+    "preview_animation": "gui",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/la.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BrownDustII_Loen_Celebrity-bunny_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6170,
+      "sha256": "88cb9b6d260e499636d9d106c7991946f973a2de2c7fa9745df1c470400cac7d"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 1950970,
+    "sha256": "968fe538c1ca9c503a8c54388b3c3b3be0c27e459569cf334f6f5bdeaf2fcc02",
+    "bones": 102,
+    "cubes": 592,
+    "faces": 3552,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136637,
+      "sha256": "f795d670b8e2553548348161425e21c7a8f4c2b78d4602d33c8ccc1f03f537b3"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 17281,
+      "sha256": "4a9e9cd0dc24470742504ef7f3846ac7cb423a7ad489ad40137f911a10130dbc"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 203443,
+      "sha256": "c325280505a0aa84ccc5bb73b7eb0483dc71d538bb82dfbbc30462ca81a6dc8d"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/绘飞.png",
+      "size": 889718,
+      "sha256": "bab7380f5ccfd67996162cea8541917a37da90108419f53e3b15b4725c96e6dc"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 20480,
+      "sha256": "640ca3c7d0478fb48e625b1c4b74ad633eb4db0497d2855e8f5917a519d46372"
+    },
+    {
+      "path": "models/main.json",
+      "size": 303616,
+      "sha256": "5db954874f4a44ed58bea9037a8db135f495082449140d9dce62ca182f77051b"
+    },
+    {
+      "path": "textures/la.png",
+      "size": 19435,
+      "sha256": "c977d11e37ce66c0ea970ef4a620a6fdc23aa5520a56bb8057e6a21fe26c6976"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1299,
+      "sha256": "91adfb658f21c304383bf1d8ea29272250855c2667d3838640fb9a7fc8dcc27d"
+    }
+  ]
+}

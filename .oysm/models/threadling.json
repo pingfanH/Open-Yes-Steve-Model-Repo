@@ -1,0 +1,179 @@
+{
+  "id": "_threadling",
+  "path": "parsed/_threadling",
+  "source": {
+    "path": "Uncategorized/_threadling.zip",
+    "type": "zip",
+    "stem": "_threadling"
+  },
+  "ysm": "parsed/_threadling/ysm.json",
+  "metadata": {
+    "name": "§a线虫",
+    "tips": "§2「一种由纯缚丝物质编织而成的生物，会寻找附件的目标并发动攻击，造成伤害。」",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "雷切克",
+        "role": "流经万物",
+        "avatar": "avatar/receke.png",
+        "contact": {
+          "Afdian": "https://afdian.com/a/Receke",
+          "Bilibili": "https://space.bilibili.com/33150006"
+        },
+        "comment": "动画师缚丝刘经理\n目前在做娘化 勿催"
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "preview_animation": "idle",
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "texture": [
+        "textures/threadling.png"
+      ],
+      "animation_controllers": [
+        "controller/controlle_threadling.json"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/threadling_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 583,
+      "sha256": "5ac120da6e4be629d3671f9a42f54cf041154deb3a860cf798c146073701e916"
+    }
+  },
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 728180,
+    "sha256": "f1c80df75e03ba5e5846aa6c5b011bc6400bfd172119c39730c2cc6ab88078d3",
+    "bones": 29,
+    "cubes": 164,
+    "faces": 229,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136480,
+      "sha256": "e023c76ddc0502e751d671178fdfdb0759ed6f53fc63998edf86cc1dad8b93d6"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 648,
+      "sha256": "a1742d97b6f3a435a92ed37c1f971b9367d8198a3c12116be4a9f433586b8e12"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3799,
+      "sha256": "32851380160c2bceea27535eeb1f27ed77e74f2fd565ac13c06c499952aff79e"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 150072,
+      "sha256": "308245990deb76c2a396de075ae4bbbae8955d7640d89aafd7fe8e8d3e9854cf"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 14189,
+      "sha256": "4d97b0be20327bbbda0c15a3a5961822b142d57af5ff5505eb6172ba8c6e35a8"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 164868,
+      "sha256": "85f8114dce69f142d5516cd237ca63ef02dc7e655a82076387a66d05e7610700"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 19734,
+      "sha256": "c0dc39e25c53a514dda964ee56a7fec4910575b4c2e8e288f2436c67f6cda983"
+    },
+    {
+      "path": "avatar/receke.png",
+      "size": 145276,
+      "sha256": "2132bfc3cca5404eb36bc36c682f3094ac259de64078e1bbfe37891db23033f4"
+    },
+    {
+      "path": "controller/controlle_threadling.json",
+      "size": 1270,
+      "sha256": "c222af2c6bf601ee5f3909137975f6622b22d4ea74920c725fc857ad29e91cbd"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 808,
+      "sha256": "ca27475eb1b74bb045cfdb893761ca13b1c989a7693428a9408c0b6171c1c0a9"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 7168,
+      "sha256": "5c58c14c5b3a2c60a168d247f72be1a1c02bbeabf3ee495dd67b0e754a70ddc7"
+    },
+    {
+      "path": "models/main.json",
+      "size": 40495,
+      "sha256": "001ebf09954ce7df3e0fb852d8c53b01d794ffa94c7eb9262a116c3d03b16826"
+    },
+    {
+      "path": "textures/threadling.png",
+      "size": 545,
+      "sha256": "a586681f9db75e4b59746a77c0fc0e164d4a9f1ee93f2145ba4349b30e87e2fa"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1798,
+      "sha256": "7b7fb7b195447a81cb23564a43d854ab0458ba598cadf1823aa1aa6bef62db9c"
+    }
+  ]
+}

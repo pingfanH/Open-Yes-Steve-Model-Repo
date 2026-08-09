@@ -1,0 +1,199 @@
+{
+  "id": "HSR_Tribbie(maid)",
+  "path": "parsed/HSR_Tribbie(maid)",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Tribbie(maid).ysm",
+    "type": "ysm",
+    "stem": "HSR_Tribbie(maid)"
+  },
+  "ysm": "parsed/HSR_Tribbie(maid)/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/汪.png",
+        "comment": "",
+        "contact": {
+          "Afdian": "",
+          "Bilibili": ""
+        },
+        "name": "汪",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "",
+      "home": ""
+    },
+    "name": "女仆小缇宝",
+    "tips": ""
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#你好",
+      "extra1": "鼓掌",
+      "extra2": "开车车",
+      "extra3": "好耶",
+      "extra4": "坐下",
+      "extra5": "躺下",
+      "extra6": "无",
+      "extra7": "跳舞",
+      "extra9": "星星飞",
+      "extra10": "飞机飞",
+      "extra18": "鹿乃子虎视眈眈",
+      "extra16": "doodle摇",
+      "extra11": "不到",
+      "extra22": "摇",
+      "extra20": "摇",
+      "extra17": "难过（饿了）",
+      "extra21": "Get Down",
+      "extra25": "扫地",
+      "extra24": "给你苹果",
+      "extra26": "拖地",
+      "extra27": "给你娃娃"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "你好",
+        "name": "你好",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "大小是不能改变了",
+            "description": "",
+            "value": "v.player_size",
+            "step": 0.1,
+            "min": 0.2,
+            "max": 5.0
+          },
+          {
+            "type": "radio",
+            "title": "表情",
+            "description": "~",
+            "value": "v.pants_change",
+            "labels": {
+              "无表情": "v.pants_change=0;v.t=0",
+              "笑": "v.pants_change=1;v.t=1",
+              "不爽": "v.pants_change=2;v.t=2",
+              "微笑": "v.pants_change=3;v.t=3",
+              "尖叫": "v.pants_change=4;v.t=4",
+              "撇嘴": "v.pants_change=5;v.t=5",
+              "吐舌头": "v.pants_change=6;v.t=6"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "表情",
+            "description": "~",
+            "value": "v.pants_change1",
+            "labels": {
+              "无表情": "v.pants_change1=0;v.t1=0",
+              "愤怒": "v.pants_change1=1;v.t1=1",
+              "害羞": "v.pants_change1=2;v.t1=2"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/maid.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Tribbie_maid_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8156,
+      "sha256": "38c1b28ad2ebd5d5e8d65a00eb37693ea6a2599e1b863071ce5e22b728cea6cf"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 3783674,
+    "sha256": "07f2f589dbd8248be5db2368c18e31eff041ec92720d57288e28e0b7d4a4ac88",
+    "bones": 393,
+    "cubes": 2383,
+    "faces": 14194,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 161436,
+      "sha256": "352d756aac04fcee7b8208c07ec5fed4507e0ec1b25e8ca3e593b6113e111733"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 1598478,
+      "sha256": "1cf9da4b7e6c7e4d49266dc405afde0c476893bdf748ea2a8a0273909dec8e07"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 385628,
+      "sha256": "940f195f81df43a1c4d365191b18cdeac5e89c2a20154e4accba66bf3399e61a"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 44588,
+      "sha256": "b795cab3552c99d6fad53d26281b3f81a75c4029b0289341ecaa066e349e3752"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1290588,
+      "sha256": "c271fb1246fd44cb789f19838aefa729fb71f1a57b8c3c949370e7d3f43344a0"
+    },
+    {
+      "path": "sounds/4.ogg",
+      "size": 237351,
+      "sha256": "52848de24435506d31f66aefe130d5bd5d97f1de0baf75ddd8e45491d143f091"
+    },
+    {
+      "path": "textures/maid.png",
+      "size": 63683,
+      "sha256": "0fdfa5b03251a1465cb30397c90ddeaf0b1b6d687996761e936ad94ec2364cf3"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1922,
+      "sha256": "7579a68c5af3c29344b4ab762b4f801fbfa348f9cd396286ca2653bb5d30f6a0"
+    }
+  ]
+}

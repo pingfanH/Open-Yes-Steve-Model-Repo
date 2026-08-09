@@ -1,0 +1,144 @@
+{
+  "id": "SPAMton",
+  "path": "parsed/SPAMton",
+  "source": {
+    "path": "Unknown/SPAMton.ysm",
+    "type": "ysm",
+    "stem": "SPAMton"
+  },
+  "ysm": "parsed/SPAMton/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/okarun.png",
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "name": "okarun",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "spamton",
+    "tips": "big"
+  },
+  "properties": {
+    "width_scale": 0.6,
+    "height_scale": 0.6,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_classify": [],
+    "default_texture": "blue",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "parcool": "animations/parcool.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/SPAMton_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 2951,
+      "sha256": "7b4dda03e55847a379229850567ba92b86e0f17ab399a9b3aae1c3c5cb9d55fd"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 2336959,
+    "sha256": "85a8d66c02453e8c6ac40f5379ea18c6ec932fe1604d99653d7375079b95fb51",
+    "bones": 45,
+    "cubes": 82,
+    "faces": 492,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/main.animation.json",
+      "size": 123167,
+      "sha256": "96887d94c2210f49d27c34013b0e7205089865b598a9f40ccc7569a7acc52c4c"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "avatar/okarun.png",
+      "size": 2297,
+      "sha256": "38ff83c9a2ff6a225a3c606a05bc1d68804bf571f3b7884127b38abb97bea7dc"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 6993,
+      "sha256": "edad94dc3a3c8b65994109af028c7e45cadd916a34f897a7594be6e0cbb667b7"
+    },
+    {
+      "path": "models/main.json",
+      "size": 36908,
+      "sha256": "0dd58fbb9b6c89c28e8eea54ebb5c9a977602d729ad396b34cc17ba4672bb204"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 3052,
+      "sha256": "1d0bfe00fe76dcb803173f56aa5e1db84be82d53db01da27d257b24f27ca5ee2"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1079,
+      "sha256": "d311af01bc794a25f5a88de8b6b1358437123c8e5dbe6e16a65e97ff55a0d5cf"
+    }
+  ]
+}

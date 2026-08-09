@@ -1,0 +1,156 @@
+{
+  "id": "Bionicle_Tahu",
+  "path": "parsed/Bionicle_Tahu",
+  "source": {
+    "path": "_Bionicle/Bionicle_Tahu.zip",
+    "type": "zip",
+    "stem": "Bionicle_Tahu"
+  },
+  "ysm": "parsed/Bionicle_Tahu/ysm.json",
+  "metadata": {
+    "name": "Tahu",
+    "tips": "Courageous Toa of Fire",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "CrystalizedSun",
+        "comment": "The Contributor of TLM mod"
+      }
+    ]
+  },
+  "properties": {
+    "default_texture": "Tahu",
+    "free": true,
+    "extra_animation": {
+      "extra0": "#kanohi_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "kanohi_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "Kanohi",
+            "description": "Selection of Kanohi",
+            "value": "v.kanohi",
+            "labels": {
+              "Hau": "v.kanohi=0;",
+              "Miru": "v.kanohi=1;",
+              "Kakama": "v.kanohi=2;",
+              "Pakari": "v.kanohi=3;",
+              "Akaku": "v.kanohi=4;",
+              "Kaukau": "v.kanohi=5;"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "tac": "animations/tac.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "texture": [
+        "textures/tahu.png",
+        "textures/tahu_goldmask.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Bionicle_Tahu_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4516,
+      "sha256": "018e70209b305c37360df4a40dd79bc37cd7cdf5069ecde5479d36603646db74"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 604100,
+    "sha256": "ebbcae9a74a0d07952d16a237a4cfe607bd5701b7b6d437bcc24ce3edd03aaf2",
+    "bones": 63,
+    "cubes": 423,
+    "faces": 2538,
+    "textures": 2,
+    "materials": 2,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/main.animation.json",
+      "size": 117700,
+      "sha256": "f59a6aa33c2448a3e6ec5f9e3cafe0d4079a404c240e80b39395a768a84c355e"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 155248,
+      "sha256": "4f40aec385f3c4117db41fdbe6c94184a17c75cd324d37fb0660a9c70e251ff1"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 56793,
+      "sha256": "d4247a4d8064c8d548f95c8804f077c816feecbb9e24a70abc24e9a619472fcf"
+    },
+    {
+      "path": "avatar/dm.png",
+      "size": 5471,
+      "sha256": "5d28f00fd947e31f361da9cab6c16693d80f25988515822e078cea1f5ef08a60"
+    },
+    {
+      "path": "avatar/gsl.png",
+      "size": 4738,
+      "sha256": "0bf76a1ba896f709839f9c35bb62852350b4b0f110bc9a1c4c4c5acc99f25188"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 13189,
+      "sha256": "ec27de03fc80aadf5b73640f60ec524a4a95dc17323b5e5fcda071fa89c223fd"
+    },
+    {
+      "path": "models/main.json",
+      "size": 206541,
+      "sha256": "f9b87a530edc63428d7932b9ed7275228d97011c9181665229cc7dbb2d5c1679"
+    },
+    {
+      "path": "textures/tahu.png",
+      "size": 20638,
+      "sha256": "3d06aef0256db4b635aa1b01b64940244bdcc2c78a4e069da2e6583eff2c0c09"
+    },
+    {
+      "path": "textures/tahu_goldmask.png",
+      "size": 21735,
+      "sha256": "5083314d8526bb21cc098b66d497f4550ca66abf0ac47316a798b6f14c6caf04"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2047,
+      "sha256": "b3d03427770d2165d4778dab807e9c6e4f65438397329fdb8cd2c7b71094ea23"
+    }
+  ]
+}

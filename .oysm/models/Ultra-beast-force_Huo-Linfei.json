@@ -1,0 +1,162 @@
+{
+  "id": "Ultra-beast-force_Huo-Linfei",
+  "path": "parsed/Ultra-beast-force_Huo-Linfei",
+  "source": {
+    "path": "_Ultra-beast-force/Ultra-beast-force_Huo-Linfei.ysm",
+    "type": "ysm",
+    "stem": "Ultra-beast-force_Huo-Linfei"
+  },
+  "ysm": "parsed/Ultra-beast-force_Huo-Linfei/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/TUTU秃.png",
+        "comment": "嘿嘿",
+        "contact": {
+          "Afadian": "https://afdian.com/a/tututugongfang",
+          "bilibili": "https://space.bilibili.com/88821626"
+        },
+        "name": "TUTU秃",
+        "role": "模型 动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "name": "火麟飞",
+    "tips": "-- 敌人在我面前不是逃之夭夭就是一败涂地 --\n超兽武装-火麟飞"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "#动作": "YSM原版动作",
+      "武装": "武装",
+      "指": "指",
+      "起手式": "起手式"
+    },
+    "extra_animation_classify": [
+      {
+        "id": "动作",
+        "extra_animation": {
+          "extra0": "",
+          "extra1": "",
+          "extra2": "",
+          "extra3": "",
+          "extra4": "",
+          "extra5": "",
+          "extra6": "",
+          "extra7": ""
+        }
+      }
+    ],
+    "preview_animation": "gui",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/hlf.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ultra-beast-force_Huo-Linfei_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13059,
+      "sha256": "4460608a1ece89e6a5a7779169229e6ab9d68dd29753aaedb1741d6e80e2ca6a"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 1347459,
+    "sha256": "ecdfa123780648bff595ffbd0cf24e2090d7c673e16decd60048dd0c2f8002a0",
+    "bones": 198,
+    "cubes": 1308,
+    "faces": 7843,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 177023,
+      "sha256": "342da479b68e66bb7a4048278ba3c84aa6d57e0f9abb4d8f7c4715df5c249c27"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 144645,
+      "sha256": "496b3c6f325bccd913443c340db9c1a85cfb8ece98ef8b3d75fc6d21aa4ebbf9"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 109743,
+      "sha256": "0db3b90660353488d0d7c24f7a051c01f516ce79e029e9e91a6853d5b4dac368"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 131659,
+      "sha256": "4b00610193f653028901baef3aba52737e002f3316d407126ef955ba5738348b"
+    },
+    {
+      "path": "avatar/TUTU秃.png",
+      "size": 1194,
+      "sha256": "06a9e29d6f80737b7690557f2ee6d80bec7d40cced0fc49cb9b997253ffa4642"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 1314,
+      "sha256": "11c90d69a4d75671c1eae4917b304240b30a486b3ceaaa061ef5abcb8e4284f9"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 131281,
+      "sha256": "ce1f35ac069aacea121a3489e0d577f0925a5473a61e861dcc3adf1b1adf5043"
+    },
+    {
+      "path": "models/main.json",
+      "size": 625159,
+      "sha256": "028afd412439852783241d243ced0cf119aa4736abb2c7e6f33cfda2dd319f58"
+    },
+    {
+      "path": "textures/hlf.png",
+      "size": 24267,
+      "sha256": "d6866b709b601202922061b1a928ac465309b6f939430e20cc3ccc9272ca23b7"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1174,
+      "sha256": "498c623cb990840c34afa9bf8c8a46df22fbb318fe1f0ded6b5c8845f65b61af"
+    }
+  ]
+}

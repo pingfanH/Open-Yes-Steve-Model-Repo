@@ -1,0 +1,84 @@
+{
+  "id": "AL_Nautilus",
+  "path": "parsed/AL_Nautilus",
+  "source": {
+    "path": "_AzurLane/AL_Nautilus.ysm",
+    "type": "ysm",
+    "stem": "AL_Nautilus"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "AL_Nautilus"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/AL_Nautilus_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9204,
+      "sha256": "7fb2a8575e44b7d56f55c7bd160094924db0fbaacef7949b01cd824e325f45aa"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 557605,
+    "sha256": "b50c742cac79154e6029ea6add18fa78c34fc6fd6a8019f8a1ab6dda1e5a098c",
+    "bones": 132,
+    "cubes": 678,
+    "faces": 4068,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 13229,
+      "sha256": "3c064683b0922ed5503e79defea2aadd74c0140122d03f67cdfedca643f8ebc5"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 2698,
+      "sha256": "bdccd01f99a4396db092d6dc0610053f952262b6ff8d6f3ec3d5573b18d6a19a"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 107517,
+      "sha256": "f6491488fd7ff9b5c77e1d7ec24f0b6b0627724de77964d0876dc85b4f82c439"
+    },
+    {
+      "path": "main.json",
+      "size": 366827,
+      "sha256": "8b6dbcba989220a1a4c5ab3a12c050525baf20d0d9d2ca0dbc180c3793b2a976"
+    },
+    {
+      "path": "texture.png",
+      "size": 67334,
+      "sha256": "29b0b8a6aad327886a4ef4b6f5f5d68370e931cfb8f062ba20d963f8c25d727a"
+    }
+  ]
+}

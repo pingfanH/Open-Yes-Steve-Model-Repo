@@ -1,0 +1,102 @@
+{
+  "id": "Kamen-Rider_Tycoon",
+  "path": "parsed/Kamen-Rider_Tycoon",
+  "source": {
+    "path": "_KamenRider/Kamen-Rider_Tycoon.ysm",
+    "type": "ysm",
+    "stem": "Kamen-Rider_Tycoon"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "假面骑士太狸 · BujinSword『武神之刃』",
+    "tips": "（变身版）\nBLACK GENERAL!\nBUJIN SWORD!\nREADYYY——FIGHT!",
+    "authors": [
+      {
+        "name": "Super嵩颂诵_子芊 （B站）"
+      },
+      {
+        "name": "Sunny of World"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "green.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Kamen-Rider_Tycoon_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10982,
+      "sha256": "5912d09ccb0b83b9cfe7bb66c1b83a75e7ef5b1b44bfa949e9108a412499dc2a"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 2140725,
+    "sha256": "df31e8e0aa9dd192a75d3d6d1d19d376cd6aeaa6377637e30a9560cd654224d9",
+    "bones": 553,
+    "cubes": 2654,
+    "faces": 15924,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 128347,
+      "sha256": "fecab83f89cc5dce9fae9172973181fd7fe7ed6ca0c29b43391beecc36dacc47"
+    },
+    {
+      "path": "arm.json",
+      "size": 109181,
+      "sha256": "714d12dfc0b06a0f3016527ad3f5c93bec9c8b5b843ad566dc3db214e7d2659d"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 127708,
+      "sha256": "3f846f4d131a1ce43d5714831f4533891b4b99ca39d5bdaf025b1c751e7ede8d"
+    },
+    {
+      "path": "green.png",
+      "size": 60230,
+      "sha256": "2d23a3c626c180fa5703e517064471aa20a9aa7e94b2a09bda90b3c982637103"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 140303,
+      "sha256": "957d45edc51bc30e5c635b6a099545e6ff4a98f205ae7a1a4921ac6c10102483"
+    },
+    {
+      "path": "main.json",
+      "size": 1574956,
+      "sha256": "a4ad2d9521bf65f4d37358e97dfbeeaf6cae28bcf8b2ac83ada130b9f1354f7f"
+    }
+  ]
+}

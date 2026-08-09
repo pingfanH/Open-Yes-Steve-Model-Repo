@@ -1,0 +1,83 @@
+{
+  "id": "Vtuber_Seren-Azuma",
+  "path": "parsed/Vtuber_Seren-Azuma",
+  "source": {
+    "path": "_Vtuber/Vtuber_Seren-Azuma.zip",
+    "type": "zip",
+    "stem": "Vtuber_Seren-Azuma"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Vtuber_Seren-Azuma"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "hanjian2.0.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Vtuber_Seren-Azuma_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8594,
+      "sha256": "48b4a5c73f82fe2cb062f9a752ea34333b7be8326feabcc5ffe9e5c1f7b3d607"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 1766450,
+    "sha256": "a3c6cbae16b8accc3ddb183cf2b9a190e478c25606a5f4783c858117924bfd68",
+    "bones": 135,
+    "cubes": 428,
+    "faces": 2568,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 6996,
+      "sha256": "73765f9df0b32c9b7d04c65b3b557ef9b9d17484ecbbf7e68d4a888eb8d1d9ce"
+    },
+    {
+      "path": "hanjian2.0.png",
+      "size": 11194,
+      "sha256": "a0b17d89f2d9cd011353e023e6131e7559a4bdeee98b4316f58fec53a61f7581"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 163084,
+      "sha256": "b5f1b090b5797cade1f609443a61c2e9a78786328b24232db4452ae03260a38e"
+    },
+    {
+      "path": "main.bbmodel",
+      "size": 1380012,
+      "sha256": "316075fd19fa539b1b5bb94b05e4b03630bca0ac22bcd55e1827071dc3186178"
+    },
+    {
+      "path": "main.json",
+      "size": 205164,
+      "sha256": "df943d2c28a0cafcf294bf5d0f10341703588102e429d475bde80845d7c1cafa"
+    }
+  ]
+}

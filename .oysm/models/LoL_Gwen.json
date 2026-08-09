@@ -1,0 +1,96 @@
+{
+  "id": "LoL_Gwen",
+  "path": "parsed/LoL_Gwen",
+  "source": {
+    "path": "_LeagueOfLegends/LoL_Gwen.ysm",
+    "type": "ysm",
+    "stem": "LoL_Gwen"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "LoL_Gwen"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "tex.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/LoL_Gwen_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11358,
+      "sha256": "e593ce0a20de0d1aba25b8b04f4befb5461999e668002f1896967231d004d21f"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 1030813,
+    "sha256": "6a19ca3e6ee1e928987037809ddd8aa2eeba3c887b21ed656044c6b7be887e94",
+    "bones": 104,
+    "cubes": 507,
+    "faces": 3042,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 51070,
+      "sha256": "e8b4a6d8ebdd57bdb01427bd99afe6adcf7704723153572015b56852f551293b"
+    },
+    {
+      "path": "arm.json",
+      "size": 3019,
+      "sha256": "76be79887796fc7788e1f0f3c199d4a4344e168f2ee1d1aa365b281a1695abd5"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 150072,
+      "sha256": "308245990deb76c2a396de075ae4bbbae8955d7640d89aafd7fe8e8d3e9854cf"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 489416,
+      "sha256": "4c6c1660feabc046e9504d5d4ff5a1c62de863c149a6a8354ac8fef50f27c0d4"
+    },
+    {
+      "path": "main.json",
+      "size": 171487,
+      "sha256": "a928c4fbc98ff77fe6e7f2c24259de533f4e26316cc60196a18d441fa7e0edcb"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 157221,
+      "sha256": "070fc2c555639f57aaefb703f8bb6d2863ce5e4e9e53cc9e8e4ce90158bb8e63"
+    },
+    {
+      "path": "tex.png",
+      "size": 8528,
+      "sha256": "50b22c7ae82af32a4245158f770489a67a52823befb9bdb6fc2382b12ae033d7"
+    }
+  ]
+}

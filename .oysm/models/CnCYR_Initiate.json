@@ -1,0 +1,100 @@
+{
+  "id": "CnCYR_Initiate",
+  "path": "parsed/CnCYR_Initiate",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCYR_Initiate.ysm",
+    "type": "ysm",
+    "stem": "CnCYR_Initiate"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "尤里新兵",
+    "tips": "老光头的小迷弟",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCYR_Initiate_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5962,
+      "sha256": "676a401e15939187dc2d180d000aeace590cf08a1442abff40ca3505fab5b7be"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 382099,
+    "sha256": "d7b5abe5d0bef83522e50095799ffa11e9a248569b3da3b7d26cd840b86a9061",
+    "bones": 44,
+    "cubes": 214,
+    "faces": 1284,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 11856,
+      "sha256": "cb37a31bffd227972d29f946549971b990c7bba8e4f8039c44f6d15cee61e3dd"
+    },
+    {
+      "path": "info.json",
+      "size": 151,
+      "sha256": "11671ca25e88d9c83e93ecd32ac26b9144fc0bbe909fd10a2cdbb62cb0a9765f"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 121390,
+      "sha256": "71872fb8591032d48600a91d25e03f5ef5aca18ba02edd5cebc8d3544292395f"
+    },
+    {
+      "path": "main.json",
+      "size": 98040,
+      "sha256": "15bcb63f070fb7167230c02b98a907984b4c0ec86bfa7c5774eefb722868e08b"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131639,
+      "sha256": "a73cf95259743cc506fa6931e6bed68e0e41c5edca8f4651f26f1a42c1e26994"
+    },
+    {
+      "path": "texture.png",
+      "size": 19023,
+      "sha256": "ab033e8488c0bbe414e2436a4a09bf350ece18627526db8aa8c8103f1c98b94e"
+    }
+  ]
+}

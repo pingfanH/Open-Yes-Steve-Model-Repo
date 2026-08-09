@@ -1,0 +1,191 @@
+{
+  "id": "AK_Rosmontis_v0.9",
+  "path": "parsed/AK_Rosmontis_v0.9",
+  "source": {
+    "path": "_Arknights/AK_Rosmontis_v0.9.ysm",
+    "type": "ysm",
+    "stem": "AK_Rosmontis_v0.9"
+  },
+  "ysm": "parsed/AK_Rosmontis_v0.9/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/平行Rosmontis.png",
+        "comment": "一个人做模型好累.....",
+        "contact": {
+          "QQ群": "235192499",
+          "afadian": "https://afdian.com/a/PXRosmontis24",
+          "bilibili": "https://space.bilibili.com/473170444/"
+        },
+        "name": "平行Rosmontis",
+        "role": "ALL"
+      }
+    ],
+    "license": {
+      "desc": "要求署名、禁止商用、禁止未经授权的衍生作品发布",
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/PXRosmontis24",
+      "home": "https://space.bilibili.com/473170444/"
+    },
+    "name": "Rosmontis",
+    "tips": "迷迭香YSM模型重置版1.0!"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "待机"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "待机",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png",
+          "specular": "textures/default_specular.png"
+        }
+      ]
+    },
+    "vehicles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/vehicle/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/AK_Rosmontis_v0.9_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 25823,
+      "sha256": "22a54d0f7484f6ffe0c0c4b110476ff196cd9a68ed66eef67b666d3089a75196"
+    }
+  },
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 1955461,
+    "sha256": "d73f0bc8d2ef808961f0d0940986ae542080853a3414b5c0af6d4085aa5af4b1",
+    "bones": 117,
+    "cubes": 1520,
+    "faces": 9120,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136637,
+      "sha256": "f795d670b8e2553548348161425e21c7a8f4c2b78d4602d33c8ccc1f03f537b3"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 123165,
+      "sha256": "0a5d3f9c0562cc4d4032464fa5a4f9c4d80d0d7a218e780240d04c0b276f8c9a"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 175955,
+      "sha256": "1a019ada65bea5134372b75857a9d4aba84170a2b465aef4e1b03d39fc7f4928"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "animations/vehicle/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "avatar/平行Rosmontis.png",
+      "size": 1348,
+      "sha256": "1379e8992cd8e382832180425e13255742a0587610de7460c3f6d95623b159ad"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 29037,
+      "sha256": "e5aff8f2404eac29dd986fcfe3463b279f966bd52b7507d4202de831cc9868a5"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 51701,
+      "sha256": "f2eab75cc14aaf48c1c20e97b4d39be35659987d7a504c7c3e6769c96bf71f70"
+    },
+    {
+      "path": "models/main.json",
+      "size": 831611,
+      "sha256": "cb4f004809e53ed1c10f38213e19233ee968b8eef63d1862d16c0edad8f13e7b"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 24524,
+      "sha256": "666fe3d7bff6fc3111d845ba4cef8a8d9819537300d9ce9d63a52a8c7448d793"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 185920,
+      "sha256": "daa9b5359afe4b3f0e1f7535cf16a7d59492025a5631eeba603e88e2315996a8"
+    },
+    {
+      "path": "textures/default_specular.png",
+      "size": 34678,
+      "sha256": "b316c8969e4e1613346f8c593d62e23ce69fbe3999ffe550662874c7761a3e77"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1489,
+      "sha256": "2c05984a85079a0a009573af20cb17aa978b52fe4ffc8f065cff560f76f0ccc2"
+    }
+  ]
+}

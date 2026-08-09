@@ -1,0 +1,186 @@
+{
+  "id": "Vocaloid_Miku(McDonald)_nkrmc",
+  "path": "parsed/Vocaloid_Miku(McDonald)_nkrmc",
+  "source": {
+    "path": "_Vocaloid-UTAU/Vocaloid_Miku(McDonald)_nkrmc.ysm",
+    "type": "ysm",
+    "stem": "Vocaloid_Miku(McDonald)_nkrmc"
+  },
+  "ysm": "parsed/Vocaloid_Miku(McDonald)_nkrmc/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/NekuroMC.png",
+        "comment": "Nekuro#0661",
+        "name": "NekuroMC",
+        "role": "Author"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://ko-fi.com/nekuromc",
+      "home": "https://www.planetminecraft.com/member/nekuromc/"
+    },
+    "name": "Wcdo hatsune miku",
+    "tips": "Hatsune miku Wcdo version - Check out my other models at PMC"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Vocaloid_Miku_McDonald__nkrmc_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10346,
+      "sha256": "eb6b22ad85fbbcc1c77386fddcf5278523d0121c2c02ba136b1fc516097e75b4"
+    }
+  },
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 1316654,
+    "sha256": "8b97eb06dc70203ea75e19682973a493c5847adf332cd313ea68818b458d5bc8",
+    "bones": 146,
+    "cubes": 707,
+    "faces": 4242,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 140837,
+      "sha256": "deac2d281e70bd5883f9b9429ef0790bf3c46e840cc6fe98457d3381b9f95055"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 123165,
+      "sha256": "0a5d3f9c0562cc4d4032464fa5a4f9c4d80d0d7a218e780240d04c0b276f8c9a"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 260991,
+      "sha256": "58b4543ac4b6b16615f6ad27c39ca30aaa2336296989a6bce3ffa8526ccf0a89"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 131658,
+      "sha256": "06f5e85fb0572752855fc682c72b5a30bbbbc3b06ec15efc010634529885febd"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/NekuroMC.png",
+      "size": 21919,
+      "sha256": "53d3b501385c0bf5ac48b6348d2e3762b1dc8b9229d82eb33446d8dc72df515c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 20125,
+      "sha256": "c33147d5d7e703043ed0852816a1fae53b8d7b2269feba5b2b0248528115534b"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 368799,
+      "sha256": "c0bd02e21c55a2b5ccdd68946ebda39630e4b395b0064e45405754f8ee27a97c"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 13387,
+      "sha256": "15381cb982f6fb83c2912885684b745e1c7758d1854c987a1b9f3a9216eccbc5"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1305,
+      "sha256": "f5eb7f35255f225d7518a6c14d6ac902f39c27afeb4f502b2e8d5242a2e0a76f"
+    }
+  ]
+}

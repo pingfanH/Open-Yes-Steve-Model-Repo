@@ -1,0 +1,189 @@
+{
+  "id": "Alexten22_Astronauta 1.0.0_",
+  "path": "parsed/Alexten22_Astronauta 1.0.0_",
+  "source": {
+    "path": "_Alexten22/Alexten22_Astronauta 1.0.0_.zip",
+    "type": "zip",
+    "stem": "Alexten22_Astronauta 1.0.0_"
+  },
+  "ysm": "parsed/Alexten22_Astronauta 1.0.0_/ysm.json",
+  "metadata": {
+    "name": "Astronauta",
+    "tips": "(Default Model)",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "Alexten22",
+        "role": "Nose xd",
+        "avatar": "avatar/Captura de pantalla 2025-07-05 002731.png",
+        "contact": {
+          "Planetminecraft": "https://www.planetminecraft.com/member/alexten22/"
+        },
+        "comment": "modelo sencillo pero good"
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "",
+      "atake": "",
+      "caida": ""
+    },
+    "preview_animation": "idle",
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": "textures/arrow.png"
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Alexten22_Astronauta_1.0.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4508,
+      "sha256": "5a7fbca02968dc61c480ab7c6b1b6fb9a476d4007ea0292b375fea3764fa3886"
+    }
+  },
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 923704,
+    "sha256": "6efacaee634260b17686cf2fcd48974ea360bd23d5352580b02ef0ff836fbc72",
+    "bones": 51,
+    "cubes": 104,
+    "faces": 624,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 146784,
+      "sha256": "a9382be337870d5db24fa61f36df5dd92a90aa656f73d569773a84a3d5014513"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 519,
+      "sha256": "81539c90a73e8a3694ddfaf885f3c4d054e14cceeb0e818ff35ea564652450fe"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3600,
+      "sha256": "d2b36b41837c25f6829cdd912970235cd457c7985598fb9e98427b08ffd81246"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 132903,
+      "sha256": "5d7fc6f5baaee8b574cb58c78269e6e63ea72c71b068ee9e2b6d61097b8238db"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 157213,
+      "sha256": "e972c46be780c5ab229792218ab463d4aaedc70094c24129e080d2876a16cf6d"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 164868,
+      "sha256": "85f8114dce69f142d5516cd237ca63ef02dc7e655a82076387a66d05e7610700"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 215960,
+      "sha256": "35fa527e9f86f7ea4cacbc2d905420d98d907b8de94a5c2345cfbb947cabac45"
+    },
+    {
+      "path": "avatar/Captura de pantalla 2025-07-05 002731.png",
+      "size": 19635,
+      "sha256": "7bbdea161e9b53729283b11e8543e3755a586bd4e671baf582185600a382a96d"
+    },
+    {
+      "path": "avatar/gsl.png",
+      "size": 4738,
+      "sha256": "0bf76a1ba896f709839f9c35bb62852350b4b0f110bc9a1c4c4c5acc99f25188"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 4294,
+      "sha256": "14c3fa03ad020cb90e4503e080e21d9860b75d7e28113b18c33a304c0a4aec2f"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 9145,
+      "sha256": "c102c65c10571d624b3a3ac4eb89a2c307850a9c3a163af9d93e3db66de4bfb7"
+    },
+    {
+      "path": "models/main.json",
+      "size": 14866,
+      "sha256": "5c5d08c1e1c715302b9a4dbef1d91e4fdfa8141ae9efe977075b421ff52fb06c"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 710,
+      "sha256": "7e6f6fbfc1e9fd654dc70e549f9db48607f60608c408a1315369c7f494f93fe2"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 5869,
+      "sha256": "708c61132d8adefe28510947a518e8a04e845846362ac1373a0e81ce303321df"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1570,
+      "sha256": "de9f321af7b155b4220a6a57f35b523939a1e22254b128ee64e0b8ea4a20600a"
+    }
+  ]
+}

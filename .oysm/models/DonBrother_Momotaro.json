@@ -1,0 +1,134 @@
+{
+  "id": "DonBrother_Momotaro",
+  "path": "parsed/DonBrother_Momotaro",
+  "source": {
+    "path": "_DonBrother/DonBrother_Momotaro.zip",
+    "type": "zip",
+    "stem": "DonBrother_Momotaro"
+  },
+  "ysm": "parsed/DonBrother_Momotaro/ysm.json",
+  "metadata": {
+    "name": "Don!!!",
+    "tips": "默认男版模型（Default Boy Model）",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "哥斯拉",
+        "role": "模型",
+        "avatar": "avatar/gsl.png",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少"
+      },
+      {
+        "name": "端木一动不动",
+        "role": "动画",
+        "avatar": "avatar/dm.png",
+        "comment": "永远都在ing"
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "default_texture": "red",
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "texture": [
+        "textures/blue.png",
+        "textures/red.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/DonBrother_Momotaro_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3754,
+      "sha256": "617eca71f1d86cc0eae60243b96eb52b031d1081b7d5a5bb21b0eae124e05dbc"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 341402,
+    "sha256": "33660346d6eb203741553717cd942ee6f89d5da12dee4ed112d411355dda7936",
+    "bones": 46,
+    "cubes": 76,
+    "faces": 456,
+    "textures": 2,
+    "materials": 2,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/main.animation.json",
+      "size": 119678,
+      "sha256": "5542bec68f8d35d14120cae85e96785708623e8b315dca550e95025c6084f0dc"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 161740,
+      "sha256": "34dd9400e60151d79d8e8a1df621c1f9858a4d866a466bc181fe470c5be170d6"
+    },
+    {
+      "path": "avatar/dm.png",
+      "size": 5471,
+      "sha256": "5d28f00fd947e31f361da9cab6c16693d80f25988515822e078cea1f5ef08a60"
+    },
+    {
+      "path": "avatar/gsl.png",
+      "size": 4738,
+      "sha256": "0bf76a1ba896f709839f9c35bb62852350b4b0f110bc9a1c4c4c5acc99f25188"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 7598,
+      "sha256": "7fba5ebdfa94467e7d7ecec5ff8a5321213c80783f38a768f22a20189b466ea0"
+    },
+    {
+      "path": "models/main.json",
+      "size": 35231,
+      "sha256": "f75739834dc8e0d62df9701f3209ad5732dd02a4c0aa983ed6e1528abde12fb9"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 3843,
+      "sha256": "ff7872dfbdd72d2453fec5ad1903272a119ec0c2b9b28482c1bb27787972a4c0"
+    },
+    {
+      "path": "textures/red.png",
+      "size": 1848,
+      "sha256": "6b05901e40998da1a1d8e9f19f42abc53477b4cebb6d3a587341a8eff6e107df"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1255,
+      "sha256": "3e7386c54db1ac7531b85cf8466792d17ce3a92479d2c4e28d98b1dc53181057"
+    }
+  ]
+}

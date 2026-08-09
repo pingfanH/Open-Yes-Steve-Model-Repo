@@ -1,0 +1,233 @@
+{
+  "id": "Nikke_Alice",
+  "path": "parsed/Nikke_Alice",
+  "source": {
+    "path": "_Nikke/Nikke_Alice.ysm",
+    "type": "ysm",
+    "stem": "Nikke_Alice"
+  },
+  "ysm": "parsed/Nikke_Alice/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/mo.png",
+        "comment": "B站：omo仙贝2号",
+        "contact": {
+          "Afdian": "https://afdian.com/a/omomomomomomo",
+          "twitter": "@wOelxdwlnwq5Zl0",
+          "youtube": "https://www.youtube.com/@%E8%97%A4%E5%8E%9F%E5%A6%B9%E7%BA%A2-i3q"
+        },
+        "name": "mo",
+        "role": "全部"
+      },
+      {
+        "avatar": "avatar/甜粽子.png",
+        "comment": "(ᗜˬᗜ)",
+        "name": "甜粽子",
+        "role": "物理动画调试"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All rights reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/omomomomomomo",
+      "home": "omo仙贝2号(https://space.bilibili.com/1959304255)"
+    },
+    "name": "NIKKE_爱丽丝MFv1.0",
+    "tips": "免费版本，完整版可以在爱发电里面获取。\n来自游戏胜利女神NIKKE,可爱的妄想家，用奇异的目光审视着世界。在无极限部队里苦苦寻找着兔子先生的身影。\n§c【详情的模型内容，请查看视频,来了解如何更改模型装扮】\n§c【禁止事项】\n◆请勿二次配布，§c此模型不会在爱发电及PATREON以外区域分享，如有发现盗用情况，请跟作者上报，谢谢！\n◆请勿用于R18禁作品，极端宗教宣传，血腥恐怖暴力，人身攻击等等。\n◆请勿用于商业用途（§a包括不限于商单视频，商业氪金服务器有偿使用等等。如果发现本模型出现在商业氪金服务器，请勿向服务器运营商等第三方支付钱财，谨防被骗）\n◆他人使用本模型造成任何不良后果，不由【Yes Steve Model】模组作者,此模型作者承担，请向使用者追究责任。\n§c【严禁二次售卖，请勿用于商业用途！禁止上传一切商业服务器！】"
+  },
+  "properties": {
+    "width_scale": 0.65,
+    "height_scale": 0.65,
+    "extra_animation": {
+      "extra0": "#1",
+      "extra1": "无",
+      "extra2": "无",
+      "extra3": "无",
+      "extra4": "无",
+      "extra5": "挥手",
+      "extra6": "鼓掌",
+      "extra7": "点头",
+      "extra8": "摇头",
+      "extra9": "摇摆",
+      "extra10": "摇摆"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "1",
+        "name": "模型大小切换",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "模型大小",
+            "description": "Mouth shape switching/模型大小",
+            "value": "v.minmax",
+            "step": 0.1,
+            "min": -0.9,
+            "max": 10.0
+          },
+          {
+            "type": "checkbox",
+            "title": "nikke",
+            "description": "Eye expression switching/(眼睛表情切换)",
+            "value": "v.nikke"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "cover",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        },
+        {
+          "uv": "textures/texture_A.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Nikke_Alice_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9991,
+      "sha256": "227abe59934cd673ce1d2e64db23a6270eeb5d67da4a736c238ca5611a768238"
+    }
+  },
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 1665867,
+    "sha256": "c7379973e1f93d6081032747aa5d0facb7c558e133eccc705aa968f03055d0e4",
+    "bones": 342,
+    "cubes": 827,
+    "faces": 4962,
+    "textures": 2,
+    "materials": 2,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 149699,
+      "sha256": "2f320b83f5fd97ea1ce2925358a847cc32616083b1f8af98436c194bc0a1c88c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3618,
+      "sha256": "3488594ff6c16431b5a8affee58424f3a49619a61e2402b6cdfe0beb00c93232"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 47828,
+      "sha256": "004ec5c92461a3326352cb63d67b7fa9fc2e5030abe44967dd063ad3cbfccc1a"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 144657,
+      "sha256": "ac668647a8b27247688feab10a9a9b76de505292ee2de167fe0ead894d6f8316"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 116179,
+      "sha256": "ffa29956b05bf0ee23a480ce752686759dda3338430d16f8068af1e9ce5d69e1"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 305791,
+      "sha256": "cd01b14ed924f9f5e34d4c2264cc5fe3055a9d8f789d5beb9e09b1b3ebd54e9d"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 18216,
+      "sha256": "b43eb59a86889fbe771d48a49451f2bed1a1b932e9e15a5fee30d1b9360e29e4"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 279611,
+      "sha256": "f4872c9ca150b8dd8718308c52f4a83c4a3d0f41f2a46c7c368905651c47f90e"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 31461,
+      "sha256": "a590c901bb71981dc496632e0d0bba019a1a08024550c67a7432e60041b3b41c"
+    },
+    {
+      "path": "avatar/mo.png",
+      "size": 46120,
+      "sha256": "79765c506c65b37f2b3f048d917886128fd05386086072ead43b912379ce4e91"
+    },
+    {
+      "path": "avatar/甜粽子.png",
+      "size": 13575,
+      "sha256": "afbc4a0ad6483a06d38085e6ec7f55db706ce25cb1de636a1698faf2fc53d4a1"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 15272,
+      "sha256": "a31aa67ea8619317eabfa5200c49e7d42978bd9cf759116382a73a7eab231da3"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 5948,
+      "sha256": "6fc8b21264e1b108b2dd5a8b27985f82de68206de611776c7df37b5e995f67ac"
+    },
+    {
+      "path": "models/main.json",
+      "size": 443898,
+      "sha256": "d72157b240fded3ca0f239273c2d31d4a529fd8dbb8fb4b4e9b899230e0cf3c9"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 38734,
+      "sha256": "c8768c2abc39ac5f389d6ca215e1f70e95099ca32a84409f5fd149268237bdf9"
+    },
+    {
+      "path": "textures/texture_A.png",
+      "size": 2254,
+      "sha256": "cb2bbfc571c05d96fa2a6181b76564d245739fefdf625efc6e14b6fdd476f0b3"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3006,
+      "sha256": "266edfe148007154ce161158330fe83fb06a45f7a7743c838a63c23cebe81ec8"
+    }
+  ]
+}

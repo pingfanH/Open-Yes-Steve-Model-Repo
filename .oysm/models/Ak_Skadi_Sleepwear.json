@@ -1,0 +1,152 @@
+{
+  "id": "Ak_Skadi(Sleepwear)",
+  "path": "parsed/Ak_Skadi(Sleepwear)",
+  "source": {
+    "path": "_Arknights/Ak_Skadi(Sleepwear).ysm",
+    "type": "ysm",
+    "stem": "Ak_Skadi(Sleepwear)"
+  },
+  "ysm": "parsed/Ak_Skadi(Sleepwear)/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/映白L.png",
+        "comment": "感谢 罗真#6658（B服）对模型制作的大力支持。",
+        "name": "映白L",
+        "role": "作者"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.net/a/ehaku",
+      "home": "https://space.bilibili.com/10208258"
+    },
+    "name": "斯卡蒂_free",
+    "tips": "赏金猎人斯卡蒂，循着潮汐前来吞没你的敌人\n§8说明书：皮革套显示常服，钻石与下界合金显示精二皮肤，金套显示异格皮肤，铁套显示泳装\n§8可使用轮盘动画切换盔甲模型，不穿盔甲时显示睡衣\n§4本模型完全免费，仅在映白的B站或爱发电发布，严禁倒卖。\n§4若您是付费使用或付费下载到此模型，建议联系卖家退款！"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "皮肤切换",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "精英化二阶",
+      "extra7": "原地待命"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Skadi_Sleepwear_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 19253,
+      "sha256": "f17fddd1b54104744a2672be186ccf063ab279eddb441a83289ef5b3b2820b87"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 2731388,
+    "sha256": "33d8ba0724fa4ae00b60619f097a6153828be89aeef49d23e2e7ab37baad2dc3",
+    "bones": 383,
+    "cubes": 3203,
+    "faces": 19218,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 197224,
+      "sha256": "f60e775201d477790e596122261fb29bd31db8ec0cf62a2a735b5c2fa1da6466"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 43966,
+      "sha256": "7ea1b28bfa2fd78bb0f9673d6103838edfcd8a8e60b186924e3c09f9b047d1bf"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 351848,
+      "sha256": "ca1e2fe065ad514c38ad944ef911bb9c99e7c6433bd4429ff1379be6cf139ec3"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 172151,
+      "sha256": "7a68dd105e39d91860707f8560f12485fc384c7c9481050459c6ce984e9160c5"
+    },
+    {
+      "path": "avatar/映白L.png",
+      "size": 6680,
+      "sha256": "1769f6b53079f800ab198d7324a17eab659276c80e65201961a7e2e0f872e0a2"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 7149,
+      "sha256": "0ad1724b40b0b417e578df0fe4c46196de7baf25dd5c21d38f928eb55bc45c87"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1769064,
+      "sha256": "391e6c5962318e1c6bea1a1b33a7044ea4da206dcc0bfe1904593f90d60c5410"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 179099,
+      "sha256": "fc3ac5576c9cf649eb83adaa24d1ec599bd96de818c44f780ea12e9945800da8"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1533,
+      "sha256": "ddc2189516d99204c3875ec2aaa854d3ba29a666208bcb4f7a0ad49ef0c4a5a7"
+    }
+  ]
+}

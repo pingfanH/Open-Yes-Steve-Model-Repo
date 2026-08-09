@@ -1,0 +1,147 @@
+{
+  "id": "_honglu",
+  "path": "parsed/_honglu",
+  "source": {
+    "path": "Uncategorized/_honglu.ysm",
+    "type": "ysm",
+    "stem": "_honglu"
+  },
+  "ysm": "parsed/_honglu/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/伦理问题.png",
+        "comment": "果然是在坐牢。",
+        "contact": {
+          "Afdian": "https://afdian.com/a/Mortis",
+          "Bilibili": "https://space.bilibili.com/384456209"
+        },
+        "name": "伦理问题",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/Mortis",
+      "home": "https://space.bilibili.com/384456209"
+    },
+    "name": "20区圣愚-鸿璐",
+    "tips": "透过这镜片，总能看到正确答案的~"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "棒棒糖？！",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "ok",
+      "extra4": "拒绝",
+      "extra5": "好耶",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "default",
+    "preview_animation": "1",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "parcool": "animations/parcool.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/honglu_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 17596,
+      "sha256": "6a55f35a0725656611df241f7c9ff71e2dfbabebd74cc23d7a41ddad971dfbb7"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 1834040,
+    "sha256": "cb66aaf2b2631abf6f5d362e7179156cdbe6661cf2d88a2252b5e7ea9da4d66f",
+    "bones": 220,
+    "cubes": 1372,
+    "faces": 8232,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 142897,
+      "sha256": "bfbf22f51808fb33c7567f70e10d49291c52eef9e864ef82bf254f54f850f868"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 111483,
+      "sha256": "e9e91a946435d3c99f0dc033c02308e605802c0fc424aeb422ee420842f3ae39"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 231168,
+      "sha256": "83addeb9f1ba0444e6d97437a095f866922685641e00297dbd20736a95d05ba4"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "avatar/伦理问题.png",
+      "size": 13202,
+      "sha256": "46c526998db123c7bf681f28fd4f482dcf3cb9bde57f2d93e9a2cd912545831d"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 125845,
+      "sha256": "3ed1d5b935785e527049c497a1224a0cf86d32129fb4f3d3db9989b51d15a960"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1027414,
+      "sha256": "cf3e5d1cc29745d659b7b195147105f99c2e535b4dbc89bb0b14157d0e06c4c0"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 48181,
+      "sha256": "0f12f049ec7542ceaa4865a9b242b2d31c32a92f664c73cf30d315410b2872d1"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1108,
+      "sha256": "7131c1318c1972c508c09a14d997de1f185290c19b40f3626a9530f2698e1d83"
+    }
+  ]
+}

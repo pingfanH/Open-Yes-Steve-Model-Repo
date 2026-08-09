@@ -1,0 +1,78 @@
+{
+  "id": "FGO_Tiamat(b)_v1.0",
+  "path": "parsed/FGO_Tiamat(b)_v1.0",
+  "source": {
+    "path": "_FateGrandOrder/FGO_Tiamat(b)_v1.0.ysm",
+    "type": "ysm",
+    "stem": "FGO_Tiamat(b)_v1.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "FGO_Tiamat(b)_v1.0"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/FGO_Tiamat_b__v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 25493,
+      "sha256": "1eced09916b5f6aa116ed4ce561c38846955e1ed76b0cca95ea7ced823770cba"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 640446,
+    "sha256": "559d0c5d68af5c5fb634ac5c09d97f3c0e1bff05a6e46784b307f936dabd1e18",
+    "bones": 223,
+    "cubes": 805,
+    "faces": 4830,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 8624,
+      "sha256": "3fa22d11210d917c1253d0fb64baf4510c1a0bdc0c9a30ce03e61e5f9a8b9745"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 167576,
+      "sha256": "353c7a6120652c29e15dc7d653321b1cbaab32393b6c5a6420e669d578a555d9"
+    },
+    {
+      "path": "main.json",
+      "size": 442358,
+      "sha256": "9204fb09d08d0b850259908c83cd6eb6534e7fdc4eb31d9dadabfbe20a3c6e42"
+    },
+    {
+      "path": "texture.png",
+      "size": 21888,
+      "sha256": "e8d25ca1523ccd5d7e3ca43c91ecd4afa8393246084afc13f11e6ec69d40cf42"
+    }
+  ]
+}

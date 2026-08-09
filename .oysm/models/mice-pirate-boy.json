@@ -1,0 +1,78 @@
+{
+  "id": "_mice-pirate-boy",
+  "path": "parsed/_mice-pirate-boy",
+  "source": {
+    "path": "Uncategorized/_mice-pirate-boy.zip",
+    "type": "zip",
+    "stem": "_mice-pirate-boy"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_mice-pirate-boy"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "sonic.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/mice-pirate-boy_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3045,
+      "sha256": "f0e6976dc4142fc133f87e22234bb1859bb0e4f41f3441437fbb2daa3e37025a"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 255162,
+    "sha256": "2b2eb546512f11cfa58cca194f33f0738c8d34e34000783e4be596857e7188fd",
+    "bones": 127,
+    "cubes": 104,
+    "faces": 624,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 5464,
+      "sha256": "e94fe3b79ab3cd9884e7fb101a99e7e6905c3f952e5f0a5b3cbd0ee7403d51c0"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 191793,
+      "sha256": "0b6fdc56701e2bf00de00f85705269af1bddf1fd7818d61ffa858f76c23ec463"
+    },
+    {
+      "path": "main.json",
+      "size": 55687,
+      "sha256": "f65d4662244e38b6fdcf7000e620e06405b2fbe6ec6fa66417f4d2db84615823"
+    },
+    {
+      "path": "sonic.png",
+      "size": 2218,
+      "sha256": "1f003e5ee84a987174313631db4e193dd2a396cd554adff6c792e0e88964cfc2"
+    }
+  ]
+}

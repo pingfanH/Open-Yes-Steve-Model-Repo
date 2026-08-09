@@ -1,0 +1,173 @@
+{
+  "id": "TenkafuMa_Iblis",
+  "path": "parsed/TenkafuMa_Iblis",
+  "source": {
+    "path": "_TenkafuMa/TenkafuMa_Iblis.ysm",
+    "type": "ysm",
+    "stem": "TenkafuMa_Iblis"
+  },
+  "ysm": "parsed/TenkafuMa_Iblis/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/过劳的娜娜喵.png",
+        "comment": "平平无奇的ysm模型制作者，时不时发神经",
+        "contact": {
+          "email": "2038937688@qq.com",
+          "qq": "2038937688"
+        },
+        "name": "过劳的娜娜喵",
+        "role": "全部"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 4.0 NC-BY-SA"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/Phoenix123",
+      "home": "https://space.bilibili.com/1492446334"
+    },
+    "name": "魔王—伊布力斯",
+    "tips": "伊布力斯出生自魔族名门，在继任家主以及代代传承的魔王之位的同时，她也舍弃了过去的名字，以家族之名伊布力斯自称。伊布力斯魔力庞大且精纯，严以律己，是天生的领导者，她也对自身的血脉以及高贵的身份自豪，随时维持着高贵的姿态。伊布力斯看不惯任性妄为，毫无领导者模样却与她同为魔王的凯萨，一直等待着合适对凯萨发难的机会，借此宣言伊布力斯的威名。\r\n\r\n“凯萨，像你这种不知礼数的野狗，怎么可能战胜伟大的伊布力斯。””\r\n\r\n"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "机械舞",
+      "extra1": "打招呼",
+      "extra2": "拍手",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "extra5": "异议！",
+      "extra6": "等等",
+      "extra7": "看招！",
+      "extra8": "跳舞",
+      "extra9": "待机",
+      "extra10": "坐下",
+      "extra11": "坐下2"
+    },
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": false,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/TenkafuMa_Iblis_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 15022,
+      "sha256": "aea6bfb0c0a33896df799f9fc6686d084bf65adef744caabe4adc766e6045e2f"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 5592120,
+    "sha256": "82476ac7b6d48116fde4274d26d4905328be0f274d1eef36ea7599b8d896b3da",
+    "bones": 372,
+    "cubes": 3868,
+    "faces": 23208,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 206176,
+      "sha256": "a0231dd61dcd74b7bf23b857dc56e8a04dabcfa8af139f3f75c575f670f42471"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 578,
+      "sha256": "d7e78a3d828fd3247ac982658a4a4c193d76f75ceaf7c39d8f1ef8fbe1691922"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3018,
+      "sha256": "63f8a678b7a166f24ba30856461cc9807ddb4b7c1190261d59daf952b4129f93"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 453525,
+      "sha256": "344fe39af0bc33dbf5b27e43375345851294c26b94f2c5af3812810d3c42d63a"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 248239,
+      "sha256": "cd332703c43fe0d1697083a0060c49ab28acb99cbf5bcda178ab93d3393b6c8d"
+    },
+    {
+      "path": "avatar/过劳的娜娜喵.png",
+      "size": 2334591,
+      "sha256": "6ef10911cae4db78ba4b6b5d2dd65ed03d4fb75f7465f6331b91f0c534e230bf"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 667117,
+      "sha256": "e53ea1efb6afb41cbb11874c4f0d07b4f08128b8a52e9cbaee1149a883b2d478"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 5363,
+      "sha256": "b7f2ce2ef22fac2505b4df899da59a78ecdd2a269a59d850efe0f777c8e4cd61"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1517821,
+      "sha256": "334b309210d592acde0d49b81c302882d2ae1fd0b2d994f5f2947360545ed145"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1291,
+      "sha256": "024858e87a6e6192f6dbbbeeff37d84a072e3103c0f60c674a521083926050df"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 152495,
+      "sha256": "993f7f30c02d585c9b04c446895e0a731794dd5f39608d6da4dd63db77469d6b"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1906,
+      "sha256": "7d5d79454cd2cfdd90415ec29e909037be94c07d128785aee574f1c474a2f73e"
+    }
+  ]
+}

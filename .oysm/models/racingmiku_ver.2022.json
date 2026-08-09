@@ -1,0 +1,208 @@
+{
+  "id": "初音未来racingmiku ver.2022",
+  "path": "parsed/初音未来racingmiku ver.2022",
+  "source": {
+    "path": "Unknown/初音未来racingmiku ver.2022.ysm",
+    "type": "ysm",
+    "stem": "初音未来racingmiku ver.2022"
+  },
+  "ysm": "parsed/初音未来racingmiku ver.2022/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/小萌新idjdkd.png",
+        "comment": "none",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/1573788561"
+        },
+        "name": "小萌新idjdkd",
+        "role": "建模贴图动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 4.0 By-NC-SA"
+    },
+    "link": {
+      "donate": "none",
+      "home": "none"
+    },
+    "name": "赛车初音ver.2022",
+    "tips": "none"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "分类1",
+        "name": "7"
+      },
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          },
+          {
+            "type": "checkbox",
+            "title": "背包",
+            "description": "用来显示或开启玩家背包",
+            "value": "v.red_bow_headdress"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/uv.png"
+        },
+        {
+          "uv": "textures/uv2.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/racingmiku_ver.2022_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7715,
+      "sha256": "a28fd98b00367b76d4da64ac6cdad6dc4800cf4f3ef86c905105b4f251bf2fdb"
+    }
+  },
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 4612566,
+    "sha256": "b17c8fcddc4b587c82702f8e209621a9ba7c68c00a36381330ac9472a4a415ab",
+    "bones": 194,
+    "cubes": 2314,
+    "faces": 13884,
+    "textures": 2,
+    "materials": 2,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 198552,
+      "sha256": "e442ba309a256ef9b7694020a743286960473ab52ead50b3fa4ab03914676fae"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 133099,
+      "sha256": "1aa4b97a55c5dd8bb9cdb15e51afb6c6f840184528a2ab6be22171bb8d60027e"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 307853,
+      "sha256": "c094ac7ef202b207c91fc244c072548a2e5dfc9366f513819c4c843eea72be2c"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 130638,
+      "sha256": "170dcd9532f9880c365aafce3d52792de6848afce347e35006eb771d3a9975ee"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1505299,
+      "sha256": "2cfe596c36beecaa1688b55951b4272e660c066078bb5d95b20240a32a3a20da"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 190429,
+      "sha256": "f55332334775e6d203012f35f88ba844cc52a59eddd2043fca41422ae11551f8"
+    },
+    {
+      "path": "avatar/小萌新idjdkd.png",
+      "size": 21456,
+      "sha256": "8b39a7c8d6035bb4fac416fede75fd1f87358240f680a7f213636333d801828f"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 35407,
+      "sha256": "03053180713b95b03917bbc5aabc489378cbb3ffe46e044491a4d339b9c01c69"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1981440,
+      "sha256": "7431e37af26bbba7f2677441603d937221f35d20627957ae80ef42ce09378af0"
+    },
+    {
+      "path": "textures/uv.png",
+      "size": 32346,
+      "sha256": "09ea03e6653b253e8ddfaf7ef269230af6abdc1f2c6d25a41998d58f8c76bef5"
+    },
+    {
+      "path": "textures/uv2.png",
+      "size": 32350,
+      "sha256": "0aded718a90c0fa77a45a806bbe86cb2b6215f9f5b26498ced68a3ec1655dbf8"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1603,
+      "sha256": "dc2db26adbe5a8412b696baa7a02f955a49d5bcf9cfc1e9b0124e8c86663ba05"
+    }
+  ]
+}

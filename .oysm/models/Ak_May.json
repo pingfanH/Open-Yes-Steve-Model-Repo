@@ -1,0 +1,268 @@
+{
+  "id": "Ak_May",
+  "path": "parsed/Ak_May",
+  "source": {
+    "path": "_Arknights/Ak_May.ysm",
+    "type": "ysm",
+    "stem": "Ak_May"
+  },
+  "ysm": "parsed/Ak_May/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/烛火的次元宇宙.png",
+        "comment": "还在成长的MC/YSM模型作者",
+        "contact": {
+          "Afdian": "http://afdian.com/a/zhuhuo",
+          "Bilibili": "https://space.bilibili.com/57715833?spm_id_from=333.1007.0.0"
+        },
+        "name": "烛火的次元宇宙",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/烛火的次元宇宙.png",
+        "comment": "",
+        "name": "烛火的次元宇宙",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "http://afdian.com/a/zhuhuo",
+      "home": "https://space.bilibili.com/57715833?spm_id_from=333.1007.0.0"
+    },
+    "name": "梅",
+    "tips": "自称维多利亚皇家侦探；自称曾破获多起案件，略有薄名；自称深受上司赏识，受派遣前往罗德岛。\n不论自称如何，梅小姐现作为狙击干员为罗德岛提供服务。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#戳一下",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "赞成",
+      "extra4": "反对",
+      "extra5": "庆祝",
+      "extra6": "坐在木桩上",
+      "extra7": "挠头",
+      "extra8": "坐在方块边缘",
+      "extra9": "坐在地上",
+      "extra10": "比心"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "戳一下",
+        "name": "戳一下",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "眼睛",
+            "description": "(改变玩家眼睛)",
+            "value": "v.yj",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 3.0
+          },
+          {
+            "type": "range",
+            "title": "嘴型",
+            "description": "(改变玩家嘴型)",
+            "value": "v.zb",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 3.0
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏头上鸭子",
+            "description": "隐藏/显示头上鸭子",
+            "value": "v.xyz"
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏眼镜",
+            "description": "隐藏/显示眼镜",
+            "value": "v.yjin"
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏腰间外套",
+            "description": "隐藏/显示腰间外套",
+            "value": "v.wt"
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏手套",
+            "description": "隐藏/显示手套",
+            "value": "v.st"
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏腿包",
+            "description": "隐藏/显示腿包",
+            "value": "v.kb"
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏腿袜",
+            "description": "隐藏/显示腿袜",
+            "value": "v.wz"
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏鞋子",
+            "description": "隐藏/显示鞋子",
+            "value": "v.xz"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_May_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5906,
+      "sha256": "7befea58e279236699fa23b23d1ea8d68481d9457fc6c9fdeffead4cf6975704"
+    }
+  },
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 3080842,
+    "sha256": "cd227d6cec77f62344bac0591e54a272d747bfba8aaf4cc02904190709f03d82",
+    "bones": 168,
+    "cubes": 958,
+    "faces": 5748,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 218393,
+      "sha256": "ab305444913b3b289834a9cff81a1ed531bf155495b2351496ede937b03a8d6f"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 51219,
+      "sha256": "0427d53d6726bcefea8aa610cdf7ae69d11f96de052971c7c74a30782c35f6f0"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 283900,
+      "sha256": "297a72c9d0d697613d1da72587d3214c9cbd40571ae275658213c049eaf94920"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139812,
+      "sha256": "bd584a802e4171f67c6b3e65e71fb61319c125b4619a07616a87c446b3a0fb54"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1503488,
+      "sha256": "39da23aa526039a5897a28ec77a2c6399abb4daf63f0e4c001dde35e5e41d5c7"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 34600,
+      "sha256": "11a23d5d9830f9f9c2f346c4a7a44907ee4e9ecc41289beacf1bfd55c8e116f4"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 211627,
+      "sha256": "b0fe95754aa8acf68877c146e5ce1c2aa6130ef7c58e92b54d4e487078898e46"
+    },
+    {
+      "path": "avatar/烛火的次元宇宙.png",
+      "size": 31433,
+      "sha256": "21d22a5c083f80f450f8a2ae358db5e67d69613169b754346496a7209a1e3ae3"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 3298,
+      "sha256": "6bd6049c5ad66da5a75aa49a213b303468d47b500ad5bfaec7a5843c16392fed"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 25440,
+      "sha256": "2880aac7d789620f082eac60a1ca5974af3b0120bd8f44dfca6fd0291692c6d3"
+    },
+    {
+      "path": "models/main.json",
+      "size": 499320,
+      "sha256": "874d0c0e3b5fcc095adb88bcf585a0a82574e6a125aac8ea170a285e320bba03"
+    },
+    {
+      "path": "sounds/1.ogg",
+      "size": 20066,
+      "sha256": "4ba2d76915517312b298406bfd09947a0631ce4392d6d601f94e459e6d812bc8"
+    },
+    {
+      "path": "sounds/2.ogg",
+      "size": 26248,
+      "sha256": "a688f48d69da014625d2fd4899359fd37c44169325b2f616dcb6b1c96c38f198"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 26936,
+      "sha256": "c1001a10e1cf447d84131a99f3e21b41dfdd4d07caaa507995e0d7e6bffc9970"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2819,
+      "sha256": "b96a3aa8d115d1e60098ee796a3e9df96ce8d1577dda9f3d3676d00ab9498a59"
+    }
+  ]
+}

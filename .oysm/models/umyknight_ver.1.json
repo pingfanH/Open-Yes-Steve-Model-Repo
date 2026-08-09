@@ -1,0 +1,107 @@
+{
+  "id": "_umyknight_ver.1",
+  "path": "parsed/_umyknight_ver.1",
+  "source": {
+    "path": "Uncategorized/_umyknight_ver.1.ysm",
+    "type": "ysm",
+    "stem": "_umyknight_ver.1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_umyknight_ver.1"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "arrow.png",
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "carryon": "carryon.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/umyknight_ver.1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7801,
+      "sha256": "92af7365f863f43cc12ef847ca168f308994cddd04eed2632fd8364d82eeefb3"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 1735210,
+    "sha256": "dc2da37d625c77bbe490526e43daf1a2495c60cb42eec63ea4ff1c850e94f152",
+    "bones": 216,
+    "cubes": 1361,
+    "faces": 8166,
+    "textures": 2,
+    "materials": 2,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 326051,
+      "sha256": "74318ad41bacd01e58a556fb9d007ab63d2c5beea8052afc16eb9e9cfe59331c"
+    },
+    {
+      "path": "arm.json",
+      "size": 16743,
+      "sha256": "7d14362e195fc770b22532f360c891893ea45aa384a60ab6050fee6687d89481"
+    },
+    {
+      "path": "arrow.json",
+      "size": 6067,
+      "sha256": "49570a5c0431a941b254826912801d0d278f1ef19d4028ca9d36d3ca0656ba6f"
+    },
+    {
+      "path": "arrow.png",
+      "size": 427,
+      "sha256": "79d493adcbc51238e48db79617643e093b4a1f98efc49ae5257d0b7d1c60e6a9"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 2826,
+      "sha256": "ee4542a18dbcb7f2686414ae213e9debb5667a678f9605b86d2a4e06061f016e"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 384477,
+      "sha256": "4ac01ad73c706b78494f537048df9af40fd42d0e95a61aa1a847b98c82d9f8a6"
+    },
+    {
+      "path": "main.json",
+      "size": 730396,
+      "sha256": "3b96f58d28af76fa7935f5f6a7ee9cc0b1e22480d0477beafdd16f84be85bfc8"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 133030,
+      "sha256": "d798fef16b0ac9ff538fb80de3b88588b40a0d1fd8a169839b45b83ef9f770ef"
+    },
+    {
+      "path": "texture.png",
+      "size": 135193,
+      "sha256": "0d6ef1087fcb9459851684cf5a61612499128595854fc31a365b92472748b781"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "Twe_laoma",
+  "path": "parsed/Twe_laoma",
+  "source": {
+    "path": "Unknown/Twe_laoma.ysm",
+    "type": "ysm",
+    "stem": "Twe_laoma"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Twe_laoma"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "laoma.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Twe_laoma_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 2444,
+      "sha256": "4f4b38998f63f34cecbbb32e61158a7f22323cc24e610327553221de075f3848"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 168465,
+    "sha256": "8b380bd1415a59fc77f5c943e11d975a8e8249b43d7d6855eb262ec83fb57ac6",
+    "bones": 36,
+    "cubes": 70,
+    "faces": 420,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 1647,
+      "sha256": "91c3aaebc9ef840930a7b483fc39d7376f3800893e3132034c96df5b670a9b9e"
+    },
+    {
+      "path": "laoma.png",
+      "size": 1153,
+      "sha256": "1933c0c6616bffd06e9323387cad9bc20d82435c819b7a14dc7eb31b6e2720a9"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 153307,
+      "sha256": "d88487bec6929abae067c4f2c15c27a0b748627b07d5959100d26c43bbc6ed48"
+    },
+    {
+      "path": "main.json",
+      "size": 12358,
+      "sha256": "515cbd07dabe88b4e93299528bcc5c20110c955031ccaa7489c0f2cd3290acf7"
+    }
+  ]
+}

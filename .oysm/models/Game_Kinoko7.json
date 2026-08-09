@@ -1,0 +1,105 @@
+{
+  "id": "_Game_Kinoko7",
+  "path": "parsed/_Game_Kinoko7",
+  "source": {
+    "path": "Uncategorized/_Game_Kinoko7.ysm",
+    "type": "ysm",
+    "stem": "_Game_Kinoko7"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "C酱です(kimoko7slim)",
+    "tips": "一名打游戏的内向野蛮人，做点自己喜欢的事。\n适配YSM1.18.2-1.1.5（免费共享版）\n模型版本1.1.1",
+    "authors": [
+      {
+        "name": "完全冻结"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "tex.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Game_Kinoko7_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 18892,
+      "sha256": "fdb93659a1c7cc75d7c55488f4b42e9cfc3080895e4eae1902a1b1d85b08de4a"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 727176,
+    "sha256": "8dcc4d92968cf4e36e6ec62cf7a21cc42e04d159a759f11b993241a61078484d",
+    "bones": 221,
+    "cubes": 1011,
+    "faces": 6066,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 45384,
+      "sha256": "4fbc686718baff2fb8d5fb7ec5ab7f83c94b575cb88d7da01d211caf02235147"
+    },
+    {
+      "path": "arm.json",
+      "size": 15074,
+      "sha256": "8f6596e944c766133edaf05240c338389da00da20688b2c33de054625d2b210c"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 140673,
+      "sha256": "f6cb99bd32227e0c61a676c666ab6827ed98e813e120e51e95598293b5627ace"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 154250,
+      "sha256": "f8fe852e635564c6e366eae8cbf06cf07e15aa551f2556d82a297509b1b0f9d1"
+    },
+    {
+      "path": "main.json",
+      "size": 186614,
+      "sha256": "9cedde8086c3f4c93543f3ffd41c1a802afa9b874d335b617eda2c36576012ff"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 166590,
+      "sha256": "68ebdd6c98269298cd13d0c4baec8e0f3afecab4cf6e4ec6bc97c42004f237a5"
+    },
+    {
+      "path": "tex.png",
+      "size": 18591,
+      "sha256": "5dbdc1ea2dc6861c579464606eac6d7a6a63e9f2a9bb7f50ba3ad7131b0b8ffd"
+    }
+  ]
+}

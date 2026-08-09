@@ -1,0 +1,94 @@
+{
+  "id": "Fox-hime-zero_Mori_v1.0",
+  "path": "parsed/Fox-hime-zero_Mori_v1.0",
+  "source": {
+    "path": "_FoxHimeZero/Fox-hime-zero_Mori_v1.0.ysm",
+    "type": "ysm",
+    "stem": "Fox-hime-zero_Mori_v1.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "茉莉（Mori）",
+    "tips": "活泼好动的小灵狐，从小和天狐大人生活在一座深山里的庙宇之中，对人类的世界了解不多，因此充满了好奇",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "木宁苒"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Fox-hime-zero_Mori_v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9846,
+      "sha256": "de6d5813ef584e0e83256ded61132989556adb9481bc54c4714de4c709b3510d"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 444587,
+    "sha256": "deef7b221b25c5b12d06d2701cd29cc155e3a59618d3be01dff96ec868aed027",
+    "bones": 84,
+    "cubes": 426,
+    "faces": 2556,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 16042,
+      "sha256": "b538d51a73b1925a73460e883aa1f79d9d96fed47923763b9932cee5fc3cf6b8"
+    },
+    {
+      "path": "info.json",
+      "size": 273,
+      "sha256": "c68f8b217e4e7a790d4253ae1244ef2e1a728e5ac04756dcd35a40363a9b5c2f"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 180482,
+      "sha256": "7be6bacfa72f0a4d848b48e770caf9201e05d60299b9d7c79a0d33553de509ea"
+    },
+    {
+      "path": "main.json",
+      "size": 216642,
+      "sha256": "42b03648b7b60f390ed09dabf8ebcdc85bf442f0cf956bd0adbfd7c167c08a64"
+    },
+    {
+      "path": "texture.png",
+      "size": 31148,
+      "sha256": "f3e7bb0d0a7c3e72065a5d841b5af78a46871c697b9e42a0e212c770e55ae7cd"
+    }
+  ]
+}

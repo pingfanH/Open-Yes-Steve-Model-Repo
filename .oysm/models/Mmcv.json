@@ -1,0 +1,243 @@
+{
+  "id": "_Mmcv",
+  "path": "parsed/_Mmcv",
+  "source": {
+    "path": "Uncategorized/_Mmcv.zip",
+    "type": "zip",
+    "stem": "_Mmcv"
+  },
+  "ysm": "parsed/_Mmcv/ysm.json",
+  "metadata": {
+    "name": "Mmcv",
+    "tips": "默认模型（Default Model）",
+    "license": {
+      "type": "All Rights Reserved"
+    },
+    "authors": [
+      {
+        "name": "白洛白",
+        "role": "盟军mcv",
+        "avatar": "avatar/微信图片_2025-07-22_190623_188.png",
+        "contact": {
+          "QQ": "1770097341",
+          "bilibili": "https://b23.tv/ltPrQwx"
+        },
+        "comment": "awa？"
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "#extra_classify": "Extra Classify"
+    },
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "Simple Config",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3
+          }
+        ]
+      }
+    ],
+    "preview_animation": "idle",
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true,
+    "disable_preview_rotation": false,
+    "all_cutout": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/main.animation_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": {
+        "uv": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Mmcv_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 16701,
+      "sha256": "bf48d921117b7fb03f7570f17ed7c7d9a355537dd656ddd4ef2e94565f9a8281"
+    }
+  },
+  "stats": {
+    "file_count": 20,
+    "total_bytes": 3342259,
+    "sha256": "d8ba37715f411958ac4931e1c7094d7dc4478603f42c8b2018a5377524800bf8",
+    "bones": 24,
+    "cubes": 804,
+    "faces": 4824,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 190373,
+      "sha256": "8c43dd4c3a7ed305183ccd84e7316a5f1cd836ff13c43b15ed2e84a20fae0b43"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 695,
+      "sha256": "cd2be5d42efea2613f8fbe541e3c8600c0d1edb11051924675bdc2f7955d24d5"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2917,
+      "sha256": "f1b559bb714f40be566b02e1b8dd44c2cc380783e0e8a480c89a8378caa05b96"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 115255,
+      "sha256": "c2141b11e7b552a7ddfb3f18f9d10c13a422d41513a7f41b3faca38c83cc98ce"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 128624,
+      "sha256": "facfb157b347299671aef2388d60c5a422ffe8b3af32c0cda0164f20f363c3f5"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 176050,
+      "sha256": "9ecf075152538c1a7ac0bcd61f40bbd607a523c184a009c37cd37e23611b2913"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1598799,
+      "sha256": "d50e8b37390c62f09b1a9af1ef4c4d95fcf0063050f7b1fd5cacc3ff682b5604"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 212304,
+      "sha256": "002ae25fb2d72e0ed6a0749e0c0a58776fe3e403c7f2b00ea0e6c64c4187184c"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 63606,
+      "sha256": "8e38e0d04193f5023f619ba64d847eee7cb675291c0747f98292656a028dacf7"
+    },
+    {
+      "path": "avatar/gsl.png",
+      "size": 4738,
+      "sha256": "0bf76a1ba896f709839f9c35bb62852350b4b0f110bc9a1c4c4c5acc99f25188"
+    },
+    {
+      "path": "avatar/微信图片_2025-07-22_190623_188.png",
+      "size": 23315,
+      "sha256": "844025e8caf8341e24352a050e53748188b446ac145186a73dbf96851348a678"
+    },
+    {
+      "path": "controller/main.animation_controllers.json",
+      "size": 810,
+      "sha256": "ff546eb7847ecbb59ce3f43189c005e61db5ccf749dfc4f11b5d978f82b4d106"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 1987,
+      "sha256": "09a70716cbd5e2808113dbddf43f496e5540852e924d4909e3308488e99f44d9"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 18733,
+      "sha256": "1070aa5589ae3df1c5abf95a40f9de47ce2ca1df6b234ddbea96f568d1829c7a"
+    },
+    {
+      "path": "models/main.json",
+      "size": 453488,
+      "sha256": "7fa55006d7ffd52791ae7ef15527a92dfc955c4d25ea4c48c77e54e3f23a4882"
+    },
+    {
+      "path": "textures/a.png",
+      "size": 4210,
+      "sha256": "7145bb7042e2a47da62ca4bb9197089bacaf7a254acb4e99da261e42429f1b5f"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1213,
+      "sha256": "0ecda6c1557cf3571289a3212c93e125d8b075cc37ac62f14dad852d83a576ec"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 301755,
+      "sha256": "c48ffdd7d37be681727af0c08918d6bc25fcd17777e7d3ebe2516fdea129a1cf"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2357,
+      "sha256": "dfd804249b4987d340854a4e256261e274cc10cda8a2070e6944115fe03ecd80"
+    }
+  ]
+}

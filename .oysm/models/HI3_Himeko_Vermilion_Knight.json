@@ -1,0 +1,96 @@
+{
+  "id": "HI3_Himeko_Vermilion_Knight",
+  "path": "parsed/HI3_Himeko_Vermilion_Knight",
+  "source": {
+    "path": "_HonkaiImpact3/HI3_Himeko_Vermilion_Knight.ysm",
+    "type": "ysm",
+    "stem": "HI3_Himeko_Vermilion_Knight"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "HI3_Himeko_Vermilion_Knight"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "main.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HI3_Himeko_Vermilion_Knight_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 19391,
+      "sha256": "a33f1710f3afc76bf63e0e4d9cc4ce6fcabee767664a4495bf248209561bd84d"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 1327045,
+    "sha256": "928760c4fc162671241d0436d25a9fb013802d3a7bc97e699d94166ca297f8d6",
+    "bones": 67,
+    "cubes": 1387,
+    "faces": 8322,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 39629,
+      "sha256": "d7d8cc5aebd96d36ee76e9e4619513300bb7dbbc5d45b351a131e1145447085a"
+    },
+    {
+      "path": "arm.json",
+      "size": 2145,
+      "sha256": "faa7c32f7d438e52ad54e258ccfe485087373ae4c196e72d8048a833f9109b64"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 144073,
+      "sha256": "1cc30c5474076f2027d3b365b9525491a76007ff6451803a06df6814302761d7"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 131316,
+      "sha256": "0cf6028b98eddaa8a2eef42746305d1a6176e5fc24a28f12d9bc737e3265fb89"
+    },
+    {
+      "path": "main.json",
+      "size": 768976,
+      "sha256": "4401696114c873b1eae015c0e51f2a76dc26f0ae777369fb4a4f751d112dfd5e"
+    },
+    {
+      "path": "main.png",
+      "size": 83640,
+      "sha256": "4676bc7f68bb89adb640eb4592751b79325042f7e37bcd662118ca44c9955560"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 157266,
+      "sha256": "c03cb9613aa5a9f19a9416760c372309e79f3d12cf1f23cfea0726dc5e825aa2"
+    }
+  ]
+}

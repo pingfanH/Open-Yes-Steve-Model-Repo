@@ -1,0 +1,138 @@
+{
+  "id": "Terraria-calamity_Moefied_the_devourer_of_gods(m)",
+  "path": "parsed/Terraria-calamity_Moefied_the_devourer_of_gods(m)",
+  "source": {
+    "path": "_Terraria-calamity/Terraria-calamity_Moefied_the_devourer_of_gods(m).ysm",
+    "type": "ysm",
+    "stem": "Terraria-calamity_Moefied_the_devourer_of_gods(m)"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "神明吞噬者",
+    "tips": "能变成神女的神明吞噬者！",
+    "license": {
+      "type": "All Rights Reserved"
+    },
+    "authors": [
+      {
+        "name": "李元"
+      },
+      {
+        "name": "迭谛dNaa"
+      }
+    ]
+  },
+  "properties": {
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "arrow.png",
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "arrow": "arrow.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Terraria-calamity_Moefied_the_devourer_of_gods_m_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7534,
+      "sha256": "bb3a65bc71440ad76b9ff2888c036f94b45403820bdda1b5f4aa450388583dfd"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 1244218,
+    "sha256": "ef39420ebf9d5dc4878ae3a7b1584bbeb41d1f9449abbc53f53203a9dd3ed00c",
+    "bones": 173,
+    "cubes": 1065,
+    "faces": 6390,
+    "textures": 2,
+    "materials": 2,
+    "animations": 6,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 124700,
+      "sha256": "66b785df4c24f5c6d5a56a337139f7a737b607f494fd8f09f05bc35a1500d6b4"
+    },
+    {
+      "path": "arm.json",
+      "size": 43018,
+      "sha256": "3891e054b266c169923cb9fa95f47afc32efd018bf0853dfd659f54a84ce2b6c"
+    },
+    {
+      "path": "arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "arrow.json",
+      "size": 10144,
+      "sha256": "663d1822615a71993a1abf4621d6a8a5b8828128659305bb782aa9e9b64069b6"
+    },
+    {
+      "path": "arrow.png",
+      "size": 1608,
+      "sha256": "10cc6690980703fc292b0398a0de6e2ae69de4a70779ad0644572ef14352e16b"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 8763,
+      "sha256": "a23cd6d4f198085e1d1a290ce75412601c0cee60a601f15df48cba2aa6569e2a"
+    },
+    {
+      "path": "info.json",
+      "size": 234,
+      "sha256": "58b2500852d8e940fd6bd28f7f5ba27ba3d04408d8131166f11f38bc4b14514e"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 138211,
+      "sha256": "2c681641a73380bb6e705a76525dcedce907a8677b78953733c2ec9c1418b452"
+    },
+    {
+      "path": "main.json",
+      "size": 532028,
+      "sha256": "766ef347caa40fcff1cd7aaa9857ba6880250c464f7fbfc17408d2e15bd8f723"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "texture.png",
+      "size": 248897,
+      "sha256": "5a3a92d184e36472961aed4451e09cd61c4adcf3a9407d158ebba647c2c34d66"
+    }
+  ]
+}

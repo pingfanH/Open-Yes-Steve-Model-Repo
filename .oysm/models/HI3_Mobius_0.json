@@ -1,0 +1,100 @@
+{
+  "id": "HI3_Mobius_0",
+  "path": "parsed/HI3_Mobius_0",
+  "source": {
+    "path": "_HonkaiImpact3/HI3_Mobius_0.ysm",
+    "type": "ysm",
+    "stem": "HI3_Mobius_0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Mobius",
+    "tips": "Honkai Impact 3",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "\nafdian.net/a/Deovolente\nor\nwww.patreon.com/GhastRiv"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HI3_Mobius_0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12918,
+      "sha256": "8426934caf853cf4e097b47002f0fa2139961fdf7fd11de06c92db354a027aae"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 682255,
+    "sha256": "b016ba0c47a0b7808489c6d0f94d5f438812245064649b8a522b6bed3d39c691",
+    "bones": 152,
+    "cubes": 693,
+    "faces": 4158,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 18235,
+      "sha256": "e366a13331f4451d091b5f5f7aeb9ad1ebd1036cb6fedfae7e9f5c66465882c6"
+    },
+    {
+      "path": "info.json",
+      "size": 180,
+      "sha256": "cd1c67da64e9fb166af038b0e401b786c8c42fb574b017243dc2f3a1a6c1d32a"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 118534,
+      "sha256": "1fa8cf21235936f8dcd2e3afba69da4847a9dcd5a114330b585168772c9a8128"
+    },
+    {
+      "path": "main.json",
+      "size": 353109,
+      "sha256": "2f56e6ddb1740ccb1c5f2e76408352382e4abf5200b3f685ebdd0ec9531c8dea"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 151845,
+      "sha256": "59ed83445b40c9a1ac7fec88024702c596245cbb462ecf029d24d1b6bffa5620"
+    },
+    {
+      "path": "texture.png",
+      "size": 40352,
+      "sha256": "834f20205c8529a316ddcaae288a42f3b57705476ee7a615a24314c38cdcf623"
+    }
+  ]
+}

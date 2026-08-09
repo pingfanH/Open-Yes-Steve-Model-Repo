@@ -1,0 +1,93 @@
+{
+  "id": "Senko-san_0",
+  "path": "parsed/Senko-san_0",
+  "source": {
+    "path": "_Senko-san/Senko-san_0.zip",
+    "type": "zip",
+    "stem": "Senko-san_0"
+  },
+  "ysm": "parsed/Senko-san_0/ysm.json",
+  "metadata": {
+    "name": "Senko San",
+    "license": {
+      "type": "CC 0"
+    },
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    }
+  },
+  "properties": {
+    "height_scale": 1,
+    "width_scale": 1,
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json"
+      },
+      "texture": [
+        "textures/fox.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Senko-san_0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 2327,
+      "sha256": "bd22dd4c4074bbeb7aff989fff8515ca82d2028b4bbf4cd7d1d2da97c38d0f06"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 133728,
+    "sha256": "9c3f60fe3e127e0dcf0b07c98ab6a8de3ce18f44d5f58b7579dc3cfde3aa6269",
+    "bones": 65,
+    "cubes": 115,
+    "faces": 690,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/main.animation.json",
+      "size": 104748,
+      "sha256": "b860c832aae8d35e414b6a79fd98da5153ec36e61939c80a90c66db73ebc07f5"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 1389,
+      "sha256": "90f9004144302f4f7387beaa4d26d0a98fbc889ff946be6cdd2c0a3d06a9ca96"
+    },
+    {
+      "path": "models/main.json",
+      "size": 23309,
+      "sha256": "b6962761062a13db41ce5ca0c553f6e1780de34b72e0a42e75e24b7fe7b0fc8d"
+    },
+    {
+      "path": "textures/fox.png",
+      "size": 3714,
+      "sha256": "e986dc80f426b6fbed4541bd7181ab3313ec47eabf6585bfcb7ae594a2b227a8"
+    },
+    {
+      "path": "ysm.json",
+      "size": 568,
+      "sha256": "db6d85f7ae32a67c61ff9306f4b59aaa5ebb2e7d449c34a84239239791217198"
+    }
+  ]
+}

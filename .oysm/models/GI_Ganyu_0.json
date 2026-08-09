@@ -1,0 +1,92 @@
+{
+  "id": "GI_Ganyu_0",
+  "path": "parsed/GI_Ganyu_0",
+  "source": {
+    "path": "_GenshinImpact/GI_Ganyu_0.ysm",
+    "type": "ysm",
+    "stem": "GI_Ganyu_0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "甘雨",
+    "authors": [
+      {
+        "name": "幻古诗"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "ganyu.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Ganyu_0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10704,
+      "sha256": "b72aa2af182685751d672af985cb1dff108675369a17a082436ac9a7537b2061"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 908022,
+    "sha256": "3c3ffc7767df08b53d48c01810b9e4de61716612f738b72e3f5322b297591f35",
+    "bones": 97,
+    "cubes": 843,
+    "faces": 5058,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 216484,
+      "sha256": "7dc0ce7bdee02e49ab536384a9c38b8b5d8c47f38a8a335c3270b3180ea39e42"
+    },
+    {
+      "path": "arm.json",
+      "size": 41165,
+      "sha256": "cbc3860fc5ac3f85b5e224e0745ebf2d03618323b92df3ad7818611b9b24ac35"
+    },
+    {
+      "path": "ganyu.png",
+      "size": 7025,
+      "sha256": "89f6efc925d92f094a5ead0832d0c013d33ff56c67b1b4aef6388c3a22168bb6"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 216484,
+      "sha256": "7dc0ce7bdee02e49ab536384a9c38b8b5d8c47f38a8a335c3270b3180ea39e42"
+    },
+    {
+      "path": "main.json",
+      "size": 426864,
+      "sha256": "f14ca0c032c003ce812af361fa94e85aab4fd893e4ec23187b560d9c11ced2ac"
+    }
+  ]
+}

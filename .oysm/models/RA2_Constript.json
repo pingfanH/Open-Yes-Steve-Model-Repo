@@ -1,0 +1,100 @@
+{
+  "id": "RA2_Constript",
+  "path": "parsed/RA2_Constript",
+  "source": {
+    "path": "_RedAlert/RA2_Constript.ysm",
+    "type": "ysm",
+    "stem": "RA2_Constript"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "动员兵",
+    "tips": "脖子右拧!",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/RA2_Constript_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8310,
+      "sha256": "8fb3bd171133f72add8920c45c925ee3dd4e2ae69342295ae5012d92e0cc9c50"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 393508,
+    "sha256": "c09f8c562eaebd480b1be2ffd1ca07b47df0780f900ba2344cd795278cb83e31",
+    "bones": 50,
+    "cubes": 227,
+    "faces": 1362,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 11802,
+      "sha256": "86b1d3174161557bab671e473221dccba8d72bbd894338c11e015af4f97de597"
+    },
+    {
+      "path": "info.json",
+      "size": 140,
+      "sha256": "d7e9880e086c06e95d4e6dc894d6c47a114a7bce340a7b55ebb071137500171e"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122108,
+      "sha256": "af5036b7752f6ed6f01602ffecb7c056551c67c103984478a55c83837b6150b4"
+    },
+    {
+      "path": "main.json",
+      "size": 106116,
+      "sha256": "faf63062a151e1e4a20029acc0e16a2d1a130c8fbbcea13b6105e6d742bb0c92"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131637,
+      "sha256": "2775453b508dddd40ebe59505203ebe0e9c65496c6086d48009ee42115ea8a40"
+    },
+    {
+      "path": "texture.png",
+      "size": 21705,
+      "sha256": "46e0ded635b897a4ecbb627de7ebbd73a4bbbc7f0e26bd50f3857242c3498fb5"
+    }
+  ]
+}

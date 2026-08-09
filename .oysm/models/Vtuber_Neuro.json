@@ -1,0 +1,151 @@
+{
+  "id": "Vtuber_Neuro",
+  "path": "parsed/Vtuber_Neuro",
+  "source": {
+    "path": "_Vtuber/Vtuber_Neuro.ysm",
+    "type": "ysm",
+    "stem": "Vtuber_Neuro"
+  },
+  "ysm": "parsed/Vtuber_Neuro/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/NekuroMC.png",
+        "comment": "Hello",
+        "contact": {
+          "Planetminecraft": "https://www.planetminecraft.com/member/nekuromc/",
+          "Sketchfab": "sketchfab.com/NekuroMC/models"
+        },
+        "name": "NekuroMC",
+        "role": "Author"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://ko-fi.com/nekuromc",
+      "home": "https://www.planetminecraft.com/member/nekuromc/"
+    },
+    "name": "Neuro sama",
+    "tips": ">> THIS MODEL IS NOT FOR SALE << - Check out my other models at PMC"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        },
+        {
+          "uv": "textures/texture2.png"
+        },
+        {
+          "uv": "textures/marker.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Vtuber_Neuro_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10367,
+      "sha256": "71184385037f3cc365c17df8301fa94e471a3bf3a07472f380d83ddc3821881c"
+    }
+  },
+  "stats": {
+    "file_count": 11,
+    "total_bytes": 947167,
+    "sha256": "a99d42af176ccfc202e029283870298ece193ec6ce2f8ef00d9aef049e631675",
+    "bones": 122,
+    "cubes": 577,
+    "faces": 3462,
+    "textures": 3,
+    "materials": 3,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 121795,
+      "sha256": "fe509bd4aa81a2f23b3f8999f27e8ee34cc6ca83e462fb0558c12b3b285877b2"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 170225,
+      "sha256": "5e0cbe3a493b68c18af15aa03371963391d2b5dedb1143a87b57efb6abd56d94"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "avatar/NekuroMC.png",
+      "size": 161044,
+      "sha256": "14c258b692cd42d805dcfed883167c80c94286f28e0e079e936e96b575953595"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 8857,
+      "sha256": "a8bf0fc009bc2cf849fb4ab1d480492e3505ef6f50a67aec8efad824941ab019"
+    },
+    {
+      "path": "models/main.json",
+      "size": 305461,
+      "sha256": "9f46d0f243b03bae1187d26a747290db962511963766a0c2118d1ba5776851f5"
+    },
+    {
+      "path": "textures/marker.png",
+      "size": 12860,
+      "sha256": "d7f0d92cb9fa690410057e2488183d2cee6787cb06e1b2a6f0a788ad66de55ea"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 14785,
+      "sha256": "3432c3b920a5d335d4478926459a3d16dab091841c04cbdd9a8da5f3dcc7fa15"
+    },
+    {
+      "path": "textures/texture2.png",
+      "size": 14888,
+      "sha256": "f685b1c3e3713f85405a5fab9b13a787b548d553d1b254f7b456edd479daf8ab"
+    },
+    {
+      "path": "ysm.json",
+      "size": 972,
+      "sha256": "1801b2009bca7fc59a8c15cab4d1216a5515acb6ece291af26f0570a624af33a"
+    }
+  ]
+}

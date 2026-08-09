@@ -1,0 +1,210 @@
+{
+  "id": "ccci202_枫璃_1.0",
+  "path": "parsed/ccci202_枫璃_1.0",
+  "source": {
+    "path": "_ccci202/ccci202_枫璃_1.0.ysm",
+    "type": "ysm",
+    "stem": "ccci202_枫璃_1.0"
+  },
+  "ysm": "parsed/ccci202_枫璃_1.0/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/ccci202.png",
+        "comment": "想成为模型制作者",
+        "name": "ccci202",
+        "role": "角色"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "不可修改"
+    },
+    "name": "枫璃",
+    "tips": "原创免费模型1.0"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "左眼表情",
+            "description": "左眼表情",
+            "value": "v.pants_change1",
+            "labels": {
+              "O_O": "v.pants_change1=0;v.le=0",
+              "O_—": "v.pants_change1=1;v.le=1"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "右眼表情",
+            "description": "右眼表情",
+            "value": "v.pants_change2",
+            "labels": {
+              "O_O": "v.pants_change2=0;v.re=0",
+              "—_O": "v.pants_change2=1;v.re=1"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "嘴部表情",
+            "description": "嘴部表情",
+            "value": "v.pants_change",
+            "labels": {
+              "默认": "v.pants_change=0;v.t=0",
+              "微笑": "v.pants_change=1;v.t=1"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/ccci202___1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 1053,
+      "sha256": "986b89dc9486f0bc820108adfc4c337c97686f9513ced103de59595cc46716fd"
+    }
+  },
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 3256269,
+    "sha256": "6045af32eda5857058b54f2ba7160423854a9eb92fc12d9d6ad0c70c10600671",
+    "bones": 149,
+    "cubes": 457,
+    "faces": 2742,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178406,
+      "sha256": "5cf99c98e5c2c3f588282195f8e9e77d94478b2397af690e6b4aca4ac2af8419"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 109004,
+      "sha256": "ba1e5d1d0e30fc7cec4337358c630cf4f7c89f986f3a98b261c424bd3aecd477"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 243152,
+      "sha256": "ddaa159bb4b4094a807952d3e69195b934c9198685038e1c9209a07e0fc720f1"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50174,
+      "sha256": "e40cbc3caa9fba319f0b470fd23deccca36ba3a657030ecadfbe0882b15eaef4"
+    },
+    {
+      "path": "avatar/ccci202.png",
+      "size": 16866,
+      "sha256": "c327ffba5d3592a39ca4059bba0afaa5853e424f568520c9a7459ba287e467cc"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 11825,
+      "sha256": "0413e2361b245ddd8c0d7b1ff13382696267812fbdbbe4b6e30d36749db66986"
+    },
+    {
+      "path": "models/main.json",
+      "size": 239953,
+      "sha256": "9f436f966bffe8dcf0ccf53b998d2ea8b4e2058769d655fbbced4455498e388c"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 17397,
+      "sha256": "540e28c73a52e7a86cfdcc1dd3b43efec714db0a7c0b51670e5481374280d920"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1728,
+      "sha256": "3ebf32c27fbcf0cead37161faa217cb1db64435400f18c5280485cfe5673e806"
+    }
+  ]
+}

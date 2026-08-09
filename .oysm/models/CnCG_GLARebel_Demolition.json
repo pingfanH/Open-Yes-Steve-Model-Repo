@@ -1,0 +1,100 @@
+{
+  "id": "CnCG_GLARebel(Demolition)",
+  "path": "parsed/CnCG_GLARebel(Demolition)",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCG_GLARebel(Demolition).ysm",
+    "type": "ysm",
+    "stem": "CnCG_GLARebel(Demolition)"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "反抗军(爆破)",
+    "tips": "庄斯的部队，身上挂满了各种炸药及诡雷",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCG_GLARebel_Demolition_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7206,
+      "sha256": "fa5a2b3afff26529c09944e47eb5c5c8ddb2a08315f183bde1ac02268d2044df"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 348462,
+    "sha256": "4adef526cac21a691708120876ad53f994881ce5df4a36c2e8d1bc8f00f029b4",
+    "bones": 46,
+    "cubes": 146,
+    "faces": 876,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 8237,
+      "sha256": "a08bb86fb5cc677a902e3464b6d25a7dc09bc315a91951803dc726b5378c14ef"
+    },
+    {
+      "path": "info.json",
+      "size": 189,
+      "sha256": "8f2d1a3b55cfed451f6e52eb45685796e7cc699b8690055d3104ed2c76b58532"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122108,
+      "sha256": "af5036b7752f6ed6f01602ffecb7c056551c67c103984478a55c83837b6150b4"
+    },
+    {
+      "path": "main.json",
+      "size": 68928,
+      "sha256": "f53c535d978e503b496da75b3b4b5157ffe90bba21e7496997c1554a574ce847"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131637,
+      "sha256": "2775453b508dddd40ebe59505203ebe0e9c65496c6086d48009ee42115ea8a40"
+    },
+    {
+      "path": "texture.png",
+      "size": 17363,
+      "sha256": "856564e6675e942461fd6becbcde367969c7deff632bac2923ee954921ce7110"
+    }
+  ]
+}

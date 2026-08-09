@@ -1,0 +1,121 @@
+{
+  "id": "Ak_Jessica(Defender)_v1.0",
+  "path": "parsed/Ak_Jessica(Defender)_v1.0",
+  "source": {
+    "path": "_Arknights/Ak_Jessica(Defender)_v1.0.ysm",
+    "type": "ysm",
+    "stem": "Ak_Jessica(Defender)_v1.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§b武装流泪猫猫头",
+    "tips": "§c武装持盾tac特供\n§8穿裤子时显示嗨丝\n§8穿鞋子时显示鞋子",
+    "authors": [
+      {
+        "name": "§c烈鸟比百§8（模型）"
+      },
+      {
+        "name": "§b完全冻结 §8（素体）"
+      },
+      {
+        "name": "§f白久谷§8（辅助模型）"
+      }
+    ],
+    "license": {
+      "type": "All Rights Reserved"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "tex.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Jessica_Defender__v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12396,
+      "sha256": "9811a89e61bcde16f5787128af447f7e146a72afc7982b30eddbe0d8fe04b13b"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 1930541,
+    "sha256": "9d189b9e77cc1d3290c480c460cb335232fde4e405437f514d897d0f035470cd",
+    "bones": 152,
+    "cubes": 1302,
+    "faces": 7812,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "00new_body.zip",
+      "size": 539002,
+      "sha256": "610e427e7ee1259674ebf215f4a7b3119a5f93dda20224944c8d23ae509cb0e4"
+    },
+    {
+      "path": "arm.animation.json",
+      "size": 41624,
+      "sha256": "07af4173ede7474a43483ce89ca5a4f8d660aaa360678ec5c8b91e8736a30b90"
+    },
+    {
+      "path": "arm.json",
+      "size": 44342,
+      "sha256": "bfdda82984dca88e8a5b22c40ec56f00de41821a8f0964a7c71897b3e9c1b3d7"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 118723,
+      "sha256": "b967da061409c8a7af5fb39cdf33108d4f3000fd91e74612b15376c1028ad22a"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 174937,
+      "sha256": "a6eda9e8069250ff8231d520a81fafa7a48b7082908b4174b1c7601ddb82c363"
+    },
+    {
+      "path": "main.json",
+      "size": 655564,
+      "sha256": "bfcee5390ebb711e5f07c2d647d7e1fc57ce471823f735111038ea846c380613"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 164059,
+      "sha256": "ede2e6d868cdf08b62d3f51b8806e75f645ea5a51f5a4144bc5b628e381be021"
+    },
+    {
+      "path": "tac.animation_old.json",
+      "size": 153728,
+      "sha256": "dc31255de2deb6a4df88fae0e870b43822960f135163a29d04e8a274a7da40f6"
+    },
+    {
+      "path": "tex.png",
+      "size": 38562,
+      "sha256": "a4403059751ce0b1453311f765d0d6ce9159f17674f7c2eb143e27d619fb4627"
+    }
+  ]
+}

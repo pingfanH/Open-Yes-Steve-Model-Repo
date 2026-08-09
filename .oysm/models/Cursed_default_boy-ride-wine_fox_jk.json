@@ -1,0 +1,204 @@
+{
+  "id": "Cursed_default_boy-ride-wine_fox_jk",
+  "path": "parsed/Cursed_default_boy-ride-wine_fox_jk",
+  "source": {
+    "path": "_Meme/Cursed_default_boy-ride-wine_fox_jk.ysm",
+    "type": "ysm",
+    "stem": "Cursed_default_boy-ride-wine_fox_jk"
+  },
+  "ysm": "parsed/Cursed_default_boy-ride-wine_fox_jk/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/黎家诚.png",
+        "comment": "翻改模型作者",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "name": "黎家诚",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Default Boy ride foxJK",
+    "tips": "指挥男骑乘foxJK"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "上马and下马",
+      "extra1": "换马鞍",
+      "extra2": "旋转木马",
+      "extra3": "下马后酒狐离开",
+      "extra4": "酒狐来后上马",
+      "extra5": "卖萌",
+      "extra6": "御笔摇",
+      "extra7": "#extra_config"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "换",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.ts"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "preview_animation": "idle",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "parcool": "animations/parcool.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/blue.png"
+        },
+        {
+          "uv": "textures/red.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Cursed_default_boy-ride-wine_fox_jk_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3663,
+      "sha256": "aba053ef2693501491b77a8f80ac399a06163cb1f0f42915fb851ac06943d6bd"
+    }
+  },
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 1677352,
+    "sha256": "6838c860c40d9cb296c13e5b81c117faba04fcb095e93c140c9aea12e0a6f90c",
+    "bones": 196,
+    "cubes": 617,
+    "faces": 3702,
+    "textures": 2,
+    "materials": 2,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 180614,
+      "sha256": "8eb15369fc4aa0268e60b93235ae8b6e3f65b2fd8900802d90aec92f1e40bbe1"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1384,
+      "sha256": "60d57b045323a9f3075baba7b1a5624891a6b7a98e49d1591f45c0aee499c028"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 104901,
+      "sha256": "640cfd862427b04550f1524c0e465444d2d5f0456d7b2862285eff35087fb4e5"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 193411,
+      "sha256": "8a845e7687c843b0a982ffc3184d648b5fac9220d72643c0ebb28c84d3b385c9"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 134960,
+      "sha256": "4fea2d3372675dd60324b60f6c4eca8ade6350fe799c22a8de28f296126a3bb3"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 131666,
+      "sha256": "d937d3484f7d28e66237f4445ebb43edcd2cec683b7f68ac581bcf897e45eb3c"
+    },
+    {
+      "path": "avatar/黎家诚.png",
+      "size": 19374,
+      "sha256": "6cd420a5238d37083afb1a43736ae8f862dfb9d9065c1ae1895c2ee20071333c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 6832,
+      "sha256": "7af140d0a394a8a9a0ed8927897f79f644c8717463ecf8c3d1042946445ce804"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 58375,
+      "sha256": "a97ed55f6ae40de83483238bc212ca066d15363563f4fe5a3012c8a7c12fdfc1"
+    },
+    {
+      "path": "models/main.json",
+      "size": 331511,
+      "sha256": "285d71b7134f9094a07b65b4f4599d7b020e0e921d4cd0fa4c25ee9b2d859515"
+    },
+    {
+      "path": "sounds/旋转木马.ogg",
+      "size": 456275,
+      "sha256": "ff1b4765410da85da1ae6fb3249e67620cec8b0f373836e532ecc25e1b601f56"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 4355,
+      "sha256": "e31564c74bb29ae60d4fc6cb9f44a7202cd0518b29aa2b44c811a6b0c7ca9fe8"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 42504,
+      "sha256": "cb77b6a037d2cbf3b8acf42af1e022d17714eb2e60df9b4548ab6acefab24be9"
+    },
+    {
+      "path": "textures/red.png",
+      "size": 9580,
+      "sha256": "136c919fdccecc004a4c214200dcd09bce8dd69ab688985bf1b4ec0167a3c68d"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1610,
+      "sha256": "6c363e326922a0dc9027a048d44e59618da54475377779136cac61d2176ad186"
+    }
+  ]
+}

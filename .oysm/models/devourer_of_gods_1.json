@@ -1,0 +1,228 @@
+{
+  "id": "_devourer_of_gods(1)",
+  "path": "parsed/_devourer_of_gods(1)",
+  "source": {
+    "path": "Uncategorized/_devourer_of_gods(1).ysm",
+    "type": "ysm",
+    "stem": "_devourer_of_gods(1)"
+  },
+  "ysm": "parsed/_devourer_of_gods(1)/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/松鼠式坦克.png",
+        "comment": "先做再说",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/354791477"
+        },
+        "name": "松鼠式坦克",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "devourer_of_gods",
+    "tips": "“无名的巨蟒准备对你动手了”\n自命不凡的弑神者——神明吞噬者"
+  },
+  "properties": {
+    "width_scale": 0.46,
+    "height_scale": 0.46,
+    "extra_animation": {
+      "extra0": "召唤使徒",
+      "extra1": "播放：寰宇灾劫",
+      "extra2": "播放：寰宇覆灭",
+      "extra3": "召唤暗能量",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_classify": [],
+    "default_texture": "texture",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/devourer_of_gods_1_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 19855,
+      "sha256": "588d30f2011cd0da55989e18ae4344a18a925deeb74603cd8320ea2995745059"
+    }
+  },
+  "stats": {
+    "file_count": 22,
+    "total_bytes": 16413530,
+    "sha256": "c78ec101f84ce78a1984134a0fba776195a30c798e10e1b8829dae72df334e37",
+    "bones": 476,
+    "cubes": 3854,
+    "faces": 22117,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 183601,
+      "sha256": "7295211b0d0504a20a710d5e4ceeefca4714a43ed9f722e88730f80ca3629828"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 992,
+      "sha256": "59f6e98f399abe803d60aeba774a2e37e69542457e07c7d9ce4c27830b8bbc4a"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 27904,
+      "sha256": "88cb7149eb0bbdce3448c25c5f7fd86defbb5b7c52dedc8d299cd5cde9b9fc01"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 203746,
+      "sha256": "5b07384e013560092c88ca8fbbc50180be90a1482e16464b9b917db850743c58"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/松鼠式坦克.png",
+      "size": 18929,
+      "sha256": "72a25a3ec15f5969f053ff417639ca42616626d60873253df8301a0aeece0569"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 524,
+      "sha256": "36650815f4b5af2582172cb15c1e1238db07573df1a1ccbe9917839359e040a4"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 120882,
+      "sha256": "4c464ff74630fd28b972075de33b378fd7edb68f4d764269c2149210509c440b"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 5551,
+      "sha256": "96ab7b8ba99a1d839cfb204b498837f34b17524f815d2e2a44f7ef4e8567c899"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1934442,
+      "sha256": "595e4f1b2ee835c000f50f24cad62fe9f577b3c695901b956387e06c4579c72f"
+    },
+    {
+      "path": "sounds/scourge_of_the_universe.ogg",
+      "size": 3968899,
+      "sha256": "461bd48bef5e47006512e2458a3a72a34daeb6284794f2f09ad7e56b0b225303"
+    },
+    {
+      "path": "sounds/servants_of_the_scourge.ogg",
+      "size": 3968887,
+      "sha256": "c3037f653a71686a6b55c2f765a08b3f20718b1facde1cac3ae02b8fae4f55a1"
+    },
+    {
+      "path": "sounds/spiritng.ogg",
+      "size": 47156,
+      "sha256": "b4b244e300e405562794f4681ca94869e3170c2b57beadf0c4351bcad0fa8be2"
+    },
+    {
+      "path": "sounds/universal_collapse.ogg",
+      "size": 2905880,
+      "sha256": "bc94abce051bcf6a7ba8f32810af2a6d58b46489d8d78cc61909b2470576b803"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1265,
+      "sha256": "d0ae9d9d173361bc02f8c23e5ebde5e61e12594ccf208e33050dea3248ce7f48"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 585364,
+      "sha256": "2ed22d4880b6743e55aa0804193b78a2299596797cdecec9fdfbb50b517b952f"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1579,
+      "sha256": "f984e341ef04768a78f0506ab1bb4c3506673574d41a460dcac4e96c5332b6d0"
+    }
+  ]
+}

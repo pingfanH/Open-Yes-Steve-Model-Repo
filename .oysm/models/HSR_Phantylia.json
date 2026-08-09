@@ -1,0 +1,130 @@
+{
+  "id": "HSR_Phantylia",
+  "path": "parsed/HSR_Phantylia",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Phantylia.ysm",
+    "type": "ysm",
+    "stem": "HSR_Phantylia"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Phantylia 幻胧",
+    "tips": "Demiseless Existence 长命无绝\n\n仅在爱发电和Patreon上提供\nAvailable only on afd and Patreon\n\nafdian.net/a/Deovolente\nwww.patreon.com/GhastRiv",
+    "license": {
+      "type": "CC BY-NC-NA 4.0"
+    },
+    "authors": [
+      {
+        "name": "映素团队"
+      }
+    ]
+  },
+  "properties": {
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "aki.png",
+        "aoi.png",
+        "mur.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Phantylia_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 28016,
+      "sha256": "9fe211e07dcd9fb2d2cbb2a217fc52d72c49bdc41f4783379f958071fa92e108"
+    }
+  },
+  "stats": {
+    "file_count": 11,
+    "total_bytes": 1895718,
+    "sha256": "390a2bc371c3caa56f6506c115d62b1d14fcfdfa677a78aeeb143282fe860fb8",
+    "bones": 176,
+    "cubes": 2066,
+    "faces": 12396,
+    "textures": 3,
+    "materials": 3,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "aki.png",
+      "size": 64298,
+      "sha256": "58f1544e65bd929d5ab628fcc645dcef7d4913559e4ee684edaac2335145f8dd"
+    },
+    {
+      "path": "aoi.png",
+      "size": 63962,
+      "sha256": "82cf28de42ca57c5a7ae9ef850ba27372a3b5c8b36f49928f6b2f4c3ab419a31"
+    },
+    {
+      "path": "arm.animation.json",
+      "size": 129199,
+      "sha256": "e18eb71b2efe5a313b1ca294cb62710a3e766102cffa44c8462b28af03d2bafe"
+    },
+    {
+      "path": "arm.json",
+      "size": 68537,
+      "sha256": "dfa30d211e7f5b240c5cef2d8dee86aec9cddff25167a85492d31296cb6ceb18"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 117263,
+      "sha256": "ac09b14a1638956e468f2b2cbb8b3d9e798f455ff20f264c501b9df8b0031efa"
+    },
+    {
+      "path": "info.json",
+      "size": 290,
+      "sha256": "574ab543d5f98d9f76daa233a724e545a3065872b546c467869f9f5cf2b29e69"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 196429,
+      "sha256": "353db1a98f07d61d1347e408699981a40d5e7fd83996a13b3ef62cd693b57a56"
+    },
+    {
+      "path": "main.json",
+      "size": 1054911,
+      "sha256": "86ccdbeb9b7b7b2c88885e1ed7c48a9c97453d239f49173686983838e15f1506"
+    },
+    {
+      "path": "mur.png",
+      "size": 64549,
+      "sha256": "e64644dc0f50f2c2fda0e5b80aaf18a0e5b26546950a711457bdec1a898c63bf"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    }
+  ]
+}

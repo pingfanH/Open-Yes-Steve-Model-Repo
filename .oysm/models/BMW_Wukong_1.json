@@ -1,0 +1,207 @@
+{
+  "id": "BMW_Wukong_1",
+  "path": "parsed/BMW_Wukong_1",
+  "source": {
+    "path": "_BlackMythWukong/BMW_Wukong_1.ysm",
+    "type": "ysm",
+    "stem": "BMW_Wukong_1"
+  },
+  "ysm": "parsed/BMW_Wukong_1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§c烈鸟比百.png",
+        "comment": "§7啦啦啦~",
+        "contact": {
+          "Afdian": "爱发电搜索“烈鸟比百”",
+          "Bilibili": "B站搜索“烈鸟比百”"
+        },
+        "name": "§c烈鸟比百",
+        "role": "§7人物模型"
+      },
+      {
+        "avatar": "avatar/§6Maks.png",
+        "comment": "§7嘿嘿嘿~",
+        "contact": {
+          "Bilibili": "B站搜索“Maks怜悯”"
+        },
+        "name": "§6Maks",
+        "role": "§7金箍棒模型"
+      },
+      {
+        "avatar": "avatar/§e木偶老人.png",
+        "comment": "§7嘿嘿嘿~",
+        "contact": {
+          "网易": "金箍棒模组？"
+        },
+        "name": "§e木偶老人",
+        "role": "§8网易§7金箍棒模组"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/Aigoblin?tab=shop",
+      "home": "https://space.bilibili.com/20510758?spm_id_from=333.1007.0.0"
+    },
+    "name": "§e简",
+    "tips": "是吗？真不巧，我最喜欢的就是歪门邪道~"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "用前扭一扭": "用前扭一扭",
+      "开奶盖": "开奶盖",
+      "奶盖双开": "奶盖双开",
+      "扯炸弹": "扯炸弹",
+      "熊里藏刀": "熊里藏刀",
+      "战斗姿态": "后庭花",
+      "脱丝袜": "脱丝袜",
+      "摇摇乐": "带球撞人",
+      "练习两年半": "练习两年半",
+      "坐": "坐",
+      "户型展示": "户型展示",
+      "穿脱内衣": "穿脱内衣",
+      "穿脱外套": "穿脱外套",
+      "穿脱丝袜": "穿脱丝袜",
+      "穿脱裤子": "穿脱裤子",
+      "穿脱鞋子": "穿脱鞋子",
+      "穿脱手套": "穿脱手套",
+      "站姿": "站立poss",
+      "poss": "poss",
+      "切换脸型": "切换脸型"
+    },
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/block.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BMW_Wukong_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 20436,
+      "sha256": "113891f9b4d7cd2899d09b16690f8e29662988902fefdca16c31e2663d97693e"
+    }
+  },
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 3758591,
+    "sha256": "48c159d79b99e3e9e0a0858f63783596b9b048b625faef4ccf51a11f955709c2",
+    "bones": 129,
+    "cubes": 2331,
+    "faces": 13912,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 52109,
+      "sha256": "f017855670b55997842335a4f1dd73118e17e863d5a2952c79ea06b7866a1f3b"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "6e8d3afe0c3baafff8f7f3e0e30ef3c621c667be5c346af73398f5fd3cb89ca5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 471752,
+      "sha256": "0c568d5b99cbfbeb1734dd9e5ba5bda273f0f86de2aec382841b70673f50a130"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 668643,
+      "sha256": "482b01a308b91b98ac933c64c3fb49ed2ed6175bfe3b7dd297074e98bcf0bacf"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 181347,
+      "sha256": "e7b7467878efd8a1e35a647ec0470a1f2213a24d5338bfaa611dc3379311385a"
+    },
+    {
+      "path": "avatar/§6Maks.png",
+      "size": 298042,
+      "sha256": "c7a11650c2fec00beca468c964e8297a13e4f347aba6e6cbcd57452f019618c4"
+    },
+    {
+      "path": "avatar/§c烈鸟比百.png",
+      "size": 37915,
+      "sha256": "7f6a5899c023a97b9315642e24f8d7ab96047014cb79fef3ab1631b06f63d872"
+    },
+    {
+      "path": "avatar/§e木偶老人.png",
+      "size": 316615,
+      "sha256": "2228fa9ff48667d53f4146092476fd95431aa96fb432399e2d73e91972bed96c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 169564,
+      "sha256": "f3cab761edc7ce3108d0f65450c2cb3437f67c3c68e8b2a7025aa959c0a32b01"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 165851,
+      "sha256": "e38192760914e7178e3c8f967972f853c7a6999031c234fdafa8f348655b1dde"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1129911,
+      "sha256": "d96bee2475ab6e6a9dcfc398a2b3fa3a15bdebe468c695288c87b65560f5dc68"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 56773,
+      "sha256": "a5462764472a4a8862c28df0ec4912e131d0538e3ca3978392fdfe3f17a25e9c"
+    },
+    {
+      "path": "textures/block.png",
+      "size": 205453,
+      "sha256": "cdf10fe7b195bc44b85b66ee6f610ef0cb0fb4ddc4b29b50e8ba167e1cb1cfc7"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1941,
+      "sha256": "b4eb59d391b19d56dd159dde58438fa4a7bd0969c2ec047d0331fbbf23997f51"
+    }
+  ]
+}

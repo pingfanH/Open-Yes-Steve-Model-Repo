@@ -1,0 +1,221 @@
+{
+  "id": "Block_IronGolem(dancing)",
+  "path": "parsed/Block_IronGolem(dancing)",
+  "source": {
+    "path": "_MinecraftBlock/Block_IronGolem(dancing).ysm",
+    "type": "ysm",
+    "stem": "Block_IronGolem(dancing)"
+  },
+  "ysm": "parsed/Block_IronGolem(dancing)/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/源石姬变体(raw_chicken).png",
+        "comment": "一块油炸大姬排",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/219540765",
+          "Pixiv": "https://www.pixiv.net/users/31376770",
+          "Unifans": "https://app.unifans.io/c/rawchickenneg"
+        },
+        "name": "源石姬变体(raw_chicken)",
+        "role": "模型/动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC SA"
+    },
+    "link": {
+      "donate": "https://app.unifans.io/c/rawchickenneg",
+      "home": "https://space.bilibili.com/219540765"
+    },
+    "name": "铁傀儡跳舞机",
+    "tips": "§3整活模型，开凿！"
+  },
+  "properties": {
+    "width_scale": 1.0,
+    "height_scale": 1.0,
+    "extra_animation": {
+      "settings1": "#配置项",
+      "extra0": "跳！舞！",
+      "extra1": "跳舞无bgm",
+      "extra2": "恩！情！",
+      "extra3": "恩情无bgm",
+      "extra4": "洗！嗨！",
+      "extra5": "洗嗨无bgm"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "配置项",
+        "name": "§3配置项",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "§a末地烛",
+            "description": "勾选后会显示末地烛",
+            "value": "v.roaming.end_rod"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "铁傀儡",
+    "preview_animation": "preview",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/铁傀儡.png"
+        },
+        {
+          "uv": "textures/金傀儡.png"
+        },
+        {
+          "uv": "textures/钻石傀儡.png"
+        },
+        {
+          "uv": "textures/绿宝石傀儡.png"
+        },
+        {
+          "uv": "textures/黑曜石傀儡.png"
+        },
+        {
+          "uv": "textures/下界合金傀儡.png"
+        },
+        {
+          "uv": "textures/基岩傀儡.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Block_IronGolem_dancing_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 2177,
+      "sha256": "fe5b418039b230e752e4e10f319649e29101b1a8f23a4233ad8b6a6055d8e8f0"
+    }
+  },
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 2019443,
+    "sha256": "2ae8b7acc825e81ed649368991468afd324597e80d368c6621c94b8eb6207ede",
+    "bones": 15,
+    "cubes": 9,
+    "faces": 54,
+    "textures": 7,
+    "materials": 7,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 12275,
+      "sha256": "db31c8cf0a9a7df429941060ae76529e198dcdccff041e3d52bf90ad9638a35a"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 24354,
+      "sha256": "e86388ddb79be58a258bb30227c7bb12a01e6fabe4aeb23b49b63586827976ef"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 3991,
+      "sha256": "9fe6420970f0c804e13b4bdad2715a31743a4fea46f9e1706deb3aed0db37bdc"
+    },
+    {
+      "path": "avatar/源石姬变体(raw_chicken).png",
+      "size": 101464,
+      "sha256": "445de467889ef7d32e2e2ceb6ac63301fc555ca3a6dd35dbbd00e7ef0980b683"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 1330,
+      "sha256": "677889a72dd915d636ca151aaba9f06bc241e96d42c1213325f0e2a7ce36bb3e"
+    },
+    {
+      "path": "models/main.json",
+      "size": 3760,
+      "sha256": "468c2525ba7e6ed34f1572743bb24ee2f12bbf907691dca1dede4046350fe44c"
+    },
+    {
+      "path": "sounds/assumptions_part.ogg",
+      "size": 615647,
+      "sha256": "56f16827dbee621e084b4b4c2576bb9522df109b687226bab6e6eeee16a0f423"
+    },
+    {
+      "path": "sounds/enqing_part.ogg",
+      "size": 450471,
+      "sha256": "19b8951d93f10be690caca466a487ab29fcc0724db6683b69c7c00704c6ea517"
+    },
+    {
+      "path": "sounds/erika_part.ogg",
+      "size": 753372,
+      "sha256": "0e44df96b3546d64c23264b9cc345cae67b7865b0749c9f97f5853afdd02b67f"
+    },
+    {
+      "path": "textures/下界合金傀儡.png",
+      "size": 7043,
+      "sha256": "3fef2613e04642e6744d4531a73c59cd92ac3a7c0d7c84ea01d64d9548a77085"
+    },
+    {
+      "path": "textures/基岩傀儡.png",
+      "size": 8112,
+      "sha256": "26a387cd83b3c99d14e15b6068e5f8422c263fbe7b8a2ab084a5084b380a166c"
+    },
+    {
+      "path": "textures/绿宝石傀儡.png",
+      "size": 6835,
+      "sha256": "eeb93fd08d9b47db93be48112f2c7ad1a5d62da891b103a8c08443e38b663ede"
+    },
+    {
+      "path": "textures/金傀儡.png",
+      "size": 7328,
+      "sha256": "83b8b80ab5308d1d8de89930301d43aa040cdc45851b88b4a6bbfa5b7830d0e8"
+    },
+    {
+      "path": "textures/钻石傀儡.png",
+      "size": 7484,
+      "sha256": "4cca9d65b3f9c3d9e1e24248f9fe7829884c1e0b5fefb6cc1050cc2d5c979104"
+    },
+    {
+      "path": "textures/铁傀儡.png",
+      "size": 6067,
+      "sha256": "d2198efadfdf682c4d7bf045317ef33a0afa449f0a658c9beb743439f666f4ea"
+    },
+    {
+      "path": "textures/黑曜石傀儡.png",
+      "size": 8224,
+      "sha256": "a270a8106b6022cd78ca528032a3073081d3df976ebaf80601204e2dda8a30d5"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1686,
+      "sha256": "8161fce3b320ea19c8fc03dddab5faa8df63ad1098c27c2e4a78a3e5ddd482aa"
+    }
+  ]
+}

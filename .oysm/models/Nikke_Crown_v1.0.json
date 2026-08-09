@@ -1,0 +1,147 @@
+{
+  "id": "Nikke_Crown_v1.0",
+  "path": "parsed/Nikke_Crown_v1.0",
+  "source": {
+    "path": "_Nikke/Nikke_Crown_v1.0.ysm",
+    "type": "ysm",
+    "stem": "Nikke_Crown_v1.0"
+  },
+  "ysm": "parsed/Nikke_Crown_v1.0/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/NekuroMC.png",
+        "comment": "Hello",
+        "contact": {
+          "Planetminecraft": "https://www.planetminecraft.com/member/nekuromc/",
+          "Sketchfab": "sketchfab.com/NekuroMC/models"
+        },
+        "name": "NekuroMC",
+        "role": "Author"
+      },
+      {
+        "avatar": "avatar/New_scout.png",
+        "comment": "",
+        "name": "New_scout",
+        "role": "Requestor"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://ko-fi.com/nekuromc",
+      "home": "https://www.planetminecraft.com/member/nekuromc/"
+    },
+    "name": "Nikke - Crown",
+    "tips": ">> Check out my other models at PMC"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Nikke_Crown_v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 15999,
+      "sha256": "213625889f849699824c71f571a3a399b01402f33032c0980176b808d6751f91"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 1902782,
+    "sha256": "51001df3effa0729b3bbacb52eebc6931ee31b5dc4525af0cf4fe19fa3d14cd2",
+    "bones": 167,
+    "cubes": 1344,
+    "faces": 8064,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 121831,
+      "sha256": "7c01b1d30f6d65e7df0107cc9e6b9459d570b30522c12077a41d2c210964ad73"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 150404,
+      "sha256": "65c6691806bf83a39b74e8aec47aa3f00caf0c1410faf7d5845d9e061d843fcf"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 136656,
+      "sha256": "0fecf026e828d1eb7f19f8d451bc18e749c686f7eecaada05f5799b60afd9717"
+    },
+    {
+      "path": "avatar/NekuroMC.png",
+      "size": 161044,
+      "sha256": "14c258b692cd42d805dcfed883167c80c94286f28e0e079e936e96b575953595"
+    },
+    {
+      "path": "avatar/New_scout.png",
+      "size": 565277,
+      "sha256": "cb3f3e577fe8b4616cbec5220857f1e7b042609ed871a046ced86d5a010c08cc"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 68691,
+      "sha256": "b78a6e79cb96797ea119a39cf9f182b284d8468b0a882fd376eda0f8c14fcdb1"
+    },
+    {
+      "path": "models/main.json",
+      "size": 671031,
+      "sha256": "10600c6d385556a9e5761d52dde20ea1711c245c5c93f177f760f76738fac6d9"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 24180,
+      "sha256": "0e9371ce256d6cfe1fc58a5a014b1af8e43016e328b6604a376c40153b6458cf"
+    },
+    {
+      "path": "ysm.json",
+      "size": 994,
+      "sha256": "1c4ca7d8b9cafa47286f524d9e08371224ae9923671f67a93c26ffb69089574b"
+    }
+  ]
+}

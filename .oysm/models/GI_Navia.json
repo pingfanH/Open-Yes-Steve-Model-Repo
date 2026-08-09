@@ -1,0 +1,102 @@
+{
+  "id": "GI_Navia",
+  "path": "parsed/GI_Navia",
+  "source": {
+    "path": "_GenshinImpact/GI_Navia.ysm",
+    "type": "ysm",
+    "stem": "GI_Navia"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§6纳维亚",
+    "tips": "§8不可脱普通版",
+    "authors": [
+      {
+        "name": "§c烈鸟比百§8（模型）"
+      }
+    ]
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Navia_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 18814,
+      "sha256": "585f71a36fadef0d8a5072a85fc8addb6b403203d3c119c58414479f39c92a32"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 2525975,
+    "sha256": "4b933297509e27d5231789a72b0df6ecd1733d7e00463d14d59ea155b1b51265",
+    "bones": 136,
+    "cubes": 1106,
+    "faces": 6636,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 42752,
+      "sha256": "c616f459890d8ed8653f23d3a80702db57792cfcebfce6898af984fb8759bf77"
+    },
+    {
+      "path": "arm.json",
+      "size": 63768,
+      "sha256": "ce8c39efd338ab9e23004789daedd5b23e1387b1ac208b53c83a18c6e919349f"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 1502279,
+      "sha256": "e7de892e23fb4eb180f7617139d548b65f80fb9bc66b4f7f5f79d242e626c747"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 183577,
+      "sha256": "f7de618916fa22c69e4adc83d376459dfcf36f2383038cc6a099b2216915952e"
+    },
+    {
+      "path": "main.json",
+      "size": 540679,
+      "sha256": "f3b2c70d8829bea4f0539d81438ea73d89d422ac84407917c490c4ab18b45872"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 154853,
+      "sha256": "901d56a6391aee0ca066594d3a5119eb18afcfed2faa5f8002d10e7a0084e1bf"
+    },
+    {
+      "path": "texture.png",
+      "size": 38067,
+      "sha256": "23f532c5ba9d9bbb272393933e06f0462a26ebc07fdc0e7131b871f016ba294f"
+    }
+  ]
+}

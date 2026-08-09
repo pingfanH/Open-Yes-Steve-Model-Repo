@@ -1,0 +1,215 @@
+{
+  "id": "AL_Helena",
+  "path": "parsed/AL_Helena",
+  "source": {
+    "path": "_AzurLane/AL_Helena.ysm",
+    "type": "ysm",
+    "stem": "AL_Helena"
+  },
+  "ysm": "parsed/AL_Helena/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/深海沉光.png",
+        "comment": "深海的微光",
+        "contact": {
+          "bilibili": "74625203"
+        },
+        "name": "深海沉光",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/星语.png",
+        "comment": "星空的言语",
+        "contact": {
+          "bilibili": "316739550"
+        },
+        "name": "星语",
+        "role": "动作"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "白鹰": "",
+      "联邦": ""
+    },
+    "name": "海伦娜",
+    "tips": "指挥官，您好，我是海伦娜，索敌是我的强项，请……将我们带往胜利吧"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_classify": [],
+    "default_texture": "耀眼的波纹",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/耀眼的波纹.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/AL_Helena_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10648,
+      "sha256": "ca2c391769ed94ddc960dd22ce554d9f5279bdb1c126783651c39b6e7b41f646"
+    }
+  },
+  "stats": {
+    "file_count": 18,
+    "total_bytes": 4458918,
+    "sha256": "86e4d6675aa34c12b0ba8a9ba262e0d684b470b3d361ffad2e8a69e0c1c85d1a",
+    "bones": 177,
+    "cubes": 1006,
+    "faces": 6036,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 102109,
+      "sha256": "52ff35599a32f2f4be563f31d6805b35882859738c58318717411b6cf621cbfc"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 216506,
+      "sha256": "e884f29666b7c29405d0f6a0d6adaca71760a9ece4c046418ec59751af6c2374"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139870,
+      "sha256": "823b06f981eb53b32c449351ae883487b5fde7090bbef3529d801014e997dc6a"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 49438,
+      "sha256": "e30547d12c54aad04772a31dfed63f95a1dabc9c4722faf5375f881f1cc067ac"
+    },
+    {
+      "path": "avatar/星语.png",
+      "size": 722683,
+      "sha256": "ee996074f348380c4cc985fd4829297db150f69738405aab358325edefed37e7"
+    },
+    {
+      "path": "avatar/深海沉光.png",
+      "size": 133116,
+      "sha256": "e25c6b0c656a92e406ddedf89acc54847e9c778fb7d3f681ed9e0c0ad28caa6a"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 9639,
+      "sha256": "1e58ebf7aa266d6d883ba5f3a54db3b6de7b978c6099fa6a7143a89fb9173ce0"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13725,
+      "sha256": "605fc04a716cfd12d30b5d6fb5d6db461504bd2f8da602fe078a4f57b4d71c71"
+    },
+    {
+      "path": "models/main.json",
+      "size": 617049,
+      "sha256": "2d6df2a07370613e4c3f3e50baefde9843eab59767375185705f5f34f75341c4"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 801,
+      "sha256": "db2f69ca5a624ec0fcefa8fe821de1cc03eaa0ba982dd13dc1fed6056dba5aa5"
+    },
+    {
+      "path": "textures/耀眼的波纹.png",
+      "size": 25678,
+      "sha256": "7b1c49ddfc1a3bc52929b46f943627d1e63145c1831d3dee5687b082644da59d"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1543,
+      "sha256": "16722079d84536d7625161564281f1c9c57e6264a217905769bbda4adb4dda6e"
+    }
+  ]
+}

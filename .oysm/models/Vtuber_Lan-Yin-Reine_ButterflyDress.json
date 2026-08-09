@@ -1,0 +1,326 @@
+{
+  "id": "Vtuber_Lan-Yin-Reine(ButterflyDress)",
+  "path": "parsed/Vtuber_Lan-Yin-Reine(ButterflyDress)",
+  "source": {
+    "path": "_Vtuber/Vtuber_Lan-Yin-Reine(ButterflyDress).ysm",
+    "type": "ysm",
+    "stem": "Vtuber_Lan-Yin-Reine(ButterflyDress)"
+  },
+  "ysm": "parsed/Vtuber_Lan-Yin-Reine(ButterflyDress)/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§d兰音Reine.png",
+        "comment": "§6§l2024年百大UP主,§b兔子型音乐人，梦想是自己的音乐可以被更多人听到。",
+        "contact": {
+          "§b哔哩哔哩主页": "§2https://space.bilibili.com/698029620",
+          "§b直播间": "§2https://live.bilibili.com/22696653"
+        },
+        "name": "§d兰音Reine",
+        "role": "§b原型人物"
+      },
+      {
+        "avatar": "avatar/§d瀛猫.png",
+        "comment": "§3一个透明人，无人问津",
+        "contact": {
+          "Afdian": "https://afdian.com/a/wincatpro",
+          "Bilibili": "https://space.bilibili.com/647224460"
+        },
+        "name": "§d瀛猫",
+        "role": "§b模型丨动画"
+      },
+      {
+        "avatar": "avatar/§d古巷柠檬.png",
+        "comment": "§3一个透明人,鸟蛋一枚",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/437731441"
+        },
+        "name": "§d古巷柠檬",
+        "role": "§b武器设计"
+      },
+      {
+        "avatar": "avatar/烟雨画桥.png",
+        "comment": "…………懒，有问题私信",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/1268865161"
+        },
+        "name": "烟雨画桥",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "§cAll Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/wincatpro",
+      "home": "https://space.bilibili.com/647224460"
+    },
+    "name": "§9§l☪Butterfly of Reine☪§e§l(蝴蝶晚礼服·兰音)",
+    "tips": "§a<免费版>§6赞助可增加紫煌灭天龙和换装，并且带有语音\r\n§d§n兰音:成为一个优秀的原创音乐作者和歌手，\r\n§d§n去地球传播自己的原创音乐，收获到大家的喜欢。\r\n§b§n宇航兔:看上去是玩偶，其实是一件非常重要的宝物，\r\n§b§n即使在平行宇宙也能和月之国通信。在关键时刻，\r\n§b§n可以保护持有者不受伤害，这个形象在月之国非常受欢迎。\r\n§l未经允许请勿商用"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "§b青海摇",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "§d好梦歌"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "模型配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          },
+          {
+            "type": "checkbox",
+            "title": "§e[剑外观]§a光明与黑暗",
+            "description": "切换",
+            "value": "v.sword"
+          },
+          {
+            "type": "checkbox",
+            "title": "§e[换装§c(赞助解锁)]§d礼服披风",
+            "description": "切换",
+            "value": ""
+          },
+          {
+            "type": "checkbox",
+            "title": "§e[换装§c(赞助解锁)]§5丝袜",
+            "description": "切换",
+            "value": ""
+          },
+          {
+            "type": "radio",
+            "title": "表情切换",
+            "description": "试试效果",
+            "value": "v.type",
+            "labels": {
+              "§a正常": "v.type=0;",
+              "§d爱如火~": "v.type=1;"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "分类1",
+        "extra_animation": {
+          "extra0": "动画1",
+          "extra1": "动画2",
+          "extra2": "动画3",
+          "extra3": "动画4"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/butterflyreine.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Vtuber_Lan-Yin-Reine_ButterflyDress_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 22081,
+      "sha256": "5331ce8b18eafc17afbcaa6532b5dcf074ccfd49e9808281e6806e32e2c488b9"
+    }
+  },
+  "stats": {
+    "file_count": 25,
+    "total_bytes": 15844415,
+    "sha256": "ba00057249bbc407234ae56ceacb7247cce6d9f5d7aebca722881ca4f1fff266",
+    "bones": 536,
+    "cubes": 3293,
+    "faces": 19592,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 621764,
+      "sha256": "e2dc7dec5e687769afb84dc189e170fa6796d273190b2a947d8442c788d0f4de"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2933,
+      "sha256": "dfc861884045f0d1e82bb63e722199313f41f11f9b704c96973e90dcde75e249"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 4605352,
+      "sha256": "475a85f8cc8b12557ce9086da59fc41a7da3778ab3c5d89de10d9f16e8659752"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 315092,
+      "sha256": "42533b7fdb319bede93c9a3cbbe9cfa6d7324b5a079395bde0c89a0d8394adab"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1512008,
+      "sha256": "ead4a0f842d6085514757e59994407231707b7aecc73cc16e52181c23fb9d36d"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 187773,
+      "sha256": "e8ce1a4a5a5ef715760eacf4264b9339874d72972bd943f3b4f4dc09a48f66b1"
+    },
+    {
+      "path": "avatar/§d兰音Reine.png",
+      "size": 1299255,
+      "sha256": "dea74d764d2727e4d23a86d5bd9d77e351767d6aa7860263b3fe88a0de523d24"
+    },
+    {
+      "path": "avatar/§d古巷柠檬.png",
+      "size": 570991,
+      "sha256": "3962f1d2231d8d63cb91e5dcba77ef076dd51e6194fa33a3e1be29ccf62db692"
+    },
+    {
+      "path": "avatar/§d瀛猫.png",
+      "size": 177987,
+      "sha256": "58b0c3d0e642622bb904ae34ffaa4bd11526280e80d5d5f92323612f54f796d9"
+    },
+    {
+      "path": "avatar/烟雨画桥.png",
+      "size": 36436,
+      "sha256": "378b13eb21c05a10fe8be12b484abfbe033ecbb76fddf79f5785d4cd147735a1"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 3145,
+      "sha256": "884bbbb0da4af3e2be20b306aa3cfa9474ab5c0b7ee053dbf6081c5e659eba44"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 119944,
+      "sha256": "4eecf803df57916ea3746516bd423789d5b188d90d01c34cb2e517fd69ac36ed"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 4001,
+      "sha256": "dd0d5d2be1dbd9061b9cf79170a517699b298a4f70792b79e3a61af75bd50f8c"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1856459,
+      "sha256": "827c13e65321b27ecb3bb22053120a66ddc2953f0e84e8ad388bd047a17b50df"
+    },
+    {
+      "path": "sounds/hmg.ogg",
+      "size": 2211491,
+      "sha256": "3c97d0f994bf669ea2dc6a71c34dacc1b77ac39672fc1ef1d29ffb0f36657367"
+    },
+    {
+      "path": "sounds/jc.ogg",
+      "size": 10412,
+      "sha256": "72287892280fa3269b183d3636d7bb27220356f38b672a4affe7ae029d3cebda"
+    },
+    {
+      "path": "sounds/jiaochuan.ogg",
+      "size": 315131,
+      "sha256": "76ba5b33700e7d2c21ef2a5751e91957f17e1b6f97a829c79caea005552b9dda"
+    },
+    {
+      "path": "sounds/sajiao.ogg",
+      "size": 100912,
+      "sha256": "f6136a56728f4cf0d91dbafdab7e5ad6c35a8fb9c3ecd4f0c00ce72d37f495f4"
+    },
+    {
+      "path": "sounds/xiaotiqing.ogg",
+      "size": 435807,
+      "sha256": "3d20915a29ac8836471f416e0f66b16a74cb5e013e6e0b6eae06f53f05ed6549"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1378,
+      "sha256": "1e84baa283648eb1d641e38f7e99acc1bd9a086a48adb3728c6e70c758a637b3"
+    },
+    {
+      "path": "textures/butterflyreine.png",
+      "size": 1279634,
+      "sha256": "3b7b9a92328becb44a245991ff01a59e2da320c04a0aaba4d162c7d968afc7a0"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3582,
+      "sha256": "04d0d4663139ea2d995782c66e3922b21a47ae1b4ae389a2a46f63ff58271e8c"
+    }
+  ]
+}

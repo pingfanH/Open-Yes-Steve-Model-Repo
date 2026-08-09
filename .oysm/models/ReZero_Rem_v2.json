@@ -1,0 +1,130 @@
+{
+  "id": "ReZero_Rem_v2",
+  "path": "parsed/ReZero_Rem_v2",
+  "source": {
+    "path": "_ReZero/ReZero_Rem_v2.ysm",
+    "type": "ysm",
+    "stem": "ReZero_Rem_v2"
+  },
+  "ysm": null,
+  "metadata": {
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [],
+    "name": "ReZero_Rem_v2"
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "arrow.png",
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "arrow": "arrow.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/ReZero_Rem_v2_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6514,
+      "sha256": "15b932e0cb08e52867aa7dfd1cdc88d5ae5fbb47afc1563145680420586f5b71"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 877311,
+    "sha256": "8ab710ef3de813d561b44cf0b2507c2f6adde9dbe73c20e8fbe537371d416ba4",
+    "bones": 135,
+    "cubes": 832,
+    "faces": 4992,
+    "textures": 2,
+    "materials": 2,
+    "animations": 6,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 120190,
+      "sha256": "a040f40842fc4fbb21d7afbc43e59a382be52779dbfd48935c86984d343e46a0"
+    },
+    {
+      "path": "arm.json",
+      "size": 19374,
+      "sha256": "9f756d608413a7d24c29d8809a7efe6091920987ca1b409e1d02b2512cab2f44"
+    },
+    {
+      "path": "arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 2873,
+      "sha256": "406039fac63d7e1fcb6f09707e399b65f6880fb200d409ac337484c31b21e6cf"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 6135,
+      "sha256": "b886d1612e013864f9eaebfc8e134b08f4f940998e5462dfc04d72fc87736b57"
+    },
+    {
+      "path": "info.json",
+      "size": 191,
+      "sha256": "4a147c5694fb292a8d3a2ce88069a6ce82af818fbcd0161525b5cf94d05e905d"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 135245,
+      "sha256": "1b0d8f0a8e4d5e01eca4766910f30ba3cdf1645e4af47f6a0510cd9c5fabbe1b"
+    },
+    {
+      "path": "main.json",
+      "size": 436968,
+      "sha256": "2bd0572ea3a5609a346467406527bc5b61278178f2156b5d36d436b026b9ec49"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "texture.png",
+      "size": 14580,
+      "sha256": "68286e25bc8c908ae8f2c65148f9e0939b5064f5ce1baa2ea0fb8eb41f24ff9c"
+    }
+  ]
+}

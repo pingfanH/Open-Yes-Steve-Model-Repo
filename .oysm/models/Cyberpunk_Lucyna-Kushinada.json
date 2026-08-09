@@ -1,0 +1,78 @@
+{
+  "id": "Cyberpunk_Lucyna-Kushinada",
+  "path": "parsed/Cyberpunk_Lucyna-Kushinada",
+  "source": {
+    "path": "_Cyberpunk2077/Cyberpunk_Lucyna-Kushinada.ysm",
+    "type": "ysm",
+    "stem": "Cyberpunk_Lucyna-Kushinada"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Cyberpunk_Lucyna-Kushinada"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Cyberpunk_Lucyna-Kushinada_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11897,
+      "sha256": "801352b68cbedc1d9bd809c89391098c5e51b20e7e888b403cd38ad998140f63"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 702414,
+    "sha256": "fe14d3a6b77f10110f61574bef2b3fd019cf528a47633a3015834ee88e79e24d",
+    "bones": 143,
+    "cubes": 644,
+    "faces": 3864,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 32559,
+      "sha256": "0133b9dfa44c98a6ff7623a58a5570e58f7ee98af883b4d9eb11b53e8b7d3fd6"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 236625,
+      "sha256": "b5840d68fff6d823d5274914d0b7241c906180fdc665745211af095ca3067c7f"
+    },
+    {
+      "path": "main.json",
+      "size": 333072,
+      "sha256": "77dc7e0e288c5064b3de664df80088c91d4389ae294e8811a3356d296816fa3f"
+    },
+    {
+      "path": "texture.png",
+      "size": 100158,
+      "sha256": "8e4c6dbd0436ff864cad27bfaf6c7a4cb26f9c0646190e92595254c8f3274691"
+    }
+  ]
+}

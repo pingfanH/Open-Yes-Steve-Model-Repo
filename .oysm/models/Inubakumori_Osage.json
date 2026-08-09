@@ -1,0 +1,84 @@
+{
+  "id": "Inubakumori_Osage",
+  "path": "parsed/Inubakumori_Osage",
+  "source": {
+    "path": "_Inubakumori/Inubakumori_Osage.zip",
+    "type": "zip",
+    "stem": "Inubakumori_Osage"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Inubakumori_Osage"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Inubakumori_Osage_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4521,
+      "sha256": "0d50d268827f2b45e7e30938a6be32d85401e531c3ce05b697a0885a18ed73f5"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 563781,
+    "sha256": "ebf592bfa823378ac52c3c56f1f98c4ed2939da3a4de3d81f358e43d6a104c5b",
+    "bones": 57,
+    "cubes": 120,
+    "faces": 720,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 51070,
+      "sha256": "e8b4a6d8ebdd57bdb01427bd99afe6adcf7704723153572015b56852f551293b"
+    },
+    {
+      "path": "arm.json",
+      "size": 1850,
+      "sha256": "9868a3bafffbbe79aed3c3749b89c65e23e808fe28c206b393052269aa96977f"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 489476,
+      "sha256": "12b9daa7d0da10e34d091b726ee5625d6e9dbc1f486a69f6fe6640ea73ddab84"
+    },
+    {
+      "path": "main.json",
+      "size": 15182,
+      "sha256": "67a9dab90405f953f0fd6340f599bccf149b5b6da4cfc85ecaa421ba57debb82"
+    },
+    {
+      "path": "texture.png",
+      "size": 6203,
+      "sha256": "6921a7b3a36edbff069245c3902b8bd0fea25b8b8ec8c4105507b4bb8ae309eb"
+    }
+  ]
+}

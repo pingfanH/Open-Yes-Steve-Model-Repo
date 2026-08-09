@@ -1,0 +1,268 @@
+{
+  "id": "Nilcat_Philorty",
+  "path": "parsed/Nilcat_Philorty",
+  "source": {
+    "path": "_Nilcat/Nilcat_Philorty.ysm",
+    "type": "ysm",
+    "stem": "Nilcat_Philorty"
+  },
+  "ysm": "parsed/Nilcat_Philorty/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/A_suuuuuuuuu.png",
+        "comment": "苦比高中生，没空,jpg",
+        "contact": {
+          "Afdian": "阿苏不是提拉米苏",
+          "Bilibili": "A_su杏仁"
+        },
+        "name": "A_suuuuuuuuu",
+        "role": "模型及部分动画"
+      },
+      {
+        "avatar": "avatar/MicroCraft.png",
+        "comment": "特别鸣谢.jpg",
+        "contact": {
+          "Bilibili": "MicroCraft"
+        },
+        "name": "MicroCraft",
+        "role": "部分动画，物理"
+      },
+      {
+        "avatar": "avatar/IAmNotFood.png",
+        "comment": "单主大大w",
+        "contact": {
+          "Bilibili": "IAmNotFood"
+        },
+        "name": "IAmNotFood",
+        "role": "设主"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY,CC BY-ND"
+    },
+    "name": "菲洛尔缇",
+    "tips": "不知道为什么穿上了女仆装的魔女猫猫。一天中有28%的时间在腾空，也常常赶在被熟人发现前从咖啡馆的工位上溜之大吉。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#example_config",
+      "extra1": "挥手",
+      "extra2": "（鼓掌",
+      "extra3": "（表肯定",
+      "extra4": "（不彳亍",
+      "extra5": "好耶！（？",
+      "extra6": "AWSL",
+      "extra7": "没做（待定",
+      "extra8": "",
+      "extra9": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "example_config",
+        "name": "模型配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "模型大小: ",
+            "description": "玩家模型的大小",
+            "value": "v.model_scale",
+            "step": 0.1,
+            "min": 0.5,
+            "max": 2.0
+          },
+          {
+            "type": "checkbox",
+            "title": "强制显示帽子开关",
+            "description": "无视是否穿戴盔甲强制显示帽子",
+            "value": "v.roaming.helmet"
+          },
+          {
+            "type": "checkbox",
+            "title": "强制显示背后法杖开关",
+            "description": "无视是否穿戴盔甲强制显示法杖",
+            "value": "v.roaming.chestplate"
+          },
+          {
+            "type": "radio",
+            "title": "强制显示袜子开关",
+            "description": "无视盔甲强制显示所选袜子",
+            "value": "v.value_radio",
+            "labels": {
+              "关闭": "v.value_radio = 0; v.roaming.leggings = 0;",
+              "白袜": "v.value_radio = 1; v.roaming.leggings = 1;v.roaming.sock = 0;",
+              "黑袜": "v.value_radio = 2; v.roaming.leggings = 1;v.roaming.sock = 1;"
+            }
+          },
+          {
+            "type": "checkbox",
+            "title": "强制显示鞋子开关",
+            "description": "无视是否穿戴盔甲强制显示鞋子",
+            "value": "v.roaming.boots"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "hud",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/main.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Nilcat_Philorty_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 17123,
+      "sha256": "3672417cbc97c8340411aded557f80091110239908e87dd2d0e2c7153010bf16"
+    }
+  },
+  "stats": {
+    "file_count": 18,
+    "total_bytes": 3601629,
+    "sha256": "0aea5fca1804f15e3db707d28d3069b36c777af9840cae8b89709a2bf6c5e9bb",
+    "bones": 604,
+    "cubes": 2058,
+    "faces": 12348,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 179752,
+      "sha256": "22a85d7a2fe16562a4b32c018092ed1ad8887c14c4d11d9cee85fb82f119ac7b"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2851,
+      "sha256": "7725332619f39a529dcbf74a51bb92ff1fbe56abf23afcc163df73c240109109"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 25119,
+      "sha256": "710afaecfa5f9cfdc41d12e0355cab4f4f9cc5594be511304a3c90f637d8e3e2"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 220697,
+      "sha256": "520ef19f240f320283437ece50ad6cdd17a0cad1a8c4a498fd9cd349ad7be3cd"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 134042,
+      "sha256": "90352525d3048a25d60df03acbf5394e1312bd3fc2a3745f594fe4c532fc04cc"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1505299,
+      "sha256": "2cfe596c36beecaa1688b55951b4272e660c066078bb5d95b20240a32a3a20da"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 164904,
+      "sha256": "f9991e09d66d71ca90d32f1aad166b6f1f1d630488e6b12c0aa404ae053b457d"
+    },
+    {
+      "path": "avatar/A_suuuuuuuuu.png",
+      "size": 31794,
+      "sha256": "11f12e301df74968cca2c519dcc70de908e1d36d8708371e3bae565481e86d8d"
+    },
+    {
+      "path": "avatar/IAmNotFood.png",
+      "size": 37611,
+      "sha256": "1ebf678311ccc553e7526ccb363f6ccc6d47f06f496d83c75db0c58e9be70e64"
+    },
+    {
+      "path": "avatar/MicroCraft.png",
+      "size": 33793,
+      "sha256": "58fa1555f4e636178593ea7268d3f94e68b5ac40164e0279a04f590e691bb9d2"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 63524,
+      "sha256": "e41fbce06fed4cb6419c0656fa4558cac1c4d4b142cc43d5595cc2c0561cfc92"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 3949,
+      "sha256": "43f77c4f57d1c1e5d1759aafaa40334be7a82fcdf42bc2f3a609de675ea514ad"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1116722,
+      "sha256": "ce5f8755d91a6166a05651c24553537b9d428109659649e7dc67478c3caa6251"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 536,
+      "sha256": "f64138418dba3490043a016503e3c96df683af425fbe90023ff8efb4e98c175d"
+    },
+    {
+      "path": "textures/main.png",
+      "size": 37870,
+      "sha256": "773e8c2b9c2ad943a8df3bad1b5c828d202d8d64a8d943831c05c2c8961fbec8"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2849,
+      "sha256": "3398f22583eeb9561f13466447fcdfee530017a02c0f469d60169a8ad045a7b7"
+    }
+  ]
+}

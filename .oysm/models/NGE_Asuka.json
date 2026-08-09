@@ -1,0 +1,164 @@
+{
+  "id": "NGE_Asuka",
+  "path": "parsed/NGE_Asuka",
+  "source": {
+    "path": "_NeonGenesisEvangelion/NGE_Asuka.ysm",
+    "type": "ysm",
+    "stem": "NGE_Asuka"
+  },
+  "ysm": "parsed/NGE_Asuka/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/烛火的次元宇宙.png",
+        "comment": "还在成长的MC/YSM模型作者",
+        "contact": {
+          "Afdian": "",
+          "Bilibili": "https://space.bilibili.com/57715833?spm_id_from=333.1007.0.0"
+        },
+        "name": "烛火的次元宇宙",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "",
+      "home": "https://space.bilibili.com/57715833?spm_id_from=333.1007.0.0"
+    },
+    "name": "校服明日香",
+    "tips": ""
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "poss1",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "yes",
+      "extra4": "no",
+      "extra5": "poss2",
+      "extra6": "poss3",
+      "extra7": ""
+    },
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/mrx.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/NGE_Asuka_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 1747,
+      "sha256": "88e6d1984502d96fa536a2152c566a12a4ec182e13d39a801280fb33e00ecd64"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 1864337,
+    "sha256": "482076f9aca024e984609a6e47d5d8f9a54b51efd81968b220a701b73b058e5a",
+    "bones": 93,
+    "cubes": 1001,
+    "faces": 6006,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 138197,
+      "sha256": "6cf0461137022b45df49572b1304b67139be2fe08557e7b5411971e563c46c92"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3369,
+      "sha256": "ec612f3a0c28d9f4f174e77334ad383745c5035695becb14d3453c13d6584df0"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 99711,
+      "sha256": "02b3eb75ae0be3b83084fab935293d388e06a2376fd6d9efb298b04690856a95"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 239522,
+      "sha256": "8c67587fe7f6a4dcd7cb11cbab287f0f3e687dd0d6dd770038c0a0fc92dd8e4c"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 133823,
+      "sha256": "777e6ec4e201b0edcf7af6b3836495bf6609ace5da03f7e38f68b7e13b9c3d1d"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 40419,
+      "sha256": "2321891b1091f0b314916f013e07f7d0c4569929ea7c5bd3cac69d458975f63c"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 212321,
+      "sha256": "a34c1d4e8d74ea9c0da94dff75ded74805d89369ba5b9f6aad81d8e3ff7cfe56"
+    },
+    {
+      "path": "avatar/烛火的次元宇宙.png",
+      "size": 218805,
+      "sha256": "03a5875e2cc3ae2adb79931bef6dd43fca33bf18f7e4abb7f19cef29a4e76a1c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 44717,
+      "sha256": "09502974e3e22ed0f15e04c3a1f6d6982462ae1d5faab1e6ab553b775685f6b9"
+    },
+    {
+      "path": "models/main.json",
+      "size": 519283,
+      "sha256": "39904f1e3982b493e73c1bd97275044c6d625064f74a2c02608318d2b1272d88"
+    },
+    {
+      "path": "textures/mrx.png",
+      "size": 213006,
+      "sha256": "1d98b49d5da9675408c96ae22bfb6bd33122899e7e2d3f94c24cf13a4aecd469"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1164,
+      "sha256": "09f274cf959441ac67da29265c440e0155c4b5979ad9f1b6e40341f470e1a9a8"
+    }
+  ]
+}

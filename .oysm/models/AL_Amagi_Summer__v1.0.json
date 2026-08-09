@@ -1,0 +1,78 @@
+{
+  "id": "AL_Amagi(Summer)_v1.0",
+  "path": "parsed/AL_Amagi(Summer)_v1.0",
+  "source": {
+    "path": "_AzurLane/AL_Amagi(Summer)_v1.0.ysm",
+    "type": "ysm",
+    "stem": "AL_Amagi(Summer)_v1.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "AL_Amagi(Summer)_v1.0"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/AL_Amagi_Summer__v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10726,
+      "sha256": "ae55c1a6963de870431147e653832ad013dfbde92e16a2a473856fefc2fecb8f"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 491318,
+    "sha256": "fb8e4ce831c9190f781e67226da5de0078e60e64c7a034c0c6b31e54d5bc5659",
+    "bones": 118,
+    "cubes": 350,
+    "faces": 2100,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 4746,
+      "sha256": "d9ef9aa17e47151db416477accaf077e43ee429b3a74c638a6e2f0ae96e2cf8b"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 396434,
+      "sha256": "ab8f0dc415aa01304106d5d0711bc9cc08bad538e3ade19e7fc0915a5335310e"
+    },
+    {
+      "path": "main.json",
+      "size": 62807,
+      "sha256": "f64df20a9b4674b0f606655a99cdc5ee4e82f0eec4f0e3f640d35d5f81ddb373"
+    },
+    {
+      "path": "texture.png",
+      "size": 27331,
+      "sha256": "7f1d47e69cc9346a7f1575f0984cfa3234f7fb3560ac55509506bc94e8413b72"
+    }
+  ]
+}

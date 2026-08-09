@@ -1,0 +1,99 @@
+{
+  "id": "CnCGZH_Red-Guard",
+  "path": "parsed/CnCGZH_Red-Guard",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCGZH_Red-Guard.ysm",
+    "type": "ysm",
+    "stem": "CnCGZH_Red-Guard"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "赤卫队",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCGZH_Red-Guard_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5863,
+      "sha256": "ff7a3c6712f555f16522b5bdbfb03a81c329ab3ef07aa97e6b9f9ec31016bdfa"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 353596,
+    "sha256": "5e20363da832fd6f7d63ced692c4386b1b33555bbe217ad35744ea42bce2e76d",
+    "bones": 41,
+    "cubes": 158,
+    "faces": 948,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 8773,
+      "sha256": "fc00a68db7746c53ff9dc658e861466a3e8c5d45142689370fe360e0cf82be74"
+    },
+    {
+      "path": "info.json",
+      "size": 127,
+      "sha256": "77e3f0421eae0750ee217419d4037e22dc0b285558969a4c23ae71bcee1e431d"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122470,
+      "sha256": "d93402d24863ccd84622801424bb845d8ff78161fae9d48b7bbf0c3d213720c1"
+    },
+    {
+      "path": "main.json",
+      "size": 72343,
+      "sha256": "aeb5aad6ddc7850ce3a80341c65381ccc1de215180567dfd4fa36810780becfc"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131639,
+      "sha256": "a73cf95259743cc506fa6931e6bed68e0e41c5edca8f4651f26f1a42c1e26994"
+    },
+    {
+      "path": "texture.png",
+      "size": 18244,
+      "sha256": "e96ebfd34b47ddf7d990f486382addf6817ecaf5c6ecbdd6d025349e3e441eed"
+    }
+  ]
+}

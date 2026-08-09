@@ -1,0 +1,193 @@
+{
+  "id": "ZZZ_Soldier-11",
+  "path": "parsed/ZZZ_Soldier-11",
+  "source": {
+    "path": "_ZenlessZoneZero/ZZZ_Soldier-11.ysm",
+    "type": "ysm",
+    "stem": "ZZZ_Soldier-11"
+  },
+  "ysm": "parsed/ZZZ_Soldier-11/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/安欣.png",
+        "comment": "没有梦想的咸鱼      罒ω罒",
+        "contact": {
+          "Afdian": "",
+          "Bilibili": ""
+        },
+        "name": "安欣",
+        "role": "模型，动画"
+      },
+      {
+        "avatar": "avatar/.png",
+        "comment": "",
+        "name": "",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "11号",
+    "tips": "「11号」是新艾利都防卫军的成员。\r\n\r\n现属于黑曜石营中奥波勒斯小队，担任主攻手。「11号」是她在军队中的代号，真名不详。\r\n\r\n「名字？我早就已经将它舍弃了。那会让我想起过去，而『过去』总是令人软弱。」\r\n"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "texture",
+    "preview_animation": "mao",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/ZZZ_Soldier-11_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 25685,
+      "sha256": "ecb50d3d5fa31cc8a1573be2a80a7834468934c95341260a176605ad1482e0ea"
+    }
+  },
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 1907496,
+    "sha256": "f2f6eb3e0ba4b1c54fb2e3b516184dd529e566b59bafc26e57b84f62f41047a5",
+    "bones": 214,
+    "cubes": 1490,
+    "faces": 8940,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136912,
+      "sha256": "1ca77b77de53d8dbb55912ab0709e2ff48309069532095ea38a756a7b3519c09"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1138,
+      "sha256": "6ef6791b2b391fc30bb2f74f26eb09de94e2a382c535202f5d736eb89d37577d"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "6e8d3afe0c3baafff8f7f3e0e30ef3c621c667be5c346af73398f5fd3cb89ca5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 123165,
+      "sha256": "0a5d3f9c0562cc4d4032464fa5a4f9c4d80d0d7a218e780240d04c0b276f8c9a"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 200472,
+      "sha256": "8e2a7a5e49ff4df8d00b02aa71d7425ceed9e3643ca96f2b482753102408f414"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183504,
+      "sha256": "fa168cce1a5787fe4986384fa2110cd509e8609696b9a9515d9d2c7438fe260a"
+    },
+    {
+      "path": "avatar/安欣.png",
+      "size": 32037,
+      "sha256": "3d8df561b1abb777882abf3b10c44731c6faa676b485d1dcaed5939742b293c0"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 44550,
+      "sha256": "42dfcd59afe7601740f62b22358972c42479ca9860df7da423c855c6cb767bdf"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 29337,
+      "sha256": "8e061e6ff0efaff35eedcc946de525efb205ebfb1b76e5acf2b1d3a0f5720bd3"
+    },
+    {
+      "path": "models/main.json",
+      "size": 752433,
+      "sha256": "526cb7e9ed21a0e06f8cd83a7d5b960f2283a2c9e67fe0f9824d59229b0b6330"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 4106,
+      "sha256": "3f6588bc49d6ccb91f5cc5bc107fa9644184aa7b929c6d53620124c417af0de4"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 223020,
+      "sha256": "b22a23859ce72b23b7914fb9b355120f547f4a41c44d90879f7ac97f5c9a63d2"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1554,
+      "sha256": "f8dfe37583990a8cf48acc5430768662114e73a3c69a30491da0d373f782f64f"
+    }
+  ]
+}

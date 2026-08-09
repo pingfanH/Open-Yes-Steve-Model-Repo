@@ -1,0 +1,78 @@
+{
+  "id": "Vocaloid_Miku_0",
+  "path": "parsed/Vocaloid_Miku_0",
+  "source": {
+    "path": "_Vocaloid-UTAU/Vocaloid_Miku_0.ysm",
+    "type": "ysm",
+    "stem": "Vocaloid_Miku_0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Vocaloid_Miku_0"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Vocaloid_Miku_0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 17266,
+      "sha256": "224320cc2ad9134e6b590e20e784eda9dcc2d6aa3b6a3f43126bbce241c670ea"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 318115,
+    "sha256": "1f6e1fca20f3347b2196e9fd436a8f798e5a3cb1be259ddcd4511b8914852022",
+    "bones": 186,
+    "cubes": 771,
+    "faces": 4626,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 12215,
+      "sha256": "8127fcd0af0d8d3c4129e1d73579c2c8898b3c4f3c50fab95a496aa9d9cd7e8d"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 145385,
+      "sha256": "75d5a44f5a654bb1232c1f6dcce46c281032a08d0f92f8bb7699249cbf55d24e"
+    },
+    {
+      "path": "main.json",
+      "size": 148119,
+      "sha256": "883dde225984427c2b2a695557aaf1ea275810b4aede70ba8c0260b8a8c26a23"
+    },
+    {
+      "path": "texture.png",
+      "size": 12396,
+      "sha256": "af81e634f59f6329bdfb407171fb0f00be8a70081072c12161c194d7726985ed"
+    }
+  ]
+}

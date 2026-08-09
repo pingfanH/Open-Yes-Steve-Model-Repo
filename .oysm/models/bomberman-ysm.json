@@ -1,0 +1,198 @@
+{
+  "id": "bomberman-ysm",
+  "path": "parsed/bomberman-ysm",
+  "source": {
+    "path": "Unknown/bomberman-ysm.zip",
+    "type": "zip",
+    "stem": "bomberman-ysm"
+  },
+  "ysm": "parsed/bomberman-ysm/ysm.json",
+  "metadata": {
+    "name": "Bomberman",
+    "tips": "Bomberman",
+    "license": {
+      "type": "All Rights Reserved"
+    },
+    "authors": [
+      {
+        "name": "C0bbo",
+        "avatar": "avatar/image01.png",
+        "role": "Artist",
+        "contact": {
+          "Carrd": "https://c0b.carrd.co"
+        }
+      },
+      {
+        "name": "Welfare Waifu",
+        "avatar": "avatar/welfare waifu.png",
+        "role": "Cleanup and Animator",
+        "contact": {
+          "Other YSM": "https://www.planetminecraft.com/member/welfarexwaifu",
+          "Twitter": "https://x.com/WelfarexWaifu",
+          "Youtube": "https://www.youtube.com/@WelfareWaifu"
+        }
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "height_scale": 0.4,
+    "width_scale": 0.4,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "#extra_classify": "Extra Classify"
+    },
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "Simple Config",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3
+          }
+        ]
+      }
+    ],
+    "preview_animation": "idle",
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true,
+    "disable_preview_rotation": false,
+    "all_cutout": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json"
+      },
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/BOMBERMAN TEXTURES.png"
+        }
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": {
+        "uv": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/bomberman-ysm_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4647,
+      "sha256": "2f59a189a3a5c078c0abcea023ed383dc8c10eeaf0af358d6266e7b629ab6d5f"
+    }
+  },
+  "stats": {
+    "file_count": 11,
+    "total_bytes": 206486,
+    "sha256": "935c131438cd431d32ab2b7f7a1d45a3ed78073001db9fbd0ddf0d7e2a0a3ec7",
+    "bones": 55,
+    "cubes": 88,
+    "faces": 528,
+    "textures": 2,
+    "materials": 2,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 695,
+      "sha256": "cd2be5d42efea2613f8fbe541e3c8600c0d1edb11051924675bdc2f7955d24d5"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 91172,
+      "sha256": "0647e998677cc8aaf9e92e9df3a8efbc4c6e81d3568b5d40dba59390946646e8"
+    },
+    {
+      "path": "avatar/image01.png",
+      "size": 23662,
+      "sha256": "f3330fc57f0c706d9fa0e20d9e8dac3ba854716219325fdf7d8962b4d06ad954"
+    },
+    {
+      "path": "avatar/welfare waifu.png",
+      "size": 6707,
+      "sha256": "23e4a3d9b8b52bf0ce547fc4e3d6095daf55611aa9695372b5becff1beb5f10c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 6846,
+      "sha256": "460ce7002db17a2652390ee5e443ebd22c3fce8ce83fbb9250097835ecb29cd4"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 18733,
+      "sha256": "1070aa5589ae3df1c5abf95a40f9de47ce2ca1df6b234ddbea96f568d1829c7a"
+    },
+    {
+      "path": "models/main.json",
+      "size": 44027,
+      "sha256": "e4c462ac78dcfd1106447bcefe41eace6eac4907537c5bff8b28ab57c6186814"
+    },
+    {
+      "path": "textures/BOMBERMAN TEXTURES.png",
+      "size": 5643,
+      "sha256": "3f7f9aa195ba6d0a753b2a57f08ba0ae66937395ab89eaffa19d0ac1cc21c8cf"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1213,
+      "sha256": "0ecda6c1557cf3571289a3212c93e125d8b075cc37ac62f14dad852d83a576ec"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 5625,
+      "sha256": "0bfde129b4deacc7542b9eb52df14bb1878f63e03375ca351687c4365c09d638"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2163,
+      "sha256": "849b99bca990005a404d18ab192150b045bbfbb3eada2bdb2d566e90d4079cc6"
+    }
+  ]
+}

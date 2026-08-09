@@ -1,0 +1,84 @@
+{
+  "id": "Meme_Bananacat",
+  "path": "parsed/Meme_Bananacat",
+  "source": {
+    "path": "_Meme/Meme_Bananacat.zip",
+    "type": "zip",
+    "stem": "Meme_Bananacat"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Meme_Bananacat"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Meme_Bananacat_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4622,
+      "sha256": "1a1ab402d5bc49103b868fc5fea6bd978e87a696a13694ff190a75a0f944cf90"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 264330,
+    "sha256": "392e1e74e472d8e9d690c0afc946d767c44e884c2d527fa7cc7756c85ce02d78",
+    "bones": 30,
+    "cubes": 36,
+    "faces": 216,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 2170,
+      "sha256": "155d8043a1b8f8d0d8ce37bcf96a248cb0cc86134328210b99dc27c2b8156a39"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 130978,
+      "sha256": "37f438640619374e0863fda47763f5c8917593aae8f6a7aa0ff90aa637564e83"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 103100,
+      "sha256": "6fa461ea11638079a046024bbbd3608edad575190c73708205f77c1f91c52cfd"
+    },
+    {
+      "path": "main.json",
+      "size": 20279,
+      "sha256": "7b6ffe57689e4d24ad049fe101416974c848bb8702aa1d544fe59ee93eaeb596"
+    },
+    {
+      "path": "texture.png",
+      "size": 7803,
+      "sha256": "ff09e6bd78ec9d920e2939d682268a63f3023eb7dc373929e9cb00b267873ebf"
+    }
+  ]
+}

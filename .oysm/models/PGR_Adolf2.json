@@ -1,0 +1,129 @@
+{
+  "id": "PGR_Adolf2",
+  "path": "parsed/PGR_Adolf2",
+  "source": {
+    "path": "_PunishingGrayRaven/PGR_Adolf2.ysm",
+    "type": "ysm",
+    "stem": "PGR_Adolf2"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Adolf 2.0",
+    "tips": "Punishing gray raven - Check out my other models at PMC!",
+    "license": {
+      "type": "CC BY-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "NekuroMC"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "arrow.png",
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/PGR_Adolf2_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6264,
+      "sha256": "1daa88743af22e4d41f358ad96c57fa220374fb8ae0505e828ab656f7bd706a8"
+    }
+  },
+  "stats": {
+    "file_count": 11,
+    "total_bytes": 845983,
+    "sha256": "c9f2525ba2c7b593967fb7c6a4c5037bb9669553441da2ec63fc46bcbe2ea89c",
+    "bones": 128,
+    "cubes": 440,
+    "faces": 2640,
+    "textures": 2,
+    "materials": 2,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 121795,
+      "sha256": "fe509bd4aa81a2f23b3f8999f27e8ee34cc6ca83e462fb0558c12b3b285877b2"
+    },
+    {
+      "path": "arm.json",
+      "size": 9537,
+      "sha256": "f849a5e0c771b954eb5b842f72ec581f21ed362191b61f6f8d100cb1752d7307"
+    },
+    {
+      "path": "arrow.json",
+      "size": 6671,
+      "sha256": "a97d06ff0b6172ebdd18478fd643039418c577998b8faa973bbb0e77196dd15b"
+    },
+    {
+      "path": "arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 123165,
+      "sha256": "0a5d3f9c0562cc4d4032464fa5a4f9c4d80d0d7a218e780240d04c0b276f8c9a"
+    },
+    {
+      "path": "info.json",
+      "size": 174,
+      "sha256": "2ab61a06f97b6a5f3be275fca89b72980bda18357bc82e815091d0d6c0125bfe"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 145179,
+      "sha256": "ffc4f053a97751ba0a6a7e249cd09233d11031d21fd94fb8eace4451e3402ee5"
+    },
+    {
+      "path": "main.json",
+      "size": 236076,
+      "sha256": "bc64fb6756f6c13c5a4aacc5153de75c7a18e6d12e95851db6b520c883e08851"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "texture.png",
+      "size": 65946,
+      "sha256": "3164e3796953b0162ca1d07324497b8236e24ecc34f2d51b0cbd6b601eacfc91"
+    }
+  ]
+}

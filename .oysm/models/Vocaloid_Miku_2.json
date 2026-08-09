@@ -1,0 +1,93 @@
+{
+  "id": "Vocaloid_Miku_2",
+  "path": "parsed/Vocaloid_Miku_2",
+  "source": {
+    "path": "_Vocaloid-UTAU/Vocaloid_Miku_2.ysm",
+    "type": "ysm",
+    "stem": "Vocaloid_Miku_2"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "休闲服初音",
+    "tips": "穿戴头盔戴眼镜------铁护腿是白丝，下界合金护腿是黑丝-----------铁靴是泡泡袜，下界合金靴是小皮鞋",
+    "authors": [
+      {
+        "name": "祸御神"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "mikuu.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Vocaloid_Miku_2_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8364,
+      "sha256": "8b5974c49d7dfc69c6af35ebaef22ceab68e8d10be5b30744e8d2319e001b015"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 660798,
+    "sha256": "59a73314e0ea313bddb28b2fc6fcc0f20a9e944b74c20ffd932192d6c6f01f33",
+    "bones": 133,
+    "cubes": 823,
+    "faces": 4938,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 32387,
+      "sha256": "1c2e73fdd741c19a20b6c53db519ea686fc2fb7cfdffcbce6fd52e243a553293"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 9967,
+      "sha256": "a3726edd6d966633f145bd2bd62f5484287cc1b42c1120439969bdbeddf7d705"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 208438,
+      "sha256": "fef533a7335f6132fcd538e6c461aa91ef99364cb6321b0af6745589ff061b94"
+    },
+    {
+      "path": "main.json",
+      "size": 392792,
+      "sha256": "539f2bef0ab3eb13b308cc056fe8278b88d1eff69cf0449e51a7ea873b8a26c0"
+    },
+    {
+      "path": "mikuu.png",
+      "size": 17214,
+      "sha256": "ebde6dce656c213791a5c51537ef3fd0dc7f5d1e6251db79923c3d28e687c8d9"
+    }
+  ]
+}

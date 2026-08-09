@@ -1,0 +1,173 @@
+{
+  "id": "BA_Shiroko",
+  "path": "parsed/BA_Shiroko",
+  "source": {
+    "path": "_BlueArchive/BA_Shiroko.ysm",
+    "type": "ysm",
+    "stem": "BA_Shiroko"
+  },
+  "ysm": "parsed/BA_Shiroko/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/Cc-纸盒_纸盒ALiFang.png",
+        "comment": "鸽子作者",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/1494015242"
+        },
+        "name": "Cc-纸盒/纸盒ALiFang",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.net/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "砂狼白子",
+    "tips": "阿拜多斯高等学校所属，热爱运动的阿拜多斯对策委员会突击队长。由于平时说话较少且几乎没什么表情变化，她也会给人留下冷漠的印象；但她实际上是一位比谁都更珍视阿拜多斯高等学校的少女。她为了学校的复兴不择手段，因此偶尔会提出一些荒唐的想法。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Shiroko_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11756,
+      "sha256": "132d0053f129ce4acaf00219ea888a404c83ec8bf4902cc988ed2f49c24b7a33"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 1294982,
+    "sha256": "ec41919f118ccd16a2afa16849c25632f652dcff53be845678b109655418c28a",
+    "bones": 78,
+    "cubes": 590,
+    "faces": 3540,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136637,
+      "sha256": "f795d670b8e2553548348161425e21c7a8f4c2b78d4602d33c8ccc1f03f537b3"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2712,
+      "sha256": "4f5e7ed844d6d85a5a0a97bb7a3bcce92307a1ead674f00bca412ec3425c6e4e"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 123164,
+      "sha256": "f67c968cf2629ad22305bf6944fb0b5358f011aecbd1b3792884b9c80953a860"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 200112,
+      "sha256": "d4a5db0ebb8d16443a4f6466d173bd1ea4cbb38be30d7c2ef78e16cf0b15b950"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 167117,
+      "sha256": "b3f01e48b52f29f577830ee4956fbb747599740b16b5afb03014468ed737d3d3"
+    },
+    {
+      "path": "avatar/Cc-纸盒_纸盒ALiFang.png",
+      "size": 267006,
+      "sha256": "c4d28c3c48d65c6fc9b185aeca79f33fa1db8885fc4ff99dd8984e9dcc64e7fe"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 6510,
+      "sha256": "cf35ddc13e96757a26b25cf8ed1429a7050e5ab1fd1718600b0bbef05c17658e"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 317788,
+      "sha256": "48da2e54b13713a2238ea5df0102b30d3b188e2c60bec635e0d61745714bf8a4"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 64319,
+      "sha256": "ead0f515f5b67238834ac27ea37f4802206c3dad8a646d6d09931fe39afad0df"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1468,
+      "sha256": "6df5e84baba2e4dadfcd56985af53b83c9d83eb668299ed8232c56185a5729c7"
+    }
+  ]
+}

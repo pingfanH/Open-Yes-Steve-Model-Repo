@@ -1,0 +1,135 @@
+{
+  "id": "_xiaoyuansha_v1.1",
+  "path": "parsed/_xiaoyuansha_v1.1",
+  "source": {
+    "path": "Uncategorized/_xiaoyuansha_v1.1.ysm",
+    "type": "ysm",
+    "stem": "_xiaoyuansha_v1.1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "魔法少女-小圆莎",
+    "tips": "什么？卡莎只是在COS身穿中学制服的小圆~",
+    "license": {
+      "type": "CC BY-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "@B站 平衡芝光"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "arrow.png",
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "arrow": "arrow.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/xiaoyuansha_v1.1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4942,
+      "sha256": "0f8d9ad1ce9ddc81b14ddc9c5a26c50d577adbca7dccdd9ca054540a9831f77a"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 782866,
+    "sha256": "12f7bde22d346f2f664125794f21256ffc2a5e2ec0d3987701320b9933100963",
+    "bones": 78,
+    "cubes": 433,
+    "faces": 2598,
+    "textures": 2,
+    "materials": 2,
+    "animations": 6,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 121775,
+      "sha256": "59f336973964ea42a4cdb6a7894e8f01de4c0ec397285aafa19b247385ba578c"
+    },
+    {
+      "path": "arm.json",
+      "size": 15707,
+      "sha256": "fa7f68fc2a1c1a5d3376154eb037fa9a3c1438fbfbdafb92c8fa9425518952d5"
+    },
+    {
+      "path": "arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 123165,
+      "sha256": "0a5d3f9c0562cc4d4032464fa5a4f9c4d80d0d7a218e780240d04c0b276f8c9a"
+    },
+    {
+      "path": "info.json",
+      "size": 196,
+      "sha256": "79864f8da8ba88dadc21bf598258facdff8dd038b05c28b586f0d7968bb1f2bc"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 139984,
+      "sha256": "1da5e7508f649a1e24f813527a96ea021472a8e45932d9c50529f7659a533cda"
+    },
+    {
+      "path": "main.json",
+      "size": 227757,
+      "sha256": "9004d2064a48b2e5034cd607042f2b6deb7af571013a397c45ea07d1d103778c"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "texture.png",
+      "size": 9853,
+      "sha256": "9cbaafea0fe76fafa22320730372a1e4f775f0c2835150a739c6d81427f58463"
+    }
+  ]
+}

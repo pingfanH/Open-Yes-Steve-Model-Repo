@@ -1,0 +1,159 @@
+{
+  "id": "GI_Wanderer",
+  "path": "parsed/GI_Wanderer",
+  "source": {
+    "path": "_GenshinImpact/GI_Wanderer.zip",
+    "type": "zip",
+    "stem": "GI_Wanderer"
+  },
+  "ysm": "parsed/GI_Wanderer/ysm.json",
+  "metadata": {
+    "name": "gi_wanderer",
+    "tips": "Wander/Scaramouche From Genshin Impact",
+    "license": {
+      "type": "All Rights Reserved",
+      "desc:": ""
+    },
+    "authors": [
+      {
+        "name": "Welfare Waifu",
+        "avatar": "avatar/welfare waifu.png",
+        "role": "Model",
+        "contact": {
+          "Planet Minecraft": "https://www.planetminecraft.com/member/welfarexwaifu/"
+        },
+        "comment": "I make YSM skins sometimes"
+      }
+    ]
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "preview_animation": "idle",
+    "free": false,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "texture": [
+        {
+          "uv": "textures/skin.png"
+        },
+        {
+          "uv": "textures/welfare waifu.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Wanderer_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9774,
+      "sha256": "be98ee888e2025c08d68467d032c3dfeee74b101a5bd63a2c5719dc154d630ef"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 1055104,
+    "sha256": "9f5448bc47fb890830ce099007622c478bcbc284c641e0597240c504645d5156",
+    "bones": 85,
+    "cubes": 253,
+    "faces": 1518,
+    "textures": 2,
+    "materials": 2,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 150072,
+      "sha256": "308245990deb76c2a396de075ae4bbbae8955d7640d89aafd7fe8e8d3e9854cf"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 648,
+      "sha256": "a1742d97b6f3a435a92ed37c1f971b9367d8198a3c12116be4a9f433586b8e12"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3799,
+      "sha256": "32851380160c2bceea27535eeb1f27ed77e74f2fd565ac13c06c499952aff79e"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 150072,
+      "sha256": "308245990deb76c2a396de075ae4bbbae8955d7640d89aafd7fe8e8d3e9854cf"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 196610,
+      "sha256": "fef80c0e47022e323b0aed7b27e6916436e34a6b5f0f9e6e440c873afd363a78"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 164795,
+      "sha256": "4ae5c865310d47c1ee34bbc90f7bfdfea4deba7bf7e5f6c6f9a19318474a5c2e"
+    },
+    {
+      "path": "avatar/welfare waifu.png",
+      "size": 6707,
+      "sha256": "23e4a3d9b8b52bf0ce547fc4e3d6095daf55611aa9695372b5becff1beb5f10c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 19141,
+      "sha256": "13cbe0ef74ddab8ab06b409d6bbb10439ca37807dd4a13722fa7e3138a65dbc9"
+    },
+    {
+      "path": "models/main.json",
+      "size": 58046,
+      "sha256": "bd1f446ef82097436129fd228f484370245475098bc12b2fd0460a7ead03b69d"
+    },
+    {
+      "path": "textures/skin.png",
+      "size": 297261,
+      "sha256": "38cba788e07ab6f624ab01696549e5012a88d179c779157e63432976f4839fe8"
+    },
+    {
+      "path": "textures/welfare waifu.png",
+      "size": 6707,
+      "sha256": "23e4a3d9b8b52bf0ce547fc4e3d6095daf55611aa9695372b5becff1beb5f10c"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1246,
+      "sha256": "5ae2bf4d732b6c2fa7afc046dcaa19a0f137e5b439e60c6f41cb753a88073417"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "id": "Touhou_Flandre_1",
+  "path": "parsed/Touhou_Flandre_1",
+  "source": {
+    "path": "_TouhouProject/Touhou_Flandre_1.ysm",
+    "type": "ysm",
+    "stem": "Touhou_Flandre_1"
+  },
+  "ysm": "parsed/Touhou_Flandre_1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/碎de帆.png",
+        "comment": "一般通过车车人",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/381524342"
+        },
+        "name": "碎de帆",
+        "role": "模型+动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-SA"
+    },
+    "link": {
+      "home": "https://space.bilibili.com/381524342"
+    },
+    "name": "芙兰朵露·斯卡蕾特（Flandre_Scarlet）",
+    "tips": "恶魔之妹\n版本v1.15\n包含内容:\n§3 ·基础动作适配及更改\n§3 ·物理模拟\n§3 ·基础轮盘动画面部表情适配\n§3 ·2特殊物品模型\n§3 ·4项可自定义外观设置\n§3 ·5个额外轮盘动画\n§3 ·tacz等模组适配\n\n§c不授权任何网易内容"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "打招呼",
+      "extra1": "鼓掌",
+      "extra2": "点头",
+      "extra3": "摇头",
+      "extra4": "开/关嘴巴",
+      "extra5": "穿/脱帽子",
+      "extra6": "开/关翅膀",
+      "extra7": "穿/脱手环",
+      "extra8": "bad apple",
+      "extra9": "蓝蓝路",
+      "extra10": "敬请期待",
+      "extra11": "爆小熊",
+      "extra12": "红魔乡站街",
+      "extra13": "人妖名鉴站街"
+    },
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Touhou_Flandre_1_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12962,
+      "sha256": "e284ee8e95dc8873f375f030ca726ef1c5e32103d1910e96ba0d1308a9083c2b"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 1291227,
+    "sha256": "949fa449fa171f142bfb15f2a6c0f4e7d0f6668fef6e6b1fdcccc987a9c8ecf3",
+    "bones": 338,
+    "cubes": 831,
+    "faces": 4986,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 122378,
+      "sha256": "d83f163b62c093feafe4da7b48c04e1e0a4bf28e7ad4f1bb0006776ede2ed6c5"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 78072,
+      "sha256": "9414ee1d4eed80e9ea2d75dc898a953d57d83c2c2de722b0d4250d596f9a8a90"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 211527,
+      "sha256": "e9d7cdf6c29871bd4e1b437320a8bac99f057c630154c4037dcdb32a9135da2e"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 186405,
+      "sha256": "071bfd37b157c52eb64f87b113382250b97973ff638c595a29001202cdd88db5"
+    },
+    {
+      "path": "avatar/碎de帆.png",
+      "size": 42052,
+      "sha256": "76bb642042dab96365c1eb38eeb89b49acaf6adb7315f3036b7c4a4833e06d0e"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 54042,
+      "sha256": "e884543e6e0c1064b2586717c06656d315425b685c478cb6688bd794622d1a1e"
+    },
+    {
+      "path": "models/main.json",
+      "size": 396834,
+      "sha256": "a18aba9ffdc969a23c512c6554679ac2b47e29d6064fa254a8c0fe8e3f047e35"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 23046,
+      "sha256": "79deebc599f1f70d8d2e34689a10ccf3421318ea9ae06d421352f46ee7cdf517"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1604,
+      "sha256": "43a0ff22e1e1b53f735cdbdb6076637e7a4ccc4a219f08e9846ff49101b157f7"
+    }
+  ]
+}

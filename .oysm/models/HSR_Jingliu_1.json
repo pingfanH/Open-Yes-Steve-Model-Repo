@@ -1,0 +1,78 @@
+{
+  "id": "HSR_Jingliu_1",
+  "path": "parsed/HSR_Jingliu_1",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Jingliu_1.ysm",
+    "type": "ysm",
+    "stem": "HSR_Jingliu_1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "HSR_Jingliu_1"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Jingliu_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9793,
+      "sha256": "3c9d0913f8081283287559bfd941804b67ce3e15d2a50db6591a199f0d5e46b0"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 609053,
+    "sha256": "1accbf4fdde0bcf794f8bcf5679beaf5c0114a0d2c4283055cfb3aa8f760984f",
+    "bones": 60,
+    "cubes": 758,
+    "faces": 4548,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 1848,
+      "sha256": "754ef1b4783be9b95ee72dbbbc3511812b75834167eef905109012d4c151a056"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 171220,
+      "sha256": "93207784c928b968facb9cc9525449d1d8b834d630cef3b105b8ce3c42064abe"
+    },
+    {
+      "path": "main.json",
+      "size": 417411,
+      "sha256": "b31c8baaa12a15546f04227722ff19fb98667a3855554c7499d1dc53262b14cc"
+    },
+    {
+      "path": "texture.png",
+      "size": 18574,
+      "sha256": "928d50453545e629744d9ceeecab1d95ba1c29e3ff66d7f018aec50aa820a1c2"
+    }
+  ]
+}

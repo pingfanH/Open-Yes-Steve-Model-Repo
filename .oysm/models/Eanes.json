@@ -1,0 +1,190 @@
+{
+  "id": "_Eanes",
+  "path": "parsed/_Eanes",
+  "source": {
+    "path": "Uncategorized/_Eanes.ysm",
+    "type": "ysm",
+    "stem": "_Eanes"
+  },
+  "ysm": "parsed/_Eanes/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/Almeta_owx.png",
+        "comment": "and the universe said I love you",
+        "contact": {
+          "Afdian": "https://afdian.com/a/Almeta",
+          "Bilibili": " https://b23.tv/iAsj6Ee"
+        },
+        "name": "Almeta_owx",
+        "role": "模型/动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "home": "https://afdian.com/a/Almeta",
+      "update": "https://b23.tv/iAsj6Ee"
+    },
+    "name": "Eanes",
+    "tips": "Eanes（彩虹六号X碧蓝档案原创同人角色） 来自巴特蕾特学院。由于该校的学生没有光环，所以多数情况下只能响应处理特殊事件。*该为常态不持盾状态*"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "舞蹈3",
+      "extra1": "打招呼",
+      "extra2": "拍手",
+      "extra3": "同意",
+      "extra4": "不行",
+      "extra5": "欢呼",
+      "extra6": "舞蹈1",
+      "extra7": "自拍",
+      "extra8": "蹲姿看手机",
+      "extra9": "站姿看手机",
+      "extra10": "萝莉神"
+    },
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/Eanes.png",
+          "normal": "textures/Eanes_normal.png",
+          "specular": "textures/Eanes_specular.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Eanes_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7051,
+      "sha256": "a4b3a623e370c457453dbbcb4703e9fead6fba577ec74efbb21f9d6e6b5bb11a"
+    }
+  },
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 1414378,
+    "sha256": "f56249a49322c3ddd3adda03f8566edd53b81848e0df48f2712114df45540fa1",
+    "bones": 195,
+    "cubes": 909,
+    "faces": 5454,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 138446,
+      "sha256": "c4c00f9d9bee0e1a499b63fc00ebaf7d08f33c2f553f36c09c8678fba2aa254f"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 172532,
+      "sha256": "9c96d4dd16266b270d610383134d0847334e87a2b6fea70ffd214b419d33d524"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 350050,
+      "sha256": "78fe5af7463859577f21ef059e1ee299f614700ab4eda8bc0e3cbe5a8e86bf7d"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 140927,
+      "sha256": "95a44c3f3454bd394caccc6900bf9d7153c5f7de9cbb7147146368ce1eea95c0"
+    },
+    {
+      "path": "avatar/Almeta_owx.png",
+      "size": 45632,
+      "sha256": "b53f7e87d557bed5b1e34059f3be70e1a182253102f00551f78ccdb44937ee40"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 16867,
+      "sha256": "db0589322a2018236bb669c3389056bdca40e2c317398f87050738571be48a20"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 466956,
+      "sha256": "d8eed24a6d242f183b82d2fdab8e7c44768d529bd509760a54dfe2f0fec40fb8"
+    },
+    {
+      "path": "textures/Eanes.png",
+      "size": 38645,
+      "sha256": "050b19ae930faff7598b7aa4a7ad6cd25d9eb295c91cc9eac4e4512e30e36a83"
+    },
+    {
+      "path": "textures/Eanes_normal.png",
+      "size": 15668,
+      "sha256": "3d49a55ca798478723e5608725cd5592edf82311d007d76f5b682d189c150b17"
+    },
+    {
+      "path": "textures/Eanes_specular.png",
+      "size": 16263,
+      "sha256": "55c0825d28e8f75e75c357040058e61faec81c9e0451532b7768ef1f7d6d66ab"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1569,
+      "sha256": "e736142b4e688c27c3400d1301aeeeef38089fa556acf431f7f8f443614b8869"
+    }
+  ]
+}

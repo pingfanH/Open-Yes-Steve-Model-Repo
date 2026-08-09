@@ -1,0 +1,89 @@
+{
+  "id": "Mob_bee/bee",
+  "path": "parsed/Mob_bee/bee",
+  "source": {
+    "path": "_MinecraftMob/Mob_bee.zip",
+    "type": "zip",
+    "stem": "Mob_bee",
+    "model_path": "Mob_bee/bee"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "bee"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "bee.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Mob_bee_bee_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 582,
+      "sha256": "a05bfb7cba5b92ba7c4fc6d6f1d36f42459a1890e8fd6ec5f6e662b1349facfb"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 829165,
+    "sha256": "8f423f017e83dc21a03994eceba831f970ba6ab0102ab08ad6b26443c909aad8",
+    "bones": 14,
+    "cubes": 14,
+    "faces": 84,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 1417,
+      "sha256": "6754b24b9020f9492994cca78d17e62c2708db8f7af1d9aa20b18f8c7134043d"
+    },
+    {
+      "path": "bee.bbmodel",
+      "size": 8398,
+      "sha256": "22314052b9f83b53f6ba02605eb33162b6df52337064a2efc881950e2ea4fda6"
+    },
+    {
+      "path": "bee.png",
+      "size": 957,
+      "sha256": "fa8cdf41362c425a234160acb8debde0334ff96aacfc115e1a13e6ef1207989e"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 98889,
+      "sha256": "3120cabbca910548c4047b1303172d51fd7c523d6d7c0ca856903a3f49f43fe8"
+    },
+    {
+      "path": "main.bbmodel",
+      "size": 711868,
+      "sha256": "c3dbdcf16206989909823b91d255c81978e3546d0e56e651cdc46e7f54bc6cfa"
+    },
+    {
+      "path": "main.json",
+      "size": 7636,
+      "sha256": "cdf747af5957564d2e5ec7f20d21185c19a857b19c0d7d4fa43b62ece299b7b3"
+    }
+  ]
+}

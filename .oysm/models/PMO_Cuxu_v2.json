@@ -1,0 +1,75 @@
+{
+  "id": "PMO_Cuxu_v2",
+  "path": "parsed/PMO_Cuxu_v2",
+  "source": {
+    "path": "Uncategorized/PMO_Cuxu_v2.ysm",
+    "type": "ysm",
+    "stem": "PMO_Cuxu_v2"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "PMO_Cuxu_v2"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "pmo_heroinev2.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/PMO_Cuxu_v2_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7198,
+      "sha256": "4c36c8fd45f8c4c508c3b2f197f6e0621e36b254d62daff7a9a3c411a84e1fdd"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 236997,
+    "sha256": "757f1a005ff0c0eb5efb68bbb6e4484feefa2b84121da0e523deb2fd44366e9b",
+    "bones": 57,
+    "cubes": 203,
+    "faces": 1218,
+    "textures": 1,
+    "materials": 1,
+    "animations": 0,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 10641,
+      "sha256": "9c2079d429eddd2bd04f435f730d79bc338528888d5f4a9ca2f1a12a20a48f46"
+    },
+    {
+      "path": "main.json",
+      "size": 87153,
+      "sha256": "83b7b37fca3af13957aeac36fdf7a5d63f3fac5f0f7f4ab97d37391f09ca593a"
+    },
+    {
+      "path": "pmo_heroinev2.png",
+      "size": 6525,
+      "sha256": "c70154b16b4e8745835a14b56025849739018cfabeccdc070c11efe6da01c061"
+    },
+    {
+      "path": "pmo_role_heroineV2.bbmodel",
+      "size": 132678,
+      "sha256": "8c975abb7f81f8a660d07c88466a9e6589d434b2fcef6c13ab9c687b5069348f"
+    }
+  ]
+}

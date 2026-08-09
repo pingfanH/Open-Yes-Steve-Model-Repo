@@ -1,0 +1,108 @@
+{
+  "id": "FGO_Kama(Summer)_v1.0",
+  "path": "parsed/FGO_Kama(Summer)_v1.0",
+  "source": {
+    "path": "_FateGrandOrder/FGO_Kama(Summer)_v1.0.ysm",
+    "type": "ysm",
+    "stem": "FGO_Kama(Summer)_v1.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "伽摩（summer）",
+    "tips": "「迦摩？最近看着她总会感到有些欣慰呢。」\n为报复露出温和的眼神如上表示的帕尔瓦蒂等人，爱神作为魔王魔罗觉醒的姿态（本人曰）。\n说到夏天，当然少不了各式各样的诱惑。也就是说，夏天是堕落的季节。\n不在这里彰显存在感还算什么魔王啊。\n认真起来的她身穿可爱的泳装，比平时更为积极地企图让御主堕落……\n「怎么样？这就是夏日魔王魔罗真正的姿态。令人不由得想要堕落，是不是很恐怖呢？」\n怎么看都与平时的迦摩完全没变这一点超恐怖的呢，众人纷纷面面相觑点头同意。",
+    "authors": [
+      {
+        "name": "模型作者-雒仁"
+      },
+      {
+        "name": "素体-映素三代素体"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/FGO_Kama_Summer__v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10081,
+      "sha256": "2c7651a2c31d1266d12eecc658d1855d1caecb2567f851960dfccee8ee95c0f7"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 969480,
+    "sha256": "4485fa651ffec5af8bd25cf02f919dd238927e844f806065200a5dbb5c12bae1",
+    "bones": 225,
+    "cubes": 759,
+    "faces": 4554,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 51070,
+      "sha256": "e8b4a6d8ebdd57bdb01427bd99afe6adcf7704723153572015b56852f551293b"
+    },
+    {
+      "path": "arm.json",
+      "size": 10268,
+      "sha256": "d4778c7e1193de74bd3c1b2ded4e30a2a07549a9baec15004cee6633ea1d0791"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 150072,
+      "sha256": "308245990deb76c2a396de075ae4bbbae8955d7640d89aafd7fe8e8d3e9854cf"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 124761,
+      "sha256": "217175cb68c725d70926bd9c2049d8d8b41b68181dddc10f2541b3a1393dbad6"
+    },
+    {
+      "path": "main.json",
+      "size": 437328,
+      "sha256": "e33e6408029b7d942a2286339f096f302c59f9947cd98a430ca6ed286b7e2a4a"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 157266,
+      "sha256": "c03cb9613aa5a9f19a9416760c372309e79f3d12cf1f23cfea0726dc5e825aa2"
+    },
+    {
+      "path": "texture.png",
+      "size": 38715,
+      "sha256": "780b023dcefef805d3e0b850788cb2a9478931be5ee403a180175d0c71f002f5"
+    }
+  ]
+}

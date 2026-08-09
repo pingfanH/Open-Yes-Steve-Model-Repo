@@ -1,0 +1,141 @@
+{
+  "id": "ReZero_Rem_v2.9",
+  "path": "parsed/ReZero_Rem_v2.9",
+  "source": {
+    "path": "_ReZero/ReZero_Rem_v2.9.ysm",
+    "type": "ysm",
+    "stem": "ReZero_Rem_v2.9"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "雷姆V2.6 [20241231]",
+    "tips": "雷姆/レム/Rem \nRe：从零开始的MC世界生活（笑）\n\nB站主页：b23.tv/0mjdVF0\nAFD主页：afdian.com/a/PH667",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "平衡芝光"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "arrow.png",
+        "texture.png",
+        "texture2.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "arrow": "arrow.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/ReZero_Rem_v2.9_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7512,
+      "sha256": "a64ba3bc42f628adfbd85daa1faf57ba89cca07abdafe69f6d22499af453a303"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 1091701,
+    "sha256": "9b351623f7f2de3758f989282b3c18aabdfdf94f5b3b1b05c257b859c04990e6",
+    "bones": 220,
+    "cubes": 1173,
+    "faces": 7038,
+    "textures": 3,
+    "materials": 3,
+    "animations": 6,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 122628,
+      "sha256": "76a64a08435e2fd2d4948320bb2f24082a44bced3f9af7507445837fd3c13c30"
+    },
+    {
+      "path": "arm.json",
+      "size": 20398,
+      "sha256": "5df0b1f56da9286482e141b4d659b9451a6044770309aa70d441b2ccc2984594"
+    },
+    {
+      "path": "arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 2773,
+      "sha256": "57484f0ce73032c69f36cfc1ebb8aadc09ba4efd5d303b9f9d3566f5d3534fa2"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 8904,
+      "sha256": "07834d87c95b621a580494976074ac3b5fa86b4fd13d21eb4c87e22b8c6ca601"
+    },
+    {
+      "path": "info.json",
+      "size": 365,
+      "sha256": "8cba2cf709c1fcfe2bfc5cedfe636054c91212742852a511fffe4287c384bd56"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 129876,
+      "sha256": "39b6f40a31870f5cd91712f3cced08d4e71f854adc081e995d3fe1e1a1103aaa"
+    },
+    {
+      "path": "main.json",
+      "size": 630851,
+      "sha256": "3fe507f1df8e0035cb1161cad27b87a89d1e4bf97838859636415d79facf4355"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "texture.png",
+      "size": 17134,
+      "sha256": "01f052b8533653f4830f5b1d8907f6e79309884ccdd20bdc0cb7145bc3d47663"
+    },
+    {
+      "path": "texture2.png",
+      "size": 17017,
+      "sha256": "5fc59cb0821003a62dad9cb80f40f88d3e9ac06b4e190f9e4122acaf3b81f278"
+    }
+  ]
+}

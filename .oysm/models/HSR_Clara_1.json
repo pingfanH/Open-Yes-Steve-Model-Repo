@@ -1,0 +1,90 @@
+{
+  "id": "HSR_Clara_1",
+  "path": "parsed/HSR_Clara_1",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Clara_1.zip",
+    "type": "zip",
+    "stem": "HSR_Clara_1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "HSR_Clara_1"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "kelala.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Clara_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 20825,
+      "sha256": "75a866f958477998b36137189deb97eab68b5cb5a0da84d71d7b1485d077514d"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 643345,
+    "sha256": "76c6a883cd62cde2876df854600cac9b0bcf6c6f6d385e4a958982084020058b",
+    "bones": 168,
+    "cubes": 797,
+    "faces": 4782,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 221258,
+      "sha256": "d51e9d7d395bf76777e37e674c683c690f8e4e75a45afc79c88c46ee69a758d6"
+    },
+    {
+      "path": "arm.json",
+      "size": 3463,
+      "sha256": "df8759f102dff931a205f86d9ffb85f52eceff64a89dce8f814ba394292cf2f8"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 42676,
+      "sha256": "2f66947f2a47c40529ec0b8c74d80219c23499c144efc164f9d9ea0842541c5d"
+    },
+    {
+      "path": "kelala.png",
+      "size": 16341,
+      "sha256": "21634592182d67f5661f45ada1257ea98c1660b1a1d0bcb061131b7e380ac812"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 221258,
+      "sha256": "d51e9d7d395bf76777e37e674c683c690f8e4e75a45afc79c88c46ee69a758d6"
+    },
+    {
+      "path": "main.json",
+      "size": 138349,
+      "sha256": "fdbd5afd66a42d31c92fcccaeadfbc63ac081924be7c2dbedf6741fca97e5b3f"
+    }
+  ]
+}

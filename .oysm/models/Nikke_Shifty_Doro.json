@@ -1,0 +1,93 @@
+{
+  "id": "Nikke_Shifty(Doro)",
+  "path": "parsed/Nikke_Shifty(Doro)",
+  "source": {
+    "path": "_Nikke/Nikke_Shifty(Doro).zip",
+    "type": "zip",
+    "stem": "Nikke_Shifty(Doro)"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "doro谢芙蒂",
+    "tips": "doro doro dororororo！",
+    "authors": [
+      {
+        "name": "作者——雒仁"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "doro.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Nikke_Shifty_Doro_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 43150,
+      "sha256": "0c045492ef851a3923bc6fd0806ab75f46e2a3fdd77104ca70c23814fe68fb70"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 286474,
+    "sha256": "4625b023010f472bfa86fb39d3b1ae22bd95c421e09d1003300a86875bb557b5",
+    "bones": 6,
+    "cubes": 3,
+    "faces": 18,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 799,
+      "sha256": "4286d6b8b6669c732ee455f500b76077363be744a62be4875bd41b9b59538cb4"
+    },
+    {
+      "path": "doro.png",
+      "size": 148617,
+      "sha256": "fc3d925f63046e78383f2a1fd23bc85e89c98c70e938c6b9ed328cf8cb677089"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 740,
+      "sha256": "7a4f1485d9911009b23e972a0d88da1f2bc7cfed3dae075c8d7852e7f6c6c2b1"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 134274,
+      "sha256": "d766638c7f01459eb336d786f8a63496aaed649b683b18afdc0680f5182c33eb"
+    },
+    {
+      "path": "main.json",
+      "size": 2044,
+      "sha256": "76f5ece6fd5287945abe9866d86d9b75d8d640bdb2aa4a04f41e99b277ea56a2"
+    }
+  ]
+}

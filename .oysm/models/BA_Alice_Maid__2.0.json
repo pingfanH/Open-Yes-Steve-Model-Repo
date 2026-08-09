@@ -1,0 +1,2008 @@
+{
+  "id": "BA_Alice(Maid)_2.0",
+  "path": "parsed/BA_Alice(Maid)_2.0",
+  "source": {
+    "path": "_BlueArchive/BA_Alice(Maid)_2.0.ysm",
+    "type": "ysm",
+    "stem": "BA_Alice(Maid)_2.0"
+  },
+  "ysm": "parsed/BA_Alice(Maid)_2.0/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/哥斯拉.png",
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少",
+        "contact": {
+          "B站": "https://space.bilibili.com/17798027",
+          "爱发电": "https://afdian.com/a/6TGESILA"
+        },
+        "name": "哥斯拉",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/nona.png",
+        "comment": "唉阿米诺",
+        "name": "nona",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/咖啡鱼.png",
+        "comment": "时间很少，想法很少",
+        "name": "咖啡鱼",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/星屑海螺.png",
+        "comment": "漂泊于群星之中",
+        "contact": {
+          "B站": "https://space.bilibili.com/14975572",
+          "爱发电": "https://afdian.com/a/lucia2048"
+        },
+        "name": "星屑海螺",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/FXS_Frost.png",
+        "comment": "",
+        "contact": {
+          "B站": "https://space.bilibili.com/4655973"
+        },
+        "name": "FXS_Frost",
+        "role": "音频"
+      },
+      {
+        "avatar": "avatar/K螺诺亚.png",
+        "comment": "Born in the future, living in the past.",
+        "contact": {
+          "B站": "https://space.bilibili.com/3546599305251347"
+        },
+        "name": "K螺诺亚",
+        "role": "音频"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "name": "爱丽丝-女仆",
+    "tips": "邦邦卡邦！爱丽丝转职成为了女仆勇者！"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "#快捷交流": "§2快捷交流",
+      "切换人格": "#model_config",
+      "A Cup Of Liber-Tea": "#A Cup of Liber-tea",
+      "立绘pose": "立绘pose",
+      "爱丽丝开车车": "爱丽丝开车车",
+      "重伤倒地": "重伤倒地",
+      "萝莉摇": "萝莉摇",
+      "光之剑-超新星": "光之剑-超新星"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "model_config",
+        "name": "模型设置",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "切换Kye/Alice",
+            "description": "",
+            "value": "v.roaming.key"
+          },
+          {
+            "type": "checkbox",
+            "title": "女仆扫把",
+            "description": "",
+            "value": "v.roaming.besom"
+          },
+          {
+            "type": "checkbox",
+            "title": "切换光之剑显示",
+            "description": "",
+            "value": "v.roaming.Gun"
+          },
+          {
+            "type": "range",
+            "title": "头部大小",
+            "description": "更改头部大小",
+            "value": "v.roaming.head_size",
+            "step": 0.01,
+            "min": 0.5,
+            "max": 2.0
+          },
+          {
+            "type": "range",
+            "title": "身体大小",
+            "description": "更改身体大小",
+            "value": "v.roaming.player_size",
+            "step": 0.01,
+            "min": 0.1,
+            "max": 2.0
+          }
+        ]
+      },
+      {
+        "id": "A Cup of Liber-tea",
+        "name": "For Super Earth!!!",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "加入绝地潜兵",
+            "description": "join helldiver",
+            "value": "v.roaming.helldiver",
+            "labels": {
+              "回归平民生活": "v.roaming.helldiver=0",
+              "加入绝地潜兵": "v.roaming.helldiver=1"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "快捷交流",
+        "extra_animation": {
+          "#return": "§4返回上一级",
+          "谢谢": "谢谢",
+          "鼓掌": "鼓掌",
+          "赞成": "赞成",
+          "反对": "反对",
+          "好耶": "好耶",
+          "对不起": "对不起",
+          "撤退": "撤退",
+          "发现敌人": "发现敌人",
+          "给你这个": "给你这个",
+          "我发现了什么": "我发现了什么",
+          "我不需要": "我不需要",
+          "跟着我": "跟着我",
+          "交给我吧": "交给我吧",
+          "请求支援": "请求支援",
+          "算了": "算了",
+          "注意危险": "注意危险",
+          "我需要补给": "我需要补给",
+          "我需要治疗": "我需要治疗",
+          "我需要弹药": "我需要弹药"
+        }
+      }
+    ],
+    "default_texture": "女仆装",
+    "preview_animation": "封面",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/女仆装.png"
+        },
+        {
+          "uv": "textures/裸体围裙.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Alice_Maid__2.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 15197,
+      "sha256": "64fa400a15c04f2368f9fd0e60425fdda5154550ec9c21d381b25950f2bfcda1"
+    }
+  },
+  "stats": {
+    "file_count": 355,
+    "total_bytes": 9311419,
+    "sha256": "5bc14f519b5869073e7172ec46b55f6a4399d772eef608358bfaee31bad97059",
+    "bones": 269,
+    "cubes": 1492,
+    "faces": 8952,
+    "textures": 2,
+    "materials": 2,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 125703,
+      "sha256": "421c85c36309bb7d7a3b39af7541c95d7ab211e80ea8c5e40b1e812d078dd5dd"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3918,
+      "sha256": "f926e6de2ac607a27940654e055eae69a08cd10457ebb849241afec97f6833f7"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 368046,
+      "sha256": "7388079dfa5c717bdd5244d2210953ac61133dda1149a0cb4df3cb0585868c3d"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 366159,
+      "sha256": "6eedb73741cdee129c81a3f87e97cd6a8f4decdf9de6a9b7325943172714c3fd"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 216697,
+      "sha256": "d1a6981ee9e8d0c73ad751ae8a9fbe99b5474e7c95d5522802e30659069f749c"
+    },
+    {
+      "path": "avatar/K螺诺亚.png",
+      "size": 12145,
+      "sha256": "83c459bbf11009400f55c6e185fb33f65ad5ff870eb991022d40c086417fb3af"
+    },
+    {
+      "path": "avatar/nona.png",
+      "size": 42729,
+      "sha256": "3087265de9d307645cd2e33d903d9dc4b12f795eb6eee8deb5fdc60224decfbe"
+    },
+    {
+      "path": "avatar/咖啡鱼.png",
+      "size": 34315,
+      "sha256": "0ef0848705fcb361a81a1f16fb9d60564fbc8c284af3cb3b9260a8e9f4688aa2"
+    },
+    {
+      "path": "avatar/哥斯拉.png",
+      "size": 37017,
+      "sha256": "4072a6347cc17e01713bf479064a9097c669103442791cb736257a696467f38c"
+    },
+    {
+      "path": "avatar/星屑海螺.png",
+      "size": 29404,
+      "sha256": "b639e41cb1eb08139baf3652bd5aa26f03ab34f859af668982c294a4cf41c870"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 26116,
+      "sha256": "8b9e20687f79980610f02a57b37888f0d2619790906856b31e9d944a553436af"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 20587,
+      "sha256": "74d99d89979c9738e65b0fe0e90889cdfccda8ac79ffedc896cb367c04f96705"
+    },
+    {
+      "path": "models/main.json",
+      "size": 796950,
+      "sha256": "8223eb4dbb81f39edca096691f4cc29f167c0222a63d1a957ece43f9d2b3f2c9"
+    },
+    {
+      "path": "sounds/A Cup Of Liber-Tea.ogg",
+      "size": 639670,
+      "sha256": "bdc32172e84d3d98310d30601e7e9317993e92c4247ee5b5787c586bb79730ab"
+    },
+    {
+      "path": "sounds/A little shot of liberty.ogg",
+      "size": 51673,
+      "sha256": "494436bb4bf751dd411cde100e2bab7bb20414afdfce7a7c681db457d5451230"
+    },
+    {
+      "path": "sounds/Activating jump pack (2).ogg",
+      "size": 24714,
+      "sha256": "df67e1bea7e68dd2a161f87cf4e42b6f896dc454bf2312aedd5a1d0d55602fe4"
+    },
+    {
+      "path": "sounds/Activating jump pack (3).ogg",
+      "size": 16744,
+      "sha256": "8dd14e7c12da84c7adda5f4fe3d98332c6980138d6d7808bb69ef08e6d349b2c"
+    },
+    {
+      "path": "sounds/Activating jump pack (4).ogg",
+      "size": 20409,
+      "sha256": "4f10d4e31c28ea53d5b2cbb12bc3743938df6a228e68bdf22c7461c9dc677f48"
+    },
+    {
+      "path": "sounds/Affirmative (1).ogg",
+      "size": 10067,
+      "sha256": "d539e13e1d54a3d6d7b80cb5bd4115c119ecef8c7b00dac4a9c78d848b61c5bf"
+    },
+    {
+      "path": "sounds/Affirmative (2).ogg",
+      "size": 11047,
+      "sha256": "199b502649e23a7b5bade5399f99bc2c6b1763734b76cb9f0272aed706fc0e46"
+    },
+    {
+      "path": "sounds/Affirmative (3).ogg",
+      "size": 10833,
+      "sha256": "a3046d46efb721d916bb93b632f47328479a7c0e2f7c15fb101327230187924f"
+    },
+    {
+      "path": "sounds/CH0200_EventShop_Buy_1.ogg",
+      "size": 177988,
+      "sha256": "303de073b87d2b193b074f1b98f2b3614964f666ca93ab59f23c1b86c3cc9519"
+    },
+    {
+      "path": "sounds/Calling in an eagle (1).ogg",
+      "size": 21024,
+      "sha256": "60029e8f4cfd8dee411e5bc73b8c142b2ed7432bee36b0f3954a92b54d1c3d6a"
+    },
+    {
+      "path": "sounds/Calling in an eagle (2).ogg",
+      "size": 19585,
+      "sha256": "d4e72b9e7e36c6654c325eab5111d361ae48c34a09afa440209f48c37c45cca0"
+    },
+    {
+      "path": "sounds/Calling in an orbital strike (2).ogg",
+      "size": 20002,
+      "sha256": "9e0d95024b4e219c0d21bb8ce4974f5668c967b6349c7d823a087d14e801fb45"
+    },
+    {
+      "path": "sounds/Can't liberate with this broken arm! (grit teeth).ogg",
+      "size": 42374,
+      "sha256": "6a1694d50250d6759510c080f65953227e4a39884b64d2c28d2a7c90ace179e1"
+    },
+    {
+      "path": "sounds/Can't liberate with this broken arm! (pain).ogg",
+      "size": 30345,
+      "sha256": "433fe0f8e6dd631a7933743303e1c9458cf970c800e80dc4fd160348a8ae73fe"
+    },
+    {
+      "path": "sounds/Can't survive these wounds much longer (pain).ogg",
+      "size": 34781,
+      "sha256": "8c4323d46a683dc71a1ad9ae59d0971d2d32150866bf64aeab01db31ddfee00a"
+    },
+    {
+      "path": "sounds/Can't survive these wounds much longer! (grit teeth).ogg",
+      "size": 22851,
+      "sha256": "8062a9a9f7c778bb7d4c9a9a112044240a54d280aa7e238b8687dbedfe9b6669"
+    },
+    {
+      "path": "sounds/Cancel that (1).ogg",
+      "size": 13959,
+      "sha256": "2d1e9e9bb05d16dc5cdfa41b372e7fd2f54c5fe2cab6a7aefd968f166f3b94c4"
+    },
+    {
+      "path": "sounds/Cancel that (2).ogg",
+      "size": 16457,
+      "sha256": "cb48a294ad37fbd7526bbab895bca8c145bc0b536afcbc9361a6326cfd3c03a6"
+    },
+    {
+      "path": "sounds/Danger (1).ogg",
+      "size": 11798,
+      "sha256": "a516de7a86377c8206a9a65d1edb2d50a2af45bdcde1fc644d9127a945c497a1"
+    },
+    {
+      "path": "sounds/Danger (2).ogg",
+      "size": 14470,
+      "sha256": "3b1e6f837606287c6d31ba54ab61804365f73e3b54c4a2cf3a9929462ef97075"
+    },
+    {
+      "path": "sounds/Don't need it (1).ogg",
+      "size": 11513,
+      "sha256": "ae28b88e914097252139eae42d3680e2661b1feb93caf31c69ab40715e2b3080"
+    },
+    {
+      "path": "sounds/Don't need it (2).ogg",
+      "size": 11744,
+      "sha256": "5eb3482f69be6bc3ec71c78d92cc1faf557739a28ff482720bb53305447633e9"
+    },
+    {
+      "path": "sounds/Done (1).ogg",
+      "size": 14272,
+      "sha256": "6a8916b13b9816e012fd2fdf8c557630a90789f95a6f860644a6d23b6602dc33"
+    },
+    {
+      "path": "sounds/Done (2).ogg",
+      "size": 12230,
+      "sha256": "3044e4cbb3564bf888cdaddc8f01fd9db65657200575ee6f8796dfbe73f013af"
+    },
+    {
+      "path": "sounds/Done (3).ogg",
+      "size": 15099,
+      "sha256": "b52b8c7f0a5cb5b8a5c5ba0c9f5aac79b72fb158563b4bb94b87be8582a09e0e"
+    },
+    {
+      "path": "sounds/Dropping package (1).ogg",
+      "size": 16845,
+      "sha256": "dc0522abdfee824c900a08a635cbcb551aa91e4787100c82ff7c5c61ccead553"
+    },
+    {
+      "path": "sounds/Dropping package (2).ogg",
+      "size": 14694,
+      "sha256": "8d852e3ebe9260998d1151d7286559aa4af24f8e1ebde11d650d116c29834eb7"
+    },
+    {
+      "path": "sounds/Dropping package (3).ogg",
+      "size": 15077,
+      "sha256": "788a57ca4e8861489ae255e51149d11165c05435c03da01acf731a4b7fa6e8b6"
+    },
+    {
+      "path": "sounds/Dropping package (4).ogg",
+      "size": 14659,
+      "sha256": "9cbee5083263a4fea6c1a4c6762e2f65d17735cf5415c453eb2b5ba2fd55aed0"
+    },
+    {
+      "path": "sounds/Enemy emplacement (1).ogg",
+      "size": 14372,
+      "sha256": "76cfa59b8f69c73005a517977d02bc2eb7133c0d73767c25cbf6b4b40ba108ec"
+    },
+    {
+      "path": "sounds/Enemy emplacement (2).ogg",
+      "size": 15031,
+      "sha256": "376b105bade06d047e2311aaaff2bfa9debcbfaef61fba9413659e1080e9398b"
+    },
+    {
+      "path": "sounds/Enemy spotted (1).ogg",
+      "size": 15208,
+      "sha256": "ed11f76b896f53e2493f19f8eeb0b3d631d7fbd4f4f283a30f1f458cee4a5ae1"
+    },
+    {
+      "path": "sounds/Enemy spotted (2).ogg",
+      "size": 14172,
+      "sha256": "ff6d734cee55e1916e726bbb0e0f15c7715a9fbc9db25a1b240e60b2d76f51db"
+    },
+    {
+      "path": "sounds/Engaging terminal.ogg",
+      "size": 14541,
+      "sha256": "591ce7ed9b80605e20c4bf85129581e1d42744521ed272b4bf71bbea5b022e71"
+    },
+    {
+      "path": "sounds/Fall back (1).ogg",
+      "size": 12998,
+      "sha256": "64ce9e3c69ce472629e31516eb675247b47f32a915457b30c2d64566117d4b72"
+    },
+    {
+      "path": "sounds/Fall back (2).ogg",
+      "size": 13529,
+      "sha256": "c6edd0b1b9c2972c6c33d4ed963b9aba0e24766976db0ecaff19569d1f4c7f16"
+    },
+    {
+      "path": "sounds/Fall back (3).ogg",
+      "size": 13091,
+      "sha256": "f02522e5b6980b8ee5f21c63e7700c551eaa6f290cbb8fc1b33a1a03d5b92eaa"
+    },
+    {
+      "path": "sounds/Feels good! (euphoric).ogg",
+      "size": 16269,
+      "sha256": "8117955c4413b7c8aede10084f62f28a70defd21bc8034a1c75a15f479bf08c6"
+    },
+    {
+      "path": "sounds/Feels good! (junkie).ogg",
+      "size": 18024,
+      "sha256": "3024ccc3c33c2c1003a9ab9df4090bc36b5d8b7897ede3d4ca81473feac1bc0b"
+    },
+    {
+      "path": "sounds/Flag forsaken leg, slowing me down! (grit teeth) (1).ogg",
+      "size": 45334,
+      "sha256": "feffeaf7784cccb0ad1aba1eadf74395f3315ae4cddaac909502917f2191884a"
+    },
+    {
+      "path": "sounds/Flag forsaken leg, slowing me down! (grit teeth) (2).ogg",
+      "size": 40663,
+      "sha256": "fe4072f752927379573a2f60f96ecd3982aad2e4e760ff9ba0bf2573880d6622"
+    },
+    {
+      "path": "sounds/Follow me (1).ogg",
+      "size": 13074,
+      "sha256": "7d62f85b136b64c26cf6bb53b7e101837dd45341305a2134602b5d2b40e96cc1"
+    },
+    {
+      "path": "sounds/Follow me (2).ogg",
+      "size": 20560,
+      "sha256": "80886780486fb1b6e74b6537e7763af31c46aebdd3934452afaba2dfb7251371"
+    },
+    {
+      "path": "sounds/Follow me (3).ogg",
+      "size": 21648,
+      "sha256": "5689177736b00657a7fe732575cf1078f20513d33b9aa9b826f3cdef2d070a90"
+    },
+    {
+      "path": "sounds/For prosperity! (yell) (1).ogg",
+      "size": 17004,
+      "sha256": "e4275053385de4f78f080a4898573b16a4ade6ddfe0efdacee731eeb3962fcb1"
+    },
+    {
+      "path": "sounds/For prosperity! (yell) (2).ogg",
+      "size": 24998,
+      "sha256": "499a7dd0abb93bb307261d32b3ab2f4e61b12b2a154c0df35d69ec28d28c56cc"
+    },
+    {
+      "path": "sounds/For super earth! (scream).ogg",
+      "size": 28815,
+      "sha256": "6548988bf391faee206a8cef641c564eaf62a5bd711a4aec33520a7edc226e4b"
+    },
+    {
+      "path": "sounds/For super earth! (yell).ogg",
+      "size": 38511,
+      "sha256": "488d3b1e9a5966cb5792606ec6b2be7267007fba5759bbc1c909f1c6708bfbe3"
+    },
+    {
+      "path": "sounds/Found something (1).ogg",
+      "size": 14422,
+      "sha256": "2cc402dbd0cdc7052e682b7276ff6fc4ff0445076b1ffe0a26ac4539ddd2771c"
+    },
+    {
+      "path": "sounds/Found something (2).ogg",
+      "size": 19733,
+      "sha256": "094015ff28acf2becaa6a265cb705c520f9ef279d237a85c50b02f8f96714875"
+    },
+    {
+      "path": "sounds/Found something (3).ogg",
+      "size": 15315,
+      "sha256": "ad033390ca693d644892063e01c5f20ae75a130da84a8676a9cda412bdc64c76"
+    },
+    {
+      "path": "sounds/Found something (4).ogg",
+      "size": 18711,
+      "sha256": "5ce773d3f0552bca022d9b5ca06977d5d2c18600e55d8e13243a21fb58e8ebc8"
+    },
+    {
+      "path": "sounds/Freedom never sleeps (desperate).ogg",
+      "size": 19431,
+      "sha256": "fbdb0a57d12fb1d9eafd5de1de3f156d745e528ea823b83d43188ac79675fb3b"
+    },
+    {
+      "path": "sounds/Get some! (mocking).ogg",
+      "size": 61287,
+      "sha256": "79c05af8455a6880db257f35ca07f90eb0007e5125253b64a40ad808113b8575"
+    },
+    {
+      "path": "sounds/Get some! Get some! (mocking).ogg",
+      "size": 42500,
+      "sha256": "6b6aa21487e53c2a61125b1a9eb330afd9a63d9335281bf0ad1277649a5dd2dd"
+    },
+    {
+      "path": "sounds/Get some, get some!.ogg",
+      "size": 26096,
+      "sha256": "53febab27dc00baf9b32f152dd1fa0dc0e5fdd86ec096e5aee5fbc8cc152bc5a"
+    },
+    {
+      "path": "sounds/Get soooooome! (angry).ogg",
+      "size": 32627,
+      "sha256": "87bf44e75428bc838a9c0c7e89dd82c878586b00f5cfc33f85b671064c744bf2"
+    },
+    {
+      "path": "sounds/Got a sample (1).ogg",
+      "size": 15483,
+      "sha256": "5acad3791359abe7f4078e31f88184dc028d68265118e184f93f99981ffd3657"
+    },
+    {
+      "path": "sounds/Got a sample (2).ogg",
+      "size": 14206,
+      "sha256": "8aabcbc307467a21f2b7831e091c34dd131ee3763429c7282e1a4cb5d471b3f6"
+    },
+    {
+      "path": "sounds/Got a sample (3).ogg",
+      "size": 12686,
+      "sha256": "804aa57ca5abd48895127802260c9852311990bd9f0bf6bec8a006e1bd9c558e"
+    },
+    {
+      "path": "sounds/Got a sample (4).ogg",
+      "size": 19573,
+      "sha256": "8e278eb57aaa6dca2cd22cc4908ec2af29bd4a4e18dcf2ae5aaea231b4961468"
+    },
+    {
+      "path": "sounds/Ha ha ha ha ha! Aaaaaaaaah! (crazy).ogg",
+      "size": 29737,
+      "sha256": "d7a18c1f3779c7ff1238eca05aa97e5e3ba93d797f3cc1752c2a3f80d96984d6"
+    },
+    {
+      "path": "sounds/Haah, ha ha ha ha! (crazy).ogg",
+      "size": 33269,
+      "sha256": "77ac17d57dc4c7e894488ffcfa3aed713634aca22797c0771b74a74f6040c188"
+    },
+    {
+      "path": "sounds/Have a taste of democracy! (angry) (1).ogg",
+      "size": 13638,
+      "sha256": "feb37d4916ae2b9d172a24b894ab4ebb8fd0f604978a2b5c1d95690b6b07861f"
+    },
+    {
+      "path": "sounds/Have a taste of democracy! (angry) (2).ogg",
+      "size": 13675,
+      "sha256": "7295db42dedc73f4b0119a01bbc0f801975ee2a53924bdb3ac714a7f60f3e9bd"
+    },
+    {
+      "path": "sounds/Here (1).ogg",
+      "size": 10943,
+      "sha256": "378e2d4f977198adad5c1ab67720978f01558cf138c3dd9c3e0f2a0005b6d019"
+    },
+    {
+      "path": "sounds/Here (2).ogg",
+      "size": 18750,
+      "sha256": "a448def13f801d8dc179510186b04508dfa199fb4e5790b2201e5e778656f5c9"
+    },
+    {
+      "path": "sounds/Here (3).ogg",
+      "size": 16281,
+      "sha256": "efcb434b6093cc57338a812e9a2d4d4ee125b2d5921d72ee897174d96332d548"
+    },
+    {
+      "path": "sounds/Here (4).ogg",
+      "size": 13482,
+      "sha256": "46787f1862966378dbb8db5d26ba325530d61786e107815f4c6109fa2de86bd0"
+    },
+    {
+      "path": "sounds/Here (5).ogg",
+      "size": 28063,
+      "sha256": "afda86122432fcb2ec8b14bf9322acdf91c09b34901384d30a49e31e2227dac0"
+    },
+    {
+      "path": "sounds/How bout a nice cup of liber-tea (1).ogg",
+      "size": 23259,
+      "sha256": "a7ed5d6876eb7a9da99c00f364fd148980aea9e493e756c6a3864483d5dbdf8c"
+    },
+    {
+      "path": "sounds/How bout a nice cup of liber-tea (2).ogg",
+      "size": 30111,
+      "sha256": "04dd6b4e51407063bf3a84e17dcd15b83809595b6760765248bc81c63217fdc2"
+    },
+    {
+      "path": "sounds/How'd you like the taste of freedom (angry) (1).ogg",
+      "size": 17439,
+      "sha256": "71d86630057004bdd64318ec2314f14ebc9a2fb6e6bd43a4ec4ed91125a29461"
+    },
+    {
+      "path": "sounds/How'd you like the taste of freedom (angry) (2).ogg",
+      "size": 18103,
+      "sha256": "ca38ab7f58f4df0342d6275034f087c1650dad2a8f3fc4f812428a6f5ea8df72"
+    },
+    {
+      "path": "sounds/I need ammo (1).ogg",
+      "size": 18915,
+      "sha256": "9111288088dc07d8c25a5656664144fbe4f06aa93a47641957f0e547712f2196"
+    },
+    {
+      "path": "sounds/I need ammo (2).ogg",
+      "size": 19044,
+      "sha256": "8a1c4b9b8cb8ea0ae90cdf66fc247d55bc103a5dd63821d48d5a6f9e062c49bd"
+    },
+    {
+      "path": "sounds/I need stims (1).ogg",
+      "size": 28132,
+      "sha256": "fda8779048165eead071d57c6abf8aa862db9932e4a023e408d94ed560720cad"
+    },
+    {
+      "path": "sounds/I need stims (2).ogg",
+      "size": 22803,
+      "sha256": "6a5435dcabb1bb8aed80ce4266d9115fc341b7cfaf352988c1376fce9cc1a491"
+    },
+    {
+      "path": "sounds/I need stims (3).ogg",
+      "size": 42474,
+      "sha256": "4028aa295ceaf8a126e93f24ba38a2f7082fb71aa71e68eb8ce5cf49b79726d5"
+    },
+    {
+      "path": "sounds/I need supplies (1).ogg",
+      "size": 17616,
+      "sha256": "1b6aaa25c013888e38656d3cafca0c3a40ba0977b70735f9ac3fd78b550abe96"
+    },
+    {
+      "path": "sounds/I need supplies (2).ogg",
+      "size": 18010,
+      "sha256": "6a9a9395e7ed9a90f53b88c16ed62429a9cf5df864cc1dab035f048996b521b6"
+    },
+    {
+      "path": "sounds/I need supplies (3).ogg",
+      "size": 18366,
+      "sha256": "8450e01a71d0160293a4a8f3ae5cb6672a5fd4ec3c9298e2d201984993f00648"
+    },
+    {
+      "path": "sounds/I need to reload (1).ogg",
+      "size": 14861,
+      "sha256": "d3dde85a55de3dd63f0dd393066c9b29f0e399a9f11c967b20662df0aaa421fe"
+    },
+    {
+      "path": "sounds/I need to reload (2).ogg",
+      "size": 13451,
+      "sha256": "e7e4882ecee4ee19a8cbf7bf962e61f1f7676978a5064bc0dde207cc45440b39"
+    },
+    {
+      "path": "sounds/I'll take it (1).ogg",
+      "size": 14021,
+      "sha256": "3a19a51db8b5c61eb63fb0cc8a6f71820ac680839d5226bb7d2f052ffdd830cd"
+    },
+    {
+      "path": "sounds/I'll take it (2).ogg",
+      "size": 13637,
+      "sha256": "cd73ad1d2d3f268e74d5a77a195453f5825a80732c54ae9ef1da610782dfe497"
+    },
+    {
+      "path": "sounds/I'm bleeding out (grit teeth) (1).ogg",
+      "size": 29039,
+      "sha256": "37019bc88fd896f066583ff80b1c3d01cdec7fdc21444dc41d0164c7345807be"
+    },
+    {
+      "path": "sounds/I'm bleeding out (grit teeth) (2).ogg",
+      "size": 32103,
+      "sha256": "381f6bc8e75faece344c4c475390bd53bbeb69d81b105edf83ff5658b974c25f"
+    },
+    {
+      "path": "sounds/I'm hit! Sweet liberty the blood! (dramatic) (1).ogg",
+      "size": 37675,
+      "sha256": "1725f97963a5e32ee10ad401da6461d1eb8ca9fb0077136c2001e754e02fd4d7"
+    },
+    {
+      "path": "sounds/I'm hit! Sweet liberty the blood! (dramatic) (2).ogg",
+      "size": 33507,
+      "sha256": "f93bb9aa4d2687133b6ea7877ce7446156ffbd330f84bc9c11a317677e9c4dbf"
+    },
+    {
+      "path": "sounds/I'm sorry (1).ogg",
+      "size": 15993,
+      "sha256": "76b21e6e8888e24fd3689961d6dd3876dae836f23f5fb0693f61b75411965466"
+    },
+    {
+      "path": "sounds/I'm sorry (2).ogg",
+      "size": 13556,
+      "sha256": "f6a6dd99e641f03171615218b760a48427dd753e59e70da976c99b88142c5bce"
+    },
+    {
+      "path": "sounds/I'm sorry (3).ogg",
+      "size": 27956,
+      "sha256": "f3c252538839e7e0c839d74c01097143984b58ab468781c53e3a3ca0548320ed"
+    },
+    {
+      "path": "sounds/Liberty save me! (desperate).ogg",
+      "size": 24063,
+      "sha256": "543c98403637fd0fd09469f30e5a99e149800312e52da44209a2531ac8993511"
+    },
+    {
+      "path": "sounds/My arm! (pain) (1).ogg",
+      "size": 22782,
+      "sha256": "f00019635158ffdaf3f496fc7859133b70a878985bf2f1d14a2a30a68835616e"
+    },
+    {
+      "path": "sounds/My arm! (pain) (2).ogg",
+      "size": 20557,
+      "sha256": "7deec922cd7dae6fd307614fe9096e97fdde3163377d6669092b0cc4705c0053"
+    },
+    {
+      "path": "sounds/My leg! (agony) (1).ogg",
+      "size": 19869,
+      "sha256": "cd490a3271e1dd4cc30767054ddec408f90985786561246604e658ce8fabe038"
+    },
+    {
+      "path": "sounds/My leg! (agony) (2).ogg",
+      "size": 24482,
+      "sha256": "7085248104b7ba2f03bc9ab16335c9594f2412eb10dfe5120529591e9e9afe61"
+    },
+    {
+      "path": "sounds/My leg! (agony) (3).ogg",
+      "size": 20771,
+      "sha256": "0e22cfd5624da30888077ccb57d85a5816a32e621154086102ab1e6ac3d5259a"
+    },
+    {
+      "path": "sounds/My leg! (agony) (4).ogg",
+      "size": 19351,
+      "sha256": "3dc57d0d0fdd2b62bb9d5efe7e2d8820f5f845bb7a4714ffcc916d81fd663aab"
+    },
+    {
+      "path": "sounds/Negative (1).ogg",
+      "size": 13503,
+      "sha256": "fdb79890c87b37d5b40d7f4e33a5e41e8b795dd1d71ea1f9d6f4ba87175aa6da"
+    },
+    {
+      "path": "sounds/Negative (2).ogg",
+      "size": 16188,
+      "sha256": "9ff2b00852d6121fd9e19712369b50e3db7ca6090a55b505f00e22444faf57bf"
+    },
+    {
+      "path": "sounds/Negative (3).ogg",
+      "size": 23955,
+      "sha256": "a707ea20776336abbff14b8d6c0c1d4b060e7d50ec6f5dfa5efed1d253fb821d"
+    },
+    {
+      "path": "sounds/Nevermind (1).ogg",
+      "size": 11228,
+      "sha256": "0d779c2f938f2119b70f58a305d92bc1803e860096ec3900952a3bd447d758ec"
+    },
+    {
+      "path": "sounds/Nevermind (2).ogg",
+      "size": 11567,
+      "sha256": "d99bf3782a4a4e763644b771ceb626aae72d6be82990f2cf83b7787e72229587"
+    },
+    {
+      "path": "sounds/New mag (1).ogg",
+      "size": 11559,
+      "sha256": "784c9e4128d837f594143c4f46bcc6c3790ff372f9b7a9832ed4abe6ba5c2cd2"
+    },
+    {
+      "path": "sounds/New mag (2).ogg",
+      "size": 12126,
+      "sha256": "b0a307175e344e37e5ae4800bd96c400f3621c91e8b3e171664d06503887c412"
+    },
+    {
+      "path": "sounds/New mag (3).ogg",
+      "size": 11291,
+      "sha256": "d8e1b735c480c1d48534b6df1c54c9e936bfb6227de2b3d26f3862ac5c4fde00"
+    },
+    {
+      "path": "sounds/New mag (4).ogg",
+      "size": 11235,
+      "sha256": "1743e0ecad8d790973d38f1e5fdf3bbef8b73319b557826a4fa237d0c8fc3b5e"
+    },
+    {
+      "path": "sounds/Nice (1).ogg",
+      "size": 12929,
+      "sha256": "2b7668b69c819bf1f49b69014325a8b7d03187c905e8b552f132f5b1ecb4a95e"
+    },
+    {
+      "path": "sounds/Nice (2).ogg",
+      "size": 13876,
+      "sha256": "283d583086acbc7e2d467db01f437e4cbef79f037e7e77eae3b0bb0b7313150c"
+    },
+    {
+      "path": "sounds/No (1).ogg",
+      "size": 10406,
+      "sha256": "b0194ce05044240b73c66c0fb396a7acb5580aef8b47bf991ccfe9685d1f9b7a"
+    },
+    {
+      "path": "sounds/No (2).ogg",
+      "size": 11995,
+      "sha256": "26f062ad9a3cb43eb39291b954eabfb17560ce3129afd5d69437ffb7eb61bcc5"
+    },
+    {
+      "path": "sounds/No!.ogg",
+      "size": 11112,
+      "sha256": "f7b2ba9532b008d97811ae67d271e0cc69287a07d4a04e054754ecff0875bdc3"
+    },
+    {
+      "path": "sounds/Orbital inbound (1).ogg",
+      "size": 26641,
+      "sha256": "3cf948442ab2f29ba5cae8919f180d2a436b28054584fa058bc3b3fb1fecad6d"
+    },
+    {
+      "path": "sounds/Package (1).ogg",
+      "size": 13277,
+      "sha256": "2676e493c24ce65ea79237fbc23514060090559a2b32bdeaa2a23dcf6852cbc2"
+    },
+    {
+      "path": "sounds/Package (2).ogg",
+      "size": 11187,
+      "sha256": "937acf9e667159fa85498c73bb3b7857948b78b355f2de3601bb956cbc2cb53b"
+    },
+    {
+      "path": "sounds/Package acquired (1).ogg",
+      "size": 12649,
+      "sha256": "956ebeec8044307a5132d5f12e209ef46af4fec2b61dcb2021db31c9d1b79a42"
+    },
+    {
+      "path": "sounds/Package acquired (2).ogg",
+      "size": 13214,
+      "sha256": "c9ecbb172781864d48f3a08f4a2173f931282dcd5af19e604ca3e6863ad77310"
+    },
+    {
+      "path": "sounds/Package acquired (3).ogg",
+      "size": 12531,
+      "sha256": "50e1816dc501fff98f79e55a8ec8a5dc881dc05b5fa677372d5658526dfcd871"
+    },
+    {
+      "path": "sounds/Package acquired (4).ogg",
+      "size": 11585,
+      "sha256": "93965021431b2121cf882807905d73c5f7f6065208207cec7c9e7a00bd53c699"
+    },
+    {
+      "path": "sounds/Reloading (1).ogg",
+      "size": 13732,
+      "sha256": "1558d2b6c5290d9f8b6d8006577d00295331623db3c99d39c7cf94755990eae9"
+    },
+    {
+      "path": "sounds/Reloading (10).ogg",
+      "size": 13666,
+      "sha256": "ddf10de04017891036dcf9faf273e6ae00b32a586dc5aaeb72c62ae8f2a871b0"
+    },
+    {
+      "path": "sounds/Reloading (11).ogg",
+      "size": 13946,
+      "sha256": "e4ecf4f35cb8c31de7c0753a16fa985cc7b863d37d0c1e5c35033458305bf536"
+    },
+    {
+      "path": "sounds/Reloading (12).ogg",
+      "size": 12726,
+      "sha256": "dc817620f2e8d84dcfa76183cf04e7782c385599398801be016d6b56bddbd87a"
+    },
+    {
+      "path": "sounds/Reloading (13).ogg",
+      "size": 13339,
+      "sha256": "70600c10666d496389bb2b99b1f79bf1400fca9ec0747980e4b2f8e3a2e965b5"
+    },
+    {
+      "path": "sounds/Reloading (3).ogg",
+      "size": 12019,
+      "sha256": "3cf5ee1522b449f044a66660b7a9993d8395f692322c8400028687296027dd75"
+    },
+    {
+      "path": "sounds/Reloading (4).ogg",
+      "size": 13677,
+      "sha256": "c1f30df1799dfc980584a2989ca3537ac96b19326ac1745527eeee24feec285d"
+    },
+    {
+      "path": "sounds/Reloading (5).ogg",
+      "size": 14148,
+      "sha256": "4a27f843e83e1d4928bbbffaec837efeb62750cb09f0347b07ae454c509861c8"
+    },
+    {
+      "path": "sounds/Reloading (6).ogg",
+      "size": 14346,
+      "sha256": "5dda2db0e3d0904a6d1c9fcd9fc37e9dc41b7f9d8eb8877c5fe478d41ec049dc"
+    },
+    {
+      "path": "sounds/Reloading (7).ogg",
+      "size": 13590,
+      "sha256": "4e1c9796d51135d3ed71746f1e87da5993b1b7f154121afe2c89468aa34432cb"
+    },
+    {
+      "path": "sounds/Reloading (8).ogg",
+      "size": 11808,
+      "sha256": "e1cf6be3a555854ee25638fae864a6d269993e495f92360ad9df34c9990fce45"
+    },
+    {
+      "path": "sounds/Reloading (9).ogg",
+      "size": 14387,
+      "sha256": "1786a85a0a7ad56e25f379cf54d89949b0ff9116fc6d17327e19f9bdb8b05a1c"
+    },
+    {
+      "path": "sounds/Requesting air support (1).ogg",
+      "size": 22618,
+      "sha256": "eed8e5fe90446479503f81c10e74612a865be6e614db9f8408c16deefd1f869b"
+    },
+    {
+      "path": "sounds/Run! (yell).ogg",
+      "size": 17412,
+      "sha256": "eba1fa60b142e05a2835c5fa90cf46a965ab1c157faa2d26a2b4d6af1c0236a9"
+    },
+    {
+      "path": "sounds/Say hello to democracy (angry) (1).ogg",
+      "size": 13453,
+      "sha256": "1e214d4acf80ce8b289e87abc5315e0b85a6628c68c66d434c9e55d9f719a910"
+    },
+    {
+      "path": "sounds/Say hello to democracy (angry) (2).ogg",
+      "size": 14050,
+      "sha256": "0e917fbf73756e1e461f44c7247535d4d6efb04546813e9ed24b98a27b9cf35c"
+    },
+    {
+      "path": "sounds/Supplies (1).ogg",
+      "size": 13035,
+      "sha256": "23df76b8ee8e30aa6a2f2263c4bdd93cc18eb2e68aaab5838c2142eb22d69ac3"
+    },
+    {
+      "path": "sounds/Supplies (2).ogg",
+      "size": 15332,
+      "sha256": "046e0274c67ad38daa05a2756ad9ecf6bcdf851afb702233f5fa0b23ea4c0c3e"
+    },
+    {
+      "path": "sounds/Sweet liberty my leg! (agony).ogg",
+      "size": 20781,
+      "sha256": "a190616132d24d6da3adf52ef2c5ec5b2663b568fb219a802aabcd5b586b91b9"
+    },
+    {
+      "path": "sounds/Sweet liberty! My arm! (pain).ogg",
+      "size": 34413,
+      "sha256": "c2f677bfe037f6442e5eb225ad8b78a28cf1b14606b315ecc0ea1e7ea107c9f0"
+    },
+    {
+      "path": "sounds/Sweet liberty! My leg! (pain).ogg",
+      "size": 34335,
+      "sha256": "59fe8f5008706cfbe8f1e318bed97cdad0df704e4fc74e593f1040ceed4b549a"
+    },
+    {
+      "path": "sounds/Tactical benefit (1).ogg",
+      "size": 12675,
+      "sha256": "cfc1e7290d75126b5b4658cd5bd1dace39adf184607ff5a215d9948c5df025e0"
+    },
+    {
+      "path": "sounds/Tactical benefit (2).ogg",
+      "size": 12014,
+      "sha256": "78d0353a11aace83b39eece94a08c3f6dd318e5a906a078e862503f2dbd88112"
+    },
+    {
+      "path": "sounds/Thank you (1).ogg",
+      "size": 13706,
+      "sha256": "8c9bebbc85f21c3be6ea33a1a800afd6a83f3d6f180d61691dab56e87b7c25fc"
+    },
+    {
+      "path": "sounds/Thank you (2).ogg",
+      "size": 12323,
+      "sha256": "9e15d06149a19f1597e23bbe8bb5096e4effb381ba9eb22cc132c05f60fef30a"
+    },
+    {
+      "path": "sounds/Thank you (3).ogg",
+      "size": 12583,
+      "sha256": "e062a330cc4136383cfeffa984c3fff69293ad963190b967a5b5bf27795aa93c"
+    },
+    {
+      "path": "sounds/To the skies (1).ogg",
+      "size": 9738,
+      "sha256": "03473da4ca7cc62d47984b503e07df00a6a8eb74f4cda3e1e3546d1aecbc361d"
+    },
+    {
+      "path": "sounds/To the skies (2).ogg",
+      "size": 20325,
+      "sha256": "7a267bd7f5e7d1b8cc5699a8f0860be64c3c10c37598b8e395444544f4a889a2"
+    },
+    {
+      "path": "sounds/To the skies (3).ogg",
+      "size": 14081,
+      "sha256": "c554f48656280f4f32e9b7b6714e37405efb3fd4a471819ae80780f2d1bc894a"
+    },
+    {
+      "path": "sounds/To the skies (4).ogg",
+      "size": 21265,
+      "sha256": "07a2bba57e9d3dbc552ad4926c54a751a14e6d59e80c844233e1519062678af5"
+    },
+    {
+      "path": "sounds/Yes (1).ogg",
+      "size": 9037,
+      "sha256": "0a2d9b2c913489c051c5d741874894bcaad2053a9b1728c32db2f3ba7a919f8a"
+    },
+    {
+      "path": "sounds/Yes (2).ogg",
+      "size": 11363,
+      "sha256": "806784fca4721c7ab6954cfbf8a83d35956396843d7c987fa329034625907d87"
+    },
+    {
+      "path": "sounds/Yes (3).ogg",
+      "size": 10838,
+      "sha256": "e7ad3876af60edaa2b91325eafa8b43bd6e35d3ffc3ba38e1d53788475caf665"
+    },
+    {
+      "path": "sounds/交流相关_不需要_Don't need it (1).ogg",
+      "size": 11477,
+      "sha256": "0b0c3a73579adb01e624778191c8819c8122028d7c25048dacded64eb0459873"
+    },
+    {
+      "path": "sounds/交流相关_不需要_Don't need it (2).ogg",
+      "size": 11901,
+      "sha256": "c1ab5b9cd508164629e54dbd7b75ff524574829f64d3a01711d14b4a17ebc535"
+    },
+    {
+      "path": "sounds/交流相关_了解_Affirmative (1).ogg",
+      "size": 9972,
+      "sha256": "12a058b987fa2b900b51f367a3516b77cb4b6742c1d2a91a56208b9f83972307"
+    },
+    {
+      "path": "sounds/交流相关_了解_Affirmative (2).ogg",
+      "size": 11205,
+      "sha256": "5033e1a74610b20dd5a96cdbb5c01f18801f2d0499e8fcfdb0fe60d438c225b9"
+    },
+    {
+      "path": "sounds/交流相关_了解_Affirmative (3).ogg",
+      "size": 10697,
+      "sha256": "16eb00ee9274130a37708b43894d23da733f6bd5c7bc548a445eb20e43e9d82c"
+    },
+    {
+      "path": "sounds/交流相关_交给我吧_I'll take it (1).ogg",
+      "size": 12649,
+      "sha256": "8fd333ae5dd71a2eff6d1fee14aaae5e25b4e298552b8f4dd1eef00c5729636f"
+    },
+    {
+      "path": "sounds/交流相关_交给我吧_I'll take it (2).ogg",
+      "size": 12363,
+      "sha256": "6b8f35c9f70342e09663cbcddcc3bc1d393d26c9492b461e3f97518ff6ce7384"
+    },
+    {
+      "path": "sounds/交流相关_危险_Danger (1).ogg",
+      "size": 11228,
+      "sha256": "0c9087562ee5488ffdb98c7440a92ab209716dc2e7081360ef8cbd067da44238"
+    },
+    {
+      "path": "sounds/交流相关_危险_Danger (2).ogg",
+      "size": 13385,
+      "sha256": "ff355153d84140be212885b80b9fb61932cfccd77b0d913b54a7c902e7ff765e"
+    },
+    {
+      "path": "sounds/交流相关_反对_Negative (1).ogg",
+      "size": 13663,
+      "sha256": "dfabcf9b62555b2678ff2a6c9d8d1114d9eff8d59f828766a9457084dfa186fd"
+    },
+    {
+      "path": "sounds/交流相关_反对_Negative (2).ogg",
+      "size": 15994,
+      "sha256": "b5b9db16d7402934ec138d04e0bcbc70a4e30943650d327fb0eba6a8affa1c3b"
+    },
+    {
+      "path": "sounds/交流相关_反对_Negative (3).ogg",
+      "size": 23303,
+      "sha256": "ca588fb6cccbb9b1a1a28dba7f236d1d0970a283a6387a67ee7e2dce1692b722"
+    },
+    {
+      "path": "sounds/交流相关_反对_No (1).ogg",
+      "size": 9576,
+      "sha256": "6b980b68f986b5a0d44214220fecab7a85301fb37d69cc418b2414cb5c4898c7"
+    },
+    {
+      "path": "sounds/交流相关_反对_No (2).ogg",
+      "size": 11488,
+      "sha256": "b8af1f089db7431c644f0e758b457390d3df9d76c79eebd2f3aee634f2947b46"
+    },
+    {
+      "path": "sounds/交流相关_反对_No!.ogg",
+      "size": 10893,
+      "sha256": "207fc95b36d110d57f6546afd73a321cc1f7f53a633627a8059bbe344cf9ed29"
+    },
+    {
+      "path": "sounds/交流相关_发现了什么_Found something (1).ogg",
+      "size": 13896,
+      "sha256": "35a86a6a43d7e7950ee5dd6ee80c43b6895de5807d2c8a59c1bf1b7db114ae24"
+    },
+    {
+      "path": "sounds/交流相关_发现了什么_Found something (2).ogg",
+      "size": 18679,
+      "sha256": "1847b459d8b1c23312399c55a57b91182d556b97396906727b44bf045ec1a016"
+    },
+    {
+      "path": "sounds/交流相关_发现了什么_Found something (3).ogg",
+      "size": 14446,
+      "sha256": "af0640c2c4421365314568bfe4c19a77676fc707e9192accc27a9f2df115eb24"
+    },
+    {
+      "path": "sounds/交流相关_发现了什么_Found something (4).ogg",
+      "size": 17371,
+      "sha256": "a9171dba2cae463cccd1989c9e94329a3adcacc6a2541680c1355f50fbc0fe14"
+    },
+    {
+      "path": "sounds/交流相关_发现敌人_Enemy emplacement (1).ogg",
+      "size": 13939,
+      "sha256": "5fd961d4faaa295b28c09e0a9a825835249e475fa38cdb1bdde4affcda7da079"
+    },
+    {
+      "path": "sounds/交流相关_发现敌人_Enemy emplacement (2).ogg",
+      "size": 14141,
+      "sha256": "6d9748c2d656d03e977105e5e736fd6115c4b72941353535390e644b20389917"
+    },
+    {
+      "path": "sounds/交流相关_发现敌人_Enemy spotted (1).ogg",
+      "size": 14590,
+      "sha256": "71ac12f065d064cc5a7f72d36f6f741c2845695b993522e10eb76ddc9844e061"
+    },
+    {
+      "path": "sounds/交流相关_发现敌人_Enemy spotted (2).ogg",
+      "size": 13314,
+      "sha256": "92d47c8ddeef6eefa863fc3ce65415d4c2b2cf443b1c91af9927db74e06fc73c"
+    },
+    {
+      "path": "sounds/交流相关_好耶_Tactical benefit (1).ogg",
+      "size": 11685,
+      "sha256": "f2f49b4119637c954ce87605e98df89e65877529301c1e37a50ced73d1c605a8"
+    },
+    {
+      "path": "sounds/交流相关_好耶_Tactical benefit (2).ogg",
+      "size": 11251,
+      "sha256": "62f3dadf33dba79c83d961f2dd7ebbd6331e42589c93c3c58543bd6bf82d5cd4"
+    },
+    {
+      "path": "sounds/交流相关_我需要弹药_I need ammo (1).ogg",
+      "size": 17764,
+      "sha256": "5843826336d519d0025c344d0e6db5ed6a16d669b66e5b1eeb8fa99dd78dfab7"
+    },
+    {
+      "path": "sounds/交流相关_我需要弹药_I need ammo (2).ogg",
+      "size": 18783,
+      "sha256": "86e2fc976577f0158a5419b02ffaee160e8bb7e0aa78c6aa9657a122ad7495c9"
+    },
+    {
+      "path": "sounds/交流相关_我需要治疗_I need stims (1).ogg",
+      "size": 25510,
+      "sha256": "9c59372fabe5f2513c4861ea3e62d53884597655b5edff60a6d9df6d5ddfefb7"
+    },
+    {
+      "path": "sounds/交流相关_我需要治疗_I need stims (2).ogg",
+      "size": 22241,
+      "sha256": "5b64bba5f5b2751e4748dbbd29963ae7c641d67ed190c8a2898569f424cee0ee"
+    },
+    {
+      "path": "sounds/交流相关_我需要治疗_I need stims (3).ogg",
+      "size": 38838,
+      "sha256": "e87f1b03a5f286f9090d2eb92ec55ba8829319fd27e96b065d65f0169b32ea75"
+    },
+    {
+      "path": "sounds/交流相关_我需要补给_I need supplies (1).ogg",
+      "size": 16909,
+      "sha256": "bbc379ec69965eb47246359d986b223ab3ec9a5c6b2c51547f73c573c69b71ed"
+    },
+    {
+      "path": "sounds/交流相关_我需要补给_I need supplies (2).ogg",
+      "size": 17143,
+      "sha256": "ae0230aac0905dd4587d4dcf70db0a7af8930a411556f26d512c45a0661276e4"
+    },
+    {
+      "path": "sounds/交流相关_我需要补给_I need supplies (3).ogg",
+      "size": 17924,
+      "sha256": "13611eba2c1701ed009393f1b8f7bdcac8fd8cc0b1d5d7f2fa19bfb044056f8d"
+    },
+    {
+      "path": "sounds/交流相关_抱歉_I'm sorry (1).ogg",
+      "size": 14718,
+      "sha256": "2ef37aab505fd156f615febd75541e22b03b5687f7aab2649f6efddc682a1b1f"
+    },
+    {
+      "path": "sounds/交流相关_抱歉_I'm sorry (2).ogg",
+      "size": 13471,
+      "sha256": "f6dc0bb3b252961c171203d6602210fa6abb55adde0935d01b9c77f9a4048af1"
+    },
+    {
+      "path": "sounds/交流相关_抱歉_I'm sorry (3).ogg",
+      "size": 27033,
+      "sha256": "227892faf877df3f69b1a407bd2c6d71bfbcc1cd0f724d358abb640e882d7068"
+    },
+    {
+      "path": "sounds/交流相关_撤退_Fall back (1).ogg",
+      "size": 12064,
+      "sha256": "0a715399c0fdb9cfd59dffd1f3f8281d45ba6c5ce766806f6ba3dc0985fee1bc"
+    },
+    {
+      "path": "sounds/交流相关_撤退_Fall back (2).ogg",
+      "size": 12797,
+      "sha256": "8cf15606945dcefac3c57ab9363070e82c837e1e65a33b209289ce76a628f306"
+    },
+    {
+      "path": "sounds/交流相关_撤退_Fall back (3).ogg",
+      "size": 12175,
+      "sha256": "b58ddb776dbbcc9de71a9a4e75d80795f19fcdafc2ce9bf9a74a9ec0cb1c9b40"
+    },
+    {
+      "path": "sounds/交流相关_算了_Cancel that (1).ogg",
+      "size": 12881,
+      "sha256": "d78747fca17f4b05d06b71dc201b1583179b12a62166376380f3fafc9ec64006"
+    },
+    {
+      "path": "sounds/交流相关_算了_Cancel that (2).ogg",
+      "size": 15521,
+      "sha256": "79d49d7234bc6712b3240330eb467271c5bd8d2bfcfbdcd99876ce2a0bcb7663"
+    },
+    {
+      "path": "sounds/交流相关_算了_Nevermind (1).ogg",
+      "size": 10798,
+      "sha256": "ef407a536df6a36fdf987416ad04fd97622eb9fa44917f26063e38aa78770384"
+    },
+    {
+      "path": "sounds/交流相关_算了_Nevermind (2).ogg",
+      "size": 16216,
+      "sha256": "3f65b9cc888074480719c203954ec6319661223096cc4634d08494700279e19d"
+    },
+    {
+      "path": "sounds/交流相关_给你这个_Here (1).ogg",
+      "size": 10911,
+      "sha256": "40376660f8277fe1bfc3041d6d17dd9a3c975a7e3964c5244732de4a9c8b2502"
+    },
+    {
+      "path": "sounds/交流相关_给你这个_Here (2).ogg",
+      "size": 17136,
+      "sha256": "b607ac4ff4a5a0be08c933ba831f38e8c5d3ef7160b2b38e6bc517fda243543e"
+    },
+    {
+      "path": "sounds/交流相关_给你这个_Here (3).ogg",
+      "size": 14870,
+      "sha256": "0a4a03d1a369b6e0d59128f44272903223ae0c5bd4e406a064f976f40754e721"
+    },
+    {
+      "path": "sounds/交流相关_给你这个_Here (4).ogg",
+      "size": 12833,
+      "sha256": "17bac396152ed780eae3bb15039f10d10541bbda29b0d59cf68d9a0161f34514"
+    },
+    {
+      "path": "sounds/交流相关_给你这个_Here (5).ogg",
+      "size": 27155,
+      "sha256": "786d2b212d70e2b8ef8a6882f653154a499c333fa975aac0bb4cb1e9c8808a7f"
+    },
+    {
+      "path": "sounds/交流相关_给你这个_Supplies (1).ogg",
+      "size": 12816,
+      "sha256": "9775189315f5ac5a0eddfed300d93f9720cca2e434acdaca79aeb5e24cb8d976"
+    },
+    {
+      "path": "sounds/交流相关_给你这个_Supplies (2).ogg",
+      "size": 14553,
+      "sha256": "3a67c5fecde4dd476a6664a6f10cfae1caeb79e60d4eddfaf067048e05560356"
+    },
+    {
+      "path": "sounds/交流相关_让我看看_Engaging terminal.ogg",
+      "size": 14255,
+      "sha256": "7103461c2e09d30dce4fe3401e806803e21c8e2432a8ba14062105d8f7b392b8"
+    },
+    {
+      "path": "sounds/交流相关_请求支援_Calling in an eagle (1).ogg",
+      "size": 19707,
+      "sha256": "1f315ebba1bab80b6b210f4893f41c9a42b69a10439faba2a0b28fdbe72be9ab"
+    },
+    {
+      "path": "sounds/交流相关_请求支援_Calling in an eagle (2).ogg",
+      "size": 17133,
+      "sha256": "0e4a868dd00331c142b120874282dfc9481c836f80b9985bd9c77861f1d9b38e"
+    },
+    {
+      "path": "sounds/交流相关_请求支援_Calling in an orbital strike (2).ogg",
+      "size": 19057,
+      "sha256": "e17d642d35fae1f1a3d863decee42dd2272f2bb1387ea538297ac45bfa702c03"
+    },
+    {
+      "path": "sounds/交流相关_请求支援_Orbital inbound (1).ogg",
+      "size": 24233,
+      "sha256": "c9f7cea429ab7e74b01882840049524b06c60fd9e2c5c956992d7c5671d7e6cb"
+    },
+    {
+      "path": "sounds/交流相关_请求支援_Requesting air support (1).ogg",
+      "size": 22575,
+      "sha256": "64c4ad0fbe69821d0658d92c7754e9cb85891a8d9bc603b7959ba256a9de68ee"
+    },
+    {
+      "path": "sounds/交流相关_谢谢_Thank you (1).ogg",
+      "size": 14208,
+      "sha256": "6c643034e01b9708f7e576cb74a9d01b2690f6bda9b19650904b267b673d6fe7"
+    },
+    {
+      "path": "sounds/交流相关_谢谢_Thank you (2).ogg",
+      "size": 11306,
+      "sha256": "a76c929b0625ccd184126351d57b4c3f5da16c3cf068257802eeefa401b25786"
+    },
+    {
+      "path": "sounds/交流相关_谢谢_Thank you (3).ogg",
+      "size": 12193,
+      "sha256": "318ae5289f69e864741ed187ccddedca2fb03e6eb7e1fd025dc597b682a530ac"
+    },
+    {
+      "path": "sounds/交流相关_赞成_Done (1).ogg",
+      "size": 14258,
+      "sha256": "da7924eabf4005e40bb4e636e4f21aae3aebb907c2fa02fb1d8e53426a42c96a"
+    },
+    {
+      "path": "sounds/交流相关_赞成_Done (2).ogg",
+      "size": 11304,
+      "sha256": "18313bcd1522f930b37849f6dc63d4cbb0641297a0f57638c34ac2013b19ffe3"
+    },
+    {
+      "path": "sounds/交流相关_赞成_Done (3).ogg",
+      "size": 14798,
+      "sha256": "40b7c69fc0b0900432e5e84f6f0248376eabc1980c36be6a7e2589a848b3784b"
+    },
+    {
+      "path": "sounds/交流相关_赞成_Nice (1).ogg",
+      "size": 11917,
+      "sha256": "cad46cd75f49d8887ad67b9de5d5f301d80a92fd589b84d722b89c6a4a17e713"
+    },
+    {
+      "path": "sounds/交流相关_赞成_Nice (2).ogg",
+      "size": 12777,
+      "sha256": "43449fac4e8a729830ff57e3198392b2044a9bb02b3ed856b351aa2c6a07a0da"
+    },
+    {
+      "path": "sounds/交流相关_赞成_Yes (1).ogg",
+      "size": 8455,
+      "sha256": "fe696393871b0a35342a3878a50a5ed8daf3aac578fd1dd62529ec6eec3f338e"
+    },
+    {
+      "path": "sounds/交流相关_赞成_Yes (2).ogg",
+      "size": 11363,
+      "sha256": "7a2804f722c17c1364b8afa44c0e28b50f85d459128111c514bb2e3990d5c7af"
+    },
+    {
+      "path": "sounds/交流相关_赞成_Yes (3).ogg",
+      "size": 10691,
+      "sha256": "2fa87b1526727f0c45e8529efd1e355e88457ab6fb7c8b2e160b1310cfe196cf"
+    },
+    {
+      "path": "sounds/交流相关_跟着我_Follow me (1).ogg",
+      "size": 12419,
+      "sha256": "401260a8c91b12520a656d6b35490f16c65056311542d3c9055c88da39d4f6b7"
+    },
+    {
+      "path": "sounds/交流相关_跟着我_Follow me (2).ogg",
+      "size": 19380,
+      "sha256": "82d00f1ff07bcc84ded3caa53d672107fc4dc54a55108f76c8eb36932c733151"
+    },
+    {
+      "path": "sounds/交流相关_跟着我_Follow me (3).ogg",
+      "size": 21394,
+      "sha256": "dda298de887aed2de4acdc099eff9a87a48e981e4b775355c83631d0c6b731e2"
+    },
+    {
+      "path": "sounds/受伤_轻伤1.ogg",
+      "size": 12723,
+      "sha256": "ad3d65c28e2ba140ae43a022372eb3b5af0c23010ebd871d5d4e21d8acc03e79"
+    },
+    {
+      "path": "sounds/受伤_轻伤2.ogg",
+      "size": 10399,
+      "sha256": "d601961b4c577d36e3ba1a4cd4406123b0418bc5b866590e20099f21661871e5"
+    },
+    {
+      "path": "sounds/受伤_轻伤3.ogg",
+      "size": 9955,
+      "sha256": "97f578d9487f2ed801179f2744a6c3fcb9d6f4643bc14daf40dce03bc888971d"
+    },
+    {
+      "path": "sounds/受伤_轻伤4.ogg",
+      "size": 9448,
+      "sha256": "7cdbc33128c3859959c1434a546294d9a587e2e0a969991c87bc254efe31cae2"
+    },
+    {
+      "path": "sounds/受伤_轻伤5.ogg",
+      "size": 9679,
+      "sha256": "f64acc10a9e6337848ba18a8c6224c3cc3cb11e4131a8f22817ed9e952a73ef8"
+    },
+    {
+      "path": "sounds/受伤_重伤1.ogg",
+      "size": 23323,
+      "sha256": "484e9d5a17804325bf7849634f80b9bb774640f06203e140a47805e807f96562"
+    },
+    {
+      "path": "sounds/受伤_重伤2.ogg",
+      "size": 13838,
+      "sha256": "f7899241fd3a252af2419b1196ea73af3b07a0548aa5f7667116e6ee271c5020"
+    },
+    {
+      "path": "sounds/受伤_重伤3.ogg",
+      "size": 13258,
+      "sha256": "df10cb0a09c4f35810a449df315637458010d153d19b210bc60cf7bb99563ca2"
+    },
+    {
+      "path": "sounds/受伤_重伤4.ogg",
+      "size": 13207,
+      "sha256": "468319889cb4280a48b1c41d0ee8241ffb4d832c2e0780475ed99032f37e1776"
+    },
+    {
+      "path": "sounds/受伤_重伤5.ogg",
+      "size": 10399,
+      "sha256": "b2df2012a7e0085640b6cd26232d3b9bd292f681ba3a5c15df335f49007d4a68"
+    },
+    {
+      "path": "sounds/喷气背包_Activating jump pack (2).ogg",
+      "size": 21965,
+      "sha256": "446a8c4f9cf75598608522062d75f5c482bee8e606b891e72215385420ab3ebd"
+    },
+    {
+      "path": "sounds/喷气背包_Activating jump pack (3).ogg",
+      "size": 16999,
+      "sha256": "7448f9d0e37c9307be478646b05236b71fa5c4d2ae00e7b751ea2a78dcf80828"
+    },
+    {
+      "path": "sounds/喷气背包_Activating jump pack (4).ogg",
+      "size": 19456,
+      "sha256": "ca5b4f310ecd4583f9cdbf946ee84fd2d759df3e1511a6e9d023ded650dfb124"
+    },
+    {
+      "path": "sounds/喷气背包_To the skies (1).ogg",
+      "size": 9716,
+      "sha256": "65c179f18c8e9effe852cb6a689f18c6b71f703949e4d72b27b7431031383fe2"
+    },
+    {
+      "path": "sounds/喷气背包_To the skies (2).ogg",
+      "size": 19301,
+      "sha256": "ac55527f37dde6aa8e597e9406b518587b0d99c6460babeeaa06a94e1fb8b056"
+    },
+    {
+      "path": "sounds/喷气背包_To the skies (3).ogg",
+      "size": 13559,
+      "sha256": "8befd7bb1226c348c4b3daf614324dcd6de15e0946837ed28ad5cad7ef4b5d5a"
+    },
+    {
+      "path": "sounds/喷气背包_To the skies (4).ogg",
+      "size": 19106,
+      "sha256": "601a93f4acc4315424e468fcab3cb15d0c65b5f32547ac7c02f640abdffd8b2b"
+    },
+    {
+      "path": "sounds/喷火器_Burn in the fires of democracy! (passionate).ogg",
+      "size": 14943,
+      "sha256": "e7466d9ef65928f5d5811a18f6abd0877d7f0517b58d72018aea9072a5d4c72c"
+    },
+    {
+      "path": "sounds/喷火器_Burn in the fires of democracy! (yell).ogg",
+      "size": 23099,
+      "sha256": "cbaca297cad85926e928a26a8e13cbc408ab8cfef1a3d4658e6f0b1f0501bb7d"
+    },
+    {
+      "path": "sounds/战斗_光之剑_Deploying flare (1).ogg",
+      "size": 27099,
+      "sha256": "d95992d68da6e9bf19cb625f15461c6bddd0c56cc78b71448e3f7ea99d36cb12"
+    },
+    {
+      "path": "sounds/战斗_光之剑_Deploying flare (4).ogg",
+      "size": 25370,
+      "sha256": "1c9f2d8e7cadee4b73bf90cd0361876c38026506b85d9537f2892a9892c6dd2f"
+    },
+    {
+      "path": "sounds/战斗_兴奋_For prosperity! (yell) (1).ogg",
+      "size": 24700,
+      "sha256": "b42a55d2a7af3a76b05d0baf1a1c0e7b6b22e899baabc32db43b99321052bbc5"
+    },
+    {
+      "path": "sounds/战斗_兴奋_For prosperity! (yell) (2).ogg",
+      "size": 23698,
+      "sha256": "60e012fc48c89c433ea95c721a4c0345f5fb5461319893c2a274d5ce9406413a"
+    },
+    {
+      "path": "sounds/战斗_兴奋_For super earth! (scream).ogg",
+      "size": 40016,
+      "sha256": "dc95764ce5a7ac3410b48155bf8f0847c68a375434bebe009421d7c1bc10bc1f"
+    },
+    {
+      "path": "sounds/战斗_兴奋_For super earth! (yell).ogg",
+      "size": 36659,
+      "sha256": "230efc628d38a2fb68cb068079d277c38032a4c99a4d0c66d3b9abb776ee3fe0"
+    },
+    {
+      "path": "sounds/战斗_兴奋_Get some! (mocking).ogg",
+      "size": 33784,
+      "sha256": "d8236a129bba05b8905c21017492c85ab231abbdd72cb23397cd32ab95a38ad6"
+    },
+    {
+      "path": "sounds/战斗_兴奋_Get some! Get some! (mocking).ogg",
+      "size": 17834,
+      "sha256": "05ae47f4b4d239903c961734e655ad404f4953a80c6bf24e92218c5bc8df300e"
+    },
+    {
+      "path": "sounds/战斗_兴奋_Get some, get some!.ogg",
+      "size": 24304,
+      "sha256": "145cc61f06ee3861efdcf82419fd99887be45ec2eda8bf15f6b35d05988eedcd"
+    },
+    {
+      "path": "sounds/战斗_兴奋_Get soooooome! (angry).ogg",
+      "size": 30819,
+      "sha256": "9b3d1a22462faea2e858ccea9cc4d5a363a4464420feceb39bf0245eb66c51dd"
+    },
+    {
+      "path": "sounds/战斗_兴奋_Ha ha ha ha ha! Aaaaaaaaah! (crazy).ogg",
+      "size": 28279,
+      "sha256": "be4f53f6204928849bd60fa3f9394b58479b4f6b9d31450cc460fed1b905c659"
+    },
+    {
+      "path": "sounds/战斗_兴奋_Haah, ha ha ha ha! (crazy).ogg",
+      "size": 49124,
+      "sha256": "4ebbbb45d0e9d9ebebbee68c5bde9d9728d1a5edf4efc70c39287ef41dd775cc"
+    },
+    {
+      "path": "sounds/战斗_兴奋_Have a taste of democracy! (angry) (1).ogg",
+      "size": 13544,
+      "sha256": "aa8747e54c8b477af7089f82545b9acf732466fcd69182481d1f771b6a80e5d4"
+    },
+    {
+      "path": "sounds/战斗_兴奋_Have a taste of democracy! (angry) (2).ogg",
+      "size": 14195,
+      "sha256": "0035112b8ec2567d08061bab624742d2422d27debd3082ddf295f8d48a0b0b57"
+    },
+    {
+      "path": "sounds/战斗_兴奋_How bout a nice cup of liber-tea (1).ogg",
+      "size": 22030,
+      "sha256": "4c0bd04f9dc50a470a6e060cca44a731e2e051809738ed285fe8bfb4f23601d0"
+    },
+    {
+      "path": "sounds/战斗_兴奋_How bout a nice cup of liber-tea (2).ogg",
+      "size": 28217,
+      "sha256": "9608361bf86237174ed0a765e5df8f655b71c56c0e8583ea2451ef9426bb5fb5"
+    },
+    {
+      "path": "sounds/战斗_兴奋_How'd you like the taste of freedom (angry) (1).ogg",
+      "size": 16538,
+      "sha256": "b81353bcc0932d7da25198ac1c2c522088dc41bc81c4e168dc1d8303c588a6ca"
+    },
+    {
+      "path": "sounds/战斗_兴奋_How'd you like the taste of freedom (angry) (2).ogg",
+      "size": 16875,
+      "sha256": "df7f81e1cd6b0550cae85cbff9b31f520cc22d7d7523c5feb3f6e562e2a33222"
+    },
+    {
+      "path": "sounds/战斗_兴奋_Say hello to democracy (angry) (1).ogg",
+      "size": 13479,
+      "sha256": "1ef252b63ee9e85a9a0756c272dbe7e0d9cb97d5cad51d877d08e9e2022fb560"
+    },
+    {
+      "path": "sounds/战斗_兴奋_Say hello to democracy (angry) (2).ogg",
+      "size": 13977,
+      "sha256": "ef7da9f9032069c672bb1f199c9e62cff8c54ddda2b9fcc8af327f0c735eff0e"
+    },
+    {
+      "path": "sounds/战斗_手雷_Fire in the hole (1).ogg",
+      "size": 12246,
+      "sha256": "d78db00539166d6234c227013a875dfc0a95fc06c485bfbe773ae94fc23956cf"
+    },
+    {
+      "path": "sounds/战斗_手雷_Fire in the hole (2).ogg",
+      "size": 15301,
+      "sha256": "2074cf3b3c8152f5223f4933ae312f2d54b19a51e43bdc1aa8e852d6cab7184a"
+    },
+    {
+      "path": "sounds/战斗_手雷_Fire in the hole (3).ogg",
+      "size": 10689,
+      "sha256": "7b8d6f631e08afa8c3159950eebf7661be8d4b411d8a45d64ac2461c1236811f"
+    },
+    {
+      "path": "sounds/战斗_手雷_Fire in the hole (4).ogg",
+      "size": 18621,
+      "sha256": "5cdc29ddfc67c91aedc0510ab6ec7d0c7bb9830288a464dea345cdf454c11c6e"
+    },
+    {
+      "path": "sounds/战斗_手雷_Throwing grenade (1).ogg",
+      "size": 18975,
+      "sha256": "3e073214c5fad468a127c5a65300cfbb4a6d0b0a4d8bef71437afef37b63c6e0"
+    },
+    {
+      "path": "sounds/战斗_手雷_Throwing grenade (2).ogg",
+      "size": 21671,
+      "sha256": "5a9c893ae0fef48c0e9fc3d26be69406b5cb9a21e0c6310f39ea8fb9223a7cde"
+    },
+    {
+      "path": "sounds/战斗_换弹_I need to reload (1).ogg",
+      "size": 14121,
+      "sha256": "d83e50ca16516014ebc34f30ac669518eae28ea331449f947475f47100497816"
+    },
+    {
+      "path": "sounds/战斗_换弹_I need to reload (2).ogg",
+      "size": 13020,
+      "sha256": "594468f3c88465186152e0e82a307e3229db24c77ebb44d10ccaa8924bcf8634"
+    },
+    {
+      "path": "sounds/战斗_换弹_New mag (1).ogg",
+      "size": 10613,
+      "sha256": "b8f959cd7c17d5ae20e246c1313c0039337cc0eca64be6ca88cf73f934998011"
+    },
+    {
+      "path": "sounds/战斗_换弹_New mag (2).ogg",
+      "size": 12156,
+      "sha256": "9e3543596916b37ada76cf9c98bff97d2144fa1c0db8478b3248259cfc2173b1"
+    },
+    {
+      "path": "sounds/战斗_换弹_New mag (3).ogg",
+      "size": 11389,
+      "sha256": "b710592c46295917c5dd8abab45a559ba473dd91b6c85b7249ca02a568c9679f"
+    },
+    {
+      "path": "sounds/战斗_换弹_New mag (4).ogg",
+      "size": 10568,
+      "sha256": "89c34146882b7d7947ff1a7c076fb85cc9918bf2e9dad54cc1be80ce3f05c10e"
+    },
+    {
+      "path": "sounds/战斗_换弹_Reloading (1).ogg",
+      "size": 13584,
+      "sha256": "2b15f7ca53478e5087637bd4773aee81e041dc3a577185afd1988d300dd1ac79"
+    },
+    {
+      "path": "sounds/战斗_换弹_Reloading (10).ogg",
+      "size": 13113,
+      "sha256": "360566d424584a9d868b993f11d0c87419b1e5628525b0f6d860dec59921ab72"
+    },
+    {
+      "path": "sounds/战斗_换弹_Reloading (11).ogg",
+      "size": 13479,
+      "sha256": "34d057304e7c22745689f2fddb836fb552fac3087e74449d4b04b8821e1ad652"
+    },
+    {
+      "path": "sounds/战斗_换弹_Reloading (12).ogg",
+      "size": 11780,
+      "sha256": "d3a4cd05e4e9990e103fbf1e83d4e8d1be80a546a35be13a3ad2f02d3b07c427"
+    },
+    {
+      "path": "sounds/战斗_换弹_Reloading (13).ogg",
+      "size": 13003,
+      "sha256": "6fd7a96d1386620d24dbc64f984f537091fd15d23aca34abf5493d146dcf5dbc"
+    },
+    {
+      "path": "sounds/战斗_换弹_Reloading (3).ogg",
+      "size": 12154,
+      "sha256": "e938c5df8e7c240c6b2c2a629f2a3bf2e2a3e8390ecd57c2cf5ba9de94178ff0"
+    },
+    {
+      "path": "sounds/战斗_换弹_Reloading (4).ogg",
+      "size": 12624,
+      "sha256": "fe7d01faf65a7b765d8ae076f051a2df1403382424b6e9b724bb9cb5fc2fb3a8"
+    },
+    {
+      "path": "sounds/战斗_换弹_Reloading (5).ogg",
+      "size": 14249,
+      "sha256": "956a6598974176152c6a5eeb52c082e14519d63d80747314b77d4113d9dbe1e6"
+    },
+    {
+      "path": "sounds/战斗_换弹_Reloading (6).ogg",
+      "size": 13738,
+      "sha256": "5c2a66d7424088d9a2fe7866d8abb418dcd02b8733e1c3bfedbd02a62dd97836"
+    },
+    {
+      "path": "sounds/战斗_换弹_Reloading (7).ogg",
+      "size": 13696,
+      "sha256": "ab4810bd98ec6f81dc99fd4cac63aad6401ad03519699817c393273b4eda3761"
+    },
+    {
+      "path": "sounds/战斗_换弹_Reloading (8).ogg",
+      "size": 10878,
+      "sha256": "152040d9a628b840815a44c300447d47519745a7e8fdca3062b8412bdba73d87"
+    },
+    {
+      "path": "sounds/战斗_换弹_Reloading (9).ogg",
+      "size": 14561,
+      "sha256": "96c10b8472067a54d8798d4984554c38dba38c85a57ed101f45a084d7cbfd4a0"
+    },
+    {
+      "path": "sounds/战斗_获得武器_Freedom requires firepower (1).ogg",
+      "size": 41278,
+      "sha256": "7c8af30bc0d358e4d83930cbeca5875108ee462861aa4602f6d3904ff38ea4d3"
+    },
+    {
+      "path": "sounds/战斗_获得武器_Freedom requires firepower (2).ogg",
+      "size": 29115,
+      "sha256": "5d029adcb5f380c23d21130343d884d430060a52bfc76b9e2022e74cd8484bf5"
+    },
+    {
+      "path": "sounds/战斗_获得物品_Got a sample (1).ogg",
+      "size": 21178,
+      "sha256": "169d68039db199aeff25fa51570cf0222fb011fac20d597ffdaf9ea2c33a260a"
+    },
+    {
+      "path": "sounds/战斗_获得物品_Got a sample (2).ogg",
+      "size": 13556,
+      "sha256": "4b1803695464e9f6fbe8ffc025fd21350f179ff7434c8c566ed5507214edbeaa"
+    },
+    {
+      "path": "sounds/战斗_获得物品_Got a sample (3).ogg",
+      "size": 10506,
+      "sha256": "1fd551320b78ba71b14762985e523a36c9e8f4f5b85a4989c384dd8b4fd52664"
+    },
+    {
+      "path": "sounds/战斗_获得物品_Got a sample (4).ogg",
+      "size": 18947,
+      "sha256": "29c1176a5d63e039dc694ed9d795b54f866a170136a750d600c5e1fc1f726bd4"
+    },
+    {
+      "path": "sounds/抱起_Dropping package (1).ogg",
+      "size": 15468,
+      "sha256": "325cc3b22e43994b9b41a8b23daf731b8b8082033e5226c3277004b7dbf42b13"
+    },
+    {
+      "path": "sounds/抱起_Dropping package (2).ogg",
+      "size": 14205,
+      "sha256": "bf09425a2eb6c12bc10cf181aa9d6d25a9d739669f18bdbfd04f595fc8b54064"
+    },
+    {
+      "path": "sounds/抱起_Dropping package (3).ogg",
+      "size": 15049,
+      "sha256": "f9e1ee6de6617846bd00c75a13ed8d2a929ed772f6e62d0fbad4090d0a5fcaae"
+    },
+    {
+      "path": "sounds/抱起_Dropping package (4).ogg",
+      "size": 14138,
+      "sha256": "fbd64275e85d59f01c7afc82085b9a0819ccdc535710b58dd60e072e70c91711"
+    },
+    {
+      "path": "sounds/抱起_Package acquired (1).ogg",
+      "size": 11745,
+      "sha256": "472ca9d451a03031d6bd72bbd27f31483fa4413a92ca772b54fe87a595fb0c4b"
+    },
+    {
+      "path": "sounds/抱起_Package acquired (2).ogg",
+      "size": 12089,
+      "sha256": "1d7bd3e8e499170e4bd344957dfdb5adbc398bf55c5151aa71dd7dad5422ac3f"
+    },
+    {
+      "path": "sounds/抱起_Package acquired (3).ogg",
+      "size": 12208,
+      "sha256": "57f598996355a248e62b58a26e581a6967540430c812bb324a95624406d7b1d0"
+    },
+    {
+      "path": "sounds/抱起_Package acquired (4).ogg",
+      "size": 11448,
+      "sha256": "a5af4494d40bf054a7f58d99838137c4596c5c4c5febe58bc38257e8b10dc58a"
+    },
+    {
+      "path": "sounds/生命相关_A little shot of liberty.ogg",
+      "size": 22615,
+      "sha256": "bf90bd6606114e69551c2b59cf423a84c88b700985cbdd54c240d496abdfec0c"
+    },
+    {
+      "path": "sounds/生命相关_Can't liberate with this broken arm! (grit teeth).ogg",
+      "size": 60038,
+      "sha256": "ad6b137afc539989464890c967d3c3288af683d410eb013e8bdc2e551819e440"
+    },
+    {
+      "path": "sounds/生命相关_Can't liberate with this broken arm! (pain).ogg",
+      "size": 45390,
+      "sha256": "8f37ea3e3a0ddb572f049d48abd8ee08dd59222e09e23e4ac98ecacec9183c37"
+    },
+    {
+      "path": "sounds/生命相关_Can't survive these wounds much longer (pain).ogg",
+      "size": 33181,
+      "sha256": "60fc1bad0710862c07cd1d5270eb5a21e6c0ef473b064116a3c893ada1984c0e"
+    },
+    {
+      "path": "sounds/生命相关_Can't survive these wounds much longer! (grit teeth).ogg",
+      "size": 22260,
+      "sha256": "b62dc02cfca2f7293d58aeadcc07456f269d88bbefe3538f60a6306790dc7bcc"
+    },
+    {
+      "path": "sounds/生命相关_Feels good! (euphoric).ogg",
+      "size": 15420,
+      "sha256": "84fee8a8b9f99211572da55decc0591431734d0fcfdeba83b06f4ef99b938ef9"
+    },
+    {
+      "path": "sounds/生命相关_Feels good! (junkie).ogg",
+      "size": 17109,
+      "sha256": "631e95cdedc8a8baed761bb768aa5cea36daf215a8ea79eeb343a294557dfd12"
+    },
+    {
+      "path": "sounds/生命相关_Flag forsaken leg, slowing me down! (grit teeth) (1).ogg",
+      "size": 43909,
+      "sha256": "5d77c6d62c7b4f2c8e5a5f7362526e661836529ecbe001d989068e87b451fd29"
+    },
+    {
+      "path": "sounds/生命相关_Flag forsaken leg, slowing me down! (grit teeth) (2).ogg",
+      "size": 56764,
+      "sha256": "8737f15674602c11121dfca2d7e57afcb7d72b55690382a67bc212ab3a7574b3"
+    },
+    {
+      "path": "sounds/生命相关_Freedom never sleeps (desperate).ogg",
+      "size": 18643,
+      "sha256": "0328d769ff5c566c9109194473e8c31cf76f779ca5e8211863acdcbb14ae808c"
+    },
+    {
+      "path": "sounds/生命相关_I'm bleeding out (grit teeth) (1).ogg",
+      "size": 46987,
+      "sha256": "553a07de1d8e92aacfd765c7cd4ed84ffd5e9e3a406ee3a6cbc16db489f97701"
+    },
+    {
+      "path": "sounds/生命相关_I'm bleeding out (grit teeth) (2).ogg",
+      "size": 31167,
+      "sha256": "3d6d76ef61297d4d5bfe2986646949a310d4e5bcaa633553c7200e34296d1fe6"
+    },
+    {
+      "path": "sounds/生命相关_I'm hit! Sweet liberty the blood! (dramatic) (1).ogg",
+      "size": 37789,
+      "sha256": "f0e197a4c0e7fea290b40851809625de20e07620c3d9ab25628ef3b3795c3308"
+    },
+    {
+      "path": "sounds/生命相关_I'm hit! Sweet liberty the blood! (dramatic) (2).ogg",
+      "size": 31876,
+      "sha256": "323bab7826ba2e4e5288e04cc4c475dca7178046259ddd84c44bda98cbcf9352"
+    },
+    {
+      "path": "sounds/生命相关_Liberty save me! (desperate).ogg",
+      "size": 34911,
+      "sha256": "e1faeeb2f5eeaa13207ff1b92b05c093c2e60f58d81369368e998d00e73bdfff"
+    },
+    {
+      "path": "sounds/生命相关_My arm! (pain) (1).ogg",
+      "size": 21088,
+      "sha256": "8d9d82e70ca01d3ca179fc5d8232d0f097351057e9b34ce979379f7482550e25"
+    },
+    {
+      "path": "sounds/生命相关_My arm! (pain) (2).ogg",
+      "size": 18709,
+      "sha256": "ca78fe75dc71039c145e45c43d5a6b7effa50f241aacaccabfdc22a143f55ee9"
+    },
+    {
+      "path": "sounds/生命相关_My leg! (agony) (1).ogg",
+      "size": 18229,
+      "sha256": "674f25ae7254e4fcbc71d7da794eb706ca6e4c09f4cea054d291caa8cee6ece0"
+    },
+    {
+      "path": "sounds/生命相关_My leg! (agony) (2).ogg",
+      "size": 21593,
+      "sha256": "628e25f7ef8779ea81377c2ec4ed23462ddb0df23f278c91f33e53fe6a00d9d7"
+    },
+    {
+      "path": "sounds/生命相关_My leg! (agony) (3).ogg",
+      "size": 19248,
+      "sha256": "08d2f05d34b34b28607a73e5aa49094c50a3f9d45785d78a92bd5b21c401c503"
+    },
+    {
+      "path": "sounds/生命相关_My leg! (agony) (4).ogg",
+      "size": 17869,
+      "sha256": "18b2a753f81d5d293b382c7c546cd7a01142b325b596180b8241e8e3e1eb447a"
+    },
+    {
+      "path": "sounds/生命相关_Sweet liberty my leg! (agony).ogg",
+      "size": 19258,
+      "sha256": "60e881a7d8b83bb1481a31f53c349722834a36ce1cfbc3d565b4ff87aefa7253"
+    },
+    {
+      "path": "sounds/生命相关_Sweet liberty! My arm! (pain).ogg",
+      "size": 32575,
+      "sha256": "c29363522ab2149e93b7b18021c0020dcf185873ca7f6c5b38c6ccf2a843d4d0"
+    },
+    {
+      "path": "sounds/生命相关_Sweet liberty! My leg! (pain).ogg",
+      "size": 33232,
+      "sha256": "24e83a07a75717e356c7246f5b8fed1f938b6cb55c89979a7da24bcec891f8ae"
+    },
+    {
+      "path": "sounds/背包_Package (1).ogg",
+      "size": 13056,
+      "sha256": "06470a922392dcf75911f4b5df11e888723d4b08a873448132e3d96bdb06b166"
+    },
+    {
+      "path": "sounds/背包_Package (2).ogg",
+      "size": 10997,
+      "sha256": "e4f593f751aa6eda2a8e36c1f9243e9b1c029cead616b3c60c3c10b13cc3e0f7"
+    },
+    {
+      "path": "sounds/萝莉摇.ogg",
+      "size": 127199,
+      "sha256": "db0988c36b77618c324e22745d0f6064768b1e0f888edb1af6414e5b2597d659"
+    },
+    {
+      "path": "sounds/跑路_Run! (yell).ogg",
+      "size": 15838,
+      "sha256": "c7575787893c2ccce97aea95a8edffd3de53a43aa199f2565c781305a3b44329"
+    },
+    {
+      "path": "sounds/轻伤1.ogg",
+      "size": 13408,
+      "sha256": "23b71d7cf2a51b06cfc694aba16c568e3dcdb8970bff59e66527ddff35758108"
+    },
+    {
+      "path": "sounds/轻伤2.ogg",
+      "size": 10429,
+      "sha256": "ef40ff717355ecd88f8e33e0203625b91b67d92b8c2a19044065569369eab831"
+    },
+    {
+      "path": "sounds/轻伤3.ogg",
+      "size": 11174,
+      "sha256": "3ce720a7289dd19d0c0eb333504f3bdf9aca5e61580afb5c4ce9a18a6e9e0a22"
+    },
+    {
+      "path": "sounds/轻伤4.ogg",
+      "size": 10175,
+      "sha256": "89a085276b0036e29d55415a7ef39cca233815be0d31a19954b52678947ef51b"
+    },
+    {
+      "path": "sounds/轻伤5.ogg",
+      "size": 10112,
+      "sha256": "1c691444e583e9ebe11cfcae0701c23dcec522caf246d2e166a71da788343a22"
+    },
+    {
+      "path": "sounds/重伤1.ogg",
+      "size": 13551,
+      "sha256": "c502ca4d45d3e7438aa1911b5b12da5da98f68ec0501ff1e08394a8e8555ca71"
+    },
+    {
+      "path": "sounds/重伤2.ogg",
+      "size": 10066,
+      "sha256": "b47d7d17e984632cda8ddcea75624820f783447a7d15a8b187179a600effa6b8"
+    },
+    {
+      "path": "sounds/重伤3.ogg",
+      "size": 8833,
+      "sha256": "c4cf758f1a61926a7fe40fb5e4728e7ae27ac33f2ae89f6d2a9500d2236ad81f"
+    },
+    {
+      "path": "sounds/重伤4.ogg",
+      "size": 9418,
+      "sha256": "71aaeba0b0167a374dfbba9b20201c75c26f49e2a168117dbd88e22e93477d52"
+    },
+    {
+      "path": "sounds/重伤5.ogg",
+      "size": 10429,
+      "sha256": "54cb7d7072f20b5bc99164d62677ecc5f2132c429d54a5dbf9131893c5134c9a"
+    },
+    {
+      "path": "textures/女仆装.png",
+      "size": 65363,
+      "sha256": "90bbc0f7053ffcd0af1062d7da764dbca2caabde30109048cc657786ce43a877"
+    },
+    {
+      "path": "textures/裸体围裙.png",
+      "size": 59040,
+      "sha256": "bcb0bc077c7d1dfadece311d59b8ad046960126c9c12d95c1fc2be70a6966cdc"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3588,
+      "sha256": "8fbaaba36d3910406952766182e4f19279974130dd25e0f46dc5027babbc5f4a"
+    }
+  ]
+}

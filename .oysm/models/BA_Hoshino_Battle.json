@@ -1,0 +1,172 @@
+{
+  "id": "BA_Hoshino(Battle)",
+  "path": "parsed/BA_Hoshino(Battle)",
+  "source": {
+    "path": "_BlueArchive/BA_Hoshino(Battle).ysm",
+    "type": "ysm",
+    "stem": "BA_Hoshino(Battle)"
+  },
+  "ysm": "parsed/BA_Hoshino(Battle)/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/落阳不养羊.png",
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "name": "落阳不养羊",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/.png",
+        "comment": "漂泊于群星之中",
+        "contact": {
+          "Afdian": "https://afdian.com/a/lucia2048",
+          "Bilibili": "https://space.bilibili.com/14975572"
+        },
+        "name": "",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "小鸟游星野【临战】",
+    "tips": "免费模型"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "致命公司摇",
+      "extra1": "站",
+      "extra2": "坐",
+      "extra3": "你好",
+      "extra4": "是的",
+      "extra5": "不对",
+      "extra6": "摇",
+      "extra7": "默认舞蹈"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Hoshino_Battle_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8242,
+      "sha256": "7f3125326335df920b4d9be71bb5f3adbc07f57fb0b981180f05af8ad8ba56e8"
+    }
+  },
+  "stats": {
+    "file_count": 11,
+    "total_bytes": 1224185,
+    "sha256": "037e77bec22f3a753901a7fa49b75231b38bc4977a09a058ce322ee4f4468b51",
+    "bones": 125,
+    "cubes": 920,
+    "faces": 5520,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 185323,
+      "sha256": "5dafe145c7252de6614afefabe6fedd820e16b68831f2618bcd6cc5eb88d9389"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 49592,
+      "sha256": "25d79691ca92fe48f55080604adcac2c9ff191e0cf4925dd6058789057547a89"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 192990,
+      "sha256": "2736b864b37d88ed65b4d4fc757722116f7240a7c5cb604b03f149ef12600725"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 166905,
+      "sha256": "5d21e7e8db21082d2006d6f9dbc786a9d6fbe6de83504d0f592483f2a30ca70e"
+    },
+    {
+      "path": "avatar/.png",
+      "size": 22406,
+      "sha256": "2c03d4213bddb87b0bc8d40b1cc32c059b0fe72a0bd6cc09613505a82e922f65"
+    },
+    {
+      "path": "avatar/落阳不养羊.png",
+      "size": 19374,
+      "sha256": "6cd420a5238d37083afb1a43736ae8f862dfb9d9065c1ae1895c2ee20071333c"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 2350,
+      "sha256": "e5a8561560884c5cdc84362beb4a3038937ca01f0081eb242499fa824b0cb84e"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 22049,
+      "sha256": "12be2c53b1aa6c25e36f47cd5d19631bb9c9154513e36b260e9540c7bdff9633"
+    },
+    {
+      "path": "models/main.json",
+      "size": 489178,
+      "sha256": "ddb57b119d6a4db97c510120ee1eb400d0930191db2ac3ebdde663bcb0b2749d"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 72609,
+      "sha256": "a1300ab411e95df64b0417383300368efe637f9da54b7b7cc7521d984a1efdfb"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1409,
+      "sha256": "78be697d323e6f80cdf0e3a079fc807e30fad401e8e440b1e7199cb6c68b0795"
+    }
+  ]
+}

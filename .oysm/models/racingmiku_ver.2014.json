@@ -1,0 +1,189 @@
+{
+  "id": "初音未来racingmiku ver.2014(半成品)",
+  "path": "parsed/初音未来racingmiku ver.2014(半成品)",
+  "source": {
+    "path": "Unknown/初音未来racingmiku ver.2014(半成品).ysm",
+    "type": "ysm",
+    "stem": "初音未来racingmiku ver.2014(半成品)"
+  },
+  "ysm": "parsed/初音未来racingmiku ver.2014(半成品)/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/none.png",
+        "comment": "none",
+        "contact": {
+          "Afdian": "none",
+          "Bilibili": "none"
+        },
+        "name": "none",
+        "role": "none"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 4.0 By-NC-SA"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "赛车初音2014",
+    "tips": "none"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/racingmiku_ver.2014_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6711,
+      "sha256": "b0e30d0c450774c29934947629aefa34155f32c6a96eed14386fb59808aca4cb"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 4208236,
+    "sha256": "7934972b0c64119b28a15d41eae1b834c34413eb0d3c85d46f69b8d5646b659c",
+    "bones": 134,
+    "cubes": 2085,
+    "faces": 12201,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 109004,
+      "sha256": "ba1e5d1d0e30fc7cec4337358c630cf4f7c89f986f3a98b261c424bd3aecd477"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 220080,
+      "sha256": "ff7fd796f3940857569a4258da36d16f3f80d6d548ab470cfc8b40622bb9b07d"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 5476,
+      "sha256": "a8ac69825cfd3b16d90624ed2e0ec4c2be84bee7044da4a13e00f67c153532eb"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1234176,
+      "sha256": "c5c218f38fe885367124c2e469b511e3d00b4e5717fd3cc5494818de82da6f19"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 21680,
+      "sha256": "596b08b8f56db821766425648b4a4f6998004a839ff2fe43901cbf684535314c"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1489,
+      "sha256": "056c8609e73f251267bc296c71c8bc69735a0086b048c2b669e8d6a43e66eb96"
+    }
+  ]
+}

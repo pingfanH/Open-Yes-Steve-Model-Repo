@@ -1,0 +1,105 @@
+{
+  "id": "BtR_Ryou-Yamada_1",
+  "path": "parsed/BtR_Ryou-Yamada_1",
+  "source": {
+    "path": "_BocchiTheRock/BtR_Ryou-Yamada_1.ysm",
+    "type": "ysm",
+    "stem": "BtR_Ryou-Yamada_1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "凉爷",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BtR_Ryou-Yamada_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7312,
+      "sha256": "aa72981b0895cabd48228b53e75af12752b224d4dc8ceb15cb06c4b27c3c55dc"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 485203,
+    "sha256": "af0624c7e4e442abeab5374f4e9dcc82d6c3ba18d5a08baf625b0306ec742a1e",
+    "bones": 75,
+    "cubes": 293,
+    "faces": 1758,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 12133,
+      "sha256": "506368e6f5796c718ad894b6798ec3b53d67d85d3222200f766c2e78e2970afc"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 44526,
+      "sha256": "8fcbef4b6942afb368390b7c43a27f9dc121768ab15d8079f669903a511249f9"
+    },
+    {
+      "path": "info.json",
+      "size": 168,
+      "sha256": "c629a87b3cb914d0b38042c614991306143dccb48c922e5a75799076a35add60"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 124716,
+      "sha256": "e42fd4544143918a3ecf09a497ba9d0ff3bf6357332d789033669dd3d685d8d1"
+    },
+    {
+      "path": "main.json",
+      "size": 143157,
+      "sha256": "6bbc6d68242d96ca9157f2a3bf8a65942adc6311222794e42eedd652fd38fdd1"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 136175,
+      "sha256": "8cb25edd9d3f085e23d0eb7b8b7695f3cc3126e020e2685305f49da03b583321"
+    },
+    {
+      "path": "texture.png",
+      "size": 24328,
+      "sha256": "cc6cc8ad3cee517a33fc1ca360d8f1ae14117449ec9086545f8713c58b17e1ff"
+    }
+  ]
+}

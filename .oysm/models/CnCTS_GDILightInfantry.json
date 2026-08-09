@@ -1,0 +1,100 @@
+{
+  "id": "CnCTS_GDILightInfantry",
+  "path": "parsed/CnCTS_GDILightInfantry",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCTS_GDILightInfantry.ysm",
+    "type": "ysm",
+    "stem": "CnCTS_GDILightInfantry"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "GDI轻步兵（TS）",
+    "tips": "大概是GDI基层部队装备最精良的一代了",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCTS_GDILightInfantry_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6474,
+      "sha256": "68ebc412d215f66e706dadeaa143741517a43f606a7aa68d5892fc27442d78f6"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 351730,
+    "sha256": "010792baed913ca75bec5d1797b42d4824bd04658fe5d4f1d8b1852149838c46",
+    "bones": 41,
+    "cubes": 149,
+    "faces": 894,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 11777,
+      "sha256": "423f988301724845599e15e5222db82c715731b71c064282fdf701acf97867b4"
+    },
+    {
+      "path": "info.json",
+      "size": 189,
+      "sha256": "657c8885a73aef43fc16fc3b336b523bcbc5e04f2672901ee70edd6c2a4d1e06"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122470,
+      "sha256": "d93402d24863ccd84622801424bb845d8ff78161fae9d48b7bbf0c3d213720c1"
+    },
+    {
+      "path": "main.json",
+      "size": 66070,
+      "sha256": "1601f7674238d79bec7789662c065551cc907fd9570968382785f6db541e2c4a"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131639,
+      "sha256": "a73cf95259743cc506fa6931e6bed68e0e41c5edca8f4651f26f1a42c1e26994"
+    },
+    {
+      "path": "texture.png",
+      "size": 19585,
+      "sha256": "f6ed3c183b9bd99a8d057da0ce6864d7b1dc7a82a175ab5ab786e96fa5fa995d"
+    }
+  ]
+}

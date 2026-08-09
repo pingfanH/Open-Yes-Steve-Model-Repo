@@ -1,0 +1,93 @@
+{
+  "id": "_dongbei-qiepuying",
+  "path": "parsed/_dongbei-qiepuying",
+  "source": {
+    "path": "Uncategorized/_dongbei-qiepuying.ysm",
+    "type": "ysm",
+    "stem": "_dongbei-qiepuying"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§f§4东§4北§f切§f蒲§f英",
+    "tips": "§4东§4北§f切§f蒲§f英§l哒！\n——————————————\n这是一堆让这个模型看起来很帅的§5花§3里§4胡§5哨§7的彩§4色§1字§b体§0",
+    "authors": [
+      {
+        "name": "阴阳兔兔猫"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/dongbei-qiepuying_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7848,
+      "sha256": "e41ac6bb77b802a9285e3c3c29c57619c4ac3cadba72ee00883d7b6c21b50001"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 341447,
+    "sha256": "01dd5371053126375960d5008cfefccaec948ddfca61e8adc232ebd2ba6247fb",
+    "bones": 46,
+    "cubes": 275,
+    "faces": 1650,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 51070,
+      "sha256": "e8b4a6d8ebdd57bdb01427bd99afe6adcf7704723153572015b56852f551293b"
+    },
+    {
+      "path": "arm.json",
+      "size": 9693,
+      "sha256": "3e11001a16754f0566c1f9110184a268c3c871ad3f76d9da54c4abe8d8a0388c"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 134133,
+      "sha256": "5dde772d9970b4d020d3cce07260926479fa6d6df019276a795e67d49e4018f2"
+    },
+    {
+      "path": "main.json",
+      "size": 138841,
+      "sha256": "5f9785a6fde861f402729f9787e4dfe97419a56abe1b2bd03155135e5e3ce7e7"
+    },
+    {
+      "path": "texture.png",
+      "size": 7710,
+      "sha256": "5409bcc1edc4a325f5416d545fed1efc35c91d8de15848005175f7cd1fabb114"
+    }
+  ]
+}

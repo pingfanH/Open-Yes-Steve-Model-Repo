@@ -1,0 +1,90 @@
+{
+  "id": "_Yujin",
+  "path": "parsed/_Yujin",
+  "source": {
+    "path": "Uncategorized/_Yujin.ysm",
+    "type": "ysm",
+    "stem": "_Yujin"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_Yujin"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "main.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Yujin_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 17444,
+      "sha256": "baffc074759fe0fbde36926018d12a219369d892492c756373f24afcda7fe0e5"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 1914903,
+    "sha256": "6ca5debbc759806772aa529d36388ae6e5b435a678cb31b5a30f064acef37f9b",
+    "bones": 93,
+    "cubes": 2490,
+    "faces": 14940,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 1629,
+      "sha256": "30a839a1607261e56be41fe671d6228a2bb3021679b8ee43733478723d43176e"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 150079,
+      "sha256": "f24abb3ebb3f44302330fa4f1b50c4275662f38a767ccdaab9cf35e46c5aef47"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 159137,
+      "sha256": "839ba35bddb96b2eba42edab21ba3db8e3d0628827d346b191ea163d55be407b"
+    },
+    {
+      "path": "main.json",
+      "size": 1371402,
+      "sha256": "ec6a6fab28706a220987e7cd748e4600021e82a36441787e5374fa785f9c7a9b"
+    },
+    {
+      "path": "main.png",
+      "size": 74940,
+      "sha256": "62ce48cd8b8ed10329e7ee8de3dd939e2a227df19af2c92822962b647258c680"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 157716,
+      "sha256": "d9bd7dbe37cfc77b4a35045a87273b6fe761ecf7009b18f7567fd442f86b7db9"
+    }
+  ]
+}

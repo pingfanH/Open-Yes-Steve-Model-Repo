@@ -1,0 +1,186 @@
+{
+  "id": "NanatsuTaizai_Escanor",
+  "path": "parsed/NanatsuTaizai_Escanor",
+  "source": {
+    "path": "_NanatsuTaizai/NanatsuTaizai_Escanor.ysm",
+    "type": "ysm",
+    "stem": "NanatsuTaizai_Escanor"
+  },
+  "ysm": "parsed/NanatsuTaizai_Escanor/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§c烈鸟比百.png",
+        "comment": "§7啦啦啦~",
+        "contact": {
+          "Afdian": "爱发电搜索“烈鸟比百”",
+          "Bilibili": "B站搜索“烈鸟比百”"
+        },
+        "name": "§c烈鸟比百",
+        "role": "§7人物模型"
+      },
+      {
+        "avatar": "avatar/§cAl1zwell.png",
+        "comment": "§7赞助2.5k",
+        "contact": {
+          "": ""
+        },
+        "name": "§cAl1zwell",
+        "role": "§7赞助者"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.net/a/Aigoblin?tab=shop",
+      "home": "https://space.bilibili.com/20510758?spm_id_from=333.1007.0.0"
+    },
+    "name": "§6艾斯卡诺",
+    "tips": "§7免费版 \n §7（欢迎前往§4烈鸟比百§7爱发电赞助获得完整版）"
+  },
+  "properties": {
+    "width_scale": 0.6,
+    "height_scale": 0.6,
+    "extra_animation": {
+      "介绍poss": "介绍poss",
+      "冷酷之阳": "冷酷之阳",
+      "稍微认真": "稍微认真",
+      "extra5": "",
+      "extra6": ""
+    },
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/NanatsuTaizai_Escanor_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 17714,
+      "sha256": "fb157dad857a2b919650cbfa8af818f41576af0af9a3463ae8c630e2c91579da"
+    }
+  },
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 1766951,
+    "sha256": "9ce0c50b72fcd34b63d497d58de5613ebaef4b1327523c5b859ec5b3c9ee6a7c",
+    "bones": 169,
+    "cubes": 1680,
+    "faces": 10070,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 132365,
+      "sha256": "4efc374acd48ee0d5f0a7d50bd7d5ba091873042abdacf5d7bbc60938136973e"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 431,
+      "sha256": "3e7ed22bc91fe5f6805795de48aea8013fa799d0b9e57da8c8ab1239197ce828"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2712,
+      "sha256": "4f5e7ed844d6d85a5a0a97bb7a3bcce92307a1ead674f00bca412ec3425c6e4e"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 24792,
+      "sha256": "bb4b254575a20179ce54b6fda1f0665e63f148bd508e9228ea2da96f1585ab3c"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 267850,
+      "sha256": "0d3ecc892f050de8d2f5103fc0211de89deb201211b284a22326ab02718c8624"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 181347,
+      "sha256": "e7b7467878efd8a1e35a647ec0470a1f2213a24d5338bfaa611dc3379311385a"
+    },
+    {
+      "path": "avatar/§cAl1zwell.png",
+      "size": 38729,
+      "sha256": "b6ae0db9cd8f7b3b000621a7c2502d67a143c7c8888e4e331015451b28c43513"
+    },
+    {
+      "path": "avatar/§c烈鸟比百.png",
+      "size": 37915,
+      "sha256": "7f6a5899c023a97b9315642e24f8d7ab96047014cb79fef3ab1631b06f63d872"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 209237,
+      "sha256": "424a3b3e535898e0ace6e73529c318aa6d2a01f6a0242b96b3cbd0ec294db1a9"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 1609,
+      "sha256": "f6684563a264af90bfeb7b1ff92478b595d7cfbcb8c3aa017d38c44bcf8d88a6"
+    },
+    {
+      "path": "models/main.json",
+      "size": 739050,
+      "sha256": "b54c7b613d3e4bb3eff45ffdb0b3a369a37dea0f7c045dd20478cee693fc96ad"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 64740,
+      "sha256": "2a15a7eb7bf3b9eae847767b5403cd1e065a7f89f893799760113ab54a5bdc8a"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 64740,
+      "sha256": "2a15a7eb7bf3b9eae847767b5403cd1e065a7f89f893799760113ab54a5bdc8a"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1434,
+      "sha256": "c95de2d89d82faf77f0beec767954b32335103bcd5717a4dd70f6e619f7b5c53"
+    }
+  ]
+}

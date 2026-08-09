@@ -1,0 +1,381 @@
+{
+  "id": "Lex_Ninjia",
+  "path": "parsed/Lex_Ninjia",
+  "source": {
+    "path": "Uncategorized/Lex_Ninjia.ysm",
+    "type": "ysm",
+    "stem": "Lex_Ninjia"
+  },
+  "ysm": "parsed/Lex_Ninjia/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/Ninjia.png",
+        "comment": "",
+        "name": "Ninjia",
+        "role": "出演"
+      },
+      {
+        "avatar": "avatar/★【宇宙影帝の终焉】.png",
+        "comment": "苦练BB",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/364412316",
+          "QQ": "3249851858"
+        },
+        "name": "★【宇宙影帝の终焉】",
+        "role": "制作"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "home": "https://space.bilibili.com/364412316"
+    },
+    "name": "Lex_Ninjia",
+    "tips": "DOMO,Lex Ninjia DESU!\n\n今天给大家释放点想看的忍术啊\n轮盘动作火龙炎神可以进入一刀一刀燃烧刀状态\n通过握握手握握双手与对手和解可以解除燃烧刀"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "#extra_config2",
+      "extra2": "大家好我是忍者",
+      "extra3": "吓我一跳",
+      "extra4": "把盐拿来弄模糊不清",
+      "extra5": "佛和神啊",
+      "extra6": "火龙炎神",
+      "extra7": "好男人也没的身手"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "令神龙造成烟雾",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "皮肤",
+            "description": "更换忍者皮肤",
+            "value": "v.value_ninjia",
+            "labels": {
+              "§f蕾忍": "v.value_ninjia = 0; v.ninjia1 = 1;v.ninjia2 = 0;v.ninjia3 = 0",
+              "§f叛忍": "v.value_ninjia = 1; v.ninjia1 = 0;v.ninjia2 = 1;v.ninjia3 = 0",
+              "§f忍者": "v.value_ninjia = 2; v.ninjia1 = 0;v.ninjia2 = 0;v.ninjia3 = 1"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "表情",
+            "description": "更换忍者表情",
+            "value": "v.value_face",
+            "labels": {
+              "§f经典": "v.value_face = 0; v.face2 = 0;v.face3 = 0;v.face4 = 0;v.face5 = 0;v.face6 = 0;v.face_sound = 0",
+              "§f哭": "v.value_face = 1; v.face2 = 1;v.face3 = 0;v.face4 = 0;v.face5 = 0;v.face6 = 0;v.face_sound = 2",
+              "§f怒": "v.value_face = 2; v.face2 = 0;v.face3 = 1;v.face4 = 0;v.face5 = 0;v.face6 = 0;v.face_sound = 3",
+              "§f笑": "v.value_face = 3; v.face2 = 0;v.face3 = 0;v.face4 = 1;v.face5 = 0;v.face6 = 0;v.face_sound = 4",
+              "§f惊": "v.value_face = 4; v.face2 = 0;v.face3 = 0;v.face4 = 0;v.face5 = 1;v.face6 = 0;v.face_sound = 5",
+              "§f睡": "v.value_face = 5; v.face2 = 0;v.face3 = 0;v.face4 = 0;v.face5 = 0;v.face6 = 1;v.face_sound = 6"
+            }
+          }
+        ]
+      },
+      {
+        "id": "extra_config2",
+        "name": "握握手握握双手",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "体型: ",
+            "description": "大小",
+            "value": "v.player_size",
+            "step": 0.04,
+            "min": 0.8,
+            "max": 1.2
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Lex_Ninjia_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10550,
+      "sha256": "268dc64a99f53bc65968ca142bce429a527d8bccfe8ce15de9e4ea7f8ac1e002"
+    }
+  },
+  "stats": {
+    "file_count": 41,
+    "total_bytes": 1329166,
+    "sha256": "c29cb432d16319e8aa0c626931d10058c35ba1d5da2fccff4b5cf43b6d768f20",
+    "bones": 76,
+    "cubes": 94,
+    "faces": 564,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 50220,
+      "sha256": "da87664e99c8bb72bc374e936c9077750e33a734d373240b421e42a208444d08"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 943,
+      "sha256": "3e3d10865dd003a1021cb76f76941276181173f418312b2af3bc3ead7ec6abfa"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 3552,
+      "sha256": "61276de8cd31f328c715b1c52bfe93d88e2733b78f7e592c1311c5b8753499f8"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 144353,
+      "sha256": "643cd96fe16bc4803290a873f77f9d21df08428b872fd9321fb999bd8947870e"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 43471,
+      "sha256": "3ff0c4d0ee720f4afa4c11c72061d481e83611f4b632f7621d84a4c4ce8d62a3"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 169705,
+      "sha256": "3e090a23d3944655d6a397ad8c7c30f09f7959f71eb3b87ad1ed3acfe1c7d36a"
+    },
+    {
+      "path": "avatar/Ninjia.png",
+      "size": 6920,
+      "sha256": "949746551d0eb1753d42e193b10fbe0139a9eb9fd4c2a77f2dcb2229719cab8d"
+    },
+    {
+      "path": "avatar/★【宇宙影帝の终焉】.png",
+      "size": 32589,
+      "sha256": "87a27b454c615c0bb9aa312b5ce7d393d3bfd24164469a5458a4bbbb605cbd82"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 5127,
+      "sha256": "d5be42c32435023ecf2012f03dccf6408e2a80b6a52927bccc6bebb532a98e7b"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 1787,
+      "sha256": "1b78f44d4f925bcc01ab09b5eb27cb4f7cb00d4cf1a0bc0dd629a212b36e3c54"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 1514,
+      "sha256": "e3f8ba249f1af2582e057ab2c28fb9021bc683a3ffd6add9efbed2dbfd1ec59c"
+    },
+    {
+      "path": "models/main.json",
+      "size": 53942,
+      "sha256": "bde331d9a5b4a1f8597446d43fbd755ea45fd80b8d0448625c8fb6fb6b483d3f"
+    },
+    {
+      "path": "sounds/bayannalai.ogg",
+      "size": 68144,
+      "sha256": "08f6efd22e37b192a8fd528f9ba701eeeab551084eda15eaae82c5b71e8b79be"
+    },
+    {
+      "path": "sounds/dajiahaoa.ogg",
+      "size": 45025,
+      "sha256": "0b5e5c6ba0991f3775da6f9a56bec15a03a9227dee305cdddf4bdc26f954f42f"
+    },
+    {
+      "path": "sounds/duhuoyan.ogg",
+      "size": 16621,
+      "sha256": "d67e24e2ce9ffd70b99e2686a724574e94123cd3325e309c6d980766eb4ce55f"
+    },
+    {
+      "path": "sounds/foheshen.ogg",
+      "size": 13369,
+      "sha256": "60ea9ea1240e171867f062f3b2313f22ea021dd6aa67e7852fc6ca0747ef9ffd"
+    },
+    {
+      "path": "sounds/hanninuoyanbu.ogg",
+      "size": 21508,
+      "sha256": "8fb7b2e8e7099cac906a2b3b25bc36710526ae92a8ca0d4409832d5838e645bf"
+    },
+    {
+      "path": "sounds/haohaoshui.ogg",
+      "size": 20775,
+      "sha256": "3fc8f02668abdac0f79a4cf3a7d757c8e433e0c8a640859226803a3c6b5f3a74"
+    },
+    {
+      "path": "sounds/haonanrenyemeideshenshou.ogg",
+      "size": 23628,
+      "sha256": "07ee12013a3c969d1f82562ce15ea2bc506ae162b46498025cb0fae25fdd8e23"
+    },
+    {
+      "path": "sounds/haoxiangyoushouren.ogg",
+      "size": 20512,
+      "sha256": "b0c5ddbd18e829ee261daeb98e8bc513d1c3876ed23b2ffdafd01fc98f4ac223"
+    },
+    {
+      "path": "sounds/huolongyanshen.ogg",
+      "size": 16763,
+      "sha256": "c387a79d7c397800e46b238c9b457ebd866ab0ce34dc992337bcbb47143e9af9"
+    },
+    {
+      "path": "sounds/landaoyizhiqie.ogg",
+      "size": 18049,
+      "sha256": "2409cccac2c04b2114d3499fd006b5857b761b862b1711a8ffaaa6b98cd6b1e9"
+    },
+    {
+      "path": "sounds/laoshinaijishu.ogg",
+      "size": 22671,
+      "sha256": "35a0a8a264bccfab63795b5540bb170dc89a1ee07bda1ceb271a83b17d765043"
+    },
+    {
+      "path": "sounds/lingshenlongzaochengyanwu.ogg",
+      "size": 21933,
+      "sha256": "24e13205c8ec58085cf8d5a12148a8d6e0bc0b3aff098ee2af2a6e41cbda9e36"
+    },
+    {
+      "path": "sounds/modao.ogg",
+      "size": 18168,
+      "sha256": "bb4b64f2089da7d666672436cd5d40893c4a3f4aa4ffcefde33cd266ecf4152c"
+    },
+    {
+      "path": "sounds/nuhaonu.ogg",
+      "size": 17975,
+      "sha256": "27e347d6a262e83d3f3c2061db11db3a78a35bae8bf96df3d660a55606ecdaac"
+    },
+    {
+      "path": "sounds/saiyonala.ogg",
+      "size": 17762,
+      "sha256": "3ff1e92444eb960600c7e1415afb2350c454704d5bdc24be962ec3d4176f7349"
+    },
+    {
+      "path": "sounds/shafangyanyishou.ogg",
+      "size": 16442,
+      "sha256": "6f102f11556fa1d243a0c38a5a05e55bad4f4acdcc63691d60f9abe42c8f8c4e"
+    },
+    {
+      "path": "sounds/shebujin.ogg",
+      "size": 25084,
+      "sha256": "c9d94a003b7760c932c9e11b702aeb62bd98c13f5092bad9b16cf89582c000ce"
+    },
+    {
+      "path": "sounds/shenying.ogg",
+      "size": 15078,
+      "sha256": "428edbc4541a978e7319ed45a6fa37ed4e4e5309fe2e832d77e010924ad98178"
+    },
+    {
+      "path": "sounds/shifangrenshu.ogg",
+      "size": 29591,
+      "sha256": "ec302602afd7248c2ecf17f76e7d0cdfcfe929fea77e4da81eae78f30d3b41ac"
+    },
+    {
+      "path": "sounds/taikuailela.ogg",
+      "size": 25368,
+      "sha256": "1c576f8f9fd1cea6d49daf899d8ac37b3cc59e01eb75e2af9187f871023f5e19"
+    },
+    {
+      "path": "sounds/taitongkule.ogg",
+      "size": 44775,
+      "sha256": "da52cbd3438803550d94a13c95be5b406b0f603e3d8080c065faa18b50423b4b"
+    },
+    {
+      "path": "sounds/woshetashenshang.ogg",
+      "size": 17162,
+      "sha256": "94ce204a56f2e7d8f31334bb1341b77ae19eeacef9e5753c81e34cfe587f061a"
+    },
+    {
+      "path": "sounds/wowoshou.ogg",
+      "size": 19712,
+      "sha256": "506daae3a9b17951645feab327a1d1af175a156c67fd2c773f83700a757ee7bb"
+    },
+    {
+      "path": "sounds/xiangpiaopiaoreyin.ogg",
+      "size": 16449,
+      "sha256": "79407bc8ea1d94f5ba427a2f8bfb4632c7df57773108e63ada46168b20224aeb"
+    },
+    {
+      "path": "sounds/xiawoyitiao.ogg",
+      "size": 32994,
+      "sha256": "308e087946f74b9ae5ddbd2a5a41cfe63a8a006014c56c23a86425efbfe804ec"
+    },
+    {
+      "path": "sounds/yidaoyidaoranshaodao.ogg",
+      "size": 24254,
+      "sha256": "57711f803734c8955dec14cc88a5e6beca71848309987a290854996af00ef181"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1313,
+      "sha256": "081c3e79c0cacd8bd4db5b7893dc45c2f34f0077fc7cec063cfea7e9d4ded9db"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 180787,
+      "sha256": "ae6b4141a6800574ad47fdf0228c2570c30e6737e1fd06b3ed67b787d8e90d17"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3131,
+      "sha256": "ff9380ec205f507f35e9094eb79d05aa63a88fcca62a7ed83a127625db1c25d4"
+    }
+  ]
+}

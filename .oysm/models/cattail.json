@@ -1,0 +1,181 @@
+{
+  "id": "cattail",
+  "path": "parsed/cattail",
+  "source": {
+    "path": "Unknown/cattail.ysm",
+    "type": "ysm",
+    "stem": "cattail"
+  },
+  "ysm": "parsed/cattail/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/UsagiAho.png",
+        "comment": "I love woman",
+        "contact": {
+          "Twitter": "https://twitter.com/realusagiaho"
+        },
+        "name": "UsagiAho",
+        "role": "Model + Texture"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "§6Cattail (PvZ)",
+    "tips": "Cat woman"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "是的",
+      "extra4": "不行",
+      "extra5": "卖萌"
+    },
+    "extra_animation_classify": [],
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/main.png"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "en_us": {
+      "metadata.authors.0.comment": "I love woman",
+      "metadata.authors.0.name": "UsagiAho",
+      "metadata.authors.0.role": "Model + Texture",
+      "properties.extra_animation.extra3": "YES",
+      "metadata.name": "§6Cattail (PvZ)",
+      "properties.extra_animation.extra2": "Clap",
+      "metadata.tips": "Cat woman",
+      "properties.extra_animation.extra1": "Wave",
+      "properties.extra_animation.extra4": "NO",
+      "properties.extra_animation.extra5": "Cute Pose"
+    },
+    "zh_cn": {
+      "metadata.authors.0.comment": "我爱女人",
+      "metadata.authors.0.name": "UsagiAho",
+      "metadata.authors.0.role": "建模 + 纹理制作",
+      "properties.extra_animation.extra3": "是的",
+      "metadata.name": "§6Cattail (PvZ)",
+      "properties.extra_animation.extra2": "鼓掌",
+      "metadata.tips": "猫女。",
+      "properties.extra_animation.extra1": "打招呼",
+      "properties.extra_animation.extra4": "不行",
+      "properties.extra_animation.extra5": "卖萌"
+    }
+  },
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/cattail_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4922,
+      "sha256": "ceb43b52771c9c628ebf5885e78a4af68ae23353d862394a5b63499cbd81fb96"
+    }
+  },
+  "stats": {
+    "file_count": 11,
+    "total_bytes": 1025848,
+    "sha256": "bfd3e7a451e058601b8813711609070ea9de90ca7a507bca5439250cc6e2d229",
+    "bones": 112,
+    "cubes": 247,
+    "faces": 1482,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "6e8d3afe0c3baafff8f7f3e0e30ef3c621c667be5c346af73398f5fd3cb89ca5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 443880,
+      "sha256": "6458b863cc2826ed47806cbea892c1dccd7c064aa3e0692a1fb0e943781864af"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 273527,
+      "sha256": "7797f0353398b8eafc80063b6dc4ac63868d35c5a750882a0e09783c4e601893"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 158800,
+      "sha256": "8da3a8446d93f3ae4d1b52e56c382139efe34848a86c31cc9138cf9abda507cc"
+    },
+    {
+      "path": "avatar/UsagiAho.png",
+      "size": 7406,
+      "sha256": "4e39684ddb28f6ed088e56e68efe2c6ba61d980bd62f4465221045e82cbb34f0"
+    },
+    {
+      "path": "lang/en_us.json",
+      "size": 406,
+      "sha256": "ce08035fdc1afaab66e37b036339b1de4d3f0cdf022a86f9a969a6c8ccad3b64"
+    },
+    {
+      "path": "lang/zh_cn.json",
+      "size": 423,
+      "sha256": "63f585a0bec93f4b73679470df789a22ac56b1cf210f71648ba32d175ccfbe76"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 7215,
+      "sha256": "11bc883fd21d44680ff2a2132e0b1ccfebde78fe368d66a87cc1b6f2e587ade4"
+    },
+    {
+      "path": "models/main.json",
+      "size": 128429,
+      "sha256": "74f8651f737a9a75693cf39d73e9525236c04a9dc9ce6ac8dc5095861e6094cc"
+    },
+    {
+      "path": "textures/main.png",
+      "size": 2036,
+      "sha256": "48b8f1b6f0e5b392def8808aefe1be9614f337145fc6a34c431d558f63f97b3a"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1051,
+      "sha256": "eb67fb8099f3514728de35d6aa0f8e42aa329fc965096a74d72c2260879393a4"
+    }
+  ]
+}

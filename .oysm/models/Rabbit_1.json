@@ -1,0 +1,96 @@
+{
+  "id": "_Rabbit_1",
+  "path": "parsed/_Rabbit_1",
+  "source": {
+    "path": "Uncategorized/_Rabbit_1.zip",
+    "type": "zip",
+    "stem": "_Rabbit_1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_Rabbit_1"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "rabbit1.png",
+        "rabbit2.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Rabbit_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4456,
+      "sha256": "c2cc88465570c9b7d8036fbadc563e9a0bfd2679af288dada2eb1eeb4c85be4b"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 704677,
+    "sha256": "a11844ac7b97662a06632b18f675848d78e31e8d1f35fc98807542402fb30427",
+    "bones": 118,
+    "cubes": 1528,
+    "faces": 8653,
+    "textures": 2,
+    "materials": 2,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 91,
+      "sha256": "a7c246495beaffe9733d903936d163adcb1e5ba1bcfcfaa6c9efbd051bd32222"
+    },
+    {
+      "path": "arm.json",
+      "size": 3129,
+      "sha256": "05cf359d6669a4f87bb574621d03f2333c47cd7e23f291aa4afa0d171282f1d1"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 30608,
+      "sha256": "2cd0d7127018db733f563244092aa8f127a73988ed11964f000de63cf8d27490"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 134403,
+      "sha256": "7d7e5b23e0396a6d35f77887f0b9e48f2ae258567b74224a76b52347716599ef"
+    },
+    {
+      "path": "main.json",
+      "size": 530810,
+      "sha256": "aa3088e971c9a24c0ebe54de14b14081fb75846ee5bcfcae38ef9963da42af2a"
+    },
+    {
+      "path": "rabbit1.png",
+      "size": 2823,
+      "sha256": "ded0adf0f6da7b435ee53e1348ab959f50f32de9f0c8e44abdcad1377fbafeda"
+    },
+    {
+      "path": "rabbit2.png",
+      "size": 2813,
+      "sha256": "52a15c59cae45c5ad09ee40a0d8ba77ff4235aff6c1849bf562782510691fd23"
+    }
+  ]
+}

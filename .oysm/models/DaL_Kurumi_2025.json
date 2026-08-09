@@ -1,0 +1,90 @@
+{
+  "id": "DaL_Kurumi_2025",
+  "path": "parsed/DaL_Kurumi_2025",
+  "source": {
+    "path": "_DateALive/DaL_Kurumi_2025.ysm",
+    "type": "ysm",
+    "stem": "DaL_Kurumi_2025"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "DaL_Kurumi_2025"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "testtexture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/DaL_Kurumi_2025_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 93103,
+      "sha256": "084e62982d542073e28dad012c454bf1d8b1d97bc83042c63ef017d37fe2c1d6"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 1419950,
+    "sha256": "69b2c2b9ef45f6ebc23cc7c783357595a75a7735977ef90909db5a194fc29be0",
+    "bones": 190,
+    "cubes": 1373,
+    "faces": 8238,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 13946,
+      "sha256": "a5d273ecbbdb3050e01999be95d777471673fbdac022afa04bb1c07624a1a750"
+    },
+    {
+      "path": "arm.json",
+      "size": 70107,
+      "sha256": "9d0cfb46cd102d0682a2c040a9765a0f78fc33317e15b06efdd87a4ed0c3615b"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 117107,
+      "sha256": "2e8ce6809031acbda7cefba850ce08c7f5484d8806865dfdc6d9d3e16cce15ca"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 185675,
+      "sha256": "1cf747ae052dbfc632d88dd127d6b7aed052d551a90ba450435c891e46cee94f"
+    },
+    {
+      "path": "main.json",
+      "size": 733778,
+      "sha256": "04c7ea26f9c601f75f421c50b7a036d5e66d10ea8f930a5954b7ddb4488ba02e"
+    },
+    {
+      "path": "testtexture.png",
+      "size": 299337,
+      "sha256": "9a1fefa83d5acb31ad3c8fac2613003d36eed8d2af08bb083f9add9b327a97e2"
+    }
+  ]
+}

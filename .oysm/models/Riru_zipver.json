@@ -1,0 +1,204 @@
+{
+  "id": "_Riru(zipver)",
+  "path": "parsed/_Riru(zipver)",
+  "source": {
+    "path": "Uncategorized/_Riru(zipver).zip",
+    "type": "zip",
+    "stem": "_Riru(zipver)"
+  },
+  "ysm": "parsed/_Riru(zipver)/ysm.json",
+  "metadata": {
+    "name": "Riru",
+    "tips": "谁会拒绝一只可爱的小狼呢（？",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "A_su",
+        "role": "模型",
+        "avatar": "avatar/A_su.png",
+        "contact": {
+          "bilibili": "https://space.bilibili.com/524666730/dynamic",
+          "Afdian": "https://afdian.com/a/A_suuuuuuuuu"
+        },
+        "comment": "一个刚开始学习ysm创作的小白-w-"
+      },
+      {
+        "name": "A_su",
+        "role": "动画",
+        "avatar": "avatar/A_su.png",
+        "contact": {
+          "bilibili": "https://space.bilibili.com/524666730/dynamic",
+          "Afdian": "https://afdian.com/a/A_suuuuuuuuu"
+        },
+        "comment": "没错还是我"
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.net/a/ysmmod"
+    }
+  },
+  "properties": {
+    "extra_animation": {
+      "extra0": "没做（",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "彳亍",
+      "extra4": "不彳亍",
+      "extra5": "好耶",
+      "extra6": "poss",
+      "extra7": "没做（"
+    },
+    "preview_animation": "xuanzedonghua",
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "texture": [
+        "textures/Riru.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Riru_zipver_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3515,
+      "sha256": "c4f24352cec91a41fe325765f353cf9e6b2d1b295e7130aba2143683ae8f6707"
+    }
+  },
+  "stats": {
+    "file_count": 20,
+    "total_bytes": 1868453,
+    "sha256": "f70648c54811517464ffe51424d17ff17749f5a2d778e35a8faf3dd5981174dd",
+    "bones": 127,
+    "cubes": 426,
+    "faces": 2556,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 39945,
+      "sha256": "95b061743a464297f5fd1618a05307d21e8dddf9822b1b11f9d99d2438eb7a2e"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 648,
+      "sha256": "a1742d97b6f3a435a92ed37c1f971b9367d8198a3c12116be4a9f433586b8e12"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 4992,
+      "sha256": "b2c4cab0a4f843c7c651895afef4f7c84c25d3bcf0c0e7429f7e4a8136212dec"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 42091,
+      "sha256": "54ab6e9ea10a37d341e0d27467c33c26f3fd5df5d0bd3ac9f9c5e852b4a6321c"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 349055,
+      "sha256": "ac76e3bbeaab8ef0092f26292e1bbf7ec07e52070d996dcc21688c6448f7f669"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 157266,
+      "sha256": "c03cb9613aa5a9f19a9416760c372309e79f3d12cf1f23cfea0726dc5e825aa2"
+    },
+    {
+      "path": "animations/xianyun/arm.animation.json",
+      "size": 39629,
+      "sha256": "d7d8cc5aebd96d36ee76e9e4619513300bb7dbbc5d45b351a131e1145447085a"
+    },
+    {
+      "path": "animations/xianyun/arm.json",
+      "size": 1848,
+      "sha256": "754ef1b4783be9b95ee72dbbbc3511812b75834167eef905109012d4c151a056"
+    },
+    {
+      "path": "animations/xianyun/extra.animation.json",
+      "size": 144073,
+      "sha256": "1cc30c5474076f2027d3b365b9525491a76007ff6451803a06df6814302761d7"
+    },
+    {
+      "path": "animations/xianyun/main.animation.json",
+      "size": 131125,
+      "sha256": "e898f27bfeec9afa63bc7f33c203c3be644f8354de092301d5b70fb8662f6fa6"
+    },
+    {
+      "path": "animations/xianyun/main.json",
+      "size": 32721,
+      "sha256": "815d4e415466a0907e2668ab7ca2ffcdc1c49bfc036eff34ea93c901a51d7c6c"
+    },
+    {
+      "path": "animations/xianyun/tac.animation.json",
+      "size": 157266,
+      "sha256": "c03cb9613aa5a9f19a9416760c372309e79f3d12cf1f23cfea0726dc5e825aa2"
+    },
+    {
+      "path": "avatar/A_su.png",
+      "size": 457995,
+      "sha256": "d93eee676ca82c74932d3d2f124d625bf114c8df3f79712b764509f6054748a9"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 14378,
+      "sha256": "a6ced7ff4a995fced2cf0b63446df37c9d1ed968d37631b2d9183b710e45c25d"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 7168,
+      "sha256": "5c58c14c5b3a2c60a168d247f72be1a1c02bbeabf3ee495dd67b0e754a70ddc7"
+    },
+    {
+      "path": "models/main.json",
+      "size": 219243,
+      "sha256": "51b1cf353290b130a32f876c2493d0aac669629b41e26f776a24572e3490f228"
+    },
+    {
+      "path": "textures/Riru.png",
+      "size": 33269,
+      "sha256": "128265794d66eceabea472ab97d93145de3ce62a0813e8de6c44f802b8b99cdd"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 710,
+      "sha256": "7e6f6fbfc1e9fd654dc70e549f9db48607f60608c408a1315369c7f494f93fe2"
+    },
+    {
+      "path": "textures/pbr/Riru.png",
+      "size": 33269,
+      "sha256": "128265794d66eceabea472ab97d93145de3ce62a0813e8de6c44f802b8b99cdd"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1762,
+      "sha256": "46b309e443650f8a51ba475cf95538a47c7f285005c4491b50ef50796ac43320"
+    }
+  ]
+}

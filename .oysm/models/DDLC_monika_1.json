@@ -1,0 +1,106 @@
+{
+  "id": "DDLC_monika_1",
+  "path": "parsed/DDLC_monika_1",
+  "source": {
+    "path": "_DokiDokiLiteratureClub/DDLC_monika_1.ysm",
+    "type": "ysm",
+    "stem": "DDLC_monika_1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Monika",
+    "tips": "Just Monika!",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "菊姥爷"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "xiaofu.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/DDLC_monika_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11017,
+      "sha256": "1dc085da46ad0f89c909e4df50c12433c3b9dba6c0abde8cb8020ce4634d757d"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 1179659,
+    "sha256": "8a2973653c32f8b0ad5c410ed8f3fc2e3a72b597a8b53d5739477914bffeb7ec",
+    "bones": 120,
+    "cubes": 1312,
+    "faces": 7872,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 32454,
+      "sha256": "7a3edfe9e598fae10683e717f31bfb951eee17c0f6649236e6543a888081b0f7"
+    },
+    {
+      "path": "arm.json",
+      "size": 27992,
+      "sha256": "eeea85a28d40ce9041aad153f0ddb56ec847fe46c69c7b4a13c85faf902fa2b3"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 116804,
+      "sha256": "9242f368072830c7e36df461a45184d719a33a6c2c776fee92291940af6511d2"
+    },
+    {
+      "path": "info.json",
+      "size": 131,
+      "sha256": "a21931ae9fe6fb0d7156b61d5e3b302571b59a161ef06549a98b93145172efd0"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 197360,
+      "sha256": "6d3bbf5c0573c01056fae6d1c97ab63a77177506e12727069f456b0ce97f959a"
+    },
+    {
+      "path": "main.json",
+      "size": 704022,
+      "sha256": "45e60d2a713b40110d342bb5697650826daa5e849dda9fdbbeeff4445ba7fe79"
+    },
+    {
+      "path": "xiaofu.png",
+      "size": 100896,
+      "sha256": "143e5b9ea3054e23d98f43551fcbe767cfbc57cd1bb777e0fd8fdc833c70fcec"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "id": "Utau_Adachi-Rei(无机械骨骼)",
+  "path": "parsed/Utau_Adachi-Rei(无机械骨骼)",
+  "source": {
+    "path": "_Vocaloid-UTAU/Utau_Adachi-Rei(无机械骨骼).ysm",
+    "type": "ysm",
+    "stem": "Utau_Adachi-Rei(无机械骨骼)"
+  },
+  "ysm": "parsed/Utau_Adachi-Rei(无机械骨骼)/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/小萌新idjdkd.png",
+        "comment": "none",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/1573788561"
+        },
+        "name": "小萌新idjdkd",
+        "role": "建模贴图动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 4.0 By-NC-SA"
+    },
+    "link": {
+      "donate": "none",
+      "home": "none"
+    },
+    "name": "人机",
+    "tips": "有可脱，有头发物理，无裙子物理，物理来自MicroCraft_大佬，无爆衣，仅做了tacz步枪站姿适配，禁止用于非法行为"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "分类1",
+        "name": "7"
+      },
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          },
+          {
+            "type": "checkbox",
+            "title": "测试",
+            "description": "测试",
+            "value": "v.neko"
+          },
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/uv.png"
+        },
+        {
+          "uv": "textures/uv2.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Utau_Adachi-Rei_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7509,
+      "sha256": "f918fabead0128be2c4cf84a5b90c10194712913e930a30c8793b3c5df96ec9c"
+    }
+  },
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 4322403,
+    "sha256": "8191a04f6651543e07a5de43bf856d73d72f7a4cf94907518511e3a7b4f76c1b",
+    "bones": 139,
+    "cubes": 1962,
+    "faces": 11772,
+    "textures": 2,
+    "materials": 2,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 177155,
+      "sha256": "0a193dabe5f966c7f374a6bc7f88f7889213857db254c93a5af8e180436a7c9a"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 319311,
+      "sha256": "aba785c0fa7fa67989e26555ec03c3942ddf2b87dabed4a49078e1a50928d841"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 130638,
+      "sha256": "170dcd9532f9880c365aafce3d52792de6848afce347e35006eb771d3a9975ee"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1505299,
+      "sha256": "2cfe596c36beecaa1688b55951b4272e660c066078bb5d95b20240a32a3a20da"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 146691,
+      "sha256": "00b3f8a0d880c2ecb1a146a7b50aa890a7767a161ac20234cf335cc70f0a401c"
+    },
+    {
+      "path": "avatar/小萌新idjdkd.png",
+      "size": 21456,
+      "sha256": "8b39a7c8d6035bb4fac416fede75fd1f87358240f680a7f213636333d801828f"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 1413,
+      "sha256": "b7d0e583105a263cd9ecc751d0e99a613ce82edc5a77bfd7be01c3c0a1085cc5"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 50646,
+      "sha256": "b6e2c85af5b31767bd0da775b6aad7b3573475106aaa9b0a612edf8795b00c15"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1641120,
+      "sha256": "695546882d24b2ce5c987c29fcbc3ab2f980be585a6c3cb16430418ad89fcf0f"
+    },
+    {
+      "path": "textures/uv.png",
+      "size": 73936,
+      "sha256": "018371af80febd72e7c1b1335e6e0bc5adc18862844e34c4020b647af8e25583"
+    },
+    {
+      "path": "textures/uv2.png",
+      "size": 32350,
+      "sha256": "0aded718a90c0fa77a45a806bbe86cb2b6215f9f5b26498ced68a3ec1655dbf8"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1892,
+      "sha256": "53fea447e95d9a6fe27f46da8ea939bd828eea840791053665406f8176eead1e"
+    }
+  ]
+}

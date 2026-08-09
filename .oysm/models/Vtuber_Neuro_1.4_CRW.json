@@ -1,0 +1,181 @@
+{
+  "id": "Vtuber_Neuro_1.4_CRW",
+  "path": "parsed/Vtuber_Neuro_1.4_CRW",
+  "source": {
+    "path": "_Vtuber/Vtuber_Neuro_1.4_CRW.ysm",
+    "type": "ysm",
+    "stem": "Vtuber_Neuro_1.4_CRW"
+  },
+  "ysm": "parsed/Vtuber_Neuro_1.4_CRW/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/地球翼_CRW.png",
+        "comment": "实际上是ysm模组默认模型作者们的作品提供了大量的经验和现成的动作动画，\n我目前只是将主要动画全部调整以适配本牛肉模型，\n还要感谢酒石酸菌老师的模组更新和教学。另外本人立场是抵制涩牛",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/407471519"
+        },
+        "name": "地球翼_CRW",
+        "role": "模型及动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Neuro1.4",
+    "tips": "牛肉模型（Neuro Model）"
+  },
+  "properties": {
+    "width_scale": 0.75,
+    "height_scale": 0.75,
+    "extra_animation": {
+      "extra0": "看垃圾的眼神",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "Wink~"
+    },
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/neuro.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Vtuber_Neuro_1.4_CRW_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8987,
+      "sha256": "7effd3acda54971f533f674313d81805d14a5aaf6c206058998f6a1d5292ae72"
+    }
+  },
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 951853,
+    "sha256": "2e14a127f61931a2b2366b35b3db6833621e53517888fbac2caa85a745b03395",
+    "bones": 65,
+    "cubes": 256,
+    "faces": 1536,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 139260,
+      "sha256": "a2a3f1589d5ca7b042933a838fac409186b42a72e695ef89e135ed6abb75470c"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 47544,
+      "sha256": "aba6fe7d8f02f803f4954b35600e54014b77dd6d65eb4f0cc53eb8900051a6a4"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 241675,
+      "sha256": "e289a4471aabf1095d0b89c6658628eebf19923928d5628b3bd59aad29580d5c"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 7645,
+      "sha256": "0aa15752c209f2721581a4b9ead3e85ab1b2a7ec8cfc7fef6f1be29657528282"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 135202,
+      "sha256": "d38d8f170e80c37f47b2afb546dccb14dd0c3aefdc49d25f9cb853831a0ba738"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "d93aa69f630e1c977f534ef6df46d2067a4fa16983679558bb8118149ba9048c"
+    },
+    {
+      "path": "textures/neuro.png",
+      "size": 11790,
+      "sha256": "d64ba5544a9b6ad5c8a04584ff30a6fbe58d908361229687c44106ab5b2768c8"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1527,
+      "sha256": "204f0c5c3b7343396c7554fa9bbccfefddfe883515c4712a3b037bf841210a36"
+    }
+  ]
+}

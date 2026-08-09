@@ -1,0 +1,111 @@
+{
+  "id": "GI_Ganyu_2",
+  "path": "parsed/GI_Ganyu_2",
+  "source": {
+    "path": "_GenshinImpact/GI_Ganyu_2.ysm",
+    "type": "ysm",
+    "stem": "GI_Ganyu_2"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§b甘雨",
+    "tips": "§8普通版\n§8持弓类手上显示专武",
+    "authors": [
+      {
+        "name": "§b完全冻结ALL§8（模型）"
+      },
+      {
+        "name": "§c烈鸟比百§8（模型）"
+      }
+    ]
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "block.png",
+        "quan.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Ganyu_2_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 18205,
+      "sha256": "c5801c122262613be86e1316521bfda6024d1dd082591eed84a29e84b4192586"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 1487184,
+    "sha256": "51d06306aee1d239cd15e2b24220175337b73773aa142dd6c1ae086ec8df1b17",
+    "bones": 214,
+    "cubes": 1800,
+    "faces": 10800,
+    "textures": 2,
+    "materials": 2,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 44558,
+      "sha256": "9bc8cc00ccd895d1739104b14291300af93e5529f72feacd07fa7368cae183f1"
+    },
+    {
+      "path": "arm.json",
+      "size": 71773,
+      "sha256": "d91ea7f2043edff3057c33e38039a9e319e9c94439b4c0f566cae289b2738d9d"
+    },
+    {
+      "path": "block.png",
+      "size": 52105,
+      "sha256": "c90e8c30196cce22d2bc23718cd587f3a9efb4387649c1d33bc01a25eb127f18"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 4200,
+      "sha256": "cb0d54cb9321499503a9a7c6a510869a30fc2751b1347b89da9c07ec7da59f11"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 168760,
+      "sha256": "4a285bf7b4df5467361e4b44c1d304be0e422ae6d27a8001b30fe31a22df53c4"
+    },
+    {
+      "path": "main.json",
+      "size": 938645,
+      "sha256": "571750fc4a1b68671bfb3b6c3f1bf4871b5d6c664633b3ef9250384cf31aaf7f"
+    },
+    {
+      "path": "quan.png",
+      "size": 52290,
+      "sha256": "b442d1eeee3e86aeb28a301988fa359925a8a677323a9ef6bdd8966847728fcc"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 154853,
+      "sha256": "901d56a6391aee0ca066594d3a5119eb18afcfed2faa5f8002d10e7a0084e1bf"
+    }
+  ]
+}

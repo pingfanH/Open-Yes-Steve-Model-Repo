@@ -1,0 +1,237 @@
+{
+  "id": "_SAS(zipver)",
+  "path": "parsed/_SAS(zipver)",
+  "source": {
+    "path": "Uncategorized/_SAS(zipver).zip",
+    "type": "zip",
+    "stem": "_SAS(zipver)"
+  },
+  "ysm": "parsed/_SAS(zipver)/ysm.json",
+  "metadata": {
+    "name": "默认CT探员",
+    "tips": "英国空军特别部队的军官，他们的存在属于高度机密，花费数年时间磨练技能的他们，通过打入敌方内部，人质营救以及不被外人所知的隐秘任务，变得极具杀伤力。\n\n谁敢来试试，赢给你看。",
+    "license": {
+      "type": "All Rights Reserved"
+    },
+    "authors": [
+      {
+        "name": "我是Burt",
+        "avatar": "avatar/无标题.png",
+        "role": "模型+动画",
+        "comment": "新手建模师，喜欢玩CSGO"
+      }
+    ]
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "#extra_classify": "Extra Classify"
+    },
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "Simple Config",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3
+          }
+        ]
+      }
+    ],
+    "preview_animation": "idle",
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true,
+    "disable_preview_rotation": false,
+    "all_cutout": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/main.animation_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png",
+          "normal": "textures/pbr/default_1.png",
+          "specular": "textures/pbr/default_1.png"
+        }
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": {
+        "uv": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/SAS_zipver_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3401,
+      "sha256": "6708b748433a2c58d3b7a72412d8e405fb5cada64bc5b6e60813bbe9802c29bd"
+    }
+  },
+  "stats": {
+    "file_count": 20,
+    "total_bytes": 2672410,
+    "sha256": "eac0e07b6fc019682697ed64f922701e422b9b5be0c13c67c69c577145a0d53f",
+    "bones": 78,
+    "cubes": 405,
+    "faces": 2430,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 176803,
+      "sha256": "b37ee5aace9364fa99e5ec832228d0b7861a280edc69e66bb8e4e2e1b29c02f5"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 695,
+      "sha256": "cd2be5d42efea2613f8fbe541e3c8600c0d1edb11051924675bdc2f7955d24d5"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2917,
+      "sha256": "f1b559bb714f40be566b02e1b8dd44c2cc380783e0e8a480c89a8378caa05b96"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 108973,
+      "sha256": "b8e9d5aa72e1d20a1c778524b9f1e729077493cc2bd0b0cf3a65a7ec8974cdfb"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 193284,
+      "sha256": "9e98213e9771efd241753ab2b3561845d45cc774ec6c872a617fe299b6bb79d1"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 176050,
+      "sha256": "9ecf075152538c1a7ac0bcd61f40bbd607a523c184a009c37cd37e23611b2913"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1598799,
+      "sha256": "d50e8b37390c62f09b1a9af1ef4c4d95fcf0063050f7b1fd5cacc3ff682b5604"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 199030,
+      "sha256": "bb4ebef50694eb13e27aabd7394e8944b1c14d8634cf3ed0e792c6c052645842"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 63606,
+      "sha256": "8e38e0d04193f5023f619ba64d847eee7cb675291c0747f98292656a028dacf7"
+    },
+    {
+      "path": "avatar/无标题.png",
+      "size": 3028,
+      "sha256": "4e7b11851d98d3cdc9a5c2f816cbdaa8995304f366f8f0f7a245e2e1667092ee"
+    },
+    {
+      "path": "controller/main.animation_controllers.json",
+      "size": 810,
+      "sha256": "ff546eb7847ecbb59ce3f43189c005e61db5ccf749dfc4f11b5d978f82b4d106"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 2613,
+      "sha256": "a3920d5b9f7663944b6e95525919d58a1ea3c6a5d8807e681987906d28ba2893"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 18733,
+      "sha256": "1070aa5589ae3df1c5abf95a40f9de47ce2ca1df6b234ddbea96f568d1829c7a"
+    },
+    {
+      "path": "models/main.json",
+      "size": 55131,
+      "sha256": "e5059352df5dff649ca8ceee22ee706d9976b3bd7468b84048e23cbd2686e896"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1213,
+      "sha256": "0ecda6c1557cf3571289a3212c93e125d8b075cc37ac62f14dad852d83a576ec"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 10728,
+      "sha256": "5d5dd07ee3330cf2b95a9fa0ff66dd2fbf55887f69b6c21949da1ae3281e87f8"
+    },
+    {
+      "path": "textures/default_1.png",
+      "size": 8242,
+      "sha256": "45212ebf5c6a5d2d7c246834ec532ddf725ebcec20f605d1d24c119b6a6bf4ef"
+    },
+    {
+      "path": "textures/pbr/default_1.png",
+      "size": 8242,
+      "sha256": "45212ebf5c6a5d2d7c246834ec532ddf725ebcec20f605d1d24c119b6a6bf4ef"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2483,
+      "sha256": "a9e2b12de2cfd148171764cb6d6492de89396938a591caf4205beaabfe74185d"
+    }
+  ]
+}

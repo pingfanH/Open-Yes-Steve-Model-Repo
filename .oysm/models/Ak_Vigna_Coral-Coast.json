@@ -1,0 +1,211 @@
+{
+  "id": "Ak_Vigna(Coral-Coast)",
+  "path": "parsed/Ak_Vigna(Coral-Coast)",
+  "source": {
+    "path": "_Arknights/Ak_Vigna(Coral-Coast).ysm",
+    "type": "ysm",
+    "stem": "Ak_Vigna(Coral-Coast)"
+  },
+  "ysm": "parsed/Ak_Vigna(Coral-Coast)/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/烛火的次元宇宙.png",
+        "comment": "还在成长的MC/YSM模型作者",
+        "contact": {
+          "Afdian": "http://afdian.com/a/zhuhuo",
+          "Bilibili": "https://space.bilibili.com/57715833?spm_id_from=333.1007.0.0"
+        },
+        "name": "烛火的次元宇宙",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/烛火的次元宇宙.png",
+        "comment": "",
+        "contact": {
+          "Afdian": "",
+          "Bilibili": ""
+        },
+        "name": "烛火的次元宇宙",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "http://afdian.com/a/zhuhuo",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "红豆—悠然假日",
+    "tips": "MARTHE[珊瑚海岸/CoraICoast]悠然假日系列泳衣01款。舒适放松，透气轻盈。让您可以在闲适的环境中享受最完美的沙滩体验。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#立绘poss",
+      "extra1": "打招呼",
+      "extra2": "",
+      "extra3": "yes",
+      "extra4": "no",
+      "extra5": "茄子！",
+      "extra6": "槌音",
+      "extra7": "哭哭"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "立绘poss",
+        "name": "立绘poss",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "裙子: ",
+            "description": "隐藏/显示裙子",
+            "value": "v.qz"
+          },
+          {
+            "type": "checkbox",
+            "title": "帽子: ",
+            "description": "隐藏/显示帽子",
+            "value": "v.mz"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/hd.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Vigna_Coral-Coast_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6979,
+      "sha256": "05e746c4c6b1abc7ad6dbe4169bafb0bdb087d651447980d081c10ec374f4ef0"
+    }
+  },
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 4988098,
+    "sha256": "ec75b3417eb4ac3af16b3603e34e5e07b4e3562c73cd3f4c795f9cf55d955ad8",
+    "bones": 288,
+    "cubes": 1386,
+    "faces": 8311,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 201766,
+      "sha256": "18621a1135d72368635d733def5091ba7d32028a53a8eb8bc53d3e8d7d68e3ad"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3368,
+      "sha256": "e14edb28b0f4cee4fbe20ba248d004804557c1b98fa4213bdfa5376e18d4fec0"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 37007,
+      "sha256": "29388bf0903a89fcb432cf85215832a4c79e8d18d09156e118b0d0e44aeb35b1"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 297971,
+      "sha256": "858c129488507f05fffc66e007435d31c42851955d747eb0057478f2559c83da"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139650,
+      "sha256": "0c48c1920a7af3f06f2920037ee5cf8b95a6217f9ccc99b3539243b7000327da"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1504135,
+      "sha256": "22e89de4d7116e5b66741b72de8a30d852cddefed8c9137ff3cd3e2e9d9c3dc9"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 34600,
+      "sha256": "11a23d5d9830f9f9c2f346c4a7a44907ee4e9ecc41289beacf1bfd55c8e116f4"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 207887,
+      "sha256": "e6f2411b2ddde81b6924f5441f44516c7193abd6033d09a54bd09c69027177f6"
+    },
+    {
+      "path": "avatar/烛火的次元宇宙.png",
+      "size": 1009982,
+      "sha256": "a771910e1d0891abc5db0d58dc819c517e3472939e8c71467a3669f7b1b46785"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 2903,
+      "sha256": "79575d4ac1de707b0dd76ef2dda8e61d987f00875db77788a671cf7ae21d7020"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 29521,
+      "sha256": "222f2f3c71d82ee07a00ad691bfd8f6e992aab17ffa3351e9b7ff7ef8930e74c"
+    },
+    {
+      "path": "models/main.json",
+      "size": 786077,
+      "sha256": "bba638f0bb976dbb07b5e07c3f9f70685db7772817b581dbf2298b3a6c0937f7"
+    },
+    {
+      "path": "textures/hd.png",
+      "size": 731261,
+      "sha256": "d5962144b8ae0c535f071354dde4c25a776b2c0d987c751d67d12ee9ffa096bf"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1970,
+      "sha256": "2e844d84e618eb592a8f1abcd3f7a29ce2599861fd37e8f9ca0c2ce5c929505e"
+    }
+  ]
+}

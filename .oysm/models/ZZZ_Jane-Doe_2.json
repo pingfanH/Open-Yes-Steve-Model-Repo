@@ -1,0 +1,140 @@
+{
+  "id": "ZZZ_Jane-Doe_2",
+  "path": "parsed/ZZZ_Jane-Doe_2",
+  "source": {
+    "path": "_ZenlessZoneZero/ZZZ_Jane-Doe_2.zip",
+    "type": "zip",
+    "stem": "ZZZ_Jane-Doe_2"
+  },
+  "ysm": "parsed/ZZZ_Jane-Doe_2/ysm.json",
+  "metadata": {
+    "name": "Jane Doe",
+    "tips": "Undercover PubSec officer",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "groube",
+        "role": "big fan of Jane Doe",
+        "comment": "thanks for checking out this model :)",
+        "avatar": "avatar/gsl.png"
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "height_scale": 0.75,
+    "width_scale": 0.75,
+    "extra_animation": {
+      "jacket": "toggle jacket",
+      "twitch ears": "ears ↑↓",
+      "extra idle": "extra idle",
+      "hi": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "是的",
+      "extra4": "不行",
+      "extra5": "卖萌",
+      "extra6": "御笔摇",
+      "extra0": "换头饰",
+      "extra1": "打招呼",
+      "extra7": "舞蹈"
+    },
+    "preview_animation": "gui",
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "extra": "animations/extra.animation.json"
+      },
+      "texture": [
+        "textures/jane.png"
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "texture": "textures/jane.png"
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/ZZZ_Jane-Doe_2_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3866,
+      "sha256": "182eabcac1e3eba290a4c05cf04c0de232d4d5a36d994575e9291f50e529c4e0"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 1255870,
+    "sha256": "2ebe83cf84cbfd894422d32444d9517e6d348a1ec80686a2b3f49ffeebc023c6",
+    "bones": 234,
+    "cubes": 750,
+    "faces": 4500,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/extra.animation.json",
+      "size": 149879,
+      "sha256": "ebde5f31dac8ff2fe756fad1e284eeca9d283a61b4905a7843d4ee88c86089fd"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 586536,
+      "sha256": "12576f5f25c6ce66eaf3ee9416f820ba760450dcfbaaadf3a36a107f90b3ba6a"
+    },
+    {
+      "path": "avatar/gsl.png",
+      "size": 22109,
+      "sha256": "95418836d1005ff90c3684cde853a2ce0e587697654229b2804a7da10fdd8b44"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 34813,
+      "sha256": "35c056e0f6e93a518b869f395214fbf7306b1941ffeed5d559e9dfa41ed0e613"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 11927,
+      "sha256": "ee089bf45f056a1bb3a5a74e42aa629ac45047076848195b68e6ee2694706e33"
+    },
+    {
+      "path": "models/main.json",
+      "size": 395658,
+      "sha256": "24b7239696696d868777c65b358d3d5461481244e5cb1a8429837abdfa537d8f"
+    },
+    {
+      "path": "textures/jane.png",
+      "size": 53422,
+      "sha256": "aca4d3332d0af7dbe4016938510c395ed7cb07bf7ac24ba6dc841653a9ddf9a2"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1526,
+      "sha256": "5de24fe4803345de1557adb320519fc5fb5e4c8fd8581feefff234076d4da8f6"
+    }
+  ]
+}

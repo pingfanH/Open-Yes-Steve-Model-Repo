@@ -1,0 +1,110 @@
+{
+  "id": "Vocaloid_Miku_1",
+  "path": "parsed/Vocaloid_Miku_1",
+  "source": {
+    "path": "_Vocaloid-UTAU/Vocaloid_Miku_1.ysm",
+    "type": "ysm",
+    "stem": "Vocaloid_Miku_1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "骸音钙（公式服）",
+    "tips": "适配YSM1.18.2-1.1.5",
+    "authors": [
+      {
+        "name": "完全冻结"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "tex.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Vocaloid_Miku_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 15875,
+      "sha256": "5e459baa74aa93e0e0157c6291e59395295ea4a7ee12c94f38fac69f08562be7"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 3090923,
+    "sha256": "b930250f5e3e4f30556516abb5714cd2232543d73287b6af3cd68b81f48c528e",
+    "bones": 204,
+    "cubes": 921,
+    "faces": 5526,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 45995,
+      "sha256": "be6da8c2e8c5e7067e826274022b340582b60fc842dd35d77760828c84159e4f"
+    },
+    {
+      "path": "arm.json",
+      "size": 16159,
+      "sha256": "18a1cd9f389ca73297d376f32ec9973a6798fcd9cecf50132ac2324dd6c796ca"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 145608,
+      "sha256": "137010f3df88046ff0c0fae926ecfe9b5f49ab5225e5b595357df62701f4bb3a"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 208444,
+      "sha256": "aa916a0bf8b378eed9120dbb1e137abad92eb091388412f34234ca7c601e99a9"
+    },
+    {
+      "path": "main.bbmodel",
+      "size": 2317186,
+      "sha256": "17048922b9e0eea6d2651b7df37086fb6ff05fe25bfa28e765925298d1d3b47b"
+    },
+    {
+      "path": "main.json",
+      "size": 175193,
+      "sha256": "e85c0873fd72921625ea76fce26b0005f661438becd607414bd509e34e118066"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 166399,
+      "sha256": "e2d0351ccab805e786b8e4aa9b7d9d12b30f0a49ee8dd2e9ff9d432930f13544"
+    },
+    {
+      "path": "tex.png",
+      "size": 15939,
+      "sha256": "00190a9e2b53d8b325de83f3a4dc40c586fdf8130049de816b4ad02d3b23afd3"
+    }
+  ]
+}

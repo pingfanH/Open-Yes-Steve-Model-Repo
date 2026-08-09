@@ -1,0 +1,252 @@
+{
+  "id": "NierAutomata_2B/2b",
+  "path": "parsed/NierAutomata_2B/2b",
+  "source": {
+    "path": "_NierAutomata/NierAutomata_2B.zip",
+    "type": "zip",
+    "stem": "NierAutomata_2B",
+    "model_path": "NierAutomata_2B/2b"
+  },
+  "ysm": "parsed/NierAutomata_2B/2b/ysm.json",
+  "metadata": {
+    "name": "2B",
+    "tips": "冷静的意志之刃，作为人形机械兵部队【尤尔哈】的一员被派遣至地球。身为战斗通用性的人工智能，既能用剑近距离攻击，也能利用支援系统【pod】进行远程攻击。\n因为装备着战斗用眼罩，所以几乎看不到她的眼神，尤尔哈部队成员没有名字，全部用代号称呼，虽然原则上禁止拥有情感，但是因为个体差异，2B有着沉着冷静的性格。",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "凌冽寒夜",
+        "role": "模型/动画/音效",
+        "avatar": "avatar/llhy.png",
+        "contact": {
+          "Afdian": "https://afdian.com/a/44567328adnfg3c",
+          "Bilibili": "https://b23.tv/oQjBRyn"
+        },
+        "comment": "YSM萌新作者一枚，想法很多，请多多关照(ᗜˬᗜ)"
+      },
+      {
+        "name": "",
+        "role": "",
+        "avatar": "",
+        "comment": ""
+      },
+      {
+        "name": "",
+        "role": "",
+        "avatar": "",
+        "comment": ""
+      },
+      {
+        "name": "",
+        "role": "",
+        "avatar": "",
+        "contact": {},
+        "comment": ""
+      }
+    ],
+    "link": {
+      "home": "",
+      "donate": ""
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "舞蹈3",
+      "extra1": "挥手",
+      "extra2": "鼓掌",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "extra5": "大胜利",
+      "extra6": "舞蹈1",
+      "extra7": "舞蹈2",
+      "extra8": "#模型配置",
+      "extra9": "飞吻",
+      "extra10": "看哪儿呢！",
+      "extra11": "思考",
+      "extra12": "武器大师",
+      "extra13": "后备隐藏能源！",
+      "#分类1": "测试分类"
+    },
+    "extra_animation_classify": [],
+    "extra_animation_buttons": [
+      {
+        "id": "模型配置",
+        "name": "模型配置（点我放歌）",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "大小: ",
+            "description": "改变玩家大小",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3
+          },
+          {
+            "type": "checkbox",
+            "title": "头饰",
+            "description": "显示头饰",
+            "value": "v.headdress"
+          }
+        ]
+      }
+    ],
+    "preview_animation": "gui",
+    "disable_preview_rotation": false,
+    "2b_texture": "2b",
+    "render_layers_first": true,
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "slashblade": "animations/slashblade.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        "textures/2b.png",
+        "textures/2b.png"
+      ],
+      "sound_path": "sounds"
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": "textures/arrow.png"
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/NierAutomata_2B_2b_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6463,
+      "sha256": "ad82aa28b8f07b2d80ffb335e44949d374929c5e8ac2e72210f247fa364d2f47"
+    }
+  },
+  "stats": {
+    "file_count": 18,
+    "total_bytes": 7857807,
+    "sha256": "82d2843fe8af1a550ff40d3203fdda499763bee2cafdf65555235ac52457e8e7",
+    "bones": 433,
+    "cubes": 3085,
+    "faces": 18510,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 166084,
+      "sha256": "f26257e53dd7fb56702379434bedc1b9bfc09dd96b7ea4b21de852c09fb25aba"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 695,
+      "sha256": "cd2be5d42efea2613f8fbe541e3c8600c0d1edb11051924675bdc2f7955d24d5"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3799,
+      "sha256": "32851380160c2bceea27535eeb1f27ed77e74f2fd565ac13c06c499952aff79e"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 162263,
+      "sha256": "4bff44365b84f0268e57c9b52c5a3e6ed93d01c9cd8c8175a227e0d8cef22251"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 225365,
+      "sha256": "8f6592a2c745384ac4b6660bd59431afe89d39563060539508e642914fc32d4a"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 172626,
+      "sha256": "6fc0e2810c505764cd136a94419cefed12df27e2765e16d17c2ee936c1324b94"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1152964,
+      "sha256": "a857d66b04695f3fab5bdb780787505061b55e08002da227ad11fe2dbc902d77"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 42814,
+      "sha256": "b0018f5a7e88c21f78b75ff18c98966428ac691c46f716950d2a8f2a0815abb3"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 198186,
+      "sha256": "f0f9f195bb2fe6be71e99cd8f5d863a8fa0324b9aefa311e78b3e2ea69679a4d"
+    },
+    {
+      "path": "avatar/llhy.png",
+      "size": 151082,
+      "sha256": "6a3c022276a87d7b35e6be7a69cc95b5773e8be6553c7fc2e89fe9597010bbb4"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 302832,
+      "sha256": "9e0daf779af1ecb523ae7a6e6f6cc8a373736b4e907eaf5dee4b9b5d20949c78"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 14197,
+      "sha256": "b3ccb500b0a83442cbb9b84095f483d0004f00b11ebfd729d6eabd7199a2a741"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1399835,
+      "sha256": "bf80d0ac31a2fae3fdd7827f95c5afade89f7fa238ac269ca5bc9ed233719eeb"
+    },
+    {
+      "path": "sounds/壊レタ世界ノ歌.ogg",
+      "size": 3809378,
+      "sha256": "f858460cb7b8d1ec35e6e7b0b9d6c4bb60e198c601f1422a1f31d280c9010fb6"
+    },
+    {
+      "path": "textures/2b.png",
+      "size": 46951,
+      "sha256": "b8f549a1b8e79d5c1fc79fa2baf5c2d0b82bd925db4a6e55623eb1d3b29ebb53"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1213,
+      "sha256": "0ecda6c1557cf3571289a3212c93e125d8b075cc37ac62f14dad852d83a576ec"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3933,
+      "sha256": "85630b44953a295af23e5916f8928d818ff3ccbee879af6341a8ae1814d728d2"
+    },
+    {
+      "path": "食用指南.txt",
+      "size": 3590,
+      "sha256": "b4d8f1fe3e8dcdb4f859a8a0da09589d8235f30b637493caa02f8fb37fb65ca8"
+    }
+  ]
+}

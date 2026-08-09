@@ -1,0 +1,112 @@
+{
+  "id": "BA_Hikari(Highlande)_v1.0",
+  "path": "parsed/BA_Hikari(Highlande)_v1.0",
+  "source": {
+    "path": "_BlueArchive/BA_Hikari(Highlande)_v1.0.ysm",
+    "type": "ysm",
+    "stem": "BA_Hikari(Highlande)_v1.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "海兰德铁道学院-光（ヒカリ）",
+    "tips": "蔚蓝档案-海兰德铁道学院双子之一\n适配YSM1.18.2-1.2.0",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "完全冻结"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "tex.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Hikari_Highlande__v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8666,
+      "sha256": "af451fd1e2fc68466c99f06b5bead9795060379dc12143af726a878264c40c24"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 1502434,
+    "sha256": "a45c5948afebe036ed2e25251f4a252698da2988bea760c37603d5f5d8459504",
+    "bones": 202,
+    "cubes": 635,
+    "faces": 3810,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 121038,
+      "sha256": "810aba570cba6ed7ab19cef298f4d928a1443fca88622956d1fa891f5a42fb53"
+    },
+    {
+      "path": "arm.json",
+      "size": 32630,
+      "sha256": "28a30c1e76a45fe94435933640be41d52a65f73849bcf3261234a370bb953208"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 707571,
+      "sha256": "2f9c77f8ed20bfe4f332c70427139a579791d2d53e3b66e4c355d2f6d701cb50"
+    },
+    {
+      "path": "info.json",
+      "size": 372,
+      "sha256": "4912e10ee0e04736112301be55df281a1197b2641afa3c0d5215e276e65444c9"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 145694,
+      "sha256": "f26272e19541f4d2bd6356fcaf933f5a6b688d16c14c6760347bb8f3ef0ffdd8"
+    },
+    {
+      "path": "main.json",
+      "size": 327906,
+      "sha256": "79aaa6118790b730a1f05b70c606f7623be0be688d38d4abb2cbcd6b0defb2fb"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 149927,
+      "sha256": "9bdc501870d485ffeb92d6bcafc30bc05f3645a657528d694c452767d103d002"
+    },
+    {
+      "path": "tex.png",
+      "size": 17296,
+      "sha256": "c6e40e013e8b4d57a8fe3035feca2f1d1bdb6baac6c99005e6dc8d549ed547d3"
+    }
+  ]
+}

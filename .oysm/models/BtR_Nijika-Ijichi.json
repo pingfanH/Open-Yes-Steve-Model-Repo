@@ -1,0 +1,85 @@
+{
+  "id": "BtR_Nijika-Ijichi",
+  "path": "parsed/BtR_Nijika-Ijichi",
+  "source": {
+    "path": "_BocchiTheRock/BtR_Nijika-Ijichi.ysm",
+    "type": "ysm",
+    "stem": "BtR_Nijika-Ijichi"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "伊地知虹夏",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "blue.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BtR_Nijika-Ijichi_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5332,
+      "sha256": "63374e0df040bd6bc23d6b1fcfe2495fb59b40f37f1bb220b08eb24280b2a7c8"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 90865,
+    "sha256": "e366eaee10bfd246631d3cd5ee8a6585003e843429bdb6d06b76439dcf604a75",
+    "bones": 69,
+    "cubes": 148,
+    "faces": 888,
+    "textures": 1,
+    "materials": 1,
+    "animations": 0,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 5450,
+      "sha256": "9a8cb623fd64eb22707d7346d05145ad4d732a649a8c131d73ce878363cd4234"
+    },
+    {
+      "path": "blue.png",
+      "size": 11452,
+      "sha256": "3704eaab1ee7299859701fd84723c23c31c5a8e35f548db19d59ec5024382aaa"
+    },
+    {
+      "path": "info.json",
+      "size": 133,
+      "sha256": "a4e68a095dcfae80fb1a3e04a3638a35f57d3d7261851e06ec93dd292a38ff56"
+    },
+    {
+      "path": "main.json",
+      "size": 73830,
+      "sha256": "9cc9b9c4cdc78acccca66ed9390a47ce927222c87867d121384e1f427a42bfd5"
+    }
+  ]
+}

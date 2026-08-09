@@ -1,0 +1,93 @@
+{
+  "id": "Mob_Enderman-girl(Moefied)_v2.0",
+  "path": "parsed/Mob_Enderman-girl(Moefied)_v2.0",
+  "source": {
+    "path": "_MinecraftMob/Mob_Enderman-girl(Moefied)_v2.0.ysm",
+    "type": "ysm",
+    "stem": "Mob_Enderman-girl(Moefied)_v2.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "小黑（末影娘）2.0",
+    "tips": "来自怪物娘化世界的末影娘！御姐身少女心，外表安静内心文静。除了一点，千万不要和她眼神对视，不然你只能祈祷马上下雨了！",
+    "authors": [
+      {
+        "name": "大绿葱"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "endermangirl2.0.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Mob_Enderman-girl_Moefied__v2.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4672,
+      "sha256": "8699ae4f0f09118747b3934091067ccc30ae2b28e1e10da4d75d1d158cfb6444"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 615636,
+    "sha256": "a6540653adb7e33b0dd0ac09c44dd7f71fe561e162aaae89557e1114cb7424f5",
+    "bones": 201,
+    "cubes": 706,
+    "faces": 4236,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 52824,
+      "sha256": "a74dc69ae7cffc63e9b33d1eb054269112f249362fae277afbf0dc6c6f3fabf5"
+    },
+    {
+      "path": "arm.json",
+      "size": 22525,
+      "sha256": "57664796d4f68298beb8892c87caf88eed16e4171e0926bb9567ab0a1e007e1e"
+    },
+    {
+      "path": "endermangirl2.0.png",
+      "size": 15552,
+      "sha256": "505b46454e79776dd7fd5b5f17057927dc3f75078b3038ed4e6f8aa674a59ce4"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 175415,
+      "sha256": "30eb0df51f3796fb358241451bd1dd47f955b30595b7ef1e01bcbdb3dcbc8421"
+    },
+    {
+      "path": "main.json",
+      "size": 349320,
+      "sha256": "46475fc57441a7fea74d8159d41610e4802c136f90dc947ff3d4ae031ea7b144"
+    }
+  ]
+}

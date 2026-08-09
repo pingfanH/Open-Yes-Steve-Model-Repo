@@ -1,0 +1,84 @@
+{
+  "id": "DDLC_sayori",
+  "path": "parsed/DDLC_sayori",
+  "source": {
+    "path": "_DokiDokiLiteratureClub/DDLC_sayori.zip",
+    "type": "zip",
+    "stem": "DDLC_sayori"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "DDLC_sayori"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/DDLC_sayori_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7743,
+      "sha256": "b94072084f363973f611d9abaed98a9d092a8cc903695a4e90caa547e9e879b1"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 340876,
+    "sha256": "b08a5c7671007e060d1d8dbfb66668903d8db488e6529f5b3562bd1b4842c37c",
+    "bones": 51,
+    "cubes": 279,
+    "faces": 1674,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 39629,
+      "sha256": "d7d8cc5aebd96d36ee76e9e4619513300bb7dbbc5d45b351a131e1145447085a"
+    },
+    {
+      "path": "arm.json",
+      "size": 8760,
+      "sha256": "9a6af9ce568c0013c3f50f7bfd8d80c2d890282052bf2a826a763fc37d8564ee"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 132640,
+      "sha256": "300ec88d7c7c8e95966fd85b86e26527285cc0184cd790c470fa5e375e5d3729"
+    },
+    {
+      "path": "main.json",
+      "size": 140065,
+      "sha256": "9929023cf35784a38a6b964f635ed89da555a566d1562880ae62346d0d17bdcb"
+    },
+    {
+      "path": "texture.png",
+      "size": 19782,
+      "sha256": "a7beaa6b1505b352d766eb53e99280489b00df2a7e86da9db79f176ee679eeb5"
+    }
+  ]
+}

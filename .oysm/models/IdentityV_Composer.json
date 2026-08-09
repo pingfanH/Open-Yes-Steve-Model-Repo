@@ -1,0 +1,283 @@
+{
+  "id": "IdentityV_Composer",
+  "path": "parsed/IdentityV_Composer",
+  "source": {
+    "path": "_IdentityV/IdentityV_Composer.ysm",
+    "type": "ysm",
+    "stem": "IdentityV_Composer"
+  },
+  "ysm": "parsed/IdentityV_Composer/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/栗坂猫厘子.png",
+        "comment": "",
+        "name": "栗坂猫厘子",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "弗雷德里克·克雷伯格",
+    "tips": "作曲家"
+  },
+  "properties": {
+    "width_scale": 0.75,
+    "height_scale": 0.75,
+    "extra_animation": {
+      "extra0": "神秘舞蹈",
+      "extra1": "招手",
+      "extra2": "鼓掌",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "extra5": "欢呼",
+      "extra6": "摇摆",
+      "extra7": "街舞",
+      "play": "敲音叉",
+      "expression": "#facial_expression",
+      "sit": "坐下",
+      "pistol": "双簧表演结束了(审核好 本枪为拐杖模型无扳机非真实枪支)",
+      "stand": "拄手杖站"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "facial_expression",
+        "name": "外观更改",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "嘴型",
+            "description": "嘴型",
+            "value": "v.roaming.mouth",
+            "labels": {
+              "不显示": "v.roaming.mouth = 0;",
+              "斜嘴": "v.roaming.mouth = 1;",
+              "不高兴": "v.roaming.mouth = 2;",
+              "猫猫嘴": "v.roaming.mouth = 3;",
+              "翘嘴": "v.roaming.mouth = 4;",
+              "微笑": "v.roaming.mouth = 5;"
+            }
+          },
+          {
+            "type": "checkbox",
+            "title": "特效",
+            "description": "开关特效",
+            "value": "v.roaming.effect"
+          },
+          {
+            "type": "checkbox",
+            "title": "音叉",
+            "description": "开关音叉",
+            "value": "v.roaming.yincha"
+          },
+          {
+            "type": "checkbox",
+            "title": "蛐蛐",
+            "description": "头顶个小蛐蛐虫",
+            "value": "v.roaming.ququ"
+          },
+          {
+            "type": "checkbox",
+            "title": "兽耳",
+            "description": "随机画的耳朵，像猫头鹰耳，那就当它是猫头鹰耳吧",
+            "value": "v.roaming.ears"
+          },
+          {
+            "type": "radio",
+            "title": "手杖",
+            "description": "手杖开关",
+            "value": "v.roaming.stick",
+            "labels": {
+              "无手杖": "v.roaming.stick =0;",
+              "右手手杖": "v.roaming.stick=1;",
+              "左手手杖": "v.roaming.stick=2;"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "texture",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        },
+        {
+          "uv": "textures/ronghe.png"
+        },
+        {
+          "uv": "textures/yanliaoshi.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/IdentityV_Composer_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12136,
+      "sha256": "dddca99f4ff81b8cba3e8e0a44ec6f22f925138ab6deaa38b967e0c9393bd022"
+    }
+  },
+  "stats": {
+    "file_count": 20,
+    "total_bytes": 3581299,
+    "sha256": "c24caed4be706d27ed692c98c6bd5928b68b5eb0c80f93ba420fead3c76a7e46",
+    "bones": 269,
+    "cubes": 739,
+    "faces": 4434,
+    "textures": 3,
+    "materials": 3,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 140044,
+      "sha256": "e60e0f8e18c72000a3a5197095c0e72d5ec26eb68816887d7efabf31b367160a"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 231665,
+      "sha256": "d7b2f1a45b840594bc684ad64953008407f372ed7cc7852a4f08d71bec72dde3"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 131666,
+      "sha256": "d937d3484f7d28e66237f4445ebb43edcd2cec683b7f68ac581bcf897e45eb3c"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/栗坂猫厘子.png",
+      "size": 36340,
+      "sha256": "2e6b6c2b6e4e6d8ba63fd147819e3addb27490000f8685d15b42e4049ea2fe21"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 617,
+      "sha256": "58a5a4f99a17e863505e5d985c5342fafccf53eeb5799a572dff4156086be4ad"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 30753,
+      "sha256": "e48d6c67359dccb3c01e106c7b4e4bd56079b648156f2085b3a6d27db627fb2d"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13725,
+      "sha256": "605fc04a716cfd12d30b5d6fb5d6db461504bd2f8da602fe078a4f57b4d71c71"
+    },
+    {
+      "path": "models/main.json",
+      "size": 383083,
+      "sha256": "97fb335cc082ada4819eba60a15e67c1f3de6ab3031fe9ef890b1d726cbe8ac7"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2686,
+      "sha256": "197669635bbf7b8cf8892b6912e428c92c66aac37ea2d3f1a174c9a04b2b64f6"
+    },
+    {
+      "path": "textures/ronghe.png",
+      "size": 56571,
+      "sha256": "a8c09057f23f182e1b38ab2d2e93c98ab8acb26c1b4ceab7675ae842292e07d3"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 56811,
+      "sha256": "dd996e38e2f07456061efa5140a591c0af8f5b15b2525eea94cd2850b08084d9"
+    },
+    {
+      "path": "textures/yanliaoshi.png",
+      "size": 60038,
+      "sha256": "e27e263f6c6da91a68763a25aeaccba07f572213b6270f535d836812bda45987"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2710,
+      "sha256": "d8c4bd686ea58084c93d14e0644c48a72a260dac83edd2f1a75c5894d507ee36"
+    }
+  ]
+}

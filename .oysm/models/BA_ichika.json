@@ -1,0 +1,172 @@
+{
+  "id": "BA_ichika",
+  "path": "parsed/BA_ichika",
+  "source": {
+    "path": "_BlueArchive/BA_ichika.ysm",
+    "type": "ysm",
+    "stem": "BA_ichika"
+  },
+  "ysm": "parsed/BA_ichika/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/烛火的次元宇宙.png",
+        "comment": "还在成长的MC/YSM模型作者",
+        "contact": {
+          "Afdian": "",
+          "Bilibili": "https://space.bilibili.com/57715833?spm_id_from=333.1007.0.0"
+        },
+        "name": "烛火的次元宇宙",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/烛火的次元宇宙.png",
+        "comment": "",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/57715833?spm_id_from=333.1007.0.0"
+        },
+        "name": "烛火的次元宇宙",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "",
+      "home": "https://space.bilibili.com/57715833?spm_id_from=333.1007.0.0"
+    },
+    "name": "仲正一花",
+    "tips": ""
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "poss",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "yes",
+      "extra4": "no",
+      "extra5": "流汗",
+      "extra6": "切换眼型",
+      "extra7": "摸鱼"
+    },
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/仲正一花.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_ichika_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13997,
+      "sha256": "c157b907699ea228994dd0a1d08ced6d44e2aca5753fea692914d76ffe5fd31a"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 2101999,
+    "sha256": "c78c7a2f7587572b9db8668d6c35e5ea8fd48ae069ad27565010313c478e906a",
+    "bones": 133,
+    "cubes": 1381,
+    "faces": 8286,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 126308,
+      "sha256": "6d80d4786d67d871c4cb298e660a756cab547158080ce60a552697338bd0f200"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3369,
+      "sha256": "ec612f3a0c28d9f4f174e77334ad383745c5035695becb14d3453c13d6584df0"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 24540,
+      "sha256": "6a530fe7030bb76a223774a7a6efd5b522d7f90efd780fed93a35c97122d70d4"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 250156,
+      "sha256": "c989736290bb6df0aa8d65ac95bcb7f1b120c6f38a5bb3595310b999c7b91118"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 133823,
+      "sha256": "777e6ec4e201b0edcf7af6b3836495bf6609ace5da03f7e38f68b7e13b9c3d1d"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 40419,
+      "sha256": "2321891b1091f0b314916f013e07f7d0c4569929ea7c5bd3cac69d458975f63c"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 212326,
+      "sha256": "9e12390fedc56dd7307c678df807f0999cdc3e375e7260c061e309f5dc5483fb"
+    },
+    {
+      "path": "avatar/烛火的次元宇宙.png",
+      "size": 218805,
+      "sha256": "03a5875e2cc3ae2adb79931bef6dd43fca33bf18f7e4abb7f19cef29a4e76a1c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 33208,
+      "sha256": "7e83368c548adad3ac2a801827ee4c72935bcd0e4c25f5e0fa668a64c0ea3670"
+    },
+    {
+      "path": "models/main.json",
+      "size": 768236,
+      "sha256": "02793c79cbff59bdfcbe3ddddaba6c633e91ce0e49ae4c6e198919364d9716a0"
+    },
+    {
+      "path": "textures/仲正一花.png",
+      "size": 289460,
+      "sha256": "c8942726a69b8fce51083f6606e2450fc9844cc63dbaeb2ea3d852bc005e32ba"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1349,
+      "sha256": "04f46daef99ae4141adbfb3aa962fb2143fc2fc4a0a3a3f7007817f1c5a898dd"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "OK_Hoshino-Ai_0",
+  "path": "parsed/OK_Hoshino-Ai_0",
+  "source": {
+    "path": "_OshiNoKo/OK_Hoshino-Ai_0.ysm",
+    "type": "ysm",
+    "stem": "OK_Hoshino-Ai_0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Hoshino Ai （我推的孩子/星野 爱）",
+    "tips": "爱是偶像团体“B小町”永远的C位、16岁的究极美少女。“贪心”的她在怀孕后决定要一起获得身为母亲的幸福与身为偶像的幸福，并生下了一对龙凤胎星野爱久爱海与星野瑠美衣\n该模型为免费模型分享,请勿用于商业用途\n模型作者:映素工坊\n模型定制者:Yukimiya_rinne\n模型/动画修改:星屑海螺 QQ:741330261",
+    "authors": [
+      {
+        "name": "模型作者:映素工坊"
+      },
+      {
+        "name": "模型/动画修改:星屑海螺"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "nys04.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/OK_Hoshino-Ai_0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11195,
+      "sha256": "6c851dba31d7052b56e2168cbf22dd0457ca23e3d65b6f1c2809a0103ca23105"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 2236380,
+    "sha256": "04d30165d1cda2156ef7baafe379586fea6f97cb490ab2543a1d5185d7651777",
+    "bones": 85,
+    "cubes": 439,
+    "faces": 2634,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 5231,
+      "sha256": "cf6bcc546148ef13bed21f772c31adf49ca1517fd04f34b931d7066b4cc63a40"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 217603,
+      "sha256": "71cbf3b435966dc5a0d479d9d508796b535236963fb9d924e10b3b703de0b5e1"
+    },
+    {
+      "path": "main.bbmodel",
+      "size": 1735992,
+      "sha256": "4fd6f2511584af3c0f03816a4d6f91527c9378050473c8e1928a231195372aa7"
+    },
+    {
+      "path": "main.json",
+      "size": 219234,
+      "sha256": "ae0dcbbc1be23313ec30e4d34a82278fa1fc27291dfd90618b23297b27810291"
+    },
+    {
+      "path": "nys03.rar",
+      "size": 42147,
+      "sha256": "986ba1db9fafb1036dfa5a8d960221586c6a2ab6ca65cf53e0a86366e9e6b741"
+    },
+    {
+      "path": "nys04.png",
+      "size": 16173,
+      "sha256": "e868497e409cee5fe82defff6b73a86cddaa7f475bbf699a417b69836a1ce9ed"
+    }
+  ]
+}

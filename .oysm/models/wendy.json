@@ -1,0 +1,197 @@
+{
+  "id": "_wendy",
+  "path": "parsed/_wendy",
+  "source": {
+    "path": "Uncategorized/_wendy.ysm",
+    "type": "ysm",
+    "stem": "_wendy"
+  },
+  "ysm": "parsed/_wendy/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/栗坂猫厘子.png",
+        "comment": "演绎之星请投厂长谢谢喵（",
+        "contact": {
+          "Afdian": "https://afdian.com/a/kurisaka",
+          "Bilibili": "栗坂猫厘子"
+        },
+        "name": "栗坂猫厘子",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/kurisaka",
+      "home": "https://b23.tv/8G7FXyu"
+    },
+    "name": "meteorologist",
+    "tips": "气象学家温迪·福特"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "迷惑舞蹈",
+      "extra1": "挥手",
+      "extra2": "鼓掌",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "extra5": "欢呼",
+      "extra6": "摇摆舞",
+      "extra7": "舞蹈",
+      "extra8": "前进",
+      "extra9": "不解",
+      "extra10": "同意",
+      "extra11": "噤声",
+      "show_girl": "显示/隐藏小孩",
+      "wind": "释放强风",
+      "sit2": "坐下"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/wendy_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10298,
+      "sha256": "ee9f3fd80b9f5eb6d3abc18b7ed114d10090a2addc32b35e581a7bcd0fecb990"
+    }
+  },
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 1617470,
+    "sha256": "c7abf40a254558319fa292722ab6cd78542fd31a22584ed99c102ec5305be66b",
+    "bones": 292,
+    "cubes": 549,
+    "faces": 3294,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 120919,
+      "sha256": "286cb16143e8e7753dc5f3dad78d7790f92b5c4331156a4fb7f35a08446c0fc1"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2369,
+      "sha256": "2b854e4483fa936383ad0099165c97464de44938dbe1a5e5c865523aa60763f8"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 136844,
+      "sha256": "b22d2f0358af1f107e7e1b45cba3f32edb85d3d5457d1b0fc68a17be955895bb"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 198386,
+      "sha256": "7c0bd5382518be64b8a30519d2bf6bc6b20ffa975bd166e77a4d7e16563271ab"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/栗坂猫厘子.png",
+      "size": 431924,
+      "sha256": "81853a26171e8aba3c40107deaed3aab1294344a4273807caca4e0073d546115"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 26709,
+      "sha256": "6d68963a40116e6e390c0facee6aef74ce10c05845b1943a35ba9334d0a6364b"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 293259,
+      "sha256": "2839a81eb77d8a4ccd1b441fd1d917ede834fc524acb99d4f4ee6921306d55b1"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 40967,
+      "sha256": "faddb0f7b2c691a03941e617cb1535302152e690c0b23f6ce13d0103f8bae16b"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1557,
+      "sha256": "908c8b0b1a0aee8a5230fea6951d7cf52b4c5100700eaedf6c8d30ed1d3236a8"
+    }
+  ]
+}

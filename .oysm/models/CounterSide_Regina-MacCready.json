@@ -1,0 +1,215 @@
+{
+  "id": "CounterSide_Regina-MacCready",
+  "path": "parsed/CounterSide_Regina-MacCready",
+  "source": {
+    "path": "_CounterSide/CounterSide_Regina-MacCready.ysm",
+    "type": "ysm",
+    "stem": "CounterSide_Regina-MacCready"
+  },
+  "ysm": "parsed/CounterSide_Regina-MacCready/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/_Unknown_.png",
+        "comment": "",
+        "name": "<Unknown>",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Regina MacCready",
+    "tips": "<Unknown>"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "#extra_classify": "Extra Classify"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "Simple Config",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "toggle jacket/scarf",
+            "description": "toggle jacket/scarf",
+            "value": "v.jacket"
+          },
+          {
+            "type": "checkbox",
+            "title": "toggle bow/hat",
+            "description": "toggle bow/hat",
+            "value": "v.hat"
+          },
+          {
+            "type": "radio",
+            "title": "skin",
+            "description": "change skin",
+            "value": "v.skin",
+            "labels": {
+              "base skin": "v.skin=0;",
+              "summer skin": "v.skin=1;"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CounterSide_Regina-MacCready_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 16245,
+      "sha256": "61730b742c8c96902392911d317d7e24d36737d286a3aa00cd0e14b16d3ac359"
+    }
+  },
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 7308998,
+    "sha256": "4b46237d22bcbd701e8a8e80639fe173aab6a6d412ed7dbc2bf7d8c91455f589",
+    "bones": 275,
+    "cubes": 2600,
+    "faces": 15600,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 352871,
+      "sha256": "ceec8c10cd0b75aa67708537cc96e156551910b3eb8541a53d2bca48d6d51a0f"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 4137,
+      "sha256": "32d1b8cc5ff98e13e0cb336b5cecac30a362fe4cfafa364b8fe722c267f54a17"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 204884,
+      "sha256": "14ae5ac50044a5e526b195ef3acf6473e273d05abb745f6a29d406b9c4666376"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 380632,
+      "sha256": "2e11af1d556d468ae2b2faa5087328801b917b8db3856d6d9f03ec1715650b93"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 266819,
+      "sha256": "e55f80a1f3d202342d451bac041f00d1652c27147bdd812c3f0185ef588e41ba"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 3962033,
+      "sha256": "cc5f6805ef629fba2747b43168bf7d62239b671d8f8e3a765ef16a82db889971"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 67060,
+      "sha256": "ac81da1ee2c11035d581bce9a00131eb2f32fd96400115aecb915a2170a17418"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 356417,
+      "sha256": "6e73734c37121ee27674551132bb87c09b648a1162521005a96b05dcb18b2a9f"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 96683,
+      "sha256": "e5600b061905ff67b950ea45eba771d06ec4fc7b19f0e895439225b251dbd9b7"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 617,
+      "sha256": "58a5a4f99a17e863505e5d985c5342fafccf53eeb5799a572dff4156086be4ad"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 28368,
+      "sha256": "de84b0cfabec81ec1d869e81d83bb05307a1e422658662eb5ad1c91d33846137"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1431159,
+      "sha256": "d849eddd5aca5709e82ce3835dec548fcdbd0d7fdc0cbeaedde579bbda45547e"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 155569,
+      "sha256": "9356196a02addec5e95af33bb6fe60544d26c427cc4c09f2d1c364f81abad73d"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1749,
+      "sha256": "36c981f2afda6ee7bcc96ffd43c9e04746414b775bfccc6f98184170200754b8"
+    }
+  ]
+}

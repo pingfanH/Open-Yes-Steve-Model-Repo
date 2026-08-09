@@ -1,0 +1,90 @@
+{
+  "id": "HSR_Silver-Wolf_1",
+  "path": "parsed/HSR_Silver-Wolf_1",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Silver-Wolf_1.ysm",
+    "type": "ysm",
+    "stem": "HSR_Silver-Wolf_1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "HSR_Silver-Wolf_1"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "yinlang.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Silver-Wolf_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10896,
+      "sha256": "00504b42ac2a39a211884c67d88e4cbae729d866de5cf54e9c47bd0f6a0ebeb9"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 545877,
+    "sha256": "83b350257e0370e00974077c987eede8cb058e5a28c79fa9c51c398843b21886",
+    "bones": 90,
+    "cubes": 824,
+    "faces": 4944,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 189904,
+      "sha256": "ced4c20e04fb12409ca0cd6a03f889c14340f56ceadc78317b1160343c533e61"
+    },
+    {
+      "path": "arm.json",
+      "size": 13026,
+      "sha256": "94ba63484c9e990f3f716b042f721a4ac3c5f4405c1282ce2daf1775bcf4f649"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 21644,
+      "sha256": "5d24bb1ca637f96b299f4a14eff2df40e601ceaef84ea75a1c3f9761440fbd6e"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 189904,
+      "sha256": "ced4c20e04fb12409ca0cd6a03f889c14340f56ceadc78317b1160343c533e61"
+    },
+    {
+      "path": "main.json",
+      "size": 121429,
+      "sha256": "0b1c4aa268674312ee1bdeb6d9e5229d164e6d1c2a8f95e8dec189575bbc58ce"
+    },
+    {
+      "path": "yinlang.png",
+      "size": 9970,
+      "sha256": "0906f79f9b5271314fe5f669d325569f5fa679bad429b89551cfdda5aef3c932"
+    }
+  ]
+}

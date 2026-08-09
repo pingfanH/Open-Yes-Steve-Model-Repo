@@ -1,0 +1,99 @@
+{
+  "id": "GF_M16A1_0",
+  "path": "parsed/GF_M16A1_0",
+  "source": {
+    "path": "_GirlsFrontline/GF_M16A1_0.ysm",
+    "type": "ysm",
+    "stem": "GF_M16A1_0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "M16A1",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GF_M16A1_0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7734,
+      "sha256": "89983e728b570108fd6947d81a8240d3fe1c9a741a6d20d68c0d5a5632481d51"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 434507,
+    "sha256": "5993487caffa19c6bc3711897e9e86faa2d78c60bc9e6f17e5c6e6c0f40ed63d",
+    "bones": 82,
+    "cubes": 263,
+    "faces": 1578,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 10600,
+      "sha256": "be16adaffc1ea079dd9a55930f03a699af0a820f75ed126303c711f0084cc110"
+    },
+    {
+      "path": "info.json",
+      "size": 123,
+      "sha256": "58a6ef469d6928fce4adb83f0ab4a2e3f44a29e981aae3139b5965d9a57dadbd"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 124978,
+      "sha256": "561f95759c9b0cb392953408213f81069d309808fdf9f623f53a29d6974d26c0"
+    },
+    {
+      "path": "main.json",
+      "size": 132382,
+      "sha256": "8766095180b0888a900557e2d1acb1b0ef4ecb7eb05f777574d00bfec5528a01"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 136221,
+      "sha256": "e58ddb9514daae6fe26ce8ef7476b5d675d19c087e33ec36fec73c25858ce097"
+    },
+    {
+      "path": "texture.png",
+      "size": 30203,
+      "sha256": "d173842ccf00f3a05303ea28391ab1fa314a98e0a18f575141011c4d16b0b3f7"
+    }
+  ]
+}

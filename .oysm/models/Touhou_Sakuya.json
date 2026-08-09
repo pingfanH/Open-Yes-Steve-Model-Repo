@@ -1,0 +1,78 @@
+{
+  "id": "Touhou_Sakuya",
+  "path": "parsed/Touhou_Sakuya",
+  "source": {
+    "path": "_TouhouProject/Touhou_Sakuya.ysm",
+    "type": "ysm",
+    "stem": "Touhou_Sakuya"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Touhou_Sakuya"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "main.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Touhou_Sakuya_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 15629,
+      "sha256": "bea2f861ee0267e67b44a052209d0576c85cecd29353c771099b374a1d3f0177"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 626686,
+    "sha256": "04f26b0d1f7cdef44cc4b3e5a4266c67be0f3e8957089fe7d21a563ec4577188",
+    "bones": 70,
+    "cubes": 532,
+    "faces": 3192,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 5504,
+      "sha256": "fa886fb06521c0267c3d61b6ba3454d96229578c7455baa71e941272cb88e9f3"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 199116,
+      "sha256": "b6cdb004c620eebf7874f6715f4d927ee0259be2e10a7dd1292931352f63985d"
+    },
+    {
+      "path": "main.json",
+      "size": 289653,
+      "sha256": "76ff128e0ec5a48c2106f89d68786399c1db9cb7403faa803d399b04ebcd198c"
+    },
+    {
+      "path": "main.png",
+      "size": 132413,
+      "sha256": "fb804a5749ff214e7dbb17cffa6c0fa8c70b49b7e6abed4f49575188b6de9249"
+    }
+  ]
+}

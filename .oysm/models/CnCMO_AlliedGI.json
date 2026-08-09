@@ -1,0 +1,99 @@
+{
+  "id": "CnCMO_AlliedGI",
+  "path": "parsed/CnCMO_AlliedGI",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCMO_AlliedGI.ysm",
+    "type": "ysm",
+    "stem": "CnCMO_AlliedGI"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "游骑兵",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCMO_AlliedGI_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5845,
+      "sha256": "ed192d2e0f0d007d6e04ddaeb51ee4c2ce8b6d457b1bcb62a41ed385d56a2785"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 346539,
+    "sha256": "bcc66ba591ea69ae5b6df770891eec549b0b3c02644d34eb820d83c98f655be4",
+    "bones": 41,
+    "cubes": 144,
+    "faces": 864,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 9704,
+      "sha256": "068b3b7c9c800b2e826b7cea911c3b13d40da720d690321c2d8339e935275e6f"
+    },
+    {
+      "path": "info.json",
+      "size": 127,
+      "sha256": "01ca8489d0e8a01c9e21fb736e1aead4ffe8fd7161c8e9c13b35e887b96ea6cb"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122470,
+      "sha256": "d93402d24863ccd84622801424bb845d8ff78161fae9d48b7bbf0c3d213720c1"
+    },
+    {
+      "path": "main.json",
+      "size": 64980,
+      "sha256": "d5daf24cf2df10cb4d7e47fe9e771aa054317dbc4b8817808f8a00745ce3fca1"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131639,
+      "sha256": "a73cf95259743cc506fa6931e6bed68e0e41c5edca8f4651f26f1a42c1e26994"
+    },
+    {
+      "path": "texture.png",
+      "size": 17619,
+      "sha256": "f496e9e201a8501f9125a3b5ae32f64dd791e599bd4d5764b6eb10772576b9f5"
+    }
+  ]
+}

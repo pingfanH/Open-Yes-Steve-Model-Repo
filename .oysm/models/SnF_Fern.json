@@ -1,0 +1,84 @@
+{
+  "id": "SnF_Fern",
+  "path": "parsed/SnF_Fern",
+  "source": {
+    "path": "_SousouNoFrieren/SnF_Fern.ysm",
+    "type": "ysm",
+    "stem": "SnF_Fern"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "SnF_Fern"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/SnF_Fern_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13127,
+      "sha256": "aa0c223081ff532314bbf9a664d55210088d32348b3a0a1c052db218042fa84d"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 988131,
+    "sha256": "69f923b687b19623654522b274b30a44eb197e2b57947d601389a10640722bb7",
+    "bones": 77,
+    "cubes": 878,
+    "faces": 5268,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 1852,
+      "sha256": "3b0af3d0067462742f89389347e8290d43cce0ddbadecb871567e5035edbd0bf"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 225302,
+      "sha256": "6861935b6bf7b07cc5dcef412ef861370c7f85e59d2f7b9d35e43049d44078c0"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 204358,
+      "sha256": "20e458a3f2f86689ea00601a781b9fc672f2626cdad3bce25b8feb9f26bc4096"
+    },
+    {
+      "path": "main.json",
+      "size": 481994,
+      "sha256": "e3f6ac8f681b81c12a2e4b3e911b2cb0817ca2ba0823c6d6d229bd2d17594a88"
+    },
+    {
+      "path": "texture.png",
+      "size": 74625,
+      "sha256": "ee08cbe9c094e2de6a1c791b3c2eb0ea1acb43a44c3d70bad9f26a873f0fc75f"
+    }
+  ]
+}

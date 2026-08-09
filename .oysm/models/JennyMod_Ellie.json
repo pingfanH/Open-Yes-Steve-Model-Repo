@@ -1,0 +1,79 @@
+{
+  "id": "JennyMod_Ellie",
+  "path": "parsed/JennyMod_Ellie",
+  "source": {
+    "path": "_JennyMod/JennyMod_Ellie.zip",
+    "type": "zip",
+    "stem": "JennyMod_Ellie"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Ellie",
+    "tips": "Goth girl"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "ellie.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/JennyMod_Ellie_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3643,
+      "sha256": "7221ac3a4e1529b0ab1347f6d12fbd68b1b6132ef5a175139492f5015c6b9606"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 48181,
+    "sha256": "6c0967f326d3b1184db5bbbf6d650dbae62c5a6936989c3511de85bc5151fd18",
+    "bones": 59,
+    "cubes": 136,
+    "faces": 816,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 4931,
+      "sha256": "3e9f15f5d21c9aac8fd7e56803d3b35f79d22891fa1f2c33590539bb4a60697d"
+    },
+    {
+      "path": "ellie.png",
+      "size": 3925,
+      "sha256": "34f39465d76f02fddc8eea6923c168b6f0d030b2fab71b0f51a8e31dc9aad439"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 18924,
+      "sha256": "1a774e56ca159276d85de3a17afd2b10a5d6ee384af1b54a0fdf56c2d92c4d4d"
+    },
+    {
+      "path": "main.json",
+      "size": 20401,
+      "sha256": "6cee7f91147262d407eaf184a3edee9577ea5f0d95d913f160678e0bc3bab8fb"
+    }
+  ]
+}

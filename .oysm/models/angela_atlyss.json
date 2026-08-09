@@ -1,0 +1,152 @@
+{
+  "id": "angela_atlyss",
+  "path": "parsed/angela_atlyss",
+  "source": {
+    "path": "Unknown/angela_atlyss.ysm",
+    "type": "ysm",
+    "stem": "angela_atlyss"
+  },
+  "ysm": "parsed/angela_atlyss/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/Tsuki (tsklxiv).png",
+        "comment": "This model took me forever",
+        "contact": {
+          "Ko-fi": "https://ko-fi.com/tsklxiv",
+          "Twitter": "https://twitter.com/tsklxiv"
+        },
+        "name": "Tsuki (tsklxiv)",
+        "role": "Model + Texture"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-SA 4.0"
+    },
+    "link": {
+      "Donate": "https://afdian.com/a/ysmmod",
+      "Home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Angela - Atlyss",
+    "tips": "Angela from Atlyss - In Minecraft!"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra1": "Wave",
+      "extra2": "Applause",
+      "extra3": "Get Down",
+      "extra4": "Beg",
+      "extra5": "Approve",
+      "extra6": "Disapprove"
+    },
+    "extra_animation_classify": [],
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/main.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/angela_atlyss_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4970,
+      "sha256": "3f8556de4280644f6f01d7527b6614a0d0a9dbec3a11e066174534cbeffa735f"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 1394602,
+    "sha256": "45492ed5d12ad5afde31fb8e24ff770478207883285f4dd7dd35e07d5971ef35",
+    "bones": 200,
+    "cubes": 352,
+    "faces": 2112,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "6e8d3afe0c3baafff8f7f3e0e30ef3c621c667be5c346af73398f5fd3cb89ca5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 38165,
+      "sha256": "e546ddd2f2dc778e4857b8131daa3407865eb4f92aec6157379de2171bb8ec1c"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 273397,
+      "sha256": "8488ad359f26266f05058bcd5005f7f6837b3217999196002d99f10972fed13a"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 158800,
+      "sha256": "8da3a8446d93f3ae4d1b52e56c382139efe34848a86c31cc9138cf9abda507cc"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 259847,
+      "sha256": "41c50d84d4d107d69b2e793772947c81b887777f67ddaa4e8b5f63d61fcd8d44"
+    },
+    {
+      "path": "avatar/Tsuki (tsklxiv).png",
+      "size": 350621,
+      "sha256": "9ffb65d352d13a4dfc446e1d23b2b44a6a5971f3606e1bed5d8226f125170fc4"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 27380,
+      "sha256": "0fdd6b62d603a933ca0cda0682e85e486028f2392eaad675c1b35a6e943e16aa"
+    },
+    {
+      "path": "models/main.json",
+      "size": 276034,
+      "sha256": "a97a386844a276b2566576af8b9a065da25e754921d42f9056e4d592921e739b"
+    },
+    {
+      "path": "textures/main.png",
+      "size": 6549,
+      "sha256": "5c10936b5841e0fb598d8729f21cea9a9762c898c876ae08e0ebefb2156a31d8"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1134,
+      "sha256": "5821caa2fc24446e1a7f9ff7c4bc441f92e24ff6d038a4010714cb661590a25d"
+    }
+  ]
+}

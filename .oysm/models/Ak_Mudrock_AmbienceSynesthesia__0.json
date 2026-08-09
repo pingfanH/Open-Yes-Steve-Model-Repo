@@ -1,0 +1,197 @@
+{
+  "id": "Ak_Mudrock(AmbienceSynesthesia)_0",
+  "path": "parsed/Ak_Mudrock(AmbienceSynesthesia)_0",
+  "source": {
+    "path": "_Arknights/Ak_Mudrock(AmbienceSynesthesia)_0.ysm",
+    "type": "ysm",
+    "stem": "Ak_Mudrock(AmbienceSynesthesia)_0"
+  },
+  "ysm": "parsed/Ak_Mudrock(AmbienceSynesthesia)_0/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/嗯嗯owo.png",
+        "comment": "大就是好，好就是大",
+        "contact": {
+          "Afdian": "https://afdian.com/a/enenowo",
+          "Bilibili": "https://space.bilibili.com/167202500?spm_id_from=333.337.0.0"
+        },
+        "name": "嗯嗯owo",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/嗯嗯owo.png",
+        "comment": "大就是好，好就是大",
+        "name": "嗯嗯owo",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/嗯嗯owo.png",
+        "comment": "大就是好，好就是大",
+        "name": "嗯嗯owo",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/嗯嗯owo.png",
+        "comment": "大就是好，好就是大",
+        "contact": {
+          "Afdian": "https://afdian.com/a/enenowo",
+          "Bilibili": "https://space.bilibili.com/167202500?spm_id_from=333.337.0.0"
+        },
+        "name": "嗯嗯owo",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.ncom/a/enenowo",
+      "home": "https://space.bilibili.com/167202500?spm_id_from=333.337.0.0"
+    },
+    "name": "黑曜石_泥岩",
+    "tips": "泥岩的工作服。 泥岩在演出现场各设施间巡视，确保演出万无一失"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "精二",
+      "extra2": "立绘动作",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "default",
+    "preview_animation": "extra2",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/ny.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Mudrock_AmbienceSynesthesia__0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7464,
+      "sha256": "9dfff7718bf974a20d76db9c7d0357fe537925a160ff88bccef58e3b416f91f8"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 1439289,
+    "sha256": "fcc25d629b9289c65f558f8cc831e878a9c7907aa14337a7aeb9374de989006c",
+    "bones": 394,
+    "cubes": 1016,
+    "faces": 6096,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 141237,
+      "sha256": "1c90add7744ae373d5629f76ccf7ec33f19c638d2b714ca9ef6b6ed2d257ebfd"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3379,
+      "sha256": "14dee6aafa413daf7b529309a636a6b3a5d6bc09fba163b32305fa7a4ec4fcff"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 113174,
+      "sha256": "dee13ed5af68dbf4f4381470595360d4d34def753c4d3a61ec9abb8a70bca4f7"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 170208,
+      "sha256": "a603ceda5207810f02ebdb3f2d648fb6cce391225dd944b0fd06c5abc282b90a"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "avatar/嗯嗯owo.png",
+      "size": 249656,
+      "sha256": "c821c80643b9ccc647fd6bfe98fbddbaabb67996217de55d42445e82a393d0a1"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 22423,
+      "sha256": "b47c55536a161ca9c0b9929e42ff458cf8fc84ddafa8afb90f70e962f3175c76"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 559072,
+      "sha256": "a9f8f7271d53f9f35fe6cf0b754a5f2cb1622a19ffe73fed59584a4f36a5ff5a"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/ny.png",
+      "size": 36594,
+      "sha256": "0f8b90e66766c0067e81a045ff87ff9b31272e8b960b8c1b8f1313bf7a5d5c23"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1791,
+      "sha256": "5e36bc20a5f2440b2091a0cea0e2a56e40ed4511a83f58da1c03606fce90b080"
+    }
+  ]
+}

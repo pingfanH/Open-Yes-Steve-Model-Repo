@@ -1,0 +1,258 @@
+{
+  "id": "sop2",
+  "path": "parsed/sop2",
+  "source": {
+    "path": "Unknown/sop2.zip",
+    "type": "zip",
+    "stem": "sop2"
+  },
+  "ysm": "parsed/sop2/ysm.json",
+  "metadata": {
+    "name": "M4 SOPMODII",
+    "tips": "控制情绪什么的我是不太懂啦，大家尽情地开心不就很好了吗？",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "XG残党",
+        "role": "模型",
+        "avatar": "avatar/1721656327_385063_CBeF.png"
+      }
+    ],
+    "link": {
+      "home": "https://afdian.com/a/x416g",
+      "donate": "https://afdian.com/a/x416g"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "",
+      "de": "#表情"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.1,
+            "max": 6
+          }
+        ]
+      },
+      {
+        "id": "表情",
+        "name": "表情",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "表情",
+            "description": "表情",
+            "value": "v.roaming.de",
+            "labels": {
+              "默认": "v.roaming.de=0;v.roaming.sd=0;v.roaming.jr=0",
+              "JR": "v.roaming.de=1;v.roaming.sd=0;v.roaming.jr=1",
+              "震惊": "v.roaming.de=1;v.roaming.sd=1;v.roaming.jr=0"
+            }
+          },
+          {
+            "type": "range",
+            "title": "大小",
+            "description": "大小",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.1,
+            "max": 6
+          }
+        ]
+      }
+    ],
+    "preview_animation": "extra8",
+    "disable_preview_rotation": true,
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": false,
+    "all_cutout": false,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "slashblade": "animations/slashblade.animation.json"
+      },
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ],
+      "animation_controllers": [
+        "controller/main.animation_controllers.json"
+      ]
+    },
+    "projectiles": {
+      "minecraft:arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": {
+          "uv": "textures/arrow.png"
+        }
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/sop2_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8182,
+      "sha256": "9d69a328d6d8a6f9d8c91b709da2cb403ba9a84314765ec86b2e8c2b84cf2cb5"
+    }
+  },
+  "stats": {
+    "file_count": 20,
+    "total_bytes": 2275276,
+    "sha256": "553cfb6a3d2656852b6c14d4c571b8471d3bed0cad67db4979fe42717e4293eb",
+    "bones": 158,
+    "cubes": 773,
+    "faces": 4638,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 166810,
+      "sha256": "f43d9f946bc492b9eada8007cf66f149f5d725c3601136822f555dd83250fc16"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 726,
+      "sha256": "1adcba945eaf9fbe605a03fc6173031fb13e31207e6ddfa136c543b0908318d6"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2917,
+      "sha256": "f1b559bb714f40be566b02e1b8dd44c2cc380783e0e8a480c89a8378caa05b96"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 115047,
+      "sha256": "27dd0b9c482ac0353f1cdeb2f31b55574b01513dfad0547e966980174afca37f"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 188079,
+      "sha256": "bd4a54b661ed97474189f682c0fc2f5b13f26c49e67cd73018ae9d97a32b10f9"
+    },
+    {
+      "path": "animations/main.animation_controllers.json",
+      "size": 428,
+      "sha256": "ed61dd34009783131f1da869ec1b43c05451ecb045ba60c78675d6834ea9e2c2"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 163820,
+      "sha256": "d987a9b3c8e3e2efc98973dfaff5af5511a7b6aee0c7edc6cb3e135479d95471"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1154783,
+      "sha256": "e3aed0cd211de3710a9b46cf7811954ba6da7ee6298d41dda6241cff19c7f86f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 193117,
+      "sha256": "0f358c5108b89ac9bab1e984f42aeab3b1941e17e8b598345b872f4d32f33b95"
+    },
+    {
+      "path": "animations/unknown.animation.json",
+      "size": 388,
+      "sha256": "621e33b28d7766449b6ea85e4059abc68a050bee9ee4b389ad9978b03666065d"
+    },
+    {
+      "path": "avatar/1721656327_385063_CBeF.png",
+      "size": 33093,
+      "sha256": "32ae812fdff67547f1fe362828716434a6331d7b92d0945404d44873551e178f"
+    },
+    {
+      "path": "avatar/DM8]LH_5N4I}EJ2[I7ZETYN.png",
+      "size": 35011,
+      "sha256": "e58a932dfd4822416cf709132bbcc21a0d656dd49175eeca5e069799727a03b6"
+    },
+    {
+      "path": "controller/main.animation_controllers.json",
+      "size": 61,
+      "sha256": "08264c5357df42168e133eaa4eaa4a6e4e2ddd5637ad1404da8f3f9e36751207"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 9236,
+      "sha256": "58e0fa9a47bfd20ea6b38b3de612a07b3774acc0e751ae613d56044ae5740e1e"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 5856,
+      "sha256": "42b706818796f7f058d19c07ca4b89f05da2b4cf0627845828e40a0ff08f6891"
+    },
+    {
+      "path": "models/main.json",
+      "size": 149619,
+      "sha256": "5ad91efd261f9f3d0cb7877923f6e989878058d10271dacffdb49316cf67c48c"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 706,
+      "sha256": "7e060893a7aa96f52fc37360dcb698bf1575cbc8ed51ee7d729fe17e9940ef1d"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 11877,
+      "sha256": "37349f8b74525f382679d73f774bbb96ab88b69d7f3b9e1da711c27250f5fef4"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2672,
+      "sha256": "6cf341c64a09eaa6221156cedd37378ec4b722e892dc0a59ddd2729327cdb404"
+    }
+  ]
+}

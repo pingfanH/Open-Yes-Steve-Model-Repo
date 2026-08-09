@@ -1,0 +1,333 @@
+{
+  "id": "希儿·秋霜百合v2.7",
+  "path": "parsed/希儿·秋霜百合v2.7",
+  "source": {
+    "path": "Unknown/希儿·秋霜百合v2.7.ysm",
+    "type": "ysm",
+    "stem": "希儿·秋霜百合v2.7"
+  },
+  "ysm": "parsed/希儿·秋霜百合v2.7/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/猫栗子（荨蒿栗里）.png",
+        "comment": "总要有憧憬的事情吧",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/501046951",
+          "afdian": "https://ifdian.net/a/xphkvilili?tab=home"
+        },
+        "name": "猫栗子（荨蒿栗里）",
+        "role": "模型与动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "希儿·秋霜百合",
+    "tips": "“这么漂亮的衣服，希儿会好好保存的。”"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "挥手",
+      "extra2": "鼓掌",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "extra5": "振奋",
+      "extra6": "得意",
+      "extra7": "舞蹈",
+      "tired": "累了",
+      "ouniegai": "拜托了另一个我",
+      "donthurtmyfriend": "别伤害我的朋友",
+      "BonyaDeerSister": "布洛妮娅姐姐",
+      "iine": "真好",
+      "okk": "好的",
+      "TargetHere": "过来",
+      "GotIt": "收到",
+      "Ready": "准备好了",
+      "ItWasKill": "这装备不错",
+      "ICan": "我还能坚持",
+      "OutDoor": "一起去",
+      "Coming": "正在路上",
+      "thanks": "谢谢舰长",
+      "BabyDontFear": "不怕",
+      "yasasine": "亚萨希",
+      "wonderful": "风景不错",
+      "caniwin": "会赢吗？",
+      "ProtectBonya": "能帮到姐姐吗？",
+      "Beautiful": "真好看",
+      "Safe": "安全了"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "不开心",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "猫耳",
+            "description": "用来切换猫耳是否显示",
+            "value": "v.roaming.catear"
+          },
+          {
+            "type": "checkbox",
+            "title": "发带",
+            "description": "用来切换发带是否显示",
+            "value": "v.roaming.hairband"
+          },
+          {
+            "type": "range",
+            "title": "大小",
+            "description": "用来切换玩家的大小",
+            "value": "v.roaming.player_size",
+            "step": 0.01,
+            "min": -0.9,
+            "max": 5.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/v2.7_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3293,
+      "sha256": "4a4a4a22a014746054e4ab3795c8aba8ee2252936550f67f1477d9c6b2e35883"
+    }
+  },
+  "stats": {
+    "file_count": 34,
+    "total_bytes": 2280221,
+    "sha256": "98caafd0f5cc38cbc109df5c3ee61fc8a5add319d450e90cf9c4567d5e5e9723",
+    "bones": 385,
+    "cubes": 1825,
+    "faces": 10950,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 206718,
+      "sha256": "0daa5a2a1c2ebacfeb1a18be39d9dcb77ce4bb77fdd9791381c683d709a9bfb0"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1803,
+      "sha256": "cba4849a84cab98c4eda0e85e2b0d2b4a77d5d467a0c0d8ba328dfebfd214c54"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "6e8d3afe0c3baafff8f7f3e0e30ef3c621c667be5c346af73398f5fd3cb89ca5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 111618,
+      "sha256": "2058087bea6711a1f01c4f5e701b94f9a2d9eb44e516aa694250bda48e1e0e46"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 153868,
+      "sha256": "aa5e76e278c545ba5a47d01d511258ef81399bf4a1979b9911e4fd0129f5e5d4"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 234045,
+      "sha256": "bc3a6049b85d527d1ad42415ed18cba34c3fe0081fe68650dd84464cf605d877"
+    },
+    {
+      "path": "avatar/猫栗子（荨蒿栗里）.png",
+      "size": 35760,
+      "sha256": "dbd198c1e15604562c1498e2a3dfbf114ceea579f123755974e30932903faf84"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 117920,
+      "sha256": "f873441de08e3362a7e3b7177c2ee994ab1a8c9b0afc08d567575bc591ce7349"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13912,
+      "sha256": "dbcef11201fcf121f27e3e36d6b614470eaa1ba289f163c2eae2b36a92e9fffd"
+    },
+    {
+      "path": "models/main.json",
+      "size": 925744,
+      "sha256": "da2e8c5b61e0d9b116d3fedbeba72515e3f9a111a203d4301fc7760e7d08d0e1"
+    },
+    {
+      "path": "sounds/希儿-不许你伤害希儿的朋友。.ogg",
+      "size": 14764,
+      "sha256": "0ba89fb6ca3cd60649a6225d63c36d8b3cbe18ae2bea0bbc77e7a0cb97c75fc9"
+    },
+    {
+      "path": "sounds/希儿-任务目标，出现了。.ogg",
+      "size": 13897,
+      "sha256": "b9f54c4d753b71f74f6341537e99716e338159939852e985d5a1ea72fe67e05d"
+    },
+    {
+      "path": "sounds/希儿-和大家一起完成任务的感觉真好。【活跃语音】.ogg",
+      "size": 19068,
+      "sha256": "8a789b27d327503621636b6b7a0bb520bb428208df75a48ad079f03450d14c54"
+    },
+    {
+      "path": "sounds/希儿-哦，好的。.ogg",
+      "size": 10149,
+      "sha256": "f04495763a03359588406638401f3731da07dfac735ce31c20322b5d74409002"
+    },
+    {
+      "path": "sounds/希儿-啊，希儿有些累了。【挂机语音】.ogg",
+      "size": 21125,
+      "sha256": "c165625e18b9d5eb50bde1b941a878f5af7adb92e9850e5c96248103a38ad74b"
+    },
+    {
+      "path": "sounds/希儿-布洛妮娅姐姐....ogg",
+      "size": 11934,
+      "sha256": "003d3cf7c9387ebbd28b846390576c4e8a7b4b913572f50a4fd929a4f5163096"
+    },
+    {
+      "path": "sounds/希儿-希儿正在前往目的地。.ogg",
+      "size": 17272,
+      "sha256": "f19a46601728c0aa7a2341da1b3af808a300b6fe428ee3bed10e2b7da42eae44"
+    },
+    {
+      "path": "sounds/希儿-希儿第一次见到这么厉害的装备。【出货语音】.ogg",
+      "size": 19237,
+      "sha256": "9966af565239459992750e4d9bf6cb2538dbae7469f7a20ddee692e388d64e5d"
+    },
+    {
+      "path": "sounds/希儿-希儿要和姐姐一起出去玩，舰长也来吗？.ogg",
+      "size": 23080,
+      "sha256": "50d6d2f7052664551c1171c37159e0f35b085261557a4a4dc64e8608db644dcf"
+    },
+    {
+      "path": "sounds/希儿-希儿还能再坚持一会。.ogg",
+      "size": 16874,
+      "sha256": "604b2a359aac14f68c7f0cecc96975dff4a021dd0ee764cb67d4764dcdccf24b"
+    },
+    {
+      "path": "sounds/希儿-希儿，准备好了。.ogg",
+      "size": 14311,
+      "sha256": "d987cbffff21a26143c8fbbfaff057ddd482b242a449515a0cc2e67f81f63f76"
+    },
+    {
+      "path": "sounds/希儿-希儿，收到。.ogg",
+      "size": 13696,
+      "sha256": "b2efe921eb132c4dc7c38522cd85359a5d09ec016088f1f918d17d4cc556d450"
+    },
+    {
+      "path": "sounds/希儿-总算安全了。.ogg",
+      "size": 12926,
+      "sha256": "aaa33ab793f4f473aa370009e73afdff4aca3ae17225997b62b7fc977b26b474"
+    },
+    {
+      "path": "sounds/希儿-拜托了，另一个我。.ogg",
+      "size": 13697,
+      "sha256": "4bd2c46980856a03beefa290c85957c107e1405463a628180b97c1fe4daa6728"
+    },
+    {
+      "path": "sounds/希儿-真好看，希望大家也都能穿上这么漂亮的衣服.ogg",
+      "size": 28221,
+      "sha256": "56487243bdf275691684e60277fed3b3261bc9923af3816a8bb8c7081e7b1aa0"
+    },
+    {
+      "path": "sounds/希儿-谢...谢谢舰长。.ogg",
+      "size": 20087,
+      "sha256": "a1d617e1047abcaf7a143a8dd3270760597ff0b2e6a46713aae9e9c379d40c0e"
+    },
+    {
+      "path": "sounds/希儿-这么强的敌人，希儿能赢吗？.ogg",
+      "size": 22404,
+      "sha256": "893ed95ccc9efdd497090e0ac6d4482ae9b4c55e34bfa47fae443cf646e52476"
+    },
+    {
+      "path": "sounds/希儿-这些装备能保护姐姐不受伤害吗？.ogg",
+      "size": 18743,
+      "sha256": "d080af6194d23609960135a94f8d18c979551911af99c8bc23f60a67fde8a3e6"
+    },
+    {
+      "path": "sounds/希儿-这点程度，希儿不会害怕的。.ogg",
+      "size": 21020,
+      "sha256": "2c07ea204f1a96561b69586bc0da4babf916ef8cf3440e49e20855f2a27cdbb0"
+    },
+    {
+      "path": "sounds/希儿-这里的大家都很温柔呢。.ogg",
+      "size": 18411,
+      "sha256": "96153be7ea8f5f3b6cf5a85ba03861ddcb4d19e249f8ab67cad88d422bb24699"
+    },
+    {
+      "path": "sounds/希儿-这里的风景，好想和布洛妮娅姐姐一起分享。.ogg",
+      "size": 28050,
+      "sha256": "62403d1ec5a381adf4cdca1f94b999d4ace95027e6bb328c7676b49cdd481d29"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 6672,
+      "sha256": "5415c1fa8ae0d925b6f39ee88bda3770b79a9ccaeef6f50442e4ea3d3eaa7b7b"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 88090,
+      "sha256": "4608178a35f1fb37c5232388735d1a3ed75f7b06ee0ebe52f014e7d59e7b80b6"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2430,
+      "sha256": "5409046bafd936a57db82e8ce656afe4473217adc5b615ca228e1f3b87898454"
+    }
+  ]
+}

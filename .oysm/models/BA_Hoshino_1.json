@@ -1,0 +1,70 @@
+{
+  "id": "BA_Hoshino_1",
+  "path": "parsed/BA_Hoshino_1",
+  "source": {
+    "path": "_BlueArchive/BA_Hoshino_1.zip",
+    "type": "zip",
+    "stem": "BA_Hoshino_1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "BA_Hoshino_1"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Hoshino_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6425,
+      "sha256": "2d2a4cc26b8640f7bbac3c91a3c3ef5a23f32b1627f97f2b0cfc8ea65ee7ab3b"
+    }
+  },
+  "stats": {
+    "file_count": 3,
+    "total_bytes": 91010,
+    "sha256": "fdd09d66d009c5e960b3365500c385605c51bb6339f63a85b726d960c672f7b1",
+    "bones": 74,
+    "cubes": 479,
+    "faces": 2874,
+    "textures": 1,
+    "materials": 1,
+    "animations": 0,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 2550,
+      "sha256": "bde2955672417e7b1b4b6e3fa20908638c0a7925e41e0d429d5d8b04b83be48e"
+    },
+    {
+      "path": "main.json",
+      "size": 79240,
+      "sha256": "907a8e062e5f94a5536b5b0c7fb832f6336f05d2d405e4cd57137f3935eb3b4e"
+    },
+    {
+      "path": "texture.png",
+      "size": 9220,
+      "sha256": "e7f7dfb9726df9640e57ea2a18bbe3da8e611c63bc57175f5f2c07ba6c7417cb"
+    }
+  ]
+}

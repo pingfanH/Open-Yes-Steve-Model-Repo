@@ -1,0 +1,130 @@
+{
+  "id": "_taohua_20250502",
+  "path": "parsed/_taohua_20250502",
+  "source": {
+    "path": "Uncategorized/_taohua_20250502.ysm",
+    "type": "ysm",
+    "stem": "_taohua_20250502"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "桃华",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": []
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "arrow.png",
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "arrow": "arrow.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/taohua_20250502_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7010,
+      "sha256": "00f79548ad6bb3c412bc9e3091d6257afd0811557a26a54bf9031d7dbdad17b1"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 987111,
+    "sha256": "525aa6f2f4a42d52e178a01e4ba873ca0d622bf70129b29dc91c3746e77ca134",
+    "bones": 176,
+    "cubes": 936,
+    "faces": 5616,
+    "textures": 2,
+    "materials": 2,
+    "animations": 6,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 122564,
+      "sha256": "df79d0f9d10da93099fe8776c77adcccca902373049fa35938861f78040d44d1"
+    },
+    {
+      "path": "arm.json",
+      "size": 41580,
+      "sha256": "cb5c07c3aaf49ef3bbe059ea8ceec2144f24881e879781bab9e9ba54258b53b2"
+    },
+    {
+      "path": "arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 2773,
+      "sha256": "57484f0ce73032c69f36cfc1ebb8aadc09ba4efd5d303b9f9d3566f5d3534fa2"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 12001,
+      "sha256": "8bbe871bee96e9134308fe639a82608cdf72bda1d4021d7a8415cde8a1206bac"
+    },
+    {
+      "path": "info.json",
+      "size": 211,
+      "sha256": "51f57c4fa4c41572c0cd4e3865abab623126fb30682387ec6e938ddfddd3a030"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 175547,
+      "sha256": "03f1b6c0b363d4be566b827500f4a6ef32b72de15a3ba4dc3dffce0347b003db"
+    },
+    {
+      "path": "main.json",
+      "size": 477844,
+      "sha256": "c775b2b93cb2006173b9960bf39c9878998af22d3fcdd18a6c7a6f89c6a4a24a"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "texture.png",
+      "size": 12836,
+      "sha256": "40ee912cc7676947dd3f58f464ddf2f34e032d9c6143b655dddec7d88623cde5"
+    }
+  ]
+}

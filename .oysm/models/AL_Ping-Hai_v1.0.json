@@ -1,0 +1,129 @@
+{
+  "id": "AL_Ping-Hai_v1.0",
+  "path": "parsed/AL_Ping-Hai_v1.0",
+  "source": {
+    "path": "_AzurLane/AL_Ping-Hai_v1.0.ysm",
+    "type": "ysm",
+    "stem": "AL_Ping-Hai_v1.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "平海",
+    "tips": "嘿~呀！\n赢了会有好吃的吗？",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "星语TAT、雾雨波波沙"
+      }
+    ]
+  },
+  "properties": {
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "arrow.png",
+        "pinghai.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "arrow": "arrow.animation.json",
+        "carryon": "carryon.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/AL_Ping-Hai_v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7667,
+      "sha256": "a2a24639f5379aeb042d751337f39748d754a94a010d747e83e70b77b0da2060"
+    }
+  },
+  "stats": {
+    "file_count": 11,
+    "total_bytes": 1606054,
+    "sha256": "674b5df31553d5a271d968f52cf8f48b86b2b418e1410f2441a4df8f08d7f957",
+    "bones": 242,
+    "cubes": 1728,
+    "faces": 10368,
+    "textures": 2,
+    "materials": 2,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 112775,
+      "sha256": "13e15930c72ac6d49d7345ff78fb1e1bf7fdaa44c7d54c009f75a08dd7725a7b"
+    },
+    {
+      "path": "arm.json",
+      "size": 6162,
+      "sha256": "796cd45ec0f4ad64d41b0e38839fafb26021be9725f8e87776bb478c9ab631e2"
+    },
+    {
+      "path": "arrow.animation.json",
+      "size": 2944,
+      "sha256": "93be8aded032ba411938b59453aff7efb07bc3f6b0673e5356af04e5c13c24f4"
+    },
+    {
+      "path": "arrow.json",
+      "size": 47220,
+      "sha256": "5a4112adc52ef51dd1d645c5bedf4e1d78786bb29dccc5318f264d9ad7e00bcf"
+    },
+    {
+      "path": "arrow.png",
+      "size": 1385,
+      "sha256": "1f9779c262a72c90e61c7ba890f0e609550a618184f3cf9f066d20fee4084465"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 3180,
+      "sha256": "34a608fe92fe8a72abda67d438589b54e0aadf39600623eea3b05d7fdc6c0b55"
+    },
+    {
+      "path": "info.json",
+      "size": 164,
+      "sha256": "79d6ed1e67386bc9a59b5ad8c93ede3cb41bb11ccdc96ec28a2bb00f7c43e9dc"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 188057,
+      "sha256": "5ef18d01a841676af7330be8ad16bf4083bc37b7276be2436766466484c1c255"
+    },
+    {
+      "path": "main.json",
+      "size": 958832,
+      "sha256": "4a6ad1e06f66f4fac0cd171fbccfd2d39e9f2fe4f627e4265405ea0e76c8e499"
+    },
+    {
+      "path": "pinghai.png",
+      "size": 144777,
+      "sha256": "40f337c4fd11ad5a439221d31ad47c2f876dfd7d23898a19e9840086af4a7165"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 140558,
+      "sha256": "7af17e4164c04003fcd8256acf227dab308d0e7dafb388f4d6e98c1c431a08b1"
+    }
+  ]
+}

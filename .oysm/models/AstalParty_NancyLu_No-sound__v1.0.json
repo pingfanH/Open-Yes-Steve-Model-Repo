@@ -1,0 +1,488 @@
+{
+  "id": "AstalParty_NancyLu(No-sound)_v1.0",
+  "path": "parsed/AstalParty_NancyLu(No-sound)_v1.0",
+  "source": {
+    "path": "_AstralParty/AstalParty_NancyLu(No-sound)_v1.0.ysm",
+    "type": "ysm",
+    "stem": "AstalParty_NancyLu(No-sound)_v1.0"
+  },
+  "ysm": "parsed/AstalParty_NancyLu(No-sound)_v1.0/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§9赤恒Red_Constant.png",
+        "comment": "是的孩子们,我还活着",
+        "contact": {
+          "哔哩哔哩": "https://space.bilibili.com/235888316"
+        },
+        "name": "§9赤恒Red_Constant",
+        "role": "ALL"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://space.bilibili.com/235888316",
+      "home": "https://space.bilibili.com/235888316"
+    },
+    "name": "§dNancyLu（去音效版）",
+    "tips": "§3网络魅影-§d南希露"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "面部控制器": "#表情控制器",
+      "控制器": "#角色控制器",
+      "extra1": "打招呼",
+      "extra3": "同意",
+      "extra4": "否定",
+      "extra5": "Nya Ha~",
+      "extra0": "#脸色",
+      "服装": "#服装",
+      "自我介绍": "§d新来的?",
+      "南希露在网上就是爹!": "§4南希露在网上就是爹！",
+      "④了": "§4④了",
+      "真的四了": "§4真的④了",
+      "正在努力的牢猫(": "努力的牢猫",
+      "extra6": "开香槟喽",
+      "泳装立绘姿势": "泳装立绘",
+      "喇叭": "喊话",
+      "生气": "生气",
+      "pose": "小姿势"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "表情控制器",
+        "name": "表情控制器",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "眼部",
+            "description": "修改眼部",
+            "value": "v.eyes_change",
+            "labels": {
+              "正常": "v.eyes_change=0;v.normal_eye=1;v.gaoguang=1;v.xxyan=0;v.mimiyan=0;v.kukuyan=0;v.heart_eye=0;v.hongwen=0;v.UmU=0",
+              "失去高光": "v.eyes_change=1;v.normal_eye=1;v.gaoguang=0;v.xxyan=0;v.mimiyan=0;v.kukuyan=0;v.heart_eye=0;v.hongwen=0;v.UmU=0",
+              ">_<": "v.eyes_change=2;v.normal_eye=0;v.gaoguang=0;v.xxyan=1;v.mimiyan=0;v.kukuyan=0;v.heart_eye=0;v.hongwen=0;v.UmU=0",
+              "^w^": "v.eyes_change=3;v.normal_eye=0;v.gaoguang=1;v.xxyan=0;v.mimiyan=1;v.kukuyan=0;v.heart_eye=0;v.hongwen=0;v.UmU=0",
+              "哭眼": "v.eyes_change=4;v.normal_eye=0;v.gaoguang=1;v.xxyan=0;v.mimiyan=0;v.kukuyan=1;v.heart_eye=0;v.hongwen=0;v.UmU=0",
+              "心心眼": "v.eyes_change=5;v.normal_eye=0;v.gaoguang=1;v.xxyan=0;v.mimiyan=0;v.kukuyan=0;v.heart_eye=1;v.hongwen=0;v.UmU=0",
+              "红温": "v.eyes_change=6;v.normal_eye=0;v.gaoguang=1;v.xxyan=0;v.mimiyan=0;v.kukuyan=0;v.heart_eye=0;v.hongwen=1;v.UmU=0",
+              "UMU": "v.eyes_change=7;v.normal_eye=0;v.gaoguang=1;v.xxyan=0;v.mimiyan=0;v.kukuyan=0;v.heart_eye=0;v.hongwen=0;v.UmU=1"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "嘴部",
+            "description": "修改嘴部",
+            "value": "v.mouth_change",
+            "labels": {
+              "无": "v.mouth_change=0;v.xixi=0;v.weixiao=0;v.buxixi=0;v.Mzui=0;v.wuyan=0;v.wanla=0;v.tushe=0;v.buhao=0;v.daxiao=0;v.chuishao=0;v.shengqi=0;v.hzui=0",
+              "乐": "v.mouth_change=1;v.xixi=1;v.weixiao=0;v.buxixi=0;v.Mzui=0;v.wuyan=0;v.wanla=0;v.tushe=0;v.buhao=0;v.daxiao=0;v.chuishao=0;v.shengqi=0;v.hzui=0",
+              "微笑": "v.mouth_change=2;v.xixi=0;v.weixiao=1;v.buxixi=0;v.Mzui=0;v.wuyan=0;v.wanla=0;v.tushe=0;v.buhao=0;v.daxiao=0;v.chuishao=0;v.shengqi=0;v.hzui=0",
+              "不乐": "v.mouth_change=3;v.xixi=0;v.weixiao=0;v.buxixi=1;v.Mzui=0;v.wuyan=0;v.wanla=0;v.tushe=0;v.buhao=0;v.daxiao=0;v.chuishao=0;v.shengqi=0;v.hzui=0",
+              "无言": "v.mouth_change=4;v.xixi=0;v.weixiao=0;v.buxixi=0;v.Mzui=0;v.wuyan=1;v.wanla=0;v.tushe=0;v.buhao=0;v.daxiao=0;v.chuishao=0;v.shengqi=0;v.hzui=0",
+              "哈气": "v.mouth_change=5;v.xixi=0;v.weixiao=0;v.buxixi=0;v.Mzui=0;v.wuyan=0;v.wanla=1;v.tushe=0;v.buhao=0;v.daxiao=0;v.chuishao=0;v.shengqi=0;v.hzui=0",
+              "吐舌": "v.mouth_change=6;v.xixi=0;v.weixiao=0;v.buxixi=0;v.Mzui=0;v.wuyan=0;v.wanla=0;v.tushe=1;v.buhao=0;v.daxiao=0;v.chuishao=0;v.shengqi=0;v.hzui=0",
+              "不豪！": "v.mouth_change=7;v.xixi=0;v.weixiao=0;v.buxixi=0;v.Mzui=1;v.wuyan=0;v.wanla=0;v.tushe=0;v.buhao=0;v.daxiao=0;v.chuishao=0;v.shengqi=0;v.hzui=0",
+              "丸辣！": "v.mouth_change=8;v.xixi=0;v.weixiao=0;v.buxixi=0;v.Mzui=0;v.wuyan=0;v.wanla=0;v.tushe=0;v.buhao=1;v.daxiao=0;v.chuishao=0;v.shengqi=0;v.hzui=0",
+              "大笑": "v.mouth_change=9;v.xixi=0;v.weixiao=0;v.buxixi=0;v.Mzui=0;v.wuyan=0;v.wanla=0;v.tushe=0;v.buhao=0;v.daxiao=1;v.chuishao=0;v.shengqi=0;v.hzui=0",
+              "吹哨": "v.mouth_change=10;v.xixi=0;v.weixiao=0;v.buxixi=0;v.Mzui=0;v.wuyan=0;v.wanla=0;v.tushe=0;v.buhao=0;v.daxiao=0;v.chuishao=1;v.shengqi=0;v.hzui=0",
+              "生气": "v.mouth_change=11;v.xixi=0;v.weixiao=0;v.buxixi=0;v.Mzui=0;v.wuyan=0;v.wanla=0;v.tushe=0;v.buhao=0;v.daxiao=0;v.chuishao=0;v.shengqi=1;v.hzui=0",
+              "H形嘴": "v.mouth_change=12;v.xixi=0;v.weixiao=0;v.buxixi=0;v.Mzui=0;v.wuyan=0;v.wanla=0;v.tushe=0;v.buhao=0;v.daxiao=0;v.chuishao=0;v.shengqi=0;v.hzui=1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "角色控制器",
+        "name": "角色控制器",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "角色尺寸",
+            "description": "调整角色大小",
+            "value": "v.player_size",
+            "step": 0.1,
+            "min": 0.1,
+            "max": 2.0
+          },
+          {
+            "type": "range",
+            "title": "头部尺寸",
+            "description": "调整头部大小",
+            "value": "v.head_size",
+            "step": 0.1,
+            "min": 0.5,
+            "max": 2.0
+          },
+          {
+            "type": "radio",
+            "title": "纯真天使模式(初始时装)",
+            "description": "喜欢小的直说（",
+            "value": "v.breast_size",
+            "labels": {
+              "OFF": "v.breast_size=0;v.normal_breast=1;v.chunzhen_breast=0",
+              "ON": "v.breast_size=1;v.normal_breast=0;v.chunzhen_breast=1"
+            }
+          },
+          {
+            "type": "checkbox",
+            "title": "头饰",
+            "description": "头饰开关",
+            "value": "v.toushi"
+          },
+          {
+            "type": "checkbox",
+            "title": "外套",
+            "description": "外套开关",
+            "value": "v.coat"
+          },
+          {
+            "type": "checkbox",
+            "title": "鞋子",
+            "description": "鞋子开关",
+            "value": "v.xiezi"
+          },
+          {
+            "type": "checkbox",
+            "title": "腿环",
+            "description": "腿环开关",
+            "value": "v.tuihuan"
+          },
+          {
+            "type": "range",
+            "title": "模型Y轴",
+            "description": "Y轴",
+            "value": "v.shenggao",
+            "step": 0.1,
+            "min": 0.1,
+            "max": 10.0
+          },
+          {
+            "type": "range",
+            "title": "模型X轴",
+            "description": "X轴",
+            "value": "v.kuandu",
+            "step": 0.1,
+            "min": 0.1,
+            "max": 10.0
+          },
+          {
+            "type": "range",
+            "title": "模型Z轴",
+            "description": "Z轴",
+            "value": "v.houdu",
+            "step": 0.1,
+            "min": 0.1,
+            "max": 10.0
+          }
+        ]
+      },
+      {
+        "id": "服装",
+        "name": "服装",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "服装",
+            "description": "服装修改",
+            "value": "v.skin",
+            "labels": {
+              "初始服装": "v.skin=0;v.normal_skin=1;v.water_skin=0",
+              "§b热浪沙滩": "v.skin=1;v.normal_skin=0;v.water_skin=1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "脸色",
+        "name": "面部控制器",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "脸色",
+            "description": "修改脸色",
+            "value": "v.mianse",
+            "labels": {
+              "无": "v.mianse=0;v.heiyan=0;v.xiuse=0",
+              "黑颜": "v.mianse=1;v.heiyan=1;v.xiuse=0",
+              "羞涩": "v.mianse=2;v.heiyan=0;v.xiuse=1"
+            }
+          },
+          {
+            "type": "checkbox",
+            "title": "腮红",
+            "description": "腮红开关",
+            "value": "v.saihong"
+          },
+          {
+            "type": "checkbox",
+            "title": "黑线",
+            "description": "黑线开关",
+            "value": "v.heixian"
+          },
+          {
+            "type": "checkbox",
+            "title": "流汗",
+            "description": "流汗开关",
+            "value": "v.liuhan"
+          },
+          {
+            "type": "radio",
+            "title": "气愤",
+            "description": "气愤表现选择",
+            "value": "v.angry",
+            "labels": {
+              "无": "v.angry=0;v.qifeng1=0;v.qifeng2=0",
+              "气泡形式": "v.angry=1;v.qifeng1=0;v.qifeng2=1",
+              "红#形式": "v.angry=2;v.qifeng1=1;v.qifeng2=0"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "GUI",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": true,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/AstalParty_NancyLu_No-sound__v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12913,
+      "sha256": "e161c016cfe05e27f066be9e42b8f1ae582ae03c1cb1ff1bcbc354dee3e54a17"
+    }
+  },
+  "stats": {
+    "file_count": 34,
+    "total_bytes": 5102655,
+    "sha256": "d2eb2800fac8ab28bdcb9cd7144d74aff62f50201efd81d3327aa1d31c8b39c6",
+    "bones": 494,
+    "cubes": 2632,
+    "faces": 15792,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 145876,
+      "sha256": "bc3d15cac0545f777d1ca5095d84899205c07816a08fcb44297d6b6dc7765326"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 31226,
+      "sha256": "2ea113570f090960eeea128c0f77441410c094cde5aec361b4fd2f70589475cd"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 191893,
+      "sha256": "59771edb368bce0b2b2bfb643675cf42bc0609bc6e20a5f57f127aff6b4fe8e4"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2025108,
+      "sha256": "9b5bd69d275727ffd808551254143a04e835e2be9353ea7e577c7a4740f6cedc"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/§9赤恒Red_Constant.png",
+      "size": 32766,
+      "sha256": "405a791239eaa4309bbf0930a4a1afc58190ea895400df7c7dd8067784b635f8"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 122680,
+      "sha256": "39b752cef944db217440fc620517e277920bf49498457ec7139c9c0ecfd3839c"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 4335,
+      "sha256": "61b599370fcc79a7e8cdede60cfe4be310893fbee1c8531af406c0e602d53762"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1321283,
+      "sha256": "179faaf3b83679352fa883833da8c2919871bb5ae282bb1f449514c0dbe8a203"
+    },
+    {
+      "path": "sounds/attacked.ogg",
+      "size": 15786,
+      "sha256": "6dd247d8c2428e9325f2a5c8ff7ff2eaed634943690042392fee0d453c619631"
+    },
+    {
+      "path": "sounds/death.ogg",
+      "size": 17289,
+      "sha256": "5fc108e10f867c3ff3c27fcd96075c799919e252c58c9d085f72de084b704959"
+    },
+    {
+      "path": "sounds/happy.ogg",
+      "size": 16268,
+      "sha256": "7804867071d6fec5b7e87e72a6a69ec1165574e5323e65788e5e7aca58ac3a0f"
+    },
+    {
+      "path": "sounds/holdbow.ogg",
+      "size": 35967,
+      "sha256": "986b9ab9b7bfe2e47bc8696586a7eeeef7eb9dbbd94398811eff945b06eafec5"
+    },
+    {
+      "path": "sounds/holdchargedcrossbow.ogg",
+      "size": 178330,
+      "sha256": "179757f97a68e18c981386a8a11908ea7ee2cd7a07c5eb83c752abcaf50ea117"
+    },
+    {
+      "path": "sounds/holdcrossbow.ogg",
+      "size": 24509,
+      "sha256": "7374b777e143968decd77d1edaa523b8b86504305788ebe3462cb5bf7415d49b"
+    },
+    {
+      "path": "sounds/myself.ogg",
+      "size": 87642,
+      "sha256": "3dc17d4ef753b95160e1e9aae7856b915ed0dd5dd93b740c77aa7c8ccb555522"
+    },
+    {
+      "path": "sounds/nyaha.ogg",
+      "size": 21348,
+      "sha256": "8932d8d08b5d92ec1f0b4508512acdf98d58b0cb098ac7b5816dd59b3b9171ca"
+    },
+    {
+      "path": "sounds/online.ogg",
+      "size": 52448,
+      "sha256": "18c7c8e8e99faf30311a9fe254330bce0b06ee6a3e62384271d35a7c3ba8d8e1"
+    },
+    {
+      "path": "sounds/realdeath.ogg",
+      "size": 27443,
+      "sha256": "0997ece34f5d28f38623d177f440906693ace9d9567b4ef18a9436dfa038677b"
+    },
+    {
+      "path": "sounds/shields.ogg",
+      "size": 32538,
+      "sha256": "7df54d4b2ab93a9d0997704512d207f7ab3fdb31c27fb8f03e0f46b4bade4f11"
+    },
+    {
+      "path": "sounds/swing.ogg",
+      "size": 15498,
+      "sha256": "60a985495ece2b1a12020ab898f4b9b56b0c1850ae9b55d56238025a8e3119db"
+    },
+    {
+      "path": "sounds/tired.ogg",
+      "size": 34591,
+      "sha256": "4abfb2d17e1c9a5d69c14988fc87e5cc05116c19006affc3615375b0144d6417"
+    },
+    {
+      "path": "sounds/usebow.ogg",
+      "size": 39029,
+      "sha256": "bf832dfda71302c803e14b6e7f473e189a04871c453abc5738070911e4495ca1"
+    },
+    {
+      "path": "sounds/usecrossbow.ogg",
+      "size": 41233,
+      "sha256": "ae2c6b8fc37f4f76811678d70362d39e82f2e5391467d7190c2eb8ea0381b2c1"
+    },
+    {
+      "path": "sounds/usespear.ogg",
+      "size": 24206,
+      "sha256": "ab1d4fca4a00f057fdd79b26fd40cbafdb598fbd7442ae227934587d6acb76f2"
+    },
+    {
+      "path": "sounds/usespyglass.ogg",
+      "size": 25961,
+      "sha256": "3b30888f3f758734072bffd91490354453b5ebb5b6ca5195be86c7ef61dd0225"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1856,
+      "sha256": "f0fea5d7e1ac364c8cd60bd28959e1dc885106d4bcfe5bae9de7ad14d56b7080"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 113309,
+      "sha256": "2c1180e88d8169624bf4cf954a0522a8fadc5f4807bc9d41ee162c4c25bb8ed2"
+    },
+    {
+      "path": "ysm.json",
+      "size": 7434,
+      "sha256": "8ad96944dc6edd01902f17f337382a8cc27520b49d0b8f192b5c4fee59e0bb39"
+    }
+  ]
+}

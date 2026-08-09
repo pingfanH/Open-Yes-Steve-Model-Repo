@@ -1,0 +1,136 @@
+{
+  "id": "2.5D_Amano-Lilysa_v1.0",
+  "path": "parsed/2.5D_Amano-Lilysa_v1.0",
+  "source": {
+    "path": "_2.5DimensionalSeduction/2.5D_Amano-Lilysa_v1.0.ysm",
+    "type": "ysm",
+    "stem": "2.5D_Amano-Lilysa_v1.0"
+  },
+  "ysm": "parsed/2.5D_Amano-Lilysa_v1.0/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/NekuroMC.png",
+        "comment": "Hello",
+        "contact": {
+          "Planetminecraft": "https://www.planetminecraft.com/member/nekuromc/",
+          "Sketchfab": "sketchfab.com/NekuroMC/models"
+        },
+        "name": "NekuroMC",
+        "role": "Author"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://ko-fi.com/nekuromc",
+      "home": "https://www.planetminecraft.com/member/nekuromc/"
+    },
+    "name": "Amano Lilysa",
+    "tips": "2.5 Dimensional Seduction - >> Check out my other models at PMC <<"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/2.5D_Amano-Lilysa_v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5487,
+      "sha256": "a0edafea5b6558a37fd143f2a21bc946b7c6f977ee976300ce07e53f6e6d5120"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 750878,
+    "sha256": "d586e883cdb1e26fcd3016e39811d95165d36a8997a548ef3f02840358b3f6d3",
+    "bones": 85,
+    "cubes": 256,
+    "faces": 1536,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 121795,
+      "sha256": "fe509bd4aa81a2f23b3f8999f27e8ee34cc6ca83e462fb0558c12b3b285877b2"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 179862,
+      "sha256": "10449e6219c7b4332f1da98571d5f5e09eab85ae073c557ce85b7a2e304bfbb6"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "avatar/NekuroMC.png",
+      "size": 161044,
+      "sha256": "14c258b692cd42d805dcfed883167c80c94286f28e0e079e936e96b575953595"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 8604,
+      "sha256": "ec6087a59e1e7223ce1fcd4ed239fdd27a44e1aaaddd29487bea9250e6ae74d6"
+    },
+    {
+      "path": "models/main.json",
+      "size": 127789,
+      "sha256": "69ca611d8d9e7c6d74ee323fd868c9a51de10977b84dfdd712c8fffa9c6ce440"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 14565,
+      "sha256": "7298c7c53f5c75198f1849e8a155d531ef6504151869de60c4d778326f73bc6c"
+    },
+    {
+      "path": "ysm.json",
+      "size": 939,
+      "sha256": "e8ac2af92a53a1fe3ca12ae218d88f09082c885902ccc9440f30b28b81b1f3b7"
+    }
+  ]
+}

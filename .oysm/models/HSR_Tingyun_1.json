@@ -1,0 +1,84 @@
+{
+  "id": "HSR_Tingyun_1",
+  "path": "parsed/HSR_Tingyun_1",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Tingyun_1.ysm",
+    "type": "ysm",
+    "stem": "HSR_Tingyun_1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "HSR_Tingyun_1"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "ty.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Tingyun_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9350,
+      "sha256": "1f0b989b95d7435d5ffe6e6e635ad963c6cbd2ac3bf21064d94edc6debc88372"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 642174,
+    "sha256": "b70ecc6c48061f1afde9cb752d98dc652eac291bc5982247b8d67abc202ae8c1",
+    "bones": 81,
+    "cubes": 389,
+    "faces": 2334,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 24006,
+      "sha256": "b57d48376236cc6c4723218cc108e82746e42959c4b6a9cd1af6c2dd79f18c19"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 50532,
+      "sha256": "798f878bf483cb3e16b8d19056ed73b66ff933a380ed03cf946372d64308c758"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 343721,
+      "sha256": "be34e458915a6957a7cdeae3680d966637cfa66888337c5d080efa7550a9127c"
+    },
+    {
+      "path": "main.json",
+      "size": 184880,
+      "sha256": "91754645380c710792591e5b7a1950de0953c4cf839fa2701fc8fe49618e6df3"
+    },
+    {
+      "path": "ty.png",
+      "size": 39035,
+      "sha256": "cf67402e7bd6a162f6c51eeb02e64d15a25dac7a084b5ae92e8bcf12f1be7028"
+    }
+  ]
+}

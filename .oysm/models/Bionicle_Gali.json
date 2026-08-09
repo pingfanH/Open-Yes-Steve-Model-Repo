@@ -1,0 +1,156 @@
+{
+  "id": "Bionicle_Gali",
+  "path": "parsed/Bionicle_Gali",
+  "source": {
+    "path": "_Bionicle/Bionicle_Gali.zip",
+    "type": "zip",
+    "stem": "Bionicle_Gali"
+  },
+  "ysm": "parsed/Bionicle_Gali/ysm.json",
+  "metadata": {
+    "name": "Gali",
+    "tips": "Noble Toa of Water",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "CrystalizedSun",
+        "comment": "The Contributor of TLM mod"
+      }
+    ]
+  },
+  "properties": {
+    "default_texture": "Gali",
+    "free": true,
+    "extra_animation": {
+      "extra0": "#kanohi_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "kanohi_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "Kanohi",
+            "description": "Selection of Kanohi",
+            "value": "v.kanohi",
+            "labels": {
+              "Kaukau": "v.kanohi=0;",
+              "Hau": "v.kanohi=1;",
+              "Miru": "v.kanohi=2;",
+              "Kakama": "v.kanohi=3;",
+              "Pakari": "v.kanohi=4;",
+              "Akaku": "v.kanohi=5;"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "tac": "animations/tac.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "texture": [
+        "textures/gali.png",
+        "textures/gali_goldmask.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Bionicle_Gali_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4959,
+      "sha256": "a15159b9d8378f9913552c8cbc8c4a1ee3eee8da032fdb6af32704f376e6e0ab"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 512392,
+    "sha256": "865671bb311218e1298b71b58c212609ec7603e42bf8396dbfa7b4ef5dbb4e4b",
+    "bones": 60,
+    "cubes": 416,
+    "faces": 2496,
+    "textures": 2,
+    "materials": 2,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/main.animation.json",
+      "size": 30495,
+      "sha256": "018d017d909fe7740339950b711edc2f19209234c878f6a65c276ccf725e201b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 155248,
+      "sha256": "4f40aec385f3c4117db41fdbe6c94184a17c75cd324d37fb0660a9c70e251ff1"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 56240,
+      "sha256": "b109f7ab950c1fe99e8a41d0dba6ee6ce027f60d5f3cf5ee239fcc2e37a091c5"
+    },
+    {
+      "path": "avatar/dm.png",
+      "size": 5471,
+      "sha256": "5d28f00fd947e31f361da9cab6c16693d80f25988515822e078cea1f5ef08a60"
+    },
+    {
+      "path": "avatar/gsl.png",
+      "size": 4738,
+      "sha256": "0bf76a1ba896f709839f9c35bb62852350b4b0f110bc9a1c4c4c5acc99f25188"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 9352,
+      "sha256": "607c2a3b9c52bc9dff6e143c843ee249de8e5a4e3dc727e928d9a62b7706868d"
+    },
+    {
+      "path": "models/main.json",
+      "size": 205909,
+      "sha256": "914098706cc70686731a84e704a9b4de8e9b3cfff936a0620e3a0a7c1693ece6"
+    },
+    {
+      "path": "textures/gali.png",
+      "size": 21045,
+      "sha256": "72a3d55aa258f4d3636b65c56825b05718c3ba33c908e8f4522aa9957f3de86c"
+    },
+    {
+      "path": "textures/gali_goldmask.png",
+      "size": 22029,
+      "sha256": "a51e821493bbb5d2327ea3ed29d4fc3c955a69efa0abb96e00ea3bf4edd040d4"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1865,
+      "sha256": "f61a5a4b8d6748df30c517daa7e96fde26fd22566c76d35cd9f347ecd058a320"
+    }
+  ]
+}

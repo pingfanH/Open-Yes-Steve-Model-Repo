@@ -1,0 +1,78 @@
+{
+  "id": "HSR_Bailu_1",
+  "path": "parsed/HSR_Bailu_1",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Bailu_1.ysm",
+    "type": "ysm",
+    "stem": "HSR_Bailu_1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "HSR_Bailu_1"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "bailu.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Bailu_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13332,
+      "sha256": "84e4c0412463b4961934168f16643d3dcf3d7492eb9fb53f51d3324a394a3be5"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 649442,
+    "sha256": "328c14440d948e90cf0d6065fd9720b310d80b9ee4752d81e52706b339a4f460",
+    "bones": 122,
+    "cubes": 475,
+    "faces": 2850,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 9908,
+      "sha256": "a5b47bcc879b6a27d723da051d52ba752268b5bd865875fe2e47fcfbf1109b9f"
+    },
+    {
+      "path": "bailu.png",
+      "size": 9498,
+      "sha256": "2aa0c33957c509010f09daf4baddbcd3cf35bfc88107d8dd73b892da2f13fc84"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 395244,
+      "sha256": "23c9afa8d061bd71ec0931fefb89965e2fb728831ec081d6abe7c850cd668dd5"
+    },
+    {
+      "path": "main.json",
+      "size": 234792,
+      "sha256": "4b1ff999c5c0fb550133c72bf362fd39426ede46e777bf1d30e59711b1f4b886"
+    }
+  ]
+}

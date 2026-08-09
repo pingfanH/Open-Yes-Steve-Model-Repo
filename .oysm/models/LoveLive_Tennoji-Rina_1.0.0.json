@@ -1,0 +1,185 @@
+{
+  "id": "LoveLive_Tennoji-Rina_1.0.0",
+  "path": "parsed/LoveLive_Tennoji-Rina_1.0.0",
+  "source": {
+    "path": "_LoveLive/LoveLive_Tennoji-Rina_1.0.0.zip",
+    "type": "zip",
+    "stem": "LoveLive_Tennoji-Rina_1.0.0"
+  },
+  "ysm": "parsed/LoveLive_Tennoji-Rina_1.0.0/ysm.json",
+  "metadata": {
+    "name": "天王寺璃奈",
+    "tips": "校服",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "爱吃园田海味",
+        "role": "所有的",
+        "avatar": "avatar/IMG_3144.png"
+      }
+    ]
+  },
+  "properties": {
+    "height_scale": 0.65,
+    "width_scale": 0.65,
+    "extra_animation": {
+      "extra0": "璃奈板-- 微笑",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "打开/关闭璃奈板",
+      "extra5": "璃奈板-- 震惊！",
+      "extra6": "璃奈板-- 激动！",
+      "extra7": "璃奈板-- 喜欢！",
+      "extra8": ""
+    },
+    "preview_animation": "idle",
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": "textures/arrow.png"
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/LoveLive_Tennoji-Rina_1.0.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6331,
+      "sha256": "e0997ae9f0c4e39d43e88c8744c7cfca7a49f0c62c59ecf9c736e9453356a478"
+    }
+  },
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 993079,
+    "sha256": "375ec7f28053142d35b7ef10f4397c70f107f68faaccaba5ad68f41079154394",
+    "bones": 120,
+    "cubes": 393,
+    "faces": 2358,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 146784,
+      "sha256": "a9382be337870d5db24fa61f36df5dd92a90aa656f73d569773a84a3d5014513"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 519,
+      "sha256": "81539c90a73e8a3694ddfaf885f3c4d054e14cceeb0e818ff35ea564652450fe"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3600,
+      "sha256": "d2b36b41837c25f6829cdd912970235cd457c7985598fb9e98427b08ffd81246"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 32487,
+      "sha256": "e2aa860b3ac78da212f924ee16fb0ba752bada086aa425e954e6559dfd028edb"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 205403,
+      "sha256": "8afb8972f355f5780505b7b307e96009536ce2e28573e56a63807e943976a32c"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 164868,
+      "sha256": "85f8114dce69f142d5516cd237ca63ef02dc7e655a82076387a66d05e7610700"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 215960,
+      "sha256": "35fa527e9f86f7ea4cacbc2d905420d98d907b8de94a5c2345cfbb947cabac45"
+    },
+    {
+      "path": "avatar/IMG_3144.png",
+      "size": 36391,
+      "sha256": "bf1e12b0d6c4c9e75488fbd98aa488a5d6d035fdad60603b3dc27e27651b6538"
+    },
+    {
+      "path": "avatar/gsl.png",
+      "size": 4738,
+      "sha256": "0bf76a1ba896f709839f9c35bb62852350b4b0f110bc9a1c4c4c5acc99f25188"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 2081,
+      "sha256": "157cc49f711743ea7e266e7dd7b69cabc7982df8a70bf17eb31bd73faf5f1c9e"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 9145,
+      "sha256": "c102c65c10571d624b3a3ac4eb89a2c307850a9c3a163af9d93e3db66de4bfb7"
+    },
+    {
+      "path": "models/main.json",
+      "size": 114661,
+      "sha256": "2b7d16560c447265c96fcf9241a7f11461607ec757ceff615c43a6ff73052bfc"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 710,
+      "sha256": "7e6f6fbfc1e9fd654dc70e549f9db48607f60608c408a1315369c7f494f93fe2"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 3931,
+      "sha256": "e8d13cbd9f432bcc58a9d954125bca35b19e9bee84151872a9643d37d2151263"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 9360,
+      "sha256": "03115645e7155be233874d5173a0414d6985f3962a8919fb8cf41d6e38db1eeb"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1411,
+      "sha256": "ed77690ba2ef900d0b53fb559278f7b54a300b1f3debf7edc929bfb6660f6c63"
+    }
+  ]
+}

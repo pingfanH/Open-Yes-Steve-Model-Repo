@@ -1,0 +1,189 @@
+{
+  "id": "_Nono_1.0.1",
+  "path": "parsed/_Nono_1.0.1",
+  "source": {
+    "path": "Uncategorized/_Nono_1.0.1.ysm",
+    "type": "ysm",
+    "stem": "_Nono_1.0.1"
+  },
+  "ysm": "parsed/_Nono_1.0.1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/qidai.png",
+        "comment": "摸了",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/172318031"
+        },
+        "name": "qidai",
+        "role": "模型&动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "name": "§6nono",
+    "tips": "§c蓝色星原-诺诺 §e§lV§r§f§l1.0.0§r\n\n§f§l建议把玩家音量调到20%以下§r(钢管落地.jpg\n§r§e§l不建议使用<更真实的第一人称>mod进行战斗游玩！\n§6战斗时推荐使用<leawind第三人称>mod！\n§f(按f6可以关闭更真实的第一人称mod)\n\n§4§m服务器使用需授权\n§r§c§l不用麻烦授权了，直接用吧"
+  },
+  "properties": {
+    "width_scale": 0.55,
+    "height_scale": 0.57,
+    "extra_animation": {
+      "extra0": "点赞",
+      "extra5": "坐下",
+      "extra1": "坐锤子",
+      "extra2": "✌",
+      "extra3": "武器pose"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "2",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Nono_1.0.1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9743,
+      "sha256": "dfa1a9e0c0d4cd8e8519c1b1662f8e9a2a649e5b5dd28938e493e9eae2317d3c"
+    }
+  },
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 5721748,
+    "sha256": "cbfd30b8641af30bd522a7972cf1eb079506187f8cc06c0a7cb7809c760fa06e",
+    "bones": 375,
+    "cubes": 6625,
+    "faces": 39705,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 141023,
+      "sha256": "44777d12ad47e6bf3f90450c819ce47848516350919eaf5229da53b84677f4ed"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 43472,
+      "sha256": "bfe4fff7eef5f4d40db413128af382bbd4effe70d565780809922273a55a29c2"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 451263,
+      "sha256": "1c4aae18df4dc64545ef399f38300d83dd95728a6ffd0ad6db524aead5e90095"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/qidai.png",
+      "size": 935687,
+      "sha256": "1d0cfb18593ee0129b32f679d23a272b52b044eef0965209b3bf94ee53ac9e86"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 4889,
+      "sha256": "5b3e20e7c9692471e690f1d4a8010683c1d720f5a3eeebf2572079d4101519a4"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 544730,
+      "sha256": "92423676a55743d8bb51325838e03b7b6062d8b8d54cfe57a82f5277dc01aa94"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 3116227,
+      "sha256": "5f83b2e1e8579e01d482f42ed97c43b10903c3d17661609c0c908dcc654ee7c2"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 115660,
+      "sha256": "b49c7d3ee20d63f99c03f3b1b28ababe6bcc3a1c2ed57e21da4ee147453025c7"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1587,
+      "sha256": "5aba5d0a998c71e74c8213a800798ef7837dfc98e8db425c06ff2f2b2a3777e9"
+    }
+  ]
+}

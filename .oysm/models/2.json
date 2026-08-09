@@ -1,0 +1,269 @@
+{
+  "id": "高奈利亚-常服 (2)",
+  "path": "parsed/高奈利亚-常服 (2)",
+  "source": {
+    "path": "Unknown/高奈利亚-常服 (2).zip",
+    "type": "zip",
+    "stem": "高奈利亚-常服 (2)"
+  },
+  "ysm": "parsed/高奈利亚-常服 (2)/ysm.json",
+  "metadata": {
+    "name": "Cornelia",
+    "tips": "默认模型（Default Model）",
+    "license": {
+      "type": "All Rights Reserved"
+    },
+    "authors": [
+      {
+        "name": "一般通过神必人",
+        "role": "模型",
+        "avatar": "avatar/德哈卡 拷贝.png",
+        "contact": {
+          "QQ": "2516919271",
+          "Bilibili": "https://space.bilibili.com/277486957"
+        },
+        "comment": "我们是潮汐，敌人只是浮萍！"
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#EMOA",
+      "extra1": "打招呼（原版）",
+      "extra2": "鼓掌（原版）",
+      "extra3": "对的（原版）",
+      "extra4": "不对（原版）",
+      "extra5": "手雷王",
+      "extra6": "稍息"
+    },
+    "preview_animation": "idle",
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true,
+    "disable_preview_rotation": false,
+    "all_cutout": false,
+    "extra_animation_buttons": [
+      {
+        "id": "EMOA",
+        "name": "表情配置",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "切换脸型",
+            "description": "平脸=尖脸",
+            "value": "v.roaming.face"
+          },
+          {
+            "type": "radio",
+            "title": "眼部设置",
+            "description": "0.0",
+            "value": "v.roaming.eyes",
+            "labels": {
+              "默认": "v.roaming.eyes=0",
+              "简约线条": "v.roaming.eyes=1",
+              "O O": "v.roaming.eyes=2",
+              "= =": "v.roaming.eyes=3",
+              "> <": "v.roaming.eyes=4",
+              "@ @": "v.roaming.eyes=5",
+              "Q Q": "v.roaming.eyes=6",
+              "失去高光": "v.roaming.eyes=7"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "情绪设置",
+            "description": "EMO",
+            "value": "v.roaming.emo",
+            "labels": {
+              "默认": "v.roaming.emo=0",
+              "开心": "v.roaming.emo=1",
+              "黑线": "v.roaming.emo=2",
+              "尴尬": "v.roaming.emo=3",
+              "黑脸": "v.roaming.emo=4",
+              "害羞": "v.roaming.emo=5",
+              "阴暗": "v.roaming.emo=6",
+              "生气": "v.roaming.emo=7"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "嘴部设置",
+            "description": "—",
+            "value": "v.roaming.mouth",
+            "labels": {
+              "默认": "v.roaming.mouth=0",
+              "笑": "v.roaming.mouth=1",
+              "不": "v.roaming.mouth=2",
+              "惊讶": "v.roaming.mouth=3"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/main.animation_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": {
+        "uv": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/2_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6935,
+      "sha256": "a4874680116857bf56fbe533eb3c5859b79e6c52fb019d2f63754207e7aad84f"
+    }
+  },
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 3583251,
+    "sha256": "7f3c0bdc0ea43987adbf7b4779590f10fce6b1ea8892799eb724576579518b27",
+    "bones": 313,
+    "cubes": 1201,
+    "faces": 7206,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 168939,
+      "sha256": "a27f20deae4d4403281e225563678c120d45f68c3c733150d5d439a181e0788b"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 695,
+      "sha256": "cd2be5d42efea2613f8fbe541e3c8600c0d1edb11051924675bdc2f7955d24d5"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2917,
+      "sha256": "f1b559bb714f40be566b02e1b8dd44c2cc380783e0e8a480c89a8378caa05b96"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 110413,
+      "sha256": "c9c260dc150abfab16f8e7667807b73d267019f1971dc2a1e97dc3009bcdcfe8"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 452443,
+      "sha256": "6bea9669613cfd51ce9dd38df0fffd58309054756bd1239e2bb860ea7992a836"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 176050,
+      "sha256": "9ecf075152538c1a7ac0bcd61f40bbd607a523c184a009c37cd37e23611b2913"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1598799,
+      "sha256": "d50e8b37390c62f09b1a9af1ef4c4d95fcf0063050f7b1fd5cacc3ff682b5604"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 212304,
+      "sha256": "002ae25fb2d72e0ed6a0749e0c0a58776fe3e403c7f2b00ea0e6c64c4187184c"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 89732,
+      "sha256": "1f8216e75135017e0ab50d90f23ea42d9763b7f566aad37c50d38d9930feac3d"
+    },
+    {
+      "path": "avatar/德哈卡 拷贝.png",
+      "size": 19006,
+      "sha256": "ad40c4b6e1abd505cb5b7fc84ede2bf0cb77755b86ed00ae6a05fcb1e1568445"
+    },
+    {
+      "path": "controller/main.animation_controllers.json",
+      "size": 810,
+      "sha256": "ff546eb7847ecbb59ce3f43189c005e61db5ccf749dfc4f11b5d978f82b4d106"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 81878,
+      "sha256": "7b73bb4b2d9124e7b1aeb404bf2407a83bd27c997f2c950e585d5032957b1af9"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 18733,
+      "sha256": "1070aa5589ae3df1c5abf95a40f9de47ce2ca1df6b234ddbea96f568d1829c7a"
+    },
+    {
+      "path": "models/main.json",
+      "size": 576451,
+      "sha256": "89cb384df0f01aef5f1e43e5195da04df6bc58d841d3418d5229c85692e1dad1"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1213,
+      "sha256": "0ecda6c1557cf3571289a3212c93e125d8b075cc37ac62f14dad852d83a576ec"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 14731,
+      "sha256": "94a165ac223a52b376e7bbc0018ed284ea47d6519439744d03548662e7226441"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 13745,
+      "sha256": "281377d6056833ab610fd9768d3b57a597b06901ad5c0598cba48142e357f7d0"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3362,
+      "sha256": "600f5546300fa8f379e6e21b19818bbd5b18972f5e1bf194ab8ccaee9d2c5e55"
+    }
+  ]
+}

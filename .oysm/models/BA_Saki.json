@@ -1,0 +1,90 @@
+{
+  "id": "BA_Saki",
+  "path": "parsed/BA_Saki",
+  "source": {
+    "path": "_BlueArchive/BA_Saki.zip",
+    "type": "zip",
+    "stem": "BA_Saki"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "BA_Saki"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Saki_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4704,
+      "sha256": "45ec775c20528ca46f315c7a09645d43532f1ed55b11972413f126f8f41abf55"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 631121,
+    "sha256": "5d029883bd0a4124349061da5d9ca1b31c71af4fb4e5cd7bb31406a3f40c9a47",
+    "bones": 67,
+    "cubes": 535,
+    "faces": 3210,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 51070,
+      "sha256": "e8b4a6d8ebdd57bdb01427bd99afe6adcf7704723153572015b56852f551293b"
+    },
+    {
+      "path": "arm.json",
+      "size": 8800,
+      "sha256": "50acd4daa55c17b1cd39f0562a4a18cd046968ba7d8efbb235fa04dda8015b0b"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 143065,
+      "sha256": "182a7ae897f3b594e6540439db388bbaf4743b7535a0f68437f7490b5e0959fd"
+    },
+    {
+      "path": "main.json",
+      "size": 256621,
+      "sha256": "644f8069d48529fc864e02cbdee4e21367d0495cc87c10cb2d92431f78083cb8"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 163831,
+      "sha256": "19e2b900c673ea532334f7c646c11c87f084c49947171501b4eff8eee0a29af3"
+    },
+    {
+      "path": "texture.png",
+      "size": 7734,
+      "sha256": "4c6c26ecb087229621a5469c7db4ecb70bfdd6a54d56ca002ed88c4114710011"
+    }
+  ]
+}

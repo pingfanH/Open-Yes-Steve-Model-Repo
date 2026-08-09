@@ -1,0 +1,156 @@
+{
+  "id": "_Bad_batch_crosshair",
+  "path": "parsed/_Bad_batch_crosshair",
+  "source": {
+    "path": "Uncategorized/_Bad_batch_crosshair.ysm",
+    "type": "ysm",
+    "stem": "_Bad_batch_crosshair"
+  },
+  "ysm": "parsed/_Bad_batch_crosshair/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/哥斯拉.png",
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "name": "哥斯拉",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/端木一动不动.png",
+        "comment": "永远都在ing",
+        "name": "端木一动不动",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/甜粽子.png",
+        "comment": "(ᗜˬᗜ)",
+        "name": "甜粽子",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Clone Cadet Uniform",
+    "tips": "Стандартная униформа клонов кадетов не закончивших обучение на Камино"
+  },
+  "properties": {
+    "width_scale": 1.0,
+    "height_scale": 1.0,
+    "extra_animation_classify": [],
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/clone_cadet_uniform.png"
+        },
+        {
+          "uv": "textures/clone_cadet_uniform_2.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Bad_batch_crosshair_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12319,
+      "sha256": "f6c45fc14956a2399310d7dee82b76eb65dd4fd30a7e1c5ea6423d500adc3e17"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 3304304,
+    "sha256": "3eff0e89361871d43f9afe8afb033e89fbcd6509c780afcca10f018b114f12c4",
+    "bones": 85,
+    "cubes": 2535,
+    "faces": 14070,
+    "textures": 2,
+    "materials": 2,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/main.animation.json",
+      "size": 128611,
+      "sha256": "daed380f7e7f66c1366c1ece818248dd367d51a219a3993a5cbabef4a70385e5"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 133335,
+      "sha256": "b318da666055faa5af34d21b6391609957c4503904cbf93913d97a73c233bee7"
+    },
+    {
+      "path": "avatar/哥斯拉.png",
+      "size": 19374,
+      "sha256": "6cd420a5238d37083afb1a43736ae8f862dfb9d9065c1ae1895c2ee20071333c"
+    },
+    {
+      "path": "avatar/甜粽子.png",
+      "size": 13575,
+      "sha256": "afbc4a0ad6483a06d38085e6ec7f55db706ce25cb1de636a1698faf2fc53d4a1"
+    },
+    {
+      "path": "avatar/端木一动不动.png",
+      "size": 22379,
+      "sha256": "3c431bb54f22ffb6bb153d5de92dee6831881419ed4135b517cc9abd32e44095"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 62127,
+      "sha256": "a595bac72207e0155d5f4b95f34b87caac65116fb44d232b6c24a001ebfc58be"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1302935,
+      "sha256": "d2e907dc34a45b9db089be853db69f3e0ab43a404e69675f08fae9d065f7d5cd"
+    },
+    {
+      "path": "textures/clone_cadet_uniform.png",
+      "size": 810348,
+      "sha256": "a3f4825e398e1eaa9a17affceb9e8126c9e197c2839f2bda47da2625a8605635"
+    },
+    {
+      "path": "textures/clone_cadet_uniform_2.png",
+      "size": 810365,
+      "sha256": "e0dffdfb882157e8f4ae6a20a53588d8f90f0a9cc740908ce3a523e6bec31c27"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1255,
+      "sha256": "08fb20c8ec34efcb021e983875104643157124b4d2e25fea05d0429f2bc78a12"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "GF_G11",
+  "path": "parsed/GF_G11",
+  "source": {
+    "path": "_GirlsFrontline/GF_G11.ysm",
+    "type": "ysm",
+    "stem": "GF_G11"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "GF_G11"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "txt.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GF_G11_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6689,
+      "sha256": "239865f9b0ba54501575113ee6bb4194ceafc7f57ef7fbcaa42e90b667f60a0e"
+    }
+  },
+  "stats": {
+    "file_count": 3,
+    "total_bytes": 55809,
+    "sha256": "3c05bc8502ce060b3d4b3dd65fba26ecb22eeb31a174ff8f172e2e8b29842bb9",
+    "bones": 90,
+    "cubes": 286,
+    "faces": 1716,
+    "textures": 1,
+    "materials": 1,
+    "animations": 0,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 3670,
+      "sha256": "c511f6e365fc76a5b1acecf7391c62caa594aa8e7d897464f06e8dee5d21546f"
+    },
+    {
+      "path": "main.json",
+      "size": 43191,
+      "sha256": "a6d8884240b78b5696100682f86669adeda1f3a5545c070e0c38094d3af8524e"
+    },
+    {
+      "path": "txt.png",
+      "size": 8948,
+      "sha256": "16cb35cfc900ecdedd2f31a2518e656777b7ecea80ee44f8c89a27d70ff99faa"
+    }
+  ]
+}

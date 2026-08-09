@@ -1,0 +1,86 @@
+{
+  "id": "BtR_Ryou-Yamada_0",
+  "path": "parsed/BtR_Ryou-Yamada_0",
+  "source": {
+    "path": "_BocchiTheRock/BtR_Ryou-Yamada_0.ysm",
+    "type": "ysm",
+    "stem": "BtR_Ryou-Yamada_0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "酸甜凉",
+    "tips": "泥滴财神爷",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "blue.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BtR_Ryou-Yamada_0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4377,
+      "sha256": "89f0d4bcc1c06c70f2621b235a3dc1b485415ae7b546a5e973119fc9fa9a055c"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 86891,
+    "sha256": "254bfb927b42d4c83799173d6f2db0aed30cbf1eed29290711f79b994b0f2c5d",
+    "bones": 68,
+    "cubes": 143,
+    "faces": 858,
+    "textures": 1,
+    "materials": 1,
+    "animations": 0,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 5466,
+      "sha256": "9797463c6239aab8576ee8f0c839a945b7208c660f464848c2b216e8e164fafe"
+    },
+    {
+      "path": "blue.png",
+      "size": 11257,
+      "sha256": "0c9abdef9457751fd93c2d8dacccc6a081de4e4920e845c6dec0fd0519546f09"
+    },
+    {
+      "path": "info.json",
+      "size": 142,
+      "sha256": "9220701fb430269bddc1638bc9f9b42c9cd349b327462eec9a2afe07788d7fa0"
+    },
+    {
+      "path": "main.json",
+      "size": 70026,
+      "sha256": "e2c16eedf35c1f41e2b84aeae93ebd04db66546e2fc03f51d764b701f3bfcc14"
+    }
+  ]
+}

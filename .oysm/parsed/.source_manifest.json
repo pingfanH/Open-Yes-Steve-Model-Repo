@@ -1,0 +1,5540 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "-小空": {
+      "path": "Unknown/-小空.zip",
+      "type": "zip",
+      "stem": "-小空"
+    },
+    "2.5D_Amano-Lilysa_v1.0": {
+      "path": "_2.5DimensionalSeduction/2.5D_Amano-Lilysa_v1.0.ysm",
+      "type": "ysm",
+      "stem": "2.5D_Amano-Lilysa_v1.0"
+    },
+    "2.5D_Tachibana-Mikari_v1.0": {
+      "path": "_2.5DimensionalSeduction/2.5D_Tachibana-Mikari_v1.0.ysm",
+      "type": "ysm",
+      "stem": "2.5D_Tachibana-Mikari_v1.0"
+    },
+    "5Toubun_Itsuki-Nakano_v1.0": {
+      "path": "_5Toubun/5Toubun_Itsuki-Nakano_v1.0.ysm",
+      "type": "ysm",
+      "stem": "5Toubun_Itsuki-Nakano_v1.0"
+    },
+    "9nine-Yuki-Noa": {
+      "path": "_9nine/9nine-Yuki-Noa.ysm",
+      "type": "ysm",
+      "stem": "9nine-Yuki-Noa"
+    },
+    "9nine_Kousaka-Haruka": {
+      "path": "_9nine/9nine_Kousaka-Haruka.ysm",
+      "type": "ysm",
+      "stem": "9nine_Kousaka-Haruka"
+    },
+    "9nine_Miyako-Kujo": {
+      "path": "_9nine/9nine_Miyako-Kujo.ysm",
+      "type": "ysm",
+      "stem": "9nine_Miyako-Kujo"
+    },
+    "9nine_Niimi-Sora": {
+      "path": "_9nine/9nine_Niimi-Sora.ysm",
+      "type": "ysm",
+      "stem": "9nine_Niimi-Sora"
+    },
+    "[创伤小组]霜狐": {
+      "path": "Unknown/[创伤小组]霜狐.ysm",
+      "type": "ysm",
+      "stem": "[创伤小组]霜狐"
+    },
+    "_Akarin_0": {
+      "path": "Unknown/_Akarin_0.ysm",
+      "type": "ysm",
+      "stem": "_Akarin_0"
+    },
+    "_Akarin_1": {
+      "path": "Unknown/_Akarin_1.ysm",
+      "type": "ysm",
+      "stem": "_Akarin_1"
+    },
+    "_ankh": {
+      "path": "Uncategorized/_ankh.zip",
+      "type": "zip",
+      "stem": "_ankh"
+    },
+    "_Baby-Saurius": {
+      "path": "Uncategorized/_Baby-Saurius.ysm",
+      "type": "ysm",
+      "stem": "_Baby-Saurius"
+    },
+    "_Bad_batch_crosshair": {
+      "path": "Uncategorized/_Bad_batch_crosshair.ysm",
+      "type": "ysm",
+      "stem": "_Bad_batch_crosshair"
+    },
+    "_Bad_batch_echo": {
+      "path": "Uncategorized/_Bad_batch_echo.ysm",
+      "type": "ysm",
+      "stem": "_Bad_batch_echo"
+    },
+    "_Bad_batch_hunter_1": {
+      "path": "Uncategorized/_Bad_batch_hunter_1.ysm",
+      "type": "ysm",
+      "stem": "_Bad_batch_hunter_1"
+    },
+    "_Bad_batch_tech": {
+      "path": "Uncategorized/_Bad_batch_tech.ysm",
+      "type": "ysm",
+      "stem": "_Bad_batch_tech"
+    },
+    "_Bad_batch_wrecker": {
+      "path": "Uncategorized/_Bad_batch_wrecker.ysm",
+      "type": "ysm",
+      "stem": "_Bad_batch_wrecker"
+    },
+    "_bamamei_mofashaonv_v12": {
+      "path": "Uncategorized/_bamamei_mofashaonv_v12.ysm",
+      "type": "ysm",
+      "stem": "_bamamei_mofashaonv_v12"
+    },
+    "_bamamei_xuejie_v1": {
+      "path": "Uncategorized/_bamamei_xuejie_v1.ysm",
+      "type": "ysm",
+      "stem": "_bamamei_xuejie_v1"
+    },
+    "_bamamei_xuejie_v12": {
+      "path": "Uncategorized/_bamamei_xuejie_v12.ysm",
+      "type": "ysm",
+      "stem": "_bamamei_xuejie_v12"
+    },
+    "_bamamei_xuejie_v123": {
+      "path": "Uncategorized/_bamamei_xuejie_v123.ysm",
+      "type": "ysm",
+      "stem": "_bamamei_xuejie_v123"
+    },
+    "_bamamei_xuejie_v123.1": {
+      "path": "Uncategorized/_bamamei_xuejie_v123.1.ysm",
+      "type": "ysm",
+      "stem": "_bamamei_xuejie_v123.1"
+    },
+    "_CatDad": {
+      "path": "Uncategorized/_CatDad.ysm",
+      "type": "ysm",
+      "stem": "_CatDad"
+    },
+    "_CatDad(zipver)": {
+      "path": "Uncategorized/_CatDad(zipver).zip",
+      "type": "zip",
+      "stem": "_CatDad(zipver)"
+    },
+    "_CatDad0.2": {
+      "path": "Uncategorized/_CatDad0.2.ysm",
+      "type": "ysm",
+      "stem": "_CatDad0.2"
+    },
+    "_CatDad0.2(zipver)": {
+      "path": "Uncategorized/_CatDad0.2(zipver).zip",
+      "type": "zip",
+      "stem": "_CatDad0.2(zipver)"
+    },
+    "_chuyin": {
+      "path": "Uncategorized/_chuyin.ysm",
+      "type": "ysm",
+      "stem": "_chuyin"
+    },
+    "_dajiejie": {
+      "path": "Uncategorized/_dajiejie.ysm",
+      "type": "ysm",
+      "stem": "_dajiejie"
+    },
+    "_Demo": {
+      "path": "Uncategorized/_Demo.ysm",
+      "type": "ysm",
+      "stem": "_Demo"
+    },
+    "_devourer_of_gods(1)": {
+      "path": "Uncategorized/_devourer_of_gods(1).ysm",
+      "type": "ysm",
+      "stem": "_devourer_of_gods(1)"
+    },
+    "_Digitan": {
+      "path": "Uncategorized/_Digitan.ysm",
+      "type": "ysm",
+      "stem": "_Digitan"
+    },
+    "_dongbei-qiepuying": {
+      "path": "Uncategorized/_dongbei-qiepuying.ysm",
+      "type": "ysm",
+      "stem": "_dongbei-qiepuying"
+    },
+    "_Dumnhenint_v1.0": {
+      "path": "Uncategorized/_Dumnhenint_v1.0.ysm",
+      "type": "ysm",
+      "stem": "_Dumnhenint_v1.0"
+    },
+    "_Eanes": {
+      "path": "Uncategorized/_Eanes.ysm",
+      "type": "ysm",
+      "stem": "_Eanes"
+    },
+    "_Eanes_arm": {
+      "path": "Uncategorized/_Eanes_arm.ysm",
+      "type": "ysm",
+      "stem": "_Eanes_arm"
+    },
+    "_EZBNK_Ao1": {
+      "path": "Uncategorized/_EZBNK_Ao1.ysm",
+      "type": "ysm",
+      "stem": "_EZBNK_Ao1"
+    },
+    "_EZBNK_Ao1.1": {
+      "path": "Uncategorized/_EZBNK_Ao1.1.ysm",
+      "type": "ysm",
+      "stem": "_EZBNK_Ao1.1"
+    },
+    "_EZBNK_Ao1.2": {
+      "path": "Uncategorized/_EZBNK_Ao1.2.ysm",
+      "type": "ysm",
+      "stem": "_EZBNK_Ao1.2"
+    },
+    "_EZBNK_Ao1.3": {
+      "path": "Uncategorized/_EZBNK_Ao1.3.ysm",
+      "type": "ysm",
+      "stem": "_EZBNK_Ao1.3"
+    },
+    "_EZBNK_Ao1.4": {
+      "path": "Uncategorized/_EZBNK_Ao1.4.ysm",
+      "type": "ysm",
+      "stem": "_EZBNK_Ao1.4"
+    },
+    "_faust": {
+      "path": "Uncategorized/_faust.ysm",
+      "type": "ysm",
+      "stem": "_faust"
+    },
+    "_faust(zipver)": {
+      "path": "Uncategorized/_faust(zipver).zip",
+      "type": "zip",
+      "stem": "_faust(zipver)"
+    },
+    "_Game_Api": {
+      "path": "Uncategorized/_Game_Api.ysm",
+      "type": "ysm",
+      "stem": "_Game_Api"
+    },
+    "_Game_Kaofish": {
+      "path": "Uncategorized/_Game_Kaofish.ysm",
+      "type": "ysm",
+      "stem": "_Game_Kaofish"
+    },
+    "_Game_Kinoko7": {
+      "path": "Uncategorized/_Game_Kinoko7.ysm",
+      "type": "ysm",
+      "stem": "_Game_Kinoko7"
+    },
+    "_Game_Longbaobao": {
+      "path": "Uncategorized/_Game_Longbaobao.ysm",
+      "type": "ysm",
+      "stem": "_Game_Longbaobao"
+    },
+    "_Game_Yommyko": {
+      "path": "Uncategorized/_Game_Yommyko.ysm",
+      "type": "ysm",
+      "stem": "_Game_Yommyko"
+    },
+    "_Goblin": {
+      "path": "Uncategorized/_Goblin.ysm",
+      "type": "ysm",
+      "stem": "_Goblin"
+    },
+    "_honglu": {
+      "path": "Uncategorized/_honglu.ysm",
+      "type": "ysm",
+      "stem": "_honglu"
+    },
+    "_Huowang": {
+      "path": "Uncategorized/_Huowang.ysm",
+      "type": "ysm",
+      "stem": "_Huowang"
+    },
+    "_inference": {
+      "path": "Uncategorized/_inference.ysm",
+      "type": "ysm",
+      "stem": "_inference"
+    },
+    "_jiatenghui": {
+      "path": "Uncategorized/_jiatenghui.ysm",
+      "type": "ysm",
+      "stem": "_jiatenghui"
+    },
+    "_Jihoon": {
+      "path": "Uncategorized/_Jihoon.zip",
+      "type": "zip",
+      "stem": "_Jihoon"
+    },
+    "_kasha": {
+      "path": "Uncategorized/_kasha.ysm",
+      "type": "ysm",
+      "stem": "_kasha"
+    },
+    "_kasha_v1.1": {
+      "path": "Uncategorized/_kasha_v1.1.ysm",
+      "type": "ysm",
+      "stem": "_kasha_v1.1"
+    },
+    "_kasha_v1.2": {
+      "path": "Uncategorized/_kasha_v1.2.ysm",
+      "type": "ysm",
+      "stem": "_kasha_v1.2"
+    },
+    "_kasitaliya": {
+      "path": "Uncategorized/_kasitaliya.ysm",
+      "type": "ysm",
+      "stem": "_kasitaliya"
+    },
+    "_Lain": {
+      "path": "Uncategorized/_Lain.zip",
+      "type": "zip",
+      "stem": "_Lain"
+    },
+    "_lighting": {
+      "path": "Uncategorized/_lighting.ysm",
+      "type": "ysm",
+      "stem": "_lighting"
+    },
+    "_madline": {
+      "path": "Uncategorized/_madline.zip",
+      "type": "zip",
+      "stem": "_madline"
+    },
+    "_mari": {
+      "path": "Uncategorized/_mari.zip",
+      "type": "zip",
+      "stem": "_mari"
+    },
+    "_Martyr": {
+      "path": "Uncategorized/_Martyr.ysm",
+      "type": "ysm",
+      "stem": "_Martyr"
+    },
+    "_maya2": {
+      "path": "Uncategorized/_maya2.ysm",
+      "type": "ysm",
+      "stem": "_maya2"
+    },
+    "_Meiria": {
+      "path": "Uncategorized/_Meiria.ysm",
+      "type": "ysm",
+      "stem": "_Meiria"
+    },
+    "_merrryyuko_ver.1": {
+      "path": "Uncategorized/_merrryyuko_ver.1.ysm",
+      "type": "ysm",
+      "stem": "_merrryyuko_ver.1"
+    },
+    "_Merry": {
+      "path": "Uncategorized/_Merry.ysm",
+      "type": "ysm",
+      "stem": "_Merry"
+    },
+    "_mice-pirate-boy": {
+      "path": "Uncategorized/_mice-pirate-boy.zip",
+      "type": "zip",
+      "stem": "_mice-pirate-boy"
+    },
+    "_Minuo": {
+      "path": "Uncategorized/_Minuo.zip",
+      "type": "zip",
+      "stem": "_Minuo"
+    },
+    "_Mmcv": {
+      "path": "Uncategorized/_Mmcv.zip",
+      "type": "zip",
+      "stem": "_Mmcv"
+    },
+    "_moeya": {
+      "path": "Uncategorized/_moeya.ysm",
+      "type": "ysm",
+      "stem": "_moeya"
+    },
+    "_Moli": {
+      "path": "Uncategorized/_Moli.zip",
+      "type": "zip",
+      "stem": "_Moli"
+    },
+    "_mortis": {
+      "path": "Uncategorized/_mortis.ysm",
+      "type": "ysm",
+      "stem": "_mortis"
+    },
+    "_Nier": {
+      "path": "Uncategorized/_Nier.ysm",
+      "type": "ysm",
+      "stem": "_Nier"
+    },
+    "_Nono": {
+      "path": "Uncategorized/_Nono.ysm",
+      "type": "ysm",
+      "stem": "_Nono"
+    },
+    "_Nono_1.0.1": {
+      "path": "Uncategorized/_Nono_1.0.1.ysm",
+      "type": "ysm",
+      "stem": "_Nono_1.0.1"
+    },
+    "_Nunlyla": {
+      "path": "Uncategorized/_Nunlyla.zip",
+      "type": "zip",
+      "stem": "_Nunlyla"
+    },
+    "_Nvgunit": {
+      "path": "Uncategorized/_Nvgunit.zip",
+      "type": "zip",
+      "stem": "_Nvgunit"
+    },
+    "_OAR": {
+      "path": "Uncategorized/_OAR.zip",
+      "type": "zip",
+      "stem": "_OAR"
+    },
+    "_Otto_Apocalypse": {
+      "path": "Uncategorized/_Otto_Apocalypse.ysm",
+      "type": "ysm",
+      "stem": "_Otto_Apocalypse"
+    },
+    "_Plague-Doctor": {
+      "path": "Uncategorized/_Plague-Doctor.ysm",
+      "type": "ysm",
+      "stem": "_Plague-Doctor"
+    },
+    "_QQ": {
+      "path": "Uncategorized/_QQ.ysm",
+      "type": "ysm",
+      "stem": "_QQ"
+    },
+    "_Rabbit_1": {
+      "path": "Uncategorized/_Rabbit_1.zip",
+      "type": "zip",
+      "stem": "_Rabbit_1"
+    },
+    "_Rabbit_2": {
+      "path": "Uncategorized/_Rabbit_2.zip",
+      "type": "zip",
+      "stem": "_Rabbit_2"
+    },
+    "_Reds": {
+      "path": "Uncategorized/_Reds.zip",
+      "type": "zip",
+      "stem": "_Reds"
+    },
+    "_rei_Alpha05": {
+      "path": "Uncategorized/_rei_Alpha05.ysm",
+      "type": "ysm",
+      "stem": "_rei_Alpha05"
+    },
+    "_Riru": {
+      "path": "Uncategorized/_Riru.ysm",
+      "type": "ysm",
+      "stem": "_Riru"
+    },
+    "_Riru(zipver)": {
+      "path": "Uncategorized/_Riru(zipver).zip",
+      "type": "zip",
+      "stem": "_Riru(zipver)"
+    },
+    "_Rongrong": {
+      "path": "Uncategorized/_Rongrong.ysm",
+      "type": "ysm",
+      "stem": "_Rongrong"
+    },
+    "_russet": {
+      "path": "Uncategorized/_russet.ysm",
+      "type": "ysm",
+      "stem": "_russet"
+    },
+    "_SAS": {
+      "path": "Uncategorized/_SAS.ysm",
+      "type": "ysm",
+      "stem": "_SAS"
+    },
+    "_SAS(zipver)": {
+      "path": "Uncategorized/_SAS(zipver).zip",
+      "type": "zip",
+      "stem": "_SAS(zipver)"
+    },
+    "_Singer_in_last_phase": {
+      "path": "Uncategorized/_Singer_in_last_phase.ysm",
+      "type": "ysm",
+      "stem": "_Singer_in_last_phase"
+    },
+    "_Sky": {
+      "path": "Uncategorized/_Sky.ysm",
+      "type": "ysm",
+      "stem": "_Sky"
+    },
+    "_Smiling_brother": {
+      "path": "Uncategorized/_Smiling_brother.ysm",
+      "type": "ysm",
+      "stem": "_Smiling_brother"
+    },
+    "_Soloman": {
+      "path": "Uncategorized/_Soloman.ysm",
+      "type": "ysm",
+      "stem": "_Soloman"
+    },
+    "_Spider_girl": {
+      "path": "Uncategorized/_Spider_girl.zip",
+      "type": "zip",
+      "stem": "_Spider_girl"
+    },
+    "_SRTV": {
+      "path": "Uncategorized/_SRTV.zip",
+      "type": "zip",
+      "stem": "_SRTV"
+    },
+    "_Sturmsoldat": {
+      "path": "Uncategorized/_Sturmsoldat.ysm",
+      "type": "ysm",
+      "stem": "_Sturmsoldat"
+    },
+    "_Swx": {
+      "path": "Uncategorized/_Swx.ysm",
+      "type": "ysm",
+      "stem": "_Swx"
+    },
+    "_Tac": {
+      "path": "Uncategorized/_Tac.zip",
+      "type": "zip",
+      "stem": "_Tac"
+    },
+    "_Tac_noglasses": {
+      "path": "Uncategorized/_Tac_noglasses.zip",
+      "type": "zip",
+      "stem": "_Tac_noglasses"
+    },
+    "_taohua_20250502": {
+      "path": "Uncategorized/_taohua_20250502.ysm",
+      "type": "ysm",
+      "stem": "_taohua_20250502"
+    },
+    "_threadling": {
+      "path": "Uncategorized/_threadling.zip",
+      "type": "zip",
+      "stem": "_threadling"
+    },
+    "_Tiamat": {
+      "path": "Uncategorized/_Tiamat.ysm",
+      "type": "ysm",
+      "stem": "_Tiamat"
+    },
+    "_TN酱": {
+      "path": "Uncategorized/_TN酱.ysm",
+      "type": "ysm",
+      "stem": "_TN酱"
+    },
+    "_Trissy_特莉丝": {
+      "path": "Uncategorized/_Trissy_特莉丝.ysm",
+      "type": "ysm",
+      "stem": "_Trissy_特莉丝"
+    },
+    "_Umy": {
+      "path": "Uncategorized/_Umy.ysm",
+      "type": "ysm",
+      "stem": "_Umy"
+    },
+    "_umyknight_ver.1": {
+      "path": "Uncategorized/_umyknight_ver.1.ysm",
+      "type": "ysm",
+      "stem": "_umyknight_ver.1"
+    },
+    "_Unitnonvg": {
+      "path": "Uncategorized/_Unitnonvg.zip",
+      "type": "zip",
+      "stem": "_Unitnonvg"
+    },
+    "_Unitonenvg": {
+      "path": "Uncategorized/_Unitonenvg.zip",
+      "type": "zip",
+      "stem": "_Unitonenvg"
+    },
+    "_Unknown": {
+      "path": "Uncategorized/_Unknown.zip",
+      "type": "zip",
+      "stem": "_Unknown"
+    },
+    "_Unknown_0": {
+      "path": "Uncategorized/_Unknown_0.zip",
+      "type": "zip",
+      "stem": "_Unknown_0"
+    },
+    "_Unknown_1": {
+      "path": "Uncategorized/_Unknown_1.ysm",
+      "type": "ysm",
+      "stem": "_Unknown_1"
+    },
+    "_Vika": {
+      "path": "Uncategorized/_Vika.zip",
+      "type": "zip",
+      "stem": "_Vika"
+    },
+    "_Violet": {
+      "path": "Uncategorized/_Violet.ysm",
+      "type": "ysm",
+      "stem": "_Violet"
+    },
+    "_vx": {
+      "path": "Uncategorized/_vx.zip",
+      "type": "zip",
+      "stem": "_vx"
+    },
+    "_Warmy-free": {
+      "path": "Uncategorized/_Warmy-free.ysm",
+      "type": "ysm",
+      "stem": "_Warmy-free"
+    },
+    "_wendy": {
+      "path": "Uncategorized/_wendy.ysm",
+      "type": "ysm",
+      "stem": "_wendy"
+    },
+    "_Wlqs5.0": {
+      "path": "Uncategorized/_Wlqs5.0.zip",
+      "type": "zip",
+      "stem": "_Wlqs5.0"
+    },
+    "_Xiaomaolaodi": {
+      "path": "Uncategorized/_Xiaomaolaodi.ysm",
+      "type": "ysm",
+      "stem": "_Xiaomaolaodi"
+    },
+    "_xiaoyuansha_v1.0": {
+      "path": "Uncategorized/_xiaoyuansha_v1.0.ysm",
+      "type": "ysm",
+      "stem": "_xiaoyuansha_v1.0"
+    },
+    "_xiaoyuansha_v1.1": {
+      "path": "Uncategorized/_xiaoyuansha_v1.1.ysm",
+      "type": "ysm",
+      "stem": "_xiaoyuansha_v1.1"
+    },
+    "_xiashizi": {
+      "path": "Uncategorized/_xiashizi.ysm",
+      "type": "ysm",
+      "stem": "_xiashizi"
+    },
+    "_Xiezhi": {
+      "path": "Uncategorized/_Xiezhi.zip",
+      "type": "zip",
+      "stem": "_Xiezhi"
+    },
+    "_Yujin": {
+      "path": "Uncategorized/_Yujin.ysm",
+      "type": "ysm",
+      "stem": "_Yujin"
+    },
+    "_云天明": {
+      "path": "Uncategorized/_云天明.ysm",
+      "type": "ysm",
+      "stem": "_云天明"
+    },
+    "_伊芙琳_1.0": {
+      "path": "Uncategorized/_伊芙琳_1.0.ysm",
+      "type": "ysm",
+      "stem": "_伊芙琳_1.0"
+    },
+    "_公主": {
+      "path": "Uncategorized/_公主.ysm",
+      "type": "ysm",
+      "stem": "_公主"
+    },
+    "_化学防害上尉": {
+      "path": "Uncategorized/_化学防害上尉.ysm",
+      "type": "ysm",
+      "stem": "_化学防害上尉"
+    },
+    "_化学防害上尉(zipver)": {
+      "path": "Uncategorized/_化学防害上尉(zipver).zip",
+      "type": "zip",
+      "stem": "_化学防害上尉(zipver)"
+    },
+    "_吹雪_Free": {
+      "path": "Uncategorized/_吹雪_Free.ysm",
+      "type": "ysm",
+      "stem": "_吹雪_Free"
+    },
+    "_唐·吉诃特": {
+      "path": "Uncategorized/_唐·吉诃特.ysm",
+      "type": "ysm",
+      "stem": "_唐·吉诃特"
+    },
+    "_园丁等风来": {
+      "path": "Unknown/_园丁等风来.ysm",
+      "type": "ysm",
+      "stem": "_园丁等风来"
+    },
+    "_地狱猎犬_": {
+      "path": "Uncategorized/_地狱猎犬_.ysm",
+      "type": "ysm",
+      "stem": "_地狱猎犬_"
+    },
+    "_小小海螺": {
+      "path": "Uncategorized/_小小海螺.ysm",
+      "type": "ysm",
+      "stem": "_小小海螺"
+    },
+    "_小空": {
+      "path": "Uncategorized/_小空.zip",
+      "type": "zip",
+      "stem": "_小空"
+    },
+    "_山岩 指挥官_v1.3": {
+      "path": "Uncategorized/_山岩 指挥官_v1.3.zip",
+      "type": "zip",
+      "stem": "_山岩 指挥官_v1.3"
+    },
+    "_忍者": {
+      "path": "Uncategorized/_忍者.ysm",
+      "type": "ysm",
+      "stem": "_忍者"
+    },
+    "_恶毒-免费版": {
+      "path": "Uncategorized/_恶毒-免费版.ysm",
+      "type": "ysm",
+      "stem": "_恶毒-免费版"
+    },
+    "_惊蛰": {
+      "path": "Uncategorized/_惊蛰.ysm",
+      "type": "ysm",
+      "stem": "_惊蛰"
+    },
+    "_扶桑": {
+      "path": "Uncategorized/_扶桑.ysm",
+      "type": "ysm",
+      "stem": "_扶桑"
+    },
+    "_报童": {
+      "path": "Unknown/_报童.ysm",
+      "type": "ysm",
+      "stem": "_报童"
+    },
+    "_报纸怪客": {
+      "path": "Unknown/_报纸怪客.ysm",
+      "type": "ysm",
+      "stem": "_报纸怪客"
+    },
+    "_星见时璃 Tokiri": {
+      "path": "Uncategorized/_星见时璃 Tokiri.ysm",
+      "type": "ysm",
+      "stem": "_星见时璃 Tokiri"
+    },
+    "_沐白": {
+      "path": "Uncategorized/_沐白.ysm",
+      "type": "ysm",
+      "stem": "_沐白"
+    },
+    "_爱恩.伊瑞丝.卡列尼娜": {
+      "path": "Uncategorized/_爱恩.伊瑞丝.卡列尼娜.ysm",
+      "type": "ysm",
+      "stem": "_爱恩.伊瑞丝.卡列尼娜"
+    },
+    "_特遣1": {
+      "path": "Uncategorized/_特遣1.ysm",
+      "type": "ysm",
+      "stem": "_特遣1"
+    },
+    "_白凝冰": {
+      "path": "Uncategorized/_白凝冰.ysm",
+      "type": "ysm",
+      "stem": "_白凝冰"
+    },
+    "_白蛤蜊": {
+      "path": "Uncategorized/_白蛤蜊.ysm",
+      "type": "ysm",
+      "stem": "_白蛤蜊"
+    },
+    "_碳_1.0": {
+      "path": "Uncategorized/_碳_1.0.ysm",
+      "type": "ysm",
+      "stem": "_碳_1.0"
+    },
+    "_碳_1.0.1": {
+      "path": "Uncategorized/_碳_1.0.1.ysm",
+      "type": "ysm",
+      "stem": "_碳_1.0.1"
+    },
+    "_纸板demo版": {
+      "path": "Uncategorized/_纸板demo版.ysm",
+      "type": "ysm",
+      "stem": "_纸板demo版"
+    },
+    "_苏溟v1.9": {
+      "path": "Uncategorized/_苏溟v1.9.ysm",
+      "type": "ysm",
+      "stem": "_苏溟v1.9"
+    },
+    "_虹玖1.03": {
+      "path": "Uncategorized/_虹玖1.03.ysm",
+      "type": "ysm",
+      "stem": "_虹玖1.03"
+    },
+    "Agflshvore_Tester_v1.1": {
+      "path": "_Agflshvore/Agflshvore_Tester_v1.1.ysm",
+      "type": "ysm",
+      "stem": "Agflshvore_Tester_v1.1"
+    },
+    "Ak_Angelina": {
+      "path": "_Arknights/Ak_Angelina.ysm",
+      "type": "ysm",
+      "stem": "Ak_Angelina"
+    },
+    "Ak_Aurora": {
+      "path": "_Arknights/Ak_Aurora.ysm",
+      "type": "ysm",
+      "stem": "Ak_Aurora"
+    },
+    "Ak_Bitey": {
+      "path": "_Arknights/Ak_Bitey.zip",
+      "type": "zip",
+      "stem": "Ak_Bitey"
+    },
+    "Ak_Cannot_Goodenough": {
+      "path": "_Arknights/Ak_Cannot_Goodenough.ysm",
+      "type": "ysm",
+      "stem": "Ak_Cannot_Goodenough"
+    },
+    "AK_Chen": {
+      "path": "_Arknights/AK_Chen.ysm",
+      "type": "ysm",
+      "stem": "AK_Chen"
+    },
+    "Ak_Chen(Tourist-C)": {
+      "path": "_Arknights/Ak_Chen(Tourist-C).zip",
+      "type": "zip",
+      "stem": "Ak_Chen(Tourist-C)"
+    },
+    "Ak_Eblana": {
+      "path": "_Arknights/Ak_Eblana.ysm",
+      "type": "ysm",
+      "stem": "Ak_Eblana"
+    },
+    "Ak_Eblana_1.21-fix": {
+      "path": "_Arknights/Ak_Eblana_1.21-fix.ysm",
+      "type": "ysm",
+      "stem": "Ak_Eblana_1.21-fix"
+    },
+    "Ak_Eblana_1.21-fix-2": {
+      "path": "_Arknights/Ak_Eblana_1.21-fix-2.ysm",
+      "type": "ysm",
+      "stem": "Ak_Eblana_1.21-fix-2"
+    },
+    "Ak_Eyjafjalla(Medic)_v1.0": {
+      "path": "_Arknights/Ak_Eyjafjalla(Medic)_v1.0.zip",
+      "type": "zip",
+      "stem": "Ak_Eyjafjalla(Medic)_v1.0"
+    },
+    "Ak_Fiammetta": {
+      "path": "_Arknights/Ak_Fiammetta.ysm",
+      "type": "ysm",
+      "stem": "Ak_Fiammetta"
+    },
+    "Ak_Hoolheyak": {
+      "path": "_Arknights/Ak_Hoolheyak.ysm",
+      "type": "ysm",
+      "stem": "Ak_Hoolheyak"
+    },
+    "Ak_Irene": {
+      "path": "_Arknights/Ak_Irene.zip",
+      "type": "zip",
+      "stem": "Ak_Irene"
+    },
+    "Ak_Irene_1": {
+      "path": "_Arknights/Ak_Irene_1.ysm",
+      "type": "ysm",
+      "stem": "Ak_Irene_1"
+    },
+    "Ak_Jessica": {
+      "path": "_Arknights/Ak_Jessica.zip",
+      "type": "zip",
+      "stem": "Ak_Jessica"
+    },
+    "Ak_Jessica(Defender)_v1.0": {
+      "path": "_Arknights/Ak_Jessica(Defender)_v1.0.ysm",
+      "type": "ysm",
+      "stem": "Ak_Jessica(Defender)_v1.0"
+    },
+    "Ak_Kaltsit": {
+      "path": "_Arknights/Ak_Kaltsit.ysm",
+      "type": "ysm",
+      "stem": "Ak_Kaltsit"
+    },
+    "Ak_Kaltsit_0": {
+      "path": "_Arknights/Ak_Kaltsit_0.zip",
+      "type": "zip",
+      "stem": "Ak_Kaltsit_0"
+    },
+    "Ak_Kirara": {
+      "path": "_Arknights/Ak_Kirara.ysm",
+      "type": "ysm",
+      "stem": "Ak_Kirara"
+    },
+    "Ak_Kirara_v1.01": {
+      "path": "_Arknights/Ak_Kirara_v1.01.ysm",
+      "type": "ysm",
+      "stem": "Ak_Kirara_v1.01"
+    },
+    "Ak_LaPluma_v1.0": {
+      "path": "_Arknights/Ak_LaPluma_v1.0.ysm",
+      "type": "ysm",
+      "stem": "Ak_LaPluma_v1.0"
+    },
+    "Ak_Lappland": {
+      "path": "_Arknights/Ak_Lappland.zip",
+      "type": "zip",
+      "stem": "Ak_Lappland"
+    },
+    "Ak_Magallan": {
+      "path": "_Arknights/Ak_Magallan.ysm",
+      "type": "ysm",
+      "stem": "Ak_Magallan"
+    },
+    "Ak_May": {
+      "path": "_Arknights/Ak_May.ysm",
+      "type": "ysm",
+      "stem": "Ak_May"
+    },
+    "Ak_Mudrock(AmbienceSynesthesia)_0": {
+      "path": "_Arknights/Ak_Mudrock(AmbienceSynesthesia)_0.ysm",
+      "type": "ysm",
+      "stem": "Ak_Mudrock(AmbienceSynesthesia)_0"
+    },
+    "Ak_Mudrock(AmbienceSynesthesia)_1": {
+      "path": "_Arknights/Ak_Mudrock(AmbienceSynesthesia)_1.ysm",
+      "type": "ysm",
+      "stem": "Ak_Mudrock(AmbienceSynesthesia)_1"
+    },
+    "Ak_Mudrock(Coral-Coast)_0": {
+      "path": "_Arknights/Ak_Mudrock(Coral-Coast)_0.ysm",
+      "type": "ysm",
+      "stem": "Ak_Mudrock(Coral-Coast)_0"
+    },
+    "Ak_Mudrock(Coral-Coast)_1": {
+      "path": "_Arknights/Ak_Mudrock(Coral-Coast)_1.ysm",
+      "type": "ysm",
+      "stem": "Ak_Mudrock(Coral-Coast)_1"
+    },
+    "Ak_Mudrock_0": {
+      "path": "_Arknights/Ak_Mudrock_0.ysm",
+      "type": "ysm",
+      "stem": "Ak_Mudrock_0"
+    },
+    "Ak_Mudrock_1.1.1": {
+      "path": "_Arknights/Ak_Mudrock_1.1.1.ysm",
+      "type": "ysm",
+      "stem": "Ak_Mudrock_1.1.1"
+    },
+    "Ak_Mudrock_1.5.2": {
+      "path": "_Arknights/Ak_Mudrock_1.5.2.ysm",
+      "type": "ysm",
+      "stem": "Ak_Mudrock_1.5.2"
+    },
+    "Ak_Myrtle": {
+      "path": "_Arknights/Ak_Myrtle.ysm",
+      "type": "ysm",
+      "stem": "Ak_Myrtle"
+    },
+    "Ak_Nearl(Horse-form)": {
+      "path": "_Arknights/Ak_Nearl(Horse-form).ysm",
+      "type": "ysm",
+      "stem": "Ak_Nearl(Horse-form)"
+    },
+    "Ak_Nian": {
+      "path": "_Arknights/Ak_Nian.ysm",
+      "type": "ysm",
+      "stem": "Ak_Nian"
+    },
+    "Ak_Penance_0": {
+      "path": "_Arknights/Ak_Penance_0.zip",
+      "type": "zip",
+      "stem": "Ak_Penance_0"
+    },
+    "Ak_Penance_1": {
+      "path": "_Arknights/Ak_Penance_1.zip",
+      "type": "zip",
+      "stem": "Ak_Penance_1"
+    },
+    "Ak_Pepe": {
+      "path": "_Arknights/Ak_Pepe.ysm",
+      "type": "ysm",
+      "stem": "Ak_Pepe"
+    },
+    "Ak_Projekt-Red(Coral-Coast)_1": {
+      "path": "_Arknights/Ak_Projekt-Red(Coral-Coast)_1.ysm",
+      "type": "ysm",
+      "stem": "Ak_Projekt-Red(Coral-Coast)_1"
+    },
+    "Ak_Ptilopsis": {
+      "path": "_Arknights/Ak_Ptilopsis.ysm",
+      "type": "ysm",
+      "stem": "Ak_Ptilopsis"
+    },
+    "Ak_Rosmontis_0": {
+      "path": "_Arknights/Ak_Rosmontis_0.zip",
+      "type": "zip",
+      "stem": "Ak_Rosmontis_0"
+    },
+    "Ak_Rosmontis_1": {
+      "path": "_Arknights/Ak_Rosmontis_1.zip",
+      "type": "zip",
+      "stem": "Ak_Rosmontis_1"
+    },
+    "AK_Rosmontis_v0.9": {
+      "path": "_Arknights/AK_Rosmontis_v0.9.ysm",
+      "type": "ysm",
+      "stem": "AK_Rosmontis_v0.9"
+    },
+    "AK_Rosmontis_v1.0": {
+      "path": "_Arknights/AK_Rosmontis_v1.0.ysm",
+      "type": "ysm",
+      "stem": "AK_Rosmontis_v1.0"
+    },
+    "Ak_Rosmontis_v1.1": {
+      "path": "_Arknights/Ak_Rosmontis_v1.1.ysm",
+      "type": "ysm",
+      "stem": "Ak_Rosmontis_v1.1"
+    },
+    "Ak_Rosmontis_v1.3": {
+      "path": "_Arknights/Ak_Rosmontis_v1.3.ysm",
+      "type": "ysm",
+      "stem": "Ak_Rosmontis_v1.3"
+    },
+    "Ak_Saga": {
+      "path": "_Arknights/Ak_Saga.ysm",
+      "type": "ysm",
+      "stem": "Ak_Saga"
+    },
+    "Ak_Shamare(WitchFeast)_v1.0_Fllz": {
+      "path": "_Arknights/Ak_Shamare(WitchFeast)_v1.0_Fllz.ysm",
+      "type": "ysm",
+      "stem": "Ak_Shamare(WitchFeast)_v1.0_Fllz"
+    },
+    "Ak_Shu": {
+      "path": "_Arknights/Ak_Shu.ysm",
+      "type": "ysm",
+      "stem": "Ak_Shu"
+    },
+    "Ak_Sideroca(Coral-Coast)_2": {
+      "path": "_Arknights/Ak_Sideroca(Coral-Coast)_2.ysm",
+      "type": "ysm",
+      "stem": "Ak_Sideroca(Coral-Coast)_2"
+    },
+    "Ak_Skadi": {
+      "path": "_Arknights/Ak_Skadi.ysm",
+      "type": "ysm",
+      "stem": "Ak_Skadi"
+    },
+    "Ak_Skadi(Sleepwear)": {
+      "path": "_Arknights/Ak_Skadi(Sleepwear).ysm",
+      "type": "ysm",
+      "stem": "Ak_Skadi(Sleepwear)"
+    },
+    "Ak_Soldier": {
+      "path": "_Arknights/Ak_Soldier.ysm",
+      "type": "ysm",
+      "stem": "Ak_Soldier"
+    },
+    "AK_Sora_v1.0_Fllz": {
+      "path": "_Arknights/AK_Sora_v1.0_Fllz.ysm",
+      "type": "ysm",
+      "stem": "AK_Sora_v1.0_Fllz"
+    },
+    "Ak_Specter(Speciallist)_v1.0": {
+      "path": "_Arknights/Ak_Specter(Speciallist)_v1.0.ysm",
+      "type": "ysm",
+      "stem": "Ak_Specter(Speciallist)_v1.0"
+    },
+    "Ak_Suzuran": {
+      "path": "_Arknights/Ak_Suzuran.ysm",
+      "type": "ysm",
+      "stem": "Ak_Suzuran"
+    },
+    "Ak_Texas(Epoque)": {
+      "path": "_Arknights/Ak_Texas(Epoque).ysm",
+      "type": "ysm",
+      "stem": "Ak_Texas(Epoque)"
+    },
+    "Ak_Texas(Speciallist)_v1.0": {
+      "path": "_Arknights/Ak_Texas(Speciallist)_v1.0.ysm",
+      "type": "ysm",
+      "stem": "Ak_Texas(Speciallist)_v1.0"
+    },
+    "Ak_Typhon": {
+      "path": "_Arknights/Ak_Typhon.zip",
+      "type": "zip",
+      "stem": "Ak_Typhon"
+    },
+    "Ak_Vigna(Coral-Coast)": {
+      "path": "_Arknights/Ak_Vigna(Coral-Coast).ysm",
+      "type": "ysm",
+      "stem": "Ak_Vigna(Coral-Coast)"
+    },
+    "Ak_Virtuosa": {
+      "path": "_Arknights/Ak_Virtuosa.ysm",
+      "type": "ysm",
+      "stem": "Ak_Virtuosa"
+    },
+    "Ak_Waiifu": {
+      "path": "_Arknights/Ak_Waiifu.ysm",
+      "type": "ysm",
+      "stem": "Ak_Waiifu"
+    },
+    "AL_Agir": {
+      "path": "_AzurLane/AL_Agir.ysm",
+      "type": "ysm",
+      "stem": "AL_Agir"
+    },
+    "AL_Akashi": {
+      "path": "_AzurLane/AL_Akashi.ysm",
+      "type": "ysm",
+      "stem": "AL_Akashi"
+    },
+    "AL_Akashi(Lightweight)": {
+      "path": "_AzurLane/AL_Akashi(Lightweight).ysm",
+      "type": "ysm",
+      "stem": "AL_Akashi(Lightweight)"
+    },
+    "AL_Alsace": {
+      "path": "_AzurLane/AL_Alsace.ysm",
+      "type": "ysm",
+      "stem": "AL_Alsace"
+    },
+    "AL_Amagi(Summer)_v1.0": {
+      "path": "_AzurLane/AL_Amagi(Summer)_v1.0.ysm",
+      "type": "ysm",
+      "stem": "AL_Amagi(Summer)_v1.0"
+    },
+    "AL_ChangChun": {
+      "path": "_AzurLane/AL_ChangChun.ysm",
+      "type": "ysm",
+      "stem": "AL_ChangChun"
+    },
+    "AL_Helena": {
+      "path": "_AzurLane/AL_Helena.ysm",
+      "type": "ysm",
+      "stem": "AL_Helena"
+    },
+    "AL_Kawakaze": {
+      "path": "_AzurLane/AL_Kawakaze.ysm",
+      "type": "ysm",
+      "stem": "AL_Kawakaze"
+    },
+    "AL_Littorio": {
+      "path": "_AzurLane/AL_Littorio.ysm",
+      "type": "ysm",
+      "stem": "AL_Littorio"
+    },
+    "AL_Littorio(With_arm)_v1.0": {
+      "path": "_AzurLane/AL_Littorio(With_arm)_v1.0.ysm",
+      "type": "ysm",
+      "stem": "AL_Littorio(With_arm)_v1.0"
+    },
+    "AL_Littorio(With_arm)_v1.1": {
+      "path": "_AzurLane/AL_Littorio(With_arm)_v1.1.ysm",
+      "type": "ysm",
+      "stem": "AL_Littorio(With_arm)_v1.1"
+    },
+    "AL_Littorio_v1.1": {
+      "path": "_AzurLane/AL_Littorio_v1.1.ysm",
+      "type": "ysm",
+      "stem": "AL_Littorio_v1.1"
+    },
+    "AL_Nagato": {
+      "path": "_AzurLane/AL_Nagato.ysm",
+      "type": "ysm",
+      "stem": "AL_Nagato"
+    },
+    "AL_Nautilus": {
+      "path": "_AzurLane/AL_Nautilus.ysm",
+      "type": "ysm",
+      "stem": "AL_Nautilus"
+    },
+    "AL_Ping-Hai_v1.0": {
+      "path": "_AzurLane/AL_Ping-Hai_v1.0.ysm",
+      "type": "ysm",
+      "stem": "AL_Ping-Hai_v1.0"
+    },
+    "AL_Tashkent_1.5": {
+      "path": "_AzurLane/AL_Tashkent_1.5.ysm",
+      "type": "ysm",
+      "stem": "AL_Tashkent_1.5"
+    },
+    "AL_Yamashiro_2.3.2.1": {
+      "path": "_AzurLane/AL_Yamashiro_2.3.2.1.ysm",
+      "type": "ysm",
+      "stem": "AL_Yamashiro_2.3.2.1"
+    },
+    "AL_Yamashiro_2.4.3": {
+      "path": "_AzurLane/AL_Yamashiro_2.4.3.ysm",
+      "type": "ysm",
+      "stem": "AL_Yamashiro_2.4.3"
+    },
+    "AL_Yukikaze_2.4.1": {
+      "path": "_AzurLane/AL_Yukikaze_2.4.1.ysm",
+      "type": "ysm",
+      "stem": "AL_Yukikaze_2.4.1"
+    },
+    "Alexten22_1.0.0": {
+      "path": "_Alexten22/Alexten22_1.0.0.zip",
+      "type": "zip",
+      "stem": "Alexten22_1.0.0"
+    },
+    "Alexten22_Astronauta 1.0.0_": {
+      "path": "_Alexten22/Alexten22_Astronauta 1.0.0_.zip",
+      "type": "zip",
+      "stem": "Alexten22_Astronauta 1.0.0_"
+    },
+    "Alice-in-Wonderland_Alice_v1.0_Fllz": {
+      "path": "_AliceInWonderland/Alice-in-Wonderland_Alice_v1.0_Fllz.ysm",
+      "type": "ysm",
+      "stem": "Alice-in-Wonderland_Alice_v1.0_Fllz"
+    },
+    "AliceinCradle_Noel-Corehl": {
+      "path": "_AliceInCradle/AliceinCradle_Noel-Corehl.ysm",
+      "type": "ysm",
+      "stem": "AliceinCradle_Noel-Corehl"
+    },
+    "alt_nicole": {
+      "path": "Unknown/alt_nicole.ysm",
+      "type": "ysm",
+      "stem": "alt_nicole"
+    },
+    "angela_atlyss": {
+      "path": "Unknown/angela_atlyss.ysm",
+      "type": "ysm",
+      "stem": "angela_atlyss"
+    },
+    "AoT_Mikasa": {
+      "path": "_AttackOnTitan/AoT_Mikasa.ysm",
+      "type": "ysm",
+      "stem": "AoT_Mikasa"
+    },
+    "ApexLegends_Valkyrie": {
+      "path": "_ApexLegends/ApexLegends_Valkyrie.zip",
+      "type": "zip",
+      "stem": "ApexLegends_Valkyrie"
+    },
+    "Arcaea_Nami(Twilight)_v1.0": {
+      "path": "_Arcaea/Arcaea_Nami(Twilight)_v1.0.ysm",
+      "type": "ysm",
+      "stem": "Arcaea_Nami(Twilight)_v1.0"
+    },
+    "Ariableyes_Safira_v1.0_Fllz": {
+      "path": "_Ariableyes/Ariableyes_Safira_v1.0_Fllz.ysm",
+      "type": "ysm",
+      "stem": "Ariableyes_Safira_v1.0_Fllz"
+    },
+    "Ariableyes_Safira_v1.2_Fllz": {
+      "path": "_Ariableyes/Ariableyes_Safira_v1.2_Fllz.ysm",
+      "type": "ysm",
+      "stem": "Ariableyes_Safira_v1.2_Fllz"
+    },
+    "ArmorMayhem_SpaceSuit": {
+      "path": "_ArmorMayhem/ArmorMayhem_SpaceSuit.ysm",
+      "type": "ysm",
+      "stem": "ArmorMayhem_SpaceSuit"
+    },
+    "ArmorMayhem_SpaceSuit(zipver)": {
+      "path": "_ArmorMayhem/ArmorMayhem_SpaceSuit(zipver).zip",
+      "type": "zip",
+      "stem": "ArmorMayhem_SpaceSuit(zipver)"
+    },
+    "Arstia_夜空-赛蕾特_v1.1": {
+      "path": "_Arstia/Arstia_夜空-赛蕾特_v1.1.ysm",
+      "type": "ysm",
+      "stem": "Arstia_夜空-赛蕾特_v1.1"
+    },
+    "Arstia_夜空-赛蕾特_v1.1(zipver)": {
+      "path": "_Arstia/Arstia_夜空-赛蕾特_v1.1(zipver).zip",
+      "type": "zip",
+      "stem": "Arstia_夜空-赛蕾特_v1.1(zipver)"
+    },
+    "Arstia_夜空-赛蕾特_v1.4": {
+      "path": "_Arstia/Arstia_夜空-赛蕾特_v1.4.ysm",
+      "type": "ysm",
+      "stem": "Arstia_夜空-赛蕾特_v1.4"
+    },
+    "Arstia_夜空-赛蕾特_v1.4(zipver)": {
+      "path": "_Arstia/Arstia_夜空-赛蕾特_v1.4(zipver).zip",
+      "type": "zip",
+      "stem": "Arstia_夜空-赛蕾特_v1.4(zipver)"
+    },
+    "AshArms_Ho229": {
+      "path": "_AshArms/AshArms_Ho229.ysm",
+      "type": "ysm",
+      "stem": "AshArms_Ho229"
+    },
+    "AshArms_猎虎H": {
+      "path": "_AshArms/AshArms_猎虎H.ysm",
+      "type": "ysm",
+      "stem": "AshArms_猎虎H"
+    },
+    "AstalParty_NancyLu(No-sound)_v1.0": {
+      "path": "_AstralParty/AstalParty_NancyLu(No-sound)_v1.0.ysm",
+      "type": "ysm",
+      "stem": "AstalParty_NancyLu(No-sound)_v1.0"
+    },
+    "AstalParty_NancyLu_v0.1": {
+      "path": "_AstralParty/AstalParty_NancyLu_v0.1.ysm",
+      "type": "ysm",
+      "stem": "AstalParty_NancyLu_v0.1"
+    },
+    "AstalParty_NancyLu_v0.2": {
+      "path": "_AstralParty/AstalParty_NancyLu_v0.2.ysm",
+      "type": "ysm",
+      "stem": "AstalParty_NancyLu_v0.2"
+    },
+    "AstalParty_NancyLu_v1.0": {
+      "path": "_AstralParty/AstalParty_NancyLu_v1.0.ysm",
+      "type": "ysm",
+      "stem": "AstalParty_NancyLu_v1.0"
+    },
+    "AstralParty_Jasmine_v1.0": {
+      "path": "_AstralParty/AstralParty_Jasmine_v1.0.ysm",
+      "type": "ysm",
+      "stem": "AstralParty_Jasmine_v1.0"
+    },
+    "AstralParty_Jasmine_v1.1.1": {
+      "path": "_AstralParty/AstralParty_Jasmine_v1.1.1.ysm",
+      "type": "ysm",
+      "stem": "AstralParty_Jasmine_v1.1.1"
+    },
+    "Atago": {
+      "path": "Unknown/Atago.zip",
+      "type": "zip",
+      "stem": "Atago"
+    },
+    "Atelier_Reisalin-Stout": {
+      "path": "_Atelier/Atelier_Reisalin-Stout.zip",
+      "type": "zip",
+      "stem": "Atelier_Reisalin-Stout"
+    },
+    "ATKGirl_Vermilion-Bird_v1.0": {
+      "path": "_EasternModels_A.T.K-Girl/ATKGirl_Vermilion-Bird_v1.0.ysm",
+      "type": "ysm",
+      "stem": "ATKGirl_Vermilion-Bird_v1.0"
+    },
+    "AtomicHeart_The-Twins_v1.0": {
+      "path": "_AtomicHeart/AtomicHeart_The-Twins_v1.0.zip",
+      "type": "zip",
+      "stem": "AtomicHeart_The-Twins_v1.0"
+    },
+    "BA_Alice(Maid)": {
+      "path": "_BlueArchive/BA_Alice(Maid).ysm",
+      "type": "ysm",
+      "stem": "BA_Alice(Maid)"
+    },
+    "BA_Alice(Maid)_2.0": {
+      "path": "_BlueArchive/BA_Alice(Maid)_2.0.ysm",
+      "type": "ysm",
+      "stem": "BA_Alice(Maid)_2.0"
+    },
+    "BA_Alice(Winter)": {
+      "path": "_BlueArchive/BA_Alice(Winter).ysm",
+      "type": "ysm",
+      "stem": "BA_Alice(Winter)"
+    },
+    "BA_Alice_4.0": {
+      "path": "_BlueArchive/BA_Alice_4.0.ysm",
+      "type": "ysm",
+      "stem": "BA_Alice_4.0"
+    },
+    "BA_Alice_5.0": {
+      "path": "_BlueArchive/BA_Alice_5.0.ysm",
+      "type": "ysm",
+      "stem": "BA_Alice_5.0"
+    },
+    "BA_Alice_6.0": {
+      "path": "_BlueArchive/BA_Alice_6.0.ysm",
+      "type": "ysm",
+      "stem": "BA_Alice_6.0"
+    },
+    "BA_Arona": {
+      "path": "_BlueArchive/BA_Arona.ysm",
+      "type": "ysm",
+      "stem": "BA_Arona"
+    },
+    "BA_Arona_0": {
+      "path": "_BlueArchive/BA_Arona_0.zip",
+      "type": "zip",
+      "stem": "BA_Arona_0"
+    },
+    "BA_Arona_1": {
+      "path": "_BlueArchive/BA_Arona_1.ysm",
+      "type": "ysm",
+      "stem": "BA_Arona_1"
+    },
+    "BA_Aru": {
+      "path": "_BlueArchive/BA_Aru.ysm",
+      "type": "ysm",
+      "stem": "BA_Aru"
+    },
+    "BA_Asuma-Toki": {
+      "path": "_BlueArchive/BA_Asuma-Toki.ysm",
+      "type": "ysm",
+      "stem": "BA_Asuma-Toki"
+    },
+    "BA_Asuma-Toki_1.0": {
+      "path": "_BlueArchive/BA_Asuma-Toki_1.0.zip",
+      "type": "zip",
+      "stem": "BA_Asuma-Toki_1.0"
+    },
+    "BA_Asuma-Toki_v1.0": {
+      "path": "_BlueArchive/BA_Asuma-Toki_v1.0.ysm",
+      "type": "ysm",
+      "stem": "BA_Asuma-Toki_v1.0"
+    },
+    "BA_Asuna": {
+      "path": "_BlueArchive/BA_Asuna.ysm",
+      "type": "ysm",
+      "stem": "BA_Asuna"
+    },
+    "BA_Asuna(Mini)_v1.0": {
+      "path": "_BlueArchive/BA_Asuna(Mini)_v1.0.ysm",
+      "type": "ysm",
+      "stem": "BA_Asuna(Mini)_v1.0"
+    },
+    "BA_Fuuka_1.0": {
+      "path": "_BlueArchive/BA_Fuuka_1.0.ysm",
+      "type": "ysm",
+      "stem": "BA_Fuuka_1.0"
+    },
+    "BA_Fuuka_v1.0": {
+      "path": "_BlueArchive/BA_Fuuka_v1.0.ysm",
+      "type": "ysm",
+      "stem": "BA_Fuuka_v1.0"
+    },
+    "BA_Fuuka_v1.0.12": {
+      "path": "_BlueArchive/BA_Fuuka_v1.0.12.ysm",
+      "type": "ysm",
+      "stem": "BA_Fuuka_v1.0.12"
+    },
+    "BA_Fuuka_v1.1": {
+      "path": "_BlueArchive/BA_Fuuka_v1.1.ysm",
+      "type": "ysm",
+      "stem": "BA_Fuuka_v1.1"
+    },
+    "BA_Fuuka_v1.1.1": {
+      "path": "_BlueArchive/BA_Fuuka_v1.1.1.ysm",
+      "type": "ysm",
+      "stem": "BA_Fuuka_v1.1.1"
+    },
+    "BA_Fuuka_v2.0": {
+      "path": "_BlueArchive/BA_Fuuka_v2.0.ysm",
+      "type": "ysm",
+      "stem": "BA_Fuuka_v2.0"
+    },
+    "BA_Fuuka_v2.0.5": {
+      "path": "_BlueArchive/BA_Fuuka_v2.0.5.ysm",
+      "type": "ysm",
+      "stem": "BA_Fuuka_v2.0.5"
+    },
+    "BA_Haruka": {
+      "path": "_BlueArchive/BA_Haruka.ysm",
+      "type": "ysm",
+      "stem": "BA_Haruka"
+    },
+    "BA_Hayase-Yuuka(Track)": {
+      "path": "_BlueArchive/BA_Hayase-Yuuka(Track).ysm",
+      "type": "ysm",
+      "stem": "BA_Hayase-Yuuka(Track)"
+    },
+    "BA_Hayase-Yuuka(Track)(Old-Versions)": {
+      "path": "_BlueArchive/BA_Hayase-Yuuka(Track)(Old-Versions).ysm",
+      "type": "ysm",
+      "stem": "BA_Hayase-Yuuka(Track)(Old-Versions)"
+    },
+    "BA_Hayoko": {
+      "path": "_BlueArchive/BA_Hayoko.ysm",
+      "type": "ysm",
+      "stem": "BA_Hayoko"
+    },
+    "BA_Hikari(Highlande)_v1.0": {
+      "path": "_BlueArchive/BA_Hikari(Highlande)_v1.0.ysm",
+      "type": "ysm",
+      "stem": "BA_Hikari(Highlande)_v1.0"
+    },
+    "BA_Hina_0_ShiroKaze": {
+      "path": "_BlueArchive/BA_Hina_0_ShiroKaze.ysm",
+      "type": "ysm",
+      "stem": "BA_Hina_0_ShiroKaze"
+    },
+    "BA_Hoshino": {
+      "path": "_BlueArchive/BA_Hoshino.zip",
+      "type": "zip",
+      "stem": "BA_Hoshino"
+    },
+    "BA_Hoshino(Battle)": {
+      "path": "_BlueArchive/BA_Hoshino(Battle).ysm",
+      "type": "ysm",
+      "stem": "BA_Hoshino(Battle)"
+    },
+    "BA_Hoshino_1": {
+      "path": "_BlueArchive/BA_Hoshino_1.zip",
+      "type": "zip",
+      "stem": "BA_Hoshino_1"
+    },
+    "BA_ichika": {
+      "path": "_BlueArchive/BA_ichika.ysm",
+      "type": "ysm",
+      "stem": "BA_ichika"
+    },
+    "BA_Kanoe_v0.7": {
+      "path": "_BlueArchive/BA_Kanoe_v0.7.ysm",
+      "type": "ysm",
+      "stem": "BA_Kanoe_v0.7"
+    },
+    "BA_Kazusa": {
+      "path": "_BlueArchive/BA_Kazusa.ysm",
+      "type": "ysm",
+      "stem": "BA_Kazusa"
+    },
+    "BA_Kisaki(Alt)_v1.0": {
+      "path": "_BlueArchive/BA_Kisaki(Alt)_v1.0.zip",
+      "type": "zip",
+      "stem": "BA_Kisaki(Alt)_v1.0"
+    },
+    "BA_Kisaki(No_coat)_v1.0": {
+      "path": "_BlueArchive/BA_Kisaki(No_coat)_v1.0.zip",
+      "type": "zip",
+      "stem": "BA_Kisaki(No_coat)_v1.0"
+    },
+    "BA_Kisaki(With_coat)_v1.0": {
+      "path": "_BlueArchive/BA_Kisaki(With_coat)_v1.0.zip",
+      "type": "zip",
+      "stem": "BA_Kisaki(With_coat)_v1.0"
+    },
+    "BA_Kiyosumi-Akira": {
+      "path": "_BlueArchive/BA_Kiyosumi-Akira.ysm",
+      "type": "ysm",
+      "stem": "BA_Kiyosumi-Akira"
+    },
+    "BA_Koharu": {
+      "path": "_BlueArchive/BA_Koharu.ysm",
+      "type": "ysm",
+      "stem": "BA_Koharu"
+    },
+    "BA_Mika": {
+      "path": "_BlueArchive/BA_Mika.ysm",
+      "type": "ysm",
+      "stem": "BA_Mika"
+    },
+    "BA_Minori": {
+      "path": "_BlueArchive/BA_Minori.ysm",
+      "type": "ysm",
+      "stem": "BA_Minori"
+    },
+    "BA_Miyako": {
+      "path": "_BlueArchive/BA_Miyako.ysm",
+      "type": "ysm",
+      "stem": "BA_Miyako"
+    },
+    "BA_Miyu": {
+      "path": "_BlueArchive/BA_Miyu.ysm",
+      "type": "ysm",
+      "stem": "BA_Miyu"
+    },
+    "BA_Momoi(Maid)_1.2": {
+      "path": "_BlueArchive/BA_Momoi(Maid)_1.2.ysm",
+      "type": "ysm",
+      "stem": "BA_Momoi(Maid)_1.2"
+    },
+    "BA_Mutsuki": {
+      "path": "_BlueArchive/BA_Mutsuki.ysm",
+      "type": "ysm",
+      "stem": "BA_Mutsuki"
+    },
+    "BA_Noa": {
+      "path": "_BlueArchive/BA_Noa.ysm",
+      "type": "ysm",
+      "stem": "BA_Noa"
+    },
+    "BA_Nozomi(Highlande)_v1.0": {
+      "path": "_BlueArchive/BA_Nozomi(Highlande)_v1.0.ysm",
+      "type": "ysm",
+      "stem": "BA_Nozomi(Highlande)_v1.0"
+    },
+    "BA_Plana": {
+      "path": "_BlueArchive/BA_Plana.ysm",
+      "type": "ysm",
+      "stem": "BA_Plana"
+    },
+    "BA_Rio": {
+      "path": "_BlueArchive/BA_Rio.ysm",
+      "type": "ysm",
+      "stem": "BA_Rio"
+    },
+    "BA_Risa_0": {
+      "path": "_BlueArchive/BA_Risa_0.ysm",
+      "type": "ysm",
+      "stem": "BA_Risa_0"
+    },
+    "BA_Risa_1": {
+      "path": "_BlueArchive/BA_Risa_1.ysm",
+      "type": "ysm",
+      "stem": "BA_Risa_1"
+    },
+    "BA_Saki": {
+      "path": "_BlueArchive/BA_Saki.zip",
+      "type": "zip",
+      "stem": "BA_Saki"
+    },
+    "BA_Saori": {
+      "path": "_BlueArchive/BA_Saori.ysm",
+      "type": "ysm",
+      "stem": "BA_Saori"
+    },
+    "BA_Sensei": {
+      "path": "_BlueArchive/BA_Sensei.zip",
+      "type": "zip",
+      "stem": "BA_Sensei"
+    },
+    "BA_Shiroko": {
+      "path": "_BlueArchive/BA_Shiroko.ysm",
+      "type": "ysm",
+      "stem": "BA_Shiroko"
+    },
+    "BA_Shiroko(Terror)_v1.0": {
+      "path": "_BlueArchive/BA_Shiroko(Terror)_v1.0.zip",
+      "type": "zip",
+      "stem": "BA_Shiroko(Terror)_v1.0"
+    },
+    "Bandori_Anon-Chihaya": {
+      "path": "_Bandori/Bandori_Anon-Chihaya.ysm",
+      "type": "ysm",
+      "stem": "Bandori_Anon-Chihaya"
+    },
+    "Bandori_Chihaya-Anon": {
+      "path": "_Bandori/Bandori_Chihaya-Anon.ysm",
+      "type": "ysm",
+      "stem": "Bandori_Chihaya-Anon"
+    },
+    "Bandori_ChihayaAnon_1": {
+      "path": "_Bandori/Bandori_ChihayaAnon_1.ysm",
+      "type": "ysm",
+      "stem": "Bandori_ChihayaAnon_1"
+    },
+    "Bandori_ChihayaAnon_1.2": {
+      "path": "_Bandori/Bandori_ChihayaAnon_1.2.ysm",
+      "type": "ysm",
+      "stem": "Bandori_ChihayaAnon_1.2"
+    },
+    "Bandori_Kaname-Raana": {
+      "path": "_Bandori/Bandori_Kaname-Raana.ysm",
+      "type": "ysm",
+      "stem": "Bandori_Kaname-Raana"
+    },
+    "Bandori_Nagasaki-Soyo": {
+      "path": "_Bandori/Bandori_Nagasaki-Soyo.ysm",
+      "type": "ysm",
+      "stem": "Bandori_Nagasaki-Soyo"
+    },
+    "Bandori_NagasakiSoyo": {
+      "path": "_Bandori/Bandori_NagasakiSoyo.ysm",
+      "type": "ysm",
+      "stem": "Bandori_NagasakiSoyo"
+    },
+    "Bandori_NagasakiSoyo(zipver)": {
+      "path": "_Bandori/Bandori_NagasakiSoyo(zipver).zip",
+      "type": "zip",
+      "stem": "Bandori_NagasakiSoyo(zipver)"
+    },
+    "Bandori_NagasakiSoyo_1": {
+      "path": "_Bandori/Bandori_NagasakiSoyo_1.ysm",
+      "type": "ysm",
+      "stem": "Bandori_NagasakiSoyo_1"
+    },
+    "Bandori_Nyamu-Yutenji": {
+      "path": "_Bandori/Bandori_Nyamu-Yutenji.ysm",
+      "type": "ysm",
+      "stem": "Bandori_Nyamu-Yutenji"
+    },
+    "Bandori_Sakiko-Togawa": {
+      "path": "_Bandori/Bandori_Sakiko-Togawa.ysm",
+      "type": "ysm",
+      "stem": "Bandori_Sakiko-Togawa"
+    },
+    "Bandori_Takamatsu-Tomori": {
+      "path": "_Bandori/Bandori_Takamatsu-Tomori.ysm",
+      "type": "ysm",
+      "stem": "Bandori_Takamatsu-Tomori"
+    },
+    "Bandori_Taki-Shiina": {
+      "path": "_Bandori/Bandori_Taki-Shiina.ysm",
+      "type": "ysm",
+      "stem": "Bandori_Taki-Shiina"
+    },
+    "Bandori_Uika-Misumi": {
+      "path": "_Bandori/Bandori_Uika-Misumi.ysm",
+      "type": "ysm",
+      "stem": "Bandori_Uika-Misumi"
+    },
+    "Bandori_Umiri-Yahata": {
+      "path": "_Bandori/Bandori_Umiri-Yahata.ysm",
+      "type": "ysm",
+      "stem": "Bandori_Umiri-Yahata"
+    },
+    "Bandori_Wakaba-Mutsumi": {
+      "path": "_Bandori/Bandori_Wakaba-Mutsumi.ysm",
+      "type": "ysm",
+      "stem": "Bandori_Wakaba-Mutsumi"
+    },
+    "Bionicle_Gali": {
+      "path": "_Bionicle/Bionicle_Gali.zip",
+      "type": "zip",
+      "stem": "Bionicle_Gali"
+    },
+    "Bionicle_Kopaka": {
+      "path": "_Bionicle/Bionicle_Kopaka.zip",
+      "type": "zip",
+      "stem": "Bionicle_Kopaka"
+    },
+    "Bionicle_Lewa": {
+      "path": "_Bionicle/Bionicle_Lewa.zip",
+      "type": "zip",
+      "stem": "Bionicle_Lewa"
+    },
+    "Bionicle_Onua": {
+      "path": "_Bionicle/Bionicle_Onua.zip",
+      "type": "zip",
+      "stem": "Bionicle_Onua"
+    },
+    "Bionicle_Pohatu": {
+      "path": "_Bionicle/Bionicle_Pohatu.zip",
+      "type": "zip",
+      "stem": "Bionicle_Pohatu"
+    },
+    "Bionicle_Tahu": {
+      "path": "_Bionicle/Bionicle_Tahu.zip",
+      "type": "zip",
+      "stem": "Bionicle_Tahu"
+    },
+    "Block_Birch(Moefied)": {
+      "path": "_MinecraftBlock/Block_Birch(Moefied).ysm",
+      "type": "ysm",
+      "stem": "Block_Birch(Moefied)"
+    },
+    "Block_Grass(Moefied)": {
+      "path": "_MinecraftBlock/Block_Grass(Moefied).ysm",
+      "type": "ysm",
+      "stem": "Block_Grass(Moefied)"
+    },
+    "Block_IronGolem": {
+      "path": "_MinecraftBlock/Block_IronGolem.ysm",
+      "type": "ysm",
+      "stem": "Block_IronGolem"
+    },
+    "Block_IronGolem(dancing)": {
+      "path": "_MinecraftBlock/Block_IronGolem(dancing).ysm",
+      "type": "ysm",
+      "stem": "Block_IronGolem(dancing)"
+    },
+    "BMW_Wukong_1": {
+      "path": "_BlackMythWukong/BMW_Wukong_1.ysm",
+      "type": "ysm",
+      "stem": "BMW_Wukong_1"
+    },
+    "bomberman-ysm": {
+      "path": "Unknown/bomberman-ysm.zip",
+      "type": "zip",
+      "stem": "bomberman-ysm"
+    },
+    "Brainrot_Tralalero-Tralala": {
+      "path": "_Meme/Brainrot_Tralalero-Tralala.ysm",
+      "type": "ysm",
+      "stem": "Brainrot_Tralalero-Tralala"
+    },
+    "BrownDustII_Loen(Celebrity-bunny)": {
+      "path": "_BrownDustII/BrownDustII_Loen(Celebrity-bunny).ysm",
+      "type": "ysm",
+      "stem": "BrownDustII_Loen(Celebrity-bunny)"
+    },
+    "BtR_Hitori-Goto_0": {
+      "path": "_BocchiTheRock/BtR_Hitori-Goto_0.ysm",
+      "type": "ysm",
+      "stem": "BtR_Hitori-Goto_0"
+    },
+    "BtR_Hitori-Goto_1": {
+      "path": "_BocchiTheRock/BtR_Hitori-Goto_1.ysm",
+      "type": "ysm",
+      "stem": "BtR_Hitori-Goto_1"
+    },
+    "BtR_Hitori-Goto_v1.0": {
+      "path": "_BocchiTheRock/BtR_Hitori-Goto_v1.0.ysm",
+      "type": "ysm",
+      "stem": "BtR_Hitori-Goto_v1.0"
+    },
+    "BtR_Kita-Ikuyo_0": {
+      "path": "_BocchiTheRock/BtR_Kita-Ikuyo_0.ysm",
+      "type": "ysm",
+      "stem": "BtR_Kita-Ikuyo_0"
+    },
+    "BtR_Kita-Ikuyo_1": {
+      "path": "_BocchiTheRock/BtR_Kita-Ikuyo_1.ysm",
+      "type": "ysm",
+      "stem": "BtR_Kita-Ikuyo_1"
+    },
+    "BtR_Kita-Ikuyo_2": {
+      "path": "_BocchiTheRock/BtR_Kita-Ikuyo_2.ysm",
+      "type": "ysm",
+      "stem": "BtR_Kita-Ikuyo_2"
+    },
+    "BtR_Nijika-Ijichi": {
+      "path": "_BocchiTheRock/BtR_Nijika-Ijichi.ysm",
+      "type": "ysm",
+      "stem": "BtR_Nijika-Ijichi"
+    },
+    "BtR_Nijika-Ijichi(MM)": {
+      "path": "_BocchiTheRock/BtR_Nijika-Ijichi(MM).ysm",
+      "type": "ysm",
+      "stem": "BtR_Nijika-Ijichi(MM)"
+    },
+    "BtR_Nijika-Ijichi_1": {
+      "path": "_BocchiTheRock/BtR_Nijika-Ijichi_1.ysm",
+      "type": "ysm",
+      "stem": "BtR_Nijika-Ijichi_1"
+    },
+    "BtR_Ryou-Yamada_0": {
+      "path": "_BocchiTheRock/BtR_Ryou-Yamada_0.ysm",
+      "type": "ysm",
+      "stem": "BtR_Ryou-Yamada_0"
+    },
+    "BtR_Ryou-Yamada_1": {
+      "path": "_BocchiTheRock/BtR_Ryou-Yamada_1.ysm",
+      "type": "ysm",
+      "stem": "BtR_Ryou-Yamada_1"
+    },
+    "BtR_Ryou-Yamada_2": {
+      "path": "_BocchiTheRock/BtR_Ryou-Yamada_2.ysm",
+      "type": "ysm",
+      "stem": "BtR_Ryou-Yamada_2"
+    },
+    "BtR_Ryou-Yamada_3": {
+      "path": "_BocchiTheRock/BtR_Ryou-Yamada_3.ysm",
+      "type": "ysm",
+      "stem": "BtR_Ryou-Yamada_3"
+    },
+    "cake": {
+      "path": "Unknown/cake.ysm",
+      "type": "ysm",
+      "stem": "cake"
+    },
+    "cap": {
+      "path": "Unknown/cap.ysm",
+      "type": "ysm",
+      "stem": "cap"
+    },
+    "cattail": {
+      "path": "Unknown/cattail.ysm",
+      "type": "ysm",
+      "stem": "cattail"
+    },
+    "ccci202_枫璃_0.9": {
+      "path": "_ccci202/ccci202_枫璃_0.9.ysm",
+      "type": "ysm",
+      "stem": "ccci202_枫璃_0.9"
+    },
+    "ccci202_枫璃_1.0": {
+      "path": "_ccci202/ccci202_枫璃_1.0.ysm",
+      "type": "ysm",
+      "stem": "ccci202_枫璃_1.0"
+    },
+    "ccci202_枫璃_1.1": {
+      "path": "_ccci202/ccci202_枫璃_1.1.ysm",
+      "type": "ysm",
+      "stem": "ccci202_枫璃_1.1"
+    },
+    "ccci202_枫璃_1.2": {
+      "path": "_ccci202/ccci202_枫璃_1.2.ysm",
+      "type": "ysm",
+      "stem": "ccci202_枫璃_1.2"
+    },
+    "ccci202_枫璃_1.2.1": {
+      "path": "_ccci202/ccci202_枫璃_1.2.1.ysm",
+      "type": "ysm",
+      "stem": "ccci202_枫璃_1.2.1"
+    },
+    "ccci202_枫璃_1.2.2": {
+      "path": "_ccci202/ccci202_枫璃_1.2.2.ysm",
+      "type": "ysm",
+      "stem": "ccci202_枫璃_1.2.2"
+    },
+    "ccci202_枫璃_1.3": {
+      "path": "_ccci202/ccci202_枫璃_1.3.ysm",
+      "type": "ysm",
+      "stem": "ccci202_枫璃_1.3"
+    },
+    "ccci202_枫璃_1.3.1": {
+      "path": "_ccci202/ccci202_枫璃_1.3.1.ysm",
+      "type": "ysm",
+      "stem": "ccci202_枫璃_1.3.1"
+    },
+    "ccci202_枫璃_1.3.2": {
+      "path": "_ccci202/ccci202_枫璃_1.3.2.ysm",
+      "type": "ysm",
+      "stem": "ccci202_枫璃_1.3.2"
+    },
+    "ccci202_枫璃_1.4": {
+      "path": "_ccci202/ccci202_枫璃_1.4.ysm",
+      "type": "ysm",
+      "stem": "ccci202_枫璃_1.4"
+    },
+    "ccci202_枫璃_1.4.1": {
+      "path": "_ccci202/ccci202_枫璃_1.4.1.ysm",
+      "type": "ysm",
+      "stem": "ccci202_枫璃_1.4.1"
+    },
+    "ccci202_枫璃_1.4.2": {
+      "path": "_ccci202/ccci202_枫璃_1.4.2.ysm",
+      "type": "ysm",
+      "stem": "ccci202_枫璃_1.4.2"
+    },
+    "Chinese-math-textbook_RuiRui": {
+      "path": "Uncategorized/Chinese-math-textbook_RuiRui.ysm",
+      "type": "ysm",
+      "stem": "Chinese-math-textbook_RuiRui"
+    },
+    "Chinese-math-textbook_RuiRui_1.3": {
+      "path": "Uncategorized/Chinese-math-textbook_RuiRui_1.3.ysm",
+      "type": "ysm",
+      "stem": "Chinese-math-textbook_RuiRui_1.3"
+    },
+    "Chuunibyou_Takanashi-Rikka": {
+      "path": "_ChuunibyouDemoKoiGaShitai!/Chuunibyou_Takanashi-Rikka.ysm",
+      "type": "ysm",
+      "stem": "Chuunibyou_Takanashi-Rikka"
+    },
+    "CnCG_GLARebel": {
+      "path": "_Command&ConquerSeries/CnCG_GLARebel.ysm",
+      "type": "ysm",
+      "stem": "CnCG_GLARebel"
+    },
+    "CnCG_GLARebel(Demolition)": {
+      "path": "_Command&ConquerSeries/CnCG_GLARebel(Demolition).ysm",
+      "type": "ysm",
+      "stem": "CnCG_GLARebel(Demolition)"
+    },
+    "CnCG_GLARebel(Stealth)": {
+      "path": "_Command&ConquerSeries/CnCG_GLARebel(Stealth).ysm",
+      "type": "ysm",
+      "stem": "CnCG_GLARebel(Stealth)"
+    },
+    "CnCG_GLARebel(Toxin)": {
+      "path": "_Command&ConquerSeries/CnCG_GLARebel(Toxin).ysm",
+      "type": "ysm",
+      "stem": "CnCG_GLARebel(Toxin)"
+    },
+    "CnCGZH(RiseOfTheReds)_Shock-Trooper": {
+      "path": "_Command&ConquerSeries/CnCGZH(RiseOfTheReds)_Shock-Trooper.ysm",
+      "type": "ysm",
+      "stem": "CnCGZH(RiseOfTheReds)_Shock-Trooper"
+    },
+    "CnCGZH_Red-Guard": {
+      "path": "_Command&ConquerSeries/CnCGZH_Red-Guard.ysm",
+      "type": "ysm",
+      "stem": "CnCGZH_Red-Guard"
+    },
+    "CnCGZH_Red-Guard(General-1)": {
+      "path": "_Command&ConquerSeries/CnCGZH_Red-Guard(General-1).ysm",
+      "type": "ysm",
+      "stem": "CnCGZH_Red-Guard(General-1)"
+    },
+    "CnCGZH_Red-Guard(Mini-gunners)": {
+      "path": "_Command&ConquerSeries/CnCGZH_Red-Guard(Mini-gunners).ysm",
+      "type": "ysm",
+      "stem": "CnCGZH_Red-Guard(Mini-gunners)"
+    },
+    "CnCGZH_Red-Guard(Nuclear)": {
+      "path": "_Command&ConquerSeries/CnCGZH_Red-Guard(Nuclear).ysm",
+      "type": "ysm",
+      "stem": "CnCGZH_Red-Guard(Nuclear)"
+    },
+    "CnCGZH_Red-Guard(Sergeant)": {
+      "path": "_Command&ConquerSeries/CnCGZH_Red-Guard(Sergeant).ysm",
+      "type": "ysm",
+      "stem": "CnCGZH_Red-Guard(Sergeant)"
+    },
+    "CnCMO_AlliedGI": {
+      "path": "_Command&ConquerSeries/CnCMO_AlliedGI.ysm",
+      "type": "ysm",
+      "stem": "CnCMO_AlliedGI"
+    },
+    "CnCMO_AlliedGI2": {
+      "path": "_Command&ConquerSeries/CnCMO_AlliedGI2.ysm",
+      "type": "ysm",
+      "stem": "CnCMO_AlliedGI2"
+    },
+    "CnCMO_AlliedGuardianGI": {
+      "path": "_Command&ConquerSeries/CnCMO_AlliedGuardianGI.ysm",
+      "type": "ysm",
+      "stem": "CnCMO_AlliedGuardianGI"
+    },
+    "CnCMO_AlliedRiotTrooper": {
+      "path": "_Command&ConquerSeries/CnCMO_AlliedRiotTrooper.ysm",
+      "type": "ysm",
+      "stem": "CnCMO_AlliedRiotTrooper"
+    },
+    "CnCMO_Krukov": {
+      "path": "_Command&ConquerSeries/CnCMO_Krukov.ysm",
+      "type": "ysm",
+      "stem": "CnCMO_Krukov"
+    },
+    "CnCMO_Reznov": {
+      "path": "_Command&ConquerSeries/CnCMO_Reznov.ysm",
+      "type": "ysm",
+      "stem": "CnCMO_Reznov"
+    },
+    "CnCMO_Yunru": {
+      "path": "_Command&ConquerSeries/CnCMO_Yunru.ysm",
+      "type": "ysm",
+      "stem": "CnCMO_Yunru"
+    },
+    "CnCMO_Yunru2": {
+      "path": "_Command&ConquerSeries/CnCMO_Yunru2.ysm",
+      "type": "ysm",
+      "stem": "CnCMO_Yunru2"
+    },
+    "CnCRA2_AlliedGI": {
+      "path": "_Command&ConquerSeries/CnCRA2_AlliedGI.ysm",
+      "type": "ysm",
+      "stem": "CnCRA2_AlliedGI"
+    },
+    "CnCRA2_alliedNavySeal(Land)": {
+      "path": "_Command&ConquerSeries/CnCRA2_alliedNavySeal(Land).ysm",
+      "type": "ysm",
+      "stem": "CnCRA2_alliedNavySeal(Land)"
+    },
+    "CnCRA2_alliedNavySeal(Underwater)": {
+      "path": "_Command&ConquerSeries/CnCRA2_alliedNavySeal(Underwater).ysm",
+      "type": "ysm",
+      "stem": "CnCRA2_alliedNavySeal(Underwater)"
+    },
+    "CnCRA2_alliedNavySeal(Winter)": {
+      "path": "_Command&ConquerSeries/CnCRA2_alliedNavySeal(Winter).ysm",
+      "type": "ysm",
+      "stem": "CnCRA2_alliedNavySeal(Winter)"
+    },
+    "CnCRA_Rifle-Infantry": {
+      "path": "_Command&ConquerSeries/CnCRA_Rifle-Infantry.ysm",
+      "type": "ysm",
+      "stem": "CnCRA_Rifle-Infantry"
+    },
+    "CnCRe_GDISoldier": {
+      "path": "_Command&ConquerSeries/CnCRe_GDISoldier.ysm",
+      "type": "ysm",
+      "stem": "CnCRe_GDISoldier"
+    },
+    "CnCRe_NODSoldier": {
+      "path": "_Command&ConquerSeries/CnCRe_NODSoldier.ysm",
+      "type": "ysm",
+      "stem": "CnCRe_NODSoldier"
+    },
+    "CnCTS_GDILightInfantry": {
+      "path": "_Command&ConquerSeries/CnCTS_GDILightInfantry.ysm",
+      "type": "ysm",
+      "stem": "CnCTS_GDILightInfantry"
+    },
+    "CnCTS_NODLightInfantry": {
+      "path": "_Command&ConquerSeries/CnCTS_NODLightInfantry.ysm",
+      "type": "ysm",
+      "stem": "CnCTS_NODLightInfantry"
+    },
+    "CnCTW_GDIRiflemanSquad": {
+      "path": "_Command&ConquerSeries/CnCTW_GDIRiflemanSquad.ysm",
+      "type": "ysm",
+      "stem": "CnCTW_GDIRiflemanSquad"
+    },
+    "CnCTW_GDIRiflemanSquad(Armored)": {
+      "path": "_Command&ConquerSeries/CnCTW_GDIRiflemanSquad(Armored).ysm",
+      "type": "ysm",
+      "stem": "CnCTW_GDIRiflemanSquad(Armored)"
+    },
+    "CnCTW_GDIRiflemanSquad(ZOCOM)": {
+      "path": "_Command&ConquerSeries/CnCTW_GDIRiflemanSquad(ZOCOM).ysm",
+      "type": "ysm",
+      "stem": "CnCTW_GDIRiflemanSquad(ZOCOM)"
+    },
+    "CnCTW_NODMilitantSquad": {
+      "path": "_Command&ConquerSeries/CnCTW_NODMilitantSquad.ysm",
+      "type": "ysm",
+      "stem": "CnCTW_NODMilitantSquad"
+    },
+    "CnCTWKW_NODMilitantSquad": {
+      "path": "_Command&ConquerSeries/CnCTWKW_NODMilitantSquad.ysm",
+      "type": "ysm",
+      "stem": "CnCTWKW_NODMilitantSquad"
+    },
+    "CnCYR_Initiate": {
+      "path": "_Command&ConquerSeries/CnCYR_Initiate.ysm",
+      "type": "ysm",
+      "stem": "CnCYR_Initiate"
+    },
+    "COC_Electro-Dragon": {
+      "path": "_ClashRoyal-COC/COC_Electro-Dragon.ysm",
+      "type": "ysm",
+      "stem": "COC_Electro-Dragon"
+    },
+    "CounterSide_Kanade_v1.02": {
+      "path": "_CounterSide/CounterSide_Kanade_v1.02.ysm",
+      "type": "ysm",
+      "stem": "CounterSide_Kanade_v1.02"
+    },
+    "CounterSide_Regina-MacCready": {
+      "path": "_CounterSide/CounterSide_Regina-MacCready.ysm",
+      "type": "ysm",
+      "stem": "CounterSide_Regina-MacCready"
+    },
+    "CR_Barbarian": {
+      "path": "_ClashRoyal-COC/CR_Barbarian.ysm",
+      "type": "ysm",
+      "stem": "CR_Barbarian"
+    },
+    "CR_Firecracker": {
+      "path": "_ClashRoyal-COC/CR_Firecracker.ysm",
+      "type": "ysm",
+      "stem": "CR_Firecracker"
+    },
+    "CR_Golem": {
+      "path": "_ClashRoyal-COC/CR_Golem.ysm",
+      "type": "ysm",
+      "stem": "CR_Golem"
+    },
+    "CR_Knight": {
+      "path": "_ClashRoyal-COC/CR_Knight.ysm",
+      "type": "ysm",
+      "stem": "CR_Knight"
+    },
+    "CR_Mega-Knight": {
+      "path": "_ClashRoyal-COC/CR_Mega-Knight.ysm",
+      "type": "ysm",
+      "stem": "CR_Mega-Knight"
+    },
+    "CR_Mini-P.E.K.K.A": {
+      "path": "_ClashRoyal-COC/CR_Mini-P.E.K.K.A.ysm",
+      "type": "ysm",
+      "stem": "CR_Mini-P.E.K.K.A"
+    },
+    "CR_Musketeer": {
+      "path": "_ClashRoyal-COC/CR_Musketeer.ysm",
+      "type": "ysm",
+      "stem": "CR_Musketeer"
+    },
+    "CR_P.E.K.K.A": {
+      "path": "_ClashRoyal-COC/CR_P.E.K.K.A.ysm",
+      "type": "ysm",
+      "stem": "CR_P.E.K.K.A"
+    },
+    "Create_Mechanical-Arm": {
+      "path": "Uncategorized/Create_Mechanical-Arm.ysm",
+      "type": "ysm",
+      "stem": "Create_Mechanical-Arm"
+    },
+    "Cursed_default_boy-ride-wine_fox_jk": {
+      "path": "_Meme/Cursed_default_boy-ride-wine_fox_jk.ysm",
+      "type": "ysm",
+      "stem": "Cursed_default_boy-ride-wine_fox_jk"
+    },
+    "Cursed_default_boy-ride-wine_fox_jk(motobike)": {
+      "path": "_Meme/Cursed_default_boy-ride-wine_fox_jk(motobike).ysm",
+      "type": "ysm",
+      "stem": "Cursed_default_boy-ride-wine_fox_jk(motobike)"
+    },
+    "Cyberpunk_Lucyna-Kushinada": {
+      "path": "_Cyberpunk2077/Cyberpunk_Lucyna-Kushinada.ysm",
+      "type": "ysm",
+      "stem": "Cyberpunk_Lucyna-Kushinada"
+    },
+    "Cyberpunk_Rebecca": {
+      "path": "_Cyberpunk2077/Cyberpunk_Rebecca.ysm",
+      "type": "ysm",
+      "stem": "Cyberpunk_Rebecca"
+    },
+    "DaL_Kurumi": {
+      "path": "_DateALive/DaL_Kurumi.zip",
+      "type": "zip",
+      "stem": "DaL_Kurumi"
+    },
+    "DaL_Kurumi2025v1": {
+      "path": "_DateALive/DaL_Kurumi2025v1.ysm",
+      "type": "ysm",
+      "stem": "DaL_Kurumi2025v1"
+    },
+    "DaL_Kurumi_2": {
+      "path": "_DateALive/DaL_Kurumi_2.ysm",
+      "type": "ysm",
+      "stem": "DaL_Kurumi_2"
+    },
+    "DaL_Kurumi_2025": {
+      "path": "_DateALive/DaL_Kurumi_2025.ysm",
+      "type": "ysm",
+      "stem": "DaL_Kurumi_2025"
+    },
+    "DaL_Kurumi_3": {
+      "path": "_DateALive/DaL_Kurumi_3.ysm",
+      "type": "ysm",
+      "stem": "DaL_Kurumi_3"
+    },
+    "DB_Android-21": {
+      "path": "_DragonBall/DB_Android-21.ysm",
+      "type": "ysm",
+      "stem": "DB_Android-21"
+    },
+    "DBD_Frank": {
+      "path": "_DeadbyDaylight/DBD_Frank.ysm",
+      "type": "ysm",
+      "stem": "DBD_Frank"
+    },
+    "DBD_Frank(zipver)": {
+      "path": "_DeadbyDaylight/DBD_Frank(zipver).zip",
+      "type": "zip",
+      "stem": "DBD_Frank(zipver)"
+    },
+    "DDLC_monika_0": {
+      "path": "_DokiDokiLiteratureClub/DDLC_monika_0.zip",
+      "type": "zip",
+      "stem": "DDLC_monika_0"
+    },
+    "DDLC_monika_1": {
+      "path": "_DokiDokiLiteratureClub/DDLC_monika_1.ysm",
+      "type": "ysm",
+      "stem": "DDLC_monika_1"
+    },
+    "DDLC_natsuki": {
+      "path": "_DokiDokiLiteratureClub/DDLC_natsuki.zip",
+      "type": "zip",
+      "stem": "DDLC_natsuki"
+    },
+    "DDLC_sayori": {
+      "path": "_DokiDokiLiteratureClub/DDLC_sayori.zip",
+      "type": "zip",
+      "stem": "DDLC_sayori"
+    },
+    "DDLC_yuri": {
+      "path": "_DokiDokiLiteratureClub/DDLC_yuri.zip",
+      "type": "zip",
+      "stem": "DDLC_yuri"
+    },
+    "Deltarune_Ralsei": {
+      "path": "_Deltarune/Deltarune_Ralsei.ysm",
+      "type": "ysm",
+      "stem": "Deltarune_Ralsei"
+    },
+    "Deovolente_Succubus_0": {
+      "path": "_Deovolente/Deovolente_Succubus_0.ysm",
+      "type": "ysm",
+      "stem": "Deovolente_Succubus_0"
+    },
+    "Deovolente_Succubus_1": {
+      "path": "_Deovolente/Deovolente_Succubus_1.ysm",
+      "type": "ysm",
+      "stem": "Deovolente_Succubus_1"
+    },
+    "DM_Marcille": {
+      "path": "_DungeonMeshi/DM_Marcille.ysm",
+      "type": "ysm",
+      "stem": "DM_Marcille"
+    },
+    "DMC_Vergil": {
+      "path": "_DevilMayCry/DMC_Vergil.ysm",
+      "type": "ysm",
+      "stem": "DMC_Vergil"
+    },
+    "don_quixote": {
+      "path": "Unknown/don_quixote.ysm",
+      "type": "ysm",
+      "stem": "don_quixote"
+    },
+    "DonBrother_Momotaro": {
+      "path": "_DonBrother/DonBrother_Momotaro.zip",
+      "type": "zip",
+      "stem": "DonBrother_Momotaro"
+    },
+    "DragonRaja_Xia-Mi": {
+      "path": "_DragonRaja/DragonRaja_Xia-Mi.zip",
+      "type": "zip",
+      "stem": "DragonRaja_Xia-Mi"
+    },
+    "DS_Nezuko": {
+      "path": "_DemonSlayer/DS_Nezuko.ysm",
+      "type": "ysm",
+      "stem": "DS_Nezuko"
+    },
+    "DS_Zenitsu": {
+      "path": "_DemonSlayer/DS_Zenitsu.ysm",
+      "type": "ysm",
+      "stem": "DS_Zenitsu"
+    },
+    "EFT_TacticalDoll": {
+      "path": "Unknown/EFT_TacticalDoll.ysm",
+      "type": "ysm",
+      "stem": "EFT_TacticalDoll"
+    },
+    "Endfield_Rossi_v1.1": {
+      "path": "_ArknightsEndfield/Endfield_Rossi_v1.1.ysm",
+      "type": "ysm",
+      "stem": "Endfield_Rossi_v1.1"
+    },
+    "ER_Camilo": {
+      "path": "_EternalReturn/ER_Camilo.zip",
+      "type": "zip",
+      "stem": "ER_Camilo"
+    },
+    "ER_Malenia": {
+      "path": "_EldenRing/ER_Malenia.ysm",
+      "type": "ysm",
+      "stem": "ER_Malenia"
+    },
+    "FGO_Gray": {
+      "path": "_FateGrandOrder/FGO_Gray.ysm",
+      "type": "ysm",
+      "stem": "FGO_Gray"
+    },
+    "FGO_Kama(Summer)_v1.0": {
+      "path": "_FateGrandOrder/FGO_Kama(Summer)_v1.0.ysm",
+      "type": "ysm",
+      "stem": "FGO_Kama(Summer)_v1.0"
+    },
+    "FGO_Lilith": {
+      "path": "_FateGrandOrder/FGO_Lilith.ysm",
+      "type": "ysm",
+      "stem": "FGO_Lilith"
+    },
+    "FGO_Mashu-Kirieraito": {
+      "path": "_FateGrandOrder/FGO_Mashu-Kirieraito.ysm",
+      "type": "ysm",
+      "stem": "FGO_Mashu-Kirieraito"
+    },
+    "FGO_Mashu-Kirieraito(zipver)": {
+      "path": "_FateGrandOrder/FGO_Mashu-Kirieraito(zipver).zip",
+      "type": "zip",
+      "stem": "FGO_Mashu-Kirieraito(zipver)"
+    },
+    "FGO_Meltryllis": {
+      "path": "_FateGrandOrder/FGO_Meltryllis.ysm",
+      "type": "ysm",
+      "stem": "FGO_Meltryllis"
+    },
+    "FGO_Morgan": {
+      "path": "_FateGrandOrder/FGO_Morgan.ysm",
+      "type": "ysm",
+      "stem": "FGO_Morgan"
+    },
+    "FGO_Nero": {
+      "path": "_FateGrandOrder/FGO_Nero.ysm",
+      "type": "ysm",
+      "stem": "FGO_Nero"
+    },
+    "FGO_Osakabehime": {
+      "path": "_FateGrandOrder/FGO_Osakabehime.ysm",
+      "type": "ysm",
+      "stem": "FGO_Osakabehime"
+    },
+    "FGO_Saber(Alter)": {
+      "path": "_FateGrandOrder/FGO_Saber(Alter).ysm",
+      "type": "ysm",
+      "stem": "FGO_Saber(Alter)"
+    },
+    "FGO_Sei-Shonagon": {
+      "path": "_FateGrandOrder/FGO_Sei-Shonagon.ysm",
+      "type": "ysm",
+      "stem": "FGO_Sei-Shonagon"
+    },
+    "FGO_Tamamo-No-Mae_0_ShiroKaze": {
+      "path": "_FateGrandOrder/FGO_Tamamo-No-Mae_0_ShiroKaze.ysm",
+      "type": "ysm",
+      "stem": "FGO_Tamamo-No-Mae_0_ShiroKaze"
+    },
+    "FGO_Tiamat(b)_v1.0": {
+      "path": "_FateGrandOrder/FGO_Tiamat(b)_v1.0.ysm",
+      "type": "ysm",
+      "stem": "FGO_Tiamat(b)_v1.0"
+    },
+    "FGO_Tiamat(c)_v1.0": {
+      "path": "_FateGrandOrder/FGO_Tiamat(c)_v1.0.ysm",
+      "type": "ysm",
+      "stem": "FGO_Tiamat(c)_v1.0"
+    },
+    "Fox-hime-zero_Mori_v1.0": {
+      "path": "_FoxHimeZero/Fox-hime-zero_Mori_v1.0.ysm",
+      "type": "ysm",
+      "stem": "Fox-hime-zero_Mori_v1.0"
+    },
+    "GF_AA-12": {
+      "path": "_GirlsFrontline/GF_AA-12.ysm",
+      "type": "ysm",
+      "stem": "GF_AA-12"
+    },
+    "GF_AK-12": {
+      "path": "_GirlsFrontline/GF_AK-12.ysm",
+      "type": "ysm",
+      "stem": "GF_AK-12"
+    },
+    "GF_AK-15": {
+      "path": "_GirlsFrontline/GF_AK-15.ysm",
+      "type": "ysm",
+      "stem": "GF_AK-15"
+    },
+    "GF_AK-74M": {
+      "path": "_GirlsFrontline/GF_AK-74M.ysm",
+      "type": "ysm",
+      "stem": "GF_AK-74M"
+    },
+    "GF_AK-74M_1": {
+      "path": "_GirlsFrontline/GF_AK-74M_1.ysm",
+      "type": "ysm",
+      "stem": "GF_AK-74M_1"
+    },
+    "GF_AN-94": {
+      "path": "_GirlsFrontline/GF_AN-94.zip",
+      "type": "zip",
+      "stem": "GF_AN-94"
+    },
+    "GF_AN-94_0": {
+      "path": "_GirlsFrontline/GF_AN-94_0.ysm",
+      "type": "ysm",
+      "stem": "GF_AN-94_0"
+    },
+    "GF_AR-15": {
+      "path": "_GirlsFrontline/GF_AR-15.ysm",
+      "type": "ysm",
+      "stem": "GF_AR-15"
+    },
+    "GF_AS-VAL": {
+      "path": "_GirlsFrontline/GF_AS-VAL.ysm",
+      "type": "ysm",
+      "stem": "GF_AS-VAL"
+    },
+    "GF_G11": {
+      "path": "_GirlsFrontline/GF_G11.ysm",
+      "type": "ysm",
+      "stem": "GF_G11"
+    },
+    "GF_G11_1": {
+      "path": "_GirlsFrontline/GF_G11_1.ysm",
+      "type": "ysm",
+      "stem": "GF_G11_1"
+    },
+    "GF_General-Liu": {
+      "path": "_GirlsFrontline/GF_General-Liu.ysm",
+      "type": "ysm",
+      "stem": "GF_General-Liu"
+    },
+    "GF_HK416": {
+      "path": "_GirlsFrontline/GF_HK416.zip",
+      "type": "zip",
+      "stem": "GF_HK416"
+    },
+    "GF_Hk416_0": {
+      "path": "_GirlsFrontline/GF_Hk416_0.ysm",
+      "type": "ysm",
+      "stem": "GF_Hk416_0"
+    },
+    "GF_HK416_1": {
+      "path": "_GirlsFrontline/GF_HK416_1.ysm",
+      "type": "ysm",
+      "stem": "GF_HK416_1"
+    },
+    "GF_Kalina": {
+      "path": "_GirlsFrontline/GF_Kalina.ysm",
+      "type": "ysm",
+      "stem": "GF_Kalina"
+    },
+    "GF_KAR-98K": {
+      "path": "_GirlsFrontline/GF_KAR-98K.ysm",
+      "type": "ysm",
+      "stem": "GF_KAR-98K"
+    },
+    "GF_Lenna": {
+      "path": "_GirlsFrontline/GF_Lenna.ysm",
+      "type": "ysm",
+      "stem": "GF_Lenna"
+    },
+    "GF_Lenna_1.0.2": {
+      "path": "_GirlsFrontline/GF_Lenna_1.0.2.ysm",
+      "type": "ysm",
+      "stem": "GF_Lenna_1.0.2"
+    },
+    "GF_M16A1": {
+      "path": "_GirlsFrontline/GF_M16A1.ysm",
+      "type": "ysm",
+      "stem": "GF_M16A1"
+    },
+    "GF_M16A1_0": {
+      "path": "_GirlsFrontline/GF_M16A1_0.ysm",
+      "type": "ysm",
+      "stem": "GF_M16A1_0"
+    },
+    "GF_M16A1_1": {
+      "path": "_GirlsFrontline/GF_M16A1_1.ysm",
+      "type": "ysm",
+      "stem": "GF_M16A1_1"
+    },
+    "GF_M200": {
+      "path": "_GirlsFrontline/GF_M200.ysm",
+      "type": "ysm",
+      "stem": "GF_M200"
+    },
+    "GF_M200_1": {
+      "path": "_GirlsFrontline/GF_M200_1.ysm",
+      "type": "ysm",
+      "stem": "GF_M200_1"
+    },
+    "GF_M4-SOPMOD_2": {
+      "path": "_GirlsFrontline/GF_M4-SOPMOD_2.ysm",
+      "type": "ysm",
+      "stem": "GF_M4-SOPMOD_2"
+    },
+    "GF_M4A1": {
+      "path": "_GirlsFrontline/GF_M4A1.ysm",
+      "type": "ysm",
+      "stem": "GF_M4A1"
+    },
+    "GF_M4SOPMODII": {
+      "path": "_GirlsFrontline/GF_M4SOPMODII.ysm",
+      "type": "ysm",
+      "stem": "GF_M4SOPMODII"
+    },
+    "GF_MK23": {
+      "path": "_GirlsFrontline/GF_MK23.ysm",
+      "type": "ysm",
+      "stem": "GF_MK23"
+    },
+    "GF_Mosin-Nagant": {
+      "path": "_GirlsFrontline/GF_Mosin-Nagant.ysm",
+      "type": "ysm",
+      "stem": "GF_Mosin-Nagant"
+    },
+    "GF_MP7": {
+      "path": "_GirlsFrontline/GF_MP7.zip",
+      "type": "zip",
+      "stem": "GF_MP7"
+    },
+    "GF_PP-19": {
+      "path": "_GirlsFrontline/GF_PP-19.ysm",
+      "type": "ysm",
+      "stem": "GF_PP-19"
+    },
+    "GF_RO635": {
+      "path": "_GirlsFrontline/GF_RO635.ysm",
+      "type": "ysm",
+      "stem": "GF_RO635"
+    },
+    "GF_RPK-16": {
+      "path": "_GirlsFrontline/GF_RPK-16.ysm",
+      "type": "ysm",
+      "stem": "GF_RPK-16"
+    },
+    "GF_ScarH": {
+      "path": "_GirlsFrontline/GF_ScarH.zip",
+      "type": "zip",
+      "stem": "GF_ScarH"
+    },
+    "GF_Suomi": {
+      "path": "_GirlsFrontline/GF_Suomi.ysm",
+      "type": "ysm",
+      "stem": "GF_Suomi"
+    },
+    "GF_Suomi_1": {
+      "path": "_GirlsFrontline/GF_Suomi_1.ysm",
+      "type": "ysm",
+      "stem": "GF_Suomi_1"
+    },
+    "GF_SVD": {
+      "path": "_GirlsFrontline/GF_SVD.ysm",
+      "type": "ysm",
+      "stem": "GF_SVD"
+    },
+    "GF_Type64": {
+      "path": "_GirlsFrontline/GF_Type64.ysm",
+      "type": "ysm",
+      "stem": "GF_Type64"
+    },
+    "GF_UMP40": {
+      "path": "_GirlsFrontline/GF_UMP40.ysm",
+      "type": "ysm",
+      "stem": "GF_UMP40"
+    },
+    "GF_UMP40-1": {
+      "path": "_GirlsFrontline/GF_UMP40-1.ysm",
+      "type": "ysm",
+      "stem": "GF_UMP40-1"
+    },
+    "GF_UMP45": {
+      "path": "_GirlsFrontline/GF_UMP45.ysm",
+      "type": "ysm",
+      "stem": "GF_UMP45"
+    },
+    "GF_UMP45-1": {
+      "path": "_GirlsFrontline/GF_UMP45-1.ysm",
+      "type": "ysm",
+      "stem": "GF_UMP45-1"
+    },
+    "GF_UMP45_0": {
+      "path": "_GirlsFrontline/GF_UMP45_0.zip",
+      "type": "zip",
+      "stem": "GF_UMP45_0"
+    },
+    "GF_UMP9": {
+      "path": "_GirlsFrontline/GF_UMP9.ysm",
+      "type": "ysm",
+      "stem": "GF_UMP9"
+    },
+    "GF_UMP97": {
+      "path": "_GirlsFrontline/GF_UMP97.ysm",
+      "type": "ysm",
+      "stem": "GF_UMP97"
+    },
+    "GF_UMP9_1": {
+      "path": "_GirlsFrontline/GF_UMP9_1.ysm",
+      "type": "ysm",
+      "stem": "GF_UMP9_1"
+    },
+    "GF_UMP9_2.0": {
+      "path": "_GirlsFrontline/GF_UMP9_2.0.ysm",
+      "type": "ysm",
+      "stem": "GF_UMP9_2.0"
+    },
+    "GF_UPM9_2": {
+      "path": "_GirlsFrontline/GF_UPM9_2.ysm",
+      "type": "ysm",
+      "stem": "GF_UPM9_2"
+    },
+    "GF_Vector": {
+      "path": "_GirlsFrontline/GF_Vector.ysm",
+      "type": "ysm",
+      "stem": "GF_Vector"
+    },
+    "GI_Arlecchino": {
+      "path": "_GenshinImpact/GI_Arlecchino.ysm",
+      "type": "ysm",
+      "stem": "GI_Arlecchino"
+    },
+    "GI_Diluke": {
+      "path": "_GenshinImpact/GI_Diluke.ysm",
+      "type": "ysm",
+      "stem": "GI_Diluke"
+    },
+    "GI_Fatui-Cryo-Cicin-Mage": {
+      "path": "_GenshinImpact/GI_Fatui-Cryo-Cicin-Mage.ysm",
+      "type": "ysm",
+      "stem": "GI_Fatui-Cryo-Cicin-Mage"
+    },
+    "GI_Furina": {
+      "path": "_GenshinImpact/GI_Furina.ysm",
+      "type": "ysm",
+      "stem": "GI_Furina"
+    },
+    "GI_Furina_0": {
+      "path": "_GenshinImpact/GI_Furina_0.ysm",
+      "type": "ysm",
+      "stem": "GI_Furina_0"
+    },
+    "GI_Furina_1": {
+      "path": "_GenshinImpact/GI_Furina_1.ysm",
+      "type": "ysm",
+      "stem": "GI_Furina_1"
+    },
+    "GI_Ganyu_0": {
+      "path": "_GenshinImpact/GI_Ganyu_0.ysm",
+      "type": "ysm",
+      "stem": "GI_Ganyu_0"
+    },
+    "GI_Ganyu_1": {
+      "path": "_GenshinImpact/GI_Ganyu_1.ysm",
+      "type": "ysm",
+      "stem": "GI_Ganyu_1"
+    },
+    "GI_Ganyu_2": {
+      "path": "_GenshinImpact/GI_Ganyu_2.ysm",
+      "type": "ysm",
+      "stem": "GI_Ganyu_2"
+    },
+    "GI_Hutao": {
+      "path": "_GenshinImpact/GI_Hutao.ysm",
+      "type": "ysm",
+      "stem": "GI_Hutao"
+    },
+    "GI_Junjin": {
+      "path": "_GenshinImpact/GI_Junjin.ysm",
+      "type": "ysm",
+      "stem": "GI_Junjin"
+    },
+    "GI_Kazuha": {
+      "path": "_GenshinImpact/GI_Kazuha.zip",
+      "type": "zip",
+      "stem": "GI_Kazuha"
+    },
+    "GI_Keqing": {
+      "path": "_GenshinImpact/GI_Keqing.ysm",
+      "type": "ysm",
+      "stem": "GI_Keqing"
+    },
+    "GI_Klee": {
+      "path": "_GenshinImpact/GI_Klee.ysm",
+      "type": "ysm",
+      "stem": "GI_Klee"
+    },
+    "GI_La-Signora": {
+      "path": "_GenshinImpact/GI_La-Signora.ysm",
+      "type": "ysm",
+      "stem": "GI_La-Signora"
+    },
+    "GI_Nahida": {
+      "path": "_GenshinImpact/GI_Nahida.ysm",
+      "type": "ysm",
+      "stem": "GI_Nahida"
+    },
+    "GI_Navia": {
+      "path": "_GenshinImpact/GI_Navia.ysm",
+      "type": "ysm",
+      "stem": "GI_Navia"
+    },
+    "GI_Nilou": {
+      "path": "_GenshinImpact/GI_Nilou.ysm",
+      "type": "ysm",
+      "stem": "GI_Nilou"
+    },
+    "GI_Noelle_6.4": {
+      "path": "_GenshinImpact/GI_Noelle_6.4.ysm",
+      "type": "ysm",
+      "stem": "GI_Noelle_6.4"
+    },
+    "GI_Paimon": {
+      "path": "_GenshinImpact/GI_Paimon.ysm",
+      "type": "ysm",
+      "stem": "GI_Paimon"
+    },
+    "GI_qz_yg": {
+      "path": "_GenshinImpact/GI_qz_yg.ysm",
+      "type": "ysm",
+      "stem": "GI_qz_yg"
+    },
+    "GI_Raiden-Shogun": {
+      "path": "_GenshinImpact/GI_Raiden-Shogun.ysm",
+      "type": "ysm",
+      "stem": "GI_Raiden-Shogun"
+    },
+    "GI_Raiden-Shogun_v3.0": {
+      "path": "_GenshinImpact/GI_Raiden-Shogun_v3.0.ysm",
+      "type": "ysm",
+      "stem": "GI_Raiden-Shogun_v3.0"
+    },
+    "GI_Raiden-Shogun_v4.0": {
+      "path": "_GenshinImpact/GI_Raiden-Shogun_v4.0.ysm",
+      "type": "ysm",
+      "stem": "GI_Raiden-Shogun_v4.0"
+    },
+    "GI_Rosaria_0": {
+      "path": "_GenshinImpact/GI_Rosaria_0.zip",
+      "type": "zip",
+      "stem": "GI_Rosaria_0"
+    },
+    "GI_Rosaria_1": {
+      "path": "_GenshinImpact/GI_Rosaria_1.zip",
+      "type": "zip",
+      "stem": "GI_Rosaria_1"
+    },
+    "GI_Shenhe": {
+      "path": "_GenshinImpact/GI_Shenhe.ysm",
+      "type": "ysm",
+      "stem": "GI_Shenhe"
+    },
+    "GI_Wanderer": {
+      "path": "_GenshinImpact/GI_Wanderer.zip",
+      "type": "zip",
+      "stem": "GI_Wanderer"
+    },
+    "GI_Xiangling": {
+      "path": "_GenshinImpact/GI_Xiangling.ysm",
+      "type": "ysm",
+      "stem": "GI_Xiangling"
+    },
+    "GI_Xianyun": {
+      "path": "_GenshinImpact/GI_Xianyun.ysm",
+      "type": "ysm",
+      "stem": "GI_Xianyun"
+    },
+    "GI_Yae-Sakura": {
+      "path": "_GenshinImpact/GI_Yae-Sakura.ysm",
+      "type": "ysm",
+      "stem": "GI_Yae-Sakura"
+    },
+    "GI_YaoYao": {
+      "path": "_GenshinImpact/GI_YaoYao.ysm",
+      "type": "ysm",
+      "stem": "GI_YaoYao"
+    },
+    "GI_Yip-Gaming": {
+      "path": "_GenshinImpact/GI_Yip-Gaming.ysm",
+      "type": "ysm",
+      "stem": "GI_Yip-Gaming"
+    },
+    "GI_Yomiya": {
+      "path": "_GenshinImpact/GI_Yomiya.ysm",
+      "type": "ysm",
+      "stem": "GI_Yomiya"
+    },
+    "grillby": {
+      "path": "Unknown/grillby.ysm",
+      "type": "ysm",
+      "stem": "grillby"
+    },
+    "GT_Beth": {
+      "path": "_GuardianTales/GT_Beth.ysm",
+      "type": "ysm",
+      "stem": "GT_Beth"
+    },
+    "GT_Female-Knight": {
+      "path": "_GuardianTales/GT_Female-Knight.ysm",
+      "type": "ysm",
+      "stem": "GT_Female-Knight"
+    },
+    "Hell_Cerberus_x1": {
+      "path": "_Helltaker/Hell_Cerberus_x1.zip",
+      "type": "zip",
+      "stem": "Hell_Cerberus_x1"
+    },
+    "Hell_Cerberus_x3": {
+      "path": "_Helltaker/Hell_Cerberus_x3.zip",
+      "type": "zip",
+      "stem": "Hell_Cerberus_x3"
+    },
+    "Helldivers__1.5": {
+      "path": "_Helldivers/Helldivers__1.5.ysm",
+      "type": "ysm",
+      "stem": "Helldivers__1.5"
+    },
+    "HI3_Bronya": {
+      "path": "_HonkaiImpact3/HI3_Bronya.ysm",
+      "type": "ysm",
+      "stem": "HI3_Bronya"
+    },
+    "HI3_Elysia": {
+      "path": "_HonkaiImpact3/HI3_Elysia.ysm",
+      "type": "ysm",
+      "stem": "HI3_Elysia"
+    },
+    "HI3_Fu-Hua(Herrscher of Sentience)": {
+      "path": "_HonkaiImpact3/HI3_Fu-Hua(Herrscher of Sentience).ysm",
+      "type": "ysm",
+      "stem": "HI3_Fu-Hua(Herrscher of Sentience)"
+    },
+    "HI3_Himeko_Vermilion_Knight": {
+      "path": "_HonkaiImpact3/HI3_Himeko_Vermilion_Knight.ysm",
+      "type": "ysm",
+      "stem": "HI3_Himeko_Vermilion_Knight"
+    },
+    "HI3_Mobius_0": {
+      "path": "_HonkaiImpact3/HI3_Mobius_0.ysm",
+      "type": "ysm",
+      "stem": "HI3_Mobius_0"
+    },
+    "HI3_Pardofelis": {
+      "path": "_HonkaiImpact3/HI3_Pardofelis.ysm",
+      "type": "ysm",
+      "stem": "HI3_Pardofelis"
+    },
+    "HI3_Qiyana": {
+      "path": "_HonkaiImpact3/HI3_Qiyana.ysm",
+      "type": "ysm",
+      "stem": "HI3_Qiyana"
+    },
+    "HM_Mare-S.-Ephemeral_v1.0": {
+      "path": "_HoshizoranoMemoria/HM_Mare-S.-Ephemeral_v1.0.ysm",
+      "type": "ysm",
+      "stem": "HM_Mare-S.-Ephemeral_v1.0"
+    },
+    "HM_Mare-S.-Ephemeral_v1.1": {
+      "path": "_HoshizoranoMemoria/HM_Mare-S.-Ephemeral_v1.1.ysm",
+      "type": "ysm",
+      "stem": "HM_Mare-S.-Ephemeral_v1.1"
+    },
+    "HM_Mare-S.-Ephemeral_v1.2": {
+      "path": "_HoshizoranoMemoria/HM_Mare-S.-Ephemeral_v1.2.ysm",
+      "type": "ysm",
+      "stem": "HM_Mare-S.-Ephemeral_v1.2"
+    },
+    "HM_Mare-S.-Ephemeral_v1.3": {
+      "path": "_HoshizoranoMemoria/HM_Mare-S.-Ephemeral_v1.3.ysm",
+      "type": "ysm",
+      "stem": "HM_Mare-S.-Ephemeral_v1.3"
+    },
+    "HM_Mare-S.-Ephemeral_v2.0": {
+      "path": "_HoshizoranoMemoria/HM_Mare-S.-Ephemeral_v2.0.ysm",
+      "type": "ysm",
+      "stem": "HM_Mare-S.-Ephemeral_v2.0"
+    },
+    "HM_Mare-S.-Ephemeral_v2.1": {
+      "path": "_HoshizoranoMemoria/HM_Mare-S.-Ephemeral_v2.1.ysm",
+      "type": "ysm",
+      "stem": "HM_Mare-S.-Ephemeral_v2.1"
+    },
+    "HM_Mare-S.-Ephemeral_v2.2": {
+      "path": "_HoshizoranoMemoria/HM_Mare-S.-Ephemeral_v2.2.ysm",
+      "type": "ysm",
+      "stem": "HM_Mare-S.-Ephemeral_v2.2"
+    },
+    "HSR_Aglaea": {
+      "path": "_HonkaiStarRail/HSR_Aglaea.ysm",
+      "type": "ysm",
+      "stem": "HSR_Aglaea"
+    },
+    "HSR_Anaxa": {
+      "path": "_HonkaiStarRail/HSR_Anaxa.ysm",
+      "type": "ysm",
+      "stem": "HSR_Anaxa"
+    },
+    "HSR_Aventurine": {
+      "path": "_HonkaiStarRail/HSR_Aventurine.zip",
+      "type": "zip",
+      "stem": "HSR_Aventurine"
+    },
+    "HSR_Bailu_0": {
+      "path": "_HonkaiStarRail/HSR_Bailu_0.ysm",
+      "type": "ysm",
+      "stem": "HSR_Bailu_0"
+    },
+    "HSR_Bailu_1": {
+      "path": "_HonkaiStarRail/HSR_Bailu_1.ysm",
+      "type": "ysm",
+      "stem": "HSR_Bailu_1"
+    },
+    "HSR_Castorice": {
+      "path": "_HonkaiStarRail/HSR_Castorice.ysm",
+      "type": "ysm",
+      "stem": "HSR_Castorice"
+    },
+    "HSR_Castorice_v1.1": {
+      "path": "_HonkaiStarRail/HSR_Castorice_v1.1.ysm",
+      "type": "ysm",
+      "stem": "HSR_Castorice_v1.1"
+    },
+    "HSR_Castorice_v1.3": {
+      "path": "_HonkaiStarRail/HSR_Castorice_v1.3.ysm",
+      "type": "ysm",
+      "stem": "HSR_Castorice_v1.3"
+    },
+    "HSR_Cerydra_0": {
+      "path": "_HonkaiStarRail/HSR_Cerydra_0.ysm",
+      "type": "ysm",
+      "stem": "HSR_Cerydra_0"
+    },
+    "HSR_Cerydra_1": {
+      "path": "_HonkaiStarRail/HSR_Cerydra_1.ysm",
+      "type": "ysm",
+      "stem": "HSR_Cerydra_1"
+    },
+    "HSR_Cipher": {
+      "path": "_HonkaiStarRail/HSR_Cipher.ysm",
+      "type": "ysm",
+      "stem": "HSR_Cipher"
+    },
+    "HSR_Clara_0": {
+      "path": "_HonkaiStarRail/HSR_Clara_0.zip",
+      "type": "zip",
+      "stem": "HSR_Clara_0"
+    },
+    "HSR_Clara_1": {
+      "path": "_HonkaiStarRail/HSR_Clara_1.zip",
+      "type": "zip",
+      "stem": "HSR_Clara_1"
+    },
+    "HSR_Clara_2": {
+      "path": "_HonkaiStarRail/HSR_Clara_2.zip",
+      "type": "zip",
+      "stem": "HSR_Clara_2"
+    },
+    "HSR_Cyrene": {
+      "path": "_HonkaiStarRail/HSR_Cyrene.ysm",
+      "type": "ysm",
+      "stem": "HSR_Cyrene"
+    },
+    "HSR_Dan-Heng(Imbibitor-lunae)": {
+      "path": "_HonkaiStarRail/HSR_Dan-Heng(Imbibitor-lunae).ysm",
+      "type": "ysm",
+      "stem": "HSR_Dan-Heng(Imbibitor-lunae)"
+    },
+    "HSR_Dan-Heng(Permansor-terrae)": {
+      "path": "_HonkaiStarRail/HSR_Dan-Heng(Permansor-terrae).ysm",
+      "type": "ysm",
+      "stem": "HSR_Dan-Heng(Permansor-terrae)"
+    },
+    "HSR_Danheng-il": {
+      "path": "_HonkaiStarRail/HSR_Danheng-il.zip",
+      "type": "zip",
+      "stem": "HSR_Danheng-il"
+    },
+    "HSR_Dr-Ratio": {
+      "path": "_HonkaiStarRail/HSR_Dr-Ratio.zip",
+      "type": "zip",
+      "stem": "HSR_Dr-Ratio"
+    },
+    "HSR_Firefly": {
+      "path": "_HonkaiStarRail/HSR_Firefly.ysm",
+      "type": "ysm",
+      "stem": "HSR_Firefly"
+    },
+    "HSR_Fuxuan": {
+      "path": "_HonkaiStarRail/HSR_Fuxuan.ysm",
+      "type": "ysm",
+      "stem": "HSR_Fuxuan"
+    },
+    "HSR_Fuxuan_1": {
+      "path": "_HonkaiStarRail/HSR_Fuxuan_1.ysm",
+      "type": "ysm",
+      "stem": "HSR_Fuxuan_1"
+    },
+    "HSR_Herta_0": {
+      "path": "_HonkaiStarRail/HSR_Herta_0.ysm",
+      "type": "ysm",
+      "stem": "HSR_Herta_0"
+    },
+    "HSR_Herta_1": {
+      "path": "_HonkaiStarRail/HSR_Herta_1.ysm",
+      "type": "ysm",
+      "stem": "HSR_Herta_1"
+    },
+    "HSR_HuoHuo": {
+      "path": "_HonkaiStarRail/HSR_HuoHuo.ysm",
+      "type": "ysm",
+      "stem": "HSR_HuoHuo"
+    },
+    "HSR_Hysilens_v0.1": {
+      "path": "_HonkaiStarRail/HSR_Hysilens_v0.1.ysm",
+      "type": "ysm",
+      "stem": "HSR_Hysilens_v0.1"
+    },
+    "HSR_Jingliu_0": {
+      "path": "_HonkaiStarRail/HSR_Jingliu_0.ysm",
+      "type": "ysm",
+      "stem": "HSR_Jingliu_0"
+    },
+    "HSR_Jingliu_1": {
+      "path": "_HonkaiStarRail/HSR_Jingliu_1.ysm",
+      "type": "ysm",
+      "stem": "HSR_Jingliu_1"
+    },
+    "HSR_Kafka_0": {
+      "path": "_HonkaiStarRail/HSR_Kafka_0.zip",
+      "type": "zip",
+      "stem": "HSR_Kafka_0"
+    },
+    "HSR_Kafka_1": {
+      "path": "_HonkaiStarRail/HSR_Kafka_1.ysm",
+      "type": "ysm",
+      "stem": "HSR_Kafka_1"
+    },
+    "HSR_Kafka_2": {
+      "path": "_HonkaiStarRail/HSR_Kafka_2.ysm",
+      "type": "ysm",
+      "stem": "HSR_Kafka_2"
+    },
+    "HSR_March7th": {
+      "path": "_HonkaiStarRail/HSR_March7th.ysm",
+      "type": "ysm",
+      "stem": "HSR_March7th"
+    },
+    "HSR_March7th(Evernight)": {
+      "path": "_HonkaiStarRail/HSR_March7th(Evernight).ysm",
+      "type": "ysm",
+      "stem": "HSR_March7th(Evernight)"
+    },
+    "HSR_Phainon_plus": {
+      "path": "_HonkaiStarRail/HSR_Phainon_plus.ysm",
+      "type": "ysm",
+      "stem": "HSR_Phainon_plus"
+    },
+    "HSR_Phainon_v0.1": {
+      "path": "_HonkaiStarRail/HSR_Phainon_v0.1.ysm",
+      "type": "ysm",
+      "stem": "HSR_Phainon_v0.1"
+    },
+    "HSR_Phantylia": {
+      "path": "_HonkaiStarRail/HSR_Phantylia.ysm",
+      "type": "ysm",
+      "stem": "HSR_Phantylia"
+    },
+    "HSR_Pompom": {
+      "path": "_HonkaiStarRail/HSR_Pompom.zip",
+      "type": "zip",
+      "stem": "HSR_Pompom"
+    },
+    "HSR_Ruan-Mei": {
+      "path": "_HonkaiStarRail/HSR_Ruan-Mei.ysm",
+      "type": "ysm",
+      "stem": "HSR_Ruan-Mei"
+    },
+    "HSR_Seele_0": {
+      "path": "_HonkaiStarRail/HSR_Seele_0.ysm",
+      "type": "ysm",
+      "stem": "HSR_Seele_0"
+    },
+    "HSR_Seele_1": {
+      "path": "_HonkaiStarRail/HSR_Seele_1.zip",
+      "type": "zip",
+      "stem": "HSR_Seele_1"
+    },
+    "HSR_Silver-Wolf": {
+      "path": "_HonkaiStarRail/HSR_Silver-Wolf.ysm",
+      "type": "ysm",
+      "stem": "HSR_Silver-Wolf"
+    },
+    "HSR_Silver-Wolf_0": {
+      "path": "_HonkaiStarRail/HSR_Silver-Wolf_0.ysm",
+      "type": "ysm",
+      "stem": "HSR_Silver-Wolf_0"
+    },
+    "HSR_Silver-Wolf_1": {
+      "path": "_HonkaiStarRail/HSR_Silver-Wolf_1.ysm",
+      "type": "ysm",
+      "stem": "HSR_Silver-Wolf_1"
+    },
+    "HSR_Sparkle": {
+      "path": "_HonkaiStarRail/HSR_Sparkle.ysm",
+      "type": "ysm",
+      "stem": "HSR_Sparkle"
+    },
+    "HSR_Stelle": {
+      "path": "_HonkaiStarRail/HSR_Stelle.zip",
+      "type": "zip",
+      "stem": "HSR_Stelle"
+    },
+    "HSR_Tingyun_0": {
+      "path": "_HonkaiStarRail/HSR_Tingyun_0.ysm",
+      "type": "ysm",
+      "stem": "HSR_Tingyun_0"
+    },
+    "HSR_Tingyun_1": {
+      "path": "_HonkaiStarRail/HSR_Tingyun_1.ysm",
+      "type": "ysm",
+      "stem": "HSR_Tingyun_1"
+    },
+    "HSR_Trashcan": {
+      "path": "_HonkaiStarRail/HSR_Trashcan.ysm",
+      "type": "ysm",
+      "stem": "HSR_Trashcan"
+    },
+    "HSR_Trashcan(bronze)": {
+      "path": "_HonkaiStarRail/HSR_Trashcan(bronze).ysm",
+      "type": "ysm",
+      "stem": "HSR_Trashcan(bronze)"
+    },
+    "HSR_Trashcan(gold)": {
+      "path": "_HonkaiStarRail/HSR_Trashcan(gold).ysm",
+      "type": "ysm",
+      "stem": "HSR_Trashcan(gold)"
+    },
+    "HSR_Tribbie": {
+      "path": "_HonkaiStarRail/HSR_Tribbie.ysm",
+      "type": "ysm",
+      "stem": "HSR_Tribbie"
+    },
+    "HSR_Tribbie(maid)": {
+      "path": "_HonkaiStarRail/HSR_Tribbie(maid).ysm",
+      "type": "ysm",
+      "stem": "HSR_Tribbie(maid)"
+    },
+    "HSR_Tribbie_1": {
+      "path": "_HonkaiStarRail/HSR_Tribbie_1.ysm",
+      "type": "ysm",
+      "stem": "HSR_Tribbie_1"
+    },
+    "HSR_Yukong": {
+      "path": "_HonkaiStarRail/HSR_Yukong.ysm",
+      "type": "ysm",
+      "stem": "HSR_Yukong"
+    },
+    "huadao": {
+      "path": "Unknown/huadao.ysm",
+      "type": "ysm",
+      "stem": "huadao"
+    },
+    "IdentityV_Composer": {
+      "path": "_IdentityV/IdentityV_Composer.ysm",
+      "type": "ysm",
+      "stem": "IdentityV_Composer"
+    },
+    "IdentityV_Fool's-Gold": {
+      "path": "_IdentityV/IdentityV_Fool's-Gold.ysm",
+      "type": "ysm",
+      "stem": "IdentityV_Fool's-Gold"
+    },
+    "IdentityV_Little-Girl(Compasso)": {
+      "path": "_IdentityV/IdentityV_Little-Girl(Compasso).ysm",
+      "type": "ysm",
+      "stem": "IdentityV_Little-Girl(Compasso)"
+    },
+    "IdentityV_Luca-Balsa": {
+      "path": "_IdentityV/IdentityV_Luca-Balsa.ysm",
+      "type": "ysm",
+      "stem": "IdentityV_Luca-Balsa"
+    },
+    "IdentityV_Norton-Campbell": {
+      "path": "_IdentityV/IdentityV_Norton-Campbell.ysm",
+      "type": "ysm",
+      "stem": "IdentityV_Norton-Campbell"
+    },
+    "IdentityV_OPH.Lily": {
+      "path": "_IdentityV/IdentityV_OPH.Lily.ysm",
+      "type": "ysm",
+      "stem": "IdentityV_OPH.Lily"
+    },
+    "IdentityV_Succubus": {
+      "path": "_IdentityV/IdentityV_Succubus.ysm",
+      "type": "ysm",
+      "stem": "IdentityV_Succubus"
+    },
+    "Idolmaster_Higuchi": {
+      "path": "_IdolMaster/Idolmaster_Higuchi.zip",
+      "type": "zip",
+      "stem": "Idolmaster_Higuchi"
+    },
+    "InitialD_Toyota-AE86": {
+      "path": "_InitialD/InitialD_Toyota-AE86.zip",
+      "type": "zip",
+      "stem": "InitialD_Toyota-AE86"
+    },
+    "Inubakumori_Osage": {
+      "path": "_Inubakumori/Inubakumori_Osage.zip",
+      "type": "zip",
+      "stem": "Inubakumori_Osage"
+    },
+    "Inubakumori_Osage-chan": {
+      "path": "_Inubakumori/Inubakumori_Osage-chan.zip",
+      "type": "zip",
+      "stem": "Inubakumori_Osage-chan"
+    },
+    "Invincible_Tech-Jacket": {
+      "path": "_Invincible/Invincible_Tech-Jacket.ysm",
+      "type": "ysm",
+      "stem": "Invincible_Tech-Jacket"
+    },
+    "jak_jak2renegade": {
+      "path": "Unknown/jak_jak2renegade.zip",
+      "type": "zip",
+      "stem": "jak_jak2renegade"
+    },
+    "jak_jak2therenegade": {
+      "path": "Unknown/jak_jak2therenegade.zip",
+      "type": "zip",
+      "stem": "jak_jak2therenegade"
+    },
+    "JennyMod_Bia": {
+      "path": "_JennyMod/JennyMod_Bia.zip",
+      "type": "zip",
+      "stem": "JennyMod_Bia"
+    },
+    "JennyMod_Ellie": {
+      "path": "_JennyMod/JennyMod_Ellie.zip",
+      "type": "zip",
+      "stem": "JennyMod_Ellie"
+    },
+    "JennyMod_Jenny": {
+      "path": "_JennyMod/JennyMod_Jenny.zip",
+      "type": "zip",
+      "stem": "JennyMod_Jenny"
+    },
+    "JennyMod_Sayomodel_je1": {
+      "path": "_JennyMod/JennyMod_Sayomodel_je1.zip",
+      "type": "zip",
+      "stem": "JennyMod_Sayomodel_je1"
+    },
+    "jevil": {
+      "path": "Unknown/jevil.ysm",
+      "type": "ysm",
+      "stem": "jevil"
+    },
+    "JJK_Gojo": {
+      "path": "_JujutsuKaisen/JJK_Gojo.ysm",
+      "type": "ysm",
+      "stem": "JJK_Gojo"
+    },
+    "JJK_Sukuna": {
+      "path": "_JujutsuKaisen/JJK_Sukuna.ysm",
+      "type": "ysm",
+      "stem": "JJK_Sukuna"
+    },
+    "Kamen-Rider_Tycoon": {
+      "path": "_KamenRider/Kamen-Rider_Tycoon.ysm",
+      "type": "ysm",
+      "stem": "Kamen-Rider_Tycoon"
+    },
+    "Kamen-Rider_Tycoon_v2": {
+      "path": "_KamenRider/Kamen-Rider_Tycoon_v2.ysm",
+      "type": "ysm",
+      "stem": "Kamen-Rider_Tycoon_v2"
+    },
+    "KanCollect_Northern-Princess_0": {
+      "path": "_KantaiCollection/KanCollect_Northern-Princess_0.ysm",
+      "type": "ysm",
+      "stem": "KanCollect_Northern-Princess_0"
+    },
+    "KanCollect_Northern-Princess_1": {
+      "path": "_KantaiCollection/KanCollect_Northern-Princess_1.ysm",
+      "type": "ysm",
+      "stem": "KanCollect_Northern-Princess_1"
+    },
+    "KanCollect_Yukikaze_1.0": {
+      "path": "_KantaiCollection/KanCollect_Yukikaze_1.0.ysm",
+      "type": "ysm",
+      "stem": "KanCollect_Yukikaze_1.0"
+    },
+    "killa": {
+      "path": "Unknown/killa.zip",
+      "type": "zip",
+      "stem": "killa"
+    },
+    "KingOni": {
+      "path": "Unknown/KingOni.ysm",
+      "type": "ysm",
+      "stem": "KingOni"
+    },
+    "Kris": {
+      "path": "Unknown/Kris.ysm",
+      "type": "ysm",
+      "stem": "Kris"
+    },
+    "kuro": {
+      "path": "Unknown/kuro.ysm",
+      "type": "ysm",
+      "stem": "kuro"
+    },
+    "Lex_Ninjia": {
+      "path": "Uncategorized/Lex_Ninjia.ysm",
+      "type": "ysm",
+      "stem": "Lex_Ninjia"
+    },
+    "Lex_Ninjia(zipver)": {
+      "path": "Uncategorized/Lex_Ninjia(zipver).zip",
+      "type": "zip",
+      "stem": "Lex_Ninjia(zipver)"
+    },
+    "LibraryOfRuina_Myo_v.1.0": {
+      "path": "_LibraryOfRuina/LibraryOfRuina_Myo_v.1.0.zip",
+      "type": "zip",
+      "stem": "LibraryOfRuina_Myo_v.1.0"
+    },
+    "lighting": {
+      "path": "Unknown/lighting.ysm",
+      "type": "ysm",
+      "stem": "lighting"
+    },
+    "Limbus_Bari(ysm2.2.1-special)_v2.0": {
+      "path": "_LimbusCompany/Limbus_Bari(ysm2.2.1-special)_v2.0.ysm",
+      "type": "ysm",
+      "stem": "Limbus_Bari(ysm2.2.1-special)_v2.0"
+    },
+    "Limbus_Bari_v2.0": {
+      "path": "_LimbusCompany/Limbus_Bari_v2.0.ysm",
+      "type": "ysm",
+      "stem": "Limbus_Bari_v2.0"
+    },
+    "Limbus_Ishmael": {
+      "path": "_LimbusCompany/Limbus_Ishmael.ysm",
+      "type": "ysm",
+      "stem": "Limbus_Ishmael"
+    },
+    "LoL_Gwen": {
+      "path": "_LeagueOfLegends/LoL_Gwen.ysm",
+      "type": "ysm",
+      "stem": "LoL_Gwen"
+    },
+    "LoL_Katarina(CatVer)_v1.0": {
+      "path": "_LeagueOfLegends/LoL_Katarina(CatVer)_v1.0.zip",
+      "type": "zip",
+      "stem": "LoL_Katarina(CatVer)_v1.0"
+    },
+    "LoveLive_Tennoji-Rina_1.0.0": {
+      "path": "_LoveLive/LoveLive_Tennoji-Rina_1.0.0.zip",
+      "type": "zip",
+      "stem": "LoveLive_Tennoji-Rina_1.0.0"
+    },
+    "Luvia": {
+      "path": "Unknown/Luvia.ysm",
+      "type": "ysm",
+      "stem": "Luvia"
+    },
+    "Luvia - 02": {
+      "path": "Unknown/Luvia - 02.ysm",
+      "type": "ysm",
+      "stem": "Luvia - 02"
+    },
+    "MA_Nanachi": {
+      "path": "_MadeInAbyss/MA_Nanachi.ysm",
+      "type": "ysm",
+      "stem": "MA_Nanachi"
+    },
+    "Majo_Elaina": {
+      "path": "_MajoNoTabitabi/Majo_Elaina.ysm",
+      "type": "ysm",
+      "stem": "Majo_Elaina"
+    },
+    "Majo_Elaina(Sakura)": {
+      "path": "_MajoNoTabitabi/Majo_Elaina(Sakura).zip",
+      "type": "zip",
+      "stem": "Majo_Elaina(Sakura)"
+    },
+    "Marine_Gasmask": {
+      "path": "Uncategorized/Marine_Gasmask.zip",
+      "type": "zip",
+      "stem": "Marine_Gasmask"
+    },
+    "Marine_nobalacklava": {
+      "path": "Uncategorized/Marine_nobalacklava.zip",
+      "type": "zip",
+      "stem": "Marine_nobalacklava"
+    },
+    "Marine_nogasmask": {
+      "path": "Uncategorized/Marine_nogasmask.zip",
+      "type": "zip",
+      "stem": "Marine_nogasmask"
+    },
+    "Mavel_Jeff-The-Land-Shark": {
+      "path": "_MavelRivals/Mavel_Jeff-The-Land-Shark.zip",
+      "type": "zip",
+      "stem": "Mavel_Jeff-The-Land-Shark"
+    },
+    "Meme_Bananacat": {
+      "path": "_Meme/Meme_Bananacat.zip",
+      "type": "zip",
+      "stem": "Meme_Bananacat"
+    },
+    "Meme_Helikopter-Steve": {
+      "path": "_Meme/Meme_Helikopter-Steve.ysm",
+      "type": "ysm",
+      "stem": "Meme_Helikopter-Steve"
+    },
+    "Meme_Uia-cat_0": {
+      "path": "_Meme/Meme_Uia-cat_0.ysm",
+      "type": "ysm",
+      "stem": "Meme_Uia-cat_0"
+    },
+    "Meme_Uia-cat_1": {
+      "path": "_Meme/Meme_Uia-cat_1.ysm",
+      "type": "ysm",
+      "stem": "Meme_Uia-cat_1"
+    },
+    "Meme_Uia-cat_2": {
+      "path": "_Meme/Meme_Uia-cat_2.ysm",
+      "type": "ysm",
+      "stem": "Meme_Uia-cat_2"
+    },
+    "Meme_圆头耄耋": {
+      "path": "_Meme/Meme_圆头耄耋.zip",
+      "type": "zip",
+      "stem": "Meme_圆头耄耋"
+    },
+    "Misaki": {
+      "path": "Unknown/Misaki.ysm",
+      "type": "ysm",
+      "stem": "Misaki"
+    },
+    "MiSide_Cappie(Cooler_Mita)_v1.0": {
+      "path": "_MiSide/MiSide_Cappie(Cooler_Mita)_v1.0.ysm",
+      "type": "ysm",
+      "stem": "MiSide_Cappie(Cooler_Mita)_v1.0"
+    },
+    "Mist-train-girls_Luna-Sakurakouji": {
+      "path": "_MistTrainGirls/Mist-train-girls_Luna-Sakurakouji.ysm",
+      "type": "ysm",
+      "stem": "Mist-train-girls_Luna-Sakurakouji"
+    },
+    "Mist-train-girls_Rinko-Akiyama": {
+      "path": "_MistTrainGirls/Mist-train-girls_Rinko-Akiyama.ysm",
+      "type": "ysm",
+      "stem": "Mist-train-girls_Rinko-Akiyama"
+    },
+    "Mist-train-girls_Sakurakouji-Luna": {
+      "path": "_MistTrainGirls/Mist-train-girls_Sakurakouji-Luna.ysm",
+      "type": "ysm",
+      "stem": "Mist-train-girls_Sakurakouji-Luna"
+    },
+    "Mist_train_girls_Maitetsu_Hachiroku": {
+      "path": "_MistTrainGirls/Mist_train_girls_Maitetsu_Hachiroku.ysm",
+      "type": "ysm",
+      "stem": "Mist_train_girls_Maitetsu_Hachiroku"
+    },
+    "MK003": {
+      "path": "Unknown/MK003.zip",
+      "type": "zip",
+      "stem": "MK003"
+    },
+    "MLA_Ruby": {
+      "path": "_MobileLegendsAdventure/MLA_Ruby.ysm",
+      "type": "ysm",
+      "stem": "MLA_Ruby"
+    },
+    "Mob_bee": {
+      "path": "_MinecraftMob/Mob_bee.zip",
+      "type": "zip",
+      "stem": "Mob_bee"
+    },
+    "Mob_Bee(Beeper)": {
+      "path": "_MinecraftMob/Mob_Bee(Beeper).zip",
+      "type": "zip",
+      "stem": "Mob_Bee(Beeper)"
+    },
+    "Mob_Carminite-Ghastguard(Moefied)": {
+      "path": "_MinecraftMob/Mob_Carminite-Ghastguard(Moefied).zip",
+      "type": "zip",
+      "stem": "Mob_Carminite-Ghastguard(Moefied)"
+    },
+    "Mob_Cat(Moefied)(milk_tea)": {
+      "path": "_MinecraftMob/Mob_Cat(Moefied)(milk_tea).zip",
+      "type": "zip",
+      "stem": "Mob_Cat(Moefied)(milk_tea)"
+    },
+    "Mob_chicken": {
+      "path": "_MinecraftMob/Mob_chicken.ysm",
+      "type": "ysm",
+      "stem": "Mob_chicken"
+    },
+    "Mob_cockroach": {
+      "path": "_MinecraftMob/Mob_cockroach.zip",
+      "type": "zip",
+      "stem": "Mob_cockroach"
+    },
+    "Mob_Creeper-girl(Moefied)(Charged)_v2.0": {
+      "path": "_MinecraftMob/Mob_Creeper-girl(Moefied)(Charged)_v2.0.ysm",
+      "type": "ysm",
+      "stem": "Mob_Creeper-girl(Moefied)(Charged)_v2.0"
+    },
+    "Mob_Creeper-girl(Moefied)_v1.0": {
+      "path": "_MinecraftMob/Mob_Creeper-girl(Moefied)_v1.0.ysm",
+      "type": "ysm",
+      "stem": "Mob_Creeper-girl(Moefied)_v1.0"
+    },
+    "Mob_Creeper-girl(Moefied)_v2.0": {
+      "path": "_MinecraftMob/Mob_Creeper-girl(Moefied)_v2.0.ysm",
+      "type": "ysm",
+      "stem": "Mob_Creeper-girl(Moefied)_v2.0"
+    },
+    "Mob_Enderman-girl(Moefied)_v2.0": {
+      "path": "_MinecraftMob/Mob_Enderman-girl(Moefied)_v2.0.ysm",
+      "type": "ysm",
+      "stem": "Mob_Enderman-girl(Moefied)_v2.0"
+    },
+    "Mob_fox": {
+      "path": "_MinecraftMob/Mob_fox.zip",
+      "type": "zip",
+      "stem": "Mob_fox"
+    },
+    "Molliena v0.4": {
+      "path": "Unknown/Molliena v0.4.ysm",
+      "type": "ysm",
+      "stem": "Molliena v0.4"
+    },
+    "Molliena v0.7": {
+      "path": "Unknown/Molliena v0.7.ysm",
+      "type": "ysm",
+      "stem": "Molliena v0.7"
+    },
+    "Molliena v1.0": {
+      "path": "Unknown/Molliena v1.0.ysm",
+      "type": "ysm",
+      "stem": "Molliena v1.0"
+    },
+    "Molliena v1.1": {
+      "path": "Unknown/Molliena v1.1.ysm",
+      "type": "ysm",
+      "stem": "Molliena v1.1"
+    },
+    "MS_Inui-Sana": {
+      "path": "_MashiroiroSymphony/MS_Inui-Sana.ysm",
+      "type": "ysm",
+      "stem": "MS_Inui-Sana"
+    },
+    "MT_Hiro": {
+      "path": "Uncategorized/MT_Hiro.ysm",
+      "type": "ysm",
+      "stem": "MT_Hiro"
+    },
+    "MT_Jake": {
+      "path": "Uncategorized/MT_Jake.ysm",
+      "type": "ysm",
+      "stem": "MT_Jake"
+    },
+    "MT_Mermaid": {
+      "path": "Uncategorized/MT_Mermaid.ysm",
+      "type": "ysm",
+      "stem": "MT_Mermaid"
+    },
+    "MT_Princess": {
+      "path": "Uncategorized/MT_Princess.ysm",
+      "type": "ysm",
+      "stem": "MT_Princess"
+    },
+    "MT_Sakura": {
+      "path": "Uncategorized/MT_Sakura.ysm",
+      "type": "ysm",
+      "stem": "MT_Sakura"
+    },
+    "NagaU_Kemomimi": {
+      "path": "_Naga-U/NagaU_Kemomimi.ysm",
+      "type": "ysm",
+      "stem": "NagaU_Kemomimi"
+    },
+    "NanatsuTaizai_Escanor": {
+      "path": "_NanatsuTaizai/NanatsuTaizai_Escanor.ysm",
+      "type": "ysm",
+      "stem": "NanatsuTaizai_Escanor"
+    },
+    "Nar_Madara": {
+      "path": "_Naruto/Nar_Madara.ysm",
+      "type": "ysm",
+      "stem": "Nar_Madara"
+    },
+    "Nar_Madara(zipver)": {
+      "path": "_Naruto/Nar_Madara(zipver).zip",
+      "type": "zip",
+      "stem": "Nar_Madara(zipver)"
+    },
+    "Nar_Naruto": {
+      "path": "_Naruto/Nar_Naruto.ysm",
+      "type": "ysm",
+      "stem": "Nar_Naruto"
+    },
+    "Nar_Obito_0": {
+      "path": "_Naruto/Nar_Obito_0.zip",
+      "type": "zip",
+      "stem": "Nar_Obito_0"
+    },
+    "Nar_Obito_1": {
+      "path": "_Naruto/Nar_Obito_1.ysm",
+      "type": "ysm",
+      "stem": "Nar_Obito_1"
+    },
+    "Nar_Pain": {
+      "path": "_Naruto/Nar_Pain.ysm",
+      "type": "ysm",
+      "stem": "Nar_Pain"
+    },
+    "Nar_Sakura": {
+      "path": "_Naruto/Nar_Sakura.ysm",
+      "type": "ysm",
+      "stem": "Nar_Sakura"
+    },
+    "Nar_Sasuke": {
+      "path": "_Naruto/Nar_Sasuke.ysm",
+      "type": "ysm",
+      "stem": "Nar_Sasuke"
+    },
+    "Nekopara_Vanilla_0": {
+      "path": "_Nekopara/Nekopara_Vanilla_0.zip",
+      "type": "zip",
+      "stem": "Nekopara_Vanilla_0"
+    },
+    "Nekopara_Vanilla_1": {
+      "path": "_Nekopara/Nekopara_Vanilla_1.ysm",
+      "type": "ysm",
+      "stem": "Nekopara_Vanilla_1"
+    },
+    "Nekopara_Vanilla_2": {
+      "path": "_Nekopara/Nekopara_Vanilla_2.zip",
+      "type": "zip",
+      "stem": "Nekopara_Vanilla_2"
+    },
+    "NGE_Asuka": {
+      "path": "_NeonGenesisEvangelion/NGE_Asuka.ysm",
+      "type": "ysm",
+      "stem": "NGE_Asuka"
+    },
+    "NGNL_Jibril": {
+      "path": "_NoGameNoLife/NGNL_Jibril.ysm",
+      "type": "ysm",
+      "stem": "NGNL_Jibril"
+    },
+    "NierAutomata_2B": {
+      "path": "_NierAutomata/NierAutomata_2B.zip",
+      "type": "zip",
+      "stem": "NierAutomata_2B"
+    },
+    "NierAutomata_A2": {
+      "path": "_NierAutomata/NierAutomata_A2.ysm",
+      "type": "ysm",
+      "stem": "NierAutomata_A2"
+    },
+    "Nikke_Alice": {
+      "path": "_Nikke/Nikke_Alice.ysm",
+      "type": "ysm",
+      "stem": "Nikke_Alice"
+    },
+    "Nikke_Cinderella": {
+      "path": "_Nikke/Nikke_Cinderella.ysm",
+      "type": "ysm",
+      "stem": "Nikke_Cinderella"
+    },
+    "Nikke_Crown_v1.0": {
+      "path": "_Nikke/Nikke_Crown_v1.0.ysm",
+      "type": "ysm",
+      "stem": "Nikke_Crown_v1.0"
+    },
+    "Nikke_Dorothy(Doro)": {
+      "path": "_Nikke/Nikke_Dorothy(Doro).zip",
+      "type": "zip",
+      "stem": "Nikke_Dorothy(Doro)"
+    },
+    "Nikke_Dorothy(Doro)_7": {
+      "path": "_Nikke/Nikke_Dorothy(Doro)_7.ysm",
+      "type": "ysm",
+      "stem": "Nikke_Dorothy(Doro)_7"
+    },
+    "Nikke_Dorothy(Doro)_8": {
+      "path": "_Nikke/Nikke_Dorothy(Doro)_8.ysm",
+      "type": "ysm",
+      "stem": "Nikke_Dorothy(Doro)_8"
+    },
+    "Nikke_Marian": {
+      "path": "_Nikke/Nikke_Marian.zip",
+      "type": "zip",
+      "stem": "Nikke_Marian"
+    },
+    "Nikke_Marian(Silver_spear)_v1.0": {
+      "path": "_Nikke/Nikke_Marian(Silver_spear)_v1.0.ysm",
+      "type": "ysm",
+      "stem": "Nikke_Marian(Silver_spear)_v1.0"
+    },
+    "Nikke_Shifty": {
+      "path": "_Nikke/Nikke_Shifty.ysm",
+      "type": "ysm",
+      "stem": "Nikke_Shifty"
+    },
+    "Nikke_Shifty(Doro)": {
+      "path": "_Nikke/Nikke_Shifty(Doro).zip",
+      "type": "zip",
+      "stem": "Nikke_Shifty(Doro)"
+    },
+    "Nikke_Soda(Twinkling_bunny)_nkrmc": {
+      "path": "_Nikke/Nikke_Soda(Twinkling_bunny)_nkrmc.ysm",
+      "type": "ysm",
+      "stem": "Nikke_Soda(Twinkling_bunny)_nkrmc"
+    },
+    "Nikke_Syuen(Doro)": {
+      "path": "_Nikke/Nikke_Syuen(Doro).zip",
+      "type": "zip",
+      "stem": "Nikke_Syuen(Doro)"
+    },
+    "Nikke_Syuen(Xmas-Doro)": {
+      "path": "_Nikke/Nikke_Syuen(Xmas-Doro).zip",
+      "type": "zip",
+      "stem": "Nikke_Syuen(Xmas-Doro)"
+    },
+    "Nilcat_Philorty": {
+      "path": "_Nilcat/Nilcat_Philorty.ysm",
+      "type": "ysm",
+      "stem": "Nilcat_Philorty"
+    },
+    "Nyaruko-san_Nyaruko": {
+      "path": "_Nyaruko-san/Nyaruko-san_Nyaruko.ysm",
+      "type": "ysm",
+      "stem": "Nyaruko-san_Nyaruko"
+    },
+    "oc_斯塔2.0": {
+      "path": "Unknown/oc_斯塔2.0.zip",
+      "type": "zip",
+      "stem": "oc_斯塔2.0"
+    },
+    "OK_Hoshino-Ai_0": {
+      "path": "_OshiNoKo/OK_Hoshino-Ai_0.ysm",
+      "type": "ysm",
+      "stem": "OK_Hoshino-Ai_0"
+    },
+    "OK_Hoshino-Ai_1": {
+      "path": "_OshiNoKo/OK_Hoshino-Ai_1.ysm",
+      "type": "ysm",
+      "stem": "OK_Hoshino-Ai_1"
+    },
+    "Overdose_Ame-chan": {
+      "path": "_NeedyStreamerOverload/Overdose_Ame-chan.ysm",
+      "type": "ysm",
+      "stem": "Overdose_Ame-chan"
+    },
+    "Overdose_Kangel": {
+      "path": "_NeedyStreamerOverload/Overdose_Kangel.ysm",
+      "type": "ysm",
+      "stem": "Overdose_Kangel"
+    },
+    "Overwatch_Dva": {
+      "path": "_Overwatch/Overwatch_Dva.ysm",
+      "type": "ysm",
+      "stem": "Overwatch_Dva"
+    },
+    "PF_Perry": {
+      "path": "_Phineas&Ferb/PF_Perry.zip",
+      "type": "zip",
+      "stem": "PF_Perry"
+    },
+    "PGR_Adolf2": {
+      "path": "_PunishingGrayRaven/PGR_Adolf2.ysm",
+      "type": "ysm",
+      "stem": "PGR_Adolf2"
+    },
+    "PGR_Lamia": {
+      "path": "_PunishingGrayRaven/PGR_Lamia.ysm",
+      "type": "ysm",
+      "stem": "PGR_Lamia"
+    },
+    "PGR_Lucia_1": {
+      "path": "_PunishingGrayRaven/PGR_Lucia_1.ysm",
+      "type": "ysm",
+      "stem": "PGR_Lucia_1"
+    },
+    "PGR_Lucia_1.4": {
+      "path": "_PunishingGrayRaven/PGR_Lucia_1.4.ysm",
+      "type": "ysm",
+      "stem": "PGR_Lucia_1.4"
+    },
+    "PMO_Cuxu_v1": {
+      "path": "Uncategorized/PMO_Cuxu_v1.ysm",
+      "type": "ysm",
+      "stem": "PMO_Cuxu_v1"
+    },
+    "PMO_Cuxu_v2": {
+      "path": "Uncategorized/PMO_Cuxu_v2.ysm",
+      "type": "ysm",
+      "stem": "PMO_Cuxu_v2"
+    },
+    "PMO_Cuxu_v3": {
+      "path": "Uncategorized/PMO_Cuxu_v3.ysm",
+      "type": "ysm",
+      "stem": "PMO_Cuxu_v3"
+    },
+    "Pokemon_Canari_v1": {
+      "path": "_Pokemon/Pokemon_Canari_v1.ysm",
+      "type": "ysm",
+      "stem": "Pokemon_Canari_v1"
+    },
+    "Pokemon_Groudon": {
+      "path": "_Pokemon/Pokemon_Groudon.ysm",
+      "type": "ysm",
+      "stem": "Pokemon_Groudon"
+    },
+    "Pokemon_Lillie": {
+      "path": "_Pokemon/Pokemon_Lillie.ysm",
+      "type": "ysm",
+      "stem": "Pokemon_Lillie"
+    },
+    "PussInBoots_Death": {
+      "path": "_PussInBoots/PussInBoots_Death.zip",
+      "type": "zip",
+      "stem": "PussInBoots_Death"
+    },
+    "PvZ_Peashooter_canon": {
+      "path": "_PvZ/PvZ_Peashooter_canon.ysm",
+      "type": "ysm",
+      "stem": "PvZ_Peashooter_canon"
+    },
+    "Pwned_Darwin": {
+      "path": "_PwnedSeries/Pwned_Darwin.ysm",
+      "type": "ysm",
+      "stem": "Pwned_Darwin"
+    },
+    "Pwned_Red_v1.0": {
+      "path": "_PwnedSeries/Pwned_Red_v1.0.ysm",
+      "type": "ysm",
+      "stem": "Pwned_Red_v1.0"
+    },
+    "Pwned_Valeri_v0.3": {
+      "path": "_PwnedSeries/Pwned_Valeri_v0.3.ysm",
+      "type": "ysm",
+      "stem": "Pwned_Valeri_v0.3"
+    },
+    "R6S_Fuze": {
+      "path": "_RainbowSix/R6S_Fuze.zip",
+      "type": "zip",
+      "stem": "R6S_Fuze"
+    },
+    "RA2_Constript": {
+      "path": "_RedAlert/RA2_Constript.ysm",
+      "type": "ysm",
+      "stem": "RA2_Constript"
+    },
+    "RA3_Conscript": {
+      "path": "_RedAlert/RA3_Conscript.ysm",
+      "type": "ysm",
+      "stem": "RA3_Conscript"
+    },
+    "RA3_Imperial-Warrior": {
+      "path": "_RedAlert/RA3_Imperial-Warrior.ysm",
+      "type": "ysm",
+      "stem": "RA3_Imperial-Warrior"
+    },
+    "ReZero_Ram": {
+      "path": "_ReZero/ReZero_Ram.ysm",
+      "type": "ysm",
+      "stem": "ReZero_Ram"
+    },
+    "ReZero_Rem": {
+      "path": "_ReZero/ReZero_Rem.ysm",
+      "type": "ysm",
+      "stem": "ReZero_Rem"
+    },
+    "ReZero_Rem_1": {
+      "path": "_ReZero/ReZero_Rem_1.ysm",
+      "type": "ysm",
+      "stem": "ReZero_Rem_1"
+    },
+    "ReZero_Rem_v1.1": {
+      "path": "_ReZero/ReZero_Rem_v1.1.ysm",
+      "type": "ysm",
+      "stem": "ReZero_Rem_v1.1"
+    },
+    "ReZero_Rem_v2": {
+      "path": "_ReZero/ReZero_Rem_v2.ysm",
+      "type": "ysm",
+      "stem": "ReZero_Rem_v2"
+    },
+    "ReZero_Rem_v2.6": {
+      "path": "_ReZero/ReZero_Rem_v2.6.ysm",
+      "type": "ysm",
+      "stem": "ReZero_Rem_v2.6"
+    },
+    "ReZero_Rem_v2.9": {
+      "path": "_ReZero/ReZero_Rem_v2.9.ysm",
+      "type": "ysm",
+      "stem": "ReZero_Rem_v2.9"
+    },
+    "Rice-hime_Lazy_suiji": {
+      "path": "_Dong-JinRice-hime/Rice-hime_Lazy_suiji.ysm",
+      "type": "ysm",
+      "stem": "Rice-hime_Lazy_suiji"
+    },
+    "Rice-hime_Sergestid-shrimp": {
+      "path": "_Dong-JinRice-hime/Rice-hime_Sergestid-shrimp.ysm",
+      "type": "ysm",
+      "stem": "Rice-hime_Sergestid-shrimp"
+    },
+    "Rice-hime_Sergestid-shrimp(with_unbrella)": {
+      "path": "_Dong-JinRice-hime/Rice-hime_Sergestid-shrimp(with_unbrella).ysm",
+      "type": "ysm",
+      "stem": "Rice-hime_Sergestid-shrimp(with_unbrella)"
+    },
+    "Rice-hime_Sergestid-shrimp_v2": {
+      "path": "_Dong-JinRice-hime/Rice-hime_Sergestid-shrimp_v2.ysm",
+      "type": "ysm",
+      "stem": "Rice-hime_Sergestid-shrimp_v2"
+    },
+    "Ruby_Rose": {
+      "path": "Unknown/Ruby_Rose.ysm",
+      "type": "ysm",
+      "stem": "Ruby_Rose"
+    },
+    "SailorMoon_Mercury": {
+      "path": "_SailorMoon/SailorMoon_Mercury.ysm",
+      "type": "ysm",
+      "stem": "SailorMoon_Mercury"
+    },
+    "SailorMoon_Mercury_v2": {
+      "path": "_SailorMoon/SailorMoon_Mercury_v2.ysm",
+      "type": "ysm",
+      "stem": "SailorMoon_Mercury_v2"
+    },
+    "SailorMoon_Moon": {
+      "path": "_SailorMoon/SailorMoon_Moon.ysm",
+      "type": "ysm",
+      "stem": "SailorMoon_Moon"
+    },
+    "Sakuraba_Ema": {
+      "path": "Unknown/Sakuraba_Ema.ysm",
+      "type": "ysm",
+      "stem": "Sakuraba_Ema"
+    },
+    "SAO_Kirito": {
+      "path": "_SwordArtOnline/SAO_Kirito.ysm",
+      "type": "ysm",
+      "stem": "SAO_Kirito"
+    },
+    "Satori": {
+      "path": "Unknown/Satori.ysm",
+      "type": "ysm",
+      "stem": "Satori"
+    },
+    "Senko-san_0": {
+      "path": "_Senko-san/Senko-san_0.zip",
+      "type": "zip",
+      "stem": "Senko-san_0"
+    },
+    "Senko-san_1": {
+      "path": "_Senko-san/Senko-san_1.zip",
+      "type": "zip",
+      "stem": "Senko-san_1"
+    },
+    "Senko-san_2": {
+      "path": "_Senko-san/Senko-san_2.ysm",
+      "type": "ysm",
+      "stem": "Senko-san_2"
+    },
+    "Senko-san_3": {
+      "path": "_Senko-san/Senko-san_3.zip",
+      "type": "zip",
+      "stem": "Senko-san_3"
+    },
+    "Senko-san_4": {
+      "path": "_Senko-san/Senko-san_4.zip",
+      "type": "zip",
+      "stem": "Senko-san_4"
+    },
+    "Senko-san_v2": {
+      "path": "_Senko-san/Senko-san_v2.ysm",
+      "type": "ysm",
+      "stem": "Senko-san_v2"
+    },
+    "SenrenBanka_Murasame": {
+      "path": "_SenrenBanka/SenrenBanka_Murasame.ysm",
+      "type": "ysm",
+      "stem": "SenrenBanka_Murasame"
+    },
+    "SenrenBanka_Murasame(uniform)": {
+      "path": "_SenrenBanka/SenrenBanka_Murasame(uniform).ysm",
+      "type": "ysm",
+      "stem": "SenrenBanka_Murasame(uniform)"
+    },
+    "ShiinaTaki": {
+      "path": "Unknown/ShiinaTaki.zip",
+      "type": "zip",
+      "stem": "ShiinaTaki"
+    },
+    "ShovelForge_Aiber": {
+      "path": "_ShovelForge/ShovelForge_Aiber.zip",
+      "type": "zip",
+      "stem": "ShovelForge_Aiber"
+    },
+    "SMT_Kei-Amemura": {
+      "path": "_ShinMegamiTensei/SMT_Kei-Amemura.ysm",
+      "type": "ysm",
+      "stem": "SMT_Kei-Amemura"
+    },
+    "SMT_Nahobino": {
+      "path": "_ShinMegamiTensei/SMT_Nahobino.ysm",
+      "type": "ysm",
+      "stem": "SMT_Nahobino"
+    },
+    "SnF_Fern": {
+      "path": "_SousouNoFrieren/SnF_Fern.ysm",
+      "type": "ysm",
+      "stem": "SnF_Fern"
+    },
+    "SnF_Frieren": {
+      "path": "_SousouNoFrieren/SnF_Frieren.zip",
+      "type": "zip",
+      "stem": "SnF_Frieren"
+    },
+    "SnF_Frieren1": {
+      "path": "_SousouNoFrieren/SnF_Frieren1.ysm",
+      "type": "ysm",
+      "stem": "SnF_Frieren1"
+    },
+    "Sonic-the-hedgehog_Sonic": {
+      "path": "_SonicTheHedgehog/Sonic-the-hedgehog_Sonic.zip",
+      "type": "zip",
+      "stem": "Sonic-the-hedgehog_Sonic"
+    },
+    "sop2": {
+      "path": "Unknown/sop2.zip",
+      "type": "zip",
+      "stem": "sop2"
+    },
+    "SoulTide_Asuna": {
+      "path": "_SoulTide/SoulTide_Asuna.ysm",
+      "type": "ysm",
+      "stem": "SoulTide_Asuna"
+    },
+    "SoulTide_Inori": {
+      "path": "_SoulTide/SoulTide_Inori.ysm",
+      "type": "ysm",
+      "stem": "SoulTide_Inori"
+    },
+    "SoulTide_Mako-Sakuya": {
+      "path": "_SoulTide/SoulTide_Mako-Sakuya.ysm",
+      "type": "ysm",
+      "stem": "SoulTide_Mako-Sakuya"
+    },
+    "SoulTide_Mako-Sakuya（无载具版）": {
+      "path": "_SoulTide/SoulTide_Mako-Sakuya（无载具版）.ysm",
+      "type": "ysm",
+      "stem": "SoulTide_Mako-Sakuya（无载具版）"
+    },
+    "SoulTide_Mako-Sakuya（无鞘翅版）": {
+      "path": "_SoulTide/SoulTide_Mako-Sakuya（无鞘翅版）.ysm",
+      "type": "ysm",
+      "stem": "SoulTide_Mako-Sakuya（无鞘翅版）"
+    },
+    "SPAMton": {
+      "path": "Unknown/SPAMton.ysm",
+      "type": "ysm",
+      "stem": "SPAMton"
+    },
+    "StellaFantasy_Chloe": {
+      "path": "_StellaFantasy/StellaFantasy_Chloe.ysm",
+      "type": "ysm",
+      "stem": "StellaFantasy_Chloe"
+    },
+    "Strinova_Fuchsia_v1.0": {
+      "path": "_Strinova/Strinova_Fuchsia_v1.0.ysm",
+      "type": "ysm",
+      "stem": "Strinova_Fuchsia_v1.0"
+    },
+    "Strinova_Fuchsia_v1.1": {
+      "path": "_Strinova/Strinova_Fuchsia_v1.1.ysm",
+      "type": "ysm",
+      "stem": "Strinova_Fuchsia_v1.1"
+    },
+    "Suise": {
+      "path": "Unknown/Suise.ysm",
+      "type": "ysm",
+      "stem": "Suise"
+    },
+    "SV_Junimos": {
+      "path": "_StardewValley/SV_Junimos.ysm",
+      "type": "ysm",
+      "stem": "SV_Junimos"
+    },
+    "sweet": {
+      "path": "Unknown/sweet.ysm",
+      "type": "ysm",
+      "stem": "sweet"
+    },
+    "SxF_Anya_1.0.5": {
+      "path": "_SpyxFamily/SxF_Anya_1.0.5.ysm",
+      "type": "ysm",
+      "stem": "SxF_Anya_1.0.5"
+    },
+    "sybil": {
+      "path": "Unknown/sybil.ysm",
+      "type": "ysm",
+      "stem": "sybil"
+    },
+    "Takao": {
+      "path": "Unknown/Takao.zip",
+      "type": "zip",
+      "stem": "Takao"
+    },
+    "Tanks_M1-Abrams": {
+      "path": "_Tanks/Tanks_M1-Abrams.ysm",
+      "type": "ysm",
+      "stem": "Tanks_M1-Abrams"
+    },
+    "Techpriest": {
+      "path": "Unknown/Techpriest.zip",
+      "type": "zip",
+      "stem": "Techpriest"
+    },
+    "Teio": {
+      "path": "Unknown/Teio.ysm",
+      "type": "ysm",
+      "stem": "Teio"
+    },
+    "TenkafuMa_Iblis": {
+      "path": "_TenkafuMa/TenkafuMa_Iblis.ysm",
+      "type": "ysm",
+      "stem": "TenkafuMa_Iblis"
+    },
+    "TenkafuMa_NaNa": {
+      "path": "_TenkafuMa/TenkafuMa_NaNa.ysm",
+      "type": "ysm",
+      "stem": "TenkafuMa_NaNa"
+    },
+    "tenna": {
+      "path": "Unknown/tenna.ysm",
+      "type": "ysm",
+      "stem": "tenna"
+    },
+    "TenshiSouzouRE-BOOT_Shirayuki-Noa": {
+      "path": "_TenshiSouzouRE-BOOT/TenshiSouzouRE-BOOT_Shirayuki-Noa.ysm",
+      "type": "ysm",
+      "stem": "TenshiSouzouRE-BOOT_Shirayuki-Noa"
+    },
+    "Tensura_Milim-Nava": {
+      "path": "_Tensura/Tensura_Milim-Nava.ysm",
+      "type": "ysm",
+      "stem": "Tensura_Milim-Nava"
+    },
+    "Terraria-calamity_Moefied_the_devourer_of_gods": {
+      "path": "_Terraria-calamity/Terraria-calamity_Moefied_the_devourer_of_gods.ysm",
+      "type": "ysm",
+      "stem": "Terraria-calamity_Moefied_the_devourer_of_gods"
+    },
+    "Terraria-calamity_Moefied_the_devourer_of_gods(m)": {
+      "path": "_Terraria-calamity/Terraria-calamity_Moefied_the_devourer_of_gods(m).ysm",
+      "type": "ysm",
+      "stem": "Terraria-calamity_Moefied_the_devourer_of_gods(m)"
+    },
+    "Titanfall2_Jack-Cooper": {
+      "path": "_Titanfall2/Titanfall2_Jack-Cooper.ysm",
+      "type": "ysm",
+      "stem": "Titanfall2_Jack-Cooper"
+    },
+    "TokyoGhoul_Kaneki": {
+      "path": "_TokyoGhoul/TokyoGhoul_Kaneki.ysm",
+      "type": "ysm",
+      "stem": "TokyoGhoul_Kaneki"
+    },
+    "Touhou_Cirno": {
+      "path": "_TouhouProject/Touhou_Cirno.ysm",
+      "type": "ysm",
+      "stem": "Touhou_Cirno"
+    },
+    "Touhou_Cirno_2": {
+      "path": "_TouhouProject/Touhou_Cirno_2.ysm",
+      "type": "ysm",
+      "stem": "Touhou_Cirno_2"
+    },
+    "Touhou_Cirno_v1": {
+      "path": "_TouhouProject/Touhou_Cirno_v1.ysm",
+      "type": "ysm",
+      "stem": "Touhou_Cirno_v1"
+    },
+    "Touhou_Flandre_0": {
+      "path": "_TouhouProject/Touhou_Flandre_0.ysm",
+      "type": "ysm",
+      "stem": "Touhou_Flandre_0"
+    },
+    "Touhou_Flandre_1": {
+      "path": "_TouhouProject/Touhou_Flandre_1.ysm",
+      "type": "ysm",
+      "stem": "Touhou_Flandre_1"
+    },
+    "Touhou_Flandre_1(zipver)": {
+      "path": "_TouhouProject/Touhou_Flandre_1(zipver).zip",
+      "type": "zip",
+      "stem": "Touhou_Flandre_1(zipver)"
+    },
+    "Touhou_Flandre_2": {
+      "path": "_TouhouProject/Touhou_Flandre_2.ysm",
+      "type": "ysm",
+      "stem": "Touhou_Flandre_2"
+    },
+    "Touhou_Flandre_20250411": {
+      "path": "_TouhouProject/Touhou_Flandre_20250411.ysm",
+      "type": "ysm",
+      "stem": "Touhou_Flandre_20250411"
+    },
+    "Touhou_Flandre_20250429": {
+      "path": "_TouhouProject/Touhou_Flandre_20250429.ysm",
+      "type": "ysm",
+      "stem": "Touhou_Flandre_20250429"
+    },
+    "Touhou_Flandre_3": {
+      "path": "_TouhouProject/Touhou_Flandre_3.ysm",
+      "type": "ysm",
+      "stem": "Touhou_Flandre_3"
+    },
+    "Touhou_Flandre_4": {
+      "path": "_TouhouProject/Touhou_Flandre_4.ysm",
+      "type": "ysm",
+      "stem": "Touhou_Flandre_4"
+    },
+    "Touhou_Hakurei-Reimu": {
+      "path": "_TouhouProject/Touhou_Hakurei-Reimu.ysm",
+      "type": "ysm",
+      "stem": "Touhou_Hakurei-Reimu"
+    },
+    "Touhou_Hatano-Kokoro": {
+      "path": "_TouhouProject/Touhou_Hatano-Kokoro.ysm",
+      "type": "ysm",
+      "stem": "Touhou_Hatano-Kokoro"
+    },
+    "Touhou_Hatate_1.0": {
+      "path": "_TouhouProject/Touhou_Hatate_1.0.zip",
+      "type": "zip",
+      "stem": "Touhou_Hatate_1.0"
+    },
+    "Touhou_Hinanawi-Tenshi_1.0": {
+      "path": "_TouhouProject/Touhou_Hinanawi-Tenshi_1.0.ysm",
+      "type": "ysm",
+      "stem": "Touhou_Hinanawi-Tenshi_1.0"
+    },
+    "Touhou_Izayoi-Sakuya": {
+      "path": "_TouhouProject/Touhou_Izayoi-Sakuya.ysm",
+      "type": "ysm",
+      "stem": "Touhou_Izayoi-Sakuya"
+    },
+    "Touhou_Izayoi-Sakuya(zipver)": {
+      "path": "_TouhouProject/Touhou_Izayoi-Sakuya(zipver).zip",
+      "type": "zip",
+      "stem": "Touhou_Izayoi-Sakuya(zipver)"
+    },
+    "Touhou_Kagiyama-Hina": {
+      "path": "_TouhouProject/Touhou_Kagiyama-Hina.ysm",
+      "type": "ysm",
+      "stem": "Touhou_Kagiyama-Hina"
+    },
+    "Touhou_Kagiyama-Hina(zipver)": {
+      "path": "_TouhouProject/Touhou_Kagiyama-Hina(zipver).zip",
+      "type": "zip",
+      "stem": "Touhou_Kagiyama-Hina(zipver)"
+    },
+    "Touhou_Kaku-Seiga": {
+      "path": "_TouhouProject/Touhou_Kaku-Seiga.ysm",
+      "type": "ysm",
+      "stem": "Touhou_Kaku-Seiga"
+    },
+    "Touhou_Kana-Anaberal": {
+      "path": "_TouhouProject/Touhou_Kana-Anaberal.ysm",
+      "type": "ysm",
+      "stem": "Touhou_Kana-Anaberal"
+    },
+    "Touhou_Koishi-Komeiji": {
+      "path": "_TouhouProject/Touhou_Koishi-Komeiji.ysm",
+      "type": "ysm",
+      "stem": "Touhou_Koishi-Komeiji"
+    },
+    "Touhou_Marisa": {
+      "path": "_TouhouProject/Touhou_Marisa.ysm",
+      "type": "ysm",
+      "stem": "Touhou_Marisa"
+    },
+    "Touhou_Patchouli-Knowledge": {
+      "path": "_TouhouProject/Touhou_Patchouli-Knowledge.ysm",
+      "type": "ysm",
+      "stem": "Touhou_Patchouli-Knowledge"
+    },
+    "Touhou_Patchouli-Knowledge(zipver)": {
+      "path": "_TouhouProject/Touhou_Patchouli-Knowledge(zipver).zip",
+      "type": "zip",
+      "stem": "Touhou_Patchouli-Knowledge(zipver)"
+    },
+    "Touhou_Remilia": {
+      "path": "_TouhouProject/Touhou_Remilia.ysm",
+      "type": "ysm",
+      "stem": "Touhou_Remilia"
+    },
+    "Touhou_Rumia": {
+      "path": "_TouhouProject/Touhou_Rumia.ysm",
+      "type": "ysm",
+      "stem": "Touhou_Rumia"
+    },
+    "Touhou_Saigyouji-Yuyuko": {
+      "path": "_TouhouProject/Touhou_Saigyouji-Yuyuko.ysm",
+      "type": "ysm",
+      "stem": "Touhou_Saigyouji-Yuyuko"
+    },
+    "Touhou_Sakuya": {
+      "path": "_TouhouProject/Touhou_Sakuya.ysm",
+      "type": "ysm",
+      "stem": "Touhou_Sakuya"
+    },
+    "TR_Hotarumaru_1.0": {
+      "path": "_ToukenRanbu/TR_Hotarumaru_1.0.ysm",
+      "type": "ysm",
+      "stem": "TR_Hotarumaru_1.0"
+    },
+    "TR_Yagen-Toshirou_1.0": {
+      "path": "_ToukenRanbu/TR_Yagen-Toshirou_1.0.ysm",
+      "type": "ysm",
+      "stem": "TR_Yagen-Toshirou_1.0"
+    },
+    "Twe_dfr": {
+      "path": "Unknown/Twe_dfr.ysm",
+      "type": "ysm",
+      "stem": "Twe_dfr"
+    },
+    "Twe_dogs": {
+      "path": "Unknown/Twe_dogs.ysm",
+      "type": "ysm",
+      "stem": "Twe_dogs"
+    },
+    "Twe_laoma": {
+      "path": "Unknown/Twe_laoma.ysm",
+      "type": "ysm",
+      "stem": "Twe_laoma"
+    },
+    "Twe_mdr": {
+      "path": "Unknown/Twe_mdr.ysm",
+      "type": "ysm",
+      "stem": "Twe_mdr"
+    },
+    "Twe_moss": {
+      "path": "Unknown/Twe_moss.ysm",
+      "type": "ysm",
+      "stem": "Twe_moss"
+    },
+    "Twe_spacesuit": {
+      "path": "Unknown/Twe_spacesuit.ysm",
+      "type": "ysm",
+      "stem": "Twe_spacesuit"
+    },
+    "Ultra-beast-force_Huo-Linfei": {
+      "path": "_Ultra-beast-force/Ultra-beast-force_Huo-Linfei.ysm",
+      "type": "ysm",
+      "stem": "Ultra-beast-force_Huo-Linfei"
+    },
+    "UM_Agnes-Digital": {
+      "path": "_UmaMusume/UM_Agnes-Digital.ysm",
+      "type": "ysm",
+      "stem": "UM_Agnes-Digital"
+    },
+    "UM_Gold-Ship": {
+      "path": "_UmaMusume/UM_Gold-Ship.zip",
+      "type": "zip",
+      "stem": "UM_Gold-Ship"
+    },
+    "UM_Haru-Urara": {
+      "path": "_UmaMusume/UM_Haru-Urara.ysm",
+      "type": "ysm",
+      "stem": "UM_Haru-Urara"
+    },
+    "UM_Haru-Urara(original)": {
+      "path": "_UmaMusume/UM_Haru-Urara(original).ysm",
+      "type": "ysm",
+      "stem": "UM_Haru-Urara(original)"
+    },
+    "UM_Hishi-Miracle": {
+      "path": "_UmaMusume/UM_Hishi-Miracle.ysm",
+      "type": "ysm",
+      "stem": "UM_Hishi-Miracle"
+    },
+    "UM_McQueen": {
+      "path": "_UmaMusume/UM_McQueen.zip",
+      "type": "zip",
+      "stem": "UM_McQueen"
+    },
+    "UM_Smart-Falcon": {
+      "path": "_UmaMusume/UM_Smart-Falcon.zip",
+      "type": "zip",
+      "stem": "UM_Smart-Falcon"
+    },
+    "UM_Topgun": {
+      "path": "_UmaMusume/UM_Topgun.ysm",
+      "type": "ysm",
+      "stem": "UM_Topgun"
+    },
+    "UM_Vivlos": {
+      "path": "_UmaMusume/UM_Vivlos.ysm",
+      "type": "ysm",
+      "stem": "UM_Vivlos"
+    },
+    "Undertale_Papyrus": {
+      "path": "_Undertale/Undertale_Papyrus.zip",
+      "type": "zip",
+      "stem": "Undertale_Papyrus"
+    },
+    "Undertale_Papyrus_v5.0": {
+      "path": "_Undertale/Undertale_Papyrus_v5.0.ysm",
+      "type": "ysm",
+      "stem": "Undertale_Papyrus_v5.0"
+    },
+    "Undertale_Sans_v1": {
+      "path": "_Undertale/Undertale_Sans_v1.ysm",
+      "type": "ysm",
+      "stem": "Undertale_Sans_v1"
+    },
+    "Undertale_Sans_v2": {
+      "path": "_Undertale/Undertale_Sans_v2.zip",
+      "type": "zip",
+      "stem": "Undertale_Sans_v2"
+    },
+    "Undertale_Sans_v5.0": {
+      "path": "_Undertale/Undertale_Sans_v5.0.ysm",
+      "type": "ysm",
+      "stem": "Undertale_Sans_v5.0"
+    },
+    "Utau_Adachi-Rei(pro max plus ultra)": {
+      "path": "_Vocaloid-UTAU/Utau_Adachi-Rei(pro max plus ultra).ysm",
+      "type": "ysm",
+      "stem": "Utau_Adachi-Rei(pro max plus ultra)"
+    },
+    "Utau_Adachi-Rei(无机械骨骼)": {
+      "path": "_Vocaloid-UTAU/Utau_Adachi-Rei(无机械骨骼).ysm",
+      "type": "ysm",
+      "stem": "Utau_Adachi-Rei(无机械骨骼)"
+    },
+    "Utau_Teto": {
+      "path": "_Vocaloid-UTAU/Utau_Teto.ysm",
+      "type": "ysm",
+      "stem": "Utau_Teto"
+    },
+    "Utau_Teto(会有人看吗awa)": {
+      "path": "_Vocaloid-UTAU/Utau_Teto(会有人看吗awa).ysm",
+      "type": "ysm",
+      "stem": "Utau_Teto(会有人看吗awa)"
+    },
+    "Utau_Tetoyo": {
+      "path": "_Vocaloid-UTAU/Utau_Tetoyo.ysm",
+      "type": "ysm",
+      "stem": "Utau_Tetoyo"
+    },
+    "VE_Violet": {
+      "path": "_VioletEvergarden/VE_Violet.zip",
+      "type": "zip",
+      "stem": "VE_Violet"
+    },
+    "Vocaloid_Miku(A6c)": {
+      "path": "_Vocaloid-UTAU/Vocaloid_Miku(A6c).ysm",
+      "type": "ysm",
+      "stem": "Vocaloid_Miku(A6c)"
+    },
+    "Vocaloid_Miku(Fumo)": {
+      "path": "_Vocaloid-UTAU/Vocaloid_Miku(Fumo).ysm",
+      "type": "ysm",
+      "stem": "Vocaloid_Miku(Fumo)"
+    },
+    "Vocaloid_Miku(Fumo)_1": {
+      "path": "_Vocaloid-UTAU/Vocaloid_Miku(Fumo)_1.ysm",
+      "type": "ysm",
+      "stem": "Vocaloid_Miku(Fumo)_1"
+    },
+    "Vocaloid_Miku(McDonald)_nkrmc": {
+      "path": "_Vocaloid-UTAU/Vocaloid_Miku(McDonald)_nkrmc.ysm",
+      "type": "ysm",
+      "stem": "Vocaloid_Miku(McDonald)_nkrmc"
+    },
+    "Vocaloid_Miku(机娘)": {
+      "path": "_Vocaloid-UTAU/Vocaloid_Miku(机娘).ysm",
+      "type": "ysm",
+      "stem": "Vocaloid_Miku(机娘)"
+    },
+    "Vocaloid_Miku(机械神甫)": {
+      "path": "_Vocaloid-UTAU/Vocaloid_Miku(机械神甫).ysm",
+      "type": "ysm",
+      "stem": "Vocaloid_Miku(机械神甫)"
+    },
+    "Vocaloid_Miku(百粉纪念)": {
+      "path": "_Vocaloid-UTAU/Vocaloid_Miku(百粉纪念).ysm",
+      "type": "ysm",
+      "stem": "Vocaloid_Miku(百粉纪念)"
+    },
+    "Vocaloid_Miku(请搭配tacz拓展包“赛博军械师”使用)": {
+      "path": "_Vocaloid-UTAU/Vocaloid_Miku(请搭配tacz拓展包“赛博军械师”使用).ysm",
+      "type": "ysm",
+      "stem": "Vocaloid_Miku(请搭配tacz拓展包“赛博军械师”使用)"
+    },
+    "Vocaloid_Miku_0": {
+      "path": "_Vocaloid-UTAU/Vocaloid_Miku_0.ysm",
+      "type": "ysm",
+      "stem": "Vocaloid_Miku_0"
+    },
+    "Vocaloid_Miku_1": {
+      "path": "_Vocaloid-UTAU/Vocaloid_Miku_1.ysm",
+      "type": "ysm",
+      "stem": "Vocaloid_Miku_1"
+    },
+    "Vocaloid_Miku_2": {
+      "path": "_Vocaloid-UTAU/Vocaloid_Miku_2.ysm",
+      "type": "ysm",
+      "stem": "Vocaloid_Miku_2"
+    },
+    "Vocaloid_Miku_20250518": {
+      "path": "_Vocaloid-UTAU/Vocaloid_Miku_20250518.ysm",
+      "type": "ysm",
+      "stem": "Vocaloid_Miku_20250518"
+    },
+    "Vocaloid_Miku_ver.2022(hotfix2)": {
+      "path": "_Vocaloid-UTAU/Vocaloid_Miku_ver.2022(hotfix2).ysm",
+      "type": "ysm",
+      "stem": "Vocaloid_Miku_ver.2022(hotfix2)"
+    },
+    "Vocaloid_Stardust": {
+      "path": "_Vocaloid-UTAU/Vocaloid_Stardust.zip",
+      "type": "zip",
+      "stem": "Vocaloid_Stardust"
+    },
+    "Vtuber_Fallen-Shadow_v2": {
+      "path": "_Vtuber/Vtuber_Fallen-Shadow_v2.ysm",
+      "type": "ysm",
+      "stem": "Vtuber_Fallen-Shadow_v2"
+    },
+    "Vtuber_Fallen-Shadow_v2.1": {
+      "path": "_Vtuber/Vtuber_Fallen-Shadow_v2.1.ysm",
+      "type": "ysm",
+      "stem": "Vtuber_Fallen-Shadow_v2.1"
+    },
+    "Vtuber_Gigi-Murin_0": {
+      "path": "_Vtuber/Vtuber_Gigi-Murin_0.ysm",
+      "type": "ysm",
+      "stem": "Vtuber_Gigi-Murin_0"
+    },
+    "Vtuber_Gigi-Murin_1": {
+      "path": "_Vtuber/Vtuber_Gigi-Murin_1.ysm",
+      "type": "ysm",
+      "stem": "Vtuber_Gigi-Murin_1"
+    },
+    "Vtuber_Gura": {
+      "path": "_Vtuber/Vtuber_Gura.ysm",
+      "type": "ysm",
+      "stem": "Vtuber_Gura"
+    },
+    "Vtuber_Gura_1": {
+      "path": "_Vtuber/Vtuber_Gura_1.ysm",
+      "type": "ysm",
+      "stem": "Vtuber_Gura_1"
+    },
+    "Vtuber_Lan-Yin-Reine(ButterflyDress)": {
+      "path": "_Vtuber/Vtuber_Lan-Yin-Reine(ButterflyDress).ysm",
+      "type": "ysm",
+      "stem": "Vtuber_Lan-Yin-Reine(ButterflyDress)"
+    },
+    "Vtuber_Lan-Yin-Reine(ButterflyDress)_v1.2": {
+      "path": "_Vtuber/Vtuber_Lan-Yin-Reine(ButterflyDress)_v1.2.ysm",
+      "type": "ysm",
+      "stem": "Vtuber_Lan-Yin-Reine(ButterflyDress)_v1.2"
+    },
+    "Vtuber_Lan-Yin-Reine(CityBeautyDress)_v3.51": {
+      "path": "_Vtuber/Vtuber_Lan-Yin-Reine(CityBeautyDress)_v3.51.ysm",
+      "type": "ysm",
+      "stem": "Vtuber_Lan-Yin-Reine(CityBeautyDress)_v3.51"
+    },
+    "Vtuber_Lan-Yin-Reine(NationalDress)_": {
+      "path": "_Vtuber/Vtuber_Lan-Yin-Reine(NationalDress)_.ysm",
+      "type": "ysm",
+      "stem": "Vtuber_Lan-Yin-Reine(NationalDress)_"
+    },
+    "Vtuber_Minato-Aqua": {
+      "path": "_Vtuber/Vtuber_Minato-Aqua.ysm",
+      "type": "ysm",
+      "stem": "Vtuber_Minato-Aqua"
+    },
+    "Vtuber_Momo": {
+      "path": "_Vtuber/Vtuber_Momo.ysm",
+      "type": "ysm",
+      "stem": "Vtuber_Momo"
+    },
+    "Vtuber_Muu-Muyu(Small)": {
+      "path": "_Vtuber/Vtuber_Muu-Muyu(Small).ysm",
+      "type": "ysm",
+      "stem": "Vtuber_Muu-Muyu(Small)"
+    },
+    "Vtuber_Muu-Muyu(Tall)": {
+      "path": "_Vtuber/Vtuber_Muu-Muyu(Tall).ysm",
+      "type": "ysm",
+      "stem": "Vtuber_Muu-Muyu(Tall)"
+    },
+    "Vtuber_Neuro": {
+      "path": "_Vtuber/Vtuber_Neuro.ysm",
+      "type": "ysm",
+      "stem": "Vtuber_Neuro"
+    },
+    "Vtuber_Neuro_1.4_CRW": {
+      "path": "_Vtuber/Vtuber_Neuro_1.4_CRW.ysm",
+      "type": "ysm",
+      "stem": "Vtuber_Neuro_1.4_CRW"
+    },
+    "Vtuber_Pekomama": {
+      "path": "_Vtuber/Vtuber_Pekomama.ysm",
+      "type": "ysm",
+      "stem": "Vtuber_Pekomama"
+    },
+    "Vtuber_Pekomama(Bunnygirl)": {
+      "path": "_Vtuber/Vtuber_Pekomama(Bunnygirl).ysm",
+      "type": "ysm",
+      "stem": "Vtuber_Pekomama(Bunnygirl)"
+    },
+    "Vtuber_Saba": {
+      "path": "_Vtuber/Vtuber_Saba.ysm",
+      "type": "ysm",
+      "stem": "Vtuber_Saba"
+    },
+    "Vtuber_Seren-Azuma": {
+      "path": "_Vtuber/Vtuber_Seren-Azuma.zip",
+      "type": "zip",
+      "stem": "Vtuber_Seren-Azuma"
+    },
+    "Vtuber_Suzuhara-Lulu": {
+      "path": "_Vtuber/Vtuber_Suzuhara-Lulu.ysm",
+      "type": "ysm",
+      "stem": "Vtuber_Suzuhara-Lulu"
+    },
+    "Vtuber_早稻叽": {
+      "path": "_Vtuber/Vtuber_早稻叽.ysm",
+      "type": "ysm",
+      "stem": "Vtuber_早稻叽"
+    },
+    "Vtuber_糖一色Shiny": {
+      "path": "_Vtuber/Vtuber_糖一色Shiny.ysm",
+      "type": "ysm",
+      "stem": "Vtuber_糖一色Shiny"
+    },
+    "Vtuber_黎歌Neeko_3.0": {
+      "path": "_Vtuber/Vtuber_黎歌Neeko_3.0.ysm",
+      "type": "ysm",
+      "stem": "Vtuber_黎歌Neeko_3.0"
+    },
+    "WarshipGirl_Gearing": {
+      "path": "_WarshipGirl/WarshipGirl_Gearing.ysm",
+      "type": "ysm",
+      "stem": "WarshipGirl_Gearing"
+    },
+    "WarshipGirl_Glowworm": {
+      "path": "_WarshipGirl/WarshipGirl_Glowworm.ysm",
+      "type": "ysm",
+      "stem": "WarshipGirl_Glowworm"
+    },
+    "WarshipGirl_Lexington": {
+      "path": "_WarshipGirl/WarshipGirl_Lexington.ysm",
+      "type": "ysm",
+      "stem": "WarshipGirl_Lexington"
+    },
+    "WarshipGirl_Z16": {
+      "path": "_WarshipGirl/WarshipGirl_Z16.ysm",
+      "type": "ysm",
+      "stem": "WarshipGirl_Z16"
+    },
+    "wine_fox - 女仆": {
+      "path": "Unknown/wine_fox - 女仆.zip",
+      "type": "zip",
+      "stem": "wine_fox - 女仆"
+    },
+    "Wohota_O108rocket(No_space_helmet)_v1.0": {
+      "path": "_Wohota-NekoHacker/Wohota_O108rocket(No_space_helmet)_v1.0.ysm",
+      "type": "ysm",
+      "stem": "Wohota_O108rocket(No_space_helmet)_v1.0"
+    },
+    "Wohota_O108rocket_v1.0": {
+      "path": "_Wohota-NekoHacker/Wohota_O108rocket_v1.0.ysm",
+      "type": "ysm",
+      "stem": "Wohota_O108rocket_v1.0"
+    },
+    "Wuwa_Camellya": {
+      "path": "_WutherringWaves/Wuwa_Camellya.ysm",
+      "type": "ysm",
+      "stem": "Wuwa_Camellya"
+    },
+    "Wuwa_The-Shorekeeper_0": {
+      "path": "_WutherringWaves/Wuwa_The-Shorekeeper_0.ysm",
+      "type": "ysm",
+      "stem": "Wuwa_The-Shorekeeper_0"
+    },
+    "Wuwa_The-Shorekeeper_1": {
+      "path": "_WutherringWaves/Wuwa_The-Shorekeeper_1.ysm",
+      "type": "ysm",
+      "stem": "Wuwa_The-Shorekeeper_1"
+    },
+    "xiao90": {
+      "path": "Unknown/xiao90.zip",
+      "type": "zip",
+      "stem": "xiao90"
+    },
+    "xiao902": {
+      "path": "Unknown/xiao902.zip",
+      "type": "zip",
+      "stem": "xiao902"
+    },
+    "xiaotin": {
+      "path": "Unknown/xiaotin.ysm",
+      "type": "ysm",
+      "stem": "xiaotin"
+    },
+    "Yog-Sothoth-Yard_Tlipoca": {
+      "path": "_YogSothothYard/Yog-Sothoth-Yard_Tlipoca.ysm",
+      "type": "ysm",
+      "stem": "Yog-Sothoth-Yard_Tlipoca"
+    },
+    "Yog-Sothoth-Yard_Tlipoca(no_arm)_1": {
+      "path": "_YogSothothYard/Yog-Sothoth-Yard_Tlipoca(no_arm)_1.ysm",
+      "type": "ysm",
+      "stem": "Yog-Sothoth-Yard_Tlipoca(no_arm)_1"
+    },
+    "Yog-Sothoth-Yard_Tlipoca_1": {
+      "path": "_YogSothothYard/Yog-Sothoth-Yard_Tlipoca_1.ysm",
+      "type": "ysm",
+      "stem": "Yog-Sothoth-Yard_Tlipoca_1"
+    },
+    "you_ye": {
+      "path": "Unknown/you_ye.ysm",
+      "type": "ysm",
+      "stem": "you_ye"
+    },
+    "yuki v1": {
+      "path": "Unknown/yuki v1.ysm",
+      "type": "ysm",
+      "stem": "yuki v1"
+    },
+    "yuki v2": {
+      "path": "Unknown/yuki v2.ysm",
+      "type": "ysm",
+      "stem": "yuki v2"
+    },
+    "yuki v2.1": {
+      "path": "Unknown/yuki v2.1.ysm",
+      "type": "ysm",
+      "stem": "yuki v2.1"
+    },
+    "yuki v2.2": {
+      "path": "Unknown/yuki v2.2.ysm",
+      "type": "ysm",
+      "stem": "yuki v2.2"
+    },
+    "yuki v2.3": {
+      "path": "Unknown/yuki v2.3.ysm",
+      "type": "ysm",
+      "stem": "yuki v2.3"
+    },
+    "yuki v2.4": {
+      "path": "Unknown/yuki v2.4.ysm",
+      "type": "ysm",
+      "stem": "yuki v2.4"
+    },
+    "yume v1": {
+      "path": "Unknown/yume v1.ysm",
+      "type": "ysm",
+      "stem": "yume v1"
+    },
+    "yume v1.1": {
+      "path": "Unknown/yume v1.1.ysm",
+      "type": "ysm",
+      "stem": "yume v1.1"
+    },
+    "yume_spring v1.2": {
+      "path": "Unknown/yume_spring v1.2.ysm",
+      "type": "ysm",
+      "stem": "yume_spring v1.2"
+    },
+    "yume_summer": {
+      "path": "Unknown/yume_summer.ysm",
+      "type": "ysm",
+      "stem": "yume_summer"
+    },
+    "Z16_Free": {
+      "path": "Unknown/Z16_Free.ysm",
+      "type": "ysm",
+      "stem": "Z16_Free"
+    },
+    "ZZZ_Angels-of-Delulu_01": {
+      "path": "_ZenlessZoneZero/ZZZ_Angels-of-Delulu_01.ysm",
+      "type": "ysm",
+      "stem": "ZZZ_Angels-of-Delulu_01"
+    },
+    "ZZZ_Angels-of-Delulu_02": {
+      "path": "_ZenlessZoneZero/ZZZ_Angels-of-Delulu_02.ysm",
+      "type": "ysm",
+      "stem": "ZZZ_Angels-of-Delulu_02"
+    },
+    "ZZZ_Angels-of-Delulu_03": {
+      "path": "_ZenlessZoneZero/ZZZ_Angels-of-Delulu_03.ysm",
+      "type": "ysm",
+      "stem": "ZZZ_Angels-of-Delulu_03"
+    },
+    "ZZZ_Ellen_1": {
+      "path": "_ZenlessZoneZero/ZZZ_Ellen_1.ysm",
+      "type": "ysm",
+      "stem": "ZZZ_Ellen_1"
+    },
+    "ZZZ_Jane-Doe": {
+      "path": "_ZenlessZoneZero/ZZZ_Jane-Doe.ysm",
+      "type": "ysm",
+      "stem": "ZZZ_Jane-Doe"
+    },
+    "ZZZ_Jane-Doe_1": {
+      "path": "_ZenlessZoneZero/ZZZ_Jane-Doe_1.ysm",
+      "type": "ysm",
+      "stem": "ZZZ_Jane-Doe_1"
+    },
+    "ZZZ_Jane-Doe_2": {
+      "path": "_ZenlessZoneZero/ZZZ_Jane-Doe_2.zip",
+      "type": "zip",
+      "stem": "ZZZ_Jane-Doe_2"
+    },
+    "ZZZ_Miyabi": {
+      "path": "_ZenlessZoneZero/ZZZ_Miyabi.zip",
+      "type": "zip",
+      "stem": "ZZZ_Miyabi"
+    },
+    "ZZZ_Nekomiya-Mana": {
+      "path": "_ZenlessZoneZero/ZZZ_Nekomiya-Mana.ysm",
+      "type": "ysm",
+      "stem": "ZZZ_Nekomiya-Mana"
+    },
+    "ZZZ_Soldier-11": {
+      "path": "_ZenlessZoneZero/ZZZ_Soldier-11.ysm",
+      "type": "ysm",
+      "stem": "ZZZ_Soldier-11"
+    },
+    "ZZZ_Vivian": {
+      "path": "_ZenlessZoneZero/ZZZ_Vivian.ysm",
+      "type": "ysm",
+      "stem": "ZZZ_Vivian"
+    },
+    "ZZZ_Zhu-Yuan": {
+      "path": "_ZenlessZoneZero/ZZZ_Zhu-Yuan.ysm",
+      "type": "ysm",
+      "stem": "ZZZ_Zhu-Yuan"
+    },
+    "万敌": {
+      "path": "Unknown/万敌.ysm",
+      "type": "ysm",
+      "stem": "万敌"
+    },
+    "三津レンジユ": {
+      "path": "Unknown/三津レンジユ.ysm",
+      "type": "ysm",
+      "stem": "三津レンジユ"
+    },
+    "东海帝皇": {
+      "path": "Unknown/东海帝皇.ysm",
+      "type": "ysm",
+      "stem": "东海帝皇"
+    },
+    "东海帝皇v1.11": {
+      "path": "Unknown/东海帝皇v1.11.ysm",
+      "type": "ysm",
+      "stem": "东海帝皇v1.11"
+    },
+    "乌尔比安": {
+      "path": "Unknown/乌尔比安.ysm",
+      "type": "ysm",
+      "stem": "乌尔比安"
+    },
+    "云茹": {
+      "path": "Unknown/云茹.zip",
+      "type": "zip",
+      "stem": "云茹"
+    },
+    "亚托莉": {
+      "path": "Unknown/亚托莉.ysm",
+      "type": "ysm",
+      "stem": "亚托莉"
+    },
+    "仲正一花": {
+      "path": "Unknown/仲正一花.ysm",
+      "type": "ysm",
+      "stem": "仲正一花"
+    },
+    "企鹅": {
+      "path": "Unknown/企鹅.ysm",
+      "type": "ysm",
+      "stem": "企鹅"
+    },
+    "修卡战斗员": {
+      "path": "Unknown/修卡战斗员.ysm",
+      "type": "ysm",
+      "stem": "修卡战斗员"
+    },
+    "兰音JK1.2": {
+      "path": "Unknown/兰音JK1.2.ysm",
+      "type": "ysm",
+      "stem": "兰音JK1.2"
+    },
+    "军士长炸弹森": {
+      "path": "Unknown/军士长炸弹森.ysm",
+      "type": "ysm",
+      "stem": "军士长炸弹森"
+    },
+    "军士长炸弹森(zip-ver)": {
+      "path": "Unknown/军士长炸弹森(zip-ver).zip",
+      "type": "zip",
+      "stem": "军士长炸弹森(zip-ver)"
+    },
+    "列克星敦_Free": {
+      "path": "Unknown/列克星敦_Free.ysm",
+      "type": "ysm",
+      "stem": "列克星敦_Free"
+    },
+    "初音未来racingmiku ver.2010": {
+      "path": "Unknown/初音未来racingmiku ver.2010.ysm",
+      "type": "ysm",
+      "stem": "初音未来racingmiku ver.2010"
+    },
+    "初音未来racingmiku ver.2014(半成品)": {
+      "path": "Unknown/初音未来racingmiku ver.2014(半成品).ysm",
+      "type": "ysm",
+      "stem": "初音未来racingmiku ver.2014(半成品)"
+    },
+    "初音未来racingmiku ver.2020": {
+      "path": "Unknown/初音未来racingmiku ver.2020.ysm",
+      "type": "ysm",
+      "stem": "初音未来racingmiku ver.2020"
+    },
+    "初音未来racingmiku ver.2022": {
+      "path": "Unknown/初音未来racingmiku ver.2022.ysm",
+      "type": "ysm",
+      "stem": "初音未来racingmiku ver.2022"
+    },
+    "初音未来sweetdevil(半成品)": {
+      "path": "Unknown/初音未来sweetdevil(半成品).ysm",
+      "type": "ysm",
+      "stem": "初音未来sweetdevil(半成品)"
+    },
+    "初音未来公式服": {
+      "path": "Unknown/初音未来公式服.ysm",
+      "type": "ysm",
+      "stem": "初音未来公式服"
+    },
+    "化学防害上尉": {
+      "path": "Unknown/化学防害上尉.ysm",
+      "type": "ysm",
+      "stem": "化学防害上尉"
+    },
+    "化学防害上尉(zip-ver)": {
+      "path": "Unknown/化学防害上尉(zip-ver).zip",
+      "type": "zip",
+      "stem": "化学防害上尉(zip-ver)"
+    },
+    "千姬-常服": {
+      "path": "Unknown/千姬-常服.zip",
+      "type": "zip",
+      "stem": "千姬-常服"
+    },
+    "卡莉": {
+      "path": "Unknown/卡莉.ysm",
+      "type": "ysm",
+      "stem": "卡莉"
+    },
+    "吹雪_Free": {
+      "path": "Unknown/吹雪_Free.ysm",
+      "type": "ysm",
+      "stem": "吹雪_Free"
+    },
+    "唯-常服": {
+      "path": "Unknown/唯-常服.zip",
+      "type": "zip",
+      "stem": "唯-常服"
+    },
+    "园丁原皮": {
+      "path": "Unknown/园丁原皮.ysm",
+      "type": "ysm",
+      "stem": "园丁原皮"
+    },
+    "园丁原皮2": {
+      "path": "Unknown/园丁原皮2.ysm",
+      "type": "ysm",
+      "stem": "园丁原皮2"
+    },
+    "坐忘道": {
+      "path": "Unknown/坐忘道.ysm",
+      "type": "ysm",
+      "stem": "坐忘道"
+    },
+    "埃佩鲁1.0": {
+      "path": "Unknown/埃佩鲁1.0.ysm",
+      "type": "ysm",
+      "stem": "埃佩鲁1.0"
+    },
+    "基林_Free": {
+      "path": "Unknown/基林_Free.ysm",
+      "type": "ysm",
+      "stem": "基林_Free"
+    },
+    "天音祈": {
+      "path": "Unknown/天音祈.ysm",
+      "type": "ysm",
+      "stem": "天音祈"
+    },
+    "奈亚子": {
+      "path": "Unknown/奈亚子.ysm",
+      "type": "ysm",
+      "stem": "奈亚子"
+    },
+    "奈奈莉娅v1.1": {
+      "path": "Unknown/奈奈莉娅v1.1.ysm",
+      "type": "ysm",
+      "stem": "奈奈莉娅v1.1"
+    },
+    "奶龙": {
+      "path": "Unknown/奶龙.ysm",
+      "type": "ysm",
+      "stem": "奶龙"
+    },
+    "奶龙 for ysm 2.4.1": {
+      "path": "Unknown/奶龙 for ysm 2.4.1.ysm",
+      "type": "ysm",
+      "stem": "奶龙 for ysm 2.4.1"
+    },
+    "宇航员酒狐（解压使用）": {
+      "path": "Unknown/宇航员酒狐（解压使用）.zip",
+      "type": "zip",
+      "stem": "宇航员酒狐（解压使用）"
+    },
+    "审判鸟": {
+      "path": "Unknown/审判鸟.ysm",
+      "type": "ysm",
+      "stem": "审判鸟"
+    },
+    "小暗": {
+      "path": "Unknown/小暗.ysm",
+      "type": "ysm",
+      "stem": "小暗"
+    },
+    "巧克力": {
+      "path": "Unknown/巧克力.ysm",
+      "type": "ysm",
+      "stem": "巧克力"
+    },
+    "希儿·秋霜百合v2.7": {
+      "path": "Unknown/希儿·秋霜百合v2.7.ysm",
+      "type": "ysm",
+      "stem": "希儿·秋霜百合v2.7"
+    },
+    "强击": {
+      "path": "Unknown/强击.ysm",
+      "type": "ysm",
+      "stem": "强击"
+    },
+    "征酱（酒狐动画）": {
+      "path": "Unknown/征酱（酒狐动画）.ysm",
+      "type": "ysm",
+      "stem": "征酱（酒狐动画）"
+    },
+    "征酱（默认模型动画)": {
+      "path": "Unknown/征酱（默认模型动画).ysm",
+      "type": "ysm",
+      "stem": "征酱（默认模型动画)"
+    },
+    "恐怖机器人1.1": {
+      "path": "Unknown/恐怖机器人1.1.ysm",
+      "type": "ysm",
+      "stem": "恐怖机器人1.1"
+    },
+    "悠鲤": {
+      "path": "Unknown/悠鲤.ysm",
+      "type": "ysm",
+      "stem": "悠鲤"
+    },
+    "扶桑全年龄版2.4.9": {
+      "path": "Unknown/扶桑全年龄版2.4.9.ysm",
+      "type": "ysm",
+      "stem": "扶桑全年龄版2.4.9"
+    },
+    "扶桑全年龄版2.5.2": {
+      "path": "Unknown/扶桑全年龄版2.5.2.ysm",
+      "type": "ysm",
+      "stem": "扶桑全年龄版2.5.2"
+    },
+    "折原露露·经典": {
+      "path": "Unknown/折原露露·经典.ysm",
+      "type": "ysm",
+      "stem": "折原露露·经典"
+    },
+    "拇指-东部指挥官": {
+      "path": "Unknown/拇指-东部指挥官.ysm",
+      "type": "ysm",
+      "stem": "拇指-东部指挥官"
+    },
+    "早稻叽": {
+      "path": "Unknown/早稻叽.ysm",
+      "type": "ysm",
+      "stem": "早稻叽"
+    },
+    "昔涟_0.1": {
+      "path": "Unknown/昔涟_0.1.ysm",
+      "type": "ysm",
+      "stem": "昔涟_0.1"
+    },
+    "昔涟_0.2": {
+      "path": "Unknown/昔涟_0.2.ysm",
+      "type": "ysm",
+      "stem": "昔涟_0.2"
+    },
+    "星咲": {
+      "path": "Unknown/星咲.ysm",
+      "type": "ysm",
+      "stem": "星咲"
+    },
+    "春日椿_Free": {
+      "path": "Unknown/春日椿_Free.ysm",
+      "type": "ysm",
+      "stem": "春日椿_Free"
+    },
+    "普拉娜": {
+      "path": "Unknown/普拉娜.ysm",
+      "type": "ysm",
+      "stem": "普拉娜"
+    },
+    "朱诺": {
+      "path": "Unknown/朱诺.zip",
+      "type": "zip",
+      "stem": "朱诺"
+    },
+    "朱诺-常服": {
+      "path": "Unknown/朱诺-常服.zip",
+      "type": "zip",
+      "stem": "朱诺-常服"
+    },
+    "枪手-凤凰战士": {
+      "path": "Unknown/枪手-凤凰战士.ysm",
+      "type": "ysm",
+      "stem": "枪手-凤凰战士"
+    },
+    "枪手-凤凰战士(zip-ver)": {
+      "path": "Unknown/枪手-凤凰战士(zip-ver).zip",
+      "type": "zip",
+      "stem": "枪手-凤凰战士(zip-ver)"
+    },
+    "格兰尼-常服": {
+      "path": "Unknown/格兰尼-常服.zip",
+      "type": "zip",
+      "stem": "格兰尼-常服"
+    },
+    "格琳娜": {
+      "path": "Unknown/格琳娜.zip",
+      "type": "zip",
+      "stem": "格琳娜"
+    },
+    "格蕾修-画蓝缀星1_1": {
+      "path": "Unknown/格蕾修-画蓝缀星1_1.ysm",
+      "type": "ysm",
+      "stem": "格蕾修-画蓝缀星1_1"
+    },
+    "格蕾酱": {
+      "path": "Unknown/格蕾酱.ysm",
+      "type": "ysm",
+      "stem": "格蕾酱"
+    },
+    "桂": {
+      "path": "Unknown/桂.ysm",
+      "type": "ysm",
+      "stem": "桂"
+    },
+    "桑丘": {
+      "path": "Unknown/桑丘.ysm",
+      "type": "ysm",
+      "stem": "桑丘"
+    },
+    "梦境大耳狗": {
+      "path": "Unknown/梦境大耳狗.ysm",
+      "type": "ysm",
+      "stem": "梦境大耳狗"
+    },
+    "梦音茶糯": {
+      "path": "Unknown/梦音茶糯.ysm",
+      "type": "ysm",
+      "stem": "梦音茶糯"
+    },
+    "椰子": {
+      "path": "Unknown/椰子.ysm",
+      "type": "ysm",
+      "stem": "椰子"
+    },
+    "樱羽艾玛": {
+      "path": "Unknown/樱羽艾玛.ysm",
+      "type": "ysm",
+      "stem": "樱羽艾玛"
+    },
+    "水无月时雨": {
+      "path": "Unknown/水无月时雨.ysm",
+      "type": "ysm",
+      "stem": "水无月时雨"
+    },
+    "水无月时雨_1": {
+      "path": "Unknown/水无月时雨_1.ysm",
+      "type": "ysm",
+      "stem": "水无月时雨_1"
+    },
+    "法军侦察兵": {
+      "path": "Unknown/法军侦察兵.zip",
+      "type": "zip",
+      "stem": "法军侦察兵"
+    },
+    "法军支援兵": {
+      "path": "Unknown/法军支援兵.zip",
+      "type": "zip",
+      "stem": "法军支援兵"
+    },
+    "泠鸢JK": {
+      "path": "Unknown/泠鸢JK.ysm",
+      "type": "ysm",
+      "stem": "泠鸢JK"
+    },
+    "波斯特·猫神1.0": {
+      "path": "Unknown/波斯特·猫神1.0.ysm",
+      "type": "ysm",
+      "stem": "波斯特·猫神1.0"
+    },
+    "泥岩_砾瓦1.5.2": {
+      "path": "Unknown/泥岩_砾瓦1.5.2.ysm",
+      "type": "ysm",
+      "stem": "泥岩_砾瓦1.5.2"
+    },
+    "泥岩_静谧午夜": {
+      "path": "Unknown/泥岩_静谧午夜.ysm",
+      "type": "ysm",
+      "stem": "泥岩_静谧午夜"
+    },
+    "泥岩原皮ny": {
+      "path": "Unknown/泥岩原皮ny.ysm",
+      "type": "ysm",
+      "stem": "泥岩原皮ny"
+    },
+    "泥岩黑曜石": {
+      "path": "Unknown/泥岩黑曜石.ysm",
+      "type": "ysm",
+      "stem": "泥岩黑曜石"
+    },
+    "洛可可-常服": {
+      "path": "Unknown/洛可可-常服.zip",
+      "type": "zip",
+      "stem": "洛可可-常服"
+    },
+    "洛可可-常服0.6 采用协议CC BY-NC-SA 4.0": {
+      "path": "Unknown/洛可可-常服0.6 采用协议CC BY-NC-SA 4.0.zip",
+      "type": "zip",
+      "stem": "洛可可-常服0.6 采用协议CC BY-NC-SA 4.0"
+    },
+    "洛可可-常服0.8(原版，女仆适配)": {
+      "path": "Unknown/洛可可-常服0.8(原版，女仆适配).zip",
+      "type": "zip",
+      "stem": "洛可可-常服0.8(原版，女仆适配)"
+    },
+    "浠Mizuki(G)": {
+      "path": "Unknown/浠Mizuki(G).ysm",
+      "type": "ysm",
+      "stem": "浠Mizuki(G)"
+    },
+    "爱丽丝": {
+      "path": "Unknown/爱丽丝.ysm",
+      "type": "ysm",
+      "stem": "爱丽丝"
+    },
+    "独角兽": {
+      "path": "Unknown/独角兽.ysm",
+      "type": "ysm",
+      "stem": "独角兽"
+    },
+    "瘟疫使者-CT": {
+      "path": "Unknown/瘟疫使者-CT.ysm",
+      "type": "ysm",
+      "stem": "瘟疫使者-CT"
+    },
+    "穆小泠2.0": {
+      "path": "Unknown/穆小泠2.0.ysm",
+      "type": "ysm",
+      "stem": "穆小泠2.0"
+    },
+    "笑面教授": {
+      "path": "Unknown/笑面教授.ysm",
+      "type": "ysm",
+      "stem": "笑面教授"
+    },
+    "红2.0": {
+      "path": "Unknown/红2.0.ysm",
+      "type": "ysm",
+      "stem": "红2.0"
+    },
+    "绫濑桃": {
+      "path": "Unknown/绫濑桃.ysm",
+      "type": "ysm",
+      "stem": "绫濑桃"
+    },
+    "舰队Collection山风v1.0": {
+      "path": "Unknown/舰队Collection山风v1.0.ysm",
+      "type": "ysm",
+      "stem": "舰队Collection山风v1.0"
+    },
+    "舰队Collection山风v1.0无报时版": {
+      "path": "Unknown/舰队Collection山风v1.0无报时版.ysm",
+      "type": "ysm",
+      "stem": "舰队Collection山风v1.0无报时版"
+    },
+    "舰队Collection山风v1.1": {
+      "path": "Unknown/舰队Collection山风v1.1.ysm",
+      "type": "ysm",
+      "stem": "舰队Collection山风v1.1"
+    },
+    "舰队Collection山风v1.1无报时版": {
+      "path": "Unknown/舰队Collection山风v1.1无报时版.ysm",
+      "type": "ysm",
+      "stem": "舰队Collection山风v1.1无报时版"
+    },
+    "艾莲乔": {
+      "path": "Unknown/艾莲乔.ysm",
+      "type": "ysm",
+      "stem": "艾莲乔"
+    },
+    "花嫁酒狐": {
+      "path": "Unknown/花嫁酒狐.zip",
+      "type": "zip",
+      "stem": "花嫁酒狐"
+    },
+    "草莓": {
+      "path": "Unknown/草莓.ysm",
+      "type": "ysm",
+      "stem": "草莓"
+    },
+    "草莓_1": {
+      "path": "Unknown/草莓_1.ysm",
+      "type": "ysm",
+      "stem": "草莓_1"
+    },
+    "萤火虫_Free": {
+      "path": "Unknown/萤火虫_Free.ysm",
+      "type": "ysm",
+      "stem": "萤火虫_Free"
+    },
+    "萨拉托加_Free": {
+      "path": "Unknown/萨拉托加_Free.ysm",
+      "type": "ysm",
+      "stem": "萨拉托加_Free"
+    },
+    "诺艾儿": {
+      "path": "Unknown/诺艾儿.ysm",
+      "type": "ysm",
+      "stem": "诺艾儿"
+    },
+    "赞达尔•壹•桑原ysm2.4.1": {
+      "path": "Unknown/赞达尔•壹•桑原ysm2.4.1.ysm",
+      "type": "ysm",
+      "stem": "赞达尔•壹•桑原ysm2.4.1"
+    },
+    "赞达尔•壹•桑原ysm2.5.1": {
+      "path": "Unknown/赞达尔•壹•桑原ysm2.5.1.ysm",
+      "type": "ysm",
+      "stem": "赞达尔•壹•桑原ysm2.5.1"
+    },
+    "足立レイ女仆装(半成品)": {
+      "path": "Unknown/足立レイ女仆装(半成品).ysm",
+      "type": "ysm",
+      "stem": "足立レイ女仆装(半成品)"
+    },
+    "足立零重置版pro max plus ultra": {
+      "path": "Unknown/足立零重置版pro max plus ultra.ysm",
+      "type": "ysm",
+      "stem": "足立零重置版pro max plus ultra"
+    },
+    "远旅": {
+      "path": "Unknown/远旅.ysm",
+      "type": "ysm",
+      "stem": "远旅"
+    },
+    "远旅(旧)": {
+      "path": "Unknown/远旅(旧).ysm",
+      "type": "ysm",
+      "stem": "远旅(旧)"
+    },
+    "远旅1": {
+      "path": "Unknown/远旅1.ysm",
+      "type": "ysm",
+      "stem": "远旅1"
+    },
+    "逢坂大河": {
+      "path": "Unknown/逢坂大河.ysm",
+      "type": "ysm",
+      "stem": "逢坂大河"
+    },
+    "重装战姬爱塔V1.0": {
+      "path": "Unknown/重装战姬爱塔V1.0.zip",
+      "type": "zip",
+      "stem": "重装战姬爱塔V1.0"
+    },
+    "铁锤坦克娘_Free": {
+      "path": "Unknown/铁锤坦克娘_Free.ysm",
+      "type": "ysm",
+      "stem": "铁锤坦克娘_Free"
+    },
+    "铸铁重置版": {
+      "path": "Unknown/铸铁重置版.ysm",
+      "type": "ysm",
+      "stem": "铸铁重置版"
+    },
+    "长门": {
+      "path": "Unknown/长门.ysm",
+      "type": "ysm",
+      "stem": "长门"
+    },
+    "阿消1.0": {
+      "path": "Unknown/阿消1.0.ysm",
+      "type": "ysm",
+      "stem": "阿消1.0"
+    },
+    "阿消1.1": {
+      "path": "Unknown/阿消1.1.ysm",
+      "type": "ysm",
+      "stem": "阿消1.1"
+    },
+    "阿消1.12": {
+      "path": "Unknown/阿消1.12.ysm",
+      "type": "ysm",
+      "stem": "阿消1.12"
+    },
+    "雨试玩版-hotfix": {
+      "path": "Unknown/雨试玩版-hotfix.ysm",
+      "type": "ysm",
+      "stem": "雨试玩版-hotfix"
+    },
+    "雪狐桑": {
+      "path": "Unknown/雪狐桑.ysm",
+      "type": "ysm",
+      "stem": "雪狐桑"
+    },
+    "雪风v2.0": {
+      "path": "Unknown/雪风v2.0.ysm",
+      "type": "ysm",
+      "stem": "雪风v2.0"
+    },
+    "霜狐2.0": {
+      "path": "Unknown/霜狐2.0.ysm",
+      "type": "ysm",
+      "stem": "霜狐2.0"
+    },
+    "霜狐[泳装]": {
+      "path": "Unknown/霜狐[泳装].ysm",
+      "type": "ysm",
+      "stem": "霜狐[泳装]"
+    },
+    "风堇": {
+      "path": "Unknown/风堇.ysm",
+      "type": "ysm",
+      "stem": "风堇"
+    },
+    "高奈利亚-常服": {
+      "path": "Unknown/高奈利亚-常服.zip",
+      "type": "zip",
+      "stem": "高奈利亚-常服"
+    },
+    "高奈利亚-常服 (2)": {
+      "path": "Unknown/高奈利亚-常服 (2).zip",
+      "type": "zip",
+      "stem": "高奈利亚-常服 (2)"
+    },
+    "高奈利亚-常服0.7(原版动画适配完成) 采用协议CC BY-NC-SA 4.0": {
+      "path": "Unknown/高奈利亚-常服0.7(原版动画适配完成) 采用协议CC BY-NC-SA 4.0.zip",
+      "type": "zip",
+      "stem": "高奈利亚-常服0.7(原版动画适配完成) 采用协议CC BY-NC-SA 4.0"
+    },
+    "高奈利亚-常服0.8(原版，女仆动画适配完成) 采用协议CC BY-NC-SA 4.0": {
+      "path": "Unknown/高奈利亚-常服0.8(原版，女仆动画适配完成) 采用协议CC BY-NC-SA 4.0.zip",
+      "type": "zip",
+      "stem": "高奈利亚-常服0.8(原版，女仆动画适配完成) 采用协议CC BY-NC-SA 4.0"
+    },
+    "魔法酒狐V3.1": {
+      "path": "Unknown/魔法酒狐V3.1.ysm",
+      "type": "ysm",
+      "stem": "魔法酒狐V3.1"
+    },
+    "魔法酒狐V4.3": {
+      "path": "Unknown/魔法酒狐V4.3.ysm",
+      "type": "ysm",
+      "stem": "魔法酒狐V4.3"
+    },
+    "魔法酒狐V4.4": {
+      "path": "Unknown/魔法酒狐V4.4.ysm",
+      "type": "ysm",
+      "stem": "魔法酒狐V4.4"
+    },
+    "鸿园的君主-鸿璐": {
+      "path": "Unknown/鸿园的君主-鸿璐.ysm",
+      "type": "ysm",
+      "stem": "鸿园的君主-鸿璐"
+    },
+    "鹿管": {
+      "path": "Unknown/鹿管.ysm",
+      "type": "ysm",
+      "stem": "鹿管"
+    },
+    "鹿管2.0": {
+      "path": "Unknown/鹿管2.0.ysm",
+      "type": "ysm",
+      "stem": "鹿管2.0"
+    },
+    "黎歌3.0": {
+      "path": "Unknown/黎歌3.0.ysm",
+      "type": "ysm",
+      "stem": "黎歌3.0"
+    },
+    "黎歌国风款": {
+      "path": "Unknown/黎歌国风款.ysm",
+      "type": "ysm",
+      "stem": "黎歌国风款"
+    },
+    "黑兽-浮士德": {
+      "path": "Unknown/黑兽-浮士德.ysm",
+      "type": "ysm",
+      "stem": "黑兽-浮士德"
+    }
+  }
+}

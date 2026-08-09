@@ -1,0 +1,376 @@
+{
+  "id": "Touhou_Flandre_3",
+  "path": "parsed/Touhou_Flandre_3",
+  "source": {
+    "path": "_TouhouProject/Touhou_Flandre_3.ysm",
+    "type": "ysm",
+    "stem": "Touhou_Flandre_3"
+  },
+  "ysm": "parsed/Touhou_Flandre_3/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/墓野奈奈.png",
+        "comment": "别乱用,如果要用到服务器记得私信一下，不授权网易，不准商用",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/269519870?spm_id_from=333.1007.0.0",
+          "QQ": "3194755414"
+        },
+        "name": "墓野奈奈",
+        "role": "模型+动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "name": "芙兰朵露",
+    "tips": "§l§4绯红的吸血鬼\n§l版本v1.0\n§e .感谢映素项目在特效上面的支持（请多多支持映素）\n§e .免费模型禁止倒卖\n§e .水晶和帽子的基础物理效果\n§e .基础动作适配以及更改\n§e .多种自定义外观配件\n§e .多种自定义表情\n§e .多种特殊攻击动画\n§e .多段攻击动画\n§e .独特武器模型\n§e .独特箭矢模型\n§e .独特攻击音效\n§e .女仆特殊动画\n§e .多种轮盘动画\n\n§4 .部分动画和轮盘动画有嘴部动画，请大部分时间使用闭着嘴巴的表情\n§4 .不得允许，不能私自使用该模型\n§4 .不授权网易"
+  },
+  "properties": {
+    "width_scale": 0.9,
+    "height_scale": 0.9,
+    "extra_animation": {
+      "extra0": "#外观",
+      "extra1": "#脸部表情",
+      "extra2": "抱熊玩偶",
+      "extra3": "狂笑",
+      "extra4": "奇异姿势",
+      "extra5": "疑惑（推荐带墨镜食用）",
+      "extra6": "自由自在，尽情摇摆",
+      "extra7": "Toca Toca",
+      "extra8": "眩晕",
+      "extra9": "靠墙抱臂",
+      "extra10": "林间小息"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "外观",
+        "name": "§l§e外观§c配置",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "头饰",
+            "description": "4种类型",
+            "value": "v.roaming.hat",
+            "labels": {
+              "经典款": "v.roaming.hat=0;",
+              "§e万圣节": "v.roaming.hat=1;",
+              "§4军帽": "v.roaming.hat=2;",
+              "§c中式头饰": "v.roaming.hat=3;",
+              "无": "v.roaming.hat=4;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "手部服饰",
+            "description": "3种类型",
+            "value": "v.roaming.arm",
+            "labels": {
+              "经典款": "v.roaming.arm=0;",
+              "§e万圣节": "v.roaming.arm=1;",
+              "§4军服": "v.roaming.arm=2;",
+              "无": "v.roaming.arm=3;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "衣服",
+            "description": "4种类型",
+            "value": "v.roaming.cloth",
+            "labels": {
+              "经典款": "v.roaming.cloth=0;",
+              "§e万圣节": "v.roaming.cloth=1;",
+              "§4军服": "v.roaming.cloth=2;",
+              "§c中式服饰": "v.roaming.cloth=3;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "裙子",
+            "description": "3种类型",
+            "value": "v.roaming.dress",
+            "labels": {
+              "经典款": "v.roaming.dress=0;",
+              "§e万圣节": "v.roaming.dress=1;",
+              "§4双层": "v.roaming.dress=2;",
+              "无": "v.roaming.dress=3;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "袜子",
+            "description": "三种类型",
+            "value": "v.roaming.sock",
+            "labels": {
+              "无": "v.roaming.sock=0;",
+              "经典款": "v.roaming.sock=1;",
+              "§e万圣节": "v.roaming.sock=2;",
+              "长筒袜": "v.roaming.sock=3;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "鞋子",
+            "description": "2种类型",
+            "value": "v.roaming.shoes",
+            "labels": {
+              "经典款": "v.roaming.shoes=0;",
+              "长靴": "v.roaming.shoes=1;"
+            }
+          },
+          {
+            "type": "checkbox",
+            "title": "手套",
+            "description": "手套",
+            "value": "v.roaming.glove"
+          }
+        ]
+      },
+      {
+        "id": "脸部表情",
+        "name": "§l§e其他§c配置",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "睫毛类型",
+            "description": "3种类型",
+            "value": "v.roaming.eyebrow",
+            "labels": {
+              "(=ヘ=)": "v.roaming.eyebrow=0;",
+              "(◣ヘ◢)": "v.roaming.eyebrow=1;",
+              "(￣ヘ￣)": "v.roaming.eyebrow=2;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "嘴部表情",
+            "description": "9种嘴型",
+            "value": "v.roaming.mouth",
+            "labels": {
+              "(￣ヘ￣)": "v.roaming.mouth=0;",
+              "(=ࡇ=)": "v.roaming.mouth=1;",
+              "(￣v￣)": "v.roaming.mouth=2;",
+              "(￣σ￣)": "v.roaming.mouth=3;",
+              "(￣~￣)": "v.roaming.mouth=4;",
+              "(￣∇￣)": "v.roaming.mouth=5;",
+              "(￣-￣)": "v.roaming.mouth=6;",
+              "(￣o￣)": "v.roaming.mouth=7;",
+              "(￣ω￣)": "v.roaming.mouth=8;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "剑特殊武器模型替换",
+            "description": "剑特殊武器模型替换",
+            "value": "v.roaming.sword_model_switch",
+            "labels": {
+              "无": "v.roaming.sword_model_switch=0;",
+              "下界合金剑": "v.roaming.sword_model_switch=1;",
+              "常态显示": "v.roaming.sword_model_switch=2;"
+            }
+          },
+          {
+            "type": "checkbox",
+            "title": "眼睛高光",
+            "description": "眼睛高光",
+            "value": "v.roaming.dot"
+          },
+          {
+            "type": "checkbox",
+            "title": "腮红",
+            "description": "腮红",
+            "value": "v.roaming.saihong"
+          },
+          {
+            "type": "checkbox",
+            "title": "墨镜",
+            "description": "墨镜",
+            "value": "v.roaming.sunglasses"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Touhou_Flandre_3_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10186,
+      "sha256": "6a8e80023206acdf623ef9784d3ee93484e37e540ebade1758d756b2181ee959"
+    }
+  },
+  "stats": {
+    "file_count": 22,
+    "total_bytes": 5287351,
+    "sha256": "68be80a88517ec9ae11882bbef5028f9c73d66a1bc737b3d5e7c4244f46e9d01",
+    "bones": 479,
+    "cubes": 2775,
+    "faces": 16650,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 269512,
+      "sha256": "cc93c9f5f93887a109ef97cffaf09dc73c25f6352ef7e568d5a63a20f2001e8d"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1685,
+      "sha256": "bc7398869aee6f915bc3dc78325ffc1418cce9b4f8fbbe99a40ca871abf21c9c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2281,
+      "sha256": "a7a8167dcd8225224ebc420cf510e6c5294d0e80a3d44f9cfcff38dc9ccaabf7"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 242637,
+      "sha256": "28286ad1a02a39de856b2ea71495cad15bfd359947ebbc97e37705182032e4f1"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 367313,
+      "sha256": "fefd5cf668fe722eb265246e48ef9373b5206d1790cd3ed101d1e3f4fde3e40b"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023855,
+      "sha256": "86da073d36daff463c382566bd91c4a6b8427ab1cfd223088a4b51343c6be1ab"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 184053,
+      "sha256": "c719273f6706a185a9cd5c07887ab89120e22884a8fa0e8563582676716d30cd"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 62981,
+      "sha256": "ac7252f4da70c4d89272248f3c191f1a1a1860c9612fecb39225d08f01cb8cf7"
+    },
+    {
+      "path": "avatar/墓野奈奈.png",
+      "size": 43318,
+      "sha256": "b031eef0eecdb32d89b7943905446b1033b3fa9113263206f2e14ff53d4ba668"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 3436,
+      "sha256": "7a94fa521f223df4fd24526c9625dd35e7bb064055b907c9fe432ea5d5044d6f"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 51914,
+      "sha256": "ec89275d68dd7f2bb6b63ab77e41e3efc8344e07b271d6c94c09ca21908d8a3c"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 3140,
+      "sha256": "7c2d0c6624ca9d52487026fec9c45f8c234b80385a6774758929b4d7fa886285"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1472990,
+      "sha256": "0637a6afc804e7cbb27f3cad6d9804ddda9f03f4a02b1370d4fc4db9c900970e"
+    },
+    {
+      "path": "sounds/Break.ogg",
+      "size": 118522,
+      "sha256": "f4af9ca95c59ec997163e9caa680108f93f88ef8186bf4dc00d43f41a2418325"
+    },
+    {
+      "path": "sounds/FireAttack.ogg",
+      "size": 64907,
+      "sha256": "ed38df2385410a36b8e94db810bb98e138e545a8e6071c2fb7e0eddbe3c45e0f"
+    },
+    {
+      "path": "sounds/HugeFireAttack.ogg",
+      "size": 76928,
+      "sha256": "ea5335e40bd9709410b6071595cee5d0ee2add129ecb98dff30807f99bc92819"
+    },
+    {
+      "path": "sounds/SwingSword.ogg",
+      "size": 10294,
+      "sha256": "e4cce13ef94c48891805216fe9be4bbedf8af87aae1a4f4b0f8ef4cb90ba39b4"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 906,
+      "sha256": "441e5cd23638ebb1678210a038d4675a132f23b63c0c641bc95eb8cd8dc23a23"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 101924,
+      "sha256": "702204cde43ce510fd9a592924e06c8919c1c8dea1fc929a0d21d2227005c8f7"
+    },
+    {
+      "path": "ysm.json",
+      "size": 5033,
+      "sha256": "875826eb43a3f1aa8afd05cd2b7e80b9b5ab6985274c9fcbc31aa885f121b387"
+    }
+  ]
+}

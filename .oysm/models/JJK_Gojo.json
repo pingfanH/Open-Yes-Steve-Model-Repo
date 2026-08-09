@@ -1,0 +1,232 @@
+{
+  "id": "JJK_Gojo",
+  "path": "parsed/JJK_Gojo",
+  "source": {
+    "path": "_JujutsuKaisen/JJK_Gojo.ysm",
+    "type": "ysm",
+    "stem": "JJK_Gojo"
+  },
+  "ysm": "parsed/JJK_Gojo/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/Muscat.png",
+        "comment": "bingchiling",
+        "contact": {
+          "Ko-fi": "https://ko-fi.com/muscatstudios"
+        },
+        "name": "Muscat",
+        "role": "筋肉"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://ko-fi.com/muscatstudios"
+    },
+    "name": "Gojo",
+    "tips": "NAH I'D WIN"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "#extra_classify": "Extra Classify"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "Simple Config",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/JJK_Gojo_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7246,
+      "sha256": "a25675f5ee9406500cff8dbe893021cb192a0d927110db760d5f78da098a1035"
+    }
+  },
+  "stats": {
+    "file_count": 18,
+    "total_bytes": 3164178,
+    "sha256": "31bbe50bfc2f5c1f229b20cb1b5b7c3f5825f785318d24bf021f96b78782b816",
+    "bones": 100,
+    "cubes": 411,
+    "faces": 1349,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178382,
+      "sha256": "7b9e1f547d892691c5f15579cd1b50b6d40b20a6dc630a76a2e1be85accb584d"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2267,
+      "sha256": "4a8bad6519444ef1e8eed27237c7f348c10ea2ce70a2de8d5ad0d1272eef6cd9"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 109004,
+      "sha256": "ba1e5d1d0e30fc7cec4337358c630cf4f7c89f986f3a98b261c424bd3aecd477"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 194791,
+      "sha256": "52f913a313b9e690c7a1e6d1c8edc1a3d218aa0c01e00de4801cea72332854b8"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139811,
+      "sha256": "8ee0d4ada8be5a194bfcdf4a82a332e4287ac7c0543d49485627df4cdf327a07"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2022851,
+      "sha256": "88fb179ede74bf06da7da4e804f3f78b98563bf3dd9227da0b2a2fab7aeddd02"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "3bf4cf381774a7915509d0afb99dda302ef3d03eb551870dbeaee8bd908ca8b7"
+    },
+    {
+      "path": "avatar/Muscat.png",
+      "size": 34084,
+      "sha256": "e1959b4e0e9f80c4e96386282b1d374deb0b59dd4952a9135c2a47d4f2060ecf"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 617,
+      "sha256": "58a5a4f99a17e863505e5d985c5342fafccf53eeb5799a572dff4156086be4ad"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 28900,
+      "sha256": "6fc69bed48e27088279bd4653c9d2b45d3384c20e116c90aebafc5b44b47c00f"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13725,
+      "sha256": "605fc04a716cfd12d30b5d6fb5d6db461504bd2f8da602fe078a4f57b4d71c71"
+    },
+    {
+      "path": "models/main.json",
+      "size": 149076,
+      "sha256": "79bc1646536fdb875992fbf0e1a8048194454e43f1b2f3063b4b692df0c0b88d"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2686,
+      "sha256": "197669635bbf7b8cf8892b6912e428c92c66aac37ea2d3f1a174c9a04b2b64f6"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 13545,
+      "sha256": "1697fbd79a47ef4715bd7175c523e9c72a9b66cbb132331372a0e2a218e182f9"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1750,
+      "sha256": "25b9aaa7037346d890e026d8e89f72b31c41c626bdb5f44e4bf699814dede00c"
+    }
+  ]
+}

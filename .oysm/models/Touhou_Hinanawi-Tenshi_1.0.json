@@ -1,0 +1,236 @@
+{
+  "id": "Touhou_Hinanawi-Tenshi_1.0",
+  "path": "parsed/Touhou_Hinanawi-Tenshi_1.0",
+  "source": {
+    "path": "_TouhouProject/Touhou_Hinanawi-Tenshi_1.0.ysm",
+    "type": "ysm",
+    "stem": "Touhou_Hinanawi-Tenshi_1.0"
+  },
+  "ysm": "parsed/Touhou_Hinanawi-Tenshi_1.0/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/★【宇宙影帝の终焉】.png",
+        "comment": "苦练BB",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/364412316",
+          "QQ": "3249851858"
+        },
+        "name": "★【宇宙影帝の终焉】",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "home": "https://space.bilibili.com/364412316"
+    },
+    "name": "比那名居天子",
+    "tips": "绯想一般远离浮世的天人\n本模型为免费分享但请勿商用！"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra9": "#extra_config",
+      "extra1": "打招呼",
+      "extra3": "肯定",
+      "extra13": "要石「天地開闢プレス」",
+      "extra14": "凭依华选择界面",
+      "extra11": "全人类都飞上天",
+      "extra12": "转圈圈",
+      "extra10": "人妖名鉴"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "凭依华登场",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "眼睛",
+            "description": "更换角色眼型",
+            "value": "v.value_eye",
+            "labels": {
+              "§f正常": "v.value_eye = 0; v.eye1 = 0;v.eye2 = 0;v.eye3 = 0;v.eye4 = 0;v.eye5 = 0;v.eye7 = 0",
+              "§f> <": "v.value_eye = 1; v.eye1 = 1;v.eye2 = 1;v.eye3 = -1;v.eye4 = -1;v.eye5 = 0;v.eye7 = 0",
+              "§f> O": "v.value_eye = 2; v.eye1 = 0;v.eye2 = 1;v.eye3 = 0;v.eye4 = -1;v.eye5 = 0;v.eye7 = 0",
+              "§fO <": "v.value_eye = 3; v.eye1 = 1;v.eye2 = 0;v.eye3 = -1;v.eye4 = 0;v.eye5 = 0;v.eye7 = 0",
+              "§f@ @": "v.value_eye = 4; v.eye1 = 1;v.eye2 = 1;v.eye3 = 0;v.eye4 = 0;v.eye5 = -1;v.eye7 = 0",
+              "§f墨镜": "v.value_eye = 5; v.eye1 = 0;v.eye2 = 0;v.eye3 = 0;v.eye4 = 0;v.eye5 = 0;v.eye7 = -1"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "嘴型",
+            "description": "更换角色嘴型",
+            "value": "v.value_mouth",
+            "labels": {
+              "§f無": "v.value_mouth = 0; v.mou1 = 0;v.mou2 = 0;v.mou3 = 0;v.mou4 = 0;v.mou5 = 0;v.mou6 = 0;v.mou7 = 0;v.eye6 = 0;v.eye8 = 0;v.eye9 = 0",
+              "§fw": "v.value_mouth = 1; v.mou1 = -1;v.mou2 = 0;v.mou3 = 0;v.mou4 = 0;v.mou5 = 0;v.mou6 = 0;v.mou7 = 0;v.eye6 = 0;v.eye8 = 0;v.eye9 = 0",
+              "§fw笑": "v.value_mouth = 2; v.mou1 = 0;v.mou2 = -1;v.mou3 = 0;v.mou4 = 0;v.mou5 = 0;v.mou6 = 0;v.mou7 = 0;v.eye6 = 0;v.eye8 = 0;v.eye9 = 0",
+              "§f小唐": "v.value_mouth = 3; v.mou1 = 0;v.mou2 = 0;v.mou3 = -1;v.mou4 = 0;v.mou5 = 0;v.mou6 = 0;v.mou7 = 0;v.eye6 = 0;v.mou31 = 1;v.eye8 = 0;v.eye9 = 0",
+              "§f大唐": "v.value_mouth = 4; v.mou1 = 0;v.mou2 = 0;v.mou3 = -1;v.mou4 = 0;v.mou5 = 0;v.mou6 = 0;v.mou7 = 0;v.eye6 = 0;v.mou31 = 1.5;v.eye8 = 0;v.eye9 = 0",
+              "§fsad": "v.value_mouth = 5; v.mou1 = 0;v.mou2 = 0;v.mou3 = 0;v.mou4 = -1;v.mou5 = 0;v.mou6 = 0;v.mou7 = 0;v.eye6 = -0.2;v.eye8 = 0;v.eye9 = 0",
+              "§f生气": "v.value_mouth = 6; v.mou1 = 0;v.mou2 = 0;v.mou3 = 0;v.mou4 = 0;v.mou5 = -1;v.mou6 = 0;v.mou7 = 0;v.eye6 = 0;v.eye8 = -10;v.eye9 = 10",
+              "§f∧": "v.value_mouth = 7; v.mou1 = 0;v.mou2 = 0;v.mou3 = 0;v.mou4 = 0;v.mou5 = 0;v.mou6 = -1;v.mou7 = 0;v.eye6 = 0;v.eye8 = -5;v.eye9 = 5",
+              "§f︶": "v.value_mouth = 8; v.mou1 = 0;v.mou2 = 0;v.mou3 = 0;v.mou4 = 0;v.mou5 = 0;v.mou6 = 0;v.mou7 = -1;v.eye6 = 0;v.eye8 = 0;v.eye9 = 0"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Touhou_Hinanawi-Tenshi_1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10495,
+      "sha256": "23becdf0d1b0b7bfcc1f066b1da1f15efb36cbec0db0da1cce6b108257664f0f"
+    }
+  },
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 1518333,
+    "sha256": "2aea952196164715c87374f1b3f6832201959a368bb84a1b8244003be31fca88",
+    "bones": 143,
+    "cubes": 410,
+    "faces": 2460,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 80143,
+      "sha256": "b24357dc38078cdbbe279752b456d4661fac0085af0bb429f10104e402672e03"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1039,
+      "sha256": "04bf49cbe1289610488bdb6996922ab25c558c817b231eb365a52b0ae414f36a"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 124585,
+      "sha256": "44a086b593d384187aa76478b98bfa23039e9fa209aec5822e5319ba387e9733"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 160466,
+      "sha256": "1e47bf6bd4eada18d9480aef97396caa64c26bbd93feb06eeee98904933f4593"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 111864,
+      "sha256": "e9689ea10508eefdd34819bd6c0fc0bf5328c0cebf69913f1840b654b9af303a"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 127742,
+      "sha256": "44bc9b2d1993f260f9fcb9f16377b1118fd5fcfbb1c0cb14a6eb6584dc0036ac"
+    },
+    {
+      "path": "avatar/★【宇宙影帝の终焉】.png",
+      "size": 32589,
+      "sha256": "87a27b454c615c0bb9aa312b5ce7d393d3bfd24164469a5458a4bbbb605cbd82"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 2908,
+      "sha256": "60fd297bc006c8fd9e55f0fbc94bda9eca26df624a8b022339accefe97415510"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 13635,
+      "sha256": "f42d7642c0b0cf0c1fb05dd5707ca917309c41c6aef33fbabd9049fe073f5c4f"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 7961,
+      "sha256": "5343a776638a7aedd267da54b6c97bd072a6a51536af076955e9abdeaf62e9bc"
+    },
+    {
+      "path": "models/main.json",
+      "size": 223269,
+      "sha256": "e084c1b19246f359d7db9feb3f83afef1b59044a61c045ebeb8ea9b04c1de6fe"
+    },
+    {
+      "path": "sounds/1.ogg",
+      "size": 598095,
+      "sha256": "c59250a7c919d98bf160a1bcf082cb85cb4b03b57841d84678f66ff37b5f2bef"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 3617,
+      "sha256": "5a49715fcbcd53ac381eebb9a94536f606f54073b2d3028ed473e091541e6f62"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 26659,
+      "sha256": "086305fdc3b7944d5802c72d3ee4d6e2b0e0c2baabb4ca6a50b8bb4a61e1d58e"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3761,
+      "sha256": "166f64aadb002a2b883fa1158f2605b3dde0aef2d6737b03e1174e1ec5cc2be2"
+    }
+  ]
+}

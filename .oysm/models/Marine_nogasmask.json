@@ -1,0 +1,84 @@
+{
+  "id": "Marine_nogasmask",
+  "path": "parsed/Marine_nogasmask",
+  "source": {
+    "path": "Uncategorized/Marine_nogasmask.zip",
+    "type": "zip",
+    "stem": "Marine_nogasmask"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Marine_nogasmask"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "123123.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Marine_nogasmask_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 18930,
+      "sha256": "162bd841049f81d334746c5e418fc0065e172560b99dceaa0d8cc09035ea9ac3"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 743217,
+    "sha256": "dcbacf8a50bae60d8394a06072447093f76d68bd7728cd9b024bd8502dba3ec2",
+    "bones": 76,
+    "cubes": 430,
+    "faces": 2580,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "123123.png",
+      "size": 166672,
+      "sha256": "8b6382bad09a8b92ee7cca680dc692421ce1201ee077a4ed7beeb7837d1060a6"
+    },
+    {
+      "path": "arm.json",
+      "size": 21390,
+      "sha256": "57fbf3fef2c571bb0ec07be2c78802c629072e159c3045c09a685b50dc341d64"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 143873,
+      "sha256": "4f6dfb40fb12dc2531b64b221097ea2b601a6b1dc23288a0d1a0d17a86d5823d"
+    },
+    {
+      "path": "main.json",
+      "size": 253265,
+      "sha256": "87f674ff44626594d7ef82e6b53b9cb900f1e102fa6fdd0cd7866dcc4e3a5c45"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 158017,
+      "sha256": "87f89948b53f2d189599109525654e4191755196624df21444ad6824d70af625"
+    }
+  ]
+}

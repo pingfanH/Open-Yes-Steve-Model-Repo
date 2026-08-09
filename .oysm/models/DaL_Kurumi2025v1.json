@@ -1,0 +1,96 @@
+{
+  "id": "DaL_Kurumi2025v1",
+  "path": "parsed/DaL_Kurumi2025v1",
+  "source": {
+    "path": "_DateALive/DaL_Kurumi2025v1.ysm",
+    "type": "ysm",
+    "stem": "DaL_Kurumi2025v1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "DaL_Kurumi2025v1"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "noclock.png",
+        "testtexture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/DaL_Kurumi2025v1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5701,
+      "sha256": "7d9928dedae634d8be8f38f282f87088db92a8f031493be2a55a0c7681115f4f"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 1674681,
+    "sha256": "9e69aa397b61241753e010e764ac6714c474b06a6974b3924c0b829ba7cddbc5",
+    "bones": 190,
+    "cubes": 1374,
+    "faces": 8244,
+    "textures": 2,
+    "materials": 2,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 14590,
+      "sha256": "f8d43bd95470cf1eb0c6f09c882bbe5882c699352a622fb9b2b438a868951f2f"
+    },
+    {
+      "path": "arm.json",
+      "size": 70107,
+      "sha256": "9d0cfb46cd102d0682a2c040a9765a0f78fc33317e15b06efdd87a4ed0c3615b"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 117109,
+      "sha256": "25f63f6312171c3d9b51c5fc8df8f7d50cda7caca7290eb5531eca693ca3d672"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 283958,
+      "sha256": "1abf6295005eed95714e59fd29207a9f32a0a38cf2a194510eaaed3473c6ae8b"
+    },
+    {
+      "path": "main.json",
+      "size": 734335,
+      "sha256": "e1a13a865a443d0c2ee9f3f5911b4129469e8a65cc828fedbc78413574f2486f"
+    },
+    {
+      "path": "noclock.png",
+      "size": 148316,
+      "sha256": "ab3fdded312ca5d8a64ce7e65d941daca3ed028ae5c87f3a251577545b52eb80"
+    },
+    {
+      "path": "testtexture.png",
+      "size": 306266,
+      "sha256": "3f11e2c7106fcd0a5b9196a508b2d1683c0bfa35583e3090e91a722bc64ec8aa"
+    }
+  ]
+}

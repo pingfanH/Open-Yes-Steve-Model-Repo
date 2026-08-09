@@ -1,0 +1,96 @@
+{
+  "id": "DDLC_yuri",
+  "path": "parsed/DDLC_yuri",
+  "source": {
+    "path": "_DokiDokiLiteratureClub/DDLC_yuri.zip",
+    "type": "zip",
+    "stem": "DDLC_yuri"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "DDLC_yuri"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "1.png",
+        "2.png",
+        "3.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/DDLC_yuri_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7438,
+      "sha256": "9b03ae8a2642f3f9082599cc0db6c5c2512657f5b91783724b579bcc0f177c33"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 447304,
+    "sha256": "bb4fb6b571f5f7dd41e4f23eb2836d4ffeb8bdec45689aee4cc402177ed7726c",
+    "bones": 76,
+    "cubes": 375,
+    "faces": 2250,
+    "textures": 3,
+    "materials": 3,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "1.png",
+      "size": 20757,
+      "sha256": "efa09a1b4e59d5182f9ccc4f277e2dea7ddf8d10a172363c42971b7d67fcc815"
+    },
+    {
+      "path": "2.png",
+      "size": 21478,
+      "sha256": "79eeff09978823839d99ba2ae3e66c4676d7009045f20e24b310aba37664e4af"
+    },
+    {
+      "path": "3.png",
+      "size": 22263,
+      "sha256": "538e85122c1b74720afa90df1de1e250275a81fa0cd1d86ed50514f47149129d"
+    },
+    {
+      "path": "arm.animation.json",
+      "size": 39629,
+      "sha256": "d7d8cc5aebd96d36ee76e9e4619513300bb7dbbc5d45b351a131e1145447085a"
+    },
+    {
+      "path": "arm.json",
+      "size": 18089,
+      "sha256": "f22a6f95c929c386f66120ae52ec777f3edff0ebcc39d92d61f0187f7f37b09e"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 135133,
+      "sha256": "ce3846cb629f2be696bb71fcc052e7f6fba167a3919ab583747dafb35611fcbf"
+    },
+    {
+      "path": "main.json",
+      "size": 189955,
+      "sha256": "ba9f71a4eb88487b8cdcfaf5f9b01f091cf3f0ae58cf9352acfa3279ac891dbd"
+    }
+  ]
+}

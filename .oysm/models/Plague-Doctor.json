@@ -1,0 +1,205 @@
+{
+  "id": "_Plague-Doctor",
+  "path": "parsed/_Plague-Doctor",
+  "source": {
+    "path": "Uncategorized/_Plague-Doctor.ysm",
+    "type": "ysm",
+    "stem": "_Plague-Doctor"
+  },
+  "ysm": "parsed/_Plague-Doctor/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/哥斯拉.png",
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "name": "哥斯拉",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/Fllz.png",
+        "comment": "Want your custom model? visit my Vgen",
+        "contact": {
+          "Linktree": "https://linktr.ee/fllz",
+          "Vgen": "https://vgen.co/fllz"
+        },
+        "name": "Fllz",
+        "role": "Author"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://vgen.co/fllz",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Plague Doctor",
+    "tips": "Literally me"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "Wear/Take off mask",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Plague-Doctor_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6736,
+      "sha256": "225f5fec8f8517a560e32bc30f9866d4ab0830c8f610fdb0e84283499f89d4b4"
+    }
+  },
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 1015187,
+    "sha256": "1e8b9db8651532842e2a237955653cd16d4baee85199958d2e40eaf53b20500e",
+    "bones": 114,
+    "cubes": 456,
+    "faces": 2736,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 138172,
+      "sha256": "0e683ced1d0eca9693a806fc17c72f4b3efa1a3020defd9ea92f50f2b57d89a4"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3143,
+      "sha256": "ca4f409d4985cabf55d8f33233db05ee5c00ae05e2edd89635b83dc2d84ac54b"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 117649,
+      "sha256": "44adae8ea85865eb52931477a8fe37db4b418edc325526676ce332253adf510c"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 128915,
+      "sha256": "f3d4da79df997316b64fde3e1a74fb88b7ba102a9bd3902dcabfc4de510af5c8"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 135238,
+      "sha256": "d8841adf2c477f5afed8e4de7ab170a7e20860368cbaad51a5f739de1c41d208"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 132862,
+      "sha256": "fb1f4bcd68f67f0f20eea6eeb6b68cd1994599b8aa3a08546a19d255614065d9"
+    },
+    {
+      "path": "avatar/Fllz.png",
+      "size": 31781,
+      "sha256": "6b36bb516fcbef3f427082ba6619a88750ef23fbdd71d93126f8ce55c8f583a5"
+    },
+    {
+      "path": "avatar/哥斯拉.png",
+      "size": 19374,
+      "sha256": "6cd420a5238d37083afb1a43736ae8f862dfb9d9065c1ae1895c2ee20071333c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 10703,
+      "sha256": "eb346087d31ee5a80a81d6a01a5e96c8610bff3412dc191010cdf5fc090c2af3"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 234030,
+      "sha256": "f24cec1bd15e541275fbd0c6767cbe9faacdd3704e1b6dd6625ed4ec60739641"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 13740,
+      "sha256": "991be1cbbb35a387e96ba7240c664c91c21f3f10ca0d41d36fae340595bffbcd"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1580,
+      "sha256": "830ee768eaeb3f834bbebdc1a0756ffc3cbba0624c2f4c70f56770990f25bb4d"
+    }
+  ]
+}

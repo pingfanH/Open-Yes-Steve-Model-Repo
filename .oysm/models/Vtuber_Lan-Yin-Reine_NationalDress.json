@@ -1,0 +1,225 @@
+{
+  "id": "Vtuber_Lan-Yin-Reine(NationalDress)_",
+  "path": "parsed/Vtuber_Lan-Yin-Reine(NationalDress)_",
+  "source": {
+    "path": "_Vtuber/Vtuber_Lan-Yin-Reine(NationalDress)_.ysm",
+    "type": "ysm",
+    "stem": "Vtuber_Lan-Yin-Reine(NationalDress)_"
+  },
+  "ysm": "parsed/Vtuber_Lan-Yin-Reine(NationalDress)_/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§d兰音Reine.png",
+        "comment": "§c音乐系VUP，梦想是自己的音乐可以被更多人听到。",
+        "contact": {
+          "§b哔哩哔哩主页": "§2https://space.bilibili.com/698029620",
+          "§b直播间": "§2https://live.bilibili.com/22696653"
+        },
+        "name": "§d兰音Reine",
+        "role": "§b原型人物"
+      },
+      {
+        "avatar": "avatar/§d瀛猫.png",
+        "comment": "§3一个透明人 宇航兔。",
+        "contact": {
+          "Afdian": "https://afdian.com/a/wincatpro",
+          "Bilibili": "https://space.bilibili.com/647224460"
+        },
+        "name": "§d瀛猫",
+        "role": "§b模型丨动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "§cAll Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/wincatpro",
+      "home": "https://space.bilibili.com/647224460"
+    },
+    "name": "§9§l☪National of Reine☪§e§l(国风华服兰音)",
+    "tips": "§d月亮国公主兰音，旁边的是宇航兔\r\n§c§l音乐系VUP，梦想是自己的音乐可以被更多人听到。\r\n§b§n未经允许请勿商用§c(服务器商用请自觉有偿赞助)\r\n§2§l请B站关注虚拟up主§d§l“兰音Reine”§2§l哦"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "§b[呼啦圈]§6混天绫",
+      "extra1": "§b[舞蹈]§a菟园",
+      "extra2": "§b[宇航兔]§c戴/脱帽",
+      "extra3": "§b[展示]§d幽幽如兰",
+      "extra4": "§b[虾头换衣]§d赞助解锁",
+      "extra5": "§b[展示]§d抱起宇航兔",
+      "extra6": "§b[炫技]§6§l巨剑术",
+      "extra7": "§b[隐藏]§d唤走宇航兔",
+      "extra8": "§b[变身]§6魂兽形态§b/§d公主形态",
+      "extra9": "§c[整活]§d虎视眈眈",
+      "extra10": "§e[中秋]§d广寒宫"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/reine.png",
+          "normal": "textures/reine_normal.png",
+          "specular": "textures/reine_specular.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Vtuber_Lan-Yin-Reine_NationalDress_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 23837,
+      "sha256": "aad8ea61f6384d80e46da1e671fce1d1cabde7cc47f09642ce14cec10d7406a6"
+    }
+  },
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 20152279,
+    "sha256": "c2a5ffe527a397e8a3f9dc965db6109bdf120934345f45f308da94f90cc6720d",
+    "bones": 631,
+    "cubes": 3753,
+    "faces": 22500,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 97967,
+      "sha256": "f8254347cb5d2fefa5ebe1c76994ebf8afac7db2a7a4a406483b71ea0407ccbc"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 5128,
+      "sha256": "89d667eb09ab70ee2e1b0de0a48d0385b70f54f1ba94ec414d0ffaae6a5cb0ec"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 7251673,
+      "sha256": "77dcf1c8ff389678a1a4f152c3811c961e1aba8e432e383960bccb501d7ee2cf"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 250326,
+      "sha256": "51a6872e627b5146e753f66aa1931f706dd74ccaed6df403d60f2b334f5f6576"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 151668,
+      "sha256": "3f9e7cd71b2acda69ca44ce039fbe09a591807c7991bfc5390ee579a6dbe1cb1"
+    },
+    {
+      "path": "avatar/§d兰音Reine.png",
+      "size": 673535,
+      "sha256": "7b3371450cd2b295668d228aa49a1ef53075fb7f42b6656c42fd0f1c6d3855dc"
+    },
+    {
+      "path": "avatar/§d瀛猫.png",
+      "size": 177987,
+      "sha256": "58b0c3d0e642622bb904ae34ffaa4bd11526280e80d5d5f92323612f54f796d9"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 3286,
+      "sha256": "b6abd72ca8d70fe937383270ca6ee7ee09468aae840e08c7ae29bd91ab49f602"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 96597,
+      "sha256": "51324a5eccd3267de54ec4d2d85c07a1426b8a7694afaf16d997fd49993f4641"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 2660,
+      "sha256": "e30f5f7502db56c9370cc077ad37684e4e1acae4cd1411c23685b4f4ddd8e002"
+    },
+    {
+      "path": "models/main.json",
+      "size": 2035201,
+      "sha256": "bcba7f5b97fc57320e28c74f6555d468d911213910b9c60c7ab4da1737ecaf34"
+    },
+    {
+      "path": "sounds/ghg.ogg",
+      "size": 3174041,
+      "sha256": "1c8135acadc71c55345ac4d72fec7fcc9b040e04d67243e3c3ba65c83f62eef4"
+    },
+    {
+      "path": "sounds/tuyuan.ogg",
+      "size": 3578269,
+      "sha256": "5421865ea196cf26947ce97e193133451d015ff41c2be75abb8ebdab13de08b6"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 211,
+      "sha256": "7ae52a8f410a79b84c66aa00ae002a2ffa4220821b6460b84f92d22bba7278eb"
+    },
+    {
+      "path": "textures/reine.png",
+      "size": 1409104,
+      "sha256": "bcb4d1c40df53b6048718efb2ca4b7053077b5dc5f3414cb024930b20744fe24"
+    },
+    {
+      "path": "textures/reine_normal.png",
+      "size": 614884,
+      "sha256": "262909f832f3c6abaaf5662501dacedd8d3e45da9a7f799c2ef6576f83e1c68a"
+    },
+    {
+      "path": "textures/reine_specular.png",
+      "size": 627056,
+      "sha256": "c00d30b5eac432bc6455888789fe3f0678f39b1239052fbbc0781eb868f702ae"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2351,
+      "sha256": "07de8e1bfde9395792a25b5160577e5c1aaa9c69f2ed619ff6f8b75a28be8ce9"
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "id": "_碳_1.0.1",
+  "path": "parsed/_碳_1.0.1",
+  "source": {
+    "path": "Uncategorized/_碳_1.0.1.ysm",
+    "type": "ysm",
+    "stem": "_碳_1.0.1"
+  },
+  "ysm": "parsed/_碳_1.0.1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/ccci202.png",
+        "comment": "想成为模型制作者",
+        "name": "ccci202",
+        "role": "角色"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "不可修改"
+    },
+    "name": "碳",
+    "tips": "原创模型1.0.1"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra8": "#extra_config",
+      "extra1": "#body",
+      "extra2": "#head_decoration",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "",
+      "extra0": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "左眼表情",
+            "description": "左眼表情",
+            "value": "v.roaming.pants_change1",
+            "labels": {
+              "O_O": "v.roaming.pants_change1=0;v.roaming.le=0",
+              "O_—": "v.roaming.pants_change1=1;v.roaming.le=1"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "右眼表情",
+            "description": "右眼表情",
+            "value": "v.roaming.pants_change2",
+            "labels": {
+              "O_O": "v.roaming.pants_change2=0;v.roaming.re=0",
+              "—_O": "v.roaming.pants_change2=1;v.roaming.re=1"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "嘴部表情",
+            "description": "嘴部表情",
+            "value": "v.roaming.pants_change",
+            "labels": {
+              "默认": "v.roaming.pants_change=0;v.roaming.t=0",
+              "微笑": "v.roaming.pants_change=1;v.roaming.t=1"
+            }
+          },
+          {
+            "type": "range",
+            "title": "瞳孔缩放: ",
+            "description": "瞳孔放大/缩小",
+            "value": "v.roaming.eye_base_size",
+            "step": 0.1,
+            "min": -0.2,
+            "max": 0.6
+          },
+          {
+            "type": "range",
+            "title": "眉毛高度: ",
+            "description": "眉毛高度",
+            "value": "v.roaming.eyebrow_h",
+            "step": 0.1,
+            "min": -0.3,
+            "max": 0.4
+          }
+        ]
+      },
+      {
+        "id": "body",
+        "name": "1",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "头饰",
+            "description": "切换头饰（有些需要装备盔甲）",
+            "value": "v.roaming.head_wear",
+            "labels": {
+              "防暴头盔": "v.roaming.head_wear=0;v.roaming.hw=0",
+              "无": "v.roaming.head_wear=1;v.roaming.hw=1"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "服装",
+            "description": "切换服装（有些需要装备盔甲）",
+            "value": "v.roaming.body_wear",
+            "labels": {
+              "战术服": "v.roaming.body_wear=0;v.roaming.bw=0"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "下装",
+            "description": "切换下装（有些需要装备盔甲）",
+            "value": "v.roaming.leg_wear",
+            "labels": {
+              "战术下装": "v.roaming.leg_wear=0;v.roaming.lw=0"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "丝袜",
+            "description": "切换丝袜（有些需要装备盔甲）",
+            "value": "v.roaming.stocking",
+            "labels": {
+              "黑丝": "v.roaming.stocking=0;v.roaming.sto=0",
+              "无": "v.roaming.stocking=1;v.roaming.sto=1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "head_decoration",
+        "name": "2",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "头盔面罩",
+            "description": "头盔面罩 抬起/放下/无",
+            "value": "v.roaming.head_mask",
+            "labels": {
+              "放下": "v.roaming.head_mask=0;v.roaming.hm=0",
+              "抬起": "v.roaming.head_mask=1;v.roaming.hm=1",
+              "无": "v.roaming.head_mask=2;v.roaming.hm=2"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "耳机",
+            "description": "耳机 开启/关闭",
+            "value": "v.roaming.headset",
+            "labels": {
+              "开启": "v.roaming.headset=0;v.roaming.hs=0",
+              "关闭": "v.roaming.headset=1;v.roaming.hs=1"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/1.0.1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 1366,
+      "sha256": "3f534fe298ff66b064eb5caa938cb50221229b3e053db4a4988120532fe10cd4"
+    }
+  },
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 3945377,
+    "sha256": "33b227b35cf86412c4c778d304bdc0c3fc1670641d219cfcd45cc134d6fbaa32",
+    "bones": 263,
+    "cubes": 1706,
+    "faces": 10236,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 182491,
+      "sha256": "0281a5c00f7ce125dc23dcff21eab6688023ef74ad1fac24c1ddb35cffbd5933"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 110746,
+      "sha256": "75b90100307a848e8719a064c87e9616e1d83d4e33a347033ba8d0f07644dbf5"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 250294,
+      "sha256": "d67154a4f281c854c3d79e908d8b9d4686992d8e3c62f5bd44bba4f2668531c4"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 184618,
+      "sha256": "315308c8f2690254e16cef84d5c6dfbd60558e8abc6434043e1bb19699142059"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50174,
+      "sha256": "e40cbc3caa9fba319f0b470fd23deccca36ba3a657030ecadfbe0882b15eaef4"
+    },
+    {
+      "path": "avatar/ccci202.png",
+      "size": 16866,
+      "sha256": "c327ffba5d3592a39ca4059bba0afaa5853e424f568520c9a7459ba287e467cc"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 61906,
+      "sha256": "db9b5287590277fd8eff20e37a9bfa1fe263e4535508eea59171443d0a678a0a"
+    },
+    {
+      "path": "models/main.json",
+      "size": 848043,
+      "sha256": "dd4a6ada0ccaac8356679d52eedd26763d4a2ddcdd79d0f7e072fd1a74ed0e13"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 31136,
+      "sha256": "de0c806e159cc25adbd42a7a3be2fa51e9ca4c901fe616b94c9e3ab93d1fb870"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3546,
+      "sha256": "8451f658f760b639d8ec5dd2a3c1220a8bdd8f70aec319c85c9dd9625c27acc5"
+    }
+  ]
+}

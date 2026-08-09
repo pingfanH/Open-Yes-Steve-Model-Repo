@@ -1,0 +1,126 @@
+{
+  "id": "Ak_Myrtle",
+  "path": "parsed/Ak_Myrtle",
+  "source": {
+    "path": "_Arknights/Ak_Myrtle.ysm",
+    "type": "ysm",
+    "stem": "Ak_Myrtle"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§5桃金娘",
+    "tips": "我来报到啦！你就是博士对吧？\n可以叫我桃金娘，杜林族的桃金娘。\n杜林说在这里能找到工作，所以，有什么我能做的事吗？\n别看我个子小，我还挺厉害的哦。\n——————————————\n§a该版本可以自由分享~\n仅在云曦的爱发电出售，§c§l如需商用请联系！\n§5云曦QQ 1922137073  -  催更小窝：924884449",
+    "authors": [
+      {
+        "name": "§b云曦-Yunxxi_ugo"
+      }
+    ],
+    "license": {
+      "type": "All Rights Reserved"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png",
+        "texture1.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Myrtle_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 16338,
+      "sha256": "3012461c0a6c68a38bf4a1cf26d56afb0148e30b5cc585e00aaf6b2cedeb1948"
+    }
+  },
+  "stats": {
+    "file_count": 11,
+    "total_bytes": 1456673,
+    "sha256": "6d62fb717811c531760a00c51fa2c1118e7b54b83d7f96dd260e6f2f57bcdbd4",
+    "bones": 377,
+    "cubes": 946,
+    "faces": 5676,
+    "textures": 2,
+    "materials": 2,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 81546,
+      "sha256": "f7277f4ae9042cf645189c56ca2a4b0988dd8547095068aa0364452b4d792dc4"
+    },
+    {
+      "path": "arm.json",
+      "size": 29740,
+      "sha256": "3bcb9c03b20faf75b6fa1f25c55d95a2e200ac28c76d97758c183f4d03d8d267"
+    },
+    {
+      "path": "arm_havehand.json",
+      "size": 45094,
+      "sha256": "6a8f4949b0f70e70aa96c572247d5c21f1546550e215f0481178ca5c173c918b"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 8321,
+      "sha256": "702ae97eec1764f443a0124e5482256e71baba2adc4b752af1ec97e30a6d6954"
+    },
+    {
+      "path": "get down半成品.json",
+      "size": 14891,
+      "sha256": "78b93be61b26fdeca6e43fb8b410d676ea944a7b60a6736412d223f422abd50f"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 273165,
+      "sha256": "ebb4c59664b38bbbfcfcb5f6096137de04b7aa9b138acbef592022e29587d31a"
+    },
+    {
+      "path": "main.json",
+      "size": 500693,
+      "sha256": "bace11a461d4cc7fb84d9fc71ec7c86497d7835234257d8c18c1ed60e3b7c1ac"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 171600,
+      "sha256": "842c889583fef3a07c528c245d56cc1b221c71abeb937050fc9243ef1089afeb"
+    },
+    {
+      "path": "texture.png",
+      "size": 29939,
+      "sha256": "1fb135f207f64b1714b76e85a8099ebe981f5d135a136d49b6eb3d4decdb4531"
+    },
+    {
+      "path": "texture.psd",
+      "size": 268463,
+      "sha256": "8bb59f7e0cdcdf678fa24b2d8195f9d0fe7090dbed350bf56ae893ab3bcc512e"
+    },
+    {
+      "path": "texture1.png",
+      "size": 33221,
+      "sha256": "d2d4c376d5069aaa03be36003073053a851260664c347f8c0c68fe938bef8a2f"
+    }
+  ]
+}

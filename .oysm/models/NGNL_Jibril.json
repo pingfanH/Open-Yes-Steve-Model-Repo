@@ -1,0 +1,111 @@
+{
+  "id": "NGNL_Jibril",
+  "path": "parsed/NGNL_Jibril",
+  "source": {
+    "path": "_NoGameNoLife/NGNL_Jibril.ysm",
+    "type": "ysm",
+    "stem": "NGNL_Jibril"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Jibril",
+    "tips": "そらのおとしもの",
+    "authors": [
+      {
+        "name": "afdian.net/a/Deovolente"
+      },
+      {
+        "name": "or"
+      },
+      {
+        "name": "www.patreon.com/GhastRiv"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/NGNL_Jibril_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13173,
+      "sha256": "19ff49ff6585b30eb480bbb551c9284ab4fd1f3e514a72d3ab570e343d8c3e78"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 882197,
+    "sha256": "3d19fe112ef62fe5caa66f112febfa588f515002a621f249dd3bd24f611b6dab",
+    "bones": 86,
+    "cubes": 377,
+    "faces": 2262,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 39623,
+      "sha256": "598868fb49151defe0ff9f09b1788cf1716eedf98a173640e81a97396813a99a"
+    },
+    {
+      "path": "arm.json",
+      "size": 6139,
+      "sha256": "d242d16dde08d809785e8ff0f1f84f10d6bd6aeae6321925bc9b593636fb2982"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 150072,
+      "sha256": "308245990deb76c2a396de075ae4bbbae8955d7640d89aafd7fe8e8d3e9854cf"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 291417,
+      "sha256": "7244230908f7ef4166da335fe4832a733487e73b281a1e21ed74756b002ac030"
+    },
+    {
+      "path": "main.json",
+      "size": 198630,
+      "sha256": "1e0f30ca9b651f822623f7f40517e0bb29b9d4ffcf5871609cbf4a24847c9804"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 172498,
+      "sha256": "9c5d29d4d468fdd60a6b7d32eeb24a2f7b1dfb765daf74cc3dc3cc75b4986262"
+    },
+    {
+      "path": "texture.png",
+      "size": 23818,
+      "sha256": "6c4a401f985780c1fc8a9a9d1624a368e7ed6febe72572d05aeb693417cb9401"
+    }
+  ]
+}

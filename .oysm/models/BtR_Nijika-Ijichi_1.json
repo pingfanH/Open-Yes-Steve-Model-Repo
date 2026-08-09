@@ -1,0 +1,217 @@
+{
+  "id": "BtR_Nijika-Ijichi_1",
+  "path": "parsed/BtR_Nijika-Ijichi_1",
+  "source": {
+    "path": "_BocchiTheRock/BtR_Nijika-Ijichi_1.ysm",
+    "type": "ysm",
+    "stem": "BtR_Nijika-Ijichi_1"
+  },
+  "ysm": "parsed/BtR_Nijika-Ijichi_1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "逸一时，误一世",
+        "contact": {
+          "Afdian": "https://modrinth.com/mod/yes-steve-model",
+          "Bilibili": "https://space.bilibili.com/44619913?spm_id_from=333.1007.0.0"
+        },
+        "name": "泉溪",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "1",
+        "name": "泉溪",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "1",
+        "name": "泉溪",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "1",
+        "contact": {
+          "Afdian": "hhttps://modrinth.com/mod/yes-steve-model",
+          "Bilibili": "https://modrinth.com/mod/yes-steve-model"
+        },
+        "name": "泉溪",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": ""
+    },
+    "link": {
+      "donate": "https://space.bilibili.com/44619913?spm_id_from=333.1007.0.0",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "伊地知虹夏",
+    "tips": "下北泽大天使"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "敲",
+      "extra2": "明天见，波奇酱",
+      "extra3": "彳亍",
+      "extra4": "不彳亍",
+      "extra5": "doodle dance",
+      "extra6": "拍照手势",
+      "extra7": "打招呼"
+    },
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BtR_Nijika-Ijichi_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5878,
+      "sha256": "044ee934cc0703d46ded21d157c5d188d7566f54cc8bb2fe25caecd5b9b42b72"
+    }
+  },
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 897244,
+    "sha256": "8f9c14adaa7cc5a498e579fbaad3553d854f213a3fdf882b3c4669baac09b40d",
+    "bones": 97,
+    "cubes": 241,
+    "faces": 1446,
+    "textures": 2,
+    "materials": 2,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 139460,
+      "sha256": "fc645ec8632d5e40667bc31dca0caec980371a30f8249de2819a8c550593f684"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2826,
+      "sha256": "a621a710afd8aa279e4cffe4502d5715758587f858d2c4d32e524d75e1d7f7d3"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 31754,
+      "sha256": "17185f34625804d2367c473d978577a88481c8a8d02df0e8cc2eb622c41b134f"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 184247,
+      "sha256": "47a2dbee0f6f835d30b16266cf15432f5f3358ca41bb54d4defb30fa37d66b8d"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/泉溪.png",
+      "size": 19374,
+      "sha256": "6cd420a5238d37083afb1a43736ae8f862dfb9d9065c1ae1895c2ee20071333c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 4744,
+      "sha256": "7daf63ed79581345335cf888ea79e2ddc983b91e1077d95e8a5ea30f23f85496"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 5945,
+      "sha256": "fb52bc1588d27e6888e59d7531f69d24920906a84b9c5dc4a09fdae54b757c37"
+    },
+    {
+      "path": "models/main.json",
+      "size": 125190,
+      "sha256": "491c069cb541a01c563ed8f66995686423ccbc30d85055447f421a1273e43733"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 398,
+      "sha256": "9ea183ee8748db0109930e8a99d74cafabdf868a4f89b829e644cd9f8bf5b6ba"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 11115,
+      "sha256": "3d6ee25dd9507b59b1f9c436d3dcb9203c7b871121b7bd7907109916d38ecafc"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 13686,
+      "sha256": "9dac9e80fe9b94d427f91482680daf759ff08516ded40ad89b90aad1ba607e95"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1783,
+      "sha256": "8d5bed2ab73af0c422515711661fde3c956d2beed61b0da03d594c267d3f6200"
+    }
+  ]
+}

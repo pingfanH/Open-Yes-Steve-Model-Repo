@@ -1,0 +1,154 @@
+{
+  "id": "Nar_Madara(zipver)",
+  "path": "parsed/Nar_Madara(zipver)",
+  "source": {
+    "path": "_Naruto/Nar_Madara(zipver).zip",
+    "type": "zip",
+    "stem": "Nar_Madara(zipver)"
+  },
+  "ysm": "parsed/Nar_Madara(zipver)/ysm.json",
+  "metadata": {
+    "name": "宇智波斑",
+    "tips": "所谓秽土转生，就是召回死者的术\n但它有一个风险...\n只要知道印 被从秽土唤回的死者就可以主动解除秽土转生的召唤契约\n那样一来 你们就有大麻烦了\n去告诉术者 禁术可不能滥用\n\n秽土转生 开！",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "Likewind",
+        "role": "",
+        "avatar": "avatar/Likewind.png",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/2139113831"
+        },
+        "comment": "一个做事全凭兴趣使然的散人罢了"
+      }
+    ],
+    "link": {
+      "home": "https://space.bilibili.com/2139113831",
+      "donate": ""
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "",
+      "extra0": "",
+      "extra8": "切换眼睛"
+    },
+    "preview_animation": "gui",
+    "default_texture": "l",
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "arrow": "animations/arrow.animation.json"
+      },
+      "texture": [
+        "textures/madara.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Nar_Madara_zipver_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6600,
+      "sha256": "5232f5a20c8f8240abb1302dd54ec5f3e00862bf2b1a56596543985707d8aeb3"
+    }
+  },
+  "stats": {
+    "file_count": 11,
+    "total_bytes": 1597084,
+    "sha256": "184220968e7816e5eec5bb5aa45fe369d842a70926eb50c7f10beffe80dabb4d",
+    "bones": 115,
+    "cubes": 623,
+    "faces": 3738,
+    "textures": 1,
+    "materials": 1,
+    "animations": 6,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 152474,
+      "sha256": "173ffd65b4b5592277efa4e1f1e6abe32aca169d478374b41659b3055a66e88a"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 648,
+      "sha256": "a1742d97b6f3a435a92ed37c1f971b9367d8198a3c12116be4a9f433586b8e12"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3601,
+      "sha256": "06d56a0e321f45d609db16f349299e265273ae8901dc707e15b9f06b2cb39f0a"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 148359,
+      "sha256": "3a8f433f9c291053cbcc908f3221b7061b75abf35806344c8b75b450e06ab1bd"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 208072,
+      "sha256": "04a9c2b42c1a3f0fcd4ec5106bd53aafea7aa039b921d264b6d04d27ee5feeda"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 197749,
+      "sha256": "c0686841e695e6a3432267cfa6a0d5e28ab69ca44b5abb7e104f2368282f6bed"
+    },
+    {
+      "path": "avatar/Likewind.png",
+      "size": 537123,
+      "sha256": "59a4961c0745e288bae82d982100ed6a8ab31484a2dd69951298a8ff6ccc7836"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 7720,
+      "sha256": "33f60e3ed5c5840333f97c3368e71ecd0eb166d5b372b6f229c445e5793cb3c1"
+    },
+    {
+      "path": "models/main.json",
+      "size": 322684,
+      "sha256": "0c940e16775406efffcea48d2f87019b8f0f564f669fb73959b13b5e507ab0b5"
+    },
+    {
+      "path": "textures/madara.png",
+      "size": 16870,
+      "sha256": "a2b4fcce080892a2ef55d8f60310fd08c9b353b522e131ee34b1e1c8ff798198"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1784,
+      "sha256": "c20bd687c7e3067881069d0c0bb1b1be022ea3c2e916ebeeba5172647b2c4aaf"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "id": "HSR_Silver-Wolf",
+  "path": "parsed/HSR_Silver-Wolf",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Silver-Wolf.ysm",
+    "type": "ysm",
+    "stem": "HSR_Silver-Wolf"
+  },
+  "ysm": "parsed/HSR_Silver-Wolf/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/汪.png",
+        "comment": "",
+        "contact": {
+          "Afdian": "",
+          "Bilibili": ""
+        },
+        "name": "汪",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "",
+      "home": ""
+    },
+    "name": "女仆小银狼",
+    "tips": ""
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#你好",
+      "extra1": "鼓掌",
+      "extra2": "开车车",
+      "extra3": "好耶",
+      "extra4": "打游戏",
+      "extra5": "躺下",
+      "extra6": "扫地",
+      "extra7": "吹泡泡",
+      "extra8": "坐下",
+      "extra9": "游戏机飞",
+      "extra10": "飞行",
+      "extra11": "跳舞",
+      "extra12": "萝莉摇",
+      "extra13": "立绘",
+      "extra15": "拖地",
+      "extra18": "鹿乃子虎视眈眈",
+      "extra16": "doodle摇",
+      "extra22": "摇",
+      "extra20": "可爱摇",
+      "extra21": "Get Down",
+      "extra25": "换衣服"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "你好",
+        "name": "你好",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "表情",
+            "description": "~",
+            "value": "v.pants_change",
+            "labels": {
+              "无表情": "v.pants_change=0;v.t=0",
+              "笑": "v.pants_change=1;v.t=1",
+              "不爽": "v.pants_change=2;v.t=2",
+              "微笑": "v.pants_change=3;v.t=3",
+              "尖叫": "v.pants_change=4;v.t=4",
+              "撇嘴": "v.pants_change=5;v.t=5",
+              "吐舌头": "v.pants_change=6;v.t=6",
+              "（ᗜ ‸ ᗜ）": "v.pants_change=7;v.t=7"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "表情",
+            "description": "~",
+            "value": "v.pants_change1",
+            "labels": {
+              "无表情": "v.pants_change1=0;v.t1=0",
+              "（ᗜ ‸ ᗜ）": "v.pants_change1=1;v.t1=1",
+              "害羞": "v.pants_change1=2;v.t1=2"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/xiduo.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Silver-Wolf_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13104,
+      "sha256": "cd167daac04a5caded9782822928f571e5c5cf65e50925d6ae88127a9d570f82"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 2980408,
+    "sha256": "8ebf7147026ba2221bb5a090c9c7939a16ee8cd9771401b62d882cf88d3855dd",
+    "bones": 222,
+    "cubes": 1337,
+    "faces": 8022,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 161436,
+      "sha256": "352d756aac04fcee7b8208c07ec5fed4507e0ec1b25e8ca3e593b6113e111733"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 1575857,
+      "sha256": "481111ab715655a4c086e3cae764f53f68fa642c785655ae7d50faa68436543b"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 415242,
+      "sha256": "e9cc149df0791d6c587da75db45bc99a122e0213188b1de10bce603d5d76b99c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 24942,
+      "sha256": "44221fad0aa172c66e615b94aa2b10e002907336d9e6134c05326b97a089aebc"
+    },
+    {
+      "path": "models/main.json",
+      "size": 727453,
+      "sha256": "c13c4304636922b20baaeacd1dd5d64bc521c080ed60386ebccff2114ded1bfb"
+    },
+    {
+      "path": "textures/xiduo.png",
+      "size": 73627,
+      "sha256": "5ed80c907cd1f288eedb8c4c8c8db588fe4127b236c383051c5c9d0be88f4f5a"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1851,
+      "sha256": "39a580b8168d2ccc623894e4b1b7ab4ff542b37bcac726a969860c117ab5bb38"
+    }
+  ]
+}

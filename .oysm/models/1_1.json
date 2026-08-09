@@ -1,0 +1,222 @@
+{
+  "id": "格蕾修-画蓝缀星1_1",
+  "path": "parsed/格蕾修-画蓝缀星1_1",
+  "source": {
+    "path": "Unknown/格蕾修-画蓝缀星1_1.ysm",
+    "type": "ysm",
+    "stem": "格蕾修-画蓝缀星1_1"
+  },
+  "ysm": "parsed/格蕾修-画蓝缀星1_1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/猫栗子（荨蒿栗里）.png",
+        "comment": "祝你天天开心—w—",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/501046951",
+          "afdian": "https://ifdian.net/a/xphkvilili?tab=home"
+        },
+        "name": "猫栗子（荨蒿栗里）",
+        "role": "模型与动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "格蕾修-画蓝缀星",
+    "tips": "1.1更新，改进了头发的物理效果（2025.8.22）"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "挥手",
+      "extra2": "鼓掌",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "extra5": "振奋",
+      "extra6": "得意",
+      "extra7": "舞蹈"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "诹访大舞",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "切换口型",
+            "description": "Used to switched the mouths (用来切换玩家表情)",
+            "value": "v.mouth",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 6.0
+          },
+          {
+            "type": "range",
+            "title": "大小",
+            "description": "用来切换玩家的大小",
+            "value": "v.roaming.player_size",
+            "step": 0.01,
+            "min": -0.9,
+            "max": 5.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/1_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 14608,
+      "sha256": "12128b21df0efe82543d233d174f16cda3c4881a613b4143b936cafc66db2a04"
+    }
+  },
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 3364993,
+    "sha256": "1b70190e51479797c2c3794635a264cb18dd66fe07d2fb098a834b5e401ea782",
+    "bones": 130,
+    "cubes": 662,
+    "faces": 3972,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 109455,
+      "sha256": "6cdfda0227054d305d52122f010c7348d8d2d116e99f919bc8dca92c640387a7"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 197062,
+      "sha256": "f7ad827351d3022bda45884a29b495dab15fa6441adc20c079567f868eda24a9"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "avatar/猫栗子（荨蒿栗里）.png",
+      "size": 35760,
+      "sha256": "dbd198c1e15604562c1498e2a3dfbf114ceea579f123755974e30932903faf84"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 13860,
+      "sha256": "9941b1962645bfca95bbb6328d7ec9127af4d5c75a94f116849df72b6cb4524b"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13725,
+      "sha256": "605fc04a716cfd12d30b5d6fb5d6db461504bd2f8da602fe078a4f57b4d71c71"
+    },
+    {
+      "path": "models/main.json",
+      "size": 357607,
+      "sha256": "0c98098084368d28c45c6142ca1341abad1c6b1cd1fda91a73e802f5fa9cb065"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2686,
+      "sha256": "197669635bbf7b8cf8892b6912e428c92c66aac37ea2d3f1a174c9a04b2b64f6"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 66231,
+      "sha256": "55f9bf791ff6a91419d4f66082a5c18000a408d785e59116f0be83d8425735ea"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1975,
+      "sha256": "7d83444ce0eee42a317173602c1ef9d72206767ea12c57fa63c0f354577775ed"
+    }
+  ]
+}

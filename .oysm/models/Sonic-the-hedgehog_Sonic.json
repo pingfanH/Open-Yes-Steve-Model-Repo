@@ -1,0 +1,78 @@
+{
+  "id": "Sonic-the-hedgehog_Sonic",
+  "path": "parsed/Sonic-the-hedgehog_Sonic",
+  "source": {
+    "path": "_SonicTheHedgehog/Sonic-the-hedgehog_Sonic.zip",
+    "type": "zip",
+    "stem": "Sonic-the-hedgehog_Sonic"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Sonic-the-hedgehog_Sonic"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "Sonic.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Sonic-the-hedgehog_Sonic_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3478,
+      "sha256": "8136e41022ebce6a579e25d87c68a25d08a82c24ee9623ef64c1ac1d9273ba37"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 146401,
+    "sha256": "bd63c630865246625ef763598625e1ffe528853778f5ade6e289307da267497d",
+    "bones": 80,
+    "cubes": 48,
+    "faces": 288,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "Sonic.png",
+      "size": 3002,
+      "sha256": "0dee2e7b0faf98a09399666a47f9394f7db4344e4ca658af35e250a1382e19de"
+    },
+    {
+      "path": "arm.json",
+      "size": 5464,
+      "sha256": "e94fe3b79ab3cd9884e7fb101a99e7e6905c3f952e5f0a5b3cbd0ee7403d51c0"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 129868,
+      "sha256": "fbd0b8a4e2f11f22a41198afae7dcdffb9582f52419444a50a88b5322fe350fb"
+    },
+    {
+      "path": "main.json",
+      "size": 8067,
+      "sha256": "4326bb2f2714ef850cfaac862116c839701eb03acd9afc5985b7a8c57efa2e0b"
+    }
+  ]
+}

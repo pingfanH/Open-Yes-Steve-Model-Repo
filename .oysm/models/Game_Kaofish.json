@@ -1,0 +1,99 @@
+{
+  "id": "_Game_Kaofish",
+  "path": "parsed/_Game_Kaofish",
+  "source": {
+    "path": "Uncategorized/_Game_Kaofish.ysm",
+    "type": "ysm",
+    "stem": "_Game_Kaofish"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "烤鱼子Official（kaofish）",
+    "tips": "适配YSM1.18.2-1.1.5(免费共享版)\n模型版本1.1.0",
+    "authors": [
+      {
+        "name": "完全冻结"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "tex.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Game_Kaofish_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12701,
+      "sha256": "698f699c550fcbd6ad054ec8509d6788a2a825ab9775351876d44d3cc6690ddf"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 491640,
+    "sha256": "8e3d6e9477d9a4bbf16bd8bb1c9d09a813653b3e301fe28c080c611d95d54c1a",
+    "bones": 124,
+    "cubes": 577,
+    "faces": 3462,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 45384,
+      "sha256": "4fbc686718baff2fb8d5fb7ec5ab7f83c94b575cb88d7da01d211caf02235147"
+    },
+    {
+      "path": "arm.json",
+      "size": 9092,
+      "sha256": "6049d7ac86b7c467453c178964da070fd1016156d06faab1fab0f329ac3f0379"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 152595,
+      "sha256": "216c99843c62465c2441b6b80249a18834b0e0afcd971cc688ae481201437f32"
+    },
+    {
+      "path": "main.json",
+      "size": 97155,
+      "sha256": "7fbecfc4bf01674ec5d747133998b01c2e9cc9cdbafb755b311126217dc204cb"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 163448,
+      "sha256": "116dd1ff429bbfe0fa232d81bcb8dfa127adaee3ec3500aa0d26df0362e1fa5f"
+    },
+    {
+      "path": "tex.png",
+      "size": 23966,
+      "sha256": "25c71586724ad80ede53820e46c0d3f94ecc169ac2fe01ac740b5d0cec18138e"
+    }
+  ]
+}

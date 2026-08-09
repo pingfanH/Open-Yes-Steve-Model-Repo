@@ -1,0 +1,108 @@
+{
+  "id": "Nikke_Shifty",
+  "path": "parsed/Nikke_Shifty",
+  "source": {
+    "path": "_Nikke/Nikke_Shifty.ysm",
+    "type": "ysm",
+    "stem": "Nikke_Shifty"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "谢芙蒂",
+    "tips": "谢芙蒂是“拉塔托斯克”的操作员。\n她怀抱对知识的强烈渴望，多次证明自己无与伦比的天赋，成为中央政府情报部门的王牌。 \n主要负责支援在地面执行任务的小队，经验十分丰富。",
+    "authors": [
+      {
+        "name": "素体——映素三代"
+      },
+      {
+        "name": "作者——雒仁"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Nikke_Shifty_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11861,
+      "sha256": "c001fddabd84c719caac7761c8f5939b2be451ac73589e58ba303d30491695f8"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 1049108,
+    "sha256": "3aa7f30c37df647b48fd57a9009555ec34b926354ef71ccba8c60028dbbde188",
+    "bones": 128,
+    "cubes": 647,
+    "faces": 3882,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 40126,
+      "sha256": "790ab02c90e1a8abe35416ab266379138e0c8a41bca899493a72c7d697485d73"
+    },
+    {
+      "path": "arm.json",
+      "size": 10897,
+      "sha256": "9e76c3e759cc9de3374cf86543397dccbb54f145a34cfd6b8f9a6b12f66af44d"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 135867,
+      "sha256": "ea797a9269b9d509a649fb30d5fba71ad591c24cc2e1df2ed40b0404b2681829"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 291159,
+      "sha256": "a972f5e0accfc8026cd9c2ca63075226b96671cbf845f763f852b7577c04fd39"
+    },
+    {
+      "path": "main.json",
+      "size": 348703,
+      "sha256": "0a8331b5b4622983b4a9865a25cb4cf383e257392e7987ddf0fd25aea9ee8c70"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 172191,
+      "sha256": "49f0c2691135ed7d6ab9180fb8323eb190c2ed0b635e499e7eb91b8698216d5c"
+    },
+    {
+      "path": "texture.png",
+      "size": 50165,
+      "sha256": "a8cec94a04d702da7b9873c8e394e764e70150a735b84d065d4e6dee294f1015"
+    }
+  ]
+}

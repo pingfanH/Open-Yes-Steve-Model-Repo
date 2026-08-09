@@ -1,0 +1,84 @@
+{
+  "id": "BA_Hoshino",
+  "path": "parsed/BA_Hoshino",
+  "source": {
+    "path": "_BlueArchive/BA_Hoshino.zip",
+    "type": "zip",
+    "stem": "BA_Hoshino"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "BA_Hoshino"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Hoshino_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6404,
+      "sha256": "cbb7c838375e9af2b8d56bbbca932097b780e50703aba7873caa5898e4b6b54e"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 252373,
+    "sha256": "00217ab06c107ca9dd47acd06e57c6713bc22beb9a8f9aadcf14d81fb0074b14",
+    "bones": 86,
+    "cubes": 479,
+    "faces": 2874,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 2550,
+      "sha256": "bde2955672417e7b1b4b6e3fa20908638c0a7925e41e0d429d5d8b04b83be48e"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 26217,
+      "sha256": "1430af9ca9c703cc52cbd1890a0000c622c199e3dd2be2e3b036aa78b3d8dd2a"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 133282,
+      "sha256": "e8073e9f0de7e203a2ecf25082435b4f75fb75648778a15b0ad86db2f0b2cf37"
+    },
+    {
+      "path": "main.json",
+      "size": 80745,
+      "sha256": "bec2c5532962406c29021dd8b28099e32634e1433877d11187a0d40aca029041"
+    },
+    {
+      "path": "texture.png",
+      "size": 9579,
+      "sha256": "8d4cca30f83e716f9855b210c798356b9a84806a34691d615c7e0780abf46384"
+    }
+  ]
+}

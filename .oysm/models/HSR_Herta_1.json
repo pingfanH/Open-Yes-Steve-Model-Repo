@@ -1,0 +1,78 @@
+{
+  "id": "HSR_Herta_1",
+  "path": "parsed/HSR_Herta_1",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Herta_1.ysm",
+    "type": "ysm",
+    "stem": "HSR_Herta_1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "HSR_Herta_1"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "heita.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Herta_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 17141,
+      "sha256": "5cb7ccba5d8b2149cc1c1783abb3e4de5bd542dc9420715d60726c5074489e73"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 1015997,
+    "sha256": "7da8e0ae15373adb2ec3bd687596569da03c86a8951fd45a359377253764ef14",
+    "bones": 85,
+    "cubes": 1277,
+    "faces": 7662,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 5828,
+      "sha256": "b967017c76f4436e196a920f88b15e5ad89ab5a819739db9fb0b9378c531e8fa"
+    },
+    {
+      "path": "heita.png",
+      "size": 73458,
+      "sha256": "bf9c38204449c414241817ec04d5f5058343e923290b36d3eea1f58493adf66f"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 223114,
+      "sha256": "ba129be527a4953dbb1313110b3a905424a9c2669a5d90b93b3792069cae8695"
+    },
+    {
+      "path": "main.json",
+      "size": 713597,
+      "sha256": "6c3248df9dc27ff4e9cfc35a6b56a2b76ebee454a42aae95a6316ff44ef55161"
+    }
+  ]
+}

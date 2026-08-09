@@ -1,0 +1,222 @@
+{
+  "id": "Vtuber_Gura",
+  "path": "parsed/Vtuber_Gura",
+  "source": {
+    "path": "_Vtuber/Vtuber_Gura.ysm",
+    "type": "ysm",
+    "stem": "Vtuber_Gura"
+  },
+  "ysm": "parsed/Vtuber_Gura/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/Rintaro.png",
+        "comment": "",
+        "name": "Rintaro",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Gawr Gura",
+    "tips": "I tried. It not look like her at all."
+  },
+  "properties": {
+    "width_scale": 0.65,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "Gesture:wave",
+      "Emote1:Waving": "Norm:wave",
+      "Emote2:Dance!!": "Test:Dance!!",
+      "Emote3:Dance!!?": "Dance:Cha",
+      "Emote3:dance :)": "Dance:sway",
+      "Dance4:joggart": "Dance:Joggart",
+      "Test:test": "#extra_config",
+      "Extra33": "Outfit:test",
+      "Outfit:test2": "TescoLotut"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "Tests",
+        "extra_animation": {
+          "Extra33": ""
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png",
+          "normal": "textures/default_normal.png",
+          "specular": "textures/default_specular.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Vtuber_Gura_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4911,
+      "sha256": "4885640f711e659cc599e0917563dc2870f45ab6a2b4caba1c1f5e21729ca301"
+    }
+  },
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 5117753,
+    "sha256": "f0a90245b93594ed7f34205160c4260a519a13ba5248de582815f558902f78bd",
+    "bones": 275,
+    "cubes": 1861,
+    "faces": 10612,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 186463,
+      "sha256": "2d9d8c509ef571165d57e668538b05f1280b861aedbb91265f244a97aa719c87"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 22943,
+      "sha256": "410a6bd51f41ac2be6f7e21cd4ca3e5181405863533118d47968a183774100ae"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 183957,
+      "sha256": "41f0782a2423921b605294eab33c79f3f51b244b7842cd3383fd429512355919"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1505299,
+      "sha256": "2cfe596c36beecaa1688b55951b4272e660c066078bb5d95b20240a32a3a20da"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 6639,
+      "sha256": "062815305852cfaf7d4b6114685686a009dcb265945e3cf77ed52ac48fc9f686"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 14233,
+      "sha256": "943bc314679b51c50b4ab0c555006e807fbfc44276c64bf7b461a6c59dbf1c4e"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1562174,
+      "sha256": "8ac7ef55865e0da3fff39d74133dd046de54e1202f0c5fa422491cbbd10ab572"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2627,
+      "sha256": "e94f5ecc82c2605714320db79f9e297adb4a84bbaa2d38694a4e854e9fa0cf23"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 484452,
+      "sha256": "431bfb1de4b2c62c3dd49f840e3ba90c8f1b9d31db65a29c0c5ebf1b23b149d4"
+    },
+    {
+      "path": "textures/default_normal.png",
+      "size": 391238,
+      "sha256": "9e740af051e58b8c80470e96fa697ece353fd89a3f2869e431b631c1738711a6"
+    },
+    {
+      "path": "textures/default_specular.png",
+      "size": 391238,
+      "sha256": "9e740af051e58b8c80470e96fa697ece353fd89a3f2869e431b631c1738711a6"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1852,
+      "sha256": "33d2785162afd5d8d2827a47ad83b70a414d8b9af1dd174917a056d7b76a384a"
+    }
+  ]
+}

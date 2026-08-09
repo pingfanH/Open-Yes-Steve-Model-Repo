@@ -1,0 +1,253 @@
+{
+  "id": "IdentityV_Fool's-Gold",
+  "path": "parsed/IdentityV_Fool's-Gold",
+  "source": {
+    "path": "_IdentityV/IdentityV_Fool's-Gold.ysm",
+    "type": "ysm",
+    "stem": "IdentityV_Fool's-Gold"
+  },
+  "ysm": "parsed/IdentityV_Fool's-Gold/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/面包.png",
+        "comment": "这个人很懒，什么也没有留下",
+        "contact": {
+          "Lofter": "https://samael21.lofter.com"
+        },
+        "name": "面包",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/長琦.png",
+        "comment": "一个勘勘囚囚激推，不知为何开始搞模型jpg",
+        "name": "長琦",
+        "role": "模型/动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "愚人金（Fool's Gold）",
+    "tips": "生活总会有它的出路..."
+  },
+  "properties": {
+    "width_scale": 0.8,
+    "height_scale": 0.8,
+    "extra_animation": {
+      "extra1": "打招呼",
+      "Tiaoxing": "挑衅",
+      "extra3": "点头",
+      "extra4": "否定",
+      "extra5": "好耶",
+      "extra6": "欢呼（？）",
+      "extra7": "神秘舞蹈",
+      "行礼": "行礼",
+      "伤脑筋": "伤脑筋",
+      "sit.aim": "坐下",
+      "??": "??",
+      "sleep.aim": "睡觉",
+      "表情切换": "表情切换",
+      "鼠鼠舞": "鼠鼠舞",
+      "穿脱及切换": "#extra_config"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "穿脱及切换",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "领巾: ",
+            "description": "切换形态",
+            "value": "v.roaming.xq",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "type": "checkbox",
+            "title": "衣服",
+            "description": "破破烂烂的披肩，勉强能看出是以前的一件衬衫",
+            "value": "v.roaming.a"
+          },
+          {
+            "type": "checkbox",
+            "title": "领巾/红围脖",
+            "description": "承着艰苦的生活或是辞旧迎新的喜悦？",
+            "value": "v.roaming.lj"
+          },
+          {
+            "type": "checkbox",
+            "title": "裤子",
+            "description": "裤子断裂的部分是裸露出的石头",
+            "value": "v.roaming.c"
+          },
+          {
+            "type": "checkbox",
+            "title": "鞋子",
+            "description": "陪伴坎贝尔丈量大地的鞋子，只不过它的主人已经不在意保养它",
+            "value": "v.roaming.d"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "0319",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/愚人金.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/IdentityV_Fool_s-Gold_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 24086,
+      "sha256": "4cd53133e497e5e0cfe83efec2fcd4a2868224e01aa0f2bd25f37fe73492ae23"
+    }
+  },
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 6053929,
+    "sha256": "96301743a711d1290ca6a78639ad90549bf20c19aa9a13714a1e842679c68ad0",
+    "bones": 215,
+    "cubes": 662,
+    "faces": 3972,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 31572,
+      "sha256": "a69c08bfb4747922c058ba17ca288c7faf39af52889cc425ae12051efaa55b10"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2564,
+      "sha256": "2a501fc78d9abc4c3d614701d4b3ea155817afc3690f5011595756cb1ffb3aab"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 1043922,
+      "sha256": "c0671add2fb0a4569304e3e0f61b64ed3f6b7f7b82d1e471fdb3928cd732b7a7"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 170948,
+      "sha256": "f48df8853199e36d0da560303c5581b7bc6799d44ebbbf1ad49a3078b57e979f"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/長琦.png",
+      "size": 371579,
+      "sha256": "f89267238b3ed0045de3c002fae9e288be486ba8af5abf9a9dd2c9b4c772c8b5"
+    },
+    {
+      "path": "avatar/面包.png",
+      "size": 627826,
+      "sha256": "caffadff95fbbd6b950ef1b0177effb6d101359dd36fe7c4f1434b49850c8eab"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 31837,
+      "sha256": "6aaf029d6dc78934e5bf6ebc4ef094632fc3c0c056ea62e13911869b2673cd31"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 341486,
+      "sha256": "f970b878396fc4329fe0fb552a8e12b143eede231f1d7e4c4df3c5b9520ef1a9"
+    },
+    {
+      "path": "sounds/鼠鼠舞.ogg",
+      "size": 2904125,
+      "sha256": "a2804b01c537534dc6b22980b503dd5f6006fefef6b3fe8b1ad4832f8fde2fad"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/愚人金.png",
+      "size": 161055,
+      "sha256": "c06c63a545fcc3a256859c213f3350b1527d15bc82c35dac3de9e6ba57231ad8"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2479,
+      "sha256": "7b02466d1d6b75269e267bcc6e648a23c558b3d51e49fb23f5e22f3757906b08"
+    }
+  ]
+}

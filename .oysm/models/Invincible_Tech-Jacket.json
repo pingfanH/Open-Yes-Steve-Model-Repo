@@ -1,0 +1,156 @@
+{
+  "id": "Invincible_Tech-Jacket",
+  "path": "parsed/Invincible_Tech-Jacket",
+  "source": {
+    "path": "_Invincible/Invincible_Tech-Jacket.ysm",
+    "type": "ysm",
+    "stem": "Invincible_Tech-Jacket"
+  },
+  "ysm": "parsed/Invincible_Tech-Jacket/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/Prtih.png",
+        "comment": "",
+        "name": "Prtih",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Tech jacket",
+    "tips": "Tech jacket !!"
+  },
+  "properties": {
+    "width_scale": 0.45,
+    "height_scale": 0.4,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_classify": [],
+    "default_texture": "blue",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Invincible_Tech-Jacket_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 23469,
+      "sha256": "87c7ce7629c0ee4142fef01a3166452d1b7627933a32e0fb54f5313feea1d234"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 1463648,
+    "sha256": "cad172ef9da524c083644c643e2c1d9ed5708bce12c7956fd2ff7227c02c39b8",
+    "bones": 236,
+    "cubes": 1406,
+    "faces": 8436,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 166207,
+      "sha256": "d72752cea3e8323d829dbd2d11be9302bc8ae17d205e7610f6cd9538a33db0b1"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 115428,
+      "sha256": "221b473ba4cd2258e939309b1ee0f37c80a3abda918263f6cfa0b0e86d501cbe"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 131735,
+      "sha256": "82e8b28b6a69acf9ad2f43f036c4206f1f035f6220b8a681d8cb922cbe77fa00"
+    },
+    {
+      "path": "avatar/Prtih.png",
+      "size": 11833,
+      "sha256": "be35748c5acc5dee6c2f55789b0d694e8e53870be731c110d1a0648a83174418"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 92028,
+      "sha256": "e0d56157eb9c70012bff0d2d83fd981640213d03351316829fc021b214d0863b"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 1464,
+      "sha256": "d638cb1bdc47b4012e8166be1362f83b1e2451ddfcf22437f7073e9f0b8489e1"
+    },
+    {
+      "path": "models/main.json",
+      "size": 690887,
+      "sha256": "d4000f354c41efc8583cdc294fc9dc4dab79f4bda42cfc518279835336209ae2"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 246,
+      "sha256": "4242ef00891481d1aaae83948c1a6f02c9f202122d7379cfd0dede0c9c6e3d24"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 252820,
+      "sha256": "3ca01a9ffd15c50f740b6c55a464740547c7c7492f4617f5687b587365c0dbd6"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1000,
+      "sha256": "16e76e29414e850eaf6e2b24655c6d6d598d56ad6b4376131b035c12df3ecbef"
+    }
+  ]
+}

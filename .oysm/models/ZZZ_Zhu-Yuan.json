@@ -1,0 +1,193 @@
+{
+  "id": "ZZZ_Zhu-Yuan",
+  "path": "parsed/ZZZ_Zhu-Yuan",
+  "source": {
+    "path": "_ZenlessZoneZero/ZZZ_Zhu-Yuan.ysm",
+    "type": "ysm",
+    "stem": "ZZZ_Zhu-Yuan"
+  },
+  "ysm": "parsed/ZZZ_Zhu-Yuan/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/安欣.png",
+        "comment": "没有梦想的咸鱼      罒ω罒",
+        "contact": {
+          "Afdian": "",
+          "Bilibili": ""
+        },
+        "name": "安欣",
+        "role": "模型，动画"
+      },
+      {
+        "avatar": "avatar/.png",
+        "comment": "",
+        "name": "",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "朱鸢",
+    "tips": "朱鸢，治安局精锐中的精锐，被认为是「假以时日，必然能接任治安局长的人物」而重点培养。目前的职务为雅努斯区分局都市秩序部刑侦特勤组组长\r\n"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "texture",
+    "preview_animation": "mao",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/ZZZ_Zhu-Yuan_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8796,
+      "sha256": "f156f7a55998c136433545b38451217d52fbeb3e45a339ebedde22264af124fa"
+    }
+  },
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 2422833,
+    "sha256": "ae96a74660d99c2e8e4d5888d603596fbafda30cef798d2472bea33807b82a7f",
+    "bones": 294,
+    "cubes": 2456,
+    "faces": 14736,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 151489,
+      "sha256": "d19646623009f0b8fa8b2f5ecad92dec3531a14bbd7441fbc1874789c4d81a04"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 154,
+      "sha256": "715514ecd90b776b6479cf22845c7f810bfbd11e3803cecc9482982d1d2b210c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "6e8d3afe0c3baafff8f7f3e0e30ef3c621c667be5c346af73398f5fd3cb89ca5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 123165,
+      "sha256": "0a5d3f9c0562cc4d4032464fa5a4f9c4d80d0d7a218e780240d04c0b276f8c9a"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 205023,
+      "sha256": "10c23004c3ff33a9a07bd0a0b6619321e10f32d54205c0eb6a527b956edaf883"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183504,
+      "sha256": "fa168cce1a5787fe4986384fa2110cd509e8609696b9a9515d9d2c7438fe260a"
+    },
+    {
+      "path": "avatar/安欣.png",
+      "size": 32037,
+      "sha256": "3d8df561b1abb777882abf3b10c44731c6faa676b485d1dcaed5939742b293c0"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 82871,
+      "sha256": "d6502c4d44fd9b7ef6ac95a6b3cefdf3d233842074f15b7d47da43536d66ca95"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 11959,
+      "sha256": "ad5ae762d582819d41a79a5afd65698e577fe43582fbdf13b5835d26775908d6"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1241082,
+      "sha256": "217d74a3a314172d5c7913e82f60bf7713b8146a8a75e083163f27f36592ad7b"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1328,
+      "sha256": "8c506c256d04fa11e1d21eb03aadd1b9bdb82d5f6c3b5478c7d1a109f35ee808"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 213493,
+      "sha256": "6246d47c8cb8d80bc679626af74db07765b4168ff7a7eb2f7aa393ae5eb11875"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1460,
+      "sha256": "ec869072304fad2fd2348492f59d1521905e2d84584a920705d828d02d7c6488"
+    }
+  ]
+}

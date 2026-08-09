@@ -1,0 +1,216 @@
+{
+  "id": "BtR_Kita-Ikuyo_2",
+  "path": "parsed/BtR_Kita-Ikuyo_2",
+  "source": {
+    "path": "_BocchiTheRock/BtR_Kita-Ikuyo_2.ysm",
+    "type": "ysm",
+    "stem": "BtR_Kita-Ikuyo_2"
+  },
+  "ysm": "parsed/BtR_Kita-Ikuyo_2/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/动员鼬.png",
+        "comment": "脖子右拧！！",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/348421936?spm_id_from=333.1007.0.0"
+        },
+        "name": "动员鼬",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/ .png",
+        "comment": " ",
+        "name": " ",
+        "role": " "
+      },
+      {
+        "avatar": "avatar/ .png",
+        "comment": " ",
+        "name": " ",
+        "role": " "
+      },
+      {
+        "avatar": "avatar/ .png",
+        "comment": " ",
+        "name": " ",
+        "role": " "
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "name": "喜多郁代",
+    "tips": "“喜多喜多，郁代郁代”"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "pose",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "认可",
+      "extra4": "否定",
+      "extra5": "doodle摇",
+      "extra6": "疑似有些礼貌了",
+      "extra7": "弹吉他"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BtR_Kita-Ikuyo_2_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8716,
+      "sha256": "8d2a30f38762c6975262c95aae4be27486f5c2f4c89c1d0411380c84ea5faae4"
+    }
+  },
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 1042786,
+    "sha256": "b6eff0d381515444ca7948b9a3883dafcd2703b10bbdc488bd2248d7064c77a0",
+    "bones": 100,
+    "cubes": 431,
+    "faces": 2586,
+    "textures": 2,
+    "materials": 2,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 132587,
+      "sha256": "da1999830224ed7df1ee6f65af6113cad4708dafd0feb454b1c981e5fca76c4b"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 32838,
+      "sha256": "f6f3af5fe0c27821c8196520196c313543d0f1a6fac3733e5ed4eb9e037a5330"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 217112,
+      "sha256": "7302dabc0973c98c492379140429fe477e110b47e447a360397fc3c5ad092dbe"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 140316,
+      "sha256": "247358329c4ba2bd7a2a4bcdedc08efa6e061fdf19a8ecfedb468891552e7b76"
+    },
+    {
+      "path": "avatar/ .png",
+      "size": 31972,
+      "sha256": "c6f737e8b0cc939c8f04932eaf822dee8b9b3225d3664658077263269a112ba7"
+    },
+    {
+      "path": "avatar/动员鼬.png",
+      "size": 34808,
+      "sha256": "ebc88c7060782df12663444ce7d3aee14e935320fea7d9298a2ed1d9706080ac"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 17028,
+      "sha256": "1101eb82ad738e203aa3f8f8d8639be36a2add6aca557d9b0ca58220aacbff44"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 210608,
+      "sha256": "d9e5df5dd50052da6468ddac945e1c5167d63abf9b67a161f97e48021d84dfd4"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 11115,
+      "sha256": "3d6ee25dd9507b59b1f9c436d3dcb9203c7b871121b7bd7907109916d38ecafc"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 29439,
+      "sha256": "70547ff66ffdc332139132d3d1dc977a106f3f3c4ccdb3a6362c01453121c4c7"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1547,
+      "sha256": "e5a88d8dbcec1dd2208a24f1e9a3906a118ba8ee19131123899ec7cca7202b52"
+    }
+  ]
+}

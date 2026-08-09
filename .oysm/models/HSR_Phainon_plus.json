@@ -1,0 +1,572 @@
+{
+  "id": "HSR_Phainon_plus",
+  "path": "parsed/HSR_Phainon_plus",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Phainon_plus.ysm",
+    "type": "ysm",
+    "stem": "HSR_Phainon_plus"
+  },
+  "ysm": "parsed/HSR_Phainon_plus/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/烟雨画桥.png",
+        "comment": "…………懒，有问题私信",
+        "contact": {
+          "email": "",
+          "qq": ""
+        },
+        "name": "烟雨画桥",
+        "role": "作者"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.net/a/mj204",
+      "home": "https://space.bilibili.com/1268865161"
+    },
+    "name": "白厄",
+    "tips": "我是终将升起的烈阳！\n\n\n该模型为免费模型"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "",
+      "extra8": "",
+      "extra9": "",
+      "#特效设置": "特效设置"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "tuowei特效设置",
+        "name": "tuowei特效设置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "tuowei数量(组)",
+            "description": "调整tuowei数量",
+            "value": "v.tuowei_get_gp_num",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "tuowei数量(个/组)",
+            "description": "调整tuowei数量",
+            "value": "v.tuowei_get_num",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "tuowei大小（x）",
+            "description": "调整tuowei大小",
+            "value": "v.tuowei_get_scale",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "tuowei逸散速度（x）",
+            "description": "调整tuowei逸散速度",
+            "value": "v.tuowei_get_speed",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "tuowei逸散方向（x）",
+            "description": "调整tuowei逸散方向",
+            "value": "v.tuowei_get_move_x",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "tuowei逸散方向（y）",
+            "description": "调整tuowei逸散方向",
+            "value": "v.tuowei_get_move_y",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "tuowei逸散方向（z）",
+            "description": "调整tuowei逸散方向",
+            "value": "v.tuowei_get_move_z",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "tuowei范围（z）",
+            "description": "调整tuowei生成范围",
+            "value": "v.tuowei_get_range_z",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "tuowei范围（x）",
+            "description": "调整tuowei生成范围",
+            "value": "v.tuowei_get_range_x",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "tuowei范围（y）",
+            "description": "调整tuowei生成范围",
+            "value": "v.tuowei_get_range_y",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          }
+        ]
+      },
+      {
+        "id": "tuowei特效设置2",
+        "name": "tuowei特效设置2",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "tuowei消散速度",
+            "description": "调整tuowei消散速度",
+            "value": "v.tuowei_get_disappear_speed",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "tuowei消散时间",
+            "description": "调整tuowei消散速度",
+            "value": "v.tuowei_get_disappear_time",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "tuowei偏移（x）",
+            "description": "调整tuowei生成位置",
+            "value": "v.tuowei_get_dict_x",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "tuowei偏移（y）",
+            "description": "调整tuowei生成位置",
+            "value": "v.tuowei_get_dict_y",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "tuowei偏移（z）",
+            "description": "调整tuowei生成位置",
+            "value": "v.tuowei_get_dict_z",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "tuowei旋转（z）",
+            "description": "调整tuowei旋转速度",
+            "value": "v.tuowei_get_rot_z",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "tuowei旋转（x）",
+            "description": "调整tuowei旋转速度",
+            "value": "v.tuowei_get_rot_x",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "tuowei旋转（y）",
+            "description": "调整tuowei旋转速度",
+            "value": "v.tuowei_get_rot_y",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          }
+        ]
+      },
+      {
+        "id": "liefen特效设置",
+        "name": "liefen特效设置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "liefen数量(组)",
+            "description": "调整liefen数量",
+            "value": "v.liefen_get_gp_num",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "liefen数量(个/组)",
+            "description": "调整liefen数量",
+            "value": "v.liefen_get_num",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "liefen大小（x）",
+            "description": "调整liefen大小",
+            "value": "v.liefen_get_scale",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "liefen逸散速度（x）",
+            "description": "调整liefen逸散速度",
+            "value": "v.liefen_get_speed",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "liefen逸散方向（x）",
+            "description": "调整liefen逸散方向",
+            "value": "v.liefen_get_move_x",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "liefen逸散方向（y）",
+            "description": "调整liefen逸散方向",
+            "value": "v.liefen_get_move_y",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "liefen逸散方向（z）",
+            "description": "调整liefen逸散方向",
+            "value": "v.liefen_get_move_z",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "liefen范围（z）",
+            "description": "调整liefen生成范围",
+            "value": "v.liefen_get_range_z",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "liefen范围（x）",
+            "description": "调整liefen生成范围",
+            "value": "v.liefen_get_range_x",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "liefen范围（y）",
+            "description": "调整liefen生成范围",
+            "value": "v.liefen_get_range_y",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          }
+        ]
+      },
+      {
+        "id": "liefen特效设置2",
+        "name": "liefen特效设置2",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "liefen消散速度",
+            "description": "调整liefen消散速度",
+            "value": "v.liefen_get_disappear_speed",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "liefen消散时间",
+            "description": "调整liefen消散速度",
+            "value": "v.liefen_get_disappear_time",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "liefen偏移（x）",
+            "description": "调整liefen生成位置",
+            "value": "v.liefen_get_dict_x",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "liefen偏移（y）",
+            "description": "调整liefen生成位置",
+            "value": "v.liefen_get_dict_y",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "liefen偏移（z）",
+            "description": "调整liefen生成位置",
+            "value": "v.liefen_get_dict_z",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "liefen旋转（z）",
+            "description": "调整liefen旋转速度",
+            "value": "v.liefen_get_rot_z",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "liefen旋转（x）",
+            "description": "调整liefen旋转速度",
+            "value": "v.liefen_get_rot_x",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          },
+          {
+            "type": "range",
+            "title": "liefen旋转（y）",
+            "description": "调整liefen旋转速度",
+            "value": "v.liefen_get_rot_y",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 0.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "特效设置",
+        "extra_animation": {
+          "tuowei_particle_init": "#tuowei特效设置",
+          "tuowei_particle_init2": "#tuowei特效设置2",
+          "liefen_particle_init": "#liefen特效设置",
+          "liefen_particle_init2": "#liefen特效设置2"
+        }
+      }
+    ],
+    "default_texture": "yanqing",
+    "preview_animation": "show",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/yanqing.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Phainon_plus_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 23346,
+      "sha256": "e530ae4878dc43ec427622a1ff741fe2942d62c50f6616c9f373cc641668c77e"
+    }
+  },
+  "stats": {
+    "file_count": 18,
+    "total_bytes": 4686345,
+    "sha256": "b946e23f981419ca2afceab3c2e5bffe3dfd8f09aa92555b3972d004ef7a29a8",
+    "bones": 416,
+    "cubes": 3207,
+    "faces": 19042,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 225623,
+      "sha256": "ba44b4d30230c71c8f09a0aecf6941cae03dce57f88e66ec0b77f5a75e34ad32"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 120566,
+      "sha256": "455a8e3794db4d11ceccd903c15c078f3004b88d6262debad5f9bda96a32c57b"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 327275,
+      "sha256": "0ce70d4d22fb5797635f9d262fb9f1829830f4bf7456711f23f755b323794fda"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1502199,
+      "sha256": "9b02138599d0f5e23e031413c2ff3e428501ad51e276c5d9017077e18295e7c1"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 135081,
+      "sha256": "c4f6f105c3ca232a3426c1d9767f9c018f6a73147f79e11fa317ed014f9ede9d"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/烟雨画桥.png",
+      "size": 36436,
+      "sha256": "378b13eb21c05a10fe8be12b484abfbe033ecbb76fddf79f5785d4cd147735a1"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 35927,
+      "sha256": "696eba5fca0a4e40d7b05236b6e4f01bdee81e40b35b04953e54eb826fca274a"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 156787,
+      "sha256": "7fde188ea3f4aac7e476ed18a6087e71319675310380dfad89cbedb173425942"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1615977,
+      "sha256": "ba87157350dbed878b33ca5218a6b82c02e0ba64ecc165fecfcf33458691c8f1"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/yanqing.png",
+      "size": 282598,
+      "sha256": "fced5b2e5a36baf75d6b40e5f40dccc0508e1a9fe12ce80d92dabb9b389d1a79"
+    },
+    {
+      "path": "ysm.json",
+      "size": 7466,
+      "sha256": "90b8c8ab8e2b3cc30fcc6d03cad4bffa27f08fb4127cee45321f087cff492bec"
+    }
+  ]
+}

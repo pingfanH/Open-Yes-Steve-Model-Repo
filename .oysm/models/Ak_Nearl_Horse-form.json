@@ -1,0 +1,146 @@
+{
+  "id": "Ak_Nearl(Horse-form)",
+  "path": "parsed/Ak_Nearl(Horse-form)",
+  "source": {
+    "path": "_Arknights/Ak_Nearl(Horse-form).ysm",
+    "type": "ysm",
+    "stem": "Ak_Nearl(Horse-form)"
+  },
+  "ysm": "parsed/Ak_Nearl(Horse-form)/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§c烈鸟比百.png",
+        "comment": "§7啦啦啦~",
+        "contact": {
+          "Afdian": "爱发电搜索“烈鸟比百”",
+          "Bilibili": "B站搜索“烈鸟比百”"
+        },
+        "name": "§c烈鸟比百",
+        "role": "§7人物模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/Aigoblin?tab=shop",
+      "home": "https://space.bilibili.com/20510758?spm_id_from=333.1007.0.0"
+    },
+    "name": "§e临光",
+    "tips": "§8如果喜欢，欢迎前往爱发电支持，解锁可脱功能及更多轮盘动画！"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "变": "欢迎发电解锁完整版"
+    },
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Nearl_Horse-form_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13699,
+      "sha256": "59999039daf44adbf40a9774e8e4554d2943e399cc5b91b98b28e790e6c48bfe"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 1983557,
+    "sha256": "377c8ddf06f82c4d8e267561aefa4af8fa4afbaae4ac11e57c6200506f8f6289",
+    "bones": 153,
+    "cubes": 1395,
+    "faces": 8292,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 124828,
+      "sha256": "8050424edca7ba8ede4cc720139693d094d76714baee1003f843af60890beed0"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2712,
+      "sha256": "4f5e7ed844d6d85a5a0a97bb7a3bcce92307a1ead674f00bca412ec3425c6e4e"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 182,
+      "sha256": "81f4678bc95a6e31004e00ee14bc43dae1985c064756dc9b0f6c6e93ac2594ea"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 727011,
+      "sha256": "d147e94b252f96c1d16a28edd02ffff81d9c9b08622cea61c3eef7b1d19dade5"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 232855,
+      "sha256": "9742f50a2c1eb7a95a48fe251e4da87a2f068b5707e973ca06367c600385cb41"
+    },
+    {
+      "path": "avatar/§c烈鸟比百.png",
+      "size": 37915,
+      "sha256": "7f6a5899c023a97b9315642e24f8d7ab96047014cb79fef3ab1631b06f63d872"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 21260,
+      "sha256": "fffcf60cbe0c9e88054a53f29221d2d8986c13d3d81ccb65d94dca510e7fdd52"
+    },
+    {
+      "path": "models/main.json",
+      "size": 750022,
+      "sha256": "8d41039a379a79fccada3434b66cedefc069a4cba30e7eb08e640fc23f046b1d"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 85667,
+      "sha256": "71120b79315f2f90f3c06dc4b373923312e1f3e88c127c5eb4d38bc120b312ca"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1105,
+      "sha256": "ce2659276ae0b838b8caeb17a3c14d7d0d5d10d0eec0e0da4887914a0ce0e6b0"
+    }
+  ]
+}

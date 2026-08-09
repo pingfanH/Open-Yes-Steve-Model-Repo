@@ -1,0 +1,111 @@
+{
+  "id": "GI_Shenhe",
+  "path": "parsed/GI_Shenhe",
+  "source": {
+    "path": "_GenshinImpact/GI_Shenhe.ysm",
+    "type": "ysm",
+    "stem": "GI_Shenhe"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§b申鹤",
+    "tips": "§8普通版\n§8持剑类手上显示专武以及替身",
+    "authors": [
+      {
+        "name": "§b完全冻结ALL§8（模型）"
+      },
+      {
+        "name": "§c烈鸟比百§8（模型）"
+      }
+    ]
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "quan.png",
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Shenhe_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 14127,
+      "sha256": "eb8078549bc6c30a2d5234ab61f6bc19eba48e233cf516e02bb3e4a3cdb15f99"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 2340081,
+    "sha256": "f7f209fc099c9cba3e7532ebb09fc9c5b49674633efba71262b85d5f79127b33",
+    "bones": 234,
+    "cubes": 2176,
+    "faces": 13056,
+    "textures": 2,
+    "materials": 2,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 44506,
+      "sha256": "5c3456df125bd34cc21f83b6dc5b2f42b36fc431d13f1d1d3ab47fe51cd267d9"
+    },
+    {
+      "path": "arm.json",
+      "size": 66569,
+      "sha256": "fd66ec36d3163fd2687d03434b9dabc1f14c367ae4342c99797692129d5b3d15"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 580314,
+      "sha256": "89e63cda7ba9e32ab341fff60742ade171ef9b4dbb3ae4a3d92d43cb4c566637"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 195827,
+      "sha256": "2931a737fd7a9677684e5f349ecb05bcde7716cf041153d0a26bd629dba371b0"
+    },
+    {
+      "path": "main.json",
+      "size": 1155788,
+      "sha256": "44c7b357daa645c8e3b86c77028cd1b4175830e67daa1f397f6f18bceef029d1"
+    },
+    {
+      "path": "quan.png",
+      "size": 71205,
+      "sha256": "e7e32e9c00e32a0f3d228a1e6cbeb9ded5a3dd191bf0bddab49bfd63d91c31d4"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 154853,
+      "sha256": "901d56a6391aee0ca066594d3a5119eb18afcfed2faa5f8002d10e7a0084e1bf"
+    },
+    {
+      "path": "texture.png",
+      "size": 71019,
+      "sha256": "a1464a2da0dd73c95363a68edfcc89c59e14715dfc62971259654fd99d62e8e8"
+    }
+  ]
+}

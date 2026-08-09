@@ -1,0 +1,161 @@
+{
+  "id": "ApexLegends_Valkyrie",
+  "path": "parsed/ApexLegends_Valkyrie",
+  "source": {
+    "path": "_ApexLegends/ApexLegends_Valkyrie.zip",
+    "type": "zip",
+    "stem": "ApexLegends_Valkyrie"
+  },
+  "ysm": "parsed/ApexLegends_Valkyrie/ysm.json",
+  "metadata": {
+    "name": "瓦尔基里-Apex拦截者",
+    "tips": "全体注意，瓦尔基里准备就绪，准备点燃！\n地面可以给他们，但天空是属于我的！",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "qf",
+        "role": "模型",
+        "avatar": "avatar/touxiang.png",
+        "contact": {
+          "bilibili": "https://space.bilibili.com/452194950"
+        },
+        "comment": "你也可以叫我  Elaina0_0老师?"
+      }
+    ],
+    "link": {
+      "home": "",
+      "donate": ""
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "唐舞1",
+      "extra1": "丝滑小连招",
+      "extra2": "刀刃弹幕",
+      "extra3": "敬礼",
+      "extra4": "朱雀-检视",
+      "extra5": "冲！",
+      "extra6": "舞枪",
+      "extra7": "唐舞2",
+      "extra8": "盘腿坐"
+    },
+    "preview_animation": "choose",
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "texture": [
+        "textures/texture.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/ApexLegends_Valkyrie_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 28573,
+      "sha256": "0d216e229abaa1c5d32586afa6c5e4106d16a65a7fd747ce8b05156e81afde73"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 2806100,
+    "sha256": "ba178324c10dde8f94d2e3d768aa81f01e2c636e5868fc9324b6275b3c550c58",
+    "bones": 287,
+    "cubes": 1713,
+    "faces": 10278,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 146624,
+      "sha256": "81a505cff9e112f42612a931fdf95924736a305bddb1d28da65b95600729c07a"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3916,
+      "sha256": "fded12971b8b79a2a0fe9b57db36ea9bf4ab2db76f6e83f0d2abbd3d9939b665"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 183693,
+      "sha256": "4cf04fd307086602b9baf402070f8921d85c77ab109c2fa1e528b039b4814026"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 284681,
+      "sha256": "09cadb9ab6021684fbb66687323e5029821f84b7099ea7625fd87d360ae55715"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 164785,
+      "sha256": "b58c7798fff418fddf9e2fe2509d8d9ab99a0c2ee6626acf4b1ed099332ad10b"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41899,
+      "sha256": "1300e1872a300b3e721f31f62554d2c8639d88d0f731e7ea173cd0c409742b47"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 160245,
+      "sha256": "9b568352056b324469fb0e5ebc0a050ffbe5e2f7abaab0286b997de40bcc30cb"
+    },
+    {
+      "path": "avatar/touxiang.png",
+      "size": 1068222,
+      "sha256": "32585c1ac04092472f6aa25369de89faef7a3a68a27a7041335cbee14d898c22"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 47138,
+      "sha256": "542d87fda30e6fab146491da6e523259bae5ddbed3a8f23b203d6b67bdf76606"
+    },
+    {
+      "path": "models/main.json",
+      "size": 611245,
+      "sha256": "ebd175fbccf484441f9a0a9be0c971bfba6e1f875c2e921670e4dc7de6bb13f9"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 91921,
+      "sha256": "5aaf5894d3f37fa82652a7c1f4c8e573850cedd1a70f4f2d0b9e5288d8da533b"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1731,
+      "sha256": "42c47c9190b76ba4261efc5fab36c439f9bdd4e552b0bd8c8f6f5cbe523e8488"
+    }
+  ]
+}

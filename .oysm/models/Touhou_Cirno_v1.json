@@ -1,0 +1,129 @@
+{
+  "id": "Touhou_Cirno_v1",
+  "path": "parsed/Touhou_Cirno_v1",
+  "source": {
+    "path": "_TouhouProject/Touhou_Cirno_v1.ysm",
+    "type": "ysm",
+    "stem": "Touhou_Cirno_v1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "琪露诺  [Cirno]",
+    "tips": "这位是稍显肉肉的琪露诺~",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "@B站 平衡芝光"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "arrow.png",
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "arrow": "arrow.animation.json",
+        "carryon": "carryon.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Touhou_Cirno_v1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4152,
+      "sha256": "bcc47a623e07892277221760c9f900d941f6c6cab0c49bc9d912a2ce9b96d772"
+    }
+  },
+  "stats": {
+    "file_count": 11,
+    "total_bytes": 653796,
+    "sha256": "945247d8c5b579f2f16739c9dbd005317d92a49d5eb676cee9d25132df6102d2",
+    "bones": 93,
+    "cubes": 432,
+    "faces": 2592,
+    "textures": 2,
+    "materials": 2,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 121775,
+      "sha256": "59f336973964ea42a4cdb6a7894e8f01de4c0ec397285aafa19b247385ba578c"
+    },
+    {
+      "path": "arm.json",
+      "size": 9267,
+      "sha256": "00e5112f043f3f3ca3fe3418a86804ab90b972fd06131a741105747ef79c6ba4"
+    },
+    {
+      "path": "arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "arrow.json",
+      "size": 10602,
+      "sha256": "f00ca068fa8348b55a96666a447a48964f0e60d6d41a4009cd3d1afc38529484"
+    },
+    {
+      "path": "arrow.png",
+      "size": 1531,
+      "sha256": "22f6b1bf5207f6243f98dfaf2761a098d5874f5bbd2833b964fe6815b9306e47"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 2742,
+      "sha256": "204bd37d82df9c1c66abd2a89aa5cb2355077579616e9eefbc2ab90a2c26dad1"
+    },
+    {
+      "path": "info.json",
+      "size": 205,
+      "sha256": "f078166fa3097b71dcde78fdb633b091d2e5c888e91d24da8c41b744a71b05ae"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 141041,
+      "sha256": "3d1d9511ba6d42e3c1ba987f05aa9861c159e58cf9bea5427dfc7ff50a15d20f"
+    },
+    {
+      "path": "main.json",
+      "size": 223921,
+      "sha256": "37feaf9af65af3434c854681cb239768739d160d762b42aa057f3e62c9a2fd8d"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "texture.png",
+      "size": 8771,
+      "sha256": "8c17c170cb3bd2c43673ca9e2af87dae1e4d78140698bf649de11be1fd9e2751"
+    }
+  ]
+}

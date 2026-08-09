@@ -1,0 +1,217 @@
+{
+  "id": "xiao90",
+  "path": "parsed/xiao90",
+  "source": {
+    "path": "Unknown/xiao90.zip",
+    "type": "zip",
+    "stem": "xiao90"
+  },
+  "ysm": "parsed/xiao90/ysm.json",
+  "metadata": {
+    "name": "74M 90 1",
+    "tips": "携行具的携带能使你在突发一些紧急情况时拔出一把枪。",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "TV90",
+        "role": "ysm",
+        "avatar": "avatar/90.png",
+        "contact": {
+          "Afdian": "",
+          "Bilibili": ""
+        },
+        "comment": "i drive"
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "preview_animation": "idle",
+    "disable_preview_rotation": false,
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        "textures/default.png",
+        "textures/blue.png"
+      ],
+      "sound_path": "sounds"
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/xiao90_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6528,
+      "sha256": "9b75f6f470dfad571c5ed49ac18aad14e2f4cb94e69864de9cf6a4655686fbdc"
+    }
+  },
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 4603066,
+    "sha256": "f1d164e43b0f5d6f4f6f9b7a31231e7caac0e5be26685f106bbbe7fd1628aee4",
+    "bones": 77,
+    "cubes": 216,
+    "faces": 1296,
+    "textures": 2,
+    "materials": 2,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 197705,
+      "sha256": "1e9f67fac723fd200d172d74aa092ea393f005b9aeafe9086ecc1b475fb1a535"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 744,
+      "sha256": "01902bc329af43baf925d67eb6861c5f4e2dd5355258c96819533ed7d94239ba"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3078,
+      "sha256": "fe28bda145b9a8f8acfd3aa1d85b267a55e5c6538f595161dbd2161bbebd8bda"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 124928,
+      "sha256": "47014ba7279bc6bd4ac5f360035d2ff3fbc48ff376423b21508cf572ce02ea27"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 190348,
+      "sha256": "a0ff68a9d39a45f1baba0ac49275ae5e7ed3f5cc34c88175a34f952cd57880fd"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 184361,
+      "sha256": "1bfd0c06c63282bc1f0bbb316983c0faa4e98b666989961479fa424f5f3e556a"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1652964,
+      "sha256": "af05ec10f7e23dd7148f6a72bdba8abd0e4899dd9e7bf6d65cc42e4feba118fb"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 42814,
+      "sha256": "b0018f5a7e88c21f78b75ff18c98966428ac691c46f716950d2a8f2a0815abb3"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 221169,
+      "sha256": "1ae84ef6e9cf75e62b614899b78d50293afe2dc872cb86483721950352389d7a"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 66511,
+      "sha256": "353dc14cd77017092bc969500977609c5585fe71db258cf57ae703d9cdb00641"
+    },
+    {
+      "path": "avatar/90.png",
+      "size": 28424,
+      "sha256": "9cdfb7ec715eb9561950b036e439a52cd6364364850a38c431b0b76c737a73b0"
+    },
+    {
+      "path": "mai1n.bbmodel",
+      "size": 1812002,
+      "sha256": "99f1c0cb5bca8c0ab5e550bdbbf8db8cb8d65ba8a619fff91218b256b52e9ba8"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 2748,
+      "sha256": "be6a07e370895ca8861ca0b9d1ee7de76e47c2af99363b5a4ed34533f41b2a8b"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 14608,
+      "sha256": "4f04aa3cb1327346ae1f63b4f960571c990dc7fd2e0ad93965c9b130d1eff324"
+    },
+    {
+      "path": "models/main.json",
+      "size": 40323,
+      "sha256": "dddf5fb2da3cc5e58e47adc0163d0d08f7d1ce195d0e9475d67a541db1d03524"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1213,
+      "sha256": "0ecda6c1557cf3571289a3212c93e125d8b075cc37ac62f14dad852d83a576ec"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 8423,
+      "sha256": "4d090f0cc41e88b45c2f66634cd5f702fe9d69ab0f7e17cd127f83e11c6d2802"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 8423,
+      "sha256": "4d090f0cc41e88b45c2f66634cd5f702fe9d69ab0f7e17cd127f83e11c6d2802"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2280,
+      "sha256": "b320af216a924c1a0b5d44fe45d80a022ce24bd9999e831488bd3fc2bd7e9ef9"
+    }
+  ]
+}

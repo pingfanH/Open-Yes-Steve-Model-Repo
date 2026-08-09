@@ -1,0 +1,206 @@
+{
+  "id": "alt_nicole",
+  "path": "parsed/alt_nicole",
+  "source": {
+    "path": "Unknown/alt_nicole.ysm",
+    "type": "ysm",
+    "stem": "alt_nicole"
+  },
+  "ysm": "parsed/alt_nicole/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/_Unknown_.png",
+        "comment": "",
+        "name": "<Unknown>",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Alt_nicole",
+    "tips": "<Unknown>"
+  },
+  "properties": {
+    "width_scale": 0.5,
+    "height_scale": 0.5,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "#extra_classify": "Extra Classify"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "Simple Config",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "toggle veil",
+            "description": "toggle the veil on or off",
+            "value": "v.veil"
+          },
+          {
+            "type": "checkbox",
+            "title": "toggle suitcase",
+            "description": "toggle the suitcase on or off",
+            "value": "v.suitcase"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/alt_nicole_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10040,
+      "sha256": "0d8f276c3a607c841b72e48b3d8d225e3ea99d849498d9620a5b7429e1076d07"
+    }
+  },
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 4327315,
+    "sha256": "e7020ebd3b8d8f759d5a9db6f1d9dfe32569fed49e77326a845ccb8db97fd464",
+    "bones": 147,
+    "cubes": 1087,
+    "faces": 6492,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 206092,
+      "sha256": "3e66503767ec326dfdd91dbb530e98520eda6221dff117398afc902552c20125"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 109004,
+      "sha256": "ba1e5d1d0e30fc7cec4337358c630cf4f7c89f986f3a98b261c424bd3aecd477"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 192122,
+      "sha256": "8fa32dc31122c89918d2ea407072a078cf41cf1f583fd9b655184592753da7b8"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 529171,
+      "sha256": "1788b75f5d5790920ed2be31c690035f2affc6a9e57135617287518084bba9fe"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 1449,
+      "sha256": "30c6290b30c0596751fd0dc46bd0fcdcd1a5c2e634ca80630c53ee317fcc6346"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 65719,
+      "sha256": "1e16fe741137fffdd43180747809610c4e0825ea9fbd8f483c14a679a8753bae"
+    },
+    {
+      "path": "models/main.json",
+      "size": 863173,
+      "sha256": "980a853199efb120af25eb6125c17781496caedb91fd2f8ca51dc25a60243861"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 103202,
+      "sha256": "6b2325eae310212daa67c2ef4dc1900a7abeb34fcc515d72a372a5dabcd69301"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1661,
+      "sha256": "0d11e83bb89abdfee3424ad14811ea37354845c9471642f6255e832cb7e3119c"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "GI_Hutao",
+  "path": "parsed/GI_Hutao",
+  "source": {
+    "path": "_GenshinImpact/GI_Hutao.ysm",
+    "type": "ysm",
+    "stem": "GI_Hutao"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "GI_Hutao"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "block.png",
+        "quan.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Hutao_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4890,
+      "sha256": "17f46885965351be646b6462ae6c0a4dcb6ab485b4014cd9b5446e0f4e4872d2"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 3184260,
+    "sha256": "8b2304e8d20fb507f7f4b3490ea26ea6dac1743b93a389a292000c9a4b13cc0e",
+    "bones": 135,
+    "cubes": 897,
+    "faces": 5382,
+    "textures": 2,
+    "materials": 2,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 54696,
+      "sha256": "db54b7cd5debb0f53818f72063c659f6ba4ec53540bbf01af1d4021e82406408"
+    },
+    {
+      "path": "arm.json",
+      "size": 43015,
+      "sha256": "1e4d12e88c0ce4e2f2cc7eceaa70519f4b2ebf739a79fc50887490651f349ffb"
+    },
+    {
+      "path": "block.png",
+      "size": 28286,
+      "sha256": "2be31517f110da0b1946fd72ba78d7df94f4a880e22fda1e83e670ba07a2fb2a"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 831704,
+      "sha256": "98c9fc5aab403ef0e86af300902b7858aa323ce234b37791255ca72619a7c9aa"
+    },
+    {
+      "path": "gs_hutao.zip",
+      "size": 311077,
+      "sha256": "4240fdfe2e8c9bc2a858ac19dadc5590966ec2c08e07f8a335c296ff24711ad6"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 343333,
+      "sha256": "21ec9806a54d21808c3e8d82d39526f977ea32b8fa85ac0b639ed81cbbf1cdf4"
+    },
+    {
+      "path": "main.json",
+      "size": 452788,
+      "sha256": "e8e0e2fd09397ea7cd26ee016b11126bc281e30eebc8eb22b056187044848c7a"
+    },
+    {
+      "path": "quan.png",
+      "size": 28308,
+      "sha256": "4e032628701d1f5f5634ea296170bfe69abd52ba8a5e83a6892413ded078bebf"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 140871,
+      "sha256": "72e255776454327b3488ec24606a7e6784f7fc6190eb56fc853a11bc3e987dc2"
+    },
+    {
+      "path": "胡桃.bbmodel",
+      "size": 950182,
+      "sha256": "40ed8ca500b8de42b3b391b95386a06e2aa9ba1ede56eb40e031dd7bdfa1bcb6"
+    }
+  ]
+}

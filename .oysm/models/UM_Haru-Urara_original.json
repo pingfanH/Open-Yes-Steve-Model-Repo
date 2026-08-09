@@ -1,0 +1,176 @@
+{
+  "id": "UM_Haru-Urara(original)",
+  "path": "parsed/UM_Haru-Urara(original)",
+  "source": {
+    "path": "_UmaMusume/UM_Haru-Urara(original).ysm",
+    "type": "ysm",
+    "stem": "UM_Haru-Urara(original)"
+  },
+  "ysm": "parsed/UM_Haru-Urara(original)/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/LuXi233.png",
+        "comment": "YSM作者",
+        "contact": {
+          "Afdian": "None",
+          "Bilibili": "https://space.bilibili.com/183485702"
+        },
+        "name": "LuXi233",
+        "role": "模型、上色、动作"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "春乌拉拉 决胜服",
+    "tips": "我叫春烏菈菈！我最～喜歡胡蘿蔔\r\n跟跑步了，因為跑起來很開心喔♪\r\n目標是第一名，我會超級努力的喔～！"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "卖萌",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "是的",
+      "extra4": "不行",
+      "extra5": "庆祝",
+      "extra6": "扭腰",
+      "extra7": "敬礼",
+      "extra8": "待机动作【重炮】",
+      "extra9": "坐下",
+      "extra10": "鸭子坐",
+      "extra11": "Hello~",
+      "extra12": "诶？",
+      "extra13": "出发~",
+      "extra14": "抱头",
+      "extra15": "笑",
+      "extra16": "待机【乌拉拉】",
+      "extra17": "吓到",
+      "extra18": "困了",
+      "extra19": "卖萌",
+      "extra20": "午睡"
+    },
+    "preview_animation": "extra16",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/UM_Haru-Urara_original_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7452,
+      "sha256": "0c4861055ae2ee376c527e1d12ce038e2f88628eec44378c0e46da68be3c70f3"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 1656784,
+    "sha256": "54487d9dcf5fbe4347196f6558c4076c63c60b0e79129bbc5f79df5fd0dc0156",
+    "bones": 134,
+    "cubes": 376,
+    "faces": 2256,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136637,
+      "sha256": "f795d670b8e2553548348161425e21c7a8f4c2b78d4602d33c8ccc1f03f537b3"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 72409,
+      "sha256": "ed82373373c93fa2cafe6896be26086842be12ca8bcdf334208146ce1ae39ae7"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 220627,
+      "sha256": "0133804fc5f2d13878c28dcdab799dbe9eb743f08eb8c70b31ecdad7efa7e782"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/LuXi233.png",
+      "size": 609469,
+      "sha256": "31416cc64ffcba4fb65f4c5c86986985cd4c8000aa863b55e709dc0b229f376c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 23001,
+      "sha256": "ec5f7d89dfe637831af3e63ae0d8df0c7867bc02468146f1786767b9e5bf68de"
+    },
+    {
+      "path": "models/main.json",
+      "size": 184523,
+      "sha256": "4ed755470dbc9da4394f4f6a1b9b845696bab5569cc1992554a355114d7e36b8"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 49520,
+      "sha256": "2133275797bd31ec29e3d45c61def0a859c9034439117552df4fdb6fbaea3b8f"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1537,
+      "sha256": "3263ccab1e5979f70e2c8448986835f8f9b3eb4abdd2509a09f5591a42c87b94"
+    }
+  ]
+}

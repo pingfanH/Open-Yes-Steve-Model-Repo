@@ -1,0 +1,124 @@
+{
+  "id": "HSR_Aventurine",
+  "path": "parsed/HSR_Aventurine",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Aventurine.zip",
+    "type": "zip",
+    "stem": "HSR_Aventurine"
+  },
+  "ysm": "parsed/HSR_Aventurine/ysm.json",
+  "metadata": {
+    "name": "Aventurine YSM",
+    "tips": "<Unknown>",
+    "license": {
+      "type": "All Rights Reserved",
+      "desc:": "",
+      "desc": "Aventurine From Honkai Star Rail"
+    },
+    "authors": [
+      {
+        "name": "Welfare Waifu",
+        "avatar": "avatar/welfare waifu.png",
+        "role": "Sole Author",
+        "contact": {
+          "Planet Minecraft": "https://www.planetminecraft.com/member/welfarexwaifu/",
+          "Twitter": "https://x.com/WelfarexWaifu"
+        }
+      }
+    ]
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "preview_animation": "idle",
+    "free": false,
+    "render_layers_first": false,
+    "default_texture": "Skin"
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "texture": [
+        {
+          "uv": "textures/Skin.png"
+        }
+      ],
+      "animation": {
+        "main": "animations/aventurine.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Aventurine_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13652,
+      "sha256": "9fc0ed57a03d2c1209e345c47bb26894f76a99541b64289aadbe7b0b690d1a94"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 2924689,
+    "sha256": "94c7d70be5b94e88f12af032c423efb3510d4b06a8a6aaeebccb4f25bf9eb439",
+    "bones": 86,
+    "cubes": 280,
+    "faces": 1680,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/aventurine.animation.json",
+      "size": 2593779,
+      "sha256": "1ecbf4c2278444214726e15f2bb57008a854faba9d96e07a5f9d91f3eaa45544"
+    },
+    {
+      "path": "avatar/welfare waifu.png",
+      "size": 6707,
+      "sha256": "23e4a3d9b8b52bf0ce547fc4e3d6095daf55611aa9695372b5becff1beb5f10c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 22456,
+      "sha256": "7c01c3396b4c5b12f4ac747d376a76b64fbd7b53202361c1d8e02d22df0b5824"
+    },
+    {
+      "path": "models/main.json",
+      "size": 152293,
+      "sha256": "3f87a260a393eec6ae24260590ae5248ac640acfa6dc6447fa77a8e69f85c6d4"
+    },
+    {
+      "path": "textures/Skin.png",
+      "size": 148385,
+      "sha256": "072c379510b230fb9f93f48c643820f9b48f92f0eb540247d6d90645db3b7761"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1069,
+      "sha256": "9aba92c84c6e5e92157fb19492d495dea6afaef7647a42813823db675e8e81d6"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "AL_Littorio(With_arm)_v1.0",
+  "path": "parsed/AL_Littorio(With_arm)_v1.0",
+  "source": {
+    "path": "_AzurLane/AL_Littorio(With_arm)_v1.0.ysm",
+    "type": "ysm",
+    "stem": "AL_Littorio(With_arm)_v1.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "利托里奥_武装（Littorio）",
+    "tips": "利托里奥是二战时期意大利海军维托里奥·维内托级战列舰的二号舰，不过相关资料中也有将该级称为利托里奥级的说法。",
+    "authors": [
+      {
+        "name": "Almeta_owx"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "littorioarm.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/AL_Littorio_With_arm__v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12894,
+      "sha256": "2f2bedfedd372bfe148cfcf9fe6b6da5339f767b339988df1864e04622902c00"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 765473,
+    "sha256": "8b20baad689ab6c4a9f6e9d5c486ed44cd7e3bf991253373bb6d6c38dab48f85",
+    "bones": 323,
+    "cubes": 1361,
+    "faces": 8166,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 29605,
+      "sha256": "1f183675d6ae389052f90f936b49f9ce2d34161944a7d36affab74e4b973df8b"
+    },
+    {
+      "path": "arm.json",
+      "size": 31398,
+      "sha256": "b72e88ee9c2eeb50f6addba16a4ee0e0130cf9408cd0a55a11f2360a95f97f8a"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 124151,
+      "sha256": "0015d1dd4378676dacd723b5f579973f03e058d57cece1efdb25dc76fa714ae1"
+    },
+    {
+      "path": "littorioarm.png",
+      "size": 35705,
+      "sha256": "e2a53229bab614f2ca320569dfdf75e53b9710f0b482286a43ff25e83fe6aab9"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 147590,
+      "sha256": "bd6cf8e2a921e955d871533e742a8681e6ccb52d8bf2c97e328670c3a0cdf352"
+    },
+    {
+      "path": "main.json",
+      "size": 389573,
+      "sha256": "44495e9ce9fdfca6163ad6ed1f6c0d3f3437754f59c84e1853308bb431659839"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 7451,
+      "sha256": "399af72c061a951804b6d88253514d489a8c746020454549d3822816b3f2da12"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "Utau_Tetoyo",
+  "path": "parsed/Utau_Tetoyo",
+  "source": {
+    "path": "_Vocaloid-UTAU/Utau_Tetoyo.ysm",
+    "type": "ysm",
+    "stem": "Utau_Tetoyo"
+  },
+  "ysm": null,
+  "metadata": {
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [],
+    "name": "Utau_Tetoyo"
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "tex.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Utau_Tetoyo_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3409,
+      "sha256": "3a72f44d56b82f3197c288544d552b687559f75bd14b4c09dc036baca50908e5"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 184138,
+    "sha256": "64abf7b7c988caa9448946a8f276b6d7c098c458271a0b0363ba04dc6343bcbb",
+    "bones": 10,
+    "cubes": 65,
+    "faces": 390,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 136682,
+      "sha256": "c23327d0fe70d32d7d8ed15de8440c50290bae06695cd4f05089a87402c27502"
+    },
+    {
+      "path": "arm.json",
+      "size": 4249,
+      "sha256": "dcb2f504905af28ada75fffea40e2255565581d4f7aaff1eba3e9610601bd38f"
+    },
+    {
+      "path": "info.json",
+      "size": 102,
+      "sha256": "f48e72a220a1acd7b94d794e049448ef160566fba78c19ee294e887e665b6195"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 10906,
+      "sha256": "c356efc54ae8d3c3a93cc92748d11812549cce43ac028571a7746a665db93ab6"
+    },
+    {
+      "path": "main.json",
+      "size": 29934,
+      "sha256": "0b2bf0507708666988a8b85e8b2656a231cf630613113b255f45f015cde6ab8e"
+    },
+    {
+      "path": "tex.png",
+      "size": 2265,
+      "sha256": "099f3a68b6fd963988e9d7c680b31593ea449e4c52182c5b3336e8db4cbdd1e9"
+    }
+  ]
+}

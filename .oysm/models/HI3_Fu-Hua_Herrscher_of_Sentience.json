@@ -1,0 +1,269 @@
+{
+  "id": "HI3_Fu-Hua(Herrscher of Sentience)",
+  "path": "parsed/HI3_Fu-Hua(Herrscher of Sentience)",
+  "source": {
+    "path": "_HonkaiImpact3/HI3_Fu-Hua(Herrscher of Sentience).ysm",
+    "type": "ysm",
+    "stem": "HI3_Fu-Hua(Herrscher of Sentience)"
+  },
+  "ysm": "parsed/HI3_Fu-Hua(Herrscher of Sentience)/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/李欧black.png",
+        "comment": "啊，什么事？",
+        "contact": {
+          "Afdian": "https://afdian.tv/a/lioub1",
+          "Bilibili": " https://b23.tv/U2RGNdq"
+        },
+        "name": "李欧black",
+        "role": "作者"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.tv/a/lioub1",
+      "home": "https://afdian.tv/a/lioub1"
+    },
+    "name": "Default",
+    "tips": "自制模型（识之律者 Model）"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HI3_Fu-Hua_Herrscher_of_Sentience_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5940,
+      "sha256": "3f66793367fca029453179743b0a7239ab939369a5d380c193a57b5d0160bc91"
+    }
+  },
+  "stats": {
+    "file_count": 27,
+    "total_bytes": 16768185,
+    "sha256": "ac667c3672281f00c933e31c095892c65cef238ff242529368b97fbe65c89b43",
+    "bones": 383,
+    "cubes": 15865,
+    "faces": 95190,
+    "textures": 2,
+    "materials": 2,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 254327,
+      "sha256": "1030807a777a5745d07ac3d3dba931d7f8a032c742bc03566b9b49bda00a9f19"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2411,
+      "sha256": "bd8467b090fe4d0c6f7ee7fd5a373c956a789f5d177bef0bd79c72a78635d838"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 112690,
+      "sha256": "4d808ce9f887e6dd0b96a4844a925990b93e1ea8f17a81b8c3a52e081f4dd079"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 180850,
+      "sha256": "a6e3d72477debfad8b8c4d1280989b6a253b66666e14a980737dda2b9c340b3e"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 180999,
+      "sha256": "b29ee38da14fdffcd3a59f56df680b783c1a1773c4ec5ec0c496c26dbfb61d1c"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 49938,
+      "sha256": "f96a7208e37a13bef0e927be87d0aeb1fa965dc7784cbb9adb1547428fe9a1d0"
+    },
+    {
+      "path": "avatar/李欧black.png",
+      "size": 1659279,
+      "sha256": "e618e0548bfe4eaf3f9fe267781d41ff0f7d7e2e16e089818afe2ce5b7092bde"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 99889,
+      "sha256": "f4e60de4fb4e544b358e015f8aef267ea0d554e4c431dfd05898ae6e50b0e19f"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 7947,
+      "sha256": "29667f786102b56df6de65f9fc1c622a3d5dc167aa19554796f3b230ad752cb7"
+    },
+    {
+      "path": "models/main.json",
+      "size": 7752911,
+      "sha256": "f269cf9ac4a76e59da9aa53cd7922113a3a1865d352a70d3d1d6d905dc7ec116"
+    },
+    {
+      "path": "sounds/bgm.ogg",
+      "size": 1397276,
+      "sha256": "407184af3d603908dd128d1d7d218bc4a17fe81c553560f0ef1a2b6446f25e59"
+    },
+    {
+      "path": "sounds/death.ogg",
+      "size": 16912,
+      "sha256": "eae6051923bb6518f8392e6c95afe70d109ca70b297461403257070e95bc175d"
+    },
+    {
+      "path": "sounds/epeeswing.ogg",
+      "size": 11624,
+      "sha256": "9907016d8f8734f5386acb65a81ad9f421bf20c873ed78877674013bb170f6fa"
+    },
+    {
+      "path": "sounds/finishmore.ogg",
+      "size": 104085,
+      "sha256": "a842b7ca2bc679f37f6de9fae6183133ce48caebfdb0ca177a4754d99c731a8b"
+    },
+    {
+      "path": "sounds/finishmoreq.ogg",
+      "size": 50454,
+      "sha256": "d9629d7515b34f12219a3eaad833e0d7204ca480c849a12361ef4254fe0e9477"
+    },
+    {
+      "path": "sounds/lanceswing.ogg",
+      "size": 13856,
+      "sha256": "c0900eb63ef9d9c87d2e3e40c916e57890e649a99594d002c9e5864503daa8de"
+    },
+    {
+      "path": "sounds/sneak.ogg",
+      "size": 10742,
+      "sha256": "b5070be2dc646e502ae50dd686b8de1a51bc44b81b063b02cd2225a9be504157"
+    },
+    {
+      "path": "sounds/swordswing.ogg",
+      "size": 15312,
+      "sha256": "cdd6fc6bb872da788da4b59fa07f03df43465ab99988429eb5be6b778688709b"
+    },
+    {
+      "path": "sounds/whipswing.ogg",
+      "size": 13994,
+      "sha256": "1122e30dc5ebfdd46d7323b8736ca367de4f6bee8a63991c3c8c545c6779898b"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1869,
+      "sha256": "1fa4f3dab645dfc4e456d2ce78ea7a73cd2533147545647d4ea404a8ee4a3db3"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 813,
+      "sha256": "eb90b0ddab13211871e1d0bd0cfe23c203bacfc33e0760172e3f7fa851cfb370"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 2624512,
+      "sha256": "7b851940c0602e1e5fd2083013e80849ca1809684230b9b60ce0f48b1ac65aeb"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1715,
+      "sha256": "01edfe287cf4b324032398aac37f10135470d9b057274b41632fbf1acbb5d692"
+    }
+  ]
+}

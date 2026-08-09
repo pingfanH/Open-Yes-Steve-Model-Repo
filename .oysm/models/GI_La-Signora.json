@@ -1,0 +1,90 @@
+{
+  "id": "GI_La-Signora",
+  "path": "parsed/GI_La-Signora",
+  "source": {
+    "path": "_GenshinImpact/GI_La-Signora.ysm",
+    "type": "ysm",
+    "stem": "GI_La-Signora"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "GI_La-Signora"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "main.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_La-Signora_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 18017,
+      "sha256": "b53ef32732c2ff8ccee24c02f8ed5ec59358c04a77580862e3e527a3c4b5626f"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 1781969,
+    "sha256": "39859031be5adad90203f75586a53dee92a33d43e0db151b7ea6253c844b3a3c",
+    "bones": 81,
+    "cubes": 2566,
+    "faces": 15396,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 39629,
+      "sha256": "d7d8cc5aebd96d36ee76e9e4619513300bb7dbbc5d45b351a131e1145447085a"
+    },
+    {
+      "path": "arm.json",
+      "size": 1853,
+      "sha256": "91065740fe81b31a01f16155a6ccf9b53f1b3c8949feedef5ec33167a23cfcb7"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 65475,
+      "sha256": "48415eebb04e1afe243c56168361ccf455f3bb5959cabafefda97e86bdffe863"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 174273,
+      "sha256": "10593fc52bb56ede5eb91e1eb647dea7fec00ae152cc0da24fb7e46263569175"
+    },
+    {
+      "path": "main.json",
+      "size": 1415967,
+      "sha256": "67a618e7568dfff0db71cff6939bcb88c62b2737faa13fb821ab036859647ee2"
+    },
+    {
+      "path": "main.png",
+      "size": 84772,
+      "sha256": "2e6b01a204a07165f56d4535abe052612a162b7906a61671831ec78b86b70942"
+    }
+  ]
+}

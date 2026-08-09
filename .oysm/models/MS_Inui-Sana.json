@@ -1,0 +1,139 @@
+{
+  "id": "MS_Inui-Sana",
+  "path": "parsed/MS_Inui-Sana",
+  "source": {
+    "path": "_MashiroiroSymphony/MS_Inui-Sana.ysm",
+    "type": "ysm",
+    "stem": "MS_Inui-Sana"
+  },
+  "ysm": "parsed/MS_Inui-Sana/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/奇葩的小毛.png",
+        "comment": "纯新手，不喜勿喷qwq",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/642514655?spm_id_from=333.788.0.0"
+        },
+        "name": "奇葩的小毛",
+        "role": "模型,动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "link": {
+      "home": "https://space.bilibili.com/642514655?spm_id_from=333.788.0.0"
+    },
+    "name": "乾纱凪",
+    "tips": "调色板社游戏《纯白交响曲》女主之一"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "纱凪飞踢",
+      "extra1": "呼唤熊喵",
+      "extra2": "What can I say",
+      "extra3": "喵喵喵?",
+      "extra4": "解开/系上发带",
+      "extra5": "荡秋千",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "default",
+    "preview_animation": "preview",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/shazhi.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/MS_Inui-Sana_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11403,
+      "sha256": "03550ee06d5573ae16199aea4adc9a5b8f5cc892e7c5e9856940b084a2fd9466"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 1787119,
+    "sha256": "7f91c9cf21c6ea3925726baee63e211c5caa44d2251ae10ccea5824357469ba1",
+    "bones": 128,
+    "cubes": 653,
+    "faces": 3751,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 34697,
+      "sha256": "27e325a35e2475505a0ea6e29363d7d9a8761470f112c195fb426875448be483"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 41083,
+      "sha256": "c7a37df3dd0950cfce5cb4e5c3c24038b52bd4de875bab2468e1ce839c3c4324"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 175000,
+      "sha256": "e5fe63d7a4651961e20e67c9999d2f674396649ffede6717de7f10f68b89038a"
+    },
+    {
+      "path": "avatar/奇葩的小毛.png",
+      "size": 934245,
+      "sha256": "d980743034670b949d422e2ef93cdf4dba3e2154c6712435efaa0f5979f4a097"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 13260,
+      "sha256": "eba04ee713f30ecd506bc3d5fec5bae7eca2f9fc63f7e18456c70af4fd1d9938"
+    },
+    {
+      "path": "models/main.json",
+      "size": 512722,
+      "sha256": "a6845f6e260d2b3a1b4b2d3950ec3db0b8a0e8abfec0653b2c2b562517eaf5bf"
+    },
+    {
+      "path": "textures/shazhi.png",
+      "size": 75032,
+      "sha256": "c7b59a9ba49254c3418b2878f31b6e663ab8897f4d02be0c6b2c857c4a5809df"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1080,
+      "sha256": "a7d2b3f0ad2b8c91cc34db24bebac49b75584e8efee4b14d6c32a7f70e9620a3"
+    }
+  ]
+}

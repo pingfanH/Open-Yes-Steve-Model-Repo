@@ -1,0 +1,263 @@
+{
+  "id": "Vtuber_Momo",
+  "path": "parsed/Vtuber_Momo",
+  "source": {
+    "path": "_Vtuber/Vtuber_Momo.ysm",
+    "type": "ysm",
+    "stem": "Vtuber_Momo"
+  },
+  "ysm": "parsed/Vtuber_Momo/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/羊毛.png",
+        "comment": "是羊毛哦~",
+        "name": "羊毛",
+        "role": "模型 贴图 动画"
+      }
+    ],
+    "license": {
+      "desc": "保留最终所有权",
+      "type": "ARR"
+    },
+    "name": "墨沫",
+    "tips": "墨沫模型！"
+  },
+  "properties": {
+    "width_scale": 0.65,
+    "height_scale": 0.65,
+    "extra_animation": {
+      "extra1": "#wazi",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "",
+      "extra0": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "wazi",
+        "name": "设置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "模型大小",
+            "description": "调整模型大小",
+            "value": "v.roaming.Size",
+            "step": 0.1,
+            "min": 0.1,
+            "max": 4.0
+          },
+          {
+            "type": "range",
+            "title": "头部大小",
+            "description": "头部大小",
+            "value": "v.roaming.HeadSize",
+            "step": 0.05,
+            "min": 0.7,
+            "max": 1.2
+          },
+          {
+            "type": "checkbox",
+            "title": "披肩",
+            "description": "披肩",
+            "value": "v.roaming.Cape"
+          },
+          {
+            "type": "checkbox",
+            "title": "背后蝴蝶结",
+            "description": "蝴蝶结",
+            "value": "v.roaming.Band"
+          },
+          {
+            "type": "checkbox",
+            "title": "裙摆",
+            "description": "裙摆",
+            "value": "v.roaming.Dress"
+          },
+          {
+            "type": "checkbox",
+            "title": "帽子",
+            "description": "帽子",
+            "value": "v.roaming.Hat"
+          },
+          {
+            "type": "checkbox",
+            "title": "长发",
+            "description": "长发",
+            "value": "v.roaming.LongHair"
+          },
+          {
+            "type": "checkbox",
+            "title": "嘴巴",
+            "description": "嘴巴",
+            "value": "v.roaminh.mouth"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "MainAnim",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": true,
+    "disable_preview_rotation": true,
+    "gui_no_lighting": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Vtuber_Momo_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11688,
+      "sha256": "d35cfe3e0e0243773c7568465ae8d090a8385a234f20d2bef04092221935840b"
+    }
+  },
+  "stats": {
+    "file_count": 20,
+    "total_bytes": 1585080,
+    "sha256": "9a60df36936ac96864b9a1d5a0748f834a42b9f28fa0c1e70ed10df48390f908",
+    "bones": 208,
+    "cubes": 1062,
+    "faces": 6244,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178536,
+      "sha256": "3e03a950b182a01165f62f0f617438456b6e6a9af449956354fc129c0e41c5b7"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2875,
+      "sha256": "ca9d053af8da349e2e1f1687bd675ffb648a514794c33b14b5dcbab06946948b"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 118765,
+      "sha256": "ab53a0d25cc9b2355b2e162d3448bcf59d94660f53e5b6f24c589eefeb2109b1"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 188754,
+      "sha256": "34ffa2e0c13c9de2249c2d551e4fbcf616951b2992164829ce055366b13fee89"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 262768,
+      "sha256": "3ee5fb54c50ad26a8e110fffbb2f166300f19ee9c315faaf5f5059cf3ade170d"
+    },
+    {
+      "path": "avatar/羊毛.png",
+      "size": 25964,
+      "sha256": "c64ffd035f25be3f771f3ece5e2761fc911cdf12bb426cdaec044b6291968a0b"
+    },
+    {
+      "path": "functions/motorsynth.molang",
+      "size": 1708,
+      "sha256": "e55cb4b20611a2f1b5707b5aabdb270f610869e6ec038faa95ae780ca0f51763"
+    },
+    {
+      "path": "functions/move@player_update.molang",
+      "size": 128,
+      "sha256": "05f3e397e9f992c29569053f659e0911d49da69e3cd6188138f3fbaf1af52ccf"
+    },
+    {
+      "path": "functions/playsound.molang",
+      "size": 127,
+      "sha256": "5755c1b5f9206e2d9e79ef80fbf5108d78f7bac2596ffeca7e12cc96317abea9"
+    },
+    {
+      "path": "functions/更随机的眨眼@player_ctrl_pre_parallel_1.molang",
+      "size": 1475,
+      "sha256": "989a3db45e6daed822843eaeaeb12e6e8f40432ecf81c4938f5897a943a9a67f"
+    },
+    {
+      "path": "functions/碰墙抬手@player_ctrl_parallel_5.molang",
+      "size": 4768,
+      "sha256": "f860b21b3192ea6419ec53c5f636cd1c82663290643ff615a1055bac2c6f4b68"
+    },
+    {
+      "path": "functions/碰墙抬手初始化@player_init.molang",
+      "size": 71,
+      "sha256": "bfb5d0852d09020b03239e9d221f1246054c0a324baa54c0eb3836cc607e4c2a"
+    },
+    {
+      "path": "functions/随机眨眼初始化@player_init.molang",
+      "size": 37,
+      "sha256": "f4dcb64304efa986f9ca7936c9d12c4258af53d9c824afa5859036d00c2a74b1"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 37340,
+      "sha256": "ece7e40ba0ee36fa7172edf0ea667f547131cd5eeb40fb5f7d7da757f4c5c980"
+    },
+    {
+      "path": "models/main.json",
+      "size": 547863,
+      "sha256": "08a9abf8407e898a395fb8a636c782bf1aed6e6f1a4dac8f83e8f129596753b9"
+    },
+    {
+      "path": "sounds/sword.ogg",
+      "size": 18549,
+      "sha256": "5c7a2604046fdf613fb7e01d06ad5b25cb78cdc76c7549765c9670a9155cfe10"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 20829,
+      "sha256": "63bfb8a54b92680ce28daa4ce846f7c1ba9861b91d6aa0ae93bd0caa5dc4b88d"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1930,
+      "sha256": "8a911342b0a3ca2d41ac59929d6fcae74da8f24f5ccb05eea1b682953890f511"
+    }
+  ]
+}

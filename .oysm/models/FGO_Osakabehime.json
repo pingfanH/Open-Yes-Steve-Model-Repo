@@ -1,0 +1,242 @@
+{
+  "id": "FGO_Osakabehime",
+  "path": "parsed/FGO_Osakabehime",
+  "source": {
+    "path": "_FateGrandOrder/FGO_Osakabehime.ysm",
+    "type": "ysm",
+    "stem": "FGO_Osakabehime"
+  },
+  "ysm": "parsed/FGO_Osakabehime/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/爱德蒙莉莉与他的合作伙伴水手森巴、基督山伯爵、布沙尼神甫、威玛勋爵、柴康伯爵、岩窟王等.png",
+        "comment": "天哪，这不是神甫的声音啊！？",
+        "contact": {
+          "Bilibili": " https://b23.tv/391wLUC"
+        },
+        "name": "爱德蒙莉莉与他的合作伙伴水手森巴、基督山伯爵、布沙尼神甫、威玛勋爵、柴康伯爵、岩窟王等",
+        "role": "模型、动画作者"
+      },
+      {
+        "avatar": "avatar/哥斯拉.png",
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "name": "哥斯拉",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/端木一动不动.png",
+        "comment": "永远都在ing",
+        "name": "端木一动不动",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/甜粽子.png",
+        "comment": "(ᗜˬᗜ)",
+        "name": "甜粽子",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/星屑海螺.png",
+        "comment": "漂泊于群星之中",
+        "contact": {
+          "Afdian": "https://afdian.com/a/lucia2048",
+          "Bilibili": "https://space.bilibili.com/14975572"
+        },
+        "name": "星屑海螺",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Osakabehime",
+    "tips": "“——本模型角色原型是手机游戏“Fate/Grand Order”（中文名《命运/冠位指定》）中的刑部姬。本模型完全免费，请勿进行商业用途……喏，这个简介足够正式吗？Ma酱？”“——在句号后加一条，是少有的拥有高达20充能的5星插件。威震姬路城的不行姬拥有可以给队友30%红绿卡性能提升的宝具”“——Ma酱是超越武藏的冠位大笨蛋！”"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "蝙蝠开关（和加速火把没有关系）": "蝙蝠开关（和加速火把没有关系）",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "技能": "技能",
+      "只是在玩平板而已": "只是在玩平板而已",
+      "螺旋社给的待遇": "螺旋社给的待遇",
+      "待机": "待机",
+      "Miyamato!": "Miyamato!",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "伟大的多功能拐",
+    "preview_animation": "shtime",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/伟大的多功能拐.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/FGO_Osakabehime_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 432,
+      "sha256": "811a24dd9a8b3e1570199a00edaba2e94ad983c2de5197f70e67e7386c96f705"
+    }
+  },
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 7592673,
+    "sha256": "b6ac4d8ab2fab97cfa045560bdb6bfbd2b1364db0a9f491b7ab8656b23d60909",
+    "bones": 944,
+    "cubes": 3677,
+    "faces": 22062,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 140357,
+      "sha256": "28e1a979c8d47dbbb8b433f2190049dcf64ec45dc2a403c17b7fb5658c57cd96"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 4831,
+      "sha256": "6e127bfa5ad6a15da24e104e1129c6143ee03482131200a348a8585714ca0abe"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 127230,
+      "sha256": "18e5d8d2ad2c1a2a6e6482c9dac99d5f5be57028c471704c1c7768eba6ea93ef"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 207289,
+      "sha256": "2cceb33c58ea8e1dcc2595e34416d7c020eb5814bf4a28e3f19ba2ce57e43d84"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 157404,
+      "sha256": "830491f3b08b06e561749be716bf42624724519ff13d44318a4aaab34d7566c4"
+    },
+    {
+      "path": "avatar/哥斯拉.png",
+      "size": 19374,
+      "sha256": "6cd420a5238d37083afb1a43736ae8f862dfb9d9065c1ae1895c2ee20071333c"
+    },
+    {
+      "path": "avatar/星屑海螺.png",
+      "size": 22406,
+      "sha256": "2c03d4213bddb87b0bc8d40b1cc32c059b0fe72a0bd6cc09613505a82e922f65"
+    },
+    {
+      "path": "avatar/爱德蒙莉莉与他的合作伙伴水手森巴、基督山伯爵、布沙尼神甫、威玛勋爵、柴康伯爵、岩窟王等.png",
+      "size": 177658,
+      "sha256": "27b605be1f6b8df59cc01bca7c430457f6901188595389d05f4e58abbc6a1825"
+    },
+    {
+      "path": "avatar/甜粽子.png",
+      "size": 13575,
+      "sha256": "afbc4a0ad6483a06d38085e6ec7f55db706ce25cb1de636a1698faf2fc53d4a1"
+    },
+    {
+      "path": "avatar/端木一动不动.png",
+      "size": 22379,
+      "sha256": "3c431bb54f22ffb6bb153d5de92dee6831881419ed4135b517cc9abd32e44095"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 99066,
+      "sha256": "bbee5784173cccd003ed53d83d77ca0733cb9354b80d370a295f4f83a7bf1536"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 45672,
+      "sha256": "c97c09dc9a9bdb94541e899c984b163d664ff64563c586b98c0a553d5a3ea53e"
+    },
+    {
+      "path": "models/main.json",
+      "size": 2035228,
+      "sha256": "67b6d86f3429aebce30bc2633ae0c7c93dea520ea58d748543e8515eb3ac6886"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 277,
+      "sha256": "4da7a108732301a560fc88a04bfdd5e3922293a9812fc79c17e35ef5777d162c"
+    },
+    {
+      "path": "textures/伟大的多功能拐.png",
+      "size": 4344158,
+      "sha256": "69a43bc23a11bd3e2008d272551bec7c1cf56d0534e2e46ea420d52b597deb71"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2841,
+      "sha256": "e93411b9df42e872850bb5d8dcd9ca7c06e2a154bcee4ff69d35bc53fb3013de"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "_xiashizi",
+  "path": "parsed/_xiashizi",
+  "source": {
+    "path": "Uncategorized/_xiashizi.ysm",
+    "type": "ysm",
+    "stem": "_xiashizi"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "霞之丘诗羽 [20250214]",
+    "tips": "路人女主的养成方法：\n霞ヶ丘 詩羽（かすみがおか うたは；Kasumigaoka Utaha）\n\nB站主页：b23.tv/0mjdVF0\nAFD主页：afdian.com/a/PH667",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "平衡芝光"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "arrow.png",
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "arrow": "arrow.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/xiashizi_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6120,
+      "sha256": "9cff451c79d7390d20bf7f66412eeee113db0dc266980f2918913d0c55dfdcf7"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 795311,
+    "sha256": "8293d9808aac2699d2e266269dacc6946773d7ee4de837bafca21915b0817b38",
+    "bones": 150,
+    "cubes": 688,
+    "faces": 4128,
+    "textures": 2,
+    "materials": 2,
+    "animations": 6,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 122506,
+      "sha256": "fd5e3c21dd3b995ccca367261e57606cc1644b3ed715c6225c8780a63ff93711"
+    },
+    {
+      "path": "arm.json",
+      "size": 25352,
+      "sha256": "0b2496efeb1c7dfe4c357a5ee6d44d83e6252da2058956471091ff45d1cf94dd"
+    },
+    {
+      "path": "arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 2773,
+      "sha256": "57484f0ce73032c69f36cfc1ebb8aadc09ba4efd5d303b9f9d3566f5d3534fa2"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 11124,
+      "sha256": "bfb7897865cefc736a704d196f2d4f03a9fe0d86babe54fdcfb101167abf876a"
+    },
+    {
+      "path": "info.json",
+      "size": 401,
+      "sha256": "1de169f46a842454e0d31f68b255a8ba1c9e2004d1304a044b018f84b02f6c74"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 120316,
+      "sha256": "f259c8a0e09d0d62ca6f39b1cc04d308aed943f72356c48970bb2a994435ce6c"
+    },
+    {
+      "path": "main.json",
+      "size": 358796,
+      "sha256": "4bfc3d1ecb6278da59761057eaa19aeb99eb3bdf3103cea6d02ae6a9a33f0427"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "texture.png",
+      "size": 12288,
+      "sha256": "7078d3059c805239297e9cb1fbf4e3346a4290f9a2346351bb604fe62d0ed3fb"
+    }
+  ]
+}

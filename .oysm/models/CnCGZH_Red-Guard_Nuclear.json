@@ -1,0 +1,100 @@
+{
+  "id": "CnCGZH_Red-Guard(Nuclear)",
+  "path": "parsed/CnCGZH_Red-Guard(Nuclear)",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCGZH_Red-Guard(Nuclear).ysm",
+    "type": "ysm",
+    "stem": "CnCGZH_Red-Guard(Nuclear)"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "赤卫队（核武）",
+    "tips": "程世涛将军（核弹仙人）的部队，从残留的语音文件来看，可能装备了一种核子火箭发射器，不过在原作中被废弃",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture2.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCGZH_Red-Guard_Nuclear_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6713,
+      "sha256": "e4e34fc1f7d0a266eee6857849f0cc74f642cabda0ed8c911e97deef8ef6bbd5"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 362520,
+    "sha256": "cb8b3fecc28623965d5f25beca6ee0b4b493ad16ca527d3ecdec719bf4a0fb2f",
+    "bones": 46,
+    "cubes": 169,
+    "faces": 1014,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 9916,
+      "sha256": "c14fe79506c2aebebb8c50d95cb909db2218b6dad8be81b6773d8e084ce9e5b6"
+    },
+    {
+      "path": "info.json",
+      "size": 289,
+      "sha256": "bacda852cc2d7b9fad78984e1e8470dbfb9672453233397963df3f6c16505dd7"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122470,
+      "sha256": "d93402d24863ccd84622801424bb845d8ff78161fae9d48b7bbf0c3d213720c1"
+    },
+    {
+      "path": "main.json",
+      "size": 78607,
+      "sha256": "b4c1bdbc6e7692cd169a0795676e2706cef27fe7ae40692850facfa29593dbc9"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131639,
+      "sha256": "a73cf95259743cc506fa6931e6bed68e0e41c5edca8f4651f26f1a42c1e26994"
+    },
+    {
+      "path": "texture2.png",
+      "size": 19599,
+      "sha256": "1bfc228314a1e6c37282604ec14ac677a2d718af04f96c641d6725bc72d6e7f9"
+    }
+  ]
+}

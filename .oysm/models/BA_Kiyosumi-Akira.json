@@ -1,0 +1,236 @@
+{
+  "id": "BA_Kiyosumi-Akira",
+  "path": "parsed/BA_Kiyosumi-Akira",
+  "source": {
+    "path": "_BlueArchive/BA_Kiyosumi-Akira.ysm",
+    "type": "ysm",
+    "stem": "BA_Kiyosumi-Akira"
+  },
+  "ysm": "parsed/BA_Kiyosumi-Akira/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/coldm00n.png",
+        "comment": "",
+        "contact": {
+          "Afdian": "https://afdian.tv/a/coldMOON048",
+          "Bilibili": "https://space.bilibili.com/11382763"
+        },
+        "name": "coldm00n",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "清澄晶",
+    "tips": "怪盗 清澄晶，参上~"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.65,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "#extra_classify": "Extra Classify",
+      "extra2": "",
+      "外套": "外套",
+      "武器切换": "武器切换"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "Simple Config",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "default_texture": "texture",
+    "preview_animation": "pose",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Kiyosumi-Akira_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11639,
+      "sha256": "958492bf0dbf26d2e824bedc9b701e76d84e8c90ca959efe9be8e41a1a4cc84a"
+    }
+  },
+  "stats": {
+    "file_count": 18,
+    "total_bytes": 4206259,
+    "sha256": "5c9296d874f31a6d1f81d82cc147b25ea3a79ed0b9b84234af5516f9dd2a3f31",
+    "bones": 349,
+    "cubes": 1585,
+    "faces": 9510,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178635,
+      "sha256": "fb1eee449cfb09d8e51926064a3bcb95a3896326aa46e0eb13498ab101fd00d0"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 109185,
+      "sha256": "c4874a471fc94215b7ebfef655f95bf8be3a46fb339491165a1f0041daeb4522"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 249463,
+      "sha256": "a4fc7b27922cf40c9c5222822b0cc6f6b8f981856774e3d67d53a567f47b6609"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023593,
+      "sha256": "08961938dd84e1fd549a9228d70ccb993cb48bc58b4243913a76a64d67f20cc4"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50169,
+      "sha256": "888b7116cfc33ec55b4a109d3040732d8022610a304826a85333ef503164972c"
+    },
+    {
+      "path": "avatar/coldm00n.png",
+      "size": 25417,
+      "sha256": "f06ddc5dfa51fb3672a99572a2feb56bb3e3585291e2668d4a8feccbc8d96a3c"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 617,
+      "sha256": "58a5a4f99a17e863505e5d985c5342fafccf53eeb5799a572dff4156086be4ad"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 111514,
+      "sha256": "79df0762930eca835669b325e2a202d519abe3e8b6619aded57accc2d71593cc"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 57728,
+      "sha256": "22bbb12e417e0395c94f25f40440cdd360ef611b8039fcd0d916215d23a7b4fd"
+    },
+    {
+      "path": "models/main.json",
+      "size": 832897,
+      "sha256": "0fd76747e668572865e02b09c172ad10c5df870b47954b433b81e6e785e13920"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 29893,
+      "sha256": "8c31ffad898309f1d5c09f387f3877a5f4117957d7ecda265af6ec1646336125"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 170602,
+      "sha256": "2d7d1e06ec0170598b461bad90f497d3e9b85be86e6a8de943ca7f3c1c1dedd6"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1908,
+      "sha256": "10d0bb7d11e74e380fba5ddeee6adf440b8d8e9edfd68f7f644049d21e11635b"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "HSR_Yukong",
+  "path": "parsed/HSR_Yukong",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Yukong.ysm",
+    "type": "ysm",
+    "stem": "HSR_Yukong"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "HSR_Yukong"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "yk.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Yukong_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8634,
+      "sha256": "4c5f199047a47ed0a536dc7103c205a52fd24548edb9789a164e0131660531dc"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 612846,
+    "sha256": "5fc23f54fc27445fe4a04bd6b8761d0140830b93f759462dc6256522dcd6a553",
+    "bones": 71,
+    "cubes": 338,
+    "faces": 2028,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 14625,
+      "sha256": "e4edf38ffa8ff5984e7d5c99dffca80dd1be916d02a44f6b0f434489bd91f9c0"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 50532,
+      "sha256": "798f878bf483cb3e16b8d19056ed73b66ff933a380ed03cf946372d64308c758"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 343678,
+      "sha256": "fc6dae9cd1404063ce0c022a97f1a89178190dbb71d31ed335949a896fd43145"
+    },
+    {
+      "path": "main.json",
+      "size": 167646,
+      "sha256": "61352d1bbc13680c78dd115f06e5c1dc3d8d09e559b9c4cde997d3bc8941ae81"
+    },
+    {
+      "path": "yk.png",
+      "size": 36365,
+      "sha256": "0e4e254d09cf9559cc4ac8217c71abe9d017284e37ee0f60b579ac68f8b7d577"
+    }
+  ]
+}

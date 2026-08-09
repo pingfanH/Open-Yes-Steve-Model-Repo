@@ -1,0 +1,99 @@
+{
+  "id": "CnCG_GLARebel",
+  "path": "parsed/CnCG_GLARebel",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCG_GLARebel.ysm",
+    "type": "ysm",
+    "stem": "CnCG_GLARebel"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "反抗军",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCG_GLARebel_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6513,
+      "sha256": "0e75fa318613d210fa27e090dbf4ce051ffe4a5a294234a152bfe592885dce72"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 400935,
+    "sha256": "271541d61c37ddfea52ac1160ee5f206a03d85ead70ee8a705372f4e148e3009",
+    "bones": 45,
+    "cubes": 253,
+    "faces": 1518,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 7766,
+      "sha256": "41e41a52c1f7932cb6c8a98c445fb972fd065929e4900baf4ef1f3b5d0376105"
+    },
+    {
+      "path": "info.json",
+      "size": 127,
+      "sha256": "edaddd76da95f64fbe1251fb0a9f5b06930ff2515b5afe2551cb5ed89e9a0152"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122108,
+      "sha256": "af5036b7752f6ed6f01602ffecb7c056551c67c103984478a55c83837b6150b4"
+    },
+    {
+      "path": "main.json",
+      "size": 122391,
+      "sha256": "b04cc34c2a7345230be6f652dc534a2bb207e1203642cfacc68e67faf6530a32"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131637,
+      "sha256": "2775453b508dddd40ebe59505203ebe0e9c65496c6086d48009ee42115ea8a40"
+    },
+    {
+      "path": "texture.png",
+      "size": 16906,
+      "sha256": "9e8c877f09ab2cea86139821e39e62858d701db1dd5c5fee7ae224035c149958"
+    }
+  ]
+}

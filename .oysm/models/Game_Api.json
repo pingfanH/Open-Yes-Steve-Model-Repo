@@ -1,0 +1,99 @@
+{
+  "id": "_Game_Api",
+  "path": "parsed/_Game_Api",
+  "source": {
+    "path": "Uncategorized/_Game_Api.ysm",
+    "type": "ysm",
+    "stem": "_Game_Api"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "少年Pi（A_Pi）",
+    "tips": "这世上的热闹，出自孤单。\n适配YSM1.18.2-1.1.5(免费共享版)\n模型版本1.1.0",
+    "authors": [
+      {
+        "name": "完全冻结"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "api.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Game_Api_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11140,
+      "sha256": "69d3ecdccb065f02ccba748cfb581a1ae2b3322cc94132d74abf4e5305a1dfad"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 408845,
+    "sha256": "8243b424c74772652b152e80fbb552e6e13a765403698c1a899ef21e856059a3",
+    "bones": 131,
+    "cubes": 398,
+    "faces": 2388,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "api.png",
+      "size": 14052,
+      "sha256": "ba6c7f9e126973b3fc55c1940aea221e697bfedecab3a7acc3a6beba4c50cb07"
+    },
+    {
+      "path": "arm.animation.json",
+      "size": 39011,
+      "sha256": "09d153e4a424b92a7410958237516886d563705dab408db89d86fed128ffb521"
+    },
+    {
+      "path": "arm.json",
+      "size": 4648,
+      "sha256": "4bd6f03c209fd44bc3d68253e1322679ebd8885327207b81bca677150b045d94"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 127322,
+      "sha256": "3fecd90bf426a8fab3e673a1a9d1d0b40781d6ebb3b2978eba9fd8b21dedf7f2"
+    },
+    {
+      "path": "main.json",
+      "size": 68353,
+      "sha256": "bb494b09bf8b71679fb43d2e26e4d7e6d52bc169850a7dd0604d149307abdbbd"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 155459,
+      "sha256": "8541fc75efb01c8388fb54611b0066a13daa15116da81aa598a2bd120be70f53"
+    }
+  ]
+}

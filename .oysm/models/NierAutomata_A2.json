@@ -1,0 +1,171 @@
+{
+  "id": "NierAutomata_A2",
+  "path": "parsed/NierAutomata_A2",
+  "source": {
+    "path": "_NierAutomata/NierAutomata_A2.ysm",
+    "type": "ysm",
+    "stem": "NierAutomata_A2"
+  },
+  "ysm": "parsed/NierAutomata_A2/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/凌冽寒夜.png",
+        "comment": "一个YSM萌新作者，想法很多，请多多关照(ᗜˬᗜ)",
+        "contact": {
+          "email": "2747842595@qq.com",
+          "qq": "2747842595"
+        },
+        "name": "凌冽寒夜",
+        "role": "模型/动画"
+      },
+      {
+        "avatar": "avatar/.png",
+        "comment": "",
+        "name": "",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/44567328adnfg3c",
+      "home": "https://b23.tv/oQjBRyn"
+    },
+    "name": "A2",
+    "tips": "A2是YoRHa原型机器，主要擅长近战攻击，喜欢独立行事，话不多。她原本性格普通，但在经历某次降临作战后就变得成熟而冷酷。由于长期缺乏保养和维护，机体有掉色和磨损，然而这丝毫不影响她对机械生命体的仇恨。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": " ",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "",
+      "extra8": "坐下",
+      "extra9": "持剑",
+      "extra10": "决斗",
+      "extra11": "欠抽了是吧？",
+      "extra12": "COS袁华",
+      "extra13": "暴走（换装）",
+      "extra14": "长发/短发",
+      "extra15": "pose1",
+      "extra16": "pose2",
+      "extra17": "pose3",
+      "extra18": "pose4",
+      "extra19": "武器收纳（长枪）",
+      "extra20": "武器收纳（大剑）"
+    },
+    "preview_animation": "gui",
+    "free": false,
+    "render_layers_first": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/a2.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/NierAutomata_A2_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5910,
+      "sha256": "a13a11bbb9ee9c058dc506581e4266127c61af3821ccc374ea6979135c02f887"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 1702372,
+    "sha256": "b420aebc589e369358b535acd9f8d977de3848a0b40c12c47e156da893ff5a01",
+    "bones": 200,
+    "cubes": 1581,
+    "faces": 9486,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 128996,
+      "sha256": "8b85963146fecd67a83c4e8a3777d6a13e563217ef2a4fe758fa6f7e24ca5c76"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 146845,
+      "sha256": "17a743acc0fb817bd243c8a6345853cf1eb8b2c0598ae663cd11986ff90df99c"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 202461,
+      "sha256": "e2043d46a97dd0a5cfcd335a968e33a93eb065f61f4d6409b80b022ba65eb96c"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/凌冽寒夜.png",
+      "size": 177004,
+      "sha256": "91755c019b0ce1ed59e82d23a3f78190c1e0635ba307fb5073f4ed90ec0ef722"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 43141,
+      "sha256": "d7719da4e2c3bfded54bcd91b9515482a69454ed2c56028a689e2946325ff087"
+    },
+    {
+      "path": "models/main.json",
+      "size": 806718,
+      "sha256": "e2a237b6d20657e59cb84ec12c583bc472a5e20a16fe45626ed625c111ce860b"
+    },
+    {
+      "path": "textures/a2.png",
+      "size": 9073,
+      "sha256": "871afcccd273d3225fd1ce1bf0c380fb7fd4e39d806476ebb9b6e4a6a5e08276"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1666,
+      "sha256": "ee1ffe3c5f189efe60f5d72bd81c4f22aea1b49e446b06b10bc44f3132eb6d50"
+    }
+  ]
+}

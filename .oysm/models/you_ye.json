@@ -1,0 +1,264 @@
+{
+  "id": "you_ye",
+  "path": "parsed/you_ye",
+  "source": {
+    "path": "Unknown/you_ye.ysm",
+    "type": "ysm",
+    "stem": "you_ye"
+  },
+  "ysm": "parsed/you_ye/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/Tu_tou.png",
+        "comment": "一个MC模型/YSM作者(有点懒)",
+        "name": "Tu_tou",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/快乐的小盛子.png",
+        "comment": "YSM模型发烧友",
+        "name": "快乐的小盛子",
+        "role": "金主/技术"
+      }
+    ],
+    "license": {
+      "desc": "所有权归快乐的小盛子所有",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "柚叶",
+    "tips": "我的世界YSM_浮波柚叶模型"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "跳舞",
+      "extra1": "挥手",
+      "extra2": "鼓掌",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "extra8": "抽卡动画",
+      "extra6": "摆手舞",
+      "extra7": "#you_ye_config",
+      "extra5": "一库嗖"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "you_ye_config",
+        "name": "尬舞",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "是否显示伞",
+            "description": "开关显示伞",
+            "value": "v.youyesan"
+          },
+          {
+            "type": "checkbox",
+            "title": "不显示小熊背包",
+            "description": "打开后不显示小熊背包",
+            "value": "v.youyebao"
+          },
+          {
+            "type": "radio",
+            "title": "嘴巴样式",
+            "description": "单选切换嘴巴",
+            "value": "v.youyezuiba",
+            "labels": {
+              "默认": "v.youyezuiba = 0",
+              "大笑": "v.youyezuiba = 1",
+              "微笑": "v.youyezuiba = 2",
+              "三角嘴": "v.youyezuiba = 3",
+              "兔子嘴": "v.youyezuiba = 4",
+              "撇嘴": "v.youyezuiba = 5",
+              "难过": "v.youyezuiba = 6"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "眼神样式",
+            "description": "单选切换眼神",
+            "value": "v.youyeyanshen",
+            "labels": {
+              "默认": "v.youyeyanshen=0",
+              "闭眼": "v.youyeyanshen=1",
+              "慵懒": "v.youyeyanshen=2",
+              "哭": "v.youyeyanshen=3"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true,
+    "gui_no_lighting": false,
+    "gui_foreground": "textures/gui/foreground.png"
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "vehicles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/vehicle/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/you_ye_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11532,
+      "sha256": "266d9c3a17d7712ad523e7861835b61ddbc61a41f22571fdb533adadf4c5715b"
+    }
+  },
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 4247996,
+    "sha256": "c0c362c791169ffc012ab2ff2106dad03714386fe50a3b7189a0b4f50531125f",
+    "bones": 218,
+    "cubes": 2294,
+    "faces": 13734,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 134439,
+      "sha256": "2f08addd2314b96d3be1226e68a76e3b7c21958c644851cc6e635eb6f094f7a4"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 221412,
+      "sha256": "e33c62387f48b5dfc89e4c10637c2bf428fd335501c10fe971c70f604ddba1b7"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "animations/vehicle/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "avatar/Tu_tou.png",
+      "size": 702,
+      "sha256": "277b21f52c289897f8e064fbf26ee286e12e5f2ac170a6330823c11c118a6084"
+    },
+    {
+      "path": "avatar/快乐的小盛子.png",
+      "size": 15384,
+      "sha256": "d2fa02ee53f901f24160f36ef222c070c7a822d06113d9b927d18a9d0cbbf013"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 51383,
+      "sha256": "e7dd90b365e23a4e87a63321b88784180ecdca008821534c47164ee74743454a"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13752,
+      "sha256": "3afa51fa99152b689875ef25ca5853f92d4ccd0e44caf11d5ef58aa5413ccfbe"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1171555,
+      "sha256": "af80e63ce3c95116b22a3164887509d24b8bd758e9ee4c77a0941ef3c14f32e2"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 854,
+      "sha256": "205e4da892496567b38d2d5fa9efa703c22e1c8e9ef2b0d7ecd32c5b0682fa3a"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 18820,
+      "sha256": "94700c6ce7b27af5dd406768917a2b9adfe53c558a79a600d23842557cbe0489"
+    },
+    {
+      "path": "textures/gui/foreground.png",
+      "size": 368,
+      "sha256": "8997a15307b4a009ece35a402f99fb6a915c306fac92a95d7f6bfc4cca9dd359"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2530,
+      "sha256": "23f4deeb3c8c44520fc43b44ca016bafe87a4323d225776179ba5bbf39e8a573"
+    }
+  ]
+}

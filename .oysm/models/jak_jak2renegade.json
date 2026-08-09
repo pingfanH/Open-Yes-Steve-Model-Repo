@@ -1,0 +1,90 @@
+{
+  "id": "jak_jak2renegade",
+  "path": "parsed/jak_jak2renegade",
+  "source": {
+    "path": "Unknown/jak_jak2renegade.zip",
+    "type": "zip",
+    "stem": "jak_jak2renegade"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "jak_jak2renegade"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/jak_jak2renegade_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7246,
+      "sha256": "f81c011a4ba39f9543b556d059be65ea5525ef57a727363e2c5527938d8f2df1"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 731596,
+    "sha256": "c1cde9c4b290656a936ba329039da8a8a41c970deec2d395d4c34a67bfe9b64e",
+    "bones": 70,
+    "cubes": 199,
+    "faces": 1194,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 176755,
+      "sha256": "e518b0371c67be09c92597be627556e49609564d3715ddf9f50677531ce4d125"
+    },
+    {
+      "path": "arm.json",
+      "size": 3974,
+      "sha256": "b23d09bcfc4536d2841ae5fed84e55a30ab9dd98d18adf2841229efd2cd34863"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 187164,
+      "sha256": "1af1c1fc9e8b32f3e1ecdab836550209b5f08e90ce9d0a23be5dc8fadee67763"
+    },
+    {
+      "path": "main.json",
+      "size": 37234,
+      "sha256": "8c2b1262645193d3e4a2b1cf959dbdd928d6e7561bd3da1acb915f62a38b8cc2"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 314768,
+      "sha256": "8d07c3e7a33596e02a1a8368d7607d601f1b1a25b8619601fe096903b91016cc"
+    },
+    {
+      "path": "texture.png",
+      "size": 11701,
+      "sha256": "b57087b4975b803a54993b6cdd02a442ea203f1f2c7f1c8b8a64f48cdc02c594"
+    }
+  ]
+}

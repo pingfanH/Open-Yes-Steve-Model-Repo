@@ -1,0 +1,105 @@
+{
+  "id": "AL_Littorio",
+  "path": "parsed/AL_Littorio",
+  "source": {
+    "path": "_AzurLane/AL_Littorio.ysm",
+    "type": "ysm",
+    "stem": "AL_Littorio"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "利托里奥（Littorio）",
+    "tips": "利托里奥是二战时期意大利海军维托里奥·维内托级战列舰的二号舰，不过相关资料中也有将该级称为利托里奥级的说法。",
+    "authors": [
+      {
+        "name": "Almeta_owx"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "littorio.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/AL_Littorio_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7927,
+      "sha256": "0f2073013be6bbe3887e3e2d582e7ae5d1d0c88ee9fd6de783f8c7ff9414e853"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 801900,
+    "sha256": "7e62ee1f93d12496801b4e1f4998afd8404665c789ad9e1b67d3fc6f174f6f2c",
+    "bones": 210,
+    "cubes": 867,
+    "faces": 5202,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 45945,
+      "sha256": "d5721a5e00f3bddb3300e0b31e9867b1086a6adecf21ad2829101c104e852653"
+    },
+    {
+      "path": "arm.json",
+      "size": 31398,
+      "sha256": "b72e88ee9c2eeb50f6addba16a4ee0e0130cf9408cd0a55a11f2360a95f97f8a"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 107915,
+      "sha256": "13d1eaa4c58f2749dd690ee1da8514a300b68eca072ecde3750a1265b8a00930"
+    },
+    {
+      "path": "littorio.png",
+      "size": 35952,
+      "sha256": "3e62a64e807aac8bf286772f786b435c6b8f83633bc4a626f3d54cd5ce7fa140"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 140585,
+      "sha256": "41fe9c62c77ab051a709e92d206ce24aec4e1a9c0790868324387e68fc14ddd1"
+    },
+    {
+      "path": "main.json",
+      "size": 264046,
+      "sha256": "2b8e83d958b901e6f50a85b914f1c741d181b8479080ecc3f56c7bf831ae1e56"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 176059,
+      "sha256": "2f401bf3c50fac0ef99b3ade2cbbc4cb22b7322caef6fb458332780c09f07a0b"
+    }
+  ]
+}

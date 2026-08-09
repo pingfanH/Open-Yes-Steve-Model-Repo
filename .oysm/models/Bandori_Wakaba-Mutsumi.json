@@ -1,0 +1,286 @@
+{
+  "id": "Bandori_Wakaba-Mutsumi",
+  "path": "parsed/Bandori_Wakaba-Mutsumi",
+  "source": {
+    "path": "_Bandori/Bandori_Wakaba-Mutsumi.ysm",
+    "type": "ysm",
+    "stem": "Bandori_Wakaba-Mutsumi"
+  },
+  "ysm": "parsed/Bandori_Wakaba-Mutsumi/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/裤管炸了救救我.png",
+        "comment": "我无畏咕咕咕",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/243846071"
+        },
+        "name": "裤管炸了救救我",
+        "role": "模型/贴图/动画"
+      },
+      {
+        "avatar": "avatar/02Bunny（蓝玫瑰）.png",
+        "comment": "喜欢做点酷东西",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/11814817"
+        },
+        "name": "02Bunny（蓝玫瑰）",
+        "role": "模型/贴图/动画"
+      },
+      {
+        "avatar": "avatar/荒漠.png",
+        "comment": "Mortis黄瓜人我们喜欢你",
+        "contact": {
+          "QQ": "3066076174"
+        },
+        "name": "荒漠",
+        "role": "模型/贴图"
+      },
+      {
+        "avatar": "avatar/mo.png",
+        "comment": "omo",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/1959304255"
+        },
+        "name": "mo",
+        "role": "玩偶素体贡献者"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://www.bilibili.com/video/BV1yQ5JzJEZQ"
+    },
+    "name": "§a若叶睦",
+    "tips": "§7月之森女子学园高中一年级生。前CRYCHIC成员，现Ave Mujica成员，在队内担任吉他手，艺名Mortis（死亡）。若叶睦的情绪表达能力不强，平时沉默寡言。父亲是喜剧泰斗若叶，母亲是实力派演员森美奈美。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra1": "招手",
+      "extra2": "鼓掌",
+      "extra3": "点头",
+      "extra4": "不行",
+      "extra5": "诹访大舞",
+      "extra6": "摇摆",
+      "extra8": "弹吉他",
+      "extra10": "#变更服装",
+      "extra11": "#变更表情",
+      "extra9": "变身",
+      "extra12": "嘻嘻我一定要活下去",
+      "extra13": "§4最§6终§e降§f临"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "变更服装",
+        "name": "变更服装",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "选择服饰",
+            "description": "选择模型穿着服饰",
+            "value": "v.roaming.mujicacloth",
+            "labels": {
+              "常服": "v.roaming.mujicacloth=0;",
+              "月之森冬季校服": "v.roaming.mujicacloth=1;",
+              "Ave Mujica舞台服": "v.roaming.mujicacloth=2;"
+            }
+          },
+          {
+            "type": "checkbox",
+            "title": "是否穿戴面具",
+            "description": "决定穿着舞台服时是否显示面具",
+            "value": "v.roaming.mask"
+          }
+        ]
+      },
+      {
+        "id": "变更表情",
+        "name": "变更表情",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "选择表情",
+            "description": "选择模型显示表情",
+            "value": "v.roaming.mujicaemotion",
+            "labels": {
+              "默认表情": "v.roaming.mujicaemotion=0;",
+              "KillKiss崩坏脸": "v.roaming.mujicaemotion=1;",
+              "倒计时脸": "v.roaming.mujicaemotion=2;",
+              "已经没事了": "v.roaming.mujicaemotion=3;"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "res0",
+    "preview_animation": "stage",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "parcool": "animations/parcool.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/res0.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Bandori_Wakaba-Mutsumi_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3500,
+      "sha256": "3a3d4cb69bb1ab6282f38802719392620555326bc94ccb6194001a448c775d8b"
+    }
+  },
+  "stats": {
+    "file_count": 20,
+    "total_bytes": 2216606,
+    "sha256": "41cddfb2159dd5af57694ad249e37dae957b25384eb27b16ad253ac46e5ea964",
+    "bones": 347,
+    "cubes": 1153,
+    "faces": 6878,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 45751,
+      "sha256": "8c2bbaae2ad089dd4527f60711e640b2d266482582bb89f5eeae42288138a267"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 394298,
+      "sha256": "0e8918e687a29eb8da40b5ddc2597d1a26923270d65f792de93ad07fcb69afdc"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 284562,
+      "sha256": "c7378e5567caaa182cd66155a2f9c92b2d3be899de0ad2fa91ae1d7d5b875a22"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 14538,
+      "sha256": "7864ebc20e1bc621971c9ef687a05368722e2ec404322ccec469c1eb58113c02"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 156032,
+      "sha256": "caf8e948e6d6219f9e2365536cad4ed3eae5e61c1337d8c9ae6167ebe1298d7d"
+    },
+    {
+      "path": "avatar/02Bunny（蓝玫瑰）.png",
+      "size": 21986,
+      "sha256": "15d683b20b12c36e70755823fafa23e4f49d2b98a9579b250f7e13873d95efab"
+    },
+    {
+      "path": "avatar/mo.png",
+      "size": 382230,
+      "sha256": "c3cc570cce4cb2c746469c29cdf9bf53735991bd4c8eb2df270392f82206bd1b"
+    },
+    {
+      "path": "avatar/荒漠.png",
+      "size": 16707,
+      "sha256": "855e46b3f4d4234f1c5c3eec4be2638a0a1f8d297870ff9314a1f17e2abe32c3"
+    },
+    {
+      "path": "avatar/裤管炸了救救我.png",
+      "size": 38291,
+      "sha256": "745c8cd9441a65b6af8bde94180e6119dfe27889d5c15bc0ba58c78c891027c7"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 9176,
+      "sha256": "5f9a01bda24a951709a0e5c29aa949e01253feae3c1140a0660d1520404f7f34"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 3107,
+      "sha256": "009209e240d620dfe184a67409ad44fa0c19962cc56412b235cacff17d6385fb"
+    },
+    {
+      "path": "models/main.json",
+      "size": 620135,
+      "sha256": "9cecc5da00d4a5878bebd25936f91b57718b6f012927d13ecc7d5f1c2944e5d4"
+    },
+    {
+      "path": "sounds/ryu_dragon_move.ogg",
+      "size": 31818,
+      "sha256": "f7fbe253f40e40bb5b592f5a6c8aadcad053d9b4915c586405dd092ecc801ca0"
+    },
+    {
+      "path": "sounds/ryu_final_scream.ogg",
+      "size": 38499,
+      "sha256": "53c4ff51bc7292f1036c384e16950b84440ef8bb72953e151d603869850149df"
+    },
+    {
+      "path": "sounds/ryu_final_vent_s.ogg",
+      "size": 16030,
+      "sha256": "85773d2e375ab0a79b673258c716c02e53bf0b91324f7441b99931f68dd2ff0d"
+    },
+    {
+      "path": "sounds/xiaoliandao.ogg",
+      "size": 34875,
+      "sha256": "b89c778bfca178bba6c0c8fdb91c0e367562c730f22bb78a86ae209291c0a27b"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1437,
+      "sha256": "23faf1e18d7c79258906e411c114dd7ed9bd839d502641e0edf78c7d1b08221e"
+    },
+    {
+      "path": "textures/res0.png",
+      "size": 103738,
+      "sha256": "4c19676004680c68dbf38fbf1787079de61b51531c855d486828514e2c5f59d2"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3061,
+      "sha256": "9b5d0159a62d2bae6a6fa33e80e014432c458ffc3784a7ab92f285a1e675e704"
+    }
+  ]
+}

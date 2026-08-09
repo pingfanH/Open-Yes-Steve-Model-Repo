@@ -1,0 +1,89 @@
+{
+  "id": "SnF_Frieren",
+  "path": "parsed/SnF_Frieren",
+  "source": {
+    "path": "_SousouNoFrieren/SnF_Frieren.zip",
+    "type": "zip",
+    "stem": "SnF_Frieren"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "SnF_Frieren"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/SnF_Frieren_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9474,
+      "sha256": "6649db52d1d06b984480863c54d0952529cbc3c5291b189c34230f777e421af9"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 2959268,
+    "sha256": "d254a953505db02ffd5ba500ff030a8f6fc252013a899e9dbfa0327d858179f1",
+    "bones": 70,
+    "cubes": 365,
+    "faces": 2190,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 40241,
+      "sha256": "729eef5fc94218b42b71d20d7c6d4b8b0ce59951e13de70d3547031318e1de6f"
+    },
+    {
+      "path": "arm.json",
+      "size": 25226,
+      "sha256": "30872c8f49a5b185c3619eba8f4033b6d375f6eb74f0c1846dfc8b006ff7efbf"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 132725,
+      "sha256": "fda324ca3f61682ebad1ac5dc9fe291b4003560c72f6f799e0effbd8acd719ce"
+    },
+    {
+      "path": "main.json",
+      "size": 172004,
+      "sha256": "ec1af9602f26bcb291fc46af5dcbf6e31aeeaaa95ec4c30e119ed1a643d02ba0"
+    },
+    {
+      "path": "model.bbmodel",
+      "size": 2581066,
+      "sha256": "9193467185b8b272133c89b5aab6fff9bf06399c1f3d873fe99bd5e3c0ce4314"
+    },
+    {
+      "path": "texture.png",
+      "size": 8006,
+      "sha256": "77ca12fd1d54e1b6c6e3b4b0de284622453f5dc683e4876f823a0e11d919d96f"
+    }
+  ]
+}

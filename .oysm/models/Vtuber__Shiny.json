@@ -1,0 +1,188 @@
+{
+  "id": "Vtuber_糖一色Shiny",
+  "path": "parsed/Vtuber_糖一色Shiny",
+  "source": {
+    "path": "_Vtuber/Vtuber_糖一色Shiny.ysm",
+    "type": "ysm",
+    "stem": "Vtuber_糖一色Shiny"
+  },
+  "ysm": "parsed/Vtuber_糖一色Shiny/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/糖一色Shiny.png",
+        "comment": "超绝活力外星人~糖糖是大家的幸运星✧",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/3546615501556479"
+        },
+        "name": "糖一色Shiny",
+        "role": "oc方"
+      },
+      {
+        "avatar": "avatar/兔兔猫officials.png",
+        "comment": "关注兔兔猫喵",
+        "contact": {
+          "Afdian": "https://ifdian.net/a/RABET",
+          "Bilibili": "https://space.bilibili.com/3546785165347464"
+        },
+        "name": "兔兔猫officials",
+        "role": "模型，贴图，动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://space.bilibili.com/3546785165347464",
+      "home": ""
+    },
+    "name": "糖一色Shiny",
+    "tips": "超绝活力外星人~糖糖是大家的幸运星✧"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "变身",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "是的",
+      "extra4": "不行",
+      "extra5": "卖萌",
+      "extra6": "御笔摇",
+      "extra7": "舞蹈"
+    },
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Vtuber__Shiny_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12375,
+      "sha256": "9a8f4bfc9f0f46a6e458b7d3f0f5ca173b7001ca722b794f33c14137b84248ef"
+    }
+  },
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 1131801,
+    "sha256": "2028617b83676b628590e4bacb7db756c162f0e360be771de6b0bdc373d4447f",
+    "bones": 97,
+    "cubes": 316,
+    "faces": 1896,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136736,
+      "sha256": "fb6c54dbad6aa0f0239c8ff5ef9ee6c28ba83a1ab2cb0ef9c77b2775546400c3"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1138,
+      "sha256": "6ef6791b2b391fc30bb2f74f26eb09de94e2a382c535202f5d736eb89d37577d"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "6e8d3afe0c3baafff8f7f3e0e30ef3c621c667be5c346af73398f5fd3cb89ca5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 119383,
+      "sha256": "b06d669143e9e11326bacd4201eb3f29b6d0c76515982a19a11ef998ede0dc08"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 261951,
+      "sha256": "764c7d0d95d1839ab0b67f7059bda50a843925a95862b201842cd68773852a67"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 158487,
+      "sha256": "77e05e96ad73188fe868bdb14caf6dfc17d5626c7ef8f981eae0d7e0c4ef2716"
+    },
+    {
+      "path": "avatar/兔兔猫officials.png",
+      "size": 115873,
+      "sha256": "90b9e858933bbf9e8916e7bc4bcba4d4cc58cec03aaf8277b0e6f252d55d3d94"
+    },
+    {
+      "path": "avatar/糖一色Shiny.png",
+      "size": 113714,
+      "sha256": "d5025ed1de1ab16cdc7ae8ce4cf523c59c19e52a002c8b04d78a647fae845e7a"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 14864,
+      "sha256": "e58a339f12c1b1632816dadc3e3867a62b0b7a9f05c419bf0f47a9c76acc0b4f"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 165419,
+      "sha256": "69ee21e555b6b84a4b206de6cf28c55e12967c63fc8b2171974896172216d288"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 32263,
+      "sha256": "519573b19bc28cd2b329ce78ae186daa8b1846a0518c7dd105082fdd8f2af769"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1484,
+      "sha256": "bdcc419b4b40d9ba9036104c9991c7c45a5d3a5699a76c826014fdcce32e9627"
+    }
+  ]
+}

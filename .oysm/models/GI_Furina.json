@@ -1,0 +1,159 @@
+{
+  "id": "GI_Furina",
+  "path": "parsed/GI_Furina",
+  "source": {
+    "path": "_GenshinImpact/GI_Furina.ysm",
+    "type": "ysm",
+    "stem": "GI_Furina"
+  },
+  "ysm": "parsed/GI_Furina/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§c寒叔.png",
+        "comment": "§7嘿嘿嘿~",
+        "contact": {
+          "Afdian": "https://afdian.com/a/Aigoblin?tab=shop",
+          "Bilibili": "https://space.bilibili.com/20510758?spm_id_from=333.1007.0.0"
+        },
+        "name": "§c寒叔",
+        "role": "§7模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/Aigoblin?tab=shop",
+      "home": "https://space.bilibili.com/20510758?spm_id_from=333.1007.0.0"
+    },
+    "name": "§1芙宁娜&芙卡洛斯",
+    "tips": "如果喜欢，欢迎前往爱发电支持，解锁可脱功能及更多轮盘动画！"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "变脸": "切换脸型"
+    },
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Furina_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 343,
+      "sha256": "678e3cbc7749114c23f6edf1937c57818a8dec2e0b4a209ec9fdbd20962c5800"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 2429884,
+    "sha256": "711c8986f9e171a148a9d162fe7b304a5c4c88afa91fe1004b1f9a6c806508a4",
+    "bones": 211,
+    "cubes": 2280,
+    "faces": 13655,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 31053,
+      "sha256": "3e8f5064226932a1ba5d96e868f767611bc1e2d95ae25fbd7b82f4ab97783e04"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "6e8d3afe0c3baafff8f7f3e0e30ef3c621c667be5c346af73398f5fd3cb89ca5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 687,
+      "sha256": "7a2a7cb30c2c5df236c6d30ed7992e084f28c4e538c592cb289f19348c5c78ae"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 503923,
+      "sha256": "6e98a780d07f1c26559edf9cb63c3c8e03542b29b563c6e5f2b091c307a3d4a1"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 118999,
+      "sha256": "86c174ce013475a02af283d7adbceb95d3e36a881f55a9501aaa1c1a2db9fe42"
+    },
+    {
+      "path": "avatar/§c寒叔.png",
+      "size": 162710,
+      "sha256": "28e19d6587eb8d647553eb54267c3793ea5f8a5de70d5b58314647b9d63257b5"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 22828,
+      "sha256": "2dbb517815261fe5d04f21cd8473bd2637bae18cee553a5ba03d8d0d162bc2a5"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13423,
+      "sha256": "7e605f03efbf09f910136dd6d7428b3b57d416be110ef51c153d96e8c7dc686e"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1250843,
+      "sha256": "6f8d395273b04af5b62310209b1339e019bf1e8e18b929ee27d22d5a77912be7"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 613,
+      "sha256": "aeabb5efc19dc3fe19bd5bd6f9727a0c467810c3fae08bffbb5d424c72049329"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 320992,
+      "sha256": "bff866eb7b0e1c1579065f8ec5a0fa4472e1129cc4d22ae862f91e146936e4fa"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1138,
+      "sha256": "b3307aff28de7e496a9c5a1a0278e9539201ad0177a62f17b64206670bdabd9d"
+    }
+  ]
+}

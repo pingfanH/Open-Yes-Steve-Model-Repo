@@ -1,0 +1,335 @@
+{
+  "id": "_星见时璃 Tokiri",
+  "path": "parsed/_星见时璃 Tokiri",
+  "source": {
+    "path": "Uncategorized/_星见时璃 Tokiri.ysm",
+    "type": "ysm",
+    "stem": "_星见时璃 Tokiri"
+  },
+  "ysm": "parsed/_星见时璃 Tokiri/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/星见时璃_Tokiri.png",
+        "comment": "摆烂YSM作者，致力于做出最好的自己",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/3494363390806334"
+        },
+        "name": "星见时璃_Tokiri",
+        "role": "模型/动画"
+      },
+      {
+        "avatar": "avatar/羊毛.png",
+        "comment": "喵喵喵喵",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/85335217"
+        },
+        "name": "羊毛",
+        "role": "音乐优化"
+      },
+      {
+        "avatar": "avatar/失语喵.png",
+        "comment": "又菜又懒的模型制作者",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/171415484?spm_id_from=333.337.0.0"
+        },
+        "name": "失语喵",
+        "role": "模型/动画"
+      },
+      {
+        "avatar": "avatar/MicroCraft.png",
+        "comment": "只是个准程序猿（物理糕手哦）",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/701974112"
+        },
+        "name": "MicroCraft",
+        "role": "molang/物理动画"
+      },
+      {
+        "avatar": "avatar/在来几斤小莫莫.png",
+        "comment": "窝不管！窝要成为麦块糕手！窝要让全世界都刷到咱的狐狐",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/3493267685509797?spm_id_from=333.337.0.0"
+        },
+        "name": "在来几斤小莫莫",
+        "role": "表情/动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC4.0 BY-NC-SA"
+    },
+    "name": "星见时璃",
+    "tips": "在万千时空中穿越的少女，穿越时空，只为来到你的身边~【原创角色，禁止盗用】"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "#配置项": "配置界面",
+      "extra1": "你好！",
+      "extra2": "鼓掌",
+      "extra3": "可以",
+      "extra4": "不可以",
+      "extra5": "伸懒腰",
+      "extra6": "快乐摇",
+      "extra7": "Doodle",
+      "extra8": "角色曲 《星溯之约》（伴奏）",
+      "extra9": "角色曲 《星溯之约》",
+      "extra10": "音乐指挥",
+      "extra11": "唱歌"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "衣服/部件调整",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "服装切换（女仆/常服）",
+            "description": "换装",
+            "value": "v.radio3",
+            "labels": {
+              "常服": "v.radio3 = 0;v.roaming.yf_switch = 0;",
+              "女仆": "v.radio3 = 1;v.roaming.yf_switch = 1;",
+              "泳装": "v.radio3 = 2;v.roaming.yf_switch = 2;",
+              "脱衣服": "v.radio3 = 3;v.roaming.yf_switch = 3;"
+            }
+          },
+          {
+            "type": "checkbox",
+            "title": "摘掉手套",
+            "description": "摘掉手套",
+            "value": "v.roaming.gloves_switch"
+          },
+          {
+            "type": "radio",
+            "title": "鞋子切换",
+            "description": "鞋子切换",
+            "value": "v.radio4",
+            "labels": {
+              "皮鞋": "v.radio4 = 0;v.roaming.shoe_switch = 0;",
+              "拖鞋": "v.radio4 = 1;v.roaming.shoe_switch = 1;",
+              "光脚": "v.radio4 = 2;v.roaming.shoe_switch = 2;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "右腿丝袜切换",
+            "description": "右腿丝袜切换",
+            "value": "v.radio1",
+            "labels": {
+              "右腿无": "v.radio1 = 0;v.roaming.right_stock_switch = 0;",
+              "右腿黑": "v.radio1 = 1;v.roaming.right_stock_switch = 1;",
+              "右腿白": "v.radio1 = 2;v.roaming.right_stock_switch = 2;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "左腿丝袜切换",
+            "description": "左腿丝袜切换",
+            "value": "v.radio2",
+            "labels": {
+              "左腿无": "v.radio2 = 0;v.roaming.left_stock_switch = 0;",
+              "左腿黑": "v.radio2 = 1;v.roaming.left_stock_switch = 1;",
+              "左腿白": "v.radio2 = 2;v.roaming.left_stock_switch = 2;"
+            }
+          }
+        ]
+      },
+      {
+        "id": "expression_config",
+        "name": "表情调整",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "表情喵",
+            "description": "表情喵",
+            "value": "v.radio1",
+            "labels": {
+              "常态": "v.radio1 = 0;v.roaming.expr = 0;",
+              "-w-": "v.radio1 = 1;v.roaming.expr = 1;",
+              "阿紫一~": "v.radio1 = 2;v.roaming.expr = 2;",
+              "zako~": "v.radio1 = 3;v.roaming.expr = 3;"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "配置项",
+        "extra_animation": {
+          "extra0": "#extra_config",
+          "extra12": "#expression_config"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/main.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Tokiri_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8085,
+      "sha256": "6412cd131ed5d8aecfe9421db3c86fe108ed9474c96ce1bb51991158790832be"
+    }
+  },
+  "stats": {
+    "file_count": 21,
+    "total_bytes": 10491879,
+    "sha256": "756a71252e96e996931715f7a116f6c93223ed891db36f69c854b87693566b11",
+    "bones": 278,
+    "cubes": 1391,
+    "faces": 8341,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178445,
+      "sha256": "2e57ffce077d5463c115ecc3018861463c8cbc0aff360e4a02a272d3e1164abb"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2817,
+      "sha256": "0dd63405e1f2b738d521849cd94972c31742733c2b0cca354c7c15e67949ad30"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 396341,
+      "sha256": "a0ec1226f47ed42708973068fbf9cc95a8a2d81f504b18b9bc69f6629c7d7cf8"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 268499,
+      "sha256": "6480bd26261352489fd30cb005baa291ca12f1e17ba0f8e96d4147ea683c824d"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2056014,
+      "sha256": "51c251d5948f815ea89dded7bbaa3c177bfa5f7c3748a36c7c469c4003324659"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 189771,
+      "sha256": "4a1118aef6df51408352b73755016ba812126ae60660862195026ca1efe9566f"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 52136,
+      "sha256": "58518df855724610f3a4dae84b482c151a0903874a5ac3e75d04e5f172691e01"
+    },
+    {
+      "path": "avatar/MicroCraft.png",
+      "size": 29256,
+      "sha256": "e6f4a7f34e222cc1b07850e8ed87c956065df27b9120e6eb36826d649dee5a5d"
+    },
+    {
+      "path": "avatar/在来几斤小莫莫.png",
+      "size": 21694,
+      "sha256": "e587c09e97009589585cf41717fe95b5dee8cf744183831a741d09cb92d9b638"
+    },
+    {
+      "path": "avatar/失语喵.png",
+      "size": 22754,
+      "sha256": "17a6f95a7f0d4428f1f9021df7cf8db9320b7d6cfbc6b7453953624556317b1f"
+    },
+    {
+      "path": "avatar/星见时璃_Tokiri.png",
+      "size": 33990,
+      "sha256": "04df297d1e56dfd33b6133d8afae706be1a99c7a8a932b3ecbbf3bb0a1fbd7e7"
+    },
+    {
+      "path": "avatar/羊毛.png",
+      "size": 28480,
+      "sha256": "ccc74083a30fb275e66d70bd91e67d23c5110bab6fba18cc1842d301c9fe9f59"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 8120,
+      "sha256": "37d68820935f00a2d3923ded0e85fa9b4a583483ee4c4181424bb705a388b1ce"
+    },
+    {
+      "path": "models/main.json",
+      "size": 773300,
+      "sha256": "021c995583a3ce4cd45c6c423b66f83fadfb42253d9dd828c61bfb481c4131bb"
+    },
+    {
+      "path": "sounds/dooble.ogg",
+      "size": 940490,
+      "sha256": "ca25c404f06c8946c8702c9c4d3f2dd11470e04c25d3214578cb6ddcb05c9016"
+    },
+    {
+      "path": "sounds/xszy.ogg",
+      "size": 2652346,
+      "sha256": "ae467a86598352ecaefab389de3c815443146bcdfc8faa88dff0b8dd68315afc"
+    },
+    {
+      "path": "sounds/xszybz.ogg",
+      "size": 2627755,
+      "sha256": "d659d4687e0335e8e4aea3aef83f225fe87c76613983d2dab9ebe49fb6205dde"
+    },
+    {
+      "path": "textures/main.png",
+      "size": 25786,
+      "sha256": "3109e235a44f69929e5190c46e1439c4891939611e7174c8b1842d9d9ab57dbb"
+    },
+    {
+      "path": "ysm.json",
+      "size": 4163,
+      "sha256": "8d218e2c41bd336ea0eda2132dd6eb574725c0c535a6fe664eb02732db30f183"
+    }
+  ]
+}

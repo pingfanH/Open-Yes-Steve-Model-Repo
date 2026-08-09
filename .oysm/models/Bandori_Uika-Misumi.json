@@ -1,0 +1,226 @@
+{
+  "id": "Bandori_Uika-Misumi",
+  "path": "parsed/Bandori_Uika-Misumi",
+  "source": {
+    "path": "_Bandori/Bandori_Uika-Misumi.ysm",
+    "type": "ysm",
+    "stem": "Bandori_Uika-Misumi"
+  },
+  "ysm": "parsed/Bandori_Uika-Misumi/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/裤管炸了救救我.png",
+        "comment": "我无畏咕咕咕",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/243846071"
+        },
+        "name": "裤管炸了救救我",
+        "role": "模型/贴图/动画"
+      },
+      {
+        "avatar": "avatar/02Bunny（蓝玫瑰）.png",
+        "comment": "喜欢做点酷东西",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/11814817"
+        },
+        "name": "02Bunny（蓝玫瑰）",
+        "role": "模型/贴图/动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://www.bilibili.com/video/BV1yQ5JzJEZQ"
+    },
+    "name": "§e三角初华（三角初音）",
+    "tips": "§7三角初■是偶像团体[sumimi]的吉他手与词曲创作人，因其酷炫的外貌而受欢迎，喜欢观星，同时是花咲川女子学园高中1年级学生，与祥子有深厚渊源，最终加入Ave Mujica，代号Doloris。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra1": "招手",
+      "extra2": "鼓掌",
+      "extra3": "点头",
+      "extra4": "不行",
+      "extra5": "诹访大舞",
+      "extra6": "摇摆",
+      "extra8": "弹吉他",
+      "extra9": "#变更服装",
+      "extra10": "阴暗的爬行"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "变更服装",
+        "name": "变更服装",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "选择服饰",
+            "description": "选择模型穿着服饰",
+            "value": "v.roaming.mujicacloth",
+            "labels": {
+              "常服": "v.roaming.mujicacloth=0;",
+              "花咲川冬季校服": "v.roaming.mujicacloth=1;",
+              "Ave Mujica舞台服": "v.roaming.mujicacloth=2;",
+              "蜘蛛战衣": "v.roaming.mujicacloth=3;"
+            }
+          },
+          {
+            "type": "checkbox",
+            "title": "是否穿戴面具",
+            "description": "决定穿着舞台服时是否显示面具",
+            "value": "v.roaming.mask"
+          },
+          {
+            "type": "checkbox",
+            "title": "是否穿戴帽子",
+            "description": "决定穿着常服时是否显示帽子",
+            "value": "v.roaming.hat"
+          },
+          {
+            "type": "checkbox",
+            "title": "三角头初华",
+            "description": "变身三角头形态",
+            "value": "v.roaming.head"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "res0",
+    "preview_animation": "stage",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/res0.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Bandori_Uika-Misumi_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3726,
+      "sha256": "d745252d0f31e8a5111c37c123749fc92d6708598e7df13aef4d9890806c9fef"
+    }
+  },
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 3000570,
+    "sha256": "afa72f3e568306f18285ab96f97a18b641ae89bb39dba3786d1b82d2fd5266fe",
+    "bones": 261,
+    "cubes": 772,
+    "faces": 4622,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 33267,
+      "sha256": "c922adcb8865da8b009767870588afa5306cf0b279528778157838b19f767735"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2346,
+      "sha256": "2070f1d9b57bed071fda3b610f257b41070d21544b6260e5debd11b111cf06e9"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 348164,
+      "sha256": "ae0d9bc7cc9537b0147e4ca50586e987c25b05501307e84de5c3ecf0b6ce2647"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 213335,
+      "sha256": "97fad08f72a7495f19335d445670c276b4f4098bbf57f653139ea22c66c289b6"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 140754,
+      "sha256": "93850bb1c3ed770c7380b4ccd63d2e9119a9922e5967a9bcd367056038e5e4fe"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1506363,
+      "sha256": "807747a6e8e99badbe36464b986c745394f658ca925d94465550c30530d7c2d9"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 40159,
+      "sha256": "a188551ec0aaae3f0a736a9d29502d8afe084b21fc33d8e6baea2194f8bbf3ff"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 149919,
+      "sha256": "f24802799a6e418bf0febbdebb4e370cff63eb960601407a7b61b9c80d6ff20e"
+    },
+    {
+      "path": "avatar/02Bunny（蓝玫瑰）.png",
+      "size": 21986,
+      "sha256": "15d683b20b12c36e70755823fafa23e4f49d2b98a9579b250f7e13873d95efab"
+    },
+    {
+      "path": "avatar/裤管炸了救救我.png",
+      "size": 37262,
+      "sha256": "4d32b2c00b1ba4501f40dd32c9067bd587dbe5ed6d40f58765d8299e07f0143b"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 7563,
+      "sha256": "6c5013dff1c31574cc065b7757b1f0c829640f0b2a9d2ea27d72eec98b2ec6ce"
+    },
+    {
+      "path": "models/main.json",
+      "size": 420847,
+      "sha256": "51df118e2262a82a1430a02d6fa221092d417e61a073d07ac699d510a89a1be8"
+    },
+    {
+      "path": "textures/res0.png",
+      "size": 76020,
+      "sha256": "643d8920a02dd4eb8857f4e53791a99c53d9a4cf5d23e663c3a77d176934c755"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2585,
+      "sha256": "45d212ba7a8fd6d7ef3386a57c2d62b5fbb0802068c7fec5c743f0517f55a727"
+    }
+  ]
+}

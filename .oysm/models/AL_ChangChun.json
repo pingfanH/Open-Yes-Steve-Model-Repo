@@ -1,0 +1,121 @@
+{
+  "id": "AL_ChangChun",
+  "path": "parsed/AL_ChangChun",
+  "source": {
+    "path": "_AzurLane/AL_ChangChun.ysm",
+    "type": "ysm",
+    "stem": "AL_ChangChun"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§f长春§r§4·§r改",
+    "tips": "§e庚金临野§r，§6七宿横阳§r\n鞍山级驱逐舰——长春，来咯",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "§d伊蕾娜家的咸鱼§r"
+      },
+      {
+        "name": "§6星§r§e屑§r§b海§r§3螺§r"
+      }
+    ]
+  },
+  "properties": {
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "changchun.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/AL_ChangChun_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7676,
+      "sha256": "be3027c4b3054b4db7a777ccf5cdd95a23d82b307e19a9a6f61f6fafaf8c3de6"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 1485653,
+    "sha256": "56e29f2bf594cae25deb4889ca84d4b2b1a16b403beb0ea4cf7b83679c5f95ee",
+    "bones": 216,
+    "cubes": 1379,
+    "faces": 8264,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 121775,
+      "sha256": "59f336973964ea42a4cdb6a7894e8f01de4c0ec397285aafa19b247385ba578c"
+    },
+    {
+      "path": "arm.json",
+      "size": 69601,
+      "sha256": "9392f5b4f9ce40df3fe829045e8a651bf27c74e232f3750cb20b52f393e1ef0e"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "changchun.png",
+      "size": 79068,
+      "sha256": "f508b572335532649a4cad821336429353078f51e8f3677066dd5df54ea3edc4"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 244390,
+      "sha256": "fdd7c9f487126563117f695f2b8f4a2b0849f34cb77b5f39f04492d1243e7ccf"
+    },
+    {
+      "path": "info.json",
+      "size": 403,
+      "sha256": "24c721cb215889be010b4592acafc4f58edde41f6233ba51acadbb516db98025"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 138304,
+      "sha256": "02bdcd0852a4d48fec5cbd2a6e7647f30eae5c3a0b6e3aef7fbe4b52db7ddfbf"
+    },
+    {
+      "path": "main.json",
+      "size": 695832,
+      "sha256": "719d3a5d8319bb87aaf6482c89715154b65daa89234a8a1a169a62694ec90fed"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    }
+  ]
+}

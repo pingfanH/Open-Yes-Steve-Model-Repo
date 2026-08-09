@@ -1,0 +1,144 @@
+{
+  "id": "Mavel_Jeff-The-Land-Shark",
+  "path": "parsed/Mavel_Jeff-The-Land-Shark",
+  "source": {
+    "path": "_MavelRivals/Mavel_Jeff-The-Land-Shark.zip",
+    "type": "zip",
+    "stem": "Mavel_Jeff-The-Land-Shark"
+  },
+  "ysm": "parsed/Mavel_Jeff-The-Land-Shark/ysm.json",
+  "metadata": {
+    "name": "Jeff",
+    "tips": "默认男版模型（Default Boy Model）",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "<Unknown>",
+        "avatar": "avatar/Screenshot_2025-03-10_164441.png",
+        "comment": "Prtih"
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "default_texture": "blue",
+    "free": true,
+    "height_scale": 0.7,
+    "width_scale": 0.75,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "preview_animation": "idle",
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "tac": "animations/tac.animation.json",
+        "arm": "animations/arm.animation.json"
+      },
+      "texture": [
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Mavel_Jeff-The-Land-Shark_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 1265,
+      "sha256": "35f305ff8247f3f2db60a928ced9a7765a168d088e730c9f06dfa2c45171c091"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 589720,
+    "sha256": "b2945092d61705aa1a1a385b6e107f6c159bb402489439912adcaf37eb98cb70",
+    "bones": 21,
+    "cubes": 47,
+    "faces": 282,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 150848,
+      "sha256": "609afe14b7d4477c2d85f29eef180071a2b3cece93a0a0dfc73dab34abc7ffc4"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 193580,
+      "sha256": "28e760d64ddf45aa359166a69889319b371aa367bd54e41379107b3b0135d755"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 161740,
+      "sha256": "34dd9400e60151d79d8e8a1df621c1f9858a4d866a466bc181fe470c5be170d6"
+    },
+    {
+      "path": "avatar/Screenshot_2025-03-10_164441.png",
+      "size": 10507,
+      "sha256": "b61c326b405e2b631fec45c3086931f56b52f5e3885aecaf28dd1178d6c8ea55"
+    },
+    {
+      "path": "avatar/dm.png",
+      "size": 19882,
+      "sha256": "c482b0ba5c52ce696e283c4fe2c8988674777043b8a83529cd4e11bbf44427c6"
+    },
+    {
+      "path": "avatar/gsl.png",
+      "size": 17482,
+      "sha256": "dda4f5d1d4b94eaee263a0c0686e9a02267fec3e0de969e2b42a3678393acfd5"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 1354,
+      "sha256": "3f52db999c688594679d76185a9d0ff1b7a9b1e5d6bd69a49544bb4be812c39e"
+    },
+    {
+      "path": "models/main.json",
+      "size": 27179,
+      "sha256": "9b57fcfc4774005a373a3fa38e8a251937c05200c661b1f64c9dd96f015c7dc5"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 6082,
+      "sha256": "6fa69f948be7487464149b5c8873064004756285717549eb7edd56e696056e89"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1066,
+      "sha256": "d154cea3d421394b7f9ea4bf62da9f9679bf845cd3700852359ff6def74a5a7a"
+    }
+  ]
+}

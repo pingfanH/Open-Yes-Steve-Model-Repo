@@ -1,0 +1,112 @@
+{
+  "id": "Ak_Shu",
+  "path": "parsed/Ak_Shu",
+  "source": {
+    "path": "_Arknights/Ak_Shu.ysm",
+    "type": "ysm",
+    "stem": "Ak_Shu"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§e黍",
+    "tips": "§8普通版",
+    "license": {
+      "type": "All Rights Reserved"
+    },
+    "authors": [
+      {
+        "name": "§c烈鸟比百§8（模型）"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Shu_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13300,
+      "sha256": "6f46b1249d9d98a79c08530eba4065c3501211c9cb9d930bf8922577c93d104e"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 4619402,
+    "sha256": "f168c8b4990968484ae4b0f9ad33549a809f9b7fb8cb05dd31d63836a58cf73b",
+    "bones": 201,
+    "cubes": 1069,
+    "faces": 6351,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 35916,
+      "sha256": "d660debcbd00e059f434a43e1adf4b3612deac7184cf3e3d672b1d849547d336"
+    },
+    {
+      "path": "arm.json",
+      "size": 46161,
+      "sha256": "89da6a571c065ae583f772b3b62d7fdb7e7f0aaa4ff6a04904c7e3719f2b8d25"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 3117972,
+      "sha256": "586549f035f85ec52de0ff0d6d40ba42e15311abe554079931f7ca905e46e776"
+    },
+    {
+      "path": "info.json",
+      "size": 223,
+      "sha256": "3531315c029d492db215ff6c16a3bfd7fb6936ab8c29caf1192c1bb53bc42116"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 567903,
+      "sha256": "641c5a276206304889cca1cbd95c632eeb88c83b3987aafafd34aa8e6c0ff1ba"
+    },
+    {
+      "path": "main.json",
+      "size": 550762,
+      "sha256": "bcfd0375e575d068f52c73f20c9c0f2bb2a590f16888ee8b8da6535df6ed1e95"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131321,
+      "sha256": "2973ff2915214d3590152f73613038b33355c644220bef15ce9e8f480eb2ca1e"
+    },
+    {
+      "path": "texture.png",
+      "size": 169144,
+      "sha256": "1c500aa7902a791fbf47cc4545c6f913ea195d120ceb58ff4f38d2ccf9b7fc11"
+    }
+  ]
+}

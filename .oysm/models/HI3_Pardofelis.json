@@ -1,0 +1,130 @@
+{
+  "id": "HI3_Pardofelis",
+  "path": "parsed/HI3_Pardofelis",
+  "source": {
+    "path": "_HonkaiImpact3/HI3_Pardofelis.ysm",
+    "type": "ysm",
+    "stem": "HI3_Pardofelis"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "HI3_Pardofelis"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "parcool": "parcool.animation.json",
+        "slashblade": "slashblade.animation.json",
+        "tac": "tac.animation.json",
+        "tlm": "tlm.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HI3_Pardofelis_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 15018,
+      "sha256": "c11d917cd2bc64cd1b200d4e546f98b7bb770342fe4ddc80efd9fa97c75417f2"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 4141311,
+    "sha256": "dcf80c0956d5ec1a90d30aa0ad1724ae3c204abde76a3f8d43bb8cf284a2e8e8",
+    "bones": 91,
+    "cubes": 863,
+    "faces": 5178,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 192524,
+      "sha256": "8d979a2361632d3fc4845b8d94f85b7cf4612657f188b5ee497daf34f7f1a6a7"
+    },
+    {
+      "path": "arm.json",
+      "size": 33037,
+      "sha256": "5d5213593abef23fe853019155142be15dff7da8e495c9c9e718a1f5a37be8a2"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 5711,
+      "sha256": "2a1d58c6b99cdca36db5b2e30882c409a2180f207166c453c06ade7185b358d2"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 625701,
+      "sha256": "467da4e581b1bc050e2fa0c563d6b7bc82f8a81288e180be8b737765e893a3ab"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 356923,
+      "sha256": "38960f60a5f7666438c51b4a4089ed6018e27d8aeda8e5947faf9eb2fa14e45d"
+    },
+    {
+      "path": "main.json",
+      "size": 296591,
+      "sha256": "6a22dd1e91ac68c8586752460caf0ed24c021539ddda7454a825fda9d12cc141"
+    },
+    {
+      "path": "parcool.animation.json",
+      "size": 245788,
+      "sha256": "ec2e05243d4a7650ad9b0b7f300b48acbb1fcc551b6b984205b2626b09b1768c"
+    },
+    {
+      "path": "slashblade.animation.json",
+      "size": 1652515,
+      "sha256": "e047194c322d37c430622b8b2d8965190d539575c131e00a1cc41ce1927bfa10"
+    },
+    {
+      "path": "sounds/get_down.ogg",
+      "size": 109937,
+      "sha256": "4ce09669ffb074240d6cd7aa4379eac85cead846b5182da07a9788a5d51b9a18"
+    },
+    {
+      "path": "sounds/zufolo_impazzito.ogg",
+      "size": 172286,
+      "sha256": "ee80cfe3f9ad70f2bd6b3b735d65c5c356c1119c67c8da4d812c838058ca6990"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 218055,
+      "sha256": "7849bf58dec852c5c0bfdd383c884a947274b1ee8bca7ef03eb52e066f37544e"
+    },
+    {
+      "path": "texture.png",
+      "size": 156484,
+      "sha256": "427f2278e63d0355c43f50c8cf5d6f8a41de775ed29b1823222c68397637a103"
+    },
+    {
+      "path": "tlm.animation.json",
+      "size": 75759,
+      "sha256": "daf73a56384675973c7841b02edb32e8bcc0840454007e3239c57cfe9bdc3498"
+    }
+  ]
+}

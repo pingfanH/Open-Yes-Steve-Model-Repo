@@ -1,0 +1,465 @@
+{
+  "id": "Touhou_Izayoi-Sakuya(zipver)",
+  "path": "parsed/Touhou_Izayoi-Sakuya(zipver)",
+  "source": {
+    "path": "_TouhouProject/Touhou_Izayoi-Sakuya(zipver).zip",
+    "type": "zip",
+    "stem": "Touhou_Izayoi-Sakuya(zipver)"
+  },
+  "ysm": "parsed/Touhou_Izayoi-Sakuya(zipver)/ysm.json",
+  "metadata": {
+    "name": "十六夜咲夜（Izayoi_Sakuya）",
+    "tips": "完美而潇洒的女仆\n版本v1.4\n包含内容:\n§3 ·基础动作适配及更改\n§3 ·物理模拟\n§3 ·选择动画\n§3 ·2特殊物品模型\n§3 ·配置轮盘\n§3 ·1个额外轮盘动画\n§3 ·可自定义轮盘表情\n§3 ·tacz等模组适配\n\n§c不授权任何网易内容",
+    "license": {
+      "type": "CC BY-SA"
+    },
+    "authors": [
+      {
+        "name": "碎de帆",
+        "role": "模型+动画",
+        "avatar": "avatar/sdf.png",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/381524342"
+        },
+        "comment": "一般通过车车人"
+      }
+    ],
+    "link": {
+      "home": "https://space.bilibili.com/381524342"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "#extra1": "自定义轮盘表情配置",
+      "extra2": "打招呼",
+      "extra3": "鼓掌",
+      "extra4": "点头",
+      "extra5": "摇头",
+      "extra6": "自定义表情1",
+      "extra7": "自定义表情2",
+      "extra8": "非想天则站街"
+    },
+    "extra_animation_classify": [
+      {
+        "id": "extra1",
+        "extra_animation": {
+          "custom_anim1_basic_config": "#custom_anim1_basic_config",
+          "custom_anim1_detail_config": "#custom_anim1_detail_config",
+          "custom_anim2_basic_config": "#custom_anim2_basic_config",
+          "custom_anim2_detail_config": "#custom_anim2_detail_config"
+        }
+      }
+    ],
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "模型配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "人物大小",
+            "description": "用来调整人物总体的大小",
+            "value": "v.roaming.root_size",
+            "step": 0.05,
+            "min": 0.75,
+            "max": 1.25
+          },
+          {
+            "type": "checkbox",
+            "title": "显示嘴巴",
+            "description": "显示/隐藏嘴巴（默认隐藏）",
+            "value": "v.roaming.a"
+          },
+          {
+            "type": "checkbox",
+            "title": "切换眼睛",
+            "description": "切换红/蓝眼",
+            "value": "v.roaming.b"
+          }
+        ]
+      },
+      {
+        "id": "custom_anim1_basic_config",
+        "name": "自定义表情1基础配置",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "自定义表情1：嘴部种类",
+            "description": "用来调整自定义表情1显示的嘴部种类",
+            "value": "v.roaming.custom_anim1_mouth_type",
+            "labels": {
+              "无": "v.roaming.custom_anim1_mouth_type=0;",
+              "平静": "v.roaming.custom_anim1_mouth_type=1;",
+              "不高兴1": "v.roaming.custom_anim1_mouth_type=2;",
+              "不高兴2": "v.roaming.custom_anim1_mouth_type=3;",
+              "微笑1": "v.roaming.custom_anim1_mouth_type=4;",
+              "微笑2": "v.roaming.custom_anim1_mouth_type=5;",
+              "害怕": "v.roaming.custom_anim1_mouth_type=6;"
+            }
+          },
+          {
+            "type": "range",
+            "title": "自定义表情1：眼睛大小",
+            "description": "用来调整自定义表情1显示的眼睛大小",
+            "value": "v.roaming.custom_anim1_eyes_size",
+            "step": 0.05,
+            "min": 0,
+            "max": 2
+          },
+          {
+            "type": "range",
+            "title": "自定义表情1：睁眼幅度",
+            "description": "用来调整自定义表情1显示的睁眼幅度，负数为闭眼",
+            "value": "v.roaming.custom_anim1_eyes_open",
+            "step": 0.05,
+            "min": -0.65,
+            "max": 0.3
+          },
+          {
+            "type": "radio",
+            "title": "自定义表情1：表情效果",
+            "description": "用来调整自定义表情1显示的特殊表情效果",
+            "value": "v.roaming.custom_anim1_emoji_type",
+            "labels": {
+              "无": "v.roaming.custom_anim1_emoji_type=0;",
+              "感叹号": "v.roaming.custom_anim1_emoji_type=1;",
+              "问号": "v.roaming.custom_anim1_emoji_type=2;",
+              "流汗": "v.roaming.custom_anim1_emoji_type=3;",
+              "愤怒": "v.roaming.custom_anim1_emoji_type=4;"
+            }
+          }
+        ]
+      },
+      {
+        "id": "custom_anim1_detail_config",
+        "name": "自定义表情1细节配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "自定义表情1：嘴部大小",
+            "description": "用来调整自定义表情1显示的嘴部大小",
+            "value": "v.roaming.custom_anim1_mouth_size",
+            "step": 0.1,
+            "min": 0,
+            "max": 2
+          },
+          {
+            "type": "range",
+            "title": "自定义表情1：眼睛位置",
+            "description": "用来调整自定义表情1显示的眼睛y轴位置",
+            "value": "v.roaming.custom_anim1_eyes_position",
+            "step": 0.05,
+            "min": -1,
+            "max": 1
+          },
+          {
+            "type": "checkbox",
+            "title": "自定义表情1：眼睛高光",
+            "description": "用来调整自定义表情1是否显示眼睛高光",
+            "value": "v.roaming.custom_anim1_eyes_highlight"
+          },
+          {
+            "type": "checkbox",
+            "title": "自定义表情1：眼泪",
+            "description": "用来调整自定义表情1是否显示眼泪",
+            "value": "v.roaming.custom_anim1_eyes_tears"
+          },
+          {
+            "type": "range",
+            "title": "自定义表情1：眼皮位置",
+            "description": "用来调整自定义表情1显示的上下眼皮y轴位置",
+            "value": "v.roaming.custom_anim1_eyelid_position",
+            "step": 0.05,
+            "min": -1,
+            "max": 0.5
+          },
+          {
+            "type": "range",
+            "title": "自定义表情1：眼皮旋转",
+            "description": "用来调整自定义表情1显示的上眼皮z轴旋转，正数为向内",
+            "value": "v.roaming.custom_anim1_eyelid_rotation",
+            "step": 1,
+            "min": -30,
+            "max": 30
+          },
+          {
+            "type": "range",
+            "title": "自定义表情1：眉毛位置",
+            "description": "用来调整自定义表情1显示的眉毛y轴位置",
+            "value": "v.roaming.custom_anim1_brow_position",
+            "step": 0.05,
+            "min": -1,
+            "max": 1
+          },
+          {
+            "type": "range",
+            "title": "自定义表情1：眉毛旋转",
+            "description": "用来调整自定义表情1显示的眉毛z轴旋转，正数为向内",
+            "value": "v.roaming.custom_anim1_brow_rotation",
+            "step": 1,
+            "min": -65,
+            "max": 65
+          }
+        ]
+      },
+      {
+        "id": "custom_anim2_basic_config",
+        "name": "自定义表情2基础配置",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "自定义表情2：嘴部种类",
+            "description": "用来调整自定义表情2显示的嘴部种类",
+            "value": "v.roaming.custom_anim2_mouth_type",
+            "labels": {
+              "无": "v.roaming.custom_anim2_mouth_type=0;",
+              "平静": "v.roaming.custom_anim2_mouth_type=1;",
+              "不高兴1": "v.roaming.custom_anim2_mouth_type=2;",
+              "不高兴2": "v.roaming.custom_anim2_mouth_type=3;",
+              "微笑1": "v.roaming.custom_anim2_mouth_type=4;",
+              "微笑2": "v.roaming.custom_anim2_mouth_type=5;",
+              "害怕": "v.roaming.custom_anim2_mouth_type=6;"
+            }
+          },
+          {
+            "type": "range",
+            "title": "自定义表情2：眼睛大小",
+            "description": "用来调整自定义表情2显示的眼睛大小",
+            "value": "v.roaming.custom_anim2_eyes_size",
+            "step": 0.05,
+            "min": 0,
+            "max": 2
+          },
+          {
+            "type": "range",
+            "title": "自定义表情2：睁眼幅度",
+            "description": "用来调整自定义表情2显示的睁眼幅度，负数为闭眼",
+            "value": "v.roaming.custom_anim2_eyes_open",
+            "step": 0.05,
+            "min": -0.65,
+            "max": 0.3
+          },
+          {
+            "type": "radio",
+            "title": "自定义表情2：表情效果",
+            "description": "用来调整自定义表情2显示的特殊表情效果",
+            "value": "v.roaming.custom_anim2_emoji_type",
+            "labels": {
+              "无": "v.roaming.custom_anim2_emoji_type=0;",
+              "感叹号": "v.roaming.custom_anim2_emoji_type=1;",
+              "问号": "v.roaming.custom_anim2_emoji_type=2;",
+              "流汗": "v.roaming.custom_anim2_emoji_type=3;",
+              "愤怒": "v.roaming.custom_anim2_emoji_type=4;"
+            }
+          }
+        ]
+      },
+      {
+        "id": "custom_anim2_detail_config",
+        "name": "自定义表情2细节配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "自定义表情2：嘴部大小",
+            "description": "用来调整自定义表情2显示的嘴部大小",
+            "value": "v.roaming.custom_anim2_mouth_size",
+            "step": 0.1,
+            "min": 0,
+            "max": 2
+          },
+          {
+            "type": "range",
+            "title": "自定义表情2：眼睛位置",
+            "description": "用来调整自定义表情2显示的眼睛y轴位置",
+            "value": "v.roaming.custom_anim2_eyes_position",
+            "step": 0.05,
+            "min": -1,
+            "max": 1
+          },
+          {
+            "type": "checkbox",
+            "title": "自定义表情2：眼睛高光",
+            "description": "用来调整自定义表情2是否显示眼睛高光",
+            "value": "v.roaming.custom_anim2_eyes_highlight"
+          },
+          {
+            "type": "checkbox",
+            "title": "自定义表情2：眼泪",
+            "description": "用来调整自定义表情2是否显示眼泪",
+            "value": "v.roaming.custom_anim2_eyes_tears"
+          },
+          {
+            "type": "range",
+            "title": "自定义表情2：眼皮位置",
+            "description": "用来调整自定义表情2显示的上下眼皮y轴位置",
+            "value": "v.roaming.custom_anim2_eyelid_position",
+            "step": 0.05,
+            "min": -1,
+            "max": 0.5
+          },
+          {
+            "type": "range",
+            "title": "自定义表情2：眼皮旋转",
+            "description": "用来调整自定义表情2显示的上眼皮z轴旋转，正数为向内",
+            "value": "v.roaming.custom_anim2_eyelid_rotation",
+            "step": 1,
+            "min": -30,
+            "max": 30
+          },
+          {
+            "type": "range",
+            "title": "自定义表情2：眉毛位置",
+            "description": "用来调整自定义表情2显示的眉毛y轴位置",
+            "value": "v.roaming.custom_anim2_brow_position",
+            "step": 0.05,
+            "min": -1,
+            "max": 1
+          },
+          {
+            "type": "range",
+            "title": "自定义表情2：眉毛旋转",
+            "description": "用来调整自定义表情2显示的眉毛z轴旋转，正数为向内",
+            "value": "v.roaming.custom_anim2_brow_rotation",
+            "step": 1,
+            "min": -65,
+            "max": 65
+          }
+        ]
+      }
+    ],
+    "preview_animation": "gui",
+    "disable_preview_rotation": true,
+    "default_texture": "default",
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "texture": [
+        "textures/default.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Touhou_Izayoi-Sakuya_zipver_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7746,
+      "sha256": "75dea2b4673ad49e06fb3dbe9f92c8f97525c6cf062e69f37cd9a0d1ab90dd0c"
+    }
+  },
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 2482767,
+    "sha256": "6514e165dcf74b033541b27a970cfca23c1e5ad8f7e576f6763d7e14a94f8b1c",
+    "bones": 244,
+    "cubes": 431,
+    "faces": 2582,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "Changelog.txt",
+      "size": 486,
+      "sha256": "bacd4afa19e7440eb5f4fb398d20503196fa208c546ff86dde5091dcaf7a79ad"
+    },
+    {
+      "path": "animations/arm.animation.json",
+      "size": 190373,
+      "sha256": "8c43dd4c3a7ed305183ccd84e7316a5f1cd836ff13c43b15ed2e84a20fae0b43"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3799,
+      "sha256": "32851380160c2bceea27535eeb1f27ed77e74f2fd565ac13c06c499952aff79e"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 47872,
+      "sha256": "941a43713fe386701a3ff54104f81f9fa7ddc8a4adf87d84cc1e374abe55e16a"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 209270,
+      "sha256": "d58b2dc16ae8cc7a2a52cfb45e11f301a748d23956bc2387e9f9a612d5b5caf5"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 238667,
+      "sha256": "f36fe3904232caf96572be9aeb1bae08d75db97c783a2bf0f2bfb2091a7aecbc"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1166674,
+      "sha256": "d86736f4840da1a37f480079645afcc60f59ee77d1358f677a264b7f351b9e9b"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 219950,
+      "sha256": "bad35fcddcfc4fff9152d58fcce66cac722645b23e73ccaea18f4b8c11a900b2"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 68144,
+      "sha256": "5dd3b6f4d03c3b33d0d68c4599a3f523cdfe8b567b0db3a6690077701fe73401"
+    },
+    {
+      "path": "avatar/sdf.png",
+      "size": 40430,
+      "sha256": "1da02babb7905c641afe1e8b357878a7ccf6b1eea3fdf4d447356b72d1a3861a"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 15423,
+      "sha256": "cfb65f4fa0c3bc9598100641dc11ab647e5c86f9e5017b15ec4ca966564e1bd2"
+    },
+    {
+      "path": "models/main.json",
+      "size": 215989,
+      "sha256": "6fc63155dee39ce0f39b904753e3519b787fc716181c89eedaab955e938b2c35"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 11498,
+      "sha256": "5e272e926efa14616cc684ebbe6b8c127dfe8ab7f4bb7d9ff81a4f40abbfe872"
+    },
+    {
+      "path": "ysm.json",
+      "size": 13162,
+      "sha256": "f9879fccf1196efb9938a1daf288b17716171ee4787aa7b9f50a4af8942bbdd9"
+    }
+  ]
+}

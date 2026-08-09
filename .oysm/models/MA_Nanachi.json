@@ -1,0 +1,101 @@
+{
+  "id": "MA_Nanachi",
+  "path": "parsed/MA_Nanachi",
+  "source": {
+    "path": "_MadeInAbyss/MA_Nanachi.ysm",
+    "type": "ysm",
+    "stem": "MA_Nanachi"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "MA_Nanachi"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "default.png"
+      ],
+      "animation": {
+        "1main": "1main.animation.json",
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/MA_Nanachi_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 19531,
+      "sha256": "b5a42f367faaeddd824c0a7ef567392b7c576428535b09f0cf0ceda0f1d96f44"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 786854,
+    "sha256": "bedd5aff54217aca5e97f410f9563ec1f60b34457ef1859178bcac821c68865e",
+    "bones": 47,
+    "cubes": 302,
+    "faces": 1812,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "1main.animation.json",
+      "size": 191189,
+      "sha256": "87e7e08c28ef4469c2dc42119b12f95098298e0294adb1d72e94aeb7f330382c"
+    },
+    {
+      "path": "arm.animation.json",
+      "size": 558,
+      "sha256": "4ffa6140253b570a257b189bcb82709603a294dc1d36597b990316257abc00f5"
+    },
+    {
+      "path": "arm.json",
+      "size": 6545,
+      "sha256": "a699bb80afe8093d016a2b40669eccacf80c2602a0152c506cada2cc497a5128"
+    },
+    {
+      "path": "default.png",
+      "size": 34980,
+      "sha256": "2c41b5105d472db7704a08b77f4686cd3b39ce8144c9a53f8d870738aa4998ca"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 144073,
+      "sha256": "1cc30c5474076f2027d3b365b9525491a76007ff6451803a06df6814302761d7"
+    },
+    {
+      "path": "huyi.zip",
+      "size": 52843,
+      "sha256": "72f13d6c70473d168e5403163a703f124b5e425aa567fe988eccdcf2753e871b"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 199888,
+      "sha256": "13b60c91c29cb0cc24f7229a9d37361a5f4bc6882151ec78bd6592d8f8645637"
+    },
+    {
+      "path": "main.json",
+      "size": 156778,
+      "sha256": "6822425a565d54faa08377ab0f46721d817009e094e8799ebf1c2a47ccd0ddd9"
+    }
+  ]
+}

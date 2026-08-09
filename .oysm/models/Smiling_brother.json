@@ -1,0 +1,95 @@
+{
+  "id": "_Smiling_brother",
+  "path": "parsed/_Smiling_brother",
+  "source": {
+    "path": "Uncategorized/_Smiling_brother.ysm",
+    "type": "ysm",
+    "stem": "_Smiling_brother"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_Smiling_brother"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "default.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Smiling_brother_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11646,
+      "sha256": "1dab83f521132114962cb4cdb1f1f6420a7682f3eaa8f913c4d4262aecc8f221"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 1510348,
+    "sha256": "60e18b9a319c4ff01eea0f2806e4df618486f40010a85130e016df021978340b",
+    "bones": 149,
+    "cubes": 1204,
+    "faces": 7224,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 46269,
+      "sha256": "96a39446b37ac888ddfa8be3d854517fe27ac2d65673c917942549467ad34370"
+    },
+    {
+      "path": "arm.json",
+      "size": 37639,
+      "sha256": "058249cb02796b84fb159c5fc068f491e33cbe936fa2ec13c0966f3b606c2bbf"
+    },
+    {
+      "path": "default.png",
+      "size": 28214,
+      "sha256": "d209bfe116486a2c40d571b03f3d419875877b62eb152c5e08e69d2a9fadeac0"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 87199,
+      "sha256": "cfb8fab1777380da1189df228851030636842a35a002309808231a3b113ba1a8"
+    },
+    {
+      "path": "main.animation - 副本.json",
+      "size": 347662,
+      "sha256": "c92a4e14389555a362adeaa81a8042318fd3382533cd7d356ec0d40854022443"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 351921,
+      "sha256": "731cc3f597ace8284d48754b111ced3aeba6af87ca2d97a926e7203a44840815"
+    },
+    {
+      "path": "main.json",
+      "size": 611444,
+      "sha256": "b40872d73ab03cd52163ba197376f61bb65fcc826e638c465505dc20a9b36e72"
+    }
+  ]
+}

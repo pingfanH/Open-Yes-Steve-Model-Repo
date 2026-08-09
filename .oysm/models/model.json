@@ -1,0 +1,210 @@
+{
+  "id": "黑兽-浮士德",
+  "path": "parsed/黑兽-浮士德",
+  "source": {
+    "path": "Unknown/黑兽-浮士德.ysm",
+    "type": "ysm",
+    "stem": "黑兽-浮士德"
+  },
+  "ysm": "parsed/黑兽-浮士德/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/伦理问题.png",
+        "comment": "好想....做模型？！",
+        "name": "伦理问题",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/Mortis",
+      "home": "https://space.bilibili.com/384456209?spm_id_from=333.788.0.0"
+    },
+    "name": "黑兽 - 卯魁首",
+    "tips": "学习与提问有何用处呢。我曾思考过这个问题。若没有主公……恐怕至今我仍是一介凡人，而非浮士德了。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "神秘动作",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "坐",
+      "extra7": "三破动作",
+      "配置页": "#extra_config"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "组件切换",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "眼睛",
+            "description": "蓝瞳/黄瞳？",
+            "value": "v.EYE"
+          },
+          {
+            "type": "checkbox",
+            "title": "帽子",
+            "description": "开关",
+            "value": "v.hat"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "UI",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png",
+          "normal": "textures/texture_normal.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/model_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12471,
+      "sha256": "5fc50b9d00c853f314417736535f3fed0cb8058722b5cdff1010510d4247b842"
+    }
+  },
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 4435000,
+    "sha256": "5feeed6b479f9cdebc294d4473688f4545ddd63a1918181aea7401a60c1a113b",
+    "bones": 181,
+    "cubes": 2594,
+    "faces": 15564,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 153083,
+      "sha256": "141397ed7160a1feaf1df1cb5e5fc5341db3a9fbd168c55f853652a52135a295"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 26552,
+      "sha256": "d4a0ae32c280dfc57c29a30497e02a4e6a367e67e6ce4f4db4eed6538675f609"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 265513,
+      "sha256": "485d519d94e1d7d87be28d29db493c452074450f93afa7062a807d8e47e6c1a0"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2022873,
+      "sha256": "f2383c49c33ea87b59257e7d29fb2ec312eb05395e6a4ccfe6beabf5933a74bc"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/伦理问题.png",
+      "size": 12413,
+      "sha256": "5ff591712d77145d2fd170bd2a425ed13c3c42832529365fb70fe48d3e39416c"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 12224,
+      "sha256": "95b85a30c7e04e0d609d8ea613076f4c37215cb7f68b4b6c17ce33c390380d2c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 29911,
+      "sha256": "094ac102412699d2271cca3c0e47857382686523d24619c92928309d7b96b11f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1387271,
+      "sha256": "abca833834e36389207867ea85ff2674f19bc6e79b467e784309249d1c80a059"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 61084,
+      "sha256": "95bbd12afded84f5ea7dd84909cb184136e1b2ec0d04d4fa8ae504e2c06721a7"
+    },
+    {
+      "path": "textures/texture_normal.png",
+      "size": 47984,
+      "sha256": "5ef24d1f50ee347130b60b87831f153bd177f5af36431af614332a08b3d61593"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1755,
+      "sha256": "2a96d505ec196568c3c9831444bdd3ef650cb7e95b54980f18e338a5ff91921e"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "PGR_Lamia",
+  "path": "parsed/PGR_Lamia",
+  "source": {
+    "path": "_PunishingGrayRaven/PGR_Lamia.ysm",
+    "type": "ysm",
+    "stem": "PGR_Lamia"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "PGR_Lamia"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "tex.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "arm1": "arm1.animation.json",
+        "main": "main.animation.json",
+        "main1": "main1.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/PGR_Lamia_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12672,
+      "sha256": "c569ff256b13e9fd08ffe127044931a4148648a5d993104f80f8ca978aab779c"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 1771689,
+    "sha256": "be120af35ca2e47c2029e56bc06e8f01d39befde6247758e1649108618f61672",
+    "bones": 192,
+    "cubes": 651,
+    "faces": 3906,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 574370,
+      "sha256": "46cd01623dbdb23f2c0ef06bf0a2b7304ff45ae25afd93becc07feb2794af721"
+    },
+    {
+      "path": "arm.json",
+      "size": 9907,
+      "sha256": "71ab54d0cba27e1686bffb14b4fc8cdbfa48b26f9fdcf3d8f1d9edac9b9d4eff"
+    },
+    {
+      "path": "arm1.animation.json",
+      "size": 42457,
+      "sha256": "d4eea26acce63f137f4a0249a80c49e6f7c71c67d607d04964fbfb3e3186c7e8"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 276034,
+      "sha256": "55608640c0d97c6a2bb9e41d77ed3248e0ffa8ef097d08694adfade2ea64f0b0"
+    },
+    {
+      "path": "main.json",
+      "size": 352230,
+      "sha256": "af29b0e47fa901b6af6eb061195d3730130eb9ec31c8bc9734d8f8cfc06e917a"
+    },
+    {
+      "path": "main1.animation.json",
+      "size": 328677,
+      "sha256": "a682c2c8d749ab9c05cb166121ebc29dab2a9fd0d041687e8c13135530c51363"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 157221,
+      "sha256": "8dac7984f4afbfd6a3e0e4bf3a8626f37576c92cea01d39a6ed47ca032afb8ec"
+    },
+    {
+      "path": "tex.png",
+      "size": 30793,
+      "sha256": "a65afc287d875643ed3a1cba9c564da07ab54fa1d3f105d414b64c60cbd7220d"
+    }
+  ]
+}

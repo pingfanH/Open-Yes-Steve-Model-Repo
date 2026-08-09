@@ -1,0 +1,205 @@
+{
+  "id": "_EZBNK_Ao1.4",
+  "path": "parsed/_EZBNK_Ao1.4",
+  "source": {
+    "path": "Uncategorized/_EZBNK_Ao1.4.ysm",
+    "type": "ysm",
+    "stem": "_EZBNK_Ao1.4"
+  },
+  "ysm": "parsed/_EZBNK_Ao1.4/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/OBJ.png",
+        "comment": "Hehe",
+        "contact": {
+          "IG": "@Warbuja_"
+        },
+        "name": "OBJ",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "name": "Ezbinka R",
+    "tips": "Version 0.2 Ezbinka, cutie elf."
+  },
+  "properties": {
+    "width_scale": 0.6,
+    "height_scale": 0.6,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "Sit",
+      "extra7": "",
+      "Extra 8": "MIirror",
+      "extra9": "Sit/wBlanket",
+      "VERGIL": "Chaired",
+      "extra10": "Pointing",
+      "Tpose Your Opponen": "Tpose Your Opponen",
+      "extra11": "Squating",
+      "extra12": "shyly",
+      "Chaired": "Chairlenger",
+      "extra13": "Rotary",
+      "Lonely": "Dance1",
+      "atention": "Atention",
+      "atention2": "atention 2 handed gun",
+      "Salute": "Salute"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "GUI",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png",
+          "specular": "textures/default_specular.png"
+        }
+      ]
+    },
+    "vehicles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/vehicle/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/EZBNK_Ao1.4_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6457,
+      "sha256": "2beaf359cf06a061617a17bef4d4275aabf49cd0e737a66854fd0ba933344979"
+    }
+  },
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 2385977,
+    "sha256": "504ffb0960116dff2df3ce6714478faf6df5c7f490018c9d022399a2645de26e",
+    "bones": 334,
+    "cubes": 1981,
+    "faces": 11886,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 183978,
+      "sha256": "b4caf97a7f4317ed33f679e1de7e7d07be3efbcb1f16667f7f12da1d82955623"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3901,
+      "sha256": "eaa19a2880b5ee2cfd25725560db7ba867297c7e2de37422bd2b4f7fd7804858"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 172350,
+      "sha256": "30d1bf765b07502fa3bc1823df823c7bd78b362f1254b0925d149f0a8447a823"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 237526,
+      "sha256": "a2df44cff27fc6538effa91870f5a2a3015c4be2326fe74540c1933c9d64b2e7"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132834,
+      "sha256": "75f09c66c70001eb1dcebda7603cc18e16f2b62bacbd597bf4078c62a0c83b8e"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 475800,
+      "sha256": "516e475e78441c5971441ebb06453f0e3e4f41cffb4129dd1ab74127e10b641d"
+    },
+    {
+      "path": "animations/vehicle/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "avatar/OBJ.png",
+      "size": 5619,
+      "sha256": "4937eae3bae6b89da4f894f42f3b0989c02d9abcd12167fb49544e107d872543"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 5633,
+      "sha256": "8d1b1ed6b7c811fb1e32345f96bd4184cd4fb5652840bb09143d4da4b1351ae2"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1094537,
+      "sha256": "2b624e9cf568fd9f015c5a9e18b12e9dfc46f2a9dd4570c6d136da82b60906f3"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 514,
+      "sha256": "6900479dc5bca334db96c0243619e7e1f5f9c0c55119ed98ce6adc133c0ccd52"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 22690,
+      "sha256": "735c88a9bfeb761eb4be204a5df390c102b1303764561d876cb1b8a334e22abc"
+    },
+    {
+      "path": "textures/default_specular.png",
+      "size": 2220,
+      "sha256": "4ac9020e0ef0614745ac742215996861be7abb4b5463edffdbf1ae5e2046c41a"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1535,
+      "sha256": "312950bfab05293affa1ba7a7be8e905c843f0a4bf12a74b89c17b1e0b297505"
+    }
+  ]
+}

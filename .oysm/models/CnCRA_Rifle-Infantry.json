@@ -1,0 +1,106 @@
+{
+  "id": "CnCRA_Rifle-Infantry",
+  "path": "parsed/CnCRA_Rifle-Infantry",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCRA_Rifle-Infantry.ysm",
+    "type": "ysm",
+    "stem": "CnCRA_Rifle-Infantry"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "苏联步枪兵（ra95）",
+    "tips": "预览界面可更换帽子/头盔",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png",
+        "texture1.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCRA_Rifle-Infantry_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7219,
+      "sha256": "ef4ed2ca0bdf0037c9aba8a21b0a4131656eba2d680a7fa0e295a937fd2e2b5c"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 364987,
+    "sha256": "c08b4c4c45f1d1ed447d4c4f764363255492959d9db4a21c98b4e33af88d1d82",
+    "bones": 39,
+    "cubes": 140,
+    "faces": 840,
+    "textures": 2,
+    "materials": 2,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 7732,
+      "sha256": "50dd5211bf6c37f646ba04dc34b7f80754142513e9b2172a5c72e6010c5a0c9c"
+    },
+    {
+      "path": "info.json",
+      "size": 177,
+      "sha256": "c083b41b2bd8539e5af059dea973dd636022ada47b9c606629323eff7a5a450c"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122470,
+      "sha256": "d93402d24863ccd84622801424bb845d8ff78161fae9d48b7bbf0c3d213720c1"
+    },
+    {
+      "path": "main.json",
+      "size": 65144,
+      "sha256": "4ac08641ae31abdd707d31dc580f5ac933806187dd97bb7ff4093d6ec666a925"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131639,
+      "sha256": "a73cf95259743cc506fa6931e6bed68e0e41c5edca8f4651f26f1a42c1e26994"
+    },
+    {
+      "path": "texture.png",
+      "size": 18824,
+      "sha256": "6c69421f38745231caeb3423302e10122d22f88c8f935d9bbb75e2f534ae308d"
+    },
+    {
+      "path": "texture1.png",
+      "size": 19001,
+      "sha256": "e1688da59ce0d1f0c0c9721d2fd9d3d4954543b0de572b736e97fa8f256e009e"
+    }
+  ]
+}

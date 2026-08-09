@@ -1,0 +1,162 @@
+{
+  "id": "_虹玖1.03",
+  "path": "parsed/_虹玖1.03",
+  "source": {
+    "path": "Uncategorized/_虹玖1.03.ysm",
+    "type": "ysm",
+    "stem": "_虹玖1.03"
+  },
+  "ysm": "parsed/_虹玖1.03/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/苏溟.png",
+        "comment": "新人YSM作者，请大家多多支持",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/3494363390806334?spm_id_from=333.1007.0.0"
+        },
+        "name": "苏溟",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/MicroCraft.png",
+        "comment": "只是个准程序猿",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/701974112?spm_id_from=333.337.0.0"
+        },
+        "name": "MicroCraft",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC4.0 BY-NC-SA"
+    },
+    "name": "虹玖",
+    "tips": "红酒？红酒！"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "pose",
+      "extra1": "你好呦！",
+      "extra2": "好棒！",
+      "extra3": "好哒！",
+      "extra4": "不要不要！",
+      "extra5": "冲啊！",
+      "extra6": "摇一摇！",
+      "extra7": "要抱抱！"
+    },
+    "default_texture": "default",
+    "preview_animation": "choose",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/hongjiu.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/1.03_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6976,
+      "sha256": "993ea8495fdf95396fddb38382bb7239ac76d5cf5d5fb26b84a1459ee3c957f2"
+    }
+  },
+  "stats": {
+    "file_count": 11,
+    "total_bytes": 1258775,
+    "sha256": "dec988dd08aac81e260e88678aea8ec24feef8bb66b2b59e2585b425c16dd4d6",
+    "bones": 171,
+    "cubes": 734,
+    "faces": 4404,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 121429,
+      "sha256": "c48c915bcbaad51b5ce0708bd519856f48d376021df0503fc8d4d74afea6aecc"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2540,
+      "sha256": "0ac0e461c6c73435c7bad938a1dd94ef037fe0e5577f493a58c364cf364a6828"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 44198,
+      "sha256": "64ffa209fb68efe396fbf0080efca663dd75f422d1d9833c6c71fa05ab4a6a46"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 121235,
+      "sha256": "90f326bdb3c486780f16fa6a01e53e2a39d7d98bab418480aaeb0d3964b2f858"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 157234,
+      "sha256": "5faa404965b49b289195e2ba2ea6d56bdd7a7e8b5669f150bf5adda7a236a266"
+    },
+    {
+      "path": "avatar/MicroCraft.png",
+      "size": 127200,
+      "sha256": "04a08ffc0dc1e03a032dde40b836801f2fb682f3a6c9daa996ffaed58ca227ff"
+    },
+    {
+      "path": "avatar/苏溟.png",
+      "size": 230884,
+      "sha256": "fe9bac954e47966c8379e920f5478bf0227b0ebe5435894b6c707fa413e994e8"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 40752,
+      "sha256": "e996eb10b79669404c9927e8a7ff519775292be615c30a8723bc7f107862efa3"
+    },
+    {
+      "path": "models/main.json",
+      "size": 367213,
+      "sha256": "6b2b8617df0d64f8c84e87347ae2536d2039cb82373adeb13876dd66a544bdb9"
+    },
+    {
+      "path": "textures/hongjiu.png",
+      "size": 44850,
+      "sha256": "6cee4d99c2901a6c6896656f3ca36c138f42b8a074c0312c06f4edfd3c783ea4"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1240,
+      "sha256": "79a8c5f731941ec0d7fa0a9b249ce5b807a0be74bf160241cd0df804d26bee74"
+    }
+  ]
+}

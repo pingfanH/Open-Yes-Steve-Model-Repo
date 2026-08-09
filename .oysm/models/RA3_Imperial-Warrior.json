@@ -1,0 +1,99 @@
+{
+  "id": "RA3_Imperial-Warrior",
+  "path": "parsed/RA3_Imperial-Warrior",
+  "source": {
+    "path": "_RedAlert/RA3_Imperial-Warrior.ysm",
+    "type": "ysm",
+    "stem": "RA3_Imperial-Warrior"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "帝国武士",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/RA3_Imperial-Warrior_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5948,
+      "sha256": "fd8d17f96e67c130b5ab5573695803e7a768a2f4d26a8fc14b442388c780bcc0"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 379501,
+    "sha256": "047d2e8c4aa4a90e9b008abd04b96024740536c93149561554669fce440092a3",
+    "bones": 61,
+    "cubes": 201,
+    "faces": 1206,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 9967,
+      "sha256": "f769b76b0eaf27a90a5fb5347474146ef4c065607e451e0466b0bae21b84fce8"
+    },
+    {
+      "path": "info.json",
+      "size": 130,
+      "sha256": "1e5281b389bc32a98d78f67c4af91c373682afb0d5f338fa4f902557eab3e3c9"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122470,
+      "sha256": "d93402d24863ccd84622801424bb845d8ff78161fae9d48b7bbf0c3d213720c1"
+    },
+    {
+      "path": "main.json",
+      "size": 96745,
+      "sha256": "089cfecef60e8385b5b9e2214fc7f26adc3f37f011b4961daa9e8c4c624049cb"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131639,
+      "sha256": "a73cf95259743cc506fa6931e6bed68e0e41c5edca8f4651f26f1a42c1e26994"
+    },
+    {
+      "path": "texture.png",
+      "size": 18550,
+      "sha256": "451e3050121ee05a9446b9fd0c4d1d9229d3fbef3faec5c6f88371e08974427c"
+    }
+  ]
+}

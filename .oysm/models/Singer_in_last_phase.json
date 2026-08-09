@@ -1,0 +1,102 @@
+{
+  "id": "_Singer_in_last_phase",
+  "path": "parsed/_Singer_in_last_phase",
+  "source": {
+    "path": "Uncategorized/_Singer_in_last_phase.ysm",
+    "type": "ysm",
+    "stem": "_Singer_in_last_phase"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_Singer_in_last_phase"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "shimo.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Singer_in_last_phase_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7478,
+      "sha256": "ec064c25aa27b5a1add82a8000ada252755974e0a8ec63472063287b44af0f98"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 899045,
+    "sha256": "0790031ae6d098e7eb51777585d1c2b9e2471d4ef3ea0efdf2956930a06e6b3b",
+    "bones": 73,
+    "cubes": 465,
+    "faces": 2790,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 136845,
+      "sha256": "b3849067c5e5fd1962059f1f5628b52e0d8c5a38bd3182b7b8497e06660dad6e"
+    },
+    {
+      "path": "arm.json",
+      "size": 5476,
+      "sha256": "e32f4ec93704858a372aea4c5ff4d98d25f2b4cd8484acbc0bd9dc1dccb9a828"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 2767,
+      "sha256": "b067ab912f5c4abac9506d6cac3d0cdc76b997bb1bbbb3cfbf2e24a9667ac291"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 103128,
+      "sha256": "42d03972b125b504e958e036ab5999c7167ab43c1a9c17cb53d2e6405e07c840"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 200098,
+      "sha256": "98c8636562e78d3673767d3f62c990dedd517788f0032faaf53010e4bbebf8eb"
+    },
+    {
+      "path": "main.json",
+      "size": 249982,
+      "sha256": "5d25930dd9cdbd80806bfeb17b52f8fa05b8bb8c12bcbbf50d4ec1f2bfa19186"
+    },
+    {
+      "path": "shimo.png",
+      "size": 16884,
+      "sha256": "6a3cfa13173bdd4762a3ec8b7aec807385e90a6598fab32026ecda946d95287b"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 183865,
+      "sha256": "b55b9e3ea5efdbbe5c078c5209710b8f1282258e5ca00160680ba304129f81cf"
+    }
+  ]
+}

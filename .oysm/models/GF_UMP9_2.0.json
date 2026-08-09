@@ -1,0 +1,298 @@
+{
+  "id": "GF_UMP9_2.0",
+  "path": "parsed/GF_UMP9_2.0",
+  "source": {
+    "path": "_GirlsFrontline/GF_UMP9_2.0.ysm",
+    "type": "ysm",
+    "stem": "GF_UMP9_2.0"
+  },
+  "ysm": "parsed/GF_UMP9_2.0/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/★【宇宙影帝の终焉】.png",
+        "comment": "苦练BB",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/364412316",
+          "QQ": "3249851858"
+        },
+        "name": "★【宇宙影帝の终焉】",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "home": "https://space.bilibili.com/364412316"
+    },
+    "name": "UMP9",
+    "tips": "可爱的9妹\n本模型为免费分享但请勿商用！"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra9": "#extra_config",
+      "extra1": "#extra_config2",
+      "extra3": "肯定",
+      "extra12": "平地立枪",
+      "extra11": "拳头顶枪",
+      "extra13": "45冲击",
+      "extra14": "原力转枪",
+      "extra10": "快速点射"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "立绘站姿",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "眼睛",
+            "description": "更换角色眼型",
+            "value": "v.value_eye",
+            "labels": {
+              "§f正常": "v.value_eye = 0; v.eye1 = 0;v.eye2 = 0;v.eye3 = 0;v.eye4 = 0;v.eye5 = 0;v.eye7 = 0",
+              "§f> <": "v.value_eye = 1; v.eye1 = 1;v.eye2 = 1;v.eye3 = -1;v.eye4 = -1;v.eye5 = 0;v.eye7 = 0",
+              "§f> O": "v.value_eye = 2; v.eye1 = 0;v.eye2 = 1;v.eye3 = 0;v.eye4 = -1;v.eye5 = 0;v.eye7 = 0",
+              "§fO <": "v.value_eye = 3; v.eye1 = 1;v.eye2 = 0;v.eye3 = -1;v.eye4 = 0;v.eye5 = 0;v.eye7 = 0",
+              "§f@ @": "v.value_eye = 4; v.eye1 = 1;v.eye2 = 1;v.eye3 = 0;v.eye4 = 0;v.eye5 = -1;v.eye7 = 0",
+              "§f墨镜": "v.value_eye = 5; v.eye1 = 0;v.eye2 = 0;v.eye3 = 0;v.eye4 = 0;v.eye5 = 0;v.eye7 = -1"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "嘴型",
+            "description": "更换角色嘴型",
+            "value": "v.value_mouth",
+            "labels": {
+              "§f無": "v.value_mouth = 0; v.mou1 = 0;v.mou2 = 0;v.mou3 = 0;v.mou4 = 0;v.mou5 = 0;v.mou6 = 0;v.mou7 = 0;v.eye6 = 0;v.eye8 = 0;v.eye9 = 0",
+              "§fw": "v.value_mouth = 1; v.mou1 = -1;v.mou2 = 0;v.mou3 = 0;v.mou4 = 0;v.mou5 = 0;v.mou6 = 0;v.mou7 = 0;v.eye6 = 0;v.eye8 = 0;v.eye9 = 0",
+              "§fw笑": "v.value_mouth = 2; v.mou1 = 0;v.mou2 = -1;v.mou3 = 0;v.mou4 = 0;v.mou5 = 0;v.mou6 = 0;v.mou7 = 0;v.eye6 = 0;v.eye8 = 0;v.eye9 = 0",
+              "§f小唐": "v.value_mouth = 3; v.mou1 = 0;v.mou2 = 0;v.mou3 = -1;v.mou4 = 0;v.mou5 = 0;v.mou6 = 0;v.mou7 = 0;v.eye6 = 0;v.mou31 = 1;v.eye8 = 0;v.eye9 = 0",
+              "§f大唐": "v.value_mouth = 4; v.mou1 = 0;v.mou2 = 0;v.mou3 = -1;v.mou4 = 0;v.mou5 = 0;v.mou6 = 0;v.mou7 = 0;v.eye6 = 0;v.mou31 = 1.5;v.eye8 = 0;v.eye9 = 0",
+              "§fsad": "v.value_mouth = 5; v.mou1 = 0;v.mou2 = 0;v.mou3 = 0;v.mou4 = -1;v.mou5 = 0;v.mou6 = 0;v.mou7 = 0;v.eye6 = -0.2;v.eye8 = 0;v.eye9 = 0",
+              "§f生气": "v.value_mouth = 6; v.mou1 = 0;v.mou2 = 0;v.mou3 = 0;v.mou4 = 0;v.mou5 = -1;v.mou6 = 0;v.mou7 = 0;v.eye6 = 0;v.eye8 = -10;v.eye9 = 10",
+              "§f∧": "v.value_mouth = 7; v.mou1 = 0;v.mou2 = 0;v.mou3 = 0;v.mou4 = 0;v.mou5 = 0;v.mou6 = -1;v.mou7 = 0;v.eye6 = 0;v.eye8 = -5;v.eye9 = 5",
+              "§f︶": "v.value_mouth = 8; v.mou1 = 0;v.mou2 = 0;v.mou3 = 0;v.mou4 = 0;v.mou5 = 0;v.mou6 = 0;v.mou7 = -1;v.eye6 = 0;v.eye8 = 0;v.eye9 = 0"
+            }
+          }
+        ]
+      },
+      {
+        "id": "extra_config2",
+        "name": "打招呼",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "体型: ",
+            "description": "大小",
+            "value": "v.player_size",
+            "step": 0.02,
+            "min": 0.9,
+            "max": 1.1
+          },
+          {
+            "type": "checkbox",
+            "title": "卸下消音器",
+            "description": "卸下或装备消音器",
+            "value": "v.muzzle"
+          },
+          {
+            "type": "checkbox",
+            "title": "卸下全息瞄具",
+            "description": "卸下或装备全息瞄具",
+            "value": "v.scope"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GF_UMP9_2.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10261,
+      "sha256": "8ebb4114b139b1015ada0e76272e4b298d31ddd3a28c5783887f4180d2f583c7"
+    }
+  },
+  "stats": {
+    "file_count": 22,
+    "total_bytes": 1437701,
+    "sha256": "0e077ef4fb94860a07d9604b19f00508271de0987d0f1fea93a422fb64c10b77",
+    "bones": 143,
+    "cubes": 485,
+    "faces": 2904,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 82739,
+      "sha256": "a1b7ba287bcc26c9f05a7a49133a1f04c0b8266f698c8cf9fb313122ec13ed65"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 770,
+      "sha256": "ac3797959c98d1c76e5cb752c60d5864a817e70f3c153dff15b87f84ead5f53e"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 168440,
+      "sha256": "3d361e6e6fc8a8af3bb56fb81268fdfccd806574a318fd507866b2866a1cee94"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 114189,
+      "sha256": "661f6dd43ec1d8a4cfedf0081c344963a6e56c0f2217221d4c1dd6f9bacf44b2"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 109439,
+      "sha256": "41db7af48f80ea92eb93193889eba3916053b3df80c88424341449b02335ad36"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 181680,
+      "sha256": "38c1b1c6225e6b67c85108f004b2229e6c7b0857bfb8336c57b7959523f23cf9"
+    },
+    {
+      "path": "avatar/★【宇宙影帝の终焉】.png",
+      "size": 32589,
+      "sha256": "87a27b454c615c0bb9aa312b5ce7d393d3bfd24164469a5458a4bbbb605cbd82"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 5100,
+      "sha256": "76555c7e502ec8b9e2b80f935f56e3ed064d64ee360e314dfa13e5faeed580d2"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 10701,
+      "sha256": "679836a8a5b6489a94c19b0cedabe75732eb0ad3db42f0710a726b4541f0794b"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 2252,
+      "sha256": "39bac01f1ca00e939363bb6887841a86819e0fd161235666894927d808156b02"
+    },
+    {
+      "path": "models/main.json",
+      "size": 261052,
+      "sha256": "3e52247c1db3a482efe43fa0bef0abe58f59a09ca7cebf8a257bce43ad895177"
+    },
+    {
+      "path": "sounds/1.ogg",
+      "size": 74410,
+      "sha256": "ca25b65c6f85af6d0fcdf44d9ed8cdafd963ff4b479d701f9e9aae1c8286d757"
+    },
+    {
+      "path": "sounds/2.ogg",
+      "size": 25018,
+      "sha256": "f451fa2ea3cb639de9b797d519c58a7b755ced4b666debad0a5592441ee31ba8"
+    },
+    {
+      "path": "sounds/3.ogg",
+      "size": 21230,
+      "sha256": "33a492cbf95fe5c9242c292f0024b972fb307dd23def9108f2737f5b9217b6e9"
+    },
+    {
+      "path": "sounds/4.ogg",
+      "size": 10364,
+      "sha256": "99c062781d32f0ca216df8cf8dbdd5ba9b11355119bfbd506cb5154a7b04199e"
+    },
+    {
+      "path": "sounds/5.ogg",
+      "size": 16059,
+      "sha256": "5e861a37f5a154512044cc352e0e300f98c2276f2e1510819ec4db79520f562f"
+    },
+    {
+      "path": "sounds/hit.ogg",
+      "size": 40275,
+      "sha256": "dafd711fac81b8263193829aed2e68812f23d3b3bc2606c47e355fc2ccedbb3e"
+    },
+    {
+      "path": "sounds/ump45_shoot.ogg",
+      "size": 138397,
+      "sha256": "fe00fdb29a7b9bde9aabecfbd463f096e9186f272aded89d62046fdcd8f9b99b"
+    },
+    {
+      "path": "sounds/ump45_silence.ogg",
+      "size": 111715,
+      "sha256": "210b0f6c3b4b29e8f4fb9a9c8a60ae2b10e7092369689afc600b012d22820309"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 437,
+      "sha256": "a747c91496eee7f30a053f79d5874fdcee9c43ccc1cecd6e7af9a3b0b3294977"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 26765,
+      "sha256": "f175dfbdeac8a32ab4aa7b57aff0d9ed5d1749cb8a3553611fc8af27c0720f6a"
+    },
+    {
+      "path": "ysm.json",
+      "size": 4080,
+      "sha256": "fd7d56a81b409d88e06e0a8d51b348cf32cf8491295ee28aabddba57a9d89554"
+    }
+  ]
+}

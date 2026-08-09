@@ -1,0 +1,82 @@
+{
+  "id": "AL_Agir",
+  "path": "parsed/AL_Agir",
+  "source": {
+    "path": "_AzurLane/AL_Agir.ysm",
+    "type": "ysm",
+    "stem": "AL_Agir"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Ägir（碧蓝航线 埃吉尔）",
+    "tips": "大型巡洋舰，埃吉尔。指挥官，想要我为你驱使海浪吗？好啊，那就让我先看看你的能耐吧。\n\n§4§l该模型为免费版本，动画优化以及额外内容请查看B站@伊蕾娜家的咸鱼 的工房。请勿用于商业用途§r\n\n模型作者:§d伊蕾娜家的咸鱼 QQ:1249276678\n\n动画修改:§9星屑海螺§r QQ:741330261",
+    "authors": [
+      {
+        "name": "模型作者:§d伊蕾娜家的咸鱼§r"
+      },
+      {
+        "name": "动画修改:§9星屑海螺§r"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/AL_Agir_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13161,
+      "sha256": "f98dc0aa2590dcfbf96452ae1f9e5582dfeec2a6e8de3ae5850f70b28d5de664"
+    }
+  },
+  "stats": {
+    "file_count": 3,
+    "total_bytes": 786423,
+    "sha256": "5e66c56f58d592dec1d8149ae620ab83004404a38e0fecfb58515f68f81731a6",
+    "bones": 197,
+    "cubes": 1062,
+    "faces": 6352,
+    "textures": 1,
+    "materials": 1,
+    "animations": 0,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 28986,
+      "sha256": "bd9897943608a04fa33dbf760b4cfc5130e93f20b26fee581bb217fb778bfbbf"
+    },
+    {
+      "path": "main.json",
+      "size": 603193,
+      "sha256": "0562cfe5359552651dc49400b97e562a2964ebbbd692d21691bd7d4f03871e65"
+    },
+    {
+      "path": "texture.png",
+      "size": 154244,
+      "sha256": "3d58f87478f75811c17f61cd0b126b2f5a2eb5d88ac7ab23915cb3b03b153601"
+    }
+  ]
+}

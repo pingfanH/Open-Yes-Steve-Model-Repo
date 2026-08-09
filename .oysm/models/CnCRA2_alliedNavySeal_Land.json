@@ -1,0 +1,99 @@
+{
+  "id": "CnCRA2_alliedNavySeal(Land)",
+  "path": "parsed/CnCRA2_alliedNavySeal(Land)",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCRA2_alliedNavySeal(Land).ysm",
+    "type": "ysm",
+    "stem": "CnCRA2_alliedNavySeal(Land)"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "海豹部队（陆地）",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCRA2_alliedNavySeal_Land_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6627,
+      "sha256": "179e28e993323c09a814b81e3f0bbb2da30dfe9c674cb399ea5da4d5a6577148"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 353389,
+    "sha256": "adc6a970c93237c164a4eaae07d2d11ec58ccb60336c9572df18d07b65cfabe5",
+    "bones": 38,
+    "cubes": 157,
+    "faces": 942,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 9756,
+      "sha256": "ce7b362eb1f7b09028fe9b713500c59845cea6a75572272e68e562d08f44bfad"
+    },
+    {
+      "path": "info.json",
+      "size": 142,
+      "sha256": "1e7cb55401cce50e04c958b0496fbdc3128c18809de4bcda0321eaa25022d5b1"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122470,
+      "sha256": "d93402d24863ccd84622801424bb845d8ff78161fae9d48b7bbf0c3d213720c1"
+    },
+    {
+      "path": "main.json",
+      "size": 71223,
+      "sha256": "ffd6b6032650a989c77a1e9cd9d26283bc63e6aaa01963e730bf65d14b6dbba4"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131639,
+      "sha256": "a73cf95259743cc506fa6931e6bed68e0e41c5edca8f4651f26f1a42c1e26994"
+    },
+    {
+      "path": "texture.png",
+      "size": 18159,
+      "sha256": "377b069e1442c215c71491c224aafa6e1455c4f99a161babc53c2983560d3adf"
+    }
+  ]
+}

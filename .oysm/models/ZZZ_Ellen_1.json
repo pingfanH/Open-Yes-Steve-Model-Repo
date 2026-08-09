@@ -1,0 +1,174 @@
+{
+  "id": "ZZZ_Ellen_1",
+  "path": "parsed/ZZZ_Ellen_1",
+  "source": {
+    "path": "_ZenlessZoneZero/ZZZ_Ellen_1.ysm",
+    "type": "ysm",
+    "stem": "ZZZ_Ellen_1"
+  },
+  "ysm": "parsed/ZZZ_Ellen_1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§c烈鸟比百.png",
+        "comment": "§7啦啦啦~",
+        "contact": {
+          "Afdian": "https://afdian.net/item/dad97a4e3c0a11efb2d752540025c377",
+          "Bilibili": "https://space.bilibili.com/20510758?spm_id_from=333.1007.0.0"
+        },
+        "name": "§c烈鸟比百",
+        "role": "§7动作"
+      },
+      {
+        "avatar": "avatar/§c寒叔.png",
+        "comment": "§7嘿嘿嘿~",
+        "contact": {
+          "Afdian": "https://afdian.net/item/dad97a4e3c0a11efb2d752540025c377",
+          "Bilibili": "https://space.bilibili.com/20510758?spm_id_from=333.1007.0.0"
+        },
+        "name": "§c寒叔",
+        "role": "§7模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.net/a/Aigoblin?tab=shop",
+      "home": "https://space.bilibili.com/20510758?spm_id_from=333.1007.0.0"
+    },
+    "name": "§4艾莲.乔",
+    "tips": "我耐心不太好,应该表现得很明显了."
+  },
+  "properties": {
+    "width_scale": 0.75,
+    "height_scale": 0.75,
+    "extra_animation": {
+      "extra0": "发电支持解锁动画"
+    },
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/ZZZ_Ellen_1_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 14841,
+      "sha256": "97d8ba7939b2771cbfeb8fddd67a9e46c1c8f95161b60cadc7e2196e73aac30b"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 2269220,
+    "sha256": "0b2f717cedcc94adfae5c76d77a00158e924f01b29edd5feeda17d57e47d2d6c",
+    "bones": 158,
+    "cubes": 2339,
+    "faces": 14030,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 31085,
+      "sha256": "38db4c2f15d0c2d3627200658a66cd6b4d064a21a1325fbeb71707a59614c5c2"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "6e8d3afe0c3baafff8f7f3e0e30ef3c621c667be5c346af73398f5fd3cb89ca5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 4584,
+      "sha256": "7e2d6a5ed24a35287e6401e8c6a1ff4cf3acd349457938cc046f4569f0b14f0d"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 481019,
+      "sha256": "144c56ab03011a8e49184478c4413dd56ba1ac00c76e51bfa7619d06b505b035"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 118999,
+      "sha256": "86c174ce013475a02af283d7adbceb95d3e36a881f55a9501aaa1c1a2db9fe42"
+    },
+    {
+      "path": "avatar/§c寒叔.png",
+      "size": 162710,
+      "sha256": "28e19d6587eb8d647553eb54267c3793ea5f8a5de70d5b58314647b9d63257b5"
+    },
+    {
+      "path": "avatar/§c烈鸟比百.png",
+      "size": 37915,
+      "sha256": "7f6a5899c023a97b9315642e24f8d7ab96047014cb79fef3ab1631b06f63d872"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 122738,
+      "sha256": "e5d21efd49670980492c7768e0383a7b9a9c1564c30eac756ce3da041c23ac37"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13423,
+      "sha256": "7e605f03efbf09f910136dd6d7428b3b57d416be110ef51c153d96e8c7dc686e"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1184833,
+      "sha256": "1caa7cd7051a0039a589386607cc13c39ba608600dc170d532f679d34024d14c"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 613,
+      "sha256": "aeabb5efc19dc3fe19bd5bd6f9727a0c467810c3fae08bffbb5d424c72049329"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 107244,
+      "sha256": "5406e7620c866e9dd35e1ff2fd58f19cb064fdd07bd06a6665ce8543f3ae6fa1"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1382,
+      "sha256": "f6ca21d4b6c1040bffbf7c9ae201c8788354bb9c388df01f99284fd9a9b85cdc"
+    }
+  ]
+}

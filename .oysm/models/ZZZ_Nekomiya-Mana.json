@@ -1,0 +1,193 @@
+{
+  "id": "ZZZ_Nekomiya-Mana",
+  "path": "parsed/ZZZ_Nekomiya-Mana",
+  "source": {
+    "path": "_ZenlessZoneZero/ZZZ_Nekomiya-Mana.ysm",
+    "type": "ysm",
+    "stem": "ZZZ_Nekomiya-Mana"
+  },
+  "ysm": "parsed/ZZZ_Nekomiya-Mana/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/安欣.png",
+        "comment": "没有梦想的咸鱼      罒ω罒",
+        "contact": {
+          "Afdian": "",
+          "Bilibili": ""
+        },
+        "name": "安欣",
+        "role": "模型，动画"
+      },
+      {
+        "avatar": "avatar/.png",
+        "comment": "",
+        "name": "",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "猫宫又奈",
+    "tips": "活泼调皮会耍坏，你的钱包她也爱。（没开玩笑，她真的爱）\r\n"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "texture",
+    "preview_animation": "mao",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/ZZZ_Nekomiya-Mana_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10553,
+      "sha256": "93bbf8343ff59c9c84f75fa02dd1c9fb0616f51662553d3e3a3a6dbf6f87160b"
+    }
+  },
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 2254155,
+    "sha256": "1eacddcdf7cc1e04ef87b2c853b3637bfaab8c6a91555301eec3ffd67e2d6a33",
+    "bones": 239,
+    "cubes": 1968,
+    "faces": 11808,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136784,
+      "sha256": "cc2012734f059f5b88257e2a49cf24685f615d446237b72cfffc71ba9b607009"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1138,
+      "sha256": "6ef6791b2b391fc30bb2f74f26eb09de94e2a382c535202f5d736eb89d37577d"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "6e8d3afe0c3baafff8f7f3e0e30ef3c621c667be5c346af73398f5fd3cb89ca5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 120534,
+      "sha256": "b2c4ec32f4526071263b45439fa6001daf3703e68b8c469fdf749c2dedf328d6"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 281133,
+      "sha256": "fb8d9cf1a086c0f834d7292afcd52f5bc142351c36507bbdef0312aeddf5dc23"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183504,
+      "sha256": "fa168cce1a5787fe4986384fa2110cd509e8609696b9a9515d9d2c7438fe260a"
+    },
+    {
+      "path": "avatar/安欣.png",
+      "size": 32037,
+      "sha256": "3d8df561b1abb777882abf3b10c44731c6faa676b485d1dcaed5939742b293c0"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 80217,
+      "sha256": "fd246196d213d1fe94931bf0db013d04e5137e76f805cf7f058b08c48dc29a43"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 29337,
+      "sha256": "8e061e6ff0efaff35eedcc946de525efb205ebfb1b76e5acf2b1d3a0f5720bd3"
+    },
+    {
+      "path": "models/main.json",
+      "size": 960147,
+      "sha256": "00a284911763a7380c2d5ba4bd0e213e88b8fa56c5810b2add13edd9debb3e39"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 4106,
+      "sha256": "3f6588bc49d6ccb91f5cc5bc107fa9644184aa7b929c6d53620124c417af0de4"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 248601,
+      "sha256": "c1a395594cc84cfc1ffa8d60fc2cc024d429e0f0f7ce45bbe9e8b8380c737213"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1349,
+      "sha256": "c14b41cfe15c1a6a6411d5b0bcd505b27ee2efdf29590103a3517a1ff6b7a3c9"
+    }
+  ]
+}

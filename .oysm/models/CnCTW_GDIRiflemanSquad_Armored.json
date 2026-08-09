@@ -1,0 +1,100 @@
+{
+  "id": "CnCTW_GDIRiflemanSquad(Armored)",
+  "path": "parsed/CnCTW_GDIRiflemanSquad(Armored)",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCTW_GDIRiflemanSquad(Armored).ysm",
+    "type": "ysm",
+    "stem": "CnCTW_GDIRiflemanSquad(Armored)"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "GDI步枪兵（复合装甲）",
+    "tips": "装上复合装甲后，也是有了点2代的样子",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCTW_GDIRiflemanSquad_Armored_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5549,
+      "sha256": "a894fe9db36048be4268da57ccba9451d9733c6d04636b7d796c778cacc62501"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 340244,
+    "sha256": "65c316ac1191d96cceaad9eb9bde6e695af81d58b078a8c9eb007d9d9c391a7d",
+    "bones": 47,
+    "cubes": 128,
+    "faces": 768,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 8015,
+      "sha256": "0518568b095869d2b977dfc482aadf6e7623ea231553839155b0ccb33cca7179"
+    },
+    {
+      "path": "info.json",
+      "size": 200,
+      "sha256": "7d87d72df3538e4463122b2abb17509d5e0148c436d4442c653c1f1ee370fc25"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122470,
+      "sha256": "d93402d24863ccd84622801424bb845d8ff78161fae9d48b7bbf0c3d213720c1"
+    },
+    {
+      "path": "main.json",
+      "size": 59963,
+      "sha256": "4d8cd8471dcb832702d1ab8c06fd623d9fc7c4f60db47a23a7d59cd0b156f196"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131639,
+      "sha256": "a73cf95259743cc506fa6931e6bed68e0e41c5edca8f4651f26f1a42c1e26994"
+    },
+    {
+      "path": "texture.png",
+      "size": 17957,
+      "sha256": "32e27f3fa9423fa97030f1c6063975917623e39549401495b6249c4f921ae5de"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "_faust(zipver)",
+  "path": "parsed/_faust(zipver)",
+  "source": {
+    "path": "Uncategorized/_faust(zipver).zip",
+    "type": "zip",
+    "stem": "_faust(zipver)"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "浮士德",
+    "tips": "我好懒我不想做了",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "伦理问题"
+      }
+    ]
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/faust_zipver_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 17318,
+      "sha256": "e101030e2334411e5cf19cdf4cf44c485a07bba7ac70c3c9f43e9f30dc87cc80"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 978036,
+    "sha256": "6c44806cd0a015e1bf158eebf7d2cfaef5b202f7e0e9dad812791a9beeb963c2",
+    "bones": 165,
+    "cubes": 814,
+    "faces": 4884,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 55862,
+      "sha256": "1daa9052e5037d5d94bb8016d5856fdd1285d49990689f1384d0c850097f881d"
+    },
+    {
+      "path": "arm.json",
+      "size": 42224,
+      "sha256": "45d975446f5b3f4e3551c64359f2214afb217fb3606fbda6f9e4afb398a6fd32"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 34815,
+      "sha256": "003dd6f270582db86e222ae9eea776640a86746b8736501ca652f89b56b12b2b"
+    },
+    {
+      "path": "ex動作/extra.animation.json",
+      "size": 33909,
+      "sha256": "1237a72b6131aeb847f1d56ea59d8eb8ca8d6dd598b4f11f5b2820fdb45c06a1"
+    },
+    {
+      "path": "info.json",
+      "size": 198,
+      "sha256": "ef82d279d06741ab84721d780e412e7f6bbccfd31d0626ea3e0aae35f1cca292"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 125797,
+      "sha256": "538fa56fe51896f910c4f69d28d33b1fe647c2dadeb92ba6787678e8bbebed5f"
+    },
+    {
+      "path": "main.json",
+      "size": 480210,
+      "sha256": "9c214b80e1d5c671bf223c5e2493548845abfcb18678e6291edf0d62bfd6f486"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 130786,
+      "sha256": "e8af84018e27bfb7baf010c673461d1ab04cb962ad9b23dc6e7597a264a21925"
+    },
+    {
+      "path": "texture.png",
+      "size": 74235,
+      "sha256": "b1478b680d3e5bc8815122433d0732a16ba84081c30413c68b90d880cc4b6540"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "Cyberpunk_Rebecca",
+  "path": "parsed/Cyberpunk_Rebecca",
+  "source": {
+    "path": "_Cyberpunk2077/Cyberpunk_Rebecca.ysm",
+    "type": "ysm",
+    "stem": "Cyberpunk_Rebecca"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§a瑞贝卡",
+    "tips": "普通版",
+    "authors": [
+      {
+        "name": "§c烈鸟比百§8（模型）"
+      },
+      {
+        "name": "§bWone_J§8（动作）"
+      }
+    ]
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "block.png",
+        "yellow.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Cyberpunk_Rebecca_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13070,
+      "sha256": "bb97865a2269bce67bae15fcea9b85ce690492b5be84831d2c4b7d8b7b3a72ea"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 952130,
+    "sha256": "4707271186e315901d650427367be548de42da05d1e108a95f01f19cf8f828d7",
+    "bones": 138,
+    "cubes": 1029,
+    "faces": 5805,
+    "textures": 2,
+    "materials": 2,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 63323,
+      "sha256": "9b3518d9a8c7bbb79042467e1a08a4e0c78a5e05f0a540c837abdade866578e9"
+    },
+    {
+      "path": "arm.json",
+      "size": 29678,
+      "sha256": "a979201282845fac2c1d059e657aae622fa45c6122c74040fb6867bd36d3a2c7"
+    },
+    {
+      "path": "block.png",
+      "size": 32651,
+      "sha256": "2b454b67a8d70876d53f9e7906de466ecd6ed9287cb775f0fcbd15a9ef189bcf"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 138008,
+      "sha256": "26785be2da76dd32fe1d9fca2b28b6f4ab7f5fd5e3f2919ab5bf08ca69e17b60"
+    },
+    {
+      "path": "main.json",
+      "size": 507599,
+      "sha256": "5187eca0f3f89b7a96afd5632c1158f6bcecd670e89e0629df0165f9dff424be"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 149722,
+      "sha256": "a3a4879076926c5171e33d462fe7774b3a93ed3f240c671f38805113c65708d6"
+    },
+    {
+      "path": "yellow.png",
+      "size": 31149,
+      "sha256": "2bd990c1cb12866b563b94cbcb07712801d4969c197f0d3deecb3acdfe8cfe5b"
+    }
+  ]
+}

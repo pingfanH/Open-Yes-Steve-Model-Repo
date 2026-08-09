@@ -1,0 +1,209 @@
+{
+  "id": "铁锤坦克娘_Free",
+  "path": "parsed/铁锤坦克娘_Free",
+  "source": {
+    "path": "Unknown/铁锤坦克娘_Free.ysm",
+    "type": "ysm",
+    "stem": "铁锤坦克娘_Free"
+  },
+  "ysm": "parsed/铁锤坦克娘_Free/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/獒子coco.png",
+        "comment": "兴趣使然的獒子",
+        "contact": {
+          "Afdian": "https://afdian.com/a/AOZICOCO",
+          "Bilibili": "https://space.bilibili.com/19140392"
+        },
+        "name": "獒子coco",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "铁锤坦克娘_Free",
+    "tips": "苏联装甲部队的中坚力量\n出生在一个僻静的偏远乡村\n她从小就要学习自己打猎获取食物，凭借这优秀的生存本领，\n她很快便成为了战场上的优秀战士"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "打招呼",
+      "extra2": "穿卸武装",
+      "extra3": "好的",
+      "extra4": "不行！",
+      "extra5": "装配副炮",
+      "extra6": "装备机枪",
+      "extra7": "装备防空炮"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Free_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10354,
+      "sha256": "c543692961d7da88700ccc1250ef08c732b82f2384a87700e57a36a233a4dde2"
+    }
+  },
+  "stats": {
+    "file_count": 18,
+    "total_bytes": 3668796,
+    "sha256": "cac8f44efd6553ff5d80d77575100e98c78b368bb32a4758c7b0d92372c8fc36",
+    "bones": 126,
+    "cubes": 1076,
+    "faces": 6456,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 104146,
+      "sha256": "5174512f3a5987967ebdf5b30e50820cee0e65f59bfc77ed8faf42392f2f4314"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 194676,
+      "sha256": "ada877e19c7a461c39289352eedb5240934f09da24f9bf4c7ec04b0aa77a6447"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/獒子coco.png",
+      "size": 32309,
+      "sha256": "60d8baa0da6209686cbf02c89534e054407011babd5e2ddbe4ff40c7aca8963c"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 617,
+      "sha256": "58a5a4f99a17e863505e5d985c5342fafccf53eeb5799a572dff4156086be4ad"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 34915,
+      "sha256": "88b958e185c63c35e48dfd124594ad763195a1c768bca782851bd6c818bc6098"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13725,
+      "sha256": "605fc04a716cfd12d30b5d6fb5d6db461504bd2f8da602fe078a4f57b4d71c71"
+    },
+    {
+      "path": "models/main.json",
+      "size": 556978,
+      "sha256": "6719378919f9e07c50f739ec51a8c5e908c31a70cff6f896c3bbaa2b444023b8"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2686,
+      "sha256": "197669635bbf7b8cf8892b6912e428c92c66aac37ea2d3f1a174c9a04b2b64f6"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 110195,
+      "sha256": "416acc071add039b785d202afef906be780981e6ad3c8c441121d3e99506b681"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1752,
+      "sha256": "653393128377077d2f30585a9be235d0aff304fe86a6e8afc7e89f2be31cf15d"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "MT_Jake",
+  "path": "parsed/MT_Jake",
+  "source": {
+    "path": "Uncategorized/MT_Jake.ysm",
+    "type": "ysm",
+    "stem": "MT_Jake"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "MT_Jake"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/MT_Jake_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5902,
+      "sha256": "7522c5090dd1786375b590003cd72ff9125a25905f58d23e355e49c100ae3582"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 277645,
+    "sha256": "885aa29239691950c3e05fc3fd2486d678e1b170cf9c4e8618a03f1cb869558d",
+    "bones": 51,
+    "cubes": 287,
+    "faces": 1722,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 30299,
+      "sha256": "21c85b5648bcd78d058ceb588aa835ba8c08f712f83bdd275f3cacf5b00b32b9"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 50150,
+      "sha256": "89597907c420c422eef544d15ee28951d8bc74413db316e806a57c881aea820a"
+    },
+    {
+      "path": "main.json",
+      "size": 130534,
+      "sha256": "11e4da083be2e34c8383271d0bf35df17e21f19331fb2977fdb002b82306d8fc"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 42450,
+      "sha256": "bc8bd1744f39311d02e067daaa1dcfa1aad713c8d7af323531e08a666f65e0ea"
+    },
+    {
+      "path": "texture.png",
+      "size": 24212,
+      "sha256": "a293e6fa230bc8ebc454ac34daa515b3688c6d647dc65efe12c99dadf5200ea2"
+    }
+  ]
+}

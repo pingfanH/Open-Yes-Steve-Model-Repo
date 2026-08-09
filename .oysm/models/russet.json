@@ -1,0 +1,164 @@
+{
+  "id": "_russet",
+  "path": "parsed/_russet",
+  "source": {
+    "path": "Uncategorized/_russet.ysm",
+    "type": "ysm",
+    "stem": "_russet"
+  },
+  "ysm": "parsed/_russet/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/Tsuki (tsklxiv).png",
+        "comment": "",
+        "contact": {
+          "Ko-fi": "https://ko-fi.com/tsklxiv",
+          "Twitter": "https://twitter.com/tsklxiv"
+        },
+        "name": "Tsuki (tsklxiv)",
+        "role": "Model + Texture"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC 4.0"
+    },
+    "name": "Russet",
+    "tips": "Russet - YSM model for ArtFight attack\nRusset - ArtFight 的 YSM 模型"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation_classify": [],
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/russet_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 1724,
+      "sha256": "b0c718f0bf2d52ede8ec0ede9cf955dd866181a5217e16ccd76a56d1fc9f22d4"
+    }
+  },
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 3312005,
+    "sha256": "22f5399c91b633ef0d00f218264cfbb0b617a4fbff144bd1ac142e69276bf7d2",
+    "bones": 58,
+    "cubes": 61,
+    "faces": 366,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178680,
+      "sha256": "21ba12afb1a8ac744292d1aace531da701b78a06c0d983c56d4c85ef6ce43091"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 109004,
+      "sha256": "ba1e5d1d0e30fc7cec4337358c630cf4f7c89f986f3a98b261c424bd3aecd477"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 195209,
+      "sha256": "3e95f49a10114dc66927c2c25ca8c46331ecf2f782a6b2e5b5401a733f8ce07e"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/Tsuki (tsklxiv).png",
+      "size": 350621,
+      "sha256": "9ffb65d352d13a4dfc446e1d23b2b44a6a5971f3606e1bed5d8226f125170fc4"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 3321,
+      "sha256": "eadfd4616965a54655d7d9ff758e9a4c0350395d837e776d595d9ff93b782cfa"
+    },
+    {
+      "path": "models/main.json",
+      "size": 32546,
+      "sha256": "028804bd650b81c56894ed5bf0616b2d1d6a0767f1dc13262dbaf8e628de37d5"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 3609,
+      "sha256": "a8f238396e3de0a556b73ec8cd38feb49f507112c5a9f9bd6c2a691458b7d136"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1086,
+      "sha256": "5e14eda6e89582fd8db16b4103974d9ec6dd521452fc6a582820fea13b3958be"
+    }
+  ]
+}

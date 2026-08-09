@@ -1,0 +1,78 @@
+{
+  "id": "Majo_Elaina(Sakura)",
+  "path": "parsed/Majo_Elaina(Sakura)",
+  "source": {
+    "path": "_MajoNoTabitabi/Majo_Elaina(Sakura).zip",
+    "type": "zip",
+    "stem": "Majo_Elaina(Sakura)"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Majo_Elaina(Sakura)"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "skin.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Majo_Elaina_Sakura_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6750,
+      "sha256": "07e8116a3fac3dd05aa2d359685d48911caf6155f4abec830e2b414e46083189"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 332627,
+    "sha256": "90892f8e91d1249c97df9f437721dc90679456735da37d3a0ae549d08f481779",
+    "bones": 107,
+    "cubes": 233,
+    "faces": 1398,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 10800,
+      "sha256": "f7268bf236e5f8c367d20d1d9096602f2b4408beff0ca48d73d280f8922aefc8"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 192935,
+      "sha256": "d90b279a7150edf1f7cee58690b59412634772981057fda1ed2ee3ef9d1331ea"
+    },
+    {
+      "path": "main.json",
+      "size": 115351,
+      "sha256": "ba251d3f92d59230f3eed977ca0e0c25ed935909e3a5ef28b6ba59e863d800cb"
+    },
+    {
+      "path": "skin.png",
+      "size": 13541,
+      "sha256": "0413daa17ecf35cd744b66840b024050042b07d6739cdc175df8c7f2cb0c3f1b"
+    }
+  ]
+}

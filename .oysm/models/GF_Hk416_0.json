@@ -1,0 +1,70 @@
+{
+  "id": "GF_Hk416_0",
+  "path": "parsed/GF_Hk416_0",
+  "source": {
+    "path": "_GirlsFrontline/GF_Hk416_0.ysm",
+    "type": "ysm",
+    "stem": "GF_Hk416_0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "GF_Hk416_0"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "hk416.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GF_Hk416_0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6735,
+      "sha256": "4b99caefe420bbeae5250ce977bd561a4bea9d45915779614d66469899b7461d"
+    }
+  },
+  "stats": {
+    "file_count": 3,
+    "total_bytes": 59959,
+    "sha256": "995091d6729f6dc942a3f78c41fe78ea00ede583bcf0cd0766735c93476ceb51",
+    "bones": 124,
+    "cubes": 340,
+    "faces": 2040,
+    "textures": 1,
+    "materials": 1,
+    "animations": 0,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 4333,
+      "sha256": "343c786c606b73888de7e10b515d0455dcf5d4bcab1ec6267879e540c02736e5"
+    },
+    {
+      "path": "hk416.png",
+      "size": 9596,
+      "sha256": "6c5bc9e669ed6e6ea46685960e7c80aabbd109158225a1531d215d3e6396f4f3"
+    },
+    {
+      "path": "main.json",
+      "size": 46030,
+      "sha256": "af7a7aff4ffd7cae9db0f7598003b8c5b88cdfb1a22256073d201fb3f5963448"
+    }
+  ]
+}

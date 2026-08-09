@@ -1,0 +1,159 @@
+{
+  "id": "VE_Violet/violet",
+  "path": "parsed/VE_Violet/violet",
+  "source": {
+    "path": "_VioletEvergarden/VE_Violet.zip",
+    "type": "zip",
+    "stem": "VE_Violet",
+    "model_path": "VE_Violet/violet"
+  },
+  "ysm": "parsed/VE_Violet/violet/ysm.json",
+  "metadata": {
+    "name": "Violet",
+    "tips": "薇尔莉特",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "PoshGiraffe0",
+        "role": "模型",
+        "avatar": "avatar/PoshGiraffe0.png",
+        "contact": {
+          "Afdian": "",
+          "Bilibili": ""
+        },
+        "comment": ""
+      },
+      {
+        "name": "",
+        "role": "",
+        "avatar": "",
+        "contact": {
+          "Afdian": "",
+          "Bilibili": ""
+        },
+        "comment": ""
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.net/a/ysmmod"
+    }
+  },
+  "properties": {
+    "extra_animation": {
+      "extra0": "变身",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "是的",
+      "extra4": "不行",
+      "extra5": "卖萌",
+      "extra6": "御笔摇",
+      "extra7": "舞蹈"
+    },
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/violet.2.0.5.8.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "texture": [
+        "textures/2.1.8.png"
+      ]
+    },
+    "arrow": {
+      "model": "models/violet.2.0.5.8.json",
+      "texture": "textures/2.1.8.png"
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/VE_Violet_violet_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12014,
+      "sha256": "5f14543077572550a0359da5466250d6d112da9a9ea2c609c659efe5c3bce3d9"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 1861853,
+    "sha256": "baff82d6d29af7f6bc413568f6397231c68ba0ac7556b31646768d5e8599effe",
+    "bones": 314,
+    "cubes": 1709,
+    "faces": 10254,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 144931,
+      "sha256": "689f574da595150ff348caa990b2c47a856893f4cac4769f2550ffa9a22b5ecd"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3798,
+      "sha256": "5371aee783c07a9d441d3b9a88666c349e692c2461bd07037ecf274423ca376e"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 50599,
+      "sha256": "df1dfa34826d4627bbe413d16b40f108d4c8e330b5562d4b77b4ff8988fadbd4"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 202884,
+      "sha256": "fa64b24cbc197ab9e966be2c1c861a6b747c97cce24222e8242e59a40b1a5c1d"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 157266,
+      "sha256": "c03cb9613aa5a9f19a9416760c372309e79f3d12cf1f23cfea0726dc5e825aa2"
+    },
+    {
+      "path": "avatar/PoshGiraffe0.png",
+      "size": 31958,
+      "sha256": "287c24e1da70a7120d9985a7b3c9ed6690659b37b16a6bbb2ad809fbdbe6ca4e"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 21959,
+      "sha256": "ccfd405d1705fa967a86c4ed2f1617da7781a55cff6ddbf3440b807cacbf219f"
+    },
+    {
+      "path": "models/violet.2.0.5.8.json",
+      "size": 1044447,
+      "sha256": "cec98fe69f5e02df757b40e4aac248bd6dfd5ffaf541d2d291a4cc9e36cd124f"
+    },
+    {
+      "path": "textures/2.1.8.png",
+      "size": 202384,
+      "sha256": "ed1882699694e11ebb3a2f66a1b7466b5bbc4f5bc2f956fa74f94d6897735847"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1627,
+      "sha256": "1b8c6f2d15d93cca44b7e533ba81beee22439d79f10bd983c07362b33b94dfb6"
+    }
+  ]
+}

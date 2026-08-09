@@ -1,0 +1,90 @@
+{
+  "id": "GT_Female-Knight",
+  "path": "parsed/GT_Female-Knight",
+  "source": {
+    "path": "_GuardianTales/GT_Female-Knight.ysm",
+    "type": "ysm",
+    "stem": "GT_Female-Knight"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "GT_Female-Knight"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GT_Female-Knight_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7882,
+      "sha256": "cb4563a84ce1aaf6086d670ef2956431291e96bbeae8ce544a3092b33fe4c09b"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 396297,
+    "sha256": "7d878d3ead3436d35671b7e05c33d64cf26d7283ce676ed5433a051b8ef1078e",
+    "bones": 88,
+    "cubes": 271,
+    "faces": 1626,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 558,
+      "sha256": "4ffa6140253b570a257b189bcb82709603a294dc1d36597b990316257abc00f5"
+    },
+    {
+      "path": "arm.json",
+      "size": 12582,
+      "sha256": "9538c0f30bb5b757ad3752fa1361e79ec37265b4322cebf338294997d2405d5e"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 144073,
+      "sha256": "1cc30c5474076f2027d3b365b9525491a76007ff6451803a06df6814302761d7"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 99027,
+      "sha256": "0ce41fb3d9eaec7066429409da0f8f276142729f28c116aa190c361888d60099"
+    },
+    {
+      "path": "main.json",
+      "size": 128572,
+      "sha256": "84d09826b5f54fd3ca619b4f0d60c5749ae8c2693a11b817593101d542aa5437"
+    },
+    {
+      "path": "texture.png",
+      "size": 11485,
+      "sha256": "2fc03c4a114e7e22ba1789da1d3e5991b48f16601937b9741ad4b20c696070b6"
+    }
+  ]
+}

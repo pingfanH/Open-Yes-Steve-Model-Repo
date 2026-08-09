@@ -1,0 +1,240 @@
+{
+  "id": "泥岩_砾瓦1.5.2",
+  "path": "parsed/泥岩_砾瓦1.5.2",
+  "source": {
+    "path": "Unknown/泥岩_砾瓦1.5.2.ysm",
+    "type": "ysm",
+    "stem": "泥岩_砾瓦1.5.2"
+  },
+  "ysm": "parsed/泥岩_砾瓦1.5.2/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/嗯嗯owo.png",
+        "comment": "大就是好，好就是大",
+        "contact": {
+          "Afdian": "https://afdian.com/a/enenowo",
+          "Bilibili": "https://space.bilibili.com/167202500?spm_id_from=333.337.0.0"
+        },
+        "name": "嗯嗯owo",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/嗯嗯owo.png",
+        "comment": "大就是好，好就是大",
+        "name": "嗯嗯owo",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/嗯嗯owo.png",
+        "comment": "大就是好，好就是大",
+        "name": "嗯嗯owo",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/嗯嗯owo.png",
+        "comment": "大就是好，好就是大",
+        "contact": {
+          "Afdian": "https://afdian.com/a/enenowo",
+          "Bilibili": "https://space.bilibili.com/167202500?spm_id_from=333.337.0.0"
+        },
+        "name": "嗯嗯owo",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/enenowo",
+      "home": "https://space.bilibili.com/167202500?spm_id_from=333.337.0.0"
+    },
+    "name": "泥岩_砾瓦aa",
+    "tips": "在土石之子看来，颓败的废墟很快就能成为卡兹戴尔的一栋栋屋舍。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "显/隐碎盾",
+      "extra1": "精二",
+      "extra2": "黑曜石立绘动作",
+      "extra3": "静谧午夜立绘动作",
+      "extra4": "瓦砾立绘动作",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "tlm": "animations/tlm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/ny.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/1.5.2_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11982,
+      "sha256": "d0e0acaa65e77b0e42264c536dbcdabbddc04684009986d3f45a9b7ccf492a6b"
+    }
+  },
+  "stats": {
+    "file_count": 20,
+    "total_bytes": 3979871,
+    "sha256": "48becd521150a3b4a329a97e6a1f3fe1947f0bd6a254792ce9d7eccccfabc74b",
+    "bones": 421,
+    "cubes": 1158,
+    "faces": 6948,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 241049,
+      "sha256": "a7231e30585a42c1c0b71aa799b64cf24cf5cb6722e1e976c8fc6bf573c6734b"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3956,
+      "sha256": "157032a44c1242eba2054976bcba0d1c43b550e26dc9379ecda93a0634cd499d"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 116959,
+      "sha256": "c6f9b099ce37c1f7a7d3430a7923dc86aeafd6e3454f776cb81f7aadabf27a50"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 248213,
+      "sha256": "2da9611bb92045c39b90d9891f347366b1cf82211b8c94cf2af956e622d04061"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 52199,
+      "sha256": "256850e031f6546182913cbb49697b40209f22d74568596f09dfc6d9350cc5ab"
+    },
+    {
+      "path": "avatar/嗯嗯owo.png",
+      "size": 249656,
+      "sha256": "c821c80643b9ccc647fd6bfe98fbddbaabb67996217de55d42445e82a393d0a1"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 2665,
+      "sha256": "f3d02a75edc0f4f956f72ad38c722088bff27f566c535d5be0935b45c83be8d9"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 18957,
+      "sha256": "a77a67e95f5ba4766d745b957a1bd51bf876f7370344e0ea99a5e16c025a5c6b"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 637264,
+      "sha256": "af77b468610499bfacc5988ea3455c48605f5cf7cc7dd8581f8e699ba8b1b0ce"
+    },
+    {
+      "path": "sounds/a1.ogg",
+      "size": 17359,
+      "sha256": "9dba07fa61701ba5a34b9a676aba6bfabab50828c672ec6396d08dae055b0b64"
+    },
+    {
+      "path": "sounds/a2.ogg",
+      "size": 15363,
+      "sha256": "9b7a396f52bdb927b6745230f27bae9b530ef08cfdc090dec9d02549d454c7fc"
+    },
+    {
+      "path": "sounds/a3.ogg",
+      "size": 33239,
+      "sha256": "9dc16ee6a0b4d00145348a86016be8058e5a92ec31992cc4f01d7b06311896e6"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/ny.png",
+      "size": 135702,
+      "sha256": "39450f6566553f32c6449fa71149f3f21531d1932988a416f5b5d4ae83881b9c"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2092,
+      "sha256": "044bbf6874dee5606fd4b7a1602900d417e0cc19899e46e66f9459d4b4f7f2ea"
+    }
+  ]
+}

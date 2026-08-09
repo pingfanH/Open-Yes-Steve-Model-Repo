@@ -1,0 +1,96 @@
+{
+  "id": "Ak_Kaltsit",
+  "path": "parsed/Ak_Kaltsit",
+  "source": {
+    "path": "_Arknights/Ak_Kaltsit.ysm",
+    "type": "ysm",
+    "stem": "Ak_Kaltsit"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Ak_Kaltsit"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "main.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Kaltsit_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 15908,
+      "sha256": "93ff23b868c81ed1e17fcf040972ff398eea267edef6e325772ae6da7d5ac163"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 1179566,
+    "sha256": "c0e0a32631f2405ac65e794f25ab020769094752ae8e35c795c4cd0589b215fe",
+    "bones": 78,
+    "cubes": 1067,
+    "faces": 6402,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 39629,
+      "sha256": "d7d8cc5aebd96d36ee76e9e4619513300bb7dbbc5d45b351a131e1145447085a"
+    },
+    {
+      "path": "arm.json",
+      "size": 2145,
+      "sha256": "faa7c32f7d438e52ad54e258ccfe485087373ae4c196e72d8048a833f9109b64"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 144073,
+      "sha256": "1cc30c5474076f2027d3b365b9525491a76007ff6451803a06df6814302761d7"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 167557,
+      "sha256": "49c041b155481b4b11fc804ed413374808d89b25f132e1c43f301ae6b6766216"
+    },
+    {
+      "path": "main.json",
+      "size": 587272,
+      "sha256": "131bddad495f71928568bf5690c9ba9c41eeebe8b41dc74e6fb313e5d12aa758"
+    },
+    {
+      "path": "main.png",
+      "size": 81624,
+      "sha256": "aafcb85131b3bcc5765c5d740d9fb9695f86732e38f04fe6259f7b684c1bf4b4"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 157266,
+      "sha256": "c03cb9613aa5a9f19a9416760c372309e79f3d12cf1f23cfea0726dc5e825aa2"
+    }
+  ]
+}

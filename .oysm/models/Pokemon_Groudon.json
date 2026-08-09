@@ -1,0 +1,206 @@
+{
+  "id": "Pokemon_Groudon",
+  "path": "parsed/Pokemon_Groudon",
+  "source": {
+    "path": "_Pokemon/Pokemon_Groudon.ysm",
+    "type": "ysm",
+    "stem": "Pokemon_Groudon"
+  },
+  "ysm": "parsed/Pokemon_Groudon/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/阳迷同学.png",
+        "comment": "",
+        "contact": {
+          "qq": "2106428160"
+        },
+        "name": "阳迷同学",
+        "role": "模型/纹理/动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "固拉多",
+    "tips": "不会飞"
+  },
+  "properties": {
+    "width_scale": 0.3,
+    "height_scale": 0.3,
+    "extra_animation": {
+      "extra0": "技能",
+      "extra1": "恐吓",
+      "extra2": "对战待机"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "Simple Config",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png",
+          "specular": "textures/default_specular.png"
+        },
+        {
+          "uv": "textures/default_shiny.png",
+          "specular": "textures/default_shiny_specular.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Pokemon_Groudon_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 23139,
+      "sha256": "362326cbd53a335970fdc720a060c6fafa0299d4eae289f64484d167533e669d"
+    }
+  },
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 3044026,
+    "sha256": "3aa199396fe3d195ddb1a9a86487c2dfb706accb3c1b738ea89c6244de83f669",
+    "bones": 86,
+    "cubes": 347,
+    "faces": 2082,
+    "textures": 2,
+    "materials": 2,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 31565,
+      "sha256": "4c426387c6023440f3da2b94a76c333b9432c7d3a95b3dd5f7b59b3044180701"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 90733,
+      "sha256": "84bbacff89577ead0570f52929ccf0f4459eae4f333f738087aa274d54b32cf8"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/阳迷同学.png",
+      "size": 19473,
+      "sha256": "d8dc1e56eff53a93a22d8cf46cbb401d8ff2f3c7a0de9f198da2e782013dea6c"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 617,
+      "sha256": "58a5a4f99a17e863505e5d985c5342fafccf53eeb5799a572dff4156086be4ad"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 27606,
+      "sha256": "a7d8b3c16d399d71781368052c085de050749630703c4220e4be945f2a093f04"
+    },
+    {
+      "path": "models/main.json",
+      "size": 177024,
+      "sha256": "b5386ea22191b19744828166bd87b71043145fc14f249932a2750cee769db8b8"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 182647,
+      "sha256": "fae6ff1795341718af00650685a60ca48f1a026cab0dfb986e96c8a5c6568800"
+    },
+    {
+      "path": "textures/default_shiny.png",
+      "size": 162337,
+      "sha256": "ae3386d06f18e3d6daec15c35f9f8c6d10af8263d2460b5f6ed72c4d0ad4bc4d"
+    },
+    {
+      "path": "textures/default_shiny_specular.png",
+      "size": 26220,
+      "sha256": "c7d5aca3c0963172d540d7e046bb585ecd7dced644a53158831dd33f0077a919"
+    },
+    {
+      "path": "textures/default_specular.png",
+      "size": 26220,
+      "sha256": "c7d5aca3c0963172d540d7e046bb585ecd7dced644a53158831dd33f0077a919"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1526,
+      "sha256": "c043774091e463cfaab2129d87b749b4e65e70511a360beb733f4528dddc3c79"
+    }
+  ]
+}

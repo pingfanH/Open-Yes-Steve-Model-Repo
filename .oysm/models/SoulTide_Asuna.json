@@ -1,0 +1,162 @@
+{
+  "id": "SoulTide_Asuna",
+  "path": "parsed/SoulTide_Asuna",
+  "source": {
+    "path": "_SoulTide/SoulTide_Asuna.ysm",
+    "type": "ysm",
+    "stem": "SoulTide_Asuna"
+  },
+  "ysm": "parsed/SoulTide_Asuna/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/红色幽默.png",
+        "comment": "一个怠惰的新手",
+        "contact": {
+          "Bilibili": "https://b23.tv/n4DDnLI"
+        },
+        "name": "红色幽默",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "name": "星见亚砂",
+    "tips": "出自游戏《灵魂潮汐》\n能够读破未来的女子高中生，因预见到了独裁者上台后的压迫与暴政而奋起反抗。最终用生命换取了光明的未来"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "预见未来": "预见未来",
+      "检视武器": "检视武器",
+      "extra1": "挥手",
+      "extra0": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "yasha",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/yasha.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/SoulTide_Asuna_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6038,
+      "sha256": "ba14f79fd31222d1a4af0a311e9752f33a0b88cdb249eda2f8bd06040c061f20"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 1007777,
+    "sha256": "21ccdf2d9a3f95fa868e9fc5e0cebefcc0cefc9d9f121503340f6dd4a7c8da04",
+    "bones": 72,
+    "cubes": 198,
+    "faces": 1188,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136637,
+      "sha256": "f795d670b8e2553548348161425e21c7a8f4c2b78d4602d33c8ccc1f03f537b3"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 129107,
+      "sha256": "cfb3a66f6f9bef71e25829be53136fb527a331c6d1a7d9e522d62fbf6d59f388"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 200193,
+      "sha256": "d67078a66112087eb4df848f92ab2ae0009b630f90b923c0ae7845afd1b7345b"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/红色幽默.png",
+      "size": 65914,
+      "sha256": "806086caf611aafbac809047834f695cbfdc4fd66cb3a4c8bf294f539f7fd5e6"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 6597,
+      "sha256": "770e0873e40c03a7fe6d039c1d605e6c51e9c1166d7cdbd76fff2c9ac31bc841"
+    },
+    {
+      "path": "models/main.json",
+      "size": 98871,
+      "sha256": "675bcce55319fbb9fd16ac50bc4848e306c9b4af7dfe25d080a72512df20f4db"
+    },
+    {
+      "path": "textures/yasha.png",
+      "size": 10164,
+      "sha256": "cd224729b9d615788c801e43c6bb32d2a2f4f35fdc56ae64da1152865a90c4ec"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1233,
+      "sha256": "680b3fa1c423d15d5d2a120ca1b6b36a013c7631651ab7120d8bb38dcdac5a62"
+    }
+  ]
+}

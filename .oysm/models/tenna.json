@@ -1,0 +1,161 @@
+{
+  "id": "tenna",
+  "path": "parsed/tenna",
+  "source": {
+    "path": "Unknown/tenna.ysm",
+    "type": "ysm",
+    "stem": "tenna"
+  },
+  "ysm": "parsed/tenna/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/raiden.png",
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "name": "raiden",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "tv"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "tena",
+    "tips": "tv time"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "extra2",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_classify": [],
+    "default_texture": "blue",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "parcool": "animations/parcool.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/tenna_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7202,
+      "sha256": "903341465dd1699f404c2d6ee5611089143f88c79110fc879606d8306a88fe5e"
+    }
+  },
+  "stats": {
+    "file_count": 11,
+    "total_bytes": 2834705,
+    "sha256": "023fef6a844a9391b270c1baea599bb50d52b85c29ed58b7d97130351212d537",
+    "bones": 85,
+    "cubes": 163,
+    "faces": 978,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/extra.animation.json",
+      "size": 105616,
+      "sha256": "4047fcd6d64429ee35ebacb75956ce73b942e6a6675e6e0a03dc19fc8ba8bd50"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 132716,
+      "sha256": "999b601dd9561992f05e33c927af97ccfbe70d0c1e82eb2ecb9192b742c0d09d"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 262768,
+      "sha256": "3ee5fb54c50ad26a8e110fffbb2f166300f19ee9c315faaf5f5059cf3ade170d"
+    },
+    {
+      "path": "avatar/raiden.png",
+      "size": 11635,
+      "sha256": "017a49a5b21efc5cb15008c6cd69d7a703d9ce4dddb3f2fcb5df2171e8f4b1b3"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 20696,
+      "sha256": "86ae936fe63cfb7213a7636bf17db920bab9ab7364cbf87e65375aa9296e39d2"
+    },
+    {
+      "path": "models/main.json",
+      "size": 69194,
+      "sha256": "29ae4b6d42ec29ca1cd8a3d8371e5887a5f47564beb6f518c0447a30b07ae838"
+    },
+    {
+      "path": "sounds/2.ogg",
+      "size": 58543,
+      "sha256": "58a9a44f0d2c208f279d454958a4c2c7cf144b98d3888ae3ad518aa358dd3857"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 8910,
+      "sha256": "a2051303ceb733e90685d96bae3eb9691264744e79b5453e88bc383a38d192fa"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1164,
+      "sha256": "a6e74fa15a9e17e5f6b59232190818ca9d4ff188c5f55872e6581f1208d6624d"
+    }
+  ]
+}

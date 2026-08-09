@@ -1,0 +1,105 @@
+{
+  "id": "HSR_Herta_0",
+  "path": "parsed/HSR_Herta_0",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Herta_0.ysm",
+    "type": "ysm",
+    "stem": "HSR_Herta_0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§1黑塔",
+    "tips": "§8tac适配不可脱阉割版",
+    "authors": [
+      {
+        "name": "§c烈鸟比百§8（模型）"
+      }
+    ],
+    "license": {
+      "type": "CC BY-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "normal.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Herta_0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13638,
+      "sha256": "d5d1c23ebc31a722a4e496dd82260e918ffbc195a2c5d5c321e5db1ea665eed7"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 2616456,
+    "sha256": "15b1b6a35817a6c779dbce1d996fe33d0682d7e473115bbe9baa4dac9c469f30",
+    "bones": 114,
+    "cubes": 778,
+    "faces": 4668,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 54876,
+      "sha256": "8f16d4cd9ca748a0b9eec917c2523753750219a178f115479a5eb0fa251ed1fd"
+    },
+    {
+      "path": "arm.json",
+      "size": 54254,
+      "sha256": "f81a9850578e81c52f7cea9cf6f37a1c018956c79fb1c97326104a8a3e919c2e"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 1698797,
+      "sha256": "16dc0a6d00559d4ef86cb121c768975f53bbad43abea297bd049982749b537db"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 242725,
+      "sha256": "052dec3ee0f34a97ae7e9b6ab2619549e54159c0a330fc8c36639a3553a5a451"
+    },
+    {
+      "path": "main.json",
+      "size": 377939,
+      "sha256": "6acc776895d4b7f1a25769f1fe310c2113d6d8419e76d8706abd1123e1bbb9ec"
+    },
+    {
+      "path": "normal.png",
+      "size": 24028,
+      "sha256": "23d2838a604b65b783ba986bdd6c292d38c1617f2d8369117b3646683aa736fe"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 163837,
+      "sha256": "949d5bd20335e5269e43503e53a18bde05132221f8fefa47a78272bb1608e3c2"
+    }
+  ]
+}

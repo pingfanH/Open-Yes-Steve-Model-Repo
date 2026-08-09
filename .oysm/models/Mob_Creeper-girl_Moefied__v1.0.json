@@ -1,0 +1,99 @@
+{
+  "id": "Mob_Creeper-girl(Moefied)_v1.0",
+  "path": "parsed/Mob_Creeper-girl(Moefied)_v1.0",
+  "source": {
+    "path": "_MinecraftMob/Mob_Creeper-girl(Moefied)_v1.0.ysm",
+    "type": "ysm",
+    "stem": "Mob_Creeper-girl(Moefied)_v1.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "小怕（苦力怕娘）1.0",
+    "tips": "来自怪物娘化世界的苦力怕娘！尽管活泼可爱，但偶尔也会冒失。一定要小心身后，否则......嘶~~~~~~boom！",
+    "authors": [
+      {
+        "name": "大绿葱"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "with_hat.png",
+        "without_hat.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Mob_Creeper-girl_Moefied__v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6167,
+      "sha256": "188a029e90e40e728657b53bc0e184eb4c3597da3e6c2602ae76f219a8ef7800"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 519761,
+    "sha256": "ea6b05c5fdc622d6d5ae7055e40aeda3b03aed59761fadb7071c96099f349cd1",
+    "bones": 118,
+    "cubes": 706,
+    "faces": 4236,
+    "textures": 2,
+    "materials": 2,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 39954,
+      "sha256": "c0a64ce64ab50906ccfed4e459687d4bd14862d869b807a0eaa34ee325370825"
+    },
+    {
+      "path": "arm.json",
+      "size": 31198,
+      "sha256": "aa976fe78ae047ddfe3dcee4836916a7227c1ba16fafbee9c3e8cac91c3f8113"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 92718,
+      "sha256": "42dc427d0f7c8ccfa912cbf39345feda76c48c218d4e3e54a403293c30c47886"
+    },
+    {
+      "path": "main.json",
+      "size": 330218,
+      "sha256": "c6c7decabd131032062cf533ab612e132b53dee5281845f0f48993216dbbcb64"
+    },
+    {
+      "path": "with_hat.png",
+      "size": 12997,
+      "sha256": "8a70da94d22675d36557c17efcb2e33394dc92d03c3d085734aa8495628d231b"
+    },
+    {
+      "path": "without_hat.png",
+      "size": 12676,
+      "sha256": "f2ca142ec857c8ed155da327198010a3f5db2db42ef5084ebacb5c7074a33f74"
+    }
+  ]
+}

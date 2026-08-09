@@ -1,0 +1,100 @@
+{
+  "id": "CnCTW_GDIRiflemanSquad(ZOCOM)",
+  "path": "parsed/CnCTW_GDIRiflemanSquad(ZOCOM)",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCTW_GDIRiflemanSquad(ZOCOM).ysm",
+    "type": "ysm",
+    "stem": "CnCTW_GDIRiflemanSquad(ZOCOM)"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "GDI步枪兵（ZOCOM）",
+    "tips": "由于ZOCOM常年在泰矿肆虐的红区进行治理工作，因此麾下的士兵都身着特殊的防护服",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCTW_GDIRiflemanSquad_ZOCOM_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5429,
+      "sha256": "f88ea13f9cb56437b1d9ec72b1496975c484ba8489c243eba514ec50f03be764"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 344819,
+    "sha256": "0e0cc28b4b5c51dcbec5d31268116ebf90cbcaf2045df1174a8860cd61e930ed",
+    "bones": 40,
+    "cubes": 138,
+    "faces": 828,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 10276,
+      "sha256": "384c42db144713edd4c9f5d8171e76021a20e5db7a6387e81650f11c24634afa"
+    },
+    {
+      "path": "info.json",
+      "size": 251,
+      "sha256": "c41b8e184833e66f191502c3ad53dbe475c2210326c50297dd06bb3033a1efa7"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122470,
+      "sha256": "d93402d24863ccd84622801424bb845d8ff78161fae9d48b7bbf0c3d213720c1"
+    },
+    {
+      "path": "main.json",
+      "size": 61610,
+      "sha256": "2ad4c810fdcd4ea981f6cc8998278cd31ccc6bc3af8b0eb1fc44b806490db4d9"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131639,
+      "sha256": "a73cf95259743cc506fa6931e6bed68e0e41c5edca8f4651f26f1a42c1e26994"
+    },
+    {
+      "path": "texture.png",
+      "size": 18573,
+      "sha256": "316077201928b235f56e2fa5408acf1d06158a5a8bbb3003bd3d0efcc0391254"
+    }
+  ]
+}

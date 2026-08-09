@@ -1,0 +1,204 @@
+{
+  "id": "浠Mizuki(G)",
+  "path": "parsed/浠Mizuki(G)",
+  "source": {
+    "path": "Unknown/浠Mizuki(G).ysm",
+    "type": "ysm",
+    "stem": "浠Mizuki(G)"
+  },
+  "ysm": "parsed/浠Mizuki(G)/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/科列夫斯基.png",
+        "comment": "分享自己的东西",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/1504662164"
+        },
+        "name": "科列夫斯基",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/浠Mizuki Channel.png",
+        "comment": "你好！我是浠，希望能用我的歌聲帶給你一天的好心情！",
+        "contact": {
+          "Youtube": "https://www.youtube.com/channel/UCjv4bfP_67WLuPheS-Z8Ekg"
+        },
+        "name": "浠Mizuki Channel",
+        "role": "VTuber"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "link": {
+      "donate": "https://app.unifans.io/c/kolevsky/collections/f5ac8089ac1eaa54153bbd44659215bb",
+      "home": "https://space.bilibili.com/1504662164"
+    },
+    "name": "浠Mizuki",
+    "tips": "北极狐"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "('⌒')",
+      "extra1": "挥手",
+      "extra2": "('⌒')",
+      "extra3": "('⌒')",
+      "extra4": "('⌒')",
+      "extra5": "('⌒')",
+      "extra6": "('⌒')",
+      "extra7": "('⌒')"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "blue",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    },
+    "vehicles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/vehicle/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Mizuki_G_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6618,
+      "sha256": "461af07ef0f9b90106e17bdb6b6671045f6ec1323d96cfde42684fe482798afe"
+    }
+  },
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 1234751,
+    "sha256": "a98f55f8480eb05a648dc450d5bc021c0b721833f4343b6c3e8f7bd79809e111",
+    "bones": 154,
+    "cubes": 665,
+    "faces": 3990,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136804,
+      "sha256": "75c0b0d7c33a385f2d5c612f941582f61ba6041c7b8b9e928b59d355266db33e"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 120797,
+      "sha256": "cc91ad288fa5604c23926c710a409764ee03b04734c631d92fe01b9bbc7b0746"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 222538,
+      "sha256": "bde1e270feb88ef83f6382aa0be9589ed87bd93899087f428302e6546426f30c"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 133018,
+      "sha256": "b964ed67a26d8395d27af2b65f378d3b2b6348fc29322b466c4096d1ca6161f5"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 185270,
+      "sha256": "5ac84daa3d7e5032d56200c57d86942961834d4c28aec5efe001c26156c1e6b8"
+    },
+    {
+      "path": "animations/vehicle/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "avatar/浠Mizuki Channel.png",
+      "size": 7765,
+      "sha256": "809e01346afaff6e98b4f78497dd66bb72126f77d13d1c25456c671289f17680"
+    },
+    {
+      "path": "avatar/科列夫斯基.png",
+      "size": 6800,
+      "sha256": "b52f9b913b8bbfff46ac4f01a81bffd3260f84d472726765d51d6467e132b8c0"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 17617,
+      "sha256": "b49c01b9bd9946bb102c61cdf418c469e40feef816f6e58b5a3b414cfb29c704"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "7141bc407c4a46aec2e142c1d05a93827f9132e8cf272667651805b85932dd2d"
+    },
+    {
+      "path": "models/main.json",
+      "size": 346186,
+      "sha256": "e258b169708dd06f412378341f07287b99a6927d3b416b4d618b86c8e620dea5"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 514,
+      "sha256": "6900479dc5bca334db96c0243619e7e1f5f9c0c55119ed98ce6adc133c0ccd52"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 6222,
+      "sha256": "927db7e8789cf4f8dac87f5454fa6ede5d177ef898e8c1349006dde1a75c36de"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1706,
+      "sha256": "890111b6349561f5994c383af24b553eec02487cda7dd1488c578748848817b1"
+    }
+  ]
+}

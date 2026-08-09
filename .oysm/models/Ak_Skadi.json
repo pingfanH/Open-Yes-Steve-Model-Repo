@@ -1,0 +1,105 @@
+{
+  "id": "Ak_Skadi",
+  "path": "parsed/Ak_Skadi",
+  "source": {
+    "path": "_Arknights/Ak_Skadi.ysm",
+    "type": "ysm",
+    "stem": "Ak_Skadi"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "斯卡蒂",
+    "tips": "赏金猎人斯卡蒂，循着潮汐前来吞没你的敌人。",
+    "authors": [
+      {
+        "name": "映白L，感谢 罗真#6658（B服）对模型制作的大力支持。"
+      }
+    ],
+    "license": {
+      "type": "All Rights Reserved"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Skadi_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12968,
+      "sha256": "2c29123e1e3dc74f75725da12d565d89aef50aba1e4a5137e00bdfb2baccff81"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 1331468,
+    "sha256": "eef909ef4b188f51be3cbdf55e455398411e27bfffe28cd76c9a492eb991bd75",
+    "bones": 151,
+    "cubes": 1268,
+    "faces": 7608,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 92448,
+      "sha256": "58b56a3b9778143d34e85a8ea947296765d5ee5e4b85c33dda9c3a403f549d72"
+    },
+    {
+      "path": "arm.json",
+      "size": 5523,
+      "sha256": "215452e15f4ec22df7ee41d1af7b303e8339ad86282234d432139b9667a827a1"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 148377,
+      "sha256": "00cfcbe428d8fc4ad7430e038b71c73355af64cdbb26a8e8c04f848f3c932eb1"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 217621,
+      "sha256": "91b4a2919156ace043abd0d5d71af28022ff9f96772490f5ecaa0359bc5ab2bb"
+    },
+    {
+      "path": "main.json",
+      "size": 669706,
+      "sha256": "47213e404be50e22e0883d5a277d058d6430330f7b0151f3acfe81c78bb79767"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 170593,
+      "sha256": "e22c61e6952b3ac92004fec56519a57a25596155ed4fe29b970181499db81c49"
+    },
+    {
+      "path": "texture.png",
+      "size": 27200,
+      "sha256": "beb42c9755e10f573cc70ad5adf53fb20eb10519bdb5d0cba4951a2a8f7b8b3a"
+    }
+  ]
+}

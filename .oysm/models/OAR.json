@@ -1,0 +1,173 @@
+{
+  "id": "_OAR",
+  "path": "parsed/_OAR",
+  "source": {
+    "path": "Uncategorized/_OAR.zip",
+    "type": "zip",
+    "stem": "_OAR"
+  },
+  "ysm": "parsed/_OAR/ysm.json",
+  "metadata": {
+    "name": "OAR",
+    "tips": "默认模型（Default Model）",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "哥斯拉",
+        "role": "模型",
+        "avatar": "avatar/gsl.png",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少"
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "preview_animation": "idle",
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/OAR_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7458,
+      "sha256": "a6e5e4845c61bad79552f5919f2333268741b776cb9250f02645723213d72923"
+    }
+  },
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 2942519,
+    "sha256": "c6d607d543d76a6f9036ff4069e0526d49d29bf3f0573a20a78417570af1ed2d",
+    "bones": 70,
+    "cubes": 562,
+    "faces": 3362,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 146784,
+      "sha256": "a9382be337870d5db24fa61f36df5dd92a90aa656f73d569773a84a3d5014513"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3600,
+      "sha256": "d2b36b41837c25f6829cdd912970235cd457c7985598fb9e98427b08ffd81246"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 144073,
+      "sha256": "1cc30c5474076f2027d3b365b9525491a76007ff6451803a06df6814302761d7"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 188990,
+      "sha256": "9b83ac3355a24e1f62fb1f966ce40affba4a3d83d0cd6aa6cbce7ff04aecd6be"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 164868,
+      "sha256": "85f8114dce69f142d5516cd237ca63ef02dc7e655a82076387a66d05e7610700"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1598799,
+      "sha256": "d50e8b37390c62f09b1a9af1ef4c4d95fcf0063050f7b1fd5cacc3ff682b5604"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 214408,
+      "sha256": "30eb3b672844ecf613060269a576993327cea9580d0e6ccde6a91dce13631beb"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 63606,
+      "sha256": "8e38e0d04193f5023f619ba64d847eee7cb675291c0747f98292656a028dacf7"
+    },
+    {
+      "path": "avatar/gsl.png",
+      "size": 17482,
+      "sha256": "dda4f5d1d4b94eaee263a0c0686e9a02267fec3e0de969e2b42a3678393acfd5"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 59489,
+      "sha256": "eeee036420a4b118f56028b4dea3751827693c4899161290632f45823b5d34f1"
+    },
+    {
+      "path": "models/main.json",
+      "size": 270971,
+      "sha256": "4809aaf73a5e21717019aa62dd51826f74449b1428dd244d0164df3555c36c64"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 26988,
+      "sha256": "d9dc15b923c8b080a89c7cf66cf0bbd2eb911b83938a14c8d12df571afdabc51"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1431,
+      "sha256": "55d4041412b086cc9866fbe353ac5ebe6e5b1ec0825690c3f8c92fffbf30c4b6"
+    }
+  ]
+}

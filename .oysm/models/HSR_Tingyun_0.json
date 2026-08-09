@@ -1,0 +1,108 @@
+{
+  "id": "HSR_Tingyun_0",
+  "path": "parsed/HSR_Tingyun_0",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Tingyun_0.ysm",
+    "type": "ysm",
+    "stem": "HSR_Tingyun_0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§c停云",
+    "tips": "§8不可脱阉割版",
+    "authors": [
+      {
+        "name": "§c烈鸟比百§8（模型）"
+      },
+      {
+        "name": "§bWone_J§8（动作）"
+      }
+    ],
+    "license": {
+      "type": "CC BY-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "default.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Tingyun_0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 17693,
+      "sha256": "5fdf585081ee778fae1ff49256574417170cd66bf9def543733d50646118bd37"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 2391871,
+    "sha256": "9d9247c70e2543de9df796dced591935b045e893c1fcdb28f6c65d66b7639518",
+    "bones": 149,
+    "cubes": 988,
+    "faces": 5928,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 91,
+      "sha256": "a7c246495beaffe9733d903936d163adcb1e5ba1bcfcfaa6c9efbd051bd32222"
+    },
+    {
+      "path": "arm.json",
+      "size": 91228,
+      "sha256": "ab40ab1ed4501c15513c2f241b7f4ffbdbb3e7aa3b18ff017bec4bc25b558f67"
+    },
+    {
+      "path": "default.png",
+      "size": 31701,
+      "sha256": "50115104c08346cfd0eb5c2995737aae6aa876736c20590fd0f1d809d47977e2"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 1158065,
+      "sha256": "e0f76b2ae84953657c73b5651cd36824df5fab8d8934dcbdc7e190c67574008b"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 511375,
+      "sha256": "88fc9cd7ae03597f8f60963a21c8a1db85ecc3a9e0e1130b3be444f47c956e49"
+    },
+    {
+      "path": "main.json",
+      "size": 458540,
+      "sha256": "0ba9d7b32bb5cd504316b7a2f77a24baca30452085fae4b1c219de6ea990fd3d"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 140871,
+      "sha256": "72e255776454327b3488ec24606a7e6784f7fc6190eb56fc853a11bc3e987dc2"
+    }
+  ]
+}

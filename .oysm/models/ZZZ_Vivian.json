@@ -1,0 +1,243 @@
+{
+  "id": "ZZZ_Vivian",
+  "path": "parsed/ZZZ_Vivian",
+  "source": {
+    "path": "_ZenlessZoneZero/ZZZ_Vivian.ysm",
+    "type": "ysm",
+    "stem": "ZZZ_Vivian"
+  },
+  "ysm": "parsed/ZZZ_Vivian/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/TUTU秃.png",
+        "comment": "嘿嘿",
+        "contact": {
+          "Afadian": "https://afdian.com/a/tututugongfang",
+          "bilibili": "https://space.bilibili.com/88821626"
+        },
+        "name": "TUTU秃",
+        "role": "模型 动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "薇薇安",
+    "tips": "❤~法厄同大人~❤"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "#动作": "YSM原版动作",
+      "组件": "#组件",
+      "抽卡动画": "抽卡动画",
+      "撑伞姿势": "撑伞姿势",
+      "长猫耳朵": "长猫耳朵",
+      "法厄同大人！": "法厄同大人！",
+      "法厄同大人的外套": "法厄同大人的外套",
+      "#换装": "换装"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "组件",
+        "name": "选项",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "鞘翅",
+            "description": "鞘翅显示",
+            "value": "v.qc"
+          },
+          {
+            "type": "range",
+            "title": "体型",
+            "description": "调整大小",
+            "value": "v.zt",
+            "step": 0.05,
+            "min": 0.6,
+            "max": 2.0
+          },
+          {
+            "type": "radio",
+            "title": "猫耳开关",
+            "description": "开关",
+            "value": "v.me",
+            "labels": {
+              "关": "v.me=0",
+              "开": "v.me=1"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "眼神",
+            "description": "切换样式",
+            "value": "v.ys",
+            "labels": {
+              "样式1": "v.ys=0",
+              "样式2": "v.ys=1",
+              "样式3": "v.ys=2",
+              "样式4": "v.ys=3",
+              "样式5": "v.ys=4",
+              "样式6": "v.ys=5",
+              "样式7": "v.ys=6"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "嘴巴",
+            "description": "切换样式",
+            "value": "v.bx",
+            "labels": {
+              "样式1": "v.bx=0",
+              "样式2": "v.bx=1",
+              "样式3": "v.bx=2",
+              "样式4": "v.bx=3",
+              "样式5": "v.bx=4",
+              "样式6": "v.bx=5"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "脸红",
+            "description": "切换样式",
+            "value": "v.lh",
+            "labels": {
+              "样式1": "v.lh=0",
+              "样式2": "v.lh=1",
+              "样式3": "v.lh=2"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "动作",
+        "extra_animation": {
+          "extra0": "",
+          "extra1": "",
+          "extra2": "",
+          "extra3": "",
+          "extra4": "",
+          "extra5": "",
+          "extra6": "",
+          "extra7": ""
+        }
+      },
+      {
+        "id": "换装",
+        "extra_animation": {
+          "反舌鸟套装": "反舌鸟套装",
+          "治安官套装": "治安官套装"
+        }
+      }
+    ],
+    "preview_animation": "gui",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/vva.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/ZZZ_Vivian_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11688,
+      "sha256": "c1530738056903aa2d58267f1e96fde17e985c4a57488497b3c1b02fa8dbf914"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 2403462,
+    "sha256": "20d8d2056225ba93b090bdc8c62f41491f80efb46e37b9bdebf6bae97955e3f9",
+    "bones": 340,
+    "cubes": 3347,
+    "faces": 20042,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 179052,
+      "sha256": "4a1c3688cc28329a294d1a24c8d42aae16b4c83a2e5b5959d1b47f64edfee66a"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3098,
+      "sha256": "fa0edb6c3aa22660bf433883615b9f56b158c922b749499cb93f78cb3b8800cf"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 133248,
+      "sha256": "bab1f5988d18b1fbf87ea98d6e2a8df9a1b49c37aa9bb635dc74b46350ccf07b"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 219607,
+      "sha256": "ec0178393ca613b1d375026d06c2cfc8f30db341be8ab5dba3150f7673a81699"
+    },
+    {
+      "path": "avatar/TUTU秃.png",
+      "size": 1194,
+      "sha256": "06a9e29d6f80737b7690557f2ee6d80bec7d40cced0fc49cb9b997253ffa4642"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 22058,
+      "sha256": "f5d2a9dff33dc7582784c04b2193098cc4182ffeccbb6371e0bc42e99a6c7de7"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1786708,
+      "sha256": "f00402813dad9e9ba4e30222f128aa359d5c823906fab89a09b5ca9f3878aa9e"
+    },
+    {
+      "path": "textures/vva.png",
+      "size": 56070,
+      "sha256": "8b42d3efadf4f8e879674c39088755db73a385f2b3b5ea7789e06f69462f5d47"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2427,
+      "sha256": "282eb13fee00c1b758753d6d92b79d7a513af00d7cfe4c7fd3ec302c0d175b34"
+    }
+  ]
+}

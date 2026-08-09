@@ -1,0 +1,198 @@
+{
+  "id": "sybil",
+  "path": "parsed/sybil",
+  "source": {
+    "path": "Unknown/sybil.ysm",
+    "type": "ysm",
+    "stem": "sybil"
+  },
+  "ysm": "parsed/sybil/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/UsagiAho.png",
+        "comment": "I love woman",
+        "contact": {
+          "Twitter": "https://twitter.com/realusagiaho"
+        },
+        "name": "UsagiAho",
+        "role": "Model + Texture"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "§6Sybil (Pseudoregalia)",
+    "tips": "Woman"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "是的",
+      "extra4": "不行",
+      "extra5": "卖萌",
+      "extra6": "#sword"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "sword",
+        "name": "Hide/Show Sword",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "Hide/Show Sword",
+            "description": "Hide or Show Sword",
+            "value": "v.sword"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/main.png"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "en_us": {
+      "metadata.authors.0.comment": "I love woman",
+      "metadata.authors.0.name": "UsagiAho",
+      "metadata.authors.0.role": "Model + Texture",
+      "properties.extra_animation.extra3": "YES",
+      "metadata.name": "§6Sybil (Pseudoregalia)",
+      "properties.extra_animation.extra2": "Clap",
+      "metadata.tips": "Woman",
+      "properties.extra_animation.extra1": "Wave",
+      "properties.extra_animation.extra4": "NO",
+      "properties.extra_animation.extra5": "Cute Pose",
+      "properties.extra_animation.extra6": "Hide/Show Sword"
+    },
+    "zh_cn": {
+      "metadata.authors.0.comment": "我爱女人",
+      "metadata.authors.0.name": "UsagiAho (兔蝾螈)",
+      "metadata.authors.0.role": "建模 + 纹理制作",
+      "properties.extra_animation.extra3": "是的",
+      "metadata.name": "§6Sybil (Pseudoregalia)",
+      "properties.extra_animation.extra2": "鼓掌",
+      "metadata.tips": "女人。",
+      "properties.extra_animation.extra1": "打招呼",
+      "properties.extra_animation.extra4": "不行",
+      "properties.extra_animation.extra5": "卖萌",
+      "properties.extra_animation.extra6": "收剑/出剑"
+    }
+  },
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/sybil_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5549,
+      "sha256": "df2c8d42a55c7509ae7a8ce8a0acfbda227e477ab18ffc0c6d71a9397606a775"
+    }
+  },
+  "stats": {
+    "file_count": 11,
+    "total_bytes": 604762,
+    "sha256": "2b55d60b82bb472bb099a211954d90426fcf8746cd7edc6265313873e90410bf",
+    "bones": 121,
+    "cubes": 231,
+    "faces": 1386,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "6e8d3afe0c3baafff8f7f3e0e30ef3c621c667be5c346af73398f5fd3cb89ca5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 27435,
+      "sha256": "7f3b31844fa1351254996d6290238920ffac27fc9173c6cefada8fb418f06a8e"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 273487,
+      "sha256": "b1248c4dafdecf2a4ccc01614c372daedc1b4154e0ce5453dfeb65f72555cacf"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 158827,
+      "sha256": "266108ae157d56e13e3a75558297cc806770d9764e1bded2dd10663a28a7ac47"
+    },
+    {
+      "path": "avatar/UsagiAho.png",
+      "size": 7406,
+      "sha256": "4e39684ddb28f6ed088e56e68efe2c6ba61d980bd62f4465221045e82cbb34f0"
+    },
+    {
+      "path": "lang/en_us.json",
+      "size": 464,
+      "sha256": "c81cb768d3566c7b2eb42f55a16ebc2e140eca7cf7a3471e36dfab2843b63d05"
+    },
+    {
+      "path": "lang/zh_cn.json",
+      "size": 495,
+      "sha256": "33cadba594fd37b443c6a0c0bc9f6408c9529fdd6e71fe8a29751431c9e5a8bc"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 9982,
+      "sha256": "bcc920570b56ccbc535beec628bc5e787dfa6a74de0060b4e174afc2e2e0cc77"
+    },
+    {
+      "path": "models/main.json",
+      "size": 121310,
+      "sha256": "e8b4b8d953a5a82be4609fa67ff568a5f65727a81b2816f6d9a8061208e22b04"
+    },
+    {
+      "path": "textures/main.png",
+      "size": 1428,
+      "sha256": "0e60dec8291d83c1e6c8a7497ab045074aa27c03e8638c97995979743934a363"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1253,
+      "sha256": "8442f3b31d8595a14ddf0a721993193ea09edf1c0c52d498a8d40daab5d959c8"
+    }
+  ]
+}

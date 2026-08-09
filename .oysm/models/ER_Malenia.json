@@ -1,0 +1,143 @@
+{
+  "id": "ER_Malenia",
+  "path": "parsed/ER_Malenia",
+  "source": {
+    "path": "_EldenRing/ER_Malenia.ysm",
+    "type": "ysm",
+    "stem": "ER_Malenia"
+  },
+  "ysm": "parsed/ER_Malenia/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/NekuroMC.png",
+        "comment": "Hello",
+        "contact": {
+          "Planetminecraft": "https://www.planetminecraft.com/member/nekuromc/",
+          "Sketchfab": "sketchfab.com/NekuroMC/models"
+        },
+        "name": "NekuroMC",
+        "role": "Author"
+      },
+      {
+        "avatar": "avatar/New_Scout.png",
+        "comment": ".",
+        "contact": {
+          "Planetminecraft": "https://www.planetminecraft.com/member/new_scout/",
+          "Sketchfab": "."
+        },
+        "name": "New_Scout",
+        "role": "Requestor"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://ko-fi.com/nekuromc",
+      "home": "https://www.planetminecraft.com/member/nekuromc/"
+    },
+    "name": "Malenia",
+    "tips": "Malenia blade of Miquella - Check out my other models at PMC"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/ER_Malenia_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13376,
+      "sha256": "103865aac7819c998652aaf3c98efb43aeb52fc8b746b678f6b06c9fe02cf60c"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 1401111,
+    "sha256": "a61d09f4c7e0425b4c11b231b4a7da07a9fda30e99c8ba6a7c4c6e57f928f0a4",
+    "bones": 125,
+    "cubes": 387,
+    "faces": 2322,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 121917,
+      "sha256": "7301c293cb4483723a6dbab5b008fe0ee45c0395b989409648853fc6c0df90e1"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 171634,
+      "sha256": "8b86c54f76b82533776d9c2776a57b1936bde0cdc51b947bf5945d47aee16351"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "avatar/NekuroMC.png",
+      "size": 161044,
+      "sha256": "14c258b692cd42d805dcfed883167c80c94286f28e0e079e936e96b575953595"
+    },
+    {
+      "path": "avatar/New_Scout.png",
+      "size": 565277,
+      "sha256": "cb3f3e577fe8b4616cbec5220857f1e7b042609ed871a046ced86d5a010c08cc"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 23161,
+      "sha256": "8d88054f1e002784a776fcb1279bb67b8dd4c28ec192b68052cb6990352d6a2a"
+    },
+    {
+      "path": "models/main.json",
+      "size": 194181,
+      "sha256": "3e33fbfbf8bfdefeaf1747c2ba8524815720041ad8039113f77f313c80aa4fdf"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 29279,
+      "sha256": "69e28a00e5b565ed0bb45ec31d2b974bd06f777298bdb2aef8513a90c8c5f8cc"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1012,
+      "sha256": "830e2c0446242cc3b9bd84aca99804b8968dc8454718a8f7a1d8b16074a6f1af"
+    }
+  ]
+}

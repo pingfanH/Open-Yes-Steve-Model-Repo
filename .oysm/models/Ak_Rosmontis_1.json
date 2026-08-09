@@ -1,0 +1,84 @@
+{
+  "id": "Ak_Rosmontis_1",
+  "path": "parsed/Ak_Rosmontis_1",
+  "source": {
+    "path": "_Arknights/Ak_Rosmontis_1.zip",
+    "type": "zip",
+    "stem": "Ak_Rosmontis_1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Ak_Rosmontis_1"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Rosmontis_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6294,
+      "sha256": "cef675ccfc335c92e5e45f8ca14d392919edee5946f2dad5da4c76212158bdf9"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 231527,
+    "sha256": "fdf3aacb6b7eb4b1e92bb3464e381094904a5fb87fc7c0106e106bc19d451514",
+    "bones": 75,
+    "cubes": 262,
+    "faces": 1572,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 51070,
+      "sha256": "e8b4a6d8ebdd57bdb01427bd99afe6adcf7704723153572015b56852f551293b"
+    },
+    {
+      "path": "arm.json",
+      "size": 1947,
+      "sha256": "61aebc2e321b83f7768f627822110c2facb2da75718ba0668d082d4352bcf66e"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 133407,
+      "sha256": "42fd0c26efb3af8a98ad0dc823375107e36d3683c71b4d44d50d4310888fbf85"
+    },
+    {
+      "path": "main.json",
+      "size": 40895,
+      "sha256": "a5ba535000a4a3a4eed65bc295872335e59657a1590b3b64f8f26a5e349f1119"
+    },
+    {
+      "path": "texture.png",
+      "size": 4208,
+      "sha256": "d62081a2102d40baabdd3d87fd51ec602f5ee79dee39e05a76f0a217d12f1a22"
+    }
+  ]
+}

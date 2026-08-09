@@ -1,0 +1,126 @@
+{
+  "id": "GI_Nilou",
+  "path": "parsed/GI_Nilou",
+  "source": {
+    "path": "_GenshinImpact/GI_Nilou.ysm",
+    "type": "ysm",
+    "stem": "GI_Nilou"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§b妮露",
+    "tips": "§8普通版\n§8食用方式：\n可通过切换贴图来选择方脸圆脸",
+    "authors": [
+      {
+        "name": "§c烈鸟比百§8（模型）"
+      },
+      {
+        "name": "§bWone_J§8（动作）"
+      }
+    ],
+    "license": {
+      "type": "All Rights Reserved"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "block.png",
+        "block_s.png",
+        "quan.png",
+        "quan_s.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Nilou_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 17510,
+      "sha256": "6751825edce0f04228d5f2f54f1ad0628bef4e153569410d02059984274524dd"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 2646574,
+    "sha256": "d04b04182945f4701df6c51f2451d9c3ef4375360e06a9157550d2057627ea1d",
+    "bones": 116,
+    "cubes": 924,
+    "faces": 5544,
+    "textures": 4,
+    "materials": 4,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 54696,
+      "sha256": "db54b7cd5debb0f53818f72063c659f6ba4ec53540bbf01af1d4021e82406408"
+    },
+    {
+      "path": "arm.json",
+      "size": 34847,
+      "sha256": "c747126446269ab078da58a3b782252a60e579752b0c1ca3800af8f6229e2dc6"
+    },
+    {
+      "path": "block.png",
+      "size": 26508,
+      "sha256": "797ec1a9aef3d33e65872d0519b95035f4d93d267d5a8a16136ad09cf5641c9d"
+    },
+    {
+      "path": "block_s.png",
+      "size": 26494,
+      "sha256": "87606665bfaa0e8584d7358f6dd9521e0d2a38e7d2b568136fc0fcde369f1af2"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 1460601,
+      "sha256": "a822b3f7cba9a9220559fa333cec3ea362fd01b6bb7032406024b408356cf641"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 374385,
+      "sha256": "9aad0d1e1f5b1ee929322c3ee3b315af253638d9d5d4712cb83161a0eae368d4"
+    },
+    {
+      "path": "main.json",
+      "size": 475143,
+      "sha256": "40758cf5156483c0439a05ce771a0984cd2d7d5cc8e0768252177c07867fa33e"
+    },
+    {
+      "path": "quan.png",
+      "size": 26526,
+      "sha256": "e17c424de26fa00d3d28272f5e7f3058dffdd9a8bd2920a0240dabdd36ba69a9"
+    },
+    {
+      "path": "quan_s.png",
+      "size": 26503,
+      "sha256": "87e5e5c937ab01f70d10c2e6cf4404bf3fc2e05c3af0b85cb46c9bef828d9911"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 140871,
+      "sha256": "72e255776454327b3488ec24606a7e6784f7fc6190eb56fc853a11bc3e987dc2"
+    }
+  ]
+}

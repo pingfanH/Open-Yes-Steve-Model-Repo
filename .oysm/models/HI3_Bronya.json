@@ -1,0 +1,135 @@
+{
+  "id": "HI3_Bronya",
+  "path": "parsed/HI3_Bronya",
+  "source": {
+    "path": "_HonkaiImpact3/HI3_Bronya.ysm",
+    "type": "ysm",
+    "stem": "HI3_Bronya"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "布洛妮娅·理之律者",
+    "tips": "仿制崩坏3里布洛妮娅的装甲，理之律者",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "荨蒿之栗里@bilibili"
+      }
+    ]
+  },
+  "properties": {
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "arrow.png",
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "arrow": "arrow.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HI3_Bronya_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11790,
+      "sha256": "44ed93fc321c661300229088728041af671f2c30de7b3bf67c7809e2d27e0ed5"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 3597449,
+    "sha256": "4010544a0260ae640b7a1d10fb1d3bd20effbacabe12e1ab44f6ba0d6cb5737f",
+    "bones": 557,
+    "cubes": 4977,
+    "faces": 29862,
+    "textures": 2,
+    "materials": 2,
+    "animations": 6,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 152039,
+      "sha256": "34452cee94cd2592077563f2200455dfa3294bb6b965d95fb0c1c02e44c34571"
+    },
+    {
+      "path": "arm.json",
+      "size": 16630,
+      "sha256": "b8385c1467e8c60d7b72df5bb663dbd53b5bba8e0aaeace1881ecfb6f5f14d89"
+    },
+    {
+      "path": "arrow.animation.json",
+      "size": 1803,
+      "sha256": "cba4849a84cab98c4eda0e85e2b0d2b4a77d5d467a0c0d8ba328dfebfd214c54"
+    },
+    {
+      "path": "arrow.json",
+      "size": 13912,
+      "sha256": "dbcef11201fcf121f27e3e36d6b614470eaa1ba289f163c2eae2b36a92e9fffd"
+    },
+    {
+      "path": "arrow.png",
+      "size": 6672,
+      "sha256": "5415c1fa8ae0d925b6f39ee88bda3770b79a9ccaeef6f50442e4ea3d3eaa7b7b"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 118519,
+      "sha256": "b980d8df31eb644af8c9ec26a265aff23a3f4d14df4c01807bacbe263d92c8d3"
+    },
+    {
+      "path": "info.json",
+      "size": 274,
+      "sha256": "bbf8f996aaefb077eba3917211daf547b8ff34a9ddbaec790f31562d53794a6e"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 153143,
+      "sha256": "f50105f7af1da975b4234e6557ee261da890ac963e31814b4d93005e14863c4c"
+    },
+    {
+      "path": "main.json",
+      "size": 2782552,
+      "sha256": "29090a6410ceed1f09868776d4412f831d9b0f416270e3e9ab0c82098059ba6d"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "texture.png",
+      "size": 215625,
+      "sha256": "2e175efb798e1cc5e7e9c30f9136f29b9c31e084affdf3ffb4785ac1b1715802"
+    }
+  ]
+}

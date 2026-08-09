@@ -1,0 +1,84 @@
+{
+  "id": "Ak_Penance_1",
+  "path": "parsed/Ak_Penance_1",
+  "source": {
+    "path": "_Arknights/Ak_Penance_1.zip",
+    "type": "zip",
+    "stem": "Ak_Penance_1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Ak_Penance_1"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "cz16.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Penance_1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 18122,
+      "sha256": "aa1e0cb42f1b1e4834a53b216b8fd0691c70227b7b51812ac826848f34a008b7"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 582190,
+    "sha256": "dcebf5feb97492ab6259c3eec63cb3782d8de1f858b3d622e820b3c017871053",
+    "bones": 146,
+    "cubes": 808,
+    "faces": 4848,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 86,
+      "sha256": "afa1bc8066caf11f4f1869b73e2c03ac31d5502f230cb68532fc627637184203"
+    },
+    {
+      "path": "arm.json",
+      "size": 106990,
+      "sha256": "80849cb2588332dd192c6ec7a3a53912301639fea33c8b3659b86b4f4dd97f94"
+    },
+    {
+      "path": "cz16.png",
+      "size": 20744,
+      "sha256": "6d217f743046936f5137bd148fdaa218fa599668ecc784d33083804737957632"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 116005,
+      "sha256": "f2805ab8edcb444d42fa435ee5fe776ee247a2b76e72ca1a6ea4184a4ff40712"
+    },
+    {
+      "path": "main.json",
+      "size": 338365,
+      "sha256": "8d3acf682d70422d83df4f470456e20a57093dcaff9841b67196a55493e0d8d1"
+    }
+  ]
+}

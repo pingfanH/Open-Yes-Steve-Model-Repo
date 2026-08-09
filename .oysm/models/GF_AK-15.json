@@ -1,0 +1,224 @@
+{
+  "id": "GF_AK-15",
+  "path": "parsed/GF_AK-15",
+  "source": {
+    "path": "_GirlsFrontline/GF_AK-15.ysm",
+    "type": "ysm",
+    "stem": "GF_AK-15"
+  },
+  "ysm": "parsed/GF_AK-15/ysm.json",
+  "metadata": {
+    "name": "AK15",
+    "tips": "我不在意发令者使用我的方式，如果我发起质疑，通常是因为命令无法通向完成任务的目标……但我每次发起质疑，最后都没有好结果，而您从未让我产生过质疑，这一点就足够证明您的优异了",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "XG残党",
+        "role": "模型",
+        "avatar": "avatar/1721656327_385063_CBeF.png"
+      }
+    ],
+    "link": {
+      "home": "https://afdian.com/a/x416g",
+      "donate": "https://afdian.com/a/x416g"
+    }
+  },
+  "properties": {
+    "height_scale": 0.75,
+    "width_scale": 0.75,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3
+          },
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "preview_animation": "IDIE3",
+    "disable_preview_rotation": true,
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "slashblade": "animations/slashblade.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/MASK.png"
+        }
+      ],
+      "sound_path": "sounds"
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": "textures/arrow.png"
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GF_AK-15_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7724,
+      "sha256": "24ad3c887e8abffd2f6515b44c8a19f0cf9a494ac31a6c2d59bc2564bf638d38"
+    }
+  },
+  "stats": {
+    "file_count": 18,
+    "total_bytes": 2330715,
+    "sha256": "307d2784a1528973335af957f3590c938ea15668351868329c56201978de80a2",
+    "bones": 151,
+    "cubes": 890,
+    "faces": 5336,
+    "textures": 2,
+    "materials": 2,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 191832,
+      "sha256": "8e8a3f21c627b637d31597813c16045f549e532b142f38d42b18731a67fd0d81"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 726,
+      "sha256": "1adcba945eaf9fbe605a03fc6173031fb13e31207e6ddfa136c543b0908318d6"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2917,
+      "sha256": "f1b559bb714f40be566b02e1b8dd44c2cc380783e0e8a480c89a8378caa05b96"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 114645,
+      "sha256": "219ff1e25b3d0e6da8b6abd2bb4584d23632d8efd5a09f0aafadfb84cc01daba"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 190216,
+      "sha256": "67bcc02ca9a0c59a0d803109540c03e4f22934f9ec32f7c70b94d27a91ff155c"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 163820,
+      "sha256": "d987a9b3c8e3e2efc98973dfaff5af5511a7b6aee0c7edc6cb3e135479d95471"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1154783,
+      "sha256": "e3aed0cd211de3710a9b46cf7811954ba6da7ee6298d41dda6241cff19c7f86f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 193034,
+      "sha256": "037bff34b95ee738df56af9bff6f3a62d089dc51a15a84752c06c8349cce8c5b"
+    },
+    {
+      "path": "avatar/1721656327_385063_CBeF.png",
+      "size": 33093,
+      "sha256": "32ae812fdff67547f1fe362828716434a6331d7b92d0945404d44873551e178f"
+    },
+    {
+      "path": "avatar/DM8]LH_5N4I}EJ2[I7ZETYN.png",
+      "size": 35011,
+      "sha256": "e58a932dfd4822416cf709132bbcc21a0d656dd49175eeca5e069799727a03b6"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 12164,
+      "sha256": "3eec8a1746b2b50e5a9d086ac96ef220f3181fd74d8861ea1637a780dc606dff"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 5856,
+      "sha256": "42b706818796f7f058d19c07ca4b89f05da2b4cf0627845828e40a0ff08f6891"
+    },
+    {
+      "path": "models/main.json",
+      "size": 156032,
+      "sha256": "7df47d93334a7268860159598e3dd68d11601a6fda4cd1185ce85459fcadbc63"
+    },
+    {
+      "path": "textures/MASK.png",
+      "size": 16237,
+      "sha256": "0fa825811f92b7679431ad7fbdf7c2f2b92c7f625882b73bde98811ff0d4373f"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 706,
+      "sha256": "7e060893a7aa96f52fc37360dcb698bf1575cbc8ed51ee7d729fe17e9940ef1d"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 16217,
+      "sha256": "67c52d3fbb35fa4b6da5c5e6424a5ce21da2c1dee373dc09532bbcc10f2cb36b"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2396,
+      "sha256": "3ec3c877e2bdbc9a5d46087dcafae968312e6628408229ed3a8096712b052775"
+    }
+  ]
+}

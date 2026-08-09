@@ -1,0 +1,211 @@
+{
+  "id": "Nikke_Soda(Twinkling_bunny)_nkrmc",
+  "path": "parsed/Nikke_Soda(Twinkling_bunny)_nkrmc",
+  "source": {
+    "path": "_Nikke/Nikke_Soda(Twinkling_bunny)_nkrmc.ysm",
+    "type": "ysm",
+    "stem": "Nikke_Soda(Twinkling_bunny)_nkrmc"
+  },
+  "ysm": "parsed/Nikke_Soda(Twinkling_bunny)_nkrmc/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/NekuroMC.png",
+        "comment": "Nekuro#0661",
+        "name": "NekuroMC",
+        "role": "Author"
+      },
+      {
+        "avatar": "avatar/New_Scout.png",
+        "comment": "",
+        "name": "New_Scout",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://ko-fi.com/nekuromc",
+      "home": "https://www.planetminecraft.com/member/nekuromc/"
+    },
+    "name": "Soda: Twinkling bunny",
+    "tips": "Nikke character (Check out my models in PMC)"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#pose_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "pose_config",
+        "name": "Pose 1",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "Pose 1",
+            "description": "toggle mouth",
+            "value": "v.emote"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture1.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Nikke_Soda_Twinkling_bunny__nkrmc_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12754,
+      "sha256": "38d13107fa6e299f7826b2eea0e46d3cf0586b8bd34e00b2328bac09d523ddce"
+    }
+  },
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 1311627,
+    "sha256": "532519a6856fd3e76db0f88ace55ac0d114cdc9280b6069d0fc7c200babc4aa4",
+    "bones": 122,
+    "cubes": 699,
+    "faces": 4194,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136637,
+      "sha256": "f795d670b8e2553548348161425e21c7a8f4c2b78d4602d33c8ccc1f03f537b3"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 123165,
+      "sha256": "0a5d3f9c0562cc4d4032464fa5a4f9c4d80d0d7a218e780240d04c0b276f8c9a"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 220907,
+      "sha256": "e02d7b88ef429791cc638297e40aae661afe5d808a2a0edce55cd631b6e9419b"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183853,
+      "sha256": "a30dc630514cb688fca16f9575e148deb86a2e01868f29c62ff0e24db9fb15a1"
+    },
+    {
+      "path": "avatar/NekuroMC.png",
+      "size": 21919,
+      "sha256": "53d3b501385c0bf5ac48b6348d2e3762b1dc8b9229d82eb33446d8dc72df515c"
+    },
+    {
+      "path": "avatar/New_Scout.png",
+      "size": 34665,
+      "sha256": "cc35b367ffbaa75d57941c90082d6ac342f30d45cd92c1f2877b45d3a090dcef"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 7464,
+      "sha256": "ed6e90fa1160406f3ac35f8f6d259e4786a915bdacc579e70c2bff04f3becdd1"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 378343,
+      "sha256": "e4c49cd4225fa25ea20b00fddc7e2de7c819656a02d673d3b0d7ddc555261267"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/texture1.png",
+      "size": 19711,
+      "sha256": "0b7da4aa867d30dbc48fbbadbf2d297965ad3fc90b608e1794baa9acb41b29fc"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1547,
+      "sha256": "aca5c3c7d8766f26af7d146d1da421def6001c0be385e98f6ea3d94a8fa0744e"
+    }
+  ]
+}

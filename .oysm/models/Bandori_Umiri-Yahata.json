@@ -1,0 +1,203 @@
+{
+  "id": "Bandori_Umiri-Yahata",
+  "path": "parsed/Bandori_Umiri-Yahata",
+  "source": {
+    "path": "_Bandori/Bandori_Umiri-Yahata.ysm",
+    "type": "ysm",
+    "stem": "Bandori_Umiri-Yahata"
+  },
+  "ysm": "parsed/Bandori_Umiri-Yahata/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/02Bunny（蓝玫瑰）.png",
+        "comment": "喜欢做点酷东西",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/11814817"
+        },
+        "name": "02Bunny（蓝玫瑰）",
+        "role": "模型/贴图/动画"
+      },
+      {
+        "avatar": "avatar/艾卡斯特.png",
+        "comment": "上辈子杀人放火，这辈子做模受苦",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/98936728"
+        },
+        "name": "艾卡斯特",
+        "role": "模型/贴图"
+      },
+      {
+        "avatar": "avatar/裤管炸了救救我.png",
+        "comment": "我无畏咕咕咕",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/243846071"
+        },
+        "name": "裤管炸了救救我",
+        "role": "模型/贴图/动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://www.bilibili.com/video/BV1yQ5JzJEZQ"
+    },
+    "name": "§8八幡海玲",
+    "tips": "§7八幡海铃是花咲川女子学园的高中一年级学生。作为椎名立希的好友，经常和立希聊天，并在立希情绪低落时给她买饮料。同时她也是一名非常出色的贝斯手，曾为 30 多个不同的乐队担任过支援乐手，有时她会在同一天为多个乐队演出。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra1": "招手",
+      "extra2": "鼓掌",
+      "extra3": "点头",
+      "extra4": "不行",
+      "extra5": "诹访大舞",
+      "extra6": "摇摆",
+      "extra8": "弹贝斯",
+      "extra9": "#变更服装",
+      "extra10": "光翼展开"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "变更服装",
+        "name": "变更服装",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "选择服饰",
+            "description": "选择模型穿着服饰",
+            "value": "v.roaming.mujicacloth",
+            "labels": {
+              "常服": "v.roaming.mujicacloth=0;",
+              "花咲川冬季校服": "v.roaming.mujicacloth=1;",
+              "Ave Mujica舞台服": "v.roaming.mujicacloth=2;"
+            }
+          },
+          {
+            "type": "checkbox",
+            "title": "是否穿戴面具",
+            "description": "决定穿着舞台服时是否显示面具",
+            "value": "v.roaming.mask"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "res0",
+    "preview_animation": "stage",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/res0.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Bandori_Umiri-Yahata_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4196,
+      "sha256": "2fe4c75a1d462ef15077cb46604d5f8bcbe589213777c7c9c93949d3be41ab07"
+    }
+  },
+  "stats": {
+    "file_count": 11,
+    "total_bytes": 1053382,
+    "sha256": "df4d38c41293603ba590907108539d3a1775b0c88fb68c019026d544f6d17a9f",
+    "bones": 182,
+    "cubes": 727,
+    "faces": 4352,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 32454,
+      "sha256": "7a3edfe9e598fae10683e717f31bfb951eee17c0f6649236e6543a888081b0f7"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 162740,
+      "sha256": "97ffa43b24bf70e70b8cdf4ceb22597087c88d6495c5d1ba87aeb0fa1107e37e"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 177859,
+      "sha256": "b6677a5beb8f1528aa71c319dc090d77d83370c44dc691f83935f007509bb2ae"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 135199,
+      "sha256": "157960d981b7bb725f53dc32507fdd406da1745e1dd367e49cad2e67971b9114"
+    },
+    {
+      "path": "avatar/02Bunny（蓝玫瑰）.png",
+      "size": 21986,
+      "sha256": "15d683b20b12c36e70755823fafa23e4f49d2b98a9579b250f7e13873d95efab"
+    },
+    {
+      "path": "avatar/艾卡斯特.png",
+      "size": 32923,
+      "sha256": "c6a5da37647d0c7a753f3baeccf96e1ce19da21c77e8db65f2fdbeedc7a0dc8b"
+    },
+    {
+      "path": "avatar/裤管炸了救救我.png",
+      "size": 38432,
+      "sha256": "1da10f42a40d106c50746344f5b7b4189de6482f64aedc64773a0d12cd7eee82"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 10231,
+      "sha256": "bcd5c711708792dada4e66f1e57f7d6041e832b24da71bc939a81ea641d19b8c"
+    },
+    {
+      "path": "models/main.json",
+      "size": 377590,
+      "sha256": "791e386f39228a28529a715e5eacabed43a6de068f2a020ca41a2e377b79e9c1"
+    },
+    {
+      "path": "textures/res0.png",
+      "size": 61593,
+      "sha256": "e32db5ad010162ade70dd5061fe4b1aa7f5f1f78199fb19d85f0f98ef567be93"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2375,
+      "sha256": "ec1deb3925698c975605bb61fbb2460e1c7ad35de1df4b015f8540e7edcdfcc5"
+    }
+  ]
+}

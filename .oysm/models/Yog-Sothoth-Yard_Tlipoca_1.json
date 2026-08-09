@@ -1,0 +1,189 @@
+{
+  "id": "Yog-Sothoth-Yard_Tlipoca_1",
+  "path": "parsed/Yog-Sothoth-Yard_Tlipoca_1",
+  "source": {
+    "path": "_YogSothothYard/Yog-Sothoth-Yard_Tlipoca_1.ysm",
+    "type": "ysm",
+    "stem": "Yog-Sothoth-Yard_Tlipoca_1"
+  },
+  "ysm": "parsed/Yog-Sothoth-Yard_Tlipoca_1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/Almeta_owx.png",
+        "comment": "and the universe said I love you",
+        "contact": {
+          "Afdian": "https://afdian.com/a/Almeta",
+          "Bilibili": " https://b23.tv/iAsj6Ee"
+        },
+        "name": "Almeta_owx",
+        "role": "模型/动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "home": "https://afdian.com/a/Almeta",
+      "update": "https://b23.tv/iAsj6Ee"
+    },
+    "name": "特莉波卡",
+    "tips": "一出生就在死神塔中打工的小死神，她的生活充满了艰辛与不公。\r\n强大，但是社畜。无需睡眠，7X24小时在岗的优秀员工（但是摸鱼）\r\n出自游戏：《犹格索托斯的庭院》"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "站姿1",
+      "extra1": "打招呼",
+      "extra2": "拍手",
+      "extra3": "点头",
+      "extra4": "不行",
+      "extra5": "坐姿1",
+      "extra6": "坐姿2",
+      "extra7": "坐姿3",
+      "extra8": "切换眼睛",
+      "extra9": "抱抱猫猫",
+      "extra10": "睡一会",
+      "extra11": "睡一会无抖动",
+      "extra12": "抱抱猫猫无抖动"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/teripoka.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Yog-Sothoth-Yard_Tlipoca_1_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 16916,
+      "sha256": "ece9f1defbd42a2b7866d6ea151907d59da6a07d6060608a70b8d9c4afd8bf87"
+    }
+  },
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 4158672,
+    "sha256": "30cb4df1320159fc7ad3631dcfa08b7dfe732bd7dd6736cb4b47e5b3fe4bdabf",
+    "bones": 446,
+    "cubes": 1692,
+    "faces": 10152,
+    "textures": 1,
+    "materials": 1,
+    "animations": 6,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 135850,
+      "sha256": "72f5de02581ab4d9b3add1a9c76af21ae0427e2140bc7bc140731c6c223a12bc"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1138,
+      "sha256": "6ef6791b2b391fc30bb2f74f26eb09de94e2a382c535202f5d736eb89d37577d"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3029,
+      "sha256": "05f81c97129a729ffb17352e5ff1d7d0cf7b8f9590096f2ecac6aa685297403c"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 63608,
+      "sha256": "87a2641f7444bce69ee55c597dec9c146b9f3d810c5068d2826e3f370a0890e7"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 644670,
+      "sha256": "d22d7aee9ae3329797e73d6f97fe18e756ccec996b57fd06f81b9e9073d86a38"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023749,
+      "sha256": "fd6ef4788a32a44d7f60740ad0b2cc4bfbd725d33f9b0c67419086f20d22c974"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 152210,
+      "sha256": "a2e59379fff10fd4c8ee1988e159052f9806504e8d9bc9bba700d11b9b318af3"
+    },
+    {
+      "path": "avatar/Almeta_owx.png",
+      "size": 45632,
+      "sha256": "b53f7e87d557bed5b1e34059f3be70e1a182253102f00551f78ccdb44937ee40"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 81964,
+      "sha256": "20eb8251588088413384bee9baf7476b6626f27bc8f2ca8dcd6a21d007bd0c89"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 851714,
+      "sha256": "290be9858c87fcd43c3a6013dcade6eab7ba057eacee088b1a897db47973e9eb"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/teripoka.png",
+      "size": 145571,
+      "sha256": "9dd3ae876fc3adefd09aefb9b6098df4b235c489bc7c52bddddc1420012ceb94"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1723,
+      "sha256": "4e2a005df98bc6646fac3d7fb8051de8d623f493bcfc72788bd5555400701df3"
+    }
+  ]
+}

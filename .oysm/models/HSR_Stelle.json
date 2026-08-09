@@ -1,0 +1,96 @@
+{
+  "id": "HSR_Stelle",
+  "path": "parsed/HSR_Stelle",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Stelle.zip",
+    "type": "zip",
+    "stem": "HSR_Stelle"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "HSR_Stelle"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "xing.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Stelle_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8824,
+      "sha256": "3754fd1c0afb18d5dec9da61140dc97ef661a87df0d71a522f2177cfdd379be7"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 723109,
+    "sha256": "62cf89c9b268e2534d8892b950f55a8bc27761d309a227b8129559c3d71d2275",
+    "bones": 89,
+    "cubes": 617,
+    "faces": 3702,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 205411,
+      "sha256": "7ee935b7221c78f74423dfa1c45bc7c7c7e937c54bfa6ca937d9cbf685e73c60"
+    },
+    {
+      "path": "arm.json",
+      "size": 6244,
+      "sha256": "cbb2b8e0cfc2148c69b7cc5baa9405bfe400fb1a4fcc0059af0ca4f0fd7820d9"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 20410,
+      "sha256": "d4be607d32e5642b151575f9579df3d39937ecd2f1680e01c752a1313944b1e0"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 205411,
+      "sha256": "7ee935b7221c78f74423dfa1c45bc7c7c7e937c54bfa6ca937d9cbf685e73c60"
+    },
+    {
+      "path": "main.json",
+      "size": 120661,
+      "sha256": "3074beb6e9ed2c7db8d927f02e1c6fa0dae2e2daaf525f80da65b8a889144a6f"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 159129,
+      "sha256": "5604f7a20fc99ee52a957917f9ed2886317d8bb4f49aa788de8cda88c87d1ae6"
+    },
+    {
+      "path": "xing.png",
+      "size": 5843,
+      "sha256": "744e01943bddfb0dc55a1d0d18574ebe2dceb4f39940ad7ff22581648d737691"
+    }
+  ]
+}

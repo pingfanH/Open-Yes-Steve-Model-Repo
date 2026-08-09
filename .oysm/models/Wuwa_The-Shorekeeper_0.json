@@ -1,0 +1,207 @@
+{
+  "id": "Wuwa_The-Shorekeeper_0",
+  "path": "parsed/Wuwa_The-Shorekeeper_0",
+  "source": {
+    "path": "_WutherringWaves/Wuwa_The-Shorekeeper_0.ysm",
+    "type": "ysm",
+    "stem": "Wuwa_The-Shorekeeper_0"
+  },
+  "ysm": "parsed/Wuwa_The-Shorekeeper_0/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/艺方像素§f§l.png",
+        "comment": "方块搭建成的幻想，是我们落脚的彼方",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/107318873",
+          "艺方直联QQ（投诉建议咨询）": "1320812591"
+        },
+        "name": "艺方像素§f§l",
+        "role": "§f§l模型"
+      },
+      {
+        "avatar": "avatar/艺方堂·公益群§f§l.png",
+        "comment": "824898423 供粉丝交流以及获取免费资源",
+        "name": "艺方堂·公益群§f§l",
+        "role": "§a§l公益群"
+      },
+      {
+        "avatar": "avatar/艺方像素·售后群§f§l.png",
+        "comment": "购买模型后请查看附带文件",
+        "name": "艺方像素·售后群§f§l",
+        "role": "§b§l售后服务"
+      },
+      {
+        "avatar": "avatar/浅宣§f§l.png",
+        "comment": "定制需求请+Q 1320812591",
+        "name": "浅宣§f§l",
+        "role": "§e§l定制服务"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "§c§lAll Rights Reserved"
+    },
+    "link": {
+      "donate": "https://space.bilibili.com/107318873",
+      "home": "https://space.bilibili.com/107318873"
+    },
+    "name": "§b§l守岸人",
+    "tips": "\n§f§l黑海岸守岸人，神秘清冷、超然物外\n§f§l她因你的唤醒而生，在漫长的守望中萌生出情感和渴望\n§f§l——守护与世界，与你之间的羁绊\n§f§l包含§c§l7§f§l个轮盘动作,§c§l2§f§l种武器切换\n§f§l蝴蝶状态通过§b§l迅捷buff§f§l显示"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "§e§l不语者遐想",
+      "extra1": "§e§l群星漫响",
+      "extra2": "§a§l蝴蝶穿/脱",
+      "extra3": "§b§l夜幕的赠予",
+      "extra4": "§b§l来自缄默的回声",
+      "extra5": "§f§l无限等待",
+      "extra6": "§f§l寂静满溢"
+    },
+    "default_texture": "texture",
+    "preview_animation": "pose",
+    "free": false,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Wuwa_The-Shorekeeper_0_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7716,
+      "sha256": "ef46ee9a28944e785100d58162fc2a13f9aead70f2511313500aeca0f047a6dc"
+    }
+  },
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 5083186,
+    "sha256": "6a6e0b36925698cd0fdd3f861ddab18ac855d071d639fa8054a9461033f4b1c9",
+    "bones": 441,
+    "cubes": 997,
+    "faces": 5225,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 983557,
+      "sha256": "441e6f16de312db62e509c609f704b2f07e0450b5aef0cbc51760c99f2b0e63b"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 55559,
+      "sha256": "fe47540f3b80a180e06cbc30f254d9bce3e9cb2475ea4d343d127dc65946c870"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2716,
+      "sha256": "dd4ae60b90a9e8d42c557752cd90911b2a991534c870dd073820bb8f0e3d9c45"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 179036,
+      "sha256": "4acff244050be84fa788ed6d93bfbb43a38ceaa6d44b8e1a717a48a0cb6382a9"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 205299,
+      "sha256": "a74641adc7cb9bebb4ea83ce68eb6dc17bdf75d7ceba3618e5a976c9e2276c64"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183836,
+      "sha256": "9fd323d8080a32c8b4ffbf2724514a48ec310f18fee6f6d3ec292ccde12b8336"
+    },
+    {
+      "path": "avatar/浅宣§f§l.png",
+      "size": 368124,
+      "sha256": "90b24a4bf3eb45662c9a9177192ed12bcbbe3aa4868deef1a0e5c5454f1ce609"
+    },
+    {
+      "path": "avatar/艺方像素§f§l.png",
+      "size": 566297,
+      "sha256": "433b99ebf52a95310dcfda8e649ba3c13dc36a99e0a8126b04a7da5a65685cb0"
+    },
+    {
+      "path": "avatar/艺方像素·售后群§f§l.png",
+      "size": 460154,
+      "sha256": "2be62c8f738500373171a66ac931fd8931c9e6bd53aaf1c19bd468a37bbfaada"
+    },
+    {
+      "path": "avatar/艺方堂·公益群§f§l.png",
+      "size": 567835,
+      "sha256": "bf4a04d1222878f5f80718bb544b4c0d7f2a60779b6ea8dcb8edc906aa527ba7"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 34638,
+      "sha256": "69ff5ac5a543237d1217230e248184c1a7d618cd5feb7c99f65ff1d6168f9584"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 47366,
+      "sha256": "afd0701462db3cb6809ccaa58c1daf9c2636b1be211fe12f26be8f9ad82a79f8"
+    },
+    {
+      "path": "models/main.json",
+      "size": 483870,
+      "sha256": "6dd414548bd151c88453f403082409e0f4b1ce33b2d6610f69e35a86fe6cbffb"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 315288,
+      "sha256": "cef766466c1581aff48a2129d82a0c78674e3025ff8c94f705db6a570d341ade"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 627429,
+      "sha256": "a661589a4588e06bc07ceae8fef327bc143499b7920cf51025dad6e6c12f6c4d"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2182,
+      "sha256": "5bc2cd4e64327d27a7202f908adaa619b078b73f6fda256fa7b89dba8b7f83e7"
+    }
+  ]
+}

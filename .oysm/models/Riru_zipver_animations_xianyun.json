@@ -1,0 +1,81 @@
+{
+  "id": "_Riru(zipver)/animations/xianyun",
+  "path": "parsed/_Riru(zipver)/animations/xianyun",
+  "source": {
+    "path": "Uncategorized/_Riru(zipver).zip",
+    "type": "zip",
+    "stem": "_Riru(zipver)",
+    "model_path": "_Riru(zipver)/animations/xianyun"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "xianyun"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 506662,
+    "sha256": "7f7f9c70a4ec241aecd4e0dfc51a5c3d85386c429416a5ef4ec11e3624ca6f2d",
+    "bones": 54,
+    "cubes": 182,
+    "faces": 1092,
+    "textures": 0,
+    "materials": 0,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 39629,
+      "sha256": "d7d8cc5aebd96d36ee76e9e4619513300bb7dbbc5d45b351a131e1145447085a"
+    },
+    {
+      "path": "arm.json",
+      "size": 1848,
+      "sha256": "754ef1b4783be9b95ee72dbbbc3511812b75834167eef905109012d4c151a056"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 144073,
+      "sha256": "1cc30c5474076f2027d3b365b9525491a76007ff6451803a06df6814302761d7"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 131125,
+      "sha256": "e898f27bfeec9afa63bc7f33c203c3be644f8354de092301d5b70fb8662f6fa6"
+    },
+    {
+      "path": "main.json",
+      "size": 32721,
+      "sha256": "815d4e415466a0907e2668ab7ca2ffcdc1c49bfc036eff34ea93c901a51d7c6c"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 157266,
+      "sha256": "c03cb9613aa5a9f19a9416760c372309e79f3d12cf1f23cfea0726dc5e825aa2"
+    }
+  ],
+  "preview_errors": [
+    {
+      "type": "image",
+      "error": "FileNotFoundError: no usable texture found"
+    }
+  ]
+}

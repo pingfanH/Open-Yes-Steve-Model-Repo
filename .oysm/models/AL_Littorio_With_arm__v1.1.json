@@ -1,0 +1,96 @@
+{
+  "id": "AL_Littorio(With_arm)_v1.1",
+  "path": "parsed/AL_Littorio(With_arm)_v1.1",
+  "source": {
+    "path": "_AzurLane/AL_Littorio(With_arm)_v1.1.ysm",
+    "type": "ysm",
+    "stem": "AL_Littorio(With_arm)_v1.1"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "AL_Littorio(With_arm)_v1.1"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "littorioarm.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/AL_Littorio_With_arm__v1.1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12233,
+      "sha256": "9b7c01fc57ce904dc71826e41cef9a4a89e29354fac7af32ca879906c14ddf93"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 1041405,
+    "sha256": "d754a88148273911a7f9747b485655e04e0ca848e05a5754c4cd8907fc5db89f",
+    "bones": 323,
+    "cubes": 1361,
+    "faces": 8166,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 19241,
+      "sha256": "d27f579795163465557169fbb5912d34efc735961161834fb56e556efa0f48ba"
+    },
+    {
+      "path": "arm.json",
+      "size": 35198,
+      "sha256": "2d1527f6714067346f10040314de100233fc9b14976e5680b36b79c4448b81bd"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 81471,
+      "sha256": "45df7611aac3999bfb0fb450ae5ade3778fe667645abd6b1137ce19f918d682b"
+    },
+    {
+      "path": "littorioarm.png",
+      "size": 112714,
+      "sha256": "0d945d6c254a10038f3875d062bb002841c2357347a8c050b68ef4864149b62c"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 101974,
+      "sha256": "80c7daf2b30f638e6e9d887b401c54dd595da8919c36672ec9b642af04ffd95d"
+    },
+    {
+      "path": "main.json",
+      "size": 685446,
+      "sha256": "78b26ce7172d25d8b85684d4d8929058302b7001712b616c79b05052e6bb5518"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 5361,
+      "sha256": "9124e5392736aec771f42a12df063e286a9ff07dec6912ac58da30e744ede475"
+    }
+  ]
+}

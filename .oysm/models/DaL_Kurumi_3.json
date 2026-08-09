@@ -1,0 +1,90 @@
+{
+  "id": "DaL_Kurumi_3",
+  "path": "parsed/DaL_Kurumi_3",
+  "source": {
+    "path": "_DateALive/DaL_Kurumi_3.ysm",
+    "type": "ysm",
+    "stem": "DaL_Kurumi_3"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "DaL_Kurumi_3"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/DaL_Kurumi_3_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13461,
+      "sha256": "c0fda6659599098841cf871c9f65744741ae4dea43f026fe88bfb412eb93ac1f"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 996125,
+    "sha256": "971c3ceb9cf3d154335def37d8ce2146ca248e59efca521cf4402198d9f2fabd",
+    "bones": 140,
+    "cubes": 962,
+    "faces": 5772,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 34308,
+      "sha256": "28b05d119539785144bb428aa0fcc265f9245b93c520fefc3e6ed2f8d3d20e94"
+    },
+    {
+      "path": "arm.json",
+      "size": 54909,
+      "sha256": "31d459433e8e9a41c2801180378a0c4f556f2cb28eed971cd06e508a7f268767"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 122601,
+      "sha256": "48bae44cda1c4a65410cdcc3e73aace2a302be6e77d0628b22641b059e8061be"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 160926,
+      "sha256": "7b583e331da4fdfc8f1d579effa752fc708debb7de73049e6202cf9e45ad93e0"
+    },
+    {
+      "path": "main.json",
+      "size": 487648,
+      "sha256": "8a5b943f80689665091a8119fdb2e0666af15e14c3a62b7748ed96e044824f93"
+    },
+    {
+      "path": "texture.png",
+      "size": 135733,
+      "sha256": "63dcd64cc454f66e4ea1884e9254f0991e54aaf819b2eb577f0d441a9da12286"
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "id": "雪风v2.0",
+  "path": "parsed/雪风v2.0",
+  "source": {
+    "path": "Unknown/雪风v2.0.ysm",
+    "type": "ysm",
+    "stem": "雪风v2.0"
+  },
+  "ysm": "parsed/雪风v2.0/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/鼠标会梦到光猫吗.png",
+        "comment": "",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/3546800153692981"
+        },
+        "name": "鼠标会梦到光猫吗",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "name": "雪风",
+    "tips": "碧蓝航线雪风"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "None": "#选项",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "懒腰": "伸懒腰",
+      "guizuo": "跪坐"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "选项",
+        "name": "调整细节",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "变化舰装",
+            "description": "调整舰装",
+            "value": "v.ship"
+          },
+          {
+            "type": "checkbox",
+            "title": "改变衣服",
+            "description": "改变人物当前的衣服",
+            "value": "v.wed"
+          },
+          {
+            "type": "checkbox",
+            "title": "关闭血条",
+            "description": "让血条暂时消失",
+            "value": "v.Health"
+          },
+          {
+            "type": "checkbox",
+            "title": "打开脚印",
+            "description": "行走时会在地面留下脚印",
+            "value": "v.T"
+          },
+          {
+            "type": "radio",
+            "title": "改变嘴型",
+            "description": "改变人物当前的嘴型",
+            "value": "v.MouthControl",
+            "labels": {
+              "微笑": "v.smile=1;v.ah=0;v.angry=0;v.W=0;v.MouthControl=0",
+              "张嘴": "v.smile=0;v.ah=1;v.angry=0;v.W=0;v.MouthControl=1",
+              "生气": "v.smile=0;v.ah=0;v.angry=1;v.W=0;v.MouthControl=2",
+              "猫嘴": "v.smile=0;v.ah=0;v.angry=0;v.W=1;v.MouthControl=3"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/v2.0_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10296,
+      "sha256": "2f1e41e77ee815d64845b6a6839d5e94c155910a507a45a8a2d917f7c1c59f3e"
+    }
+  },
+  "stats": {
+    "file_count": 21,
+    "total_bytes": 3548919,
+    "sha256": "7f75b7a372958f4a8100907df8e858408fc10cfd8dad3b416dfe3a162bc96a0d",
+    "bones": 142,
+    "cubes": 854,
+    "faces": 5124,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136989,
+      "sha256": "5aea91406a0e339f66ca67e1bfd4969d6e36b7eb90a19114e482986591482988"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 136152,
+      "sha256": "ffbe1cb42bef74dd8ce157af57c8b7d9b36c5794bf8aa3cb8530df372f05ecb7"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 218687,
+      "sha256": "de0ce0b9ba0a501265dd89c625551e53bb47a02df4237ab4645a922db31ebac1"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/鼠标会梦到光猫吗.png",
+      "size": 32855,
+      "sha256": "f042464e62dadbf8d60757840e27c2838a2c5856a75907748a9393ca1e27f897"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 12752,
+      "sha256": "742a495a9fb88ea478ff1cccf9093755283e2f0f13c8291de485e533f9a3face"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 454405,
+      "sha256": "aed73e58a4724085449eb5ca0b254722b09398824ff86b1d382ab8d6443e1e48"
+    },
+    {
+      "path": "sounds/attacked.ogg",
+      "size": 8763,
+      "sha256": "e8ef15595606a2729e200a3f08c29bfd592346ba465f21ec51f5c937baf4e292"
+    },
+    {
+      "path": "sounds/cat.ogg",
+      "size": 11526,
+      "sha256": "f06cd4ae70c900ab9a4593ab55899e48819faf9b158cd56a93df775fb42510e2"
+    },
+    {
+      "path": "sounds/death.ogg",
+      "size": 40128,
+      "sha256": "49788cbe71f8cb9117a9da33af7a06e106683aa751f33ca60b9f6355f8c2e885"
+    },
+    {
+      "path": "sounds/fire.ogg",
+      "size": 33249,
+      "sha256": "3fcf2b92bfaf1c33ca26b47fe7b85902f663f94e2c715104e9ba0c74a9736d9b"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 20259,
+      "sha256": "9ef9e61669e3dd24783d9fdf3394b060b09494c684fc73de1d066fb8fd4d2e77"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2187,
+      "sha256": "60b3d6895e2eb83f683583e912ff7e230e5ac19d832bb195f440634157297d7c"
+    }
+  ]
+}

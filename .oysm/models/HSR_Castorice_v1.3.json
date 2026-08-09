@@ -1,0 +1,283 @@
+{
+  "id": "HSR_Castorice_v1.3",
+  "path": "parsed/HSR_Castorice_v1.3",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Castorice_v1.3.ysm",
+    "type": "ysm",
+    "stem": "HSR_Castorice_v1.3"
+  },
+  "ysm": "parsed/HSR_Castorice_v1.3/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/烟雨画桥.png",
+        "comment": "…………懒，有问题私信",
+        "name": "烟雨画桥",
+        "role": "模型作者"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/mj204",
+      "home": "https://space.bilibili.com/1268865161"
+    },
+    "name": "遐蝶",
+    "tips": "死荫的侍女，冥河的女儿。\n\n\n该模型为免费版模型"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "轮盘动画1",
+      "extra9": "#POSS",
+      "extra2": "鼓掌",
+      "extra4": "不行",
+      "extra5": "好欸",
+      "extra6": "舞蹈",
+      "extra7": "舞蹈",
+      "extra8": ":D",
+      "#return": "返回按钮"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "POSS",
+        "name": "龙息",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "龙息",
+            "description": "用来切换龙息类型",
+            "value": "v.sword.a",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 2.0
+          },
+          {
+            "type": "range",
+            "title": "花消散速度",
+            "description": "花消散速度",
+            "value": "v.hua_get_xs",
+            "step": 0.1,
+            "min": 0.5,
+            "max": 4.0
+          },
+          {
+            "type": "range",
+            "title": "花数量",
+            "description": "花数量",
+            "value": "v.hua_get_num",
+            "step": 1.0,
+            "min": 3.0,
+            "max": 6.0
+          },
+          {
+            "type": "range",
+            "title": "花消散时间",
+            "description": "花消散时间",
+            "value": "v.hua_get_sj",
+            "step": 0.1,
+            "min": 1.0,
+            "max": 8.0
+          },
+          {
+            "type": "checkbox",
+            "title": "弩是否隐藏龙",
+            "description": "",
+            "value": "v.long_show"
+          },
+          {
+            "type": "radio",
+            "title": "表情",
+            "description": "表情切换",
+            "value": "v.mouse",
+            "labels": {
+              "：|": "v.mouse=0;",
+              "：D": "v.mouse=1;"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "mandisa",
+    "preview_animation": "gui",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/da.png"
+        },
+        {
+          "uv": "textures/tacz_use.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Castorice_v1.3_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 24968,
+      "sha256": "a96834db765fd8efd8489f72ddd87fa8eb631eb135f8aca5137bd36cea4d2423"
+    }
+  },
+  "stats": {
+    "file_count": 21,
+    "total_bytes": 4907028,
+    "sha256": "c93df6a62ab577219ff5fd86d847616cc5e3734c750e5530f6299faa02259ca6",
+    "bones": 642,
+    "cubes": 3050,
+    "faces": 16400,
+    "textures": 2,
+    "materials": 2,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 166844,
+      "sha256": "c7bb05b54076979d271285e334234c753884cc4f9c1f7f780f8be6721a333a5d"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 116188,
+      "sha256": "93ea04e7eeb0b59a431e6d1dae58396c62343c5667e24def8b69d3fff84a1d4c"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 324975,
+      "sha256": "dd1f975bd94094173231709d5038fdb22b250a93cfd531ab60e1d1395d135284"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1505274,
+      "sha256": "7f6c99df29289d3473ea9802cdbf76883e04712ff8936951d9fa66dbcb9c097a"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 135081,
+      "sha256": "c4f6f105c3ca232a3426c1d9767f9c018f6a73147f79e11fa317ed014f9ede9d"
+    },
+    {
+      "path": "avatar/烟雨画桥.png",
+      "size": 36436,
+      "sha256": "378b13eb21c05a10fe8be12b484abfbe033ecbb76fddf79f5785d4cd147735a1"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 10706,
+      "sha256": "ad913c49297cb7d79b7ad26900474ab4824cf410c727eed944753c17df0638af"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 75484,
+      "sha256": "5792af88a60bde9c5536e5d78066874bc6ad41f1d52de48c758cf4a158498947"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1615964,
+      "sha256": "253b84aed4be80801d51002688cf04df055d179c89624fae79fd273750bfbc03"
+    },
+    {
+      "path": "sounds/longxi_first.ogg",
+      "size": 64736,
+      "sha256": "21c75fe2c815e606e975b9fc01ee2edefac5ae148363d85fab0a10a86b4a6b29"
+    },
+    {
+      "path": "sounds/longxi_second.ogg",
+      "size": 93613,
+      "sha256": "d1e18c564e241971ea8ad61cc46aafdfef60edeef0b74c55abd29c30981e16f4"
+    },
+    {
+      "path": "sounds/longxi_t.ogg",
+      "size": 79729,
+      "sha256": "de446c9a695933928a994a232ca1dc74cbf67ca362ace818b01ca5852700baac"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/da.png",
+      "size": 249755,
+      "sha256": "6f79ff506fd49e41a90a61c075bfd3678d91038faf98112dc470a7714a1d2046"
+    },
+    {
+      "path": "textures/tacz_use.png",
+      "size": 239389,
+      "sha256": "f779a85b1885e91e7e1c5eef7308d0bbfa9890bbcccb6cd93123a7ffe3d2583b"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2309,
+      "sha256": "20d3b51d6bfc52693b63bc215fa2c91b89e9e4756983948efa7c0b3d134270bd"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "AshArms_猎虎H",
+  "path": "parsed/AshArms_猎虎H",
+  "source": {
+    "path": "_AshArms/AshArms_猎虎H.ysm",
+    "type": "ysm",
+    "stem": "AshArms_猎虎H"
+  },
+  "ysm": "parsed/AshArms_猎虎H/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/XGancheng_Tao.png",
+        "comment": "为了做出这个模型，已经燃尽了。",
+        "contact": {
+          "bilibili": "https://space.bilibili.com/1406170630"
+        },
+        "name": "XGancheng_Tao",
+        "role": "模型与动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Right Reserved"
+    },
+    "link": {
+      "donate": "https://没有赞助",
+      "home": "https://没有主页"
+    },
+    "name": "猎虎H",
+    "tips": "游戏《灰烬战线》中的角色“猎虎”\n此模型为免费模型，可上传至免费服务器。\n但请勿进行二次售卖、分发和修改,禁止商用！！！\n下一个可能会做ho229或者me262，你问我什么时候能做好？\n回答是：sooooooon~~~~"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra-D": "启动arms",
+      "extra-A": "离开arms",
+      "extra-tupian": "奇怪的图片",
+      "extra3": "动作4",
+      "extra4": "动作5",
+      "extra5": "动作6",
+      "extra6": "动作7",
+      "extra7": "动作8"
+    },
+    "preview_animation": "gui",
+    "free": false,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/AshArms__H_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13199,
+      "sha256": "15ec3528eddfe0135f5fadc5d45eebad62830fb24202f402ca733e75de5ed7af"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 1641642,
+    "sha256": "d020dceb868349ceac79bab59ab1e800c0c196611b33d77f611e05e666626dcb",
+    "bones": 592,
+    "cubes": 1463,
+    "faces": 8618,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 140096,
+      "sha256": "6229ac26f484075890016461d29fb8d7fe73729dfc1db44f503f44366643a478"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "6e8d3afe0c3baafff8f7f3e0e30ef3c621c667be5c346af73398f5fd3cb89ca5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 10860,
+      "sha256": "4d7438b23362913b2cb741c1cd3bbaf9239732e399780e6026ae297b17aa9e44"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 216159,
+      "sha256": "96d4da38aaae3a7508ea96e1d9d5e85d26509debcb4cd419f82eccd172c18433"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 192905,
+      "sha256": "69f02ae4feed57e4b87cced8dd6e365f11275dc4f89cc2ce3834d787902d3900"
+    },
+    {
+      "path": "avatar/XGancheng_Tao.png",
+      "size": 168196,
+      "sha256": "0ed98d4d323a5c96b2d204ead4b082e03b4acc84db4c40ced5c6656725ea1d29"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 8558,
+      "sha256": "ab8455f77e21f24898f61461a1e118a159e1df0caa346867f1af3527dd8a6443"
+    },
+    {
+      "path": "models/main.json",
+      "size": 750313,
+      "sha256": "8b8107ece6acf9aa9b0e201878701e42b28c0c3f54ff78f3571fcb32804405c0"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 150531,
+      "sha256": "a0be9f54e050a2223ae8094c4d499fb2d8d3d3155c164fc8cacf59b0ff2c0102"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1349,
+      "sha256": "a9f3a2b7c4356e4ec0b09bce669dccaa73e738b5656939f673bdc6ff3b733316"
+    }
+  ]
+}

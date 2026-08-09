@@ -1,0 +1,78 @@
+{
+  "id": "GI_Raiden-Shogun",
+  "path": "parsed/GI_Raiden-Shogun",
+  "source": {
+    "path": "_GenshinImpact/GI_Raiden-Shogun.ysm",
+    "type": "ysm",
+    "stem": "GI_Raiden-Shogun"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "GI_Raiden-Shogun"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "RS-03.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_Raiden-Shogun_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9568,
+      "sha256": "1081e3d2f3cb3ab2eb5dea909e3511ac892ba0d33625a5e780ae01caba364d7f"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 605501,
+    "sha256": "ba40d205a00812fcad9766447de04bb5dec422c173daa5a48813b2da2faee4bb",
+    "bones": 78,
+    "cubes": 677,
+    "faces": 4062,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "RS-03.png",
+      "size": 51569,
+      "sha256": "b302afda9954fa7d09d4d01daace1c604a01feae0488f576f84fbe674652f30a"
+    },
+    {
+      "path": "arm.json",
+      "size": 1845,
+      "sha256": "ddb88fb970ae3dcc66d348ed6dba219fedc098386902b9f8bb9d094ffa18b66d"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 178349,
+      "sha256": "3e25e222f827357f3e2c137afde0ceb9eece7eb40352576e9ae7784fe8076b2a"
+    },
+    {
+      "path": "main.json",
+      "size": 373738,
+      "sha256": "ef9e558ad7062c4f680cffc97d51bce46ec6b591e5bee0365afb629e30df323d"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "GT_Beth",
+  "path": "parsed/GT_Beth",
+  "source": {
+    "path": "_GuardianTales/GT_Beth.ysm",
+    "type": "ysm",
+    "stem": "GT_Beth"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "GT_Beth"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GT_Beth_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10184,
+      "sha256": "b59cf9f01c4ab30f896bf70f51b5e67c9b0654869b26aa655c29452765f658b0"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 416596,
+    "sha256": "fbe9033b86a2f0121fda57e968a38de0ee5200f3eab0375f52b4c1149f873dce",
+    "bones": 65,
+    "cubes": 293,
+    "faces": 1758,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 558,
+      "sha256": "4ffa6140253b570a257b189bcb82709603a294dc1d36597b990316257abc00f5"
+    },
+    {
+      "path": "arm.json",
+      "size": 3736,
+      "sha256": "8d358070daa12d9e4de9553858db2e8aeacbd32d128135e64b3726541019491f"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 144073,
+      "sha256": "1cc30c5474076f2027d3b365b9525491a76007ff6451803a06df6814302761d7"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 99043,
+      "sha256": "9eac3d7e4ad26eb4cc929b3d4081156d0cdde9f30e8e1c4c85f09a0d3369197d"
+    },
+    {
+      "path": "main.json",
+      "size": 153381,
+      "sha256": "6fff500fc2e54eef271d184de615131828c7bda453eb1faa6fe1eb9fa07d3dc7"
+    },
+    {
+      "path": "texture.png",
+      "size": 15805,
+      "sha256": "3ee1f7332b7ebdc0bbd7aff5fe3bcf97db50d15a6042ed9e573d11210a4dfe84"
+    }
+  ]
+}

@@ -1,0 +1,348 @@
+{
+  "id": "Vtuber_黎歌Neeko_3.0",
+  "path": "parsed/Vtuber_黎歌Neeko_3.0",
+  "source": {
+    "path": "_Vtuber/Vtuber_黎歌Neeko_3.0.ysm",
+    "type": "ysm",
+    "stem": "Vtuber_黎歌Neeko_3.0"
+  },
+  "ysm": "parsed/Vtuber_黎歌Neeko_3.0/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/黎歌Neeko.png",
+        "comment": "§b1000CMの天才巨乳美少女",
+        "contact": {
+          "哔哩哔哩": "https://space.bilibili.com/671538942",
+          "歌鸽小巢窝": "https://neeko.remoon.cn/"
+        },
+        "name": "黎歌Neeko",
+        "role": "§b 原型人物"
+      },
+      {
+        "avatar": "avatar/§d瀛猫.png",
+        "comment": "§b一个透明人",
+        "contact": {
+          "QQ": "472029121",
+          "哔哩哔哩": "https://space.bilibili.com/647224460",
+          "爱发电": "https://afdian.com/a/wincatpro"
+        },
+        "name": "§d瀛猫",
+        "role": "§b模型制作"
+      }
+    ],
+    "license": {
+      "desc": "§c§l未经允许请勿商用",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/wincatpro",
+      "home": "https://space.bilibili.com/671538942"
+    },
+    "name": "§b✡§f§l黎歌3.0§b✡",
+    "tips": "§6§l1000CMの天才巨乳美少女\n§b§n梦想是一直和嘎人们同行，与\n§b§n更多小憨巴相遇~希望能有更多\n§b§n人的听见我的歌声... 和我聊天，\n§b§n一起笑一起哭...\n§c§l未经允许请勿商用"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra2": "#extra_hbg",
+      "extra3": "§a可以",
+      "extra4": "§a不可以",
+      "extra5": "§b§l《希望有羽毛与翅膀》",
+      "extra6": "§d§l《勾指起誓》",
+      "extra7": "§b青海摇"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "黎歌配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "人物大小",
+            "description": "调整整个模型的大小",
+            "value": "v.player_size",
+            "step": 0.1,
+            "min": 0.1,
+            "max": 1.0
+          },
+          {
+            "type": "radio",
+            "title": "§a面部表情",
+            "description": "这里可以调整脸部表情",
+            "value": "v.bq",
+            "labels": {
+              "正常": "v.bq=0",
+              ">_<": "v.bq=1",
+              "微笑": "v.bq=2"
+            }
+          },
+          {
+            "type": "range",
+            "title": "§e§l调整欧派大小",
+            "description": "awa",
+            "value": "v.breast",
+            "step": 0.01,
+            "min": -0.1,
+            "max": 0.1
+          },
+          {
+            "type": "checkbox",
+            "title": "§d§l小憨巴",
+            "description": "显示与关闭小憨巴",
+            "value": "v.hbg"
+          },
+          {
+            "type": "checkbox",
+            "title": "§f§l左腿丝袜",
+            "description": "显示关闭左腿丝袜",
+            "value": "v.siwaz"
+          },
+          {
+            "type": "checkbox",
+            "title": "§f§l右腿丝袜",
+            "description": "显示关闭右腿丝袜",
+            "value": "v.siway"
+          },
+          {
+            "type": "checkbox",
+            "title": "§f§l右腿原石腿环",
+            "description": "显示关闭腿环",
+            "value": "v.zth"
+          },
+          {
+            "type": "checkbox",
+            "title": "§f§l裙子摆尾",
+            "description": "显示关闭裙子摆尾",
+            "value": "v.tuowei"
+          },
+          {
+            "type": "checkbox",
+            "title": "§7§l后裙吊带",
+            "description": "显示关闭后裙吊带",
+            "value": "v.pd"
+          }
+        ]
+      },
+      {
+        "id": "extra_hbg",
+        "name": "小憨巴配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "小憨巴上下位置",
+            "description": "调整小憨巴在Y轴的位置",
+            "value": "v.hbgy",
+            "step": 0.1,
+            "min": -10.0,
+            "max": 10.0
+          },
+          {
+            "type": "range",
+            "title": "小憨巴左右位置",
+            "description": "调整小憨巴在X轴的位置",
+            "value": "v.hbgx",
+            "step": 1.0,
+            "min": -30.0,
+            "max": 30.0
+          },
+          {
+            "type": "range",
+            "title": "小憨巴前后位置",
+            "description": "调整小憨巴在Z轴的位置",
+            "value": "v.hbgz",
+            "step": 1.0,
+            "min": -20.0,
+            "max": 20.0
+          },
+          {
+            "type": "range",
+            "title": "小憨巴大小",
+            "description": "调整小憨巴整体大小",
+            "value": "v.hbgsize",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 1.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "tlm": "animations/tlm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Vtuber__Neeko_3.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 16177,
+      "sha256": "bee9ee8842ee5dd530b179d6549c4fc17c219f83e58ac72cd1b084556a6a7f5c"
+    }
+  },
+  "stats": {
+    "file_count": 21,
+    "total_bytes": 18227474,
+    "sha256": "334e4ca8133c9239e79c014bf12692797192644819aac5b51b043d6163d56fd7",
+    "bones": 438,
+    "cubes": 1889,
+    "faces": 10979,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 216849,
+      "sha256": "a119d36565b6cc3c5b6e72c9d1e2a1e77141630402b910557b41d0df6f82eb08"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 9892452,
+      "sha256": "2c3858d913880293234e96686d5eb95b398527beec8113cdb1887ad1799ce2e8"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 303672,
+      "sha256": "90d6b2b4bc2cea34f5515dae69efe62198fb78bb402aebf82be22fb867034458"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 156820,
+      "sha256": "f36fafe4768582999dd936a3f1424508eb9d2f9c7ee4c24a3cd425cb495037b7"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 51268,
+      "sha256": "e21a7117994ffb7067f4dae5c947ca25f1c9a32f55a2ef582125c9be81bfbb08"
+    },
+    {
+      "path": "avatar/§d瀛猫.png",
+      "size": 13934,
+      "sha256": "46b45a286d36976772598c04183a755d1212b190a9aea6bb7b787e207de1e030"
+    },
+    {
+      "path": "avatar/黎歌Neeko.png",
+      "size": 26899,
+      "sha256": "8620023fc59882701d8246b47204d04a781580756008a74d370b9b9ef2d13dc2"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 3795,
+      "sha256": "373611b0f928be0ef367e266284fc4cf0b6d241e64c437aa2265217c8b6f28d7"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 59950,
+      "sha256": "a71f5ac5e60c96001f0c8925a1d058da81c05ee066ebb2287715eceb2ad4e0eb"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 4026,
+      "sha256": "85e0bccc966a77c2d033f738ce9dec23155d6ec73e619fe66550c8c85ee06fed"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1100945,
+      "sha256": "f09398416cd5c2221f0a401b34a0169b43fabdf221f09d705cbf0cab740fcf6a"
+    },
+    {
+      "path": "sounds/cb.ogg",
+      "size": 2371350,
+      "sha256": "aa6b7515735939c28b10e773eeb06c5e74099fcfb595f63d43d15933d94f2ba1"
+    },
+    {
+      "path": "sounds/cbb.ogg",
+      "size": 1224512,
+      "sha256": "2090322ca4f7a0cc4ab0b1105d2949f1bfb3feea112d2ab30cc04c59f1616e2b"
+    },
+    {
+      "path": "sounds/gzqs.ogg",
+      "size": 2467706,
+      "sha256": "1b9b5d8a9540646c933059110ca31929fe407566a3bdc20a28a5116fb7150646"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 3346,
+      "sha256": "40d164ec25ebd6688b4834a3d5fb36e7acf2e238f817124c2b085ad8d5c75120"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 143639,
+      "sha256": "b16724ee6628baa927e167ea6b0773785956d1d1b0021456100e3e81876f0e42"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3880,
+      "sha256": "76aaf2fefda994defe32612b1d5670a91ec39c21cc6031912bec219123222f1a"
+    }
+  ]
+}

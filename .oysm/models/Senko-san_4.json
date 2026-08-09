@@ -1,0 +1,107 @@
+{
+  "id": "Senko-san_4",
+  "path": "parsed/Senko-san_4",
+  "source": {
+    "path": "_Senko-san/Senko-san_4.zip",
+    "type": "zip",
+    "stem": "Senko-san_4"
+  },
+  "ysm": "parsed/Senko-san_4/ysm.json",
+  "metadata": {
+    "name": "Senko San",
+    "tips": "This is for accurate eyes height\nFor intended size:\n/attribute @s minecraft:generic.scale base set 0.77",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "RayCantTrace",
+        "role": "Model and animations",
+        "avatar": "avatar/avt.png",
+        "contact": {
+          "Youtube": "https://www.youtube.com/@RayCantTrace"
+        }
+      }
+    ]
+  },
+  "properties": {
+    "height_scale": 1.3,
+    "width_scale": 1.3,
+    "preview_animation": "gui",
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json"
+      },
+      "texture": [
+        "textures/senko_san.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Senko-san_4_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3037,
+      "sha256": "487400a9d1f505de7e43d28eb6e0608ab6fdf2ac22d11358f41827f5bdbb70c0"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 289726,
+    "sha256": "80fc180d39605498dcd73ccabacadc026e5ac836584c289e1ad6292844a38ba3",
+    "bones": 103,
+    "cubes": 149,
+    "faces": 894,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/main.animation.json",
+      "size": 167184,
+      "sha256": "8dae94e8394d4d926b947a3e7c65d56c51b10bbc39b8168a33a7ba9d73da6660"
+    },
+    {
+      "path": "avatar/avt.png",
+      "size": 59213,
+      "sha256": "2bad8c5b971795c558b9421b24f69a4f25811172bb836b0bde8b87f7a49917b7"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 6236,
+      "sha256": "8d9b92cee564ef8e4319213923a807a6afd480f95995ca4f54d45f04289153f4"
+    },
+    {
+      "path": "models/main.json",
+      "size": 52465,
+      "sha256": "d94c7f67b7f89738966d279b225a6e57dc2bc6f6b997575a4b87426db446e134"
+    },
+    {
+      "path": "textures/senko_san.png",
+      "size": 3743,
+      "sha256": "a318bc51117b95d6c6d0f19ee30c64910edcd0a9f748b92832d86c5615af07c2"
+    },
+    {
+      "path": "ysm.json",
+      "size": 885,
+      "sha256": "0533ac44e8e4b8e4a0a2cd1153ca0fe76b8a25f203f18444bda529dc46507a8b"
+    }
+  ]
+}

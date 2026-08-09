@@ -1,0 +1,78 @@
+{
+  "id": "Atelier_Reisalin-Stout",
+  "path": "parsed/Atelier_Reisalin-Stout",
+  "source": {
+    "path": "_Atelier/Atelier_Reisalin-Stout.zip",
+    "type": "zip",
+    "stem": "Atelier_Reisalin-Stout"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Atelier_Reisalin-Stout"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "default.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Atelier_Reisalin-Stout_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7576,
+      "sha256": "2ab20b7accc9fe9044f3871dfd430b481f19ffc3c1e99e496ee9c2514ab8c36b"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 318456,
+    "sha256": "485fabb73ac7ae376b0942ed511f206472367f4f318744adc12d9cd02fc2ab64",
+    "bones": 89,
+    "cubes": 852,
+    "faces": 5112,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 8841,
+      "sha256": "b170c5866f268d4a65c2b8a382cfa76fd57b0e2dad0ff9257487eb313bcca2f5"
+    },
+    {
+      "path": "default.png",
+      "size": 8070,
+      "sha256": "3a93dca96383b9a35cffeb72abde52f29f9b48ddfd417714f02f2e0962d4d459"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 168862,
+      "sha256": "2719edcb1d88db3aa3f4d626c5602c74af2376db53056a9e7abf19fa9ed2d694"
+    },
+    {
+      "path": "main.json",
+      "size": 132683,
+      "sha256": "0adf5f02f350aca54c5f0e1a46ef250c7fe0615e2ed4517f9be944ca03fe44f6"
+    }
+  ]
+}

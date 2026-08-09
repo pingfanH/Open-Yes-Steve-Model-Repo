@@ -1,0 +1,98 @@
+{
+  "id": "_Dumnhenint_v1.0",
+  "path": "parsed/_Dumnhenint_v1.0",
+  "source": {
+    "path": "Uncategorized/_Dumnhenint_v1.0.ysm",
+    "type": "ysm",
+    "stem": "_Dumnhenint_v1.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "DH",
+    "tips": "特雷p...森保安（？）",
+    "authors": [
+      {
+        "name": "Dumnheint"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Dumnhenint_v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7565,
+      "sha256": "524492671ed5f9f89b25608404fb592752bf7aef9af63f2f05fc6fcba332d840"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 1340041,
+    "sha256": "4c7e43c06ec5e8835dc7165df09acbdbe14833a23452eeffb08700ed301f73a6",
+    "bones": 300,
+    "cubes": 407,
+    "faces": 2442,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 13224,
+      "sha256": "23d0b1b800e185384d3cfdb0c1aae664d2ba2d5a9669134ccd1aeddf8033a9bb"
+    },
+    {
+      "path": "dumnhenint_v1.0.ysm",
+      "size": 95536,
+      "sha256": "b3a39c4ef0764304dfd9ac005c1810d4ef12dee6be2874120153f5330169b54a"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 344482,
+      "sha256": "0f3561209fddfdaff556e38f011a089bc217bfe8bbb22de9ef0d2c5bc5b342e1"
+    },
+    {
+      "path": "main.json",
+      "size": 204718,
+      "sha256": "cff1564aacc3d9273e9af58bd24eb4325d15f5fd7eb2ee6b5be3883b08adc1f2"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 662592,
+      "sha256": "8c62b857160afecf5f087158435aa4c852de2cd2b359841cc9e2d46869504c76"
+    },
+    {
+      "path": "texture.png",
+      "size": 19489,
+      "sha256": "ab217adceb243eb393190ec8f571686b47dcace5667976a8c5dce547db774a7e"
+    }
+  ]
+}

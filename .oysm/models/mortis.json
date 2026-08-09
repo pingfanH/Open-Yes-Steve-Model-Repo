@@ -1,0 +1,188 @@
+{
+  "id": "_mortis",
+  "path": "parsed/_mortis",
+  "source": {
+    "path": "Uncategorized/_mortis.ysm",
+    "type": "ysm",
+    "stem": "_mortis"
+  },
+  "ysm": "parsed/_mortis/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/伦理问题.png",
+        "comment": "我再也不要搞模型了，感觉像在坐牢。",
+        "contact": {
+          "Afdian": "https://afdian.com/a/Mortis",
+          "Bilibili": "https://space.bilibili.com/384456209"
+        },
+        "name": "伦理问题",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/MORTIS.png",
+        "comment": "      O_O",
+        "name": "MORTIS",
+        "role": "原设定"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/Mortis",
+      "home": "https://space.bilibili.com/384456209"
+    },
+    "name": "Mortis",
+    "tips": "人造尸体渴望成为全知全能的神。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "猫耳切换",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "ok",
+      "extra4": "拒绝",
+      "extra5": "好耶",
+      "extra6": "变身",
+      "extra7": "待机",
+      "extra8": "飞头降",
+      "extra9": "换衣服"
+    },
+    "default_texture": "default",
+    "preview_animation": "extra7",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture1.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/mortis_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 14126,
+      "sha256": "96620f20fb9b8a91ca39732dbcfd4e4efd2362177619691edafca2cf5483c7ea"
+    }
+  },
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 2724337,
+    "sha256": "095a07a7c739a5597fa9a4021abf888951eadad4f57d3da6e20220427860ad49",
+    "bones": 691,
+    "cubes": 2884,
+    "faces": 17304,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 158719,
+      "sha256": "87dbf5ef69254f69ee6e6a018924a41209c89cb664967ea5dbd31ee8d9c1a49e"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 971,
+      "sha256": "1726e63a278e838d6a615a2db0cda16a6147ffac835b498f32e79b74abaffef0"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "9ddd4debb2565edb0e0cce8e674cd4292bafc3ac7d55894f2ff68a4708338e58"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 184707,
+      "sha256": "699f5adaf21c3dee8e601dae8e7e037b7757a00cb6d439e8f16272f1610205d7"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 307957,
+      "sha256": "d4a0c118085bf01bb5b9cdf6378196f08e4c0f23e6050a3028d2d48a2c296fb4"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 42153,
+      "sha256": "fc26475cb8eea0d450bf09b76ec8f0179977c064d8080e6682ddd3e89b416fec"
+    },
+    {
+      "path": "avatar/MORTIS.png",
+      "size": 251963,
+      "sha256": "7c2ecfb78445e88b98249bca29a5294095e72020c6b885e35cc9a64a4198fb0c"
+    },
+    {
+      "path": "avatar/伦理问题.png",
+      "size": 13202,
+      "sha256": "46c526998db123c7bf681f28fd4f482dcf3cb9bde57f2d93e9a2cd912545831d"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 686966,
+      "sha256": "e3ef2806c4563d543d8bddbbff6d2c140bfc800e456ab33c9aa644a97de572b1"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 21497,
+      "sha256": "27b79132d65f6d815f572518475549eaf1e0e9ca977c681da531363cd43b555e"
+    },
+    {
+      "path": "models/main.json",
+      "size": 929997,
+      "sha256": "c69c2dc1e6b40a3815a3056bca9526e40ad18dca5436083abeb16376477ab046"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1084,
+      "sha256": "64997c7b17fbd83fdbfdc09af04138488f896515ee5933b76ab3f232ad3375ee"
+    },
+    {
+      "path": "textures/texture1.png",
+      "size": 121007,
+      "sha256": "ab44fd9999bf5a0420068c6ef549dfcb620b99921564cf13265c38818e0b2f9b"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1439,
+      "sha256": "d576b79179fec17cabe130f96bdd59c127a1f6c34afdf0b8de5150e2ef534d1c"
+    }
+  ]
+}

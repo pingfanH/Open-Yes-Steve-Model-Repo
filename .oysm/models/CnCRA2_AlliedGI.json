@@ -1,0 +1,106 @@
+{
+  "id": "CnCRA2_AlliedGI",
+  "path": "parsed/CnCRA2_AlliedGI",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCRA2_AlliedGI.ysm",
+    "type": "ysm",
+    "stem": "CnCRA2_AlliedGI"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "盟军步枪兵（ra95）",
+    "tips": "预览界面可选择是否显示目镜",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png",
+        "texture2.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCRA2_AlliedGI_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5840,
+      "sha256": "80f2d9ee538437c7ddcf4bc58fd077dee83b514d64c73789d12d501a5cd4cd3a"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 364488,
+    "sha256": "0b4d5f8ff9f1652b2fd5094cd8bc5c9d3850b93dd037f0abb2c3f8d773d639d4",
+    "bones": 50,
+    "cubes": 144,
+    "faces": 864,
+    "textures": 2,
+    "materials": 2,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 7681,
+      "sha256": "90ebf6239140625a6bf41f0d55ed633615c3ef2cb951d0071c0ccb1f52db197e"
+    },
+    {
+      "path": "info.json",
+      "size": 182,
+      "sha256": "b844db03e9f789c6f41fcda0e7aa3fd1fc8a46890a38c3ca9d7c051f7cded529"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122470,
+      "sha256": "d93402d24863ccd84622801424bb845d8ff78161fae9d48b7bbf0c3d213720c1"
+    },
+    {
+      "path": "main.json",
+      "size": 67886,
+      "sha256": "e28df678563f5a8e8136e0c6cb798a22707c224304e3a032611e469f2d326c95"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131639,
+      "sha256": "a73cf95259743cc506fa6931e6bed68e0e41c5edca8f4651f26f1a42c1e26994"
+    },
+    {
+      "path": "texture.png",
+      "size": 17465,
+      "sha256": "44e90995dced9aa9eef1bbbc4a854f497a88ef2c390e41357135e3441c9a4ddd"
+    },
+    {
+      "path": "texture2.png",
+      "size": 17165,
+      "sha256": "c2fe197c35e51e07a27d8cb5985b719a587e070d156fd56421495d08b9dbef67"
+    }
+  ]
+}

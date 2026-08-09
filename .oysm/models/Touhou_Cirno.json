@@ -1,0 +1,99 @@
+{
+  "id": "Touhou_Cirno",
+  "path": "parsed/Touhou_Cirno",
+  "source": {
+    "path": "_TouhouProject/Touhou_Cirno.ysm",
+    "type": "ysm",
+    "stem": "Touhou_Cirno"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "琪露诺",
+    "tips": "可脱盔甲变成死库水，贴图可切换成晒黑皮肤\n适配YSM1.18.2-1.1.5\n模型版本1.0.0",
+    "authors": [
+      {
+        "name": "完全冻结"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "tex_normal.png",
+        "tex_white.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Touhou_Cirno_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12099,
+      "sha256": "023a2c945290f1fe8e65bca9e9b8c3516e608d56e530ad3e71a076b332d56e9d"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 423260,
+    "sha256": "5e6190a0dc5a405be2df423dbc9b2629f59d037944b58d9ac1c5d727029cf69f",
+    "bones": 139,
+    "cubes": 421,
+    "faces": 2526,
+    "textures": 2,
+    "materials": 2,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 3349,
+      "sha256": "d8056abbefa5456251a713ab0aaa401022096ed188e86b251e787b0df30b1f25"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 166075,
+      "sha256": "6014926c0d852b2805a261f694c1dd4f58323774c6a71a506f4b635687a66510"
+    },
+    {
+      "path": "main.json",
+      "size": 79428,
+      "sha256": "e4dfc75907083ee4fe7a20d4ef979f3fb549100d6e7d7d2d3991ba296b89f6f4"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 157224,
+      "sha256": "15c380f7cd3a9e2e1800864a413d1a788a5be40c71cff6bbc37a83c94a0789b9"
+    },
+    {
+      "path": "tex_normal.png",
+      "size": 8467,
+      "sha256": "c851ec49f2a287327f9b8786469df68444cb296b1ddece5d5a17d47b6b7d2cb1"
+    },
+    {
+      "path": "tex_white.png",
+      "size": 8717,
+      "sha256": "a053fc7a88516049ffe241b7d2ef7344a6c2b42b1857e622e5c22e7e6de730b9"
+    }
+  ]
+}

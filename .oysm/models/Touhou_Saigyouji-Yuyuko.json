@@ -1,0 +1,110 @@
+{
+  "id": "Touhou_Saigyouji-Yuyuko",
+  "path": "parsed/Touhou_Saigyouji-Yuyuko",
+  "source": {
+    "path": "_TouhouProject/Touhou_Saigyouji-Yuyuko.ysm",
+    "type": "ysm",
+    "stem": "Touhou_Saigyouji-Yuyuko"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "西行寺幽幽子",
+    "tips": "华胥的亡灵",
+    "authors": [
+      {
+        "name": "bilibili:@松鼠式坦克"
+      }
+    ],
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    }
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png",
+        "texture2.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Touhou_Saigyouji-Yuyuko_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 41568,
+      "sha256": "708109b0ce2dc81276a51ec0cb2991af86c0ca4b0ed6010c67ced890f2ad6b89"
+    }
+  },
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 4691198,
+    "sha256": "e1566ef25d29146fe7bb08b0d15e1a3421f921a7d3bd940c32aee397ed79f4ba",
+    "bones": 118,
+    "cubes": 1391,
+    "faces": 8344,
+    "textures": 2,
+    "materials": 2,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 39949,
+      "sha256": "bcda4e597c6d02cc193becf72c64c484cffd575ca7dbfaa6fc7776dadb38ee00"
+    },
+    {
+      "path": "arm.json",
+      "size": 181093,
+      "sha256": "14d5113f4c322904bf101006d80e490c75928b821fffa56a9ce3eb2630235f43"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 159160,
+      "sha256": "194a8beb3649bd1380cf41e3ac4cf799c424c6a6c5451988a9c03cf105ba13ab"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 155069,
+      "sha256": "e8b154cbdee6ebd8898780aacd04a2249c612a64b9cbe15f9c59d200b16cdaf4"
+    },
+    {
+      "path": "main.json",
+      "size": 633424,
+      "sha256": "d5aeca703d3f8794145807f83312fb0c3e2beae762056971b807bfdc83c4ea4a"
+    },
+    {
+      "path": "texture.png",
+      "size": 102631,
+      "sha256": "55656cef427bd48d1c8d192f383c027c9633cf0c31129d5b5358836ed5635e43"
+    },
+    {
+      "path": "texture2.png",
+      "size": 99880,
+      "sha256": "cf3bda705c50ab77d7b1681454cfef7b4e1dea069a2490be049f2398be8a4160"
+    },
+    {
+      "path": "西行寺幽幽子.bbmodel",
+      "size": 3319992,
+      "sha256": "8dd1788d6a74f8040317d777281443de35b6cf6ec685353b2ae566fce7c7fdca"
+    }
+  ]
+}

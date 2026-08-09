@@ -1,0 +1,84 @@
+{
+  "id": "_Merry",
+  "path": "parsed/_Merry",
+  "source": {
+    "path": "Uncategorized/_Merry.ysm",
+    "type": "ysm",
+    "stem": "_Merry"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_Merry"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "merry.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Merry_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8999,
+      "sha256": "f0107f96f0e417dcad760b28aa19175b5b17ef57ba44c15488d85e60a6abf3b0"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 528900,
+    "sha256": "2d80b516c2dc4a1996fc25d53362a6f58ec2de38860c10e0f2b23ec5cdac2f15",
+    "bones": 80,
+    "cubes": 451,
+    "faces": 2706,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 17501,
+      "sha256": "7a013d65b43fd93c2aca38f9cadc485d5a302a350fd3008406be2b29a0c85694"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 144040,
+      "sha256": "2c6c75b5ee24ca2aeb079ed1c431ec196930f74313899ae0771d2449d46e1943"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 125659,
+      "sha256": "d9db0de2a663123d23f3fc76c0154599bcf607f6cd4753c642985048dcff5fec"
+    },
+    {
+      "path": "main.json",
+      "size": 225855,
+      "sha256": "19c786627c5de7030ab2d0e4bdde2ad8c08b0a68f63a2f1afd7cd48fec683095"
+    },
+    {
+      "path": "merry.png",
+      "size": 15845,
+      "sha256": "cf5fe389b867044299fe1e7f48c4149b8e1d260ad38dc215a59e9b9e61255d8c"
+    }
+  ]
+}

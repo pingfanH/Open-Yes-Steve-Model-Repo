@@ -1,0 +1,214 @@
+{
+  "id": "SAO_Kirito",
+  "path": "parsed/SAO_Kirito",
+  "source": {
+    "path": "_SwordArtOnline/SAO_Kirito.ysm",
+    "type": "ysm",
+    "stem": "SAO_Kirito"
+  },
+  "ysm": "parsed/SAO_Kirito/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/PoshGiraffe0.png",
+        "comment": "",
+        "contact": {
+          "Afdian": "",
+          "Bilibili": ""
+        },
+        "name": "PoshGiraffe0",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/PoshGiraffe0.png",
+        "comment": "",
+        "contact": {
+          "Afdian": "",
+          "Bilibili": ""
+        },
+        "name": "PoshGiraffe0",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/.png",
+        "comment": "",
+        "contact": {
+          "Bilibili": ""
+        },
+        "name": "",
+        "role": ""
+      },
+      {
+        "avatar": "avatar/.png",
+        "comment": "",
+        "contact": {
+          "Bilibili": ""
+        },
+        "name": "",
+        "role": ""
+      },
+      {
+        "avatar": "avatar/.png",
+        "comment": "",
+        "contact": {
+          "Bilibili": ""
+        },
+        "name": "",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Kirito",
+    "tips": ""
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "翅膀",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "是的",
+      "extra4": "不行",
+      "extra5": "剑鞘",
+      "extra6": "表情",
+      "extra7": "圣诞快乐"
+    },
+    "extra_animation_classify": [],
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/skin.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/SAO_Kirito_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6964,
+      "sha256": "5b54beb55261c2e8a79fef390bf55553847575fa23a5a574c3e90f6321e1afa6"
+    }
+  },
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 4957621,
+    "sha256": "d53c9efbb8f97bebbd002fd60e092790625841ec0b3491cafd5af667da8035f5",
+    "bones": 453,
+    "cubes": 3828,
+    "faces": 20818,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 130712,
+      "sha256": "3dd5b79c0bbaede9c609a2d3a0043d871c8cf326883a598cc8e9cd5cea33a726"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1138,
+      "sha256": "6ef6791b2b391fc30bb2f74f26eb09de94e2a382c535202f5d736eb89d37577d"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "6e8d3afe0c3baafff8f7f3e0e30ef3c621c667be5c346af73398f5fd3cb89ca5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 26693,
+      "sha256": "042f0f1a880453a5bd5a322070eb831296cb7148e85881969aeb1669667083d5"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 259053,
+      "sha256": "c70d597f638fad34bfeb8233873a334b49bb3d0ed644fd24effa809a41010dfa"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 149003,
+      "sha256": "5370109a59f5d927898ef3c1e3261df6c6e2ad196c4ff12eb22b6b1d172267da"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 188366,
+      "sha256": "ee00250377b1cc4f203a822bf452940b4c408de9f7bacb6626726a7cc1ea0d7a"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 1247,
+      "sha256": "c8d540528475876da33cd3f90b348d0422b90aa35a5e56204ca1ad25bf78d6ab"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1879119,
+      "sha256": "e7b9f3437dab98c7b56e4ae5dbb84a39df931da0ff7ca45dae197b21dfb854bd"
+    },
+    {
+      "path": "sounds/sdkl.ogg",
+      "size": 2259152,
+      "sha256": "c9929812ab8d75f698d2c36993d688149e284a340bce0d081972709ff526080f"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 517,
+      "sha256": "2f34bc084cbbc5250015a19261486d5e558c637f037228edd9992670a4b23c17"
+    },
+    {
+      "path": "textures/skin.png",
+      "size": 58367,
+      "sha256": "e321d8dbf57fc251694b85ecba0b39ff5ba89594ab1c13a7863446a621b6d0df"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1579,
+      "sha256": "bc0f32ba3e3bf1d2f6fd141701e66a3ec83fb44469217e301a5c9fdc1b97e723"
+    }
+  ]
+}

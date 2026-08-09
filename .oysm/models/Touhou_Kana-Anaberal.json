@@ -1,0 +1,186 @@
+{
+  "id": "Touhou_Kana-Anaberal",
+  "path": "parsed/Touhou_Kana-Anaberal",
+  "source": {
+    "path": "_TouhouProject/Touhou_Kana-Anaberal.ysm",
+    "type": "ysm",
+    "stem": "Touhou_Kana-Anaberal"
+  },
+  "ysm": "parsed/Touhou_Kana-Anaberal/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/PZGR.40.png",
+        "comment": "一个刚入门的YSM作者",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/87435859"
+        },
+        "name": "PZGR.40",
+        "role": "作者"
+      }
+    ],
+    "license": {
+      "desc": "未经作者许可禁止转载与利用；此为免费模型，禁止二次售卖",
+      "type": "未经作者许可禁止转载与利用；此为免费模型，禁止二次售卖"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "卡娜·安娜贝拉尔",
+    "tips": "东方project旧作角色\n2025年7-16角色日24H接力限定"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "#extra_classify": "Extra Classify"
+    },
+    "default_texture": "default",
+    "preview_animation": "walk",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Touhou_Kana-Anaberal_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7760,
+      "sha256": "adbe3475471f4f329e9ccf39d0efe6b4d318e40d88b5d45c3a2f392dcb76384c"
+    }
+  },
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 1157649,
+    "sha256": "3eb515eefeaf5f3c91eda17b59977497b149a3f201960a432e190f9f5d1f200a",
+    "bones": 198,
+    "cubes": 457,
+    "faces": 2742,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178554,
+      "sha256": "2341f919b664e247021254a14c974cb6a10b0bd6122a82759a57165f25ab4dca"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 109004,
+      "sha256": "ba1e5d1d0e30fc7cec4337358c630cf4f7c89f986f3a98b261c424bd3aecd477"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 193014,
+      "sha256": "85f020067d5f805ba86eec099a1ff01ef70bc8502411d4dee92f35c63472a835"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "avatar/PZGR.40.png",
+      "size": 36101,
+      "sha256": "2b98db596d4a896f6d8bfe9f413f2e759782ce8db53628afdd793c843f1171a2"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 8971,
+      "sha256": "d2ce8eb740e037d6d243bcdc8f8ba66a16bc4790be769ff2c92586a91a55b920"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13725,
+      "sha256": "605fc04a716cfd12d30b5d6fb5d6db461504bd2f8da602fe078a4f57b4d71c71"
+    },
+    {
+      "path": "models/main.json",
+      "size": 239436,
+      "sha256": "e5b217f898536a4cf48712e74f93a8c443cf9ad86bdd0d1744c58e342f5b4610"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2686,
+      "sha256": "197669635bbf7b8cf8892b6912e428c92c66aac37ea2d3f1a174c9a04b2b64f6"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 10038,
+      "sha256": "3b296227af65bdda944f4f3d2f8e54053d9a3ee919d4bf894ea073305c6c26d4"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1482,
+      "sha256": "120cbfc2845a8d4687d4a76ab79ac343857172c61c7795de6bd4360fe85c8861"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "id": "9nine_Miyako-Kujo",
+  "path": "parsed/9nine_Miyako-Kujo",
+  "source": {
+    "path": "_9nine/9nine_Miyako-Kujo.ysm",
+    "type": "ysm",
+    "stem": "9nine_Miyako-Kujo"
+  },
+  "ysm": "parsed/9nine_Miyako-Kujo/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/奇葩的小毛.png",
+        "comment": "肝累~",
+        "name": "奇葩的小毛",
+        "role": "建模，贴图，动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "home": "https://space.bilibili.com/642514655?spm_id_from=333.1007.0.0"
+    },
+    "name": "九条都",
+    "tips": "《9Nine九九九》女主"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "释放技能",
+      "extra1": "#换装",
+      "extra2": "#表情",
+      "extra3": "我养了十条鱼()",
+      "extra4": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "换装",
+        "name": "换装",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "换装",
+            "description": "换装",
+            "value": "v.s1",
+            "labels": {
+              "校服(带外套)": "v.s1=0;v.roaming.a=0;v.roaming.b=0;v.roaming.c=0",
+              "常服": "v.s1=1;v.roaming.a=1;v.roaming.b=0;v.roaming.c=1",
+              "校服(无外套)": "v.s1=2;v.roaming.a=0;v.roaming.b=1;v.roaming.c=0"
+            }
+          }
+        ]
+      },
+      {
+        "id": "表情",
+        "name": "表情",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "表情",
+            "description": "切换脸部表情",
+            "value": "v.s2",
+            "labels": {
+              "默认": "v.s2=0;v.roaming.face1=0;v.roaming.face2=0",
+              "发呆": "v.s2=1;v.roaming.face1=1;v.roaming.face2=1"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "Miyako kujo",
+    "preview_animation": "preview",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/Miyako kujo.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/9nine_Miyako-Kujo_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 30562,
+      "sha256": "765ef1b00d374803f6bcb7f50a451da64e65272b4fd0a292c5c7b3a736f97953"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 1044384,
+    "sha256": "6d482342a48419bd6e9e4372f79dd33f4f8e55febc552fe74fed695b731a878b",
+    "bones": 169,
+    "cubes": 624,
+    "faces": 3669,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 32454,
+      "sha256": "7a3edfe9e598fae10683e717f31bfb951eee17c0f6649236e6543a888081b0f7"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 109157,
+      "sha256": "6e0043e117c5b9b402c03df08314e4233fa2feb416170bf885f797e9f2e46aae"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 121773,
+      "sha256": "36e7fe4b67a2f08f2a8d93bebcd603f9fc344e5f759553c2e055ea26870859a2"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 132915,
+      "sha256": "c2d1274e2c1368df6e192ca84979c249fbe60d885adc048d4f51748445f79c49"
+    },
+    {
+      "path": "avatar/奇葩的小毛.png",
+      "size": 33313,
+      "sha256": "f167add6e2bfd5869475ca38dc2f1164541497b6bdfe9643b81e82529d2c5835"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 22027,
+      "sha256": "300688a2c589c525fe9d520a2aa0ed94611a139bff63bc434c8eee1895f1fbcb"
+    },
+    {
+      "path": "models/main.json",
+      "size": 511069,
+      "sha256": "934beac15eb4450a0b719774189324b5c0cd9cbab2c133ad6875642ae08fab52"
+    },
+    {
+      "path": "textures/Miyako kujo.png",
+      "size": 80034,
+      "sha256": "c3e8c11846cff082b489a077365a30dd83d066db9ed4bc07e31a81ac06b11651"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1642,
+      "sha256": "2520af2cdb972d34612116acde29ec1db01403dd90cc23b0d43c10b7e1b0ef8d"
+    }
+  ]
+}

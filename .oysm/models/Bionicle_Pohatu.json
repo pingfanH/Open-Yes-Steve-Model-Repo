@@ -1,0 +1,156 @@
+{
+  "id": "Bionicle_Pohatu",
+  "path": "parsed/Bionicle_Pohatu",
+  "source": {
+    "path": "_Bionicle/Bionicle_Pohatu.zip",
+    "type": "zip",
+    "stem": "Bionicle_Pohatu"
+  },
+  "ysm": "parsed/Bionicle_Pohatu/ysm.json",
+  "metadata": {
+    "name": "Pohatu",
+    "tips": "Mighty Toa of Stone",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "CrystalizedSun",
+        "comment": "The Contributor of TLM mod"
+      }
+    ]
+  },
+  "properties": {
+    "default_texture": "Pohatu",
+    "free": true,
+    "extra_animation": {
+      "extra0": "#kanohi_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "kanohi_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "Kanohi",
+            "description": "Selection of Kanohi",
+            "value": "v.kanohi",
+            "labels": {
+              "Kakama": "v.kanohi=0;",
+              "Hau": "v.kanohi=1;",
+              "Miru": "v.kanohi=2;",
+              "Pakari": "v.kanohi=3;",
+              "Akaku": "v.kanohi=4;",
+              "Kaukau": "v.kanohi=5;"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "tac": "animations/tac.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "texture": [
+        "textures/pohatu.png",
+        "textures/pohatu_goldmask.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Bionicle_Pohatu_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5798,
+      "sha256": "a67804070dfc403e074e5f177751cd5e6e9e01b53e035306bfda60b707e4614a"
+    }
+  },
+  "stats": {
+    "file_count": 10,
+    "total_bytes": 644378,
+    "sha256": "65940ecf704c0de244a4db40fb9dd5735889e791784cc70f4766603d71547c3f",
+    "bones": 57,
+    "cubes": 470,
+    "faces": 2820,
+    "textures": 2,
+    "materials": 2,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/main.animation.json",
+      "size": 127291,
+      "sha256": "ae1a9d18f12fba4f097b45fe549552fbafafb53fc12cbe4c97128dc7665667e6"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 155248,
+      "sha256": "4f40aec385f3c4117db41fdbe6c94184a17c75cd324d37fb0660a9c70e251ff1"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 56793,
+      "sha256": "d4247a4d8064c8d548f95c8804f077c816feecbb9e24a70abc24e9a619472fcf"
+    },
+    {
+      "path": "avatar/dm.png",
+      "size": 5471,
+      "sha256": "5d28f00fd947e31f361da9cab6c16693d80f25988515822e078cea1f5ef08a60"
+    },
+    {
+      "path": "avatar/gsl.png",
+      "size": 4738,
+      "sha256": "0bf76a1ba896f709839f9c35bb62852350b4b0f110bc9a1c4c4c5acc99f25188"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 17981,
+      "sha256": "7315fb8c147b5c362152190245ea094c37ed23151667579c4fb7f01f35598f65"
+    },
+    {
+      "path": "models/main.json",
+      "size": 226360,
+      "sha256": "5ac80eb65ec72bb13c3e78ec9c1c3eb5f58c5dda9011d350b230ace90607ae30"
+    },
+    {
+      "path": "textures/pohatu.png",
+      "size": 23966,
+      "sha256": "0dddcb2079e448dc5db73c2cbbe92ac45dc092f5524538a2a740092451fbc176"
+    },
+    {
+      "path": "textures/pohatu_goldmask.png",
+      "size": 24658,
+      "sha256": "570cee010d15c24f2c6310af47ac570b25d8d8c8097ad8ec962d850728cc3600"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1872,
+      "sha256": "5560703ffd194053a21322bfea23222fae13ce4dafafaff6564f70eb00ade27b"
+    }
+  ]
+}

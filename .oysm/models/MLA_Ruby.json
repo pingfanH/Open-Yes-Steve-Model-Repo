@@ -1,0 +1,84 @@
+{
+  "id": "MLA_Ruby",
+  "path": "parsed/MLA_Ruby",
+  "source": {
+    "path": "_MobileLegendsAdventure/MLA_Ruby.ysm",
+    "type": "ysm",
+    "stem": "MLA_Ruby"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "MLA_Ruby"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture3.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/MLA_Ruby_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9290,
+      "sha256": "4bcee6f4e517c84a4a1fb09f7bc05b5534f6694dacb12c4e51fb8b63ac7c1ab6"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 958751,
+    "sha256": "9f50a76ba13d678b3ed39cd9441553dd24f7970cd48f6d5c296d0a4b31bb6f3d",
+    "bones": 88,
+    "cubes": 1210,
+    "faces": 7260,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 33231,
+      "sha256": "6aa413487d41533c1c04761bbabd15ebff4faf03f287d767abe2699323c301c7"
+    },
+    {
+      "path": "arm.json",
+      "size": 23698,
+      "sha256": "dfa6b5fc8114a48966550ddcd5dcb49c9a7aa1c05a33cc5f6532856e1dc5464b"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 134443,
+      "sha256": "1a025f26ba892ed32f2c97dfc76c822ad99114c44e72ba54190ca1bf4aa053c3"
+    },
+    {
+      "path": "main.json",
+      "size": 638168,
+      "sha256": "80613419a87aa50a0af718e5efc220e0a5fb04608c527aca7a1cc89c9c415fae"
+    },
+    {
+      "path": "texture3.png",
+      "size": 129211,
+      "sha256": "ad45a9dd60a195548bf5ab17e0c4d7beab185ce5fb553f618274da335e6e79d0"
+    }
+  ]
+}

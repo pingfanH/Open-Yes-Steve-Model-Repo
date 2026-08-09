@@ -1,0 +1,213 @@
+{
+  "id": "_山岩 指挥官_v1.3",
+  "path": "parsed/_山岩 指挥官_v1.3",
+  "source": {
+    "path": "Uncategorized/_山岩 指挥官_v1.3.zip",
+    "type": "zip",
+    "stem": "_山岩 指挥官_v1.3"
+  },
+  "ysm": "parsed/_山岩 指挥官_v1.3/ysm.json",
+  "metadata": {
+    "name": "山岩小队 指挥官 v1.3",
+    "tips": "模型（修改）",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "哥斯拉",
+        "role": "模型",
+        "avatar": "avatar/gsl.png",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少"
+      },
+      {
+        "name": "端木一动不动",
+        "role": "动画",
+        "avatar": "avatar/dm.png",
+        "comment": "永远都在ing"
+      },
+      {
+        "name": "初生STY",
+        "role": "模型（改动）动画",
+        "avatar": "avatar/STY.png",
+        "contact": {
+          "Afdian": "无",
+          "Bilibili": "https://space.bilibili.com/3546833320151060?spm_id_from=333.1007.0.0"
+        },
+        "comment": "一个十三岁UP,美术很差（自认）"
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "你好",
+      "拍手": "拍手",
+      "是的": "是的",
+      "不是": "不是",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "",
+      "敬礼": "敬礼",
+      "玩闪光弹": "玩闪光弹"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "大小",
+            "description": "改变玩家模型大小",
+            "value": "v.size",
+            "step": 0.05,
+            "min": 0.5,
+            "max": 2
+          },
+          {
+            "type": "range",
+            "title": "面罩角度",
+            "description": "改面罩角度",
+            "value": "v.mz",
+            "step": 5,
+            "min": -65,
+            "max": 0
+          },
+          {
+            "type": "checkbox",
+            "title": "面罩",
+            "description": "面罩显示开关",
+            "value": "v.mmz"
+          },
+          {
+            "type": "checkbox",
+            "title": "耳机",
+            "description": "耳机显示开关",
+            "value": "v.rj"
+          }
+        ]
+      }
+    ],
+    "default_texture": "sy1",
+    "free": true,
+    "preview_animation": "玩闪光弹（大）",
+    "render_layers_first": false,
+    "disable_preview_rotation": false,
+    "all_cutout": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "tac": "animations/tac.animation.json",
+        "extra": "animations/extra.animation.json",
+        "arm": "animations/arm.animation.json"
+      },
+      "texture": [
+        {
+          "uv": "textures/sy1.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/v1.3_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6509,
+      "sha256": "87fbc462aa6e2b2459f342e71b7c395563ab5b1776923ade866993c3f8780ed0"
+    }
+  },
+  "stats": {
+    "file_count": 11,
+    "total_bytes": 713617,
+    "sha256": "9a26927f7997b58b83a7395be0392357c0f5adad4a96d2e818f06695440cd8bd",
+    "bones": 75,
+    "cubes": 427,
+    "faces": 2562,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 191281,
+      "sha256": "123a90087c49c3821cd4906a081a656ab336da00a4db3eef4fac793c6f3d0c85"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 134614,
+      "sha256": "765dca4f94f09dfa8eba4d60250311c3311f6c778e8e1baed87a55e9dc6d36d0"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 116438,
+      "sha256": "aa48a075ee8fdaf3a26af8d364d0cf72b0a69d66b99bc9ca0fe7db3dd9f50ca1"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 156386,
+      "sha256": "bd793a4a3ca364fc1aa5c1f4b0ca0895e201ecedd08f8f4cc4d766ba56066628"
+    },
+    {
+      "path": "avatar/STY.png",
+      "size": 18728,
+      "sha256": "867512e0ae62a30f4d899446ff428fe87f8daab462eb7dfd22568f787f179e3d"
+    },
+    {
+      "path": "avatar/dm.png",
+      "size": 19882,
+      "sha256": "c482b0ba5c52ce696e283c4fe2c8988674777043b8a83529cd4e11bbf44427c6"
+    },
+    {
+      "path": "avatar/gsl.png",
+      "size": 17482,
+      "sha256": "dda4f5d1d4b94eaee263a0c0686e9a02267fec3e0de969e2b42a3678393acfd5"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 1943,
+      "sha256": "27f1bbaf4c13707ae0ff465f41ab22930dfe0ea2acd78aa5bfb04fc892692d1a"
+    },
+    {
+      "path": "models/main.json",
+      "size": 47012,
+      "sha256": "4864ba03d03955a9f8332acbeb73603d2d7fc3a5cf3ba4ce7b2f7066d7badaeb"
+    },
+    {
+      "path": "textures/sy1.png",
+      "size": 7859,
+      "sha256": "1ad15ff4026721436e5b9557f180242f92e4b199ad824951770db7ee9c7751ab"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1992,
+      "sha256": "747eb91ca96c48c97e101608386b6774e68f4cc5fc073cd203ab4a29447a88c4"
+    }
+  ]
+}

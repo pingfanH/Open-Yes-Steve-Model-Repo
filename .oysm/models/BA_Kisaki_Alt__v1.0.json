@@ -1,0 +1,89 @@
+{
+  "id": "BA_Kisaki(Alt)_v1.0",
+  "path": "parsed/BA_Kisaki(Alt)_v1.0",
+  "source": {
+    "path": "_BlueArchive/BA_Kisaki(Alt)_v1.0.zip",
+    "type": "zip",
+    "stem": "BA_Kisaki(Alt)_v1.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "BA_Kisaki(Alt)_v1.0"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "arrow.png",
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Kisaki_Alt__v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5078,
+      "sha256": "2b4d8dbae8a91d8cda2a947ea3385018055473a2dd97ce1f54b1c44efb15236d"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 577145,
+    "sha256": "e860c8c7615465efce962c1061b88af8f1c3a7cf8ef46967cb9874cfdfe3e299",
+    "bones": 119,
+    "cubes": 282,
+    "faces": 1692,
+    "textures": 2,
+    "materials": 2,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 10366,
+      "sha256": "2e1190bfdde15729f8b7ae328785fea3e7c7265ee7943de44886a964972f6761"
+    },
+    {
+      "path": "arrow.json",
+      "size": 9145,
+      "sha256": "c102c65c10571d624b3a3ac4eb89a2c307850a9c3a163af9d93e3db66de4bfb7"
+    },
+    {
+      "path": "arrow.png",
+      "size": 710,
+      "sha256": "7e6f6fbfc1e9fd654dc70e549f9db48607f60608c408a1315369c7f494f93fe2"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 397022,
+      "sha256": "413c732ff85cbe3cebd59724d8e6d783d5c2654ea4036ba3ec4a1a054272abb8"
+    },
+    {
+      "path": "main.json",
+      "size": 146352,
+      "sha256": "20bbb37277221b5d66d43380a809966a383a30083c7c9ce89d75cb57121dd4f2"
+    },
+    {
+      "path": "texture.png",
+      "size": 13550,
+      "sha256": "93684c2be69c05cbeaa01480a5b342b16664b5f0d49d28cb9b90e91cd4dbf5ff"
+    }
+  ]
+}

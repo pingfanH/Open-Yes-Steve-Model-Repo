@@ -1,0 +1,100 @@
+{
+  "id": "CnCTS_NODLightInfantry",
+  "path": "parsed/CnCTS_NODLightInfantry",
+  "source": {
+    "path": "_Command&ConquerSeries/CnCTS_NODLightInfantry.ysm",
+    "type": "ysm",
+    "stem": "CnCTS_NODLightInfantry"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "NOD轻步兵（TS）",
+    "tips": "此时的NOD基层部队都还是正规军",
+    "license": {
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "authors": [
+      {
+        "name": "b站 动员鼬"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/CnCTS_NODLightInfantry_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5698,
+      "sha256": "e4f017cebe4119993cc80e2f49c2d968c66df099cdb15b79c0ce3011c644abca"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 359219,
+    "sha256": "089e6a05e4d6c62e314c6f086a1d553274adb698bc9f3ebae8b5417aaa19e45d",
+    "bones": 45,
+    "cubes": 162,
+    "faces": 972,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 9320,
+      "sha256": "4be9c4ab130d0cc7c08e624d561de1acaa92db10dc3dd3da811f744ff5a727ea"
+    },
+    {
+      "path": "info.json",
+      "size": 180,
+      "sha256": "5742916432bd305316d9774852cf1ac7281273ce894310d45912c53cb61dbcb6"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 122470,
+      "sha256": "d93402d24863ccd84622801424bb845d8ff78161fae9d48b7bbf0c3d213720c1"
+    },
+    {
+      "path": "main.json",
+      "size": 75314,
+      "sha256": "f820725776c44f07bbbd75886d102592df678cca3869a40f7bef157d3b84a9f5"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 131639,
+      "sha256": "a73cf95259743cc506fa6931e6bed68e0e41c5edca8f4651f26f1a42c1e26994"
+    },
+    {
+      "path": "texture.png",
+      "size": 20296,
+      "sha256": "176b8b50fbdbf5b842d5fcd4301d70530bf05c3aa8bd5ce9299a22bf2748a7a6"
+    }
+  ]
+}

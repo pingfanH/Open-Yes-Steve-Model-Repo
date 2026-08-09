@@ -1,0 +1,84 @@
+{
+  "id": "5Toubun_Itsuki-Nakano_v1.0",
+  "path": "parsed/5Toubun_Itsuki-Nakano_v1.0",
+  "source": {
+    "path": "_5Toubun/5Toubun_Itsuki-Nakano_v1.0.ysm",
+    "type": "ysm",
+    "stem": "5Toubun_Itsuki-Nakano_v1.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "5Toubun_Itsuki-Nakano_v1.0"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/5Toubun_Itsuki-Nakano_v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 4899,
+      "sha256": "f8f965689d07af669774b712c948bf8265b65c624ecdc0cd5cdf90af7ea2605c"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 388055,
+    "sha256": "7a3640c40316ec7c8be2c8f53ffa06cc6a3d826cc9c9910ff2deabf27f820961",
+    "bones": 67,
+    "cubes": 372,
+    "faces": 2232,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 32454,
+      "sha256": "7a3edfe9e598fae10683e717f31bfb951eee17c0f6649236e6543a888081b0f7"
+    },
+    {
+      "path": "arm.json",
+      "size": 7113,
+      "sha256": "5c397b7cde043508cd9e132d53cfbf91f900a95191d3d63c93c17232f972a9f0"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 136044,
+      "sha256": "fc445186157959998f5f15b98530a3f94884711abc5b4db76b005438da40e776"
+    },
+    {
+      "path": "main.json",
+      "size": 190780,
+      "sha256": "92f33e919f0600637e48ea1db293717e09eca5626df912f1b1fb527493088f3f"
+    },
+    {
+      "path": "texture.png",
+      "size": 21664,
+      "sha256": "26af2e98b3c8bb414f6c282b684fdcdd775a1974ee2a10a8cc6dac381e98205d"
+    }
+  ]
+}

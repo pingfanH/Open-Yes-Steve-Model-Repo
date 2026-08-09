@@ -1,0 +1,212 @@
+{
+  "id": "Arstia_夜空-赛蕾特_v1.4(zipver)",
+  "path": "parsed/Arstia_夜空-赛蕾特_v1.4(zipver)",
+  "source": {
+    "path": "_Arstia/Arstia_夜空-赛蕾特_v1.4(zipver).zip",
+    "type": "zip",
+    "stem": "Arstia_夜空-赛蕾特_v1.4(zipver)"
+  },
+  "ysm": "parsed/Arstia_夜空-赛蕾特_v1.4(zipver)/ysm.json",
+  "metadata": {
+    "name": "白夕",
+    "tips": "是只名叫白夕的小狐狸",
+    "license": {
+      "type": "CC 4.0 NC-BY-SA"
+    },
+    "authors": [
+      {
+        "name": "MicroCraft",
+        "role": "模型、动画、物理",
+        "avatar": "avatar/MicroCraft.png",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/701974112"
+        },
+        "comment": "只是一个准程序猿"
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "preview_animation": "gui",
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "texture": [
+        {
+          "uv": "textures/skin.png"
+        }
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": "textures/arrow.png"
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Arstia__-__v1.4_zipver_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7948,
+      "sha256": "edd7a2d6d676a6ce00d7d41fb72290618f592e6da363bc351eca2d13f2640c50"
+    }
+  },
+  "stats": {
+    "file_count": 21,
+    "total_bytes": 5190891,
+    "sha256": "0500d19fe6ce032ecc1097dc668e9204c55bb7abb6c1a5683163647413234202",
+    "bones": 179,
+    "cubes": 738,
+    "faces": 4428,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 141334,
+      "sha256": "314950f3ebd085e4c676b7a735b875eeb52fcae67091f2930fbe18a512025ff3"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 648,
+      "sha256": "a1742d97b6f3a435a92ed37c1f971b9367d8198a3c12116be4a9f433586b8e12"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3799,
+      "sha256": "32851380160c2bceea27535eeb1f27ed77e74f2fd565ac13c06c499952aff79e"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 150072,
+      "sha256": "308245990deb76c2a396de075ae4bbbae8955d7640d89aafd7fe8e8d3e9854cf"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 214785,
+      "sha256": "429b87c12d0f4b04128b650499253977ef5e3eb9791426118b7808d8798cc986"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 164868,
+      "sha256": "85f8114dce69f142d5516cd237ca63ef02dc7e655a82076387a66d05e7610700"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 215951,
+      "sha256": "23ec8276922097ac901342f5bbe4f693537b93a71b47bec29d0db3251be676a2"
+    },
+    {
+      "path": "avatar/MicroCraft.png",
+      "size": 98384,
+      "sha256": "4d97b3fa46d78c9fe32785994b6b3380ec9923ad2797af106b1e3d8d40cd32dc"
+    },
+    {
+      "path": "avatar/baixi.png",
+      "size": 629495,
+      "sha256": "9a2276846eca17539f2e6061b0d4ca43dbae7f649f14eee22e95e18c81624c35"
+    },
+    {
+      "path": "avatar/dm.png",
+      "size": 5471,
+      "sha256": "5d28f00fd947e31f361da9cab6c16693d80f25988515822e078cea1f5ef08a60"
+    },
+    {
+      "path": "avatar/gsl.png",
+      "size": 4738,
+      "sha256": "0bf76a1ba896f709839f9c35bb62852350b4b0f110bc9a1c4c4c5acc99f25188"
+    },
+    {
+      "path": "avatar/hl.png",
+      "size": 5216,
+      "sha256": "80f61d49f385faf974b8b3e579b6b307b9046992f1d3ae32647e8676102d5fa3"
+    },
+    {
+      "path": "avatar/tzz.png",
+      "size": 3433,
+      "sha256": "5067ef9a1ccad6acc4807d464f46358afd5f092ff78cf17a66ea82c613469e1e"
+    },
+    {
+      "path": "avatar/渲染图.png",
+      "size": 3048977,
+      "sha256": "9d32755ccfced3364f9b19f8664bae388607fae149e28dfcc9836cff9fd4d1de"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 17343,
+      "sha256": "69666ecd52eca658ec18b0b68eb10e7337b03e433276226b3beed2ac8e018c1e"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 7168,
+      "sha256": "5c58c14c5b3a2c60a168d247f72be1a1c02bbeabf3ee495dd67b0e754a70ddc7"
+    },
+    {
+      "path": "models/main.json",
+      "size": 413569,
+      "sha256": "dc1b11763cf5aba6cab77ae9d3ea8f2a4a0e9914c2fe61ace11a6591062b4076"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 710,
+      "sha256": "7e6f6fbfc1e9fd654dc70e549f9db48607f60608c408a1315369c7f494f93fe2"
+    },
+    {
+      "path": "textures/skin.png",
+      "size": 22374,
+      "sha256": "1df6eea7ec9b42e43fddd09625fc4fa20c0f54d164e3378b483ccefc4e66c059"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1526,
+      "sha256": "05d1fb7fbb7e8cd2ee40d8b1a7c6da1c721857ef96c3318c5d404a911e14adf1"
+    }
+  ]
+}

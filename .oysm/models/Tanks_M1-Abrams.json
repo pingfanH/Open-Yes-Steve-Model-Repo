@@ -1,0 +1,242 @@
+{
+  "id": "Tanks_M1-Abrams",
+  "path": "parsed/Tanks_M1-Abrams",
+  "source": {
+    "path": "_Tanks/Tanks_M1-Abrams.ysm",
+    "type": "ysm",
+    "stem": "Tanks_M1-Abrams"
+  },
+  "ysm": "parsed/Tanks_M1-Abrams/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/少年欢乐歌.png",
+        "comment": "空",
+        "contact": {
+          "Afdian": "无",
+          "Bilibili": "https://space.bilibili.com/1740005855"
+        },
+        "name": "少年欢乐歌",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "M1艾布拉姆斯",
+    "tips": "练习模型（TankModel）"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "进攻D点！",
+      "extra2": "正在修理！",
+      "extra3": "注意敌方飞机！",
+      "extra4": "请求拖拽！",
+      "extra5": "",
+      "extra6": "",
+      "#extra_classify": "Extra Classify"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "Simple Config",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        },
+        {
+          "uv": "textures/texture2.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Tanks_M1-Abrams_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3611,
+      "sha256": "997e5b1d7a352e822a4e23e4f2d4fc9dcd9edc37b43b940ac58c82cae8760d71"
+    }
+  },
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 3737782,
+    "sha256": "485a981bf82ce27c6863b022c03fc9364ad87c0945c35d7d70b15cf74c5952bc",
+    "bones": 49,
+    "cubes": 1135,
+    "faces": 6810,
+    "textures": 2,
+    "materials": 2,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 183305,
+      "sha256": "20a57e91d91a8315bf7ae10846f5cf0ca8c1d06e075f8355a330f34decbaee9d"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 109090,
+      "sha256": "f150737b21f2cac4f097862eb925e163d60596f80034afddb049faf5abdf78c8"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 198065,
+      "sha256": "292fd2c7cda732ec26e09d85ebb8a8f78568dd7064c0b88d6805231ea6df0e18"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182456,
+      "sha256": "ba5a043a1c3d1143a127c50264c40c9b06f49f17c74cb90e0b56661e1d03de03"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/少年欢乐歌.png",
+      "size": 180819,
+      "sha256": "aa2eabe0db2be70bf021e0ebaac7e9b6cddf056316216255295aace01daa4886"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 617,
+      "sha256": "58a5a4f99a17e863505e5d985c5342fafccf53eeb5799a572dff4156086be4ad"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 5476,
+      "sha256": "a8ac69825cfd3b16d90624ed2e0ec4c2be84bee7044da4a13e00f67c153532eb"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 12407,
+      "sha256": "7d37338d390e8c2ea67be46bfb534cebd662a4c6d44a8da6ff0a999ec300fe1d"
+    },
+    {
+      "path": "models/main.json",
+      "size": 552991,
+      "sha256": "1b6c7213572facea4a995533b7d47e0107f0864ebd4b38832c75c8e5c8cbdc72"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 336,
+      "sha256": "bec1572611c22231e60e3fac0473dd7532a001410044fff0454bd7c5883ef0bb"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 28059,
+      "sha256": "50f43935bb2a7fc4e96b7d01bd069caa4b4add7fecb79ae52b5ceec2cf5c9681"
+    },
+    {
+      "path": "textures/texture2.png",
+      "size": 26023,
+      "sha256": "82f93187032e4cafb7287f15553f527c0d3f5a98d71fb036e3bdb9dafd1d4fbc"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1950,
+      "sha256": "b2025d4a767bc732ab769498ce976442dcbebafc23ab51915d8307c9ffe5985d"
+    }
+  ]
+}

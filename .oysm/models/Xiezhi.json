@@ -1,0 +1,78 @@
+{
+  "id": "_Xiezhi",
+  "path": "parsed/_Xiezhi",
+  "source": {
+    "path": "Uncategorized/_Xiezhi.zip",
+    "type": "zip",
+    "stem": "_Xiezhi"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_Xiezhi"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "red.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Xiezhi_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 5422,
+      "sha256": "7b3a6b53391e526f366e733ba76ecdd1a4f27c5a0ad34db9842a413a99152ed1"
+    }
+  },
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 180318,
+    "sha256": "a3e252408cd95c4f482bd05a3c509be28679c9f3f2724ac9fdacc8b0cc37abdd",
+    "bones": 62,
+    "cubes": 235,
+    "faces": 1410,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 2437,
+      "sha256": "c559a627a57b35b47417e414e843b741b47b3b9ef6f68a396f68a3c39f0a69b8"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 115273,
+      "sha256": "475506426e60154810f51b5feb27c5216f5e7a0f76752998686481ade267a292"
+    },
+    {
+      "path": "main.json",
+      "size": 56287,
+      "sha256": "bc57399bae97d259b2b22b7a45c4932e4e874773ae3b16288ae8e129a9efbb4d"
+    },
+    {
+      "path": "red.png",
+      "size": 6321,
+      "sha256": "bc9b317c966b84aec59282778fe7bcf4e562a4020769fcec35918a79923e2bd3"
+    }
+  ]
+}

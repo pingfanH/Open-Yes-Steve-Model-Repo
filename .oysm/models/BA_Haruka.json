@@ -1,0 +1,140 @@
+{
+  "id": "BA_Haruka",
+  "path": "parsed/BA_Haruka",
+  "source": {
+    "path": "_BlueArchive/BA_Haruka.ysm",
+    "type": "ysm",
+    "stem": "BA_Haruka"
+  },
+  "ysm": "parsed/BA_Haruka/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/哥斯拉.png",
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少",
+        "contact": {
+          "Afdian": "https://afdian.net/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "name": "哥斯拉",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/YoosPerson.png",
+        "comment": "U want a piece of me, boy?",
+        "name": "YoosPerson",
+        "role": "舞蹈动画支持"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.net/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "伊草 遥香",
+    "tips": "格赫娜学园所属，便利屋68的职员。\n由于个性黑暗阴沉，从小就一直被欺负。\n直到最近才在阿露的帮助下摆脱被欺负的困境。\n之后，她便作为便利屋68年纪最小的员工活动着。\n虽然胆小且自尊心很低，但她的突发奇想说是便利屋职员中最可怕的也不为过。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "",
+      "extra8": "加州女孩"
+    },
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "extra": "animations/extra.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Haruka_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6703,
+      "sha256": "6a3af0e168035bc5d3d6cd54840aaf38f254c057bfad30d048d0769dd854ff47"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 834894,
+    "sha256": "9ac356a5891081f16a2aad81c8bb417edd1b779c5adb2fae622783923b0eb10a",
+    "bones": 149,
+    "cubes": 330,
+    "faces": 1980,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/extra.animation.json",
+      "size": 297021,
+      "sha256": "f02103567506272dbdde9ca9407ae8f943459a43a6bc01699880f3d26da19e36"
+    },
+    {
+      "path": "avatar/YoosPerson.png",
+      "size": 311188,
+      "sha256": "252381f7fa8b4a82de973d1532d8740da4535dfb0623b83f862e903d2fbcd87b"
+    },
+    {
+      "path": "avatar/哥斯拉.png",
+      "size": 19374,
+      "sha256": "6cd420a5238d37083afb1a43736ae8f862dfb9d9065c1ae1895c2ee20071333c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 8218,
+      "sha256": "8b45c940063831b2e0bf958a8efeb3ea74dba4936bda2d38f61bcb29118fe6c6"
+    },
+    {
+      "path": "models/main.json",
+      "size": 171200,
+      "sha256": "cfe9e937894f3fcaa829b62c2d41d9f53a98c0028e0f4f23e572f877b947dceb"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 26513,
+      "sha256": "75fab37dfc0e6820171f6dd7d07b6d8b7282efcf8bb48db025b2a478c0c5bd2f"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1380,
+      "sha256": "dc7163215e36679267a6e06015b18232ca8d70f381ffb81209eba46476886573"
+    }
+  ]
+}

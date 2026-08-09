@@ -1,0 +1,263 @@
+{
+  "id": "Sakuraba_Ema",
+  "path": "parsed/Sakuraba_Ema",
+  "source": {
+    "path": "Unknown/Sakuraba_Ema.ysm",
+    "type": "ysm",
+    "stem": "Sakuraba_Ema"
+  },
+  "ysm": "parsed/Sakuraba_Ema/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/lemon_not_cute.png",
+        "comment": "一个 ysm 初学者",
+        "name": "lemon_not_cute",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Sakuraba_Ema",
+    "tips": "樱羽艾玛"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "展翼",
+      "extra1": "打招呼",
+      "extra2": "吃惊",
+      "extra3": "赞同",
+      "extra4": "否认",
+      "extra5": "加油",
+      "extra6": "摇摆",
+      "extra8": "切换骨翼",
+      "#extra_classify": "Extra Classify"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "Simple Config",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "default_texture": "texture",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png",
+          "normal": "textures/texture_normal.png",
+          "specular": "textures/texture_specular.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Sakuraba_Ema_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 13638,
+      "sha256": "fa55f1d01529f877126b62ad0527446c0c611e59607f9d652f4bac45d6fa1a5d"
+    }
+  },
+  "stats": {
+    "file_count": 24,
+    "total_bytes": 5097587,
+    "sha256": "c79bb9907ad3dd569a58a3ec13ba2973336ab3bb39907a22d60d82c51257018c",
+    "bones": 305,
+    "cubes": 2998,
+    "faces": 17988,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 179490,
+      "sha256": "801cb43f337d7c26d33e1a2282d677cd02190decaf65e07820095eda5108e0cc"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2271,
+      "sha256": "722645b03e6401d600b60fd0b934aa5bc7b9abc58dc3604027d8869565116a04"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 118827,
+      "sha256": "8414e36caf72b21f0d64c52acea08d7c8fda794d2d2c04c13b9994fc98a8cc53"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 252241,
+      "sha256": "2a8ca45efe633c4688186939e67fb7433003bedb025e93a99c4d094221a29743"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139875,
+      "sha256": "80b733692adbd25b47a983098eeb4ba4b3bbe85f4855659564115456fd53a489"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023851,
+      "sha256": "f59bc7fde9b9d52ca3a624f1932f2969932fe852ffe78befd43c37776149dfad"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39928,
+      "sha256": "2a366ee696278e2a3430ea1eb78b3abc882c54b2c199d1e2fe936c443f683cd8"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182312,
+      "sha256": "5311707e08e1884c13e230b84786c8b462895c2aa2d9eba06151c0e313b50554"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50344,
+      "sha256": "2592cf2ab8c0e34c009006c7094ee2e8783a9ad1f6663e21b28af178212cae72"
+    },
+    {
+      "path": "avatar/lemon_not_cute.png",
+      "size": 18493,
+      "sha256": "bd018056b60387ccdfcc7cc1002881dcb48f09948663aae25a253d0e69f63302"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 617,
+      "sha256": "58a5a4f99a17e863505e5d985c5342fafccf53eeb5799a572dff4156086be4ad"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 148628,
+      "sha256": "03dcccf920528e33bfdbe9945e68bd0da800c71915740dd358437e8c8d364207"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13725,
+      "sha256": "605fc04a716cfd12d30b5d6fb5d6db461504bd2f8da602fe078a4f57b4d71c71"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1661534,
+      "sha256": "2b5cdfcc0cb56d4be29fa8af585ea107aaae2ed9089b0f8c974800a1f11f0a04"
+    },
+    {
+      "path": "sounds/cow.ogg",
+      "size": 35713,
+      "sha256": "1853aec4ed8f1c2481798e1ec520b6176062e81ce02771d8a4c3665d7a91d799"
+    },
+    {
+      "path": "sounds/cow1.ogg",
+      "size": 16194,
+      "sha256": "a03d5b51adf08004ed5f5a90ed7a5899a2f759505948f6e3b1f58dc08d839fae"
+    },
+    {
+      "path": "sounds/ema_voice.ogg",
+      "size": 15569,
+      "sha256": "0b52583ec7e9250337099532bcb4517b5d3ebd395f5deabb1b33c8f7e2108257"
+    },
+    {
+      "path": "sounds/ema_voice1.ogg",
+      "size": 15343,
+      "sha256": "cb659ad763f70018e1063799b0a4ac8d1cfc6fdacaaf001c7618104730123351"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2686,
+      "sha256": "197669635bbf7b8cf8892b6912e428c92c66aac37ea2d3f1a174c9a04b2b64f6"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 69278,
+      "sha256": "f914e7b86fd49cc72e692dae851db98a3739abbdf9537cdde48a53f9cd89b359"
+    },
+    {
+      "path": "textures/texture_normal.png",
+      "size": 57093,
+      "sha256": "9929478bf870d01a47843f52c4ce04d39815aea6e4051c119d46b94b15099418"
+    },
+    {
+      "path": "textures/texture_specular.png",
+      "size": 51195,
+      "sha256": "d984e0e30f88e03adc8c32c1bd8d98f50b28f84262bad5dc74ce8bcd02764ff4"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1914,
+      "sha256": "84983a7dd926723d3022f9603b1bd3cce0de2dcae89064a043088c61af971543"
+    }
+  ]
+}

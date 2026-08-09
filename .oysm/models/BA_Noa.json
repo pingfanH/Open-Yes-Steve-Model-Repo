@@ -1,0 +1,238 @@
+{
+  "id": "BA_Noa",
+  "path": "parsed/BA_Noa",
+  "source": {
+    "path": "_BlueArchive/BA_Noa.ysm",
+    "type": "ysm",
+    "stem": "BA_Noa"
+  },
+  "ysm": "parsed/BA_Noa/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/哥斯拉.png",
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "name": "哥斯拉",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/端木一动不动.png",
+        "comment": "永远都在ing",
+        "name": "端木一动不动",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/甜粽子.png",
+        "comment": "(ᗜˬᗜ)",
+        "name": "甜粽子",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/劳委.png",
+        "comment": "哈哈哈~我不去（山中音）",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/602974643?spm_id_from=333.1007.0.0"
+        },
+        "name": "劳委",
+        "role": "动画，模型/贴图修改"
+      },
+      {
+        "avatar": "avatar/星屑海螺.png",
+        "comment": "漂泊于群星之中",
+        "contact": {
+          "Afdian": "https://afdian.com/a/lucia2048",
+          "Bilibili": "https://space.bilibili.com/14975572"
+        },
+        "name": "星屑海螺",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "NOA",
+    "tips": "千年科学学园学生，研讨会所属，是研讨会的书记，主要负责记录研讨会的决定事项和会议内容，以及千年的学生开发的制品的特别许可的鉴别和注册专利的业务。拥有非常优秀的记忆力，见过听过一次的内容基本能完整默记下来。   ‘要和我一起前往，合理与理性的世界吗？"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "立绘POSS",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/noa.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Noa_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3286,
+      "sha256": "dd7e40d91ef1ea207ea71bd3ecacf2b0f6083f4c777a177c3525a3ba5cfef4e6"
+    }
+  },
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 1137306,
+    "sha256": "7a9bee5b389cb02501c7dd2386ffa3796e0090053db4d04d4a830d37d3cf909c",
+    "bones": 101,
+    "cubes": 289,
+    "faces": 1704,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136637,
+      "sha256": "f795d670b8e2553548348161425e21c7a8f4c2b78d4602d33c8ccc1f03f537b3"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 117670,
+      "sha256": "8a72eea80960edb9ebb2f31246d5708b98ec7e006ebe146c8afb76f365ea56db"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 211275,
+      "sha256": "e7bfa40f7bccbd3edf2db2f7a182a130dd3e7fbee8ce581e08d8b4825395befd"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 155664,
+      "sha256": "a2e73f85b6e20c501c5c2456b6cdd6f625c43eb4ffc471e6ec919110488bf91f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 189859,
+      "sha256": "9bd12e661c9f380f52ec5492bfc3afebdbc606eed21d7b54926ba784da093c8c"
+    },
+    {
+      "path": "avatar/劳委.png",
+      "size": 25895,
+      "sha256": "f569a89510f47f6316e8ef48634e90a4149c37e34a95fb9de3e1d417a08eec5d"
+    },
+    {
+      "path": "avatar/哥斯拉.png",
+      "size": 19374,
+      "sha256": "6cd420a5238d37083afb1a43736ae8f862dfb9d9065c1ae1895c2ee20071333c"
+    },
+    {
+      "path": "avatar/星屑海螺.png",
+      "size": 22406,
+      "sha256": "2c03d4213bddb87b0bc8d40b1cc32c059b0fe72a0bd6cc09613505a82e922f65"
+    },
+    {
+      "path": "avatar/甜粽子.png",
+      "size": 13575,
+      "sha256": "afbc4a0ad6483a06d38085e6ec7f55db706ce25cb1de636a1698faf2fc53d4a1"
+    },
+    {
+      "path": "avatar/端木一动不动.png",
+      "size": 22379,
+      "sha256": "3c431bb54f22ffb6bb153d5de92dee6831881419ed4135b517cc9abd32e44095"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 5476,
+      "sha256": "9fa8ccb55c751a185d4455cc54c68f154e57d689b65f30fe25443ffc924a52bd"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 146658,
+      "sha256": "1f474c6ae6d3696e4aacefb487b0ea8be42c754c0e104af60ad305037562f415"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/noa.png",
+      "size": 17477,
+      "sha256": "bc12b8ab873f3daba8bc1fb15b700cab92ddaa16916be75ce14a3eaceac93021"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2287,
+      "sha256": "5850ce4ca87922116abf02eaeb0466a097cb35eaa42bdbb8fd95a52e2338b25f"
+    }
+  ]
+}

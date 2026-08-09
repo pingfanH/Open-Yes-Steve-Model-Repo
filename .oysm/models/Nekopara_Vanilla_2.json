@@ -1,0 +1,96 @@
+{
+  "id": "Nekopara_Vanilla_2",
+  "path": "parsed/Nekopara_Vanilla_2",
+  "source": {
+    "path": "_Nekopara/Nekopara_Vanilla_2.zip",
+    "type": "zip",
+    "stem": "Nekopara_Vanilla_2"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Nekopara_Vanilla_2"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Nekopara_Vanilla_2_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 10698,
+      "sha256": "23397b523821039f96b98f3b0762712e05d99f527b291dbef68289913f2a4227"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 711982,
+    "sha256": "652d67982774d49eb9d334093a4b23963f3e33af7cf868ffd175b2f18beea27f",
+    "bones": 129,
+    "cubes": 326,
+    "faces": 1956,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 39629,
+      "sha256": "d7d8cc5aebd96d36ee76e9e4619513300bb7dbbc5d45b351a131e1145447085a"
+    },
+    {
+      "path": "arm.json",
+      "size": 9912,
+      "sha256": "94bb88316edf5c593fac05c6d547309c5496bd205ba2b6d70887c9eeb93137bd"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 144073,
+      "sha256": "1cc30c5474076f2027d3b365b9525491a76007ff6451803a06df6814302761d7"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 185437,
+      "sha256": "5ba45fcaf0612bfa19500e3a005c56345fbf8167ae83d1ca3b7828426ce203da"
+    },
+    {
+      "path": "main.json",
+      "size": 161285,
+      "sha256": "b43c0d17029c9477e4043fa47cb179ac2d5de941ce19080c6671f3505f278f79"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 157266,
+      "sha256": "c03cb9613aa5a9f19a9416760c372309e79f3d12cf1f23cfea0726dc5e825aa2"
+    },
+    {
+      "path": "texture.png",
+      "size": 14380,
+      "sha256": "644b8ed278b93e123fe793f928ed1696ef2dbd0600109b7b39d0828f00bbe3c8"
+    }
+  ]
+}

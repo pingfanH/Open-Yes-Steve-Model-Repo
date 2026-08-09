@@ -1,0 +1,84 @@
+{
+  "id": "HSR_Bailu_0",
+  "path": "parsed/HSR_Bailu_0",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Bailu_0.ysm",
+    "type": "ysm",
+    "stem": "HSR_Bailu_0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "HSR_Bailu_0"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "12345.png"
+      ],
+      "animation": {
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Bailu_0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11994,
+      "sha256": "f1d79f69b812f1d66cf5205842554701b809a875e77acf5ba1ec2e4a7b7646d1"
+    }
+  },
+  "stats": {
+    "file_count": 5,
+    "total_bytes": 640080,
+    "sha256": "3903566abe1a6f6e52fefd6fe498f3fea05c7b0859c2e039ea0767f4c5b19053",
+    "bones": 136,
+    "cubes": 800,
+    "faces": 4800,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "12345.png",
+      "size": 46492,
+      "sha256": "95239e21ed679d8a2e3a0e7810a3fa5d7cd67c0f58724c80f38bd1ca171743ae"
+    },
+    {
+      "path": "arm.json",
+      "size": 24724,
+      "sha256": "5484a60786b9773a60143710d58f84dba4a8b950e5f8191fba8cb471b368c53c"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 26861,
+      "sha256": "a8e8d7449612dc3e0af3d7a5152c25b6a65e6e305a11f145345d8df356b4247c"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 119014,
+      "sha256": "71f31ff787a386ecfb35377c6b4909e65cca9f4169c6f9c0bf3a33da0a7db466"
+    },
+    {
+      "path": "main.json",
+      "size": 422989,
+      "sha256": "f76847c5c380725129e579f269330fd3b020cd57948051b287ab51c2835e8716"
+    }
+  ]
+}

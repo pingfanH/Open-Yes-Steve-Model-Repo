@@ -1,0 +1,121 @@
+{
+  "id": "LoL_Katarina(CatVer)_v1.0",
+  "path": "parsed/LoL_Katarina(CatVer)_v1.0",
+  "source": {
+    "path": "_LeagueOfLegends/LoL_Katarina(CatVer)_v1.0.zip",
+    "type": "zip",
+    "stem": "LoL_Katarina(CatVer)_v1.0"
+  },
+  "ysm": "parsed/LoL_Katarina(CatVer)_v1.0/ysm.json",
+  "metadata": {
+    "name": "Catarina",
+    "tips": "Kitty cat katarina",
+    "license": {
+      "type": "CC 0",
+      "desc:": "Extra license description"
+    },
+    "authors": [
+      {
+        "name": "___winston"
+      }
+    ]
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "Wave",
+      "run": "Run",
+      "walk": "Walk",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "preview_animation": "idle",
+    "default_texture": "texture",
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json"
+      },
+      "texture": [
+        "textures/texture.png"
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/LoL_Katarina_CatVer__v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3410,
+      "sha256": "b338c5ad29ce6e4395a42cf8cc6f73254cc19c52883fd386432b30b98c1ae219"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 531426,
+    "sha256": "3b8da76f3590746d181213b9f89742623cf5ec39af520bfae145072b188cf28e",
+    "bones": 71,
+    "cubes": 157,
+    "faces": 942,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 152474,
+      "sha256": "173ffd65b4b5592277efa4e1f1e6abe32aca169d478374b41659b3055a66e88a"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 150072,
+      "sha256": "308245990deb76c2a396de075ae4bbbae8955d7640d89aafd7fe8e8d3e9854cf"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 196610,
+      "sha256": "fef80c0e47022e323b0aed7b27e6916436e34a6b5f0f9e6e440c873afd363a78"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 2154,
+      "sha256": "bf7e46c834f207b8dd32cf57f5feeba4b08f7b356a8fe724c96a99375c36d796"
+    },
+    {
+      "path": "models/main.json",
+      "size": 25790,
+      "sha256": "c746dcce721f526944a0b2ef60befa1906a5bd016b941c6f405963008710cb65"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 3300,
+      "sha256": "2bab6a94e980b5ef3dff01ae62ca81e8e3fcb4f91d7c6ed7a9495ee1964e3cc6"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1026,
+      "sha256": "5900ef9cea92a966ccdf30598c003822476fcee049ad63b63f8ac4df95437efb"
+    }
+  ]
+}

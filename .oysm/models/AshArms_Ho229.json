@@ -1,0 +1,273 @@
+{
+  "id": "AshArms_Ho229",
+  "path": "parsed/AshArms_Ho229",
+  "source": {
+    "path": "_AshArms/AshArms_Ho229.ysm",
+    "type": "ysm",
+    "stem": "AshArms_Ho229"
+  },
+  "ysm": "parsed/AshArms_Ho229/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/XGancheng_Tao.png",
+        "comment": "为了做此模型，每天打开电脑第一件事就是启动Blockbench",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/1406170630"
+        },
+        "name": "XGancheng_Tao",
+        "role": "模型和动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://没有赞助",
+      "home": "https://space.bilibili.com/1406170630"
+    },
+    "name": "ho229",
+    "tips": "游戏《灰烬战线》中的角色“Ho229”\n此模型为免费模型，可上传至免费服务器。\n但请勿进行二次售卖，分发和修改，禁止商用！\n黑十字的角色已经做了两个了，下一个模型我会做其他学联的。\n你问我什么时候做好？回答是：sooooooon~~~~"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "空动画": "#extra_config",
+      "extra1": "招手",
+      "extra2": "鼓掌",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "立绘pose": "立绘pose",
+      "奇怪的图片": "奇怪的图片",
+      "#extra_classify": "ysm自带默认动作"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "杂项设置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "模型大小",
+            "description": "模型大小",
+            "value": "v.modelsize",
+            "step": 0.1,
+            "min": 0.5,
+            "max": 1.5
+          },
+          {
+            "type": "range",
+            "title": "头部大小",
+            "description": "修改头部大小",
+            "value": "v.headsize",
+            "step": 0.01,
+            "min": 0.8,
+            "max": 1.1
+          },
+          {
+            "type": "range",
+            "title": "手持物品大小",
+            "description": "手持物品大小",
+            "value": "v.itemsize",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "type": "radio",
+            "title": "服装切换",
+            "description": "服装切换-原型与改型",
+            "value": "v.roaming.clothes",
+            "labels": {
+              "原型": "v.roaming.clothes=0",
+              "改型": "v.roaming.clothes=1"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "笑容",
+            "description": "笑容",
+            "value": "v.xiao_rong",
+            "labels": {
+              "不笑": "v.xiao_rong=0",
+              "微笑": "v.xiao_rong=1"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra5": "",
+          "extra6": "",
+          "extra7": "",
+          "extra0": ""
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/AshArms_Ho229_preview.png",
+      "animation": null,
+      "variant": "human",
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 14599,
+      "sha256": "1be94876c940934a56eeee0800c9e1318455103ad18614cf3d306ca0afc53d61"
+    }
+  },
+  "stats": {
+    "file_count": 18,
+    "total_bytes": 3654180,
+    "sha256": "5abf4ea2a7fe616c4cad0bff5152e4bbaf2997d2cdbae92bcf9f9b9b3a58c9fc",
+    "bones": 292,
+    "cubes": 939,
+    "faces": 5253,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178100,
+      "sha256": "9befce8875c826f016132d9842b3f2e6a25c80e5ce0a2355e8f1eae7b2e58b17"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 111513,
+      "sha256": "fd879ae29b284b967ca2491149ca8fc5a995c6e8d63010a87161be42708293ae"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 249850,
+      "sha256": "ac09ed05ae27895490ddd37aac11049622891d142965fca07a09690a236a7de6"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 179043,
+      "sha256": "6b4456cf7afb6bffaa67f3840904a10b938038cc3c44ea2be04a93843e81c120"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50174,
+      "sha256": "8502dc7b067a502d328a497c7210cce2ef9aa4ec1b8c34a1a49ad61148a300c5"
+    },
+    {
+      "path": "avatar/XGancheng_Tao.png",
+      "size": 39255,
+      "sha256": "1de6d836ce4d6c7883a9648dc40b9a6e58397c53772919a4f47bac7a8ec0f4a5"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 2401,
+      "sha256": "61c7711c7b3a77339a776724d27c4a9dd1949badbe0fab2fb655dccfc42b8a90"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 9632,
+      "sha256": "1a0b9f9241c51bc9324812250bf4b0b94592be96da9720fd3e69c90542836587"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13725,
+      "sha256": "605fc04a716cfd12d30b5d6fb5d6db461504bd2f8da602fe078a4f57b4d71c71"
+    },
+    {
+      "path": "models/main.json",
+      "size": 479096,
+      "sha256": "383c18e567e63e80634044c1958c64bf198864bf286fdeb77bf0a49e9875ea54"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2686,
+      "sha256": "197669635bbf7b8cf8892b6912e428c92c66aac37ea2d3f1a174c9a04b2b64f6"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 129891,
+      "sha256": "f35420fa3ff330c3cd90fe4adc0ebbe5739bcb9816473ffbf7151297ee4c25db"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2791,
+      "sha256": "7f4e460d6be7ec53d2a10dbcdb93ca75d943a66c2ee1d7fd39de598f02791b09"
+    }
+  ]
+}

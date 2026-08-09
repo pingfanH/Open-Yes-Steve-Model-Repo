@@ -1,0 +1,208 @@
+{
+  "id": "Helldivers__1.5",
+  "path": "parsed/Helldivers__1.5",
+  "source": {
+    "path": "_Helldivers/Helldivers__1.5.ysm",
+    "type": "ysm",
+    "stem": "Helldivers__1.5"
+  },
+  "ysm": "parsed/Helldivers__1.5/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/哥斯拉.png",
+        "comment": "稳步提升 勿忘初心",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "name": "哥斯拉",
+        "role": "模型/贴图"
+      },
+      {
+        "avatar": "avatar/nona.png",
+        "comment": "",
+        "name": "nona",
+        "role": "模型/贴图"
+      },
+      {
+        "avatar": "avatar/雷切克.png",
+        "comment": "动画师缚丝刘经理",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/33150006"
+        },
+        "name": "雷切克",
+        "role": "适配/动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "name": "绝地潜兵",
+    "tips": "自由、和平、民主。这是超级地球公民与生俱来的权利，是我们文明的重要支柱，也是我们存在的基石。\n但战争愈演愈烈，这一切再次受到威胁。\n加入银河系有史以来最强大的军事力量，重新恢复这里的安宁与自由。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "#舞蹈": "舞蹈",
+      "#绝地潜兵动作": "§e绝地潜兵动作",
+      "extra0": "pose",
+      "extra1": "坐下1",
+      "extra2": "鼓掌",
+      "extra3": "点头",
+      "extra4": "坐下2",
+      "extra5": "胜利",
+      "extra7": "坐下3",
+      "extra9": "似了"
+    },
+    "extra_animation_classify": [
+      {
+        "id": "舞蹈",
+        "extra_animation": {
+          "#return": "返回按钮",
+          "extra6": "肃清镇魂曲",
+          "extra18": "鹿乃子虎视眈眈",
+          "extra11": "催眠术",
+          "extra12": "星辉闪耀",
+          "extra13": "橙色正义",
+          "extra14": "互联网过度依存",
+          "extra20": "摇啊摇",
+          "extra10": "摇摇乐",
+          "extra15": "开车车",
+          "extra19": "致命公司摇",
+          "extra21": "快远离互联网",
+          "extra16": "dance",
+          "extra17": "alice didida",
+          "extra22": "谎言舞者"
+        }
+      },
+      {
+        "id": "绝地潜兵动作",
+        "extra_animation": {
+          "#return": "§c返回按钮",
+          "hd_a_1": "§6敬礼",
+          "hd_a_2": "§6稍息",
+          "hd_a_3": "§6恭迎民主"
+        }
+      }
+    ],
+    "default_texture": "texture",
+    "preview_animation": "idle",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Helldivers__1.5_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6548,
+      "sha256": "20f2a0c7b9f1b291dabcbb21b2f19885aa5e5ce2bf4bf2a124ecf3499b1bd671"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 3120684,
+    "sha256": "583f4f3626e86ce664902e5ac21ec670cdee5df2bb5e51d6c9a626f6ee07ba2c",
+    "bones": 51,
+    "cubes": 295,
+    "faces": 1770,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 32575,
+      "sha256": "997127f7f8e6c3d2010ee49a7489d7c56d0a9d4d00269a7833c774e256580e57"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 1385754,
+      "sha256": "a94b30cb431721a02f6ec82b907170e57d7504feb014722c2ff5fbf9eca5e5af"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 290249,
+      "sha256": "641f89f01ba54df6da28d24e098d5a5c3ba1993adb005070f41be5d23ba8b726"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 167199,
+      "sha256": "5ee289779c774d70bcf78583e2aa29265a0f821d8226f59c69a70770f4c84b94"
+    },
+    {
+      "path": "avatar/nona.png",
+      "size": 38898,
+      "sha256": "2c526c500e052978688b7315bcc37b24033882c8ce4a302ea6d8d80025c8598b"
+    },
+    {
+      "path": "avatar/哥斯拉.png",
+      "size": 176176,
+      "sha256": "19bcdfe402cd0655547719b2213e4c3a0eebeeb9671c70a6a4ca817a075bdd88"
+    },
+    {
+      "path": "avatar/雷切克.png",
+      "size": 210701,
+      "sha256": "3ea2eb04dfebbfe16db2ad863a6ecd4d293b77745caa7b04e5b684f40abb298b"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 26398,
+      "sha256": "b9e3fb1546d5268c21dc9dbb2edb9a7465997bf5af0af9bf5f5e17a329dda869"
+    },
+    {
+      "path": "models/main.json",
+      "size": 129243,
+      "sha256": "55cc8acbe389170fdcd89367f81db760ee3c9e3b87322fd8554f42c475b29a91"
+    },
+    {
+      "path": "sounds/A Cup Of Liber-Tea.ogg",
+      "size": 639670,
+      "sha256": "bdc32172e84d3d98310d30601e7e9317993e92c4247ee5b5787c586bb79730ab"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 21598,
+      "sha256": "93a8dff551eafa664810f2e57d05395c0867d114fc377dfb3eb8455376232ccc"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2223,
+      "sha256": "be13390bd02d465cb96076e774b0fa36b7256a72a031faf3e6528d0436897f7c"
+    }
+  ]
+}

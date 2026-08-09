@@ -1,0 +1,167 @@
+{
+  "id": "Limbus_Bari(ysm2.2.1-special)_v2.0",
+  "path": "parsed/Limbus_Bari(ysm2.2.1-special)_v2.0",
+  "source": {
+    "path": "_LimbusCompany/Limbus_Bari(ysm2.2.1-special)_v2.0.ysm",
+    "type": "ysm",
+    "stem": "Limbus_Bari(ysm2.2.1-special)_v2.0"
+  },
+  "ysm": "parsed/Limbus_Bari(ysm2.2.1-special)_v2.0/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/伦理问题.png",
+        "comment": "每集都是做的最崩溃的一集",
+        "contact": {
+          "b站": "https://space.bilibili.com/384456209?spm_id_from=333.1365.0.0",
+          "爱发电": "https://afdian.com/a/Mortis"
+        },
+        "name": "伦理问题",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/Mortis",
+      "home": "https://space.bilibili.com/384456209?spm_id_from=333.1365.0.0"
+    },
+    "name": "巴里",
+    "tips": "彷徨于都市与废墟之中探寻花朵的旅行者。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "待机",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "换装"
+    },
+    "preview_animation": "1",
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Limbus_Bari_ysm2.2.1-special__v2.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 11846,
+      "sha256": "e465766c8cbcfbd8d15970c66a4c56d268a4827489b0f9f531c6c1daf694716a"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 2570353,
+    "sha256": "14dbaa3bf8721b9a91a13361aa1f1d44f5a52384d7b50559db475c94b869769b",
+    "bones": 325,
+    "cubes": 1788,
+    "faces": 10728,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 182007,
+      "sha256": "e70f3bb55029e2e22bc1ba70324a7f1a633256719e10b351d5d6a334c2df83b2"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1138,
+      "sha256": "6ef6791b2b391fc30bb2f74f26eb09de94e2a382c535202f5d736eb89d37577d"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 57434,
+      "sha256": "ae10c743398dcbdc0a679da4179992999987bd6ca279f177d753ae0cd2bae12e"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 221706,
+      "sha256": "c49ab6cac0d83dacbcdcdefd667f85b23ade20fdc573d812b25072ffe56b67ec"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 132915,
+      "sha256": "c2d1274e2c1368df6e192ca84979c249fbe60d885adc048d4f51748445f79c49"
+    },
+    {
+      "path": "avatar/伦理问题.png",
+      "size": 408542,
+      "sha256": "5d94ee7f808bfeb1157d1fa4ef0d47343387b0a2af7b54079eb155bd4f647c1e"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 55039,
+      "sha256": "81fa5540c251b70574d5cc1ec5b2d47909e50d2d1b41f5b22d0d059f953a8031"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 2112,
+      "sha256": "18690431f47bfde03b3134a02ca6ba06fc66d7ae7ebe705fdc75252551667f0d"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1443831,
+      "sha256": "c6b0da317ffc9ca927d36715b2aed49f2a01af8db1ea23921f227e03a4359ea6"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 293,
+      "sha256": "0c91fe1f5ea3092f763885e5075f1bd8cd684c4444a3785c796afface433a398"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 64129,
+      "sha256": "c069e3bab9805c0dedd83c395c794d0cacba9436af8dda83b3a4493f8b836c74"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1207,
+      "sha256": "829594826a51833db461905ed23edb50a32fcb1a457ef9e3ef8d3c59c12a604e"
+    }
+  ]
+}

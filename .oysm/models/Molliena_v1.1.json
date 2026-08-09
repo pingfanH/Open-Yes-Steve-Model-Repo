@@ -1,0 +1,660 @@
+{
+  "id": "Molliena v1.1",
+  "path": "parsed/Molliena v1.1",
+  "source": {
+    "path": "Unknown/Molliena v1.1.ysm",
+    "type": "ysm",
+    "stem": "Molliena v1.1"
+  },
+  "ysm": "parsed/Molliena v1.1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§9赤恒Red_Constant.png",
+        "comment": "闲着喜欢捣鼓一些东西说是",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/235888316"
+        },
+        "name": "§9赤恒Red_Constant",
+        "role": "§4ALL!!!"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://space.bilibili.com/235888316",
+      "home": "https://space.bilibili.com/235888316"
+    },
+    "name": "§b莫尔里奈",
+    "tips": "没人知道她来自哪里,也没人知道她要做些什么\n但是能确定的是......这家伙一定不是人类"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#服装配置",
+      "#extra_classify": "#面部控制",
+      "#动作（持续更新）": "动作（持续更新）",
+      "#角色调整": "角色调整",
+      "猫耳": "猫猫耳"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "服装配置",
+        "name": "服装配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "体型: ",
+            "description": "大小",
+            "value": "v.player_size",
+            "step": 0.2,
+            "min": 0.2,
+            "max": 2.0
+          },
+          {
+            "type": "checkbox",
+            "title": "装饰开关",
+            "description": "玩家装饰",
+            "value": "v.zz"
+          },
+          {
+            "type": "checkbox",
+            "title": "外套",
+            "description": "玩家外套",
+            "value": "v.wt"
+          },
+          {
+            "type": "checkbox",
+            "title": "腿环！",
+            "description": "玩家腿环",
+            "value": "v.th"
+          },
+          {
+            "type": "checkbox",
+            "title": "玉足模式（",
+            "description": "玩家鞋子",
+            "value": "v.xz"
+          },
+          {
+            "type": "checkbox",
+            "title": "挑染？",
+            "description": "孩子们,bro的头发会发光",
+            "value": "v.tr"
+          },
+          {
+            "type": "checkbox",
+            "title": "光环！",
+            "description": "转生鸡窝托斯（雾",
+            "value": "v.gh"
+          },
+          {
+            "type": "checkbox",
+            "title": "无人机",
+            "description": "孩子们，从心夏那边偷过来的",
+            "value": "v.wrj"
+          },
+          {
+            "type": "checkbox",
+            "title": "双马尾",
+            "description": "Bro要成为双马尾！",
+            "value": "v.ponytail"
+          },
+          {
+            "type": "range",
+            "title": "光翼大小",
+            "description": "调整光翼大小",
+            "value": "v.light_wings",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 5.0
+          },
+          {
+            "type": "radio",
+            "title": "眼镜",
+            "description": "眼镜选择",
+            "value": "v.glass",
+            "labels": {
+              "无": "v.glass=0;v.hackglass=0;v.sunglasses=0",
+              "黑客眼镜": "v.glass=1;v.hackglass=1;v.sunglasses=0",
+              "墨镜": "v.glass=2;v.hackglass=0;v.sunglasses=1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "面部控制",
+        "name": "面部控制",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "眼睛类型",
+            "description": "眼睛样式！",
+            "value": "v.eyes_change",
+            "labels": {
+              "普通眼": "v.eyes_change=0;v.pty=1;v.xcy=0;v.ooy=0;v.qqy=0",
+              "小春眼": "v.eyes_change=1;v.pty=0;v.xcy=1;v.ooy=0;v.qqy=0",
+              "O.O": "v.eyes_change=2;v.pty=0;v.xcy=0;v.ooy=1;v.qqy=0",
+              "QAQ": "v.eyes_change=3;v.pty=0;v.xcy=0;v.ooy=0;v.qqy=1"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "脸色",
+            "description": "改变面部状态！",
+            "value": "v.face_change",
+            "labels": {
+              "无": "v.face_change=0;v.gg=1;v.tk=1;v.hl=0;v.lh=0;v.sh=0",
+              "黑脸": "v.face_change=1;v.gg=0;v.tk=0;v.hl=1;v.lh=0;v.sh=0",
+              "脸红": "v.face_change=2;v.gg=1;v.tk=1;v.hl=0;v.lh=1;v.sh=0",
+              "腮红": "v.face_change=3;v.gg=1;v.tk=1;v.hl=0;v.lh=0;v.sh=1"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "嘴部表情",
+            "description": "修改嘴部样式！",
+            "value": "v.mouth_change",
+            "labels": {
+              "微笑": "v.mouth_change=0;v.zc=1; v.xx=0; v.bxx=0; v.wl=0; v.eh=0; v.xiao=0;v.wyl=0",
+              "嘻嘻": "v.mouth_change=1;v.zc=0; v.xx=1; v.bxx=0; v.wl=0; v.eh=0; v.xiao=0;v.wyl=0",
+              "不嘻嘻": "v.mouth_change=2;v.zc=0; v.xx=0; v.bxx=1; v.wl=0; v.eh=0; v.xiao=0;v.wyl=0",
+              "乐": "v.mouth_change=3;v.zc=0; v.xx=0; v.bxx=0; v.wl=0; v.eh=0; v.xiao=1;v.wyl=0",
+              "丸辣！": "v.mouth_change=4;v.zc=0; v.xx=0; v.bxx=0; v.wl=1; v.eh=0; v.xiao=0;v.wyl=0",
+              "吐舌": "v.mouth_change=5;v.zc=0; v.xx=0; v.bxx=0; v.wl=0; v.eh=1; v.xiao=0;v.wyl=0",
+              "无口": "v.mouth_change=6;v.zc=0; v.xx=0; v.bxx=0; v.wl=0; v.eh=0; v.xiao=0;v.wyl=0",
+              "无言": "v.mouth_change=7;v.zc=0; v.xx=0; v.bxx=0; v.wl=0; v.eh=0; v.xiao=0;v.wyl=1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "整体调整",
+        "name": "整体调整",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "调整头部大小",
+            "description": "整体调整头部大小",
+            "value": "v.head_size",
+            "step": 0.1,
+            "min": 0.5,
+            "max": 2.5
+          },
+          {
+            "type": "range",
+            "title": "角色模型大小",
+            "description": "整体角色模型大小",
+            "value": "v.player_size",
+            "step": 0.1,
+            "min": 0.1,
+            "max": 3.0
+          }
+        ]
+      },
+      {
+        "id": "头部调整",
+        "name": "头部调整",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "X轴",
+            "description": "X轴",
+            "value": "v.head_size_x",
+            "step": 0.1,
+            "min": 0.1,
+            "max": 4.0
+          },
+          {
+            "type": "range",
+            "title": "Y轴",
+            "description": "Y轴",
+            "value": "v.head_size_y",
+            "step": 0.1,
+            "min": 0.1,
+            "max": 4.0
+          },
+          {
+            "type": "range",
+            "title": "Z轴",
+            "description": "Z轴",
+            "value": "v.head_size_z",
+            "step": 0.1,
+            "min": 0.1,
+            "max": 4.0
+          }
+        ]
+      },
+      {
+        "id": "眼部调整",
+        "name": "眼部调整",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "X轴",
+            "description": "X轴",
+            "value": "v.eyes_size_x",
+            "step": 0.1,
+            "min": 0.1,
+            "max": 1.2
+          },
+          {
+            "type": "range",
+            "title": "Y轴",
+            "description": "Y轴",
+            "value": "v.eyes_size_y",
+            "step": 0.1,
+            "min": 0.1,
+            "max": 1.2
+          }
+        ]
+      },
+      {
+        "id": "身体调整",
+        "name": "身体调整",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "X轴",
+            "description": "X轴",
+            "value": "v.body_size_x",
+            "step": 0.1,
+            "min": 0.1,
+            "max": 4.0
+          },
+          {
+            "type": "range",
+            "title": "Y轴",
+            "description": "Y轴",
+            "value": "v.body_size_y",
+            "step": 0.1,
+            "min": 0.1,
+            "max": 4.0
+          },
+          {
+            "type": "range",
+            "title": "Z轴",
+            "description": "Z轴",
+            "value": "v.body_size_z",
+            "step": 0.1,
+            "min": 0.1,
+            "max": 4.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "看板",
+        "extra_animation": {
+          "kanban-new": "新版",
+          "extra5": "旧版"
+        }
+      },
+      {
+        "id": "Power!",
+        "extra_animation": {
+          "power!-voice": "无音乐",
+          "power!": "有音乐"
+        }
+      },
+      {
+        "id": "拔刀",
+        "extra_animation": {
+          "get-sword": "新版",
+          "extra6": "旧版"
+        }
+      },
+      {
+        "id": "额外动作",
+        "extra_animation": {
+          "#看板": "看板动作",
+          "#拔刀": "拔刀",
+          "chaoweimofa": "超位魔法",
+          "#Power!": "抛瓦！"
+        }
+      },
+      {
+        "id": "基础动作",
+        "extra_animation": {
+          "extra1": "打招呼",
+          "extra2": "鼓掌",
+          "extra3": "同意",
+          "extra4": "否定"
+        }
+      },
+      {
+        "id": "动作（持续更新）",
+        "extra_animation": {
+          "#额外动作": "额外动作",
+          "#基础动作": "基础动作",
+          "#小姿势": "小姿势"
+        }
+      },
+      {
+        "id": "局部调整",
+        "extra_animation": {
+          "占位-1": "#身体调整",
+          "占位-2": "#头部调整",
+          "占位-3": "#眼部调整",
+          "": "敬请期待"
+        }
+      },
+      {
+        "id": "角色调整",
+        "extra_animation": {
+          "#局部调整": "局部调整",
+          "占位-1": "#整体调整"
+        }
+      },
+      {
+        "id": "小姿势",
+        "extra_animation": {
+          "pose-1": "1",
+          "pose-2": "2"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": true,
+    "disable_preview_rotation": true,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/main.animation_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "boat": {
+        "model": "models/boat.json",
+        "animation": "animations/projectiles/boat.animation.json",
+        "texture": "textures/boat.png"
+      },
+      "chest_boat": {
+        "model": "models/chest_boat.json",
+        "animation": "animations/projectiles/chest_boat.animation.json",
+        "texture": "textures/chest_boat.png"
+      },
+      "horse": {
+        "model": "models/horse.json",
+        "animation": "animations/projectiles/horse.animation.json",
+        "texture": "textures/horse.png"
+      },
+      "minecart": {
+        "model": "models/minecart.json",
+        "texture": "textures/minecart.png"
+      }
+    },
+    "vehicles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/vehicle/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      },
+      "firework_rocket": {
+        "model": "models/firework_rocket.json",
+        "texture": "textures/firework_rocket.png"
+      },
+      "fishing_bobber": {
+        "model": "models/fishing_bobber.json",
+        "texture": "textures/fishing_bobber.png"
+      },
+      "trident": {
+        "model": "models/trident.json",
+        "texture": "textures/trident.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Molliena_v1.1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 1267,
+      "sha256": "77e87b9fda91622d0f827cce3114bb6c50731312e39a1c982cceef6b5688da73"
+    }
+  },
+  "stats": {
+    "file_count": 39,
+    "total_bytes": 13983961,
+    "sha256": "46dbc2b4a3fb7146bb8ba51c32e672fc4e255f697742d42674e3c6938c56d3cf",
+    "bones": 618,
+    "cubes": 3033,
+    "faces": 18198,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 189484,
+      "sha256": "8a08d3998c1dbe6db26e9c8fa2b842ca05e21397d58902e42d96a91f851d8125"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 49879,
+      "sha256": "e2e95432542fb92107046cf85fd76084682525d4c8f73cd68933f67e9e747d2e"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 311530,
+      "sha256": "e90aac82d59993bdd481909ccf050fe58b2869444c323ebafc138864d8d8ea84"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/projectiles/boat.animation.json",
+      "size": 2223,
+      "sha256": "653bc27fccad730b6d6e1b129c2f579b1cd0507e40b5959c6e6bd43c562d4a7e"
+    },
+    {
+      "path": "animations/projectiles/chest_boat.animation.json",
+      "size": 2223,
+      "sha256": "653bc27fccad730b6d6e1b129c2f579b1cd0507e40b5959c6e6bd43c562d4a7e"
+    },
+    {
+      "path": "animations/projectiles/horse.animation.json",
+      "size": 3163,
+      "sha256": "4d0b36b7ef81a5edb1402f6b03626b2ce21e711791dbb7b36d2a0c54bf99b8b5"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "animations/vehicle/arrow.animation.json",
+      "size": 3093,
+      "sha256": "96e58bb572da6d8b8af69272321eea50605ec42bf15ff4837b078ea337aa191d"
+    },
+    {
+      "path": "avatar/§9赤恒Red_Constant.png",
+      "size": 5906,
+      "sha256": "fdf03c357952dc7ef21d2cf2d0808c1512a1b999cdcb9f73560e5acb6e4db9c4"
+    },
+    {
+      "path": "controller/main.animation_controllers.json",
+      "size": 5374,
+      "sha256": "da1d57b2e0a1c301bcd3f85a92068fab0869b48d98118ffaa618529097984c8b"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 23954,
+      "sha256": "bd58afaf4864323daf7eecb8a2bb41317a0940259ce887df0077b89b94d7efa8"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 42492,
+      "sha256": "92cf8805e98cf24b74bf71c5b20c34c8b8e7c6da44583a40f95b7ad202d6ddc9"
+    },
+    {
+      "path": "models/boat.json",
+      "size": 252391,
+      "sha256": "0847d744f816f0389b6c291f5f7771275a0f3fd167df493feb188f10cbe98913"
+    },
+    {
+      "path": "models/chest_boat.json",
+      "size": 252270,
+      "sha256": "8c7b33f72658aed5ca1e24c542c02b0706afe187d246c44f76881c859b40690a"
+    },
+    {
+      "path": "models/firework_rocket.json",
+      "size": 14369,
+      "sha256": "2acf630afccfd03f15759638caea1630c05a2394d349366172cc207754d51886"
+    },
+    {
+      "path": "models/fishing_bobber.json",
+      "size": 1882,
+      "sha256": "f7fb5b4522b2129efda58121e0a9d121c96300213244a2af59741c0f060a28c7"
+    },
+    {
+      "path": "models/horse.json",
+      "size": 187904,
+      "sha256": "c595ef735715d99acabb91e09854240b0575f65296fc97307447c1d5932654eb"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1664062,
+      "sha256": "2e17a49638e205978635f5195b9867064e26c7a79a4e997e5cbf94ac39d32511"
+    },
+    {
+      "path": "models/minecart.json",
+      "size": 151870,
+      "sha256": "8333dd06b30b5d4d35adff06f2eede99c39e7a97db82e7359e8f4b555c126cb2"
+    },
+    {
+      "path": "models/trident.json",
+      "size": 77138,
+      "sha256": "60d1534bc5d3ae29cb8381dd99b7093ce2734183892e5e805030a6a93b977196"
+    },
+    {
+      "path": "sounds/horserunning.ogg",
+      "size": 30173,
+      "sha256": "065c6f83ad3b66f7463de9a3b4e152f865ebf098c8ec5b90985a4f66d37e8d52"
+    },
+    {
+      "path": "sounds/horsestop.ogg",
+      "size": 27199,
+      "sha256": "4d93f4707b92e86c682e407a23164b18a1ba856cd2dd1df2ef970dea7e307b30"
+    },
+    {
+      "path": "sounds/powerstart.ogg",
+      "size": 4149126,
+      "sha256": "e11a73a5fa1bbc06d8d9bc5dcc5bb6b3be6721470b49acb9d278c0281f1e9c85"
+    },
+    {
+      "path": "sounds/powerstop.ogg",
+      "size": 3949079,
+      "sha256": "3550d666b9ee1b1914df908e82bf8b28df609c0fd89caf3457060985f93fe144"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1644,
+      "sha256": "4c08accf782f1c8564dda813bc1b40d0f13bdbb0fe4e4c3c5b5f6d8f0fef0315"
+    },
+    {
+      "path": "textures/boat.png",
+      "size": 24372,
+      "sha256": "fde99c5dd6ff07f421d9eacbad1b94781c81429970f56815be6f7ae7456b5646"
+    },
+    {
+      "path": "textures/chest_boat.png",
+      "size": 24372,
+      "sha256": "fde99c5dd6ff07f421d9eacbad1b94781c81429970f56815be6f7ae7456b5646"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 37528,
+      "sha256": "e37f1dd4358b916b37a5afdf2cc9313d73a7c640b548c224438da14f081fcaea"
+    },
+    {
+      "path": "textures/firework_rocket.png",
+      "size": 378,
+      "sha256": "031d49341b0c1981e4fa401943a1e88902c13795f3114369724fe9eef31d7554"
+    },
+    {
+      "path": "textures/fishing_bobber.png",
+      "size": 154,
+      "sha256": "d706b5f2e919ae85f5d99dc908df70504ac109873130da0fbddf027fb6b18375"
+    },
+    {
+      "path": "textures/horse.png",
+      "size": 31952,
+      "sha256": "ac2295743aafa51b8e981a7f72bf18ab7713c288d9f38558e121de853e98b828"
+    },
+    {
+      "path": "textures/minecart.png",
+      "size": 19662,
+      "sha256": "547508a4f3449156a1e6f11527ffcc1476ad738eba0f2bcc00e17ce4193ea8d5"
+    },
+    {
+      "path": "textures/trident.png",
+      "size": 1498,
+      "sha256": "afd27ea9b46618d2703c52582600bc97381d36598e7b8a161c8c56fa50e3dccd"
+    },
+    {
+      "path": "ysm.json",
+      "size": 7688,
+      "sha256": "26c104235109e2af5961947bbab0600e7cfbb417aa8898bdd3b32003a667fbde"
+    }
+  ]
+}

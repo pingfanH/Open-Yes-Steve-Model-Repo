@@ -1,0 +1,135 @@
+{
+  "id": "ReZero_Rem",
+  "path": "parsed/ReZero_Rem",
+  "source": {
+    "path": "_ReZero/ReZero_Rem.ysm",
+    "type": "ysm",
+    "stem": "ReZero_Rem"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "金嘉",
+    "tips": "DORAEMON，金嘉哟~",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "@B站 平衡芝光"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "arrow.png",
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "arrow": "arrow.animation.json",
+        "carryon": "carryon.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/ReZero_Rem_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 3657,
+      "sha256": "603bb1ad1a35fce2f445b31e37b57f573eeb87edd5a49295bb1d66d4bf723d1b"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 816333,
+    "sha256": "04f3051a3121765b5bbb01e352e6f6dcfbd6d6e6c3ef1193b87d45e197298bf3",
+    "bones": 131,
+    "cubes": 753,
+    "faces": 4518,
+    "textures": 2,
+    "materials": 2,
+    "animations": 6,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 121059,
+      "sha256": "6723a616c540530f3d8fc512c76d85628fba845d9da0821fb423fd0b649eab46"
+    },
+    {
+      "path": "arm.json",
+      "size": 16260,
+      "sha256": "a110158c7d74261c4457d00fd411a60f638fe84f31ad020273edb1cc3860beac"
+    },
+    {
+      "path": "arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "carryon.animation.json",
+      "size": 2873,
+      "sha256": "406039fac63d7e1fcb6f09707e399b65f6880fb200d409ac337484c31b21e6cf"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 2162,
+      "sha256": "b96930a79ae3f73316126620669502448a29f0ea218d163c0f271dcb47653253"
+    },
+    {
+      "path": "info.json",
+      "size": 217,
+      "sha256": "edfcc3e7b99afc5945d6f72ce1ed68225a63ee3de1cee8b1a0a2d831d865e563"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 123982,
+      "sha256": "954b32dbb7276c4af8334873fdc25001d074ac67161fb6a520bef74e41fb453c"
+    },
+    {
+      "path": "main.json",
+      "size": 396399,
+      "sha256": "489fe6f9a3c9db51e4dffb216b4c5af9d1c15075bf08d5598d87fb3eedd0bfeb"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "texture.png",
+      "size": 11626,
+      "sha256": "57963df2eddb95f98f09d4dc7e8ab60d9c774a388921be3efe48106a09f106be"
+    }
+  ]
+}

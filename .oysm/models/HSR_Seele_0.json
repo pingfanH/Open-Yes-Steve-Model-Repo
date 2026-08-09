@@ -1,0 +1,90 @@
+{
+  "id": "HSR_Seele_0",
+  "path": "parsed/HSR_Seele_0",
+  "source": {
+    "path": "_HonkaiStarRail/HSR_Seele_0.ysm",
+    "type": "ysm",
+    "stem": "HSR_Seele_0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "HSR_Seele_0"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "seele.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/HSR_Seele_0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 12978,
+      "sha256": "a9306d63f646cd82e46a4bababc63329186e170bb496521603061f2be80b1e34"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 559927,
+    "sha256": "2b26a04424452a112635e003de741f45398c8ec0ae45571cbf76c9737e6023d3",
+    "bones": 134,
+    "cubes": 872,
+    "faces": 5232,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 190605,
+      "sha256": "7009b9d96543ddba5b1e4c5a9f157de3197605b99cfb12ef9fd069617ac62b5d"
+    },
+    {
+      "path": "arm.json",
+      "size": 16201,
+      "sha256": "f3b0bd9f898b941561b168a459a732e57b5ef13b905022f9dbfb534c2bd0a949"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 19135,
+      "sha256": "d8159bcd2f89781c684d4ff4142b96103e3d83ab176041f53aec56d1cf4636af"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 190605,
+      "sha256": "7009b9d96543ddba5b1e4c5a9f157de3197605b99cfb12ef9fd069617ac62b5d"
+    },
+    {
+      "path": "main.json",
+      "size": 135108,
+      "sha256": "412af28a4257d54d63188bcd0426648bf2dd1d9736462829c6143cbd0f06f66a"
+    },
+    {
+      "path": "seele.png",
+      "size": 8273,
+      "sha256": "e6af5dfc3415c4d4924062f3413a0f39c5705bb3e8bc675837f192db87dff840"
+    }
+  ]
+}

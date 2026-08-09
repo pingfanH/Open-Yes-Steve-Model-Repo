@@ -1,0 +1,201 @@
+{
+  "id": "Atago",
+  "path": "parsed/Atago",
+  "source": {
+    "path": "Unknown/Atago.zip",
+    "type": "zip",
+    "stem": "Atago"
+  },
+  "ysm": "parsed/Atago/ysm.json",
+  "metadata": {
+    "name": "Default",
+    "tips": "默认模型（Default Model）",
+    "license": {
+      "type": "All Rights Reserved"
+    },
+    "authors": [
+      {
+        "name": "<Unknown>"
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "height_scale": 0.65,
+    "width_scale": 0.65,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "#extra_classify": "Extra Classify"
+    },
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "Simple Config",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "fold ear",
+            "description": "fold ear",
+            "value": "v.ear"
+          }
+        ]
+      }
+    ],
+    "preview_animation": "idle",
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true,
+    "disable_preview_rotation": false,
+    "all_cutout": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/main.animation_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Atago_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6972,
+      "sha256": "3296f163101a0dc095b23efd72b86509c32c6923645ecd5542d7443881056f75"
+    }
+  },
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 3116175,
+    "sha256": "49772c8cbf7cb6463f91500b03444490a343104d380be044f6c402ef62900202",
+    "bones": 144,
+    "cubes": 789,
+    "faces": 4724,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 190603,
+      "sha256": "472353537f91fd5d7bed0bfd6239aafdbf09d10cd35ea618c8a259f150e63060"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2917,
+      "sha256": "f1b559bb714f40be566b02e1b8dd44c2cc380783e0e8a480c89a8378caa05b96"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 120100,
+      "sha256": "257c5b79c1f1833a248735f32d17567b00093a3c25c2591b6476c2ba65d329f3"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 184286,
+      "sha256": "8d8f5e5ed0ea53a041376f1dbbd143f8e735b1bf89f1635ee2c287aa431fbfdf"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 176050,
+      "sha256": "9ecf075152538c1a7ac0bcd61f40bbd607a523c184a009c37cd37e23611b2913"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1598799,
+      "sha256": "d50e8b37390c62f09b1a9af1ef4c4d95fcf0063050f7b1fd5cacc3ff682b5604"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 212304,
+      "sha256": "002ae25fb2d72e0ed6a0749e0c0a58776fe3e403c7f2b00ea0e6c64c4187184c"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 63606,
+      "sha256": "8e38e0d04193f5023f619ba64d847eee7cb675291c0747f98292656a028dacf7"
+    },
+    {
+      "path": "controller/main.animation_controllers.json",
+      "size": 810,
+      "sha256": "ff546eb7847ecbb59ce3f43189c005e61db5ccf749dfc4f11b5d978f82b4d106"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 29255,
+      "sha256": "12077596f67a5262f1a8aa096cf70dd254ec665260d7f00a72d55d9980f84e9e"
+    },
+    {
+      "path": "models/main.json",
+      "size": 435622,
+      "sha256": "54ca59d2701479ebc63554f14b4b614773560d72709f45d1f9befab32e4de14c"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 29435,
+      "sha256": "cab0ef4d4deb87fcf5a809ad682d5534bbf6c319cd3efde80e4f6aedd0071222"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 29453,
+      "sha256": "89cb064811660c51d6c5ffcbb0a05ed1e5f2cce25c8c102e0cc666b220a857be"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1905,
+      "sha256": "4e79786118c1da06f76043a3ff0f09e3f892e8503c6eb7110b21470ef647f451"
+    }
+  ]
+}

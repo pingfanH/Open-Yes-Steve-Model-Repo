@@ -1,0 +1,140 @@
+{
+  "id": "Undertale_Sans_v5.0",
+  "path": "parsed/Undertale_Sans_v5.0",
+  "source": {
+    "path": "_Undertale/Undertale_Sans_v5.0.ysm",
+    "type": "ysm",
+    "stem": "Undertale_Sans_v5.0"
+  },
+  "ysm": "parsed/Undertale_Sans_v5.0/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/raiden.png",
+        "comment": "i like indie game",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "name": "raiden",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "monster bone"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "sans",
+    "tips": "down to the bone"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation_classify": [],
+    "default_texture": "blue",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "tac": "animations/tac.animation.json",
+        "parcool": "animations/parcool.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Undertale_Sans_v5.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 6449,
+      "sha256": "efaae6db6fbc91b90b7ff8099123de2b939c8f2d94b1e2a8392db970b056c4eb"
+    }
+  },
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 2607049,
+    "sha256": "9a6ccfb052f3b442c18530a330580cb1f478e889a56303dbb88fbc6ee049b6bf",
+    "bones": 59,
+    "cubes": 97,
+    "faces": 582,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/main.animation.json",
+      "size": 106632,
+      "sha256": "26a434709b604976c3250e7f9e9c72596ca7d87268c1fea749c7fa3e3712a797"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 262768,
+      "sha256": "3ee5fb54c50ad26a8e110fffbb2f166300f19ee9c315faaf5f5059cf3ade170d"
+    },
+    {
+      "path": "avatar/raiden.png",
+      "size": 11635,
+      "sha256": "017a49a5b21efc5cb15008c6cd69d7a703d9ce4dddb3f2fcb5df2171e8f4b1b3"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 5978,
+      "sha256": "7f64d9a90fac1712eed9dbb5d3a88e3ab8be0e5a00c160a46c04c26727fc3dbd"
+    },
+    {
+      "path": "models/main.json",
+      "size": 46670,
+      "sha256": "7dcdaa8be91b696d5d8ffd7d28ca9c7093156f439ddc229cbdef64235c2ba6ce"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 8934,
+      "sha256": "7fcce5fd5371524663614d117983c92849a901cf5417a8e4ac3bd2c20a1ee56d"
+    },
+    {
+      "path": "ysm.json",
+      "size": 969,
+      "sha256": "b856b3e8086c098e9ae869bf4d4324d8f9d0f26ccbfdc2941c00fd680ae9e085"
+    }
+  ]
+}

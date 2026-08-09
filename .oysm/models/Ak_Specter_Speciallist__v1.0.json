@@ -1,0 +1,89 @@
+{
+  "id": "Ak_Specter(Speciallist)_v1.0",
+  "path": "parsed/Ak_Specter(Speciallist)_v1.0",
+  "source": {
+    "path": "_Arknights/Ak_Specter(Speciallist)_v1.0.ysm",
+    "type": "ysm",
+    "stem": "Ak_Specter(Speciallist)_v1.0"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "Ak_Specter(Speciallist)_v1.0"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "normal.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/Ak_Specter_Speciallist__v1.0_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 9612,
+      "sha256": "4248e1735084e185e83a7805a3f022e7f824a92b163c7c9b9fad4f3657c0e81e"
+    }
+  },
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 2582813,
+    "sha256": "b91e8b6e5e39b23c7c340ff8a26d1e4c6caff809c9c21a8a013b1cecc76d856d",
+    "bones": 167,
+    "cubes": 1102,
+    "faces": 6612,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm - 副本.json",
+      "size": 239724,
+      "sha256": "3aca756574de67404c534f9982fbcdf0007380edf95a2d6bc3cf6597f8fc6cbe"
+    },
+    {
+      "path": "arm.animation.json",
+      "size": 3383,
+      "sha256": "1a268c02095a086f9f9c452402f0e4f61cde233e4e7d8221dfbc7319cd4feb1a"
+    },
+    {
+      "path": "arm.json",
+      "size": 70516,
+      "sha256": "0af43f1701c5df6713bb0b47f5320c472512cffe2d8ab113684ac038ca7e0adf"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 1675532,
+      "sha256": "4e979b14ac171f3c0f0c18016e13523e4c14afaf4f7acc49d35758cbff478f2a"
+    },
+    {
+      "path": "main.json",
+      "size": 540308,
+      "sha256": "9bbee7022b986f081c21d9e50cc2141836a7d7735e9d3aa9e6becf8e54979216"
+    },
+    {
+      "path": "normal.png",
+      "size": 53350,
+      "sha256": "ea01c81bf61103b37037ddbcdbe22e3b7429ea35ef2b6ce0983f5a024963b131"
+    }
+  ]
+}

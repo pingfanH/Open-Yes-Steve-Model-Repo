@@ -1,0 +1,218 @@
+{
+  "id": "GF_AN-94",
+  "path": "parsed/GF_AN-94",
+  "source": {
+    "path": "_GirlsFrontline/GF_AN-94.zip",
+    "type": "zip",
+    "stem": "GF_AN-94"
+  },
+  "ysm": "parsed/GF_AN-94/ysm.json",
+  "metadata": {
+    "name": "AN94",
+    "tips": "指挥官，您好，AN94，从现在起将听候您的命令……请问……啊不、没什么，请不必在意……",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "XG残党",
+        "role": "模型",
+        "avatar": "avatar/1721656327_385063_CBeF.png"
+      }
+    ],
+    "link": {
+      "home": "https://afdian.com/a/x416g",
+      "donate": "https://afdian.com/a/x416g"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "",
+      "idle3": "立绘展示",
+      "new": "加载步枪",
+      "new2": "口罩"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3
+          },
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "preview_animation": "idle2",
+    "disable_preview_rotation": true,
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "slashblade": "animations/slashblade.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ],
+      "sound_path": "sounds"
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": "textures/arrow.png"
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GF_AN-94_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7777,
+      "sha256": "168a5c974c84f23eaedc081484379be1d10cdac5cf9cbf8014384d524a95c251"
+    }
+  },
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 2239388,
+    "sha256": "86d2ace572f7922626b2f4628baefe44bfee78d3dca864bc84661fe154d0405f",
+    "bones": 91,
+    "cubes": 559,
+    "faces": 3354,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 192767,
+      "sha256": "cc1651f3b3378e92b83cbd50f151b8c9a161d36987bdac0961af24188a47691d"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 726,
+      "sha256": "1adcba945eaf9fbe605a03fc6173031fb13e31207e6ddfa136c543b0908318d6"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2917,
+      "sha256": "f1b559bb714f40be566b02e1b8dd44c2cc380783e0e8a480c89a8378caa05b96"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 116258,
+      "sha256": "11bc5c55e48111d754c42c2479a17c1f70a905055b06cbd7dd8b62034898c8d5"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 188165,
+      "sha256": "861d40986a5d2b2be066e3154808176846f53d846450e746665e489419d6b1cf"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 163820,
+      "sha256": "d987a9b3c8e3e2efc98973dfaff5af5511a7b6aee0c7edc6cb3e135479d95471"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1154783,
+      "sha256": "e3aed0cd211de3710a9b46cf7811954ba6da7ee6298d41dda6241cff19c7f86f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 193253,
+      "sha256": "d7f88c998c739a288a6d99f146e491679ff67e5a10e39a0145009f8f459edfa2"
+    },
+    {
+      "path": "avatar/1721656327_385063_CBeF.png",
+      "size": 33093,
+      "sha256": "32ae812fdff67547f1fe362828716434a6331d7b92d0945404d44873551e178f"
+    },
+    {
+      "path": "avatar/DM8]LH_5N4I}EJ2[I7ZETYN.png",
+      "size": 35011,
+      "sha256": "e58a932dfd4822416cf709132bbcc21a0d656dd49175eeca5e069799727a03b6"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 1848,
+      "sha256": "754ef1b4783be9b95ee72dbbbc3511812b75834167eef905109012d4c151a056"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 2822,
+      "sha256": "f3b5fcd01e08bcf1458316450a4cdab34ec972ad68d011c2009e19f92d9f98c8"
+    },
+    {
+      "path": "models/main.json",
+      "size": 94450,
+      "sha256": "f54f9f3915988c3f7ff00cdead4c5eebe8dbc273abc872e96b7d875e085cd441"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 706,
+      "sha256": "7e060893a7aa96f52fc37360dcb698bf1575cbc8ed51ee7d729fe17e9940ef1d"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 15478,
+      "sha256": "6360081e7f1e22ba8bc925567f959ae68c11e0e4d1f7d8c04e960c34d0561aec"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2261,
+      "sha256": "b841cc58dfad2667fbc5d72109c8c72f2cb786c302278b99e98ba6c76611af19"
+    }
+  ]
+}

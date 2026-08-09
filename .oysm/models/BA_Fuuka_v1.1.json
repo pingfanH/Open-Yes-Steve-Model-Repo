@@ -1,0 +1,240 @@
+{
+  "id": "BA_Fuuka_v1.1",
+  "path": "parsed/BA_Fuuka_v1.1",
+  "source": {
+    "path": "_BlueArchive/BA_Fuuka_v1.1.ysm",
+    "type": "ysm",
+    "stem": "BA_Fuuka_v1.1"
+  },
+  "ysm": "parsed/BA_Fuuka_v1.1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/筅袔.png",
+        "comment": "光光看大雷真好听",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/13098279"
+        },
+        "name": "筅袔",
+        "role": "模型&额外动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "name": "爱清枫香(常服)",
+    "tips": "一向忙碌的枫香终于获得了久违的假期，脱下了围裙穿着自己喜欢的衣服，打算趁着这个难得的机会好好放松一下。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra30": "#extra_config",
+      "extra0": "诹访大舞",
+      "extra1": "挥手",
+      "extra2": "拍手",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "extra5": "加油！",
+      "extra6": "摆手摇",
+      "extra7": "机械舞",
+      "extra8": "立绘姿势"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "§9模型设置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "size：",
+            "description": "改变玩家模型大小（碰撞箱及视角不变）",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.1,
+            "max": 10.0
+          },
+          {
+            "type": "checkbox",
+            "title": "帽子",
+            "description": "用来显示或隐藏帽子",
+            "value": "v.hat_p7"
+          },
+          {
+            "type": "checkbox",
+            "title": "鞘翅显示",
+            "description": "用来显示或隐藏鞘翅",
+            "value": "v.qiaochi"
+          },
+          {
+            "type": "radio",
+            "title": "表情切换",
+            "description": "表情切换",
+            "value": "v.face",
+            "labels": {
+              "通常": "v.face=0;v.face_1=1;v.face_2=0;v.face_3=0",
+              "笑容": "v.face=1;v.face_1=0;v.face_2=1;v.face_3=0",
+              "哭哭": "v.face=2;v.face_1=0;v.face_2=0;v.face_3=1"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "chuchang",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/BA_Fuuka_v1.1_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8148,
+      "sha256": "cc031843af9cad544e88365b07e5634362fe12a217c22e14129812c27376e0f6"
+    }
+  },
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 3483885,
+    "sha256": "b10761f14ac923bb01a1780d2d071b9c66ed598de5fb42da46bcadad854deccd",
+    "bones": 112,
+    "cubes": 492,
+    "faces": 2952,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178432,
+      "sha256": "6dd9745a61d2c9607fb81c4bef90ae31a4b6bc9700f98e1fda93d8eec617638b"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 109727,
+      "sha256": "b02e89263ad2607f612b8b4ba50c705c016d79c1acd8e954d0755a01366d32ed"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 201297,
+      "sha256": "d76583c4fb96318cb4e2e35d0a687c4d71fcdff60b0ef50821c5e75d375be32c"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1505299,
+      "sha256": "2cfe596c36beecaa1688b55951b4272e660c066078bb5d95b20240a32a3a20da"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 164888,
+      "sha256": "b3ec09c8da9482e5ebbb377237438f88b9ea221ab3004d4bee9d8a9d8098f879"
+    },
+    {
+      "path": "avatar/筅袔.png",
+      "size": 836947,
+      "sha256": "bd9db11b9927333728f9ef0722a9578c79c190df4652f5e79f2e90597c65b2bc"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 13150,
+      "sha256": "56af2729f355497e8872017d44a3ec0c5689e0436fdeb37b9df043e714bbe71f"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 23867,
+      "sha256": "1afc42773050db645b569a7dafdb5ef0247fe0d0323fb814d4603e912c83ef5e"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 3463,
+      "sha256": "65aaa033f2274866700d0ff9ba45541e451ab41818d8f2e85e84ba9fc4d1ee42"
+    },
+    {
+      "path": "models/main.json",
+      "size": 241618,
+      "sha256": "efea1d84b4aec8ca2cbec03c92d8e5fd4d215db0ac2ecd182e18be782c4c66f5"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 4744,
+      "sha256": "968db88b680fd2c1914b1e4d6ee335f153509eb7d5481c2dd856efaf54519ad1"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 15729,
+      "sha256": "64b57b2b27d09a86d5c7da0882da41a8eb8f4d4cdc5c6c81d9131b529c510c00"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2293,
+      "sha256": "ffe04ee5b109405c63df18a92e637b186ad01718e034e03c5970f514350673a2"
+    }
+  ]
+}

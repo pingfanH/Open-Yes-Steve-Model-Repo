@@ -1,0 +1,167 @@
+{
+  "id": "DB_Android-21",
+  "path": "parsed/DB_Android-21",
+  "source": {
+    "path": "_DragonBall/DB_Android-21.ysm",
+    "type": "ysm",
+    "stem": "DB_Android-21"
+  },
+  "ysm": "parsed/DB_Android-21/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/nars290.png",
+        "comment": "",
+        "name": "nars290",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "link": {
+      "home": "https://x.com/Nars_VR"
+    },
+    "name": "Android21",
+    "tips": "Make sure you check out my other stuff on twitter\nthis being my first YSM model and learning and doing it all in a day was fun"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_classify": [],
+    "default_texture": "Base",
+    "preview_animation": "GUI",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/Base.png"
+        },
+        {
+          "uv": "textures/Absorbed.png"
+        },
+        {
+          "uv": "textures/Base(Evil).png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/DB_Android-21_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 8825,
+      "sha256": "90c42e4eae44d6df07d40e1c9d225915dca767fcbf38c5221a6bb5267c5de3dd"
+    }
+  },
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 1151769,
+    "sha256": "ae7a5022798a346772c30927e0e7bcca1bad1a1ffe482716ba08fcd336d0f945",
+    "bones": 204,
+    "cubes": 534,
+    "faces": 3084,
+    "textures": 3,
+    "materials": 3,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 129549,
+      "sha256": "21e891da54a9ebe0969b1b8eaf9fc7f53da9dea0f06895ac2f917f3fd11ac77f"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2590,
+      "sha256": "c4ab7c35d65e129930fc0394d10f47d9b100d50a77e58bbbcf111f2449a58ca1"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 123165,
+      "sha256": "0a5d3f9c0562cc4d4032464fa5a4f9c4d80d0d7a218e780240d04c0b276f8c9a"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 383612,
+      "sha256": "ec2290b3a8ac4d85a31ecf077a479116e5ed97b0d1981b5f99bb5acd3c89fc5f"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 133918,
+      "sha256": "f938b61d23b33ebfb2e3e74007842dfa4d32baa158e2192ae37847bcf1d56a55"
+    },
+    {
+      "path": "avatar/nars290.png",
+      "size": 17640,
+      "sha256": "cf2d2fc9effd4959fca253f060a8ab4da6da7096033eb71a3c4e5fc17b187923"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 38249,
+      "sha256": "792f1a3bb2ebaa1a6a88df4cd33eb49259c81e92650b45fcbd5a8eb0ef94c317"
+    },
+    {
+      "path": "models/main.json",
+      "size": 279450,
+      "sha256": "31dd1674042c156bde8974f4888c05567f1126f3449226cbbd0c33badcb1343c"
+    },
+    {
+      "path": "textures/Absorbed.png",
+      "size": 14602,
+      "sha256": "43983d1def45cddf923433b15fbe168ad5ffde8b0c66d97c280dd1cc60bf70b9"
+    },
+    {
+      "path": "textures/Base(Evil).png",
+      "size": 13981,
+      "sha256": "45000beae492762b2f6105b5b385e4199764ff338adc8d11f6232b219968e346"
+    },
+    {
+      "path": "textures/Base.png",
+      "size": 13892,
+      "sha256": "6d7d41685cdeeabda944d3d1304ddd0381189057c25af0fbfe134848c187bd2b"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1121,
+      "sha256": "88b0d2cc14a76de7f5380989be2814cc2a1570dbf1b9e6991fac893a51623c4c"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "DS_Zenitsu",
+  "path": "parsed/DS_Zenitsu",
+  "source": {
+    "path": "_DemonSlayer/DS_Zenitsu.ysm",
+    "type": "ysm",
+    "stem": "DS_Zenitsu"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "DS_Zenitsu"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "shanyi.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/DS_Zenitsu_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 7380,
+      "sha256": "2e20d7b92f88cc1482cf62d77258169ad461f66f561dd3401522d6d74eb7bb4e"
+    }
+  },
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 828193,
+    "sha256": "f4dd3cd68f478634dcd642ae1f361d123bba8d76b6b2dbc830453fd487ea6054",
+    "bones": 175,
+    "cubes": 727,
+    "faces": 4362,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 69427,
+      "sha256": "88cd2d6d7dc40d1e5446d31b037568656e4243378265b8aaf2c7d61f46271914"
+    },
+    {
+      "path": "arm.json",
+      "size": 59331,
+      "sha256": "c801cf265b6eb024851e1d570de9338f31215fb4f5f9d63f5d7d437b4e2cefbd"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 144073,
+      "sha256": "1cc30c5474076f2027d3b365b9525491a76007ff6451803a06df6814302761d7"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 129041,
+      "sha256": "c64fd0bde638821a768f4ef92ab76b4718c0558816f869e19725c6f28d6b05d2"
+    },
+    {
+      "path": "main.json",
+      "size": 263232,
+      "sha256": "69427a5d7c4bdd364da60ab32145aabf788f2436ee06fc18ab015878afd1b945"
+    },
+    {
+      "path": "shanyi.png",
+      "size": 7851,
+      "sha256": "1de181ef6b3956668c814562a8f238e655f312b1f430cb933449d62efa319321"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 155238,
+      "sha256": "1c27014fc21070a53cfd18c9ef2624d44cc7a013e25eac00377647e828fa8c2b"
+    }
+  ]
+}

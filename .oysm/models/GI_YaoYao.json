@@ -1,0 +1,132 @@
+{
+  "id": "GI_YaoYao",
+  "path": "parsed/GI_YaoYao",
+  "source": {
+    "path": "_GenshinImpact/GI_YaoYao.ysm",
+    "type": "ysm",
+    "stem": "GI_YaoYao"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "§e瑶瑶",
+    "tips": "§8普通版\n§8射箭变为投掷月桂",
+    "license": {
+      "type": "All Rights Reserved"
+    },
+    "authors": [
+      {
+        "name": "§l§4秘§6糸§2西§b里§8（模型）"
+      },
+      {
+        "name": "§c烈鸟比百§8（配置）"
+      }
+    ]
+  },
+  "properties": {
+    "free": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "arrow.png",
+        "texture.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "arrow": "arrow.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {
+    "image": {
+      "type": "image",
+      "path": "assets/GI_YaoYao_preview.png",
+      "animation": null,
+      "variant": null,
+      "frame_preset": "fit",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 14259,
+      "sha256": "a1c1ec206ed33c1587dd09acbd8977d4ff93087823e7f5392b1b17189ff4503d"
+    }
+  },
+  "stats": {
+    "file_count": 11,
+    "total_bytes": 1409132,
+    "sha256": "62f01f8b43d8e8bd1414e382f2048c6ad1728de2b185484a2cde68cc5705a7e4",
+    "bones": 111,
+    "cubes": 1622,
+    "faces": 9732,
+    "textures": 2,
+    "materials": 2,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.animation.json",
+      "size": 35448,
+      "sha256": "782ce1fe143912dffa84be7015d39c8364617f1f4a599951ac28c29de687480a"
+    },
+    {
+      "path": "arm.json",
+      "size": 127886,
+      "sha256": "565bffc66611491f739cb13297d175f5ce0a6d8192ae0c853cb3dbd3bdcbe89f"
+    },
+    {
+      "path": "arrow.animation.json",
+      "size": 959,
+      "sha256": "f3aa41476d1054fcb402f28538b9fad402972ff701733cf53a428756e23a06da"
+    },
+    {
+      "path": "arrow.json",
+      "size": 71097,
+      "sha256": "c018099805fa8144ab71b1d9800546e5f22416fac0670176e8058ee94a753fb1"
+    },
+    {
+      "path": "arrow.png",
+      "size": 37624,
+      "sha256": "0437a09d05ed3523046539a2ff34ad85c8444ebe9cefd1e3e2284ae07029408c"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 2199,
+      "sha256": "a4bcb69a0e8a49ca1e355c0d3500bc6487a891953f2ff1b5349f5f4bc58283ff"
+    },
+    {
+      "path": "info.json",
+      "size": 278,
+      "sha256": "ca1a8fc3c85040f0763188e54293b8d67c15b93df02fb6592735c9c1b9ee392f"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 178212,
+      "sha256": "843bb766b873117bf42aa68dca0c9793e9706f425b4e16fa919ef466e89231f3"
+    },
+    {
+      "path": "main.json",
+      "size": 786954,
+      "sha256": "761e2345eb4dc8a9254797ad5c3652b8137db976968c3cdf5eedcdbda5ce3110"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 130736,
+      "sha256": "af54aa5e59f99ea21d37ccecf89e5fe40c939d76cbab5982a773af7e22ad0692"
+    },
+    {
+      "path": "texture.png",
+      "size": 37739,
+      "sha256": "f797bb2e9d2930656ca1dcb53b133821cc0610e7a41fc73d196157e565ebd5bd"
+    }
+  ]
+}
