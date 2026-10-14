@@ -1,0 +1,204 @@
+{
+  "id": "鹿管",
+  "path": "parsed/鹿管",
+  "source": {
+    "path": "Unknown/鹿管.ysm",
+    "type": "ysm",
+    "stem": "鹿管"
+  },
+  "ysm": "parsed/鹿管/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "",
+        "name": "泉溪",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "鹿管时间到了",
+    "tips": "这倒是提醒我了"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "提醒",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "Simple Config",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 786312,
+    "sha256": "9e2a4dbe0f426bad861d656fdee720d2ca863c168b69f17f012c77de24533b0d",
+    "bones": 67,
+    "cubes": 127,
+    "faces": 762,
+    "textures": 2,
+    "materials": 2,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 173022,
+      "sha256": "34ac9f8811fc2deb8491de83c9ee7402bafd9b7f0f371e01d9351b1365928ae9"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 818,
+      "sha256": "3a91738b150e65a15ac56b3f2381ffd97be8e41ca7f125aef3e2615e197a0bad"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 105229,
+      "sha256": "721c4cc51cb41bf65262fa4e8eaa1a6f98a01e495f66fff974b2c8ae84f8c3ce"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 192269,
+      "sha256": "27f9be891bc7f20c970a2680f6cae980eb10dad8969709b618fdc78ec12012f1"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "avatar/泉溪.png",
+      "size": 7683,
+      "sha256": "c58a5058352f2c366a9f0c7f0b1b869c461f3ce98ee2e54466a08e4ebb749c71"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 617,
+      "sha256": "58a5a4f99a17e863505e5d985c5342fafccf53eeb5799a572dff4156086be4ad"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 5476,
+      "sha256": "a8ac69825cfd3b16d90624ed2e0ec4c2be84bee7044da4a13e00f67c153532eb"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 7860,
+      "sha256": "4c2f489faac508db29b30805f1a0829d5a0443e4da26a3ac4bba77f83a778f8e"
+    },
+    {
+      "path": "models/main.json",
+      "size": 64409,
+      "sha256": "2b102d9a0933a27d117eb7073a32cf9c3183f51c715ec8afa4b9da454d350003"
+    },
+    {
+      "path": "sounds/lglgllsjd.ogg",
+      "size": 18675,
+      "sha256": "e03198c0a12c050605cd6248271c31cd87db29639e3642164deb535804af407f"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1789,
+      "sha256": "f78fd917ae3ed43496fe8bb6ecc633d9387d80abc4a36c4fa675543b3b762ab4"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 11115,
+      "sha256": "3d6ee25dd9507b59b1f9c436d3dcb9203c7b871121b7bd7907109916d38ecafc"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 11344,
+      "sha256": "e73b2bf5cbbdd7d18ef7e0ad8f0c74a29c9e8efb5aca65d040e2b75ade4bab76"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1556,
+      "sha256": "092ea5e7cb1f19aac7f774e30bd3525da463994e66244867f1d94c9a571bf736"
+    }
+  ]
+}

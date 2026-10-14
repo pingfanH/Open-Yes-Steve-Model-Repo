@@ -10,11 +10,11 @@
   "models": [
     {
       "id": "-小空",
-      "detail": "models/model.json"
+      "detail": "models/model-ab8f0946410c.json"
     },
     {
       "id": "-小空/models",
-      "detail": "models/models.json"
+      "detail": "models/models-957fe61914ce.json"
     },
     {
       "id": "2.5D_Amano-Lilysa_v1.0",
@@ -2558,15 +2558,15 @@
     },
     {
       "id": "SoulTide_Mako-Sakuya",
-      "detail": "models/SoulTide_Mako-Sakuya.json"
+      "detail": "models/SoulTide_Mako-Sakuya-20f38191b35c.json"
     },
     {
       "id": "SoulTide_Mako-Sakuya（无载具版）",
-      "detail": "models/SoulTide_Mako-Sakuya.json"
+      "detail": "models/SoulTide_Mako-Sakuya-8a3bf048133f.json"
     },
     {
       "id": "SoulTide_Mako-Sakuya（无鞘翅版）",
-      "detail": "models/SoulTide_Mako-Sakuya.json"
+      "detail": "models/SoulTide_Mako-Sakuya-6e80175f9675.json"
     },
     {
       "id": "StellaFantasy_Chloe",
@@ -2886,15 +2886,15 @@
     },
     {
       "id": "Vocaloid_Miku(机娘)",
-      "detail": "models/Vocaloid_Miku.json"
+      "detail": "models/Vocaloid_Miku-0f0ede893aaf.json"
     },
     {
       "id": "Vocaloid_Miku(机械神甫)",
-      "detail": "models/Vocaloid_Miku.json"
+      "detail": "models/Vocaloid_Miku-0199cd601337.json"
     },
     {
       "id": "Vocaloid_Miku(百粉纪念)",
-      "detail": "models/Vocaloid_Miku.json"
+      "detail": "models/Vocaloid_Miku-246a6a042c66.json"
     },
     {
       "id": "Vocaloid_Miku(请搭配tacz拓展包“赛博军械师”使用)",
@@ -3122,7 +3122,7 @@
     },
     {
       "id": "[创伤小组]霜狐",
-      "detail": "models/model.json"
+      "detail": "models/model-888f8ca83b76.json"
     },
     {
       "id": "_Akarin_0",
@@ -3174,7 +3174,7 @@
     },
     {
       "id": "_Demo",
-      "detail": "models/Demo.json"
+      "detail": "models/Demo-c4f4c861e627.json"
     },
     {
       "id": "_Digitan",
@@ -3526,7 +3526,7 @@
     },
     {
       "id": "_lighting",
-      "detail": "models/lighting.json"
+      "detail": "models/lighting-1447fcdb7a88.json"
     },
     {
       "id": "_madline",
@@ -3598,19 +3598,19 @@
     },
     {
       "id": "_云天明",
-      "detail": "models/model.json"
+      "detail": "models/model-d3d2dae18c84.json"
     },
     {
       "id": "_伊芙琳_1.0",
-      "detail": "models/1.0.json"
+      "detail": "models/1.0-af424e4b69d8.json"
     },
     {
       "id": "_公主",
-      "detail": "models/model.json"
+      "detail": "models/model-013ea778de37.json"
     },
     {
       "id": "_化学防害上尉",
-      "detail": "models/model.json"
+      "detail": "models/model-73a9bf539e02.json"
     },
     {
       "id": "_化学防害上尉(zipver)",
@@ -3618,31 +3618,31 @@
     },
     {
       "id": "_吹雪_Free",
-      "detail": "models/Free.json"
+      "detail": "models/Free-514bf87fd3f5.json"
     },
     {
       "id": "_唐·吉诃特",
-      "detail": "models/model.json"
+      "detail": "models/model-580bd7cbcf03.json"
     },
     {
       "id": "_园丁等风来",
-      "detail": "models/model.json"
+      "detail": "models/model-4f91b32913a7.json"
     },
     {
       "id": "_地狱猎犬_",
-      "detail": "models/model.json"
+      "detail": "models/model-7934341f59cd.json"
     },
     {
       "id": "_小小海螺",
-      "detail": "models/model.json"
+      "detail": "models/model-48391ef728fd.json"
     },
     {
       "id": "_小空",
-      "detail": "models/model.json"
+      "detail": "models/model-3bc849900bfa.json"
     },
     {
       "id": "_小空/models",
-      "detail": "models/models.json"
+      "detail": "models/models-4e48dfe44b1d.json"
     },
     {
       "id": "_山岩 指挥官_v1.3",
@@ -3650,27 +3650,27 @@
     },
     {
       "id": "_忍者",
-      "detail": "models/model.json"
+      "detail": "models/model-84755d029266.json"
     },
     {
       "id": "_恶毒-免费版",
-      "detail": "models/model.json"
+      "detail": "models/model-a8f3a0cdcfe9.json"
     },
     {
       "id": "_惊蛰",
-      "detail": "models/model.json"
+      "detail": "models/model-b1b9f68c1531.json"
     },
     {
       "id": "_扶桑",
-      "detail": "models/model.json"
+      "detail": "models/model-94856611ba0e.json"
     },
     {
       "id": "_报童",
-      "detail": "models/model.json"
+      "detail": "models/model-ec987b7eeed6.json"
     },
     {
       "id": "_报纸怪客",
-      "detail": "models/model.json"
+      "detail": "models/model-c34b7cb5fc55.json"
     },
     {
       "id": "_星见时璃 Tokiri",
@@ -3678,27 +3678,27 @@
     },
     {
       "id": "_沐白",
-      "detail": "models/model.json"
+      "detail": "models/model-570ec2fce439.json"
     },
     {
       "id": "_爱恩.伊瑞丝.卡列尼娜",
-      "detail": "models/model.json"
+      "detail": "models/model-4664ff9438a4.json"
     },
     {
       "id": "_特遣1",
-      "detail": "models/1.json"
+      "detail": "models/1-4e26a47831bd.json"
     },
     {
       "id": "_白凝冰",
-      "detail": "models/model.json"
+      "detail": "models/model-9c15022a94f9.json"
     },
     {
       "id": "_白蛤蜊",
-      "detail": "models/model.json"
+      "detail": "models/model-ee291b34ee17.json"
     },
     {
       "id": "_碳_1.0",
-      "detail": "models/1.0.json"
+      "detail": "models/1.0-b7d6bb5ff8a0.json"
     },
     {
       "id": "_碳_1.0.1",
@@ -3706,7 +3706,7 @@
     },
     {
       "id": "_纸板demo版",
-      "detail": "models/demo.json"
+      "detail": "models/demo-2f9a234c6ef3.json"
     },
     {
       "id": "_苏溟v1.9",
@@ -3822,7 +3822,7 @@
     },
     {
       "id": "lighting",
-      "detail": "models/lighting.json"
+      "detail": "models/lighting-72059e4ae63a.json"
     },
     {
       "id": "oc_斯塔2.0",
@@ -3910,15 +3910,15 @@
     },
     {
       "id": "万敌",
-      "detail": "models/model.json"
+      "detail": "models/model-bdea1df1aa18.json"
     },
     {
       "id": "三津レンジユ",
-      "detail": "models/model.json"
+      "detail": "models/model-bcb803d9c5ab.json"
     },
     {
       "id": "东海帝皇",
-      "detail": "models/model.json"
+      "detail": "models/model-c70cb94a6045.json"
     },
     {
       "id": "东海帝皇v1.11",
@@ -3926,27 +3926,27 @@
     },
     {
       "id": "乌尔比安",
-      "detail": "models/model.json"
+      "detail": "models/model-051c9dde9d8e.json"
     },
     {
       "id": "云茹",
-      "detail": "models/model.json"
+      "detail": "models/model-07ac148e863c.json"
     },
     {
       "id": "亚托莉",
-      "detail": "models/model.json"
+      "detail": "models/model-5060e685282f.json"
     },
     {
       "id": "仲正一花",
-      "detail": "models/model.json"
+      "detail": "models/model-9f705d4fdebf.json"
     },
     {
       "id": "企鹅",
-      "detail": "models/model.json"
+      "detail": "models/model-5edbaf078d46.json"
     },
     {
       "id": "修卡战斗员",
-      "detail": "models/model.json"
+      "detail": "models/model-b12dada82e10.json"
     },
     {
       "id": "兰音JK1.2",
@@ -3954,15 +3954,15 @@
     },
     {
       "id": "军士长炸弹森",
-      "detail": "models/model.json"
+      "detail": "models/model-94ee46b5c6e7.json"
     },
     {
       "id": "军士长炸弹森(zip-ver)",
-      "detail": "models/zip-ver.json"
+      "detail": "models/zip-ver-9455952ca33a.json"
     },
     {
       "id": "列克星敦_Free",
-      "detail": "models/Free.json"
+      "detail": "models/Free-fcbb423497f5.json"
     },
     {
       "id": "初音未来racingmiku ver.2010",
@@ -3986,59 +3986,59 @@
     },
     {
       "id": "初音未来公式服",
-      "detail": "models/model.json"
+      "detail": "models/model-06a2f18d590d.json"
     },
     {
       "id": "化学防害上尉",
-      "detail": "models/model.json"
+      "detail": "models/model-4a5ed0bb44b9.json"
     },
     {
       "id": "化学防害上尉(zip-ver)",
-      "detail": "models/zip-ver.json"
+      "detail": "models/zip-ver-2748194b88eb.json"
     },
     {
       "id": "千姬-常服",
-      "detail": "models/model.json"
+      "detail": "models/model-6de554a99ee7.json"
     },
     {
       "id": "卡莉",
-      "detail": "models/model.json"
+      "detail": "models/model-17e6961bc51e.json"
     },
     {
       "id": "吹雪_Free",
-      "detail": "models/Free.json"
+      "detail": "models/Free-95f71ca0f515.json"
     },
     {
       "id": "唯-常服",
-      "detail": "models/model.json"
+      "detail": "models/model-17a3377af8af.json"
     },
     {
       "id": "园丁原皮",
-      "detail": "models/model.json"
+      "detail": "models/model-7ed86bc1203b.json"
     },
     {
       "id": "园丁原皮2",
-      "detail": "models/2.json"
+      "detail": "models/2-ba6d99a793de.json"
     },
     {
       "id": "坐忘道",
-      "detail": "models/model.json"
+      "detail": "models/model-66c57e34c4bb.json"
     },
     {
       "id": "埃佩鲁1.0",
-      "detail": "models/1.0.json"
+      "detail": "models/1.0-641ffef57611.json"
     },
     {
       "id": "基林_Free",
-      "detail": "models/Free.json"
+      "detail": "models/Free-40f6fec5c239.json"
     },
     {
       "id": "天音祈",
-      "detail": "models/model.json"
+      "detail": "models/model-1d7dbba28d01.json"
     },
     {
       "id": "奈亚子",
-      "detail": "models/model.json"
+      "detail": "models/model-8afe0daac9df.json"
     },
     {
       "id": "奈奈莉娅v1.1",
@@ -4046,7 +4046,7 @@
     },
     {
       "id": "奶龙",
-      "detail": "models/model.json"
+      "detail": "models/model-0690d590b0f2.json"
     },
     {
       "id": "奶龙 for ysm 2.4.1",
@@ -4054,19 +4054,19 @@
     },
     {
       "id": "宇航员酒狐（解压使用）",
-      "detail": "models/model.json"
+      "detail": "models/model-84329e1544ad.json"
     },
     {
       "id": "审判鸟",
-      "detail": "models/model.json"
+      "detail": "models/model-0951c3e5964e.json"
     },
     {
       "id": "小暗",
-      "detail": "models/model.json"
+      "detail": "models/model-e3291ca9ccfe.json"
     },
     {
       "id": "巧克力",
-      "detail": "models/model.json"
+      "detail": "models/model-73b9e5c79733.json"
     },
     {
       "id": "希儿·秋霜百合v2.7",
@@ -4074,23 +4074,23 @@
     },
     {
       "id": "强击",
-      "detail": "models/model.json"
+      "detail": "models/model-9a2c48a4ced9.json"
     },
     {
       "id": "征酱（酒狐动画）",
-      "detail": "models/model.json"
+      "detail": "models/model-18bf2a9d03a6.json"
     },
     {
       "id": "征酱（默认模型动画)",
-      "detail": "models/model.json"
+      "detail": "models/model-fa2076227f41.json"
     },
     {
       "id": "恐怖机器人1.1",
-      "detail": "models/1.1.json"
+      "detail": "models/1.1-a5899845f782.json"
     },
     {
       "id": "悠鲤",
-      "detail": "models/model.json"
+      "detail": "models/model-4999f447fff5.json"
     },
     {
       "id": "扶桑全年龄版2.4.9",
@@ -4102,15 +4102,15 @@
     },
     {
       "id": "折原露露·经典",
-      "detail": "models/model.json"
+      "detail": "models/model-c6bb03f00f73.json"
     },
     {
       "id": "拇指-东部指挥官",
-      "detail": "models/model.json"
+      "detail": "models/model-5f4260608e4b.json"
     },
     {
       "id": "早稻叽",
-      "detail": "models/model.json"
+      "detail": "models/model-c94cd56827f4.json"
     },
     {
       "id": "昔涟_0.1",
@@ -4122,39 +4122,39 @@
     },
     {
       "id": "星咲",
-      "detail": "models/model.json"
+      "detail": "models/model-233f6813fb35.json"
     },
     {
       "id": "春日椿_Free",
-      "detail": "models/Free.json"
+      "detail": "models/Free-f8f488b565d1.json"
     },
     {
       "id": "普拉娜",
-      "detail": "models/model.json"
+      "detail": "models/model-26864952ff91.json"
     },
     {
       "id": "朱诺",
-      "detail": "models/model.json"
+      "detail": "models/model-8cc8a9d48c19.json"
     },
     {
       "id": "朱诺-常服",
-      "detail": "models/model.json"
+      "detail": "models/model-1412ee7d0985.json"
     },
     {
       "id": "枪手-凤凰战士",
-      "detail": "models/model.json"
+      "detail": "models/model-2699c82a27f3.json"
     },
     {
       "id": "枪手-凤凰战士(zip-ver)",
-      "detail": "models/zip-ver.json"
+      "detail": "models/zip-ver-21f7933b8b53.json"
     },
     {
       "id": "格兰尼-常服",
-      "detail": "models/model.json"
+      "detail": "models/model-e777c2d44e96.json"
     },
     {
       "id": "格琳娜",
-      "detail": "models/model.json"
+      "detail": "models/model-4b2cdf529b98.json"
     },
     {
       "id": "格蕾修-画蓝缀星1_1",
@@ -4162,47 +4162,47 @@
     },
     {
       "id": "格蕾酱",
-      "detail": "models/model.json"
+      "detail": "models/model-12b0ccc4ad27.json"
     },
     {
       "id": "桂",
-      "detail": "models/model.json"
+      "detail": "models/model-9bcbe1433ae8.json"
     },
     {
       "id": "桑丘",
-      "detail": "models/model.json"
+      "detail": "models/model-7951e1b3165e.json"
     },
     {
       "id": "梦境大耳狗",
-      "detail": "models/model.json"
+      "detail": "models/model-2b9fe561c4c7.json"
     },
     {
       "id": "梦音茶糯",
-      "detail": "models/model.json"
+      "detail": "models/model-6c6794c2bd38.json"
     },
     {
       "id": "椰子",
-      "detail": "models/model.json"
+      "detail": "models/model-7e29ba7e06c2.json"
     },
     {
       "id": "樱羽艾玛",
-      "detail": "models/model.json"
+      "detail": "models/model-c0c2f8ce9dd6.json"
     },
     {
       "id": "水无月时雨",
-      "detail": "models/model.json"
+      "detail": "models/model-8ead634be936.json"
     },
     {
       "id": "水无月时雨_1",
-      "detail": "models/1.json"
+      "detail": "models/1-50d11e9d15d7.json"
     },
     {
       "id": "法军侦察兵",
-      "detail": "models/model.json"
+      "detail": "models/model-5a489606cb6c.json"
     },
     {
       "id": "法军支援兵",
-      "detail": "models/model.json"
+      "detail": "models/model-bc606e3e99a6.json"
     },
     {
       "id": "泠鸢JK",
@@ -4210,7 +4210,7 @@
     },
     {
       "id": "波斯特·猫神1.0",
-      "detail": "models/1.0.json"
+      "detail": "models/1.0-3b7484e53d3b.json"
     },
     {
       "id": "泥岩_砾瓦1.5.2",
@@ -4218,7 +4218,7 @@
     },
     {
       "id": "泥岩_静谧午夜",
-      "detail": "models/model.json"
+      "detail": "models/model-df4fa1e3a874.json"
     },
     {
       "id": "泥岩原皮ny",
@@ -4226,11 +4226,11 @@
     },
     {
       "id": "泥岩黑曜石",
-      "detail": "models/model.json"
+      "detail": "models/model-5b0a18bb030a.json"
     },
     {
       "id": "洛可可-常服",
-      "detail": "models/model.json"
+      "detail": "models/model-657a3f4ab738.json"
     },
     {
       "id": "洛可可-常服0.6 采用协议CC BY-NC-SA 4.0",
@@ -4246,11 +4246,11 @@
     },
     {
       "id": "爱丽丝",
-      "detail": "models/model.json"
+      "detail": "models/model-cf2c6c275920.json"
     },
     {
       "id": "独角兽",
-      "detail": "models/model.json"
+      "detail": "models/model-fc585a14bf79.json"
     },
     {
       "id": "瘟疫使者-CT",
@@ -4258,63 +4258,63 @@
     },
     {
       "id": "穆小泠2.0",
-      "detail": "models/2.0.json"
+      "detail": "models/2.0-47939f7b2dd9.json"
     },
     {
       "id": "笑面教授",
-      "detail": "models/model.json"
+      "detail": "models/model-54edae2dce38.json"
     },
     {
       "id": "红2.0",
-      "detail": "models/2.0.json"
+      "detail": "models/2.0-a4f8b628362b.json"
     },
     {
       "id": "绫濑桃",
-      "detail": "models/model.json"
+      "detail": "models/model-4e8fe3e45a04.json"
     },
     {
       "id": "舰队Collection山风v1.0",
-      "detail": "models/Collection_v1.0.json"
+      "detail": "models/Collection_v1.0-15d41104d664.json"
     },
     {
       "id": "舰队Collection山风v1.0无报时版",
-      "detail": "models/Collection_v1.0.json"
+      "detail": "models/Collection_v1.0-21fbf5339900.json"
     },
     {
       "id": "舰队Collection山风v1.1",
-      "detail": "models/Collection_v1.1.json"
+      "detail": "models/Collection_v1.1-b2acddbf9818.json"
     },
     {
       "id": "舰队Collection山风v1.1无报时版",
-      "detail": "models/Collection_v1.1.json"
+      "detail": "models/Collection_v1.1-3ffb19cf5af8.json"
     },
     {
       "id": "艾莲乔",
-      "detail": "models/model.json"
+      "detail": "models/model-4609b51b0856.json"
     },
     {
       "id": "花嫁酒狐",
-      "detail": "models/model.json"
+      "detail": "models/model-d3b57f773f6e.json"
     },
     {
       "id": "草莓",
-      "detail": "models/model.json"
+      "detail": "models/model-c76f6a79f6db.json"
     },
     {
       "id": "草莓_1",
-      "detail": "models/1.json"
+      "detail": "models/1-b348e720299d.json"
     },
     {
       "id": "萤火虫_Free",
-      "detail": "models/Free.json"
+      "detail": "models/Free-ab4e92e904d9.json"
     },
     {
       "id": "萨拉托加_Free",
-      "detail": "models/Free.json"
+      "detail": "models/Free-f5e6b6c1c05b.json"
     },
     {
       "id": "诺艾儿",
-      "detail": "models/model.json"
+      "detail": "models/model-69e6d208b2de.json"
     },
     {
       "id": "赞达尔•壹•桑原ysm2.4.1",
@@ -4326,7 +4326,7 @@
     },
     {
       "id": "足立レイ女仆装(半成品)",
-      "detail": "models/model.json"
+      "detail": "models/model-42edaba46e5c.json"
     },
     {
       "id": "足立零重置版pro max plus ultra",
@@ -4334,19 +4334,19 @@
     },
     {
       "id": "远旅",
-      "detail": "models/model.json"
+      "detail": "models/model-4a588bc033b4.json"
     },
     {
       "id": "远旅(旧)",
-      "detail": "models/model.json"
+      "detail": "models/model-52789dced8ce.json"
     },
     {
       "id": "远旅1",
-      "detail": "models/1.json"
+      "detail": "models/1-9427176fa019.json"
     },
     {
       "id": "逢坂大河",
-      "detail": "models/model.json"
+      "detail": "models/model-cd3a7184ecb0.json"
     },
     {
       "id": "重装战姬爱塔V1.0",
@@ -4354,23 +4354,23 @@
     },
     {
       "id": "铁锤坦克娘_Free",
-      "detail": "models/Free.json"
+      "detail": "models/Free-0e0968a3c405.json"
     },
     {
       "id": "铸铁重置版",
-      "detail": "models/model.json"
+      "detail": "models/model-c11a4346321d.json"
     },
     {
       "id": "长门",
-      "detail": "models/model.json"
+      "detail": "models/model-d5cfae7dc367.json"
     },
     {
       "id": "阿消1.0",
-      "detail": "models/1.0.json"
+      "detail": "models/1.0-29aff961f443.json"
     },
     {
       "id": "阿消1.1",
-      "detail": "models/1.1.json"
+      "detail": "models/1.1-5dfa2d3026eb.json"
     },
     {
       "id": "阿消1.12",
@@ -4382,7 +4382,7 @@
     },
     {
       "id": "雪狐桑",
-      "detail": "models/model.json"
+      "detail": "models/model-aba39a041441.json"
     },
     {
       "id": "雪风v2.0",
@@ -4390,23 +4390,23 @@
     },
     {
       "id": "霜狐2.0",
-      "detail": "models/2.0.json"
+      "detail": "models/2.0-09765caf8d8c.json"
     },
     {
       "id": "霜狐[泳装]",
-      "detail": "models/model.json"
+      "detail": "models/model-625763d9565e.json"
     },
     {
       "id": "风堇",
-      "detail": "models/model.json"
+      "detail": "models/model-556465bf5bb3.json"
     },
     {
       "id": "高奈利亚-常服",
-      "detail": "models/model.json"
+      "detail": "models/model-993c1d7b82c4.json"
     },
     {
       "id": "高奈利亚-常服 (2)",
-      "detail": "models/2.json"
+      "detail": "models/2-d254f612bc62.json"
     },
     {
       "id": "高奈利亚-常服0.7(原版动画适配完成) 采用协议CC BY-NC-SA 4.0",
@@ -4434,15 +4434,15 @@
     },
     {
       "id": "鸿园的君主-鸿璐",
-      "detail": "models/model.json"
+      "detail": "models/model-c81d09dad024.json"
     },
     {
       "id": "鹿管",
-      "detail": "models/model.json"
+      "detail": "models/model-1529a8220879.json"
     },
     {
       "id": "鹿管2.0",
-      "detail": "models/2.0.json"
+      "detail": "models/2.0-40b39a08d93c.json"
     },
     {
       "id": "黎歌3.0",
@@ -4450,11 +4450,11 @@
     },
     {
       "id": "黎歌国风款",
-      "detail": "models/model.json"
+      "detail": "models/model-95ef9dc03b24.json"
     },
     {
       "id": "黑兽-浮士德",
-      "detail": "models/model.json"
+      "detail": "models/model-930f992c2706.json"
     }
   ]
 }

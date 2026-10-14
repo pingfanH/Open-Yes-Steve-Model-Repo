@@ -1,0 +1,266 @@
+{
+  "id": "穆小泠2.0",
+  "path": "parsed/穆小泠2.0",
+  "source": {
+    "path": "Unknown/穆小泠2.0.ysm",
+    "type": "ysm",
+    "stem": "穆小泠2.0"
+  },
+  "ysm": "parsed/穆小泠2.0/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/穆小泠.png",
+        "comment": "§c§l❤️个人势虚拟“弔歌王” ❤️可萌可御的多声线吸血鬼",
+        "contact": {
+          "Afdian": "",
+          "Bilibili": "https://space.bilibili.com/43272050"
+        },
+        "name": "穆小泠",
+        "role": "§6原型人物"
+      },
+      {
+        "avatar": "avatar/§8默栖.png",
+        "comment": "§3MC短片作者，偶尔做YSM",
+        "contact": {
+          "Afdian": "https://afdian.com/a/DLMoqi",
+          "Bilibili": "https://space.bilibili.com/477165698"
+        },
+        "name": "§8默栖",
+        "role": "§b模型"
+      },
+      {
+        "avatar": "avatar/§d瀛猫.png",
+        "comment": "§3一个透明人，无人知",
+        "contact": {
+          "Afdian": "https://afdian.cn/a/wincatpro",
+          "Bilibili": "https://space.bilibili.com/647224460"
+        },
+        "name": "§d瀛猫",
+        "role": "§b动画"
+      },
+      {
+        "avatar": "avatar/烟雨画桥.png",
+        "comment": "…………懒，有问题私信",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/1268865161"
+        },
+        "name": "烟雨画桥",
+        "role": "动画/武器"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "§bAll Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/DLMoqi",
+      "home": "https://space.bilibili.com/43272050"
+    },
+    "name": "§4§l<MuXiaoLing>§c§l穆小泠Official",
+    "tips": "§4[穆小泠]§d§n外表为充满怨气的青春期少女，看似天然呆、傻憨憨，其实力气非常大，\r\n    §a§n版本：2.0。\r\n    §d§n请哔哩哔哩关注 §c穆小泠official\r\n    §4§n未经允许请勿商用"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "无",
+      "extra2": "无",
+      "extra3": "无",
+      "extra4": "",
+      "extra5": "§6弹指醉舞蹈",
+      "extra6": "§c§l变身吧！泠泠妻",
+      "extra7": "§c[鬼化]§7§l吓吓你"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "模型配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          },
+          {
+            "type": "radio",
+            "title": "表情切换",
+            "description": "试试效果",
+            "value": "v.type",
+            "labels": {
+              "§a正常": "v.type=0;",
+              "呆": "v.type=1;",
+              "惊": "v.type=2;",
+              "やめる": "v.type=3;"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "分类1",
+        "extra_animation": {
+          "extra0": "动画1",
+          "extra1": "动画2",
+          "extra2": "动画3",
+          "extra3": "动画4"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/xiaoling.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 9372597,
+    "sha256": "5e026cef228fae542e46d101dd422685f540b7573f14851e3a94c9dc2a16b6e6",
+    "bones": 255,
+    "cubes": 2337,
+    "faces": 13902,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 176692,
+      "sha256": "67604a2324298c556c5d05ae6ebf68bcf804dc21d917067b8b8ddf94dc8fdec2"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 6053510,
+      "sha256": "68f80ffbd0327278fb15b311bdc787f58804995a2d6d6caf5d2e4cbc5ea3a669"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 277142,
+      "sha256": "dbde57cc1385f6ba1f671e8d8d333ccdde575b6652f5b390abb9b4329eca18c3"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139953,
+      "sha256": "6fef9b6e86f016b5a47142e8cc6c597372930a36a2e743c648936ca6c8d029d7"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 184323,
+      "sha256": "b2505685f63dd378a64d5fc32a916832138ab3a74e4f4e26333fce46b9640d5f"
+    },
+    {
+      "path": "avatar/§8默栖.png",
+      "size": 591977,
+      "sha256": "011bd2f067d5c87341198992955d2b708b12ffac9553270cbbd97db16129ed5e"
+    },
+    {
+      "path": "avatar/§d瀛猫.png",
+      "size": 177987,
+      "sha256": "58b0c3d0e642622bb904ae34ffaa4bd11526280e80d5d5f92323612f54f796d9"
+    },
+    {
+      "path": "avatar/烟雨画桥.png",
+      "size": 36436,
+      "sha256": "378b13eb21c05a10fe8be12b484abfbe033ecbb76fddf79f5785d4cd147735a1"
+    },
+    {
+      "path": "avatar/穆小泠.png",
+      "size": 132705,
+      "sha256": "54c6ae944a58f95e7332d72a8755034ff5698c759958b377ab34c834603326f3"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 4500,
+      "sha256": "e5095b2875d1f3891706326669b8098bffc041f0a46a6e3b3f410102aa41ab01"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 12023,
+      "sha256": "82be9bbb35e9f425d59eb32aaef22597d425f3f25109963b61874ae0850d319b"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1297524,
+      "sha256": "7547a3f28f7cc981d5a1c435ec1fa280d6e98be517e6bf3a8d26d8bebfbb8880"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/xiaoling.png",
+      "size": 234206,
+      "sha256": "4b8053aec70b4a6cddbb42d863da167389a37bec81467ae71be30b8a4144e593"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2945,
+      "sha256": "78d33d26ff70c66c4bf2ac98c668e3e1aa7e8a0ee9f7ca686856f02aeafd7fc8"
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "id": "花嫁酒狐",
+  "path": "parsed/花嫁酒狐",
+  "source": {
+    "path": "Unknown/花嫁酒狐.zip",
+    "type": "zip",
+    "stem": "花嫁酒狐"
+  },
+  "ysm": "parsed/花嫁酒狐/ysm.json",
+  "metadata": {
+    "name": "Sakura Wine Fox（花嫁酒狐）",
+    "tips": "一只爱喝葡萄酒的狐娘。\nA fox girl who loves to drink wine.\n乱舞参考自 VRChat 的永雏塔菲动画。\n音乐为改编的 Zufolo Impazzito。",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "哥斯拉",
+        "role": "模型",
+        "avatar": "avatar/gsl.png",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少"
+      },
+      {
+        "name": "星屑海螺",
+        "role": "动画",
+        "avatar": "avatar/hl.png",
+        "contact": {
+          "Afdian": "https://afdian.com/a/lucia2048",
+          "Bilibili": "https://space.bilibili.com/14975572"
+        },
+        "comment": "漂泊于群星之中"
+      },
+      {
+        "name": "浅陌菌",
+        "role": "模型",
+        "avatar": "avatar/nico.png",
+        "comment": "最美好的前途，可不要对我冷酷",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/14975572"
+        }
+      },
+      {
+        "name": "祸御神",
+        "role": "动画",
+        "avatar": "avatar/hys.png",
+        "comment": "五十代精神病人",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/164557734"
+        }
+      },
+      {
+        "name": "羊毛",
+        "role": "音效/动画/花嫁改",
+        "avatar": "avatar/wool.png",
+        "comment": "喵喵喵喵",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/85335217"
+        }
+      },
+      {
+        "name": "蓝玫瑰",
+        "role": "模型",
+        "avatar": "avatar/lmg.png",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/11814817"
+        },
+        "comment": "8月24号，传奇永不落幕"
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "extra_animation": {
+      "extra0": "#hairDerss",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "Get Down",
+      "extra4": "乱舞",
+      "extra5": "卖萌",
+      "extra6": "御笔摇",
+      "extra7": "舞蹈"
+    },
+    "preview_animation": "gui",
+    "free": true,
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "render_layers_first": false,
+    "gui_no_lighting": false,
+    "disable_preview_rotation": false,
+    "all_cutout": false,
+    "extra_animation_buttons": [
+      {
+        "id": "hairDerss",
+        "name": "设置",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "头纱开关",
+            "description": "头纱开关",
+            "value": "v.roaming.hairDerss"
+          },
+          {
+            "type": "checkbox",
+            "title": "音游模式",
+            "description": "音游模式",
+            "value": "v.musicgame"
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "tlm": "animations/tlm.animation.json",
+        "arm": "animations/arm.animation.json"
+      },
+      "texture": [
+        {
+          "uv": "textures/skin.png"
+        }
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "texture": {
+        "uv": "textures/arrow.png"
+      },
+      "animation": "animations/arrow.animation.json"
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 34,
+    "total_bytes": 3545707,
+    "sha256": "8e0b6340b55d59535f3006006bf305966163e91d4468251c42f783ba742795f2",
+    "bones": 359,
+    "cubes": 1880,
+    "faces": 8043,
+    "textures": 1,
+    "materials": 1,
+    "animations": 6,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 184153,
+      "sha256": "cdbd2ff2daf9c0c29addf350255e28516aa673d0c3ebda20fc46313cf9699a21"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 2253,
+      "sha256": "3f37db30f0e92a670429f17f4bfcd91c33b2e8742330448126747a768d7882bd"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3360,
+      "sha256": "452aeab0a4b88156cdade89caf00eeb7cef52096af8142f9cf041b45971259f4"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 590931,
+      "sha256": "ea09dc12e558bc9c1e912bf34cdd62eea3c3e4dfa4e7e5440206027562138418"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 359193,
+      "sha256": "02d98906676d29a2757d404e0739cbc3040fd0e3b8863ec7b32eaf172978d661"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 172561,
+      "sha256": "0034c4a5af7ed18b6ebc2d1ab0f025f3725d05d64f1d43c936a153020ef0e6ef"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 321430,
+      "sha256": "f8d09b38d362cde2f018e28930c586ecce57a55e248015a874018c88ce685b10"
+    },
+    {
+      "path": "avatar/gsl.png",
+      "size": 17482,
+      "sha256": "dda4f5d1d4b94eaee263a0c0686e9a02267fec3e0de969e2b42a3678393acfd5"
+    },
+    {
+      "path": "avatar/hl.png",
+      "size": 18207,
+      "sha256": "ab407902f5040f8583a7bc7184db9a0c5979c4f3dd2eeac05b531020bde16f75"
+    },
+    {
+      "path": "avatar/hys.png",
+      "size": 22017,
+      "sha256": "420d1b556a2d3d1df9ed9432a706860d0fc74b45ee757843aa40be6bb7e45157"
+    },
+    {
+      "path": "avatar/lmg.png",
+      "size": 9255,
+      "sha256": "c3c42e908183964955b5d079b74c5041725718d0c3236faad856520a46679233"
+    },
+    {
+      "path": "avatar/nico.png",
+      "size": 6707,
+      "sha256": "049f39814371c3452eac2a7a66d366fa5d56104679ff82769fdec6e81c41936c"
+    },
+    {
+      "path": "avatar/wool.png",
+      "size": 22716,
+      "sha256": "efc2a6b3bbea4f0d97bde78137e16192c2c204ac45687dc88789412f8aa1b9d0"
+    },
+    {
+      "path": "functions/@player_ctrl_main.molang",
+      "size": 2247,
+      "sha256": "fa8a60ab07fdda8acafe50072d87d90c3e98ca089368d923be241643ec6f3e15"
+    },
+    {
+      "path": "functions/@player_ctrl_swing.molang",
+      "size": 688,
+      "sha256": "4c8eeea786ffd81bed57ade68b9db0938412b0272c1de67d24af7b5aad003251"
+    },
+    {
+      "path": "functions/@player_ctrl_use.molang",
+      "size": 556,
+      "sha256": "33544287f2374a4db064c7952de3da6856eaf5f00a8c0f878a2f2a0194d0ed8b"
+    },
+    {
+      "path": "functions/更随机的眨眼@player_ctrl_pre_parallel_3.molang",
+      "size": 1475,
+      "sha256": "989a3db45e6daed822843eaeaeb12e6e8f40432ecf81c4938f5897a943a9a67f"
+    },
+    {
+      "path": "functions/碰墙抬手@player_ctrl_parallel_5.molang",
+      "size": 2069,
+      "sha256": "929d438ccca73246a8addf5c4c33347d6f15a638dbe9d0ad1850e785e9d88eb0"
+    },
+    {
+      "path": "functions/碰墙抬手初始化@player_init.molang",
+      "size": 85,
+      "sha256": "4573500d302338f37850a9a90f52c397c5ec56b10bfc355bfa757fe2a13165e1"
+    },
+    {
+      "path": "functions/随机眨眼初始化@player_init.molang",
+      "size": 37,
+      "sha256": "f4dcb64304efa986f9ca7936c9d12c4258af53d9c824afa5859036d00c2a74b1"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 135168,
+      "sha256": "1b8b0e39e644722b8bbc23cc9f612005ff028b7c56821f380bb3e85c93274566"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 29024,
+      "sha256": "04166f1088a76196fdb9b4adb69768ab24124b6203f1ab8e858056b1e28aa2c6"
+    },
+    {
+      "path": "models/main.json",
+      "size": 712382,
+      "sha256": "31512ea69a4d97a75b469599e279c866be3334dbe2e07148c99e76f96be63486"
+    },
+    {
+      "path": "sounds/def1.ogg",
+      "size": 46823,
+      "sha256": "76dc14368530252233a98405cb22d0ad4597766b249cf70db38c18d11601fe26"
+    },
+    {
+      "path": "sounds/def2.ogg",
+      "size": 62117,
+      "sha256": "e57181d787699b8ae6394db2fd873f954e9a46702068d3bc49d95d3698a9701f"
+    },
+    {
+      "path": "sounds/get_down.ogg",
+      "size": 289223,
+      "sha256": "63dbf11be085953b3232710552f049df9465c1a15327cd083ecaa0f726cba86c"
+    },
+    {
+      "path": "sounds/otoko_wa_tsurai_yo.ogg",
+      "size": 298472,
+      "sha256": "53dc18199056bc254a8e664483b4adbcf3317bee5d1182435323c6cc4960b191"
+    },
+    {
+      "path": "sounds/swingsword.ogg",
+      "size": 9819,
+      "sha256": "c760799d3ae7dfe42cd5c3108d2545b867d38dd1fc21abda5b115fe1bf8d7e5b"
+    },
+    {
+      "path": "sounds/swingswordspin.ogg",
+      "size": 13448,
+      "sha256": "c7462ddc4607bf7fad9f943760c8400edb9ba7b95d3e50f303477eaa7b36a755"
+    },
+    {
+      "path": "sounds/swingswordtwo.ogg",
+      "size": 9638,
+      "sha256": "46d278b31b8d41c63b955da3352a4c86d920c4f99f54b8cd0f6a322f58af96fb"
+    },
+    {
+      "path": "sounds/zufolo_impazzito.ogg",
+      "size": 172286,
+      "sha256": "ee80cfe3f9ad70f2bd6b3b735d65c5c356c1119c67c8da4d812c838058ca6990"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1212,
+      "sha256": "0d4435fe0620372d92279e07af771b1e96cdd5d6c3e1628a538336195d47eaaf"
+    },
+    {
+      "path": "textures/skin.png",
+      "size": 25330,
+      "sha256": "d48e566cdeb76e9c98b9212107b1bc310b923159495329c7c8aec83fa5e070bb"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3343,
+      "sha256": "dee9a30c1429023d85759b63d0b4f8848c761c00d35b29e457087bc633d64100"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "id": "法军侦察兵",
+  "path": "parsed/法军侦察兵",
+  "source": {
+    "path": "Unknown/法军侦察兵.zip",
+    "type": "zip",
+    "stem": "法军侦察兵"
+  },
+  "ysm": "parsed/法军侦察兵/ysm.json",
+  "metadata": {
+    "name": "法军侦察兵",
+    "tips": "为了截到士兵背后长什么样子，我在法乌克斯要塞通过观战模式视奸了一位蹲家的薯薯斟茶兵长达七八分钟！真是难为他了，到我离开他也没狙到一个人   ：）",
+    "license": {
+      "type": "All Rights Reserved"
+    },
+    "authors": [
+      {
+        "name": "格陵兰鲨有点咸",
+        "avatar": "avatar/头像.png"
+      }
+    ],
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "#extra_classify": "Extra Classify"
+    },
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "Simple Config",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3
+          }
+        ]
+      }
+    ],
+    "preview_animation": "idle",
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true,
+    "disable_preview_rotation": false,
+    "all_cutout": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/main.animation_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": {
+        "uv": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 20,
+    "total_bytes": 2925618,
+    "sha256": "145d344675abb6f831e5765b9ce672e517bda23d8ea9a437df4f7505cd67aab5",
+    "bones": 68,
+    "cubes": 468,
+    "faces": 2808,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 190373,
+      "sha256": "8c43dd4c3a7ed305183ccd84e7316a5f1cd836ff13c43b15ed2e84a20fae0b43"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 695,
+      "sha256": "cd2be5d42efea2613f8fbe541e3c8600c0d1edb11051924675bdc2f7955d24d5"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2917,
+      "sha256": "f1b559bb714f40be566b02e1b8dd44c2cc380783e0e8a480c89a8378caa05b96"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 120100,
+      "sha256": "257c5b79c1f1833a248735f32d17567b00093a3c25c2591b6476c2ba65d329f3"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 119678,
+      "sha256": "5542bec68f8d35d14120cae85e96785708623e8b315dca550e95025c6084f0dc"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 176050,
+      "sha256": "9ecf075152538c1a7ac0bcd61f40bbd607a523c184a009c37cd37e23611b2913"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1598799,
+      "sha256": "d50e8b37390c62f09b1a9af1ef4c4d95fcf0063050f7b1fd5cacc3ff682b5604"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 161750,
+      "sha256": "cd9eab2dac8e0071268a1eb078a25f5d542f025c3ac7a150f66ec29eb66210a6"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 63606,
+      "sha256": "8e38e0d04193f5023f619ba64d847eee7cb675291c0747f98292656a028dacf7"
+    },
+    {
+      "path": "avatar/gsl.png",
+      "size": 17482,
+      "sha256": "dda4f5d1d4b94eaee263a0c0686e9a02267fec3e0de969e2b42a3678393acfd5"
+    },
+    {
+      "path": "avatar/头像.png",
+      "size": 24260,
+      "sha256": "792aa9d0c1c87c80f4c2a0fa4be4c80e65a79f43656747527dd7990d212c90b5"
+    },
+    {
+      "path": "controller/main.animation_controllers.json",
+      "size": 810,
+      "sha256": "ff546eb7847ecbb59ce3f43189c005e61db5ccf749dfc4f11b5d978f82b4d106"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 10606,
+      "sha256": "b43f3c3ad46a2491f88f95d70b8f452d5be4128b465550167c643df425690f22"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 18733,
+      "sha256": "1070aa5589ae3df1c5abf95a40f9de47ce2ca1df6b234ddbea96f568d1829c7a"
+    },
+    {
+      "path": "models/main.json",
+      "size": 241252,
+      "sha256": "0915d95ffe2c12c27326f777737f61c6ded19376bde6022a2d7c4049aee0225e"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1213,
+      "sha256": "0ecda6c1557cf3571289a3212c93e125d8b075cc37ac62f14dad852d83a576ec"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 93518,
+      "sha256": "10c7db2f2704cae8c83992a599111a1cea4e58918fb39d288bbc66a6c247421d"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 40356,
+      "sha256": "d0bc46717ed3b8a7f1ca9161e1aebb66eae6cbdff598b582171f06995d187fcc"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2390,
+      "sha256": "1bd9a8d244061981177a0fd2d41adc6cafb476202280e413e8202172a8884c6f"
+    }
+  ]
+}

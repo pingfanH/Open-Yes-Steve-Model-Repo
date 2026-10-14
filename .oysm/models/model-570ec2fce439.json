@@ -1,0 +1,189 @@
+{
+  "id": "_沐白",
+  "path": "parsed/_沐白",
+  "source": {
+    "path": "Uncategorized/_沐白.ysm",
+    "type": "ysm",
+    "stem": "_沐白"
+  },
+  "ysm": "parsed/_沐白/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/苏溟.png",
+        "comment": "新人YSM作者，请大家多多支持",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/3494363390806334"
+        },
+        "name": "苏溟",
+        "role": "模型/动画"
+      },
+      {
+        "avatar": "avatar/MicroCraft.png",
+        "comment": "只是个准程序猿",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/701974112"
+        },
+        "name": "MicroCraft",
+        "role": "molang/动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC4.0 BY-NC-SA"
+    },
+    "name": "沐白",
+    "tips": "雇佣兵小队的一员，团队的吉祥物，喜欢摸鱼，也喜欢自己一个人独自行动，经常让队友担心，但是由于极好的运气总能化险为夷。（ps：这是狼！）"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "伸懒腰~",
+      "extra1": "你好",
+      "extra2": "好棒",
+      "extra3": "彳亍",
+      "extra4": "哒咩",
+      "extra5": "冲！",
+      "extra6": "快乐摇",
+      "extra7": "Doodle",
+      "extra8": "左腿白/黑/",
+      "extra9": "右腿白/黑/",
+      "extra10": "外衣开关",
+      "extra11": "鞋子开关"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/main.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 2384220,
+    "sha256": "46eaed4d6e57c5d3417433e5e5a190bb235dfe4142bcd2276678ee3384433e6e",
+    "bones": 302,
+    "cubes": 1860,
+    "faces": 11160,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 198569,
+      "sha256": "8114c0b9f458e8ba4691e9d30015e8b1a9cb3ec3ae351a10a12fd49f3186229e"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 3230,
+      "sha256": "b5bf16cc72add7ded320dd1de15ae3893cdb9a6dbaa6753f70cb265969ef816b"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2540,
+      "sha256": "0ac0e461c6c73435c7bad938a1dd94ef037fe0e5577f493a58c364cf364a6828"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 50668,
+      "sha256": "a927dd5e82ea205bef1b39d09b049786ae17dbe91fd453e80df04eac8be29941"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 163049,
+      "sha256": "7a453fa699741a50a2df186ae9b434e1848ab5970b34482001eca5d606019802"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 157399,
+      "sha256": "c7d39e516731c82eb2197e13d1a12a908584191096e323d1d3bb486a87d1d343"
+    },
+    {
+      "path": "avatar/MicroCraft.png",
+      "size": 127200,
+      "sha256": "04a08ffc0dc1e03a032dde40b836801f2fb682f3a6c9daa996ffaed58ca227ff"
+    },
+    {
+      "path": "avatar/苏溟.png",
+      "size": 286366,
+      "sha256": "6e9c019ecd2f3e2996dbd77bddd53b4e852a0275576a64fcb75acfeb023fa01d"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 66025,
+      "sha256": "cd27362c8c40ad8c8db55eb549283b775ddb5cbb402453fd4c559a0f9f02c554"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 47963,
+      "sha256": "fcf3121fd6b6ac9724f05fc4a9a42058dcf87ede7bdd0a6ceeeca074c7221813"
+    },
+    {
+      "path": "models/main.json",
+      "size": 991485,
+      "sha256": "2f8dd3a2553df56599e19984081182f097c61391b516d439a835ea5b09e2210a"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1829,
+      "sha256": "97ef97ca88526ae207a89a616ec273781feaf7184fe41c9e5e988ca6959fc2e4"
+    },
+    {
+      "path": "textures/main.png",
+      "size": 113552,
+      "sha256": "8f45eda583c48701ec4be09855d2e4814db0337d71a9a045319cf8b8a68eeef1"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1752,
+      "sha256": "0631aaaf0417eeb5c4bbc1c78dc2238f2f239e55c68c9dd288c130218ef67f2f"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "-小空/models",
+  "path": "parsed/-小空/models",
+  "source": {
+    "path": "Unknown/-小空.zip",
+    "type": "zip",
+    "stem": "-小空",
+    "model_path": "-小空/models"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "models"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": []
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 5316399,
+    "sha256": "50e9310a1077b592c7b0ea175de9edfe1cd4657d753a81c885ccf44a450e99ba",
+    "bones": 158,
+    "cubes": 814,
+    "faces": 4884,
+    "textures": 0,
+    "materials": 0,
+    "animations": 0,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 4509,
+      "sha256": "3587d6f46d6eb61b1683056e9417072adc870047506e8c132279f00a2691117d"
+    },
+    {
+      "path": "arrow.json",
+      "size": 29883,
+      "sha256": "13fd9a38830571238aa6a45338b188d9626229dbc1a73f81aefd04af53b36d5a"
+    },
+    {
+      "path": "main.bbmodel",
+      "size": 4848080,
+      "sha256": "d2bc02365fda6dae25fe6607a639b85c5dcc13179609dab56d7b07375d8300e8"
+    },
+    {
+      "path": "main.json",
+      "size": 433927,
+      "sha256": "7b1d3e6c13e49b5ba5cd63ece48ed7af815c18bb9d1bc74da6a0c57b549a8266"
+    }
+  ]
+}

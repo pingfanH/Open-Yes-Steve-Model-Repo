@@ -1,0 +1,124 @@
+{
+  "id": "埃佩鲁1.0",
+  "path": "parsed/埃佩鲁1.0",
+  "source": {
+    "path": "Unknown/埃佩鲁1.0.ysm",
+    "type": "ysm",
+    "stem": "埃佩鲁1.0"
+  },
+  "ysm": "parsed/埃佩鲁1.0/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/popu.png",
+        "comment": "咸鱼",
+        "contact": {
+          "QQ": "3612246475",
+          "bilibili": "https://space.bilibili.com/446941285",
+          "爱发电": "https://afdian.com/a/popu_"
+        },
+        "name": "popu",
+        "role": "埃佩鲁"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/popu_",
+      "home": "https://space.bilibili.com/446941285"
+    },
+    "name": "埃佩鲁",
+    "tips": "持有“赤”之钥匙的莉兹的分身其一。与戴着红帽子的可爱样子相反，是个称职、业务熟练的猎人。兴趣是把狩猎时驱使的使魔装饰得很可爱。可以将碎片能量化，并通过强力的一击将敌人粉碎。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_classify": [],
+    "preview_animation": "walk",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/aplcz.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 1206354,
+    "sha256": "555d0d445dfed8eeec23ab9ad3c79d2660289583de5226d79d8302784490636d",
+    "bones": 150,
+    "cubes": 369,
+    "faces": 2214,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 32454,
+      "sha256": "7a3edfe9e598fae10683e717f31bfb951eee17c0f6649236e6543a888081b0f7"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 622873,
+      "sha256": "c4a03847cdbcf15c0eaf25a11f69a6d1b9a67ad41e4a3895720e548ddbf319e8"
+    },
+    {
+      "path": "avatar/popu.png",
+      "size": 325970,
+      "sha256": "6912c94e2828d44a62a2cd9aaec4d9d69b9551083994afb449623e60b1227f77"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 13299,
+      "sha256": "9b4ce62248563cee8bef52d9fa18a2f163200f5a9d37a3baf29230ec0edc298f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 188792,
+      "sha256": "258c5aa3f630ac17bda28e748fd87d8b3d7839d1b67e9629636e8cee699d934d"
+    },
+    {
+      "path": "textures/aplcz.png",
+      "size": 21740,
+      "sha256": "6e9364e29390c389e179f95b575190b21435e84240f8a5424a4bb971958ef0d1"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1226,
+      "sha256": "0a57234b6ca7a9b9a47954037f1e45f464a8eb9c494cc805c4d5cc5b8c6890c4"
+    }
+  ]
+}

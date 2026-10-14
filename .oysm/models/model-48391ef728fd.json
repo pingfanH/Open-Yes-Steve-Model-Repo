@@ -1,0 +1,161 @@
+{
+  "id": "_小小海螺",
+  "path": "parsed/_小小海螺",
+  "source": {
+    "path": "Uncategorized/_小小海螺.ysm",
+    "type": "ysm",
+    "stem": "_小小海螺"
+  },
+  "ysm": "parsed/_小小海螺/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/纸板.png",
+        "comment": "",
+        "name": "纸板",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/星屑海螺.png",
+        "comment": "",
+        "name": "星屑海螺",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "禁止修改，禁止商业使用，署名，以相同方式传播",
+      "type": "ND-BY-NC-SA"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/lucia2048",
+      "home": "https://space.bilibili.com/14975572"
+    },
+    "name": "小小海螺",
+    "tips": "我的名字是星屑海螺，原本是一名YSM知名的创作者，不幸的是不久之前被不明组织强灌毒药。\n而变成了江户川海螺，身体虽然变小，但头脑依旧灵活。真相只有一个！"
+  },
+  "properties": {
+    "width_scale": 0.55,
+    "height_scale": 0.55,
+    "extra_animation": {
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "shoe": "看看鞋子",
+      "摇": "摇",
+      "鸡你太美": "鸡你太美",
+      "萝莉摇": "萝莉摇",
+      "转圈圈": "转圈圈",
+      "席地而坐": "席地而坐",
+      "doodle": "doodle",
+      "pokedance": "poke dance",
+      "鹿乃子": "鹿乃子摇",
+      "摇啊摇": "摇啊摇"
+    },
+    "extra_animation_classify": [],
+    "preview_animation": "idle",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 5394366,
+    "sha256": "4b49a2d2e9bc05df3a21d30f56699d5cb916a86dd0ebabe5d208302f1b208fe8",
+    "bones": 183,
+    "cubes": 829,
+    "faces": 4946,
+    "textures": 1,
+    "materials": 1,
+    "animations": 6,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 130146,
+      "sha256": "1bf926b7a098b14c261bd12d5eeeb653f29aea803082177dec6818c3bcd0744b"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2712,
+      "sha256": "4f5e7ed844d6d85a5a0a97bb7a3bcce92307a1ead674f00bca412ec3425c6e4e"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 486540,
+      "sha256": "c6bf05dd43fdc6e97c965b139128111108decd7c6c9bf6db2227980a1ef94285"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 272339,
+      "sha256": "f3f2b1c3456a5a42d2342ce17895111b839056782febded4017458ff76880f37"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 3780182,
+      "sha256": "c897ad4eabad3e2ba896475813c1dc08294127732ee02001918d342b4fe33211"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 133606,
+      "sha256": "faa150e6e759f087bcd541f0dfb4ceeab17475884bcc92211556f43ec2bfe674"
+    },
+    {
+      "path": "avatar/星屑海螺.png",
+      "size": 29404,
+      "sha256": "b639e41cb1eb08139baf3652bd5aa26f03ab34f859af668982c294a4cf41c870"
+    },
+    {
+      "path": "avatar/纸板.png",
+      "size": 28520,
+      "sha256": "cc451885c846fb20cfa8f4d4810d630769b36cf461238ed938e63f9d7932b659"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 9641,
+      "sha256": "2e68f70b23c30ac4902bb78082d523d6b0924c2f128bc133536c12ded38284fc"
+    },
+    {
+      "path": "models/main.json",
+      "size": 459319,
+      "sha256": "49b7ee0a1bacac86557faa95dfbc502936cc616e18b671880b27dbcc2b25b777"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 60366,
+      "sha256": "db91ca90fb86af425294e9852af4e7b089d620a62350e0db06bf05f096a33e78"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1591,
+      "sha256": "f387f7b364d24e961210452b5035de65b4caee21b7b18bddbd221dab50d66b2f"
+    }
+  ]
+}

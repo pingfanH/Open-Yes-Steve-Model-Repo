@@ -1,0 +1,151 @@
+{
+  "id": "鸿园的君主-鸿璐",
+  "path": "parsed/鸿园的君主-鸿璐",
+  "source": {
+    "path": "Unknown/鸿园的君主-鸿璐.ysm",
+    "type": "ysm",
+    "stem": "鸿园的君主-鸿璐"
+  },
+  "ysm": "parsed/鸿园的君主-鸿璐/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/伦理问题.png",
+        "comment": "做的比较省心的一个，所以没有发癫环节",
+        "contact": {
+          "b站": "https://space.bilibili.com/384456209?spm_id_from=333.1007.0.0",
+          "爱发电": "https://afdian.com/a/Mortis"
+        },
+        "name": "伦理问题",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/Mortis",
+      "home": "https://space.bilibili.com/384456209?spm_id_from=333.1007.0.0"
+    },
+    "name": "红露",
+    "tips": "“从鸿园的最高处望去……大观园是这样的么？呼呼，那么……我也不必再掩饰了。 ”"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "#黑兽配置"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "黑兽配置",
+        "name": "黑兽配置",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "卯兔",
+            "description": "将黑兽置于头顶",
+            "value": "v.rabbit"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "texture",
+    "preview_animation": "UI",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 9,
+    "total_bytes": 1606888,
+    "sha256": "cbbda294bfa0293b9e8496afd1f8cf1a3c0b87278062a6238a2b760047a1950a",
+    "bones": 212,
+    "cubes": 1336,
+    "faces": 8016,
+    "textures": 1,
+    "materials": 1,
+    "animations": 3,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 165691,
+      "sha256": "51a8ea7fb0a82b944a78a1d69de824d9e961060344c187b09b7a92412d6d9163"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 26802,
+      "sha256": "0f6e37b11087b5b3e3f577244ff571dcaf6fc2cdaa6539af35edeaffe8aeebea"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 227115,
+      "sha256": "6679f7714c6c6682b7dfa332eab2faf853ceae327ed53db517a6617326ee08e1"
+    },
+    {
+      "path": "avatar/伦理问题.png",
+      "size": 12413,
+      "sha256": "5ff591712d77145d2fd170bd2a425ed13c3c42832529365fb70fe48d3e39416c"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 12224,
+      "sha256": "95b85a30c7e04e0d609d8ea613076f4c37215cb7f68b4b6c17ce33c390380d2c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 40439,
+      "sha256": "888f1feee9f1174b3166ed2e490ac70857859e2fdada5cddeca3c693900d1acc"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1083906,
+      "sha256": "4fc6259f892b47faa9c67cb203816ac83e48f134dcf19319ba610c00bfdb940e"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 36834,
+      "sha256": "098aeea9db4c0b343ff00b4c5881713caeb9f9435fe56145eeaca5ebdb47007f"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1464,
+      "sha256": "42202251b83b6bb7308c2b725363679e8dd83f2fbef3efd0c75355afb640385d"
+    }
+  ]
+}

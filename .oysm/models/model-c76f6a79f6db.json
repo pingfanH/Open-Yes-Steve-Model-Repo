@@ -1,0 +1,229 @@
+{
+  "id": "草莓",
+  "path": "parsed/草莓",
+  "source": {
+    "path": "Unknown/草莓.ysm",
+    "type": "ysm",
+    "stem": "草莓"
+  },
+  "ysm": "parsed/草莓/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/烛火的次元宇宙.png",
+        "comment": "还在成长的MC/YSM模型作者",
+        "contact": {
+          "Afdian": "http://afdian.com/a/zhuhuo",
+          "Bilibili": "https://space.bilibili.com/57715833?spm_id_from=333.1007.0.0"
+        },
+        "name": "烛火的次元宇宙",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/烛火的次元宇宙.png",
+        "comment": "",
+        "name": "烛火的次元宇宙",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "http://afdian.com/a/zhuhuo",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "§d草莓",
+    "tips": "西点店La Soleil中的猫娘女仆，年幼的她自此决定留在La Soleil，并给自己取名草莓"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#配置",
+      "extra1": "打招呼",
+      "extra2": "拍手",
+      "extra3": "赞成",
+      "extra4": "反对",
+      "extra5": "庆祝",
+      "extra6": "挠头",
+      "extra7": "扭扭舞"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "配置",
+        "name": "配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "坐姿",
+            "description": "改变玩家坐姿",
+            "value": "v.zz",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 7.0
+          },
+          {
+            "type": "range",
+            "title": "POSS",
+            "description": "改变玩家POSS",
+            "value": "v.zs",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 4.0
+          },
+          {
+            "type": "range",
+            "title": "眼睛",
+            "description": "改变玩家眼睛",
+            "value": "v.yj",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 3.0
+          },
+          {
+            "type": "range",
+            "title": "嘴巴",
+            "description": "改变玩家嘴巴",
+            "value": "v.zb",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 5.0
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏鞋子",
+            "description": "显示/隐藏鞋子",
+            "value": "v.xz"
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏丝袜",
+            "description": "显示/隐藏丝袜",
+            "value": "v.sw"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 3340465,
+    "sha256": "71ce2c704bc6900a90a7d61d83353405260af255d56086e91df9ad156867afbf",
+    "bones": 240,
+    "cubes": 1431,
+    "faces": 8586,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 218567,
+      "sha256": "7ded19c5182d1e9a1df4ba29d92d8e53b170a3b6547e5b3e920a42d8b04c12be"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 35644,
+      "sha256": "c79deab201b5226ab29f21c2e3e12feb891e594a1739b91cc0328f4190ccdf3d"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 310332,
+      "sha256": "f3e936d8b67ce620f0be828aaf5c0fa5a9464160a1204a121758a93b9464605c"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139812,
+      "sha256": "bd584a802e4171f67c6b3e65e71fb61319c125b4619a07616a87c446b3a0fb54"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1503488,
+      "sha256": "39da23aa526039a5897a28ec77a2c6399abb4daf63f0e4c001dde35e5e41d5c7"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 34600,
+      "sha256": "11a23d5d9830f9f9c2f346c4a7a44907ee4e9ecc41289beacf1bfd55c8e116f4"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 211823,
+      "sha256": "8c818f557bd060488ce4564f974581a69ffe37daf0086a1c7d48ab2b45dbf41f"
+    },
+    {
+      "path": "avatar/烛火的次元宇宙.png",
+      "size": 31433,
+      "sha256": "21d22a5c083f80f450f8a2ae358db5e67d69613169b754346496a7209a1e3ae3"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 5827,
+      "sha256": "a75e37a28e529d21f03df8aed7ae3352190417d6ed7a7bf449510ec14e5f2be9"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 72440,
+      "sha256": "651b6c082bbfefb2975b7e44eaa617e11d2ff152410d8828b10cf086aac66e3d"
+    },
+    {
+      "path": "models/main.json",
+      "size": 725821,
+      "sha256": "0b407eabb5ddf6713e142cefb8ab9cc0b1c50e37ad51b889ccac1a50d4236abe"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 46100,
+      "sha256": "fa5bf9ffce1bb3bc68eb4665da56b98519bd19ac8493dec0edd9cd7597f30b76"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2335,
+      "sha256": "26016a588e9dd59f209962ceabc06b9d1e679ea615825390ed8765f176b82a25"
+    }
+  ]
+}

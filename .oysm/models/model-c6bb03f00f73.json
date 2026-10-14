@@ -1,0 +1,199 @@
+{
+  "id": "折原露露·经典",
+  "path": "parsed/折原露露·经典",
+  "source": {
+    "path": "Unknown/折原露露·经典.ysm",
+    "type": "ysm",
+    "stem": "折原露露·经典"
+  },
+  "ysm": "parsed/折原露露·经典/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/折原露露.png",
+        "comment": "来自虚拟草原的一只孤独的长颈鹿",
+        "name": "折原露露",
+        "role": "原型人物"
+      },
+      {
+        "avatar": "avatar/默栖.png",
+        "comment": "一位MC断片作者",
+        "contact": {
+          "Afdian": "https://afdian.com/a/DLMoqi?tab=feed",
+          "Bilibili": "https://space.bilibili.com/477165698"
+        },
+        "name": "默栖",
+        "role": "人模型"
+      },
+      {
+        "avatar": "avatar/瀛猫.png",
+        "comment": "一个透明人",
+        "contact": {
+          "Afdian": "https://afdian.com/a/wincatpro",
+          "Bilibili": "https://space.bilibili.com/647224460"
+        },
+        "name": "瀛猫",
+        "role": "麂子模型/动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "§cAll Rights Reserved"
+    },
+    "link": {
+      "大哥B站主页": "https://space.bilibili.com/631070414",
+      "大哥直播间": "https://live.bilibili.com/22389206"
+    },
+    "name": "§6§l<Zhe_Yuan_Lu_Lu>§e§l(折原露露3.0公式服)",
+    "tips": "§a来自虚拟草原的一只孤独的长颈鹿，因为树上的叶子不好吃而想吃肉，\r\n§a为了养活自己，就变成了人来和大家见面辣!\r\n别名:别名露露、长颈露、大炮歌姬、麂（jǐ）子、大哥\r\n§c未经允许请勿商用"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "§e[舞蹈]§b青海摇",
+      "extra1": "§b表情1",
+      "extra2": "§b表情2",
+      "extra3": "§b表情3",
+      "extra4": "不可以",
+      "extra5": "加油",
+      "extra6": "§e[变身]§b化身大麂子",
+      "extra7": "§c[鬼化]§7§l吓吓你"
+    },
+    "default_texture": "zyll",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/zyll.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 13719685,
+    "sha256": "ec815578eda420613351cc86c03f19d1d260f00776f963f3e8998544c1500a90",
+    "bones": 257,
+    "cubes": 995,
+    "faces": 5970,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136317,
+      "sha256": "cbcdb35fe765ad187bd0fbe90599ee0d55f3a3141b6c6b488b9ed9f342e67182"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 580880,
+      "sha256": "3744a28b6dbd3d3e66dde644ea7b23aafcdcae61ba24a0af1ccad7a2dee5347d"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 268161,
+      "sha256": "8921aee60c4aa039fe81905f82fbdf12543ea0b73634d7c9ba9b1c71947bddee"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/折原露露.png",
+      "size": 10797776,
+      "sha256": "e900fa7d9e4a669d482143a6749da557041a7294e0cbfa78001f25d110111b72"
+    },
+    {
+      "path": "avatar/瀛猫.png",
+      "size": 177987,
+      "sha256": "58b0c3d0e642622bb904ae34ffaa4bd11526280e80d5d5f92323612f54f796d9"
+    },
+    {
+      "path": "avatar/默栖.png",
+      "size": 591977,
+      "sha256": "011bd2f067d5c87341198992955d2b708b12ffac9553270cbbd97db16129ed5e"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 11207,
+      "sha256": "15ce0fc499e5653bd8f3a3e34b6d2c76be83c5073fdf773458b1abd1bbe22020"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 572089,
+      "sha256": "5b70a9297c904bc231265dd90191de954a6604d1bdb07f0fb0d850dbedf9b0af"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/zyll.png",
+      "size": 214007,
+      "sha256": "8c5e23a8ab28c0ce3628a6b02501dbe37c6536565ed693663fce35a389821176"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2074,
+      "sha256": "679559df026a998eee0adcb66f1fb35855550c825aa2581183e31ceac13e00d0"
+    }
+  ]
+}

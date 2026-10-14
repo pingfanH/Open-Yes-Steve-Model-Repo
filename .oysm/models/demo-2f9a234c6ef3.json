@@ -1,0 +1,64 @@
+{
+  "id": "_纸板demo版",
+  "path": "parsed/_纸板demo版",
+  "source": {
+    "path": "Uncategorized/_纸板demo版.ysm",
+    "type": "ysm",
+    "stem": "_纸板demo版"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_纸板demo版"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "texture.png"
+      ],
+      "animation": {
+        "main": "main.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 4,
+    "total_bytes": 1132702,
+    "sha256": "29919e20c68ba04fe167c9bb2aa6291e527f7f6e3fbc3955d48602cff402cd3c",
+    "bones": 242,
+    "cubes": 1173,
+    "faces": 7038,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "arm.json",
+      "size": 16300,
+      "sha256": "ec9c6846dc43b0a00559b323c7a070b9597a7a1537e7d25244fc32e6805e8ca1"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 322247,
+      "sha256": "386c52074debe77a6b3fe7bf1a20aa5961c0a04ed645c302f37de6da17a025b7"
+    },
+    {
+      "path": "main.json",
+      "size": 638951,
+      "sha256": "bf3875b36ae523b338f7d8eef74c7e6c6c9f37b625520157ae05f11d7b2bc2cd"
+    },
+    {
+      "path": "texture.png",
+      "size": 155204,
+      "sha256": "367a7963f4e388cdfaf2fd0417c2b1af1a31bc63bf5912a1c4ffa76bf6570ba1"
+    }
+  ]
+}

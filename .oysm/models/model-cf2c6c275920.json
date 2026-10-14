@@ -1,0 +1,244 @@
+{
+  "id": "爱丽丝",
+  "path": "parsed/爱丽丝",
+  "source": {
+    "path": "Unknown/爱丽丝.ysm",
+    "type": "ysm",
+    "stem": "爱丽丝"
+  },
+  "ysm": "parsed/爱丽丝/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/Tu_tou.png",
+        "comment": "一个MC模型/YSM作者(金主锐评：有点懒)",
+        "name": "Tu_tou",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/sheng_zi.png",
+        "comment": "兼职技术与金主",
+        "name": "sheng_zi",
+        "role": "技术/金主"
+      }
+    ],
+    "license": {
+      "desc": "模型所有权归小盛子所有",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "爱丽丝",
+    "tips": "这是我的世界爱丽丝YSM模型"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "尬舞",
+      "extra1": "挥手",
+      "extra2": "鼓掌",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "extra8": "抽卡动画",
+      "extra6": "摆手舞",
+      "extra7": "#elise_config",
+      "extra5": "一库嗖"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "elise_config",
+        "name": "跳舞",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "不显示兔耳",
+            "description": "打开后隐藏兔耳朵",
+            "value": "v.eliseerduo"
+          },
+          {
+            "type": "radio",
+            "title": "嘴巴切换",
+            "description": "单选为爱丽丝更换嘴巴",
+            "value": "v.elisebiaoqing",
+            "labels": {
+              "默认": "v.elisebiaoqing=0",
+              "大笑": "v.elisebiaoqing=1",
+              "微笑": "v.elisebiaoqing=2",
+              "三角嘴": "v.elisebiaoqing=3",
+              "兔子嘴": "v.elisebiaoqing=4",
+              "撇嘴": "v.elisebiaoqing=5",
+              "伤心": "v.elisebiaoqing=6"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "眼神切换",
+            "description": "单选为爱丽丝更换眼神",
+            "value": "v.eliseyanshen",
+            "labels": {
+              "默认": "v.eliseyanshen=0",
+              "闭眼": "v.eliseyanshen=1",
+              "慵懒": "v.eliseyanshen=2",
+              "哭": "v.eliseyanshen=3"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true,
+    "gui_no_lighting": false,
+    "gui_foreground": "textures/gui/foreground.png"
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "vehicles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/vehicle/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 3752782,
+    "sha256": "a7ff6b6e9f83a7a85222862824665ae9037ad1c7ef22f08de89606fb2fcc7caf",
+    "bones": 188,
+    "cubes": 1441,
+    "faces": 8616,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178560,
+      "sha256": "1592160a1fcdedcfede16a762e63aba7d717a6124d5425af42c7cfc61d7bdca1"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 129618,
+      "sha256": "9ba38f4cc0c0b87c6cd6c7835dad61cf8cdfcdd338c1592c7d1d53e08c71e12f"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 216885,
+      "sha256": "3c6c12e68596599304f4a148e89c2accc9501cfdfa58c8088ffafcba23a43330"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "animations/vehicle/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "avatar/Tu_tou.png",
+      "size": 702,
+      "sha256": "277b21f52c289897f8e064fbf26ee286e12e5f2ac170a6330823c11c118a6084"
+    },
+    {
+      "path": "avatar/sheng_zi.png",
+      "size": 15384,
+      "sha256": "d2fa02ee53f901f24160f36ef222c070c7a822d06113d9b927d18a9d0cbbf013"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 21492,
+      "sha256": "650edc259f9294624bf86d32c8db11787698944066f5d9b6bdd51aed0d084726"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13752,
+      "sha256": "3afa51fa99152b689875ef25ca5853f92d4ccd0e44caf11d5ef58aa5413ccfbe"
+    },
+    {
+      "path": "models/main.json",
+      "size": 723832,
+      "sha256": "a864e1910b9753d62dc2fda47fff0354573408014d61fcaed5b8ed1bf203cfa7"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 854,
+      "sha256": "205e4da892496567b38d2d5fa9efa703c22e1c8e9ef2b0d7ecd32c5b0682fa3a"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 10502,
+      "sha256": "5237c8b9090fd4ea657b9bded4ba022d97720ef910f58c1804a631e8dce8d11c"
+    },
+    {
+      "path": "textures/gui/foreground.png",
+      "size": 353,
+      "sha256": "9a89b52a10dedd0978acd2edc09221afa5264b169397fe5e94952a74cad4e814"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2453,
+      "sha256": "2c0294970ec618ef286886258b514d60333ee28ef9575fefc946fd0fa6ea8cd9"
+    }
+  ]
+}

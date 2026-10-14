@@ -1,0 +1,404 @@
+{
+  "id": "远旅(旧)",
+  "path": "parsed/远旅(旧)",
+  "source": {
+    "path": "Unknown/远旅(旧).ysm",
+    "type": "ysm",
+    "stem": "远旅(旧)"
+  },
+  "ysm": "parsed/远旅(旧)/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/诗人我食.png",
+        "comment": "",
+        "name": "诗人我食",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "远旅",
+    "tips": "<Unknown>"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "#大厅动画": "大厅动画",
+      "#点击动画": "点击动画",
+      "世界上最小的小提琴": "#装饰",
+      "裙子切换": "#额外装饰",
+      "亲昵": "亲昵",
+      "闲谈1": "闲谈1",
+      "闲谈2": "闲谈2",
+      "独白": "独白",
+      "孑立": "孑立",
+      "赞赏": "赞赏",
+      "洞悉": "洞悉",
+      "致未来": "致未来",
+      "嗜好": "嗜好"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "装饰",
+        "name": "装饰",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "头带",
+            "description": "用来显示或隐藏玩家装饰",
+            "value": "v.ysmGlowhair"
+          },
+          {
+            "type": "checkbox",
+            "title": "头饰(左)",
+            "description": "用来显示或隐藏玩家装饰",
+            "value": "v.Ribbon"
+          },
+          {
+            "type": "checkbox",
+            "title": "头饰(右)",
+            "description": "用来显示或隐藏玩家装饰",
+            "value": "v.Ribbon2"
+          },
+          {
+            "type": "checkbox",
+            "title": "头上的星星(左)",
+            "description": "用来显示或隐藏玩家装饰",
+            "value": "v.ysmGlowfronth2"
+          },
+          {
+            "type": "checkbox",
+            "title": "头上的星星(右)",
+            "description": "用来显示或隐藏玩家装饰",
+            "value": "v.ysmGlowcornerh3"
+          },
+          {
+            "type": "checkbox",
+            "title": "眼睛里的小星星(左)",
+            "description": "用来显示或隐藏玩家装饰",
+            "value": "v.ysmGlowRightPupil2"
+          },
+          {
+            "type": "checkbox",
+            "title": "眼睛里的小星星(右)",
+            "description": "用来显示或隐藏玩家装饰",
+            "value": "v.ysmGlowLeftPupil2"
+          },
+          {
+            "type": "checkbox",
+            "title": "手臂上的星星",
+            "description": "用来显示或隐藏玩家装饰",
+            "value": "v.ysmGlowLeftArm"
+          },
+          {
+            "type": "checkbox",
+            "title": "胸口的小星星",
+            "description": "用来显示或隐藏玩家装饰",
+            "value": "v.ysmGlowCollar2"
+          },
+          {
+            "type": "checkbox",
+            "title": "胸口的大星星",
+            "description": "用来显示或隐藏玩家装饰",
+            "value": "v.ysmGlowCollar"
+          }
+        ]
+      },
+      {
+        "id": "额外装饰",
+        "name": "格外装饰",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "眼睛里的大星星(右）",
+            "description": "用来改变玩家装饰大小",
+            "value": "v.ysmGlowLeftPupil",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 1.5
+          },
+          {
+            "type": "range",
+            "title": "眼睛里的大星星(左）",
+            "description": "用来改变玩家装饰大小",
+            "value": "v.ysmGlowRightPupil",
+            "step": 0.1,
+            "min": 0.0,
+            "max": 1.5
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "点击动画",
+        "extra_animation": {
+          "帽檐与发鬓": "帽檐与发鬓",
+          "袖与手": "袖与手",
+          "衣着与身影": "衣着与身影"
+        }
+      },
+      {
+        "id": "大厅动画",
+        "extra_animation": {
+          "朝晨": "朝晨",
+          "信任-朝晨": "信任-朝晨",
+          "夜幕": "夜幕",
+          "信任-夜幕": "信任-夜幕",
+          "问候": "问候",
+          "箱中气候": "箱中气候"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "封面",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 37,
+    "total_bytes": 6361021,
+    "sha256": "9ef80d8426e79935ce2be1eb35d029b76c0c2301fa7492b170b06dff3430b2c6",
+    "bones": 152,
+    "cubes": 2022,
+    "faces": 12132,
+    "textures": 2,
+    "materials": 2,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 180740,
+      "sha256": "b1065b360768ecda7b961b8cbced75b2eb1244f72e964964cd60d2d3592c32c6"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2563,
+      "sha256": "ed8757526e76334427ef01a5219242e2b8fe79673c03088748870e4c7886fe04"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 240473,
+      "sha256": "7f29ee2c0d34402d86e4a3ec29fc6ab30d60bdede2fbe68c5225273f2073fcf0"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 195925,
+      "sha256": "5dccffe4440ac09e4c69181349b00906db16fedcca926b84dbbd3fcc77d1a950"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 142782,
+      "sha256": "d5242fe86b35e01bf4d2482624fac744ee3de64cd2aea41c73f4774b298ecfa2"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2027163,
+      "sha256": "a10d8026db42761df2e00b3b0243425ac3fd5f8acdac3baad3c00967a9f6ef4b"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 40731,
+      "sha256": "e5379eb64fc76407e02d23a201a9fbd099ca98a7f39e484294f89260623bc966"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 185612,
+      "sha256": "03f8865020b500bc6dd5ba651d85daa2c1191592861a3c3d9c686b6483d95fcf"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 51365,
+      "sha256": "63d62a09c1180f1e15f0e404bd37944370605e21dff7a7860e47c51c8faaf8f1"
+    },
+    {
+      "path": "avatar/诗人我食.png",
+      "size": 33928,
+      "sha256": "9a74e52338d185cced4eedf76152d2afc1a1f5bfe5bb3ff030bf8bc2d631457a"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 5536,
+      "sha256": "fcab84f873606bdda1e459b9c1faca7f5bea3f41b7b4c74ad1f94344a2e3f8a9"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13725,
+      "sha256": "605fc04a716cfd12d30b5d6fb5d6db461504bd2f8da602fe078a4f57b4d71c71"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1101834,
+      "sha256": "e9adbe609129e7d4460c1b73f296aaa801dcae2bd3d4219c797dc1b10204b635"
+    },
+    {
+      "path": "sounds/admiration.ogg",
+      "size": 85597,
+      "sha256": "64210a571a3dbb17e63bfb1b62961108fd1affb44a78b6b4565aafb8958fbde4"
+    },
+    {
+      "path": "sounds/brim_and_locks.ogg",
+      "size": 11845,
+      "sha256": "a9adf9705abf3f5c4445e3a6e29a4ed6191424d72979afab08966d1cc0d0ad3b"
+    },
+    {
+      "path": "sounds/chat1.ogg",
+      "size": 18847,
+      "sha256": "c10160e8965442879e8ad61b93c818b0d81874d243c2e22638a45f8fa4dc2923"
+    },
+    {
+      "path": "sounds/chat2.ogg",
+      "size": 13242,
+      "sha256": "9848c7d27fa60f1f5d6618243d630d6afd85afb891065d376244241dd1c6392e"
+    },
+    {
+      "path": "sounds/clothing_and_figure.ogg",
+      "size": 14069,
+      "sha256": "faeb30b6668ee695d38e5736a33dde746dfb52088d6cdf8540597501411cc4ee"
+    },
+    {
+      "path": "sounds/greeting.ogg",
+      "size": 190559,
+      "sha256": "e3f5a43fe498b35b19af200293021d6059fe74b8f9a75f2f9db2969b0697b23a"
+    },
+    {
+      "path": "sounds/hobbies.ogg",
+      "size": 42909,
+      "sha256": "71b0dd41550c187a1e10e53cdd6ebdfc8005561697a5edfd702f07e1933db9c0"
+    },
+    {
+      "path": "sounds/insight.ogg",
+      "size": 113835,
+      "sha256": "4b4d43887d0c10c8370508b0aff38e74bf964df72a94a72c0e5428102887f7be"
+    },
+    {
+      "path": "sounds/intimacy.ogg",
+      "size": 158944,
+      "sha256": "f5283d001977e872b9daa7691b15c6e87f8e45029ce90d43b09230759e3af3dd"
+    },
+    {
+      "path": "sounds/monologue.ogg",
+      "size": 118437,
+      "sha256": "83285c6f32bb73421f6931d301fc49db887d4350c1e2c0896e0443b6d83439ca"
+    },
+    {
+      "path": "sounds/morning.ogg",
+      "size": 14008,
+      "sha256": "2c78d77f3121d0f72aa80b47d7a3ef7ea4608ed6508c64feb1de2c5c1036d828"
+    },
+    {
+      "path": "sounds/nightfall.ogg",
+      "size": 18800,
+      "sha256": "5f6145b73dd7ec3187dd28a12acabc9e9359c2a32cd1c676592e93751e8521d4"
+    },
+    {
+      "path": "sounds/sleeve_and_hand.ogg",
+      "size": 21856,
+      "sha256": "683346380d3b09efdb957cce746fc2395fc8f5b958ffb82cc42f8dcd492be5ca"
+    },
+    {
+      "path": "sounds/smallest_violin.ogg",
+      "size": 585589,
+      "sha256": "215ec0fa990dd016b8d91b1882bc7ce13145672deab8657125449c08c32856c0"
+    },
+    {
+      "path": "sounds/solitary.ogg",
+      "size": 241079,
+      "sha256": "3b408d51f881a1e55fe0f9f46eb9e6020b3fe96a0d501ddfab4743af1e0d9884"
+    },
+    {
+      "path": "sounds/to_the_future.ogg",
+      "size": 35877,
+      "sha256": "bbf7e59fb729fd5735ec8ce638292e409efc58c1f404d2a4d6602d2707827fb9"
+    },
+    {
+      "path": "sounds/trust_morning.ogg",
+      "size": 16265,
+      "sha256": "2b1a69c2134beeb755daae06464cbee17784d5133a751dea74d16f639dfa4b26"
+    },
+    {
+      "path": "sounds/trust_nightfall.ogg",
+      "size": 369599,
+      "sha256": "1e70563647f0427fdea5d2e6c67866074daa88c67482ef4211cb2fc229cb177b"
+    },
+    {
+      "path": "sounds/weather_in_the_suitcase.ogg",
+      "size": 41154,
+      "sha256": "c59b689285196105107b5190c5f0e4a4daa0c5ea60c65b622e9e26dd0288453c"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2686,
+      "sha256": "197669635bbf7b8cf8892b6912e428c92c66aac37ea2d3f1a174c9a04b2b64f6"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 825,
+      "sha256": "29be635a447b4e30905a5619bd0c2d196e1ea56b383ef1cf1297dd2469b2ad3f"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 18567,
+      "sha256": "5231189efd518f229fbeccdc9c40c518d5d313f04f61b455a335067618bbeb83"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3589,
+      "sha256": "b7629d6d14a593c801bd1174f3da4f2f5b573990651df8c08b9e5202c2ea3884"
+    }
+  ]
+}

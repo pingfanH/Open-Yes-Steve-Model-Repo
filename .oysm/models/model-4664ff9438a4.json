@@ -1,0 +1,216 @@
+{
+  "id": "_爱恩.伊瑞丝.卡列尼娜",
+  "path": "parsed/_爱恩.伊瑞丝.卡列尼娜",
+  "source": {
+    "path": "Uncategorized/_爱恩.伊瑞丝.卡列尼娜.ysm",
+    "type": "ysm",
+    "stem": "_爱恩.伊瑞丝.卡列尼娜"
+  },
+  "ysm": "parsed/_爱恩.伊瑞丝.卡列尼娜/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/Almeta_owx.png",
+        "comment": "and the universe said I love you",
+        "contact": {
+          "Afdian": "https://afdian.com/a/Almeta",
+          "Bilibili": " https://b23.tv/iAsj6Ee"
+        },
+        "name": "Almeta_owx",
+        "role": "模型/动画"
+      },
+      {
+        "avatar": "avatar/是八一四呐.png",
+        "comment": "0v0",
+        "contact": {
+          "Bilibili": "https://b23.tv/1Vqx4Wg"
+        },
+        "name": "是八一四呐",
+        "role": "定制"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "home": "https://afdian.com/a/Almeta",
+      "update": "https://b23.tv/iAsj6Ee"
+    },
+    "name": "爱恩.伊瑞丝.卡列尼娜",
+    "tips": "「爱恩·伊瑞丝」一位为来自异世界的白发少女，被人遗忘的她因一本空白的故事书从而踏上了新的旅程，并重新书写自己「身为最初之人的故事」"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "星辉闪耀",
+      "extra1": "打招呼",
+      "extra2": "拍手",
+      "extra3": "同意",
+      "extra4": "不行",
+      "extra5": "互联网过度依存",
+      "extra6": "可爱摇",
+      "extra7": "嘟里嘟里邦邦",
+      "extra8": "躺地上看书",
+      "extra9": "普通坐地上",
+      "extra10": "飞行",
+      "extra11": "飞行看书"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/IrisH.png"
+        },
+        {
+          "uv": "textures/IrisJ.png"
+        },
+        {
+          "uv": "textures/IrisL.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 4665641,
+    "sha256": "9241e69aadf6b68b8566e03ed14125cd49cf06587908e6ff7141f943ff9bea0a",
+    "bones": 446,
+    "cubes": 1903,
+    "faces": 11418,
+    "textures": 3,
+    "materials": 3,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 147023,
+      "sha256": "b5dfcb71600dfbf4d089d45504b938550f86c8ad86e3eebd7f8bb2344080829e"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3925,
+      "sha256": "f6ec360624ce49c0041b51fe817acd7b2c3741492a8afd66ad64a639c229ab93"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 661684,
+      "sha256": "d79e4d45d937fdc4ce697d18efe39d3b15e8aaec6afe775697b1376f20353d47"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 408830,
+      "sha256": "9a7fbc9e49fb4457fd034caabc85665831a7bfa7d922836cbb327666c2e26487"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1505257,
+      "sha256": "b07decfed424b649271e6e2f1e378a01d54736e18fc335dde1d628808af03612"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 170987,
+      "sha256": "d8d46b82fe93afa78c714b909d6390eb4cfcdc7fd7eef13f7a7e4ce21b06cfcc"
+    },
+    {
+      "path": "avatar/Almeta_owx.png",
+      "size": 45632,
+      "sha256": "b53f7e87d557bed5b1e34059f3be70e1a182253102f00551f78ccdb44937ee40"
+    },
+    {
+      "path": "avatar/是八一四呐.png",
+      "size": 33704,
+      "sha256": "365f11f02fa6745cbe8106e88df0ccf9a80d89ae22ac393b232702f34c0839ba"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 34186,
+      "sha256": "6f7a90ce476d00d1f33b49e7d854c51b4440d63ef664dd3125b5bf86672a81e2"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1039204,
+      "sha256": "75538108af39568042f9974b9d7b656d25a123aa25221b63133e7408319e9199"
+    },
+    {
+      "path": "textures/IrisH.png",
+      "size": 141767,
+      "sha256": "b4392b454a63d736f04311a18519e555f72ff1b80e9a1c80f517676399f101c2"
+    },
+    {
+      "path": "textures/IrisJ.png",
+      "size": 141811,
+      "sha256": "90ec40fd7dad66bc14cec364ce7d009cfe036200c751e4bf592e3a9e725124ec"
+    },
+    {
+      "path": "textures/IrisL.png",
+      "size": 141775,
+      "sha256": "c38d8c11cdecefa8cbb2cb243860c7449a278de002966ee28f803133ab2b47f9"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1985,
+      "sha256": "b6dc34227b467c0c7569fe0e2dce991950289a8437a781bbf8cca19e611d27f9"
+    }
+  ]
+}

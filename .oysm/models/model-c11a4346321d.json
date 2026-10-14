@@ -1,0 +1,183 @@
+{
+  "id": "铸铁重置版",
+  "path": "parsed/铸铁重置版",
+  "source": {
+    "path": "Unknown/铸铁重置版.ysm",
+    "type": "ysm",
+    "stem": "铸铁重置版"
+  },
+  "ysm": "parsed/铸铁重置版/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/嗯嗯owo.png",
+        "comment": "大就是好，好就是大",
+        "contact": {
+          "Afdian": "https://afdian.com/a/enenowo",
+          "Bilibili": "https://space.bilibili.com/167202500?spm_id_from=333.337.0.0"
+        },
+        "name": "嗯嗯owo",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/嗯嗯owo.png",
+        "comment": "大就是好，好就是大",
+        "name": "嗯嗯owo",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/嗯嗯owo.png",
+        "comment": "大就是好，好就是大",
+        "name": "嗯嗯owo",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/嗯嗯owo.png",
+        "comment": "大就是好，好就是大",
+        "contact": {
+          "Afdian": "https://afdian.com/a/enenowo",
+          "Bilibili": "https://space.bilibili.com/167202500?spm_id_from=333.337.0.0"
+        },
+        "name": "嗯嗯owo",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-ND 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/enenowo",
+      "home": "https://space.bilibili.com/167202500?spm_id_from=333.337.0.0"
+    },
+    "name": "轻风LB03_铸铁",
+    "tips": "MARTHE [珊瑚海岸/CoralCoast]轻风系列泳衣03款。基于整体性考量设计的泳装冲锋衣套组，必定能满足您在水边的运动着衣需求"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "立绘动作",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "default",
+    "preview_animation": "extra1",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/zt.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 1344699,
+    "sha256": "1289a4b2589fb246be74292267972810ba9e6d54444e87fc33f1eef57cdb1392",
+    "bones": 178,
+    "cubes": 817,
+    "faces": 4902,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 123484,
+      "sha256": "5111072a477df7f6252ca8d98e6038882d2ae416d45faff364b55315c1bd6a2d"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3956,
+      "sha256": "157032a44c1242eba2054976bcba0d1c43b550e26dc9379ecda93a0634cd499d"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 106118,
+      "sha256": "e28f6b7ee1406d56fe20c40f2ac40284d82721b00995feae9f3e138f5a3eae08"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 185348,
+      "sha256": "33c25ad3cf8d64e2acbc00f4668457c45e80be646a04528fbf1d0caf8dbc7697"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/嗯嗯owo.png",
+      "size": 249656,
+      "sha256": "c821c80643b9ccc647fd6bfe98fbddbaabb67996217de55d42445e82a393d0a1"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 11654,
+      "sha256": "52345a028e09b559c2bb62c7c298fc4f7ad9e6c4c3f4bb1c017d8032996bf789"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 433794,
+      "sha256": "83bef6d5b945cadf43b7e4a53bd397462823faca25a88b8363036ceb02edb8f3"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/zt.png",
+      "size": 36889,
+      "sha256": "20f595ce8ae29253344a698c9d424adc60e23ae051047edf59ecdcdf4e0746a5"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1857,
+      "sha256": "cc180c6375348f10c6bfc41c5ed5f44388db62d83de6e3ad7529e4264c58d82b"
+    }
+  ]
+}

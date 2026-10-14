@@ -1,0 +1,256 @@
+{
+  "id": "_报纸怪客",
+  "path": "parsed/_报纸怪客",
+  "source": {
+    "path": "Unknown/_报纸怪客.ysm",
+    "type": "ysm",
+    "stem": "_报纸怪客"
+  },
+  "ysm": "parsed/_报纸怪客/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/長琦.png",
+        "comment": "一个勘勘囚囚激推，不知为何开始搞模型jpg",
+        "contact": {
+          "qq": "1530803476"
+        },
+        "name": "長琦",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ChangQi",
+      "home": "https://space.bilibili.com/2089018983?spm_id_from=333.1007.0.0"
+    },
+    "name": "维克多·葛兰兹(Victor Grantz)",
+    "tips": "《凑凑热闹》的创刊者，就是因为无法忍受所有媒体上单调、空洞、艳俗的报道和广告，才选择用自己的报纸对抗一切的喉舌。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "揉眼睛": "揉眼睛",
+      "躺地": "躺地",
+      "坐下": "坐下",
+      "捧脸脸": "捧脸脸",
+      "抱着威克": "抱着威克",
+      "穿脱及切换": "#extra_config",
+      "extra0": "憨憨舞蹈",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "肯定",
+      "extra4": "否定",
+      "extra5": "好耶",
+      "extra6": "欢呼",
+      "extra7": "神秘舞蹈"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "穿脱及切换",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "体型: ",
+            "description": "大小",
+            "value": "v.player_size",
+            "step": 0.2,
+            "min": 0.2,
+            "max": 2.0
+          },
+          {
+            "type": "checkbox",
+            "title": "夹克",
+            "description": "有点热，要不要脱掉外套呢",
+            "value": "v.roaming.g"
+          },
+          {
+            "type": "checkbox",
+            "title": "挎包",
+            "description": "打印机，要轻拿轻放",
+            "value": "v.roaming.h"
+          },
+          {
+            "type": "checkbox",
+            "title": "目屏",
+            "description": "报纸怪客心爱的目屏",
+            "value": "v.roaming.d"
+          },
+          {
+            "type": "checkbox",
+            "title": "帽子",
+            "description": "记得放在衣帽架上",
+            "value": "v.roaming.a"
+          },
+          {
+            "type": "checkbox",
+            "title": "领结",
+            "description": "经典款的小领带",
+            "value": "v.roaming.c"
+          },
+          {
+            "type": "checkbox",
+            "title": "切换左眼颜色",
+            "description": "白色还是金色？",
+            "value": "v.roaming.e"
+          },
+          {
+            "type": "checkbox",
+            "title": "切换右眼颜色",
+            "description": "白色还是金色？",
+            "value": "v.roaming.f"
+          },
+          {
+            "type": "radio",
+            "title": "表情",
+            "description": "今天是什么心情？",
+            "value": "v.value_radio",
+            "labels": {
+              "§e0v0": "v.value_radio = 0; v.roaming.b = 0",
+              "§e-v-": "v.value_radio = 1; v.roaming.b = 1"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "1225",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/报纸怪客.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 3486198,
+    "sha256": "55a2ad8af06fc2e9a0cfeebec6eb87d15566eac8ffb31dd05611e0f82d3e0bf6",
+    "bones": 207,
+    "cubes": 912,
+    "faces": 5472,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 138124,
+      "sha256": "cb4a5eb813bae27d1c9072cb840defab24e121c24a1ea9575cb91787c691e2b9"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 171357,
+      "sha256": "2565aabf5d3da1dff0304acdd3efdc50b06ea4b4d6d23588d7488740ca88f4eb"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 255189,
+      "sha256": "751d597c825567de341f6f9346c14b836e2a5c51b72ad529632eadab4e621907"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1516124,
+      "sha256": "34a9e9338e2d3dd29638fab92dad5a9aa23c5cd13d04bff8dd513fa3dc655ee5"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/長琦.png",
+      "size": 371579,
+      "sha256": "f89267238b3ed0045de3c002fae9e288be486ba8af5abf9a9dd2c9b4c772c8b5"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 45745,
+      "sha256": "7a4898d637e2dc793b9098f550f4c7ed84f3c63cea620381614e5220e7a77bab"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 457862,
+      "sha256": "a0ef50cdb351ef68f54b654ad52165f551ae6b943807f19f2ea499c8c5bd7ed9"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/报纸怪客.png",
+      "size": 160081,
+      "sha256": "e7315482e95041d60f3883a666b2ef9233ef1041b69d1ffec26315ee73016eef"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2927,
+      "sha256": "494c5dea1787d0332705bd6867925cc8eaaa4a306276b6de1f46f7716d14a593"
+    }
+  ]
+}

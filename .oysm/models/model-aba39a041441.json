@@ -1,0 +1,307 @@
+{
+  "id": "雪狐桑",
+  "path": "parsed/雪狐桑",
+  "source": {
+    "path": "Unknown/雪狐桑.ysm",
+    "type": "ysm",
+    "stem": "雪狐桑"
+  },
+  "ysm": "parsed/雪狐桑/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/雪狐桑.png",
+        "comment": "§b一期一会",
+        "contact": {
+          "哔哩哔哩": "https://space.bilibili.com/477792",
+          "雪狐冰屋": "https://xuehusang.cn/"
+        },
+        "name": "雪狐桑",
+        "role": "原型人物"
+      },
+      {
+        "avatar": "avatar/§d瀛猫.png",
+        "comment": "§b一个透明人",
+        "contact": {
+          "QQ": "472029121",
+          "哔哩哔哩": "https://space.bilibili.com/647224460",
+          "爱发电": "https://afdian.com/a/wincatpro"
+        },
+        "name": "§d瀛猫",
+        "role": "模型制作"
+      }
+    ],
+    "license": {
+      "desc": "§c§l未经允许请勿商用",
+      "type": "CC BY-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/wincatpro",
+      "home": "https://space.bilibili.com/477792"
+    },
+    "name": "§b§l❆雪狐桑❆",
+    "tips": "§f§l<雪狐桑3.9周年礼服>\n§b请哔哩哔哩关注“雪狐桑”狐狐真的很可爱\n§a一只在北极生活了82年名字叫雪狐（可御可萝莉）\n§a的北极狐萨摩耶出道成VUP哒，据本人说雪狐只会说狐语，\n§a声音是翻译姬的声音。因为其他啥也不会所以十分擅长杂谈，\n§a不是很擅长解迷游戏,喜欢吃各种肉类，更喜欢可爱的美少女，\n§a也很喜欢在下雪的天气下睡觉，对于收钱也有兴趣哒。\n§c§l未经允许请勿商用"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra2": "§d§l【变身】§e“一期一会”",
+      "extra3": "§a可以",
+      "extra4": "§a不可以",
+      "extra5": "§a加油",
+      "extra6": "§d§l《勾指起誓》",
+      "extra7": "§d法修散打",
+      "extra1": "#hair"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "§b§l雪狐桑",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "§d§l礼服拖尾",
+            "description": "§a用于关闭裙子的大后摆",
+            "value": "v.tuowei"
+          },
+          {
+            "type": "checkbox",
+            "title": "§b§l皇冠",
+            "description": "§a用于关闭头顶皇冠",
+            "value": "v.king"
+          },
+          {
+            "type": "checkbox",
+            "title": "§b§l发饰蝴蝶结",
+            "description": "§a用于关闭头部蝴蝶结",
+            "value": "v.hairhdj"
+          },
+          {
+            "type": "checkbox",
+            "title": "§b§l胸针蝴蝶结",
+            "description": "§a用于关闭胸部上面的胸针",
+            "value": "v.breastz"
+          },
+          {
+            "type": "checkbox",
+            "title": "§c§l狐尾巴",
+            "description": "§a用于显示和隐藏尾巴",
+            "value": "v.mtail"
+          },
+          {
+            "type": "checkbox",
+            "title": "§6右腿丝袜",
+            "description": "§a用于显示和隐藏右腿的白色丝袜",
+            "value": "v.siwar"
+          },
+          {
+            "type": "checkbox",
+            "title": "§6左腿丝袜",
+            "description": "§a用于显示和隐藏左小腿的白色丝袜",
+            "value": "v.siwal"
+          },
+          {
+            "type": "range",
+            "title": "人物大小",
+            "description": "调整整个模型的大小",
+            "value": "v.player_size",
+            "step": 0.1,
+            "min": 0.1,
+            "max": 1.0
+          },
+          {
+            "type": "radio",
+            "title": "§a面部表情",
+            "description": "这里可以调整脸部表情",
+            "value": "v.bq",
+            "labels": {
+              "正常": "v.bq=0",
+              ">_<": "v.bq=1",
+              "憨憨": "v.bq=2"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "§a嘴巴",
+            "description": "",
+            "value": "v.zx",
+            "labels": {
+              "正常": "v.zx=0",
+              "张嘴": "v.zx=1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "hair",
+        "name": "发型切换",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "显示或隐藏麻花辫",
+            "description": "",
+            "value": "v.horsehair"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "tlm": "animations/tlm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 20,
+    "total_bytes": 13212811,
+    "sha256": "262feb50e68801532d806f4c712cae02c3b1953882240d767656e43bad6fb86d",
+    "bones": 727,
+    "cubes": 2311,
+    "faces": 13272,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 216849,
+      "sha256": "a119d36565b6cc3c5b6e72c9d1e2a1e77141630402b910557b41d0df6f82eb08"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 7909127,
+      "sha256": "51ca95640846e3cfd08c401960404a726b5f1ace610ec4118ff7a80eb20808a4"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 359085,
+      "sha256": "e0edf0dd64b58f4576394793f0ac9b58db7848976f70aeab17ef895896d4dcf7"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 156820,
+      "sha256": "f36fafe4768582999dd936a3f1424508eb9d2f9c7ee4c24a3cd425cb495037b7"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 51268,
+      "sha256": "e21a7117994ffb7067f4dae5c947ca25f1c9a32f55a2ef582125c9be81bfbb08"
+    },
+    {
+      "path": "avatar/§d瀛猫.png",
+      "size": 13934,
+      "sha256": "46b45a286d36976772598c04183a755d1212b190a9aea6bb7b787e207de1e030"
+    },
+    {
+      "path": "avatar/雪狐桑.png",
+      "size": 38135,
+      "sha256": "bd1995f6f9e03b1bc6370986cbf48d9e953c6d4fa18382380f093ebc30e0a421"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 3798,
+      "sha256": "e35f822da9b3fdad11de944e353fb4dfa9d9f822e6ef15a3034e093de80e0010"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 61384,
+      "sha256": "28baf722dc36bdcb87f44031ee176da10b5f7adf17d0db46f73ffb3e85728a9c"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13725,
+      "sha256": "605fc04a716cfd12d30b5d6fb5d6db461504bd2f8da602fe078a4f57b4d71c71"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1285913,
+      "sha256": "3e123c551eb32004e508cd5e358ba082608918da543bda87b689aa74bafb4384"
+    },
+    {
+      "path": "sounds/fxsd.ogg",
+      "size": 210162,
+      "sha256": "a4f26d55551ca1d5bbf1002cf89b6e4458277f7f6ca63be7056e522c31175431"
+    },
+    {
+      "path": "sounds/gzqs.ogg",
+      "size": 2467706,
+      "sha256": "1b9b5d8a9540646c933059110ca31929fe407566a3bdc20a28a5116fb7150646"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2686,
+      "sha256": "197669635bbf7b8cf8892b6912e428c92c66aac37ea2d3f1a174c9a04b2b64f6"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 235965,
+      "sha256": "9aef995921e135c2efe3d09eb080a80666c21e439ac054e3e573002648246e58"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3823,
+      "sha256": "4c3d944fce045ed6b7ed419bf0242ad0723e4d7b539402886d3ef3997e374ea8"
+    }
+  ]
+}

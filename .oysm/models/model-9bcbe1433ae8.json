@@ -1,0 +1,263 @@
+{
+  "id": "桂",
+  "path": "parsed/桂",
+  "source": {
+    "path": "Unknown/桂.ysm",
+    "type": "ysm",
+    "stem": "桂"
+  },
+  "ysm": "parsed/桂/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/烛火的次元宇宙.png",
+        "comment": "还在成长的MC/YSM模型作者",
+        "contact": {
+          "Afdian": "http://afdian.com/a/zhuhuo",
+          "Bilibili": "https://space.bilibili.com/57715833?spm_id_from=333.1007.0.0"
+        },
+        "name": "烛火的次元宇宙",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/烛火的次元宇宙.png",
+        "comment": "",
+        "name": "烛火的次元宇宙",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "http://afdian.com/a/zhuhuo",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "§a桂",
+    "tips": "总是嘻嘻笑着的悠闲自在的治愈系猫。\n其实是聪明贤惠的孩子，因此是相当于小猫们母亲般的存在。（是家中排行第三的猫，仅次于大姐红豆和二姐枫）\n对工口的事情很敏感，很容易就会进入发情模式“哈哈”地喘粗气。虽然是抖M幻想家，但是自己不希望去尝试。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#配置",
+      "extra1": "打招呼",
+      "extra2": "拍手",
+      "extra3": "赞成",
+      "extra4": "反对",
+      "extra5": "庆祝",
+      "extra6": "挠头",
+      "extra7": "扭扭舞",
+      "extra8": "坐椅子",
+      "#摸摸": "摸摸合集",
+      "extra9": "滋润起来了"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "配置",
+        "name": "配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "坐姿",
+            "description": "改变玩家坐姿",
+            "value": "v.zz",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 10.0
+          },
+          {
+            "type": "range",
+            "title": "POSS",
+            "description": "改变玩家POSS",
+            "value": "v.zs",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 4.0
+          },
+          {
+            "type": "range",
+            "title": "眼睛",
+            "description": "改变玩家眼睛",
+            "value": "v.yj",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 4.0
+          },
+          {
+            "type": "range",
+            "title": "嘴巴",
+            "description": "改变玩家嘴巴",
+            "value": "v.zb",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 4.0
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏鞋子",
+            "description": "显示/隐藏鞋子",
+            "value": "v.xz"
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏丝袜",
+            "description": "显示/隐藏丝袜",
+            "value": "v.sw"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "摸摸",
+        "extra_animation": {
+          "mt1": "摸摸1",
+          "mt2": "摸摸2",
+          "mt3": "摸摸3",
+          "mt4": "摸摸4"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [
+        "controller/parallel_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 18,
+    "total_bytes": 3259099,
+    "sha256": "a8706912072824655e1ac75514378055e818cae294adb9ca45f112428aaf35c3",
+    "bones": 172,
+    "cubes": 1221,
+    "faces": 7326,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 218567,
+      "sha256": "7ded19c5182d1e9a1df4ba29d92d8e53b170a3b6547e5b3e920a42d8b04c12be"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 48569,
+      "sha256": "5c22688f29248712f736534d72a2822d059a1d03f9498ad0e411d86d3fa9fc81"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 323710,
+      "sha256": "bdc4cd82e47a90311655709231803b6ecd103144f67c52ec743447a589fd88d1"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139812,
+      "sha256": "bd584a802e4171f67c6b3e65e71fb61319c125b4619a07616a87c446b3a0fb54"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1503488,
+      "sha256": "39da23aa526039a5897a28ec77a2c6399abb4daf63f0e4c001dde35e5e41d5c7"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 34600,
+      "sha256": "11a23d5d9830f9f9c2f346c4a7a44907ee4e9ecc41289beacf1bfd55c8e116f4"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 211627,
+      "sha256": "b0fe95754aa8acf68877c146e5ce1c2aa6130ef7c58e92b54d4e487078898e46"
+    },
+    {
+      "path": "avatar/烛火的次元宇宙.png",
+      "size": 3980,
+      "sha256": "265930b3d575c5c16774cabb3fd4789a445526ce48bb450f5610c0061f404a7e"
+    },
+    {
+      "path": "controller/parallel_controllers.json",
+      "size": 6796,
+      "sha256": "f0350d0ac4144984972cf79c8a6700ac565fc9bcd2a46c393aa9d89073783b60"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 72994,
+      "sha256": "5e8f7b340d5238c2b049b16d386978353f6496829b36bec221b60c1a909bd3d6"
+    },
+    {
+      "path": "models/main.json",
+      "size": 604937,
+      "sha256": "2d15a8800cc3085121b561f1b3be22fbdc458b8085ef85259efbd66857987e7b"
+    },
+    {
+      "path": "sounds/1.ogg",
+      "size": 29319,
+      "sha256": "acbe9826e16f7e4fa4b3bba3db8261ed2b1c0e91a54131b793431164fedbca65"
+    },
+    {
+      "path": "sounds/2.ogg",
+      "size": 15057,
+      "sha256": "995de28891d8f1ce5e12b8a02651f39e7bf1b1904bfd7734cb1a53a0be45f5c0"
+    },
+    {
+      "path": "sounds/3.ogg",
+      "size": 14732,
+      "sha256": "870e85a873326c0051cf3f23fe259251f2f8e5fdffabfa91c745829c5e8285e9"
+    },
+    {
+      "path": "sounds/4.ogg",
+      "size": 14405,
+      "sha256": "05c4938857f7bf2dfd485888d9ce4f54904da3624c533474505280fbf821f472"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 11476,
+      "sha256": "c23562254dbb882e94e80fe89d94ecabb0f0bbc6c026984114e76d49663248ad"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2787,
+      "sha256": "33f9288b55206181a92c4e90231a56c481b2b15496f5fc9f9ce6335d94590c51"
+    }
+  ]
+}

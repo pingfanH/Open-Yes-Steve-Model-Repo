@@ -1,0 +1,214 @@
+{
+  "id": "宇航员酒狐（解压使用）",
+  "path": "parsed/宇航员酒狐（解压使用）",
+  "source": {
+    "path": "Unknown/宇航员酒狐（解压使用）.zip",
+    "type": "zip",
+    "stem": "宇航员酒狐（解压使用）"
+  },
+  "ysm": "parsed/宇航员酒狐（解压使用）/ysm.json",
+  "metadata": {
+    "name": "宇航员酒狐",
+    "tips": "梦想是星辰大海",
+    "license": {
+      "type": "CC BY-NC-SA 4.0",
+      "desc:": ""
+    },
+    "authors": [
+      {
+        "name": "哥斯拉",
+        "avatar": "avatar/gsl.png",
+        "role": "模型"
+      },
+      {
+        "name": "星屑海螺",
+        "avatar": "avatar/hl.png",
+        "role": "动画"
+      },
+      {
+        "name": "祸御神",
+        "avatar": "avatar/hys.png",
+        "role": "gui动画"
+      },
+      {
+        "name": "完全冻结",
+        "avatar": "avatar/af.png",
+        "role": "模型"
+      }
+    ],
+    "link": {
+      "home": "https://afdian.com/a/ysmmod",
+      "donate": "https://afdian.com/a/ysmmod"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "变身": "变身",
+      "打招呼": "打招呼",
+      "鼓掌": "鼓掌",
+      "赞同": "赞同",
+      "反对": "反对",
+      "御币摇": "御币摇",
+      "Get Down": "Get Down",
+      "乱舞": "乱舞"
+    },
+    "preview_animation": "gui",
+    "free": false,
+    "render_layers_first": false,
+    "disable_preview_rotation": true,
+    "all_cutout": false,
+    "default_texture": "skin"
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "arm": "animations/arm.animation.json"
+      },
+      "texture": [
+        {
+          "uv": "textures/skin.png"
+        }
+      ],
+      "animation_controllers": [
+        "controller/控制器.json"
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "texture": {
+        "uv": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 21,
+    "total_bytes": 2330984,
+    "sha256": "099586be84bc576fc60094bf4b7f368eea46fd438fd9a0919cca36721c771bc4",
+    "bones": 160,
+    "cubes": 572,
+    "faces": 3432,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 180876,
+      "sha256": "de30cd57d4e2761df1d84b47d34463ea89f4286178cdce3eeb5d89c431648c7d"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1122,
+      "sha256": "bc6cff221fc2c751de765c6ffdbd24115bca062b5d19fa4f8f716fdbf6c27389"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3798,
+      "sha256": "5371aee783c07a9d441d3b9a88666c349e692c2461bd07037ecf274423ca376e"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 655317,
+      "sha256": "fc802eefc664cb71e5b986bb00a2cac0e7609b060d963b3c1acfea8651f899da"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 289304,
+      "sha256": "838917cb148de91cdf3e0b29913341068c275be597a294ceff65faf3802589b9"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183653,
+      "sha256": "63ee720953376de7948caed9c303c6ca9ba2a054c6afb796e4cdce1fd4ba6859"
+    },
+    {
+      "path": "avatar/af.png",
+      "size": 31186,
+      "sha256": "0c62fa230f613f6d81c82ab82fed13e364787cdd1ffdfdeb9c233b93bda4c38d"
+    },
+    {
+      "path": "avatar/gsl.png",
+      "size": 17482,
+      "sha256": "dda4f5d1d4b94eaee263a0c0686e9a02267fec3e0de969e2b42a3678393acfd5"
+    },
+    {
+      "path": "avatar/hl.png",
+      "size": 18207,
+      "sha256": "ab407902f5040f8583a7bc7184db9a0c5979c4f3dd2eeac05b531020bde16f75"
+    },
+    {
+      "path": "avatar/hys.png",
+      "size": 22017,
+      "sha256": "420d1b556a2d3d1df9ed9432a706860d0fc74b45ee757843aa40be6bb7e45157"
+    },
+    {
+      "path": "avatar/nico.png",
+      "size": 6707,
+      "sha256": "049f39814371c3452eac2a7a66d366fa5d56104679ff82769fdec6e81c41936c"
+    },
+    {
+      "path": "controller/控制器.json",
+      "size": 6880,
+      "sha256": "502576f3552b711ae9c41f3949a8e44b792130e379cf975a1e7e0c22bd367421"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 4220,
+      "sha256": "41ff395cc04ba42017ac63566027c9f2c361b2b1fceaea96462bacfc1b8eb026"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 29883,
+      "sha256": "13fd9a38830571238aa6a45338b188d9626229dbc1a73f81aefd04af53b36d5a"
+    },
+    {
+      "path": "models/main.json",
+      "size": 101086,
+      "sha256": "bb4138db54daa6e80706c33d55729c16d83b09404a59cac9baf222f9af34e432"
+    },
+    {
+      "path": "sounds/get_down.ogg",
+      "size": 289223,
+      "sha256": "63dbf11be085953b3232710552f049df9465c1a15327cd083ecaa0f726cba86c"
+    },
+    {
+      "path": "sounds/otoko_wa_tsurai_yo.ogg",
+      "size": 298472,
+      "sha256": "53dc18199056bc254a8e664483b4adbcf3317bee5d1182435323c6cc4960b191"
+    },
+    {
+      "path": "sounds/zufolo_impazzito.ogg",
+      "size": 172286,
+      "sha256": "ee80cfe3f9ad70f2bd6b3b735d65c5c356c1119c67c8da4d812c838058ca6990"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1212,
+      "sha256": "0d4435fe0620372d92279e07af771b1e96cdd5d6c3e1628a538336195d47eaaf"
+    },
+    {
+      "path": "textures/skin.png",
+      "size": 16351,
+      "sha256": "a153e0c458f67a67eefa5878d199f3cc3d76ce4a5266ab1c6a1f6b8b37f2fea7"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1702,
+      "sha256": "5ff691bdfafd6c863ed296216369d71c856f37a81876f9bf90d40bccdd5fb5b4"
+    }
+  ]
+}

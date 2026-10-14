@@ -1,0 +1,163 @@
+{
+  "id": "_lighting",
+  "path": "parsed/_lighting",
+  "source": {
+    "path": "Uncategorized/_lighting.ysm",
+    "type": "ysm",
+    "stem": "_lighting"
+  },
+  "ysm": "parsed/_lighting/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/提可拉.png",
+        "comment": "苯狐狸",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "name": "提可拉",
+        "role": "[模型，贴图，动画]"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "ALL Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/6Canim",
+      "home": "https://space.bilibili.com/326133289?spm_id_from=333.1007.0.0"
+    },
+    "name": "闪电",
+    "tips": "少女前线闪电的二设"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "招呼",
+      "extra2": "鼓掌",
+      "extra3": "可以",
+      "extra4": "不行",
+      "extra5": "",
+      "extra6": "手摇",
+      "extra7": "",
+      "extra9": "#example_config"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "example_config",
+        "name": "动画控制",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "表情控制: ",
+            "description": "0无，1微笑，2白眼,3哭哭,4晕晕,5黑脸，6震惊，7生气",
+            "value": "variable.facial",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 7.0
+          },
+          {
+            "type": "checkbox",
+            "title": "外套: ",
+            "description": "",
+            "value": "v.roming.coat"
+          },
+          {
+            "type": "checkbox",
+            "title": "帽子: ",
+            "description": "",
+            "value": "v.roming.hat"
+          },
+          {
+            "type": "range",
+            "title": "外套控制: ",
+            "description": "0打开，1关上",
+            "value": "v.roming.coatclose",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 1.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "main",
+    "preview_animation": "idle",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 1058674,
+    "sha256": "fba58a2bbc966a42eeb9de95519992dc62f938a16c935a71ae70fb8feaeeb213",
+    "bones": 170,
+    "cubes": 606,
+    "faces": 3636,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/main.animation.json",
+      "size": 273188,
+      "sha256": "5400ab618246ec4e9509abca7810eb499abc3403303aa34a63db4d2dc6b8dd12"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182125,
+      "sha256": "e76699911c7233333795f9757641e4ca696b154bdb972058601dac1f3a4db3c5"
+    },
+    {
+      "path": "avatar/提可拉.png",
+      "size": 221559,
+      "sha256": "7551a3169d3e0a02787b9561891ee4661b55dfa6b8f8c2a1125082899d21c752"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 37340,
+      "sha256": "0a703ec06615b38e638f8b4ddf9947fa265b43f140bab7f073586550ef11a941"
+    },
+    {
+      "path": "models/main.json",
+      "size": 301867,
+      "sha256": "b236039cd6d1b326f37427bc99af4d9f52941a73352032db7fad3208aa300711"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 40912,
+      "sha256": "6e162217239406e4f8f193d437a46f9eb0cb28ffdc031c15601e255a60356dde"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1683,
+      "sha256": "3d3ac58f0f31d5b82485676aad0706c9344fb5fbdf1f3f6396fbc4267ae113a9"
+    }
+  ]
+}

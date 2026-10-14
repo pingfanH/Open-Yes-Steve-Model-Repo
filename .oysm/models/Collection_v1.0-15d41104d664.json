@@ -1,0 +1,384 @@
+{
+  "id": "舰队Collection山风v1.0",
+  "path": "parsed/舰队Collection山风v1.0",
+  "source": {
+    "path": "Unknown/舰队Collection山风v1.0.ysm",
+    "type": "ysm",
+    "stem": "舰队Collection山风v1.0"
+  },
+  "ysm": "parsed/舰队Collection山风v1.0/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/哈雷汰多.png",
+        "comment": "",
+        "name": "哈雷汰多",
+        "role": "作者"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "山风",
+    "tips": "我是，白露型驱逐舰，8号舰，山风。不用……在意我。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra1": "#extra_config",
+      "#extra1": "默认动作",
+      "extra8": "鸭子坐",
+      "extra9": "立绘动作1",
+      "extra10": "立绘动作2",
+      "extra12": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "表情",
+            "description": "切换表情",
+            "value": "v.emoji",
+            "labels": {
+              "默认": "v.emoji=0",
+              "开心": "v.emoji=1",
+              "QAQ": "v.emoji=2",
+              "･ω･": "v.emoji=3",
+              "开心2": "v.emoji=4"
+            }
+          },
+          {
+            "type": "checkbox",
+            "title": "开关舰装",
+            "description": "开关外观显示",
+            "value": "v.jianzhuang"
+          },
+          {
+            "type": "checkbox",
+            "title": "开关鞋子",
+            "description": "开关外观显示",
+            "value": "v.shoes"
+          },
+          {
+            "type": "checkbox",
+            "title": "开关下衣",
+            "description": "开关外观显示",
+            "value": "v.xiayi"
+          },
+          {
+            "type": "checkbox",
+            "title": "关闭自动切换表情",
+            "description": "若启用则不会自动变表情",
+            "value": "v.emojichange2"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra1",
+        "extra_animation": {
+          "extra1": "",
+          "extra2": "",
+          "extra3": "",
+          "extra4": "",
+          "extra5": "",
+          "extra6": "",
+          "extra7": ""
+        }
+      }
+    ],
+    "default_texture": "texture",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [
+        "controller/parallel_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "boat": {
+        "model": "models/boat.json",
+        "animation": "animations/projectiles/boat.animation.json",
+        "texture": "textures/boat.png"
+      }
+    },
+    "vehicles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/vehicle/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 44,
+    "total_bytes": 9115763,
+    "sha256": "3f30506b0e3d1f21ba498d0f800415d29c72591ea5860ef074da0bef3823a4af",
+    "bones": 192,
+    "cubes": 1512,
+    "faces": 8034,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 150786,
+      "sha256": "884d7f42d7d750c4fbc6e718bd371180ea7e8d9e589d6ab511bb20c5802c94b6"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 112276,
+      "sha256": "5e1cdd1ac2c40dbc3f2f98b92b7e79d0b225b3e18bfedc046f9d27b7a59eb4f2"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 345933,
+      "sha256": "f4121b6a7f3d0016375ac5e085fb9ed810a083ffe2ab36ffa8b0e9d9a1ef0dcc"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 158825,
+      "sha256": "22159e40d543ec96e723bb50e2149e2e4b15f50f86c8c49c7a5f8e694b4a0040"
+    },
+    {
+      "path": "animations/projectiles/boat.animation.json",
+      "size": 678,
+      "sha256": "83153866c936ed35eb983931cb2052e317201e1047235bf79c69f68f09ed50a3"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 262768,
+      "sha256": "3ee5fb54c50ad26a8e110fffbb2f166300f19ee9c315faaf5f5059cf3ade170d"
+    },
+    {
+      "path": "animations/vehicle/arrow.animation.json",
+      "size": 543,
+      "sha256": "87fbc28ff29339acd989ef9ace85fc5efe1262167cd9c02983c2cf1a4f0bb5ca"
+    },
+    {
+      "path": "avatar/哈雷汰多.png",
+      "size": 3134,
+      "sha256": "18f541480f5810662c6c7057f97057edab8c8adaff3df2d3017b3fb9936c4419"
+    },
+    {
+      "path": "controller/parallel_controllers.json",
+      "size": 4987,
+      "sha256": "fe412ad94dfeec36dcc8b0e63b59ba1993ca535aa325bdd5ebbed36c84033563"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 22302,
+      "sha256": "7eab10b93b5df6a2187caf1317b53c6288042eb9d291b5d6f66c35a363eefbcf"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13752,
+      "sha256": "3afa51fa99152b689875ef25ca5853f92d4ccd0e44caf11d5ef58aa5413ccfbe"
+    },
+    {
+      "path": "models/boat.json",
+      "size": 1148,
+      "sha256": "c29d700d438380439f09fcc186c068737888376002eb9604ccc49b907d4e2d2d"
+    },
+    {
+      "path": "models/main.json",
+      "size": 756605,
+      "sha256": "c18ef8b622f70b5bbe2458848c7dd91bc5a1154a5b24d691d34bde544a5508fe"
+    },
+    {
+      "path": "sounds/yamakazekai30.ogg",
+      "size": 236075,
+      "sha256": "0a106f3c028e1d7607b60915d4637252e9fe361d6fd18846ff210b956d7e0620"
+    },
+    {
+      "path": "sounds/yamakazekai31.ogg",
+      "size": 58061,
+      "sha256": "01ae9a99e6a7f7f2617c59faaa7fd8a75c5370b1fa2a01e8513b83edf4bc37ad"
+    },
+    {
+      "path": "sounds/yamakazekai32.ogg",
+      "size": 60280,
+      "sha256": "740ffe6e04937e05d9c3689122281608e5f87420ad6307e1c9b1849fd1a0798d"
+    },
+    {
+      "path": "sounds/yamakazekai33.ogg",
+      "size": 107698,
+      "sha256": "b14c0d025f883ec4951db6f32566c6092f47332b089ff58b2be914d5d87c387b"
+    },
+    {
+      "path": "sounds/yamakazekai34.ogg",
+      "size": 103158,
+      "sha256": "52bc26a5a46cadbb39bfa3ca0adf45216293256f18073480f4ce69f2edd30c00"
+    },
+    {
+      "path": "sounds/yamakazekai35.ogg",
+      "size": 111565,
+      "sha256": "113786a9916052435e799180ad7a2cb614fc119ca7baca21919daae11bdf52ba"
+    },
+    {
+      "path": "sounds/yamakazekai36.ogg",
+      "size": 246916,
+      "sha256": "9f8784251e364d09eb695feb4a09e80a0506178c2ced0dea728ff9cc0e7a4e1c"
+    },
+    {
+      "path": "sounds/yamakazekai37.ogg",
+      "size": 295706,
+      "sha256": "99ef51830b426cb74fae1716e6545c23230a5c05a71d1cbca8ad4148414d9612"
+    },
+    {
+      "path": "sounds/yamakazekai38.ogg",
+      "size": 125867,
+      "sha256": "33da514f6414e50719eab810cb3a8ee1c486df405b2b0f7b886b170c6291c51e"
+    },
+    {
+      "path": "sounds/yamakazekai39.ogg",
+      "size": 137924,
+      "sha256": "e36ab9cee9c8f32775dacfb92b48c4828e4451a904abeb16906bdee7a3afe041"
+    },
+    {
+      "path": "sounds/yamakazekai40.ogg",
+      "size": 248595,
+      "sha256": "d78b68c4e24716e886ef8d9cd4ff1e5ddb894c48dcfa2d07aaab88cddd01eb71"
+    },
+    {
+      "path": "sounds/yamakazekai41.ogg",
+      "size": 241076,
+      "sha256": "a882616b34d6a00da350e0f4ef17bac10c19d2ac942142970d25fae040c024e8"
+    },
+    {
+      "path": "sounds/yamakazekai42.ogg",
+      "size": 265947,
+      "sha256": "a0a90e0ca57f6267f48126035f925d51583c13184e6c622ac7da0bf40dc296e0"
+    },
+    {
+      "path": "sounds/yamakazekai43.ogg",
+      "size": 216662,
+      "sha256": "11ea0b56a8397d67fcdbb2c71a6858b74dbb4d99628a0149897f523f40b3f564"
+    },
+    {
+      "path": "sounds/yamakazekai44.ogg",
+      "size": 284785,
+      "sha256": "ceb8e13159b4867f961d54b9e71c75129cf56a7c60c1ccbac24957d13914ebd6"
+    },
+    {
+      "path": "sounds/yamakazekai45.ogg",
+      "size": 340448,
+      "sha256": "e8f8f37af2d9eacee1df7452beee3f4dbef5c5d54642e01341edfa28b036e089"
+    },
+    {
+      "path": "sounds/yamakazekai46.ogg",
+      "size": 348214,
+      "sha256": "777b983a323e0ec683085a1e533e689768c0aa23cdac9e2ef1f38c71d189d33a"
+    },
+    {
+      "path": "sounds/yamakazekai47.ogg",
+      "size": 162379,
+      "sha256": "e483e4001bb98892fbe70159b20bd4ce64d594ece3332abf52809ca127f38ad2"
+    },
+    {
+      "path": "sounds/yamakazekai48.ogg",
+      "size": 255516,
+      "sha256": "7266ca56305c5fa8c8c6230f5d3ff28633e38a2e4dd30d186f44d3ccba3a4a50"
+    },
+    {
+      "path": "sounds/yamakazekai49.ogg",
+      "size": 327486,
+      "sha256": "bc570e8a4fc9d3a9db2981397498a22d55f79d157cecbe6c5e2bae763f0e1244"
+    },
+    {
+      "path": "sounds/yamakazekai50.ogg",
+      "size": 254308,
+      "sha256": "2e1d92c21f1fedd2b47166244178a9cee2defb5c47e716f71e6a5621bc838ccf"
+    },
+    {
+      "path": "sounds/yamakazekai51.ogg",
+      "size": 165689,
+      "sha256": "1becdf4e6a610870d609e97432fe15b5f90a65355c5c9b1090a6c267741d4898"
+    },
+    {
+      "path": "sounds/yamakazekai52.ogg",
+      "size": 351152,
+      "sha256": "21cf0f5e3ae487884ba21cc0a12543f2e983ccb49c8340c157425334d9139ed0"
+    },
+    {
+      "path": "sounds/yamakazekai53.ogg",
+      "size": 258195,
+      "sha256": "4455250a5a1169b0197c05165ca938023df2b3a4c7c66506e06f2bbb3ae8830e"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 854,
+      "sha256": "205e4da892496567b38d2d5fa9efa703c22e1c8e9ef2b0d7ecd32c5b0682fa3a"
+    },
+    {
+      "path": "textures/boat.png",
+      "size": 256,
+      "sha256": "d3a943490a895371fb979825bdfb80d292e24ba2b6bfa3629f299a45fbe574d8"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 9130,
+      "sha256": "855dcdeccc351e26e7927a65184a5e435724ef2e2bbfffe6b46dd521369ad580"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2398,
+      "sha256": "7534b730af805d79e9b9fea4cf22d9a7e893bfd39b240948e84472dd04a26b17"
+    }
+  ]
+}

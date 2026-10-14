@@ -1,0 +1,235 @@
+{
+  "id": "水无月时雨",
+  "path": "parsed/水无月时雨",
+  "source": {
+    "path": "Unknown/水无月时雨.ysm",
+    "type": "ysm",
+    "stem": "水无月时雨"
+  },
+  "ysm": "parsed/水无月时雨/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/烛火的次元宇宙.png",
+        "comment": "还在成长的MC/YSM模型作者",
+        "contact": {
+          "Afdian": "http://afdian.com/a/zhuhuo",
+          "Bilibili": "https://space.bilibili.com/57715833?spm_id_from=333.1007.0.0"
+        },
+        "name": "烛火的次元宇宙",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/烛火的次元宇宙.png",
+        "comment": "",
+        "name": "烛火的次元宇宙",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "http://afdian.com/a/zhuhuo",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "§5水无月时雨",
+    "tips": "嘉祥的实妹，猫娘们的饲主\n年龄相差甚远的妹妹，且强烈的兄控。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#配置",
+      "extra1": "打招呼",
+      "extra2": "拍手",
+      "extra3": "赞成",
+      "extra4": "反对",
+      "extra5": "庆祝",
+      "extra6": "挠头",
+      "extra7": "扭扭舞"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "配置",
+        "name": "配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "坐姿",
+            "description": "改变玩家坐姿",
+            "value": "v.zz",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 7.0
+          },
+          {
+            "type": "range",
+            "title": "POSS",
+            "description": "改变玩家POSS",
+            "value": "v.zs",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 4.0
+          },
+          {
+            "type": "range",
+            "title": "眼睛",
+            "description": "改变玩家眼睛",
+            "value": "v.yj",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 5.0
+          },
+          {
+            "type": "range",
+            "title": "嘴巴",
+            "description": "改变玩家嘴巴",
+            "value": "v.zb",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 6.0
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏鞋子",
+            "description": "显示/隐藏鞋子",
+            "value": "v.xz"
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏丝袜",
+            "description": "显示/隐藏丝袜",
+            "value": "v.sw"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 3191156,
+    "sha256": "5f11efd0a3fb308c93dee2cb9e4aa7e5195f06bc6d7b249d902b7e9d9cb32dc7",
+    "bones": 162,
+    "cubes": 1081,
+    "faces": 6486,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 218567,
+      "sha256": "7ded19c5182d1e9a1df4ba29d92d8e53b170a3b6547e5b3e920a42d8b04c12be"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 35644,
+      "sha256": "c79deab201b5226ab29f21c2e3e12feb891e594a1739b91cc0328f4190ccdf3d"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 310623,
+      "sha256": "16bc684a240e432a94972ed5ade710b6795b66205ddd8d8afe25897f69c24923"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139812,
+      "sha256": "bd584a802e4171f67c6b3e65e71fb61319c125b4619a07616a87c446b3a0fb54"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1503488,
+      "sha256": "39da23aa526039a5897a28ec77a2c6399abb4daf63f0e4c001dde35e5e41d5c7"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 34600,
+      "sha256": "11a23d5d9830f9f9c2f346c4a7a44907ee4e9ecc41289beacf1bfd55c8e116f4"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 211823,
+      "sha256": "8c818f557bd060488ce4564f974581a69ffe37daf0086a1c7d48ab2b45dbf41f"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50243,
+      "sha256": "4ef24aca131dfad796a641233fe7c4c10110d7e5a0b50208d8ad299969aad166"
+    },
+    {
+      "path": "avatar/烛火的次元宇宙.png",
+      "size": 31433,
+      "sha256": "21d22a5c083f80f450f8a2ae358db5e67d69613169b754346496a7209a1e3ae3"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 5827,
+      "sha256": "a75e37a28e529d21f03df8aed7ae3352190417d6ed7a7bf449510ec14e5f2be9"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 72440,
+      "sha256": "651b6c082bbfefb2975b7e44eaa617e11d2ff152410d8828b10cf086aac66e3d"
+    },
+    {
+      "path": "models/main.json",
+      "size": 527754,
+      "sha256": "fd6b6212138a6bc143b3e89eaedce3688abdb13b980946ee5d7f03a2481422fe"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 44293,
+      "sha256": "6df00f7480b529965a57abf209be52ce897e506dd171baa703e5379cf045a055"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2366,
+      "sha256": "3a57e5c8772262a323da27fff3a675e5cb2deb06703b5b6e9c27e94fa7eb8c37"
+    }
+  ]
+}

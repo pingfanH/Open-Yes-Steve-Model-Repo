@@ -1,0 +1,250 @@
+{
+  "id": "格琳娜",
+  "path": "parsed/格琳娜",
+  "source": {
+    "path": "Unknown/格琳娜.zip",
+    "type": "zip",
+    "stem": "格琳娜"
+  },
+  "ysm": "parsed/格琳娜/ysm.json",
+  "metadata": {
+    "name": "格琳娜",
+    "tips": "辛苦您了，指挥官",
+    "license": {
+      "type": "CC 0"
+    },
+    "authors": [
+      {
+        "name": "XG残党",
+        "role": "模型",
+        "avatar": "avatar/1721656327_385063_CBeF.png",
+        "comment": "先让我寻思一下"
+      }
+    ],
+    "link": {
+      "home": "https://afdian.com/a/x416g",
+      "donate": "https://afdian.com/a/x416g"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "",
+      "de": "#换衣"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.1,
+            "max": 6
+          }
+        ]
+      },
+      {
+        "id": "换衣",
+        "name": "换衣",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "表情",
+            "description": "表情",
+            "value": "v.roaming.de",
+            "labels": {
+              "默认": "v.roaming.de=0;v.roaming.gk=0;v.roaming.np=0",
+              "提裙候命": "v.roaming.de=1;v.roaming.gk=0;v.roaming.np=1",
+              "格里芬制服": "v.roaming.de=1;v.roaming.gk=1;v.roaming.np=0"
+            }
+          },
+          {
+            "type": "range",
+            "title": "大小",
+            "description": "大小",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.1,
+            "max": 6
+          }
+        ]
+      }
+    ],
+    "preview_animation": "extra8",
+    "disable_preview_rotation": true,
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": false,
+    "all_cutout": false,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "slashblade": "animations/slashblade.animation.json"
+      },
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": [
+      {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": {
+          "uv": "textures/arrow.png"
+        },
+        "match": [
+          "minecraft:arrow"
+        ]
+      }
+    ]
+  },
+  "languages": {
+    "en_us": {
+      "metadata.name": "KALINA",
+      "metadata.authors.0.comment": "先让我寻思一下"
+    }
+  },
+  "preview": {},
+  "stats": {
+    "file_count": 20,
+    "total_bytes": 5609045,
+    "sha256": "74ffc81fb822bea18b9bd465ad49caab17f70146a0bed959df30d8006655bc29",
+    "bones": 301,
+    "cubes": 1613,
+    "faces": 9678,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 434998,
+      "sha256": "bf58fbb912530425079ff2172fcf8085f94dab20fd5e82ba7b4fb89cde1bc100"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 726,
+      "sha256": "1adcba945eaf9fbe605a03fc6173031fb13e31207e6ddfa136c543b0908318d6"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 7309,
+      "sha256": "be5cecd2f03fd40e8cda5da6569735c0288351e5c025c905b267a0a017ddd4cd"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 328620,
+      "sha256": "0e02d2c3f1b6d215a28dcd6683ceff44265d7a4611764d625d23e184a33986e2"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 526088,
+      "sha256": "4199b6b2fb4ed66fea0004beb56197c6bdb2a4c43b025efd4fa39f198c959703"
+    },
+    {
+      "path": "animations/main.animation_controllers.json",
+      "size": 61,
+      "sha256": "08264c5357df42168e133eaa4eaa4a6e4e2ddd5637ad1404da8f3f9e36751207"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 415825,
+      "sha256": "58829428bfa50b7e3931fd9ad78f7d554fca268672852dee178e4fc0921b027f"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2908706,
+      "sha256": "56d1b7d6aa40dbfbbbde0086121bce9e165897fba1d6079533e6beb1e7a36cf7"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 74541,
+      "sha256": "cc1c641dd995041ce314877d31207fee38e6af2611a045943c25a318bd751882"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 540444,
+      "sha256": "b387507db6601229426c2340d195529556fb15e2fef4331b4227cc2f5462d03b"
+    },
+    {
+      "path": "animations/unknown.animation.json",
+      "size": 540,
+      "sha256": "ebfbd9b7b82b4e6959c8e9ac267a5879e724f3f57879f1e77a8e0b5f112cb0e3"
+    },
+    {
+      "path": "avatar/1721656327_385063_CBeF.png",
+      "size": 33093,
+      "sha256": "32ae812fdff67547f1fe362828716434a6331d7b92d0945404d44873551e178f"
+    },
+    {
+      "path": "avatar/DM8]LH_5N4I}EJ2[I7ZETYN.png",
+      "size": 35011,
+      "sha256": "e58a932dfd4822416cf709132bbcc21a0d656dd49175eeca5e069799727a03b6"
+    },
+    {
+      "path": "lang/en_us.json",
+      "size": 86,
+      "sha256": "698ac3ca98ad893aa252f6785e4ba18c1815ef126f1e9126702d3deb26e4525a"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 8118,
+      "sha256": "e357bce08718aab7bbf7d11a020674ffe26eabc490eead3b2f4027d62b0ee55a"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 5856,
+      "sha256": "42b706818796f7f058d19c07ca4b89f05da2b4cf0627845828e40a0ff08f6891"
+    },
+    {
+      "path": "models/main.json",
+      "size": 253564,
+      "sha256": "f4b341cd70d0d411cdafcb5ee35077d697f0cb835ff098966c03e1af0e489acb"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 706,
+      "sha256": "7e060893a7aa96f52fc37360dcb698bf1575cbc8ed51ee7d729fe17e9940ef1d"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 32145,
+      "sha256": "dc917410b77dff4fe0de6a78ff8c120f1afcea1cf54cf5358303bce9a14c6428"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2608,
+      "sha256": "c2e21c342e959800348008d936d38bd2a08ac577d57595744f81f25e9cdbddd1"
+    }
+  ]
+}

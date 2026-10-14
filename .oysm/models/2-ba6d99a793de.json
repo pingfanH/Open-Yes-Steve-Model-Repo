@@ -1,0 +1,139 @@
+{
+  "id": "园丁原皮2",
+  "path": "parsed/园丁原皮2",
+  "source": {
+    "path": "Unknown/园丁原皮2.ysm",
+    "type": "ysm",
+    "stem": "园丁原皮2"
+  },
+  "ysm": "parsed/园丁原皮2/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/guzuper.png",
+        "comment": "konoDIO哒！",
+        "name": "guzuper",
+        "role": "模型、动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/guzuper",
+      "home": "https://space.bilibili.com/87339407"
+    },
+    "name": "园丁",
+    "tips": "<Unknown>"
+  },
+  "properties": {
+    "width_scale": 0.9,
+    "height_scale": 0.9,
+    "extra_animation": {
+      "extra2": "#按钮1",
+      "extra3": "包包显示"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "按钮1",
+        "name": "头部大小",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "大小",
+            "description": "用来切换玩家头部大小",
+            "value": "v.player_size",
+            "step": 0.1,
+            "min": -0.5,
+            "max": 1.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "preview_animation": "idle",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        },
+        {
+          "uv": "textures/color.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 513422,
+    "sha256": "ee0ba7ea5f8b50f5a6b24902e0f35781b625a855fb1f44447f44daafd1ac58aa",
+    "bones": 50,
+    "cubes": 175,
+    "faces": 847,
+    "textures": 2,
+    "materials": 2,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/main.animation.json",
+      "size": 284425,
+      "sha256": "12e83443eb20b079f64149d6894539dbd4e5e32a2789c09e29d62f3ac2044fe5"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 133335,
+      "sha256": "b318da666055faa5af34d21b6391609957c4503904cbf93913d97a73c233bee7"
+    },
+    {
+      "path": "avatar/guzuper.png",
+      "size": 7650,
+      "sha256": "a192e4087d52e73984c47d78cbb81097c71e8f79f0f46ec165ccc780996b2803"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 11094,
+      "sha256": "21ccf3bce116ce93d44249877ca61ef01e4b2526b375a76b51140f9fbe46d673"
+    },
+    {
+      "path": "models/main.json",
+      "size": 66664,
+      "sha256": "0d2f56d7b3d53a2e28009f3c12b6cf707a298fe43d046e44be1b3cf79091e125"
+    },
+    {
+      "path": "textures/color.png",
+      "size": 4576,
+      "sha256": "448244fd24d43e4036cac5de2f7a8554f5ee88b3b40c69583dd824067f3c8aea"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 4582,
+      "sha256": "bd3e412f653cbbb20755f169495fafeef6c9d68d49d90ef79d578932ee7530fc"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1096,
+      "sha256": "b1c59611d08dc8e844c03cdd8f79a510fd28622e06d2aa80ebc2b9c89b4c5da8"
+    }
+  ]
+}

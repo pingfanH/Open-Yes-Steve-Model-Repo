@@ -1,0 +1,203 @@
+{
+  "id": "亚托莉",
+  "path": "parsed/亚托莉",
+  "source": {
+    "path": "Unknown/亚托莉.ysm",
+    "type": "ysm",
+    "stem": "亚托莉"
+  },
+  "ysm": "parsed/亚托莉/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/Almeta_owx.png",
+        "comment": "and the universe said I love you",
+        "contact": {
+          "Afdian": "https://afdian.com/a/Almeta",
+          "Bilibili": " https://space.bilibili.com/4328692"
+        },
+        "name": "Almeta_owx",
+        "role": "模型/动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "home": "https://afdian.com/a/Almeta",
+      "update": "https://space.bilibili.com/4328692"
+    },
+    "name": "亚托莉（アトリ）",
+    "tips": "「我是高性能的嘛！」"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "星辉闪耀",
+      "extra1": "打招呼",
+      "extra2": "拍手",
+      "extra3": "同意",
+      "extra4": "不行",
+      "extra5": "立绘姿势",
+      "extra6": "互联网过度依存",
+      "extra7": "可爱摇",
+      "extra8": "嘟里嘟里邦邦",
+      "extra9": "靠墙站",
+      "extra10": "坐姿1",
+      "extra11": "趴地上",
+      "extra12": "坐姿2",
+      "extra13": "挂机",
+      "extra14": "坐半砖上",
+      "extra15": "做方块上"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/ATRI.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 18,
+    "total_bytes": 4386179,
+    "sha256": "42cc9e9dadb54fe9593f59ab02012de91800d9ae12f3f7254861e614cbfffec4",
+    "bones": 349,
+    "cubes": 560,
+    "faces": 3360,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 159915,
+      "sha256": "631b1dccb2fc2de65f4e251cd91007c748f92fd4e2c447904d15e8b70ae5e4f8"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3925,
+      "sha256": "f6ec360624ce49c0041b51fe817acd7b2c3741492a8afd66ad64a639c229ab93"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 666473,
+      "sha256": "4561447d0a70abc67f23e16b793c282bd57c91e2ff5ca0d250942e02c011b51c"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 1226314,
+      "sha256": "95b05263cdc9a43382abce0c5b39f84ab08d70a050353967d1b782a69aae5c26"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1511376,
+      "sha256": "b7d6f6c44953717f900d7e320879d82cd55ee7642a42d22f89b6bb33f7d378d7"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 154923,
+      "sha256": "5db0d6079caf0ae29aad391209de3c7b651adfdfec893dcea6f6b98b5d3443b0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 52928,
+      "sha256": "c3796462433ea94c69ae7cb8d1046a46d4bcbe5c2333ae023a591d182e6c105e"
+    },
+    {
+      "path": "avatar/Almeta_owx.png",
+      "size": 45632,
+      "sha256": "b53f7e87d557bed5b1e34059f3be70e1a182253102f00551f78ccdb44937ee40"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 1645,
+      "sha256": "18438bcb092bc93218afdbc1e48f7ab7487d3c019b12d6816bc8b4fbe919cc8a"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 13343,
+      "sha256": "fe51a3223b40f8f966e9b8eaaf676449bf9bf9e37afe80bef386b537fe8aaf3d"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 314882,
+      "sha256": "b71699f75b6aa301334b86a22a2e37780f7437cce971325faf9ea6ed4e38f864"
+    },
+    {
+      "path": "textures/ATRI.png",
+      "size": 45171,
+      "sha256": "345816656865e647880b663d84edc721aabf38541466192859362a1f0600e46b"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1781,
+      "sha256": "2b4a09eb408546a9187cf9464210cbae9c5cc5380d00dbf83e7197843bb49c75"
+    }
+  ]
+}

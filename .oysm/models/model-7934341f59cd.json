@@ -1,0 +1,82 @@
+{
+  "id": "_地狱猎犬_",
+  "path": "parsed/_地狱猎犬_",
+  "source": {
+    "path": "Uncategorized/_地狱猎犬_.ysm",
+    "type": "ysm",
+    "stem": "_地狱猎犬_"
+  },
+  "ysm": null,
+  "metadata": {
+    "name": "_地狱猎犬_"
+  },
+  "properties": {},
+  "files": {
+    "player": {
+      "model": {
+        "main": "main.json",
+        "arm": "arm.json"
+      },
+      "texture": [
+        "KC.png"
+      ],
+      "animation": {
+        "arm": "arm.animation.json",
+        "extra": "extra.animation.json",
+        "main": "main.animation.json",
+        "tac": "tac.animation.json"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 7,
+    "total_bytes": 683298,
+    "sha256": "dcdc86453ff86ba58f1c7313dbfd5f74c8fe07240067cb1a3183786262ad9ba0",
+    "bones": 57,
+    "cubes": 333,
+    "faces": 1998,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "KC.png",
+      "size": 22681,
+      "sha256": "afd2865b4e1ee34de83e6b6524b45775f2aa98c0e5ea2aff4bf1a826ed42d07a"
+    },
+    {
+      "path": "arm.animation.json",
+      "size": 32456,
+      "sha256": "74150c917b484f1cfd8cc2f2fb1ea5d982cddfb47a4e5ee57973b3a7d7fe066d"
+    },
+    {
+      "path": "arm.json",
+      "size": 13025,
+      "sha256": "494b6d1ed127377245c4ebc2aee4f55dc0758f15cd71a5913c3812df5529f672"
+    },
+    {
+      "path": "extra.animation.json",
+      "size": 123164,
+      "sha256": "8ce542ec76c6e6450e93de8a3592491acec1c0edff75d46c7181b173c2878ad7"
+    },
+    {
+      "path": "main.animation.json",
+      "size": 192469,
+      "sha256": "20a0b3039f169d989bbd6435e28b24239bd947c81e518832b56393bbefba1008"
+    },
+    {
+      "path": "main.json",
+      "size": 167028,
+      "sha256": "108d51455f570b0e842df2fe71eb1178d411cc1c837a9338e6e27767f50a3a46"
+    },
+    {
+      "path": "tac.animation.json",
+      "size": 132475,
+      "sha256": "40a4bac9ee7245e6f8aa5c513c7d2f40da42bed522f6ab2aca8a9d8205b7bbb6"
+    }
+  ]
+}

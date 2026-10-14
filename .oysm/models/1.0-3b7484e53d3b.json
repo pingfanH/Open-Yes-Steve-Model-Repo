@@ -1,0 +1,161 @@
+{
+  "id": "波斯特·猫神1.0",
+  "path": "parsed/波斯特·猫神1.0",
+  "source": {
+    "path": "Unknown/波斯特·猫神1.0.ysm",
+    "type": "ysm",
+    "stem": "波斯特·猫神1.0"
+  },
+  "ysm": "parsed/波斯特·猫神1.0/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§b瀛猫.png",
+        "comment": "一个透明人",
+        "contact": {
+          "Afdian": "https://afdian.com/a/wincatpro",
+          "Bilibili": "https://space.bilibili.com/647224460"
+        },
+        "name": "§b瀛猫",
+        "role": "§6模型/动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "§cCC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.net/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "§d☆CatGod☆§e[波斯特·猫神]",
+    "tips": "波斯特·猫神\r\n§c角色：波斯特·猫神\r\n§d《萃星物语》\r\n§4【未经允许禁止商用】\r\n"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "default_texture": "catgod",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/catgod.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 2341164,
+    "sha256": "faa2fa369937a00c0cf81415b1fe62cf3d6001a9b1facee6ce9cbdccdf4d6a7e",
+    "bones": 227,
+    "cubes": 1586,
+    "faces": 9513,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 140809,
+      "sha256": "de3f0a938ee5f8bdaf45533c359cb13944b3dc4eecc6bb998c9c0c99c096f047"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2712,
+      "sha256": "4f5e7ed844d6d85a5a0a97bb7a3bcce92307a1ead674f00bca412ec3425c6e4e"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 675762,
+      "sha256": "bb36352eb5d2978bb8686d88d5e0167642135292bfc088404cdb3c2bde0fc256"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 215343,
+      "sha256": "36a6ac3bf0aaa57578fd405e0c838ca5564b7febfdc93fe1bf44129f5370006e"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 136194,
+      "sha256": "732710c5c723827ae1f9a8c1524ad6fb47c5eec35661a765d90c4065296e9837"
+    },
+    {
+      "path": "avatar/§b瀛猫.png",
+      "size": 177987,
+      "sha256": "58b0c3d0e642622bb904ae34ffaa4bd11526280e80d5d5f92323612f54f796d9"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 115195,
+      "sha256": "79150395abd150796a2e4e1eb14d68e3873d443a3990bb9c4c9950cb01698725"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 795320,
+      "sha256": "7a3a6f5893e0fe9a89fc3adbbaa0803b43d43c38475b0a82b404fab244c7ab97"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/catgod.png",
+      "size": 72366,
+      "sha256": "c9a968c1f2e7300b80839427f96ce5b7262100ecede4653f278d25ede6f102ac"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1327,
+      "sha256": "06d390fa347eda78915248e88c569289c67760ac15b39f75df818c6f22c6afe7"
+    }
+  ]
+}

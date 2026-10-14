@@ -1,0 +1,260 @@
+{
+  "id": "千姬-常服",
+  "path": "parsed/千姬-常服",
+  "source": {
+    "path": "Unknown/千姬-常服.zip",
+    "type": "zip",
+    "stem": "千姬-常服"
+  },
+  "ysm": "parsed/千姬-常服/ysm.json",
+  "metadata": {
+    "name": "千姬",
+    "tips": "辉夜姬计划4号备份体，人形兵器，不吃香菜",
+    "license": {
+      "type": "CC BY NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "一般通过神必人",
+        "role": "模型",
+        "avatar": "avatar/德哈卡 拷贝.png",
+        "comment": "行动是唯一的道路"
+      }
+    ],
+    "link": {
+      "home": "https://space.bilibili.com/277486957",
+      "donate": "QQ群1057624202"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "你好",
+      "extra2": "鼓掌",
+      "extra3": "对的",
+      "extra4": "不对",
+      "#extra_classify": "各种Pose"
+    },
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra7": "Extra In Classify 2"
+        }
+      }
+    ],
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "模型设置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3
+          },
+          {
+            "type": "checkbox",
+            "title": "式神",
+            "description": "开启/关闭漂浮式神",
+            "value": "v.ss"
+          },
+          {
+            "type": "radio",
+            "title": "眼型",
+            "description": "眼部设置",
+            "value": "v.roaming.eyes",
+            "labels": {
+              "默认": "v.roaming.eyes=0",
+              "简化": "v.roaming.eyes=1"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "嘴型",
+            "description": "嘴部设置",
+            "value": "v.roaming.mouth",
+            "labels": {
+              "默认": "v.roaming.mouth=0",
+              "不开心": "v.roaming.mouth=1",
+              "张嘴": "v.roaming.mouth=2",
+              "笑": "v.roaming.mouth=3",
+              "平静": "v.roaming.mouth=4",
+              "惊讶": "v.roaming.mouth=5"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "脸",
+            "description": "脸部设置",
+            "value": "v.roaming.face",
+            "labels": {
+              "无": "v.roaming.face=0",
+              "阴暗": "v.roaming.face=1",
+              "黑脸": "v.roaming.face=2",
+              "脸红": "v.roaming.face=3"
+            }
+          }
+        ]
+      }
+    ],
+    "preview_animation": "zhanshi",
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true,
+    "disable_preview_rotation": true,
+    "all_cutout": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/main.animation_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": {
+        "uv": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 3319054,
+    "sha256": "67125d2dd2069a5be4da9b4ae3f7229521620e1254d41558443d7a8ff399db87",
+    "bones": 238,
+    "cubes": 1256,
+    "faces": 7536,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 182825,
+      "sha256": "3328a27e194702affc362be09988603ee40c616a99cd016be419e8b227b4c793"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 695,
+      "sha256": "cd2be5d42efea2613f8fbe541e3c8600c0d1edb11051924675bdc2f7955d24d5"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2917,
+      "sha256": "f1b559bb714f40be566b02e1b8dd44c2cc380783e0e8a480c89a8378caa05b96"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 40238,
+      "sha256": "4fb440d8dd43bdfb3da52f6bf1cdf60ec955195f684c40927a61bcdb9dca657b"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 182170,
+      "sha256": "775f356eaf55d53c82e313756f06aafc30e36971926aaffa693df551b2512e74"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 176050,
+      "sha256": "9ecf075152538c1a7ac0bcd61f40bbd607a523c184a009c37cd37e23611b2913"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1598799,
+      "sha256": "d50e8b37390c62f09b1a9af1ef4c4d95fcf0063050f7b1fd5cacc3ff682b5604"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 212304,
+      "sha256": "002ae25fb2d72e0ed6a0749e0c0a58776fe3e403c7f2b00ea0e6c64c4187184c"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 73140,
+      "sha256": "8dccb1019629d10b80dd1823456682743200217d7dad218a9b1cff0471322fca"
+    },
+    {
+      "path": "avatar/gsl.png",
+      "size": 4738,
+      "sha256": "0bf76a1ba896f709839f9c35bb62852350b4b0f110bc9a1c4c4c5acc99f25188"
+    },
+    {
+      "path": "avatar/德哈卡 拷贝.png",
+      "size": 19006,
+      "sha256": "ad40c4b6e1abd505cb5b7fc84ede2bf0cb77755b86ed00ae6a05fcb1e1568445"
+    },
+    {
+      "path": "controller/main.animation_controllers.json",
+      "size": 810,
+      "sha256": "ff546eb7847ecbb59ce3f43189c005e61db5ccf749dfc4f11b5d978f82b4d106"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 58368,
+      "sha256": "b85a0966d9e8175a6b7afad29b97801d5447c90684d814efbff74f19989d1d05"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 18733,
+      "sha256": "1070aa5589ae3df1c5abf95a40f9de47ce2ca1df6b234ddbea96f568d1829c7a"
+    },
+    {
+      "path": "models/main.json",
+      "size": 652836,
+      "sha256": "eb20139bc9f17d601b67a7e3e611386c0c046cf44d28207554bfbbe76da64912"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1213,
+      "sha256": "0ecda6c1557cf3571289a3212c93e125d8b075cc37ac62f14dad852d83a576ec"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 49854,
+      "sha256": "0a9cf643915ede49b3ec1da1b5ce85e6e8bf093e51159cbfea3faef222404177"
+    },
+    {
+      "path": "ysm.json",
+      "size": 3328,
+      "sha256": "fca891eea4b2373b2ea6c18812c4be207562b718126dc534c03492441b65d975"
+    }
+  ]
+}

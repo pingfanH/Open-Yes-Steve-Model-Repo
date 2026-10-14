@@ -1,0 +1,162 @@
+{
+  "id": "逢坂大河",
+  "path": "parsed/逢坂大河",
+  "source": {
+    "path": "Unknown/逢坂大河.ysm",
+    "type": "ysm",
+    "stem": "逢坂大河"
+  },
+  "ysm": "parsed/逢坂大河/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/星屑海螺.png",
+        "comment": "",
+        "name": "星屑海螺",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://afdian.com/a/ysmmod"
+    },
+    "name": "逢坂大河",
+    "tips": "龙与虎"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "打招呼",
+      "extra1": "鼓掌",
+      "extra2": "yes",
+      "extra3": "no",
+      "extra4": "撒娇",
+      "extra5": "变身",
+      "extra6": "穿戴",
+      "extra7": "卸甲",
+      "extra8": "装傻"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "skin",
+    "preview_animation": "gui",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/skin.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 869634,
+    "sha256": "69cf9f95d980d4d28e4acc222000dc6c47d256f81161b9eec34f50161d379df1",
+    "bones": 75,
+    "cubes": 248,
+    "faces": 1488,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 158721,
+      "sha256": "1688fab003ec5ae63a8aa4e92b7b65331a67f27760d876fa28027436a9c22864"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "6e8d3afe0c3baafff8f7f3e0e30ef3c621c667be5c346af73398f5fd3cb89ca5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 56505,
+      "sha256": "32b8fecbc04db39d7f50410f17b9944ad23f3e2b4ab55c6ef563c109f7a20438"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 275704,
+      "sha256": "3dc1b9b482719942118ca6e64c281bd7b0f23436fc727610bcfdf96a0b9109b6"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 158852,
+      "sha256": "9340c8dee6731f738d06b4f49aff8ecd025729d97fa4e04a75c8849a325b6c0b"
+    },
+    {
+      "path": "avatar/星屑海螺.png",
+      "size": 22406,
+      "sha256": "2c03d4213bddb87b0bc8d40b1cc32c059b0fe72a0bd6cc09613505a82e922f65"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 5806,
+      "sha256": "2eadf5fe264d182b3a27a93c58a595bf5bf1e3e6fde8bc4817d319fd9a5efe0a"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 9039,
+      "sha256": "aa6837390e7ba372082945dec022232e30be26608a121b17dfe7f15d6bcd6a73"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 29337,
+      "sha256": "8e061e6ff0efaff35eedcc946de525efb205ebfb1b76e5acf2b1d3a0f5720bd3"
+    },
+    {
+      "path": "models/main.json",
+      "size": 126617,
+      "sha256": "0c89a780e4cd9439033f8d54bd4800d02a1088aafb0bd9f62c220a748fb32c24"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 4106,
+      "sha256": "3f6588bc49d6ccb91f5cc5bc107fa9644184aa7b929c6d53620124c417af0de4"
+    },
+    {
+      "path": "textures/skin.png",
+      "size": 18689,
+      "sha256": "c04ef03d16a454e69aba8b82b4f3a685a4d2cfd8bb0a39a949af64188d4955a1"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1177,
+      "sha256": "dde4b5d379d9371c65db7681334ee5224f6a04c12d62cf6856290703864c56e6"
+    }
+  ]
+}

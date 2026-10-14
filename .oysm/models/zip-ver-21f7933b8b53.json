@@ -1,0 +1,211 @@
+{
+  "id": "枪手-凤凰战士(zip-ver)",
+  "path": "parsed/枪手-凤凰战士(zip-ver)",
+  "source": {
+    "path": "Unknown/枪手-凤凰战士(zip-ver).zip",
+    "type": "zip",
+    "stem": "枪手-凤凰战士(zip-ver)"
+  },
+  "ysm": "parsed/枪手-凤凰战士(zip-ver)/ysm.json",
+  "metadata": {
+    "name": "枪手 | 凤凰战士",
+    "tips": "一名有能力的射手，他受雇于凤凰网络，协助领土收复战。士兵们在单兵作战时已经及其致命，更别说群起而攻之的时候了。\n\n何时可以射击",
+    "license": {
+      "type": "All Rights Reserved"
+    },
+    "authors": [
+      {
+        "name": "我是Burt",
+        "avatar": "avatar/无标题.png",
+        "role": "模型+动画",
+        "comment": "新手建模师，喜欢玩CSGO"
+      }
+    ]
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "#extra_classify": "Extra Classify"
+    },
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "Simple Config",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3
+          }
+        ]
+      }
+    ],
+    "preview_animation": "idle",
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true,
+    "disable_preview_rotation": false,
+    "all_cutout": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/main.animation_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": {
+        "uv": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 18,
+    "total_bytes": 2713022,
+    "sha256": "fc829d855eb6aeffe8c0e0b5bb2ff092929181bdc60b855bfc0e448b70d895a9",
+    "bones": 69,
+    "cubes": 241,
+    "faces": 1446,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 181987,
+      "sha256": "7f55843a809debed8e0cfcc97189e93c49fe4f15aa13f93ba69ac76287d15a06"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 695,
+      "sha256": "cd2be5d42efea2613f8fbe541e3c8600c0d1edb11051924675bdc2f7955d24d5"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2917,
+      "sha256": "f1b559bb714f40be566b02e1b8dd44c2cc380783e0e8a480c89a8378caa05b96"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 108973,
+      "sha256": "b8e9d5aa72e1d20a1c778524b9f1e729077493cc2bd0b0cf3a65a7ec8974cdfb"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 171825,
+      "sha256": "a467dfbbde2ed8510aae13d0f588c95e0bd84a8fbba5e968a95c1f61c6001234"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 176050,
+      "sha256": "9ecf075152538c1a7ac0bcd61f40bbd607a523c184a009c37cd37e23611b2913"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1598799,
+      "sha256": "d50e8b37390c62f09b1a9af1ef4c4d95fcf0063050f7b1fd5cacc3ff682b5604"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 198766,
+      "sha256": "d358632b9579030586ac9c3f401940d0abfd190ac04045b6333d44426ee68e71"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 63606,
+      "sha256": "8e38e0d04193f5023f619ba64d847eee7cb675291c0747f98292656a028dacf7"
+    },
+    {
+      "path": "avatar/无标题.png",
+      "size": 3028,
+      "sha256": "4e7b11851d98d3cdc9a5c2f816cbdaa8995304f366f8f0f7a245e2e1667092ee"
+    },
+    {
+      "path": "controller/main.animation_controllers.json",
+      "size": 810,
+      "sha256": "ff546eb7847ecbb59ce3f43189c005e61db5ccf749dfc4f11b5d978f82b4d106"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 13490,
+      "sha256": "45704dbc40854e4f4e1b4585b00c2878403aa9fedab8c5e6551f3be94b7c5bf6"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 18733,
+      "sha256": "1070aa5589ae3df1c5abf95a40f9de47ce2ca1df6b234ddbea96f568d1829c7a"
+    },
+    {
+      "path": "models/main.json",
+      "size": 116886,
+      "sha256": "e92196a048275af8560465dea31475a217e0869dac8e9eaabc4f2bca5ddbfb15"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1213,
+      "sha256": "0ecda6c1557cf3571289a3212c93e125d8b075cc37ac62f14dad852d83a576ec"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 11885,
+      "sha256": "9d50c6c40a9908d153919f34629fa9b1e42e3d6d6b341d89b0e0bc48863c285a"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2329,
+      "sha256": "4a31902f566ced19d35f2a5c0407ac106e3761a0cebb2a5ea42212711d6a6f63"
+    }
+  ]
+}

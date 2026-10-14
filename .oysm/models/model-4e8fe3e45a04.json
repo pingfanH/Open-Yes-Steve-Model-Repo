@@ -1,0 +1,239 @@
+{
+  "id": "绫濑桃",
+  "path": "parsed/绫濑桃",
+  "source": {
+    "path": "Unknown/绫濑桃.ysm",
+    "type": "ysm",
+    "stem": "绫濑桃"
+  },
+  "ysm": "parsed/绫濑桃/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/哥斯拉.png",
+        "comment": "一个MC模型/YSM作者，想法很多，时间很少",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "name": "哥斯拉",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/端木一动不动.png",
+        "comment": "永远都在ing",
+        "name": "端木一动不动",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/甜粽子.png",
+        "comment": "(ᗜˬᗜ)",
+        "name": "甜粽子",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/星屑海螺.png",
+        "comment": "漂泊于群星之中",
+        "contact": {
+          "Afdian": "https://afdian.com/a/lucia2048",
+          "Bilibili": "https://space.bilibili.com/14975572"
+        },
+        "name": "星屑海螺",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/蓝玫瑰.png",
+        "comment": "8月24号，传奇永不落幕",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/11814817"
+        },
+        "name": "蓝玫瑰",
+        "role": "材质"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "Default",
+    "tips": "默认模型（Default Model）"
+  },
+  "properties": {
+    "width_scale": 0.6,
+    "height_scale": 0.6,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 3712376,
+    "sha256": "3dd08b65f66ff173f44a2b8e86ee398f76ca62931f22e5b588eb4a9502e91424",
+    "bones": 188,
+    "cubes": 1010,
+    "faces": 6060,
+    "textures": 2,
+    "materials": 2,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 147226,
+      "sha256": "ac739a508206d0f0c45afbd840451d09c80e645f82d60ca30ccb173a225810b8"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 86486,
+      "sha256": "9f06415b2593341c6c5a1de450013246c46d2083e405766a52caf7dec21607f7"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 214576,
+      "sha256": "30cfe046a3f2dbf2d9f5e77031fec586ab8c28f75946a97574e4139cde566892"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 141939,
+      "sha256": "02baf777afa0776abe148c8d246e8617e0789ce099cb4375e8de194614bc1ce0"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 260006,
+      "sha256": "adc8538d5954044fdd32f17dd46bfcb89d8867bd12ff6cc13f094bd92752cd5f"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/哥斯拉.png",
+      "size": 19374,
+      "sha256": "6cd420a5238d37083afb1a43736ae8f862dfb9d9065c1ae1895c2ee20071333c"
+    },
+    {
+      "path": "avatar/星屑海螺.png",
+      "size": 22406,
+      "sha256": "2c03d4213bddb87b0bc8d40b1cc32c059b0fe72a0bd6cc09613505a82e922f65"
+    },
+    {
+      "path": "avatar/甜粽子.png",
+      "size": 13575,
+      "sha256": "afbc4a0ad6483a06d38085e6ec7f55db706ce25cb1de636a1698faf2fc53d4a1"
+    },
+    {
+      "path": "avatar/端木一动不动.png",
+      "size": 22379,
+      "sha256": "3c431bb54f22ffb6bb153d5de92dee6831881419ed4135b517cc9abd32e44095"
+    },
+    {
+      "path": "avatar/蓝玫瑰.png",
+      "size": 9818,
+      "sha256": "da06a03dd36c2a197cca8df4cdb9152b7e8c4502889929999ec049559c9ec377"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 5476,
+      "sha256": "a8ac69825cfd3b16d90624ed2e0ec4c2be84bee7044da4a13e00f67c153532eb"
+    },
+    {
+      "path": "models/main.json",
+      "size": 572975,
+      "sha256": "f662913b3858a2ac023dbe6f61d13be30cab18093d643360a6ed206e4b8ec700"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 38874,
+      "sha256": "dccd2c93d80449f63795d55f650ef80e56e30b2892f45d2904e64388b447f326"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 39184,
+      "sha256": "5aac14280987efb331837efbaaa05c4c63d539e0d6a560b0c3e34e16998beea4"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2231,
+      "sha256": "6f034c5d349add13715053c1db21ba29c6b4798e26b6a70f36b9ededcb59224f"
+    }
+  ]
+}

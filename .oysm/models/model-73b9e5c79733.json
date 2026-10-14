@@ -1,0 +1,226 @@
+{
+  "id": "巧克力",
+  "path": "parsed/巧克力",
+  "source": {
+    "path": "Unknown/巧克力.ysm",
+    "type": "ysm",
+    "stem": "巧克力"
+  },
+  "ysm": "parsed/巧克力/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/烛火的次元宇宙.png",
+        "comment": "还在成长的MC/YSM模型作者",
+        "contact": {
+          "Afdian": "http://afdian.com/a/zhuhuo",
+          "Bilibili": "https://space.bilibili.com/57715833?spm_id_from=333.1007.0.0"
+        },
+        "name": "烛火的次元宇宙",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/烛火的次元宇宙.png",
+        "comment": "",
+        "name": "烛火的次元宇宙",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "http://afdian.com/a/zhuhuo",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "巧克力",
+    "tips": "巧克力是一只开朗直率最喜欢主人的犬系猫咪，具有超强的行动力行动总是不动脑子。虽然也会犯错但是一只十分努力的惹人怜爱的猫咪"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#喵！",
+      "extra1": "打招呼",
+      "extra2": "拍手",
+      "extra3": "赞成",
+      "extra4": "反对",
+      "extra5": "庆祝",
+      "extra6": "挠头",
+      "extra7": "扭扭舞"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "喵！",
+        "name": "喵！",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "坐姿",
+            "description": "改变玩家坐姿",
+            "value": "v.zz",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 8.0
+          },
+          {
+            "type": "range",
+            "title": "POSS",
+            "description": "改变玩家POSS",
+            "value": "v.zs",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 4.0
+          },
+          {
+            "type": "range",
+            "title": "眼睛",
+            "description": "改变玩家眼睛",
+            "value": "v.yj",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 3.0
+          },
+          {
+            "type": "range",
+            "title": "嘴巴",
+            "description": "改变玩家嘴巴",
+            "value": "v.zb",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 4.0
+          },
+          {
+            "type": "range",
+            "title": "服装调整",
+            "description": "切换服装",
+            "value": "v.yf",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 1.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 3700245,
+    "sha256": "e35171ef3f2e342af7c5cd29933e6ea5f2bb17a4a1efd2d456eee6fb1c47041e",
+    "bones": 263,
+    "cubes": 2095,
+    "faces": 12570,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 218567,
+      "sha256": "7ded19c5182d1e9a1df4ba29d92d8e53b170a3b6547e5b3e920a42d8b04c12be"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 39621,
+      "sha256": "4f541509523eaf053702cf95b5b409e9c457cd4123f01c8f7817f404eb311aa8"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 307539,
+      "sha256": "6bb00a6dce5351ea4185547beda285ec005e789d923eeeb4bb4aecb8414c1fb6"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139812,
+      "sha256": "bd584a802e4171f67c6b3e65e71fb61319c125b4619a07616a87c446b3a0fb54"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1503488,
+      "sha256": "39da23aa526039a5897a28ec77a2c6399abb4daf63f0e4c001dde35e5e41d5c7"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 34600,
+      "sha256": "11a23d5d9830f9f9c2f346c4a7a44907ee4e9ecc41289beacf1bfd55c8e116f4"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 211627,
+      "sha256": "b0fe95754aa8acf68877c146e5ce1c2aa6130ef7c58e92b54d4e487078898e46"
+    },
+    {
+      "path": "avatar/烛火的次元宇宙.png",
+      "size": 31433,
+      "sha256": "21d22a5c083f80f450f8a2ae358db5e67d69613169b754346496a7209a1e3ae3"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 6002,
+      "sha256": "37c0a23979b37de20c0ad1e66161c49db5b2fbbd87a697586c805d62b34caf85"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 72499,
+      "sha256": "4678a410fe81a01cbc59c3d84181a9d1a97a67e48a1e8aa61f6b22946671f7d1"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1090399,
+      "sha256": "de7707753a583c006832a50327c75f1349ffa5634e514f264ae82aac2e3a2a99"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 40078,
+      "sha256": "db3e1ab26e4838cec9731db6f87fbdee0a3ec53ae4ef0cb9b92f8a39b6c56b69"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2337,
+      "sha256": "410fa0a0718b368316ef7c01f9b0f3b869eb28d08ad136c678353569a55890c3"
+    }
+  ]
+}

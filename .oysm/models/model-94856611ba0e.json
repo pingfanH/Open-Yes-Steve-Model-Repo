@@ -1,0 +1,173 @@
+{
+  "id": "_扶桑",
+  "path": "parsed/_扶桑",
+  "source": {
+    "path": "Uncategorized/_扶桑.ysm",
+    "type": "ysm",
+    "stem": "_扶桑"
+  },
+  "ysm": "parsed/_扶桑/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/鼠标会梦到光猫吗.png",
+        "comment": "",
+        "contact": {
+          "bilibili": "https://space.bilibili.com/3546800153692981"
+        },
+        "name": "鼠标会梦到光猫吗",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY"
+    },
+    "name": "扶桑",
+    "tips": "碧蓝航线扶桑"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "guizuo": "跪坐",
+      "jianzhaung": "展开舰装",
+      "extra0": "",
+      "extra7": "",
+      "extra6": ""
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 1159430,
+    "sha256": "853fd5342f360624f2afb448fe5b4fb3a06bc4ec28d4136d35fd8c1b6de75b38",
+    "bones": 88,
+    "cubes": 517,
+    "faces": 3102,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136637,
+      "sha256": "f795d670b8e2553548348161425e21c7a8f4c2b78d4602d33c8ccc1f03f537b3"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 124064,
+      "sha256": "0721bd33e129fd92066ffa6c056a49f7ef3fc6190165b42094b3aa5fdf757f89"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 201793,
+      "sha256": "0aed4c6174a4ef72eee438c076bb667095c923610e91940a1b1109ebe0aab0fd"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/鼠标会梦到光猫吗.png",
+      "size": 32855,
+      "sha256": "f042464e62dadbf8d60757840e27c2838a2c5856a75907748a9393ca1e27f897"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 25056,
+      "sha256": "7ab845099c621ecbe791ec80b87a850f688af46baf02b23f86c80264fdd26157"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 260582,
+      "sha256": "c283252398d0c51f0d726d1b6e38e4d70839a0b463c0a8b0657d39bd07b7e3df"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 9966,
+      "sha256": "ef006da74f0efe8b16ccda8c93c26a851224fe8709d584213dbd1ce2a5bf4912"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1267,
+      "sha256": "a405889a8de1d898fcabceeba62d48f70aff01d32959da7cee6160981a8c1abb"
+    }
+  ]
+}

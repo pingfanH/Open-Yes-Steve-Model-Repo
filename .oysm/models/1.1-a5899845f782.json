@@ -1,0 +1,121 @@
+{
+  "id": "恐怖机器人1.1",
+  "path": "parsed/恐怖机器人1.1",
+  "source": {
+    "path": "Unknown/恐怖机器人1.1.ysm",
+    "type": "ysm",
+    "stem": "恐怖机器人1.1"
+  },
+  "ysm": "parsed/恐怖机器人1.1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/獒子coco.png",
+        "comment": "兴趣使然的獒子",
+        "contact": {
+          "Afdian": "https://afdian.com/a/AOZICOCO",
+          "Bilibili": "https://space.bilibili.com/19140392"
+        },
+        "name": "獒子coco",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/AOZICOCO",
+      "home": "https://space.bilibili.com/19140392"
+    },
+    "name": "恐怖机器人",
+    "tips": "苏维埃优秀的侦察兵\n突发奇想做的小玩意儿(:3_ヽ)_，只支持原版，拔刀剑、TAC、马术等均暂不适配（在这些模组里动画会出错哦！）"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra1": "打招呼"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 469193,
+    "sha256": "2e46ed1e3175756c2e5518dee0033ac76d8f2ec02b07c3d406888f4a75240dde",
+    "bones": 30,
+    "cubes": 594,
+    "faces": 3564,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/main.animation.json",
+      "size": 69726,
+      "sha256": "f692d655c5db9ae90c696200d24fd11a0dbedda66b26a4df2be69847c3fc3520"
+    },
+    {
+      "path": "avatar/獒子coco.png",
+      "size": 32309,
+      "sha256": "60d8baa0da6209686cbf02c89534e054407011babd5e2ddbe4ff40c7aca8963c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 90354,
+      "sha256": "870a7feef42960d9799d27eaaedd1ca3ed60febe1a5cdb47fbe138656837cc89"
+    },
+    {
+      "path": "models/main.json",
+      "size": 221429,
+      "sha256": "41bd525ba131d42d834165ebc1b15956f0422efba142a92433b3fd8a7e7a5598"
+    },
+    {
+      "path": "sounds/Vtermova-1.ogg",
+      "size": 27242,
+      "sha256": "4fad15160586e80d4a041f1096692fca96ab339da801e11b0cb67ae4d2168e4f"
+    },
+    {
+      "path": "sounds/Vtersela.ogg",
+      "size": 18551,
+      "sha256": "1e7d6c690cbeec85ba6eae25597695eff58eb64ed9c86eb19350bfe06327e8ed"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 8512,
+      "sha256": "fe2a7a93c3771daf20be0bd578df1e68ca88a35308cceb8c3aa44b1d0f4d9eb5"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1070,
+      "sha256": "1bbad72d038f4389821a3685ecb1c09c8a01b9245ac43ed3f3923950fee1bdb3"
+    }
+  ]
+}

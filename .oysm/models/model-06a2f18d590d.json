@@ -1,0 +1,200 @@
+{
+  "id": "初音未来公式服",
+  "path": "parsed/初音未来公式服",
+  "source": {
+    "path": "Unknown/初音未来公式服.ysm",
+    "type": "ysm",
+    "stem": "初音未来公式服"
+  },
+  "ysm": "parsed/初音未来公式服/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/小萌新idjdkd.png",
+        "comment": "none",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/1573788561"
+        },
+        "name": "小萌新idjdkd",
+        "role": "建模贴图动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 4.0 By-NC-SA"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "公式服",
+    "tips": "none"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "",
+      "extra8": "",
+      "extra9": "",
+      "extra10": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          },
+          {
+            "type": "checkbox",
+            "title": "测试名称1",
+            "description": "测试介绍",
+            "value": "v.r"
+          },
+          {
+            "type": "checkbox",
+            "title": "测试名称2",
+            "description": "测试介绍",
+            "value": "v.roaming.a"
+          },
+          {
+            "type": "checkbox",
+            "title": "测试名称3",
+            "description": "测试介绍",
+            "value": "v.a"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 4207972,
+    "sha256": "6d486eef98bd2e77849f3194355b472fdc3c1574cecd96d80a65c142748adfd0",
+    "bones": 152,
+    "cubes": 1376,
+    "faces": 8256,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 198552,
+      "sha256": "e442ba309a256ef9b7694020a743286960473ab52ead50b3fa4ab03914676fae"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 109004,
+      "sha256": "ba1e5d1d0e30fc7cec4337358c630cf4f7c89f986f3a98b261c424bd3aecd477"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 194774,
+      "sha256": "fa98e0ef079e5e0ffecfc7198ae49dcf3ccdeb318cc477e528b623cf9f16bba8"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 196778,
+      "sha256": "fde78c96158f10a291d41a9c73aebb469003f2dabda3358dc450d54a62ddec7b"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/小萌新idjdkd.png",
+      "size": 21456,
+      "sha256": "8b39a7c8d6035bb4fac416fede75fd1f87358240f680a7f213636333d801828f"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 35407,
+      "sha256": "03053180713b95b03917bbc5aabc489378cbb3ffe46e044491a4d339b9c01c69"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1162161,
+      "sha256": "8270f6b88ce9a149dee1c9f78799e069ac89e81268f47757d0c69fcb6e09d839"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 32277,
+      "sha256": "63ef72c26b95599a7502a5148a462a1a216a6ad2ef7ab8b035e3bf04b44d09de"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1841,
+      "sha256": "4d09d847f7eb1e4420a04a4373d46e4bee0b79e54ef21f9f68947b2c032b9e20"
+    }
+  ]
+}

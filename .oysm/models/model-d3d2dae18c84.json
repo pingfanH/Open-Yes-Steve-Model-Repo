@@ -1,0 +1,165 @@
+{
+  "id": "_云天明",
+  "path": "parsed/_云天明",
+  "source": {
+    "path": "Uncategorized/_云天明.ysm",
+    "type": "ysm",
+    "stem": "_云天明"
+  },
+  "ysm": "parsed/_云天明/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§e雾雨波波沙.png",
+        "comment": "想了十天十夜",
+        "contact": {
+          "Afdian": "https://afdian.net/a/kirisamePPSH",
+          "Bilibili": "https://space.bilibili.com/36761228"
+        },
+        "name": "§e雾雨波波沙",
+        "role": "§6☆ "
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.net/a/kirisamePPSH",
+      "home": "https://space.bilibili.com/36761228"
+    },
+    "name": "§b云天明",
+    "tips": "三体"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "",
+      "extra1001": "说话"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "yun",
+    "preview_animation": "preview",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/yun.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 787392,
+    "sha256": "d3c2530b0dc6be13dc25f02718c2f04a374f93ee7a5f52a3af8ab9a218044429",
+    "bones": 79,
+    "cubes": 32,
+    "faces": 192,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136637,
+      "sha256": "f795d670b8e2553548348161425e21c7a8f4c2b78d4602d33c8ccc1f03f537b3"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 1726,
+      "sha256": "1d2d1d904ce4d82435bf9e59ff171c2157fd2930b37247b0d5b71f81ff3ecb9d"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 123579,
+      "sha256": "7bbd2b714e45b41d039ab6c3142924fe94f1f0df4c34b86fb1def5011b0d7f26"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 198931,
+      "sha256": "1bde7bc4bbaffd3cc6adb4e30c84881d5c08c28a4d8fa93611651c009532f51a"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/§e雾雨波波沙.png",
+      "size": 19156,
+      "sha256": "92c0e5cfa88a049c9deea6a56e2f55e0c342276bfa1ac1bdfabc144c052ad5f3"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 8445,
+      "sha256": "3866eedb44d2510caafdcbd1e1846da557e57a8d77606c69bae05a2e3a61f405"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 15074,
+      "sha256": "4113dec9b3ea98fe04fa5bbf922ad676f358654036036f14583d3561e88a1f7c"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/yun.png",
+      "size": 90597,
+      "sha256": "3ef2664e4830301111d201a67ac1a597edc972b2e9430fc9956d6297dc1a19eb"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1304,
+      "sha256": "e508755763702b63ba42cbb35d1ba3865f4fc1f5b2d9397c34d43583a11be750"
+    }
+  ]
+}

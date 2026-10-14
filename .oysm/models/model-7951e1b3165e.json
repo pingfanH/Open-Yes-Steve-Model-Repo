@@ -1,0 +1,198 @@
+{
+  "id": "桑丘",
+  "path": "parsed/桑丘",
+  "source": {
+    "path": "Unknown/桑丘.ysm",
+    "type": "ysm",
+    "stem": "桑丘"
+  },
+  "ysm": "parsed/桑丘/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/伦理问题.png",
+        "comment": "模型吗?黑环真好玩啊（目移）",
+        "contact": {
+          "B站": "https://space.bilibili.com/384456209",
+          "爱发电": "https://afdian.com/a/Mortis"
+        },
+        "name": "伦理问题",
+        "role": "模型啊模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/Mortis",
+      "home": "https://space.bilibili.com/384456209"
+    },
+    "name": "桑丘",
+    "tips": "“……所以说收尾人是什么？ ”"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "#1",
+      "坐": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "1",
+        "name": "发型切换",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "总督唐",
+            "description": "只有发型（）",
+            "value": "v.wear",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 1.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "preview_animation": "ui",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": true,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 3727071,
+    "sha256": "d1fdfdbe75a213db658ea9561153eb836f9264fc1f98a2ba460a2765a00d0f1a",
+    "bones": 292,
+    "cubes": 1296,
+    "faces": 7776,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 181101,
+      "sha256": "7b70ff8243caa2523804d9539ca5642b2669e7eb8600a66fc4d4025b6b657f81"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 33990,
+      "sha256": "2138fc1f154936b5dc435b5e938b080f6c504098db84877d893998a2db6e9e30"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 219949,
+      "sha256": "1168a014ecfe372b3463ece86065089b1f891ba52031c37cae178e9b68e90d08"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2046717,
+      "sha256": "4357ac7222061c96a707107f35457abefd59406b817a15a597537916affb9fe2"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/伦理问题.png",
+      "size": 12413,
+      "sha256": "5ff591712d77145d2fd170bd2a425ed13c3c42832529365fb70fe48d3e39416c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 27847,
+      "sha256": "dad637621b069bf458504623b79c6c23b9edd5c88bc07fd0bf8a9678247161dc"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6548,
+      "sha256": "34d9a83c026d0c84ca326f7c2cafc4558c5e87b0a490e04a8b0424ca7c381026"
+    },
+    {
+      "path": "models/main.json",
+      "size": 713770,
+      "sha256": "626ea2388d2f7d102ec272ed1e13c6025e5aed8b8d81b19d9e1858d757388fc4"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 846,
+      "sha256": "9d8232f889d21302ba4494f7055d91b4eda7bc292c8cf78d20c765607a7bf6f2"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 67927,
+      "sha256": "5ceeb972b899f78b31c3b2eca96aaf05b2e2801d8e43299fe5adb8cea3d04f90"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1626,
+      "sha256": "28ef516db05a2cb5d763ffe8409390c6d84c719049542f95a78833e3960f4823"
+    }
+  ]
+}

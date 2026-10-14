@@ -1,0 +1,193 @@
+{
+  "id": "樱羽艾玛",
+  "path": "parsed/樱羽艾玛",
+  "source": {
+    "path": "Unknown/樱羽艾玛.ysm",
+    "type": "ysm",
+    "stem": "樱羽艾玛"
+  },
+  "ysm": "parsed/樱羽艾玛/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/YQ-九日.png",
+        "comment": "积极探索被埋藏的历史",
+        "contact": {
+          "贴吧": "直接搜"
+        },
+        "name": "YQ-九日",
+        "role": "樱羽艾玛"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "name": "樱羽艾玛",
+    "tips": "今天也带来魔女的真实......."
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "#extra_classify": "Extra Classify"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "Simple Config",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 3139796,
+    "sha256": "008a9c1543ded960f2ddffc40c5975092c4be9ed8471f79b732d1e8552d6ce56",
+    "bones": 83,
+    "cubes": 344,
+    "faces": 2064,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 109004,
+      "sha256": "ba1e5d1d0e30fc7cec4337358c630cf4f7c89f986f3a98b261c424bd3aecd477"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 194597,
+      "sha256": "2ef3cc19a797a4f916ae4a5f445fa6fa9a069880ba6854893913f8a1d6b71864"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/YQ-九日.png",
+      "size": 21077,
+      "sha256": "506801c5334ed472069fe75c9bd7fdbd39e63cbb1aaea7baf13136c86667bb28"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 617,
+      "sha256": "58a5a4f99a17e863505e5d985c5342fafccf53eeb5799a572dff4156086be4ad"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 25129,
+      "sha256": "fe3d50c3581e6d75db7893eca4ea546d19e5af71be0a279b29ad9d4bc17935fd"
+    },
+    {
+      "path": "models/main.json",
+      "size": 157025,
+      "sha256": "ce13561ed1a57d32d9cae8a497278f00838243013f5ab5016f1303a63a633d66"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 14405,
+      "sha256": "3d50dcde53c4bed9a3c9562f03d6f3654f5d367513a6894d9f8817ceddf7b503"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1611,
+      "sha256": "9dbc5972449c667d995a14bbf89b2eb918c0635759f4bbef17852096a85cd37b"
+    }
+  ]
+}

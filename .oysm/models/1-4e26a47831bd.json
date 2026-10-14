@@ -1,0 +1,154 @@
+{
+  "id": "_特遣1",
+  "path": "parsed/_特遣1",
+  "source": {
+    "path": "Uncategorized/_特遣1.ysm",
+    "type": "ysm",
+    "stem": "_特遣1"
+  },
+  "ysm": "parsed/_特遣1/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "回答我！",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/44619913?spm_id_from=333.788.0.0"
+        },
+        "name": "泉溪",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "name": "特遣队员-男",
+    "tips": "暗区突围特遣队员"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "放下面罩",
+      "extra2": "抬起面罩",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "闲聊",
+      "extra6": "夸奖",
+      "extra7": "停火"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 13,
+    "total_bytes": 2410494,
+    "sha256": "ddd21190a5183a7f71bcecce5e67ff6d035d3d588ec28ee2e0f0cf7a3e02f4fc",
+    "bones": 124,
+    "cubes": 3230,
+    "faces": 19380,
+    "textures": 2,
+    "materials": 2,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 169600,
+      "sha256": "dc952b01dc3d339b22d704fe35c769075b51231ed0259aa7ba8a81601947580e"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 13591,
+      "sha256": "2d0aed2b0d2c12a2a4f00ef6f815397a9ccfc46f44e746272d15b4d028cff313"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 131447,
+      "sha256": "5bf5fbeac5f616308851d7e1e6f437caf350dd9de96e433c4d3117b4533ef5d1"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182243,
+      "sha256": "04885ea14f197a833400737b8cff45d9c7b718b102f764f5acbb9471ba861044"
+    },
+    {
+      "path": "avatar/泉溪.png",
+      "size": 7683,
+      "sha256": "c58a5058352f2c366a9f0c7f0b1b869c461f3ce98ee2e54466a08e4ebb749c71"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 13384,
+      "sha256": "5ad52666a314e66e6041f4fa9d905f8613d6a1a0b884106708da3d011829d251"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1693541,
+      "sha256": "b867fc9db5d59b475f19f8c481964df198703dff6dc57971177c4184c723c9c4"
+    },
+    {
+      "path": "sounds/kuajiang.ogg",
+      "size": 13866,
+      "sha256": "bc222b54d748dbaccb5f27b4b51e2f315b3e8ea99277a154d6b8043b6044a4a5"
+    },
+    {
+      "path": "sounds/tinghuo.ogg",
+      "size": 16220,
+      "sha256": "06fc9b69b6c1e69829daa1b73d1318927b0be9c61fb9f667ba27c44948bd9aae"
+    },
+    {
+      "path": "sounds/xianliao.ogg",
+      "size": 15762,
+      "sha256": "ee89b8bc61e2956cf81fbd7fbe98dd907d414edb48a7aaf5f34692bbff280fea"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 11115,
+      "sha256": "3d6ee25dd9507b59b1f9c436d3dcb9203c7b871121b7bd7907109916d38ecafc"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 140974,
+      "sha256": "8ed992c9106839bcc2d169b6203be82e194dbec9fb1d8da40afc7435c6e24602"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1068,
+      "sha256": "59f28c1242d1dbf2d6cdfd4169dbe54217f0eaef8723dd3e6c9ecea003f93d76"
+    }
+  ]
+}

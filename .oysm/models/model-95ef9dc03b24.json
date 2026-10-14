@@ -1,0 +1,265 @@
+{
+  "id": "黎歌国风款",
+  "path": "parsed/黎歌国风款",
+  "source": {
+    "path": "Unknown/黎歌国风款.ysm",
+    "type": "ysm",
+    "stem": "黎歌国风款"
+  },
+  "ysm": "parsed/黎歌国风款/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/黎歌Neeko.png",
+        "comment": "§b嘎～个人势，1000CMの天才巨乳美少女",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/671538942"
+        },
+        "name": "黎歌Neeko",
+        "role": "§6原型人物"
+      },
+      {
+        "avatar": "avatar/§8默栖.png",
+        "comment": "§3MC短片作者，偶尔做YSM",
+        "contact": {
+          "Afdian": "https://afdian.com/a/DLMoqi",
+          "Bilibili": "https://space.bilibili.com/477165698"
+        },
+        "name": "§8默栖",
+        "role": "§b模型制作"
+      },
+      {
+        "avatar": "avatar/§d瀛猫.png",
+        "comment": "§3一个透明人",
+        "contact": {
+          "Afdian": "https://afdian.cn/a/wincatpro",
+          "Bilibili": "https://space.bilibili.com/647224460"
+        },
+        "name": "§d瀛猫",
+        "role": "§b适配"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "§bCC BY-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/DLMoqi",
+      "home": "https://space.bilibili.com/671538942"
+    },
+    "name": "§f§l黎歌Neeko",
+    "tips": "§f§l<黎歌国风款皮套>\n§b请哔哩哔哩关注“黎歌Neeko”\n§a黎歌是一只喜欢胡萝卜的快乐的小鸽子，\n§a因为想给大家带来元气，为了追求自己\n§a喜欢的事，正在努力前进中！\n§c§l未经允许请勿商用"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "§d《勾指起誓》",
+      "extra2": "§b青海摇",
+      "extra3": "无",
+      "extra4": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "模型配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          },
+          {
+            "type": "radio",
+            "title": "表情切换",
+            "description": "试试效果",
+            "value": "v.type",
+            "labels": {
+              "§a正常": "v.type=0;",
+              "呆": "v.type=1;",
+              "惊": "v.type=2;",
+              "やめる": "v.type=3;"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "分类1",
+        "extra_animation": {
+          "extra0": "动画1",
+          "extra1": "§b青海摇",
+          "extra2": "动画3",
+          "extra3": "动画4"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/neeko.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 21,
+    "total_bytes": 12520105,
+    "sha256": "449270aaca6d83c21f5e01705295c092f99e9bf8d6b54c07bd38dca0261d4104",
+    "bones": 177,
+    "cubes": 1982,
+    "faces": 11891,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 176626,
+      "sha256": "55c087703a0234682e6c44a8a557562160916a67e0453af891db5fde87fbb54c"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 5903817,
+      "sha256": "8f5a490d0ebaebc0bf35f03e573acae12b487fdb6981a6921981620bf86582d1"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 288418,
+      "sha256": "ffb14595697aafb58a1ea590c1fec2a5547071ad5ef7596aa39a77d54a982587"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139953,
+      "sha256": "6fef9b6e86f016b5a47142e8cc6c597372930a36a2e743c648936ca6c8d029d7"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 184323,
+      "sha256": "b2505685f63dd378a64d5fc32a916832138ab3a74e4f4e26333fce46b9640d5f"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50186,
+      "sha256": "305b7b30af6a4b3f5fe1c341fc473b3f4ba9d24837aa64a18a04df8e2fd7d027"
+    },
+    {
+      "path": "avatar/§8默栖.png",
+      "size": 17313,
+      "sha256": "8bb88d8c9384ee40026ecfa7710f8020b8f02db66792cf6905f6cfebccdfc48a"
+    },
+    {
+      "path": "avatar/§d瀛猫.png",
+      "size": 13934,
+      "sha256": "46b45a286d36976772598c04183a755d1212b190a9aea6bb7b787e207de1e030"
+    },
+    {
+      "path": "avatar/黎歌Neeko.png",
+      "size": 26899,
+      "sha256": "8620023fc59882701d8246b47204d04a781580756008a74d370b9b9ef2d13dc2"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 4538,
+      "sha256": "7e9103c1ffd07843669c392569ccc5b388546fd2a26f1863534688049b6a5a89"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 13243,
+      "sha256": "3481c40a04724221f87d57d7be4feee430b6ac656f8af1e0b195d9f0ad00c0d6"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 6654,
+      "sha256": "e968204433eae824d9bbef0a9ebf7524276d84138352e8ba634ecb1a248c6b5f"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1061227,
+      "sha256": "28faa42d1a5998c05315130fd96de53188f2c7afa10d205ef2e2c3529203d772"
+    },
+    {
+      "path": "sounds/gzqs.ogg",
+      "size": 2425083,
+      "sha256": "a5942607b2c38daf3b0e2cf9e759b02f1bc84b87a09a6a013fae50d66e5eea66"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1160,
+      "sha256": "6584ab736981a7a749d8a391f472b52d694fd8bb201ed03bf241c013473e28aa"
+    },
+    {
+      "path": "textures/neeko.png",
+      "size": 137563,
+      "sha256": "3f4043528c277cc302330c0c59fbda8442a5bf215e67df7f4dbb24ecbf80b128"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2716,
+      "sha256": "c5ac51862e34c1a237a6a57cf626b97c96d92c4e4de022bae185dcb22d41fd9a"
+    }
+  ]
+}

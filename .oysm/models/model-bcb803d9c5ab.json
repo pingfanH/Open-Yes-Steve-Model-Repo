@@ -1,0 +1,285 @@
+{
+  "id": "三津レンジユ",
+  "path": "parsed/三津レンジユ",
+  "source": {
+    "path": "Unknown/三津レンジユ.ysm",
+    "type": "ysm",
+    "stem": "三津レンジユ"
+  },
+  "ysm": "parsed/三津レンジユ/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§e雾雨波波沙.png",
+        "comment": "想了十天十夜",
+        "contact": {
+          "Afdian": "https://afdian.net/a/kirisamePPSH",
+          "Bilibili": "https://space.bilibili.com/36761228"
+        },
+        "name": "§e雾雨波波沙",
+        "role": "§3☆ "
+      },
+      {
+        "avatar": "avatar/§b狐绒社美工狐白宵燿夜.png",
+        "comment": "催产素成瘾狐",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/1422761554"
+        },
+        "name": "§b狐绒社美工狐白宵燿夜",
+        "role": "§6定制/原画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.net/a/kirisamePPSH",
+      "home": "https://space.bilibili.com/36761228"
+    },
+    "name": "§b三津レンジユ",
+    "tips": ""
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "隐藏帽子",
+            "description": "",
+            "value": "v.roaming.hat"
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏光环",
+            "description": "",
+            "value": "v.roaming.ring"
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏眼镜",
+            "description": "",
+            "value": "v.roaming.pol"
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏吊带",
+            "description": "",
+            "value": "v.roaming.suck"
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏裤子",
+            "description": "",
+            "value": "v.roaming.trii"
+          },
+          {
+            "type": "radio",
+            "title": "眼睛切换",
+            "description": "",
+            "value": "v.expe",
+            "labels": {
+              "默认": "v.expe=0;",
+              "= =": "v.expe=1;",
+              "ᗜˬᗜ": "v.expe=2;",
+              "⊙ ⊙": "v.expe=3;",
+              "- -": "v.expe=4;",
+              "小春": "v.expe=5",
+              "> <": "v.expe=6;"
+            }
+          },
+          {
+            "type": "range",
+            "title": "嘴部切换",
+            "description": "",
+            "value": "v.expm",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 4.0
+          },
+          {
+            "type": "range",
+            "title": "衣服",
+            "description": "",
+            "value": "v.roaming.cloth",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 0.1
+          },
+          {
+            "type": "checkbox",
+            "title": "脸红",
+            "description": "",
+            "value": "v.read"
+          },
+          {
+            "type": "checkbox",
+            "title": "小珍珠",
+            "description": "",
+            "value": "v.tear"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "texture",
+    "preview_animation": "preview",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 18,
+    "total_bytes": 3582417,
+    "sha256": "c90827c2a5da275f86b6ca00100522b3a28216dd4e20bfa96732cc3613f9bc75",
+    "bones": 207,
+    "cubes": 970,
+    "faces": 5820,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 109004,
+      "sha256": "ba1e5d1d0e30fc7cec4337358c630cf4f7c89f986f3a98b261c424bd3aecd477"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 199932,
+      "sha256": "e0584698b4efa55388668607f59d450ebd78d599949f329b0b0e4292e399b5b3"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 193057,
+      "sha256": "afbcdd1a9f9d81bde356435da6e401657d30823b721b16362847f7d5bb0e9dec"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/§b狐绒社美工狐白宵燿夜.png",
+      "size": 24509,
+      "sha256": "3918988ecefe1395a23e824642f0999c2a40d1aa649474a71b0277c643548eac"
+    },
+    {
+      "path": "avatar/§e雾雨波波沙.png",
+      "size": 19156,
+      "sha256": "92c0e5cfa88a049c9deea6a56e2f55e0c342276bfa1ac1bdfabc144c052ad5f3"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 62936,
+      "sha256": "65b47e5e1bff3786a3be771cbb71c24a324ab521d6e6738e123d4077261f5922"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13725,
+      "sha256": "605fc04a716cfd12d30b5d6fb5d6db461504bd2f8da602fe078a4f57b4d71c71"
+    },
+    {
+      "path": "models/main.json",
+      "size": 481708,
+      "sha256": "1dd97bd92e1fb48127362181147cd12d18395c9a8f546ac7f5eb73708b9be8e9"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2686,
+      "sha256": "197669635bbf7b8cf8892b6912e428c92c66aac37ea2d3f1a174c9a04b2b64f6"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 38326,
+      "sha256": "b3f63ae7404654ae532f31a0946a803f3c30b1e040a249aa74ba9bdc34c7c7a2"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2788,
+      "sha256": "9e5d38680ad8414e2794c75fafbb2d7c584c0a1d3d4f9a38c53109da1cea0c42"
+    }
+  ]
+}

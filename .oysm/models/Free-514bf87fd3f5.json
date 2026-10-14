@@ -1,0 +1,154 @@
+{
+  "id": "_吹雪_Free",
+  "path": "parsed/_吹雪_Free",
+  "source": {
+    "path": "Uncategorized/_吹雪_Free.ysm",
+    "type": "ysm",
+    "stem": "_吹雪_Free"
+  },
+  "ysm": "parsed/_吹雪_Free/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/獒子coco.png",
+        "comment": "兴趣使然的獒子",
+        "contact": {
+          "Afdian": "https://afdian.com/a/AOZICOCO",
+          "Bilibili": "https://space.bilibili.com/19140392"
+        },
+        "name": "獒子coco",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/AOZICOCO",
+      "home": "https://space.bilibili.com/19140392"
+    },
+    "name": "吹雪",
+    "tips": "爆裂魔法~☆‌"
+  },
+  "properties": {
+    "width_scale": 0.6,
+    "height_scale": 0.6,
+    "extra_animation": {
+      "extra0": "extra0",
+      "extra1": "extra1",
+      "extra2": "穿卸舰装",
+      "extra3": "extra3",
+      "extra4": "extra4",
+      "extra5": "extra5",
+      "extra6": "extra6",
+      "extra7": "extra7"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 1732149,
+    "sha256": "d3f40ac6dffb98c7126e0efbc393316b49687221795128dc3cbfd59accd69ba2",
+    "bones": 117,
+    "cubes": 1391,
+    "faces": 8346,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 104185,
+      "sha256": "fed94c1c543dc77da4c0fb653ba0ceff35270059190c79d51a0a18c15b7364ce"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 198883,
+      "sha256": "3bfb6ff20296e9c2f5defeb414e48f5014064c03b6d48f7aaf11f1ebf5a88631"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/獒子coco.png",
+      "size": 32309,
+      "sha256": "60d8baa0da6209686cbf02c89534e054407011babd5e2ddbe4ff40c7aca8963c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 9031,
+      "sha256": "9dc5ed82fcce1abaf67cb4116be1a8cc61f2dc97f31788ead38910b97c15a238"
+    },
+    {
+      "path": "models/main.json",
+      "size": 754564,
+      "sha256": "d7784b6498e5598e7189868d6b858b9bb07168c0b099e8d1de73f124674e8f52"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 94431,
+      "sha256": "bdcaf71c2de6354a847571a2f4ac50b0a06262e31583d2b74d208c0294240fe3"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1283,
+      "sha256": "872a7093eb29868e55b98ea486390af20ea8add9e53ad3ff99cc3d2bb366d3ba"
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "id": "修卡战斗员",
+  "path": "parsed/修卡战斗员",
+  "source": {
+    "path": "Unknown/修卡战斗员.ysm",
+    "type": "ysm",
+    "stem": "修卡战斗员"
+  },
+  "ysm": "parsed/修卡战斗员/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/樱月粽子.png",
+        "comment": "请输入文本",
+        "name": "樱月粽子",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "修卡战斗员",
+    "tips": "修卡战斗员"
+  },
+  "properties": {
+    "width_scale": 0.8,
+    "height_scale": 0.8,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "#extra_classify": "Extra Classify",
+      "extra8": "撕掉伪装袖章",
+      "extra9": "咦"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "Simple Config",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          },
+          {
+            "type": "checkbox",
+            "title": "特殊急袭部队",
+            "description": "",
+            "value": "v.roaming.fuzhuang"
+          },
+          {
+            "type": "radio",
+            "title": "袖章",
+            "description": "",
+            "value": "v.roaming.xiuzhang",
+            "labels": {
+              "修卡": "v.roaming.xiuzhang=0;",
+              "蜘蛛": "v.roaming.xiuzhang=1;",
+              "蝙蝠": "v.roaming.xiuzhang=2;",
+              "黄蜂": "v.roaming.xiuzhang=3;",
+              "蟹子": "v.roaming.xiuzhang=4;",
+              "螳螂变色龙": "v.roaming.xiuzhang=5;",
+              "蝴蝶": "v.roaming.xiuzhang=6;",
+              "蝗虫": "v.roaming.xiuzhang=7;",
+              "大量发生型相变异蝗虫": "v.roaming.xiuzhang=8;"
+            }
+          },
+          {
+            "type": "checkbox",
+            "title": "毛衣颜色",
+            "description": "",
+            "value": "v.roaming.maoyi"
+          },
+          {
+            "type": "checkbox",
+            "title": "日本特殊急袭部队袖章",
+            "description": "",
+            "value": "v.roaming.xiuzhang_2"
+          },
+          {
+            "type": "checkbox",
+            "title": "头盔面具",
+            "description": "",
+            "value": "v.roaming.mask_on"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "extra": "animations/extra.animation.json",
+        "fp_arm": "animations/fp.arm.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [
+        "controller/main.animation_controllers.json",
+        "controller/main_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "vehicles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/vehicle/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 985619,
+    "sha256": "2d43fb6d7bfcb9496d788a17220ba1c5c1f4de069a82cbfb3b2b86aae0af6fd3",
+    "bones": 162,
+    "cubes": 707,
+    "faces": 4242,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/extra.animation.json",
+      "size": 111011,
+      "sha256": "a39c5b0836557c31d41b3373de0d72041f4f62e4eb94581242435268c358ac0a"
+    },
+    {
+      "path": "animations/fp.arm.animation.json",
+      "size": 3372,
+      "sha256": "bb15f824945dcf2f0f7845a52a5cefd0ba0019219a6bece5fbbe8c53aec160d4"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 116908,
+      "sha256": "eeb32f79fce276dd8a2457474e565d73f1c57dca64ec7ec416b22d5150d0368e"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 131666,
+      "sha256": "d937d3484f7d28e66237f4445ebb43edcd2cec683b7f68ac581bcf897e45eb3c"
+    },
+    {
+      "path": "animations/vehicle/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "avatar/樱月粽子.png",
+      "size": 4800,
+      "sha256": "b25f8c452fa325dd10dd0ad8671e45179d836374fb20d7167554cc5f078ba70d"
+    },
+    {
+      "path": "controller/main.animation_controllers.json",
+      "size": 617,
+      "sha256": "58a5a4f99a17e863505e5d985c5342fafccf53eeb5799a572dff4156086be4ad"
+    },
+    {
+      "path": "controller/main_controllers.json",
+      "size": 989,
+      "sha256": "332da752e072bd08367a0641433041ee4521d8c2ead4abc24495f8d54514d4f7"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 32367,
+      "sha256": "864a89a973966efaf79c32031a9d9d372c99d5d5853e685408f2ad97f11d7dfa"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13752,
+      "sha256": "3afa51fa99152b689875ef25ca5853f92d4ccd0e44caf11d5ef58aa5413ccfbe"
+    },
+    {
+      "path": "models/main.json",
+      "size": 339846,
+      "sha256": "3c00eed537859a2b877d32f5f5470e8536f100e592f90f6b2072b21a77d83e93"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 854,
+      "sha256": "205e4da892496567b38d2d5fa9efa703c22e1c8e9ef2b0d7ecd32c5b0682fa3a"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 226490,
+      "sha256": "24961af5763c34a0f46b15def30d87b55b3e1ed3a6ec65577422a36fa41ce089"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2481,
+      "sha256": "c314f5e8f94f5da78f3a63454012dade2aa8e85b4cba37837d5637c651589034"
+    }
+  ]
+}

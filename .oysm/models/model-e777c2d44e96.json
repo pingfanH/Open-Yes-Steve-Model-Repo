@@ -1,0 +1,224 @@
+{
+  "id": "格兰尼-常服",
+  "path": "parsed/格兰尼-常服",
+  "source": {
+    "path": "Unknown/格兰尼-常服.zip",
+    "type": "zip",
+    "stem": "格兰尼-常服"
+  },
+  "ysm": "parsed/格兰尼-常服/ysm.json",
+  "metadata": {
+    "name": "格兰尼",
+    "tips": "最温柔的护士小姐（施工中）",
+    "license": {
+      "type": "All Rights Reserved"
+    },
+    "authors": [
+      {
+        "name": "一般通过神必人",
+        "role": "模型",
+        "avatar": "avatar/德哈卡 拷贝.png",
+        "contact": {
+          "qq": "2516919271",
+          "Bilibili": "https://space.bilibili.com/277486957"
+        },
+        "comment": "独立作者，每日进化"
+      }
+    ],
+    "link": {
+      "home": "https://space.bilibili.com/277486957",
+      "donate": "QQ群1057624202"
+    }
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "#extra_classify": "Extra Classify"
+    },
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "Simple Config",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3
+          }
+        ]
+      }
+    ],
+    "preview_animation": "zhanshi",
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true,
+    "disable_preview_rotation": true,
+    "all_cutout": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/main.animation_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": {
+        "uv": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 3154061,
+    "sha256": "61108604f9f1daa9cc2058628d12d4606abe5fe0bca2d7a6221fcea8f4caef58",
+    "bones": 155,
+    "cubes": 920,
+    "faces": 5440,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 190373,
+      "sha256": "8c43dd4c3a7ed305183ccd84e7316a5f1cd836ff13c43b15ed2e84a20fae0b43"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 695,
+      "sha256": "cd2be5d42efea2613f8fbe541e3c8600c0d1edb11051924675bdc2f7955d24d5"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2917,
+      "sha256": "f1b559bb714f40be566b02e1b8dd44c2cc380783e0e8a480c89a8378caa05b96"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 120100,
+      "sha256": "257c5b79c1f1833a248735f32d17567b00093a3c25c2591b6476c2ba65d329f3"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 187637,
+      "sha256": "487b5b720e65444e32a09aac79a05c3b18969c35c3fb06a8622c1606b7553089"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 176050,
+      "sha256": "9ecf075152538c1a7ac0bcd61f40bbd607a523c184a009c37cd37e23611b2913"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1598799,
+      "sha256": "d50e8b37390c62f09b1a9af1ef4c4d95fcf0063050f7b1fd5cacc3ff682b5604"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 41030,
+      "sha256": "bf1f5c06a4238c24ee8e745801e6f5dacbcf7d489f4e47488b84e40b1372dd7b"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 212304,
+      "sha256": "002ae25fb2d72e0ed6a0749e0c0a58776fe3e403c7f2b00ea0e6c64c4187184c"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 62973,
+      "sha256": "ef42bf105b1b8b77b74a1cf76fbf98cda8e57c624959024c836785e387cfb4aa"
+    },
+    {
+      "path": "avatar/gsl.png",
+      "size": 4738,
+      "sha256": "0bf76a1ba896f709839f9c35bb62852350b4b0f110bc9a1c4c4c5acc99f25188"
+    },
+    {
+      "path": "avatar/德哈卡 拷贝.png",
+      "size": 19006,
+      "sha256": "ad40c4b6e1abd505cb5b7fc84ede2bf0cb77755b86ed00ae6a05fcb1e1568445"
+    },
+    {
+      "path": "controller/main.animation_controllers.json",
+      "size": 810,
+      "sha256": "ff546eb7847ecbb59ce3f43189c005e61db5ccf749dfc4f11b5d978f82b4d106"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 2147,
+      "sha256": "fe1050c70eece8b8f301f1be52cd0495c38f3d59b58e783a85cac06698c8920c"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 18733,
+      "sha256": "1070aa5589ae3df1c5abf95a40f9de47ce2ca1df6b234ddbea96f568d1829c7a"
+    },
+    {
+      "path": "models/main.json",
+      "size": 495167,
+      "sha256": "d2582fa6ca431dc7d997ab0ae03d41375f4416b5156547e64286f790d1db6b84"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1213,
+      "sha256": "0ecda6c1557cf3571289a3212c93e125d8b075cc37ac62f14dad852d83a576ec"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 16987,
+      "sha256": "702914b5adaa4f5acbc28693b2bc068fef6445f5fcdad253d5fb9adbc3e79347"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2382,
+      "sha256": "c79b8ad65f27531005662629ada5a8f902fe99dcda371baffef5516a99ab3ae9"
+    }
+  ]
+}

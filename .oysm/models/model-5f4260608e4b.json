@@ -1,0 +1,269 @@
+{
+  "id": "拇指-东部指挥官",
+  "path": "parsed/拇指-东部指挥官",
+  "source": {
+    "path": "Unknown/拇指-东部指挥官.ysm",
+    "type": "ysm",
+    "stem": "拇指-东部指挥官"
+  },
+  "ysm": "parsed/拇指-东部指挥官/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/爱摆烂的野生保护废物.png",
+        "comment": "寄！",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/603131252"
+        },
+        "name": "爱摆烂的野生保护废物",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "Thumb-E-Commander"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "拇指_东部指挥官",
+    "tips": "基于史蒂夫模型的的拇指东部指挥官的模型"
+  },
+  "properties": {
+    "width_scale": 1.0,
+    "height_scale": 1.0,
+    "extra_animation": {
+      "beta": "#extra_config",
+      "skill-1": "二连斩-爆(起手)",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "Reload": "重新装填"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "测试",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "?",
+            "description": "基米？/猛虎？",
+            "value": "v.jm"
+          },
+          {
+            "type": "checkbox",
+            "title": "墨镜",
+            "description": "显示/隐藏墨镜",
+            "value": "v.shades"
+          },
+          {
+            "type": "checkbox",
+            "title": "帽子",
+            "description": "显示/隐藏帽子",
+            "value": "v.hat"
+          },
+          {
+            "type": "checkbox",
+            "title": "脑袋",
+            "description": "真是令人摸不着头脑",
+            "value": "v.heads"
+          },
+          {
+            "type": "range",
+            "title": "虎标弹:",
+            "description": "调试buff数量",
+            "value": "v.hbs",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 12.0
+          },
+          {
+            "type": "range",
+            "title": "猛虎标弹:",
+            "description": "调试buff数量",
+            "value": "v.mhbs",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 8.0
+          },
+          {
+            "type": "checkbox",
+            "title": "虎标弹",
+            "description": "显示的buff",
+            "value": "v.hb"
+          },
+          {
+            "type": "checkbox",
+            "title": "猛虎标弹",
+            "description": "显示的buff",
+            "value": "v.mhb"
+          },
+          {
+            "type": "range",
+            "title": "buff高度: ",
+            "description": "调试buff的高低",
+            "value": "v.height",
+            "step": 5.0,
+            "min": 0.0,
+            "max": 20.0
+          },
+          {
+            "type": "range",
+            "title": "旋转: ",
+            "description": "调试方向",
+            "value": "v.revolve",
+            "step": 22.5,
+            "min": 0.0,
+            "max": 360.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/Meursault.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 20,
+    "total_bytes": 1053766,
+    "sha256": "8146c3f651a08c4285812aaafc87798f3135d14c09b4cab9a400dcd41e7d9731",
+    "bones": 273,
+    "cubes": 440,
+    "faces": 1581,
+    "textures": 1,
+    "materials": 1,
+    "animations": 4,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 245883,
+      "sha256": "e7876ab567d539319094a04e9c91db96242e1db8170007f8de8894e3b1c84b10"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 4962,
+      "sha256": "a3c994dcf68ce779023203ce363d2b4c3f312850f7d3fdc2eec9ce87f4e89f90"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 122402,
+      "sha256": "567412f3dbb5a83db12540d91fe1493e05eec97620832cec0a8d91b79fde5ee3"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 133347,
+      "sha256": "4dd6b849783c3de117b66242ec53ded0fb967ed6fb8a91604fb7fbb300c5af1a"
+    },
+    {
+      "path": "avatar/爱摆烂的野生保护废物.png",
+      "size": 23863,
+      "sha256": "22b9766b089b4eadadc13568160ac3ef355edaf112db8a432787e06b39d5c40e"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 9447,
+      "sha256": "7851dd40c8d68cd324a9ab59c64d947eac32e4b8016893e5086ffeb4d1306a82"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 6465,
+      "sha256": "8163e8036a3c39bc10c73a80c07e9ec2b71dcbe49e657800fe0cc8fbf41415a3"
+    },
+    {
+      "path": "models/main.json",
+      "size": 187088,
+      "sha256": "5e6a92a2dcf5a849a50fed67362e8640507ea69470abced70f806ea9b06b6356"
+    },
+    {
+      "path": "sounds/E-1.ogg",
+      "size": 31675,
+      "sha256": "1d0ab17e3598f705ec37f2bcfbc60940a8c4a789d63c2b0054dc491429d364be"
+    },
+    {
+      "path": "sounds/E-2.ogg",
+      "size": 38022,
+      "sha256": "19401c64c18e68c9ae078aaf450acc11e82944a03fe381f7a541979f615f792c"
+    },
+    {
+      "path": "sounds/E-3.ogg",
+      "size": 35973,
+      "sha256": "b16165af96dc5df8e669b93a79fcfe41fe6d668bd0690c387c6727f9f4bf5fe2"
+    },
+    {
+      "path": "sounds/E-B.ogg",
+      "size": 33144,
+      "sha256": "9493c18ec26603145ab5a9bf879953ee784c9f22ea973b19e947afe964898fb8"
+    },
+    {
+      "path": "sounds/E-C.ogg",
+      "size": 15211,
+      "sha256": "4460556e9b9d7972764b8ccb382c5fa1eda5a7326693b606e4b30ade1bdda6a1"
+    },
+    {
+      "path": "sounds/E-F.ogg",
+      "size": 21464,
+      "sha256": "d8f498cb158d1bbafe6c32caae81fc34ec3cf7a35132dc37dfd5778697c88105"
+    },
+    {
+      "path": "sounds/E-F1.ogg",
+      "size": 18169,
+      "sha256": "c0b2e2b42a0f7fea6fd92ab95582348d6ad9658b76fc6846cd2889d43b08e77c"
+    },
+    {
+      "path": "sounds/E-Rise.ogg",
+      "size": 17411,
+      "sha256": "2b30d25f604448a6da757f71b6d3c95de0e34e930c3c2cf9f5ce12bf73000f9d"
+    },
+    {
+      "path": "sounds/fire.ogg",
+      "size": 33810,
+      "sha256": "629de800e86fc3e8260bbc2cb3d3e447441b106cd0c2930ce10a21ee0c60ff98"
+    },
+    {
+      "path": "sounds/wave.ogg",
+      "size": 16541,
+      "sha256": "0b1b1343e82c58ee3e78b0c6781d1149b6d3891ca499d2bbf66adc1894388280"
+    },
+    {
+      "path": "textures/Meursault.png",
+      "size": 56607,
+      "sha256": "068d45e29672a6796291432cb08344b624dbd1ee59e8dcdeb30c544a0f0d0b64"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2282,
+      "sha256": "3881785796b03333234332165b81fdf2da86271a8b6b2d7b42cc988f4960bb77"
+    }
+  ]
+}

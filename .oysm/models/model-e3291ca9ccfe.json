@@ -1,0 +1,178 @@
+{
+  "id": "小暗",
+  "path": "parsed/小暗",
+  "source": {
+    "path": "Unknown/小暗.ysm",
+    "type": "ysm",
+    "stem": "小暗"
+  },
+  "ysm": "parsed/小暗/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/巨金怪不怪.png",
+        "comment": "一个苦命的牛马打工人的怨念",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/13452649"
+        },
+        "name": "巨金怪不怪",
+        "role": "小暗"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "小暗",
+    "tips": "觉得可以就分享给朋友吧，觉得难看就不用分享了awa"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "#extra_classify": "Extra Classify"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "Simple Config",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/main.animation_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "vehicles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/vehicle/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 11,
+    "total_bytes": 800163,
+    "sha256": "0a3b016e724d0b2f9d908d3c5812715e6e0515b5c1cc392aaba252c673035122",
+    "bones": 76,
+    "cubes": 545,
+    "faces": 3270,
+    "textures": 1,
+    "materials": 1,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 197660,
+      "sha256": "78843f7255cf67457c1b5a2deb7c06c89c79548c26eb1afb3a11c5a9fa70ddd3"
+    },
+    {
+      "path": "animations/vehicle/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "avatar/巨金怪不怪.png",
+      "size": 10388,
+      "sha256": "8b22842dd6dbaf55c759eff4f7f976c79d1cf8f4e634afe5e8b621c3bc831d61"
+    },
+    {
+      "path": "controller/main.animation_controllers.json",
+      "size": 617,
+      "sha256": "58a5a4f99a17e863505e5d985c5342fafccf53eeb5799a572dff4156086be4ad"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 16462,
+      "sha256": "b4d53c2b6a9cede71a897acd7f3bbb732607ad4366ee31db8fae9a271c25e671"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13752,
+      "sha256": "3afa51fa99152b689875ef25ca5853f92d4ccd0e44caf11d5ef58aa5413ccfbe"
+    },
+    {
+      "path": "models/main.json",
+      "size": 291018,
+      "sha256": "9d0d2cbbc5b1ba40d41906ebed2e6e7bd18b30614483a59d2a6c920edf3050aa"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 854,
+      "sha256": "205e4da892496567b38d2d5fa9efa703c22e1c8e9ef2b0d7ecd32c5b0682fa3a"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 88892,
+      "sha256": "98fc6bd11786c04cfc2cd40c78a9f524212bcb392d1699e7f84c03951474580a"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1652,
+      "sha256": "e264047a9e11b96c5526f352c434ef89ffdf5974195bb9a6e67c29aed526142d"
+    }
+  ]
+}

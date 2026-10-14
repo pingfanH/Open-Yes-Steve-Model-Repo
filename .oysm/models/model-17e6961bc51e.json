@@ -1,0 +1,370 @@
+{
+  "id": "卡莉",
+  "path": "parsed/卡莉",
+  "source": {
+    "path": "Unknown/卡莉.ysm",
+    "type": "ysm",
+    "stem": "卡莉"
+  },
+  "ysm": "parsed/卡莉/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/一只霜狐Owo.png",
+        "comment": "Huh？",
+        "name": "一只霜狐Owo",
+        "role": "角色作者"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "name": "卡莉",
+    "tips": "“守护他人的决意”"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#配置",
+      "extra1": "语言层情感曲",
+      "extra2": "EGO展现曲",
+      "extra3": "EGO展现",
+      "extra4": "扶剑下蹲",
+      "extra5": "40米大长刀",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "配置",
+        "name": "配置",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "开关显示烟",
+            "description": "吸烟有害健康哦",
+            "value": "v.roaming.cloth"
+          },
+          {
+            "type": "checkbox",
+            "title": "开关显示手套",
+            "description": "吉良附体",
+            "value": "v.roaming.cloth1"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "daiji",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json",
+        "fp_arm": "animations/fp.arm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/main.animation_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/红雾传说.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "boat": {
+        "model": "models/boat.json",
+        "animation": "animations/projectiles/boat.animation.json",
+        "texture": "textures/boat.png"
+      },
+      "chest_boat": {
+        "model": "models/chest_boat.json",
+        "animation": "animations/projectiles/chest_boat.animation.json",
+        "texture": "textures/chest_boat.png"
+      },
+      "minecart": {
+        "model": "models/minecart.json",
+        "texture": "textures/minecart.png"
+      }
+    },
+    "vehicles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/vehicle/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      },
+      "firework_rocket": {
+        "model": "models/firework_rocket.json",
+        "texture": "textures/firework_rocket.png"
+      },
+      "fishing_bobber": {
+        "model": "models/fishing_bobber.json",
+        "texture": "textures/fishing_bobber.png"
+      },
+      "trident": {
+        "model": "models/trident.json",
+        "texture": "textures/trident.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 44,
+    "total_bytes": 6213064,
+    "sha256": "ba64c21eef280402547d778bbf602fe799d6e55b3399d63d2de7ff8ea9a150bb",
+    "bones": 123,
+    "cubes": 605,
+    "faces": 3630,
+    "textures": 2,
+    "materials": 2,
+    "animations": 10,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 147066,
+      "sha256": "ca7dad25b211f499b07ece163fd95fbc275a0704e7eea3e94db93c91daf810af"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 92232,
+      "sha256": "a3228a50f18c53cc05e6321a22f4d8906cbed31920231ba086f0740f40dc1a99"
+    },
+    {
+      "path": "animations/fp.arm.animation.json",
+      "size": 249,
+      "sha256": "b5c33414dbae81448c21052a34a4b677e1a1d184fe3d666455c9192028afeb0c"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 191899,
+      "sha256": "33eeacd4eee5dfd919976959d2026a1a3da2603a463842e0eebc8a3cedf21a5b"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 141939,
+      "sha256": "02baf777afa0776abe148c8d246e8617e0789ce099cb4375e8de194614bc1ce0"
+    },
+    {
+      "path": "animations/projectiles/boat.animation.json",
+      "size": 693,
+      "sha256": "b0b02da5b6fcc31e82a9b56b7b7dc900f65030af927377889e09f64f14a7d8c1"
+    },
+    {
+      "path": "animations/projectiles/chest_boat.animation.json",
+      "size": 693,
+      "sha256": "b0b02da5b6fcc31e82a9b56b7b7dc900f65030af927377889e09f64f14a7d8c1"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 262768,
+      "sha256": "3ee5fb54c50ad26a8e110fffbb2f166300f19ee9c315faaf5f5059cf3ade170d"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "animations/vehicle/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "avatar/一只霜狐Owo.png",
+      "size": 6078,
+      "sha256": "99dd6a2f661f6a3094b267360dd11425a94d9650903f28ad80a94b1ac652e785"
+    },
+    {
+      "path": "controller/main.animation_controllers.json",
+      "size": 1434,
+      "sha256": "4fd79c94d51c8146db977b555ac1f0d638b498ac39a3976592e610b4b430e322"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 10475,
+      "sha256": "ac6d82b90675be77e849aa063adebfe5ad4ac5c8516cd80fcb89f00ad9b47010"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13752,
+      "sha256": "3afa51fa99152b689875ef25ca5853f92d4ccd0e44caf11d5ef58aa5413ccfbe"
+    },
+    {
+      "path": "models/boat.json",
+      "size": 34503,
+      "sha256": "10b6350f880a48a5c9ff6ade32dc3863d9d926f1931e101a85daa1bd9d0e091b"
+    },
+    {
+      "path": "models/chest_boat.json",
+      "size": 38124,
+      "sha256": "4d26d07ea4b94a88184684ffa7624959d58efaeaa6d1827841f4e82fd6af454d"
+    },
+    {
+      "path": "models/firework_rocket.json",
+      "size": 14369,
+      "sha256": "2acf630afccfd03f15759638caea1630c05a2394d349366172cc207754d51886"
+    },
+    {
+      "path": "models/fishing_bobber.json",
+      "size": 1882,
+      "sha256": "f7fb5b4522b2129efda58121e0a9d121c96300213244a2af59741c0f060a28c7"
+    },
+    {
+      "path": "models/main.json",
+      "size": 311663,
+      "sha256": "d3b14a3123c01b2ef4b5f3b84be2cc6295487873ce5e813677f8dbda5406ab6c"
+    },
+    {
+      "path": "models/minecart.json",
+      "size": 9423,
+      "sha256": "9976a9accbd99252b787f7083522a4595cd8062b27a32077aafe2a10d62a1d10"
+    },
+    {
+      "path": "models/trident.json",
+      "size": 7925,
+      "sha256": "a8b3f6a3b772c303ec067375b75847904d40a7af5d8611adf6beec7fed9c5401"
+    },
+    {
+      "path": "sounds/a1.ogg",
+      "size": 13207,
+      "sha256": "996940475b33cfc2a443d1812dd9776827d721f62a5c0c71a4ff5975f42962a7"
+    },
+    {
+      "path": "sounds/a2.ogg",
+      "size": 15062,
+      "sha256": "3239d4bf4446243e4e0eedf4ecee8fd377fa1584844f9fa60da53adaf885e8d0"
+    },
+    {
+      "path": "sounds/a3.ogg",
+      "size": 15521,
+      "sha256": "56d4a9b8951342e157b4a4a779b70ae932249ecf832f343407ba51355a22e137"
+    },
+    {
+      "path": "sounds/a4.ogg",
+      "size": 30169,
+      "sha256": "69df8084ec760baa928014c5b5ea57251c0d6959072b23a8933b01a0ba3028a4"
+    },
+    {
+      "path": "sounds/a5.ogg",
+      "size": 33113,
+      "sha256": "61bd8e6636df5ef3ebd1f91d7010dccf9491f97b624624e66adefe3571a6ac5d"
+    },
+    {
+      "path": "sounds/d1.ogg",
+      "size": 17520,
+      "sha256": "73a71769922e15c2f272baf0a0e4c71e50c83721272411f33e1581205c3eeff4"
+    },
+    {
+      "path": "sounds/d2.ogg",
+      "size": 11058,
+      "sha256": "de0985929c59764a7d4f29bee931b97a8ec747230f1e67f56577ec0ec33d5e06"
+    },
+    {
+      "path": "sounds/d3.ogg",
+      "size": 14312,
+      "sha256": "38afddbf6f743fedf81a69cf13044180b3e53e0d02315da2c52a4276ccc00edc"
+    },
+    {
+      "path": "sounds/red.ogg",
+      "size": 1359554,
+      "sha256": "0799e835d86928a7397b4b3e5fc4db123cfc05fb254c0172bd193773680cedfe"
+    },
+    {
+      "path": "sounds/redego.ogg",
+      "size": 1281843,
+      "sha256": "62f59a42fcf94c34e1c03a8b21cbbe3d98c9e52dc947fbcddead9ce1e5f9cee7"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 854,
+      "sha256": "205e4da892496567b38d2d5fa9efa703c22e1c8e9ef2b0d7ecd32c5b0682fa3a"
+    },
+    {
+      "path": "textures/boat.png",
+      "size": 1774,
+      "sha256": "777eebdbe93ab2c7f97575526bcc25b54ee44a4602e55cce71a4db12fa523447"
+    },
+    {
+      "path": "textures/chest_boat.png",
+      "size": 1774,
+      "sha256": "777eebdbe93ab2c7f97575526bcc25b54ee44a4602e55cce71a4db12fa523447"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 4952,
+      "sha256": "a438b6694eb6bb9a00f70fa0ece597c19819ca60e88464d862c917c97284302b"
+    },
+    {
+      "path": "textures/firework_rocket.png",
+      "size": 378,
+      "sha256": "031d49341b0c1981e4fa401943a1e88902c13795f3114369724fe9eef31d7554"
+    },
+    {
+      "path": "textures/fishing_bobber.png",
+      "size": 154,
+      "sha256": "d706b5f2e919ae85f5d99dc908df70504ac109873130da0fbddf027fb6b18375"
+    },
+    {
+      "path": "textures/minecart.png",
+      "size": 716,
+      "sha256": "9d0c072a57ae96ec6c5560ffc5373fb0809a4e02617cf8439e6b2b492ab131fd"
+    },
+    {
+      "path": "textures/trident.png",
+      "size": 254,
+      "sha256": "2c923d07fb8a84d9b1bacd83e896111d64c636872336ab25eeefce670054b19d"
+    },
+    {
+      "path": "textures/红雾传说.png",
+      "size": 4950,
+      "sha256": "bef781d33e75d354f907b4642999ca0cfc1212fca7a1fb9541261123cc9f6db7"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2415,
+      "sha256": "6fe83a549cf3178eaca74c0eb7bd4f586147c98f34790117f98f5ac305386645"
+    }
+  ]
+}

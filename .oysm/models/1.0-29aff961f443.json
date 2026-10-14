@@ -1,0 +1,195 @@
+{
+  "id": "阿消1.0",
+  "path": "parsed/阿消1.0",
+  "source": {
+    "path": "Unknown/阿消1.0.ysm",
+    "type": "ysm",
+    "stem": "阿消1.0"
+  },
+  "ysm": "parsed/阿消1.0/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/modn君.png",
+        "comment": "",
+        "name": "modn君",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "阿消只是想独占长官",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "home": "https://space.bilibili.com/695001141"
+    },
+    "name": "阿消",
+    "tips": "明日方舟——阿消"
+  },
+  "properties": {
+    "width_scale": 0.69971,
+    "height_scale": 0.69971,
+    "extra_animation": {
+      "extra0": "",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": "#配置",
+      "dance6": "踩踩",
+      "dance7": "憋不住了",
+      "water": "灭火咯",
+      "dance5": "摇摇",
+      "pose1": "pose1",
+      "pose2": "pose2"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "配置",
+        "name": "穿戴调整",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "外套",
+            "description": "穿脱外套",
+            "value": "v.cc"
+          },
+          {
+            "type": "checkbox",
+            "title": "帽子",
+            "description": "穿脱帽子",
+            "value": "v.hh"
+          },
+          {
+            "type": "checkbox",
+            "title": "裤子",
+            "description": "穿脱裤子",
+            "value": "v.kk"
+          },
+          {
+            "type": "checkbox",
+            "title": "内衣",
+            "description": "运动内衣",
+            "value": "v.ny"
+          },
+          {
+            "type": "checkbox",
+            "title": "消防器",
+            "description": "消防器",
+            "value": "v.xfq"
+          },
+          {
+            "type": "checkbox",
+            "title": "泳衣上",
+            "description": "泳衣上",
+            "value": "v.bc"
+          },
+          {
+            "type": "checkbox",
+            "title": "泳衣下",
+            "description": "泳衣下",
+            "value": "v.pc"
+          },
+          {
+            "type": "checkbox",
+            "title": "松鼠",
+            "description": "挂件",
+            "value": "v.guajian"
+          },
+          {
+            "type": "checkbox",
+            "title": "脸红",
+            "description": "脸红",
+            "value": "v.redface"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "preview_animation": "idle",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "extra": "animations/extra.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        },
+        {
+          "uv": "textures/textureson.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 8,
+    "total_bytes": 616087,
+    "sha256": "76c75cae5dcb3063be061d35a4a3060a4383bed46f5fad8d7d32c006a2ceb38a",
+    "bones": 163,
+    "cubes": 483,
+    "faces": 2898,
+    "textures": 2,
+    "materials": 2,
+    "animations": 2,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/extra.animation.json",
+      "size": 42123,
+      "sha256": "cdd7a8be37184648151dc92c38462812abf50804e4dc1c1c466eda2021bc075f"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 162127,
+      "sha256": "b233901a81b2c721b8300f3bbec803aef89fdc6f2a5affd641371d140d36870f"
+    },
+    {
+      "path": "avatar/modn君.png",
+      "size": 20708,
+      "sha256": "99921807816b3a7230f83e824f2a38cee42b750c3fc5696c3b53a036258cfc40"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 3399,
+      "sha256": "700e4576f2fa948f2c6cbd36008c1095f902d38a5b8b1957be69f1018ca5304b"
+    },
+    {
+      "path": "models/main.json",
+      "size": 281665,
+      "sha256": "9cc7dfc0cfd918155765c1b6db49361911cd30ac40375c106454ab207666690d"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 51834,
+      "sha256": "f02a6ee8024bd7cec4bd3227077785b063ee45f4ef95997d4e4d8a1390caf1a9"
+    },
+    {
+      "path": "textures/textureson.png",
+      "size": 52382,
+      "sha256": "e8ce98d6da97145d59d2698d3ece8f0f36a3721c6af2fa9dfd684e002e7d6e9f"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1849,
+      "sha256": "cd20937e40e69ee29e45cf29071a604ddad30abb10b0f33b7ae9fc9d89d58093"
+    }
+  ]
+}

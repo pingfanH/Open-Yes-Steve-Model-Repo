@@ -1,0 +1,242 @@
+{
+  "id": "-小空",
+  "path": "parsed/-小空",
+  "source": {
+    "path": "Unknown/-小空.zip",
+    "type": "zip",
+    "stem": "-小空"
+  },
+  "ysm": "parsed/-小空/ysm.json",
+  "metadata": {
+    "name": "叶小空",
+    "tips": "叶筱实养的豪猫，性格沉稳又温柔。\n\n“好奇我哈气是什么样子？嗯嗯——”\n“哈！！！！哼哼~满足了吗？”",
+    "license": {
+      "type": "CC BY-NC-SA 4.0",
+      "desc": "允许非商业目的下的使用、修改和分享"
+    },
+    "authors": [
+      {
+        "name": "1n4i34",
+        "avatar": "avatar/download20230802121626.png",
+        "role": "模型",
+        "comment": "小孩子不懂事做着玩的"
+      }
+    ]
+  },
+  "properties": {
+    "extra_animation": {
+      "extra0": "#模型配置",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "Get Down",
+      "extra4": "乱舞",
+      "extra5": "卖萌",
+      "extra6": "御笔摇",
+      "extra7": "舞蹈"
+    },
+    "preview_animation": "gui",
+    "free": true,
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "render_layers_first": false,
+    "disable_preview_rotation": true,
+    "all_cutout": false,
+    "default_texture": "skin",
+    "extra_animation_buttons": [
+      {
+        "id": "模型配置",
+        "name": "模型配置",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "墨镜",
+            "description": "是否戴墨镜",
+            "value": "v.roaming.mojing"
+          },
+          {
+            "type": "radio",
+            "title": "眉毛",
+            "description": "眉毛类型选择",
+            "value": "v.roaming.brow_type",
+            "labels": {
+              "ˉ ˉ": "v.roaming.brow_type = 0;",
+              "ˋ ˊ": "v.roaming.brow_type = 1;",
+              "ˊ ˋ": "v.roaming.brow_type = 2;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "眼睛",
+            "description": "眼睛类型选择",
+            "value": "v.roaming.eye_type",
+            "labels": {
+              "O O": "v.roaming.eye_type = 0;",
+              "> <": "v.roaming.eye_type = 1;"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "嘴巴",
+            "description": "嘴巴类型选择",
+            "value": "v.roaming.mouth_type",
+            "labels": {
+              "w": "v.roaming.mouth_type = 0;",
+              "- -": "v.roaming.mouth_type = 1;",
+              "Δ": "v.roaming.mouth_type = 2;",
+              "呲牙笑": "v.roaming.mouth_type = 3;",
+              "开口笑": "v.roaming.mouth_type = 4;",
+              "哈气": "v.roaming.mouth_type = 5;",
+              "生气": "v.roaming.mouth_type = 6;"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "texture": [
+        {
+          "uv": "textures/skin.png"
+        },
+        {
+          "uv": "textures/skin0.png"
+        }
+      ]
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "texture": {
+        "uv": "textures/arrow.png"
+      },
+      "animation": "animations/arrow.animation.json"
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 20,
+    "total_bytes": 7587253,
+    "sha256": "b134136cda2135ab17b87d6964806a3ed1aa53c8503ba1a13f1a4b2d327ca2e2",
+    "bones": 158,
+    "cubes": 814,
+    "faces": 4884,
+    "textures": 2,
+    "materials": 2,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "JDWL.js",
+      "size": 15551,
+      "sha256": "46933726673e567abaca8690f31c6d1e451ad86f85805dbcc6410acb9c4210fa"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1122,
+      "sha256": "bc6cff221fc2c751de765c6ffdbd24115bca062b5d19fa4f8f716fdbf6c27389"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3227,
+      "sha256": "7505fb3927b771983d663c3c72bbf817d4b6c6e76561fb349f0c7cf9ba916e0c"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 617243,
+      "sha256": "322d0aff880c43dadc21783da738cd62e32a0abbecb642207b3de0169c62736b"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 366669,
+      "sha256": "424c056b33ca9582de8372b5672e3e48101ab6ef6fce4d7da30f45406b132730"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 158188,
+      "sha256": "d7ed130ead635f0f5d9323612ddd313dbe299755ae362e52b933caf5fc1f5e9f"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 294025,
+      "sha256": "45a8b54c6fdeaa05a3bc4c7c02af71d26f9d2fa1038a5eec1f8c56d6b3ff811b"
+    },
+    {
+      "path": "avatar/download20230802121626.png",
+      "size": 21410,
+      "sha256": "4bf42b037c00dc07d15b93852a8873f7cb13fbe0e430792240a07539605a7125"
+    },
+    {
+      "path": "main.py",
+      "size": 14304,
+      "sha256": "e874c2a1709014063af15165ed0803eba536e8ef5258d7541f1bb52445b6f833"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 4509,
+      "sha256": "3587d6f46d6eb61b1683056e9417072adc870047506e8c132279f00a2691117d"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 29883,
+      "sha256": "13fd9a38830571238aa6a45338b188d9626229dbc1a73f81aefd04af53b36d5a"
+    },
+    {
+      "path": "models/main.bbmodel",
+      "size": 4848080,
+      "sha256": "d2bc02365fda6dae25fe6607a639b85c5dcc13179609dab56d7b07375d8300e8"
+    },
+    {
+      "path": "models/main.json",
+      "size": 433927,
+      "sha256": "7b1d3e6c13e49b5ba5cd63ece48ed7af815c18bb9d1bc74da6a0c57b549a8266"
+    },
+    {
+      "path": "sounds/get_down.ogg",
+      "size": 289223,
+      "sha256": "63dbf11be085953b3232710552f049df9465c1a15327cd083ecaa0f726cba86c"
+    },
+    {
+      "path": "sounds/otoko_wa_tsurai_yo.ogg",
+      "size": 298472,
+      "sha256": "53dc18199056bc254a8e664483b4adbcf3317bee5d1182435323c6cc4960b191"
+    },
+    {
+      "path": "sounds/zufolo_impazzito.ogg",
+      "size": 172286,
+      "sha256": "ee80cfe3f9ad70f2bd6b3b735d65c5c356c1119c67c8da4d812c838058ca6990"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 1212,
+      "sha256": "0d4435fe0620372d92279e07af771b1e96cdd5d6c3e1628a538336195d47eaaf"
+    },
+    {
+      "path": "textures/skin.png",
+      "size": 9621,
+      "sha256": "9b019785a7f4f30be799ecf6b4a6a86cead73f72bd2fe723c1c40311669adf86"
+    },
+    {
+      "path": "textures/skin0.png",
+      "size": 5400,
+      "sha256": "6ae4d2613af52f23256f44f718f780052246611113703326c760dde19f5779dc"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2901,
+      "sha256": "88535ae93a9e765406e8d24667e442896c6f12d82dd6a7c4ce403ba494ff45ba"
+    }
+  ]
+}

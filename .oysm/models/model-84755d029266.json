@@ -1,0 +1,261 @@
+{
+  "id": "_忍者",
+  "path": "parsed/_忍者",
+  "source": {
+    "path": "Uncategorized/_忍者.ysm",
+    "type": "ysm",
+    "stem": "_忍者"
+  },
+  "ysm": "parsed/_忍者/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "",
+        "name": "泉溪",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "忍者",
+    "tips": "大家好，我是忍者，今天来点释放忍术"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "握握双手",
+      "extra1": "一刀一刀燃烧刀",
+      "extra2": "影分身十字斩",
+      "extra3": "岚刀一直切",
+      "extra4": "令神龙造成烟雾",
+      "extra5": "哎哟卧槽闪现",
+      "extra6": "吐火焰",
+      "extra7": "暗龙夺魂手",
+      "dongzuo1": "舍利子回魂",
+      "": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "Simple Config",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 27,
+    "total_bytes": 2917349,
+    "sha256": "2fd6b416ec0a386d32a4af6e917362b6488085b101efb770a772891a69ba2958",
+    "bones": 119,
+    "cubes": 325,
+    "faces": 1950,
+    "textures": 2,
+    "materials": 2,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 156984,
+      "sha256": "720d867552b494358bb0a135cf7dd9bfbfc9329ac3f7a3d5522154bd4d0e83c3"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 22313,
+      "sha256": "25f1820e86ae96a4ad2d187023c7dcaafd944cd6fecb5704ba910b8a0843a8f1"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 177527,
+      "sha256": "05732a07d38f01ceacbe130210a13b06cd69e3f50035bcd8e086e7b570edc618"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "avatar/泉溪.png",
+      "size": 7683,
+      "sha256": "c58a5058352f2c366a9f0c7f0b1b869c461f3ce98ee2e54466a08e4ebb749c71"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 617,
+      "sha256": "58a5a4f99a17e863505e5d985c5342fafccf53eeb5799a572dff4156086be4ad"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 9099,
+      "sha256": "e0defdb5c5eb40f5ffcce097aa72023da268c060dd66069eace0ab1eb0607344"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 14514,
+      "sha256": "112c792e9135331ef21e13b84b0df47b4d8f665b4f950665f3d1050d6e403d68"
+    },
+    {
+      "path": "models/main.json",
+      "size": 167770,
+      "sha256": "371cb7a39e2ab769220a62a997ef47c213496e015baed043a85c3aa41fa68d41"
+    },
+    {
+      "path": "sounds/aldhs.ogg",
+      "size": 13820,
+      "sha256": "49d2dd1e8a389d62248fa363e2bf73e973e4d166284cb5ab6ed6b02bfb34b48f"
+    },
+    {
+      "path": "sounds/aywcsx.ogg",
+      "size": 16658,
+      "sha256": "d6691cd0d3a05b7fc43e75fb9b242ec352f7558106feee88786df10b6273f0ea"
+    },
+    {
+      "path": "sounds/hhs.ogg",
+      "size": 17648,
+      "sha256": "f32e6ae9d33470147170958fe6b38b7f2611f9788d851fd15f9f54be1f4f3132"
+    },
+    {
+      "path": "sounds/ldyzq.ogg",
+      "size": 34038,
+      "sha256": "8f5a5cf5f31daffd40bd9a1e69bc53cf106ca8d0fe5ef4626906d2103df4d5f6"
+    },
+    {
+      "path": "sounds/lslzcyw.ogg",
+      "size": 18808,
+      "sha256": "1affa5f27f2607e8d8db644f8a6cef07b2f2e890648acff039e5d85826ba99a8"
+    },
+    {
+      "path": "sounds/sfyys.ogg",
+      "size": 39287,
+      "sha256": "6739876785ae12ae8a01b9de29165e3b710dddd05228ab0f322af97462f38903"
+    },
+    {
+      "path": "sounds/slzhh.ogg",
+      "size": 17594,
+      "sha256": "b88727d44afdabae2465d0c7a802a9eae1233880c6211f8fcdf0062658266638"
+    },
+    {
+      "path": "sounds/thy.ogg",
+      "size": 14283,
+      "sha256": "8c7a6f6e727c6d71e089f6fbf83bfb64cfff53d63873a420e7ef6d59fcbd7e68"
+    },
+    {
+      "path": "sounds/wowoshou.ogg",
+      "size": 39029,
+      "sha256": "18462985093d41e8ea6e3a14eb289c0ee0485555ca3a61a7c2064fbe1707cae7"
+    },
+    {
+      "path": "sounds/xppry.ogg",
+      "size": 33194,
+      "sha256": "79bb3340fc9c053f83747f821d094bd2f6e5af860f24445561d0669dc5bd0acf"
+    },
+    {
+      "path": "sounds/ydydrsd.ogg",
+      "size": 11658,
+      "sha256": "0e09c6d9e107d104eccb98312533b5c83783a1163645dcf5cf7e67ac54733141"
+    },
+    {
+      "path": "sounds/yfsszz.ogg",
+      "size": 52683,
+      "sha256": "ad5283c221d6117bb8c7335c3efc53c15d21bc249b9718fc2a85e0f86c051865"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2689,
+      "sha256": "efdf744f6f8a747cafa4cc79551a9ccef3fc36e9c81e9535a132ceb8220638e6"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 11115,
+      "sha256": "3d6ee25dd9507b59b1f9c436d3dcb9203c7b871121b7bd7907109916d38ecafc"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 10310,
+      "sha256": "17d6b2cb61a1c499fe29445548ab46150a8377a4020943c73067875e26cebede"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1727,
+      "sha256": "7767a5164f1c23ea0fb385dea0be653f9ffb9a0c7b474f1d805438998d0b0636"
+    }
+  ]
+}

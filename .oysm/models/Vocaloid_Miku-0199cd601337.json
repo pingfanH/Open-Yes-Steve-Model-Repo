@@ -1,0 +1,193 @@
+{
+  "id": "Vocaloid_Miku(机械神甫)",
+  "path": "parsed/Vocaloid_Miku(机械神甫)",
+  "source": {
+    "path": "_Vocaloid-UTAU/Vocaloid_Miku(机械神甫).ysm",
+    "type": "ysm",
+    "stem": "Vocaloid_Miku(机械神甫)"
+  },
+  "ysm": "parsed/Vocaloid_Miku(机械神甫)/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/小萌新idjdkd.png",
+        "comment": "none",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/1573788561"
+        },
+        "name": "小萌新idjdkd",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 4.0 By-NC-SA"
+    },
+    "link": {
+      "donate": "none",
+      "home": "none"
+    },
+    "name": "机械神甫初音",
+    "tips": "因为是机械神甫，所以有一堆机械结构，且低血量爆衣也是很露骨地(太空排骨的骨doge)推荐搭配SimplyWakl模组使用，胸甲裤子做了可脱，钻石甲对应防弹衣，持枪跑步概率顺拐，表情只能持续10秒，https://space.bilibili.com/1573788561我的b站号关注球球惹qwq"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "分类1",
+        "name": "7"
+      },
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "Size/大小: ",
+            "description": "Change the player size (改变玩家大小)",
+            "value": "v.player_size",
+            "step": 0.05,
+            "min": 0.2,
+            "max": 3.0
+          },
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/uv.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 14,
+    "total_bytes": 4207087,
+    "sha256": "f672a6bb052987820602731b4aeee9258961c242ed4349a433f54a2479a132a6",
+    "bones": 162,
+    "cubes": 2118,
+    "faces": 12708,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 87410,
+      "sha256": "a0a6f143b26cf6e1e49c371383111483bf70327420523f9c04af72255dd58227"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 283564,
+      "sha256": "1a0e06873596abab04f94ea8e1fc52dce2be2d38354f0fb1cb1e61f5f0728a5d"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 130638,
+      "sha256": "170dcd9532f9880c365aafce3d52792de6848afce347e35006eb771d3a9975ee"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1505299,
+      "sha256": "2cfe596c36beecaa1688b55951b4272e660c066078bb5d95b20240a32a3a20da"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 147055,
+      "sha256": "670040b7b4b8967896208f3b11b652203a8a155b9a2f1114615e7f6dd5cdbdd5"
+    },
+    {
+      "path": "avatar/小萌新idjdkd.png",
+      "size": 21456,
+      "sha256": "8b39a7c8d6035bb4fac416fede75fd1f87358240f680a7f213636333d801828f"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 1840,
+      "sha256": "76465f71db1ac897a149346e013cfdd82aaef3a74ed44843d7a20d13dc5c70db"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 324697,
+      "sha256": "1604bef5e909855e6845545afbf444d41f1868fa9b2c036f8ca403dfc12f267a"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1406483,
+      "sha256": "b50b70091945934507e02c07e9b94bafd40b7590c033e9cfab1f9bb72fd92b9d"
+    },
+    {
+      "path": "textures/uv.png",
+      "size": 76184,
+      "sha256": "a9833258c275fa99dbeb3f8ab16b6862a7d5fac0c424a15611e6d6e3eae2187e"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1965,
+      "sha256": "fc8a9cc5e9b15ca2ef505c41d641f2f90d71ee48b8e94da2b9cd85a17625fc79"
+    }
+  ]
+}

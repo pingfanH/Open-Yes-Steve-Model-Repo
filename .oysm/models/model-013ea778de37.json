@@ -1,0 +1,206 @@
+{
+  "id": "_公主",
+  "path": "parsed/_公主",
+  "source": {
+    "path": "Uncategorized/_公主.ysm",
+    "type": "ysm",
+    "stem": "_公主"
+  },
+  "ysm": "parsed/_公主/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "逸一时，误一世",
+        "contact": {
+          "Afdian": "https://modrinth.com/mod/yes-steve-model",
+          "Bilibili": "https://space.bilibili.com/44619913?spm_id_from=333.1007.0.0"
+        },
+        "name": "泉溪",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "1",
+        "name": "泉溪",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "1",
+        "name": "泉溪",
+        "role": "动画"
+      },
+      {
+        "avatar": "avatar/泉溪.png",
+        "comment": "1",
+        "contact": {
+          "Afdian": "hhttps://modrinth.com/mod/yes-steve-model",
+          "Bilibili": "https://modrinth.com/mod/yes-steve-model"
+        },
+        "name": "泉溪",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "link": {
+      "donate": "https://space.bilibili.com/44619913?spm_id_from=333.1007.0.0",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "公主",
+    "tips": "射程最远的一集"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "表情8",
+      "extra1": "表情1",
+      "extra2": "表情2",
+      "extra3": "表情3",
+      "extra4": "表情4",
+      "extra5": "表情5",
+      "extra6": "表情6",
+      "extra7": "表情7"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 16,
+    "total_bytes": 940310,
+    "sha256": "096b4f4dfceebdfc15bb06403b000705a5adf0d8663b943f8cc01c35ffb6e224",
+    "bones": 109,
+    "cubes": 236,
+    "faces": 1416,
+    "textures": 2,
+    "materials": 2,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 137643,
+      "sha256": "038c3b03a1fb842bd7b96ec9f1b485f5668a0508c2651c81dc2e49082844e465"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 335,
+      "sha256": "aec5c9ec9d009208ed420874c1236ee58e80e3ce22e58646652ad9904a2d823c"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 20887,
+      "sha256": "8991b06c4e836d8fa49df02b5bc99bd782c901bcc153fb0b73a3279be1265347"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 198020,
+      "sha256": "0c4293cba9c00430e4ccc9690b507771c540f9c6f92540d585384798f441c34a"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/泉溪.png",
+      "size": 19374,
+      "sha256": "6cd420a5238d37083afb1a43736ae8f862dfb9d9065c1ae1895c2ee20071333c"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 5878,
+      "sha256": "80809517d4793a42967451325c3010306ec967a65442c281d6ddd8eb1db4309c"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 44796,
+      "sha256": "9354d512c67ba17c09bcec2962b54e0d2393e7a44df5bde2e95ced3a1b9b4e92"
+    },
+    {
+      "path": "models/main.json",
+      "size": 123887,
+      "sha256": "9431ccbfb43584716fa8ac68eee701d06c1a7564f443e39b9b65f5676f787721"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 859,
+      "sha256": "23d914f6be42d8325dc85e082b6263832afd17fea3a9e0a05d168116572a90bc"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 11115,
+      "sha256": "3d6ee25dd9507b59b1f9c436d3dcb9203c7b871121b7bd7907109916d38ecafc"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 16608,
+      "sha256": "f9ecdb8b59810d78ce1fecebf4d95e04a75426c57339539a5ba5e93c837c3b01"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1847,
+      "sha256": "3cbb40d8639f0a116f1ee12c074bba1439f5abd58c07f4a32434f5926fc6d7aa"
+    }
+  ]
+}

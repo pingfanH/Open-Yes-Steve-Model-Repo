@@ -1,0 +1,220 @@
+{
+  "id": "征酱（酒狐动画）",
+  "path": "parsed/征酱（酒狐动画）",
+  "source": {
+    "path": "Unknown/征酱（酒狐动画）.ysm",
+    "type": "ysm",
+    "stem": "征酱（酒狐动画）"
+  },
+  "ysm": "parsed/征酱（酒狐动画）/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/苏联球.png",
+        "comment": "新手ysm作者",
+        "contact": {
+          "Afdian": "https://afdian.com/a/6TGESILA",
+          "Bilibili": "https://space.bilibili.com/17798027"
+        },
+        "name": "苏联球",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/明介.png",
+        "comment": "对二战德军制服感兴趣的ysm制作者",
+        "contact": {
+          "Afdian": "https://afdian.com/a/lucia2048",
+          "Bilibili": "https://space.bilibili.com/14975572"
+        },
+        "name": "明介",
+        "role": "技术教学"
+      },
+      {
+        "avatar": "avatar/烈焰升腾.png",
+        "comment": "烈焰升腾，燃尽世间",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/14975572"
+        },
+        "name": "烈焰升腾",
+        "role": "来源"
+      },
+      {
+        "avatar": "avatar/长征.png",
+        "comment": "征酱可爱捏",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/20682514"
+        },
+        "name": "长征",
+        "role": "？"
+      },
+      {
+        "avatar": "avatar/长征.png",
+        "comment": "征酱可爱捏",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/5718046"
+        },
+        "name": "长征",
+        "role": "？"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "长征机（上帝机）",
+    "tips": "你好呀，我是长征，请问有什么可以帮助到你吗？"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "换头饰",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "是的",
+      "extra4": "不行",
+      "extra5": "卖萌",
+      "extra6": "御笔摇",
+      "extra7": "舞蹈"
+    },
+    "extra_animation_classify": [],
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/skin.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 4239141,
+    "sha256": "720701ec574e18bdda163d70cf6f6d16af133f0a79c8f05b1d1cc14ce935f721",
+    "bones": 67,
+    "cubes": 219,
+    "faces": 1314,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1138,
+      "sha256": "6ef6791b2b391fc30bb2f74f26eb09de94e2a382c535202f5d736eb89d37577d"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "6e8d3afe0c3baafff8f7f3e0e30ef3c621c667be5c346af73398f5fd3cb89ca5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 118920,
+      "sha256": "3da9a925066ba91aa8470c4ed7d6b4312d040b96a0aacc3f213e8b4f8b7a2566"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 286590,
+      "sha256": "47163b7bd76f3054e413690ceb07f2e2c4bab03c39796ae2fa2c0b5c85625a3a"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 158800,
+      "sha256": "8da3a8446d93f3ae4d1b52e56c382139efe34848a86c31cc9138cf9abda507cc"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 303596,
+      "sha256": "d1284a0c26e81307abfd587033abe8537bb31ca0b794151fa132b588364e0c8d"
+    },
+    {
+      "path": "avatar/明介.png",
+      "size": 24853,
+      "sha256": "6c52f5886d94a69d077d2af37bf71a078008a305d284b659f1d757ae2b2fe215"
+    },
+    {
+      "path": "avatar/烈焰升腾.png",
+      "size": 148137,
+      "sha256": "5a0f6df7a3d041ad43286745db5fdc6d4d5c747aa43453059f7aa1f143dd298e"
+    },
+    {
+      "path": "avatar/苏联球.png",
+      "size": 839739,
+      "sha256": "6bf26404ee6cf00a857df64909f91f107d613fc6d3eeb8e679dff6ce0645cedd"
+    },
+    {
+      "path": "avatar/长征.png",
+      "size": 1872476,
+      "sha256": "1f42cf10a26eec085cbe2a1c25ade27ccfb0c3a9c4bbb28d11581d368efc4000"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 6569,
+      "sha256": "86e23817312feb9f55095c69eb83df01828d724ff4cb137d5b4a8e55c947d14a"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 29338,
+      "sha256": "cec520f5f3e57194a673c4b8c003487f6e13a9dda23ae8ae80ae4ae729d0b418"
+    },
+    {
+      "path": "models/main.json",
+      "size": 111460,
+      "sha256": "e674e946f0f881ad257756f719255a97377d1ce77a2d212df08044626703e10e"
+    },
+    {
+      "path": "sounds/minuet.ogg",
+      "size": 311756,
+      "sha256": "30a88e8e2e97c04b9916a863c54ffb18554e346efd485b1c0128da7d9390beb4"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 4355,
+      "sha256": "e31564c74bb29ae60d4fc6cb9f44a7202cd0518b29aa2b44c811a6b0c7ca9fe8"
+    },
+    {
+      "path": "textures/skin.png",
+      "size": 16679,
+      "sha256": "5a1ebdd674896f69a4cd4bbc92ecccc90eafe106d3234561326d9294563ad5c7"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2060,
+      "sha256": "587cb27da1e6d3372ef95058a238688358e2b556443744fba7ba6d9f136cb52c"
+    }
+  ]
+}

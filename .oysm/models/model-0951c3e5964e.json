@@ -1,0 +1,236 @@
+{
+  "id": "审判鸟",
+  "path": "parsed/审判鸟",
+  "source": {
+    "path": "Unknown/审判鸟.ysm",
+    "type": "ysm",
+    "stem": "审判鸟"
+  },
+  "ysm": "parsed/审判鸟/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/一只霜狐Owo.png",
+        "comment": "Huh？",
+        "name": "一只霜狐Owo",
+        "role": ""
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "审判鸟[高鸟]",
+    "tips": "她的天平能够绝对公正地衡量任何罪恶。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#配置",
+      "extra1": "",
+      "extra2": "剑礼",
+      "extra3": "屋内不许荡秋千！",
+      "extra4": "躺坐",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "配置",
+        "name": "配置",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "眼部绷带",
+            "description": "显示眼部绷带",
+            "value": "v.roaming.cloth"
+          },
+          {
+            "type": "checkbox",
+            "title": "天平发卡",
+            "description": "显示天平饰品",
+            "value": "v.roaming.cloth1"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "xuanzhong",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 23,
+    "total_bytes": 3496604,
+    "sha256": "30f4a6e6511bce8118ba5f1bb35c9db124fb9c66d7bb81fc74c7e73b5b462e09",
+    "bones": 112,
+    "cubes": 708,
+    "faces": 4248,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 199274,
+      "sha256": "3491567e5b54eede075d1c724c96d89668d660620d5c0d139df71480bbbbcba2"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 101208,
+      "sha256": "84c4aa3a4cbced30d4715f394b264c6aebd614c583e440b5c858c7e13e263bf3"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 192694,
+      "sha256": "62738927276bfdbfe498bdc6a9272672262d06befa6ee8540e03b117c23b5891"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 1014,
+      "sha256": "cdc79b7671cb6f050c9c2f5bc98c545fdbd5402c6b04e22ebe72b4e045c10486"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 16193,
+      "sha256": "4f52dc2fe0610d7399171226f8a8c1121c0c9a6d16d84eae397fea017db4360a"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13725,
+      "sha256": "605fc04a716cfd12d30b5d6fb5d6db461504bd2f8da602fe078a4f57b4d71c71"
+    },
+    {
+      "path": "models/main.json",
+      "size": 357011,
+      "sha256": "d804764e43fbbe81481146996e37660a4571d9efe7e48a8a1f4cf3a7916f6915"
+    },
+    {
+      "path": "sounds/a1.ogg",
+      "size": 15362,
+      "sha256": "7372793e853f90a73ebb80dea1b3ecbde0810be9961192ae1ef55aa215bf1b11"
+    },
+    {
+      "path": "sounds/a2.ogg",
+      "size": 17919,
+      "sha256": "d73e331cee9357b6d2d3059f899f7e90fe82e8e87ce2da3d5fa31753e3955e7a"
+    },
+    {
+      "path": "sounds/a3.ogg",
+      "size": 32748,
+      "sha256": "1a3d55b9a60ebc37c9b37f8432813c85cf584e4b7a7e3f1d7b94ceabb9ad6a60"
+    },
+    {
+      "path": "sounds/a4.ogg",
+      "size": 14664,
+      "sha256": "0b73e67984acee3f3689987ecb7c4549e14cae47b79a0cd3a66f93f93be732b1"
+    },
+    {
+      "path": "sounds/m.ogg",
+      "size": 29318,
+      "sha256": "712cbe737a98c90e160794718a97bfd94e3e1588a2f5c7cea9f8abf5e607ffb7"
+    },
+    {
+      "path": "sounds/shengpan.ogg",
+      "size": 41629,
+      "sha256": "ab53407929fd142f540a73b755e995c2997742b869c102908a45ad541eda1d30"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2686,
+      "sha256": "197669635bbf7b8cf8892b6912e428c92c66aac37ea2d3f1a174c9a04b2b64f6"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 21013,
+      "sha256": "ece821760abf3273ad3515db474fcb8c63bde34f3d0a0b85f33cf1cd770a9683"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1751,
+      "sha256": "f4ef99c86529bfcf598c4a42177cae26a88c81c6ebcc3a0a5913c27dd8d596bc"
+    }
+  ]
+}

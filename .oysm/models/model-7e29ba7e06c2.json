@@ -1,0 +1,687 @@
+{
+  "id": "椰子",
+  "path": "parsed/椰子",
+  "source": {
+    "path": "Unknown/椰子.ysm",
+    "type": "ysm",
+    "stem": "椰子"
+  },
+  "ysm": "parsed/椰子/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/烛火的次元宇宙.png",
+        "comment": "还在成长的MC/YSM模型作者",
+        "contact": {
+          "Afdian": "http://afdian.com/a/zhuhuo",
+          "Bilibili": "https://space.bilibili.com/57715833?spm_id_from=333.1007.0.0"
+        },
+        "name": "烛火的次元宇宙",
+        "role": "模型"
+      },
+      {
+        "avatar": "avatar/烛火的次元宇宙.png",
+        "comment": "",
+        "name": "烛火的次元宇宙",
+        "role": "动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "http://afdian.com/a/zhuhuo",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "§d椰子",
+    "tips": "做事稳当，身材高挑的肉感型猫。\n但其实是水无月家中除了巧克力和香草之外年龄最小的。\n有时会对自己缺乏女生气的外表带有自卑感。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#配置",
+      "extra6": "挠头",
+      "extra7": "扭扭舞",
+      "extra8": "坐椅子",
+      "#摸摸": "摸摸合集",
+      "#自定义姿势": "自定义姿势",
+      "#默认动作": "默认动作",
+      "#表情轮盘": "表情轮盘"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "配置",
+        "name": "配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "玩家大小",
+            "description": "改变玩家大小",
+            "value": "v.player_root_size",
+            "step": 0.05,
+            "min": -0.75,
+            "max": 1.0
+          },
+          {
+            "type": "range",
+            "title": "坐姿",
+            "description": "改变玩家坐姿",
+            "value": "v.zz",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 10.0
+          },
+          {
+            "type": "range",
+            "title": "POSS",
+            "description": "改变玩家POSS",
+            "value": "v.zs",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 5.0
+          },
+          {
+            "type": "range",
+            "title": "眼睛",
+            "description": "改变玩家眼睛",
+            "value": "v.yj",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 4.0
+          },
+          {
+            "type": "range",
+            "title": "嘴巴",
+            "description": "改变玩家嘴巴",
+            "value": "v.zb",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 7.0
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏鞋子",
+            "description": "显示/隐藏鞋子",
+            "value": "v.xz"
+          },
+          {
+            "type": "checkbox",
+            "title": "隐藏丝袜",
+            "description": "显示/隐藏丝袜",
+            "value": "v.sw"
+          },
+          {
+            "type": "radio",
+            "title": "重置玩家大小",
+            "description": "",
+            "value": "0",
+            "labels": {
+              "点击重置": "v.player_root_size=0"
+            }
+          }
+        ]
+      },
+      {
+        "id": "自定义头部配置",
+        "name": "自定义头部配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "头部x轴旋转",
+            "description": "",
+            "value": "v.roaming_Head_x",
+            "step": 1.0,
+            "min": -90.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "头部y轴旋转",
+            "description": "",
+            "value": "v.roaming_Head_y",
+            "step": 1.0,
+            "min": -40.0,
+            "max": 40.0
+          },
+          {
+            "type": "range",
+            "title": "头部z轴旋转",
+            "description": "",
+            "value": "v.roaming_Head_z",
+            "step": 1.0,
+            "min": -75.0,
+            "max": 75.0
+          },
+          {
+            "type": "range",
+            "title": "头发x轴旋转",
+            "description": "",
+            "value": "v.roaming_Q_TF_x",
+            "step": 1.0,
+            "min": -90.0,
+            "max": 90.0
+          },
+          {
+            "type": "radio",
+            "title": "重置姿势",
+            "description": "",
+            "value": "0",
+            "labels": {
+              "点击重置": "v.roaming_Head_x=0;v.roaming_Head_y=0;v.roaming_Head_z=0;v.roaming_Q_TF_x=0"
+            }
+          }
+        ]
+      },
+      {
+        "id": "自定义左手配置",
+        "name": "自定义左手臂配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "左手上臂x轴旋转",
+            "description": "",
+            "value": "v.roaming_LeftArm_x",
+            "step": 1.0,
+            "min": -180.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "左手上臂y轴旋转",
+            "description": "",
+            "value": "v.roaming_LeftArm_y",
+            "step": 1.0,
+            "min": -90.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "左手上臂z轴旋转",
+            "description": "",
+            "value": "v.roaming_LeftArm_z",
+            "step": 1.0,
+            "min": -180.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "左手小臂x轴旋转",
+            "description": "",
+            "value": "v.roaming_LeftForeArm_x",
+            "step": 1.0,
+            "min": 0.0,
+            "max": -150.0
+          },
+          {
+            "type": "range",
+            "title": "左手小臂y轴旋转",
+            "description": "",
+            "value": "v.roaming_LeftForeArm_y",
+            "step": 1.0,
+            "min": -90.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "左手腕z轴旋转",
+            "description": "",
+            "value": "v.roaming_LeftHand_z",
+            "step": 1.0,
+            "min": -90.0,
+            "max": 90.0
+          },
+          {
+            "type": "radio",
+            "title": "重置左手",
+            "description": "",
+            "value": "0",
+            "labels": {
+              "点击重置": "v.roaming_LeftArm_x=0;v.roaming_LeftArm_y=0;v.roaming_LeftArm_z=0;v.roaming_LeftForeArm_x=0;v.roaming_LeftForeArm_y=0;v.roaming_LeftHand_z=0"
+            }
+          }
+        ]
+      },
+      {
+        "id": "自定义右手配置",
+        "name": "自定义右手配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "右手上臂x轴旋转",
+            "description": "",
+            "value": "v.roaming_RightArm_x",
+            "step": 1.0,
+            "min": -180.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "右手上臂y轴旋转",
+            "description": "",
+            "value": "v.roaming_RightArm_y",
+            "step": 1.0,
+            "min": -90.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "右手上臂z轴旋转",
+            "description": "",
+            "value": "v.roaming_RightArm_z",
+            "step": 1.0,
+            "min": -90.0,
+            "max": 180.0
+          },
+          {
+            "type": "range",
+            "title": "右手小臂x轴旋转",
+            "description": "",
+            "value": "v.roaming_RightForeArm_x",
+            "step": 1.0,
+            "min": 0.0,
+            "max": -150.0
+          },
+          {
+            "type": "range",
+            "title": "右手小臂y轴旋转",
+            "description": "",
+            "value": "v.roaming_RightForeArm_y",
+            "step": 1.0,
+            "min": -90.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "右手腕z轴旋转",
+            "description": "",
+            "value": "v.roaming_RightHand_z",
+            "step": 1.0,
+            "min": -90.0,
+            "max": 90.0
+          },
+          {
+            "type": "radio",
+            "title": "重置右手",
+            "description": "",
+            "value": "0",
+            "labels": {
+              "点击重置": "v.roaming_RightArm_x=0;v.roaming_RightArm_y=0;v.roaming_RightArm_z=0;v.roaming_RightForeArm_x=0;v.roaming_RightForeArm_y=0;v.roaming_RightHand_z=0"
+            }
+          }
+        ]
+      },
+      {
+        "id": "自定义左腿配置",
+        "name": "自定义左腿配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "左大腿x轴旋转",
+            "description": "",
+            "value": "v.roaming_LeftLeg_x",
+            "step": 1.0,
+            "min": -140.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "左大腿y轴旋转",
+            "description": "",
+            "value": "v.roaming_LeftLeg_y",
+            "step": 1.0,
+            "min": -90.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "左大腿z轴旋转",
+            "description": "",
+            "value": "v.roaming_LeftLeg_z",
+            "step": 1.0,
+            "min": -90.0,
+            "max": 20.0
+          },
+          {
+            "type": "range",
+            "title": "左小腿x轴旋转",
+            "description": "",
+            "value": "v.roaming_LeftLowerLeg_x",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 140.0
+          },
+          {
+            "type": "range",
+            "title": "左脚x轴旋转",
+            "description": "",
+            "value": "v.roaming_LeftFoot_x",
+            "step": 1.0,
+            "min": -25.0,
+            "max": 30.0
+          },
+          {
+            "type": "radio",
+            "title": "重置左腿",
+            "description": "",
+            "value": "0",
+            "labels": {
+              "点击重置": "v.roaming_LeftLeg_x=0;v.roaming_LeftLeg_y=0;v.roaming_LeftLeg_z=0;v.roaming_LeftLowerLeg_x=0;v.roaming_LeftFoot_x=0"
+            }
+          }
+        ]
+      },
+      {
+        "id": "自定义右腿配置",
+        "name": "自定义右腿配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "右大腿x轴旋转",
+            "description": "",
+            "value": "v.roaming_RightLeg_x",
+            "step": 1.0,
+            "min": -140.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "右大腿y轴旋转",
+            "description": "",
+            "value": "v.roaming_RightLeg_y",
+            "step": 1.0,
+            "min": -90.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "右大腿z轴旋转",
+            "description": "",
+            "value": "v.roaming_RightLeg_z",
+            "step": 1.0,
+            "min": -20.0,
+            "max": 90.0
+          },
+          {
+            "type": "range",
+            "title": "右小腿x轴旋转",
+            "description": "",
+            "value": "v.roaming_RightLowerleg_x",
+            "step": 1.0,
+            "min": 0.0,
+            "max": 140.0
+          },
+          {
+            "type": "range",
+            "title": "右脚x轴旋转",
+            "description": "",
+            "value": "v.roaming_RightFoot_x",
+            "step": 1.0,
+            "min": -25.0,
+            "max": 30.0
+          },
+          {
+            "type": "radio",
+            "title": "重置右腿",
+            "description": "",
+            "value": "0",
+            "labels": {
+              "点击重置": "v.roaming_RightLeg_x=0;v.roaming_RightLeg_y=0;v.roaming_RightLeg_z=0;v.roaming_RightLowerleg_x=0;v.roaming_RightFoot_x=0;"
+            }
+          }
+        ]
+      },
+      {
+        "id": "模型位置自定义配置",
+        "name": "模型位置自定义配置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "模型位置x轴偏移",
+            "description": "",
+            "value": "v.roaming_Root_gd_x",
+            "step": 1.0,
+            "min": -30.0,
+            "max": 30.0
+          },
+          {
+            "type": "range",
+            "title": "模型位置y轴偏移",
+            "description": "",
+            "value": "v.roaming_Root_gd_y",
+            "step": 1.0,
+            "min": -50.0,
+            "max": 50.0
+          },
+          {
+            "type": "range",
+            "title": "模型位置z轴偏移",
+            "description": "",
+            "value": "v.roaming_Root_gd_z",
+            "step": 1.0,
+            "min": -30.0,
+            "max": 30.0
+          },
+          {
+            "type": "range",
+            "title": "模型位置x轴旋转",
+            "description": "",
+            "value": "v.roaming_Root_xz_x",
+            "step": 1.0,
+            "min": -180.0,
+            "max": 180.0
+          },
+          {
+            "type": "range",
+            "title": "模型位置y轴旋转",
+            "description": "",
+            "value": "v.roaming_Root_xz_y",
+            "step": 1.0,
+            "min": -180.0,
+            "max": 180.0
+          },
+          {
+            "type": "range",
+            "title": "模型位置z轴旋转",
+            "description": "",
+            "value": "v.roaming_Root_xz_z",
+            "step": 1.0,
+            "min": -180.0,
+            "max": 180.0
+          },
+          {
+            "type": "radio",
+            "title": "重置位置",
+            "description": "",
+            "value": "0",
+            "labels": {
+              "点击重置": "v.roaming_Root_gd_x=0;v.roaming_Root_gd_y=0;v.roaming_Root_gd_z=0;v.roaming_Root_xz_x=0;v.roaming_Root_xz_y=0;v.roaming_Root_xz_z=0"
+            }
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "摸摸",
+        "extra_animation": {
+          "mt1": "摸摸1",
+          "mt2": "摸摸2",
+          "mt3": "摸摸3",
+          "mt4": "摸摸4"
+        }
+      },
+      {
+        "id": "默认动作",
+        "extra_animation": {
+          "extra1": "打招呼",
+          "extra2": "拍手",
+          "extra3": "赞成",
+          "extra4": "反对",
+          "extra5": "庆祝"
+        }
+      },
+      {
+        "id": "自定义姿势",
+        "extra_animation": {
+          "自定义头部空动画": "#自定义头部配置",
+          "自定义姿势": "自定义姿势",
+          "自定义左手空动画": "#自定义左手配置",
+          "自定义右手空动画": "#自定义右手配置",
+          "自定义左腿空动画": "#自定义左腿配置",
+          "自定义右腿空动画": "#自定义右腿配置",
+          "模型位置自定义空动画": "#模型位置自定义配置"
+        }
+      },
+      {
+        "id": "表情轮盘",
+        "extra_animation": {
+          "问号": "问号",
+          "生气": "生气",
+          "流汗": "流汗",
+          "惊讶": "惊讶"
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [
+        "controller/parallel_controllers.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 18,
+    "total_bytes": 3405920,
+    "sha256": "f5eb16cdb84e932d4d6abac402156271572cb6fa8aefccba1cb428800099a850",
+    "bones": 250,
+    "cubes": 1298,
+    "faces": 7788,
+    "textures": 1,
+    "materials": 1,
+    "animations": 8,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 218567,
+      "sha256": "7ded19c5182d1e9a1df4ba29d92d8e53b170a3b6547e5b3e920a42d8b04c12be"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 54018,
+      "sha256": "9f486e293ee6a99be2e89d2ce1a5c14818b76a30b5aa36329bcf018d78223958"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 330080,
+      "sha256": "4291f7ec8a77cf10fe0ec6814c66e7be97d76d1d0ca83a0014401dddaaa2a75f"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139812,
+      "sha256": "bd584a802e4171f67c6b3e65e71fb61319c125b4619a07616a87c446b3a0fb54"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1503488,
+      "sha256": "39da23aa526039a5897a28ec77a2c6399abb4daf63f0e4c001dde35e5e41d5c7"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 34600,
+      "sha256": "11a23d5d9830f9f9c2f346c4a7a44907ee4e9ecc41289beacf1bfd55c8e116f4"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 211627,
+      "sha256": "b0fe95754aa8acf68877c146e5ce1c2aa6130ef7c58e92b54d4e487078898e46"
+    },
+    {
+      "path": "avatar/烛火的次元宇宙.png",
+      "size": 29677,
+      "sha256": "f19c7d093a9d2a5c9af646b1825a168ab20e0c4e1f5c5acf8d78d088071e13a8"
+    },
+    {
+      "path": "controller/parallel_controllers.json",
+      "size": 7323,
+      "sha256": "83b5ee8ebe695139c7094dc5d3f6d7b657c1811c63955e10850e2bbc0cc395b0"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 72904,
+      "sha256": "9c5d722e7aa3d85a60c6c5e569862ccce88dc8e9a73cf0759e1653e376543647"
+    },
+    {
+      "path": "models/main.json",
+      "size": 653354,
+      "sha256": "24e9b72b00f8a55fbf40047a73e1e73e3087ed2eac36e39e8880f3b63eeeca4a"
+    },
+    {
+      "path": "sounds/1.ogg",
+      "size": 22961,
+      "sha256": "efae627c27d97779db9f767c67dcd5606ecc6b16cd90721d0376bf93345f66ca"
+    },
+    {
+      "path": "sounds/2.ogg",
+      "size": 28091,
+      "sha256": "1809a3eeafc40fbeb170e5fc7e7fff9428f4549a6f2c4d3bf161b18276eb8eaf"
+    },
+    {
+      "path": "sounds/3.ogg",
+      "size": 26286,
+      "sha256": "fffbcfcd49706cf49e0d404463fefd541072fef7a78747561b8c01c9bfb3f9e0"
+    },
+    {
+      "path": "sounds/4.ogg",
+      "size": 24356,
+      "sha256": "26ae50150ae47380ec2c6f880ec7ff783d257d3d867db2e232c29669d58fc497"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 37047,
+      "sha256": "ef962b53197fe309ed6c110161cbac966c95f37b25fdd171a52e38e15110a1d1"
+    },
+    {
+      "path": "ysm.json",
+      "size": 9486,
+      "sha256": "83f6ac56c375060bf52064dd1ea76acc7c84dfcca1fb532f84d3440700bfad0b"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "id": "长门",
+  "path": "parsed/长门",
+  "source": {
+    "path": "Unknown/长门.ysm",
+    "type": "ysm",
+    "stem": "长门"
+  },
+  "ysm": "parsed/长门/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/竹寂.png",
+        "comment": "",
+        "name": "竹寂",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "ALL Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "长门-神子的华服",
+    "tips": "碧蓝航线-长门-换装[神子的华服]"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "舞蹈",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "extra5": "加油",
+      "extra6": "舞蹈",
+      "extra7": "舞蹈"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "vehicles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/vehicle/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 3128820,
+    "sha256": "f13e5a91f1933dd39b4068ac8315429b4244843e8500dcbc08fc56bfb130ae4a",
+    "bones": 93,
+    "cubes": 374,
+    "faces": 2244,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 178402,
+      "sha256": "0891302683ba1b29e27c11e021be324544fa30a337f7eb4db55d0721d589d99f"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 109004,
+      "sha256": "ba1e5d1d0e30fc7cec4337358c630cf4f7c89f986f3a98b261c424bd3aecd477"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 174006,
+      "sha256": "b6d3f65582260e0dc1671c3af8372ed93d1da6ba6209e0cd7a2ce2e3bb5f7eb6"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "animations/vehicle/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "avatar/竹寂.png",
+      "size": 1914,
+      "sha256": "7752f608c9bdd03a21cbfcbe48bc44077b093079a7312890ed9f144c71e8b92b"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 17042,
+      "sha256": "fc4b034cceee7b76ed0ff2fa881e9b8aeb01b6a623e07b10af635ef9f46c797e"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13752,
+      "sha256": "3afa51fa99152b689875ef25ca5853f92d4ccd0e44caf11d5ef58aa5413ccfbe"
+    },
+    {
+      "path": "models/main.json",
+      "size": 187692,
+      "sha256": "573282a270387fb264f8349176903c1f58ad672a2f85a83cc5a0f7fb1d82d96f"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 854,
+      "sha256": "205e4da892496567b38d2d5fa9efa703c22e1c8e9ef2b0d7ecd32c5b0682fa3a"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 6314,
+      "sha256": "e2ef6d52b70eb4a053714551776b7a2bd909efc4c2569189c3453ca332357e08"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1445,
+      "sha256": "428a2ce3870402a05aa9571e5ac58fd4833b27444ead48fbfac2076e41d5a815"
+    }
+  ]
+}

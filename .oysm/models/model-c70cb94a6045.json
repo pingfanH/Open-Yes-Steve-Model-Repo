@@ -1,0 +1,213 @@
+{
+  "id": "东海帝皇",
+  "path": "parsed/东海帝皇",
+  "source": {
+    "path": "Unknown/东海帝皇.ysm",
+    "type": "ysm",
+    "stem": "东海帝皇"
+  },
+  "ysm": "parsed/东海帝皇/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/Zeonjin-旭门只玩驹.png",
+        "comment": "",
+        "contact": {
+          "B站": "Zoenjin-旭门只玩驹：uid183381720",
+          "QQ": "2479819954"
+        },
+        "name": "Zeonjin-旭门只玩驹",
+        "role": "模型；动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "name": "东海帝皇",
+    "tips": "关注作者b站 uid183381720 了解更多信息~"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "#extra_config",
+      "extra1": "",
+      "extra2": "",
+      "extra3": "",
+      "extra4": "",
+      "extra5": "",
+      "extra6": "",
+      "extra7": ""
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "0",
+        "config_forms": [
+          {
+            "type": "checkbox",
+            "title": "headdress/头饰",
+            "description": "Used to hide/show the red bow headdress (用来显示或开启玩家头饰)",
+            "value": "v.red_bow_headdress"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "idle",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        },
+        {
+          "uv": "textures/blue.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 3847723,
+    "sha256": "df5b11f5ee754afff784c81f7c8bbbe297c5a8b6363a4709ebb5e77bab640a28",
+    "bones": 276,
+    "cubes": 768,
+    "faces": 4608,
+    "textures": 2,
+    "materials": 2,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 179119,
+      "sha256": "97560b51f263597c332507d0dcc9f1b3b12ce4940f69d6f7486b02e104bbbcd5"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2243,
+      "sha256": "744e1c77a04d03738fcdf373d0ec0cb1db5f914b08e2f9a854e4d8f1eb0f8786"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 109004,
+      "sha256": "ba1e5d1d0e30fc7cec4337358c630cf4f7c89f986f3a98b261c424bd3aecd477"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 297918,
+      "sha256": "09e57b2addefa368384328f7d9beda2889f3b4e7f9e0493c4c3d703509a65b12"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023592,
+      "sha256": "20476811e51fd14bcc112e88b5dd5733f11b10df1b26e157082c9a2cfd70aa23"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 182207,
+      "sha256": "50913cc4af00ffb154ccc5c7ecabf9d2c63ee6609a669dec09166672498dc5d0"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50165,
+      "sha256": "2aa080892aef7bfa12857ca5466c2edfc63fdd1916b06071f5ee1de0dbbe9da7"
+    },
+    {
+      "path": "avatar/Zeonjin-旭门只玩驹.png",
+      "size": 29341,
+      "sha256": "9e25b07c2d2cdd326e898efc3fb65bbf6ed7ff5e80c0499c2874f1b8bc604352"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 2529,
+      "sha256": "d54c98ecdbc6eb05af5c21e2e6b170c84f4ab4b268a698a747d2e351c57b02b9"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 94565,
+      "sha256": "b623816b963c84ebef7e5131a686ed117f7a4877a0f29fd5a49ddd1adecf4d6b"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13725,
+      "sha256": "605fc04a716cfd12d30b5d6fb5d6db461504bd2f8da602fe078a4f57b4d71c71"
+    },
+    {
+      "path": "models/main.json",
+      "size": 584326,
+      "sha256": "c43d76d4c38e4990f0bf2068a6d88779890bf941cf04f44d678f16a6cd8c0348"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2686,
+      "sha256": "197669635bbf7b8cf8892b6912e428c92c66aac37ea2d3f1a174c9a04b2b64f6"
+    },
+    {
+      "path": "textures/blue.png",
+      "size": 45649,
+      "sha256": "793f73ccffa7628272adcef961ee552ecd282c3886e83ffbf691d9fd31846d36"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 48771,
+      "sha256": "a10b388557e1a9796a83a8f8b99da0886ac341fa44ce44630fe726c3aca08c9a"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1695,
+      "sha256": "a884f0951fb16ef6ed02be1e462ac7eb8ff517d45b98b74c485409a80260904c"
+    }
+  ]
+}

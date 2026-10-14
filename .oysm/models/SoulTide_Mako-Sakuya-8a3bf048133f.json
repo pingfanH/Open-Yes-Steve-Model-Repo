@@ -1,0 +1,137 @@
+{
+  "id": "SoulTide_Mako-Sakuya（无载具版）",
+  "path": "parsed/SoulTide_Mako-Sakuya（无载具版）",
+  "source": {
+    "path": "_SoulTide/SoulTide_Mako-Sakuya（无载具版）.ysm",
+    "type": "ysm",
+    "stem": "SoulTide_Mako-Sakuya（无载具版）"
+  },
+  "ysm": "parsed/SoulTide_Mako-Sakuya（无载具版）/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/红色幽默.png",
+        "comment": " 一个初学者，拥有对灵魂潮汐和mc的热爱",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/1839129371",
+          "email": "2017404367@qq.com",
+          "qq": "2017404367"
+        },
+        "name": "红色幽默",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "name": "朔耶真子（无载具版）",
+    "tips": "性格单纯的神明少女，实际上是灾厄的化身。\n人前摆出神明的架子，无人时行为率真直爽。内心孤独自卑，渴望交友却又总是失败。长期宅在神社里，渴望融入人类社会。\n出自游戏《灵魂潮汐》"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "TPose": "#模型设置",
+      "extra1": "挥手",
+      "extra3": "点头",
+      "extra4": "摇头"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "模型设置",
+        "name": "模型设置",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "穿脱羽织的程度",
+            "description": "控制穿脱羽织的程度",
+            "value": "v.roaming.haori",
+            "labels": {
+              "全脱": "v.roaming.haori=0;",
+              "半脱": "v.roaming.haori=1;",
+              "穿上": "v.roaming.haori=2;"
+            }
+          },
+          {
+            "type": "狸猫开关",
+            "title": "开关狸猫的显示",
+            "description": "用来开关狸猫是否显示",
+            "value": "v.roaming.tanuki"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "default_texture": "texture",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 6,
+    "total_bytes": 391190,
+    "sha256": "60ea0c821603172cc642fb9f79ad0e78038f01f72eec61f16f0424d8545a0f06",
+    "bones": 96,
+    "cubes": 316,
+    "faces": 1896,
+    "textures": 1,
+    "materials": 1,
+    "animations": 1,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/main.animation.json",
+      "size": 211638,
+      "sha256": "e7fa3354946ad46075c0d638f508bcff62e9c7e43f24d127bd782614bf02ec62"
+    },
+    {
+      "path": "avatar/红色幽默.png",
+      "size": 1790,
+      "sha256": "311d0bea54450e16445d8560ee7424715443cf91a1c8d15c2ee3d124f59c0622"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 11038,
+      "sha256": "67aba071c6014b513847f68f01f367e54744a21de8f71e4b895af22523368031"
+    },
+    {
+      "path": "models/main.json",
+      "size": 161218,
+      "sha256": "069db31f083185e07ab1f2e0a1110f948a2854736f94e8cb55918b597eb1a499"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 3868,
+      "sha256": "5ea8a51eb1605e3564d5601be39384d5499744b6c3ba4134b3e7fdc222a0aa8b"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1638,
+      "sha256": "436b808afbf4c4d285cc96e77918118811d4d0daf460b94848b9f5978a63e169"
+    }
+  ]
+}

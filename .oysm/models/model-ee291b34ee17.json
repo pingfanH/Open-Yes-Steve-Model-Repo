@@ -1,0 +1,190 @@
+{
+  "id": "_白蛤蜊",
+  "path": "parsed/_白蛤蜊",
+  "source": {
+    "path": "Uncategorized/_白蛤蜊.ysm",
+    "type": "ysm",
+    "stem": "_白蛤蜊"
+  },
+  "ysm": "parsed/_白蛤蜊/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/白蛤蜊.png",
+        "comment": "MC皮肤作者，模型作者，VTB个人势",
+        "contact": {
+          "Afdian": "https://afdian.com/a/whiteclams",
+          "Bilibili": "https://space.bilibili.com/168185637?spm_id_from=333.1007.0.0"
+        },
+        "name": "白蛤蜊",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "作者仅在网易，B站，爱发电发布。",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/whiteclams",
+      "home": "https://space.bilibili.com/168185637"
+    },
+    "name": "白蛤蜊·格利尔",
+    "tips": "未知年岁的一位魔女，喜好各种稀奇物件。\n  此服饰为衣柜中的一套汉洋折衷款式，外套为明代比甲，腰带为明代玉带，红色为皇家款式，些许是用了些魔法偷来的，如此牙牌也是偷的。（皆为大明款型不是李朝鲜服饰）下裙为衤旋子,短款马面裙，为男子劳作裙或文人仿古着装。 内衬为立领对襟。然这位魔女自己修改了整体服装融合了些粉嫩洛可可风。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "§4圆框镜",
+      "extra1": "§4坐",
+      "extra2": "§4箭囊切换",
+      "extra3": "§4猫耳meow",
+      "extra4": "§6腰刀切换",
+      "extra5": "§6喝茶",
+      "extra6": "§4波奈特切换",
+      "extra7": "§d萌§c萌§4摇",
+      "extra8": "§c耍酷",
+      "extra9": "§2气鼓鼓"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "skin",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/skin.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 17,
+    "total_bytes": 4424834,
+    "sha256": "9e0bd9fec57ce24cfc4e32903c34e5c07dc7cf68b2ce5737f1be795c2e7327eb",
+    "bones": 740,
+    "cubes": 3412,
+    "faces": 20472,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136510,
+      "sha256": "76092afda4edbe80209927056b247c4db312854db16624fd84c62657beea3769"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 1138,
+      "sha256": "6ef6791b2b391fc30bb2f74f26eb09de94e2a382c535202f5d736eb89d37577d"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2749,
+      "sha256": "086012694a4a539651427f13153cbd5613b76de4b1190e3e6d78a59d33f37de5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 45034,
+      "sha256": "a44c9817c94627374e524f263f3c3a1d7952ef29730144c0e6ea0095d39ab134"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 189663,
+      "sha256": "fca8339659af9461dc78d821f08e5eacf2463bf1819388407580fd42e2a8e717"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 136037,
+      "sha256": "67b18d2728dcee1706286de0c6fe6ea52f21941b09b28d0294fdda5c7f3fc669"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 1591400,
+      "sha256": "592621622591ad62e1143f8a5be9ed5e6a7070bb24a53f5490bfce6e037001a3"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 156238,
+      "sha256": "bdb7794789d9b7fb7f397de44256340e26e71efd4fff56ab599a081ab9c8ee11"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 15995,
+      "sha256": "870a43d042fd29f692e24d7ec095c63ba88cc3d5dad11a2ca98ebcf2ddc5b5cd"
+    },
+    {
+      "path": "avatar/白蛤蜊.png",
+      "size": 35928,
+      "sha256": "c0a4d99ab3040e14747d9e3bcb79a0639ecf6a8f7c165d8cfb83598c40e18d18"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 156176,
+      "sha256": "9a6d92bcb66d395c8803d2e8c58495afc7b0956e492512222cd0937f4a97e636"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 12756,
+      "sha256": "1511e118f5ee2bb896ace5522be278db6cd53e29d358b970b9ec6e853ce98433"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1780888,
+      "sha256": "7d6b162dc34942345e10407c5c11c6e8fed03b2ca29753b2d1c3df8e3b604402"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 54850,
+      "sha256": "e96a58df75bb275ec29b9477ea316cd307a7066797c3b84475c7e3ef2c4bc7e6"
+    },
+    {
+      "path": "textures/skin.png",
+      "size": 67464,
+      "sha256": "734ac14d99f0a6ef9b512aecd7e655969b075dcd5547956f75590aacb434e57b"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2157,
+      "sha256": "6a7860cc30d28d2492b855fdf2a7ae2e81e24dc5c521016730ee337ca330023d"
+    }
+  ]
+}

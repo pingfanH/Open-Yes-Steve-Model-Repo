@@ -1,0 +1,154 @@
+{
+  "id": "_园丁等风来",
+  "path": "parsed/_园丁等风来",
+  "source": {
+    "path": "Unknown/_园丁等风来.ysm",
+    "type": "ysm",
+    "stem": "_园丁等风来"
+  },
+  "ysm": "parsed/_园丁等风来/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/红鼠.png",
+        "comment": "",
+        "name": "红鼠",
+        "role": "模型"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC 0"
+    },
+    "name": "园丁-等风来",
+    "tips": "小蒲公英也曾是天空的子民，坠入尘埃后，等不到晚风的来信。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra0": "默认跳舞",
+      "extra1": "默认招手",
+      "extra2": "默认拍手背",
+      "extra3": "默认点头",
+      "extra4": "默认摇头",
+      "extra5": "默认好耶",
+      "extra6": "默认摆手舞",
+      "extra7": "挠头",
+      "extra8": "显示/隐藏蒲公英环绕",
+      "extra9": "显示/隐藏帽子",
+      "extra10": "指指点点",
+      "extra11": "显示/隐藏雀斑",
+      "extra12": "显示、隐藏蒲公英尾巴",
+      "extra13": "显示、隐藏蒲公英耳朵",
+      "extra14": "飞往何方？",
+      "extra15": "坐下"
+    },
+    "extra_animation_classify": [],
+    "default_texture": "default",
+    "preview_animation": "await",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 12,
+    "total_bytes": 1602376,
+    "sha256": "7d73c32523e915b2e8ecafebaa38b2539115865dc70a84f3f0173cdac685844c",
+    "bones": 426,
+    "cubes": 1211,
+    "faces": 7266,
+    "textures": 1,
+    "materials": 1,
+    "animations": 7,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 136637,
+      "sha256": "f795d670b8e2553548348161425e21c7a8f4c2b78d4602d33c8ccc1f03f537b3"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2674,
+      "sha256": "9e67b574557ce82914be161806464af8c2460bc5b4683556aa4a11ed97de93b6"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 67033,
+      "sha256": "426a2763113aca16dd37a40288f4c8514ea823dd726ee0b504b271a6d1ad6203"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 269264,
+      "sha256": "b1c6880855f8343f6c33547e3591bdd11381f20111219587c1e7435221ffce3a"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 132742,
+      "sha256": "41694c051f9d36e7a2431bd9732f42680e1ac0ae2ffae641079b05f348dae18f"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 183794,
+      "sha256": "7c9bcefad7fb10cf3ce2aa379d69f7fdee7da950a7c7ab9e351ead1fa7904976"
+    },
+    {
+      "path": "avatar/红鼠.png",
+      "size": 8055,
+      "sha256": "c6b5094db5aa170c0aa22d3087c745a099569df6bed08e5d1b35fee5486253d4"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 63094,
+      "sha256": "abffeb78b635b2f8ad8da8fc9fb6e1deba71b657fb6faebc7916ec486e7aa5e9"
+    },
+    {
+      "path": "models/main.json",
+      "size": 629759,
+      "sha256": "e4ed5d385136083dbcc98544c10e5d8a6c511efa15b583f4764d80103ab80e11"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 68050,
+      "sha256": "3b2fa98c7580ea7b994df4b518d2148eddc3e32bb30b6b3b63b89a793ae1b5c4"
+    },
+    {
+      "path": "ysm.json",
+      "size": 1423,
+      "sha256": "2e2debb550ec0f77b04eb07e6c9e4cf4f251c3576bafaa2a8f710368fc1da2d2"
+    }
+  ]
+}

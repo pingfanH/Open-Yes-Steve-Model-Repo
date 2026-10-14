@@ -1,0 +1,277 @@
+{
+  "id": "艾莲乔",
+  "path": "parsed/艾莲乔",
+  "source": {
+    "path": "Unknown/艾莲乔.ysm",
+    "type": "ysm",
+    "stem": "艾莲乔"
+  },
+  "ysm": "parsed/艾莲乔/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/§c寒叔.png",
+        "comment": "§7烧脑ing",
+        "contact": {
+          "Afdian": "§6爱发电搜索“烈鸟比百”",
+          "Bilibili": "§6B站搜索“寒叔hs”"
+        },
+        "name": "§c寒叔",
+        "role": "§6模型"
+      },
+      {
+        "avatar": "avatar/§c烈鸟比百.png",
+        "comment": "§7啦啦啦~",
+        "contact": {
+          "Afdian": "§6爱发电搜索“烈鸟比百”",
+          "Bilibili": "§6B站搜索“烈鸟比百”"
+        },
+        "name": "§c烈鸟比百",
+        "role": "§6动画"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/Aigoblin?tab=shop",
+      "home": "https://space.bilibili.com/20510758?spm_id_from=333.1007.0.0"
+    },
+    "name": "§4艾莲.乔",
+    "tips": "§7我耐心不太好,应该表现得很明显了.\n\n§c功能描述:\n§6- 剑类皮肤 \n§6- 三套服装 \n§6- 服装可脱 "
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "pokedance": "pokedance",
+      "埃及摇": "埃及摇",
+      "猫猫摇": "可爱摇",
+      "穿脱丝袜": "穿脱丝袜",
+      "用前扭一扭": "扭扭乐",
+      "剪香肠": "剪香肠",
+      "摇摇乐": "波涛汹涌",
+      "玉足": "玉足",
+      "转身": "转身",
+      "害羞": "害羞",
+      "变身": "切换服装",
+      "猫耳": "猫耳",
+      "穿脱鞋子": "穿脱鞋子",
+      "穿脱发饰": "穿脱发饰",
+      "切换脸型": "切换脸型",
+      "穿脱外衣": "穿脱外衣",
+      "Doddle摇": "Doddle摇",
+      "晚安大小姐": "晚安大小姐",
+      "立绘poss": "立绘poss",
+      "extra1": "#模型调整"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "模型调整",
+        "name": "§6模型调整\n§7Model adjustment",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "§6身高§7height",
+            "description": "§6对模型体型进行调整\n§7Adjust the model's body shape",
+            "value": "v.dx",
+            "step": 0.05,
+            "min": 0.85,
+            "max": 1.2
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "preview_animation": "idle",
+    "free": false,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": false,
+    "gui_no_lighting": false
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        {
+          "uv": "textures/texture.png"
+        }
+      ]
+    },
+    "vehicles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {
+    "en_us": {
+      "properties.extra_animation.立绘poss": "立绘poss",
+      "files.player.texture.skin": "默认",
+      "metadata.name": "§4Ellen Joe",
+      "metadata.authors.0.comment": "Brain burning",
+      "properties.extra_animation_buttons.config.config_forms.0.title": "Model adjustment",
+      "metadata.authors.0.name": "§cFrosty Uncle",
+      "metadata.authors.0.role": "§6model",
+      "properties.extra_animation.穿脱丝袜": "Stockings",
+      "properties.extra_animation.切换脸型": "face",
+      "metadata.authors.1.comment": "lalala~",
+      "metadata.authors.1.name": "§cMylene Flamenco",
+      "metadata.authors.1.role": "§6animation",
+      "metadata.tips": "§7I'm not very patient, I should have shown it clearly.\n\n§cFunctional Description:\n§6- Sword skins \n§6- Three sets of clothing\n§6- Detachable clothing ",
+      "properties.extra_animation.Doddle摇": "Doddle摇",
+      "properties.extra_animation.pokedance": "pokedance",
+      "properties.extra_animation.剪香肠": "Sausage",
+      "properties.extra_animation.变身": "Outfit change",
+      "properties.extra_animation.穿脱外衣": "Coat",
+      "properties.extra_animation.可爱摇": "cute",
+      "properties.extra_animation.埃及摇": "dance",
+      "properties.extra_animation.害羞": "Shy",
+      "properties.extra_animation.摇摇乐": "Wave",
+      "properties.extra_animation.晚安大小姐": "dance",
+      "properties.extra_animation.猫耳": "cat",
+      "properties.extra_animation.玉足": "Foot",
+      "properties.extra_animation.用前扭一扭": "dance",
+      "properties.extra_animation.穿脱发饰": "Headwear",
+      "properties.extra_animation.穿脱鞋子": "Shoes",
+      "properties.extra_animation.转身": "Turn around",
+      "properties.extra_animation_buttons.config.config_forms.0.description": "Adjust the model's body shape"
+    },
+    "zh_cn": {
+      "properties.extra_animation.立绘poss": "立绘poss",
+      "files.player.texture.skin": "默认",
+      "metadata.name": "§4艾莲.乔",
+      "metadata.authors.0.comment": "烧脑ing",
+      "properties.extra_animation_buttons.config.config_forms.0.title": "模型调整",
+      "metadata.authors.0.name": "§c寒叔",
+      "metadata.authors.0.role": "§6模型",
+      "properties.extra_animation.穿脱丝袜": "穿脱丝袜",
+      "properties.extra_animation.切换脸型": "切换脸型",
+      "metadata.authors.1.comment": "啦啦啦~",
+      "metadata.authors.1.name": "§c烈鸟比百",
+      "metadata.authors.1.role": "§6动画",
+      "metadata.tips": "§7我耐心不太好,应该表现得很明显了.\n\n§c功能描述:\n§6- 剑类皮肤 \n§6- 三套服装\n§6- 服装可脱 ",
+      "properties.extra_animation.Doddle摇": "Doddle摇",
+      "properties.extra_animation.pokedance": "pokedance",
+      "properties.extra_animation.剪香肠": "剪香肠",
+      "properties.extra_animation.变身": "切换服装",
+      "properties.extra_animation.穿脱外衣": "穿脱外衣",
+      "properties.extra_animation.可爱摇": "可爱摇",
+      "properties.extra_animation.埃及摇": "埃及摇",
+      "properties.extra_animation.害羞": "害羞",
+      "properties.extra_animation.摇摇乐": "波涛汹涌",
+      "properties.extra_animation.晚安大小姐": "晚安大小姐",
+      "properties.extra_animation.猫耳": "猫耳",
+      "properties.extra_animation.玉足": "玉足",
+      "properties.extra_animation.用前扭一扭": "扭扭乐",
+      "properties.extra_animation.穿脱发饰": "穿脱发饰",
+      "properties.extra_animation.穿脱鞋子": "穿脱鞋子",
+      "properties.extra_animation.转身": "转身",
+      "properties.extra_animation_buttons.config.config_forms.0.description": "对模型体型进行调整"
+    }
+  },
+  "preview": {},
+  "stats": {
+    "file_count": 15,
+    "total_bytes": 8065742,
+    "sha256": "d48213bee1e2da78109e5ffdec5088971f8e5d6bfb6bc60a6f68d1d282081e5d",
+    "bones": 291,
+    "cubes": 3846,
+    "faces": 23067,
+    "textures": 1,
+    "materials": 1,
+    "animations": 5,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 31366,
+      "sha256": "5112e99718a0964592490f2e6a880693fb483f5f4c6c01bc223acdb49655f15d"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 2675,
+      "sha256": "6e8d3afe0c3baafff8f7f3e0e30ef3c621c667be5c346af73398f5fd3cb89ca5"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 5120819,
+      "sha256": "a26d22f1b98984d4b94fade5ab71e16878c9ed3348d009417f687dfa077c401f"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 496156,
+      "sha256": "7f4d9c19f642bdfeebb5384f32bdcc0625e5819ed73d9778f5ecb676330ecc69"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 180420,
+      "sha256": "8ce02961247676bd9c97ca99776414edf4c2dc50d9e20326a06da3d5ee9cd792"
+    },
+    {
+      "path": "avatar/§c寒叔.png",
+      "size": 5876,
+      "sha256": "8ae8e7cec9eaf7c54745220e568569e282b7ef3b89814fe45f837af8ad25e41e"
+    },
+    {
+      "path": "avatar/§c烈鸟比百.png",
+      "size": 6277,
+      "sha256": "d4ea2ee189d370af015a40915fbb7e53f3ba05eed5c182aaaa400d065551aa18"
+    },
+    {
+      "path": "lang/en_us.json",
+      "size": 1622,
+      "sha256": "05f38c7a1b51b66e0f185b1f1630be00f7f8c1ea9a70558b42fb5bc3d199f5a3"
+    },
+    {
+      "path": "lang/zh_cn.json",
+      "size": 1638,
+      "sha256": "7b0e664447a0fe96ab3766e3973ef3cca90064bbc3b6b5d818da728a84469ef9"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 193459,
+      "sha256": "b95962c4224ba89da85f277795d7f9ae319c44aefda7f2df304ada20c0fdaf69"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13423,
+      "sha256": "7e605f03efbf09f910136dd6d7428b3b57d416be110ef51c153d96e8c7dc686e"
+    },
+    {
+      "path": "models/main.json",
+      "size": 1969886,
+      "sha256": "6a526d82abab8ff1132223d4d6862da571673b09044b07792a36cec1233e8564"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 276,
+      "sha256": "404ffe046ed5a44839d5ca9cbcfa034fd4757f00cb77f8e370d79f979a5e86c6"
+    },
+    {
+      "path": "textures/texture.png",
+      "size": 39568,
+      "sha256": "40ec5572592807618700105f5bb7b7c10f1f0f1c43290f3c2f1058c240389d42"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2281,
+      "sha256": "689c778bb0d68adf4bf663f302dd27eab0db574bbac7cfd52af82b583b432403"
+    }
+  ]
+}

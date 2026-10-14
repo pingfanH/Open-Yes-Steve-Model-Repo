@@ -1,0 +1,257 @@
+{
+  "id": "乌尔比安",
+  "path": "parsed/乌尔比安",
+  "source": {
+    "path": "Unknown/乌尔比安.ysm",
+    "type": "ysm",
+    "stem": "乌尔比安"
+  },
+  "ysm": "parsed/乌尔比安/ysm.json",
+  "metadata": {
+    "authors": [
+      {
+        "avatar": "avatar/荧光蘑菇鱼.png",
+        "comment": "ysm初学者",
+        "contact": {
+          "bilibili": "https://space.bilibili.com/3546977392396430"
+        },
+        "name": "荧光蘑菇鱼",
+        "role": "模型 动作"
+      },
+      {
+        "avatar": "avatar/MicroCraft.png",
+        "comment": "只是一个准程序猿",
+        "contact": {
+          "bilibili": "https://space.bilibili.com/701974112"
+        },
+        "name": "MicroCraft",
+        "role": "物理参考"
+      }
+    ],
+    "license": {
+      "desc": "",
+      "type": "All Rights Reserved"
+    },
+    "link": {
+      "donate": "https://afdian.com/a/ysmmod",
+      "home": "https://modrinth.com/mod/yes-steve-model"
+    },
+    "name": "乌尔比安",
+    "tips": "又见面了。本次联络被强加上这样的形式，是罗德岛的安排，还是你想要确认，我的自我认知是否已经改变......深海猎人，乌尔比安。"
+  },
+  "properties": {
+    "width_scale": 0.7,
+    "height_scale": 0.7,
+    "extra_animation": {
+      "extra7": "#extra_config",
+      "extra1": "打招呼",
+      "extra2": "鼓掌",
+      "extra3": "赞同",
+      "extra4": "不赞同",
+      "extra5": "欢呼",
+      "extra6": "坐",
+      "extra0": "立绘"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "Simple Config",
+        "config_forms": [
+          {
+            "type": "radio",
+            "title": "脸",
+            "description": "脸",
+            "value": "v.roaming.tt??0",
+            "labels": {
+              "正常": "v.roaming.tt=0",
+              "阴沉": "v.roaming.tt=1"
+            }
+          },
+          {
+            "type": "radio",
+            "title": "眼",
+            "description": "眼",
+            "value": "v.roaming.Eyes??0",
+            "labels": {
+              "正常": "v.roaming.Eyes=0",
+              "闭眼": "v.roaming.Eyes=1"
+            }
+          },
+          {
+            "type": "checkbox",
+            "title": "高光",
+            "description": "高光",
+            "value": "v.vroaming.gg"
+          },
+          {
+            "type": "checkbox",
+            "title": "绿字",
+            "description": "孩子们，有高频低伤",
+            "value": "v.vroaming.lz"
+          }
+        ]
+      }
+    ],
+    "extra_animation_classify": [
+      {
+        "id": "extra_classify",
+        "extra_animation": {
+          "extra0": "Extra In Classify 1",
+          "extra1": "Extra In Classify 2",
+          "": ""
+        }
+      }
+    ],
+    "default_texture": "default",
+    "preview_animation": "gui",
+    "free": true,
+    "render_layers_first": false,
+    "all_cutout": false,
+    "disable_preview_rotation": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/main.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [
+        "controller/controller.json"
+      ],
+      "texture": [
+        {
+          "uv": "textures/default.png"
+        }
+      ]
+    },
+    "projectiles": {
+      "arrow": {
+        "model": "models/arrow.json",
+        "animation": "animations/arrow.animation.json",
+        "texture": "textures/arrow.png"
+      }
+    }
+  },
+  "languages": {},
+  "preview": {},
+  "stats": {
+    "file_count": 19,
+    "total_bytes": 3797931,
+    "sha256": "a4e12ce5513d11eac11eda2a2a9cb7769469a0e194c7c1c0b58049f90aff3499",
+    "bones": 297,
+    "cubes": 1100,
+    "faces": 6600,
+    "textures": 1,
+    "materials": 1,
+    "animations": 9,
+    "model_files": 2
+  },
+  "file_manifest": [
+    {
+      "path": "animations/arm.animation.json",
+      "size": 222482,
+      "sha256": "69cca23bf51d2d375e36d0d5cbda65bfee688faaf7fe223aeccae2183dc24cb4"
+    },
+    {
+      "path": "animations/arrow.animation.json",
+      "size": 466,
+      "sha256": "26e0873e91b77509b559aaaaedabf6af7cda48b0636b7d95573c49d6102065fa"
+    },
+    {
+      "path": "animations/carryon.animation.json",
+      "size": 3365,
+      "sha256": "a15a9856456cd90c35edb6752106546ad86804d44a4f6bb94d4640c29e5614e3"
+    },
+    {
+      "path": "animations/extra.animation.json",
+      "size": 100710,
+      "sha256": "fd45958becf9c9e560ccbc73a2b58c191c4bbf98567b06488fe6f1e99c2a9906"
+    },
+    {
+      "path": "animations/main.animation.json",
+      "size": 222151,
+      "sha256": "de214c2cacaf6ae50dea0ca8cb0a5295fbc746a893202523d67439f6167e81a3"
+    },
+    {
+      "path": "animations/parcool.animation.json",
+      "size": 139871,
+      "sha256": "29fa8517bbb3bbaa3d36922ec8ef988cbf551e9fda023bb6ed2b952b5e1f96cf"
+    },
+    {
+      "path": "animations/slashblade.animation.json",
+      "size": 2023632,
+      "sha256": "a78f4e85d312089a9acee4b26e478725b96889e19a4f054f2b6488a75020c117"
+    },
+    {
+      "path": "animations/swem.animation.json",
+      "size": 39851,
+      "sha256": "34363af6c345d5c8427de40406d33ebbc1adf59300fdce92f3ebca9fb68ab904"
+    },
+    {
+      "path": "animations/tac.animation.json",
+      "size": 184555,
+      "sha256": "55703a0a0acc3e39951636dce1283d0c439a2a4f53ba08649ca90660b66e2f51"
+    },
+    {
+      "path": "animations/tlm.animation.json",
+      "size": 50777,
+      "sha256": "8223cfd0bc9a80b6166a1d8cf87469386aa46a2b48d05969b8fb23f2af3625a8"
+    },
+    {
+      "path": "avatar/MicroCraft.png",
+      "size": 29256,
+      "sha256": "e6f4a7f34e222cc1b07850e8ed87c956065df27b9120e6eb36826d649dee5a5d"
+    },
+    {
+      "path": "avatar/荧光蘑菇鱼.png",
+      "size": 29399,
+      "sha256": "40c3ef7d410a08636f67f154d0eb54e6e90b1fc80f51e756bc9aa65c32c85442"
+    },
+    {
+      "path": "controller/controller.json",
+      "size": 2057,
+      "sha256": "8c41dc8e2ca6c393ec60678b75eb87a7513c64ecbb1f027fa8f6fba93788433b"
+    },
+    {
+      "path": "models/arm.json",
+      "size": 19843,
+      "sha256": "386f849c11624d8c96267dec492accca0fcccd8bc7fc6eb74b66d3aa1f32ada4"
+    },
+    {
+      "path": "models/arrow.json",
+      "size": 13725,
+      "sha256": "605fc04a716cfd12d30b5d6fb5d6db461504bd2f8da602fe078a4f57b4d71c71"
+    },
+    {
+      "path": "models/main.json",
+      "size": 602384,
+      "sha256": "f8b5ecf0918149d511ec8c84ccf97cc05173a1cf98ea458e1f4a74032d76f4b2"
+    },
+    {
+      "path": "textures/arrow.png",
+      "size": 2686,
+      "sha256": "197669635bbf7b8cf8892b6912e428c92c66aac37ea2d3f1a174c9a04b2b64f6"
+    },
+    {
+      "path": "textures/default.png",
+      "size": 108190,
+      "sha256": "9ba8469496b2d620fa4396ac33dbe13e0bea7420e7bd54e05c88580b14728f2b"
+    },
+    {
+      "path": "ysm.json",
+      "size": 2531,
+      "sha256": "4e2a76bec345618f8f6091e96bd0981d94f083aecc44937b2f08ddc9da71d6b2"
+    }
+  ]
+}
